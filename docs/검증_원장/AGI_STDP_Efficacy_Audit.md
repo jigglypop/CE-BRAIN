@@ -40,12 +40,12 @@ seeds `1..7`이다. STDP off/on은 같은 초기 가중치, 입력열, 강제 WA
 
 | 측정량 | on - off | 좋은 방향 | 판정 |
 |---|---:|---|---|
-| next-step prediction improvement | \(-0.38330 \pm 0.49436\) | 양수 | `NO-EFFECT` |
-| prediction-error slope | \(+0.00172 \pm 0.00282\) | 음수 | 개선 없음 |
-| held-out guard error | \(+0.34797 \pm 0.06621\) | \(0.02\) 이하 | `FAIL` |
+| next-step prediction improvement | $-0.38330 \pm 0.49436$ | 양수 | `NO-EFFECT` |
+| prediction-error slope | $+0.00172 \pm 0.00282$ | 음수 | 개선 없음 |
+| held-out guard error | $+0.34797 \pm 0.06621$ | $0.02$ 이하 | `FAIL` |
 
-STDP-on run은 seed마다 60회 갱신되었고 가중치 drift도 약 \(5.56\)에서
-\(5.65\)로 명확했다. 따라서 실패 원인은 “업데이트가 전혀 일어나지 않음”이
+STDP-on run은 seed마다 60회 갱신되었고 가중치 drift도 약 $5.56$에서
+$5.65$로 명확했다. 따라서 실패 원인은 “업데이트가 전혀 일어나지 않음”이
 아니다. 현재 규칙이 학습 스트림에 맞춰 가중치를 크게 움직이지만, 그 변화가
 일관된 다음 상태 예측 개선이나 held-out 일반화로 이어지지 않는 것이 핵심이다.
 
@@ -55,13 +55,13 @@ STDP-on run은 seed마다 60회 갱신되었고 가중치 drift도 약 \(5.56\)�
 
 | 진단 | 결과 | 해석 |
 |---|---:|---|
-| gate 양/음 횟수 | \(39/21\) | gate가 상수나 dead signal은 아님 |
-| critic의 weight 상대 민감도 | 약 \(1.9\%\) | critic 자체는 \(W\)에 약하게만 제어됨 |
-| 구조 투영 후 update 보존율 | 평균 \(0.510\) | 투영이 update를 절반가량 남기며 완전히 지우지는 않음 |
-| critic 기반 hyperparameter sweep | \(+0.0196\)에서 \(+0.0399\) | critic의 \(W\) 민감도가 낮아 효능 근거로 사용 불가 |
+| gate 양/음 횟수 | $39/21$ | gate가 상수나 dead signal은 아님 |
+| critic의 weight 상대 민감도 | 약 $1.9\%$ | critic 자체는 $W$에 약하게만 제어됨 |
+| 구조 투영 후 update 보존율 | 평균 $0.510$ | 투영이 update를 절반가량 남기며 완전히 지우지는 않음 |
+| critic 기반 hyperparameter sweep | $+0.0196$에서 $+0.0399$ | critic의 $W$ 민감도가 낮아 효능 근거로 사용 불가 |
 
 critic score는 일부 항이 소뇌 전방 모델에 의존하고 현재 벤치에서 novelty가
-dead이므로, 효능 판정은 critic score가 아니라 \(W\)가 직접 제어하는
+dead이므로, 효능 판정은 critic score가 아니라 $W$가 직접 제어하는
 next-step prediction error를 사용한다. 따라서 위 hyperparameter sweep은
 진단 기록일 뿐, 양의 평균만으로 STDP를 승격하는 근거가 아니다.
 

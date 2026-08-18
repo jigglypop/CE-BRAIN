@@ -1168,17 +1168,17 @@ WEAK LOCAL TEMPORAL FEATURE:    SUPPORTED / AML32 7 of 7 at h=1 and h=6
 - `23_Graph_Dynamics_Loop.md`: directed graph, AML310 0/4
 - `24_Manifold_Diffusion_Loop.md`: diffusion, AML310 최대 1/4
 - `25_Local_Temporal_Memory_Confirmation.md`: local temporal memory,
-  untouched AML32에서 \(h=1\) 7/7 및 \(h=6\) 7/7
+  untouched AML32에서 $h=1$ 7/7 및 $h=6$ 7/7
 
 따라서 원래 CloudCell 명제는 두 부분으로 분해된다.
 
-\[
+$$
 \underbrace{\text{뉴런 측정 신호가 시간적 local state를 가진다}}
 _{\text{확인 패널에서 지지}}
 \quad\not\Rightarrow\quad
 \underbrace{\text{뉴런이 coded monadic CloudCell이다}}
 _{\text{현재 미증명}}.
-\]
+$$
 
 AGI에 의미 있는 최소 가정은 local temporal-history/state feature이며,
 population cloud, graph, diffusion은 이번 자료에서 그 위의 필수 구조로
