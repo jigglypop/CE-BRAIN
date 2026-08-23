@@ -15,7 +15,6 @@
 | 주장·상수·판본·진리값 원장 작성·수정 | $ce-ledger-write + ce-ledger-writer |
 | 강의·유도·독자 가이드·논문 원고 작성·수정 | $ce-paper-write + ce-paper-writer |
 | 문서 유형 판별·공통 지위 규약 확인 | $ce-doc-write (라우터) |
-| guard 벤치·ASR·회귀 | $clarus-guard-bench |
 | 신규 주장 검증·승격 판단·논문화·병렬 연구 | $ce-research (full) |
 | 완결 run의 후속·반복 (v8→v9 등) | $ce-research (light, PREDECESSOR 지정) |
 | `.codex` 하네스·스킬·역할 카드·실행 정책 수정 | run 없이 대상 파일만 최소 수정 (spot) |

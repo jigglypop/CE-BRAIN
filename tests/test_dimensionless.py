@@ -255,16 +255,13 @@ def test_checker_preserves_mass_squared_and_composes_back_to_mass() -> None:
 
 
 @requires_sympy
-def test_registered_rate_and_magnetic_field_have_nontrivial_dimensions() -> None:
+def test_registered_rate_has_nontrivial_dimensions() -> None:
     formulas = {formula.name: formula for formula in DimensionlessChecker().formulas}
 
     rate = formulas["STDP learning rate upper bound"].expected_dim
-    magnetic_field = formulas["Critical magnetic field"].expected_dim
 
     assert rate == Dimension.TIME**-1
     assert not rate.is_dimensionless()
-    assert magnetic_field == Dimension.MASS**2
-    assert not magnetic_field.is_dimensionless()
 
 
 @requires_sympy

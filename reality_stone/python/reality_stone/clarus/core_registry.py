@@ -7,7 +7,8 @@ This module owns the extinction fixed-point core only:
 
 It is independent of any cosmology readout: no density partition, no
 :math:`\\Omega` mapping, and no observational identification lives here.
-Cosmology readouts remain in :mod:`reality_stone.clarus.cosmology_registry`.
+Cosmology readouts were removed from this repo (2026-08-23 physics purge);
+they live in the ce-cosmo repo and in git history.
 
 ``q_ext`` is an extinction probability.  Survival is always represented
 explicitly as ``1 - q_ext``.

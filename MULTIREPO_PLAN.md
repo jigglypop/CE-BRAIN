@@ -4,6 +4,8 @@
 
 ## 진행 기록
 
+- **물리 자산 일괄 제거 (2026-08-23, 사용자 지시)**: ce-agi-runtime을 뇌·AGI 전용으로 정리 — clarus 물리 모듈 58(핵융합 16·QFT 8·GR/이색 24·공명작동 5·코어이론 4·웜홀 mouth 1), 물리 테스트 72 + run_validation/scorecard, examples/physics·artifacts/physics·benchmarks/cosmology 전체, 물리 원장 21(뇌_검증기준·AGI 감사 2종만 유지), docs/참조 3(SCQE·epsilon·형식수학) — 총 233파일 git rm(이력 복구 가능). 유지 판정: quantum.py(후반부가 12_Equation ISS/PCI 런타임 수학, test_relax 등 3테스트 의존), multispace_bootstrap(indra 의존), dimensionless 계열, 리만 어텐션 계열, origin_life, pre_eq. 하네스: guard-bench 스킬·커맨드·라우팅 제거(guard는 별도 레포), ce-validate 스코프를 런타임 테스트로 교체, impl-engineer 카드에서 guard·examples/physics 절 제거. 검증: pytest 수집 1716개 오류 0, test_convergence 5 passed.
+
 - P0-2: **결정 — ce-math 별도 레포를 만들지 않는다.** `docs/9_등호이전/` §1-4는 ce-qft 레포의 docs 서브트리로 동거하고, §5 브리지 계열(05, 05a-05o)만 코어 연결부로 취급한다. 근거: 독립 소비자가 없고 원장(등호이전_*)과 양방향 결합이라 분리 시 교차 계약만 늘어난다. 볼륨이 커지면 그때 승격.
 - P0-3: **완료 — 멀티레포 루트 `C:\dev\ce\` 생성** (OneDrive 밖).
 - P1(진행): gc 1차 실행 — 3개 아카이브(brain-synapse-functional-quotient-20260823, brain-synapse-riemannian-subspace-20260823, brainruntime-devivo-asi-measurement-20260823), STALE 36 확인. G1 정규화 완료: 배치 A 13/13, 배치 B 12/13 (+qc2 LEAVE-ACTIVE — 살아있는 run으로 판단, 무수정). 판정 문자열은 전부 `Verdict:`로 무손실 보존. G2 판단형 closure 8건·docs dangling 링크 정리 진행 중.

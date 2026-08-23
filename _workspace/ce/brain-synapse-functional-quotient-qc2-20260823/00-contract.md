@@ -2,7 +2,16 @@
 
 Date: 2026-08-23
 
-Status: `ADAPTIVE_NEW_CANDIDATE / PREREG_FROZEN_BEFORE_RESPONSE_ONLY_SUPPORT / TRAIN_SUMMARIES_KNOWN / DEVELOPMENT_CONFIRMATION_SEALED`
+Status: COMPLETE
+
+Final scientific verdict: `INVALIDATED_CLAMP_UNIT_CONTRACT / MODEL_RESULT_NONINTERPRETABLE / DEVELOPMENT_CONFIRMATION_UNTOUCHED`
+
+이 계약은 결과를 성공으로 고쳐 쓰지 않고 종료한다. 사후 clamp-mode 감사에서
+presynaptic command가 current clamp에서는 전류, voltage clamp에서는 전압인데도 기존
+extractor가 두 경우를 모두 전류 좌표로 처리한 사실이 확인됐다. 따라서 이 계약에서
+생성된 operator, rank, covariance와 model score는 생물학적으로 해석할 수 없다. 아래의
+사전등록 내용은 무엇이 동결돼 있었는지 보존하는 계약 기록이며, 새 판본의 측정모형으로
+재사용하지 않는다.
 
 ## 왜 별도 후보인가
 

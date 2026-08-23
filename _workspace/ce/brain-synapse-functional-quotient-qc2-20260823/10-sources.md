@@ -2,7 +2,18 @@
 
 Date: 2026-08-23
 
-Status: `SOURCE_LOCKED / TRAIN_SUMMARIES_DISCLOSED / DEV_CONFIRMATION_UNTOUCHED`
+Status: COMPLETE
+
+Final source verdict: `SOURCE_LOCKED / CLAMP_UNIT_SEMANTICS_INVALIDATED / DEVELOPMENT_CONFIRMATION_UNTOUCHED`
+
+후속 clamp-mode 감사는 1,383개 eligible sequence와 16,596개 event row에서 모든
+postsynaptic recording이 current clamp임을 확인했다. presynaptic recording에는 current
+clamp와 voltage clamp가 함께 있었다. stimulus command amplitude의 단위는 presynaptic
+clamp mode에 따라 A 또는 V로 달라지므로, clamp mode를 누락한 기존 extractor는 측정모형을
+충족하지 못한다. 이 판정의 보존 근거는
+`_workspace/ce/brain-algorithm-route-ledger.md`의 BA-SRM3 행과
+`artifacts/audit_clamp_unit_semantics.py`다. 분리 저장소에는 과거 disk-only receipt가
+없으므로 그 부재도 재현성 한계로 기록한다.
 
 ## 고정 입력
 
