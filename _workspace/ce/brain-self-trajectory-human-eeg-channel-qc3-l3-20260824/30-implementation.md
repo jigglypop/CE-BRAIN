@@ -2,7 +2,7 @@
 
 Status: COMPLETE
 
-Scope: P0/A0 only; A1/A2/B1 execution remains pending.
+Scope: apparatus only. A1/A2/B1 are complete; no model stage opened.
 
 Implementation is confined to `artifacts/channelwise_qc.py` (SHA-256
 `e3713b2b9533d7523a903901c04808901eba79724c7b4822d2673877b72e8f0b`).
@@ -45,7 +45,28 @@ The resulting allocation receipt is `A0_ALLOCATION_PASS`, SHA-256
 `signal_accessed=false`. It records every D2 trial hash, SHA-256 ordering key,
 session, word, and old/new split. It deterministically assigns B1 16/16 pairs
 and retains D2-M 57/43 pairs, while all eight word levels occur in each
-D2-M session. A1, A2, B1, D2-M, and C1/C2/C3 remain unopened. Every
-preflight/allocation receipt now explicitly records `model_outcome_opened=false`,
+D2-M session. Every preflight/allocation receipt explicitly records `model_outcome_opened=false`,
 the pinned SELF1 BrainVision hash, and fixed filter geometry alongside
 `model_outcome_computed=false`.
+
+## Executed apparatus stages
+
+A1 completed with receipt `artifacts/a1-channelwise-receipt.json`, SHA-256
+`219aabf504deb6c16db719fb9f19da9a09a5f464da4791ce3735f378bbfe21e`:
+`A1_APPARATUS_PASS`, 16 exact windows, and zero hard-domain rejects.
+
+A2 completed with receipt `artifacts/a2-channelwise-receipt.json`, SHA-256
+`8270f31272ff21814c0c0ed5614d74dd29acd8f2045bc645baaa68e41a4d28d8`:
+`A2_APPARATUS_PASS`, 64 exact windows, zero hard-domain errors, and frozen
+channelwise cutoffs $Q_A^{\rm ch}=9.610396697909561$ and
+$Q_D^{\rm ch}=11.350540283998544$.
+
+B1 completed with receipt `artifacts/b1-channelwise-transfer-receipt.json`,
+SHA-256 `d3b7319804206b3ddcc6f35260706dfe4d4b961e0053db80c1c16c9569ead362`.
+Its status is `APPARATUS_INVALID_CHANNELWISE_QC_TRANSFER`: 17/32 accepted
+pairs, with 10/16 in `ses-01` and 7/16 in `ses-02`, below both frozen transfer
+requirements. Window failures were 6/32 in `ses-01` and 11/32 in `ses-02`;
+pair reasons were both $Q_A$ and $Q_D$ for 6 pairs, $Q_D$ only for 8, and
+$Q_A$ only for 1. Both scientific and model outcome flags are false. D2-M and
+C1/C2/C3 remain sealed. This is an apparatus-transfer failure only, not a
+result about the path equation, self, or consciousness.

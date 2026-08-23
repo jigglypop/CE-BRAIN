@@ -2,7 +2,8 @@
 
 Status: COMPLETE
 
-Scope: P0/A0 only; A1/A2/B1 execution remains pending.
+Scope: apparatus only. A1/A2/B1 execution is complete; model validation did
+not open.
 
 Focused synthetic validation command:
 
@@ -28,7 +29,15 @@ An additional real offline-preflight check asserts the audit-required
 The metadata-only allocation command then returned
 `{"network_accessed": false, "status": "A0_ALLOCATION_PASS"}`. This is an
 implementation check and a signal-blind split commitment, not neural evidence.
-No raw EEG range was requested and no endpoint, target, feature, loss, fitted
+A1 and A2 then passed their real exact-range apparatus stages: A1 retained all
+16 windows without a hard-domain reject, and A2 retained all 64 windows and
+froze $Q_A^{\rm ch}=9.610396697909561$ and $Q_D^{\rm ch}=11.350540283998544$.
+Their receipts and hashes are recorded in `30-implementation.md`.
+
+B1 failed its frozen held-out-window apparatus transfer gate at 17/32 accepted
+pairs (10/16 `ses-01`, 7/16 `ses-02`), below 24/32 and 12/16 per session. The
+stage therefore closed as `APPARATUS_INVALID_CHANNELWISE_QC_TRANSFER`; D2-M
+and C1/C2/C3 remain sealed. No endpoint, target, feature, loss, fitted
 coefficient, model selection, path result, self claim, consciousness claim, or
-biological mechanism claim was computed. A1/A2/B1 are intentionally pending
-their separately authorized apparatus execution.
+biological mechanism claim was computed. This is a measurement/QC transfer
+failure, not evidence for or against the path equation.
