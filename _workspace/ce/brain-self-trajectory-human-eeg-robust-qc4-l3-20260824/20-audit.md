@@ -2,7 +2,9 @@
 
 Status: COMPLETE
 
-Pre-implementation Gate: PASS
+Gate: PASS
+
+Gate meaning: PRE-IMPLEMENTATION AUTHORIZATION ONLY
 
 Post-R0 Gate: REVISE / STOP
 
