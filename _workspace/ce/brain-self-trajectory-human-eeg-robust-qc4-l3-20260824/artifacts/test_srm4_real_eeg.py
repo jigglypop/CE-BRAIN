@@ -100,6 +100,18 @@ def test_r0_fit_is_train_only_and_baseline_beats_persistence():
     tr2,_,_=s.r0_fit(train,changed)
     for key in ("median","scale","mean","eig","basis"): assert np.array_equal(tr[key],tr2[key])
 
+def test_r0_gate_requires_both_directions_even_if_pooled_positive():
+    results={
+        "ses-01":{"losses":{"task":{"B":0.20}}},
+        "ses-02":{"losses":{"task":{"B":-0.01}}},
+    }
+    directional,ok=s.r0_gate(results,{"task":{"B":0.10}})
+    assert directional=={"ses-01":True,"ses-02":False}
+    assert ok is False
+    results["ses-02"]["losses"]["task"]["B"]=0.01
+    directional,ok=s.r0_gate(results,{"task":{"B":0.10}})
+    assert all(directional.values()) and ok is True
+
 def _write_provenance(tmp_path):
     manifest,alloc=_manifest_and_allocation(); paths={}
     for name,obj in (("contract",{}),("manifest",manifest),("meta",{}),("self1",{}),("self3",{}),("alloc",alloc)):

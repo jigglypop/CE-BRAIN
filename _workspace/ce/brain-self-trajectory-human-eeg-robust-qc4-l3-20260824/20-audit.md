@@ -2,9 +2,11 @@
 
 Status: COMPLETE
 
-Gate: PASS
+Pre-implementation Gate: PASS
 
-Scope: PRE-IMPLEMENTATION AUTHORIZATION ONLY
+Post-R0 Gate: REVISE / STOP
+
+Scope: PRE-IMPLEMENTATION AUTHORIZATION AND POST-R0 DISPOSITION
 
 ## Frozen snapshot
 
@@ -39,3 +41,32 @@ Signal-blind funnel은 D2-M 100 pair를 R0/R1/R2의 10/20/70으로 나누고, st
 ## Authorization boundary
 
 이 PASS는 implementation과 P0/A0 apparatus validation을 시작할 수 있다는 뜻뿐이다. 실제 EEG endpoint receipt가 없으므로 수치 PASS, 뇌 검증 성공 또는 생물학적 mechanism confirmation을 선언할 수 없다. 구현은 frozen snapshot과 10/20/70 access order를 hash-lock해야 한다.
+
+## Post-R0 stable-snapshot audit
+
+R0 receipt SHA-256은
+`3bd9db6c2c2519075437bdd142c742f361a6efabc68376a7c786fd9d6f9dd61b`다.
+Signal-blind allocation에 지정된 10 pair, session별 5 pair의 task/rest를 한 번씩
+열어 총 20 window를 읽었다. 모든 range 요청은 HTTP 206과 정확히 768,256
+byte를 반환했고 provenance, finite/nonflat, conditioning, loss-denominator 및
+sample guard를 통과했다. 이 범위에서 apparatus/measurement execution은 PASS다.
+이는 scalp EEG가 neuron-level edge나 생물학적 상태를 식별한다는 뜻이 아니다.
+
+Frozen $p=5$ baseline의 task gain은 held-out `ses-01`에서
+$B_{task}=-3.6460501404125005$, held-out `ses-02`에서
+$B_{task}=0.0025103259988423846$, pooled에서
+$B_{task}=-0.40260785355519274$였다. Rest pooled gain도
+$-0.9334834668020284$였다. 따라서 현재 저차 상태 baseline은 persistence를
+일관되게 이기지 못했고 R0는 계약대로
+`APPARATUS_INVALID_OR_BASELINE_UNRESOLVED`다.
+
+이 STOP은 $M_0$의 feasibility 판정이다. `path_area_opened=false`,
+`ordered_history_gain_opened=false`, `word_effect_opened=false`이므로 $M_1$,
+level-2 area, shuffle control과 ordered-history 경험 후보는 미검증이다. 자아가
+상태인지 경로인지, 의식의 차원, infinite-dimensional metric, neuron edge,
+hippocampal hash에 관한 결과도 없다.
+
+계약의 순차 funnel에 따라 R1-MEDIUM, R2-LARGE와 C1/C2/C3는 개방할 수
+없다. 같은 run에서 baseline, target, feature 또는 gate를 사후 수정해 재시도할
+수도 없다. 후속 시험은 이 R0를 development evidence로 소진 처리하고, 새
+계약·새 signal-blind split·새 baseline falsifier를 먼저 고정해야 한다.

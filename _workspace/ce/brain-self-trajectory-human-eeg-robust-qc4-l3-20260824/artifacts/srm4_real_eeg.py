@@ -202,15 +202,22 @@ def r0_execute(contract,manifest_path,meta_path,self1_path,self3_path,alloc_path
         sp=sum(results[s]["losses"][c]["sse_persistence"] for s in results); s0=sum(results[s]["losses"][c]["sse_m0"] for s in results); n=sum(results[s]["losses"][c]["count"] for s in results)
         pooled[c]={"sse_persistence":sp,"sse_m0":s0,"count":n,"L_p":sp/n,"L_0":s0/n,"B":(sp-s0)/sp}
     access["model_outcome_computed"]=True
-    ok=pooled["task"]["B"]>0
+    directional_task_b_positive,ok=r0_gate(results,pooled)
     return {"schema":"BA-SRM4-real-eeg-v1","stage":"R0-SMALL","status":"R0_SMALL_PASS" if ok else "APPARATUS_INVALID_OR_BASELINE_UNRESOLVED",
             "network_accessed":access["network_accessed"],"signal_accessed":access["signal_accessed"],
             "scientific_endpoint_opened":access["scientific_endpoint_opened"],"model_outcome_opened":access["model_outcome_opened"],"model_outcome_computed":access["model_outcome_computed"],
             "contract_sha256":CONTRACT_SHA256,"manifest_sha256":MANIFEST_SHA256,"a0_receipt_sha256":SOURCE_A0_SHA256,"self1_brainvision_sha256":SELF1_SHA256,
             "self3_allocation_sha256":SELF3_ALLOCATION_SHA256,"srm4_allocation_sha256":SRM4_ALLOCATION_SHA256,
             "accepted_pairs":{"ses-01":5,"ses-02":5,"total":10},"directions":results,"pooled":pooled,
+            "gate":{"directional_task_B_positive":directional_task_b_positive,
+                    "pooled_task_B_positive":pooled["task"]["B"]>0,"pass":ok},
             "windows":access["completed_requests"],"path_area_opened":False,"ordered_history_gain_opened":False,"word_effect_opened":False,
             "unopened_splits":["R1-MEDIUM","R2-LARGE","C1","C2","C3"]}
+
+def r0_gate(results,pooled):
+    directional={session:results[session]["losses"]["task"]["B"]>0 for session in results}
+    ok=all(directional.values()) and pooled["task"]["B"]>0
+    return directional,ok
 
 def r0_safe(contract,manifest_path,meta_path,self1_path,self3_path,alloc_path):
     access=new_access_state()
