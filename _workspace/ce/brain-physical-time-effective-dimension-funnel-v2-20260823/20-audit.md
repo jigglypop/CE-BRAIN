@@ -83,6 +83,46 @@ Execute numerical F2-B from its first seed
 
 Any runner, interpreter, or dependency mismatch is a fail-closed preflight stop. F2-D, confirmation, F2R, behavior, model, and the real endpoint remain locked.
 
+## 11. Post-F2-C stable-snapshot audit
+
+The pre-execution authorization bytes for section 10 have SHA-256
+`727606ea4a8d7dbc74374bbc6ed7b1b2614a75cf6c106cfb977310d2a02c48fb`.
+The one-shot F2-C receipt records that exact authorization hash, runner SHA-256
+`361fa1b7b8d6af1576d5a02d76159f5f9e2a6215ecedf5b95bc66cee1e209b80`,
+and the frozen Python 3.11.9, NumPy 2.4.6, and SciPy 1.17.1 environment.
+Its own SHA-256 is
+`a43e14da1e099f30d3cb970f35db199159be83916b9ce33e685f494641958bf2`.
+
+Independent status and mathematics audits found no P0 or P1 defect. The
+F2-A and F2-B receipts are present at their frozen paths and rehash to
+`24c1099c63b0e7e59f107788e57bc122c62a267936a0313b03c12d88e2be6aab`
+and `ad402c8a872af3461d9600cad4b792eb1440761f5f8222c5b653511cf35f72b2`.
+The ordered 20-candidate F2-B promoted array is identical to the F2-C input
+array and has SHA-256
+`270a1885fc649e6700065cf2901a72904d1fe345d61d1e37e9c16abca1d4e722`.
+Preflight passed all 16 scenario-by-seed cache entries.
+
+**[산출: 동결 합성 비교]** All 20 candidates are `FUTILITY_KILL`; no
+candidate is `PROMOTE`, `DROPPED_BUDGET`, `ABSTAIN`, or `INVALID_KILL`.
+For every candidate, BLOCK30 passed both frozen median gates, while ART10
+median NMAE passed and ART10 median Spearman recovery failed. Across candidates,
+ART10 median recovery lies in
+`[0.6136981053328, 0.7404632890000811]`, strictly below the frozen `0.80`
+threshold; BLOCK30 lies in
+`[0.9284251656475162, 0.9788390822185931]`. Therefore no ranking or cap
+tie is involved in the result.
+
+The receipt fixes `downstream_authorized=false`, `behavior_loaded=false`,
+`model_fit=false`, `real_endpoint_opened=false`, and `biological_claim=false`.
+F2-D, confirmation, F2R, behavior, model fitting, the real endpoint, and every
+biological, synaptic-edge, loop, hippocampal, consciousness, and AGI
+interpretation remain sealed. This closes BA-SRM9 as
+`SYNTHETIC_F2C_FUTILITY_STOP / REAL_ENDPOINT_UNOPENED`. Reopening requires a
+new contract and a genuinely different candidate mechanism; changing the
+frozen F2-C threshold, panels, or candidates after this result is prohibited.
+
+Gate conclusion: **PASS -- close the run at F2-C; authorize no downstream stage.**
+
 Gate conclusion: **PASS -- F2-C $20\to16$ only; F2-D, confirmation, F2R, behavior/model, and the real endpoint remain locked.**
 
 ## 10. F2-C execution-source seal
@@ -98,4 +138,3 @@ F2-C NumPy: `2.4.6`
 F2-C SciPy: `1.17.1`
 
 Any runner, interpreter, or dependency mismatch is a fail-closed preflight stop. F2-D, confirmation, F2R, behavior, model, and the real endpoint remain locked.
-
