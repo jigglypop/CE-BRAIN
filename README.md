@@ -1,6 +1,6 @@
 # CE-AGI Runtime: 뇌의 전기 동역학에서 현재 세계 모델까지
 
-> 최신 상태: **유한 수동 관측의 metric 비식별 no-go, BA-OBS-ID1의 제한된 국소 식별성, BA-OBS-ID2의 가산 완전 exact-oracle 전역 식별 정리는 유지된다. 실제 인간 CCEP에서는 BA-OBS-ID3의 상호성 proxy 뒤에, BA-OBS-DISC1이 사전 고정한 시간·거리 식 발견을 시험했다.** DISC1의 24-pair D0은 CABLE 후보를 골랐고 48-pair D1은 통과했지만, 39-pair D2 primary bipolar source-cluster 구간이 0을 가로질러 `CANDIDATE_KILLED_AT_D2 / NOT_CONFIRMED`로 종료했다. D3 40 pair는 열지 않았다. 이 결과는 뇌 metric·무한차원·의식·자아·해마 hash·AGI의 검증이나 반증이 아니다.
+> 최신 상태: **유한 수동 관측의 metric 비식별 no-go, BA-OBS-ID1의 제한된 국소 식별성, BA-OBS-ID2의 가산 완전 exact-oracle 전역 식별 정리는 유지된다. 실제 인간 CCEP의 새 다환자 BA-OBS-DISC2R는 사전 고정한 관측 endpoint에서 단순 유클리드 거리 감쇠 `SC`를 환자-disjoint D0–D3에 걸쳐 통과시켰다.** D3의 평균 개선은 $0.0173522$, 97.5% participant-bootstrap 하한은 $0.0102676$, geometry permutation은 $p=1/4096$였고 matched prestimulus 대조는 통과하지 않았다. 이는 등록 좌표의 거리 항이 이 bipolar CCEP 관측 kernel 예측에 유익했다는 결과일 뿐, 뇌 metric·무한차원·의식·자아·해마 hash·AGI의 검증이나 반증이 아니다. 앞선 DISC1의 D2 음성 결과도 그대로 유지된다.
 
 이 README의 중심 결론은 네 갈래를 함께 읽어야 한다는 것이다. 수동 EEG 같은 유한 관측은 주변 공간 전체의 계량이나 차원을 고르지 못한다. 사전 제한한 유한 계량족에서는 알려진 동역학·개입과 양의 정부호 Gramian 아래 국소 식별성이 가능하다. 더 강하게, 모든 basis 방향과 쌍 방향에 대한 exact 능동 응답을 가산히 완전하게 얻는 이상적 oracle에서는 임의 bounded strong metric도 전역적으로 정해진다. 마지막으로 실제 CCEP는 그 oracle을 흉내 내지 않고, 전극이 읽는 유한 응답 자체에서 훨씬 작은 상호성 필요조건만 시험했다. 이 네 결과는 서로 경쟁하지 않는다. 정보량과 측정모형이 달라질 때 어디까지 말할 수 있는지를 각각 제한한다.
 
@@ -373,6 +373,33 @@ ID3가 observed-magnitude 상호성이라는 작은 proxy를 시험했다면, DI
 
 이 고정 판본에서는 formula, window, threshold, 선택 규칙을 고친 뒤 D3을 실행하지 않는다. 수정된 식 계열에는 새 preregistration과 unopened validation pool 또는 독립 subject가 필요하다. DISC1도 ambient·무한차원 리만 metric, 해부학적/축삭 geodesic, 의식, 자아, 해마 hash, AGI를 검증하거나 반증하지 않는다.
 
+### BA-OBS-DISC2R: 다환자 CCEP에서 확인한 단순 거리 감쇠
+
+DISC1의 음성 결과는 보존한 채, BA-OBS-DISC2R는 더 큰 다환자 OpenNeuro `ds004080` SPES CCEP 표본에서 다른 질문을 사전 고정했다. 여기서 검증한 것은 “등록 좌표에서 멀수록 자극 후 관측 반응을 예측하기 어려워지는가”라는 작고 구체적인 질문이다. 도시에서 같은 크기의 소리가 멀수록 약해지는 현상처럼, 거리 항이 예측을 고친다고 해서 실제 도로·벽·공기의 전체 전달 경로를 복원한 것은 아니다. 전극 전압에도 neural response, reference, volume conduction, artifact, noise가 함께 들어가므로 결과는 그 관측 사슬의 response kernel에만 속한다.
+
+각 source의 열 clean trial에서 contact baseline median을 빼고 bipolar difference를 만들었다. pooled $1.4826\,\mathrm{MAD}$로 정규화한 열-trial 평균의 다섯 post-stimulus RMS를 $E$라 두고, $z=\log(E+10^{-6})$를 예측했다. 공통 시간·연령 기준식과 anchor-only source offset은
+
+$$
+T_i^\star(x)=\beta_1\log x+\beta_2x
++\gamma_1\widetilde A_i\log x+\gamma_2\widetilde A_i x,
+\qquad \widehat z=T_i^\star(x)+b_s-a r, a\ge0
+$$
+
+이다. $r$는 fsaverage/MNI305 등록 좌표의 단순 유클리드 거리이며, $b_s$는 anchor에서만 정한 source 수준 보정이다. 따라서 $a$는 축삭 길이·geodesic·conductance tensor의 추정량이 아니다.
+
+| 단계 | 환자 | `SC` 평균 개선 | 핵심 gate | 판정 |
+|---|---:|---:|---|---|
+| D0 | 24 | 상대 CV 개선 0.0638202 | 6/6 fold; `SAC`은 0.005 tie band 안 | 단순 `SC` 선택 |
+| D1 | 8 | 절대 Huber-loss 개선 0.0203434 | 7/8 양의 개선, $p=1/512$ | 통과 |
+| D2 | 12 | 절대 Huber-loss 개선 0.0168684 | 80% LCB 0.0127012, $p=1/1024$ | 통과 |
+| D3 | 30 | 절대 Huber-loss 개선 0.0173522 | 97.5% LCB 0.0102676, 23/30, $p=1/4096$ | 최종 통과 |
+
+자극 전 matched negative control은 평균 $0.0000445$, 97.5% LCB $-0.0001462$, $p=0.0568848$로 통과하지 않았고 contact-mean diagnostic은 `REFERENCE_CONCORDANT`였다. 전체 실행은 74명의 서로 겹치지 않는 환자, 592 source, 9,472 target, 5,920 version-locked range를 사용했으며 raw payload는 저장하지 않았다. 선행 BA-OBS-DISC2가 crosswalk 해석 오류로 첫 raw request 전에 중단된 구현 실패였음을 명시적으로 보존하고, 과학 입력을 바꾸지 않은 linkage-only retry로만 다시 열었다. 세부 재현 절차는 [구현 기록](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/30-implementation.md), 수치 gate와 대조는 [검증 기록](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/31-validation.md), 해석과 한계는 [최종 보고서](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/40-final-report.md)에 있다.
+
+Hardened v2 post-run 검증은 locked manifest의 592 source·9,472 target·5,920 range와 모든 핵심 적합을 재계산해 확인했으며, 상세 범위와 raw payload 재해시 한계는 [검증 기록](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/31-validation.md)에 남겼다.
+
+이 PASS_FINAL의 상한은 단순 유클리드 감쇠가 이 frozen patient-disjoint human SPES CCEP observed-kernel prediction을 개선했다는 문장까지다. 이를 리만 계량, 생물학적 geodesic, 무한차원 신경 상태, 현재 세계·의식·자아·해마 hash 또는 AGI에 대한 증거로 승격하지 않는다.
+
 ### 합성 유효차원 funnel: F2-C에서 전 후보 중단
 
 실제 EEG와 별개인 behavior-blind 합성 funnel에서는 F2-B를 통과한 20개 물리시간 유효차원 후보를 BLOCK30과 ART10 adverse scenario에서 비교했다. BLOCK30 중앙 상관은 `0.9284..0.9788`로 통과했지만 ART10은 `0.6137..0.7405`로 사전 기준 $0.80$에 모두 못 미쳤다. 결과는 `20 FUTILITY_KILL / 0 PROMOTE`이며 F2-D, 확인, 행동값, 모델 적합과 실제 뇌 endpoint는 열지 않았다. 이는 후보군의 artifact-robust recovery 실패이지 PSD–resolvent 정리나 뇌·의식 가설의 반증이 아니다. 상세 봉인은 [BA-SRM9 최종 보고서](_workspace/ce/brain-physical-time-effective-dimension-funnel-v2-20260823/40-final-report.md)에 있다.
@@ -446,15 +473,15 @@ Windows에서는 먼저 아래 명령으로 사용할 Python 경로와 기본 �
 
 ## 문서 읽기 지도
 
-처음 읽는 독자는 이 README 다음에 [문서 전체 지도](docs/README.md), [뇌 읽기 지도](docs/6_뇌/00_읽기지도.md), [리만 계량 라우팅 논문](docs/6_뇌/11_리만계량_라우팅_논문.md)을 읽어 용어와 출발 가정을 잡으면 된다. 이어 [유한 관측 no-go 보고서](_workspace/ce/brain-finite-observation-metric-nonidentifiability-20260824/40-final-report.md)에서 왜 수동 관측이 quotient만 정하는지 확인하고, [BA-OBS-ID1 최종 보고서](_workspace/ce/brain-finite-observation-metric-identifiability-escape-20260824/40-final-report.md)와 [수학 lane](_workspace/ce/brain-finite-observation-metric-identifiability-escape-20260824/11-math.md)에서 유한 계량족의 국소 좌표가 어떤 추가 가정 아래 식별되는지 읽으면 된다. 그 다음 [BA-OBS-ID2 수학 lane](_workspace/ce/brain-complete-active-metric-tomography-20260824/11-math.md)과 [BA-OBS-ID2 최종 보고서](_workspace/ce/brain-complete-active-metric-tomography-20260824/40-final-report.md)에서 가산 완전 active response가 왜 임의 metric의 전역 유일성을 주면서도 유한 실험 no-go를 남기는지 확인한다. 마지막으로 [BA-OBS-ID3 최종 보고서](_workspace/ce/brain-human-ccep-restricted-active-response-20260824/40-final-report.md)를 읽으면, 그 이상적 정리를 실제 인간 CCEP에 과장 없이 연결하려면 왜 관측 전압의 측정모형, reference 대조, 사전 split, 합성 gate가 필요한지 알 수 있다. 네 결과는 경쟁하지 않으며 관측 정보량이 달라질 때의 정확한 경계를 정한다. AGI 쪽은 앞서 링크한 코드 지도부터 읽으면 문서와 구현의 대응을 찾기 쉽다.
+처음 읽는 독자는 이 README 다음에 [문서 전체 지도](docs/README.md), [뇌 읽기 지도](docs/6_뇌/00_읽기지도.md), [리만 계량 라우팅 논문](docs/6_뇌/11_리만계량_라우팅_논문.md)을 읽어 용어와 출발 가정을 잡으면 된다. 이어 [유한 관측 no-go 보고서](_workspace/ce/brain-finite-observation-metric-nonidentifiability-20260824/40-final-report.md)와 BA-OBS-ID1·ID2 보고서에서 관측이 계량을 어디까지 식별할 수 있는지 확인한다. 실제 자료의 경계는 [BA-OBS-ID3 최종 보고서](_workspace/ce/brain-human-ccep-restricted-active-response-20260824/40-final-report.md), 음성 결과의 중요성은 위 DISC1, 그리고 새 다환자 거리 결과는 [DISC2R 구현](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/30-implementation.md) → [검증](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/31-validation.md) → [최종 보고서](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/40-final-report.md) 순서로 읽으면 된다. 이 결과들은 경쟁하지 않으며 각기 다른 관측량과 주장 상한을 갖는다.
 
 문서마다 숫자나 식이 있어도 동일한 지위를 갖지는 않는다. 정의는 기호를 정할 뿐이고, 공리는 채택한 물리 사상이며, 경험식은 관측 비교의 압축이다. 이 구분과 반례·미완성 항목은 [검증 원장](docs/검증_원장/뇌_검증기준.md)에서 추적한다. 이 README는 원장을 바꾸지 않고 독자가 그 경계를 읽을 수 있게 연결한다.
 
 ## 현재 위치와 남은 문제
 
-현재 확보한 것은 finite passive observation이 무한차원 ambient metric과 ambient dimension을 유일하게 식별하지 못하고 pointwise quotient만 정한다는 no-go, 유한 gauge-fixed 계량족·알려진 동역학·능동 개입·양의 Gramian 아래의 국소 식별 정리와 L0 합성 구현, 그리고 가산 완전 exact active quadratic response 아래 arbitrary bounded strong metric의 전역 유일성 정리다. 마지막 정리는 $N^2$ finite section의 strong 수렴과 decay 조건부 noisy bound, 그리고 유한 query blind tail의 adverse control까지 포함한다. 실제 인간 CCEP에서는 24 sites의 제한된 observed-magnitude P1을 처음 시험했고, development는 통과했으나 mean과 bipolar reference가 다른 confirmation 결론을 내어 `REFERENCE_SENSITIVE_OR_INCONCLUSIVE`가 됐다. 뒤이은 BA-OBS-DISC1은 endpoint-blind pair에서 시간·거리 CABLE 식을 D0에서 선택하고 D1에서는 통과시켰지만, D2 primary bipolar source-cluster 구간이 0을 가로질러 `CANDIDATE_KILLED_AT_D2 / NOT_CONFIRMED`로 종료했다. D3은 unopened다. 실제 EEG의 raw range·provenance apparatus는 실행되었지만, 작은 2차원 선형 축약 $M_0$ baseline gate는 실패했고 별도 합성 funnel의 20개 후보도 ART10에서 모두 탈락했다. 따라서 실제 뇌 metric의 형태, history kernel, 생물학적으로 가능한 query subspace, 필요한 관측 차원, 현재 세계 후보의 구성, 해마 주소 비유의 생물학적 대응, 의식과 privilege gap의 관계는 확정하지 않았다.
+현재 확보한 것은 finite passive observation의 no-go, 제한된 가정 아래의 식별 정리, 그리고 실제 CCEP에서 서로 다른 범위의 세 경험 결과다. ID3는 reference-sensitive로 결론을 유보했고 DISC1은 D2에서 후보를 기각했다. 반면 DISC2R는 74명의 환자-disjoint SPES CCEP에서 단순 Euclidean `SC`가 고정 temporal baseline을 D3까지 개선함을 확인했다. 이 양성 결과도 관측 endpoint의 예측 결과일 뿐, 실제 뇌 metric의 형태, history kernel, 생물학적으로 가능한 query subspace, 필요한 관측 차원, 현재 세계 후보의 구성, 해마 주소 비유의 생물학적 대응, 의식과 privilege gap의 관계를 정하지 않는다.
 
-다음 수동 EEG 단계는 실패한 작은 2차원 선형 축약 $M_0$를 사실처럼 확장하는 일이 아니라, 새 계약과 새 분할 아래 비선형 생물물리·전기 기준선을 세우는 일이다. 이와 별도로 능동 실제-뇌 경로는 출처를 고정한 유한 계량족 또는 명시적 query subspace, 측정모형, 알려진 또는 조작 가능한 개입, 독립 held-out, 실제 출력의 nonzero Gramian 검사를 갖춰야 한다. ID2 수준의 주장을 향하려면 independent reset·force family·onset readout·basis 선택이 생물학적으로 무엇인지 먼저 측정 가능하게 정의해야 한다. 그 전에는 path, self, present-world manifold, 의식, AGI의 자기모니터링을 뇌의 사실로 승격하지 않는다.
+다음 CCEP 실험은 DISC2R의 D0–D3를 확인 자료로 재사용하지 않는다. 새 계약과 독립 dataset 또는 새 환자 allocation, 새 endpoint-blind split·감사 아래 frozen Euclidean `SC`를 생물학적으로 제약한 tract/geodesic·conductance 모델 또는 signed transfer-function 모델과 비교해야 한다. 새 모델은 held-out prediction뿐 아니라 prestimulus·reference 대조를 함께 통과해야 한다. 그 전에는 path, self, present-world manifold, 의식, AGI의 자기모니터링을 뇌의 사실로 승격하지 않는다.
 
 ## 참고 출발점
 
