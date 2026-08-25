@@ -17,6 +17,15 @@ TEMP_PREFIX = "clarus-pytest-"
 def _child_environment() -> dict[str, str]:
     env = os.environ.copy()
     env["PYTHONDONTWRITEBYTECODE"] = "1"
+    # Keep finite NumPy/SciPy-style test jobs within the available worker-memory
+    # budget. This is child-process resource determinism, not a test setting.
+    for variable in (
+        "OPENBLAS_NUM_THREADS",
+        "OMP_NUM_THREADS",
+        "MKL_NUM_THREADS",
+        "NUMEXPR_NUM_THREADS",
+    ):
+        env[variable] = "1"
     existing = env.get("PYTHONPATH")
     env["PYTHONPATH"] = (
         str(PYTHON_SOURCE) + os.pathsep + existing if existing else str(PYTHON_SOURCE)

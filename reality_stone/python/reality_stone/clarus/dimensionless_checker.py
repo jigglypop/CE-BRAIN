@@ -13,11 +13,27 @@ This catches:
   ✓ Mixing of natural and SI units
 """
 
+import ast
 from enum import Enum
 from dataclasses import dataclass
 from fractions import Fraction
 from typing import Dict, List, Tuple
-from sympy import parse_expr
+
+try:
+    from sympy import parse_expr as _sympy_parse_expr
+except ModuleNotFoundError:
+    FORMULA_PARSER_BACKEND = "stdlib.ast.parse.syntax_only"
+
+    def _parse_formula(expression: str) -> None:
+        """Syntax-only fallback; it is not symbolic dimensional analysis."""
+
+        ast.parse(expression.replace("^", "**"), mode="eval")
+
+else:
+    FORMULA_PARSER_BACKEND = "sympy.parse_expr"
+
+    def _parse_formula(expression: str) -> None:
+        _sympy_parse_expr(expression)
 
 
 @dataclass(frozen=True)
@@ -146,6 +162,8 @@ class Formula:
 
 class DimensionlessChecker:
     """Main checker class."""
+
+    formula_parser_backend = FORMULA_PARSER_BACKEND
 
     def __init__(self):
         self.formulas: List[Formula] = []
@@ -361,6 +379,44 @@ class DimensionlessChecker:
             "Both energies share one frozen actuator, cost, horizon, and normalized endpoint direction",
         )
 
+        # HISTORY-EDGE METRIC / VARIABLE-RANK SUBSPACE LAYER
+        self.add_formula(
+            "Orthogonal spectral concentration",
+            "c_d_perp",
+            "trace_projected_covariance/trace_covariance",
+            Dimension.DIMENSIONLESS,
+            "brain-riemannian-conscious-subspace-strengthening-20260825 contract §5.4",
+            "Scalar surrogate for tr(Q_d*C*Q_d)/tr(C): Q_d is the orthogonal projection "
+            "onto Ran(P_d), C is positive trace class, tr(C)>0, and numerator and denominator "
+            "must use the same covariance (or precision) unit. This does not license the "
+            "nonorthogonal Riesz expression tr(P*C*P)/tr(C).",
+        )
+
+        self.add_formula(
+            "Effective dimension eigenvalue summand",
+            "d_eff_mode",
+            "eigenvalue/(eigenvalue+lambda_reg)",
+            Dimension.DIMENSIONLESS,
+            "brain-riemannian-conscious-subspace-strengthening-20260825 contract §5.4",
+            "Parser-friendly scalar summand for d_eff(lambda)=sum_i mu_i/(mu_i+lambda), "
+            "equivalently tr(G*(G+lambda*I)^-1). Each mu_i and lambda must have identical "
+            "operator-eigenvalue units; lambda>0 and the stated trace-class/summability "
+            "assumptions are required. It is an observed effective dimension, not ambient, "
+            "manifold, or consciousness dimension.",
+        )
+
+        self.add_formula(
+            "Normalized edge-metric perturbation",
+            "eta_edge",
+            "epsilon_A/m0",
+            Dimension.DIMENSIONLESS,
+            "brain-riemannian-conscious-subspace-strengthening-20260825 contract §5.1",
+            "epsilon_A is the operator-norm edge perturbation and m0 is the coercive baseline "
+            "lower bound, so they must share one metric-operator unit. The small-perturbation "
+            "bound additionally requires epsilon_A < m0; edge deletion remains a separate "
+            "reachability change rather than a smooth-curvature claim.",
+        )
+
         # RIEMANN/MRA LAYER
         self.add_formula(
             "Riemann metric attention",
@@ -412,12 +468,19 @@ class DimensionlessChecker:
             "expected": formula.expected_dim.name,
             "notes": formula.notes,
             "source": formula.source,
+            "parser_backend": self.formula_parser_backend,
+            "validation_level": (
+                "SYNTAX_ONLY_HEURISTIC"
+                if self.formula_parser_backend == "stdlib.ast.parse.syntax_only"
+                else "SYMPY_PARSE_HEURISTIC"
+            ),
         }
 
         # Manual checks (symbolic evaluation is limited)
         try:
-            # Parse formula symbolically
-            parse_expr(formula.formula)
+            # SymPy is preferred.  The stdlib fallback only establishes that a
+            # parser-safe scalar expression has valid Python-expression syntax.
+            _parse_formula(formula.formula)
 
             # Quick dimensionality checks based on formula structure
             if formula.symbol in {
@@ -457,6 +520,12 @@ class DimensionlessChecker:
                     result["status"] = "UNCLEAR - Manual review needed"
             else:
                 result["status"] = "TODO - Dimension type not recognized"
+
+            if (
+                result["validation_level"] == "SYNTAX_ONLY_HEURISTIC"
+                and result["status"].startswith("PASS")
+            ):
+                result["status"] = "PASS_SYNTAX_ONLY"
 
         except Exception as e:
             result["status"] = f"PARSE ERROR: {str(e)}"

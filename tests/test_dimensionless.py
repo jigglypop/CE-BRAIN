@@ -29,15 +29,7 @@ def _load_standalone_module(name: str, filename: str):
 
 _dimensionless = _load_standalone_module("ce_dimensionless_math", "dimensionless.py")
 HAS_SYMPY = importlib.util.find_spec("sympy") is not None
-_checker = (
-    _load_standalone_module("ce_dimensionless_checker", "dimensionless_checker.py")
-    if HAS_SYMPY
-    else None
-)
-requires_sympy = pytest.mark.skipif(
-    not HAS_SYMPY,
-    reason="dimensionless formula registry validation requires sympy",
-)
+_checker = _load_standalone_module("ce_dimensionless_checker", "dimensionless_checker.py")
 
 CURVATURE = _dimensionless.CURVATURE
 DIMENSIONLESS = _dimensionless.DIMENSIONLESS
@@ -54,9 +46,22 @@ group_dimension = _dimensionless.group_dimension
 nondimensionalize = _dimensionless.nondimensionalize
 require_dimensionless = _dimensionless.require_dimensionless
 
-Dimension = _checker.Dimension if _checker is not None else None
-DimensionVector = _checker.DimensionVector if _checker is not None else None
-DimensionlessChecker = _checker.DimensionlessChecker if _checker is not None else None
+Dimension = _checker.Dimension
+DimensionVector = _checker.DimensionVector
+DimensionlessChecker = _checker.DimensionlessChecker
+
+
+def _assert_formula_pass(checker, formula) -> None:
+    """Assert the backend-qualified ceiling without calling syntax a proof."""
+
+    result = checker.check_formula(formula)
+    assert result["parser_backend"] == checker.formula_parser_backend
+    assert result["status"].startswith("PASS")
+    if HAS_SYMPY:
+        assert result["validation_level"] == "SYMPY_PARSE_HEURISTIC"
+    else:
+        assert result["validation_level"] == "SYNTAX_ONLY_HEURISTIC"
+        assert result["status"] == "PASS_SYNTAX_ONLY"
 
 
 def test_curvature_must_be_scaled_before_exponential() -> None:
@@ -193,6 +198,130 @@ def test_dimensionless_guard_accepts_ce_core_ratio() -> None:
     assert require_dimensionless(epsilon2).value == 0.04865
 
 
+def test_interval_contour_bridge_units_close_before_core_use() -> None:
+    spectral = dim(0, 0, -1, 0)
+    reference = Quantity("spectral_reference_scale", 10.0, spectral)
+    radius = Quantity("circle_radius", 2.0, spectral)
+    uncertainty = Quantity("uncertainty_upper", 0.1, spectral)
+    nominal_delta = Quantity("nominal_delta", 0.8, spectral)
+    robust_delta = Quantity("robust_delta", 0.7, spectral)
+
+    # Subtraction delta-epsilon is admitted only because both terms have the
+    # same spectral dimension; the result keeps that dimension.
+    assert uncertainty.dims == nominal_delta.dims == robust_delta.dims
+
+    normalized = [
+        nondimensionalize(quantity, [reference])
+        for quantity in (radius, uncertainty, nominal_delta, robust_delta)
+    ]
+    assert audit_dimensionless(
+        normalized, context="interval contour normalized certificate"
+    ).passed
+
+    projector_group = group_dimension(
+        [radius, uncertainty, nominal_delta, robust_delta],
+        {
+            "circle_radius": Fraction(1),
+            "uncertainty_upper": Fraction(1),
+            "nominal_delta": Fraction(-1),
+            "robust_delta": Fraction(-1),
+        },
+    )
+    assert projector_group == DIMENSIONLESS
+
+    raw_resolvent_dims = tuple(-power for power in robust_delta.dims)
+    assert raw_resolvent_dims == dim(0, 0, 1, 0)
+
+
+def test_interval_induced_norm_tightening_normalizes_row_column_bounds() -> None:
+    spectral = dim(0, 0, -1, 0)
+    reference = Quantity("spectral_reference_scale", 5.0, spectral)
+    entry_radius = Quantity("entry_magnitude_upper", 0.2, spectral)
+    one_norm = Quantity("induced_one_upper", 0.7, spectral)
+    infinity_norm = Quantity("induced_infinity_upper", 0.8, spectral)
+
+    normalized = [
+        nondimensionalize(quantity, [reference])
+        for quantity in (entry_radius, one_norm, infinity_norm)
+    ]
+    assert audit_dimensionless(
+        normalized, context="interval induced-norm tightening"
+    ).passed
+
+    product_dims = tuple(
+        left + right for left, right in zip(one_norm.dims, infinity_norm.dims)
+    )
+    assert product_dims == dim(0, 0, -2, 0)
+    sqrt_product_dims = tuple(power / 2 for power in product_dims)
+    assert sqrt_product_dims == spectral
+
+
+def test_componentwise_residual_krawczyk_core_is_dimensionless() -> None:
+    spectral = dim(0, 0, -1, 0)
+    inverse_spectral = dim(0, 0, 1, 0)
+    reference = Quantity("spectral_reference_scale", 5.0, spectral)
+    node_matrix = Quantity("node_matrix", 2.0, spectral)
+    inverse_witness = Quantity("inverse_witness", 0.5, inverse_spectral)
+    uncertainty = Quantity("entry_uncertainty", 0.1, spectral)
+
+    product_dims = tuple(
+        left + right for left, right in zip(inverse_witness.dims, node_matrix.dims)
+    )
+    assert product_dims == DIMENSIONLESS
+
+    normalized_node = nondimensionalize(node_matrix, [reference])
+    normalized_uncertainty = nondimensionalize(uncertainty, [reference])
+    normalized_inverse = Quantity("normalized_inverse_witness", 2.5)
+    assert audit_dimensionless(
+        [normalized_node, normalized_uncertainty, normalized_inverse],
+        context="componentwise residual/Krawczyk core",
+    ).passed
+
+    # q = ||I-BA|| and the normalized inverse bounds are dimensionless.
+    assert require_dimensionless(Quantity("residual_contraction_q", 0.2)).dimensionless
+    assert require_dimensionless(Quantity("normalized_inverse_upper", 1.4)).dimensionless
+
+
+def test_quantitative_graph_transform_normalizes_base_fiber_cross_slopes() -> None:
+    base_unit = LENGTH
+    fiber_unit = dim(1, 2, -3, 0)
+    cross_unit = tuple(
+        fiber_power - base_power
+        for fiber_power, base_power in zip(fiber_unit, base_unit)
+    )
+    x_scale = Quantity("X_star", 2.0, base_unit)
+    y_scale = Quantity("Y_star", 3.0, fiber_unit)
+    fiber_radius = Quantity("fiber_radius", 3.0, fiber_unit)
+    forcing = Quantity("forcing_at_zero", 0.75, fiber_unit)
+    lx_raw = Quantity("L_x_raw", 0.375, cross_unit)
+    slope_raw = Quantity("kappa_raw", 1.5, cross_unit)
+
+    assert nondimensionalize(fiber_radius, [y_scale]).dimensionless
+    assert nondimensionalize(forcing, [y_scale]).dimensionless
+    for quantity in (lx_raw, slope_raw):
+        normalized_dims = group_dimension(
+            [quantity, x_scale, y_scale],
+            {
+                quantity.name: Fraction(1),
+                "X_star": Fraction(1),
+                "Y_star": Fraction(-1),
+            },
+        )
+        assert normalized_dims == DIMENSIONLESS
+
+    assert audit_dimensionless(
+        [
+            Quantity("mu", 1.0),
+            Quantity("b", 0.25),
+            Quantity("L_y", 0.25),
+            Quantity("q", 0.5),
+            Quantity("normalized_tube_margin", 0.25),
+            Quantity("normalized_slope_margin", 0.25),
+        ],
+        context="quantitative triangular graph transform",
+    ).passed
+
+
 def test_dimensionless_gate_result_composes_value_transform() -> None:
     epsilon2 = Quantity("epsilon^2", 0.25)
 
@@ -235,7 +364,6 @@ def test_exp_arguments_validates_batch_before_kernel_use() -> None:
     assert args.unwrap() == (0.31, 1.7)
 
 
-@requires_sympy
 def test_checker_preserves_unnamed_inverse_time_dimension() -> None:
     inverse_time = Dimension.TIME**-1
 
@@ -244,7 +372,6 @@ def test_checker_preserves_unnamed_inverse_time_dimension() -> None:
     assert not inverse_time.is_dimensionless()
 
 
-@requires_sympy
 def test_checker_preserves_mass_squared_and_composes_back_to_mass() -> None:
     mass_squared = Dimension.MASS**2
 
@@ -254,7 +381,6 @@ def test_checker_preserves_mass_squared_and_composes_back_to_mass() -> None:
     assert mass_squared / Dimension.MASS == Dimension.MASS
 
 
-@requires_sympy
 def test_registered_rate_has_nontrivial_dimensions() -> None:
     formulas = {formula.name: formula for formula in DimensionlessChecker().formulas}
 
@@ -264,76 +390,247 @@ def test_registered_rate_has_nontrivial_dimensions() -> None:
     assert not rate.is_dimensionless()
 
 
-@requires_sympy
 def test_clarus_field_gate_and_phase_score_are_registered_dimensionless() -> None:
     checker = DimensionlessChecker()
     formulas = {formula.symbol: formula for formula in checker.formulas}
 
     assert formulas["g_CF"].expected_dim == Dimension.DIMENSIONLESS
     assert formulas["chi_CF"].expected_dim == Dimension.DIMENSIONLESS
-    assert checker.check_formula(formulas["g_CF"])["status"].startswith("PASS")
-    assert checker.check_formula(formulas["chi_CF"])["status"].startswith("PASS")
+    _assert_formula_pass(checker, formulas["g_CF"])
+    _assert_formula_pass(checker, formulas["chi_CF"])
 
 
-@requires_sympy
 def test_unified_metric_surprise_and_condition_ratio_are_dimensionless() -> None:
     checker = DimensionlessChecker()
     formulas = {formula.symbol: formula for formula in checker.formulas}
 
     assert formulas["chi_UM"].expected_dim == Dimension.DIMENSIONLESS
     assert formulas["kappa_UM"].expected_dim == Dimension.DIMENSIONLESS
-    assert checker.check_formula(formulas["chi_UM"])["status"].startswith("PASS")
-    assert checker.check_formula(formulas["kappa_UM"])["status"].startswith("PASS")
+    _assert_formula_pass(checker, formulas["chi_UM"])
+    _assert_formula_pass(checker, formulas["kappa_UM"])
 
 
-@requires_sympy
 def test_v16_metric_flow_residual_and_regret_are_dimensionless() -> None:
     checker = DimensionlessChecker()
     formulas = {formula.symbol: formula for formula in checker.formulas}
 
     assert formulas["r_V16"].expected_dim == Dimension.DIMENSIONLESS
     assert formulas["rho_V16"].expected_dim == Dimension.DIMENSIONLESS
-    assert checker.check_formula(formulas["r_V16"])["status"].startswith("PASS")
-    assert checker.check_formula(formulas["rho_V16"])["status"].startswith("PASS")
+    _assert_formula_pass(checker, formulas["r_V16"])
+    _assert_formula_pass(checker, formulas["rho_V16"])
 
 
-@requires_sympy
 def test_v17_conditional_information_and_lift_margin_are_dimensionless() -> None:
     checker = DimensionlessChecker()
     formulas = {formula.symbol: formula for formula in checker.formulas}
 
     assert formulas["I_V17"].expected_dim == Dimension.DIMENSIONLESS
     assert formulas["delta_V17"].expected_dim == Dimension.DIMENSIONLESS
-    assert checker.check_formula(formulas["I_V17"])["status"].startswith("PASS")
-    assert checker.check_formula(formulas["delta_V17"])["status"].startswith("PASS")
+    _assert_formula_pass(checker, formulas["I_V17"])
+    _assert_formula_pass(checker, formulas["delta_V17"])
 
 
-@requires_sympy
 def test_v18b_reward_decoder_and_classifier_increment_are_dimensionless() -> None:
     checker = DimensionlessChecker()
     formulas = {formula.symbol: formula for formula in checker.formulas}
 
     assert formulas["y_tilde_V18b"].expected_dim == Dimension.DIMENSIONLESS
     assert formulas["delta_w_V18b"].expected_dim == Dimension.DIMENSIONLESS
-    assert checker.check_formula(formulas["y_tilde_V18b"])["status"].startswith("PASS")
-    assert checker.check_formula(formulas["delta_w_V18b"])["status"].startswith("PASS")
+    _assert_formula_pass(checker, formulas["y_tilde_V18b"])
+    _assert_formula_pass(checker, formulas["delta_w_V18b"])
 
 
-@requires_sympy
 def test_a4_a5_graph_metric_core_arguments_are_dimensionless() -> None:
     checker = DimensionlessChecker()
     formulas = {formula.symbol: formula for formula in checker.formulas}
 
     for symbol in ("a_A4", "r_w_A4", "chi_A5"):
         assert formulas[symbol].expected_dim == Dimension.DIMENSIONLESS
-        assert checker.check_formula(formulas[symbol])["status"].startswith("PASS")
+        _assert_formula_pass(checker, formulas[symbol])
 
 
-@requires_sympy
 def test_a6_pullback_and_reachability_ratios_are_dimensionless() -> None:
     checker = DimensionlessChecker()
     formulas = {formula.symbol: formula for formula in checker.formulas}
 
     for symbol in ("s_A6", "Lambda_A6", "delta_logV_A6", "rho_E_A6"):
         assert formulas[symbol].expected_dim == Dimension.DIMENSIONLESS
-        assert checker.check_formula(formulas[symbol])["status"].startswith("PASS")
+        _assert_formula_pass(checker, formulas[symbol])
+
+
+def test_history_edge_metric_ratios_are_registered_dimensionless() -> None:
+    checker = DimensionlessChecker()
+    formulas = {formula.symbol: formula for formula in checker.formulas}
+
+    for symbol in ("c_d_perp", "d_eff_mode", "eta_edge"):
+        assert formulas[symbol].expected_dim == Dimension.DIMENSIONLESS
+        _assert_formula_pass(checker, formulas[symbol])
+
+    assert "orthogonal projection" in formulas["c_d_perp"].notes
+    assert "identical" in formulas["d_eff_mode"].notes
+    assert "epsilon_A < m0" in formulas["eta_edge"].notes
+    assert checker.formula_parser_backend in {
+        "sympy.parse_expr",
+        "stdlib.ast.parse.syntax_only",
+    }
+    if not HAS_SYMPY:
+        assert checker.formula_parser_backend == "stdlib.ast.parse.syntax_only"
+
+
+def test_physical_scale_mobility_and_contraction_rate_units_close() -> None:
+    state = dim(0, 1, 0, 0)
+    energy = dim(1, 2, -2, 0)
+    time = dim(0, 0, 1, 0)
+    mobility = tuple(
+        2 * state_power - energy_power - time_power
+        for state_power, energy_power, time_power in zip(state, energy, time)
+    )
+
+    x0 = Quantity("state_reference", 2.0, state)
+    v0 = Quantity("energy_reference", 3.0, energy)
+    t0 = Quantity("time_reference", 5.0, time)
+    mu = Quantity("physical_mobility", 4.0 / 15.0, mobility)
+
+    normalized_mobility_dims = tuple(
+        mu_power + energy_power + time_power - 2 * state_power
+        for mu_power, energy_power, time_power, state_power in zip(
+            mu.dims, v0.dims, t0.dims, x0.dims
+        )
+    )
+    assert normalized_mobility_dims == DIMENSIONLESS
+
+    q = Quantity("window_contraction", 0.5)
+    z = Quantity("atanh_transform", (1.0 - q.value) / (1.0 + q.value))
+    assert audit_dimensionless(
+        [q, z], context="physical scale contraction core"
+    ).passed
+
+    velocity_dims = tuple(x - t for x, t in zip(x0.dims, t0.dims))
+    power_dims = tuple(v - t for v, t in zip(v0.dims, t0.dims))
+    rate_dims = tuple(-t for t in t0.dims)
+    assert velocity_dims == dim(0, 1, -1, 0)
+    assert power_dims == dim(1, 2, -3, 0)
+    assert rate_dims == dim(0, 0, -1, 0)
+
+
+def test_coupled_graph_transform_cross_lipschitz_normalization_closes() -> None:
+    base = dim(0, 1, 0, 0)
+    fiber = dim(1, 0, 0, 0)
+    x0 = Quantity("base_reference", 5.0, base)
+    y0 = Quantity("fiber_reference", 7.0, fiber)
+    fiber_to_base = Quantity(
+        "fiber_to_base_lipschitz", 5.0 / 56.0,
+        tuple(x - y for x, y in zip(base, fiber)),
+    )
+    base_to_fiber = Quantity(
+        "base_to_fiber_lipschitz", 7.0 / 40.0,
+        tuple(y - x for x, y in zip(base, fiber)),
+    )
+    graph_slope = Quantity(
+        "graph_slope", 7.0 / 5.0,
+        tuple(y - x for x, y in zip(base, fiber)),
+    )
+
+    fy_dims = tuple(
+        value + y - x
+        for value, y, x in zip(fiber_to_base.dims, y0.dims, x0.dims)
+    )
+    gx_dims = tuple(
+        value + x - y
+        for value, x, y in zip(base_to_fiber.dims, x0.dims, y0.dims)
+    )
+    slope_dims = tuple(
+        value + x - y
+        for value, x, y in zip(graph_slope.dims, x0.dims, y0.dims)
+    )
+    assert fy_dims == gx_dims == slope_dims == DIMENSIONLESS
+
+    core = [
+        Quantity("mu", 1.0),
+        Quantity("q", 0.5),
+        Quantity("alpha", 0.75),
+        Quantity("Q", 29.0 / 48.0),
+    ]
+    assert audit_dimensionless(core, context="coupled graph transform core").passed
+
+
+def test_weighted_residual_similarity_and_condition_penalty_are_dimensionless() -> None:
+    spectral = dim(0, 0, -1, 0)
+    inverse_spectral = tuple(-power for power in spectral)
+    node = Quantity("normalized_node_matrix", 2.0, spectral)
+    witness = Quantity("normalized_inverse_witness", 0.5, inverse_spectral)
+    weights = [Quantity("w1", 1.0), Quantity("w2", 3.0)]
+
+    residual_dims = tuple(a + b for a, b in zip(node.dims, witness.dims))
+    assert residual_dims == DIMENSIONLESS
+    assert audit_dimensionless(
+        weights
+        + [
+            Quantity("weight_condition_two", 3.0),
+            Quantity("weighted_q_one", 0.4),
+            Quantity("weighted_q_infinity", 0.5),
+        ],
+        context="weighted residual similarity core",
+    ).passed
+
+    transformed_node_dims = tuple(
+        -left + value + right
+        for left, value, right in zip(weights[0].dims, node.dims, weights[1].dims)
+    )
+    assert transformed_node_dims == spectral
+
+
+def test_c1_graph_derivative_variation_and_bunching_are_dimensionless() -> None:
+    base = dim(0, 1, 0, 0)
+    fiber = dim(1, 0, 0, 0)
+    hx_raw = Quantity(
+        "base_derivative_fiber_variation",
+        0.05,
+        tuple(-power for power in base),
+    )
+    hy_raw = Quantity(
+        "fiber_derivative_fiber_variation",
+        1.0 / 28.0,
+        tuple(-power for power in fiber),
+    )
+    x0 = Quantity("base_reference", 5.0, base)
+    y0 = Quantity("fiber_reference", 7.0, fiber)
+    hx_dims = tuple(h + x for h, x in zip(hx_raw.dims, x0.dims))
+    hy_dims = tuple(h + y for h, y in zip(hy_raw.dims, y0.dims))
+    assert hx_dims == hy_dims == DIMENSIONLESS
+    assert audit_dimensionless(
+        [
+            Quantity("q", 0.5),
+            Quantity("mu", 1.0),
+            Quantity("beta", 0.5),
+            Quantity("c_D", 0.5),
+        ],
+        context="C1 graph derivative bunching core",
+    ).passed
+
+
+def test_mixed_unit_tensor_mobility_congruence_closes_entrywise() -> None:
+    time = dim(0, 0, 1, 0)
+    energy = dim(1, 2, -2, 0)
+    coordinate_i = dim(0, 1, 0, 0)
+    coordinate_j = dim(0, 0, 0, 1)
+    mobility_ij = tuple(
+        xi + xj - e - t
+        for xi, xj, e, t in zip(coordinate_i, coordinate_j, energy, time)
+    )
+    normalized_entry_dims = tuple(
+        e + t - xi + m - xj
+        for e, t, xi, m, xj in zip(
+            energy, time, coordinate_i, mobility_ij, coordinate_j
+        )
+    )
+    assert normalized_entry_dims == DIMENSIONLESS
+
+    gradient_i = tuple(e - x for e, x in zip(energy, coordinate_i))
+    velocity_i = tuple(m + g for m, g in zip(mobility_ij, tuple(e - x for e, x in zip(energy, coordinate_j))))
+    assert velocity_i == tuple(x - t for x, t in zip(coordinate_i, time))
+    dissipation = Quantity("g_transpose_M_g", 2.0)
+    assert audit_dimensionless(
+        [dissipation, Quantity("tensor_rank", 2.0)],
+        context="mixed-unit tensor mobility core",
+    ).passed
