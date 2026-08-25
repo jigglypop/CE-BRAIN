@@ -26,11 +26,14 @@
     .codex/hooks/run.sh <cmd> ...     # POSIX
     .codex/hooks/run.cmd <cmd> ...    # Windows (프리빌드 바이너리 직행)
 
-- `init <run-dir>` — run 생성, `.active-run` 포인터 설정. `REUSE?` 목록이 나오면 새로 파지 말고 이어받는다.
+- `init <run-dir>` — 기존 run 재개 또는 새 run 생성. 활성 미완성 run이 있으면 새 폴더 생성이나 다른 기존 run으로의 전환 전에 `REUSE_REQUIRED`로 중단하고 포인터를 보존한다.
+- `init --new-contract <run-dir>` — 기존 목표·증거 계보와 독립인 새 연구 프로그램에만 사용한다. 같은 목표의 새 가설·데이터 판본·독립 확인·복구·추가 계산·감사·그림·논문 보완은 기존 `CE_RUN`의 epoch에서 한다.
 - `status <run-dir>` — 단계별 상태·Gate·수정 카운트를 한 화면에 출력. **run 현황 파악에 stage 파일을 다시 읽지 말고 이것을 쓴다.**
 - `check <run-dir> <contract|lanes|gate|build|final>` — 해당 단계까지 전체 체인 검사.
-- `revise <run-dir> <role>` — 수정 루프 기록. 역할당 2회 상한.
-- `gc <workspace>` — 완결 run을 `_archive/`로 이동, 미완성 run 나열. 세션 종료 시 실행.
+- `revise <run-dir> <role>` — 구현·측정 계열의 국소 수리 기록. 역할당 3회 상한이며, 한도 소진은 주장 축소나 `BLOCKED`의 근거가 아니다.
+- `counterexample <run-dir> <cex-id>` — 실패한 부모 주장과 재현 증인을 같은 run의 음성대조군으로 잠근다.
+- `pivot <run-dir> <cex-id> <route-id>` — 구조적으로 다른 기전 경로를 최소 3개 등록한 뒤 선택한 경로를 같은 run에서 연다. 역치·seed·endpoint·decoder만 바꾸는 재조정은 거부한다.
+- `gc <workspace>` — `.pin`, 활성 epoch, 외부 참조가 없는 완결 run만 `_archive/`로 옮기고 색인을 남긴다. 참조 경로와 미완성 run은 건드리지 않는다.
 
 ## 심각도 어휘 (모든 역할 공통)
 
@@ -45,7 +48,10 @@
 - PREDECESSOR가 있으면 선행 run이 검증한 결론을 재유도·재대조하지 않고 경로만 인용한다.
 - 상세 계산·로그·발췌는 artifacts/에 쓰고 stage 파일에는 판정·표·경로만 남긴다.
 - 레인 파일은 3–4만 자 재생성이 아니라 판정 중심의 짧은 문서다.
+- 상세 논문은 주제에 맞는 `docs/<분야>/<논문>/` 폴더에서 `00_논문목차.md`와 순서가 고정된 장별 Markdown으로 조립한다. 강의·유도도 길어지면 같은 입구+장 구조를 쓴다. `_workspace/`에는 논문 사본·초안·v2·final 사본을 만들지 않으며 `docs/README.md`와 분야 읽기 지도에는 목차 입구만 한 번 연결한다.
+- `40-final-report.md`는 `DOCS_PAPER: docs/<분야>/<논문>/00_논문목차.md`와 run 결론·증거 경로·현재 epoch 통합 여부만 적는 짧은 인계 기록이다. 장 본문을 중복하지 않는다.
 - `check final`은 앞 단계를 포함한다. 같은 상태에서 contract→lanes→gate→build→final을 연속 재실행하지 말고, 단계 전환에 필요한 check와 마지막 final을 각각 한 번만 실행한다.
+- `check final`은 `40-final-report.md`가 가리키는 `docs/` 내부 목차가 `## 논문 조립 순서`에서 장 파일을 순서대로 연결하고, 그 조립 전체가 초록·배경·방법/정의·결과/유도·논의·한계/반증·재현성·참고문헌을 갖추는지 검사한다. 장이 목차 폴더 밖이나 `_workspace/`를 가리키거나 같은 원고를 중복하면 실패한다. 실증 run의 수치 원장은 선택적 `35-result-ledger.md`로 같은 run에 둘 수 있다.
 
 ## 실행·캐시 규율
 
@@ -65,7 +71,7 @@
 - 교정 가능한 것은 구현 코드, 결과를 보기 전에 선언된 자유 파라미터, sourcer가 출처 검증한 기준선 갱신뿐이다. tolerance·fixture·cutoff·acceptance·endpoint·seed는 결과를 본 뒤 바꾸지 않는다.
 - 이론 검증의 수치 비교는 예측값·기준선(출처)·오차·잔차 $z$ 4열로 artifacts에 남긴다. $|z|\le1$은 관측 일치(증명 아님), $1<|z|\le3$은 tension(P2, 결론 의존 시 P1), $|z|>3$은 P0 후보로 루프 진입.
 - T(이론) 분류는 앞 5개 클래스의 기각 근거가 기록된 뒤에만 쓴다. 이론 잔차를 코드 수정으로 흡수해 green을 만들지 않는다 — T 확정은 실패가 아니라 산출이며 closure-gate로 회부한다.
-- **식 개정은 계약 수준 행위다** (`harnesses/empirical_calibration_loop.md` §8): T 확정 잔차만 근거가 되고, 구 판본은 반례와 함께 원장 보존, 새 판본은 새 계약·새 fixture, 강제한 관측 기준선(출처)을 명기한다. 관측 무차원 비율을 falsifier로 먼저 동결하고 자유 파라미터 수 < 재현 비율 수를 요구하며 비율별 개별 재조정을 금지한다.
+- **식 개정은 같은 run의 epoch 계약 행위다** (`harnesses/empirical_calibration_loop.md` §8): T 확정 잔차만 근거가 되고, 구 판본은 반례와 함께 음성대조군으로 보존한다. 새 판본은 새 동결 fixture와 강제한 관측 기준선(출처)을 명기한다. 관측 무차원 비율을 falsifier로 먼저 동결하고 자유 파라미터 수 < 재현 비율 수를 요구하며 비율별 개별 재조정을 금지한다.
 
 ## 네이티브 성능 경로 (Rust/CUDA)
 
@@ -87,16 +93,16 @@
 - 뇌/AGI `00-contract.md`는 최소한 `BIO_STARTING_MECHANISM`, `CE_DELTA`, `MEASUREMENT_MODEL`, `DATA_PROVENANCE`, `DATA_SPLIT`, `OBSERVABLES`, `RESIDUAL_RULE`, `FALSIFIER`, `MATCHED_CONTROLS`, `MODEL_SELECTION`, `REVISION_TRIGGER`, `CLAIM_CEILING`을 결과 확인 전에 고정한다. 실제 데이터·기전식·측정모형의 핵심 입력이 `UNVERIFIED`이면 채점 구현으로 진행하지 않는다.
 - **주축은 두 질문이다: (1) 실제 뇌가 그 연산을 쓰는가, (2) 실제 뇌 데이터로 반증을 시도했는가.** 시뮬레이터 성립은 보조 증거다. 정본은 `harnesses/brain_evidence_ladder.md` — 증거 사다리 L0(합성)→L1(관측 비율)→L2(창발 통계)→L3(실데이터 예측)→L4(개입 동일성)와 원시 연산 허용 목록을 따르고, 모든 뇌 run 기계 상태에 `BIO_EVIDENCE_Lx`를 명기한다.
 - **L4 이전에 "뇌가 이렇게 동작한다"를 쓰지 않는다.** L1–L3는 "정합"이다. 비허용 원시 연산(부호 자유 W, 알고리즘적 WTA, 전역 열거, 생물 대응 없는 supervisory 신호)을 쓴 run은 추상 알고리즘 트랙으로 강등하고 뇌 주장을 금지한다.
-- 새 뇌/기억/의식 run은 직전 실행의 `12-routes.md`, `31-validation.md`, 존재하면 `40-final-report.md`, 그리고 `_workspace/ce/brain-algorithm-route-ledger.md`를 먼저 읽는다. 40이 없으면 가장 늦은 numbered audit와 원장 행을 사용하고 closure 부재를 계약에 기록한다. 전체 artifact를 재독하거나 실패한 실험을 endpoint·threshold·seed만 바꿔 재시도하지 않는다.
+- 새 뇌/기억/의식 run은 직전 실행의 `12-routes.md`, `31-validation.md`, `40-final-report.md`가 가리키는 `docs/` 조립 목차와 필요한 장, 그리고 `_workspace/ce/brain-algorithm-route-ledger.md`를 먼저 읽는다. 연결 기록이 없으면 가장 늦은 numbered audit와 원장 행을 사용하고 closure 부재를 계약에 기록한다. 전체 artifact를 재독하거나 실패한 실험을 endpoint·threshold·seed만 바꿔 재시도하지 않는다.
 - 오케스트레이터는 양성처럼 보이는 수치가 아니라 사다리 승급 가능성, 인과 식별 가능성, 기존 STOP이 남긴 정보, 독립 반증 대조군, capability dependency 순서로 다음 후보를 고른다. 선택 근거와 기각·퇴역 경로를 00-contract에 고정한 뒤 레인을 연다.
 - simulator 결과는 실제 뇌의 증거로 자동 승격하지 않는다. L1 비율·L3 데이터는 sourcer 검증 기준선만 쓰고 UNVERIFIED 수치는 게이트에 넣지 않는다. 전역 원장은 후보·의존성·증거 경로·상태·다음 falsifier만 관리하고, 서사나 의식 동일시를 기록하지 않는다.
 
 ## 끈질김 (진취성 규율)
 
-- **BLOCKED는 최후 수단이다.** 막히면 (a) 우회 경로 후보 소진, (b) 주장 범위 축소로 좁은 정리 salvage, (c) 공리 1개 명시 추가 순으로 시도하고 기각 근거를 기록한 뒤에만 쓴다. BLOCKED에는 재개 조건이 필수다.
-- ABANDONED는 구조적 불가능(반례 확정·no-go·증거 원천 부재)의 근거가 있을 때만. 분량·피로·세션 길이는 사유가 아니다.
-- 부정 결과도 완결한다: 반례·기각으로 끝나는 run도 40-final-report.md까지 간다. 죽은 경로 확인은 실패가 아니라 산출이다.
-- revise 한도 소진은 run 포기 사유가 아니다 — 살릴 것을 좁혀 살리고 남는 결함만 BLOCKED로 보고서에 남긴다.
+- **BLOCKED는 최후 수단이다.** 한 후보식의 반례나 역할별 수리 한도만으로 쓰지 않는다. 반례를 잠근 뒤 서로 다른 상태·상호작용·측정·개입 구조의 경로를 최소 3개 만들고, 각 경로의 판별 예측·음성대조·봉인 split·중단 조건을 시험한다. 명시적 모델 클래스 no-go, 필요한 외부 자료의 부재, 또는 세 경로의 중단 조건이 모두 충족된 경우에만 재개 조건과 함께 쓴다.
+- ABANDONED는 명시한 모델 클래스의 구조적 불가능이나 증거 원천의 확정적 부재가 있을 때만 쓴다. 한 식의 반례, 분량·피로·세션 길이는 사유가 아니다.
+- 부정 결과도 완결한다. 반례·기각은 `docs/` 조립 논문의 해당 장과 짧은 `40-final-report.md` 인계 기록에 반영한다. 죽은 경로 확인은 실패가 아니라 산출이다.
+- revise 한도 소진은 run 포기나 목표 축소 사유가 아니다. 실패식을 음성대조군으로 고정하고 `counterexample → 세 기전 경로 → pivot`으로 전환한다. 좁혀서 참이 된 명제는 보존 결과일 뿐 돌파구 성공으로 세지 않는다.
 
 ## 데이터 반출 게이트
 

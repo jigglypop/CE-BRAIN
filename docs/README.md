@@ -36,7 +36,26 @@
 
 이론·사양 축: [AGI](7_AGI/1_AGI.md) → [Architecture](7_AGI/2_Architecture.md) → [Equation](7_AGI/12_Equation.md) → [BrainRuntimeSpec](7_AGI/14_BrainRuntimeSpec.md) → [CodeMap](7_AGI/18_CodeMap.md). 코드 변경 전 CodeMap을 확인한다.
 
-연구 루프 기록(23–42)은 run별 결론 문서다. 새 run 전에 선행 run의 routes·validation과 `_workspace/ce/brain-algorithm-route-ledger.md`를 읽는다.
+현재 실제 인간 뇌자료 논문: [인간 해마 세타자극 iEEG 재분석 목차](6_뇌/06_인간해마_세타자극_iEEG_재분석/00_논문목차.md). 공개 객체 18개 전수 계산, 임상 기준 후기 대비 $33.643\ \mu\mathrm V$, 인접 쌍극 기준 반례와 진행 중인 관측연산자 계산을 장별 본문으로 정리한다.
+
+연구 루프 기록(23–42)은 run별 결론 문서다. 후속 연구는 선행 run의 routes·validation과 `_workspace/ce/brain-algorithm-route-ledger.md`를 먼저 읽고, 같은 목표와 증거 계보라면 그 run의 epoch에서 이어간다.
+
+### 연구 run과 논문 완결
+
+같은 연구 질문·데이터 판본·endpoint의 후속 계산, 오류 복구, sensitivity,
+감사, 표·그림과 원고 보완은 새 workspace를 만들지 않고 기존 `CE_RUN`에서
+계속한다. 기본 `init`은 다른 미완성 run이 있으면 `REUSE_REQUIRED`로 새 폴더
+생성을 막는다. 기존 목표·증거 계보와 독립인 연구 프로그램일 때만 명시적인
+`--new-contract`를 사용한다. 자세한 규약은
+[실제 뇌 식 기반 발견 루프](../.codex/harnesses/real_brain_equation_discovery_loop.md)를
+따른다.
+
+연구 논문의 정본은 주제 폴더의 `00_논문목차.md`와 그 목차가 순서대로 조립하는 장 파일들이다. 새 결과는 해당 장을 제자리 갱신하며, README에는 목차 링크만 한 번 둔다. `_workspace/`에는 논문 사본·초안·v2·final 사본을 만들지 않고 증거와 짧은 `DOCS_PAPER` 인계만 둔다. 실증·뇌 논문은 제목·초록·연구 질문, 자료·코호트·판본, 측정·전처리·QC, 사전 고정 분석, 주 결과와 모든 대조·민감도·음성 결과, 대안 해석, 주장 상한과 한계, 다음 반증 조건, 재현 경로와 1차 참고문헌을 장별로 포함한다.
+
+반례는 논문을 줄이는 신호가 아니라 다음 식을 구별할 실험 입력이다. 실패한
+식과 증인을 음성대조군으로 고정하고, 같은 run에서 상태·상호작용·측정·개입
+구조가 다른 경로를 최소 3개 등록한 뒤 하나를 사전 선택해 계산한다. 좁혀서
+참이 된 문장은 보존 결과일 뿐 돌파구 성공으로 세지 않는다.
 
 ## 4. 검증 원장 (검증_원장)
 
