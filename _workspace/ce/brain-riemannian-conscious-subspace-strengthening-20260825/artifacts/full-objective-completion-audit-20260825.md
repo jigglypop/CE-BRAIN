@@ -19,7 +19,7 @@ large Riemannian/history-space and low-dimensional conscious-moment model.
 | Residual/Krawczyk candidate | residual, exact-witness, and weighted-similarity successors; residual 14/14; witness 14/14; weighted 16/16; complete contour chain 83/83 | Finite componentwise Banach residual, exact rational nominal witness generation, and one supplied diagonal similarity with conditioning translation are complete. Float-to-rational solver receipts, weight optimization, and block/dense geometry remain open. |
 | Real-data provenance before neural analysis | E1-lock final report; local receipt 18/18 | Source/runtime contract and local apparatus complete; remote session metadata receipt is unexecuted and requires explicit authorization. |
 | Measurement/statistical model | ledger CE-IDENT-002, CE-INTERVAL-004 | Missing estimator, simultaneous coverage, dependence/missingness, preprocessing, and held-out contract. Cannot be inferred without a selected data action. |
-| Nonlinear slow/conscious subspace | predecessor CE-SUBSPACE-005 plus triangular, coupled, and C1 graph-transform successors | Explicit triangular and affine coupled-base Lipschitz constants/margins and affine triangular C1 bunching/recurrence are proved and implemented, with graph/scale integration 123/123. Coupled/nonaffine/local $C^2$ and higher smoothness, a concrete brain vector field, and uniform empirical hypotheses remain missing. |
+| Nonlinear slow/conscious subspace | predecessor CE-SUBSPACE-005 plus triangular, coupled, C1, and nonaffine-C1 successors | Explicit triangular and affine coupled-base Lipschitz constants/margins and global nonaffine triangular C1 bunching/recurrence are proved and implemented, with graph/scale integration 155/155. Coupled/local $C^2$ and higher smoothness, a concrete brain vector field, and uniform empirical hypotheses remain missing. |
 | Physical time, mobility, energy interpretation | scalar physical-scale and mixed-unit tensor successors; scalar 23/23; tensor 21/21; dimensionless 29/29; graph/scale integration 145/145 | Homogeneous and finite mixed-unit tensor conversion, exact PSD/PD, conditional velocity/dissipation, and exact $-\log(q)/\Delta t$ enclosure are proved and implemented. Actual neural coordinate/energy/time scales, fitted mobility tensor, measured $q$, infinite/nonsymmetric operator split, and physical-energy identification remain absent. |
 | Consciousness and 4--6 identification | canonical §5.2/§9; ledger CE-DIM-* | Explicitly unachieved. Current neuroscience supports task/state-dependent low-dimensional population structure, not a unique consciousness dimension. |
 
@@ -32,8 +32,8 @@ norm and componentwise residual routes have now been completed after this audit
 began. A quantitative triangular nonlinear subcase has also been completed.
 Remaining internal work concerns approximate-solver rounding, weight
 optimization/block norms, and the
-coupled/nonaffine/local higher-smooth nonlinear route. The affine coupled-base
-Lipschitz and triangular C1 routes,
+coupled/local higher-smooth nonlinear route. The affine coupled-base Lipschitz
+and global nonaffine triangular C1 routes,
 exact rational witness rule,
 and finite scalar/mixed-unit tensor scale maps are now internally complete,
 but empirical calibration and infinite/nonsymmetric operator extensions remain

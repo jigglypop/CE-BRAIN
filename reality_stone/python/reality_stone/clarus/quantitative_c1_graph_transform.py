@@ -1,4 +1,4 @@
-"""Exact C1 bunching certificate for the affine triangular graph transform."""
+"""Exact C1 bunching certificate for a triangular C1-diffeomorphism base."""
 
 from __future__ import annotations
 
@@ -40,6 +40,14 @@ class C1GraphIterationBound:
     steps: int
     value_distance_upper: Fraction
     derivative_distance_upper: Fraction
+
+
+def sine_perturbed_base_inverse_lipschitz(amplitude_upper: object) -> Fraction:
+    """Return 1/(1-a) for phi(x)=x+a sin(x), requiring exact 0 <= a < 1."""
+    amplitude = _exact_fraction(amplitude_upper, "amplitude_upper")
+    if amplitude < 0 or amplitude >= 1:
+        raise ValueError("amplitude_upper must lie in the exact interval [0, 1)")
+    return Fraction(1) / (1 - amplitude)
 
 
 def quantitative_c1_triangular_graph_transform(
@@ -153,5 +161,5 @@ __all__ = [
     "QuantitativeC1GraphTransformCertificate",
     "c1_graph_iteration_bound",
     "quantitative_c1_triangular_graph_transform",
+    "sine_perturbed_base_inverse_lipschitz",
 ]
-

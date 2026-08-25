@@ -28,8 +28,9 @@ Date: 2026-08-25
 - `_workspace/ce/brain-weighted-residual-similarity-20260825/`
 - `_workspace/ce/brain-quantitative-c1-graph-transform-20260825/`
 - `_workspace/ce/brain-mixed-unit-tensor-mobility-20260825/`
+- `_workspace/ce/brain-nonaffine-triangular-c1-extension-20260825/`
 - `reality_stone/python/reality_stone/clarus/{e1_metadata_receipt,finite_contour_bounds,finite_riesz,history_edge_subspace,physical_scale_mobility,physical_tensor_mobility,quantitative_c1_graph_transform,quantitative_coupled_graph_transform,quantitative_graph_transform,verified_interval_contour,verified_interval_residual,verified_interval_tightening,verified_rational_contour,verified_weighted_interval_residual}.py`
-- `tests/test_{e1_metadata_receipt,exact_residual_witness_construction,finite_contour_bounds,finite_riesz,history_edge_subspace,physical_scale_mobility,physical_tensor_mobility,quantitative_c1_graph_transform,quantitative_coupled_graph_transform,quantitative_graph_transform,verified_interval_contour,verified_interval_residual,verified_interval_tightening,verified_rational_contour,verified_weighted_interval_residual}.py`
+- `tests/test_{e1_metadata_receipt,exact_residual_witness_construction,finite_contour_bounds,finite_riesz,history_edge_subspace,nonaffine_triangular_c1,physical_scale_mobility,physical_tensor_mobility,quantitative_c1_graph_transform,quantitative_coupled_graph_transform,quantitative_graph_transform,verified_interval_contour,verified_interval_residual,verified_interval_tightening,verified_rational_contour,verified_weighted_interval_residual}.py`
 - `tests/test_dimensionless.py`
 - `reality_stone/python/reality_stone/clarus/dimensionless_checker.py`
 
@@ -41,11 +42,12 @@ Date: 2026-08-25
 - `test_quantitative_c1_graph_transform.py`: 20/20
 - `test_physical_tensor_mobility.py`: 21/21
 - `test_verified_weighted_interval_residual.py`: 16/16
+- `test_nonaffine_triangular_c1.py`: 10/10
 - `test_dimensionless.py`: 29/29
 - triangular + coupled graph regression: 52/52
-- graph + coupled + C1 + scalar/tensor physical-scale + dimensionless integration: 145/145
+- graph + coupled + nonaffine C1 + scalar/tensor physical-scale + dimensionless integration: 155/155
 - rational contour through weighted residual and exact witness integration: 83/83
-- research final gates: physical scale, exact witness construction, coupled graph transform, weighted residual, C1 graph transform, and mixed-unit tensor mobility all `OK final`
+- research final gates: physical scale, exact witness construction, coupled graph transform, weighted residual, C1 graph transform, mixed-unit tensor mobility, and nonaffine triangular C1 extension all `OK final`
 
 ## Remaining unrelated or pre-existing dirt
 
