@@ -98,8 +98,10 @@ def acquire_channel_metadata(*, subject: str, channel: str, expected: Mapping[st
         if len(body) != identity["bytes"] or hashlib.sha256(body).hexdigest() != identity["sha256"]:
             raise RuntimeError(f"{STOP}:{extension} identity")
         bodies[extension] = body
-    if (identities["tmet"]["sha256"] != expected.get("tmet_sha256")
-            or identities["tmet"]["bytes"] != expected.get("tmet_bytes")
+    if ((expected.get("tmet_sha256") is not None
+            and identities["tmet"]["sha256"] != expected.get("tmet_sha256"))
+            or (expected.get("tmet_bytes") is not None
+                and identities["tmet"]["bytes"] != expected.get("tmet_bytes"))
             or identities["tidx"]["sha256"] != expected.get("tidx_sha256")
             or identities["tidx"]["bytes"] != expected.get("tidx_bytes")
             or identities["tdat"]["sha256"] != expected.get("tdat_sha256")
@@ -153,17 +155,18 @@ def decode_channel_windows(metadata: Mapping[str, Any], windows: Sequence[Sequen
                 handle.seek(start); handle.write(body)
         with patch.dict(os.environ, {"LOCALAPPDATA": temporary}), warnings.catch_warnings(record=True) as caught:
             warnings.simplefilter("always")
+            import mef3io
             import pymef
 
             mef = pymef.MefSession(str(session), "", check_all_passwords=True)
-            info = next(row for row in mef.get_channel_info() if row["name"] == channel)
-            factor = float(info["ufact"])
-            if (float(info["fsamp"]) != EXPECTED_FS_HZ or str(info["unit"]).strip().lower() != "microvolts"
-                    or not math.isfinite(factor) or factor == 0):
+            with mef3io.Reader(str(session), n_threads=1, cache=None) as reader:
+                info = reader.info(channel)
+            if (float(info["sampling_frequency"]) != EXPECTED_FS_HZ
+                    or str(info["units_description"]).strip().lower() != "microvolts"):
                 raise RuntimeError(f"{STOP}:sample time unit")
             decoded = [read_exact_sample_window(session, channel, int(start), int(end), allowed_channels=[channel],
                                                 total_samples=int(rows[-1]["start_sample"]) + int(rows[-1]["sample_count"]),
-                                                max_window_samples=MAX_EVENT_SAMPLES) * factor
+                                                max_window_samples=MAX_EVENT_SAMPLES)
                        for start, end in windows]
             warning_text = [str(item.message) for item in caught]
             if warning_text:
