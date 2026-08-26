@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import math
+import warnings
 
 import pytest
 import torch
@@ -11,6 +12,7 @@ from reality_stone.clarus.ce_ops import (
     DEFAULT_CB_W,
     build_metric_basis,
     ce_backend,
+    checked_sparse_csr_tensor,
     codebook_pull,
     has_cuda,
     has_rust,
@@ -21,6 +23,35 @@ from reality_stone.clarus.ce_ops import (
     relax,
     relax_packed,
 )
+
+
+def test_runtime_csr_construction_enables_invariant_checks():
+    from reality_stone.clarus.runtime import BrainRuntime, BrainRuntimeConfig
+
+    with warnings.catch_warnings(record=True) as caught:
+        warnings.simplefilter("always")
+        BrainRuntime(
+            torch.eye(4),
+            config=BrainRuntimeConfig(dim=4, dale_law=False),
+            backend="torch",
+        )
+
+    assert not any(
+        "Sparse invariant checks are implicitly disabled" in str(item.message)
+        for item in caught
+    )
+
+
+def test_checked_sparse_csr_tensor_rejects_invalid_row_pointer():
+    with pytest.raises(RuntimeError, match="crow_indices"):
+        checked_sparse_csr_tensor(
+            torch.tensor([0, 2, 1]),
+            torch.tensor([0, 1]),
+            torch.ones(2),
+            size=(2, 2),
+            device=torch.device("cpu"),
+            dtype=torch.float32,
+        )
 
 
 PORTAL = 0.031203

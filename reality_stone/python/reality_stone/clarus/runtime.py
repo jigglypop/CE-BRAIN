@@ -21,7 +21,7 @@ import numpy as np
 import torch
 
 try:
-    from .ce_ops import pack_sparse
+    from .ce_ops import checked_sparse_csr_tensor, pack_sparse
     from .constants import (
         MEMORY_TRACE_DECAY, ADAPTATION_DECAY, ADAPTATION_COUPLING,
         STP_TAU_FAC_INV, STP_TAU_REC, STP_U_BASE, ADAPTATION_CLAMP,
@@ -37,7 +37,7 @@ try:
         STDPConfig, EligibilityTracker, compute_learning_gate, apply_stdp_update,
     )
 except ImportError:
-    from reality_stone.clarus.ce_ops import pack_sparse
+    from reality_stone.clarus.ce_ops import checked_sparse_csr_tensor, pack_sparse
     from reality_stone.clarus.constants import (
         MEMORY_TRACE_DECAY, ADAPTATION_DECAY, ADAPTATION_COUPLING,
         STP_TAU_FAC_INV, STP_TAU_REC, STP_U_BASE, ADAPTATION_CLAMP,
@@ -637,14 +637,13 @@ class BrainRuntime:
         self.values = values.to(self.device)
         self.col_idx = col_idx.to(self.device)
         self.row_ptr = row_ptr.to(self.device)
-        self.sparse_weight = torch.sparse_csr_tensor(
+        self.sparse_weight = checked_sparse_csr_tensor(
             self.row_ptr.to(torch.int64),
             self.col_idx.to(torch.int64),
             self.values,
             size=self.weight.shape,
             device=self.device,
             dtype=self.weight.dtype,
-            check_invariants=False,
         )
 
         self.activation = torch.zeros(self.config.dim, device=self.device)
@@ -775,14 +774,13 @@ class BrainRuntime:
         self.values = values.to(self.device)
         self.col_idx = col_idx.to(self.device)
         self.row_ptr = row_ptr.to(self.device)
-        self.sparse_weight = torch.sparse_csr_tensor(
+        self.sparse_weight = checked_sparse_csr_tensor(
             self.row_ptr.to(torch.int64),
             self.col_idx.to(torch.int64),
             self.values,
             size=self.weight.shape,
             device=self.device,
             dtype=self.weight.dtype,
-            check_invariants=False,
         )
 
     def install_bounded_recurrent_delta(self, delta: torch.Tensor, *, max_frobenius_norm: float) -> float:

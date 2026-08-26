@@ -211,3 +211,87 @@ payload field. The earlier `development-index-plan-sub-1.json` and non-v4
 checkpoint are superseded apparatus history and are not admissible under v4.
 These index plans do not clear `APPARATUS_MEF3_SAMPLE_INDEX_STOP`; no development
 signal or confirmation subject was opened.
+
+## Active epoch official two-block capability execution
+
+The frozen `adjacent-block-executable-closure` route was re-executed against
+`ds004457 v1.0.2`, commit `1bbd3a0696c56b7dfd87020bc61092644a702d0a`,
+`sub-1/LV1`.  The command was:
+
+```text
+.codex\hooks\python.cmd python _workspace\ce\brain-human-ccep-reference-robust-replication-20260825\artifacts\id4_official_sample_index_fixture.py
+```
+
+The compact receipt is
+`artifacts/mef3-official-sample-index-receipt.json`, SHA-256
+`0f24d9de9e3257e5205e7bb33d43b3dcca3e94668254740c428b01e94fe7fd33`.
+It preserves both complete TIDX rows, the two exact TDAT ranges, source object
+hashes and S3 identities, 2,048-sample cross-library value identity, an empty
+warning list, cleanup `true`, and zero persistent raw bytes.  No BIDS trial,
+development endpoint, `sub-5` signal, or confirmation signal was opened.
+
+The post-receipt focused command covered the decoder, official fixture schema,
+apparatus, development range decoder, and endpoint arithmetic:
+
+```text
+.codex\hooks\python.cmd pytest artifacts\test_id4_sample_index_decoder.py artifacts\test_id4_official_sample_index_fixture.py artifacts\test_id4_ccep_apparatus.py artifacts\test_id4_development_signal.py artifacts\test_id4_development_endpoint.py -q
+
+7 passed in 9.25s
+```
+
+## Sub-1 development endpoint execution
+
+The outcome-blind execution amendment
+`artifacts/id4-bounded-signal-concurrency-amendment.md` freezes one-site-only
+processing with at most four concurrent one-channel temporary sessions. A
+source-only recount corrected its initial LA1-LA2-local 12-trial assumption to
+the frozen subject maximum: 346 events, 32 sites, and 23 trials at LB1-LB2.
+This correction changed no site, event, window, CAR75 rule, readout, split, or
+threshold. The independent status lane accepted the corrected capacity bound
+and released the first new receipt from quarantine without a signal rerun.
+
+`artifacts/development-site-sub-1-LB1-LB2.json` has SHA-256
+`1daaee8b610a1112d325feff56d873503cea41f51de78e7261226d1cdcfd13df`.
+It records 23 trials, 154/154 channel receipts, tile shape
+`[23,154,1127]`, site-tile bound 31,934,672 bytes, extra decoded bound
+829,472 bytes, configured/observed concurrency 4/4, cleanup true for every
+channel, no cross-site signal cache, and zero persistent raw bytes. This is a
+development endpoint receipt only; the full two-subject development gate and
+confirmation remain closed.
+
+The focused post-amendment validation was:
+
+```text
+.codex\hooks\python.cmd pytest artifacts\test_run_id4_sub1_development.py artifacts\test_id4_sample_index_decoder.py artifacts\test_id4_development_signal.py artifacts\test_id4_development_endpoint.py -q
+
+5 passed in 0.26s
+```
+
+The outcome-blind v2 execution amendment then raised only the per-site worker
+cap from four to eight. The v1 site set was frozen as `LB1-LB2`, `LB11-LB12`,
+`LB12-LB13`, `LB13-LB14`, and `LB2-LB3`; those receipts remain untouched.
+All remaining sub-1 sites use
+`artifacts/id4-bounded-signal-concurrency-amendment-v2.md`, with the unchanged
+31,934,672-byte site-tile bound and a 1,658,944-byte maximum extra decoded
+buffer. The independent status lane accepted v2 before any v2 endpoint was
+produced.
+
+## Frozen sub-1 development gate
+
+All 32 frozen sub-1 sites completed: 31 regular site receipts plus the separately
+frozen first-site receipt. The gate receipt references 32 unique SHA-256 values;
+all 32 match their current files. The represented exact-range payload is
+184,110,520 bytes, while persistent raw bytes remain zero.
+
+The final subject receipt is `artifacts/development-gate-sub-1.json`, SHA-256
+`2133e6b4124ab3c9ae68d43416d802eb850439c41958bec9f0b0cfa72d748f10`.
+It records 346 events, 32 sites, 154 channels, 642 directed edges and 110
+held-out pairs. Mean-contact repeatability is 0.6090033883473331 with
+early/prestim 2.0447901214209576, so that readout passes. Bipolar repeatability
+is 0.4953798448445255 with early/prestim 1.6191689540447336, so it fails the
+frozen `rho >= 0.50` conjunction. The resulting status is
+`APPARATUS_OR_EVOCATION_STOP`; confirmation serialization is false.
+
+Independent stable-snapshot audit found no P0/P1/P2 defect and required the run
+to stop before sub-5 signal acquisition. The close threshold is preserved
+without rounding or post-result retuning.

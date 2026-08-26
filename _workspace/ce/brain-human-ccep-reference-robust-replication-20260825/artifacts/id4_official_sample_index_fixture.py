@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import os
 import tempfile
 import warnings
@@ -162,7 +163,7 @@ def run_official_first_block_fixture(transport: FixtureTransport) -> dict[str, A
                         {"content_range": str(neighbor_range["content_range"]),
                          "sha256": _sha(neighbor), "bytes": len(neighbor), "role": "boundary-neighbor"}],
                     "closure_sha256": _sha(prefix), "closure_bytes": len(prefix)},
-        "first_toc_row": first, "second_toc_continuity": {
+        "first_toc_row": first, "second_toc_row": second, "second_toc_continuity": {
             "start_sample": second["start_sample"], "red_flags": second["red_flags"],
             "discontinuity": second["discontinuity"]}, "fs_hz": fs_hz, "units": units,
         "sample_window_half_open": [0, EXPECTED_FIRST_SAMPLES], "samples": len(direct),
@@ -177,3 +178,20 @@ def run_official_first_block_fixture(transport: FixtureTransport) -> dict[str, A
         "development_analysis_opened": False, "endpoint_evidence": False,
         "sub5_opened": False, "confirmation_opened": False, "cleanup": cleanup,
     }
+
+
+def main() -> None:
+    """Execute the frozen official fixture and persist its compact audit receipt."""
+    receipt = run_official_first_block_fixture(acquire.CurlTransport())
+    output = Path(__file__).with_name("mef3-official-sample-index-receipt.json")
+    serialized = json.dumps(receipt, indent=2, sort_keys=True) + "\n"
+    temporary = output.with_suffix(".json.tmp")
+    temporary.write_text(serialized, encoding="utf-8", newline="\n")
+    temporary.replace(output)
+    print(f"status={receipt['status']}")
+    print(f"receipt={output}")
+    print(f"receipt_sha256={hashlib.sha256(serialized.encode('utf-8')).hexdigest()}")
+
+
+if __name__ == "__main__":
+    main()

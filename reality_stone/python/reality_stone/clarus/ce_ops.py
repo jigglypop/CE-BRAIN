@@ -83,6 +83,44 @@ def ce_backend(device: torch.device, requested: str = "auto") -> str:
     raise ValueError(f"unknown CE backend: {requested}")
 
 
+def checked_sparse_csr_tensor(
+    crow_indices: torch.Tensor,
+    col_indices: torch.Tensor,
+    values: torch.Tensor,
+    *,
+    size: tuple[int, int],
+    device: torch.device,
+    dtype: torch.dtype,
+) -> torch.Tensor:
+    """Build a CSR tensor with structural invariant checks enabled.
+
+    Recent PyTorch releases require the sparse-invariant context manager to
+    opt in without emitting the unsafe-default warning.  Keep the keyword
+    fallback for older supported releases that do not expose that context.
+    """
+    checker = getattr(torch.sparse, "check_sparse_tensor_invariants", None)
+    kwargs = {
+        "size": size,
+        "device": device,
+        "dtype": dtype,
+    }
+    if checker is None:  # pragma: no cover - compatibility with older torch
+        return torch.sparse_csr_tensor(
+            crow_indices,
+            col_indices,
+            values,
+            check_invariants=True,
+            **kwargs,
+        )
+    with checker(enable=True):
+        return torch.sparse_csr_tensor(
+            crow_indices,
+            col_indices,
+            values,
+            **kwargs,
+        )
+
+
 def _as_cpu_numpy_flat(x: torch.Tensor):
     return x.detach().contiguous().view(-1).cpu().numpy()
 
@@ -252,14 +290,13 @@ def _spmv_torch(
     dim = x.numel()
     sparse = sparse_mat
     if sparse is None:
-        sparse = torch.sparse_csr_tensor(
+        sparse = checked_sparse_csr_tensor(
             row_ptr.to(torch.int64),
             col_idx.to(torch.int64),
             values,
             size=(dim, dim),
             device=x.device,
             dtype=x.dtype,
-            check_invariants=False,
         )
     return torch.sparse.mm(sparse, x.unsqueeze(1)).squeeze(1)
 
@@ -396,14 +433,13 @@ def _relax_packed_torch(
 
     sparse_mat = None
     if dense_w is None:
-        sparse_mat = torch.sparse_csr_tensor(
+        sparse_mat = checked_sparse_csr_tensor(
             row_ptr.to(torch.int64),
             col_idx.to(torch.int64),
             values,
             size=(m.numel(), m.numel()),
             device=m.device,
             dtype=m.dtype,
-            check_invariants=False,
         )
 
     w_m_probe = _spmv_torch(values, col_idx, row_ptr, m, sparse_mat=sparse_mat, dense_w=dense_w)

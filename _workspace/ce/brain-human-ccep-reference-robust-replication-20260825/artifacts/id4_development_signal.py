@@ -15,7 +15,7 @@ import numpy as np
 import id4_development_index_acquire as acquire
 from id4_ccep_apparatus import parse_tidx
 from id4_development_range_plan import EXPECTED_FS_HZ
-from id4_sample_index_decoder import read_exact_sample_window
+from id4_sample_index_decoder import read_exact_sample_windows
 
 STOP = "APPARATUS_DEVELOPMENT_SIGNAL_STOP"
 MAX_EVENT_SAMPLES = 1127
@@ -156,18 +156,17 @@ def decode_channel_windows(metadata: Mapping[str, Any], windows: Sequence[Sequen
         with patch.dict(os.environ, {"LOCALAPPDATA": temporary}), warnings.catch_warnings(record=True) as caught:
             warnings.simplefilter("always")
             import mef3io
-            import pymef
-
-            mef = pymef.MefSession(str(session), "", check_all_passwords=True)
             with mef3io.Reader(str(session), n_threads=1, cache=None) as reader:
                 info = reader.info(channel)
             if (float(info["sampling_frequency"]) != EXPECTED_FS_HZ
                     or str(info["units_description"]).strip().lower() != "microvolts"):
                 raise RuntimeError(f"{STOP}:sample time unit")
-            decoded = [read_exact_sample_window(session, channel, int(start), int(end), allowed_channels=[channel],
-                                                total_samples=int(rows[-1]["start_sample"]) + int(rows[-1]["sample_count"]),
-                                                max_window_samples=MAX_EVENT_SAMPLES)
-                       for start, end in windows]
+            decoded = read_exact_sample_windows(
+                session, channel, [(int(start), int(end)) for start, end in windows],
+                allowed_channels=[channel],
+                total_samples=int(rows[-1]["start_sample"]) + int(rows[-1]["sample_count"]),
+                max_window_samples=MAX_EVENT_SAMPLES,
+            )
             warning_text = [str(item.message) for item in caught]
             if warning_text:
                 raise RuntimeError(f"{STOP}:decoder warning:{warning_text[0]}")

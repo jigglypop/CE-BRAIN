@@ -14,6 +14,7 @@ FS_HZ = 2048
 FIXTURE_SAMPLES = 4097
 BLOCK_SAMPLES = 1024
 MAX_WINDOW_SAMPLES = 1127
+MAX_WINDOWS_PER_BATCH = 64
 PYMEF_VERSION = "1.4.8"
 MEF3IO_VERSION = "1.1.2"
 SAMPLE_INDEX_PASS = "PASS_CROSS_LIBRARY_SAMPLE_INDEX_FIXTURE"
@@ -43,11 +44,15 @@ def _pymef_version() -> str:
     return version
 
 
-def read_exact_sample_window(session_path: str | Path, channel: str, start: int, end: int,
-                             *, allowed_channels: Iterable[str], total_samples: int = FIXTURE_SAMPLES,
-                             max_window_samples: int = MAX_WINDOW_SAMPLES) -> np.ndarray:
-    """Read one exact half-open sample interval through pymef's sample API."""
-    _validate_window(start, end, total_samples=total_samples, max_window_samples=max_window_samples)
+def read_exact_sample_windows(session_path: str | Path, channel: str, windows: Iterable[tuple[int, int]],
+                              *, allowed_channels: Iterable[str], total_samples: int = FIXTURE_SAMPLES,
+                              max_window_samples: int = MAX_WINDOW_SAMPLES) -> list[np.ndarray]:
+    """Read a bounded set of exact intervals through one verified pymef session."""
+    requested = list(windows)
+    if not requested or len(requested) > MAX_WINDOWS_PER_BATCH:
+        raise ValueError(f"{SAMPLE_INDEX_STOP}:window batch")
+    for start, end in requested:
+        _validate_window(start, end, total_samples=total_samples, max_window_samples=max_window_samples)
     allowed = frozenset(str(item) for item in allowed_channels)
     if not allowed or channel not in allowed:
         raise RuntimeError(f"{SAMPLE_INDEX_STOP}:channel not allowed")
@@ -58,12 +63,25 @@ def read_exact_sample_window(session_path: str | Path, channel: str, start: int,
     import pymef
 
     session = pymef.MefSession(str(path), "", check_all_passwords=True)
-    values = np.asarray(session.read_ts_channels_sample(channel, [start, end]))
-    if values.ndim != 1 or len(values) != end - start or values.nbytes > max_window_samples * 8:
-        raise RuntimeError(f"{SAMPLE_INDEX_STOP}:sample cardinality")
-    if not np.all(np.isfinite(values)):
-        raise RuntimeError(f"{SAMPLE_INDEX_STOP}:nonfinite sample")
-    return values
+    output: list[np.ndarray] = []
+    for start, end in requested:
+        values = np.asarray(session.read_ts_channels_sample(channel, [start, end]))
+        if values.ndim != 1 or len(values) != end - start or values.nbytes > max_window_samples * 8:
+            raise RuntimeError(f"{SAMPLE_INDEX_STOP}:sample cardinality")
+        if not np.all(np.isfinite(values)):
+            raise RuntimeError(f"{SAMPLE_INDEX_STOP}:nonfinite sample")
+        output.append(values)
+    return output
+
+
+def read_exact_sample_window(session_path: str | Path, channel: str, start: int, end: int,
+                             *, allowed_channels: Iterable[str], total_samples: int = FIXTURE_SAMPLES,
+                             max_window_samples: int = MAX_WINDOW_SAMPLES) -> np.ndarray:
+    """Read one exact half-open sample interval through pymef's sample API."""
+    return read_exact_sample_windows(
+        session_path, channel, [(start, end)], allowed_channels=allowed_channels,
+        total_samples=total_samples, max_window_samples=max_window_samples,
+    )[0]
 
 
 def cross_library_sample_index_fixture() -> dict[str, Any]:
@@ -94,8 +112,11 @@ def cross_library_sample_index_fixture() -> dict[str, Any]:
         counts_b = [int(item) for item in toc_pymef[1]]
         if starts_a != starts_b or counts_a != counts_b or starts_a != [0, 1024, 2048, 3072, 4096]:
             raise RuntimeError(f"{SAMPLE_INDEX_STOP}:cross-library TOC identity")
-        for start, end in windows:
-            actual = read_exact_sample_window(path, "KNOWN", start, end, allowed_channels=["KNOWN"])
+        actual_windows = read_exact_sample_windows(path, "KNOWN", windows, allowed_channels=["KNOWN"])
+        single = read_exact_sample_window(path, "KNOWN", windows[0][0], windows[0][1], allowed_channels=["KNOWN"])
+        if not np.array_equal(single, actual_windows[0], equal_nan=False):
+            raise RuntimeError(f"{SAMPLE_INDEX_STOP}:batch identity")
+        for (start, end), actual in zip(windows, actual_windows):
             wanted = expected[start:end].astype(actual.dtype, copy=False)
             if not np.array_equal(actual, wanted, equal_nan=False):
                 raise RuntimeError(f"{SAMPLE_INDEX_STOP}:sample value identity")

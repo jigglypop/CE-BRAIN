@@ -18,3 +18,9 @@ def test_official_paths_are_frozen_and_cross_subject_safe():
                for path in paths.values())
     assert all(path.endswith("." + extension) for extension, path in paths.items())
     assert fixture._sha(b"known") == hashlib.sha256(b"known").hexdigest()
+
+
+def test_receipt_schema_preserves_both_full_toc_rows():
+    source = (HERE / "id4_official_sample_index_fixture.py").read_text(encoding="utf-8")
+    assert '"first_toc_row": first' in source
+    assert '"second_toc_row": second' in source
