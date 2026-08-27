@@ -12,6 +12,12 @@ circuit. That endpoint is UNVERIFIED.
 
 Access date: 2026-08-27
 
+## 실제 자료 출처 잠금
+
+개발 자료는 DANDI `001701`, immutable version `0.260120.0303`, DOI `10.48324/dandi.001701/0.260120.0303`이다. 사용 자산은 `sub-BaggySweatpants/sub-BaggySweatpants_ses-BaggySweatpants-DY15-g1_behavior+ecephys.nwb`, asset UUID `3f3d0b16-9b3e-42ac-a5e6-327829df1116`, 크기 `12,967,760` bytes, SHA-256 `5a2246041e421cd5b321adf9ccc40ba6f11379b40b08794c1b214590c50921f3`로 고정했다. 자료는 수컷 C57BL/6 mouse의 X-maze Neuropixels 세션이며 Units, LFP, position, compass direction을 포함한다. 라이선스는 CC-BY-4.0, 접근 상태는 OpenAccess다.
+
+출처 영수증은 `artifacts/epochs/real-dandi-001701/source-receipt.json`과 R1 pivot의 `source-receipt.json`에 있다. 확인 후보 DANDI `001695@0.260319.2023`은 R1 내부 gate를 모두 통과할 때만 열도록 봉인했으며, 실제로 열지 않았다.
+
 이 레인은 첨부문의 배경만 확인한다. 아래 문헌은 수학 정리
 $(G,W,\Phi)\Rightarrow(M,b)$를 증명하지 않으며, 실제 뇌가 계약의 정칙성·불변성
 가정을 만족한다는 증거로 쓰지 않는다.

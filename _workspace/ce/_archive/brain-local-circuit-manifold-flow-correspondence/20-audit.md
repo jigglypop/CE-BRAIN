@@ -4,6 +4,12 @@ Status: COMPLETE
 
 Gate: PASS
 
+## 실제 생물 자료 후속 감사
+
+DANDI `001701@0.260120.0303`의 고정 NWB 자산을 사용한 두 경험 endpoint는 모두 장치 결함 없이 유효한 음성 결과다. 전역 affine-fiber 후보는 persistence는 이겼지만 독립 조율한 full VAR에 대한 사전 고정 1% 우위, bootstrap 양의 하한, $q<1$, $q\kappa<1$을 통과하지 못했다. 후속 R1 행동-조절 후보도 `full VAR+input`과 `base+input`보다 나빴고 $q_{\max}=1.1061971>1$이었다.
+
+독립 상태 감사 판정은 두 endpoint 모두 `Gate: PASS — valid empirical STOP/FAIL, no apparatus defect found`다. 이 판정은 동결한 세션·측정모형·모형류의 경험적 다리만 중단한다. 조건부 구성 정리와 일반적인 시간 예측성은 반박하지 않는다. R1은 outcome-informed 개발이므로 독립 확인이 아니며, 내부 gate 실패에 따라 DANDI `001695`는 열지 않았다.
+
 ## Constructive successor audit
 
 The independent audit at

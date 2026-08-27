@@ -10,6 +10,12 @@ $M$, restricted dynamics, exact continuous lift, sensitivity, and a
 cost-conditioned metric. An NHIM claim remains open because tangent/normal
 domination is not assumed.
 
+## 실제 자료 구조 경로 판정
+
+전역 affine contracting-fiber 경험 모형은 DANDI `001701`의 동결 endpoint에서 `EMPIRICAL FAIL`이었다. persistence보다 시간 예측은 잘했지만 full VAR에 대한 1% 우위, bootstrap 양의 하한, 수축과 bunching을 모두 통과하지 못했다.
+
+그 실패 뒤 사전 등록한 세 구조 피벗은 행동-조절 섬유, 행동 상태별 국소 bundle, 지연·LFP 결합 동역학이었다. 첫 번째 R1만 열었고, 이는 원 결과를 본 뒤 제안했으므로 outcome-informed 개발로 제한했다. R1도 `full VAR+input`과 `base+input`을 이기지 못하고 $q_{\max}>1$이어서 `STOP`했다. 따라서 임계값이나 차원만 다시 조율하지 않고, 확인용 DANDI `001695`도 열지 않았다. 나머지 R2/R3은 이 실패를 우회한 성공으로 간주하지 않으며 별도의 새 계약 없이는 열리지 않는다.
+
 T2의 비닫힌 다양체 반례를 결과 뒤 문구 수정으로 숨기지 않고
 `artifacts/epochs/t2-open-manifold-escape/`에 잠갔다. 아래 경로는 서로 다른
 구조적 추가물을 사용한다.

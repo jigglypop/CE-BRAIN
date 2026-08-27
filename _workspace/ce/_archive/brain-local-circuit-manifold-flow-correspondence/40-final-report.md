@@ -49,3 +49,11 @@ binary64 witnesses are regression evidence only.  Actual neural mechanism,
 metric, consciousness, self, and AGI remain untested.  The counterexample epoch
 `t2-open-manifold-escape` and selected pivot `r1-closed-tangent` are integrated
 into the canonical paper and frozen ledgers.
+
+## 2026-08-27 실제 생물 자료 결론
+
+수학적 구성과 별도로 DANDI `001701@0.260120.0303`의 실제 mouse Neuropixels 세션을 검증했다. 전역 affine-fiber 경험 모형은 persistence보다 예측력이 있었으나 independently tuned full VAR에 대한 사전 고정 우위와 수축·bunching 조건을 실패했다. 이 실패 뒤 연 행동-조절 R1도 full VAR+input 및 base+input을 이기지 못했고 $q_{\max}>1$이었다. 두 결과 모두 독립 감사에서 장치 결함 없는 유효한 음성 결과로 통과했다.
+
+따라서 이 세션과 동결한 측정·모형류에서는 전역 또는 행동-조절 affine contracting-fiber 생물 다리를 보존하지 않는다. 조건부 수학 정리, persistence를 넘는 시간 예측성, 다른 상태·지연·LFP 구조의 가능성은 남는다. R1이 내부 gate를 실패했으므로 봉인된 DANDI `001695` 확인 자료는 열지 않았다.
+
+Integrated terminal pivot: `real-global-affine-fiber-fail/r1-behavior-controlled-fiber` — `EMPIRICAL STOP`.

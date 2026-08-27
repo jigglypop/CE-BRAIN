@@ -72,3 +72,9 @@ A zero exit status means the five deterministic binary64 predicates passed.  It
 does not establish the corresponding analytic results or an empirical neural
 correspondence.  The latter remains `UNTESTED`; the proof-level content is the
 conditional mathematics in `11-math.md`.
+
+## 실제 생물 자료 STANDARD 검증
+
+DANDI `001701`의 mouse Neuropixels X-maze 세션에서 295개 train-retained unit과 9,746개 100 ms bin을 분석했다. 전역 affine-fiber 후보 NMSE는 `0.9605288`, full VAR은 `0.9610054`였다. 상대 우위는 `0.0496%`로 1% gate에 못 미쳤고 paired block-bootstrap 95% 구간은 `[-0.1140, 0.4095]`였다. $q=1.09555$, $q\kappa=4.29341$이므로 수축·bunching도 실패했다.
+
+행동-조절 R1 후보 NMSE는 `0.9610331`, full VAR+input은 `0.9607531`, base+input은 `0.9563235`였다. 후보는 두 대조군보다 각각 `0.0291%`, `0.4925%` 나빴고 $q_{\max}=1.1061971$이었다. 실제 행동은 1초 이동 행동보다 예측력이 있었지만 구조적 우위 gate는 실패했다. 두 실행 모두 source hash와 임시 NWB 삭제를 확인했고 독립 감사가 유효한 `EMPIRICAL STOP/FAIL`로 판정했다. 확인용 DANDI `001695`는 열지 않았다.

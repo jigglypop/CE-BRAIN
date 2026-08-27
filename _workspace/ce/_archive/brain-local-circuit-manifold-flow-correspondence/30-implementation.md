@@ -42,3 +42,9 @@ theorems or counterexamples.  The proofs remain analytic: the circle identity is
 are injective and orientation-preserving on `R`; and the two displayed SPD
 metrics differ in the transverse direction despite agreeing on the listed drift
 facts.
+
+## 실제 DANDI 구현
+
+실제 자료 endpoint는 `artifacts/epochs/real-dandi-001701/analyze_real_dandi.py`와 `artifacts/epochs/real-global-affine-fiber-fail/pivots/r1-behavior-controlled-fiber/analyze_behavior_pivot.py`에 고정했다. 두 스크립트는 DANDI API에서 정확한 asset UUID를 받아 바이트 수와 SHA-256을 확인하고, 소유한 임시 디렉터리에서 NWB를 읽은 뒤 원 파일을 삭제한다. train-only unit retention·정규화·PCA, 시간순 train/development/test 분할, 독립 대조 모형 조율, test 선택 차단, 쌍체 block bootstrap을 구현했다.
+
+정본 재현 코드는 `docs/6_뇌/국소회로_상태다양체_흐름_대응/repro/`에 복사했다. 원 NWB는 저장하지 않고 집계 결과와 출처 영수증만 둔다.
