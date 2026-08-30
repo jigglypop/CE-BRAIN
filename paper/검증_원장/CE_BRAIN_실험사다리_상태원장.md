@@ -1,6 +1,6 @@
 # CE-BRAIN 실험 사다리 상태 원장
 
-Status: `REALIGNED / INDIVIDUAL_AXIS_SUPPORTED_ON_ONE_TARGET / STAGE3_NOT_AUTHORIZED`
+Status: `REALIGNED / PHASE2E_PASS / STAGE3_SCIENCE_GATE_OPEN_APPARATUS_GAP`
 
 이 원장은 사용자가 제공한 두 기준 문서, 곧 CE-BRAIN 전체 연구 로드맵과 실험 매뉴얼의 가설 계보를 현재 저장소의 실험 결과에 다시 맞춘다. 같은 `Stage` 번호를 쓰더라도 입력 자료, 반증 조건, 눈가림 절차가 다르면 같은 실험으로 인정하지 않는다.
 
@@ -22,7 +22,8 @@ Status: `REALIGNED / INDIVIDUAL_AXIS_SUPPORTED_ON_ONE_TARGET / STAGE3_NOT_AUTHOR
 | Phase 2 | `T(s,u)=A(s)B(u)` 대 `T(s,u)\neq A(s)B(u)` | **[산출: 완료]** 새 동물·새 전류 holdout에서 `STATE_INPUT_SEPARABLE_RETAINED` | M1 대 0효과/global gain 독립 확인 |
 | Phase 2C | 세 동물에 공통인 상태축이 새 동물에서도 맞는가 | **[산출: 실패]** 상태 차이는 있으나 `STATE_AXIS_NOT_ESTABLISHED` | 개체축·전류별 연산자·불안정성 경쟁 |
 | Phase 2D | 새 동물 내부에서 전류를 가로지르는 개체축이 안정적인가 | **[산출: 제한적 지지]** `INDIVIDUAL_AXIS_SUPPORTED`; 한 target 동물, recovery 없음 | recovery-bearing 다중전류 동물 복제 |
-| Stage 3 | 같은 전달행렬에서 metric/graph/operator 후보 경쟁 | **[미완성: 미실행]** | Phase 2 통과 후에만 실행 |
+| Phase 2E | 새 다중전류 동물에서 개체축과 recovery가 함께 재현되는가 | **[산출: 통과]** `INDIVIDUAL_AXIS_AND_RECOVERY_REPLICATED` | 개체 내부 Stage 3 계약 허용 |
+| Stage 3 | 같은 전달행렬에서 metric/graph/operator 후보 경쟁 | **[미완성: 과학 게이트 통과, 장치 부족]** 현재 자산은 MOs 단일 자극원이라 metric 공리를 식별 못 함 | 다중 자극원 perturbation 자산 적격성 감사 |
 | Stage 4 | 기능자료만으로 구조를 예측·해시한 뒤 MICrONS EM 공개 | **[미완성: 미실행]** | Stage 3 생존 후보를 고정한 뒤 anatomy-blind 절차로 실행 |
 | Stage 5 이후 | local/global manifold, 순환차원, 기억, 교정 | **[미완성: 미허가]** | 선행 단계 통과 전 실행 금지 |
 
@@ -114,3 +115,21 @@ Status: `REALIGNED / INDIVIDUAL_AXIS_SUPPORTED_ON_ONE_TARGET / STAGE3_NOT_AUTHOR
 **[긴장]** 20 μA 상태 대비는 permutation `p=0.655`였고, 40·60 μA만 `p=0.001`이었다. 또한 유효 recovery가 없다. 따라서 세 전류의 보편 상태축, 가역성, 국소 기하를 확립한 것으로 승격하지 않는다.
 
 **[다음 최소 증명 의무]** 유효 recovery가 있는 새 다중전류 동물에서 개체축을 독립 복제하고, 축 정렬과 awake 복귀를 함께 통과해야 Stage 3 후보 경쟁이 허용된다. 상세 결과와 영수증은 `CE_BRAIN_PHASE2D_개체축_연산자_결과.md`가 정본이다.
+
+## 11. Phase 2E 개체축·가역성 독립 복제
+
+미개봉 동물 551399의 40/60/80 μA 확인 자료에서 개체축 I는 0효과보다 오차를 80.29% 줄였고 bootstrap 하한은 59.75%였다. 전류별 독립 K는 I보다 32.29% 나빴다. recovery Q는 `0.722768 / 0.548705 / 0.447148`, 각 bootstrap 상한은 모두 1 미만이었다. 시간 전반·후반도 모두 Q<1이었다.
+
+**[산출]** 개체 내부 상태축과 awake 복귀가 새 다중전류 동물에서 함께 독립 재현됐다. Phase 2D의 단일 target 결과가 recovery-bearing 동물로 확장됐다.
+
+**[허가]** 개체별 좌표를 전제로 한 Stage 3 metric/graph/operator 후보 경쟁을 시작할 수 있다.
+
+**[한계]** 동물 공통 좌표축은 여전히 확립되지 않았다. Stage 3 허가는 개체 내부 후보 경쟁에만 적용되며, anatomy-blind Stage 4나 기억·교정 명제는 아직 미허가다. 상세 결과는 `CE_BRAIN_PHASE2E_개체축_가역성_복제_결과.md`가 정본이다.
+
+## 12. Stage 3 장치 준비도
+
+해시 검증된 다섯 DANDI 동물의 trial schema에서 자극원은 모두 `MOs` 하나뿐이었다. 따라서 역방향 쌍이 필요한 대칭성, 세 source가 필요한 삼각부등식, 여러 공간 perturbation 방향이 필요한 local quadraticity를 현재 자산으로는 식별할 수 없다.
+
+**[산출: 장치 한계]** Phase 2E는 Stage 3을 물리적으로 정당화했지만, 현재 DANDI 파일만으로 Riemannian/Finsler/graph/operator 전체 경쟁을 실행하도록 허가하지 않는다. 단일 source transition operator 보조분석은 가능하지만 geometry 승자 판정과는 분리한다.
+
+**[다음 최소 증명 의무]** 최소 세 자극원, 공통 receiver, 양방향 source pair, 반복 trial, held-out source를 갖춘 새 perturbation 자산을 endpoint-blind로 고정한다. 상세 감사는 `CE_BRAIN_STAGE3_준비도_감사.md`가 정본이다.

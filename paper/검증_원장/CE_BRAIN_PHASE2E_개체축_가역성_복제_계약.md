@@ -1,6 +1,8 @@
 # CE-BRAIN Phase 2E 개체축·가역성 독립 복제 계약
 
-Status: `DRAFT_PRE_RESULT`
+Status: `LOCKED_PRE_RESULT`
+
+잠금 근거: 확인 파형을 열지 않은 schema-only 영수증 `a56a2b6bbb4905a2f90c535f19b440075302705424c188a4b9af8caf080d1bc0`, 집중 단위시험 `5 passed`. 원시 자산의 크기·SHA-256, EEG schema, 상태×전류×split 수가 모두 계약과 일치했다.
 
 ## 1. 목표와 정렬 점검
 
