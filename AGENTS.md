@@ -29,6 +29,17 @@
 
 For pytest, disable the cache provider and use a unique temporary basetemp outside the repository. Never run an irreversible scientific stage as a routine validation.
 
+## Codex plan orchestration
+
+For every multi-step task, the plan update must make the following four items explicit in plain language:
+
+1. **Goal:** what concrete outcome the user is asking for.
+2. **Why this step:** how the current step contributes to that goal.
+3. **Goal clarity and drift:** whether the goal is clear, whether the work is still aligned, and any evidence of drift risk.
+4. **Next gate:** the observable pass, fail, stop, or user-decision condition that controls the next branch.
+
+Do not label apparatus preparation, data acquisition, or coordinate registration as a hypothesis result. If a planned action no longer contributes to the stated goal, stop that branch, record the mismatch, and replan before continuing. When explaining progress to a nontechnical reader, separate `준비됨`, `검사 중`, `지지됨`, `실패/미확립` so that implementation progress is not mistaken for scientific confirmation.
+
 ## Windows Python execution
 
 - Agent runs are non-interactive. Never wait for a `uv`, Python selector, security, or package-install prompt; use explicit arguments or stop with the exact prerequisite.
