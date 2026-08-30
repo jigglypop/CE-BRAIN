@@ -5,8 +5,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-LEDGER = ROOT / "docs" / "검증_원장" / "리만부분공간_의식순간_주장원장.md"
-NARRATIVE = ROOT / "docs" / "6_뇌" / "12_리만부분공간_의식순간_강화.md"
+LEDGER = ROOT / "paper" / "검증_원장" / "리만부분공간_의식순간_주장원장.md"
+NARRATIVE = ROOT / "paper" / "6_뇌" / "12_리만부분공간_의식순간_강화.md"
 
 
 def _read(path: Path) -> str:

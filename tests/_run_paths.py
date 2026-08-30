@@ -17,4 +17,17 @@ def run_dir(name: str) -> Path:
     local = _WS / "_archive" / name
     if local.exists():
         return local
-    return _RUNS / "_workspace" / "ce" / "_archive" / name
+    external = _RUNS / "_workspace" / "ce" / "_archive" / name
+    if external.exists():
+        return external
+    # Evidence lives only in the ce-runs sibling repo; without that checkout
+    # these tests cannot run, so skip instead of failing on a missing file.
+    try:
+        import pytest
+    except ImportError:
+        return external
+    pytest.skip(
+        f"CE run evidence '{name}' not found (set CE_RUNS_PATH or clone ce-runs "
+        f"next to this repo; looked in {_WS}, {_WS / '_archive'}, {external.parent})",
+        allow_module_level=True,
+    )

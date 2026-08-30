@@ -15,13 +15,10 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-CLARUS_ROOT = ROOT / "reality_stone" / "python" / "reality_stone"
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
-if str(CLARUS_ROOT) not in sys.path:
-    sys.path.insert(0, str(CLARUS_ROOT))
 
-from clarus.llm_pre_eq import ClaimResidualVerifierConfig  # noqa: E402
+from reality_stone.clarus.llm_pre_eq import ClaimResidualVerifierConfig  # noqa: E402
 
 from examples.pre_eq.claim_residual_benchmark import (  # noqa: E402
     calibrate_thresholds,

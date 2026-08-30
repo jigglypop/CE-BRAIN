@@ -1,23 +1,15 @@
 from __future__ import annotations
 
-import argparse
-import json
-from pathlib import Path
-
 from reality_stone.clarus.hazard_mixture_benchmark import evaluate_hazard_ensemble
+
+try:
+    from examples.agi._bench_main import bench_main
+except ImportError:  # direct script execution: examples/agi is sys.path[0]
+    from _bench_main import bench_main
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--output", type=Path)
-    args = parser.parse_args()
-    result = evaluate_hazard_ensemble()
-    payload = json.dumps(result, indent=2, sort_keys=True)
-    print(payload)
-    if args.output:
-        args.output.parent.mkdir(parents=True, exist_ok=True)
-        args.output.write_text(payload + "\n", encoding="utf-8")
-    return 0 if result["hard_gate"] else 2
+    return bench_main(evaluate_hazard_ensemble)
 
 
 if __name__ == "__main__":

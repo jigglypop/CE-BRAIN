@@ -442,7 +442,7 @@ $a_i$는 국소 활성, $r_i$는 refractory 상태, $M_t$는 소프트웨어 모
 | [`examples/agi/`](examples/agi/) | 각 계산 가설의 격리된 예제와 gate |
 | [`tests/`](tests/) | 회귀, 불변량, 실패 경계 |
 
-수학과 구현의 자세한 대응은 [AGI 개요](docs/7_AGI/1_AGI.md), [식](docs/7_AGI/12_Equation.md), [runtime 명세](docs/7_AGI/14_BrainRuntimeSpec.md), [코드 지도](docs/7_AGI/18_CodeMap.md)에서 확인할 수 있다.
+수학과 구현의 자세한 대응은 [AGI 개요](paper/7_AGI/1_AGI.md), [식](paper/7_AGI/12_Equation.md), [runtime 명세](paper/7_AGI/14_BrainRuntimeSpec.md), [코드 지도](paper/7_AGI/18_CodeMap.md)에서 확인할 수 있다.
 
 ## 검증 사다리와 다음 실험
 
@@ -469,13 +469,13 @@ Windows에서는 먼저 아래 명령으로 사용할 Python 경로와 기본 �
 
 이 탐색 순서는 `tests._run_paths.run_dir`가 구현한다. 위 focused test도 계산적 self-monitoring 인터페이스의 회귀 검사이지 주관적 의식 시험이 아니다.
 
-저장소는 2026-08-23에 ce-monorepo의 bca0df1에서 git filter-repo로 분리된 이력이 있다. 레거시 타도메인 호환 사본은 이 연구의 근거나 현재 결과가 아니다. 현재 주장·결과의 상태는 [뇌 알고리즘 route ledger](_workspace/ce/brain-algorithm-route-ledger.md)와 [증거 기준](docs/검증_원장/뇌_검증기준.md)에서 먼저 확인한다.
+저장소는 2026-08-23에 ce-monorepo의 bca0df1에서 git filter-repo로 분리된 이력이 있다. 레거시 타도메인 호환 사본은 이 연구의 근거나 현재 결과가 아니다. 현재 주장·결과의 상태는 [뇌 알고리즘 route ledger](_workspace/ce/brain-algorithm-route-ledger.md)와 [증거 기준](paper/검증_원장/뇌_검증기준.md)에서 먼저 확인한다.
 
 ## 문서 읽기 지도
 
-처음 읽는 독자는 이 README 다음에 [문서 전체 지도](docs/README.md), [뇌 읽기 지도](docs/6_뇌/00_읽기지도.md), [리만 계량 라우팅 논문](docs/6_뇌/11_리만계량_라우팅_논문.md)을 읽어 용어와 출발 가정을 잡으면 된다. 이어 [유한 관측 no-go 보고서](_workspace/ce/brain-finite-observation-metric-nonidentifiability-20260824/40-final-report.md)와 BA-OBS-ID1·ID2 보고서에서 관측이 계량을 어디까지 식별할 수 있는지 확인한다. 실제 자료의 경계는 [BA-OBS-ID3 최종 보고서](_workspace/ce/brain-human-ccep-restricted-active-response-20260824/40-final-report.md), 음성 결과의 중요성은 위 DISC1, 그리고 새 다환자 거리 결과는 [DISC2R 구현](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/30-implementation.md) → [검증](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/31-validation.md) → [최종 보고서](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/40-final-report.md) 순서로 읽으면 된다. 이 결과들은 경쟁하지 않으며 각기 다른 관측량과 주장 상한을 갖는다.
+처음 읽는 독자는 이 README 다음에 [문서 전체 지도](paper/README.md), [뇌 읽기 지도](paper/6_뇌/00_읽기지도.md), [리만 계량 라우팅 논문](paper/6_뇌/11_리만계량_라우팅_논문.md)을 읽어 용어와 출발 가정을 잡으면 된다. 이어 [유한 관측 no-go 보고서](_workspace/ce/brain-finite-observation-metric-nonidentifiability-20260824/40-final-report.md)와 BA-OBS-ID1·ID2 보고서에서 관측이 계량을 어디까지 식별할 수 있는지 확인한다. 실제 자료의 경계는 [BA-OBS-ID3 최종 보고서](_workspace/ce/brain-human-ccep-restricted-active-response-20260824/40-final-report.md), 음성 결과의 중요성은 위 DISC1, 그리고 새 다환자 거리 결과는 [DISC2R 구현](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/30-implementation.md) → [검증](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/31-validation.md) → [최종 보고서](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/40-final-report.md) 순서로 읽으면 된다. 이 결과들은 경쟁하지 않으며 각기 다른 관측량과 주장 상한을 갖는다.
 
-문서마다 숫자나 식이 있어도 동일한 지위를 갖지는 않는다. 정의는 기호를 정할 뿐이고, 공리는 채택한 물리 사상이며, 경험식은 관측 비교의 압축이다. 이 구분과 반례·미완성 항목은 [검증 원장](docs/검증_원장/뇌_검증기준.md)에서 추적한다. 이 README는 원장을 바꾸지 않고 독자가 그 경계를 읽을 수 있게 연결한다.
+문서마다 숫자나 식이 있어도 동일한 지위를 갖지는 않는다. 정의는 기호를 정할 뿐이고, 공리는 채택한 물리 사상이며, 경험식은 관측 비교의 압축이다. 이 구분과 반례·미완성 항목은 [검증 원장](paper/검증_원장/뇌_검증기준.md)에서 추적한다. 이 README는 원장을 바꾸지 않고 독자가 그 경계를 읽을 수 있게 연결한다.
 
 ## 현재 위치와 남은 문제
 
