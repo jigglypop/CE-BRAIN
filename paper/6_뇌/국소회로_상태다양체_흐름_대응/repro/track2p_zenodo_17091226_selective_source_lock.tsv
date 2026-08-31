@@ -1,0 +1,4 @@
+role	record_id	object	bytes	checksum_type	checksum_or_rule	url	local_path
+container_manifest	17091226	data.zip/container	155429	sha256	3cfb18334b413a0ceaa307cdf328750f3fe3f7b5e2b88b6d4b5e1b178375fc25	https://zenodo.org/api/records/17091226/files/data.zip/container	data/external/track2p_zenodo_17091226/container_manifest.json
+selection	17091226	selected_members	4294515444	provider_crc32_per_member	/(move_deve/(interframe_int|tstamps|motion_energy_glob)|suite2p/plane0/(spks|stat|iscell))\.npy$ OR /ground_truth\.csv$	https://zenodo.org/api/records/17091226/files/data.zip/container/{member_key}	data/external/track2p_zenodo_17091226/selected/
+shape	17091226	selected_members	249	count	6_subjects_41_sessions_249_files	NA	NA

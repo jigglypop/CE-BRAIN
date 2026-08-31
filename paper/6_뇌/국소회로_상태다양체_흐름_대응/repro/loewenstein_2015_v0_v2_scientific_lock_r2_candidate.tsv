@@ -1,0 +1,30 @@
+key	value
+schema_version	ce_npf_loewenstein_2015_v0_v2_execution_lock_v1
+real_data_fit_authorized	false
+comparison_contract_sha256	a7fbc541b07bc47806ccba4836647826d4b125b2b4ff265387817cf09e78a93e
+rust_source_sha256	23094cb23b3d14e9384b55270b0d887147d7dd7e8cbef9b85da6564796891e8e
+wrapper_sha256	3a0b4c5d389db90d0582c2aebc6a6e2973c89eb7a8c1855ad3503d237e07ac0e
+source_manifest_sha256	8209a09886b9322a02308f1dceff8d3805462c715135f79e28e1ab1e166b0630
+preflight_auditor_sha256	a1b68ad6820055ba305058d7b5f646626df2842dd628a2401a95f785b4f600cc
+preflight_receipt_sha256	2ce71a85cd25c5da3d26c74f14aeb6c2d23daafa7fe3485b77567ddce619f517
+preflight_decision	PARTIAL_MODEL_ELIGIBILITY
+raw_csv_sha256	2f6343606f62abb07b82491a71f0e4a4a898923d2bcf86aa4be8d596276d0062
+raw_csv_bytes	569938
+dictionary_sha256	995bdb601f6ff71cd5877486dfdd0576db576c15effcc8c52db560eb523d9657
+dictionary_bytes	4850
+rowset_sha256	127bf184fe88cd04c727f39c719e7ee0931c6bd1264338bb1b9b30dfff38fcd4
+comparison_rows	2723
+comparison_events	1459
+age_rows	1861,557,219,86
+age_events	1122,249,66,22
+cell_rows	529,151,404,433,419,401,353,33
+cell_events	321,72,201,231,229,202,185,18
+model_feature_order	V0:intercept;V1:intercept,age_4d,age_8d,age_12d;V1Z:intercept,age_4d,age_8d,age_12d,z_offset_standardized;V2:intercept,age_4d,age_8d,age_12d,z_offset_standardized,log_intensity_standardized,shape_standardized,log_distance_standardized
+numerical_tolerance_profile	mode_score=1e-10;mode_step=1e-10;mode_iters=50;optimizer_internal_gradient=1e-8;optimizer_gate_gradient=1e-6;optimizer_iters=400;optimizer_evals=5000;armijo=1e-4;line_shrink=0.5;multistart_objective=1e-8;boundary_gain=1e-8;parameter_order=1e-3;cv_order=1e-5;cell_quadrature=1e-6;hessian_condition=1e10;beta_guard=20;sigma=[1e-6,10];sign_zero=1e-12;gain_epsilon=ln1.01;cell_guard=ln1.05;synthetic=C2015.21
+self_test_core_sha256	ed13230bb3497a8a482e72ccd2acf40af09d2cd3c2078d9d43cabc31b7aec697
+rustc_version	rustc 1.95.0 (59807616e 2026-04-14)
+rustc_verbose_sha256	185aa337caf524a621d7b1ce7b21a4d6f92f3ea592d009e481fea0e00e0d0434
+rustc_host	x86_64-pc-windows-msvc
+rustc_executable_sha256	86478e53f769379d7f0ebfa7c9aa97cb76ca92233f79aa2cc0dbee2efaac73c7
+compile_flags	--edition=2021 -C opt-level=3 -C debuginfo=0 -C overflow-checks=yes -C target-feature=-fma -C codegen-units=1
+runtime_threads	1

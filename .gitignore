@@ -99,6 +99,19 @@ target/
 !/artifacts/agi/*.json
 !/artifacts/biology/
 !/artifacts/biology/origin_life_*.json
+!/artifacts/brain/
+!/artifacts/brain/ce_brain_plasticity_metric_sensitivity_v1/
+!/artifacts/brain/ce_brain_plasticity_metric_sensitivity_v1/receipt.json
+!/artifacts/brain/ce_brain_hybrid_saltation_metric_sensitivity_v1/
+!/artifacts/brain/ce_brain_hybrid_saltation_metric_sensitivity_v1/receipt.json
+!/artifacts/brain/ce_brain_ctmc_marginal_fisher_v1/
+!/artifacts/brain/ce_brain_ctmc_marginal_fisher_v1/receipt.json
+!/artifacts/brain/ce_npf_aind_bci_e1_source_schema_v1/
+!/artifacts/brain/ce_npf_aind_bci_e1_source_schema_v1/receipt.json
+!/artifacts/brain/ce_npf_aind_bci_e1_selected_input_preflight_v1/
+!/artifacts/brain/ce_npf_aind_bci_e1_selected_input_preflight_v1/receipt.json
+!/artifacts/brain/ce_npf_loewenstein_spine_preflight_v1/
+!/artifacts/brain/ce_npf_loewenstein_spine_preflight_v1/receipt.json
 !/artifacts/physics/
 !/artifacts/physics/public_resonance_source_manifest.json
 

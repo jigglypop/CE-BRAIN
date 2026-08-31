@@ -1,0 +1,3 @@
+role	osf_node	file_guid	file	bytes	checksum_type	checksum	download_url	license_status	local_path
+source	e2syt	9mecf	exported_data.tar.gz	523093816	sha256	d6e7b3d93175b40b7ae17bde2182835e9c2144388142c522ee9be3832f6ce836	https://osf.io/download/9mecf/	OSF-node-license-null_internal-analysis-only	data/external/randi_2023_osf_e2syt/exported_data.tar.gz
+source	e2syt	ty6sp	exported_data_unc31.tar.gz	84924311	sha256	8b99f6610dbb2d6ab0b8dd6ad15646fe1c120da25dd9bb725f36f530b2af321a	https://osf.io/download/ty6sp/	OSF-node-license-null_internal-analysis-only	data/external/randi_2023_osf_e2syt/exported_data_unc31.tar.gz

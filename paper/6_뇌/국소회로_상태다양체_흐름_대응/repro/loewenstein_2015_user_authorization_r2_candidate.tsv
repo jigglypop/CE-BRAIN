@@ -1,0 +1,11 @@
+key	value
+schema_version	ce_npf_loewenstein_2015_user_fit_authorization_r2
+decision	PENDING
+run_spec_sha256	01e797030c33e89b7283d99ebdc0a8f80a6c71747f0eccd1b8ed790a43d2a2bd
+scope	V0,V1,V1Z,V2/2723_rows/1459_events/8_cell_LOCO/recataloguing_prediction_only
+decision_scope	WITHIN_PIPELINE_DESCRIPTIVE_PREDICTION_ONLY
+claim_ceiling	BIO_EVIDENCE_L0
+run_id	PENDING-RUN-ID
+issuer	PENDING
+issued_at_utc	PENDING
+expires_at_utc	PENDING

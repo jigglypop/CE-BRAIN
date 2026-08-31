@@ -1,0 +1,457 @@
+{
+    "schema_version":  "ce_npf_loewenstein_spine_preflight_v1",
+    "decision":  "PARTIAL_MODEL_ELIGIBILITY",
+    "endpoint_fit_executed":  false,
+    "biological_hypothesis_tested":  false,
+    "claim_ceiling":  "INPUT_ELIGIBILITY_ONLY_BIO_EVIDENCE_L0",
+    "source_lock_pass":  true,
+    "content_identity_pass":  true,
+    "source_lock_semantics":  "live_unversioned_host_content_identity_only",
+    "long_term_availability_locked":  false,
+    "schema_preflight_pass":  true,
+    "source_script_sha256":  "A1B68AD6820055BA305058D7B5F646626DF2842DD628A2401A95F785B4F600CC",
+    "source_manifest_sha256":  "8209A09886B9322A02308F1DCEFF8D3805462C715135F79E28E1AB1E166B0630",
+    "source_locks":  [
+                         {
+                             "source_id":  "loewenstein_2015_publication_data",
+                             "uri":  "https://decision-making-lab.com/data/spines/publication_data.csv",
+                             "upstream_versioned":  false,
+                             "bytes":  569938,
+                             "sha256":  "2F6343606F62ABB07B82491A71F0E4A4A898923D2BCF86AA4BE8D596276D0062",
+                             "etag":  "8b252-5cb8b404a82eb",
+                             "last_modified_utc":  "2021-09-09T07:50:23Z",
+                             "raw_vendored":  false
+                         },
+                         {
+                             "source_id":  "loewenstein_2015_data_dictionary",
+                             "uri":  "https://decision-making-lab.com/data/spines/spines.html",
+                             "upstream_versioned":  false,
+                             "bytes":  4850,
+                             "sha256":  "995BDB601F6FF71CD5877486DFDD0576DB576C15EFFCC8C52DB560EB523D9657",
+                             "raw_vendored":  false
+                         }
+                     ],
+    "source_rights":  {
+                          "license_status":  "not_stated",
+                          "redistribution_policy":  "metadata_and_hash_only_no_raw_vendoring",
+                          "analysis_download_only":  true,
+                          "governance_release_status":  "GOVERNANCE_RELEASE_STOP_DATASET_LICENSE_UNSPECIFIED"
+                      },
+    "canonical_source_column_schema_sha256":  "5F695DB3EE5F4818E1E580D447E5D5BF1AC6F5FE64D3D3A16338CF91012BD718",
+    "canonical_source_schema_uses_upstream_spine_terminology":  true,
+    "state_semantics":  {
+                            "row_present":  "author_catalogued_lateral_dendritic_protrusion_at_session_filopodia_not_separated",
+                            "row_absent":  "not_catalogued_at_session_under_unverified_branch_coverage",
+                            "latent_synaptic_contact_truth_observed":  false,
+                            "conducting_state_observed":  false,
+                            "presynaptic_parent_observed":  false,
+                            "postsynaptic_cell_index_observed":  true
+                        },
+    "biological_scope":  {
+                             "paper_doi":  "10.1523/JNEUROSCI.2917-14.2015",
+                             "preparation":  "approximately_six_month_adult_male_GFP_M_mice",
+                             "paper_reported_mouse_count":  6,
+                             "region":  "auditory_cortex",
+                             "cell_class":  "layer_5_pyramidal_neuron",
+                             "compartment":  "apical_tuft",
+                             "filopodia_separated_from_spines":  false,
+                             "lateral_orientation_selected":  true,
+                             "axial_resolution_orientation_confound":  true,
+                             "paper_describes_cross_session_tracking_procedure":  true,
+                             "quantitative_detection_or_reidentification_error_calibration_available":  false,
+                             "allowed_endpoint":  "next_session_recataloguing_of_author_catalogued_lateral_protrusion_with_filopodia_not_separated"
+                         },
+    "clock":  {
+                  "session_ids":  [
+                                      1,
+                                      2,
+                                      3,
+                                      4,
+                                      5,
+                                      6
+                                  ],
+                  "protocol_interval_days":  4,
+                  "derived_session_times_days":  [
+                                                     0,
+                                                     4,
+                                                     8,
+                                                     12,
+                                                     16,
+                                                     20
+                                                 ],
+                  "exact_acquisition_timestamps_available":  false,
+                  "allowed_time_claim":  "scheduled_four_day_interval_scale_only"
+              },
+    "entity_counts":  {
+                          "animals":  null,
+                          "cells":  8,
+                          "dendrites":  48,
+                          "spines":  3688,
+                          "biparent_contacts":  null
+                      },
+    "observation_counts":  {
+                               "rows":  8699,
+                               "dendrite_session_nonempty_combinations":  288,
+                               "duplicate_entity_session_keys":  0,
+                               "noncontiguous_presence_histories":  0,
+                               "rows_per_session":  {
+                                                        "1":  1420,
+                                                        "2":  1515,
+                                                        "3":  1537,
+                                                        "4":  1373,
+                                                        "5":  1466,
+                                                        "6":  1388
+                                                    },
+                               "presence_patterns":  {
+                                                         "1":  422,
+                                                         "12":  186,
+                                                         "123":  105,
+                                                         "1234":  56,
+                                                         "12345":  72,
+                                                         "123456":  579,
+                                                         "2":  287,
+                                                         "23":  107,
+                                                         "234":  37,
+                                                         "2345":  22,
+                                                         "23456":  64,
+                                                         "3":  323,
+                                                         "34":  76,
+                                                         "345":  29,
+                                                         "3456":  67,
+                                                         "4":  216,
+                                                         "45":  66,
+                                                         "456":  89,
+                                                         "5":  296,
+                                                         "56":  182,
+                                                         "6":  407
+                                                     },
+                               "track_observation_count_distribution":  {
+                                                                            "1":  1951,
+                                                                            "2":  617,
+                                                                            "3":  260,
+                                                                            "4":  145,
+                                                                            "5":  136,
+                                                                            "6":  579
+                                                                        }
+                           },
+    "interval_support":  {
+                             "observed_visible_at_risk_intervals":  7311,
+                             "observed_visible_survival_intervals":  5011,
+                             "observed_visible_disappearance_intervals":  2300,
+                             "interval_width_days":  4,
+                             "exact_event_times_observed":  false,
+                             "midpoint_or_one_jump_imputation_authorized":  false,
+                             "transitions_by_interval":  [
+                                                             {
+                                                                 "from_session":  1,
+                                                                 "to_session":  2,
+                                                                 "interval_days":  4,
+                                                                 "visible_at_risk":  1420,
+                                                                 "visible_next_session":  998,
+                                                                 "not_visible_next_session":  422,
+                                                                 "first_catalogued_next_session":  517,
+                                                                 "conditional_visible_survival_fraction":  0.70281690140845066
+                                                             },
+                                                             {
+                                                                 "from_session":  2,
+                                                                 "to_session":  3,
+                                                                 "interval_days":  4,
+                                                                 "visible_at_risk":  1515,
+                                                                 "visible_next_session":  1042,
+                                                                 "not_visible_next_session":  473,
+                                                                 "first_catalogued_next_session":  495,
+                                                                 "conditional_visible_survival_fraction":  0.68778877887788781
+                                                             },
+                                                             {
+                                                                 "from_session":  3,
+                                                                 "to_session":  4,
+                                                                 "interval_days":  4,
+                                                                 "visible_at_risk":  1537,
+                                                                 "visible_next_session":  1002,
+                                                                 "not_visible_next_session":  535,
+                                                                 "first_catalogued_next_session":  371,
+                                                                 "conditional_visible_survival_fraction":  0.65191932335718938
+                                                             },
+                                                             {
+                                                                 "from_session":  4,
+                                                                 "to_session":  5,
+                                                                 "interval_days":  4,
+                                                                 "visible_at_risk":  1373,
+                                                                 "visible_next_session":  988,
+                                                                 "not_visible_next_session":  385,
+                                                                 "first_catalogued_next_session":  478,
+                                                                 "conditional_visible_survival_fraction":  0.71959213401311
+                                                             },
+                                                             {
+                                                                 "from_session":  5,
+                                                                 "to_session":  6,
+                                                                 "interval_days":  4,
+                                                                 "visible_at_risk":  1466,
+                                                                 "visible_next_session":  981,
+                                                                 "not_visible_next_session":  485,
+                                                                 "first_catalogued_next_session":  407,
+                                                                 "conditional_visible_survival_fraction":  0.66916780354706684
+                                                             }
+                                                         ]
+                         },
+    "left_truncation":  {
+                            "first_session_prevalent_spines":  1420,
+                            "prevalent_true_age_known":  false,
+                            "initial_age_law_available":  false,
+                            "first_catalogued_after_session_1_spines":  2268,
+                            "first_catalog_session_observed":  true,
+                            "biological_birth_time_interval_censored":  false,
+                            "biological_birth_time_bounds_available":  false,
+                            "allowed_age_covariate":  "elapsed_since_first_catalog_not_true_biological_age"
+                        },
+    "right_censoring":  {
+                            "final_session_visible_spines":  1388,
+                            "administrative_horizon_session":  6,
+                            "administrative_horizon_day":  20,
+                            "row_level_censor_reason_available":  false,
+                            "last_positive_without_later_visit_counted_as_death":  false
+                        },
+    "coverage_and_detection":  {
+                                   "all_composite_dendrites_have_at_least_one_row_each_session":  true,
+                                   "explicit_branch_coverage_mask_available":  false,
+                                   "covered_branch_length_time_available":  false,
+                                   "finite_absent_candidate_risk_set_available":  false,
+                                   "detection_calibration_available":  false,
+                                   "registration_qc_per_row_available":  false,
+                                   "tracking_procedure_described_in_paper":  true,
+                                   "quantitative_detection_or_reidentification_calibration_available":  false,
+                                   "xy_origin_stable_across_sessions":  false
+                               },
+    "mark_support":  [
+                         {
+                             "name":  "relative_intensity",
+                             "role":  "volume_proxy",
+                             "unit":  "arbitrary_unit",
+                             "observed_rows":  8699,
+                             "pre_next_visit_rows":  7311,
+                             "measurement_error_calibration":  false
+                         },
+                         {
+                             "name":  "shape",
+                             "formula":  "(lambda1-lambda2)/(lambda1+lambda2)",
+                             "unit":  "dimensionless",
+                             "observed_rows":  8699,
+                             "pre_next_visit_rows":  7311,
+                             "measurement_error_calibration":  false
+                         },
+                         {
+                             "name":  "spine_dendrite_distance",
+                             "role":  "length_proxy",
+                             "unit":  "pixel",
+                             "observed_rows":  8699,
+                             "pre_next_visit_rows":  7311,
+                             "measurement_error_calibration":  false
+                         }
+                     ],
+    "mark_ranges":  {
+                        "relative_intensity":  {
+                                                   "minimum":  2.0374,
+                                                   "maximum":  492.46
+                                               },
+                        "shape":  {
+                                      "minimum":  0.0019990913221262477,
+                                      "maximum":  0.96091755976976989
+                                  },
+                        "spine_dendrite_distance_px":  {
+                                                           "minimum":  0.14695,
+                                                           "maximum":  36.288
+                                                       },
+                        "z_slice_offset":  {
+                                               "minimum":  -5,
+                                               "maximum":  16
+                                           }
+                    },
+    "biological_model_eligibility":  {
+                                         "M0_constant_contact_ctmc":  {
+                                                                          "eligible":  false,
+                                                                          "failure_codes":  [
+                                                                                                "NI_DETECTION_TURNOVER_CONFOUNDING",
+                                                                                                "NI_BIRTH_DENOMINATOR"
+                                                                                            ]
+                                                                      },
+                                         "M1_age_only_semi_markov":  {
+                                                                         "eligible":  false,
+                                                                         "failure_codes":  [
+                                                                                               "NI_DETECTION_TURNOVER_CONFOUNDING",
+                                                                                               "NI_LEFT_TRUNCATED_AGE"
+                                                                                           ]
+                                                                     },
+                                         "M2_age_mark_pdmp":  {
+                                                                  "eligible":  false,
+                                                                  "failure_codes":  [
+                                                                                        "NI_DETECTION_TURNOVER_CONFOUNDING",
+                                                                                        "NI_LEFT_TRUNCATED_AGE",
+                                                                                        "NI_MARK_SCALE_ERROR"
+                                                                                    ]
+                                                              },
+                                         "three_way_biological_likelihood_comparison":  {
+                                                                                            "eligible":  false,
+                                                                                            "failure_codes":  [
+                                                                                                                  "INVALID_THREE_MODEL_COMPARISON_FOR_LATENT_BIOLOGICAL_STATES"
+                                                                                                              ]
+                                                                                        }
+                                     },
+    "catalogued_lateral_protrusion_predictive_eligibility":  {
+                                                                 "V0_constant_interval_recataloguing":  {
+                                                                                                            "input_eligible":  true,
+                                                                                                            "allowed_claim":  "cell_heldout_prediction_of_next_session_recataloguing_within_this_sample_and_pipeline"
+                                                                                                        },
+                                                                 "V1_elapsed_since_first_catalog":  {
+                                                                                                        "input_eligible":  true,
+                                                                                                        "allowed_claim":  "baseline_after_first_catalog_prediction_using_catalog_elapsed_time_not_biological_birth_or_true_age"
+                                                                                                    },
+                                                                 "V2_current_morphology_plus_orientation_nuisance":  {
+                                                                                                                         "input_eligible":  true,
+                                                                                                                         "allowed_claim":  "pre_next_visit_morphology_association_with_z_offset_as_orientation_detection_nuisance_not_pdmp_mark_dynamics"
+                                                                                                                     },
+                                                                 "common_comparison":  {
+                                                                                           "input_eligible":  true,
+                                                                                           "unit":  "cell_not_animal",
+                                                                                           "split_contract_locked":  false,
+                                                                                           "fit_executed":  false,
+                                                                                           "baseline_after_first_catalog_intervals":  2723,
+                                                                                           "next_session_not_recatalogued_events":  1459,
+                                                                                           "comparison_rowset_sha256":  "127BF184FE88CD04C727F39C719E7EE0931C6BD1264338BB1B9B30DFFF38FCD4",
+                                                                                           "common_state_semantics":  "author_catalogued_lateral_protrusion_filopodia_not_separated",
+                                                                                           "common_horizon_days":  4
+                                                                                       }
+                                                             },
+    "cell_support":  [
+                         {
+                             "cell_id":  1,
+                             "rows":  1503,
+                             "dendrites":  10,
+                             "spines":  686,
+                             "common_comparison_intervals":  529,
+                             "common_comparison_events":  321
+                         },
+                         {
+                             "cell_id":  2,
+                             "rows":  649,
+                             "dendrites":  4,
+                             "spines":  223,
+                             "common_comparison_intervals":  151,
+                             "common_comparison_events":  72
+                         },
+                         {
+                             "cell_id":  3,
+                             "rows":  1254,
+                             "dendrites":  8,
+                             "spines":  560,
+                             "common_comparison_intervals":  404,
+                             "common_comparison_events":  201
+                         },
+                         {
+                             "cell_id":  4,
+                             "rows":  1352,
+                             "dendrites":  7,
+                             "spines":  605,
+                             "common_comparison_intervals":  433,
+                             "common_comparison_events":  231
+                         },
+                         {
+                             "cell_id":  5,
+                             "rows":  1555,
+                             "dendrites":  6,
+                             "spines":  593,
+                             "common_comparison_intervals":  419,
+                             "common_comparison_events":  229
+                         },
+                         {
+                             "cell_id":  6,
+                             "rows":  1066,
+                             "dendrites":  7,
+                             "spines":  475,
+                             "common_comparison_intervals":  401,
+                             "common_comparison_events":  202
+                         },
+                         {
+                             "cell_id":  7,
+                             "rows":  1161,
+                             "dendrites":  4,
+                             "spines":  493,
+                             "common_comparison_intervals":  353,
+                             "common_comparison_events":  185
+                         },
+                         {
+                             "cell_id":  8,
+                             "rows":  159,
+                             "dendrites":  2,
+                             "spines":  53,
+                             "common_comparison_intervals":  33,
+                             "common_comparison_events":  18
+                         }
+                     ],
+    "schema_checks":  {
+                          "row_count_pass":  true,
+                          "column_count_pass":  true,
+                          "cell_count_pass":  true,
+                          "dendrite_count_pass":  true,
+                          "spine_count_pass":  true,
+                          "session_domain_pass":  true,
+                          "dendrite_session_nonempty_pass":  true,
+                          "duplicate_key_pass":  true,
+                          "contiguous_presence_pass":  true,
+                          "morphology_numeric_support_pass":  true,
+                          "prevalent_count_pass":  true,
+                          "incident_count_pass":  true,
+                          "final_session_count_pass":  true,
+                          "at_risk_interval_count_pass":  true,
+                          "survival_interval_count_pass":  true,
+                          "disappearance_interval_count_pass":  true,
+                          "all_cells_have_common_intervals_and_events":  true
+                      },
+    "failure_codes":  [
+                          "COMMON_SUPPORT_NOT_ESTABLISHED",
+                          "NI_FILOPODIA_SEPARATION",
+                          "NI_ANIMAL_HELDOUT_FRAILTY",
+                          "NI_BIPARENT_CONTACT",
+                          "NI_BIRTH_DENOMINATOR",
+                          "NI_CONDUCTING_STATE",
+                          "NI_DETECTION_TURNOVER_CONFOUNDING",
+                          "NI_EXACT_ACQUISITION_TIMESTAMPS",
+                          "NI_LEFT_TRUNCATED_AGE",
+                          "NI_MARK_SCALE_ERROR",
+                          "NI_SPATIAL_REGISTRATION_EXPOSURE",
+                          "NI_VISIT_COVERAGE_QC"
+                      ],
+    "ascertainment_codes":  [
+                                "ASCERTAINMENT_ADULT_MALE_GFP_M_AUDITORY_L5_APICAL_TUFT",
+                                "ASCERTAINMENT_LATERAL_ORIENTATION_SELECTION",
+                                "FILOPODIA_NOT_SEPARATED_FROM_SPINES"
+                            ],
+    "governance_stop_codes":  [
+                                  "DATASET_LICENSE_UNSPECIFIED",
+                                  "LONG_TERM_AVAILABILITY_NOT_LOCKED"
+                              ],
+    "forbidden_claims":  [
+                             "absolute_spine_birth_intensity",
+                             "animal_heldout_generalization_or_animal_frailty",
+                             "exact_event_time_hazard",
+                             "true_biological_spine_age_for_prevalent_or_first_catalogued_protrusions",
+                             "conducting_synapse_state_or_transition",
+                             "presynaptic_parent_identified_contact_process",
+                             "source_calibrated_mark_flow_or_jump_kernel",
+                             "mature_excitatory_spine_or_filopodia_separated_endpoint",
+                             "generalization_beyond_adult_male_GFP_M_auditory_L5_apical_tuft_lateral_protrusions",
+                             "neural_riemannian_metric_or_functional_folding",
+                             "behavioral_or_causal_mediation"
+                         ],
+    "next_gate":  {
+                      "predictive_path":  "lock_cell_heldout_common_rowset_contract_before_any_fit",
+                      "biological_upgrade_path":  "obtain_cell_animal_crosswalk_branch_exposure_visit_detection_censor_qc_initial_age_law_and_filopodia_separation",
+                      "conducting_upgrade_path":  "obtain_biparent_identity_and_repeated_same_contact_functional_assay",
+                      "governance_release_path":  "obtain_explicit_dataset_reuse_license_and_archive_a_versioned_snapshot_before_redistribution_or_release"
+                  },
+    "runtime":  {
+                    "powershell_version":  "5.1.26100.9278",
+                    "dotnet_runtime_version":  "4.0.30319.42000",
+                    "os_version":  "Microsoft Windows NT 10.0.26200.0",
+                    "is_64_bit_process":  true
+                }
+}

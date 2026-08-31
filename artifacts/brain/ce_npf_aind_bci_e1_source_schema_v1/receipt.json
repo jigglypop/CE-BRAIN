@@ -1,0 +1,1587 @@
+{
+    "schema_version":  "ce_npf_aind_bci_e1_source_schema_audit_v1",
+    "decision":  "AIND_BCI_E1_SOURCE_SCHEMA_AUDIT_PASS_WITH_PROVIDER_METADATA_INVALID",
+    "claim_ceiling":  "source and schema apparatus only; no Zarr array endpoint decoded",
+    "endpoint_opened":  false,
+    "biological_hypothesis_tested":  false,
+    "raw_chunk_content_sha256_locked":  false,
+    "selected_chunk_version_id_locked":  false,
+    "source_script_sha256":  "D07F02C386CF72AFEE9F101CDFD83B598F4AB888C1DFC60CA777F4066E2371B1",
+    "source_manifest_sha256":  "80602529D57A673F58E0659344566FD0165080793E31F5CB106B5611D1F1EF38",
+    "canonical_manifest_rows_sha256":  "2F6247EA984EFF10FD45DB717C98ED256AAF5E73D15F63AEEC577BBD0576AA66",
+    "canonical_manifest_rows_match_expected":  true,
+    "asset_count":  22,
+    "subject_count":  5,
+    "source_catalog_shape_pass":  true,
+    "manifest_s3_locations_match_all":  true,
+    "provider_identity_matches_all":  true,
+    "metadata_lock_matches_all":  true,
+    "zmetadata_lock_matches_all":  true,
+    "required_zmetadata_keys_present_all":  true,
+    "required_zmetadata_key_count":  56,
+    "required_table_columns_match_all":  true,
+    "dff_roi_axes_match_all":  true,
+    "dff_rates_positive_all":  true,
+    "provider_metadata_status_counts":  {
+                                            "Invalid":  22
+                                        },
+    "provider_invalid_status_matches_expected":  true,
+    "assets_with_locomotion_keys":  0,
+    "behavior_object_inventory":  {
+                                      "canonical_asset_summary_sha256":  "CDDA8CBB9DF5442299E73D0BF20ED23359EA8965781E275D9D3457E9D639CD27",
+                                      "expected_canonical_asset_summary_sha256":  "CDDA8CBB9DF5442299E73D0BF20ED23359EA8965781E275D9D3457E9D639CD27",
+                                      "object_count":  88186,
+                                      "expected_object_count":  88186,
+                                      "total_bytes":  160509574918,
+                                      "expected_total_bytes":  160509574918,
+                                      "total_gib":  149.486191,
+                                      "lexicographic_order_strict_all":  true,
+                                      "snapshot_matches_expected":  true,
+                                      "etag_semantics":  "opaque; not interpreted as MD5 or SHA-256"
+                                  },
+    "input_content_gate":  "NOT_RUN",
+    "limits":  [
+                   "metadata.nd.json is provider-marked Invalid for this cohort and is not repaired or imputed",
+                   "no running/locomotion/speed/wheel Zarr key is available; zaber_step_times is not locomotion",
+                   "object inventory fail-closes against the preregistered key, size, opaque ETag, and LastModified digest but is not an atomic S3 snapshot",
+                   "every subsequently selected object must lock VersionId when available and content SHA-256 before value-level audit",
+                   "no epoch label, common-target count, ROI value, timestamp monotonicity, response, metric, or behavior endpoint was decoded"
+               ],
+    "required_zmetadata_keys":  [
+                                    "intervals/epochs/.zattrs",
+                                    "intervals/epochs/id/.zarray",
+                                    "intervals/epochs/stimulus_name/.zarray",
+                                    "intervals/epochs/start_frame/.zarray",
+                                    "intervals/epochs/stop_frame/.zarray",
+                                    "intervals/epochs/start_time/.zarray",
+                                    "intervals/epochs/stop_time/.zarray",
+                                    "stimulus/presentation/PhotostimTrials/id/.zarray",
+                                    "stimulus/presentation/PhotostimTrials/.zattrs",
+                                    "stimulus/presentation/PhotostimTrials/start_time/.zarray",
+                                    "stimulus/presentation/PhotostimTrials/stop_time/.zarray",
+                                    "stimulus/presentation/PhotostimTrials/start_frame/.zarray",
+                                    "stimulus/presentation/PhotostimTrials/stop_frame/.zarray",
+                                    "stimulus/presentation/PhotostimTrials/group_index/.zarray",
+                                    "stimulus/presentation/PhotostimTrials/closest_roi/.zarray",
+                                    "stimulus/presentation/PhotostimTrials/laser_x/.zarray",
+                                    "stimulus/presentation/PhotostimTrials/laser_y/.zarray",
+                                    "stimulus/presentation/PhotostimTrials/power/.zarray",
+                                    "stimulus/presentation/PhotostimTrials/duration/.zarray",
+                                    "stimulus/presentation/PhotostimTrials/stimulus_name/.zarray",
+                                    "stimulus/presentation/PhotostimTrials/stimulus_function/.zarray",
+                                    "stimulus/presentation/PhotostimTrials/tiff_file/.zarray",
+                                    "stimulus/presentation/Trials/.zattrs",
+                                    "stimulus/presentation/Trials/id/.zarray",
+                                    "stimulus/presentation/Trials/start_time/.zarray",
+                                    "stimulus/presentation/Trials/stop_time/.zarray",
+                                    "stimulus/presentation/Trials/start_frame/.zarray",
+                                    "stimulus/presentation/Trials/stop_frame/.zarray",
+                                    "stimulus/presentation/Trials/reward_time/.zarray",
+                                    "stimulus/presentation/Trials/threshold_crossing_times/.zarray",
+                                    "stimulus/presentation/Trials/conditioned_neuron_x/.zarray",
+                                    "stimulus/presentation/Trials/conditioned_neuron_y/.zarray",
+                                    "stimulus/presentation/Trials/closest_roi/.zarray",
+                                    "stimulus/presentation/Trials/go_cue/.zarray",
+                                    "stimulus/presentation/Trials/hit/.zarray",
+                                    "stimulus/presentation/Trials/lick_L/.zarray",
+                                    "stimulus/presentation/Trials/zaber_step_times/.zarray",
+                                    "stimulus/presentation/Trials/tiff_file/.zarray",
+                                    "processing/processed/dff/dff/.zattrs",
+                                    "processing/processed/dff/dff/data/.zarray",
+                                    "processing/processed/dff/dff/data/.zattrs",
+                                    "processing/processed/dff/dff/starting_time/.zarray",
+                                    "processing/processed/dff/dff/starting_time/.zattrs",
+                                    "processing/processed/dff/dff/rois/.zarray",
+                                    "processing/processed/dff/dff/rois/.zattrs",
+                                    "processing/processed/image_segmentation/roi_table/.zattrs",
+                                    "processing/processed/image_segmentation/roi_table/id/.zarray",
+                                    "processing/processed/image_segmentation/roi_table/is_soma/.zarray",
+                                    "processing/processed/image_segmentation/roi_table/soma_probability/.zarray",
+                                    "processing/processed/image_segmentation/roi_table/image_mask/.zarray",
+                                    "general/optophysiology/processed/imaging_rate/.zarray",
+                                    "general/optophysiology/processed/imaging_rate/.zattrs",
+                                    "session_start_time/.zarray",
+                                    "session_start_time/.zattrs",
+                                    "timestamps_reference_time/.zarray",
+                                    "timestamps_reference_time/.zattrs"
+                                ],
+    "assets":  [
+                   {
+                       "asset_id":  "b8827d25-495f-46a8-9f33-ffb24da527a5",
+                       "subject_id":  "731015",
+                       "asset_name":  "single-plane-ophys_731015_2025-01-10_18-06-31_processed_2025-08-03_20-39-09",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_731015_2025-01-10_18-06-31_processed_2025-08-03_20-39-09",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_731015_2025-01-10_18-06-31_processed_2025-08-03_20-39-09/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Slc17a6-IRES-Cre/wt;Ai230(TIT2L-XCaMPG-WPRE-ICL-ChRmine-oScarlet-IRES2-tTA2-WPRE)-hyg/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "2019073BBE7F9C7DB2CF942F593F7111906E3102C6FE83B80937EE5BC00FF114",
+                       "zmetadata_key":  "single-plane-ophys_731015_2025-01-10_18-06-31_processed_2025-08-03_20-39-09/single-plane-ophys_731015_2025-01-10_18-06-31_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "AEFEB9AFC476803CF28F1F912A954A1261B69D1A7FCAD930C5791262EDFC2EB1",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  220344,
+                       "roi_count":  1214,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  2567,
+                       "bci_trial_rows":  65,
+                       "epoch_rows":  5,
+                       "dff_rate_hz":  58.2634,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_04; FOV_04|Primary Motor Cortex|170|micrometer|58.2634|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               18
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-hSyn1-RiboL1-GCaMP8s-WPRE",
+                                                      "virus_tars_id":  "AiV300143",
+                                                      "prep_lot_number":  "VT5417G",
+                                                      "prep_date":  "2023-02-07"
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_731015_2025-01-10_18-06-31_processed_2025-08-03_20-39-09/single-plane-ophys_731015_2025-01-10_18-06-31_behavior_nwb/",
+                                                  "object_count":  2647,
+                                                  "total_bytes":  3805633587,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "97D29041CC0DC69C42350AC3CB1D0E3691FFEBEC0907FA6667C212EB56D1B3CC",
+                                                  "first_key":  "single-plane-ophys_731015_2025-01-10_18-06-31_processed_2025-08-03_20-39-09/single-plane-ophys_731015_2025-01-10_18-06-31_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_731015_2025-01-10_18-06-31_processed_2025-08-03_20-39-09/single-plane-ophys_731015_2025-01-10_18-06-31_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "127a3e78-729c-4df7-bf34-1b9308939587",
+                       "subject_id":  "731015",
+                       "asset_name":  "single-plane-ophys_731015_2025-01-24_20-00-44_processed_2025-08-04_06-27-07",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_731015_2025-01-24_20-00-44_processed_2025-08-04_06-27-07",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_731015_2025-01-24_20-00-44_processed_2025-08-04_06-27-07/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Slc17a6-IRES-Cre/wt;Ai230(TIT2L-XCaMPG-WPRE-ICL-ChRmine-oScarlet-IRES2-tTA2-WPRE)-hyg/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "B174B5CE990AD306C909C43C3F29A8FA2F167F82D6A06D600820D02FE3A2CDFE",
+                       "zmetadata_key":  "single-plane-ophys_731015_2025-01-24_20-00-44_processed_2025-08-04_06-27-07/single-plane-ophys_731015_2025-01-24_20-00-44_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "AD120F22A118593B973FB81EF68A3A57B0B3725E2ECD6A36125D934EAA9C5EE1",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  232140,
+                       "roi_count":  1551,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  2341,
+                       "bci_trial_rows":  97,
+                       "epoch_rows":  5,
+                       "dff_rate_hz":  58.2634,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_04|Primary Motor Cortex|170|micrometer|58.2634|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               20
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-hSyn1-RiboL1-GCaMP8s-WPRE",
+                                                      "virus_tars_id":  "AiV300143",
+                                                      "prep_lot_number":  "VT5417G",
+                                                      "prep_date":  "2023-02-07"
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_731015_2025-01-24_20-00-44_processed_2025-08-04_06-27-07/single-plane-ophys_731015_2025-01-24_20-00-44_behavior_nwb/",
+                                                  "object_count":  2903,
+                                                  "total_bytes":  5184794741,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "41BC7CB1BD6377F5F3A78F9B434DAB0BFA961D5F04705AB7D4DB62C32971400D",
+                                                  "first_key":  "single-plane-ophys_731015_2025-01-24_20-00-44_processed_2025-08-04_06-27-07/single-plane-ophys_731015_2025-01-24_20-00-44_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_731015_2025-01-24_20-00-44_processed_2025-08-04_06-27-07/single-plane-ophys_731015_2025-01-24_20-00-44_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "0162d41c-613c-4215-b0aa-9690f85a9fda",
+                       "subject_id":  "731015",
+                       "asset_name":  "single-plane-ophys_731015_2025-01-28_18-56-35_processed_2025-08-03_21-58-28",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_731015_2025-01-28_18-56-35_processed_2025-08-03_21-58-28",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_731015_2025-01-28_18-56-35_processed_2025-08-03_21-58-28/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Slc17a6-IRES-Cre/wt;Ai230(TIT2L-XCaMPG-WPRE-ICL-ChRmine-oScarlet-IRES2-tTA2-WPRE)-hyg/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "B1D37EA12956629E95C99C7BD246E35ED2E771A9D5B37DCC628CC2B36D0BA086",
+                       "zmetadata_key":  "single-plane-ophys_731015_2025-01-28_18-56-35_processed_2025-08-03_21-58-28/single-plane-ophys_731015_2025-01-28_18-56-35_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "CBCB900BC0C169A978E6426AF1B5CE344EB6B8710FE3C18C2E4CBB9EC0D75547",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  226322,
+                       "roi_count":  1894,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  2011,
+                       "bci_trial_rows":  99,
+                       "epoch_rows":  6,
+                       "dff_rate_hz":  58.2634,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_04|Primary Motor Cortex|170|micrometer|58.2634|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               22
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-hSyn1-RiboL1-GCaMP8s-WPRE",
+                                                      "virus_tars_id":  "AiV300143",
+                                                      "prep_lot_number":  "VT5417G",
+                                                      "prep_date":  "2023-02-07"
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_731015_2025-01-28_18-56-35_processed_2025-08-03_21-58-28/single-plane-ophys_731015_2025-01-28_18-56-35_behavior_nwb/",
+                                                  "object_count":  2903,
+                                                  "total_bytes":  6158188468,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "0013515F6A5A9C00D4315AEEA1B41E65A82E9C68E2A4F2762647AD2464B70D33",
+                                                  "first_key":  "single-plane-ophys_731015_2025-01-28_18-56-35_processed_2025-08-03_21-58-28/single-plane-ophys_731015_2025-01-28_18-56-35_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_731015_2025-01-28_18-56-35_processed_2025-08-03_21-58-28/single-plane-ophys_731015_2025-01-28_18-56-35_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "b9a4c361-66b0-4cd5-9392-75d116ef3385",
+                       "subject_id":  "731015",
+                       "asset_name":  "single-plane-ophys_731015_2025-01-31_20-37-19_processed_2025-08-06_05-37-58",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_731015_2025-01-31_20-37-19_processed_2025-08-06_05-37-58",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_731015_2025-01-31_20-37-19_processed_2025-08-06_05-37-58/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Slc17a6-IRES-Cre/wt;Ai230(TIT2L-XCaMPG-WPRE-ICL-ChRmine-oScarlet-IRES2-tTA2-WPRE)-hyg/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "7215B6803970CA9AF4873F12E833564B012933124C5EAE87A3BA8AAE77F56BD0",
+                       "zmetadata_key":  "single-plane-ophys_731015_2025-01-31_20-37-19_processed_2025-08-06_05-37-58/single-plane-ophys_731015_2025-01-31_20-37-19_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "8D5D98CBC3AC794A439AFA87927C1F9CB521A38750C90D17D6DC7777179D65B6",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  249370,
+                       "roi_count":  1736,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  4314,
+                       "bci_trial_rows":  111,
+                       "epoch_rows":  6,
+                       "dff_rate_hz":  58.2634,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_04|Primary Motor Cortex|170|micrometer|58.2634|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               23
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-hSyn1-RiboL1-GCaMP8s-WPRE",
+                                                      "virus_tars_id":  "AiV300143",
+                                                      "prep_lot_number":  "VT5417G",
+                                                      "prep_date":  "2023-02-07"
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_731015_2025-01-31_20-37-19_processed_2025-08-06_05-37-58/single-plane-ophys_731015_2025-01-31_20-37-19_behavior_nwb/",
+                                                  "object_count":  2903,
+                                                  "total_bytes":  6323871710,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "A5DB231FC1646FA7AD416EF2B9BDC19D5D4A4071891D9B4D12FF0CAD29559AA9",
+                                                  "first_key":  "single-plane-ophys_731015_2025-01-31_20-37-19_processed_2025-08-06_05-37-58/single-plane-ophys_731015_2025-01-31_20-37-19_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_731015_2025-01-31_20-37-19_processed_2025-08-06_05-37-58/single-plane-ophys_731015_2025-01-31_20-37-19_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "30006aee-36db-44d9-a1fb-1b6583619434",
+                       "subject_id":  "740369",
+                       "asset_name":  "single-plane-ophys_740369_2025-01-09_17-18-37_processed_2025-08-06_03-49-53",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_740369_2025-01-09_17-18-37_processed_2025-08-06_03-49-53",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_740369_2025-01-09_17-18-37_processed_2025-08-06_03-49-53/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Slc17a6-IRES-Cre/wt;Ai230(TIT2L-XCaMPG-WPRE-ICL-ChRmine-oScarlet-IRES2-tTA2-WPRE)-hyg/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "683323362B5363CC3D6006B2806927747F41A37E320F4C8608D6C16BF402C73E",
+                       "zmetadata_key":  "single-plane-ophys_740369_2025-01-09_17-18-37_processed_2025-08-06_03-49-53/single-plane-ophys_740369_2025-01-09_17-18-37_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "B0EA9FE40CF86649631E99EFA6268AC29DAC57CD82B873745E06E8EA1CC7F08C",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  159499,
+                       "roi_count":  1387,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  1939,
+                       "bci_trial_rows":  43,
+                       "epoch_rows":  4,
+                       "dff_rate_hz":  58.2634,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_05|Primary Motor Cortex|140|micrometer|58.2634|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               22
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-hSyn1-RiboL1-GCaMP8s-WPRE",
+                                                      "virus_tars_id":  "AiV300143",
+                                                      "prep_lot_number":  "VT5417G",
+                                                      "prep_date":  "2023-02-07"
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_740369_2025-01-09_17-18-37_processed_2025-08-06_03-49-53/single-plane-ophys_740369_2025-01-09_17-18-37_behavior_nwb/",
+                                                  "object_count":  2903,
+                                                  "total_bytes":  3219832853,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "D93BCD9CBE17CF6C6F29D327C0236B950666CBB146156340FB881797B6A19F10",
+                                                  "first_key":  "single-plane-ophys_740369_2025-01-09_17-18-37_processed_2025-08-06_03-49-53/single-plane-ophys_740369_2025-01-09_17-18-37_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_740369_2025-01-09_17-18-37_processed_2025-08-06_03-49-53/single-plane-ophys_740369_2025-01-09_17-18-37_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "17ae1324-de6d-433e-9aec-7f174d22e89a",
+                       "subject_id":  "740369",
+                       "asset_name":  "single-plane-ophys_740369_2025-01-13_17-31-04_processed_2025-08-04_17-59-13",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_740369_2025-01-13_17-31-04_processed_2025-08-04_17-59-13",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_740369_2025-01-13_17-31-04_processed_2025-08-04_17-59-13/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Slc17a6-IRES-Cre/wt;Ai230(TIT2L-XCaMPG-WPRE-ICL-ChRmine-oScarlet-IRES2-tTA2-WPRE)-hyg/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "75C7713245BA4326A6B4EB3CD77E182D086E70E20F5019948118AA5699A24A87",
+                       "zmetadata_key":  "single-plane-ophys_740369_2025-01-13_17-31-04_processed_2025-08-04_17-59-13/single-plane-ophys_740369_2025-01-13_17-31-04_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "EEDA31E3F0A4CC761EA17E52008303E355B553658AEA89733E42EC21CA447253",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  252844,
+                       "roi_count":  2136,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  2613,
+                       "bci_trial_rows":  108,
+                       "epoch_rows":  7,
+                       "dff_rate_hz":  58.2634,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_05|Primary Motor Cortex|140|micrometer|58.2634|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               24
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-hSyn1-RiboL1-GCaMP8s-WPRE",
+                                                      "virus_tars_id":  "AiV300143",
+                                                      "prep_lot_number":  "VT5417G",
+                                                      "prep_date":  "2023-02-07"
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_740369_2025-01-13_17-31-04_processed_2025-08-04_17-59-13/single-plane-ophys_740369_2025-01-13_17-31-04_behavior_nwb/",
+                                                  "object_count":  4951,
+                                                  "total_bytes":  7730654589,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "E60BF979115DF4FADB487624D2B8AC1BE762D1FBDA188C468DB8F68A47516634",
+                                                  "first_key":  "single-plane-ophys_740369_2025-01-13_17-31-04_processed_2025-08-04_17-59-13/single-plane-ophys_740369_2025-01-13_17-31-04_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_740369_2025-01-13_17-31-04_processed_2025-08-04_17-59-13/single-plane-ophys_740369_2025-01-13_17-31-04_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "c32e7e98-1104-4e24-a830-53d54f06b518",
+                       "subject_id":  "740369",
+                       "asset_name":  "single-plane-ophys_740369_2025-01-24_21-18-11_processed_2025-08-04_06-39-23",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_740369_2025-01-24_21-18-11_processed_2025-08-04_06-39-23",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_740369_2025-01-24_21-18-11_processed_2025-08-04_06-39-23/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Slc17a6-IRES-Cre/wt;Ai230(TIT2L-XCaMPG-WPRE-ICL-ChRmine-oScarlet-IRES2-tTA2-WPRE)-hyg/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "06FD09F6EF997DAEC30B4E06F0D5682EB7C68D6E8F38694B7503C972917D4FBE",
+                       "zmetadata_key":  "single-plane-ophys_740369_2025-01-24_21-18-11_processed_2025-08-04_06-39-23/single-plane-ophys_740369_2025-01-24_21-18-11_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "FF95C7C2C6D62C02086E7202D61A23BFF12415676CBA3559968F4DFC9AA670F3",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  191947,
+                       "roi_count":  2131,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  1830,
+                       "bci_trial_rows":  76,
+                       "epoch_rows":  6,
+                       "dff_rate_hz":  58.2634,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_05|Primary Motor Cortex|140|micrometer|58.2634|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               25
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-hSyn1-RiboL1-GCaMP8s-WPRE",
+                                                      "virus_tars_id":  "AiV300143",
+                                                      "prep_lot_number":  "VT5417G",
+                                                      "prep_date":  "2023-02-07"
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_740369_2025-01-24_21-18-11_processed_2025-08-04_06-39-23/single-plane-ophys_740369_2025-01-24_21-18-11_behavior_nwb/",
+                                                  "object_count":  2903,
+                                                  "total_bytes":  5897365447,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "A8FB27FB1D6D31D58A23E64B74BAF66A8C1DCE741D7DC0BD39802E8EF886872D",
+                                                  "first_key":  "single-plane-ophys_740369_2025-01-24_21-18-11_processed_2025-08-04_06-39-23/single-plane-ophys_740369_2025-01-24_21-18-11_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_740369_2025-01-24_21-18-11_processed_2025-08-04_06-39-23/single-plane-ophys_740369_2025-01-24_21-18-11_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "a9b68b93-c445-4809-9cab-d6282ae64483",
+                       "subject_id":  "740369",
+                       "asset_name":  "single-plane-ophys_740369_2025-01-30_18-44-54_processed_2025-08-04_13-31-14",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_740369_2025-01-30_18-44-54_processed_2025-08-04_13-31-14",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_740369_2025-01-30_18-44-54_processed_2025-08-04_13-31-14/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Slc17a6-IRES-Cre/wt;Ai230(TIT2L-XCaMPG-WPRE-ICL-ChRmine-oScarlet-IRES2-tTA2-WPRE)-hyg/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "99CCC07845263B7388D7040963090E7725D910012FE0B8C7ADE6AA9C59F18AF2",
+                       "zmetadata_key":  "single-plane-ophys_740369_2025-01-30_18-44-54_processed_2025-08-04_13-31-14/single-plane-ophys_740369_2025-01-30_18-44-54_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "2B49EDE49BEDC8E886332A8D70D39ACC17DCE26D9007CAC95D551D53F6E8018D",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  123849,
+                       "roi_count":  1844,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  1048,
+                       "bci_trial_rows":  31,
+                       "epoch_rows":  5,
+                       "dff_rate_hz":  58.2634,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "|Primary Motor Cortex|140|micrometer|58.2634|hertz"
+                                          ],
+                       "session_numbers":  [
+
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-hSyn1-RiboL1-GCaMP8s-WPRE",
+                                                      "virus_tars_id":  "AiV300143",
+                                                      "prep_lot_number":  "VT5417G",
+                                                      "prep_date":  "2023-02-07"
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_740369_2025-01-30_18-44-54_processed_2025-08-04_13-31-14/single-plane-ophys_740369_2025-01-30_18-44-54_behavior_nwb/",
+                                                  "object_count":  2903,
+                                                  "total_bytes":  3286762431,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "C95B2A4C1226CBAF089E5F7E84627BB09FD14D1D28F7A53EF4F1E67B5F7A9D1C",
+                                                  "first_key":  "single-plane-ophys_740369_2025-01-30_18-44-54_processed_2025-08-04_13-31-14/single-plane-ophys_740369_2025-01-30_18-44-54_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_740369_2025-01-30_18-44-54_processed_2025-08-04_13-31-14/single-plane-ophys_740369_2025-01-30_18-44-54_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "cf8baa51-6086-4f5a-aeca-b685b59f1662",
+                       "subject_id":  "740369",
+                       "asset_name":  "single-plane-ophys_740369_2025-02-03_19-18-31_processed_2025-08-03_23-27-56",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_740369_2025-02-03_19-18-31_processed_2025-08-03_23-27-56",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_740369_2025-02-03_19-18-31_processed_2025-08-03_23-27-56/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Slc17a6-IRES-Cre/wt;Ai230(TIT2L-XCaMPG-WPRE-ICL-ChRmine-oScarlet-IRES2-tTA2-WPRE)-hyg/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "0CA623DDE14E2450609FC3D4381D4A27BF5CF4937FC1F21F4CEA6E0265FD3FDE",
+                       "zmetadata_key":  "single-plane-ophys_740369_2025-02-03_19-18-31_processed_2025-08-03_23-27-56/single-plane-ophys_740369_2025-02-03_19-18-31_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "193CD40A12CF31DB76DF8F1346E87F4AC5CA303925E2E426C853DE3268FE0555",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  239635,
+                       "roi_count":  2026,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  4202,
+                       "bci_trial_rows":  97,
+                       "epoch_rows":  5,
+                       "dff_rate_hz":  58.1801,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_06|Primary Motor Cortex|155|micrometer|58.1737|hertz",
+                                              "FOV_06|Primary Motor Cortex|155|micrometer|58.1769|hertz",
+                                              "FOV_06|Primary Motor Cortex|155|micrometer|58.1775|hertz",
+                                              "FOV_06|Primary Motor Cortex|155|micrometer|58.1801|hertz",
+                                              "FOV_06|Primary Motor Cortex|155|micrometer|58.2219|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               27
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-hSyn1-RiboL1-GCaMP8s-WPRE",
+                                                      "virus_tars_id":  "AiV300143",
+                                                      "prep_lot_number":  "VT5417G",
+                                                      "prep_date":  "2023-02-07"
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_740369_2025-02-03_19-18-31_processed_2025-08-03_23-27-56/single-plane-ophys_740369_2025-02-03_19-18-31_behavior_nwb/",
+                                                  "object_count":  4951,
+                                                  "total_bytes":  6977464792,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "13FEA37FF4C537603EB246A1C9F699FC8498116C774829773ABD838AFB86F478",
+                                                  "first_key":  "single-plane-ophys_740369_2025-02-03_19-18-31_processed_2025-08-03_23-27-56/single-plane-ophys_740369_2025-02-03_19-18-31_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_740369_2025-02-03_19-18-31_processed_2025-08-03_23-27-56/single-plane-ophys_740369_2025-02-03_19-18-31_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "3aac9323-c4f9-4172-9f1a-6c12cb3bc44e",
+                       "subject_id":  "754303",
+                       "asset_name":  "single-plane-ophys_754303_2025-01-22_18-22-38_processed_2025-08-06_18-52-36",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_754303_2025-01-22_18-22-38_processed_2025-08-06_18-52-36",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_754303_2025-01-22_18-22-38_processed_2025-08-06_18-52-36/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Camk2a-tTA/wt;TetO-jGCaMP8s-01/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "19BCC01957965C3CBE5A3B8844420DF50D89F873C1C21E933FC36EC307FE935C",
+                       "zmetadata_key":  "single-plane-ophys_754303_2025-01-22_18-22-38_processed_2025-08-06_18-52-36/single-plane-ophys_754303_2025-01-22_18-22-38_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "C5B4B44490E733CD7FD2033CEBA544364A1636FC563E24A0DD6ABBE4C43475D8",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  251884,
+                       "roi_count":  2965,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  2168,
+                       "bci_trial_rows":  101,
+                       "epoch_rows":  5,
+                       "dff_rate_hz":  58.2634,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.2634|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               2
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-CaMKIIa-ChRmine-oScarlet-Kv2.1-WPRE - 7413",
+                                                      "virus_tars_id":  "",
+                                                      "prep_lot_number":  "",
+                                                      "prep_date":  ""
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_754303_2025-01-22_18-22-38_processed_2025-08-06_18-52-36/single-plane-ophys_754303_2025-01-22_18-22-38_behavior_nwb/",
+                                                  "object_count":  4951,
+                                                  "total_bytes":  10683129445,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "40E0EDB276E7DCFC16B49E0D400B2E94D1D08C6AC921112F2FEB30C9071A939F",
+                                                  "first_key":  "single-plane-ophys_754303_2025-01-22_18-22-38_processed_2025-08-06_18-52-36/single-plane-ophys_754303_2025-01-22_18-22-38_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_754303_2025-01-22_18-22-38_processed_2025-08-06_18-52-36/single-plane-ophys_754303_2025-01-22_18-22-38_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "aaf560f4-bb1f-449a-aaf9-5054432b47ae",
+                       "subject_id":  "754303",
+                       "asset_name":  "single-plane-ophys_754303_2025-01-23_19-48-32_processed_2025-08-08_15-29-29",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_754303_2025-01-23_19-48-32_processed_2025-08-08_15-29-29",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_754303_2025-01-23_19-48-32_processed_2025-08-08_15-29-29/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Camk2a-tTA/wt;TetO-jGCaMP8s-01/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "FFA0C48298FC72836E72141DA14559D8A7A9F0B3D17F4C774115730D049FA8CA",
+                       "zmetadata_key":  "single-plane-ophys_754303_2025-01-23_19-48-32_processed_2025-08-08_15-29-29/single-plane-ophys_754303_2025-01-23_19-48-32_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "D7BCF5D0223B6729D8AA01BED491A5023C567483B6C9A7B8ED1723E36A15962B",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  222005,
+                       "roi_count":  3451,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  2086,
+                       "bci_trial_rows":  98,
+                       "epoch_rows":  5,
+                       "dff_rate_hz":  58.2634,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.2634|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               3
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-CaMKIIa-ChRmine-oScarlet-Kv2.1-WPRE - 7413",
+                                                      "virus_tars_id":  "",
+                                                      "prep_lot_number":  "",
+                                                      "prep_date":  ""
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_754303_2025-01-23_19-48-32_processed_2025-08-08_15-29-29/single-plane-ophys_754303_2025-01-23_19-48-32_behavior_nwb/",
+                                                  "object_count":  4951,
+                                                  "total_bytes":  10936445150,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "6AC168BD76E79AB284A682094D14F3B818AFED76ECE88BDB4E3ABE303E6620B9",
+                                                  "first_key":  "single-plane-ophys_754303_2025-01-23_19-48-32_processed_2025-08-08_15-29-29/single-plane-ophys_754303_2025-01-23_19-48-32_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_754303_2025-01-23_19-48-32_processed_2025-08-08_15-29-29/single-plane-ophys_754303_2025-01-23_19-48-32_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "7efb85e4-0dba-43fe-a0fd-2b8348e05b69",
+                       "subject_id":  "754303",
+                       "asset_name":  "single-plane-ophys_754303_2025-01-27_20-01-31_processed_2025-08-07_06-00-10",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_754303_2025-01-27_20-01-31_processed_2025-08-07_06-00-10",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_754303_2025-01-27_20-01-31_processed_2025-08-07_06-00-10/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Camk2a-tTA/wt;TetO-jGCaMP8s-01/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "6F007A6D55CD89B43DBD0DECC1E0AEFDE5EEF58A29AFA1262270AC548A0909C2",
+                       "zmetadata_key":  "single-plane-ophys_754303_2025-01-27_20-01-31_processed_2025-08-07_06-00-10/single-plane-ophys_754303_2025-01-27_20-01-31_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "8B2BB4A1BAA62493D89CCF607F111DF351D9E715CA85B65D64D2249C8E514AD5",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  231103,
+                       "roi_count":  2935,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  2098,
+                       "bci_trial_rows":  109,
+                       "epoch_rows":  5,
+                       "dff_rate_hz":  58.2634,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.2634|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               5
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-CaMKIIa-ChRmine-oScarlet-Kv2.1-WPRE - 7413",
+                                                      "virus_tars_id":  "",
+                                                      "prep_lot_number":  "",
+                                                      "prep_date":  ""
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_754303_2025-01-27_20-01-31_processed_2025-08-07_06-00-10/single-plane-ophys_754303_2025-01-27_20-01-31_behavior_nwb/",
+                                                  "object_count":  4951,
+                                                  "total_bytes":  9703604755,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "AD1C03C8BF1A145EE59EBEBCF6DD91231439438EA01B07FCEA160BD9E0762F6C",
+                                                  "first_key":  "single-plane-ophys_754303_2025-01-27_20-01-31_processed_2025-08-07_06-00-10/single-plane-ophys_754303_2025-01-27_20-01-31_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_754303_2025-01-27_20-01-31_processed_2025-08-07_06-00-10/single-plane-ophys_754303_2025-01-27_20-01-31_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "5fa54429-8887-48b7-a3db-5526d7fa3fe5",
+                       "subject_id":  "754303",
+                       "asset_name":  "single-plane-ophys_754303_2025-01-29_16-07-41_processed_2025-08-04_04-39-41",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_754303_2025-01-29_16-07-41_processed_2025-08-04_04-39-41",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_754303_2025-01-29_16-07-41_processed_2025-08-04_04-39-41/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Camk2a-tTA/wt;TetO-jGCaMP8s-01/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "7BB825BA200DBE0F779572C50B3789D47BFE4A49E007D49B7ED7EFBA67F41E58",
+                       "zmetadata_key":  "single-plane-ophys_754303_2025-01-29_16-07-41_processed_2025-08-04_04-39-41/single-plane-ophys_754303_2025-01-29_16-07-41_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "B5CC91BCD05DF2C3537069C2EEF0F7BF947389D87C155901FD009DDF8B05CBB2",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  221212,
+                       "roi_count":  2412,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  2066,
+                       "bci_trial_rows":  103,
+                       "epoch_rows":  6,
+                       "dff_rate_hz":  58.2634,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.2634|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               6
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-CaMKIIa-ChRmine-oScarlet-Kv2.1-WPRE - 7413",
+                                                      "virus_tars_id":  "",
+                                                      "prep_lot_number":  "",
+                                                      "prep_date":  ""
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_754303_2025-01-29_16-07-41_processed_2025-08-04_04-39-41/single-plane-ophys_754303_2025-01-29_16-07-41_behavior_nwb/",
+                                                  "object_count":  4951,
+                                                  "total_bytes":  7603187472,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "DDA3FD15971DEDE509205E283608AA21AEA61582D24290E37D099E16180164FD",
+                                                  "first_key":  "single-plane-ophys_754303_2025-01-29_16-07-41_processed_2025-08-04_04-39-41/single-plane-ophys_754303_2025-01-29_16-07-41_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_754303_2025-01-29_16-07-41_processed_2025-08-04_04-39-41/single-plane-ophys_754303_2025-01-29_16-07-41_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "737557e6-4bb3-423f-8fae-a2a63ee600e7",
+                       "subject_id":  "754303",
+                       "asset_name":  "single-plane-ophys_754303_2025-01-31_15-13-50_processed_2025-08-05_20-00-52",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_754303_2025-01-31_15-13-50_processed_2025-08-05_20-00-52",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_754303_2025-01-31_15-13-50_processed_2025-08-05_20-00-52/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Camk2a-tTA/wt;TetO-jGCaMP8s-01/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "641CF61A1D003B2D689BC76CDF26854693F6D6A86879885E5B39B224F093A5C9",
+                       "zmetadata_key":  "single-plane-ophys_754303_2025-01-31_15-13-50_processed_2025-08-05_20-00-52/single-plane-ophys_754303_2025-01-31_15-13-50_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "3F57C977B7FD55DB2B93C48D95AF57899B746E8DAD3EE857F40926BA2FC9FEE8",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  216666,
+                       "roi_count":  1588,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  3743,
+                       "bci_trial_rows":  93,
+                       "epoch_rows":  5,
+                       "dff_rate_hz":  58.2634,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.2634|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               8
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-CaMKIIa-ChRmine-oScarlet-Kv2.1-WPRE - 7413",
+                                                      "virus_tars_id":  "",
+                                                      "prep_lot_number":  "",
+                                                      "prep_date":  ""
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_754303_2025-01-31_15-13-50_processed_2025-08-05_20-00-52/single-plane-ophys_754303_2025-01-31_15-13-50_behavior_nwb/",
+                                                  "object_count":  2903,
+                                                  "total_bytes":  4903674257,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "BA3D332AF4BF91168B60BF7F3F7F18895F079DD18DC3314D021F92222F4D5FC6",
+                                                  "first_key":  "single-plane-ophys_754303_2025-01-31_15-13-50_processed_2025-08-05_20-00-52/single-plane-ophys_754303_2025-01-31_15-13-50_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_754303_2025-01-31_15-13-50_processed_2025-08-05_20-00-52/single-plane-ophys_754303_2025-01-31_15-13-50_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "ea2ea4a7-8270-4712-bf5c-df7480cb276f",
+                       "subject_id":  "766719",
+                       "asset_name":  "single-plane-ophys_766719_2025-01-22_16-45-18_processed_2025-08-06_17-55-43",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_766719_2025-01-22_16-45-18_processed_2025-08-06_17-55-43",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_766719_2025-01-22_16-45-18_processed_2025-08-06_17-55-43/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Camk2a-tTA/wt;TetO-jGCaMP8s-01/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "3DC6DCB01F8F1463673EF4E2851B15978308DFA4F203E3232B2B39BD0DF9E789",
+                       "zmetadata_key":  "single-plane-ophys_766719_2025-01-22_16-45-18_processed_2025-08-06_17-55-43/single-plane-ophys_766719_2025-01-22_16-45-18_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "57998490317E4BCD5434B116243D8257B8A9D60C3BBC326D7B03DE0E295FD979",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  193832,
+                       "roi_count":  2315,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  1784,
+                       "bci_trial_rows":  87,
+                       "epoch_rows":  5,
+                       "dff_rate_hz":  58.2574,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_01|Primary Motor Cortex|155|micrometer|58.2574|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               2
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-CaMKIIa-ChRmine-oScarlet-Kv2.1-WPRE - 7413",
+                                                      "virus_tars_id":  "",
+                                                      "prep_lot_number":  "",
+                                                      "prep_date":  ""
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_766719_2025-01-22_16-45-18_processed_2025-08-06_17-55-43/single-plane-ophys_766719_2025-01-22_16-45-18_behavior_nwb/",
+                                                  "object_count":  2903,
+                                                  "total_bytes":  6568364395,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "AAF8A6FE8FBE94BC2CE4300E739F5E3388A9ECAD2803D928FF53EE3E3BB16EB4",
+                                                  "first_key":  "single-plane-ophys_766719_2025-01-22_16-45-18_processed_2025-08-06_17-55-43/single-plane-ophys_766719_2025-01-22_16-45-18_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_766719_2025-01-22_16-45-18_processed_2025-08-06_17-55-43/single-plane-ophys_766719_2025-01-22_16-45-18_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "e3e8dd63-0bc4-4fc7-aedf-2abe9416149f",
+                       "subject_id":  "766719",
+                       "asset_name":  "single-plane-ophys_766719_2025-01-23_18-24-57_processed_2025-08-04_05-56-15",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_766719_2025-01-23_18-24-57_processed_2025-08-04_05-56-15",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_766719_2025-01-23_18-24-57_processed_2025-08-04_05-56-15/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Camk2a-tTA/wt;TetO-jGCaMP8s-01/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "563CC7B310EC5EA403CBE43AA2BAB0B04F7F8061F383B9530EC92CEF997A6BF8",
+                       "zmetadata_key":  "single-plane-ophys_766719_2025-01-23_18-24-57_processed_2025-08-04_05-56-15/single-plane-ophys_766719_2025-01-23_18-24-57_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "6290792FE73C0025FCBC2D2FFC87AE4EED1274C9B991E8BAF2637289929138DB",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  324143,
+                       "roi_count":  3090,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  2353,
+                       "bci_trial_rows":  109,
+                       "epoch_rows":  7,
+                       "dff_rate_hz":  58.2574,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_01|Primary Motor Cortex|155|micrometer|58.2574|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               3
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-CaMKIIa-ChRmine-oScarlet-Kv2.1-WPRE - 7413",
+                                                      "virus_tars_id":  "",
+                                                      "prep_lot_number":  "",
+                                                      "prep_date":  ""
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_766719_2025-01-23_18-24-57_processed_2025-08-04_05-56-15/single-plane-ophys_766719_2025-01-23_18-24-57_behavior_nwb/",
+                                                  "object_count":  4951,
+                                                  "total_bytes":  14619195991,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "C7D099C39D54DBE5C281FFAC5DF554CA9D3C45E0FFFDBED93F372010134CFEC4",
+                                                  "first_key":  "single-plane-ophys_766719_2025-01-23_18-24-57_processed_2025-08-04_05-56-15/single-plane-ophys_766719_2025-01-23_18-24-57_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_766719_2025-01-23_18-24-57_processed_2025-08-04_05-56-15/single-plane-ophys_766719_2025-01-23_18-24-57_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "7ebc1acf-e7d2-4d04-9d59-e3556dfc107b",
+                       "subject_id":  "766719",
+                       "asset_name":  "single-plane-ophys_766719_2025-01-27_18-25-39_processed_2025-08-07_04-04-45",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_766719_2025-01-27_18-25-39_processed_2025-08-07_04-04-45",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_766719_2025-01-27_18-25-39_processed_2025-08-07_04-04-45/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Camk2a-tTA/wt;TetO-jGCaMP8s-01/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "E4B36D8DA18457A69E6CC7F424F042A05335DE541D49AB3095092540F4E49B46",
+                       "zmetadata_key":  "single-plane-ophys_766719_2025-01-27_18-25-39_processed_2025-08-07_04-04-45/single-plane-ophys_766719_2025-01-27_18-25-39_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "E4119B1F41DFB01A80AC14C536B29B0D184BF5CF5DB5B6A74A223342B8263818",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  230734,
+                       "roi_count":  2921,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  2065,
+                       "bci_trial_rows":  101,
+                       "epoch_rows":  5,
+                       "dff_rate_hz":  58.2574,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_01|Primary Motor Cortex|155|micrometer|58.2574|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               5
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-CaMKIIa-ChRmine-oScarlet-Kv2.1-WPRE - 7413",
+                                                      "virus_tars_id":  "",
+                                                      "prep_lot_number":  "",
+                                                      "prep_date":  ""
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_766719_2025-01-27_18-25-39_processed_2025-08-07_04-04-45/single-plane-ophys_766719_2025-01-27_18-25-39_behavior_nwb/",
+                                                  "object_count":  4951,
+                                                  "total_bytes":  9827273135,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "B16DDA7F0E6644645B35FAB92134DBFDB46A1AAF855FE4CAF9AE9F87BD77C4CC",
+                                                  "first_key":  "single-plane-ophys_766719_2025-01-27_18-25-39_processed_2025-08-07_04-04-45/single-plane-ophys_766719_2025-01-27_18-25-39_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_766719_2025-01-27_18-25-39_processed_2025-08-07_04-04-45/single-plane-ophys_766719_2025-01-27_18-25-39_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "c7470968-816b-49ae-9ebd-b4579e458cb4",
+                       "subject_id":  "767715",
+                       "asset_name":  "single-plane-ophys_767715_2025-01-31_18-15-21_processed_2025-08-06_07-02-58",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_767715_2025-01-31_18-15-21_processed_2025-08-06_07-02-58",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_767715_2025-01-31_18-15-21_processed_2025-08-06_07-02-58/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Slc17a6-IRES-Cre/wt;Ai230(TIT2L-XCaMPG-WPRE-ICL-ChRmine-oScarlet-IRES2-tTA2-WPRE)-hyg/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "9F32E478B61FB220B08FAA0896FA6798135F205F396B36034DD7D1D51BACBD2D",
+                       "zmetadata_key":  "single-plane-ophys_767715_2025-01-31_18-15-21_processed_2025-08-06_07-02-58/single-plane-ophys_767715_2025-01-31_18-15-21_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "DFD266A6581F7D8171B6EBD370717ABC75EC9C8C92F544EEF2B5EAE0B881B751",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  228075,
+                       "roi_count":  2243,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  2034,
+                       "bci_trial_rows":  89,
+                       "epoch_rows":  5,
+                       "dff_rate_hz":  58.2056,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.1616|hertz",
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.1646|hertz",
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.1733|hertz",
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.2056|hertz",
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.2248|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               2
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-hSyn1-RiboL1-GCaMP8s-WPRE",
+                                                      "virus_tars_id":  "AiV300143",
+                                                      "prep_lot_number":  "VT5417G",
+                                                      "prep_date":  "2023-02-07"
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_767715_2025-01-31_18-15-21_processed_2025-08-06_07-02-58/single-plane-ophys_767715_2025-01-31_18-15-21_behavior_nwb/",
+                                                  "object_count":  4951,
+                                                  "total_bytes":  7561267790,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "EF53DF5582125EDE7F73838E052D5248FDFF4A207EDB462ED8FF37C20EAB7FBB",
+                                                  "first_key":  "single-plane-ophys_767715_2025-01-31_18-15-21_processed_2025-08-06_07-02-58/single-plane-ophys_767715_2025-01-31_18-15-21_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_767715_2025-01-31_18-15-21_processed_2025-08-06_07-02-58/single-plane-ophys_767715_2025-01-31_18-15-21_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "81b6cb9b-5885-4b29-8354-5d44065fc5a7",
+                       "subject_id":  "767715",
+                       "asset_name":  "single-plane-ophys_767715_2025-02-03_17-30-05_processed_2025-08-03_23-22-19",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_767715_2025-02-03_17-30-05_processed_2025-08-03_23-22-19",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_767715_2025-02-03_17-30-05_processed_2025-08-03_23-22-19/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Slc17a6-IRES-Cre/wt;Ai230(TIT2L-XCaMPG-WPRE-ICL-ChRmine-oScarlet-IRES2-tTA2-WPRE)-hyg/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "D5E53D232FB5A33004ED7A6D15FBF5F000DD6217A66D82F72F36A903FE941C00",
+                       "zmetadata_key":  "single-plane-ophys_767715_2025-02-03_17-30-05_processed_2025-08-03_23-22-19/single-plane-ophys_767715_2025-02-03_17-30-05_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "A61D49D8C26058E5D4CC90C2935B48CA2DB46FA6CAEF2E141B95654DFFC7EA3F",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  244735,
+                       "roi_count":  2177,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  4410,
+                       "bci_trial_rows":  87,
+                       "epoch_rows":  5,
+                       "dff_rate_hz":  58.2169,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_02|Primary Motor Cortex|150|micrometer|58.17|hertz",
+                                              "FOV_02|Primary Motor Cortex|150|micrometer|58.1849|hertz",
+                                              "FOV_02|Primary Motor Cortex|150|micrometer|58.2169|hertz",
+                                              "FOV_02|Primary Motor Cortex|150|micrometer|58.2204|hertz",
+                                              "FOV_02|Primary Motor Cortex|150|micrometer|58.2335|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               3
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-hSyn1-RiboL1-GCaMP8s-WPRE",
+                                                      "virus_tars_id":  "AiV300143",
+                                                      "prep_lot_number":  "VT5417G",
+                                                      "prep_date":  "2023-02-07"
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_767715_2025-02-03_17-30-05_processed_2025-08-03_23-22-19/single-plane-ophys_767715_2025-02-03_17-30-05_behavior_nwb/",
+                                                  "object_count":  4951,
+                                                  "total_bytes":  7766463453,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "4B234B01C0C38B9629B768FADD15E424481CE260108FECD075AFC6A935E75B0B",
+                                                  "first_key":  "single-plane-ophys_767715_2025-02-03_17-30-05_processed_2025-08-03_23-22-19/single-plane-ophys_767715_2025-02-03_17-30-05_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_767715_2025-02-03_17-30-05_processed_2025-08-03_23-22-19/single-plane-ophys_767715_2025-02-03_17-30-05_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "3788a435-4e4d-42b7-8718-44cd9c43b6b7",
+                       "subject_id":  "767715",
+                       "asset_name":  "single-plane-ophys_767715_2025-02-06_18-59-24_processed_2025-08-06_19-25-46",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_767715_2025-02-06_18-59-24_processed_2025-08-06_19-25-46",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_767715_2025-02-06_18-59-24_processed_2025-08-06_19-25-46/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Slc17a6-IRES-Cre/wt;Ai230(TIT2L-XCaMPG-WPRE-ICL-ChRmine-oScarlet-IRES2-tTA2-WPRE)-hyg/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "5B3FFA35BE6186F724987A49B952E32D9C3005882BA9585555931561EA538C12",
+                       "zmetadata_key":  "single-plane-ophys_767715_2025-02-06_18-59-24_processed_2025-08-06_19-25-46/single-plane-ophys_767715_2025-02-06_18-59-24_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "066F3CF257381974555236198FC7828F7090B932C3BA90DA4E5AEF7EA41B594A",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  216866,
+                       "roi_count":  2231,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  4059,
+                       "bci_trial_rows":  76,
+                       "epoch_rows":  6,
+                       "dff_rate_hz":  58.2206,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.1726|hertz",
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.176|hertz",
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.1782|hertz",
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.1893|hertz",
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.2206|hertz",
+                                              "FOV_01|Primary Motor Cortex|150|micrometer|58.2341|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               4
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-hSyn1-RiboL1-GCaMP8s-WPRE",
+                                                      "virus_tars_id":  "AiV300143",
+                                                      "prep_lot_number":  "VT5417G",
+                                                      "prep_date":  "2023-02-07"
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_767715_2025-02-06_18-59-24_processed_2025-08-06_19-25-46/single-plane-ophys_767715_2025-02-06_18-59-24_behavior_nwb/",
+                                                  "object_count":  4951,
+                                                  "total_bytes":  7055197716,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "C95D0CAD562E30349655F818C2B3FE4D9722C9D9C8AB5251BB24B852D823C94A",
+                                                  "first_key":  "single-plane-ophys_767715_2025-02-06_18-59-24_processed_2025-08-06_19-25-46/single-plane-ophys_767715_2025-02-06_18-59-24_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_767715_2025-02-06_18-59-24_processed_2025-08-06_19-25-46/single-plane-ophys_767715_2025-02-06_18-59-24_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "3a82e844-4bd9-4f0e-a017-56419a967c79",
+                       "subject_id":  "767715",
+                       "asset_name":  "single-plane-ophys_767715_2025-02-10_16-04-20_processed_2025-08-05_12-52-18",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_767715_2025-02-10_16-04-20_processed_2025-08-05_12-52-18",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_767715_2025-02-10_16-04-20_processed_2025-08-05_12-52-18/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Slc17a6-IRES-Cre/wt;Ai230(TIT2L-XCaMPG-WPRE-ICL-ChRmine-oScarlet-IRES2-tTA2-WPRE)-hyg/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "0D687C04C40370DAA3B762D0B279F2834C437BD1133F32EC97E578B10701C7BD",
+                       "zmetadata_key":  "single-plane-ophys_767715_2025-02-10_16-04-20_processed_2025-08-05_12-52-18/single-plane-ophys_767715_2025-02-10_16-04-20_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "F94D06784F63654BD1D5BAE3592E351C52984D94A6111EC40CFE7450605E9656",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  237291,
+                       "roi_count":  1870,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  4060,
+                       "bci_trial_rows":  106,
+                       "epoch_rows":  5,
+                       "dff_rate_hz":  58.2437,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_03|Primary Motor Cortex|150|micrometer|58.2045|hertz",
+                                              "FOV_03|Primary Motor Cortex|150|micrometer|58.2075|hertz",
+                                              "FOV_03|Primary Motor Cortex|150|micrometer|58.2208|hertz",
+                                              "FOV_03|Primary Motor Cortex|150|micrometer|58.2437|hertz",
+                                              "FOV_03|Primary Motor Cortex|150|micrometer|58.2546|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               5
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-hSyn1-RiboL1-GCaMP8s-WPRE",
+                                                      "virus_tars_id":  "AiV300143",
+                                                      "prep_lot_number":  "VT5417G",
+                                                      "prep_date":  "2023-02-07"
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_767715_2025-02-10_16-04-20_processed_2025-08-05_12-52-18/single-plane-ophys_767715_2025-02-10_16-04-20_behavior_nwb/",
+                                                  "object_count":  2903,
+                                                  "total_bytes":  6539042060,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "3ED0A13202C0FED5CB9BB697C36363821DBD2C647A6AF81FC15F2770BF1E0A70",
+                                                  "first_key":  "single-plane-ophys_767715_2025-02-10_16-04-20_processed_2025-08-05_12-52-18/single-plane-ophys_767715_2025-02-10_16-04-20_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_767715_2025-02-10_16-04-20_processed_2025-08-05_12-52-18/single-plane-ophys_767715_2025-02-10_16-04-20_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   },
+                   {
+                       "asset_id":  "b28d6321-1b1b-4110-87fb-0e19325c1dfe",
+                       "subject_id":  "767715",
+                       "asset_name":  "single-plane-ophys_767715_2025-02-17_17-41-50_processed_2025-08-05_01-05-20",
+                       "manifest_s3_location":  "s3://aind-open-data/single-plane-ophys_767715_2025-02-17_17-41-50_processed_2025-08-05_01-05-20",
+                       "manifest_s3_location_matches":  true,
+                       "metadata_key":  "single-plane-ophys_767715_2025-02-17_17-41-50_processed_2025-08-05_01-05-20/metadata.nd.json",
+                       "metadata_status":  "Invalid",
+                       "genotype":  "Slc17a6-IRES-Cre/wt;Ai230(TIT2L-XCaMPG-WPRE-ICL-ChRmine-oScarlet-IRES2-tTA2-WPRE)-hyg/wt",
+                       "provider_identity_matches":  true,
+                       "metadata_lock_matches":  true,
+                       "metadata_content_sha256_observed":  "08B1CEF9DF4786BD20CD44EAC5EDE5CA44EC0041FD1A6FFF2B44A934AA209821",
+                       "zmetadata_key":  "single-plane-ophys_767715_2025-02-17_17-41-50_processed_2025-08-05_01-05-20/single-plane-ophys_767715_2025-02-17_17-41-50_behavior_nwb/.zmetadata",
+                       "zmetadata_lock_matches":  true,
+                       "zmetadata_content_sha256_observed":  "4CDE13AD459F9D30966CAE3B16A6A0470D56CCDEC5F69C51F80D89A1589887AB",
+                       "zmetadata_key_count":  248,
+                       "missing_required_keys":  [
+
+                                                 ],
+                       "missing_required_table_columns":  {
+                                                              "intervals/epochs/.zattrs":  [
+
+                                                                                           ],
+                                                              "stimulus/presentation/PhotostimTrials/.zattrs":  [
+
+                                                                                                                ],
+                                                              "stimulus/presentation/Trials/.zattrs":  [
+
+                                                                                                       ],
+                                                              "processing/processed/image_segmentation/roi_table/.zattrs":  [
+
+                                                                                                                            ]
+                                                          },
+                       "required_table_columns_match":  true,
+                       "dff_frame_count":  238556,
+                       "roi_count":  2312,
+                       "dff_roi_axis_matches":  true,
+                       "photostim_trial_rows":  4204,
+                       "bci_trial_rows":  90,
+                       "epoch_rows":  5,
+                       "dff_rate_hz":  58.2262,
+                       "locomotion_key_count":  0,
+                       "fov_signatures":  [
+                                              "FOV_03|Primary Motor Cortex|150|micrometer|58.1885|hertz",
+                                              "FOV_03|Primary Motor Cortex|150|micrometer|58.1915|hertz",
+                                              "FOV_03|Primary Motor Cortex|150|micrometer|58.201|hertz",
+                                              "FOV_03|Primary Motor Cortex|150|micrometer|58.2262|hertz",
+                                              "FOV_03|Primary Motor Cortex|150|micrometer|58.2307|hertz"
+                                          ],
+                       "session_numbers":  [
+                                               8
+                                           ],
+                       "virus_preparations":  [
+                                                  {
+                                                      "name":  "pAAV-hSyn1-RiboL1-GCaMP8s-WPRE",
+                                                      "virus_tars_id":  "AiV300143",
+                                                      "prep_lot_number":  "VT5417G",
+                                                      "prep_date":  "2023-02-07"
+                                                  }
+                                              ],
+                       "behavior_inventory":  {
+                                                  "prefix":  "single-plane-ophys_767715_2025-02-17_17-41-50_processed_2025-08-05_01-05-20/single-plane-ophys_767715_2025-02-17_17-41-50_behavior_nwb/",
+                                                  "object_count":  4951,
+                                                  "total_bytes":  8158160681,
+                                                  "canonical_key_size_etag_last_modified_sha256":  "235CF39657B06DBF632F59FD971DDEE7E71FB35C3F3A4F515DBF69B9E31D94FF",
+                                                  "first_key":  "single-plane-ophys_767715_2025-02-17_17-41-50_processed_2025-08-05_01-05-20/single-plane-ophys_767715_2025-02-17_17-41-50_behavior_nwb/.zattrs",
+                                                  "last_key":  "single-plane-ophys_767715_2025-02-17_17-41-50_processed_2025-08-05_01-05-20/single-plane-ophys_767715_2025-02-17_17-41-50_behavior_nwb/timestamps_reference_time/0",
+                                                  "lexicographic_order_strict":  true
+                                              }
+                   }
+               ]
+}

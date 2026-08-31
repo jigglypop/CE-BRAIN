@@ -1,0 +1,145 @@
+{
+  "schema": "CE_NPF_CTMC_MARGINAL_FISHER_WITNESS_V1",
+  "status": "FORMAL_L0_CTMC_MARGINAL_FISHER_WITNESS_PASS",
+  "failure_codes": [],
+  "scope": "synthetic_three_state_one_jump_marked_ctmc_with_binary_terminal_emission",
+  "equations_directly_exercised": [
+    "21.54j pure-CTMC one-jump likelihood consequence via 21.54k",
+    "21.54k",
+    "21.54m",
+    "21.54n",
+    "21.54p",
+    "21.54q",
+    "21.54r",
+    "21.54s"
+  ],
+  "equations_not_certified": [
+    "general recurrent or multi-contact CTMC/PDMP",
+    "continuous-state PDMP sensitivity in 21.54l",
+    "fixed-base pathwise saltation in 21.54o",
+    "interval-censored observation model in 21.54t",
+    "actual neural turnover hazard or mark-kernel calibration",
+    "Riemannian field on neural data",
+    "functional folding or behavioral mediation"
+  ],
+  "claim_ceiling": "BIO_EVIDENCE_L0",
+  "real_neural_data_used": false,
+  "fixture": {
+    "states": ["N_at_risk", "P_persistent_mark", "E_eliminated_mark"],
+    "initial_state": "N_at_risk",
+    "absorbing_terminal_states": ["P_persistent_mark", "E_eliminated_mark"],
+    "metric_coordinate_z": 2.00000000000000011e-1,
+    "slow_deformation_theta": 2.99999999999999989e-1,
+    "horizon_slow_time": 1.39999999999999991e0,
+    "lambda_formula": "0.8*exp(0.6*z+0.3*theta)",
+    "mark_probability_formula": "logistic(-0.25+0.6*z+0.7*theta)",
+    "binary_emission_probability_one": [
+      1.00000000000000006e-1,
+      8.49999999999999978e-1,
+      3.49999999999999978e-1
+    ],
+    "lambda": 9.86942447965394543e-1,
+    "exposure_lambda_H": 1.38171942715155227e0,
+    "mark_probability": 5.19989340155581847e-1,
+    "terminal_state_probabilities": [
+      2.51146353738981420e-1,
+      3.89395913392368564e-1,
+      3.59457732868650015e-1
+    ]
+  },
+  "assumptions": [
+    "finite slow-time horizon",
+    "one simple jump at most",
+    "fixed three-path alphabet over every regular finite-difference stencil",
+    "strictly positive hazard and mark probabilities on the regular fixture",
+    "parameter-independent binary emission support",
+    "z and theta are distinct coordinates",
+    "IEEE-754 binary64 closed-form evaluation"
+  ],
+  "thresholds": {
+    "algebra": 2.00000000000000006e-13,
+    "path_or_marginal_score_five_point_fd": 2.00000000000000007e-10,
+    "metric_derivative_five_point_fd": 2.00000000000000007e-10,
+    "ablation_separation": 1.00000000000000002e-3,
+    "probability_margin": 9.99999999999999980e-13
+  },
+  "checks": {
+    "path_score_mean": 0.0,
+    "path_fisher": 3.36876420812115329e-1,
+    "terminal_state_fisher": 2.97789759525356190e-1,
+    "output_probability_one": 4.81911368261438988e-1,
+    "marginal_output_fisher": 1.05450423777562793e-1,
+    "missing_information": 2.31425997034552577e-1,
+    "path_minus_terminal_information": 3.90866612867591390e-2,
+    "terminal_minus_output_information": 1.92339335747793397e-1,
+    "average_conditional_emission_fisher": 0.0,
+    "path_fisher_theta": 4.49487966221098142e-2,
+    "marginal_output_fisher_theta": 1.41183433010042929e-2,
+    "missing_information_theta": 3.08304533211055214e-2,
+    "fisher_identity_pass": true,
+    "expected_score_zero_pass": true,
+    "score_square_equals_negative_hessian_pass": true,
+    "louis_missing_information_pass": true,
+    "posterior_mixed_score_identity_pass": true,
+    "moving_marginal_measure_term_required": true,
+    "five_point_metric_derivative_pass": true
+  },
+  "ablations": {
+    "omit_jump_kernel_score": {
+      "path_fisher": 2.69587312653966682e-1,
+      "marginal_output_fisher": 4.51602173519504366e-2,
+      "separated_from_complete_formula": true
+    },
+    "omit_survival_compensator": {
+      "wrong_expected_score": 4.49312187756611137e-1,
+      "expected_score_zero_failed": true
+    },
+    "reverse_survival_compensator_sign": {
+      "wrong_expected_score": 8.98624375513222273e-1,
+      "expected_score_zero_failed": true
+    },
+    "average_path_conditional_emission_fisher": {
+      "wrong_value": 0.0,
+      "correct_marginal_value": 1.05450423777562793e-1
+    },
+    "use_complete_path_fisher_as_output_fisher": {
+      "wrong_value": 3.36876420812115329e-1,
+      "correct_marginal_value": 1.05450423777562793e-1
+    },
+    "omit_moving_marginal_measure_term": {
+      "separated_from_complete_metric_derivative": true
+    }
+  },
+  "fail_closed_controls": {
+    "parameter_dependent_path_support": {
+      "bad_mark_probability": "max(0,theta-0.3)/(1+max(0,theta-0.3))",
+      "status": "EXPECTED_STOP",
+      "failure_code": "STOP_COMMON_PATH_SUPPORT_CHANGED",
+      "score_or_finite_difference_evaluated_after_stop": false
+    }
+  },
+  "validation": {
+    "format_command": "rustfmt --edition 2021 --check paper/6_뇌/국소회로_상태다양체_흐름_대응/repro/verify_ctmc_marginal_fisher_sensitivity.rs",
+    "test_compile_command": "rustc --edition 2021 --test paper/6_뇌/국소회로_상태다양체_흐름_대응/repro/verify_ctmc_marginal_fisher_sensitivity.rs -o C:\\Windows\\Temp\\ce_ctmc_marginal_fisher_test.exe",
+    "test_run_command": "C:\\Windows\\Temp\\ce_ctmc_marginal_fisher_test.exe --nocapture",
+    "test_result": "5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out",
+    "rustc": "rustc 1.95.0 (59807616e 2026-04-14)",
+    "rustfmt": "rustfmt 1.9.0-stable (59807616e1 2026-04-14)",
+    "host": "x86_64-pc-windows-msvc"
+  },
+  "artifact_hashes": {
+    "source_sha256": "e9d31567846d004db845ff2180ede3c6f06f53c632cd110dae89022d57dcad4e",
+    "receipt_sha256": null,
+    "receipt_hash_policy": "recorded externally because self-hash is recursive"
+  },
+  "claim_locks": {
+    "general_pdmp_likelihood_proved": false,
+    "interval_imaging_hazard_calibrated": false,
+    "parent_identified_contact_process_observed": false,
+    "real_neural_metric_verified": false,
+    "functional_folding_verified": false,
+    "behavioral_mediation_verified": false,
+    "stage10_identified": false
+  },
+  "next_equation_gate": "AGE_MARKED_INTERVAL_CENSORED_PDMP_FILTER_AND_DATA_IDENTIFIABILITY"
+}

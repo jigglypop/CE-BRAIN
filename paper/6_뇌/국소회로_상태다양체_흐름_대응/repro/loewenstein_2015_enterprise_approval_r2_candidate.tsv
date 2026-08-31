@@ -1,0 +1,14 @@
+key	value
+schema_version	ce_npf_loewenstein_2015_enterprise_execution_approval_r2
+decision	PENDING
+run_spec_sha256	01e797030c33e89b7283d99ebdc0a8f80a6c71747f0eccd1b8ed790a43d2a2bd
+signed_runner_sha256	47fd90048d28c7bdceb0654cae218759c0aea12b7ce5593f9d90a3a62ee03b4e
+signature_mode	authenticode
+signer_certificate_sha256	0000000000000000000000000000000000000000000000000000000000000000
+enterprise_policy_id	{0283ac0f-fff1-49ae-ada1-8a933130cad6}
+allowed_host	YDH2244
+allowed_architecture	x86_64-pc-windows-msvc
+run_id	PENDING-RUN-ID
+issuer	PENDING
+issued_at_utc	PENDING
+expires_at_utc	PENDING
