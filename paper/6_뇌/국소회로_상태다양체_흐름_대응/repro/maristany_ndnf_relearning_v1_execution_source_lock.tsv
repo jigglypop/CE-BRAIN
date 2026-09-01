@@ -1,0 +1,8 @@
+artifact_role	path	bytes	sha256	version
+analysis_contract	paper/검증_원장/CE_NPF_ALT_BIO_D3_NDNF_복잡규칙재학습_분석계약_v1.md	10151	e4bcde5224d5f8e9309bc84504a74f3e5edd67a71d573ecae6f0893951e9e690	
+analysis_runner	paper/6_뇌/국소회로_상태다양체_흐름_대응/repro/run_maristany_ndnf_relearning_v1.py	25738	acf1bc5de75e8f98e37a0c25a9775af530e6e30facdff475fa1b49db09e2e6c7	
+regression_tests	paper/6_뇌/국소회로_상태다양체_흐름_대응/repro/test_maristany_ndnf_relearning_v1.py	6895	db9ae13d5d3f79f61cc3dddf9d8f23f40d381aa322f96f91e12de863f12eb83b	
+provider_archive	data/external/maristany_2026_gnode_etlk5k/10.12751_g-node.etlk5k.zip	483324456	b9962e7760ac7299cc968fa4a23d2c965342d78abdded4f937a4081588f09ba3	
+python_runtime	C:\Users\dongh\AppData\Local\Programs\Python\Python311\python.exe	103192	5f7b89a612c9b8af1d6456cdfcd1dbe5ca630849e79aebced9bee9a6694952ec	3.11.9
+numpy_runtime	C:\Users\dongh\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\__init__.py	27550	65d5e777b6d662ba19cb80800bef3eb999eda7aee51eea62c308feabf679dba4	2.4.6
+scipy_runtime	C:\Users\dongh\AppData\Local\Programs\Python\Python311\Lib\site-packages\scipy\__init__.py	4523	4c3ab17c56609249056db732aa2e196b3f21c923f8d4967a46cb63aa9f739b28	1.17.1

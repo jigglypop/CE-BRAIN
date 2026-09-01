@@ -50,9 +50,10 @@ L4(개입 동일성·매개) 이전에는 범위를 생략한 “뇌가 이렇�
 감사, 표·그림과 원고 보완은 새 workspace를 만들지 않고 기존 `CE_RUN`에서
 계속한다. 기본 `init`은 다른 미완성 run이 있으면 `REUSE_REQUIRED`로 새 폴더
 생성을 막는다. 기존 목표·증거 계보와 독립인 연구 프로그램일 때만 명시적인
-`--new-contract`를 사용한다. 단, `real_brain_equation_discovery_loop.md`는
-현재 checkout에 없다. [하네스 안내](../.codex/README.md)에 기록된 이 부채가
-복구되기 전에는 그 하네스를 전제로 새 연구 run이나 주장 승격을 시작하지 않는다.
+`--new-contract`를 사용한다. 실뇌 연구는
+[실제 뇌 식 기반 발견 루프](../.codex/harnesses/real_brain_equation_discovery_loop.md)의
+다운로드 전 eligibility·실데이터 endpoint·증거 상한과
+[뇌 생물학 증거 사다리](../.codex/harnesses/brain_evidence_ladder.md)를 함께 따른다.
 
 연구 논문의 정본은 주제 폴더의 `00_논문목차.md`와 그 목차가 순서대로 조립하는 장 파일들이다. 새 결과는 해당 장을 제자리 갱신하며, README에는 목차 링크만 한 번 둔다. `_workspace/`에는 논문 사본·초안·v2·final 사본을 만들지 않고 증거와 짧은 `DOCS_PAPER` 인계만 둔다. 실증·뇌 논문은 제목·초록·연구 질문, 자료·코호트·판본, 측정·전처리·QC, 사전 고정 분석, 주 결과와 모든 대조·민감도·음성 결과, 대안 해석, 주장 상한과 한계, 다음 반증 조건, 재현 경로와 1차 참고문헌을 장별로 포함한다.
 
@@ -66,6 +67,9 @@ L4(개입 동일성·매개) 이전에는 범위를 생략한 “뇌가 이렇�
 - [뇌 검증기준](검증_원장/뇌_검증기준.md) — legacy simplex/graph 계보의 네
   게이트와 일반 반증 원칙; BIO 등급 판정은 위 증거 사다리를 따른다.
 - [신경 가소성·기능계량·접힘 주장 원장](검증_원장/신경_가소성_리만접힘_주장원장.md) — 발달 scaffold, conditional/marginal output Fisher, delayed flow-pullback, fixed-itinerary hybrid, marked-path 민감도와 slow Itô--jump metric transport, 공개 저자-catalogued 측방 돌기(필로포디아 미분리) 재관측 입력의 부분 적격성, 인과 매개 미검증 상태 (`BIO_EVIDENCE_L0`)
+- [성체 L4 리만접힘 실험계약 v2](검증_원장/CE_NPF_ADULT_L4_리만접힘_실험계약_v2.md) — actuator $a$와 실측 neural state $z$, 생물 mediator $M$과 metric summary $m=s(g)$를 분리하고 좌표불변 fold·동일접촉 rescue·결합 power를 결박한 `SCHEMA_FREEZE_CANDIDATE`; 실제 도구는 `REVERSIBLE_SAME_CONTACT_TOOL_STOP / BIO_EVIDENCE_L0`
+- [동일접촉 도구 development 입력 스키마](6_뇌/국소회로_상태다양체_흐름_대응/repro/adult_l4_same_contact_tool_development_schema_v1.json) · [fail-closed preflight](6_뇌/국소회로_상태다양체_흐름_대응/repro/preflight_adult_l4_same_contact_tool_development_v1.py) — 부모 v2 해시에 묶인 6개 lab table과 여섯 채널을 검사하되 도구 검증·생물 endpoint·실행허가는 절대 승격하지 않는 다음 외부실험 입구
+- [성체 동일접촉 외부 lab handoff](6_뇌/국소회로_상태다양체_흐름_대응/repro/adult_l4_same_contact_lab_handoff_v1.json) · [handoff validator](6_뇌/국소회로_상태다양체_흐름_대응/repro/validate_adult_l4_same_contact_lab_handoff_v1.py) — 부모의 12–20주 awake hindlimb M1 L2/3 pyramidal 범위, 공개자료 동결, 승인·장치·취득 순서와 외부 STOP을 결박한 `LAB_HANDOFF_SCHEMA_PASS_EXTERNAL_ACTION_REQUIRED / BIO_EVIDENCE_L0`
 - [AIND BCI E1 동일세포 개입 계약](검증_원장/CE_NPF_AIND_BCI_E1_동일세포_개입계약.md) — SHA-256 `23fe688c…f22c`로 보존한 불변 사전등록 계약
 - [AIND BCI E1 선택 입력 사전검사 결과](검증_원장/CE_NPF_AIND_BCI_E1_선택입력_사전검사_결과.md) — 22-asset source/schema 감사 뒤 epoch·clock A가 `E1_BLOCKED_INPUT`; target·ROI·metric endpoint 미실행
 - [Loewenstein 2015 저자-catalogued 돌기 재관측 입력 사전검사 결과](검증_원장/CE_NPF_LOEWENSTEIN_2015_SPINE_생존입력_사전검사_결과.md) — 성체 수컷 GFP-M 청각피질 L5 apical tuft에서 선별한 측방 돌기(필로포디아 미분리)의 4일 재관측 입력만 `PARTIAL_MODEL_ELIGIBILITY`; biological CTMC/PDMP와 animal-heldout은 식별불가
@@ -80,9 +84,8 @@ L4(개입 동일성·매개) 이전에는 범위를 생략한 “뇌가 이렇�
 
 ## 6. 재현
 
-Windows 검증 정본 경로는 `.codex/hooks/python.cmd`지만 현재 checkout에는 그
-hook이 없다. 복구 전에는 workspace `.venv`나 과거 `.claude` 경로로
-우회하지 않고, 필요한 검증을 정확한 선행조건 부재로 정지한다. hook이 복구되면
-변경 파일에 직접 연결된 가장 작은 source/test 검사부터 실행한다.
+Windows 검증 정본 경로는 `.codex/hooks/python.cmd doctor|python|pytest`다.
+workspace `.venv`나 과거 `.claude` 경로로 우회하지 않고, 변경 파일에 직접 연결된
+가장 작은 source/test 검사부터 실행한다.
 
 코드가 방정식을 높은 정밀도로 푸는 것과 그 변수를 실제 뇌·지능의 기전으로 식별하는 것은 다른 검증이다. simulator 성립은 보조 증거이며, 뇌 주장 승격은 증거 사다리와 `검증_원장/뇌_검증기준.md`를 따른다.
