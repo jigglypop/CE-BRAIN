@@ -1,0 +1,146 @@
+id: E-20260902-001
+question: Q-NPF-01
+attempt: 1
+timestamp: '2026-09-02T15:00:00+09:00'
+claim: '카드 F-01(예측식): 순수-lag 계량 이동 g_post(u)=g_pre(u-Δτ) 아래 tr E_fold(u) = -Δτ ∂_u log V_g^pre(u) + O(Δτ²),
+  β1=1.00±0.30, κ≥0.50, placebo β1=0.00±0.30를 예측한다.'
+level: L2
+verdict: refute
+pivot_step: null
+ladder_step: null
+ladder_cited: null
+kill_triggered: null
+card: derivations/Q-NPF-01/F-01.formula.md
+derivation: derivations/Q-NPF-01/F-01.formula.md
+verification:
+  symbolic: pass
+  numeric: pass
+  lean: skipped
+  artifacts:
+  - verify/Q-NPF-01/F-01/hook_result.json
+adversary:
+  mode: card_audit (6 checks + 4 limit tests; 9 scripts re-run, bit-reproduced seed 20260902)
+  counterexamples:
+  - input: exact pure-lag world, zero noise, g_post(u)=g_pre(u-Dtau); card's FROZEN estimator (u in {0.45,0.75,1.05},
+      central difference h=0.30 s, free intercept); log V_g a bump of timescale s
+    expected: beta_1 = 1.00 +- 0.30, kill 1 window [0.70,1.30]
+    observed: 'beta_1 = 1.083 (s=0.15), 1.477 (0.20), 1.485 (0.25), 1.403 (0.30), 1.257 (0.40), 1.172
+      (0.50), 1.069 (0.80). Over 20000 draws (u0~U[0.2,1.3], s~U[0.15,0.6], Dtau~U[0.02,0.25]): median
+      beta_1 = 1.232, IQR [0.985,1.473], P(outside [0.70,1.30]) = 0.540. beta_1 = 1.0000 EXACTLY iff log
+      V_g is polynomial degree <= 2 on the window.'
+    note: P0. Dominant error is the frozen O(h^2) central-difference attenuation ~(h^2/6)L'''/L', never
+      accounted for; card declares only O(Dtau^2). Repair available blind from PRE-phase data.
+  - input: kill 2 placebo, same-phase odd/even interleaved fold => Dtau_plac ~ 0 by construction; beta_1_plac
+      = Cov(trE_plac,T_plac)/Var(T_plac)
+    expected: '|median beta_1^plac| <= 0.30'
+    observed: beta_1_plac is a ratio of two zero-mean normals = Cauchy. median|beta_1_plac| = 0.98, 2.49,
+      4.98, 9.85, 25.0 for sigma_tau = 0.050..0.002 s. P(|median_8| > 0.30) = 0.285 to 0.978.
+    note: P0. Placebo statistic is 0/0 exactly at the null it tests; kill 2 destroys a true card with
+      P 0.29-0.98. Card text admits two incompatible readings (re-estimate vs reuse Dtau).
+  - input: 'LIMIT: log V_g affine (or flat) in u over the window; Dtau=0.10; frozen 3-point grid'
+    expected: regression defined, or pipeline stops
+    observed: 'flat: Var(T)=0, lstsq silently returns beta_1=0.0000. AFFINE: Var(T)=0 (equally spaced
+      central differences identical), lstsq returns 0.0064. Quadratic: Var(T)=1.536e-03, beta_1=1.0000
+      exactly.'
+    note: P1. No pre-registered Var(T) floor or degeneracy stop.
+  - input: 'LIMIT: Dtau -> 0 with LHS noise sigma_L = 0.05'
+    expected: beta_1 stable within +-0.30 for every mouse passing |Dtau| >= 0.02 s gate
+    observed: 'noise-free limit finite (1.4029). With noise: Dtau = 0.100/0.020/0.005/0.001 gives IQR
+      [1.19,1.52]/[0.57,2.23]/[-1.95,4.70]/[-15.06,18.03]; P(in window) = 0.417/0.186/0.049/0.010.'
+    note: P1. Gate floor 0.02 s sits inside the ill-conditioned regime.
+  - input: 'chart re-expression z''=phi(z), J_phi u-dependent with non-affine log|det J_phi(u)|: det J
+      = exp(k u^2), k in {0.5,2,5}; exp(k sin 3u), k in {1,4}'
+    expected: 'recovers 3 / ladder step 1: both sides chart-invariant'
+    observed: tr E_fold invariant to 1e-15 under every chart, but beta_1 = 0.993 -> 0.581 -> 0.259 ->
+      0.123, and -0.329, -0.067.
+    note: P1. Only the LHS is chart-invariant; RHS only under u-independent (or affine-log-det) charts.
+      Ladder step 1 claim false as written.
+  - input: leaky recurrent unit tau_m x' = -x + w tanh(x(t-tau)) + I(t), I cue-locked (not shifted), internal
+      delay 20 -> 24 ms; best rigid time shift removed
+    expected: 'ladder step 3: (21.47) delay term exactly yields E^delay (rigid translation)'
+    observed: 'best-shift residual/total = 0.671 (w=0.5), 0.721 (w=0.9); recovered shift 1.0 and 1.9 ms,
+      not 4 ms. Positive control (drive also shifted): residual 0.024, shift 3.9 ms.'
+    note: P1. A conduction-delay change in a recurrent cue-locked circuit is not a rigid time translation;
+      kill 1 can reject the card in a world where the CE delay mechanism is exactly right.
+  - input: 'alternative: uniform TIME DILATION g_post(u) = g_pre(u/(1+eps)); Dtau by card''s own cross-correlation'
+    expected: kill 1 + kappa isolate the rigid-lag mechanism
+    observed: eps = 0.15/0.20/0.30 -> Dtau_hat = 0.107/0.150/0.223 s, beta_1 = 1.216/1.059/0.897 (all
+      inside window), kappa = 1.00 for every eps
+    note: P1. kappa = +1 identically for any g_post(u) = g_pre(u - delta(u)) with one-sign delta; prediction
+      2 cannot separate rigid lag from time-warp.
+  - input: 'kill 3 model M1: mu = a + Jz + b*max(v^T z,0) as Finsler/Randers test'
+    expected: Randers direction asymmetry F(z,-y) != F(z,y)
+    observed: F(+y) = F(-y) = 1.8000 (v^T z>0) and 1.0000/1.0000 (v^T z<0). Reversible.
+    note: P1. A state-hinge in the mean keeps g Riemannian; kill 3 is a readout-linearity test mislabeled
+      as Riemann-vs-Finsler. Covector/vector mismatch in v^T z.
+  - input: input_gate >= 6/8 mice with |Dtau| >= 0.02 s vs kill 1 >= 7/8 positive sign (exact p = 9/256)
+    expected: gate and kill consistent for a true card
+    observed: 'gate passes with exactly 6/8 solid: P(kill 1 passes | card TRUE) = 0.750/0.609/0.487 for
+      per-mouse sign accuracy 1.00/0.95/0.90 => false-kill 0.25-0.51. At Dtau = 0.02 s on 0.1 s bins rel.err(Dtau_hat)
+      = 0.66/0.23/0.06 at SNR 2/5/20.'
+    note: P1. Gate-marginal mice have sign-random beta_1 ~ 1/Dtau_hat and decide the 7/8 test.
+  - input: 'LIMIT: g = J^T Sigma^-1 J, d=3; lambda_min -> 0 and 1% Jacobian noise'
+    expected: raw full rank with lambda_min floor (ch.21 lines 1018-1026)
+    observed: lambda_min = 1e-1/1e-3/1e-6/1e-12/0 -> log det g = -3.00/-7.60/-14.51/-28.32/-inf. 2x change
+      at 1e-6 moves tr E_fold by 0.3466. sd(log det g_hat) = 0.046/0.207/1.078/2.230 for sv_min(J) = 1.0/0.1/0.03/0.01.
+    note: P1. No rank test, lambda_min floor, ridge policy or minimum trial count; per-mouse triplet counts
+      17..63.
+  - input: 'shared-noise coupling: L_hat(u_i) on LHS and in RHS central difference at u_i -/+ 0.3'
+    expected: unbiased slope
+    observed: sigma_L = 0.00/0.05/0.10/0.20 -> median beta_1 = 1.352/1.353/1.340/1.295, P(in window) =
+      0.000/0.413/0.299/0.173
+    note: P1. Errors-in-variables, no pre-registered correction; even noise-free cell has P(in window)
+      = 0 (true value 1.403).
+  - input: 'dimension table: J: 1, sigma: O, g: 1 with g = J^T Sigma^-1 J, [mu] = O; recovers-2 toy g
+      = (dq/du)^2/sigma^2'
+    expected: table entries simultaneously consistent
+    observed: '[J] = O so [g] = 1 correct, but table J: 1 gives [g] = O^-2; toy gives [g] = T^-2.'
+    note: P2. Headline equation dimensionally sound; J symbol overloaded; '-q_dot(t-tau) delta_tau' is
+      (21.47) line 3 not (21.48), cited 4 times.
+  survived_checks:
+  - dimension of headline equation (Delta_tau * d_u log V_g dimensionless; tr E_fold dimensionless)
+  - recovers limit 1 (vacuous 0 = alpha*0)
+  - 'recovers limit 2 algebra: lim trE/Dtau = -1/u = -q_ddot/q_dot symbolic (Taylor of the assumed shift)'
+  - recovers limit 3 under declared u-independent chart freeze; tr E_fold invariant 1e-15
+  - Jacobi formula symbolic d=2 True, numeric d=5 rel 9.1e-9
+  - 'gain-only orthogonality: J -> aJ gives tr E_fold constant in u (ptp 4.4e-16), beta_1 = 7.4e-15'
+  - sign convention self-consistent (+1.3518 / -1.3518)
+  - beta_1 = 1.0000 exactly iff log V_g degree <= 2 on window
+  - Dtau parabolic-interpolation bias -0.5% to -2.0%
+  - exact p arithmetic 9/256 = 0.03515625 correct
+  - dof ratio nominal 3 vs 1
+  - core quantities observable (no P0 unobservability)
+  - 'data and contract exist: Ottenheimer 2023, 8 mice, 354 triplets'
+  - 'no post-hoc change: nothing unblinded (no attempt directory)'
+  - all 9 adversary scripts bit-reproduced under seed 20260902
+sourcer:
+  mode: novelty_contrast
+  prior_art:
+  - ref: 'UNVERIFIED: Chung, Lee & Sompolinsky 2018; Bernardi et al. 2020; Lee et al. 2024 (bioRxiv GLUE)'
+    relation: unrelated
+    note: General representational geometry changes with learning; no quantitative law connecting latency
+      shift Δτ to Fisher volume gradient with coefficient 1.
+  - ref: 'UNVERIFIED: Barachant et al. (BCI/EEG covariance); Ilea et al. 2018 CVPR (log-Euclidean/affine-invariant
+      SPD metrics)'
+    relation: unrelated
+    note: Technical foundation for E_fold matrix-log definition; no temporal shift law.
+  - ref: Gardner et al. 2022 (Nature grid torus); Ye & Wessel 2025 (Nat Commun speed-dependent Fisher)
+    relation: unrelated
+    note: General state dependence of Fisher information; not the coefficient-1 law.
+  cited_steps:
+  - step: 1
+    ref: 'UNVERIFIED: Jacobi formula d log det g = tr(g^{-1} dg); Magnus & Neudecker 1999; Amari 2016'
+  baselines: []
+  searches: 3
+assumptions:
+- pure-lag 가정 g_post(u)=g_pre(u-Δτ)이 사다리 산문에만 있고 formula/predicts에 없다 — 이 가정 뒤에야 계수 1이 Jacobi+Taylor로
+  나온다
+- 계량장 lag(Δτ)를 집단 교차상관 lag와 같은 것으로 취급한다(서로 다른 대상)
+- 학습이 timing만 바꾸고 mu(z)·Sigma는 불변이라고 가정한다(d_z Sigma=0, 21장 21.42, 미검정)
+- transport T가 formula에 정의되지 않았다 — 동결 PC chart에서 T=Id로 암묵 가정
+open_questions_spawned: []
+next_action: '같은 세션에서 F-02 재추측(더 강한 카드): adversary parent_scope.survives_narrow의 수리 6항 반영 — (1) 동결 추정기(h=0.30
+  중심차분)에 대한 예측 β1을 pre-phase log V_g 곡률로 사전유도하거나 smoothing derivative로 교체 후 숫자 재유도, (2) placebo를 primary
+  Δτ 재사용으로 고정, (3) gate·sign test 7/8 정렬 + |Δτ| 상한 + Var(T) 하한, (4) kill 3을 readout-linearity kill로 개명하고
+  Finsler kill은 접선 방향 비대칭으로 재정의, (5) transport T와 raw rank/λ_min 규칙 명시, (6) time-dilation 대안을 kill로 추가.
+  생물 자료는 아직 열지 않았다(unblinded 없음).'

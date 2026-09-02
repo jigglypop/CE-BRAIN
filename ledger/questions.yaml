@@ -1,0 +1,55 @@
+questions:
+- id: Q-NPF-01
+  title: '성체 국소 회로에서 연결·효능·전도지연 변화가 출력-상대 리만 계량을 접는가: 생물자료로 판정 가능한 예측식'
+  kind: conjecture
+  status: parked
+  priority: 1
+  origin: paper/진전_원장.md §2
+  attempts: 1
+  consecutive_low: 0
+  pivots_tried: []
+  notes: '[E-20260902-001] 기각: 같은 세션에서 F-02 재추측(더 강한 카드): adversary parent_scope.survives_narrow의 수리 6항
+    반영 — (1) 동결 추정기(h=0.30 중심차분)에 대한 예측 β1을 pre-phase log V_g 곡률로 사전유도하거나 smoothing derivative로 교체 후 숫자
+    재유도, (2) placebo를 primary Δτ 재사용으로 고정, (3) gate·sign test 7/8 정렬 + |Δτ| 상한 + Var(T) 하한, (4) kill 3을
+    readout-linearity kill로 개명하고 Finsler kill은 접선 방향 비대칭으로 재정의, (5) transport T와 raw rank/λ_min 규칙 명시,
+    (6) time-dilation 대안을 kill로 추가. 생물 자료는 아직 열지 않았다(unblinded 없음).'
+- id: Q-NPF-02
+  title: '성체 국소 회로의 출력-상대 리만 계량 접힘: 미시 변화(지연·gain·readout·시간팽창)를 판별하는 예측식 — F-01(E-20260902-001) 기각 후
+    재추측'
+  kind: conjecture
+  status: parked
+  priority: 1
+  origin: E-20260902-001
+  attempts: 1
+  consecutive_low: 0
+  pivots_tried: []
+  notes: '[E-20260902-002] 기각: 같은 계보에서 3번째 카드를 세우지 않는다(2연속 P0 refute, 근본 원인이 표적 자체의 식별·검정력 제약). 사용자 결정
+    필요: (a) 저장소 보유 생물자료(Ottenheimer 2023, N=60 trial/phase)로는 계량 수준 endpoint가 판정 불가 — 새 자료 승인(성체_리만접힘_최소증거_재설정
+    §3 해제) 또는 (b) endpoint를 평균반응 운동학(Lambda_x류, N=60에서 추정 가능)으로 낮추되 재귀회로 forward-model 보정으로 미시 기전 판별력을
+    먼저 확인, 또는 (c) 표적 재정의. 집단 활동만으로는 ''계량 접힘''이 평균반응 운동학과 분리되지 않는다(21장 §8.3 비식별과 일치).'
+- id: Q-NPF-03
+  title: '출력-상대 계량이 평균반응을 넘는 내용을 갖는가: 학습 진폭변화 alpha에 대한 계량 응답(동질 e^^{2gamma} 대 비동질)을 N=60 규모에서 판정하는 예측식'
+  kind: conjecture
+  status: parked
+  priority: 1
+  origin: E-20260902-002
+  attempts: 1
+  consecutive_low: 0
+  pivots_tried: []
+  notes: '[E-20260903-001] 기각: 3연속 카드 refute. 세 번 모두 원인이 카드 기교가 아니라 표적·자료의 구조다: (i) 집단 활동만으로 만든 통계량은 위약(학습
+    없음)과 분리되지 않거나 동어반복이 되고, (ii) 표적이 이름 붙인 두 기전(가중치·전도속도)에 무감각하며(이번 카드에서 지연·효능 채널 기여 정확히 0), (iii) 보유
+    자료 N=60에서 계량 endpoint는 검정력이 없다. 4번째 카드를 같은 계보에서 세우지 않는다. 사용자 결정 필요: `verify/Q-NPF-03/data_sufficiency.md`의
+    승인 A(Allen VB 2P 탐색 표본 약 500MB, 100MB 규칙 초과), B(Hattori 2023 세포 등록 키 판본 문의), C(endpoint를 평균반응 운동학으로
+    격하) 중 택일 또는 표적 재정의. 살아남은 좁은 명제 둘은 별도 질문으로만 연다: 보조정리 dlogPhi/dlogmu=(2-p)(1-rho)+2rho q(정의로부터 한 줄,
+    L1), 경험 명제 ''학습 전후 변동-평균 멱지수 불변''(Lam=1 <=> p_cross=p, 반쪽교차 IV가 편의 0.10 이내로 실측). 수리 하나는 확정: bin 선택을
+    pooled L이 아니라 독립 분할의 L로 하면 위약 지지 0.783→0.017, 참 세계 지지 0.950→0.917.'
+- id: Q-NPF-04
+  title: '출력-상대 계량의 접힘을 지연·효능·gain 세 채널로 분해해 식별하는 예측식: estimand 선언·채널 식별 인증서·phase 내 위약을 사전조건으로'
+  kind: conjecture
+  status: active
+  priority: 1
+  origin: E-20260903-001
+  attempts: 0
+  consecutive_low: 0
+  pivots_tried: []
+  notes: ''

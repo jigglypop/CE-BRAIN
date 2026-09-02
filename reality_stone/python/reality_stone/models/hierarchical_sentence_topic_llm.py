@@ -560,9 +560,7 @@ class MetricContextRouter(nn.Module):
             self._metrikey = None
             self._has_metrikey = False
 
-        self._metrikey = None
-        self._has_metrikey = False
-        
+
         self.metric_adjustment = nn.Parameter(torch.zeros(d_head, d_head))
 
     def _clamp_eigen(self, G: torch.Tensor) -> torch.Tensor:

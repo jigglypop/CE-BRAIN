@@ -1,0 +1,244 @@
+{
+  "seed": 20260902,
+  "design": {
+    "mice": 8,
+    "neurons": [
+      54,
+      52,
+      33,
+      17,
+      35,
+      62,
+      38,
+      63
+    ],
+    "trials_per_phase": 60,
+    "per_cue": {
+      "A": 40,
+      "B": 20
+    },
+    "half_split": {
+      "A": "20/20",
+      "B": "10/10"
+    },
+    "bins": 40,
+    "bin_s": 0.05
+  },
+  "thresholds": {
+    "L_MIN": 0.1,
+    "CV_MAX": 2.0,
+    "SD_LMU_MIN": 0.1,
+    "DU_s": 0.05,
+    "EDGE_PAD_bins": 4,
+    "CI_support": "90% (5,95) 마리 클러스터 부트스트랩",
+    "CI_kill": "98% (1,99)",
+    "N_BOOT": 2000,
+    "gate": "IV 분모의 마리부트스트랩 95% 하한 > 0"
+  },
+  "rows": [
+    {
+      "world": "true",
+      "contrast": "learn",
+      "n_rep": 180,
+      "gate_pass_rate": 1.0,
+      "power_excl0_and_cont1": 0.911,
+      "reject_meanonly_rate": 1.0,
+      "kill_excl1_rate": 0.089,
+      "kill_excl1_by_level": {
+        "95": 0.111,
+        "98": 0.089,
+        "99": 0.078
+      },
+      "support_by_level": {
+        "95": 0.889,
+        "98": 0.911,
+        "99": 0.922
+      },
+      "ci_width_by_level": {
+        "95": 0.476,
+        "98": 0.559,
+        "99": 0.619
+      },
+      "lam_median": 1.015,
+      "lam_q05": 0.786,
+      "lam_q95": 1.254,
+      "ci90_width_median": 0.402,
+      "ci98_width_median": 0.559,
+      "den_median": 53.5425,
+      "raw_rank": {
+        "min_CVinv2": 0.4782,
+        "median_CVinv2": 3.576,
+        "bins_used_median": 30,
+        "posdef_frac": 1.0,
+        "ridge": "none (raw)"
+      },
+      "lam_true": 0.988,
+      "p_true": 1.3678,
+      "rho_true": 0.1375,
+      "R_true": 0.5434,
+      "logalpha_true": 0.2281,
+      "bins_true": 512.0
+    },
+    {
+      "world": "true",
+      "contrast": "cue",
+      "n_rep": 180,
+      "gate_pass_rate": 0.956,
+      "power_excl0_and_cont1": 0.75,
+      "reject_meanonly_rate": 0.944,
+      "kill_excl1_rate": 0.194,
+      "kill_excl1_by_level": {
+        "95": 0.283,
+        "98": 0.194,
+        "99": 0.15
+      },
+      "support_by_level": {
+        "95": 0.661,
+        "98": 0.75,
+        "99": 0.794
+      },
+      "ci_width_by_level": {
+        "95": 1.384,
+        "98": 1.722,
+        "99": 1.969
+      },
+      "lam_median": 1.331,
+      "lam_q05": 0.827,
+      "lam_q95": 2.173,
+      "ci90_width_median": 1.14,
+      "ci98_width_median": 1.722,
+      "den_median": 6.4856,
+      "raw_rank": {
+        "min_CVinv2": 0.6396,
+        "median_CVinv2": 3.738,
+        "bins_used_median": 16,
+        "posdef_frac": 1.0,
+        "ridge": "none (raw)"
+      },
+      "lam_true": 0.988,
+      "p_true": 1.3678,
+      "rho_true": 0.1375,
+      "R_true": 0.5434,
+      "logalpha_true": 0.2281,
+      "bins_true": 512.0
+    },
+    {
+      "world": "taut",
+      "contrast": "learn",
+      "n_rep": 180,
+      "gate_pass_rate": 0.117,
+      "power_excl0_and_cont1": 0.006,
+      "reject_meanonly_rate": 0.006,
+      "kill_excl1_rate": 0.05,
+      "kill_excl1_by_level": {
+        "95": 0.089,
+        "98": 0.05,
+        "99": 0.028
+      },
+      "support_by_level": {
+        "95": 0.006,
+        "98": 0.006,
+        "99": 0.006
+      },
+      "ci_width_by_level": {
+        "95": 2.101,
+        "98": 3.831,
+        "99": 4.839
+      },
+      "lam_median": -0.017,
+      "lam_q05": -0.436,
+      "lam_q95": 0.526,
+      "ci90_width_median": 1.422,
+      "ci98_width_median": 3.831,
+      "den_median": 2.4397,
+      "raw_rank": {
+        "min_CVinv2": 31.3937,
+        "median_CVinv2": 162.998,
+        "bins_used_median": 16,
+        "posdef_frac": 1.0,
+        "ridge": "none (raw)"
+      }
+    },
+    {
+      "world": "tautpois",
+      "contrast": "learn",
+      "n_rep": 180,
+      "gate_pass_rate": 1.0,
+      "power_excl0_and_cont1": 0.894,
+      "reject_meanonly_rate": 0.983,
+      "kill_excl1_rate": 0.089,
+      "kill_excl1_by_level": {
+        "95": 0.139,
+        "98": 0.089,
+        "99": 0.078
+      },
+      "support_by_level": {
+        "95": 0.844,
+        "98": 0.894,
+        "99": 0.906
+      },
+      "ci_width_by_level": {
+        "95": 0.87,
+        "98": 1.033,
+        "99": 1.141
+      },
+      "lam_median": 1.027,
+      "lam_q05": 0.605,
+      "lam_q95": 1.477,
+      "ci90_width_median": 0.722,
+      "ci98_width_median": 1.033,
+      "den_median": 33.7134,
+      "raw_rank": {
+        "min_CVinv2": 4.1835,
+        "median_CVinv2": 12.435,
+        "bins_used_median": 16,
+        "posdef_frac": 1.0,
+        "ridge": "none (raw)"
+      }
+    },
+    {
+      "world": "hist",
+      "contrast": "learn",
+      "n_rep": 180,
+      "gate_pass_rate": 1.0,
+      "power_excl0_and_cont1": 0.006,
+      "reject_meanonly_rate": 1.0,
+      "kill_excl1_rate": 0.994,
+      "kill_excl1_by_level": {
+        "95": 1.0,
+        "98": 0.994,
+        "99": 0.994
+      },
+      "support_by_level": {
+        "95": 0.0,
+        "98": 0.006,
+        "99": 0.006
+      },
+      "ci_width_by_level": {
+        "95": 0.999,
+        "98": 1.191,
+        "99": 1.307
+      },
+      "lam_median": 2.363,
+      "lam_q05": 1.969,
+      "lam_q95": 2.951,
+      "ci90_width_median": 0.842,
+      "ci98_width_median": 1.191,
+      "den_median": 52.2489,
+      "raw_rank": {
+        "min_CVinv2": 0.6585,
+        "median_CVinv2": 3.623,
+        "bins_used_median": 30,
+        "posdef_frac": 1.0,
+        "ridge": "none (raw)"
+      },
+      "lam_true": 0.988,
+      "p_true": 1.3678,
+      "rho_true": 0.1375,
+      "R_true": 0.5434,
+      "logalpha_true": 0.2281,
+      "bins_true": 512.0
+    }
+  ],
+  "runtime_s": 174.8
+}

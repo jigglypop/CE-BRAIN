@@ -1,6 +1,7 @@
 import importlib.util,json,sys
 from pathlib import Path
 import numpy as np,pytest
+from _run_paths import evidence_file
 s=importlib.util.spec_from_file_location('h8',Path('examples/brain/ba_obs_hpc8_montage_decomposition.py'));h=importlib.util.module_from_spec(s);sys.modules['h8']=h;s.loader.exec_module(h)
 v=importlib.util.spec_from_file_location('h8v',Path('examples/brain/ba_obs_hpc8_montage_decomposition_validator.py'));q=importlib.util.module_from_spec(v);v.loader.exec_module(q)
 def rec(sp):
@@ -33,12 +34,12 @@ def test_split_ceiling_and_validator_tamper(tmp_path,monkeypatch):
  r=tmp_path/'r.json';h.dump(r,out|{'lock_sha256':'0'*64,'witness':meta,'qc':[]});assert not q.validate(r,w,tmp_path/'missing-lock.json')
 
 def test_independent_validator_normal_and_lock_mask_baseline_result_tamper(tmp_path):
- h6=json.loads(Path('_workspace/ce/brain-human-hippocampal-theta-full-endpoint-20260825/artifacts/raw_result.json').read_text());data={};d={}
+ h6=json.loads(evidence_file('brain-human-hippocampal-theta-full-endpoint-20260825','artifacts','raw_result.json').read_text());data={};d={}
  for i,sp in enumerate(h.SPECS):
   n=h6['records'][i]['clinical']['clean_count'];wave=np.zeros(999);wave[250:]=1 if sp.protocol=='TS' and sp.phase=='post' else (-1 if sp.protocol=='PB' and sp.phase=='post' else 0)
   for p in h.PROJECTIONS:data[f'{i:02d}_{p}']=np.tile(wave,(n,1));d[(sp.protocol,sp.subject,sp.phase,p)]=data[f'{i:02d}_{p}']
  w=tmp_path/'w.npz';np.savez_compressed(w,**data);meta={'file_sha256':h.sha(w),'file_size':w.stat().st_size,'arrays':h._manifest(data)}
- paths={'producer':'examples/brain/ba_obs_hpc8_montage_decomposition.py','validator':'examples/brain/ba_obs_hpc8_montage_decomposition_validator.py','h2':'examples/brain/ba_obs_hpc2_author_qc_reanalysis.py','h5':'examples/brain/ba_obs_hpc5_author_intended_recheck.py','h6':'examples/brain/ba_obs_hpc6_full_endpoint.py','h6_witness':'_workspace/ce/brain-human-hippocampal-theta-full-endpoint-20260825/artifacts/source_witness.npz','h6_result':'_workspace/ce/brain-human-hippocampal-theta-full-endpoint-20260825/artifacts/raw_result.json','pivot_contract':str(h.PIVOT/'contract.md'),'tests':'tests/test_ba_obs_hpc8_montage_decomposition.py'}
+ paths={'producer':'examples/brain/ba_obs_hpc8_montage_decomposition.py','validator':'examples/brain/ba_obs_hpc8_montage_decomposition_validator.py','h2':'examples/brain/ba_obs_hpc2_author_qc_reanalysis.py','h5':'examples/brain/ba_obs_hpc5_author_intended_recheck.py','h6':'examples/brain/ba_obs_hpc6_full_endpoint.py','h6_witness':str(evidence_file('brain-human-hippocampal-theta-full-endpoint-20260825','artifacts','source_witness.npz')),'h6_result':str(evidence_file('brain-human-hippocampal-theta-full-endpoint-20260825','artifacts','raw_result.json')),'pivot_contract':str(h.PIVOT/'contract.md'),'tests':'tests/test_ba_obs_hpc8_montage_decomposition.py'}
  lock=tmp_path/'l.json';lock.write_text(json.dumps({'schema':'HPC8_ANALYSIS_LOCK_V2','hashes':{k:h.sha(v) for k,v in paths.items()},'parameters':q.EXPECTED_PARAMETERS}))
  qc=[{'record':i,'projection':p,'common_keep_mask_sha256':h6['records'][i]['clinical']['keep_mask_sha256'],'qc':{}} for i in range(18) for p in h.PROJECTIONS];out=q.ev(d)|{'lock_sha256':h.sha(lock),'witness':meta,'qc':qc};r=tmp_path/'r.json';h.dump(r,out);assert q.validate(r,w,lock)
  forged=json.loads(r.read_text());forged['qc'][0]['common_keep_mask_sha256']='0'*64;h.dump(r,forged);assert not q.validate(r,w,lock);h.dump(r,out)

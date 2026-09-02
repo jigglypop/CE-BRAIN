@@ -644,7 +644,7 @@ $$\boxed{X_{t+1} = B\big[X_t + \lambda_R R(X_t) + \lambda_O \Delta_O(X_t) + \lam
 
 검증 게이트는 수식 주장마다 fixture·API·metric·threshold를 연결하는 계약이다. 기계 pass는 등록된 코드·입력의 일치이며 과학적 참·생물학적 기제·자아의 존재를 판정하지 않는다.
 
-`06_검증기준.md`의 4중 게이트를 이 문서의 식에 적용.
+`검증_원장/뇌_검증기준.md`의 4중 게이트를 이 문서의 식에 적용.
 
 ### H.1 Layer A--E 게이트
 

@@ -1,5 +1,5 @@
 [build-system]
-requires = ["maturin>=1.0,<2.0"]
+requires = ["maturin>=1.5,<2"]
 build-backend = "maturin"
 
 [project]
@@ -7,7 +7,7 @@ name = "reality_stone"
 version = "0.2.10"
 requires-python = ">=3.10"
 dependencies = [
-    "numpy>=1.21,<3",
+    "numpy>=1.24,<3",
     "torch>=2.0",
     "tqdm>=4.66,<5",
     "transformers>=4.40,<6",

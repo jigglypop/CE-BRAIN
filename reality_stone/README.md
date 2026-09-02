@@ -10,14 +10,16 @@ experiments, and generated documentation are intentionally omitted.
 
 ```text
 reality_stone/
-  src/                    Rust core and PyO3 bindings
+  src/                    Rust core and PyO3 bindings  -> reality_stone._rust
   python/reality_stone/   Python API and fallback implementations
   python/reality_stone/clarus/
                           Clarus runtime and CE modules
+  python/reality_stone/clarus/core/
+                          Second Rust crate (clarus_core) -> reality_stone.clarus._rust
   examples/               Single unified Clarus/Reality Stone demo
   tests/                  Rust and Python regression tests
-  Cargo.toml              Rust crate metadata
-  pyproject.toml          Python/maturin package metadata
+  Cargo.toml              Rust crate metadata (outer crate)
+  pyproject.toml          Python/maturin package metadata (outer crate)
 ```
 
 ## Python Usage
@@ -29,25 +31,42 @@ from reality_stone.clarus.runtime import BrainRuntime
 status = (rs.__version__, rs._has_rust_ext, rs._has_cuda)
 ```
 
-When the compiled Rust extension is unavailable, `python/reality_stone/_rust.py`
-and `python/reality_stone/_fallback.py` provide compatibility paths so Clarus can
-still import and run CPU fallback flows.
+`python/reality_stone/_rust.py` is a pure-Python stub (`IS_FALLBACK = True`). It is
+what `import reality_stone._rust` resolves to until a compiled `_rust.pyd`/`.so`
+is placed next to it. The layer modules, `core/mobius.py`, `optim/riemannian_adam.py`
+and `layers/spline.py` detect the stub and switch to differentiable torch formulas
+from `_fallback.py`, so forward values and autograd gradients stay correct without
+the native build. `models/transformer_converter.py` (RS-ULF conversion) has no
+Python fallback and raises until the extension is built.
+
+## Native Build
+
+Two independent pyo3 crates both name their cdylib `_rust`:
+
+| crate | module | contents |
+|---|---|---|
+| `reality_stone/` (this directory) | `reality_stone._rust` | Mobius/Poincare/Lorentz/Klein ops, metrikey, RS-ULF, spline, geodesic memory |
+| `python/reality_stone/clarus/core/` | `reality_stone.clarus._rust` | brain_step kernel, CE relax, Riemann attention, pre-eq |
+
+The repository-root `pyproject.toml` builds only the clarus crate through maturin.
+The venv-free path that builds both with cargo and installs them in-tree is
+
+    .codex\hooks\build-native.cmd            # release build of both crates
+    .codex\hooks\build-native.cmd --only outer
+    .codex\hooks\build-native.cmd --cuda     # needs nvcc / CUDA_HOME
+
+Set `PYO3_PYTHON` if the interpreter selected by `.codex/hooks/python.cmd` is not
+the one you want the outer (non-abi3) crate linked against.
 
 ## Validation
 
-From the repository root:
+From the repository root, using the harness Python (never the workspace `.venv`):
 
-```powershell
-$env:PYTHONPATH = "reality_stone/python"
-.\.venv\Scripts\python.exe -m pytest -q reality_stone\tests\layer reality_stone\tests\test_unified_riemannian.py reality_stone\tests\llm\test_metric_attention.py reality_stone\tests\llm\test_metric_router.py reality_stone\tests\api\test_pipeline_api.py
-cargo test --manifest-path reality_stone\Cargo.toml --no-default-features
-.\.venv\Scripts\python.exe -B reality_stone\examples\unified_clarus_demo.py
-```
+    .codex\hooks\python.cmd pytest reality_stone\tests\layer -q
+    .codex\hooks\python.cmd pytest reality_stone\tests\test_unified_riemannian.py reality_stone\tests\llm\test_metric_attention.py reality_stone\tests\llm\test_metric_router.py reality_stone\tests\api\test_pipeline_api.py -q
+    cargo test --manifest-path reality_stone\Cargo.toml --no-default-features
+    cargo test --manifest-path reality_stone\python\reality_stone\clarus\core\Cargo.toml
+    .codex\hooks\python.cmd python reality_stone\examples\unified_clarus_demo.py
 
-## Native Build Note
-
-This nested package metadata builds the optional Reality Stone extension as
-`reality_stone._rust`. The repository-root `pyproject.toml` builds the optional
-Clarus extension as `reality_stone.clarus._rust` for the unified checkout.
-Both paths have Python fallbacks, so tests and the unified demo do not require a
-native build.
+Tests marked `cuda` skip without a GPU and without the native build; the GPT-2 and
+Qwen inference tests under `tests/llm/` need network access or an explicit opt-in.

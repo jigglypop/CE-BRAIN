@@ -1,3 +1,4 @@
+from _run_paths import evidence_file
 import importlib.util, sys, json
 from pathlib import Path
 import numpy as np
@@ -63,7 +64,7 @@ def test_implementation_stop_and_early_control_does_not_downgrade(tmp_path,monke
  a={"clinical":{"late":{"D":1,"bootstrap":[.1,1,1],"paired_p17_p19":1,"loo":{"p16":1}},"prestim":{"bootstrap":[-.1,1,1]},"early":{"bootstrap":[1,2,1]}},"bipolar":{"late":{"D":1,"bootstrap":[.1,1,1]}}}
  assert h._lattice(a)["same_data_status"]=="SAME_DATA_REANALYSIS_REFERENCE_ROBUST_SUPPORT"
 def test_cli_preflight_dispatch_without_network(tmp_path,monkeypatch):
- lock=Path("_workspace/ce/brain-human-hippocampal-theta-author-qc-reanalysis-20260825/artifacts/source_lock.json")
+ lock=evidence_file("brain-human-hippocampal-theta-author-qc-reanalysis-20260825","artifacts","source_lock.json")
  p,q,r=tmp_path/'p.json',tmp_path/'q.json',tmp_path/'r.json'; calls=[]
  def factory(): calls.append("factory");return "loader"
  def attempt(*args): calls.append(args);return {"status":"MOCK"}

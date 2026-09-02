@@ -1329,6 +1329,11 @@ class BrainRuntime:
                 )
             return False
         if not _HAS_RUST_KERNEL:
+            if self.backend == "rust":
+                raise RuntimeError(
+                    "backend='rust' was requested but reality_stone.clarus._rust is not built; "
+                    "use backend='torch' or build it with .codex/hooks/build-native.cmd"
+                )
             return False
         if self.backend == "rust":
             return True

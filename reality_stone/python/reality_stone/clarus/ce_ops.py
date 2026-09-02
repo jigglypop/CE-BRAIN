@@ -20,9 +20,9 @@ import torch.nn.functional as F
 from .quantum import ALPHA_B_DEFAULT, estimate_mu, iss_ball_radius
 
 try:
-    from .constants import PORTAL as DEFAULT_CB_W, NORM_EPS, SOFTMAX_EPS, CLAMP_EPS
+    from .constants import PORTAL as DEFAULT_CB_W
 except ImportError:
-    from reality_stone.clarus.constants import PORTAL as DEFAULT_CB_W, NORM_EPS, SOFTMAX_EPS, CLAMP_EPS
+    from reality_stone.clarus.constants import PORTAL as DEFAULT_CB_W
 
 _RUST = False
 _CUDA = False
@@ -40,14 +40,9 @@ try:
 except ImportError:
     _RUST = False
 
-try:
-    from .kernels import get_ce_cuda_ops
-
-    _cuda_mod = get_ce_cuda_ops()
-    _CUDA = _cuda_mod is not None
-except ImportError:
-    _CUDA = False
-    _cuda_mod = None
+# No CUDA CE kernel module ships in this tree, so ``ce_backend("cuda")`` fails closed.
+_CUDA = False
+_cuda_mod = None
 
 
 def has_rust() -> bool:

@@ -50,15 +50,6 @@ pub struct RelaxInput {
 }
 
 #[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
-pub struct RelaxOutput {
-    /// Minimal numeric output from a relax/energy step.
-    pub state: Vec<f32>,
-    pub energy: Vec<f32>,
-    pub delta: Vec<f32>,
-    pub steps: usize,
-}
-
-#[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
 pub struct SnapshotMeta {
     /// Metadata only; higher-level snapshot payloads stay in Python for now.
     pub step: usize,

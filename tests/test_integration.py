@@ -132,68 +132,10 @@ class TestFullAgentLoop:
         import reality_stone.clarus.agent
         import reality_stone.clarus.neuromod
         import reality_stone.clarus.quantum
-        assert True
 
+        assert callable(reality_stone.clarus.runtime.BrainRuntime)
+        assert callable(reality_stone.clarus.engine.CEEngine)
+        assert callable(reality_stone.clarus.ce_ops.relax_packed)
+        assert callable(reality_stone.clarus.stdp.apply_stdp_update)
+        assert callable(reality_stone.clarus.agent.RuntimeAgent)
 
-class TestCoveragePercent:
-    """Verify implementation coverage reaches 100%."""
-
-    def test_layer_a_items(self):
-        items = [
-            "activation_update", "refractory_update", "memory_trace",
-            "adaptation", "bitfield_hysteresis", "stp_tsodyks_markram",
-            "input_with_noise", "dale_law",
-        ]
-        assert len(items) == 8
-
-    def test_layer_b_items(self):
-        items = ["sparse_coupling", "riemannian_weight", "energy_full", "brainwave_observable"]
-        assert len(items) == 4
-
-    def test_layer_c_items(self):
-        items = ["mode_3state", "mode_transition", "borbely_process_s",
-                 "circadian_c", "nrem_length_decrease"]
-        assert len(items) == 5
-
-    def test_layer_d_items(self):
-        items = ["hippocampus_state", "encode", "recall_threshold", "replay_priority"]
-        assert len(items) == 4
-
-    def test_layer_e_items(self):
-        items = ["global_summary", "self_state", "snapshot_warm"]
-        assert len(items) == 3
-
-    def test_layer_f_items(self):
-        items = [
-            "relax_R", "critic_C", "action_pi", "memory_M",
-            "bootstrap_B", "stdp_f14", "phi_update_f15",
-            "consciousness_f17", "hallucination_f18",
-            "neuromod_4type_f19", "working_memory_f20", "brainwave_bands_f21",
-        ]
-        assert len(items) == 12
-
-    def test_ce_energy_items(self):
-        items = [
-            "e_hop", "e_portal", "e_bypass", "relax_gradient",
-            "phi_ema", "codebook", "sparse_3d", "quantum_phase",
-            "convergence_inequality", "ce_constants",
-        ]
-        assert len(items) == 10
-
-    def test_sleep_items(self):
-        items = ["wake_collect", "nrem_lbo", "rem_recombine",
-                 "phase_ratio", "curvature_sleep_pressure", "auto_transition"]
-        assert len(items) == 6
-
-    def test_architecture_items(self):
-        items = ["gauge_lattice", "lbo_norm", "spectral_norm",
-                 "perturbative_mixing", "cfc_gate"]
-        assert len(items) == 5
-
-    def test_sparsity_items(self):
-        items = ["topk", "3partition", "dynamic_reclassify", "self_convergence"]
-        assert len(items) == 4
-
-    def test_total_coverage(self):
-        total = 8 + 4 + 5 + 4 + 3 + 12 + 10 + 6 + 5 + 4
-        assert total == 61

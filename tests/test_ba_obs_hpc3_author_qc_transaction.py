@@ -1,9 +1,16 @@
+from _run_paths import evidence_file, find_evidence_file
 import hashlib, importlib.util, json, sys
 from pathlib import Path
 import numpy as np
 import pytest
 
 s=importlib.util.spec_from_file_location("h3",Path("examples/brain/ba_obs_hpc3_author_qc_transaction.py"));h=importlib.util.module_from_spec(s);sys.modules["h3"]=h;s.loader.exec_module(h)
+# Every test here reads the frozen source lock of the hpc3 run; the producer module keeps a
+# repository-relative _workspace path, so resolve it through the evidence search order and
+# skip the module when the run is not available (fresh clone without ce-runs).
+_LOCK=find_evidence_file("brain-human-hippocampal-theta-author-qc-reanalysis-20260825","artifacts","source_lock.json")
+if _LOCK is None:pytest.skip("CE run evidence source_lock.json for hpc3 not found (set CE_RUNS_PATH or clone ce-runs)",allow_module_level=True)
+h.LOCK=_LOCK
 def paths(t):return t/"p.json",t/"q.json",t/"r.json"
 def loader(n=24,bad=False):
  rng=np.random.default_rng(72)
@@ -56,7 +63,7 @@ def test_writer_commit_cases(tmp_path):
 def test_tamper_and_version_pinned_reader(tmp_path,monkeypatch):
  bad=tmp_path/"lock";bad.write_bytes(h.LOCK.read_bytes()+b"x");monkeypatch.setattr(h,"LOCK",bad)
  with pytest.raises(ValueError):h._preflight(*paths(tmp_path/"x"))
- monkeypatch.setattr(h,"LOCK",Path("_workspace/ce/brain-human-hippocampal-theta-author-qc-reanalysis-20260825/artifacts/source_lock.json"));sp=h.base.Spec("TS","x","pre","task",1,3,"A","C",("A","B"));raw=np.arange(3000,dtype="<f4").reshape(1000,3).tobytes();sha=hashlib.sha256(raw).hexdigest();rec={"eeg":{"x-amz-version-id":"v","etag":"e"},"annex_size":len(raw),"annex_sha256":sha,"qc_indices":[0,1],"endpoint_index":0,"bipolar_index":2,"vhdr":{"channels":[{"to_microvolts":2},{"to_microvolts":3},{"to_microvolts":4}]}}
+ monkeypatch.setattr(h,"LOCK",evidence_file("brain-human-hippocampal-theta-author-qc-reanalysis-20260825","artifacts","source_lock.json"));sp=h.base.Spec("TS","x","pre","task",1,3,"A","C",("A","B"));raw=np.arange(3000,dtype="<f4").reshape(1000,3).tobytes();sha=hashlib.sha256(raw).hexdigest();rec={"eeg":{"x-amz-version-id":"v","etag":"e"},"annex_size":len(raw),"annex_sha256":sha,"qc_indices":[0,1],"endpoint_index":0,"bipolar_index":2,"vhdr":{"channels":[{"to_microvolts":2},{"to_microvolts":3},{"to_microvolts":4}]}}
  class R:
   headers={"x-amz-version-id":"v","etag":"e","content-length":str(len(raw))}
   def __enter__(self):self.i=0;return self

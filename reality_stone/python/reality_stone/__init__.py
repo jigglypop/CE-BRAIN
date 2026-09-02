@@ -1,28 +1,18 @@
 __version__ = "0.2.10"
 
 import torch
-import sys
-from pathlib import Path
 
 _has_rust_ext = False
 _has_cuda = False
 
 try:
+    # ``_rust.py`` next to this file is a pure-Python stub (IS_FALLBACK=True). A compiled
+    # ``_rust.pyd``/``_rust.so`` in the same directory takes precedence in the import system
+    # and reports IS_FALLBACK=False, so this single import covers both cases.
     from . import _rust  # type: ignore
     _has_rust_ext = not bool(getattr(_rust, "IS_FALLBACK", False))
 except Exception:
     _rust = None  # type: ignore
-    try:
-        lib_path = Path(__file__).parent.resolve()
-        local_ext = list(lib_path.glob('_rust*.so')) or list(lib_path.glob('_rust*.pyd'))
-        if local_ext:
-            if str(lib_path) not in sys.path:
-                sys.path.insert(0, str(lib_path))
-            from . import _rust as _rust_local  # type: ignore
-            _rust = _rust_local  # type: ignore
-            _has_rust_ext = True
-    except Exception:
-        _rust = None  # type: ignore
 
 if _has_rust_ext and torch.cuda.is_available():
     required_cuda_symbols = [
@@ -100,11 +90,6 @@ except Exception:
     geodesic_topk_attention = None  # type: ignore
     batched_cholesky = None  # type: ignore
 
-try:
-    from .conversion import convert_to_full_riemannian, convert_to_hyperbolic
-except Exception:
-    convert_to_full_riemannian = None  # type: ignore
-    convert_to_hyperbolic = None  # type: ignore
 from .losses import HyperbolicSupConLoss, BellmanConsistencyLoss, laplacian_same_label, poincare_kinetic_energy
 
 from . import optim
@@ -225,8 +210,6 @@ __all__ = [
     'SplineLinear',
     'MetricAttention',
     'SPDMetric',
-    'convert_to_full_riemannian',
-    'convert_to_hyperbolic',
     'HyperbolicSupConLoss',
     'BellmanConsistencyLoss',
     'laplacian_same_label',

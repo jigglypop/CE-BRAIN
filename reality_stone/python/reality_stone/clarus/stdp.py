@@ -17,13 +17,13 @@ try:
     from .constants import (
         STDP_R_PLUS, STDP_R_MINUS, STDP_R_E,
         STDP_A_PLUS, STDP_A_MINUS, STDP_SPIKE_THRESHOLD,
-        STDP_LR, STDP_ALPHA_G, ACTIVE_RATIO,
+        STDP_LR, STDP_ALPHA_G, ACTIVE_RATIO, STRUCT_RATIO, BACKGROUND_RATIO,
     )
 except ImportError:
     from reality_stone.clarus.constants import (
         STDP_R_PLUS, STDP_R_MINUS, STDP_R_E,
         STDP_A_PLUS, STDP_A_MINUS, STDP_SPIKE_THRESHOLD,
-        STDP_LR, STDP_ALPHA_G, ACTIVE_RATIO,
+        STDP_LR, STDP_ALPHA_G, ACTIVE_RATIO, STRUCT_RATIO, BACKGROUND_RATIO,
     )
 
 
@@ -94,8 +94,8 @@ def compute_learning_gate(
     prev_critic_score: float,
     active_ratio: float,
     target_active: float = ACTIVE_RATIO,
-    target_struct: float = 0.2623,
-    target_bg: float = 0.6891,
+    target_struct: float = STRUCT_RATIO,
+    target_bg: float = BACKGROUND_RATIO,
     struct_ratio: float = 0.26,
     bg_ratio: float = 0.69,
     alpha_g: float = STDP_ALPHA_G,

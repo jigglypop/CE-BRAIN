@@ -1,5 +1,7 @@
 # 19. OOD Generalization 의 구조적 결정성: Length Extrapolation 사례
 
+> **재현 결과 갱신 (2026-08, `experiments/RESULTS_ood_length.md`)**: `experiments/ood_length_repro.py`의 재현은 ALiBi·xPos의 Tier 1 판정은 지지하지만 아래 본문의 NoPE Tier 1(+7 %) 주장은 반박한다. 3 seed·32× 확장에서 NoPE는 +31.7 % ± 10.2로 Tier 2였고, RoPE 단독은 +505 % ± 41.4로 본문의 +47 %보다 훨씬 컸다. 재현 모델은 약 127K 파라미터로 본문의 "~30K"와도 다르다. 아래 본문 수치는 원 run의 기록이며, 두 값이 다를 때는 결과 파일을 우선한다.
+
 이 문서는 length extrapolation을 예로 OOD generalization을 어떻게 dataset·split·seed·baseline·metric 계약으로 평가할지 기록한다. 독자는 train/test 분할과 상대 성능 저하의 기본을 아는 독자를 전제로 하며, 현재 수치는 지정 corpus·모델 크기·seed의 좁은 증거이지 AGI 일반화의 증명은 아니다.
 
 결론과 OOD 정의 뒤에 9변종 ablation, 구조 직관, 다른 axis 가설, 설계 권고와 한계를 읽는다. OOD는 training support 밖의 length 조건으로 operationalize하며, threshold·uncertainty·ablation·rollback을 등록하지 않은 계획은 완료 결과로 승격하지 않는다.

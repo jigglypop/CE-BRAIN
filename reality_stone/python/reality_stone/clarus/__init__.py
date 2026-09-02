@@ -13,6 +13,14 @@ nn_topk_silu_bwd = None
 nn_lbo_fused_fwd = None
 nn_power_iter = None
 nn_gauge_lattice_fwd = None
+_RUST_IMPORT_ERROR: Exception | None = None
+ce_has_rust = ce_has_cuda = ce_backend = None
+ce_pack_sparse = ce_build_metric_basis = ce_codebook_pull = ce_relax = ce_relax_packed = None
+
+
+def has_native_kernels() -> bool:
+    """True when the compiled ``reality_stone.clarus._rust`` module was importable."""
+    return _RUST_IMPORT_ERROR is None and topk_sparse is not None
 
 auto_device = None
 safe_print = None
@@ -213,8 +221,10 @@ try:
     nn_lbo_fused_fwd = _rust_mod.nn_lbo_fused_fwd
     nn_power_iter = _rust_mod.nn_power_iter
     nn_gauge_lattice_fwd = _rust_mod.nn_gauge_lattice_fwd
-except ImportError:
-    pass
+except ImportError as error:
+    # The compiled kernel is optional. The seven symbols above stay ``None`` and every
+    # consumer falls back to torch/numpy; the cause is kept for diagnosis.
+    _RUST_IMPORT_ERROR = error
 
 try:
     from .ce_ops import (
@@ -336,6 +346,15 @@ __all__ = [
     "nn_lbo_fused_fwd",
     "nn_power_iter",
     "nn_gauge_lattice_fwd",
+    "has_native_kernels",
+    "ce_has_rust",
+    "ce_has_cuda",
+    "ce_backend",
+    "ce_pack_sparse",
+    "ce_build_metric_basis",
+    "ce_codebook_pull",
+    "ce_relax",
+    "ce_relax_packed",
     "BrainRuntime",
     "BrainRuntimeConfig",
     "BrainRuntimeSnapshot",

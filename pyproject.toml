@@ -4,7 +4,7 @@ version = "0.2.10"
 description = "Unified Reality Stone library with the Clarus runtime"
 requires-python = ">=3.10"
 dependencies = [
-    "numpy>=1.24",
+    "numpy>=1.24,<3",
     "tokenizers>=0.15,<1",
     "torch>=2.0",
     "tqdm>=4.66,<5",

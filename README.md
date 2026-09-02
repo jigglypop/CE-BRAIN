@@ -236,7 +236,7 @@ $$
 
 이므로 모든 $G_\alpha$가 정확히 같은 관측 quotient를 만든다. 더 나아가 $\mathcal H_n=\mathbb R^q\oplus\mathbb R^n$과 $\mathcal O_n(a,b)=a$를 택하면 $n$이 어떤 유한값이거나 무한대여도 같은 관측 rank와 quotient를 얻는다. 따라서 finite passive observation만으로 ambient dimension이 4인지, 다른 정수인지, 무한인지 판정할 수 없다.
 
-이 정리는 한 점의 미분에 관한 local no-go다. 전역 quotient manifold에는 constant-rank neighborhood와 smooth kernel subbundle이 더 필요하고, 충분한 개입·dynamics·독립 구조 공리가 hidden 방향을 식별하는 경우에는 적용 범위가 줄어든다. 자세한 증명과 반례 경계는 [유한 관측 metric 비식별 최종 보고서](_workspace/ce/brain-finite-observation-metric-nonidentifiability-20260824/40-final-report.md)와 [수학 lane](_workspace/ce/brain-finite-observation-metric-nonidentifiability-20260824/11-math.md)에 고정되어 있다.
+이 정리는 한 점의 미분에 관한 local no-go다. 전역 quotient manifold에는 constant-rank neighborhood와 smooth kernel subbundle이 더 필요하고, 충분한 개입·dynamics·독립 구조 공리가 hidden 방향을 식별하는 경우에는 적용 범위가 줄어든다. 자세한 증명과 반례 경계는 유한 관측 metric 비식별 최종 보고서와 수학 lane에 고정되어 있다.
 
 ### 능동 개입 아래의 좁은 탈출 정리
 
@@ -296,7 +296,7 @@ $$
 
 반대로 $u\equiv0$이면 $y\equiv0$이고 Gramian은 $0$이다. 여기서 $\ell^2$ spectator는 고정된 채로 남으며 복원의 대상이 아니다. 이 예는 무한차원을 복원했다는 뜻이 아니라, 무한 주변공간을 허용한 모델에서도 능동 입력이 제한된 한 좌표를 출력에 드러나게 할 수 있음을 보인다.
 
-합성 L0 구현은 사전 고정된 TRAIN-A/B로 추정하고 별도 HOLDOUT-C에서 평가했다. 최대 매개변수 오차는 $2.220446049250313\times10^{-16}$, active Gramian 범위는 $0.02411321617958606$부터 $0.04213001401324671$, 최대 held-out NSE는 $1.4204367480745902\times10^{-32}$였다. zero-control의 Gramian과 grid-loss spread는 모두 $0$이었다. 첫 실행은 negative-control loss에 active schedule을 넣어 STOP했고, zero-input schedule을 쓰도록 그 계산 경로만 정정했다. 공식·자료·프로토콜·임계값은 바꾸지 않았으며, 이 구현 수령증은 정리의 증명도 생물학적 증거도 아니다. 전체 증명과 경계는 [BA-OBS-ID1 최종 보고서](_workspace/ce/brain-finite-observation-metric-identifiability-escape-20260824/40-final-report.md), 상세 수학은 [math lane](_workspace/ce/brain-finite-observation-metric-identifiability-escape-20260824/11-math.md)에 있다.
+합성 L0 구현은 사전 고정된 TRAIN-A/B로 추정하고 별도 HOLDOUT-C에서 평가했다. 최대 매개변수 오차는 $2.220446049250313\times10^{-16}$, active Gramian 범위는 $0.02411321617958606$부터 $0.04213001401324671$, 최대 held-out NSE는 $1.4204367480745902\times10^{-32}$였다. zero-control의 Gramian과 grid-loss spread는 모두 $0$이었다. 첫 실행은 negative-control loss에 active schedule을 넣어 STOP했고, zero-input schedule을 쓰도록 그 계산 경로만 정정했다. 공식·자료·프로토콜·임계값은 바꾸지 않았으며, 이 구현 수령증은 정리의 증명도 생물학적 증거도 아니다. 전체 증명과 경계는 BA-OBS-ID1 최종 보고서, 상세 수학은 math lane에 있다.
 
 ### BA-OBS-ID2: 가산 완전 능동 응답이 닫는 전역 경계
 
@@ -337,7 +337,7 @@ $$
 
 **[산출]**로 infinite-support rank-one witness를 $N=4,8,16,32$에서 고정해 확인했다. $N=32$에서는 mobility와 metric의 Hilbert--Schmidt tail이 각각 $5.628\times10^{-8}$ 및 $3.752\times10^{-8}$이었다. 그러나 같은 spectral class 안의 perturbation은 첫 $N^2$ query에서 완전히 보이지 않고 held-out 방향에서 response를 $0.10$ 바꾼다. 이 adverse control은 finite query가 무한 operator 전체를 복원했다는 과장을 막는다.
 
-피아노 비유가 깨지는 곳도 분명하다. 실제 뇌에서 가산히 무한한 수의 힘 방향을 선택하고, 매번 독립 reset을 하고, onset을 exact하게 읽거나, 생물학적으로 정준인 basis를 고를 수 있다는 근거는 없다. 따라서 ID2는 neural edge가 metric coordinate라는 결론, 의식의 present-world manifold, 자아의 궤적, 해마 hash, AGI의 검증이 아니다. 그것들은 **[미완성]**인 뇌 연결 문제로 남는다. 전체 증명은 [BA-OBS-ID2 수학 lane](_workspace/ce/brain-complete-active-metric-tomography-20260824/11-math.md), 동결된 수치 검증과 경계는 [BA-OBS-ID2 최종 보고서](_workspace/ce/brain-complete-active-metric-tomography-20260824/40-final-report.md)에 있다.
+피아노 비유가 깨지는 곳도 분명하다. 실제 뇌에서 가산히 무한한 수의 힘 방향을 선택하고, 매번 독립 reset을 하고, onset을 exact하게 읽거나, 생물학적으로 정준인 basis를 고를 수 있다는 근거는 없다. 따라서 ID2는 neural edge가 metric coordinate라는 결론, 의식의 present-world manifold, 자아의 궤적, 해마 hash, AGI의 검증이 아니다. 그것들은 **[미완성]**인 뇌 연결 문제로 남는다. 전체 증명은 BA-OBS-ID2 수학 lane, 동결된 수치 검증과 경계는 BA-OBS-ID2 최종 보고서에 있다.
 
 ### BA-OBS-ID3: 실제 인간 CCEP가 시험한 것은 metric이 아니라 작은 관측 proxy다
 
@@ -361,7 +361,7 @@ $$
 
 그 confirmation에서 A-CAR contact-mean은 $R=1.8848874$, $p_R=0.0001220554$로 동결한 비대칭 기준을 넘었다. 반면 bipolar difference는 $R=1.1852950$, $p_R=0.08226535$로 두 기준 모두 넘지 못했다. 두 reference-sensitive readout이 서로 다른 결론을 냈으므로 최종 판정은 `REFERENCE_SENSITIVE_OR_INCONCLUSIVE`다. 즉 A-CAR에서 보인 비대칭을 neural directionality라고 읽을 수 없고, P1을 reference-robust하게 기각하지도 지지하지도 못했다.
 
-이 결론은 구현 이력까지 포함해 좁게 읽어야 한다. 초기 scalar synthetic fixture와 same-half indexing을 사용한 첫 confirmation은 `IMPLEMENTATION_INVALID`로 폐기했으며, 현재 숫자는 cross-half regression fixture, 교정된 synthetic gate, development barrier, version-bound 255-range 재취득 뒤에 한 번만 직렬화한 결과다. 유효 결과가 실제 인간 개입 자료라는 점은 중요하지만, ambient 또는 무한차원 metric의 존재·부재, polarization tomography, 의식·자아·해마 hash·AGI를 검증하거나 반증하지 않는다. 전체 식·수령증·다음 독립 다환자 `ds004457` 판본의 예측은 [BA-OBS-ID3 최종 보고서](_workspace/ce/brain-human-ccep-restricted-active-response-20260824/40-final-report.md)에 고정되어 있다.
+이 결론은 구현 이력까지 포함해 좁게 읽어야 한다. 초기 scalar synthetic fixture와 same-half indexing을 사용한 첫 confirmation은 `IMPLEMENTATION_INVALID`로 폐기했으며, 현재 숫자는 cross-half regression fixture, 교정된 synthetic gate, development barrier, version-bound 255-range 재취득 뒤에 한 번만 직렬화한 결과다. 유효 결과가 실제 인간 개입 자료라는 점은 중요하지만, ambient 또는 무한차원 metric의 존재·부재, polarization tomography, 의식·자아·해마 hash·AGI를 검증하거나 반증하지 않는다. 전체 식·수령증·다음 독립 다환자 `ds004457` 판본의 예측은 BA-OBS-ID3 최종 보고서에 고정되어 있다.
 
 ### BA-OBS-DISC1: 실제 뇌에서 시간·거리 식을 고르고 다시 기각한 실행
 
@@ -369,7 +369,7 @@ ID3가 observed-magnitude 상호성이라는 작은 proxy를 시험했다면, DI
 
 예측값은 baseline-scale로 정규화한 무차원 RMS 진폭 $E$에 대해 $z=\log(E+10^{-6})$, $x=t/(50\,\mathrm{ms})$, $r=\ell/(50\,\mathrm{mm})$로 썼다. $10^{-6}$은 무차원 floor다. D0에서 선택된 CABLE 식은 $\widehat z=\beta_0+\beta_1\log x+\beta_2x-a r$이며 $a\ge0$이다. 단일 epilepsy 환자의 OpenNeuro `ds003708` 6 mA CCEP, 255 epoch에서 endpoint-blind 151 pair를 `24/48/39/40`으로 분할했다. D0의 24 pair에서 CABLE은 bipolar 개선 $0.05211328272681981$로 선택됐고, D1 48 pair에서는 bipolar 평균 개선 $0.036304411549773374$, 95% CI $[0.01139441475506768,\,0.06097480548090294]$, $p_{\rm geom}=0.000975609756097561$로 통과했다.
 
-그러나 D2 39 pair의 primary bipolar 평균 개선은 $0.02351873345804861$이었어도 source-cluster 95% CI가 $[-0.005757602832834792,\,0.04929832365415101]$으로 0을 가로질렀다. geometry permutation $p=0.001951219512195122$는 label을 섞은 null에 비해 연관 신호가 있다는 뜻일 뿐, stimulation source 전반에서 평균 예측 이득이 안정적이라는 뜻은 아니다. mean readout은 D2에서 통과했지만 primary bipolar 실패를 대체하지 않는다. 따라서 결과는 `COMPLETE_WITH_NEGATIVE_GATE / CANDIDATE_KILLED_AT_D2 / NOT_CONFIRMED`이며 D3 40 pair는 unopened다. 자세한 수식·구현·검증·결론은 [구현 기록](_workspace/ce/brain-human-ccep-equation-discovery-20260824/30-implementation.md), [순차 검증](_workspace/ce/brain-human-ccep-equation-discovery-20260824/31-validation.md), [최종 보고서](_workspace/ce/brain-human-ccep-equation-discovery-20260824/40-final-report.md)에 있다.
+그러나 D2 39 pair의 primary bipolar 평균 개선은 $0.02351873345804861$이었어도 source-cluster 95% CI가 $[-0.005757602832834792,\,0.04929832365415101]$으로 0을 가로질렀다. geometry permutation $p=0.001951219512195122$는 label을 섞은 null에 비해 연관 신호가 있다는 뜻일 뿐, stimulation source 전반에서 평균 예측 이득이 안정적이라는 뜻은 아니다. mean readout은 D2에서 통과했지만 primary bipolar 실패를 대체하지 않는다. 따라서 결과는 `COMPLETE_WITH_NEGATIVE_GATE / CANDIDATE_KILLED_AT_D2 / NOT_CONFIRMED`이며 D3 40 pair는 unopened다. 자세한 수식·구현·검증·결론은 구현 기록, 순차 검증, 최종 보고서에 있다.
 
 이 고정 판본에서는 formula, window, threshold, 선택 규칙을 고친 뒤 D3을 실행하지 않는다. 수정된 식 계열에는 새 preregistration과 unopened validation pool 또는 독립 subject가 필요하다. DISC1도 ambient·무한차원 리만 metric, 해부학적/축삭 geodesic, 의식, 자아, 해마 hash, AGI를 검증하거나 반증하지 않는다.
 
@@ -394,15 +394,15 @@ $$
 | D2 | 12 | 절대 Huber-loss 개선 0.0168684 | 80% LCB 0.0127012, $p=1/1024$ | 통과 |
 | D3 | 30 | 절대 Huber-loss 개선 0.0173522 | 97.5% LCB 0.0102676, 23/30, $p=1/4096$ | 최종 통과 |
 
-자극 전 matched negative control은 평균 $0.0000445$, 97.5% LCB $-0.0001462$, $p=0.0568848$로 통과하지 않았고 contact-mean diagnostic은 `REFERENCE_CONCORDANT`였다. 전체 실행은 74명의 서로 겹치지 않는 환자, 592 source, 9,472 target, 5,920 version-locked range를 사용했으며 raw payload는 저장하지 않았다. 선행 BA-OBS-DISC2가 crosswalk 해석 오류로 첫 raw request 전에 중단된 구현 실패였음을 명시적으로 보존하고, 과학 입력을 바꾸지 않은 linkage-only retry로만 다시 열었다. 세부 재현 절차는 [구현 기록](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/30-implementation.md), 수치 gate와 대조는 [검증 기록](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/31-validation.md), 해석과 한계는 [최종 보고서](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/40-final-report.md)에 있다.
+자극 전 matched negative control은 평균 $0.0000445$, 97.5% LCB $-0.0001462$, $p=0.0568848$로 통과하지 않았고 contact-mean diagnostic은 `REFERENCE_CONCORDANT`였다. 전체 실행은 74명의 서로 겹치지 않는 환자, 592 source, 9,472 target, 5,920 version-locked range를 사용했으며 raw payload는 저장하지 않았다. 선행 BA-OBS-DISC2가 crosswalk 해석 오류로 첫 raw request 전에 중단된 구현 실패였음을 명시적으로 보존하고, 과학 입력을 바꾸지 않은 linkage-only retry로만 다시 열었다. 세부 재현 절차는 구현 기록, 수치 gate와 대조는 검증 기록, 해석과 한계는 최종 보고서에 있다.
 
-Hardened v2 post-run 검증은 locked manifest의 592 source·9,472 target·5,920 range와 모든 핵심 적합을 재계산해 확인했으며, 상세 범위와 raw payload 재해시 한계는 [검증 기록](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/31-validation.md)에 남겼다.
+Hardened v2 post-run 검증은 locked manifest의 592 source·9,472 target·5,920 range와 모든 핵심 적합을 재계산해 확인했으며, 상세 범위와 raw payload 재해시 한계는 검증 기록에 남겼다.
 
 이 PASS_FINAL의 상한은 단순 유클리드 감쇠가 이 frozen patient-disjoint human SPES CCEP observed-kernel prediction을 개선했다는 문장까지다. 이를 리만 계량, 생물학적 geodesic, 무한차원 신경 상태, 현재 세계·의식·자아·해마 hash 또는 AGI에 대한 증거로 승격하지 않는다.
 
 ### 합성 유효차원 funnel: F2-C에서 전 후보 중단
 
-실제 EEG와 별개인 behavior-blind 합성 funnel에서는 F2-B를 통과한 20개 물리시간 유효차원 후보를 BLOCK30과 ART10 adverse scenario에서 비교했다. BLOCK30 중앙 상관은 `0.9284..0.9788`로 통과했지만 ART10은 `0.6137..0.7405`로 사전 기준 $0.80$에 모두 못 미쳤다. 결과는 `20 FUTILITY_KILL / 0 PROMOTE`이며 F2-D, 확인, 행동값, 모델 적합과 실제 뇌 endpoint는 열지 않았다. 이는 후보군의 artifact-robust recovery 실패이지 PSD–resolvent 정리나 뇌·의식 가설의 반증이 아니다. 상세 봉인은 [BA-SRM9 최종 보고서](_workspace/ce/brain-physical-time-effective-dimension-funnel-v2-20260823/40-final-report.md)에 있다.
+실제 EEG와 별개인 behavior-blind 합성 funnel에서는 F2-B를 통과한 20개 물리시간 유효차원 후보를 BLOCK30과 ART10 adverse scenario에서 비교했다. BLOCK30 중앙 상관은 `0.9284..0.9788`로 통과했지만 ART10은 `0.6137..0.7405`로 사전 기준 $0.80$에 모두 못 미쳤다. 결과는 `20 FUTILITY_KILL / 0 PROMOTE`이며 F2-D, 확인, 행동값, 모델 적합과 실제 뇌 endpoint는 열지 않았다. 이는 후보군의 artifact-robust recovery 실패이지 PSD–resolvent 정리나 뇌·의식 가설의 반증이 아니다. 상세 봉인은 BA-SRM9 최종 보고서에 있다.
 
 ## 최근 실제 EEG R0: 무엇이 통과했고 무엇이 실패했나
 
@@ -412,7 +412,7 @@ Hardened v2 post-run 검증은 locked manifest의 592 source·9,472 target·5,92
 
 이 음성 결과의 해석은 좁다. 5개 계수와 방향당 10개 학습 행만 가진 2차원 선형 축약 기준식이 세션 간 drift를 이기지 못했다는 뜻이다. 전도도·이온 gate·비선형성·긴 history·경로 기하·현재 세계 가설을 실제로 시험한 결과가 아니다. R0 결과를 본 뒤 같은 R0에 맞춰 계수나 식을 다시 고르는 사후 retune도 금지한다.
 
-상세 수치와 봉인은 [R0 receipt](_workspace/ce/brain-self-trajectory-human-eeg-robust-qc4-l3-20260824/artifacts/r0-receipt.json), 사전 계약은 [contract](_workspace/ce/brain-self-trajectory-human-eeg-robust-qc4-l3-20260824/00-contract.md), 독립 감사는 [audit](_workspace/ce/brain-self-trajectory-human-eeg-robust-qc4-l3-20260824/20-audit.md), 실행 검증은 [validation](_workspace/ce/brain-self-trajectory-human-eeg-robust-qc4-l3-20260824/31-validation.md), 최종 해석은 [final report](_workspace/ce/brain-self-trajectory-human-eeg-robust-qc4-l3-20260824/40-final-report.md)에 남아 있다.
+상세 수치와 봉인은 R0 receipt, 사전 계약은 contract, 독립 감사는 audit, 실행 검증은 validation, 최종 해석은 final report에 남아 있다.
 
 ## AGI runtime은 어디에 연결되는가
 
@@ -469,11 +469,11 @@ Windows에서는 먼저 아래 명령으로 사용할 Python 경로와 기본 �
 
 이 탐색 순서는 `tests._run_paths.run_dir`가 구현한다. 위 focused test도 계산적 self-monitoring 인터페이스의 회귀 검사이지 주관적 의식 시험이 아니다.
 
-저장소는 2026-08-23에 ce-monorepo의 bca0df1에서 git filter-repo로 분리된 이력이 있다. 레거시 타도메인 호환 사본은 이 연구의 근거나 현재 결과가 아니다. 현재 주장·결과의 상태는 [뇌 알고리즘 route ledger](_workspace/ce/brain-algorithm-route-ledger.md)와 [증거 기준](paper/검증_원장/뇌_검증기준.md)에서 먼저 확인한다.
+저장소는 2026-08-23에 ce-monorepo의 bca0df1에서 git filter-repo로 분리된 이력이 있다. 레거시 타도메인 호환 사본은 이 연구의 근거나 현재 결과가 아니다. 현재 주장·결과의 상태는 증거 저장소 `ce-runs`의 뇌 알고리즘 route ledger(`brain-algorithm-route-ledger.md`)와 [증거 기준](paper/검증_원장/뇌_검증기준.md)에서 먼저 확인한다.
 
 ## 문서 읽기 지도
 
-처음 읽는 독자는 이 README 다음에 [문서 전체 지도](paper/README.md), [뇌 읽기 지도](paper/6_뇌/00_읽기지도.md), [리만 계량 라우팅 논문](paper/6_뇌/11_리만계량_라우팅_논문.md)을 읽어 용어와 출발 가정을 잡으면 된다. 이어 [유한 관측 no-go 보고서](_workspace/ce/brain-finite-observation-metric-nonidentifiability-20260824/40-final-report.md)와 BA-OBS-ID1·ID2 보고서에서 관측이 계량을 어디까지 식별할 수 있는지 확인한다. 실제 자료의 경계는 [BA-OBS-ID3 최종 보고서](_workspace/ce/brain-human-ccep-restricted-active-response-20260824/40-final-report.md), 음성 결과의 중요성은 위 DISC1, 그리고 새 다환자 거리 결과는 [DISC2R 구현](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/30-implementation.md) → [검증](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/31-validation.md) → [최종 보고서](_workspace/ce/brain-human-ccep-multisubject-precision-retry-20260825/40-final-report.md) 순서로 읽으면 된다. 이 결과들은 경쟁하지 않으며 각기 다른 관측량과 주장 상한을 갖는다.
+처음 읽는 독자는 이 README 다음에 [문서 전체 지도](paper/README.md), [뇌 읽기 지도](paper/6_뇌/00_읽기지도.md), [리만 계량 라우팅 논문](paper/6_뇌/11_리만계량_라우팅_논문.md)을 읽어 용어와 출발 가정을 잡으면 된다. 이어 유한 관측 no-go 보고서와 BA-OBS-ID1·ID2 보고서에서 관측이 계량을 어디까지 식별할 수 있는지 확인한다. 실제 자료의 경계는 BA-OBS-ID3 최종 보고서, 음성 결과의 중요성은 위 DISC1, 그리고 새 다환자 거리 결과는 DISC2R 구현 → 검증 → 최종 보고서 순서로 읽으면 된다. 이 결과들은 경쟁하지 않으며 각기 다른 관측량과 주장 상한을 갖는다. 위에서 이름으로만 언급한 run 보고서들은 이 저장소가 아니라 형제 증거 저장소 `ce-runs`(`CE_RUNS_PATH`)에 있으며, 이 README는 저장소 밖 파일에 링크를 걸지 않는다.
 
 문서마다 숫자나 식이 있어도 동일한 지위를 갖지는 않는다. 정의는 기호를 정할 뿐이고, 공리는 채택한 물리 사상이며, 경험식은 관측 비교의 압축이다. 이 구분과 반례·미완성 항목은 [검증 원장](paper/검증_원장/뇌_검증기준.md)에서 추적한다. 이 README는 원장을 바꾸지 않고 독자가 그 경계를 읽을 수 있게 연결한다.
 
@@ -485,7 +485,7 @@ Windows에서는 먼저 아래 명령으로 사용할 Python 경로와 기본 �
 
 ## 참고 출발점
 
-생물 전기와 케이블 모형의 출발점은 Rall의 cable theory 및 Hodgkin–Huxley형 전도도 모형이다. 실제 두피 EEG의 역문제와 volume conduction은 뉴런·간선 식별의 한계를 만든다. 이 프로젝트가 사용한 공개 EEG의 출처와 버전, 세부 전처리와 비교 규칙은 위 R0 계약과 [source lock](_workspace/ce/brain-self-trajectory-human-eeg-robust-qc4-l3-20260824/10-sources.md)에 고정되어 있다. 외부 문헌을 이 README의 수식이나 가설의 검증으로 읽어서는 안 된다. 문헌은 출발 기전과 측정 한계를 제공하고, 이 저장소의 새 가설은 별도 검증을 요구한다.
+생물 전기와 케이블 모형의 출발점은 Rall의 cable theory 및 Hodgkin–Huxley형 전도도 모형이다. 실제 두피 EEG의 역문제와 volume conduction은 뉴런·간선 식별의 한계를 만든다. 이 프로젝트가 사용한 공개 EEG의 출처와 버전, 세부 전처리와 비교 규칙은 위 R0 계약과 source lock에 고정되어 있다. 외부 문헌을 이 README의 수식이나 가설의 검증으로 읽어서는 안 된다. 문헌은 출발 기전과 측정 한계를 제공하고, 이 저장소의 새 가설은 별도 검증을 요구한다.
 
 ### R0 기준선이 실제로 줄인 것
 

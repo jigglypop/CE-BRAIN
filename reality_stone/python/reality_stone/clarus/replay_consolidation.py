@@ -4,7 +4,7 @@ from dataclasses import dataclass
 
 import numpy as np
 
-from .replay_consolidation_encoding import StableBipolarEncoder, normalize
+from .replay_consolidation_encoding import StableBipolarEncoder
 from .replay_consolidation_models import AttractorProbe, ConsolidatedRecall, ConsolidationSnapshot, ReplayEpisode
 
 

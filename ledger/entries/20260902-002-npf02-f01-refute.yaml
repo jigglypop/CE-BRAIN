@@ -1,0 +1,119 @@
+id: E-20260902-002
+question: Q-NPF-02
+attempt: 1
+timestamp: "2026-09-02T16:30:00+09:00"
+claim: "카드 F-01(예측식): g_post_hat(u) = e^{2*gamma} g_pre(u - delta(u)), delta(u) = k_x*(a*u_pk + b*u), 예측 (a,b)=(0,1); b1 = 1.00 +- 0.06, 방향-홀수 shear kappa = 0.00 +- 0.15, Lambda_x median 0.10을 예측한다. 1차: E0 = -0.5*delta*S0, tr E = d*gamma - delta*d_u log V_g."
+level: L2
+verdict: refute
+pivot_step: null
+ladder_step: null
+ladder_cited: null
+card: derivations/Q-NPF-02/F-01.formula.md
+kill_triggered: null
+derivation: derivations/Q-NPF-02/F-01.formula.md
+verification:
+  symbolic: pass
+  numeric: pass
+  lean: skipped
+  artifacts:
+  - verify/Q-NPF-02/F-01/hook_result.json
+adversary:
+  mode: "card_audit (6 checks + limits; 6 adversary scripts, seed 20260902; card's calib_synthetic.py/check_prereg.py re-run and reproduced)"
+  counterexamples:
+  - input: "content/tautology: frozen pipeline g(u)=Jbar(u)^T Sigma_o^-1 Jbar(u), Jbar=d mu/dz, Fisher field evaluated at operating point zbar(u). Four ARBITRARY unrelated readouts mu(z) give four arbitrary metric fields G(z). g_pre(u)=G(zbar_pre(u)), g_post(u)=G(zbar_post(u)) with zbar_post(u)=alpha*zbar_pre(u/(1+eps)), alpha=1. NO metric law imposed."
+    expected: "b1 = 1.00 +- 0.06 as an empirical finding about the metric"
+    observed: "b1 = 1.0468/1.0573/1.0389 (field0), 1.0504/1.0765/1.0982 (field1), 1.1031/1.0920/0.9725 (field2), 1.0147/1.0163/0.9939 (field3) for eps=0.05/0.10/0.20. b1 ~ 1/k_x: numerator and denominator are two measurements of the SAME warp whenever the readout is fixed."
+    note: "P0 content. b1=1 is forced by (i) mu(z),Sigma unchanged between phases + (ii) alpha=1 + (iii) the gate's own R2_dil>=0.50. Nothing about the metric is tested."
+  - input: "same fixed readout, same anchored dilation, only response amplitude alpha varied (1.3, 2.0, 0.6). Card's law requires G(alpha z)=e^{2gamma}G(z)."
+    expected: "b1 = 1.00 +- 0.06"
+    observed: "b1 = -7.2645, -3.4746, -1.6196, -1.9957, -0.5085, +0.1969, +2.5989, +5.7056, ... Over 48 (field,alpha,eps): median 1.0155, min -7.2645, max 5.7056, inside 1.00+-0.06 = 0.208."
+    note: "P0. Undeclared conformal-homogeneity assumption; calib world D warps zbar by alpha=1.3 but warps g WITHOUT alpha, so the calibration never models the estimator's dependency. In D7 alpha != 1 is guaranteed (P0/P_specific endpoints assert early->late response change)."
+  - input: "kill_executable at named data size. D7 contract: each session >=120 trials, A1 early = first 60, late = last 60, (phase,cue) odd/even fold >=8 => N = 60 trials/phase, pre halves 30. Card's own rule (check_prereg.verdict) in card's own TRUE world D(eps=0.10), 200 cohorts x 8 mice."
+    expected: "a verdict on Ottenheimer 2023; rung 6 closes"
+    observed: "N=20: STOP_power 0.950; N=40: 0.985; N=60: STOP_power = 1.000; N=120: 0.995; N=300: 0.905 (support 0.055); N=1000: support 0.675. ~17x the available trials needed."
+    note: "P0 명명 자료에서 판정 불가. Rung 6 cannot close on the named data."
+  - input: "K3 (only kill separating this card from F-01). Leaky recurrent circuit (8 units, tau_m=20 ms, cue-locked drive not rescaled, delays tau_ij=ell_ij/v). (a) true conduction-velocity change; (b) F-01's fixed extra transmission delay per edge."
+    expected: "card world Lambda_x >= +0.10; rigid-delay world Lambda_x = -0.35/-0.87 so K3 fires"
+    observed: "(a) eps_v=0.05/0.10/0.20/0.35/0.50 -> k_x = -0.0225/-0.0482/-0.0823/+0.1424/+0.1883 (sign flips), Lambda_x = +0.158/+0.601/+0.580/+0.438/+0.089. (b) +4 ms/edge -> Lambda_x = +0.346; +10 ms/edge -> +0.763. K3 never fires; |k_x| for 5-10% velocity change below the 0.05 gate."
+    note: "P0. World S rigidly translates a cue-anchored response including its anchor (unrealizable). On realizable circuitry K3 has no power against F-01."
+  - input: "K1 against the named rival (rigid shift = F-01's (a,0) point), noise-free and N=1000"
+    expected: "discriminating case per card prose"
+    observed: "noise-free rigid-shift b1 = 1.0449/1.1161/1.0300; N=1000 pooled b1 median +1.10, K1_refute 0.090-0.123; cohort verdict K3_refute 0.643-0.693 driven purely by Lambda_x."
+    note: "P0 (with above). K1 has ~10% power against the named rival; rival's b1 registered nowhere as baseline."
+  - input: "card's actual equation (a,b)=(0,1): separating statistic Psi = b*ubar/(a*u_pk + b*ubar), computed and printed by calib_synthetic, absent from predicts and all kills"
+    expected: "headline claim carries a kill"
+    observed: "TRUE-world pooled Psi 95% = [-14.74,+17.74] at N=300, [+0.03,+4.22] at N=1000."
+    note: "P0 content. The one statistic that is the card's equation was computed, found unmeasurable, and dropped."
+  - input: "K2 semantics: kappa != 0 = Randers/Finsler"
+    expected: "kappa is a Riemannian-vs-Finsler test"
+    observed: "ghat = Jbar^T Sigma^-1 Jbar symmetric by construction (||ghat-ghat^T|| = 0), F(z,-y)=F(z,+y) identically; world F injects a SYMMETRIC trace-free strain and recovers kappa 0.273-0.283 (circular). Strictly Riemannian u-dependent rotation gives kappa = 0.0001 (no false positive)."
+    note: "P1. Same defect as F-01 audit item 8, renamed not repaired."
+  - input: "predicts[2] Lambda_x value 0.10 uncertainty 0.0; K3 fires at <= -0.10; verdict() scores lam > -0.10 as support"
+    expected: "rule tests the stated prediction"
+    observed: "placebo null 0.00 (|Lambda_x| 95% <= 0.04) scored as support; model's own forward value +6.74..+9.60 noise-free, median +0.24..+1.55 with noise."
+    note: "P1. Inequality dressed as a point prediction with zero uncertainty."
+  - input: "predicts[0] uncertainty 0.06 vs frozen estimator's noise-free bias and vs K1"
+    expected: "1.00 +- 0.06"
+    observed: "noise-free b1 = 1.0603 (eps=0.05), 1.0622 (eps=0.10) — outside +-0.06; K1 only asks whether bootstrap 95% CI covers 1.00, widths up to 1.5 admitted."
+    note: "P1. Tolerance decorative; rule ~25x looser."
+  - input: "input_gate R2_dil >= 0.50 with unchanged readout: zbar_post = zbar_pre(u/1.1) + c*v(u)"
+    expected: "gate-passing worlds with the mechanism give b1 near 1"
+    observed: "c=0.0/0.1/0.2/0.4 -> R2 = 1.000/0.971/0.881/0.636 (all pass), b1 = 1.061/0.690/0.455/0.209."
+    note: "P1. K1 refutes a true card in gate-passing worlds."
+  - input: "chart rescaling z -> c z; g -> g/c^2"
+    expected: "endpoints and verdict existence chart-invariant"
+    observed: "b1 = 1.0622 unchanged for c=0.7..2.0, but lambda_min = 0.1827/0.0895/0.0398/0.0224, at c=3 pipeline STOP(degenerate). At real N noise floor d/n = 0.10 > true lambda_min 0.0895; identically-zero metric clears the 0.02 floor 12.5% at N=60."
+    note: "P1. Gate not chart-invariant; floor certifies nothing at real N."
+  - input: "frozen estimator admissibility vs card input_gate text"
+    expected: "exactly nadm >= 7, Var(u_adm) >= 0.04, raw lambda_min >= 0.02"
+    observed: "calib_synthetic line 132 also requires ||S0_k|| >= S_FLOOR = 0.5 s^-1 (absent from card); sweeping S_FLOOR changes nadm 13->8->STOP. MIN_BINS>=7 and Var>=0.04 are the same constraint (7 contiguous bins give Var = 0.0400000000 exactly)."
+    note: "P1. Undeclared frozen threshold; two gates are one gate on its boundary."
+  - input: "recovers limit 1 (gain: k_x=0, gamma!=0) through the frozen pipeline"
+    expected: "E0 = 0, tr E = d*gamma != 0, non-vacuous"
+    observed: "tr E = 0.4500 (gamma 0.15) and 1.2000 (0.40) = d*gamma, ||E0|| <= 4.4e-16 (algebra right), but pipeline returns stop='kx0' at every gamma: b1 = 0/0 since both templates ~ k_x. verify index 5 only checks gamma cancellation in a diagonal 3x3 log."
+    note: "P1. Recovery unreachable by the frozen estimator; registered check does not test the stated limit."
+  - input: "recovers limit 3 (anchored 속도변화, (21.47) line 3, verify index 4)"
+    expected: "a speed change pushes arrival times proportionally"
+    observed: "verify index 4 is u - u/(1+eps) == u*eps/(1+eps), pure algebra. Circuit test: R2_dil 0.79-0.90, |k_x| ~ eps_v/2, sign flips at eps_v >= 0.35."
+    note: "P1. recovers-3 verified by a tautology; (21.47) line 3 / (21.48) give per-edge delay perturbation ~ -tau_ij (dv/v), not an anchored dilation of u."
+  - input: "K4 placebo (primary k_x reuse) and its trial budget"
+    expected: "independent same-phase null with false-alarm ceiling 0.123"
+    observed: "k_x reuse works (no 0/0; genuine repair). But kill requires CI-excludes-0 AND |b1_plac| >= 0.50 while calibration reports only CI-exclusion (0.100-0.133); independent runs give CI-exclusion 0.013-0.040; synthetic uses THREE independent trial sets where the frozen design has two pre halves, card does not say which half plays post."
+    note: "P1. Near-vacuous kill plus unspecified trial allocation."
+  survived_checks:
+  - "dimension table consistent: g = [O][O^-2][O] = 1; S0 = T^-1; delta*S0 = 1; b1, kappa, Lambda_x dimensionless; Jbar(O) vs Jphi(1) separated"
+  - "first-order matrix calculus correct: E0 = -(delta/2)S0 + O(delta^2), tr E = d*gamma - delta d_u log V_g + O(delta^2); 8 sympy verify entries symbolic pass, max_rel_err <= 7.6e-15"
+  - "gain exactly trace-free-blind through the full pipeline (b1, kappa identical for gamma = 0/0.15/0.50; mean tr E = d*gamma)"
+  - "Jacobi/congruence trace identity numerically exact (||E0|| <= 4.4e-16 in pure-gain limit)"
+  - "Gram determinant identity exact; used as degeneracy STOP not ridge"
+  - "ridge forbidden, raw-rank requirement stated"
+  - "placebo k_x reuse removes F-01's Cauchy 0/0 P0"
+  - "b1 exactly u_pk-invariant; noise Gram attenuation correction is a genuine errors-in-variables repair"
+  - "K2 no false positive on a strictly Riemannian u-dependent eigenbasis rotation (kappa = 0.0001)"
+  - "no post-hoc tampering: no attempt directory, no ledger entry, no data opened; calib and check_prereg rates reproduce within +-0.04"
+  - "calibration honest about its weakness (card states N=300 gives STOP 0.937)"
+sourcer:
+  mode: sourcer_novelty
+  prior_art:
+  - ref: "Wang JX, Narain D, Hosseini EA, Jazayeri M (2018) Flexible timing by temporal scaling of cortical responses, Nat Neurosci 21(1):102-110"
+    relation: generalizes
+    note: "Wang은 평균반응의 temporal scaling 관찰(정성적); 카드는 계량장이 평균반응의 anchored warp율 k_x와 b_1=1.00으로 같다고 예측—평균반응 채널은 카드의 recovers(iii) 극한"
+  - ref: "Williams AH, Poole B, Maheswaranathan N, Dhawale AK et al. (2020) Discovering precise temporal patterns in large-scale neural recordings through robust and interpretable time warping, Neuron 105(2):246-259.e8"
+    relation: generalizes
+    note: "Williams는 timing과 gain 2채널(affine warp); 카드는 4채널 분해—Williams의 timing은 카드의 (i)+(ii) 미분화 특수사례"
+  cited_steps:
+  - step: 1
+    ref: "Magnus JR, Neudecker H (1999) Matrix Differential Calculus, 2nd ed., Wiley"
+  - step: 1
+    ref: "Amari S (2016) Information Geometry and Its Applications, Springer"
+  - step: 1
+    ref: "Arsigny V, Fillard P, Pennec X, Ayache N (2006) Log-Euclidean metrics for fast and simple calculus on diffusion tensors, Magn Reson Med 56(2):411-421"
+  baselines: []
+  searches: 3
+assumptions:
+- "P0: readout mu(z)와 Sigma_o가 phase 간 불변(F-01에서 상속, 카드에는 미기재); R2_dil>=0.50과 결합해 b1=1을 항등식으로 만든다"
+- "P0: 계량장이 state rescaling 아래 등질(conformally homogeneous), G(alpha z)=e^{2gamma}G(z)"
+- "계량측 시간이동(delta)과 평균반응 warp율(k_x)이 독립 측정이라는 가정 — 실제론 b1 ~ 1/k_x로 종속"
+- "명명 자료(Ottenheimer 2023, N=60 trials/phase)가 계량 endpoint 판정에 충분하다는 가정 — 카드 자신의 규칙이 STOP_power=1.000을 반환"
+open_questions_spawned: []
+next_action: "같은 계보에서 3번째 카드를 세우지 않는다(2연속 P0 refute, 근본 원인이 표적 자체의 식별·검정력 제약). 사용자 결정 필요: (a) 저장소 보유 생물자료(Ottenheimer 2023, N=60 trial/phase)로는 계량 수준 endpoint가 판정 불가 — 새 자료 승인(성체_리만접힘_최소증거_재설정 §3 해제) 또는 (b) endpoint를 평균반응 운동학(Lambda_x류, N=60에서 추정 가능)으로 낮추되 재귀회로 forward-model 보정으로 미시 기전 판별력을 먼저 확인, 또는 (c) 표적 재정의. 집단 활동만으로는 '계량 접힘'이 평균반응 운동학과 분리되지 않는다(21장 §8.3 비식별과 일치)."

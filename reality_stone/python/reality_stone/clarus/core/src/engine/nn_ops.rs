@@ -771,3 +771,55 @@ pub fn ce_euler_fwd(
 
     (out, attn)
 }
+
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn topk_silu_keeps_k_largest_per_row_and_mask_matches() {
+        let input = vec![1.0, -3.0, 0.5, 2.0, -0.1, 0.2, 4.0, -4.0];
+        let (out, mask) = topk_silu_fwd(&input, 4, 0.5);
+        assert_eq!(out.len(), 8);
+        for row in 0..2 {
+            let kept: usize = mask[row * 4..(row + 1) * 4].iter().map(|&m| m as usize).sum();
+            assert_eq!(kept, 2, "row {row} keeps ceil(0.5 * 4) = 2 entries");
+            for j in 0..4 {
+                let idx = row * 4 + j;
+                if mask[idx] == 1 {
+                    assert!((out[idx] - silu_f32(input[idx])).abs() < 1e-6);
+                } else {
+                    assert_eq!(out[idx], 0.0);
+                }
+            }
+        }
+    }
+
+    #[test]
+    fn topk_silu_full_ratio_keeps_everything() {
+        let input = vec![0.3, -0.7, 1.5];
+        let (out, mask) = topk_silu_fwd(&input, 3, 1.0);
+        assert!(mask.iter().all(|&m| m == 1));
+        for (o, x) in out.iter().zip(&input) {
+            assert!((o - silu_f32(*x)).abs() < 1e-6);
+        }
+    }
+
+    #[test]
+    fn topk_silu_bwd_is_zero_off_mask_and_matches_finite_difference_on_mask() {
+        let input = vec![0.8, -1.2, 2.5, 0.1];
+        let (_, mask) = topk_silu_fwd(&input, 4, 0.5);
+        let grad = vec![1.0; 4];
+        let gi = topk_silu_bwd(&grad, &input, &mask, 4);
+        let h = 1e-3f32;
+        for j in 0..4 {
+            if mask[j] == 0 {
+                assert_eq!(gi[j], 0.0);
+            } else {
+                let fd = (silu_f32(input[j] + h) - silu_f32(input[j] - h)) / (2.0 * h);
+                assert!((gi[j] - fd).abs() < 1e-3, "j={j}: analytic {} vs finite difference {fd}", gi[j]);
+            }
+        }
+    }
+}

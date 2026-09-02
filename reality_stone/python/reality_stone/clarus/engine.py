@@ -25,7 +25,7 @@ try:
         pq_scores,
         relax_packed as ce_relax_packed,
     )
-    from .constants import AD, PORTAL, BYPASS, T_WAKE, NORM_EPS
+    from .constants import BYPASS
     from .research import phase_grounding_suppression
     from .utils import safe_print, normalize_vector, resolve_device
 except ImportError:
@@ -36,7 +36,7 @@ except ImportError:
         pq_scores,
         relax_packed as ce_relax_packed,
     )
-    from reality_stone.clarus.constants import AD, PORTAL, BYPASS, T_WAKE, NORM_EPS
+    from reality_stone.clarus.constants import BYPASS
     from reality_stone.clarus.research import phase_grounding_suppression
     from reality_stone.clarus.utils import safe_print, normalize_vector, resolve_device
 

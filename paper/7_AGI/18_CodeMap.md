@@ -2,7 +2,7 @@
 
 이 문서는 정본 방정식의 symbol을 코드 file·class·function과 runtime state에 연결하는 색인이다. 독자는 Python/Rust API와 tensor shape의 기본을 아는 독자를 전제로 하며, mapping은 구현 책임·입출력·불변조건을 설명할 뿐 수식의 과학적 참이나 모듈 효능을 입증하지 않는다.
 
-전체 아키텍처 뒤에 Layer A–F 순서로 equation→symbol→producer/consumer→code 위치를 읽는다. 경로와 line 표기는 현재 코드 탐색용이며, shape·unit·timebase·미구현 gap은 별도 fixture와 parity gate가 없으면 완료로 승격하지 않는다.
+전체 아키텍처 뒤에 Layer A–F 순서로 equation→symbol→producer/consumer→code 위치를 읽는다. 경로와 line 표기는 현재 코드 탐색용이며, shape·unit·timebase·미구현 gap은 별도 fixture와 parity gate가 없으면 완료로 승격하지 않는다. line 번호는 2026-09-02 기준 `runtime.py`·`sleep.py`·`ce_ops.py`에 맞춰 갱신했다.
 
 
 > 이 문서는 `15_Equations.md`의 Layer A--E 수식과 `17_AgentLoop.md`의 Layer F가 실제 코드의 어디에서 구현되는지를 1:1로 대응시킨다.
@@ -67,7 +67,7 @@ Layer A mapping은 local state tensor가 한 runtime tick에 어떤 함수로 �
 $$I_i^t = u_i^t + \sum_j W_{ij}^{\text{eff}} a_j - \lambda_r r_i - \beta_w w_i + \lambda_m m_i + \eta_i$$
 
 ```python
-# runtime.py::_step_torch, line ~508
+# runtime.py::_step_torch, line ~1508
 pre = stp_u * stp_x * self.activation * prev_active  # W_eff = u*x*a
 recurrent = self._matvec(pre)                         # sum_j W_ij * pre_j
 adapt_force = 0.12 * self.adaptation                  # beta_w * w_i
@@ -89,7 +89,7 @@ drive = (
 $$a_i^{t+1} = (1 - \gamma_a^{(M)}) a_i^t + \kappa_a^{(M)} \tanh(I_i^t)$$
 
 ```python
-# runtime.py::_step_torch, line ~516
+# runtime.py::_step_torch, line ~1517
 activation = (
     (1.0 - self.config.activation_decay(mode)) * self.activation
     + self.config.activation_gain(mode) * torch.tanh(drive)
@@ -103,7 +103,7 @@ activation = (
 $$r_i^{t+1} = (1 - \gamma_r^{(M)}) r_i^t + \kappa_r^{(M)} (a_i^{t+1})^2$$
 
 ```python
-# runtime.py::_step_torch, line ~520
+# runtime.py::_step_torch, line ~1521
 refractory = (
     (1.0 - self.config.refractory_decay(mode)) * self.refractory
     + self.config.refractory_gain(mode) * activation.square()
@@ -117,7 +117,7 @@ refractory = (
 $$m_i^{t+1} = (1 - \gamma_m) m_i^t + \gamma_m a_i^{t+1}, \quad \gamma_m = 0.01$$
 
 ```python
-# runtime.py::_step_torch, line ~524
+# runtime.py::_step_torch, line ~1524
 memory_trace = 0.99 * self.memory_trace + 0.01 * activation
 ```
 
@@ -128,7 +128,7 @@ memory_trace = 0.99 * self.memory_trace + 0.01 * activation
 $$w_i^{t+1} = (1 - \gamma_w) w_i^t + \kappa_w (a_i^{t+1})^2, \quad \gamma_w = 0.005$$
 
 ```python
-# runtime.py::_step_torch, line ~526
+# runtime.py::_step_torch, line ~1526
 adaptation = ((1.0 - 0.005) * self.adaptation + 0.005 * activation.square()).clamp(0.0, 2.0)
 ```
 
@@ -139,7 +139,7 @@ adaptation = ((1.0 - 0.005) * self.adaptation + 0.005 * activation.square()).cla
 $$b_i^{t+1} = \begin{cases} 1 & a_i > \tau^+ \\ 0 & a_i < \tau^- \\ b_i^t & \text{otherwise} \end{cases}$$
 
 ```python
-# runtime.py::_step_torch, line ~528
+# runtime.py::_step_torch, line ~1542
 bitfield[activation >= self.config.bit_upper_threshold] = 1   # tau+ = 0.30
 bitfield[activation <= self.config.bit_lower_threshold] = 0   # tau- = 0.10
 ```
@@ -152,7 +152,7 @@ $$u_j \leftarrow u_j + (-u_j/\tau_f + u_0(1-u_j)\delta(t-t_j^*))$$
 $$x_j \leftarrow x_j + ((1-x_j)/\tau_r - u_j x_j \delta(t-t_j^*))$$
 
 ```python
-# runtime.py::_step_torch, line ~492
+# runtime.py::_step_torch, line ~1450
 stp_u = self.stp_u + (-tau_fac_inv * self.stp_u + u_base * (1 - self.stp_u) * spike)
 stp_x = self.stp_x + (tau_rec * (1 - self.stp_x) - self.stp_u * self.stp_x * spike)
 ```
@@ -252,7 +252,7 @@ Layer D mapping은 write·read·replay state가 어떤 API와 serialization arti
 encode 조건은 mode·input·goal state를 입력으로 memory write event를 출력하는 gate다. 조건의 누락·data leakage·stale write는 expected failure이며, 코드 branch 존재만으로 기억 효능을 주장하지 않는다.
 
 ```python
-# runtime.py::step, line ~589
+# runtime.py::step, line ~1604
 # WAKE: 외부 입력 또는 목표가 있을 때만 기억
 if mode is WAKE and (external_norm > 1e-6 or goal.norm > 1e-6):
     hippocampus.encode(activation, value=memory_trace, priority=priority)
@@ -429,7 +429,7 @@ AI 응용에서 핵심은 단일 모듈 성능이 아니라 $S_t \to R(S_t) \to 
 
 > 효능 판정 (2026-07-30): 인과 배선 테스트는 통과했지만 기본 STDP A/B는
 > next-step prediction에서 `NO-EFFECT`, held-out guard에서 `FAIL`이다.
-> 구현과 효능을 분리한 수치·재현 명령은 `21_STDP_Efficacy_Audit.md`를 따른다.
+> 구현과 효능을 분리한 수치·재현 명령은 `검증_원장/AGI_STDP_Efficacy_Audit.md`를 따른다.
 
 최소 closed-loop 판정:
 

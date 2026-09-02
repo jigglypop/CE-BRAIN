@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 LEDGER = ROOT / "paper" / "검증_원장" / "리만부분공간_의식순간_주장원장.md"
-NARRATIVE = ROOT / "paper" / "6_뇌" / "12_리만부분공간_의식순간_강화.md"
+NARRATIVE_DIR = ROOT / "paper" / "6_뇌" / "12_리만부분공간_의식순간_강화"
 
 
 def _read(path: Path) -> str:
@@ -26,7 +26,9 @@ def _claim_rows(text: str) -> dict[str, str]:
 
 
 def test_canonical_brain_documents_have_no_c0_control_characters() -> None:
-    for path in (LEDGER, NARRATIVE):
+    narrative_chapters = sorted(NARRATIVE_DIR.glob("*.md"))
+    assert narrative_chapters, f"no chapters under {NARRATIVE_DIR}"
+    for path in (LEDGER, *narrative_chapters):
         text = _read(path)
         bad = [
             (index, ord(char))

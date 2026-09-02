@@ -6,12 +6,14 @@ pub mod engine;
 #[cfg(feature = "cuda")]
 pub mod cuda;
 
+pub use engine::ce_riemann::RelaxOutput;
 pub use engine::field::{BoundaryMode, FieldConfig, FieldEngine, FieldState, FieldStepOutput};
 pub use engine::kernel::{ModeParams, StepConfig, StepOutput, StpParams, apply_dale_sign, brain_step};
-pub use engine::runtime_types::{CellState, Mode, RelaxInput, RelaxOutput, SnapshotMeta};
+pub use engine::runtime_types::{CellState, Mode, RelaxInput, SnapshotMeta};
 
 #[cfg(feature = "python")]
 mod python_binding {
+    use pyo3::exceptions::PyValueError;
     use pyo3::prelude::*;
     use numpy::{PyReadonlyArray1, PyArray1, IntoPyArray};
     use crate::engine::nn_ops;
@@ -19,6 +21,38 @@ mod python_binding {
     use crate::engine::kernel;
     use crate::engine::llm_pre_eq;
     use crate::engine::runtime_types;
+
+    // Every array crosses the boundary as a flat C-contiguous slice. `as_slice()?`
+    // raises `ValueError` for non-contiguous input and the helpers below validate
+    // shapes, so a bad call becomes a Python exception instead of a panic.
+
+    fn expect_len(name: &str, actual: usize, expected: usize) -> PyResult<()> {
+        if actual != expected {
+            return Err(PyValueError::new_err(format!(
+                "{name}: expected {expected} elements, got {actual}"
+            )));
+        }
+        Ok(())
+    }
+
+    fn expect_multiple(name: &str, len: usize, width: usize) -> PyResult<()> {
+        if width == 0 {
+            return Err(PyValueError::new_err(format!("{name}: row width must be > 0")));
+        }
+        if len % width != 0 {
+            return Err(PyValueError::new_err(format!(
+                "{name}: length {len} is not a multiple of row width {width}"
+            )));
+        }
+        Ok(())
+    }
+
+    fn expect_even(name: &str, value: usize) -> PyResult<()> {
+        if value == 0 || value % 2 != 0 {
+            return Err(PyValueError::new_err(format!("{name}: must be a positive even number, got {value}")));
+        }
+        Ok(())
+    }
 
     #[pyfunction]
     fn topk_sparse(data: Vec<f64>, ratio: f64) -> (Vec<f64>, usize) {
@@ -39,11 +73,12 @@ mod python_binding {
     }
 
     #[pyfunction]
-    fn topk_sparse_batch(data: Vec<f64>, row_len: usize, ratio: f64) -> Vec<f64> {
+    fn topk_sparse_batch(data: Vec<f64>, row_len: usize, ratio: f64) -> PyResult<Vec<f64>> {
         use rayon::prelude::*;
+        expect_multiple("data", data.len(), row_len)?;
         let k = std::cmp::max(1, (ratio * row_len as f64).ceil() as usize).min(row_len);
         if k >= row_len {
-            return data;
+            return Ok(data);
         }
         let mut out = vec![0.0; data.len()];
         out.par_chunks_mut(row_len)
@@ -58,7 +93,7 @@ mod python_binding {
                     out_row[i] = src[i];
                 }
             });
-        out
+        Ok(out)
     }
 
     #[pyfunction]
@@ -67,10 +102,11 @@ mod python_binding {
         input: PyReadonlyArray1<'py, f32>,
         dim: usize,
         ratio: f32,
-    ) -> (&'py PyArray1<f32>, &'py PyArray1<u8>) {
-        let data = input.as_slice().expect("contiguous input");
+    ) -> PyResult<(&'py PyArray1<f32>, &'py PyArray1<u8>)> {
+        let data = input.as_slice()?;
+        expect_multiple("input", data.len(), dim)?;
         let (out, mask) = nn_ops::topk_silu_fwd(data, dim, ratio);
-        (out.into_pyarray(py), mask.into_pyarray(py))
+        Ok((out.into_pyarray(py), mask.into_pyarray(py)))
     }
 
     #[pyfunction]
@@ -80,14 +116,18 @@ mod python_binding {
         input: PyReadonlyArray1<'py, f32>,
         mask: PyReadonlyArray1<'py, u8>,
         dim: usize,
-    ) -> &'py PyArray1<f32> {
-        let g = grad.as_slice().expect("contiguous grad");
-        let x = input.as_slice().expect("contiguous input");
-        let m = mask.as_slice().expect("contiguous mask");
-        nn_ops::topk_silu_bwd(g, x, m, dim).into_pyarray(py)
+    ) -> PyResult<&'py PyArray1<f32>> {
+        let g = grad.as_slice()?;
+        let x = input.as_slice()?;
+        let m = mask.as_slice()?;
+        expect_multiple("grad", g.len(), dim)?;
+        expect_len("input", x.len(), g.len())?;
+        expect_len("mask", m.len(), g.len())?;
+        Ok(nn_ops::topk_silu_bwd(g, x, m, dim).into_pyarray(py))
     }
 
     #[pyfunction]
+    #[allow(clippy::too_many_arguments)]
     fn nn_lbo_fused_fwd<'py>(
         py: Python<'py>,
         normed: PyReadonlyArray1<'py, f32>,
@@ -98,18 +138,19 @@ mod python_binding {
         alpha_conf: f32,
         dim: usize,
         rank: usize,
-    ) -> (&'py PyArray1<f32>, f32) {
+    ) -> PyResult<(&'py PyArray1<f32>, f32)> {
+        let normed_s = normed.as_slice()?;
+        let v_s = v.as_slice()?;
+        let scale_s = scale.as_slice()?;
+        let bias_s = bias.as_slice()?;
+        expect_multiple("normed", normed_s.len(), dim)?;
+        expect_len("v", v_s.len(), rank * dim)?;
+        expect_len("scale", scale_s.len(), dim)?;
+        expect_len("bias", bias_s.len(), dim)?;
         let (out, curv) = nn_ops::lbo_fused_fwd(
-            normed.as_slice().expect("contiguous"),
-            v.as_slice().expect("contiguous"),
-            h,
-            scale.as_slice().expect("contiguous"),
-            bias.as_slice().expect("contiguous"),
-            alpha_conf,
-            dim,
-            rank,
+            normed_s, v_s, h, scale_s, bias_s, alpha_conf, dim, rank,
         );
-        (out.into_pyarray(py), curv)
+        Ok((out.into_pyarray(py), curv))
     }
 
     #[pyfunction]
@@ -119,14 +160,12 @@ mod python_binding {
         spectral_v: PyReadonlyArray1<'py, f32>,
         dim: usize,
         rank: usize,
-    ) -> (&'py PyArray1<f32>, f32) {
-        let (new_v, sigma) = nn_ops::power_iter_step(
-            v_mat.as_slice().expect("contiguous"),
-            spectral_v.as_slice().expect("contiguous"),
-            dim,
-            rank,
-        );
-        (new_v.into_pyarray(py), sigma)
+    ) -> PyResult<(&'py PyArray1<f32>, f32)> {
+        let v_mat_s = v_mat.as_slice()?;
+        let spectral_s = spectral_v.as_slice()?;
+        expect_len("v_mat", v_mat_s.len(), rank * dim)?;
+        let (new_v, sigma) = nn_ops::power_iter_step(v_mat_s, spectral_s, dim, rank);
+        Ok((new_v.into_pyarray(py), sigma))
     }
 
     #[pyfunction]
@@ -147,19 +186,31 @@ mod python_binding {
         mix_rank: usize,
         ratio: f32,
         dim: usize,
-    ) -> &'py PyArray1<f32> {
-        nn_ops::gauge_lattice_fwd(
-            input.as_slice().expect("contiguous"),
-            su3_up.as_slice().expect("contiguous"),
-            su3_down.as_slice().expect("contiguous"),
-            su2_up.as_slice().expect("contiguous"),
-            su2_down.as_slice().expect("contiguous"),
-            u1_up.as_slice().expect("contiguous"),
-            u1_down.as_slice().expect("contiguous"),
-            mix_down.as_slice().expect("contiguous"),
-            mix_up.as_slice().expect("contiguous"),
+    ) -> PyResult<&'py PyArray1<f32>> {
+        let input_s = input.as_slice()?;
+        let su3_up_s = su3_up.as_slice()?;
+        let su3_down_s = su3_down.as_slice()?;
+        let su2_up_s = su2_up.as_slice()?;
+        let su2_down_s = su2_down.as_slice()?;
+        let u1_up_s = u1_up.as_slice()?;
+        let u1_down_s = u1_down.as_slice()?;
+        let mix_down_s = mix_down.as_slice()?;
+        let mix_up_s = mix_up.as_slice()?;
+        expect_multiple("input", input_s.len(), dim)?;
+        expect_len("d3 + d2 + d1", d3 + d2 + d1, dim)?;
+        expect_len("su3_up", su3_up_s.len(), d3 * h3)?;
+        expect_len("su3_down", su3_down_s.len(), d3 * h3)?;
+        expect_len("su2_up", su2_up_s.len(), d2 * h2)?;
+        expect_len("su2_down", su2_down_s.len(), d2 * h2)?;
+        expect_len("u1_up", u1_up_s.len(), d1 * h1)?;
+        expect_len("u1_down", u1_down_s.len(), d1 * h1)?;
+        expect_len("mix_down", mix_down_s.len(), dim * mix_rank)?;
+        expect_len("mix_up", mix_up_s.len(), dim * mix_rank)?;
+        Ok(nn_ops::gauge_lattice_fwd(
+            input_s, su3_up_s, su3_down_s, su2_up_s, su2_down_s, u1_up_s, u1_down_s,
+            mix_down_s, mix_up_s,
             d3, d2, d1, h3, h2, h1, mix_rank, ratio, dim,
-        ).into_pyarray(py)
+        ).into_pyarray(py))
     }
 
     #[pyfunction]
@@ -168,10 +219,11 @@ mod python_binding {
         w: PyReadonlyArray1<'py, f32>,
         dim: usize,
         zero_tol: f32,
-    ) -> (&'py PyArray1<f32>, &'py PyArray1<i32>, &'py PyArray1<i32>) {
-        let data = w.as_slice().expect("contiguous");
+    ) -> PyResult<(&'py PyArray1<f32>, &'py PyArray1<i32>, &'py PyArray1<i32>)> {
+        let data = w.as_slice()?;
+        expect_len("w", data.len(), dim * dim)?;
         let (vals, cols, rows) = ce_riemann::pack_sparse_csr(data, dim, zero_tol);
-        (vals.into_pyarray(py), cols.into_pyarray(py), rows.into_pyarray(py))
+        Ok((vals.into_pyarray(py), cols.into_pyarray(py), rows.into_pyarray(py)))
     }
 
     #[pyfunction]
@@ -182,10 +234,12 @@ mod python_binding {
         n_code: usize,
         dim: usize,
         rank: usize,
-    ) -> &'py PyArray1<f32> {
-        let cb = codebook.as_slice().expect("contiguous");
-        let mr = m_ref.as_slice().expect("contiguous");
-        ce_riemann::metric_basis_from_codebook(cb, mr, n_code, dim, rank).into_pyarray(py)
+    ) -> PyResult<&'py PyArray1<f32>> {
+        let cb = codebook.as_slice()?;
+        let mr = m_ref.as_slice()?;
+        expect_len("codebook", cb.len(), n_code * dim)?;
+        expect_len("m_ref", mr.len(), dim)?;
+        Ok(ce_riemann::metric_basis_from_codebook(cb, mr, n_code, dim, rank).into_pyarray(py))
     }
 
     #[pyfunction]
@@ -197,11 +251,13 @@ mod python_binding {
         dim: usize,
         beta: f32,
         cb_w: f32,
-    ) -> (&'py PyArray1<f32>, f32) {
-        let m_s = m.as_slice().expect("contiguous");
-        let cb = codebook.as_slice().expect("contiguous");
+    ) -> PyResult<(&'py PyArray1<f32>, f32)> {
+        let m_s = m.as_slice()?;
+        let cb = codebook.as_slice()?;
+        expect_len("m", m_s.len(), dim)?;
+        expect_len("codebook", cb.len(), n_code * dim)?;
         let (grad, energy) = ce_riemann::codebook_pull(m_s, cb, n_code, dim, beta, cb_w);
-        (grad.into_pyarray(py), energy)
+        Ok((grad.into_pyarray(py), energy))
     }
 
     #[pyfunction]
@@ -234,7 +290,7 @@ mod python_binding {
         anneal_ratio: f32,
         noise_scale: f32,
         seed: u64,
-    ) -> (
+    ) -> PyResult<(
         &'py PyArray1<f32>,
         &'py PyArray1<f32>,
         &'py PyArray1<f32>,
@@ -244,22 +300,30 @@ mod python_binding {
         &'py PyArray1<f32>,
         &'py PyArray1<f32>,
         usize,
-    ) {
+    )> {
+        let values_s = values.as_slice()?;
+        let col_idx_s = col_idx.as_slice()?;
+        let row_ptr_s = row_ptr.as_slice()?;
+        let b_s = b.as_slice()?;
+        let phi_s = phi.as_slice()?;
+        let m0_s = m0.as_slice()?;
+        let codebook_s = codebook.as_slice()?;
+        let basis_s = metric_basis.as_slice()?;
+        expect_len("col_idx", col_idx_s.len(), values_s.len())?;
+        expect_len("row_ptr", row_ptr_s.len(), dim + 1)?;
+        expect_len("b", b_s.len(), dim)?;
+        expect_len("phi", phi_s.len(), dim)?;
+        expect_len("m0", m0_s.len(), dim)?;
+        expect_len("codebook", codebook_s.len(), n_code * dim)?;
+        expect_len("metric_basis", basis_s.len(), rank * dim)?;
         let out = ce_riemann::relax_forward(
-            values.as_slice().expect("contiguous"),
-            col_idx.as_slice().expect("contiguous"),
-            row_ptr.as_slice().expect("contiguous"),
-            b.as_slice().expect("contiguous"),
-            phi.as_slice().expect("contiguous"),
-            m0.as_slice().expect("contiguous"),
-            codebook.as_slice().expect("contiguous"),
-            metric_basis.as_slice().expect("contiguous"),
+            values_s, col_idx_s, row_ptr_s, b_s, phi_s, m0_s, codebook_s, basis_s,
             dim, n_code, rank,
             portal, bypass, t_wake, beta, cb_w,
             lambda0, lambda_phi, lambda_var,
             tau, dt, max_steps, tol, anneal_ratio, noise_scale, seed,
         );
-        (
+        Ok((
             out.best_m.into_pyarray(py),
             out.energy.into_pyarray(py),
             out.delta.into_pyarray(py),
@@ -269,7 +333,7 @@ mod python_binding {
             out.e_cb.into_pyarray(py),
             out.bypass_hist.into_pyarray(py),
             out.steps,
-        )
+        ))
     }
 
     #[pyfunction]
@@ -310,7 +374,7 @@ mod python_binding {
         adaptation_decay: f32,
         memory_decay: f32,
         adaptation_clamp: f32,
-    ) -> (
+    ) -> PyResult<(
         &'py PyArray1<f32>,
         &'py PyArray1<f32>,
         &'py PyArray1<f32>,
@@ -320,7 +384,7 @@ mod python_binding {
         &'py PyArray1<u8>,
         usize,
         f32,
-    ) {
+    )> {
         let mode_enum = match mode {
             1 => runtime_types::Mode::Nrem,
             2 => runtime_types::Mode::Rem,
@@ -353,17 +417,39 @@ mod python_binding {
             adaptation_clamp,
             ..Default::default()
         };
-        let mut act = activation.as_slice().expect("contiguous").to_vec();
-        let mut refr = refractory.as_slice().expect("contiguous").to_vec();
-        let mut mem = memory_trace.as_slice().expect("contiguous").to_vec();
-        let mut adapt = adaptation.as_slice().expect("contiguous").to_vec();
-        let mut su = stp_u.as_slice().expect("contiguous").to_vec();
-        let mut sx = stp_x.as_slice().expect("contiguous").to_vec();
-        let mut bit = bitfield.as_slice().expect("contiguous").to_vec();
+        let mut act = activation.as_slice()?.to_vec();
+        let n = act.len();
+        let mut refr = refractory.as_slice()?.to_vec();
+        let mut mem = memory_trace.as_slice()?.to_vec();
+        let mut adapt = adaptation.as_slice()?.to_vec();
+        let mut su = stp_u.as_slice()?.to_vec();
+        let mut sx = stp_x.as_slice()?.to_vec();
+        let mut bit = bitfield.as_slice()?.to_vec();
+        let w_values_s = w_values.as_slice()?;
+        let w_col_idx_s = w_col_idx.as_slice()?;
+        let w_row_ptr_s = w_row_ptr.as_slice()?;
+        let active_mask_s = active_mask.as_slice()?;
+        let external_s = external.as_slice()?;
+        let goal_s = goal.as_slice()?;
+        let replay_s = replay.as_slice()?;
+        let noise_s = noise.as_slice()?;
+        expect_len("refractory", refr.len(), n)?;
+        expect_len("memory_trace", mem.len(), n)?;
+        expect_len("adaptation", adapt.len(), n)?;
+        expect_len("stp_u", su.len(), n)?;
+        expect_len("stp_x", sx.len(), n)?;
+        expect_len("bitfield", bit.len(), n)?;
+        expect_len("active_mask", active_mask_s.len(), n)?;
+        expect_len("external", external_s.len(), n)?;
+        expect_len("goal", goal_s.len(), n)?;
+        expect_len("replay", replay_s.len(), n)?;
+        expect_len("noise", noise_s.len(), n)?;
+        expect_len("w_row_ptr", w_row_ptr_s.len(), n + 1)?;
+        expect_len("w_col_idx", w_col_idx_s.len(), w_values_s.len())?;
         let out = kernel::brain_step(
-            w_values.as_slice().expect("contiguous"),
-            w_col_idx.as_slice().expect("contiguous"),
-            w_row_ptr.as_slice().expect("contiguous"),
+            w_values_s,
+            w_col_idx_s,
+            w_row_ptr_s,
             &mut act,
             &mut refr,
             &mut mem,
@@ -371,15 +457,15 @@ mod python_binding {
             &mut su,
             &mut sx,
             &mut bit,
-            active_mask.as_slice().expect("contiguous"),
-            external.as_slice().expect("contiguous"),
-            goal.as_slice().expect("contiguous"),
-            replay.as_slice().expect("contiguous"),
-            noise.as_slice().expect("contiguous"),
+            active_mask_s,
+            external_s,
+            goal_s,
+            replay_s,
+            noise_s,
             &mp,
             &cfg,
         );
-        (
+        Ok((
             act.into_pyarray(py),
             refr.into_pyarray(py),
             mem.into_pyarray(py),
@@ -389,7 +475,7 @@ mod python_binding {
             bit.into_pyarray(py),
             out.active_count,
             out.energy,
-        )
+        ))
     }
 
     #[pyfunction]
@@ -405,14 +491,15 @@ mod python_binding {
         w_lang: f32,
         w_grav: f32,
         causal: bool,
-    ) -> (&'py PyArray1<f32>, &'py PyArray1<f32>) {
-        let (out, attn) = nn_ops::ce_mfa_fwd(
-            q.as_slice().expect("contiguous q"),
-            k.as_slice().expect("contiguous k"),
-            v.as_slice().expect("contiguous v"),
-            n, d, sigma_grav, w_lang, w_grav, causal,
-        );
-        (out.into_pyarray(py), attn.into_pyarray(py))
+    ) -> PyResult<(&'py PyArray1<f32>, &'py PyArray1<f32>)> {
+        let q_s = q.as_slice()?;
+        let k_s = k.as_slice()?;
+        let v_s = v.as_slice()?;
+        expect_len("q", q_s.len(), n * d)?;
+        expect_len("k", k_s.len(), n * d)?;
+        expect_len("v", v_s.len(), n * d)?;
+        let (out, attn) = nn_ops::ce_mfa_fwd(q_s, k_s, v_s, n, d, sigma_grav, w_lang, w_grav, causal);
+        Ok((out.into_pyarray(py), attn.into_pyarray(py)))
     }
 
     #[pyfunction]
@@ -429,15 +516,36 @@ mod python_binding {
         e_gate: f32,
         xi: f32,
         causal: bool,
-    ) -> (&'py PyArray1<f32>, &'py PyArray1<f32>) {
+    ) -> PyResult<(&'py PyArray1<f32>, &'py PyArray1<f32>)> {
+        let q_s = q.as_slice()?;
+        let k_s = k.as_slice()?;
+        let v_s = v.as_slice()?;
+        let freq_s = pi_inv_freq.as_slice()?;
+        expect_even("d_head", d_head)?;
+        expect_len("q", q_s.len(), n * d_head)?;
+        expect_len("k", k_s.len(), n * d_head)?;
+        expect_len("v", v_s.len(), n * d_head)?;
+        expect_len("pi_inv_freq", freq_s.len(), d_head / 2)?;
         let (out, attn) = nn_ops::ce_euler_fwd(
-            q.as_slice().expect("contiguous q"),
-            k.as_slice().expect("contiguous k"),
-            v.as_slice().expect("contiguous v"),
-            pi_inv_freq.as_slice().expect("contiguous pi_inv_freq"),
-            n, d_head, pi_gate, e_gate, xi, causal,
+            q_s, k_s, v_s, freq_s, n, d_head, pi_gate, e_gate, xi, causal,
         );
-        (out.into_pyarray(py), attn.into_pyarray(py))
+        Ok((out.into_pyarray(py), attn.into_pyarray(py)))
+    }
+
+    #[allow(clippy::too_many_arguments)]
+    fn check_riemann_shapes(
+        q: usize, k: usize, v: usize, cos: usize, sin: usize, sheet_bias: usize,
+        bh: usize, n: usize, d_head: usize,
+    ) -> PyResult<()> {
+        expect_even("d_head", d_head)?;
+        let half = d_head / 2;
+        expect_len("q", q, bh * n * d_head)?;
+        expect_len("k", k, bh * n * d_head)?;
+        expect_len("v", v, bh * n * d_head)?;
+        expect_len("cos", cos, bh * n * half)?;
+        expect_len("sin", sin, bh * n * half)?;
+        expect_len("sheet_bias", sheet_bias, bh * n * n)?;
+        Ok(())
     }
 
     /// Batched Riemann-surface attention (CPU). Inputs are flat row-major
@@ -457,17 +565,16 @@ mod python_binding {
         n: usize,
         d_head: usize,
         causal: bool,
-    ) -> &'py PyArray1<f32> {
-        let out = nn_ops::ce_riemann_fwd(
-            q.as_slice().expect("contiguous q"),
-            k.as_slice().expect("contiguous k"),
-            v.as_slice().expect("contiguous v"),
-            cos.as_slice().expect("contiguous cos"),
-            sin.as_slice().expect("contiguous sin"),
-            sheet_bias.as_slice().expect("contiguous sheet_bias"),
-            bh, n, d_head, causal,
-        );
-        out.into_pyarray(py)
+    ) -> PyResult<&'py PyArray1<f32>> {
+        let q_s = q.as_slice()?;
+        let k_s = k.as_slice()?;
+        let v_s = v.as_slice()?;
+        let cos_s = cos.as_slice()?;
+        let sin_s = sin.as_slice()?;
+        let sb_s = sheet_bias.as_slice()?;
+        check_riemann_shapes(q_s.len(), k_s.len(), v_s.len(), cos_s.len(), sin_s.len(), sb_s.len(), bh, n, d_head)?;
+        let out = nn_ops::ce_riemann_fwd(q_s, k_s, v_s, cos_s, sin_s, sb_s, bh, n, d_head, causal);
+        Ok(out.into_pyarray(py))
     }
 
     /// Batched Riemann-surface attention (CUDA, host staging). Convenience
@@ -489,16 +596,15 @@ mod python_binding {
         causal: bool,
     ) -> PyResult<&'py PyArray1<f32>> {
         use crate::cuda;
-        let out = cuda::ce_riemann_fwd_cuda(
-            q.as_slice().expect("contiguous q"),
-            k.as_slice().expect("contiguous k"),
-            v.as_slice().expect("contiguous v"),
-            cos.as_slice().expect("contiguous cos"),
-            sin.as_slice().expect("contiguous sin"),
-            sheet_bias.as_slice().expect("contiguous sheet_bias"),
-            bh, n, d_head, causal,
-        )
-        .map_err(pyo3::exceptions::PyRuntimeError::new_err)?;
+        let q_s = q.as_slice()?;
+        let k_s = k.as_slice()?;
+        let v_s = v.as_slice()?;
+        let cos_s = cos.as_slice()?;
+        let sin_s = sin.as_slice()?;
+        let sb_s = sheet_bias.as_slice()?;
+        check_riemann_shapes(q_s.len(), k_s.len(), v_s.len(), cos_s.len(), sin_s.len(), sb_s.len(), bh, n, d_head)?;
+        let out = cuda::ce_riemann_fwd_cuda(q_s, k_s, v_s, cos_s, sin_s, sb_s, bh, n, d_head, causal)
+            .map_err(pyo3::exceptions::PyRuntimeError::new_err)?;
         Ok(out.into_pyarray(py))
     }
 
@@ -523,6 +629,7 @@ mod python_binding {
         causal: bool,
     ) -> PyResult<()> {
         use crate::cuda;
+        expect_even("d_head", d_head)?;
         unsafe {
             cuda::ce_riemann_fwd_cuda_devptr(
                 q_ptr, k_ptr, v_ptr, cos_ptr, sin_ptr, sb_ptr, out_ptr,
@@ -547,14 +654,17 @@ mod python_binding {
         w_lang: f32,
         w_grav: f32,
         causal: bool,
-    ) -> (&'py PyArray1<f32>, &'py PyArray1<f32>) {
+    ) -> PyResult<(&'py PyArray1<f32>, &'py PyArray1<f32>)> {
+        let z_l_s = z_l.as_slice()?;
+        let z_g_s = z_g.as_slice()?;
+        let v_s = v.as_slice()?;
+        expect_len("z_l", z_l_s.len(), n * d_l)?;
+        expect_len("z_g", z_g_s.len(), n * d_g)?;
+        expect_len("v", v_s.len(), n * d_m)?;
         let (out, k) = nn_ops::ce_dual_attn_fwd(
-            z_l.as_slice().expect("contiguous z_l"),
-            z_g.as_slice().expect("contiguous z_g"),
-            v.as_slice().expect("contiguous v"),
-            n, d_l, d_g, d_m, sigma_grav, w_lang, w_grav, causal,
+            z_l_s, z_g_s, v_s, n, d_l, d_g, d_m, sigma_grav, w_lang, w_grav, causal,
         );
-        (out.into_pyarray(py), k.into_pyarray(py))
+        Ok((out.into_pyarray(py), k.into_pyarray(py)))
     }
 
     #[pyfunction]
@@ -587,21 +697,17 @@ mod python_binding {
             uncertainty: w_uncertainty,
         };
         let energy = llm_pre_eq::defect_energies(
-            supported.as_slice().expect("contiguous supported"),
-            unsupported.as_slice().expect("contiguous unsupported"),
-            contradicted.as_slice().expect("contiguous contradicted"),
-            instruction.as_slice().expect("contiguous instruction"),
-            self_contradiction.as_slice().expect("contiguous self_contradiction"),
-            uncertainty.as_slice().expect("contiguous uncertainty"),
+            supported.as_slice()?,
+            unsupported.as_slice()?,
+            contradicted.as_slice()?,
+            instruction.as_slice()?,
+            self_contradiction.as_slice()?,
+            uncertainty.as_slice()?,
             weights,
         )
-        .map_err(pyo3::exceptions::PyValueError::new_err)?;
-        let posterior = llm_pre_eq::gibbs_posterior(
-            prior.as_slice().expect("contiguous prior"),
-            &energy,
-            beta,
-        )
-        .map_err(pyo3::exceptions::PyValueError::new_err)?;
+        .map_err(PyValueError::new_err)?;
+        let posterior = llm_pre_eq::gibbs_posterior(prior.as_slice()?, &energy, beta)
+            .map_err(PyValueError::new_err)?;
         Ok((energy.into_pyarray(py), posterior.into_pyarray(py)))
     }
 
@@ -648,28 +754,22 @@ mod python_binding {
             ce_penalty: w_ce_penalty,
         };
         let actions = llm_pre_eq::claim_answer_actions(
-            residual.as_slice().expect("contiguous residual"),
-            graph.as_slice().expect("contiguous graph"),
-            tau.as_slice().expect("contiguous tau"),
-            source_unreliability
-                .as_slice()
-                .expect("contiguous source_unreliability"),
-            independence.as_slice().expect("contiguous independence"),
-            missing.as_slice().expect("contiguous missing"),
-            instruction.as_slice().expect("contiguous instruction"),
-            schema.as_slice().expect("contiguous schema"),
-            coverage.as_slice().expect("contiguous coverage"),
-            unsupported.as_slice().expect("contiguous unsupported"),
-            ce_penalty.as_slice().expect("contiguous ce_penalty"),
+            residual.as_slice()?,
+            graph.as_slice()?,
+            tau.as_slice()?,
+            source_unreliability.as_slice()?,
+            independence.as_slice()?,
+            missing.as_slice()?,
+            instruction.as_slice()?,
+            schema.as_slice()?,
+            coverage.as_slice()?,
+            unsupported.as_slice()?,
+            ce_penalty.as_slice()?,
             weights,
         )
-        .map_err(pyo3::exceptions::PyValueError::new_err)?;
-        let posterior = llm_pre_eq::gibbs_posterior(
-            prior.as_slice().expect("contiguous prior"),
-            &actions,
-            beta,
-        )
-        .map_err(pyo3::exceptions::PyValueError::new_err)?;
+        .map_err(PyValueError::new_err)?;
+        let posterior = llm_pre_eq::gibbs_posterior(prior.as_slice()?, &actions, beta)
+            .map_err(PyValueError::new_err)?;
         Ok((actions.into_pyarray(py), posterior.into_pyarray(py)))
     }
 

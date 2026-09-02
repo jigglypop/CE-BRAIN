@@ -19,8 +19,15 @@ def dynamic_curvature(kappa: float, c_min: float, c_max: float) -> float:
     return float(c_min) + (float(c_max) - float(c_min)) * sigmoid(float(kappa))
 
 
-def mobius_add_torch(x: torch.Tensor, y: torch.Tensor, c: float) -> torch.Tensor:
-    c_t = torch.as_tensor(float(c), dtype=x.dtype, device=x.device)
+def _curvature_tensor(c, like: torch.Tensor) -> torch.Tensor:
+    """Curvature as a tensor on ``like``'s device/dtype; keeps autograd through tensor ``c``."""
+    if isinstance(c, torch.Tensor):
+        return c.to(dtype=like.dtype, device=like.device)
+    return torch.as_tensor(float(c), dtype=like.dtype, device=like.device)
+
+
+def mobius_add_torch(x: torch.Tensor, y: torch.Tensor, c) -> torch.Tensor:
+    c_t = _curvature_tensor(c, x)
     xy = (x * y).sum(dim=-1, keepdim=True)
     x2 = (x * x).sum(dim=-1, keepdim=True)
     y2 = (y * y).sum(dim=-1, keepdim=True)
@@ -29,16 +36,17 @@ def mobius_add_torch(x: torch.Tensor, y: torch.Tensor, c: float) -> torch.Tensor
     return num / den.clamp_min(EPS)
 
 
-def mobius_scalar_torch(x: torch.Tensor, r: float, c: float) -> torch.Tensor:
+def mobius_scalar_torch(x: torch.Tensor, r: float, c) -> torch.Tensor:
     r = float(r)
-    c = float(c)
+    c_t = _curvature_tensor(c, x)
+    c_value = float(c_t.detach())
     if abs(r) < EPS:
         return torch.zeros_like(x)
-    if abs(c) < EPS:
+    if abs(c_value) < EPS:
         return x * r
     norm = torch.linalg.norm(x, dim=-1, keepdim=True).clamp_min(EPS)
-    if c > 0.0:
-        sqrt_c = math.sqrt(c)
+    if c_value > 0.0:
+        sqrt_c = torch.sqrt(c_t)
         arg = (sqrt_c * norm).clamp(max=1.0 - EPS)
         scale = torch.tanh(r * torch.atanh(arg)) / (sqrt_c * norm)
         return scale * x
@@ -190,3 +198,108 @@ def deterministic_spd(key: str, dim: int, min_lambda: float, max_lambda: float, 
     vals = rng.uniform(float(min_lambda), float(max_lambda), size=dim).astype(np.float32)
     vals = vals * max(float(mass), EPS)
     return (q @ np.diag(vals) @ q.T).astype(np.float32)
+
+
+# ---------------------------------------------------------------------------
+# Differentiable torch formulas shared by the layer fallbacks.
+#
+# These are the mathematical definitions the compiled kernels implement; the
+# layer modules call them whenever the native ``_rust`` extension is absent so
+# that forward values and autograd gradients stay correct without Rust.
+# ---------------------------------------------------------------------------
+
+
+def dynamic_curvature_torch(kappa: torch.Tensor, c_min: float, c_max: float) -> torch.Tensor:
+    return float(c_min) + (float(c_max) - float(c_min)) * torch.sigmoid(kappa)
+
+
+def autograd_vjp(fn, grad_output: torch.Tensor, *tensors: torch.Tensor):
+    """Vector-Jacobian product of ``fn`` at ``tensors`` computed with autograd.
+
+    Returns one gradient per input tensor (zeros where the output does not depend
+    on the input). Used inside ``autograd.Function.backward`` fallbacks so the
+    custom Functions keep exact gradients when no native VJP kernel exists.
+    """
+    with torch.enable_grad():
+        leaves = [t.detach().clone().requires_grad_(True) for t in tensors]
+        out = fn(*leaves)
+        grads = torch.autograd.grad(out, leaves, grad_output, allow_unused=True)
+    return tuple(
+        g if g is not None else torch.zeros_like(t)
+        for g, t in zip(grads, tensors)
+    )
+
+
+def poincare_ball_layer_torch(u: torch.Tensor, v: torch.Tensor, c: float, t: float) -> torch.Tensor:
+    """Geodesic blend on the Poincare ball, ``((1-t) (x) u) (+) (t (x) v)``."""
+    return mobius_add_torch(
+        mobius_scalar_torch(u, 1.0 - float(t), c),
+        mobius_scalar_torch(v, float(t), c),
+        c,
+    )
+
+
+def poincare_to_lorentz_torch(x: torch.Tensor, c) -> torch.Tensor:
+    c_t = _curvature_tensor(c, x)
+    x2 = (x * x).sum(dim=-1, keepdim=True)
+    den = (1.0 - c_t * x2).clamp_min(EPS)
+    time = (1.0 + c_t * x2) / (torch.sqrt(c_t) * den)
+    space = 2.0 * x / den
+    return torch.cat([time, space], dim=-1)
+
+
+def lorentz_to_poincare_torch(x: torch.Tensor, c) -> torch.Tensor:
+    denom = x[..., :1] + torch.rsqrt(_curvature_tensor(c, x))
+    return x[..., 1:] / denom.clamp_min(EPS)
+
+
+def poincare_to_klein_torch(x: torch.Tensor, c) -> torch.Tensor:
+    c_t = _curvature_tensor(c, x)
+    x2 = (x * x).sum(dim=-1, keepdim=True)
+    return (2.0 * x) / (1.0 + c_t * x2).clamp_min(EPS)
+
+
+def lorentz_geodesic_torch(u: torch.Tensor, v: torch.Tensor, c: float, t: float) -> torch.Tensor:
+    """Hyperboloid geodesic ``sinh((1-t)a)/sinh(a) u + sinh(t a)/sinh(a) v``.
+
+    ``a = acosh(c <u,v>_L)`` with the ``(+,-,...,-)`` Minkowski inner product used
+    throughout this package. Falls back to the linear blend when ``a`` vanishes.
+    """
+    c_t = _curvature_tensor(c, u)
+    t = float(t)
+    inner = lorentz_inner_torch(u, v).unsqueeze(-1)
+    z = (c_t * inner).clamp_min(1.0 + EPS)
+    alpha = torch.acosh(z)
+    sinh_a = torch.sinh(alpha).clamp_min(EPS)
+    small = alpha.abs() < 1e-6
+    w1 = torch.where(small, torch.full_like(alpha, 1.0 - t), torch.sinh((1.0 - t) * alpha) / sinh_a)
+    w2 = torch.where(small, torch.full_like(alpha, t), torch.sinh(t * alpha) / sinh_a)
+    return w1 * u + w2 * v
+
+
+def lorentz_add_torch(u: torch.Tensor, v: torch.Tensor, c: float) -> torch.Tensor:
+    """Gyro-addition on the hyperboloid via the Poincare ball (Mobius) chart."""
+    pu = lorentz_to_poincare_torch(u, c)
+    pv = lorentz_to_poincare_torch(v, c)
+    return poincare_to_lorentz_torch(mobius_add_torch(pu, pv, c), c)
+
+
+def lorentz_scalar_torch(x: torch.Tensor, r: float, c: float) -> torch.Tensor:
+    px = lorentz_to_poincare_torch(x, c)
+    return poincare_to_lorentz_torch(mobius_scalar_torch(px, r, c), c)
+
+
+def einstein_add_torch(u: torch.Tensor, v: torch.Tensor, c: float) -> torch.Tensor:
+    """Einstein addition in the Beltrami-Klein model.
+
+    ``u (+)_E v = [u + v / g_u + (c g_u / (1 + g_u)) <u,v> u] / (1 + c <u,v>)`` with
+    the Lorentz factor ``g_u = 1 / sqrt(1 - c |u|^2)``.
+    """
+    c = float(c)
+    if abs(c) < EPS:
+        return u + v
+    uv = (u * v).sum(dim=-1, keepdim=True)
+    u2 = (u * u).sum(dim=-1, keepdim=True)
+    gamma_u = torch.rsqrt((1.0 - c * u2).clamp_min(EPS))
+    num = u + v / gamma_u + (c * gamma_u / (1.0 + gamma_u)) * uv * u
+    return num / (1.0 + c * uv).clamp_min(EPS)

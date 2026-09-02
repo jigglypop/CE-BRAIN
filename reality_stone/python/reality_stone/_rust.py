@@ -192,6 +192,22 @@ def from_poincare_dynamic_backward_cpu(grad, x, kappa, c_min: float, c_max: floa
     return _as_f32(grad), 0.0
 
 
+# Model-specific names. The native module registers these separately so the Klein
+# binding no longer overwrites the Lorentz one in the shared root namespace.
+def lorentz_from_poincare_dynamic_cpu(x, kappa, c_min: float, c_max: float):
+    c_val = _curvature_from_kappa(kappa, c_min, c_max)
+    return poincare_to_lorentz_cpu(x, abs(c_val)), c_val
+
+
+def klein_from_poincare_dynamic_cpu(x, kappa, c_min: float, c_max: float):
+    c_val = _curvature_from_kappa(kappa, c_min, c_max)
+    return poincare_to_klein_cpu(x, abs(c_val)), c_val
+
+
+lorentz_from_poincare_dynamic_backward_cpu = from_poincare_dynamic_backward_cpu
+klein_from_poincare_dynamic_backward_cpu = from_poincare_dynamic_backward_cpu
+
+
 def _svd_basis(wq_list, target_rank: int):
     mats = [np.asarray(w, dtype=np.float32) for w in wq_list]
     if not mats:

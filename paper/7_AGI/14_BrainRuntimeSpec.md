@@ -772,7 +772,7 @@ Rust mapping은 backend kernel의 input/output shape·precision·serialization �
 
 | 간극 | 문서 위치 | 우선순위 |
 |---|---|---|
-| STDP 효능 + held-out guard | F.14, `21_STDP_Efficacy_Audit.md` | 높음 |
+| STDP 효능 + held-out guard | F.14, `검증_원장/AGI_STDP_Efficacy_Audit.md` | 높음 |
 | 4종 신경조절의 runtime 폐루프 통합 | F.19 | 중간 |
 | Cold checkpoint + Live journal | 7절 | 낮음 |
 | 작업 기억 / 소뇌의 독립 task 효능 | F.20 | 중간 |

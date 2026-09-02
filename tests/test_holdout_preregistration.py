@@ -20,6 +20,14 @@ QUANTUM_V1_PATH = MANIFEST_DIR / "quantum_future_holdout_v1.json"
 COSMOLOGY_PATH = MANIFEST_DIR / "cosmology_future_holdout_v2.json"
 QUANTUM_PATH = MANIFEST_DIR / "quantum_future_holdout_v2.json"
 
+# The frozen cosmology manifest names input artifacts under examples/physics/ that left this
+# repository with the physics track on 2026-08-23. The manifest cannot be edited without
+# breaking its self-digest, so its structural validation is a known, expected failure here.
+_COSMOLOGY_INPUTS_MOVED = pytest.mark.xfail(
+    strict=True,
+    reason="cosmology input artifacts moved to the physics repository on 2026-08-23",
+)
+
 
 def _load(path: Path) -> dict:
     return load_manifest(path)
@@ -65,7 +73,9 @@ def _assign_synthetic_future_holdout(manifest: dict) -> None:
     )
 
 
-@pytest.mark.parametrize("path", [COSMOLOGY_PATH, QUANTUM_PATH])
+@pytest.mark.parametrize(
+    "path", [pytest.param(COSMOLOGY_PATH, marks=_COSMOLOGY_INPUTS_MOVED), QUANTUM_PATH]
+)
 def test_unassigned_manifest_is_structurally_valid_but_not_evaluation_ready(path):
     report = validate_manifest(_load(path))
 
@@ -342,6 +352,7 @@ def test_validator_rejects_artifact_paths_outside_repository():
     assert any("must stay within the repository" in error for error in report.errors)
 
 
+@_COSMOLOGY_INPUTS_MOVED
 def test_cli_distinguishes_freeze_validation_from_evaluation_readiness(capsys):
     assert main([]) == 0
     valid_output = capsys.readouterr().out

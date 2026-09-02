@@ -570,3 +570,33 @@ pub fn relax_forward(
         steps: steps_done,
     }
 }
+
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn pack_sparse_csr_keeps_only_entries_above_tolerance() {
+        let w = vec![0.0, 0.5, 0.0, 1e-9, 0.0, -2.0, 3.0, 0.0, 0.0];
+        let (values, col_idx, row_ptr) = pack_sparse_csr(&w, 3, 1e-6);
+        assert_eq!(row_ptr, vec![0, 1, 2, 3]);
+        assert_eq!(col_idx, vec![1, 2, 0]);
+        assert_eq!(values, vec![0.5, -2.0, 3.0]);
+    }
+
+    #[test]
+    fn pack_sparse_csr_dense_matrix_roundtrip() {
+        let dim = 4;
+        let w: Vec<f32> = (0..dim * dim).map(|i| (i as f32) * 0.25 + 0.5).collect();
+        let (values, col_idx, row_ptr) = pack_sparse_csr(&w, dim, 0.0);
+        assert_eq!(values.len(), dim * dim);
+        let mut dense = vec![0.0f32; dim * dim];
+        for r in 0..dim {
+            for k in row_ptr[r] as usize..row_ptr[r + 1] as usize {
+                dense[r * dim + col_idx[k] as usize] = values[k];
+            }
+        }
+        assert_eq!(dense, w);
+    }
+}

@@ -26,13 +26,10 @@ for |x| ≲ 40 and is cheap.
 
 from __future__ import annotations
 
-from typing import Optional
-
 import math
 
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 
 
 def _eta_truncated(x: torch.Tensor, N: int = 24) -> tuple[torch.Tensor, torch.Tensor]:

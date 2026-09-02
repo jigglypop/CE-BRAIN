@@ -1,4 +1,4 @@
-<!-- 도메인: ce-agi-runtime (멀티레포 이행 시 이관 대상, MULTIREPO_PLAN.md 참조) -->
+<!-- 도메인: ce-agi-runtime (멀티레포 이행 시 이관 대상; 이행 기록은 2026-08-23 분리 커밋의 git 이력 참조) -->
 
 # CloudCell-모나드 경험적 감사
 

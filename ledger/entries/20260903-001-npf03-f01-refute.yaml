@@ -1,0 +1,146 @@
+id: E-20260903-001
+question: Q-NPF-03
+attempt: 1
+timestamp: '2026-09-03T01:20:00+09:00'
+claim: '카드 F-01(예측식): dlogPhi/dlogmu = (2-p)(1-rho) = R, Phi = mu^2/s2 + p^2/2 이고 학습 대비 logPhi_post - logPhi_pre
+  = 2L + Lambda(R-2)L 에서 Lambda = 1.00±0.24, Gamma = 2-R = 1.46±0.50, Lambda 의 90% CI 하한 = 0.80±0.35 을 Ottenheimer
+  2023 A1 same-cell early(첫 60 trial) -> late(마지막 60 trial), 8마리 pooled 에 대해 예측한다.'
+level: L2
+verdict: refute
+pivot_step: null
+ladder_step: null
+ladder_cited:
+- step: 1
+  ref: Abbott LF, Dayan P (1999) Neural Comput 11(1):91-101 (2항 Fisher, 식 번호 UNVERIFIED)
+card: derivations/Q-NPF-03/F-01.formula.md
+kill_triggered: null
+derivation: derivations/Q-NPF-03/F-01.formula.md
+verification:
+  symbolic: pass
+  numeric: pass
+  lean: skipped
+  artifacts:
+  - verify/Q-NPF-03/F-01/
+adversary:
+  mode: card_audit
+  counterexamples:
+  - input: '위약 세계: late = early (LEARN_DW=0, LEARN_GAIN=1.00, LEARN_VFAC=1.0). 같은 회로에서 시행만 다시 뽑음. 카드 지상진실: |L|>=L_MIN을
+      넘는 bin 0개 = 카드 식 0/0, 아무 예측 없음. n_rep=60, nboot=2000, 씨앗 20260902'
+    expected: 게이트가 막거나(카드 3절의 동어반복 방어 논리대로 X=(R-2)L->0), 최소한 K2 지지가 나오지 않아야 한다
+    observed: 게이트 통과 0.933, K2 지지(90% CI 하한>0) 0.783, 지지(귀무 배제 & CI98이 1 포함) 0.683, Lam_hat 중앙값 1.177 [0.461, 1.753],
+      K1 발동 0.133, Gamma_hat 중앙값 1.44 (1.46+-0.50 안 0.795, K3 게이트 통과 0.854)
+    note: 'P0. 학습이 전혀 없는 세계가 카드의 사전등록 숫자 셋을 모두 재현한다. 기전: bin 선택이 pooled |L|>=L_MIN이라 잡음으로 뽑힌 bin에서 두 반쪽의 L이 같은 방향으로
+      상관되고, Poisson 계열에서는 표본 요동 자체가 같은 분산-평균 멱법칙 위에 놓여 D_hat~p_hat L_hat, 곧 Lam_hat->1. 대조: 선택을 반쪽 A로만 하면 위약 게이트
+      0.050 / 지지 0.017로 붕괴하고 참 세계는 게이트 1.000 / 지지 0.917 유지. a8_placebo.json, a9_placebo_gamma.json, a7_limits.json'
+  - input: 'recovers 넷째 극한 ''(21.47) 셋째 줄 지연 채널''을 실제로 분리 실행: (dW, gain, v) = (0, 1.0, 1.25)만, 그리고 (0.18, 1.0, 1.0)만'
+    expected: 인용된 증거 lam_true=0.988이 지연 채널에서도 성립함을 보여야 한다
+    observed: 전도속도 단독 = 선택 bin 0개(0/0). 효능 dW 단독 = 선택 bin 0개(0/0). 내재 gain 단독 = bin 512, p=1.3659, rho=0.139, R=0.5439,
+      Gamma=1.4561, lam_true=0.9861 — 세 채널 동시(카드)와 소수 4자리까지 동일
+    note: P0. 카드가 recovers의 check로 인용한 lam_true=0.988은 세 채널을 동시에 켠 세계의 값이고, 그중 지연·효능 채널의 기여는 정확히 0이다. '식 (21.47)의
+      세 줄에 정확히 대응한다'는 효과 면에서 거짓이며, 표적이 이름 붙인 두 기전(가중치·전도속도)에 통계량이 눈이 멀었다. a2_worlds.json A2c
+  - input: chart 영점 이동 o -> o + c (분산 불변), c = -0.5, +0.5, +1.0 x chart 평균준위. 참 세계 무잡음 지상진실
+    expected: 카드가 내세운 관측 재척도·bin 재척도 불변이 예측 숫자를 지켜야 한다
+    observed: 'c=-0.5: p=0.704, Gamma=0.948 -> K3 게이트(>=1.0) 미통과. c=+0.5: p=2.016, Gamma=2.015 -> 등록대 1.46+-0.50
+      상한 1.96 초과. c=+1.0: Gamma=2.577, 사용 bin 512->256. Lam_true는 0.90~0.99로 상대적으로 견딘다'
+    note: P0(예측 2·K3 한정). Phi = mu^2/s2는 o->lam o에만 불변이고 영점 이동에는 전혀 불변이 아니다. 카드는 관측량의 물리적 영점을 고정하지 않는데 명명 자료(칼슘)의
+      영점은 F0 창 선택이라는 전처리 자유도다. 브리핑 제약 5의 chart 비불변 문턱 금지에 저촉. a2_worlds.json A2a
+  - input: '명명 자료 실행 가능성: 같은 참 세계에서 관측을 dF/F 관례대로 시행별·세포별 기저창(0-0.08 s) 차감으로 만든 뒤 동결 파이프라인 투입 (nrep=30, 8마리 x 2
+      cue)'
+    expected: Ottenheimer 2023에서 Phi 추정에 필요한 양이 실제로 얻어져야 한다
+    observed: 480/480 쌍 전량 폐기(dropped_mu_or_s2_nonpositive=480). 결과 0건. 계수(counts) 관측에서는 480/480 사용, Gamma_hat 1.433,
+      Lam_hat 0.992
+    note: P0. 카드는 관측량 w가 무엇인지(스파이크 계수/디컨볼브/dF/F) 어디에도 적지 않고 보정은 Poisson 계수만 쓴다. pair_terms는 선택 bin이 아니라 40 bin 전체에서
+      mu>0, s2>0을 요구해 기저 bin 하나가 음수면 마리-cue 쌍 전체를 버린다. 상태무관 촬영잡음(sd 0.02~0.20)은 견딘다 — 문제는 잡음이 아니라 영점이다. a6_data_feasibility.json
+  - input: (21.42)의 Sigma를 문면대로 상태 고정 조건부 출력공분산(Poisson 방출항만)으로 읽고 참 세계 지상진실 재계산
+    expected: 카드가 21장 5절 계량의 pullback이라면 estimand를 바꿔도 예측 숫자가 유지되거나 최소한 어느 estimand인지 선언돼 있어야 한다
+    observed: p = 1.000 (정확히 Poisson 바닥), rho = 0.060, R = 0.940, Gamma = 1.060, lam_true = 0.9945. 카드 동결(시행주변 분산)은
+      p=1.366, rho=0.139, Gamma=1.456
+    note: P0 표적 치환. 카드의 s2는 시행공유 gain·구동 jitter를 포함한 시행주변 분산이고, 21장 5.2절은 latent h가 있으면 (21.41a) 주변 score Fisher를
+      써야 하며 조건부 Fisher에 주변 모멘트를 대입하지 말라고 명시한다. 카드는 고르지 않았고 두 읽기 사이에서 사전등록 Gamma가 1.06 대 1.46으로 갈린다. 또 m^2로 나누는 순간
+      궤적 속도 d_u mu — 표적이 말하는 접힘 그 자체 — 가 삭제된다. a2_worlds.json A2b
+  - input: 'Gamma = 1.46의 출처 추적: 보정 회로의 인용 없는 손잡이를 훑는다 (무잡음 지상진실)'
+    expected: free_parameters가 비어 있고 예측 비율 3 > 0이라면 Gamma가 손잡이에 둔감하거나 손잡이가 문헌으로 고정돼야 한다
+    observed: NU_G(시행공유 gain 분산) 0.00->0.40에서 Gamma 1.102 -> 1.914 (단조). SIG_D 0.00->0.30에서 1.433 -> 1.713. R_BASE
+      0.25->4.0에서 1.440 -> 1.529. 세포수 x0.25->x4에서 1.352 -> 1.744. 마리별(17~63 세포) Gamma 1.331 ~ 1.545. 그리고 Gamma_hat은
+      카드-참 세계 1.424와 카드-거짓 세계 W_hist 1.427이 구별되지 않는다(둘 다 early만 쓰므로)
+    note: P1(dof/content). 등록대 [0.96,1.96]이 NU_G in [0,0.4] 전 구간을 덮어 사실상 반증 불가한 안전한 추측이고, 값 1.46은 저자가 고른 NU_G=0.05·SIG_D=0.08·세포수의
+      되읽기다(문헌 앵커 없음). Gamma는 early phase만 쓰므로 카드의 참·거짓을 구조적으로 가르지 못한다. a4_gamma_provenance.json, a4b_gamma.json,
+      a3_gate.json
+  - input: 카드가 선언한 게이트 'D의 마리부트스트랩 95% 하한 > 0 그리고 pooled Gam = 2-R >= 1.0'을 실제로 구현해 재계산
+    expected: 동결 코드의 게이트가 카드 선언과 같아야 하고 K3이 인용한 통과율이 그 게이트의 값이어야 한다
+    observed: 동결 코드 evaluate()의 gate는 den 조건만이고 Gamma 추정기가 코드에 아예 없다. 선언 게이트를 구현하면 참 세계 통과 1.000·검정력 0.911(변화 없음),
+      동어반복 세계 통과 0.000(카드가 K3에 적은 0.117이 아님)
+    note: P1. 보수적 방향이라 결론은 안 뒤집히지만, 카드가 사전등록 숫자로 적은 '동어반복 세계 게이트 통과 0.117'은 선언 게이트가 아니라 코드 게이트의 값이다. Gamma의 pooled
+      정의도 가중치가 미정의다
+  survived_checks:
+  - '재현: check_symbolic.py / check_identity.py / calib_power.py 재실행해 result_symbolic.json, result_identity.json,
+    result_power.json 5개 행 모두 비트 단위 동일. 결과를 본 뒤 숫자를 바꾼 흔적 없음'
+  - 'dimension: u:T, mu:O, s2:O^2, m,s:T^-1, I:T^-2, Phi:1, p:1, rho:1, R:1, L:1, Lam:1, Gam:1 — 모두 정합'
+  - 'recovers 1~3: p,rho->0 => R=2 (값 2로 비공허), p=2 => R=0, 임의 f에서 R=(2-p)(1-rho)+2rho q와 절단편의 max 0.0402 <= 0.15.
+    verify로 실제 실행되고 서로 다른 값을 낸다'
+  - '동어반복 2차 검사: Lam=1은 정의상 항등식이 아니다. 대수적으로 Lam=1 <=> Delta log s2 = p Delta log mu, 곧 p_cross=p이고 Lam은 p_cross의
+    매끄러운 뫼비우스 함수(p_cross=0->0.23, 1.0->0.79, 2.0->1.33, 4.1->2.39). Lam!=1 세계는 무한히 많다'
+  - '추정기 편향: 반쪽교차 IV는 Lam_hat을 1로 끌지 않는다. Lam_true 0.033/0.439/0.990/1.435/1.809/2.414에 대해 Lam_hat 중앙값 0.121/0.540/1.052/1.448/1.751/2.417,
+    편의 <= 0.10'
+  - '문턱 섭동: L_MIN 0.05/0.20, CV_MAX 1.0/4.0, SD_LMU_MIN 0.05/0.20에서 lam_true 0.988~0.991, Lam_hat 중앙값 0.959~1.007로
+    안정'
+  - '상태무관 촬영잡음 견딤: sd 0.02~0.20에서 Lam_hat 1.006~1.049, Gamma_hat 1.442~1.333 — 사전등록대 안'
+  - 'chart 곱셈 재척도 불변: o->lam o 아래 Phi, rho, p, L, Y 불변 (lam=7.3, 오차 0)'
+  - 'W_hist는 오기각이 아니다: late에만 공유변동 3배는 카드 5절이 스스로 그은 내용 경계를 위반하는 세계이므로 K1 발동 0.994는 정당한 kill. 그 세계의 참 Lam은 2.414이고
+    추정치 2.417로 정확'
+  - K5 계산 kill 4항 모두 재실행에서 성립
+sourcer:
+  mode: novelty
+  prior_art:
+  - ref: Abbott LF, Dayan P (1999) The effect of correlated variability on the accuracy of a population code. Neural
+      Computation 11(1):91-101
+    relation: generalizes
+    note: 문헌이 카드의 극한. (i) 자극의존 공분산 아래 2항 Fisher I = f'^T Q^-1 f' + (1/2)tr(Q'Q^-1 Q'Q^-1)는 카드 1단 I의 다변량 원형 -> 1단은
+      identical, ladder_cited로 닫고 2단 진행(질문 park 아님). (ii) 신호와 잡음이 함께 커질 때 판별도 불변은 카드 recovers-2의 p=2 극한(dlogPhi/dlogmu=0).
+      카드는 그 한 점을 p 전 구간으로 보간하고 (1-rho) 인자를 추가하므로 카드 전체는 재발견 아님. 식 번호 UNVERIFIED(1차 출처 미열람)
+  - ref: Goris RLT, Movshon JA, Simoncelli EP (2014) Partitioning neuronal variability. Nature Neuroscience 17(6):858-865
+    relation: generalizes
+    note: 문헌이 카드의 특수사례. modulated Poisson의 sigma^2 = mu + sigma_G^2 mu^2는 카드가 p로 매개하는 상태함수 f(mu)의 한 인스턴스(p in (1,2))일
+      뿐이고, 계량 Phi나 dlogPhi/dlogmu에 대한 진술은 없다. 변동-평균 멱법칙 자체는 확립(cf. Koyama arXiv:1409.7137)
+  - ref: Ma WJ, Beck JM, Latham PE, Pouget A (2006) Bayesian inference with probabilistic population codes. Nature
+      Neuroscience 9(11):1432-1438 (및 Poisson Fisher I = sum (f')^2/f 교과서 결과)
+    relation: generalizes
+    note: 문헌이 카드의 극한. Poisson-like 변동에서 Fisher가 gain에 선형이라는 표준 결과는 카드 지수 2-p의 p=1 점이다. 양 끝점 p=1, p=2가 각각 이미 알려져
+      있으므로 카드의 신규성은 (a) p 전 구간 보간, (b) (1-rho) 인자, (c) 학습 전후 동차지수 대비 Lambda라는 estimand에 전적으로 걸린다. judge는 이 점을 채택
+      근거에 명시할 것. 정리 번호 UNVERIFIED
+  - ref: Churchland MM et al. (2010) Stimulus onset quenches neural variability. Nature Neuroscience 13(3):369-378
+    relation: unrelated
+    note: 선행연구가 아니라 반증원. mean-matched Fano 감소는 카드의 전제(sigma^2가 phase를 가로질러 같은 f(mu))를 위협하므로 novelty가 아니라 kill K1/W_hist
+      근거로 분류해야 한다. 카드 5절이 이미 그렇게 쓰고 있어 일관적
+  - ref: Kanitscheider I, Coen-Cagli R, Kohn A, Pouget A (2015) Measuring Fisher information accurately in correlated
+      neural populations. PLoS Comput Biol 11(6):e1004218 [카드의 'PNAS 2015' 표기는 Kanitscheider, Coen-Cagli, Pouget
+      (2015) PNAS 112(46):E6908과의 혼합]
+    relation: unrelated
+    note: estimand 불일치. 상관 집단에서 Fisher를 편의 없이 추정하는 방법론이며 단일 chart 축약계량의 gain 동차지수와는 다른 양. 서지 문자열만 교정 필요(claim 변경
+      아님)
+  - ref: Moreno-Bote R et al. (2014) Information-limiting correlations. Nature Neuroscience 17(10):1410-1417
+    relation: unrelated
+    note: estimand 불일치. differential correlations로 인한 Fisher의 N-포화를 다루며 카드는 1차원 축약이라 N-스케일링을 주장하지 않는다
+  - ref: Gu Y et al. (2011) Neuron 71(4):750-761; Ni AM, Ruff DA, Alberts JJ, Symmonds J, Cohen MR (2018) Science
+      359(6374):463-465
+    relation: unrelated
+    note: 같은 영역, 다른 양. 학습 전후 r_SC·집단 공유변동·행동 상관의 변화를 재며 카드의 Lambda를 잰 문헌은 확인되지 않음. 관측 근접은 증거가 아니므로 이 결과들을 카드 지지로
+      쓰지 말 것
+  baselines: []
+  searches: 3
+assumptions:
+- 관측량 w가 물리적 영점을 갖는 비율척도라는 가정. Phi=mu^2/s2는 o->o+c에 불변이 아닌데 카드는 관측량이 무엇인지도, 영점을 어떻게 고정하는지도 적지 않는다. 명명 자료가 dF/F면
+  영점은 F0 창 선택이라는 전처리 자유도다
+- 'estimand 미선언: (21.41) 조건부 Fisher인가 (21.41a) 주변 Fisher인가. 카드는 시행주변 (mu, s2)를 가우시안 조건부 Fisher 형태에 대입한다. 21장 5.2절이
+  명시적으로 금하는 치환이며 Gamma가 1.06 대 1.46으로 갈린다'
+- bin 선택이 pooled |L|로 이루어지면 반쪽교차 IV의 외생성이 깨진다는 사실. frozen_thresholds의 iv 규칙과 L_MIN 규칙의 상호작용이 미선언이고 그것이 위약 P0의 원인이다
+- '''frozen_thresholds가 동결 코드의 모든 문턱이다''(7절)는 거짓. 코드에만 있는 결정 문턱: keep.sum()<4, fit_p의 x.size<4, ok.sum()<3, boot의
+  len(mice)<3과 g.sum()<nboot//2, fit_chart/exact_chart의 S.sum()<3 시 전 세포 대체, 40 bin 전체에 대한 mu<=0 / s2<=0 폐기 규칙,
+  den_lo의 2.5 백분위수, HALF_WIN=3 국소선형 창, dsteps clip [0,8]'
+open_questions_spawned: []
+next_action: '3연속 카드 refute. 세 번 모두 원인이 카드 기교가 아니라 표적·자료의 구조다: (i) 집단 활동만으로 만든 통계량은 위약(학습 없음)과 분리되지 않거나 동어반복이 되고,
+  (ii) 표적이 이름 붙인 두 기전(가중치·전도속도)에 무감각하며(이번 카드에서 지연·효능 채널 기여 정확히 0), (iii) 보유 자료 N=60에서 계량 endpoint는 검정력이 없다. 4번째
+  카드를 같은 계보에서 세우지 않는다. 사용자 결정 필요: `verify/Q-NPF-03/data_sufficiency.md`의 승인 A(Allen VB 2P 탐색 표본 약 500MB, 100MB 규칙
+  초과), B(Hattori 2023 세포 등록 키 판본 문의), C(endpoint를 평균반응 운동학으로 격하) 중 택일 또는 표적 재정의. 살아남은 좁은 명제 둘은 별도 질문으로만 연다: 보조정리
+  dlogPhi/dlogmu=(2-p)(1-rho)+2rho q(정의로부터 한 줄, L1), 경험 명제 ''학습 전후 변동-평균 멱지수 불변''(Lam=1 <=> p_cross=p, 반쪽교차 IV가
+  편의 0.10 이내로 실측). 수리 하나는 확정: bin 선택을 pooled L이 아니라 독립 분할의 L로 하면 위약 지지 0.783→0.017, 참 세계 지지 0.950→0.917.'

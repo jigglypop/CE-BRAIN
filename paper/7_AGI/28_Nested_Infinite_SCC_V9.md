@@ -510,18 +510,18 @@ adapter와 evidence seed 실행을 승인하지 않았다. 2026-08-12 후속 lig
 
 연구 원장:
 
-- [계약](../../_workspace/ce/_archive/agi-v9-nested-infinite-scc-20260811/00-contract.md)
-- [출처·V1~V8 계보 감사](../../_workspace/ce/_archive/agi-v9-nested-infinite-scc-20260811/10-sources.md)
-- [수학 증명](../../_workspace/ce/_archive/agi-v9-nested-infinite-scc-20260811/11-math.md)
-- [대안 route·개발 설계](../../_workspace/ce/_archive/agi-v9-nested-infinite-scc-20260811/12-routes.md)
-- [형식 지위 감사](../../_workspace/ce/_archive/agi-v9-nested-infinite-scc-20260811/20-audit.md)
-- [isolated 구현 잠금](../../_workspace/ce/_archive/agi-v9-nested-infinite-scc-20260811/30-implementation.md)
-- [독립 unit 검증](../../_workspace/ce/_archive/agi-v9-nested-infinite-scc-20260811/31-validation.md)
-- [runtime integration 계약](../../_workspace/ce/_archive/agi-v9-runtime-integration-20260812/00-contract.md)
-- [runtime integration 수학 감사](../../_workspace/ce/_archive/agi-v9-runtime-integration-20260812/11-math.md)
-- [runtime integration 지위 감사](../../_workspace/ce/_archive/agi-v9-runtime-integration-20260812/20-audit.md)
-- [runtime integration 구현 기록](../../_workspace/ce/_archive/agi-v9-runtime-integration-20260812/30-implementation.md)
-- [runtime integration 검증 기록](../../_workspace/ce/_archive/agi-v9-runtime-integration-20260812/31-validation.md)
+- 계약
+- 출처·V1~V8 계보 감사
+- 수학 증명
+- 대안 route·개발 설계
+- 형식 지위 감사
+- isolated 구현 잠금
+- 독립 unit 검증
+- runtime integration 계약
+- runtime integration 수학 감사
+- runtime integration 지위 감사
+- runtime integration 구현 기록
+- runtime integration 검증 기록
 
 구현된 opt-in unit surface:
 
@@ -717,8 +717,8 @@ confirmation을 열지 못한다. 후속 재설계는 다음 여섯 조건을 �
 
 출처:
 
-- [post-development audit](../../_workspace/ce/_archive/agi-v9-loop-engineering-20260812/artifacts/post-development-audit.md)
-- [최종 폐쇄 보고](../../_workspace/ce/_archive/agi-v9-loop-engineering-20260812/40-final-report.md)
+- post-development audit
+- 최종 폐쇄 보고
 
 ## 14. V17 사후 경계 (2026-08-13): strict metric 복제의 no-rescue와 homogeneous 탈출
 
@@ -766,7 +766,7 @@ framework 동일성의 증거가 아니다.
 
 V17 근거:
 
-- [등록 계약](../../_workspace/ce/_archive/agi-v17-metric-delayed-credit-20260813/00-contract.md)
-- [독립 수학 검증](../../_workspace/ce/_archive/agi-v17-metric-delayed-credit-20260813/11-math.md)
+- 등록 계약
+- 독립 수학 검증
 - **[미완성] 봉인 확인 결과:** 선행 run이 인용한 `artifacts/confirmation-results.json`은 현재 보관본에 없어 재현할 수 없다.
 - [homogeneous signed-cue 구현](../../reality_stone/python/reality_stone/clarus/homogeneous_signed_cue.py)
