@@ -34,7 +34,9 @@ DELEGATE_TEMPLATE = (
     "메인은 오케스트레이터로만 움직여라. 생물 자료·문헌·카드 본문을 메인 문맥으로 끌어오지 말고, "
     "0단계 domain-classifier로 `verify/_routing/<session_id>.json` 영수증을 남긴 뒤 "
     "생물 전담(prover-bio·adversary-bio·judge-bio·sourcer-bio·paper-writer-bio·bio-reader, 전부 opus)에 "
-    "위임한다. 서브에이전트에는 파일 경로만 넘기고 돌려받는 것은 마지막 fenced json 하나다. "
+    "위임한다. 서브에이전트에는 파일 경로만 넘기고, 돌려받는 것은 artifact/verdict/numbers/next 네 키뿐이다. "
+    "전체 표·반례 목록·문헌 인용·자료 스키마를 메인 문맥에 붙여넣지 마라. 사용자 요약도 숫자와 판정 위주로 "
+    "짧게 하고 본문 서술을 옮기지 마라. 본문이 쌓이면 제공자 안전장치가 턴을 끊는다. "
     "생물 원문을 직접 읽어야 하면 bio-reader에 시켜라."
 )
 
