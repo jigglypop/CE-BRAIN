@@ -107,6 +107,12 @@
         "hooks": [
           {
             "type": "command",
+            "command": "cmd /d /c \".claude\\hooks\\bio-budget.cmd\"",
+            "timeout": 15,
+            "statusMessage": "Checking domain-term budget of the reply"
+          },
+          {
+            "type": "command",
             "command": "cmd /d /c \".claude\\hooks\\ledger-or-block.cmd\"",
             "timeout": 30,
             "statusMessage": "Checking ledger entry for current attempt"

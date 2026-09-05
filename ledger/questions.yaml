@@ -53,3 +53,13 @@ questions:
   consecutive_low: 0
   pivots_tried: []
   notes: ''
+- id: Q-NPF-05
+  title: '구조 자료의 개체 간 분산 바닥: 학습 유발 변화량이 그 바닥보다 크다고 볼 수 있는가 (학습 자료 불필요, 탐색 표본 85MB 이하)'
+  kind: conjecture
+  status: open
+  priority: 2
+  origin: verify/Q-NPF-04/bio-reader_connectome_eligibility.json
+  attempts: 0
+  consecutive_low: 0
+  pivots_tried: []
+  notes: ''

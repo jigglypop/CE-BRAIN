@@ -1,73 +1,45 @@
-# Clarus-Equation Codex rules
+﻿# CE 작업 지침 — Codex Astra
 
-## Default: direct implementation
+## 기본 작업
 
-- For ordinary code, test, documentation, and harness work: inspect the target, make the smallest scoped change, and run one focused validation.
-- 문서 정본 입구는 `paper/README.md`, 하네스 구조와 부채는 `.codex/README.md`에서 확인한다.
-- Do not create a CE research run, preregistration, audit bundle, or full report unless the user explicitly asks for research, a new scientific claim, formal closure, preregistration, or release evidence.
-- Do not run bare `pytest`, the full suite, all benchmarks, or packaging by default. Use the narrowest changed test or a source-only check first.
-- Keep one implementation owner. Use subagents only for independent read-only mapping or research, and audit a stable snapshot after the implementation owner stops editing.
-- 논문형 문서(강의·유도·논문 원고·독자 가이드)를 작성·수정할 때는 `.codex/harnesses/document_policy.md`의 문서 유형 규칙, 링크 정책, 처음 읽는 독자 게이트를 적용한다. 태그 블록만 나열한 논문형 문서는 완성으로 보고하지 않는다.
-- 깨진 링크는 제거하고 `_workspace/` 링크는 만들지 않는다. 수기 누적 논문형 문서(200 KB 초과 또는 run별 절 누적)는 `00_논문목차.md` 폴더로 논문화한다. 검사기는 `.codex/hooks/repository_harness.py`이고 `tests/test_canonical_document_policy.py`가 위반 0을 단언한다.
-- 문서 소유권은 direct 모드에서 순서로 분리한다. 원장(`paper/검증_원장`)과 논문형 문서가 함께 바뀌면 원장을 먼저 안정화하고, 논문형 문서는 그 원장을 읽기 전용으로 사용하며 같은 변경에서 두 유형을 동시에 수정하지 않는다.
-- `artifacts/`와 `experiments/preregistration/` 영수증이 SHA-256으로 잠근 소스·테스트·게이트는 수정하지 않는다. 목록은 `.codex/README.md`의 부채 절에 있다.
+- 현재 사용자 요청을 기준으로 대상을 읽고, 필요한 만큼 수정하고, 관련 검사 한 번으로 확인한다. 설명은 간결한 한글로 쓴다.
+- “다음”이나 대화 재개는 마지막으로 합의한 작업의 다음 단계로 해석한다. 과거 요약이 현재 사용자 지시와 다르면 현재 지시를 따르고, 파일의 실제 상태를 확인해 완료한 작업은 반복하지 않는다.
+- 읽기·재검토·되돌릴 수 있는 수정·이미 허용된 작업은 직접 이어간다. 과거 하네스의 정지 문구를 새로운 작업 전체의 금지로 확대하지 않는다.
+- 구현은 지정된 파일 소유자 한 명이 맡는다. 하위 작업은 명시적으로 허용된 범위에서만 배정하고 같은 파일을 동시에 편집하지 않는다. Git·최종 판정·원장 반영은 주 에이전트가 맡는다.
+- Codex는 이 파일과 [.codex 안내](.codex/README.md)를 따른다. `.claude/`의 모델 배정·위임·출력 예산은 Claude용이며 Codex에 가져오지 않는다.
+- 여러 단계 작업은 **목표, 이번 단계가 필요한 이유, 목표에서 벗어났는지, 다음 진행 조건**을 짧게 알린다. 같은 점검을 중복 보고하지 않는다.
+- 결과는 바뀐 점·검증·남은 한계로 설명한다. 연구에서는 준비됨·검사 중·지지됨·실패/미확립을 구분한다.
 
-## Plan orchestrator: 목표 정렬 게이트
+## 데이터와 재검토
 
-여러 단계 작업이나 연구 사다리를 계획·갱신할 때 오케스트레이터는 다음 내용을 사용자에게 쉬운 말로 먼저 설명한다.
+- 다운로드 전에 [데이터 원장](ledger/data_registry.md)에서 출처·판본·파일·보유 위치를 찾는다. 같은 자료는 재사용하고, 진행 중인 다운로드는 중복 시작하지 않는다.
+- 없거나 손상됐거나 다른 판본이 필요하면 요청 범위 안에서 직접 찾아 받는다. 출처·용량·해시·위치와 재다운로드 이유를 원장에 남긴다.
+- 재검토와 재분석은 허용한다. 질문과 이유를 남기고 기존 자료를 재사용한다. 과거 판정과 새 판정은 구분하며, 봉인된 기록을 덮어쓰지 않는다.
+- 세부 절차는 [데이터 관리 규칙](.codex/harnesses/data_policy.md)을 따른다. 일부 질문에 부적격인 자료를 모든 연구에 금지하지 않는다.
 
-1. 최종 목표, 이번 단계의 하위 목표, 이번 단계가 최종 목표에 필요한 이유를 각각 한 문장으로 구분한다.
-2. 현재까지 완료·부분완료·실패·미실행인 항목과 그 근거 파일 또는 검증 영수증을 구분한다.
-3. 다음 행동 전에 `목표가 명확한가`, `현재 실험이 그 목표를 직접 판별하는가`, `같은 Stage 번호의 다른 계보를 잘못 세고 있지 않은가`, `선행 게이트를 건너뛰지 않는가`를 점검한다.
-4. 목표 이탈·계보 혼동·계약 불일치를 발견하면 결과 해석을 계속하지 말고 안전 정지한 뒤, 무엇이 어긋났고 어떤 최소 수정으로 복귀하는지 보고한다.
-5. 각 실행 결과 뒤에는 `원래 질문에 답했는가`, `무엇이 반증되었는가`, `무엇은 아직 살아 있는가`, `다음에 허용되는 행동은 무엇인가`를 기록한다.
-6. 양성 결과라도 사전 조건이나 필수 데이터(recovery, holdout, blind ground truth 등)가 빠졌다면 다음 Stage를 자동 허가하지 않는다.
+## 실행과 검증
 
-## Validation tiers
+- Windows Python은 `.codex/hooks/python.cmd doctor|python|pytest`로 실행한다. 대화형 설치를 기다리거나 Windows Application Control을 우회하지 않는다.
+- 기본 검증은 소스 검사 또는 관련 테스트 한 파일이다. 필요할 때만 인접 검사를 넓힌다. 전체 테스트·벤치마크·배포 검사·비가역 연구 단계는 명시적 요청이 있을 때 실행한다.
+- pytest의 캐시를 끄고 저장소 밖 고유 임시 폴더를 쓴다. 위 실행기가 이를 설정한다.
+- 네이티브 확장은 선택 사항이다. 필요하면 `.codex/hooks/build-native.cmd`를 쓰며, 없으면 순수 Python 경로를 사용한다.
 
-- FAST (default, target <=15 s): source parse/compile or one focused test file/node.
-- STANDARD (explicitly useful, target <=60 s): the changed subsystem and its adjacent integration test.
-- FULL/LOCK (explicit request only): full pytest, release gates, scientific stages, or irreversible V5 workflows.
+## 문서와 연구
 
-For pytest, disable the cache provider and use a unique temporary basetemp outside the repository. Never run an irreversible scientific stage as a routine validation.
+- 연구 목표·완료 조건은 [.codex/PRD.md](.codex/PRD.md), 모델 배정·문맥 절약은 [에이전트 운영 규칙](.codex/harnesses/agent_policy.md)을 따른다. 작은 작업에 전 역할을 호출하지 않는다.
 
-## Codex plan orchestration
+- 논문 입구는 [paper/README.md](paper/README.md)다. 논문형 문서는 [문서 정책](.codex/harnesses/document_policy.md)의 유형·링크·독자 규칙을 따른다. 깨진 링크와 새 `_workspace/` 링크를 만들지 않는다.
+- 검증 원장을 먼저 안정화한 뒤 논문에서 읽기 전용으로 참조한다. 문서를 바꾸면 `.codex/hooks/python.cmd python .codex/hooks/repository_harness.py`로 검사한다.
+- 연구 계약·사전등록·정식 감사·폐쇄·배포 증거는 사용자가 해당 작업을 요청했을 때만 만든다. 일상 수정에 연구 절차를 강요하지 않는다.
+- 연구는 [발견 루프](.codex/harnesses/real_brain_equation_discovery_loop.md)의 계약 → 경로 → 감사 → 구현과 [증거 사다리](.codex/harnesses/brain_evidence_ladder.md)를 따른다. 준비·다운로드·합성실험을 실제 뇌의 증거로 승격하지 않는다.
+- 목표·계보·계약이 어긋나면 해당 해석을 멈추고 수정한다. 필수 입력이나 선행 조건이 빠진 채 다음 연구 단계로 넘어가지 않는다.
+- 이론 전체 설명은 [읽기지도](paper/6_뇌/00_읽기지도.md)를 먼저 읽고, 생물 전기식 → CE 가설 → 측정모형 → AGI 대응 순서로 설명한다. 동기·조건부 정리·채택 공리·미완성 다리와 `BIO_EVIDENCE_L0`–`L4`를 함께 밝힌다. 수치 일치나 태그만으로 이론을 평가하지 않는다.
+- SHA-256으로 잠긴 소스·테스트·영수증은 수정하지 않는다. [잠금 목록과 부채](.codex/harnesses/known_debt.md)를 확인한다. 기존 `ce-runs`(`CE_RUNS_PATH`)는 읽기 전용이며 새 `CE_RUN`·`_workspace/`를 만들지 않는다.
+- 봉인된 일회성 연구는 실행기 경로·버전·의존성도 고정한다. V5 잠금·실행은 OneDrive나 재분석 지점 밖의 새 독립 복제본에서 한다.
 
-For every multi-step task, the plan update must make the following four items explicit in plain language:
+## Git과 인계
 
-1. **Goal:** what concrete outcome the user is asking for.
-2. **Why this step:** how the current step contributes to that goal.
-3. **Goal clarity and drift:** whether the goal is clear, whether the work is still aligned, and any evidence of drift risk.
-4. **Next gate:** the observable pass, fail, stop, or user-decision condition that controls the next branch.
-
-Do not label apparatus preparation, data acquisition, or coordinate registration as a hypothesis result. If a planned action no longer contributes to the stated goal, stop that branch, record the mismatch, and replan before continuing. When explaining progress to a nontechnical reader, separate `준비됨`, `검사 중`, `지지됨`, `실패/미확립` so that implementation progress is not mistaken for scientific confirmation.
-
-## Windows Python execution
-
-- Agent runs are non-interactive. Never wait for a `uv`, Python selector, security, or package-install prompt; use explicit arguments or stop with the exact prerequisite.
-- On this repository, use `.codex/hooks/python.cmd doctor|python|pytest` as the Windows Python entry point (Claude Code sessions may call the `.claude/hooks/python.cmd` mirror, which delegates to it). It prefers an already working non-venv system interpreter, sets the repository `PYTHONPATH`, disables bytecode/cache output, and gives pytest a unique owned basetemp.
-- Do not invoke the workspace `.venv` or a uv-managed Python after Windows Application Control rejects it. Do not weaken or bypass Windows Application Control. `uv` is reserved for an explicitly required dependency-resolution step after its cache and execution policy are separately repaired.
-- The direct-system-Python fallback is the default for focused source/tests only. A sealed scientific one-shot must also freeze and record the selected interpreter path, version, and dependency versions in its contract or manifest.
-- Native extensions are optional. Build them with `.codex/hooks/build-native.cmd` (cargo only, no venv or pip); without them every consumer uses the pure-Python fallbacks and `reality_stone._has_rust_ext` / `reality_stone.clarus.has_native_kernels()` report `False`.
-
-## Main-agent Git ownership
-
-- The root/main agent alone owns branch changes, staging, commits, fetch/pull, and pushes. Subagents may inspect `git status`, `git diff`, and object IDs read-only, but must never change Git state or publish.
-- Before a handoff, the main agent records repository root, branch, upstream, HEAD, remote tip, exact changed-path manifest, validation command, and remaining unrelated dirt. Never use `git add .`, `git add -A`, stash, reset, clean, checkout, or an automatic rebase to make a dirty tree look clean.
-- Publishing requires the user's explicit publish instruction or an already explicit publish workflow. Fetch first, require `main` tracking `origin/main`, require a fast-forward, stage only the approved path manifest, run `.codex/hooks/check-large-data.cmd --commit` and then `--push` to scan staged and outgoing blobs, run `.codex/hooks/repository_harness.py` when documents changed, and use an ordinary non-force push. A mismatch, remote advance, hook failure, or branch-protection rejection is a stop condition, not permission to force or rewrite history.
-- After a push, verify that `refs/heads/main` at the remote equals local `HEAD`, then report the commit SHA, exact published paths, validation evidence, and any local changes that remain.
-- Commit messages describe the change. Do not reuse a placeholder subject such as `new`.
-
-## Theory analysis and explanation (서사-우선 독해 규약)
-
-CE 뇌·AGI 이론 전체를 분석·요약·설명하라는 요청(예: "논문 전체 분석", "어떤 이론인지 설명")을 받으면 다음 규약을 따른다.
-
-1. `paper/README.md` 1절(형식 출처 표지)과 `paper/6_뇌/00_읽기지도.md`의 읽기 순서를 먼저 읽고, 루트 `README.md`의 네 층 — **생물 전기식(출발 모형) → CE 가설(history 상태·후보 계량·현재-세계 특권화) → 측정 모형(관측 quotient·식별 한계) → AGI Bridge(공학적 대응)** — 을 분석의 골격으로 삼는다. 결과 수치나 PASS/FAIL 목록만 떼어 이론을 특징짓지 않는다.
-2. 태그 체계가 물리 사상을 `[공리]`/`[미완성]`으로 격리하는 것은 약점의 자백이 아니라 **의도된 감사 규율**이다. 분석 보고는 항상 네 층을 함께 제시한다: 동기 서사(공리 묶음) / 조건부 정리 / 채택 공리 / 미완성 다리. 뇌 주장에는 `BIO_EVIDENCE_L0`–`L4` 등급을 함께 적는다.
-3. 관측 근접을 증거로 승격하지 않되, 메커니즘 서사를 생략한 채 경험식 목록만으로 이론을 "수치 우연의 모음"으로 특징짓지도 않는다. 두 방향 모두 오독이다.
-
-## CE research
-
-연구급 작업(새 계약, 사전등록, 감사 묶음, 정식 폐쇄, 배포 증거)은 사용자가 명시적으로 요청할 때만 시작하며 `.codex/harnesses/real_brain_equation_discovery_loop.md`의 계약 → 경로 → 감사 → 구현 순서와 `.codex/harnesses/brain_evidence_ladder.md`를 따른다. 새 `CE_RUN`이나 `_workspace/`는 만들지 않고, 기존 run 증거는 형제 저장소 `ce-runs`(`CE_RUNS_PATH`)에서 읽기 전용으로 참조한다. 일상 수정은 이 워크플로를 거치지 않는다.
-
-V5 source lock and one-shot execution must use a fresh independent clone outside OneDrive/reparse-backed paths.
+- Git 변경·커밋·배포는 주 에이전트만 수행한다. 기존 작업을 보존하며 `git add .`, `git add -A`, stash·reset·clean·checkout·자동 rebase로 작업 트리를 정리하지 않는다.
+- 인계에는 저장소·브랜치·upstream·HEAD·원격 tip, 변경 파일, 검증 명령, 남은 다른 작업을 기록한다.
+- 배포는 명시적 지시가 있을 때만 한다. 먼저 fetch하고 `main` → `origin/main`과 fast-forward를 확인한다. 승인된 경로만 stage하고 `check-large-data.cmd --commit` → `--push` 및 문서 검사를 통과한 뒤 일반 push한다.
+- 원격 변경·충돌·검사 실패·브랜치 보호 거부는 배포 중단 사유다. 강제 push나 이력 재작성으로 우회하지 않는다. 배포 후 원격 HEAD 일치를 확인하고 SHA와 경로를 보고한다. 커밋 제목은 변경 내용을 설명한다.
