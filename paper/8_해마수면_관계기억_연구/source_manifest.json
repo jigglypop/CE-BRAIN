@@ -1,0 +1,16 @@
+{
+  "publication_date": "2026-09-08",
+  "brain_base_commit": "10987227f572fe789ea3b68d5026e3b3faacc14f",
+  "cosmology_reference_commit": "a367a5792d4afe50a4130e246583c0870e8ec729",
+  "scope": "Historical attachments inspected, not all experiments rerun. This Git tree publishes synthesis, not the full original ZIP/NPZ payloads.",
+  "internal_manifest_files_checked": 201,
+  "internal_manifest_mismatches": 0,
+  "archives": [
+    {"name":"CE_BRAIN_DMH1_equations_and_experiments.zip","bytes":44947,"sha256":"4e3e854f06712daea52a853d06789738447ca2964759993de7018dae405e5b5f","entries":14},
+    {"name":"CE_BRAIN_PGC1_equations_validation_20260908.zip","bytes":4571774,"sha256":"60a1bd4c909c9b66c6766367ddd459241152e67494e8f27d90547aa6fc52b08d","entries":105},
+    {"name":"CE_BRAIN_deep_review_1098722.zip","bytes":39404,"sha256":"fab9e80183187d19e8c19ec20a873f718b00f490c7e2530c25688e4046f02c87","entries":19},
+    {"name":"CE_BRAIN_sleep_index_tag_capture_v1.zip","bytes":17830,"sha256":"766b06c11c73b9243c899c1c1755d2429b51575abc882b25104d478deeaafaae","entries":8},
+    {"name":"CE_BRAIN_sleep_validation_v2_20260908.zip","bytes":1551062,"sha256":"d990ef8244d962e0ecd79aa7646ee0df36e87a59f8785b4bd08fc90787053b59","entries":71},
+    {"name":"CE_cosmos_brain_mathematical_bridges_20260908.zip","bytes":15981,"sha256":"2774f7b7b8f8e4ec548fcb1cf0d14927b562f70cc1c8a16b8a239dd09405462c","entries":8}
+  ]
+}
