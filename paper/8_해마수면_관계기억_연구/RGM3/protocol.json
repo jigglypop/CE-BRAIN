@@ -1,0 +1,19 @@
+{
+  "name": "RGM-3 finite resource capture and geometry",
+  "date": "2026-09-09",
+  "registration": "local development specification written before this run's numerical outputs; not externally preregistered",
+  "seed": 20260909,
+  "exact_pair_cases": 128,
+  "network_cases": 8,
+  "network_steps": [16, 32, 64, 128],
+  "duration": 2.0,
+  "equilibrium_response_cases": 32,
+  "microscopic_capacities": [12, 12],
+  "microscopic_total": 12,
+  "microscopic_ratios": [0.5, 0.5],
+  "mixture_totals": [4, 28],
+  "candidate_scope": "Closed material pool, reversible occupancy of finite sites, catalytic instruction kept distinct from consumable structural resource, positive fixed affinities for equilibrium theorems; supplied smooth geometry for transient trials.",
+  "main_ref_before_work": "40b1cda85a3d7365dba5aa501b5680d91fc0da39",
+  "new_biological_samples": 0,
+  "not_claimed": ["whole-brain discovery", "identified CaMKII kinetics", "sleep superiority", "memory accuracy improvement", "cortical folding generation", "external biological validation", "true novelty of mass-action chemistry"]
+}
