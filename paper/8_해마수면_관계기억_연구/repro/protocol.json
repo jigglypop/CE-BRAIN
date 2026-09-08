@@ -1,0 +1,23 @@
+{
+  "experiment": "ARTC-1 finite-horizon asynchronous relational capture",
+  "written_before_first_execution": true,
+  "registration": "local development protocol; not externally timestamped",
+  "seeds": [27100,27101,27102,27103,27104,27105,27106,27107,27108,27109,27110,27111,27112,27113,27114,27115,27116,27117,27118,27119,27120,27121,27122,27123],
+  "dimension": 6,
+  "observations": 64,
+  "test_rows": 256,
+  "events": 4,
+  "slots": [0.0,0.4,1.0,1.8],
+  "horizon": 5.0,
+  "resource_rise": 2.0,
+  "resource_decay": 0.25,
+  "slow_decay": 0.01,
+  "write_budget": 3.0,
+  "write_penalty": 0.01,
+  "ridge": 0.001,
+  "observation_noise": 0.05,
+  "methods": ["joint_kernel","random_order_joint_amplitudes","sequential_greedy","static_schur","direct_slow"],
+  "primary": "terminal observed-memory objective plus quadratic write penalty; clean test MSE is separate",
+  "assumptions": "Known SPD hidden trace dynamics; linear unsaturated nondepleting resource capture; frozen directions within a planning block; four known observed events; no test-label access.",
+  "not_claimed": ["biological sleep superiority","hormone identification","neural implementation","unknown-model learning","CE-BRAIN integration","arbitrary-horizon optimality","cost-matched FLOPs","hippocampal retrieval benchmark"]
+}

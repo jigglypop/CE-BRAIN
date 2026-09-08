@@ -1,0 +1,150 @@
+{
+  "scope": "Known-model finite-dimensional mathematical and synthetic checks, not neural/hormone/CE-BRAIN validation.",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "protocol_sha256": "1d15990119f6a78e691c8d74a26b052325ac742eadeac765d58407669fa35c5d",
+  "source_sha256": "b0c16612c3a0203fc934efbc4a36e3cd1eb3abcf048de70fcf37d08ce565b0a8",
+  "diagnostics": {
+    "lag_cases": 32,
+    "lag_max_time_error": 1.8132598311737524e-08,
+    "lag_example": {
+      "optimal_replay_delay": 0.6879844596148207,
+      "overlap_at_zero": 0.5333333333333333,
+      "overlap_at_optimum": 0.6735859554760162,
+      "resource_peak_time": 1.1882523095313346,
+      "time_units": "dimensionless"
+    },
+    "kernel_ode_cases": 32,
+    "kernel_ode_max_abs_error": 2.0261570199409107e-13,
+    "optimizer_cases": 32,
+    "optimizer_objective_max_error": 6.178391132038996e-13,
+    "max_kkt_residual": 7.029179749123952e-14,
+    "quasistatic_kernel_limit_errors": {
+      "1.0": 2.4841288002912663,
+      "10.0": 0.16678461487909343,
+      "100.0": 3.1374959640589314e-13
+    },
+    "write_capture_commutator": [
+      -0.3,
+      -0.6,
+      0.3,
+      0.6
+    ]
+  },
+  "summary": {
+    "joint_kernel": {
+      "objective": 0.3030204665970348,
+      "test_mse": 0.6115629962499683,
+      "write_energy": 2.851213282580254
+    },
+    "random_order_joint_amplitudes": {
+      "objective": 0.3162429246694878,
+      "test_mse": 0.6383380271639619,
+      "write_energy": 2.8529017265335157
+    },
+    "sequential_greedy": {
+      "objective": 0.37308119755545527,
+      "test_mse": 0.7510064813324543,
+      "write_energy": 2.84095274948165
+    },
+    "static_schur": {
+      "objective": 0.31076652611260486,
+      "test_mse": 0.6283596316438788,
+      "write_energy": 2.8077239145415107
+    },
+    "direct_slow": {
+      "objective": 0.23714772196918488,
+      "test_mse": 0.4914243781467465,
+      "write_energy": 2.3169669067958916
+    }
+  },
+  "paired_joint_minus_control": {
+    "random_order_joint_amplitudes": {
+      "objective": {
+        "mean_difference": -0.01322245807245298,
+        "seed_bootstrap_95": [
+          -0.019232532746989703,
+          -0.007858389009863088
+        ],
+        "joint_better_seeds": 23,
+        "joint_worse_seeds": 0
+      },
+      "test_mse": {
+        "mean_difference": -0.02677503091399348,
+        "seed_bootstrap_95": [
+          -0.040330160209177575,
+          -0.01475983010267231
+        ],
+        "joint_better_seeds": 21,
+        "joint_worse_seeds": 2
+      }
+    },
+    "sequential_greedy": {
+      "objective": {
+        "mean_difference": -0.07006073095842048,
+        "seed_bootstrap_95": [
+          -0.08854490971015601,
+          -0.05165941164126905
+        ],
+        "joint_better_seeds": 23,
+        "joint_worse_seeds": 0
+      },
+      "test_mse": {
+        "mean_difference": -0.13944348508248586,
+        "seed_bootstrap_95": [
+          -0.17483244375075366,
+          -0.10433478097504942
+        ],
+        "joint_better_seeds": 23,
+        "joint_worse_seeds": 0
+      }
+    },
+    "static_schur": {
+      "objective": {
+        "mean_difference": -0.007746059515570042,
+        "seed_bootstrap_95": [
+          -0.010520831931833119,
+          -0.00527849552725582
+        ],
+        "joint_better_seeds": 24,
+        "joint_worse_seeds": 0
+      },
+      "test_mse": {
+        "mean_difference": -0.016796635393910447,
+        "seed_bootstrap_95": [
+          -0.0243373536659901,
+          -0.009796152431646703
+        ],
+        "joint_better_seeds": 21,
+        "joint_worse_seeds": 3
+      }
+    },
+    "direct_slow": {
+      "objective": {
+        "mean_difference": 0.06587274462784992,
+        "seed_bootstrap_95": [
+          0.040135301746523216,
+          0.09177769513158401
+        ],
+        "joint_better_seeds": 5,
+        "joint_worse_seeds": 19
+      },
+      "test_mse": {
+        "mean_difference": 0.12013861810322195,
+        "seed_bootstrap_95": [
+          0.06569109771480035,
+          0.1741655100948236
+        ],
+        "joint_better_seeds": 6,
+        "joint_worse_seeds": 18
+      }
+    }
+  },
+  "maximum_terminal_ode_error": 2.476907567938724e-13,
+  "full_results_sha256": "99e91f347c80695ec22c5dd487a36e6b4a15344aa0456d7041e54b315f44d976",
+  "full_results_bytes": 96359,
+  "full_result_location": "Regenerated as results.json by verify_artc.py; original full result retained in downloadable session publication archive."
+}

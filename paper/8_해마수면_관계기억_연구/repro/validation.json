@@ -1,0 +1,10 @@
+{
+  "independent_scalar_metric_count": 360,
+  "max_metric_error": 4.440892098500626e-16,
+  "equal_rate_optimum_time_error": 4.3194168575233505e-08,
+  "lag_monotonic_64": true,
+  "zero_remaining_time_kernel_norm": 0.0,
+  "larger_budget_objective_max_increase": 0.0,
+  "rerun_results_byte_identical": true,
+  "startup_corrections": "Two implementation fixes before successful result: missing slots argument and NumPy integer JSON serialization. No protocol parameters changed."
+}

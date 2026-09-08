@@ -1,0 +1,12 @@
+{
+  "scope": "Publication source and fixed evidence; check BEFORE rerunning, which writes local result files. Paths relative to parent research folder.",
+  "sha256": {
+    "07_비동기_유한시간_재생.md": "fb1260c1e9e0eca43c81ac814c31b3cf72cbeeb00aa857cefb4bd86b43146695",
+    "repro/verify_artc.py": "b0c16612c3a0203fc934efbc4a36e3cd1eb3abcf048de70fcf37d08ce565b0a8",
+    "repro/check_results.py": "2d0ec49a2a4c04d16ea5101e34e88f33ef3eae39f14b6f7f356aa0c311021178",
+    "repro/protocol.json": "1d15990119f6a78e691c8d74a26b052325ac742eadeac765d58407669fa35c5d",
+    "repro/published_results.json": "c21824bd24978dcb902d214ccecab2cd3a734307a11223c08c71cfd87cb887f3",
+    "repro/validation.json": "52a082508c3f7e5381d85da93680027dd72bcc74cdf2a895d50839a7fa74a376",
+    "repro/requirements.txt": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3"
+  }
+}
