@@ -1,0 +1,23 @@
+{
+  "source_repository":"sprustonlab/OSM_Paper_Figures",
+  "commit":"c1d1788b54c737efe24402e02762eee10da0d0d7",
+  "path":"fig_4/fig_4j_decorr_order.ipynb",
+  "git_blob":"544c77add30a9740e0cfd058df061dcadc294009",
+  "acquisition":"Numeric array literals transcribed from GitHub fetch_file source lines 60-108. Not inferred from plot pixels. Original complete notebook bytes not acquired locally.",
+  "unit":"normalized training progress when correlation crosses the authors' threshold (0.3)",
+  "rows":["Pre-R2","Pre-R1","Off diagonal"],
+  "Animal_data":[
+    [0.41641642,0.50550551,0.33433433,0.27727728,0.42742743,0.13613614,0.39139139,0.48048048,0.93493493,0.50550551,0.0980981],
+    [0.76976977,0.80980981,0.87487487,0.28528529,0.97797798,0.07707708,0.58258258,0.83383383,0.81681682,0.31431431,0.14714715],
+    [0,0,0.01901902,0,0.00500501,0,0,0.1001001,0,0,0]],
+  "CSCG_data":[
+    [0.36734694,0.24489796,0.46938776,0.2244898,0.6122449,0.18367347,0.24489796,0.30612245,0.20408163,0.26530612,0.28571429,0.46938776,0.36734694,0.16326531,0.93877551,0.14285714,0.63265306,0.24489796],
+    [0.95918367,1,0.95918367,0.95918367,0.89795918,0.95918367,0.95918367,0.95918367,0.95918367,0.97959184,0.97959184,0.95918367,0.97959184,1,0.81632653,1,0.93877551,0.95918367],
+    [0.08163265,0.04081633,0.06122449,0.06122449,0.12244898,0.04081633,0.06122449,0.08163265,0.04081633,0.04081633,0.06122449,0.06122449,0.06122449,0.04081633,0.08163265,0.04081633,0.08163265,0.06122449]],
+  "Hebbian_RNN_data":[
+    [0.75510204,0.08163265,0.87755102,0.51020408,0.81632653,0.08163265,0.75510204,0.67346939],
+    [0.02040816,0,0.02040816,0.04081633,0,0.02040816,0.02040816,0.06122449],
+    [0,0,0.02040816,0,0,0.02040816,0,0]],
+  "grain":"11 mice (paired track-region endpoints); other arrays are 18 CSCG simulations and 8 Hebbian-RNN simulations, not animals. Mouse names are not assigned in these array literals; column ordering is preserved.",
+  "limits":["Processed author summary, not fluorescence or spikes","Threshold and filtering chosen in original study","Zeros can include already-below-threshold observations, not instantaneous learning","Repeated endpoints within mouse are not independent samples","No anatomical brain-region comparison: all mouse records are CA1","No new animal experiments performed"]
+}

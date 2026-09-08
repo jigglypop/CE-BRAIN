@@ -1,0 +1,9 @@
+{
+  "date":"2026-09-09",
+  "analysis":"History-conditioned index and finite-future information geometry",
+  "biology":"Author-literal summaries for 11 mice from fig_4j_decorr_order.ipynb; 3 paired endpoints per mouse, not new experiments or raw fluorescence",
+  "primary_biological_contrast":"Pre-R1 minus Pre-R2 normalized threshold crossing time; paired t statistic reproduction, exact two-sided sign test, paired mouse bootstrap. No fitted timing model.",
+  "model_comparison":"Published CSCG and Hebbian-RNN arrays summarized separately, not reruns or animal samples",
+  "toy":{"seeds":[101,102,103,104,105,106,107,108],"iterations":120,"train_sequences":[[0,1,3,3,3,4,6],[0,2,3,3,3,5,6]],"gray_clones":6,"future_horizons":[0,1,2,3,4],"mask":"mask initial cue symbol only; no true latent ID or later reward given to filter"},
+  "limitations":["Schematic sequences are not the recorded animal trajectories","No chemical or neuronal path parameters measured","Metric is predictive information, not anatomical space-time curvature","No held-out raw biological pattern-completion experiment","Baum-Welch uses past-episode smoothing; not established as a local biochemical update","Author normalized time zero/one may reflect threshold endpoint handling"]
+}

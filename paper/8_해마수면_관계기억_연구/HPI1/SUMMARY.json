@@ -1,0 +1,144 @@
+{
+  "date": "2026-09-09",
+  "name": "HPI-1",
+  "verdict": "Biological-source descriptive reanalysis plus conditional reference algorithm; raw neuronal prediction/partial-cue confirmation not achieved.",
+  "biological_summary": {
+    "n_mice": 11,
+    "paired_endpoints_per_mouse": 3,
+    "mean_times": [
+      0.4097734109090909,
+      0.58995359,
+      0.011284011818181817
+    ],
+    "median_times": [
+      0.41641642,
+      0.76976977,
+      0.0
+    ],
+    "preR1_minus_preR2": [
+      0.35335335,
+      0.30430429999999997,
+      0.54054054,
+      0.00800801000000001,
+      0.5505505500000001,
+      -0.05905905999999998,
+      0.19119118999999996,
+      0.35335335,
+      -0.11811811000000005,
+      -0.1911912,
+      0.04904905000000001
+    ],
+    "mean_difference": 0.18018017909090908,
+    "bootstrap_mouse_mean_difference_95": [
+      0.03548548452272726,
+      0.32669260045454523
+    ],
+    "paired_t": {
+      "statistic": 2.302664023086074,
+      "p": 0.044054124182662836
+    },
+    "positive_mice": 8,
+    "reversed_mice": 3,
+    "sign_test_two_sided_p": 0.2265625,
+    "off_diagonal_zero_count": 8,
+    "scope": "Secondary descriptive reanalysis of rounded author summary, not new cohort confirmation.",
+    "author_simulations": {
+      "CSCG_data": {
+        "n_simulations": 18,
+        "mean_times": [
+          0.35374149777777775,
+          0.9569160983333335,
+          0.06235827722222223
+        ],
+        "preR2_earlier_than_preR1": 17,
+        "reverse_order": 1,
+        "mse_animal_times_vs_fixed_model_mean": 0.0939371686842116
+      },
+      "Hebbian_RNN_data": {
+        "n_simulations": 8,
+        "mean_times": [
+          0.56887755,
+          0.0229591825,
+          0.00510204
+        ],
+        "preR2_earlier_than_preR1": 0,
+        "reverse_order": 8,
+        "mse_animal_times_vs_fixed_model_mean": 0.1627456232141073
+      }
+    }
+  },
+  "original_random_initialization": {
+    "runs": 8,
+    "same_unique_schematic_episodes": 2,
+    "failed_context_disambiguation_runs": 4
+  },
+  "refinement": {
+    "runs": 8,
+    "same_unique_schematic_episodes": 2,
+    "correct_reward_probabilities_first": [
+      1.0,
+      1.0
+    ],
+    "masked_cue_probabilities": [
+      0.5,
+      0.5
+    ],
+    "future_geometry": [
+      {
+        "horizon": 0,
+        "squared_hellinger_chord": 0.0,
+        "mixture_fisher": 0.0
+      },
+      {
+        "horizon": 1,
+        "squared_hellinger_chord": 0.0,
+        "mixture_fisher": 0.0
+      },
+      {
+        "horizon": 2,
+        "squared_hellinger_chord": 0.0,
+        "mixture_fisher": 0.0
+      },
+      {
+        "horizon": 3,
+        "squared_hellinger_chord": 8.0,
+        "mixture_fisher": 4.0
+      },
+      {
+        "horizon": 4,
+        "squared_hellinger_chord": 8.0,
+        "mixture_fisher": 4.0
+      }
+    ],
+    "biological_learning_time_fit_performed": false
+  },
+  "validation": {
+    "independent_biological_summary_scalars": 15,
+    "maximum_summary_difference": 1.1102230246251565e-16,
+    "independent_t_tail_integral_p": 0.044054124182662864,
+    "exact_sign_test_p": 0.2265625,
+    "information_cases": 64,
+    "kl_curvature_comparisons": 192,
+    "maximum_kl_curvature_error": 7.364701646705302e-09,
+    "minimum_information_increment": 1.7261981266321422e-12,
+    "joint_path_scalar_comparisons": 192,
+    "maximum_joint_path_error": 5.551115123125783e-17,
+    "new_raw_neural_recordings": 0,
+    "newly_analyzed_author_mouse_summary_records": 11,
+    "author_literal_source_crosscheck": "Array literals checked against a second read of original notebook lines60-108; printed t-test p reproduces. Full notebook blob not locally verified.",
+    "rerun_results_identical": true,
+    "rerun_refinement_identical": true
+  },
+  "path_validation": {
+    "supplied_linear_systems": 32,
+    "horizon": 4,
+    "fixed_neuron_slot_count": 5,
+    "maximum_path_metric_derivative_error": 1.3811956023346283e-09,
+    "new_biological_samples": 0,
+    "scope": "Ordered propagation and full Gaussian covariance; no fitted synapses, chemistry, human curvature or nonlinear stability claim."
+  },
+  "unittest_count": 22,
+  "git_write_performed": false,
+  "new_experiments": 0,
+  "new_raw_neural_recordings": 0
+}
