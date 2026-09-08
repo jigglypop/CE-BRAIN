@@ -1,0 +1,41 @@
+{
+  "publication_scope": "LBT-1 candidate code, archived reports, user-provided cosmology text, restart runner; additive files only",
+  "base_repository": "jigglypop/CE-BRAIN",
+  "base_branch": "main",
+  "base_commit": "59eed6129b9f6e1e79eed1765f9896203855a4ff",
+  "original_zip_sha256": "e13b2f3e20dbfaec4111eecf84f2742b6706d2b9c8007fd54c1c69347b10bae6",
+  "archive_manifest_entries_verified": 20,
+  "original_test_count": 14,
+  "current_original_tests": "14 passed",
+  "current_full_verify": "completed",
+  "current_independent_scalar_check": {
+    "scalar_metric_checks": 192,
+    "maximum_absolute_difference": 2.8421709430404007e-13,
+    "full_final_rerun_json_identical": true,
+    "new_biological_samples": 0,
+    "notes": [
+      "Scalar recomputation and likelihood product checks are not biological evidence.",
+      "Numerical bridge was stabilized and integer branch validation added after first successful run; protocol and biological assumptions unchanged."
+    ]
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "attached_cosmology_text": {
+    "original_filename": "CE식.txt",
+    "bytes": 17723,
+    "sha256": "ad89afa6176722e7258e7bbc55f73f7a49a85a89db0a6f67fafba6a44e749b12",
+    "treatment": "verbatim source preservation; no independent physics validation; referenced ZIP and patch are not provided"
+  },
+  "not_performed": [
+    "New biological experiment",
+    "Cosmology formula verification",
+    "CE-BRAIN complete runtime suite",
+    "Windows harness entry point",
+    "Remote shell or ChatGPT app restart"
+  ],
+  "network_limitation": "Direct Git clone/ls-remote unavailable in the container (github.com DNS). Publication uses the authorized GitHub connector. Whole-repository document harness not executed; new-file link/size/source checks are scoped to this addition.",
+  "old_backlog": "CE8 main patch and later audit are not silently declared merged by this LBT-1 publication."
+}

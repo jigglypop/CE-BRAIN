@@ -1,0 +1,143 @@
+{
+  "scope": "MODEL_INTERNAL_DIAGNOSTIC_ONLY; new biological specimens=0; no test of human-brain algorithm completed",
+  "protocol_sha256": "3655aa0ff230b214a9108a17e33240b8fc2be58be2bdc755f15e70a309393107",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "diagnostics": {
+    "trace_ode_cases": 64,
+    "trace_ode_max_error": 2.148281552649678e-13,
+    "weight_flow_ode_cases": 64,
+    "weight_flow_max_error": 2.864375403532904e-13,
+    "poisson_moment_cases": 32,
+    "mean_vs_discrete_sum_error": 2.4424906541753444e-15,
+    "cov_vs_discrete_sum_error": 1.2776238400569184e-15,
+    "moment_ode_vs_closed_form_error": 4.055089597443384e-14,
+    "synapse_specificity": {
+      "weights_before": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "tags_before_burst": [
+        0.2595540886038161,
+        0.0,
+        0.0
+      ],
+      "weights_after": [
+        0.4210189493120905,
+        0.1,
+        0.1
+      ],
+      "untagged_same_branch_unchanged": true,
+      "other_branch_unchanged": true
+    },
+    "same_signal_weak_strong_result": [
+      0.6326777742919782,
+      0.8505971674754287
+    ],
+    "average_signal_counterexample": {
+      "w0": 0.2,
+      "equilibrium": 0.8,
+      "exponent_per_event": 2.0,
+      "poisson_mean": 1.0,
+      "exact_mean": 0.5472843513058788,
+      "continuous_mean_signal": 0.7187988300580324,
+      "absolute_overprediction": 0.17151447875215353,
+      "weak_event_limit": [
+        {
+          "dose": 1.0,
+          "event_count_mean": 1.0,
+          "exact_mean": 0.4811218367680306,
+          "limit": 0.5792723352971346,
+          "abs_difference": 0.09815049852910401
+        },
+        {
+          "dose": 0.1,
+          "event_count_mean": 10.0,
+          "exact_mean": 0.5683323421038973,
+          "limit": 0.5792723352971346,
+          "abs_difference": 0.010939993193237352
+        },
+        {
+          "dose": 0.01,
+          "event_count_mean": 100.0,
+          "exact_mean": 0.5781696212527228,
+          "limit": 0.5792723352971346,
+          "abs_difference": 0.0011027140444118677
+        },
+        {
+          "dose": 0.001,
+          "event_count_mean": 1000.0,
+          "exact_mean": 0.5791619806663659,
+          "limit": 0.5792723352971346,
+          "abs_difference": 0.00011035463076869423
+        }
+      ]
+    }
+  },
+  "graph_summary": {
+    "true_branch": {
+      "mean_nll_per_synapse": -1.9317982778822167,
+      "mean_marginal_mse": 0.019332346119242935
+    },
+    "degree_matched_shuffled": {
+      "mean_nll_per_synapse": 6.137903969714475,
+      "mean_marginal_mse": 0.019332346119242935
+    },
+    "whole_cell_global": {
+      "mean_nll_per_synapse": 8.40432147438844,
+      "mean_marginal_mse": 0.019332346119242935
+    },
+    "independent_synapses": {
+      "mean_nll_per_synapse": -1.3332804637370261,
+      "mean_marginal_mse": 0.019332346119242935
+    }
+  },
+  "graph_differences": {
+    "degree_matched_shuffled": {
+      "mean_excess_nll_per_synapse": 8.06970224759669,
+      "true_partition_better_seeds": 24,
+      "total_seeds": 24
+    },
+    "whole_cell_global": {
+      "mean_excess_nll_per_synapse": 10.336119752270656,
+      "true_partition_better_seeds": 24,
+      "total_seeds": 24
+    },
+    "independent_synapses": {
+      "mean_excess_nll_per_synapse": 0.5985178141451907,
+      "true_partition_better_seeds": 24,
+      "total_seeds": 24
+    }
+  },
+  "total_simulated_trials": 3072,
+  "time_varying_jump_check": {
+    "trials": 65536,
+    "tag_decay_during_execution": true,
+    "analytic_means": [
+      0.7139207215234754,
+      0.6940325106858686,
+      0.8085547587362119,
+      0.7720269994584161
+    ],
+    "empirical_means": [
+      0.7137344336918527,
+      0.6938568275917146,
+      0.8085605921339408,
+      0.7720443127031917
+    ],
+    "mean_error_in_standard_errors": [
+      -0.3270950978101664,
+      -0.41106955439460524,
+      0.12975942641397017,
+      0.2288294541041313
+    ],
+    "max_covariance_error": 4.387996820130746e-05,
+    "note": "Monte Carlo differences are sampling error; this is not a machine precision assertion or biological sample."
+  },
+  "full_results_sha256": "aa54b294758d6d02e6fd23090d7f160e72fd005eba4d5e9abce1abe821a0269f",
+  "full_results_location": "Generated outside the repository by restart.py. Complete original also exists in the conversation attachment."
+}

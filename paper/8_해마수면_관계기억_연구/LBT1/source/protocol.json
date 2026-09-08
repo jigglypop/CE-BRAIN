@@ -1,0 +1,23 @@
+{
+  "name": "LBT-1 local eligibility, delayed execution and branch covariance",
+  "status": "local development protocol written before first execution, not externally preregistered",
+  "purpose": "Replace oracle replay-control claims with a local synaptic-update candidate and test whether stochastic execution and graph locality are observable.",
+  "not_claimed": ["new biological experiment", "new biological dataset", "human-brain identification", "CaMKII obeys Poisson statistics", "all brain learning is BTSP", "long-term systems consolidation established"],
+  "core": {"tau_e_s": 2.5, "tau_i_s": 1.5, "tau_tag_s": 60.0, "tag_gain_per_s": 1.0, "tag_half": 0.2, "pot_rate": 0.8, "dep_rate": 0.15, "maximum": 1.0},
+  "math_cases": 64,
+  "moment_cases": 32,
+  "seeds": [48000,48001,48002,48003,48004,48005,48006,48007,48008,48009,48010,48011,48012,48013,48014,48015,48016,48017,48018,48019,48020,48021,48022,48023],
+  "synapses": 48,
+  "branches": 6,
+  "trials_per_seed": 128,
+  "poisson_mean": 1.2,
+  "pulse_dose": 2.0,
+  "measurement_noise_sd": 0.03,
+  "tag_range": [0.15,1.1],
+  "initial_weight_range": [0.10,0.95],
+  "comparison_partitions": ["true_branch", "degree_matched_shuffled", "whole_cell_global", "independent_synapses"],
+  "prediction_metric": "negative joint log density per synapse, exact finite Poisson mixture with disclosed tail truncation; all parameters supplied, no fitted test labels",
+  "stochastic_assay_scope": "Tag held constant over the execution window for closed-form count identities. Full core permits continuous trace decay between exact event times. These are distinct tests.",
+  "source_context": {"biological_constraint": "10.1038/s41586-024-08021-8", "weight_dependent_rule": "10.7554/eLife.73046", "recent_nonspatial_scope": "10.1038/s41467-026-71503-y"},
+  "data_access": "Previous BTSP artifacts exist and were inventoried; not counted again as new biological evidence. New full-text/source-data access failed in this turn, so no molecular numeric parameter was calibrated."
+}

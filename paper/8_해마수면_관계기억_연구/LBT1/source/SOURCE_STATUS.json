@@ -1,0 +1,38 @@
+{
+  "prior_code": {
+    "name": "ce6_core.py",
+    "sha256": "231f094561314732de4b2eeaed18ac316ee366432517e4b636650e8e22c0e73a",
+    "reviewed_area": "Planner._rates uses event.outcome; full-record losses are used for global planning; LBT-1 does not import this updater."
+  },
+  "public_primary_sources": [
+    {
+      "title": "Bidirectional synaptic plasticity rapidly modifies hippocampal representations",
+      "doi": "10.7554/eLife.73046",
+      "url": "https://elifesciences.org/articles/73046",
+      "role": "biological motif and prior weight-dependent local-learning models",
+      "access": "web search text retrieved in this turn"
+    },
+    {
+      "title": "Dendritic, delayed, stochastic CaMKII activation in behavioural time scale plasticity",
+      "doi": "10.1038/s41586-024-08021-8",
+      "url": "https://www.nature.com/articles/s41586-024-08021-8",
+      "role": "motivates separating induction/tagging and delayed stochastic execution, not our parameters or Poisson distribution",
+      "access": "title/abstract search result retrieved; full text and source data not downloaded"
+    },
+    {
+      "title": "Rapid formation of non-spatial hippocampal representations consistent with behavioral timescale synaptic plasticity is modulated by entorhinal input",
+      "doi": "10.1038/s41467-026-71503-y",
+      "url": "https://www.nature.com/articles/s41467-026-71503-y",
+      "role": "scope context only, not quantitative input",
+      "access": "search result retrieved"
+    }
+  ],
+  "access_failures": [
+    "Direct container requests to raw GitHub failed due network restrictions; no new BTSP data claimed.",
+    "Subsequent web open/search returned an internal tool error.",
+    "Nature page download failed.",
+    "GitHub repository-search URL was unsupported; no alternative data inferred from failure."
+  ],
+  "new_biological_samples": 0,
+  "remote_writes": 0
+}

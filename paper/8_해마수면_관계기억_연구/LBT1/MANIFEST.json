@@ -1,0 +1,20 @@
+{
+  "scope": "Exact published files only; generated outputs excluded",
+  "sha256": {
+    "README.md": "73b9161d59fb08f8787d8d81601a58a60922d699731b9494379a8a07152f2ae3",
+    "publication_receipt.json": "6936e1a7ad8f1ebd36eb30cc1a17b74e3a76a5696915b0f978ee90ca919be344",
+    "published_results.json": "a771d8826748157ee75727697daa55a6d6b32ef4c78c91a11f274f8eea7cb5d5",
+    "references/CE식.txt": "ad89afa6176722e7258e7bbc55f73f7a49a85a89db0a6f67fafba6a44e749b12",
+    "restart.py": "6680b87f48449fea07f1bb555e0bfb708c1a6931ab58b2cd06146d6d82e6b62b",
+    "source/ALGORITHM_KO.md": "a9b27221f5c2a147c971137565459a89fb711302c236d79b3f2f7da16ad0338b",
+    "source/README.md": "94f6f75a76036a78f20542af3ea5d69a81295218d9fa5424e615ac6d8f3dda36",
+    "source/REPORT_KO.md": "d041afcb05d8ddd255324d8f66dc472694153120a69705a4ce5991b22f4d1093",
+    "source/SOURCE_STATUS.json": "df2799f494e7dd633f394d0bc4ef9f226f757d36973b23105e0832d8f842f8d3",
+    "source/check_results.py": "1a5e8e198d8fecc615add6cf92a72cd34472ec622cf6452e3a2557f0eacd05fb",
+    "source/local_rule.py": "d3e04aa27d0795c9e944346d2354bdd64b75b7af37edfd1024117767e9832c2d",
+    "source/protocol.json": "3655aa0ff230b214a9108a17e33240b8fc2be58be2bdc755f15e70a309393107",
+    "source/requirements.txt": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3",
+    "source/test_local_rule.py": "c15090338f0a4a3cb322b82d79c30296be7c6713a6771fdb9bd3374e70e662a0",
+    "source/verify.py": "ac014e92c1e6ca244991a8e59c24d3e13ff3840b29d1efdd6c6d72bb811744c2"
+  }
+}
