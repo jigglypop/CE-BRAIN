@@ -1,0 +1,11 @@
+{
+  "reason": "Initial quartic regularization produced slopes beyond a small-slope interpretation. Initial outputs preserved; only illustrative saturation strength revised before adding a small-slope check. This is numerical-regime refinement, not biological parameter fitting. No improvement in biological accuracy is claimed.",
+  "initial_max_abs_slope": 3.183297420791208,
+  "initial_quartic": 1,
+  "revised_quartic": 1000,
+  "added_bound_on_abs_slope": 0.2,
+  "intermediate_quartic": 1000,
+  "final_quartic": 300,
+  "original_growth_check_retained": "final_rms > 10 * initial_rms",
+  "analytic_small_amplitude_estimate": "For k=4 and growth rate 0.48, sinusoidal quartic equilibrium has amplitude sqrt(4*0.48/(3*beta)). To have slope<0.2 requires beta>256; >10x RMS growth from the fixed perturbation requires beta approximately <554. beta=300 lies inside the illustrative regime. Coefficient is supplied, not biological."
+}

@@ -1,0 +1,15 @@
+{
+  "asset": "fsLR_32k_midthickness-lh_eval_50.txt",
+  "repository": "NSBLab/BrainEigenmodes",
+  "path": "data/examples/fsLR_32k_midthickness-lh_eval_50.txt",
+  "url": "https://github.com/NSBLab/BrainEigenmodes/blob/main/data/examples/fsLR_32k_midthickness-lh_eval_50.txt",
+  "git_blob": "d53ffd0a5244211fdea238266e2714a221c6a2a5",
+  "bytes": 1250,
+  "sha256": "3eb1a4a1c83751c4ca1169df242f773f9c0a5c1505450e50e6baacb8a3b97f11",
+  "acquired": "2026-09-08",
+  "acquisition": "Text returned by connected GitHub file reader, materialized and matched to complete Git blob.",
+  "reuse_inventory": "No BrainEigenmodes asset was present in the active /mnt/data inventory. Added only the 1250-byte author-published eigenvalue example, no duplicate large scans.",
+  "biological_grain": "One published population-template geometry spectrum, first 50 eigenvalues, not 50 individuals.",
+  "what_was_done": "Illustrative shifted response operator used the supplied eigenvalues. No new measurement, fit, subject evaluation or eigenvector localization.",
+  "paper": "Pang et al. 2023, DOI 10.1038/s41586-023-06098-1"
+}

@@ -1,0 +1,199 @@
+{
+  "name": "RGM-1",
+  "scope": "Conditional mathematical checks + source-verified published human template eigenvalues; no new biology fit.",
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "source_hashes": {
+    "protocol.json": "0cfbab9ea65704b82b2f75700569b0205a5e42d6297e43573105c65bd08e74be",
+    "rgm_core.py": "a63a05e39170c402b6e812cbc45dfb024bf71250fa46212d2442962032bdd755",
+    "verify.py": "21ebf189741670b309984c84af5b925ae032c5f4139608f009ede41b2105f0f2",
+    "vendor/local_rule.py": "d3e04aa27d0795c9e944346d2354bdd64b75b7af37edfd1024117767e9832c2d"
+  },
+  "spectral": {
+    "cases": 32,
+    "moment_checks": 96,
+    "max_matrix_time_integral_error": 1.63202784619898e-14,
+    "max_source_finite_difference_error": 4.4932235709893575e-09,
+    "max_local_source_derivative_error": 1.0333373712256844e-08,
+    "isospectral_counterexample": {
+      "global_logdet_gap": 2.220446049250313e-16,
+      "local_integrated_response_original": 1.0,
+      "local_integrated_response_rotated": 0.6250000000000001
+    }
+  },
+  "regional": {
+    "cases": 32,
+    "max_independent_ode_error": 4.933969899312274e-13,
+    "max_half_step_composition_error": 6.661338147750939e-16,
+    "original_lbt_reduction_error": 0.0,
+    "example": {
+      "instruction": [
+        0.6019759181934502,
+        0.5791124980696502,
+        0.4667627297447808,
+        0.11321338232745914,
+        0.05823039865557159,
+        0.05085562965825083
+      ],
+      "tags": [
+        1.0738319489458823,
+        1.0644139463804974,
+        0.0,
+        0.539338086505529,
+        0.49379309858297715,
+        0.0
+      ],
+      "weights_before": [
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2,
+        0.2
+      ],
+      "weights_after": [
+        0.664095232355346,
+        0.6633998813690258,
+        0.2,
+        0.5913148841964649,
+        0.5790548252434466,
+        0.2
+      ],
+      "untagged_indices_unchanged": true,
+      "input_note": "Different reaction rates supplied; not learned or mapped to anatomical regions."
+    }
+  },
+  "contrast": {
+    "mean_initial": 0,
+    "hidden_contrasts": [
+      1,
+      -1
+    ],
+    "mean_at_t1": [
+      0.21504251467605148,
+      -0.21504251467605148
+    ],
+    "mean_only_prediction_at_t1": 0.0,
+    "memory_kernel_vs_full_max_error": 1.0714137910206034e-12,
+    "max_mean_separation": 0.43062110159181494
+  },
+  "moving_basis": {
+    "cases": 16,
+    "correct_connection_max_error": 2.537553481684594e-13,
+    "omitted_connection_mean_error": 0.5750713082633128,
+    "omitted_connection_max_error": 1.4088521523456057
+  },
+  "folding": {
+    "linear_threshold_cases": 32,
+    "max_numeric_wavenumber_relative_error": 1.2617585212909523e-08,
+    "double_thickness_wavelength_ratio_range": [
+      1.9999999999999996,
+      2.0
+    ],
+    "below": {
+      "initial_rms": 0.002405040168838727,
+      "final_rms": 4.05972862075672e-12,
+      "dominant_mode": 3,
+      "initial_energy": 0.004739682172543688,
+      "final_energy": 2.0568901282170266e-22,
+      "max_energy_step_increase": -2.8184138809687383e-23,
+      "dominant_linear_growth_mode": 0,
+      "max_linear_growth_rate": -0.0,
+      "N_critical_discrete": 0.41000000000000003,
+      "nfev": 669
+    },
+    "above": {
+      "initial_rms": 0.002405040168838727,
+      "final_rms": 0.03267652205613113,
+      "dominant_mode": 4,
+      "initial_energy": 0.0040830289546423485,
+      "final_energy": -0.008197575609010157,
+      "max_energy_step_increase": 3.632510958695434e-15,
+      "dominant_linear_growth_mode": 4,
+      "max_linear_growth_rate": 0.47999999999999954,
+      "N_critical_discrete": 0.41000000000000003,
+      "nfev": 1168
+    },
+    "independent_solver_max_field_error": 1.5154170626696661e-09,
+    "grid64_vs128_max_field_error": 7.739926755068183e-12,
+    "max_abs_slope": 0.18380460334605517,
+    "passive_smoothing_final_rms": 2.504318807132058e-16,
+    "scope": "Finite periodic 1-D small-slope buckling plus quartic saturation; not fetal-brain FEM or observed folds."
+  },
+  "isometric_bending": {
+    "intrinsic_metric_max_difference": 2.220446049250313e-16,
+    "plane_mean_curvature": 0.0,
+    "cylinder_mean_curvature": 0.25,
+    "same_intrinsic_laplacian_under_isometry": true,
+    "interpretation": "Extrinsic bending alone does not necessarily alter intrinsic neural transport. Real growth can stretch, alter boundaries or long-range distances."
+  },
+  "published_geometry": {
+    "source": "NSBLab/BrainEigenmodes/data/examples/fsLR_32k_midthickness-lh_eval_50.txt",
+    "source_git_blob": "d53ffd0a5244211fdea238266e2714a221c6a2a5",
+    "sha256": "3eb1a4a1c83751c4ca1169df242f773f9c0a5c1505450e50e6baacb8a3b97f11",
+    "bytes": 1250,
+    "eigenvalues": [
+      3.166496753692627e-08,
+      0.00020568352192640305,
+      0.00038268882781267166,
+      0.0006062835454940796,
+      0.0008414983749389648,
+      0.0011684875935316086,
+      0.0013515586033463478,
+      0.0014807982370257378,
+      0.0019474457949399948,
+      0.002011171542108059,
+      0.0021551819518208504,
+      0.002357284538447857,
+      0.0026594065129756927,
+      0.0028597237542271614,
+      0.00325863528996706,
+      0.0034445449709892273,
+      0.003549344837665558,
+      0.003885730169713497,
+      0.004167185164988041,
+      0.00435749813914299,
+      0.004562246613204479,
+      0.004973272792994976,
+      0.005045648664236069,
+      0.00529884360730648,
+      0.005463612265884876,
+      0.005555934272706509,
+      0.006081070750951767,
+      0.006278952583670616,
+      0.006598275154829025,
+      0.006834186613559723,
+      0.007041195407509804,
+      0.007222788408398628,
+      0.007447060197591782,
+      0.0075372010469436646,
+      0.007635597139596939,
+      0.008136728778481483,
+      0.008300196379423141,
+      0.008591139689087868,
+      0.008881703019142151,
+      0.009166879579424858,
+      0.009359370917081833,
+      0.009524833410978317,
+      0.009881583973765373,
+      0.010167298838496208,
+      0.010375702753663063,
+      0.010575523599982262,
+      0.01080973818898201,
+      0.01112782210111618,
+      0.011248299852013588,
+      0.011569056659936905
+    ],
+    "illustrative_equal_mode_readout_susceptibility": 0.27166484824899545,
+    "illustrative_mean_delay": 0.5495238749770556,
+    "biological_scope": "Published population-template geometry spectrum only. No new individual brain, no time-series fitting, no local eigenvectors, no anatomical predictions.",
+    "coefficients": {
+      "leak": 0.7,
+      "diffusion_in_normalized_spectrum": 0.2,
+      "time_unit": "arbitrary"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "source_archive": "CE_BRAIN_RGM1_regional_geometry_memory_20260908.zip",
+  "source_archive_sha256": "99cce4b2523cccb97a08df72f301c2a891bf9b3e7f3d693fb2d6b54ca26a1978",
+  "original_manifest_entries_verified": 34,
+  "original_mismatches": 0,
+  "sha256": {
+    "rgm_core.py": "a63a05e39170c402b6e812cbc45dfb024bf71250fa46212d2442962032bdd755",
+    "verify.py": "21ebf189741670b309984c84af5b925ae032c5f4139608f009ede41b2105f0f2",
+    "test_rgm.py": "d34d49a4d135d7be665034b752c4eae059f83adac10fea01542b1ffa3b35c15d",
+    "check_results.py": "b8b18adc1f263e8298da99d30a2bae729fb931543edc49fe23b014552b559d70",
+    "protocol.json": "0cfbab9ea65704b82b2f75700569b0205a5e42d6297e43573105c65bd08e74be",
+    "requirements.txt": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3",
+    "results.json": "88f4c8651601a6a3a14db6296fe483365a95d55f16c27e2465244c0bdb23aad4",
+    "results_before_rerun.json": "88f4c8651601a6a3a14db6296fe483365a95d55f16c27e2465244c0bdb23aad4",
+    "REFINEMENT.json": "b0f2b511ce5da3983d4806763c006be523465a7d144279087e3788d00b51a1c1",
+    "vendor/local_rule.py": "d3e04aa27d0795c9e944346d2354bdd64b75b7af37edfd1024117767e9832c2d",
+    "data/fsLR_32k_midthickness-lh_eval_50.txt": "3eb1a4a1c83751c4ca1169df242f773f9c0a5c1505450e50e6baacb8a3b97f11",
+    "data/source_receipt.json": "aa63518cac75b6bd9b0e261834622c44598c1d2d38d9a0efd56c712beca49089"
+  },
+  "path_base": "source/",
+  "omitted_empty_initializer": "vendor/__init__.py omitted; Python namespace import tested. Scientific source files unchanged."
+}
