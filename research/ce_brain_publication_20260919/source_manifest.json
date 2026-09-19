@@ -1,0 +1,103 @@
+{
+  "schema": "ce-brain-publication-sources-v1",
+  "base_commit": "22b2251be2b12af3ae1e3806290e8283d6321c4d",
+  "reports": 17,
+  "files": {
+    "reports/CE_BRAIN_ACCURACY_20260918.md": {
+      "sha256": "7a35da72bb3f719cf65d4bcae61b81fbad33c007e349da87ab9e319c27faa503"
+    },
+    "reports/CE_BRAIN_BIO_FEEDBACK_20260919.md": {
+      "sha256": "69a53e604cd2383d5d513e69ff5e9146bd9e36c0fa91b4c32c2fb3d2387dfa51"
+    },
+    "reports/CE_BRAIN_BIO_MECHANISM_20260918.md": {
+      "sha256": "69c5f8260380e39b2c133e59e8754e4b7de4b383ba701c868e77fa3e027aa737"
+    },
+    "reports/CE_BRAIN_BIO_PREDICTION_20260918.md": {
+      "sha256": "ec46268d998c584a10335f3824e5343bcb6c6d8188ef9b4eff456e46ac94327c"
+    },
+    "reports/CE_BRAIN_BIO_SELECTION_20260918.md": {
+      "sha256": "b5809ca9057d5b0b2a8b9b06a94bab298b93fc05534c3333e67ceabf6907f0c5"
+    },
+    "reports/CE_BRAIN_CONTINUATION_20260918.md": {
+      "sha256": "f97991cc562f210dc81921f4b3b3f0f46654b85613e368803144804b98434c61"
+    },
+    "reports/CE_BRAIN_FIXED_GRAPH_20260918.md": {
+      "sha256": "7204f3118aa7fc1b6555ef3e23a39b91f39e6d4702ca3542c6eacf6bd4c3a66d"
+    },
+    "reports/CE_BRAIN_LOCAL_INHIBITION_20260919.md": {
+      "sha256": "d5208dab4a2331bdcd8c8003bb96d31e6c2f021a26fa1b35da682a960bd02d22"
+    },
+    "reports/CE_BRAIN_MEASURED_REPAIR_20260919.md": {
+      "sha256": "57ea345ead46c23f0cf0a3da31a846f23d21cb1dbee4bfd43d507e7017657e7a"
+    },
+    "reports/CE_BRAIN_OUTCOME_CLOSURE_20260918.md": {
+      "sha256": "4af55e41da999b46514f13d16a11f45992d85566d49f8b9444d7fc690e7b4424"
+    },
+    "reports/CE_BRAIN_RESULT_SELECTION_20260919.md": {
+      "sha256": "bf03643a459858dfff462a2e0d663fbb87c414402affd25fc5da41406392a8b0"
+    },
+    "reports/CE_BRAIN_RIEMANN_IMPROVEMENT_20260919.md": {
+      "sha256": "c2f07fe6488b1b10ae6603b79a13947e993050fca3b184918f4a3f908d0fe2da"
+    },
+    "reports/CE_BRAIN_RIEMANN_REFINEMENT_20260919.md": {
+      "sha256": "10e9f0a40e30fbca88c7490a6a09772f97a2c723c8ce92dcba545346be22bf07"
+    },
+    "reports/CE_BRAIN_RIEMANN_SCREEN_20260919.md": {
+      "sha256": "12613867d713ac2cdc7c22cfbfc507bfa06ad4626653f00d39ae1e45986a4e8c"
+    },
+    "reports/CE_BRAIN_SELECTION_20260916.md": {
+      "sha256": "12767c036eaf7704f456782590881a77e71ba473c5a12bf88dcf2809fed4f29d"
+    },
+    "reports/CE_HPI_PATH_20260918.md": {
+      "sha256": "9042bd7e1057af22ebc6fcac305b1daafce50dc070ebf61309b8d970313785c8"
+    },
+    "reports/CE_HPI_TASK_20260917.md": {
+      "sha256": "a0f8305a38973667a45c1678186edefaaa49f9b407d729ce2d89520a8a589f27"
+    },
+    "model.json": {
+      "sha256": "bb471d3a9f3e8a3dec941b19270d18e62035bd757aced724857fa2ca0d41f69d"
+    },
+    "example_input.json": {
+      "sha256": "6055ba2f21ab8de8161ec225d31803705ae35cc0b9ccd3fc2659ecaa37d046fb"
+    },
+    "example_prediction.json": {
+      "sha256": "318d763ad3e506c427668f8aa8dd8ee993688efd1690335391a4372db7c99f72"
+    },
+    "historical_validation.json": {
+      "sha256": "61a80b8082b8f33f06a671f5d1afe8881e2b32074650b8cf741f1cbbed07c463"
+    },
+    "fresh32_summary.json": {
+      "sha256": "716f6d18614962ef71abd4f3d6a122332241818362546fd399a54856b852ebad"
+    },
+    "comparison_summary.json": {
+      "sha256": "50015c9a56172dafd0e448b82bf1470c8ab8af7c92ce87147ae38984cbc210e6"
+    },
+    "selected_predictions.csv": {
+      "sha256": "4f7379b43efb213934fa7399b67caa7cea2f91b12348651011214d900a76c471"
+    }
+  },
+  "raw_data": {
+    "git_blob": "965d7e038fa23ba4226cda865d8802157f0d18c8",
+    "sha256": "5733b69eda14e5c557e784e96da917091877dc86a3a4a9c6026eae2520c8765a",
+    "bytes": 17682,
+    "location": "aclinlab/bergmann-et-al@0b2da3f9c865626f8858881a468394c8eff68fa7:CorrelationAnalysis/all KC values.csv",
+    "included_in_git": false,
+    "available_in_attached_source_package": true
+  },
+  "source_zip_sha256": {
+    "CE_BRAIN_ACCURACY_20260918.zip": "e588861501082da05e388259ec46e7db95456e15f28d3f48e6726f9ffc2922fc",
+    "CE_BRAIN_BIO_FEEDBACK_20260919.zip": "790ac984f0e32ecce079eacd368f502516d05267ba7efbd148d3f3ba5011a0b2",
+    "CE_BRAIN_BIO_MECHANISM_20260918.zip": "604dd70ee16d2da486824c4922549586d30e3e8041d014074281e15518966291",
+    "CE_BRAIN_BIO_PREDICTION_20260918.zip": "518aba8f06c215c8041d19d02bd33a68aebcfe072230b5cdf18f5c81fba26bcd",
+    "CE_BRAIN_BIO_SELECTION_20260918.zip": "50ec557ac0b1fb3380be6376a72768cf841112983050ed6f35426a52ab0748b9",
+    "CE_BRAIN_CONTINUATION_20260918.zip": "bb30850b8c39d8f013770f60af4068c3d76209fef85426ae828732c22f90245e",
+    "CE_BRAIN_FIXED_GRAPH_20260918.zip": "c36da6603c9120b86c738a5e2ec82a712fe5943d364c99db6139d7d974be56e5",
+    "CE_BRAIN_LOCAL_INHIBITION_20260919.zip": "5137cb843eb84809c85d2e0b58897c28a2905825c2728806cb0437de5595c734",
+    "CE_BRAIN_MEASURED_REPAIR_20260919.zip": "0d04441a1bea529fad316381f19a72e83e754be8fe1545f54fcaf26240ac3d1e",
+    "CE_BRAIN_OUTCOME_CLOSURE_20260918.zip": "0160d8553227d57a21504ba65bc6125fe07ddbb4997dbc3439188df0ee78bf2e",
+    "CE_BRAIN_RESULT_SELECTION_20260919.zip": "439aaa9ceef18541c1bb217b00914badb4762364fade66c398a1bbeeee62662e",
+    "CE_BRAIN_RIEMANN_IMPROVEMENT_20260919.zip": "b1e3ceec3ff52b95016bafe00b5b3dfbfd61a28034dd134cefb948be92278df6",
+    "CE_BRAIN_RIEMANN_REFINEMENT_20260919.zip": "1db5a92079ee9ef5d04698216f641044a4f021568cc7c73d5a245c65e20bff48",
+    "CE_BRAIN_RIEMANN_SCREEN_20260919.zip": "665cceb3bf1f92c6d7059c6763b6ebe94b7051656f98d7b1b4cd8f70314ccddd"
+  }
+}

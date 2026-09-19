@@ -1,0 +1,11 @@
+{
+  "controls": [
+    0.5506653079999999,
+    0.30478677063636367,
+    0.4312581148181818,
+    0.35984898709090907,
+    0.22229566555555558,
+    0.30623720444444447
+  ],
+  "note": "Known source control means used only to demonstrate the CLI; the full-fit example is not a held-out validation."
+}

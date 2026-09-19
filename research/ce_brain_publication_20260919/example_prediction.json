@@ -1,0 +1,19 @@
+{
+  "region_order": [
+    "Calyx",
+    "gamma",
+    "beta",
+    "betaprime",
+    "alpha",
+    "alphaprime"
+  ],
+  "prediction": [
+    0.43992417780058063,
+    0.08498413236319262,
+    0.4693228825417973,
+    0.5180219304876371,
+    0.36185905231644777,
+    0.5009324312369549
+  ],
+  "scope": "conditional 31C processed cohort-mean calcium response; not a spike, EPSC, behavior or individual-animal forecast"
+}

@@ -1,0 +1,19 @@
+{
+  "attempted": 32,
+  "completed_pairs": 32,
+  "failed_pairs": 0,
+  "previous": {
+    "rmse": 0.12496037622517933,
+    "mae": 0.09047749403416648,
+    "mse": 0.015615095626338364
+  },
+  "candidate": {
+    "rmse": 0.12141653250790259,
+    "mae": 0.08880692863122822,
+    "mse": 0.014741974366242567
+  },
+  "rmse_improved_splits": 17,
+  "mae_improved_splits": 18,
+  "both_improved_splits": 16,
+  "scope": "new random partitions of previously used records; not independently collected animals; seeds fixed before candidate selection"
+}

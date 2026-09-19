@@ -1,0 +1,68 @@
+{
+  "scope": "software and provenance checks; no new biological sample",
+  "quality": {
+    "raw_bytes": 17682,
+    "sha256": "5733b69eda14e5c557e784e96da917091877dc86a3a4a9c6026eae2520c8765a",
+    "git_blob": "965d7e038fa23ba4226cda865d8802157f0d18c8",
+    "measurements": 1540,
+    "complete_vectors": 220,
+    "retained_negative_values": 39,
+    "count_by_region_group": [
+      [
+        6,
+        9,
+        10,
+        11
+      ],
+      [
+        7,
+        11,
+        11,
+        10
+      ],
+      [
+        7,
+        11,
+        11,
+        10
+      ],
+      [
+        7,
+        11,
+        11,
+        11
+      ],
+      [
+        5,
+        10,
+        9,
+        9
+      ],
+      [
+        5,
+        10,
+        9,
+        9
+      ]
+    ],
+    "confirmed_unique_animals": null,
+    "group_pairing": "NOT ESTABLISHED",
+    "measurement": "author-processed mean calcium response, not spikes/current/release probability"
+  },
+  "source_sha256": "5733b69eda14e5c557e784e96da917091877dc86a3a4a9c6026eae2520c8765a",
+  "reload_max_error": 0.0,
+  "linear_solve_max_error": 1.6653345369377348e-16,
+  "target_leakage_checks": 7,
+  "target_leakage_max_error": 0.0,
+  "normal_equation_conditions": 8,
+  "normal_equation_max_error": 5.290212712338871e-14,
+  "chart_conditions": 16,
+  "chart_covariance_max_error": 4.440892098500626e-16,
+  "SPD_correction_covariance_max_error": 3.552713678800501e-14,
+  "metric_perturbation_prediction_change": 0.05520303284146283,
+  "single_persistent_field": "metric",
+  "all_development_eigenvalue_min": 0.5159354583613557,
+  "all_development_condition_max": 88.6239775017617,
+  "frozen_config_unchanged_after_fresh_splits": true,
+  "passed": true
+}
