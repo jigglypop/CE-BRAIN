@@ -1,0 +1,24 @@
+{
+  "source_archive": "CE_HPI1_LEARNING_20260918.zip",
+  "source_archive_sha256": "0f439f65e2055694f4ce9da760ce15c2085661f41f31a44ab74419bd20adae55",
+  "base_repository": "jigglypop/CE-BRAIN",
+  "base_commit": "22b2251be2b12af3ae1e3806290e8283d6321c4d",
+  "source_role": "User-provided tested 2026-09-18 research package; reported results carried forward, with a separate packaging check. No new animal results.",
+  "excluded": "Failed pilot implementations, duplicate archives, raw/model binary checkpoints and plots. The original archive remains unchanged in the conversation. Regenerate checkpoints with run.py.",
+  "paper": {
+    "doi": "10.1038/s41586-024-08548-w",
+    "code_repository": "sprustonlab/OSM_Paper_Figures",
+    "code_commit": "c1d1788b54c737efe24402e02762eee10da0d0d7"
+  },
+  "source_files_sha256": {
+    "src/clone_dp.py": "bb9d356290f894ae44a2ad11d44fa9bccd2baab70825a18995786f126e99c75f",
+    "src/accelerated.py": "f2d8532c65b20f5e15be911d7d4570c5a0b48877995d5010e9ba779350eb1a83",
+    "src/slot_repair.py": "cc7fbe1bd8fc89b8e6adee2a2112c0694383c0d48556ecb573c50eebc594a385",
+    "src/precision.py": "00752e0e7636350b329361c3d184df1917e2f19cf9fa25520838a09766dfd8ce",
+    "src/run_study.py": "743f9def1cd4b1fbc40ddf4a92942de1c78020162620a1546d05f5b63e024d01",
+    "src/evaluate_task.py": "478fc4af27ab422605caa254a3908248d585c34615d144e9070e3e7880e13769",
+    "src/path_repair.py": "b132cb53b3a74dd3f7bc7551503780f7624fada304055dfef513cefaeea03a5d",
+    "src/stretch.py": "43ff351120055fe2d8e1f054e9a5a98d1fcddf0a98667adf0936481a383d068c"
+  },
+  "consolidation": "Accepted function bodies are copied without changes; only imports/module packaging are consolidated."
+}

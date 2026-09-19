@@ -1,0 +1,128 @@
+{
+  "status": "ALL_16_MODEL_SEEDS_COMPLETE_AFTER_HISTORY_PATH_REPAIR; BIOLOGICAL_TIMING_AND_NEURAL_TRACES_UNRESOLVED",
+  "date_seoul": "2026-09-18",
+  "scope": "Retrospective hippocampal-task computational phenotype reproduction, not MaleCNS or raw neural-data fit.",
+  "comparison": {
+    "fresh_baseline": {
+      "n": 16,
+      "complete": 13,
+      "r2_first": 13,
+      "r1_first": 0,
+      "incomplete": 3,
+      "reward_accuracy": 0.953125,
+      "reward_brier": 0.023828125000000002,
+      "test_nll": 0.0338159276534918,
+      "all_three_transfer": 13,
+      "mean_timing_contrast_complete_only": 0.5215662819529399,
+      "end_grey_corr": 0.971691915641167
+    },
+    "plain_continuation": {
+      "n": 16,
+      "complete": 13,
+      "r2_first": 13,
+      "r1_first": 0,
+      "incomplete": 3,
+      "reward_accuracy": 0.953125,
+      "reward_brier": 0.023828125000000002,
+      "test_nll": 0.03387178928697847,
+      "all_three_transfer": 13,
+      "mean_timing_contrast_complete_only": 0.5215662819529399,
+      "end_grey_corr": 0.9716919155009305
+    },
+    "path_repair": {
+      "n": 16,
+      "complete": 16,
+      "r2_first": 13,
+      "r1_first": 3,
+      "incomplete": 0,
+      "reward_accuracy": 1.0,
+      "reward_brier": 8.252609811699306e-33,
+      "test_nll": 0.028816863946877887,
+      "all_three_transfer": 16,
+      "mean_timing_contrast_complete_only": 0.30656449020328547,
+      "end_grey_corr": 0.9716913852944906
+    }
+  },
+  "published_animal_reference": {
+    "n_animals": 11,
+    "r2_first": 8,
+    "r1_first": 3,
+    "r2_fraction_mean": 0.4097734109090909,
+    "r1_fraction_mean": 0.58995359,
+    "r1_minus_r2_fraction_mean": 0.18018017909090908,
+    "mean_timing_contrast": 0.13361386547612655,
+    "mean_timing_contrast_t95": [
+      -0.028992645075292423,
+      0.29622037602754553
+    ],
+    "timing_contrast_values": [
+      0.29789029157387176,
+      0.23135463821709307,
+      0.4470198705071049,
+      0.014234878797570924,
+      0.3917378900654723,
+      -0.2769953007604312,
+      0.19630010235283799,
+      0.2688499602503758,
+      -0.06742856686171432,
+      -0.23321124390478876,
+      0.20000000000000004
+    ],
+    "scope": "11 author-processed animal summaries; no raw traces or model-to-neuron fit"
+  },
+  "paired_rescued_seeds": [
+    251,
+    254,
+    262
+  ],
+  "paired_regression_seeds": [],
+  "heldout_reordered_familiar_template_nll_relative_reduction": 0.14923703313317072,
+  "existing_13_complete_cases_first_crossings_unchanged": true,
+  "timing_warning": "0.5216 -> 0.3066 changes the complete-case denominator (13 -> 16). It is not a same-case timing improvement. Animal reference 0.1336; clocks/readouts are not fully matched.",
+  "equal_budget": {
+    "latent_slots": 800,
+    "extra_EM_calls_each": 160,
+    "new_distinct_observations_each": 0,
+    "walltime_equal": false,
+    "extra_path_construction_cost": true
+  },
+  "frozen_transfer": {
+    "hold": 0.05,
+    "nonreward_skip": 0.1,
+    "reward_skip": 0.0,
+    "grey_extension": 5,
+    "membership_threshold": 0.5
+  },
+  "statistics": {
+    "model_seed_wilson95": [
+      0.8063923194655636,
+      1.0
+    ],
+    "paired_discordant_exact_two_sided_p": 0.25,
+    "unit": "model initialization, not animal"
+  },
+  "training_change": "Choose repeated observed six-symbol histories with excessive next-symbol surprise; recycle six same-emission low-occupancy slots for a seven-symbol observed path; refine and accept only nondecreasing training likelihood.",
+  "retained": [
+    "fixed-emission state identities",
+    "causal forward readout",
+    "full-episode transition learning",
+    "history-path proposals with likelihood safeguard",
+    "frozen reward-protected stretch kernel"
+  ],
+  "unresolved": [
+    "physical learning time",
+    "individual-neuron/calcium response mapping",
+    "animal outcome distribution prediction",
+    "generalization to unseen cue sets and new tasks",
+    "mechanistic neural implementation",
+    "MaleCNS validation"
+  ],
+  "prohibited_claims": [
+    "100 percent biological accuracy",
+    "100 percent brain algorithm explained",
+    "new animal prediction",
+    "new CE-specific neural plasticity law",
+    "memory timing corrected for the same 13 models",
+    "equal total computation cost"
+  ]
+}

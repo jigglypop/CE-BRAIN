@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-19",
+  "status": "PASS",
+  "scope": "curated-code packaging check, not new biological results",
+  "random_structural_conditions": 8,
+  "saved_checkpoint_replay": {
+    "seed": 262,
+    "records": [
+      {
+        "group": "plain_continuation",
+        "transition_exact": true,
+        "curves_exact": true,
+        "max_transition_error": 0.0
+      },
+      {
+        "group": "path_repair",
+        "transition_exact": true,
+        "curves_exact": true,
+        "max_transition_error": 0.0
+      }
+    ]
+  },
+  "repository_wide_harness": "NOT_RUN: native git clone failed with DNS resolution; publishing an additive research branch only",
+  "main_modified": false
+}
