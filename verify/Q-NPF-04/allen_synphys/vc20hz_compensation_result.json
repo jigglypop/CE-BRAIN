@@ -1,0 +1,2829 @@
+{
+  "schema": "allen.vc20hz.compensation.v1",
+  "source_sha256": "9cd450e30ee3a10e8751c2a530553e56d545cf15e08cf88361e2226f0e556023",
+  "test_sha256": "ea96decaf4220ab732fa1ecd4789acd23c0d253e7d819e9a333d53465e09fa73",
+  "records": [
+    {
+      "sweep": 0,
+      "device": 2,
+      "channel": "AD2",
+      "path": "/acquisition/timeseries/data_00000_AD2",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          8.282608973675387e-12
+        ],
+        "capacitance_slow": [
+          2.9999999880125916e-12
+        ]
+      },
+      "instrument_comment": {
+        "Fast compensation capacitance": "0.00 F",
+        "Slow compensation capacitance": "0.00 F",
+        "Fast compensation time": "0.00 s",
+        "Slow compensation time": "0.00 s",
+        "RsComp Bandwidth": "1.02 Hz",
+        "RsComp Correction": "0.00 %",
+        "RsComp Enable": "Off",
+        "RsComp Prediction": "0.00 %",
+        "Whole Cell Comp Enable": "Off",
+        "Whole Cell Comp Cap": "1.00 pF",
+        "Whole Cell Comp Resist": "0.40 MOhm",
+        "Series Resistance": "0.00 MOhms"
+      },
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 8.282608973675387e-12,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.9999999880125916e-12,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Fast compensation time": {
+          "value": 1.0008756134993746e-06,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999464364168764,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.3998988125,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -69.98353451490402,
+          "raw_row_indices": [
+            13
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": false,
+      "comment_whole_cell_enabled": false,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 0,
+      "device": 4,
+      "channel": "AD8",
+      "path": "/acquisition/timeseries/data_00000_AD8",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          7.983017892565503e-12
+        ],
+        "capacitance_slow": [
+          2.9999999880125916e-12
+        ]
+      },
+      "instrument_comment": {
+        "Fast compensation capacitance": "0.00 F",
+        "Slow compensation capacitance": "0.00 F",
+        "Fast compensation time": "0.00 s",
+        "Slow compensation time": "0.00 s",
+        "RsComp Bandwidth": "1.02 Hz",
+        "RsComp Correction": "0.00 %",
+        "RsComp Enable": "Off",
+        "RsComp Prediction": "0.00 %",
+        "Whole Cell Comp Enable": "Off",
+        "Whole Cell Comp Cap": "1.00 pF",
+        "Whole Cell Comp Resist": "0.40 MOhm",
+        "Series Resistance": "0.00 MOhms"
+      },
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 7.983017892565503e-12,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.9999999880125916e-12,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Fast compensation time": {
+          "value": 9.785958354768809e-07,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999483879807869,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.39995315625,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -70.01371681690216,
+          "raw_row_indices": [
+            13
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": false,
+      "comment_whole_cell_enabled": false,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 0,
+      "device": 5,
+      "channel": "AD9",
+      "path": "/acquisition/timeseries/data_00000_AD9",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          8.334203986659627e-12
+        ],
+        "capacitance_slow": [
+          2.8571429076806876e-12
+        ]
+      },
+      "instrument_comment": {
+        "Fast compensation capacitance": "0.00 F",
+        "Slow compensation capacitance": "0.00 F",
+        "Fast compensation time": "0.00 s",
+        "Slow compensation time": "0.00 s",
+        "RsComp Bandwidth": "1.02 Hz",
+        "RsComp Correction": "0.00 %",
+        "RsComp Enable": "Off",
+        "RsComp Prediction": "0.00 %",
+        "Whole Cell Comp Enable": "Off",
+        "Whole Cell Comp Cap": "1.00 pF",
+        "Whole Cell Comp Resist": "0.40 MOhm",
+        "Series Resistance": "0.00 MOhms"
+      },
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 8.334203986659627e-12,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.8571429076806876e-12,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Fast compensation time": {
+          "value": 9.6782389391592e-07,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999999960041972,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.39985943749999997,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            13
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -70.01638412475586,
+          "raw_row_indices": [
+            13
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": false,
+      "comment_whole_cell_enabled": false,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 1,
+      "device": 2,
+      "channel": "AD2",
+      "path": "/acquisition/timeseries/data_00001_AD2",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          8.282608973675387e-12
+        ],
+        "capacitance_slow": [
+          2.9999999880125916e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 8.282608973675387e-12,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.9999999880125916e-12,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Fast compensation time": {
+          "value": 1.0008756134993746e-06,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999464364168764,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.3998988125,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -69.98353451490402,
+          "raw_row_indices": [
+            20
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 1,
+      "device": 4,
+      "channel": "AD8",
+      "path": "/acquisition/timeseries/data_00001_AD8",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          7.983017892565503e-12
+        ],
+        "capacitance_slow": [
+          2.9999999880125916e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 7.983017892565503e-12,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.9999999880125916e-12,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Fast compensation time": {
+          "value": 9.785958354768809e-07,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999483879807869,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.39995315625,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -70.01371681690216,
+          "raw_row_indices": [
+            20
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 1,
+      "device": 5,
+      "channel": "AD9",
+      "path": "/acquisition/timeseries/data_00001_AD9",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          8.334203986659627e-12
+        ],
+        "capacitance_slow": [
+          2.8571429076806876e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 8.334203986659627e-12,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.8571429076806876e-12,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Fast compensation time": {
+          "value": 9.6782389391592e-07,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999999960041972,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.39985943749999997,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            20
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -70.01638412475586,
+          "raw_row_indices": [
+            20
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 2,
+      "device": 2,
+      "channel": "AD2",
+      "path": "/acquisition/timeseries/data_00002_AD2",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          8.282608973675387e-12
+        ],
+        "capacitance_slow": [
+          2.9999999880125916e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 8.282608973675387e-12,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.9999999880125916e-12,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Fast compensation time": {
+          "value": 1.0008756134993746e-06,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999464364168764,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.3998988125,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -69.98353451490402,
+          "raw_row_indices": [
+            27
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 2,
+      "device": 4,
+      "channel": "AD8",
+      "path": "/acquisition/timeseries/data_00002_AD8",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          7.983017892565503e-12
+        ],
+        "capacitance_slow": [
+          2.9999999880125916e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 7.983017892565503e-12,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.9999999880125916e-12,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Fast compensation time": {
+          "value": 9.785958354768809e-07,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999483879807869,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.39995315625,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -70.01371681690216,
+          "raw_row_indices": [
+            27
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 2,
+      "device": 5,
+      "channel": "AD9",
+      "path": "/acquisition/timeseries/data_00002_AD9",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          8.334203986659627e-12
+        ],
+        "capacitance_slow": [
+          2.8571429076806876e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 8.334203986659627e-12,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.8571429076806876e-12,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Fast compensation time": {
+          "value": 9.6782389391592e-07,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999999960041972,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.39985943749999997,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            27
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -70.01638412475586,
+          "raw_row_indices": [
+            27
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 3,
+      "device": 2,
+      "channel": "AD2",
+      "path": "/acquisition/timeseries/data_00003_AD2",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          8.282608973675387e-12
+        ],
+        "capacitance_slow": [
+          2.9999999880125916e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 8.282608973675387e-12,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.9999999880125916e-12,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Fast compensation time": {
+          "value": 1.0008756134993746e-06,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999464364168764,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.3998988125,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -69.98353451490402,
+          "raw_row_indices": [
+            34
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 3,
+      "device": 4,
+      "channel": "AD8",
+      "path": "/acquisition/timeseries/data_00003_AD8",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          7.983017892565503e-12
+        ],
+        "capacitance_slow": [
+          2.9999999880125916e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 7.983017892565503e-12,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.9999999880125916e-12,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Fast compensation time": {
+          "value": 9.785958354768809e-07,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999483879807869,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.39995315625,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -70.01371681690216,
+          "raw_row_indices": [
+            34
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 3,
+      "device": 5,
+      "channel": "AD9",
+      "path": "/acquisition/timeseries/data_00003_AD9",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          8.334203986659627e-12
+        ],
+        "capacitance_slow": [
+          2.8571429076806876e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 8.334203986659627e-12,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.8571429076806876e-12,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Fast compensation time": {
+          "value": 9.6782389391592e-07,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999999960041972,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.39985943749999997,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            34
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -70.01638412475586,
+          "raw_row_indices": [
+            34
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 4,
+      "device": 2,
+      "channel": "AD2",
+      "path": "/acquisition/timeseries/data_00004_AD2",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          8.282608973675387e-12
+        ],
+        "capacitance_slow": [
+          2.9999999880125916e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 8.282608973675387e-12,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.9999999880125916e-12,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Fast compensation time": {
+          "value": 1.0008756134993746e-06,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999464364168764,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.3998988125,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -69.98353451490402,
+          "raw_row_indices": [
+            41
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 4,
+      "device": 4,
+      "channel": "AD8",
+      "path": "/acquisition/timeseries/data_00004_AD8",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          7.983017892565503e-12
+        ],
+        "capacitance_slow": [
+          2.9999999880125916e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 7.983017892565503e-12,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.9999999880125916e-12,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Fast compensation time": {
+          "value": 9.785958354768809e-07,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999483879807869,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.39995315625,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -70.01371681690216,
+          "raw_row_indices": [
+            41
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 4,
+      "device": 5,
+      "channel": "AD9",
+      "path": "/acquisition/timeseries/data_00004_AD9",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          8.334203986659627e-12
+        ],
+        "capacitance_slow": [
+          2.8571429076806876e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 8.334203986659627e-12,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.8571429076806876e-12,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Fast compensation time": {
+          "value": 9.6782389391592e-07,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999999960041972,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.39985943749999997,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            41
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -70.01638412475586,
+          "raw_row_indices": [
+            41
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 5,
+      "device": 2,
+      "channel": "AD2",
+      "path": "/acquisition/timeseries/data_00005_AD2",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          8.282608973675387e-12
+        ],
+        "capacitance_slow": [
+          2.9999999880125916e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 8.282608973675387e-12,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.9999999880125916e-12,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Fast compensation time": {
+          "value": 1.0008756134993746e-06,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999464364168764,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.3998988125,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -69.98353451490402,
+          "raw_row_indices": [
+            48
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 5,
+      "device": 4,
+      "channel": "AD8",
+      "path": "/acquisition/timeseries/data_00005_AD8",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          7.983017892565503e-12
+        ],
+        "capacitance_slow": [
+          2.9999999880125916e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 7.983017892565503e-12,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.9999999880125916e-12,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Fast compensation time": {
+          "value": 9.785958354768809e-07,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999483879807869,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.39995315625,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -70.01371681690216,
+          "raw_row_indices": [
+            48
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 5,
+      "device": 5,
+      "channel": "AD9",
+      "path": "/acquisition/timeseries/data_00005_AD9",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          8.334203986659627e-12
+        ],
+        "capacitance_slow": [
+          2.8571429076806876e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 8.334203986659627e-12,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.8571429076806876e-12,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Fast compensation time": {
+          "value": 9.6782389391592e-07,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999999960041972,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.39985943749999997,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            48
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -70.01638412475586,
+          "raw_row_indices": [
+            48
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 6,
+      "device": 2,
+      "channel": "AD2",
+      "path": "/acquisition/timeseries/data_00006_AD2",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          8.282608973675387e-12
+        ],
+        "capacitance_slow": [
+          2.9999999880125916e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 8.282608973675387e-12,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.9999999880125916e-12,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Fast compensation time": {
+          "value": 1.0008756134993746e-06,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999464364168764,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.3998988125,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -69.98353451490402,
+          "raw_row_indices": [
+            55
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 6,
+      "device": 4,
+      "channel": "AD8",
+      "path": "/acquisition/timeseries/data_00006_AD8",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          7.983017892565503e-12
+        ],
+        "capacitance_slow": [
+          2.9999999880125916e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 7.983017892565503e-12,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.9999999880125916e-12,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Fast compensation time": {
+          "value": 9.785958354768809e-07,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999483879807869,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.39995315625,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -70.01371681690216,
+          "raw_row_indices": [
+            55
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    },
+    {
+      "sweep": 6,
+      "device": 5,
+      "channel": "AD9",
+      "path": "/acquisition/timeseries/data_00006_AD9",
+      "missing_fields": [
+        "resistance_comp_bandwidth",
+        "resistance_comp_correction",
+        "resistance_comp_prediction",
+        "whole_cell_capacitance_comp",
+        "whole_cell_series_resistance_comp"
+      ],
+      "datasets": {
+        "resistance_comp_bandwidth": null,
+        "resistance_comp_correction": null,
+        "resistance_comp_prediction": null,
+        "whole_cell_capacitance_comp": null,
+        "whole_cell_series_resistance_comp": null,
+        "capacitance_fast": [
+          8.334203986659627e-12
+        ],
+        "capacitance_slow": [
+          2.8571429076806876e-12
+        ]
+      },
+      "instrument_comment": {},
+      "notebook_numeric": {
+        "Fast compensation capacitance": {
+          "value": 8.334203986659627e-12,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Slow compensation capacitance": {
+          "value": 2.8571429076806876e-12,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Fast compensation time": {
+          "value": 9.6782389391592e-07,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Slow compensation time": {
+          "value": 9.999999747378752e-06,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "RsComp Bandwidth": {
+          "value": 1.02047998046875,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "RsComp Correction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "RsComp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "RsComp Prediction": {
+          "value": 0.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Whole Cell Comp Enable": {
+          "value": 0.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Whole Cell Comp Cap": {
+          "value": 0.9999999960041972,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Whole Cell Comp Resist": {
+          "value": 0.39985943749999997,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "Series Resistance": {
+          "value": 0.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "V-Clamp Holding Enable": {
+          "value": 1.0,
+          "raw_row_indices": [
+            55
+          ]
+        },
+        "V-Clamp Holding Level": {
+          "value": -70.01638412475586,
+          "raw_row_indices": [
+            55
+          ]
+        }
+      },
+      "enable_source": "labnotebook EntrySourceType=0 numeric settings",
+      "comment_rs_enabled": null,
+      "comment_whole_cell_enabled": null,
+      "rs_compensation_enabled": false,
+      "whole_cell_compensation_enabled": false,
+      "fast_slow_enable": "No separate enable field established; numerical capacitances are settings."
+    }
+  ],
+  "provenance": {
+    "remote": {
+      "url": "https://allen-synphys.s3-us-west-2.amazonaws.com/synphys-1574292898.139.nwb",
+      "bytes": 837666824,
+      "etag": "\"d75a9df955a518184274653255f990e1-100\"",
+      "last_modified": "Sat, 04 May 2024 04:45:36 GMT"
+    },
+    "base_manifest_sha256": "dfea65157ac4bfc8af5aae0c08964b6c4258e631655d9cd17a3c4140ff06b15d",
+    "used_base": {
+      "0": {
+        "bytes": 65536,
+        "sha256": "16dd12dc33b277c0db941a21ca52c49300d8299104b422cd525dd131647bef10"
+      },
+      "8585216": {
+        "bytes": 65536,
+        "sha256": "241ba6d962ca7f7225e81335ac3117d73125573f4fb779c1c79aee06d87bb4a7"
+      },
+      "393216": {
+        "bytes": 65536,
+        "sha256": "2c916e9e4acddc5c1b8318a8d761d3619ef12cc32c2fffb6c36d5a1520bfbef6"
+      },
+      "458752": {
+        "bytes": 65536,
+        "sha256": "482b846de17adde9dd3ed0ae69ce26bd0bf5c5b8958bed96e45e3ea913040ebf"
+      },
+      "131072": {
+        "bytes": 65536,
+        "sha256": "0e8cf5da639b45c0c5031e6f3bb0fa50d966246c9ccc110d2ca41f155eb6f6c3"
+      },
+      "65536": {
+        "bytes": 65536,
+        "sha256": "dfc10e2df3f49458cee03b119aea2d928381fa800a485771dea124c1066dadd5"
+      },
+      "196608": {
+        "bytes": 65536,
+        "sha256": "98c4165dbbf8163cf65e066ee7c720b151bb5e065d5d1814cb0257d6e8c0a494"
+      },
+      "262144": {
+        "bytes": 65536,
+        "sha256": "61e904b2d1ac98287f4b8ef5ae0d13929015b29916cdfb1ff4d3cb1f50d0fd61"
+      },
+      "327680": {
+        "bytes": 65536,
+        "sha256": "19e207ab2daa53dc86de4041f9c630fd3aff2457832414622d77214e816d8ff3"
+      },
+      "773849088": {
+        "bytes": 65536,
+        "sha256": "62956a8c1dde7ce8f11f9f95d51f1ea190b4733c5d6cda1e03695ded6c2d03ea"
+      },
+      "756350976": {
+        "bytes": 65536,
+        "sha256": "43e78cb1656aa1ac57cb21d6af76fda5fbb18b4437f0d588e8d7efdad2bb075c"
+      },
+      "710934528": {
+        "bytes": 65536,
+        "sha256": "95c845c733b4d6d7f2e00e595ea5c48492d4afab2b01ba27f5352ab5da112048"
+      },
+      "68681728": {
+        "bytes": 65536,
+        "sha256": "d44b4d14bdb7e6cce3cb500d57ba986fb5c20cb2af4d2118bd823bd0866e7a78"
+      },
+      "710410240": {
+        "bytes": 65536,
+        "sha256": "c6a5f921d5384e3ea0dda43e99175ddc94e41e267c49ce0d9ea9946b6142b0b2"
+      },
+      "710475776": {
+        "bytes": 65536,
+        "sha256": "98fdabef6c801fdfc9552fbf63f8e9e0a86b670b5d126153008fc42393aaef36"
+      },
+      "219414528": {
+        "bytes": 65536,
+        "sha256": "559247a1fdfb0f54cb5c37c7bdba915bdd76d135450bd269b006fae934faacbb"
+      },
+      "711524352": {
+        "bytes": 65536,
+        "sha256": "3de5745df8e28db8f8c6e664d7e0c3339ead5438909c0e93a8ce9849bdb12ed0"
+      },
+      "8519680": {
+        "bytes": 65536,
+        "sha256": "8247bf53febf6fee45d9b266f5c5fff76f647ea7e4b991b9e6a1cef6e30908bb"
+      },
+      "231276544": {
+        "bytes": 65536,
+        "sha256": "03cb043533b6513e5898d9e45f2434d0095a0a78c9775cbbab89c62c9eb400f1"
+      },
+      "712245248": {
+        "bytes": 65536,
+        "sha256": "f71c3e65f8741742515023b0a3837a44e4ad76766f15fb47f43dbfd5a582ddb9"
+      },
+      "712310784": {
+        "bytes": 65536,
+        "sha256": "71cbd335937ebbdd51074bfeb5bbd391ce39094afcec6c3b749037e2e11643de"
+      },
+      "246874112": {
+        "bytes": 65536,
+        "sha256": "7e4cf91c06d95d8ef20ffe597ca0def396679d89f06f27feb9bdfd6dde96e9dc"
+      },
+      "713031680": {
+        "bytes": 65536,
+        "sha256": "5d343aec33c2de20c281346e4ea80c2020bff4538b668fed4a7b2d9a213739b1"
+      },
+      "716242944": {
+        "bytes": 65536,
+        "sha256": "08af9097b297548bca138e84c78be7f2a1a334a880e9a88916d404eb15f24963"
+      },
+      "297926656": {
+        "bytes": 65536,
+        "sha256": "518292404098bb8eaa2e55682a3a24315be4ca1f8ab2becf1ebacf6b8df925b4"
+      },
+      "713555968": {
+        "bytes": 65536,
+        "sha256": "43726ec7a2262f3ab5e95a75b5f4efe737ec4932fc17572997a062516ec708b7"
+      },
+      "354091008": {
+        "bytes": 65536,
+        "sha256": "707390e1e70e73b68fb02cf366a934be6533641535fdc79dc93e64b2b53568c6"
+      },
+      "714276864": {
+        "bytes": 65536,
+        "sha256": "ae4587d3e063584fbe35357d6b77d9b307da0dafc8047fa24061e83bd602cee2"
+      },
+      "714211328": {
+        "bytes": 65536,
+        "sha256": "7c6265b0e6981aa506ebc65be1f92ac45e345ee2fa2b90e08851c069e7228d3e"
+      },
+      "475332608": {
+        "bytes": 65536,
+        "sha256": "79e46a83ef5da80e941fd99b6fe2d5093dd3aadf59151aa8d396605876b64c7d"
+      },
+      "714932224": {
+        "bytes": 65536,
+        "sha256": "718d26892ab27e00d84162f151341b2ecabfd18dd9aff4413d9f8cb8445fd447"
+      },
+      "506331136": {
+        "bytes": 65536,
+        "sha256": "4fed1304dc1c8529406fc8a22fa566a65b170513e0a3b1c7652f4882dc15a4d8"
+      },
+      "715522048": {
+        "bytes": 65536,
+        "sha256": "47fe890987972d236a0bea7434a85c924635ef3e084712cc51fe68cd7a2a60d2"
+      },
+      "715456512": {
+        "bytes": 65536,
+        "sha256": "8b93861209aae073c7574020c3eb68d688da2766e66ee8a2a32231065425493f"
+      },
+      "718864384": {
+        "bytes": 65536,
+        "sha256": "b3fc7db821f848232beff59cea7639fdf1fa51146b5ffa5b1964739e3edc5fcb"
+      },
+      "511705088": {
+        "bytes": 65536,
+        "sha256": "bef47052626039ba35fd988648cb69c33fd68a12e2fed2a99a7c37136b2d13dd"
+      },
+      "716177408": {
+        "bytes": 65536,
+        "sha256": "a1f8c4f4f8537cb5e11a2d9c4c2b0c1b7824f5fb89e161892a45e67448709101"
+      },
+      "524091392": {
+        "bytes": 65536,
+        "sha256": "b94408f8a10fcb1f2d18369776afc99d73e3e08df39245735ad05a10415535c0"
+      },
+      "716963840": {
+        "bytes": 65536,
+        "sha256": "bc9ff1c30847bb698c012bc3653b0f1545b8640d82c82697359842a124ac695d"
+      },
+      "716570624": {
+        "bytes": 65536,
+        "sha256": "1dc3dfeee6f26b4886cb7b8dea5f4237ce7edac765248ad11841337aa1b3b53f"
+      },
+      "716898304": {
+        "bytes": 65536,
+        "sha256": "440d3f060805a8fa9e3389648dd0518ea9c7c1b96face986287958314bf4fe88"
+      },
+      "530317312": {
+        "bytes": 65536,
+        "sha256": "d48b5aa0aa1a24d3464621454f795a6f1baa23bd2c6f7c23954cf999dd8ca139"
+      },
+      "717225984": {
+        "bytes": 65536,
+        "sha256": "c423376d035d62b82041ceec7161c92685ebc2b7ab5cb2409b3e7aaeef476d78"
+      },
+      "717488128": {
+        "bytes": 65536,
+        "sha256": "2a15ebc32fb3188d14906da592246ea33623167a9afe5aaccb5100795e15b5ad"
+      },
+      "541392896": {
+        "bytes": 65536,
+        "sha256": "6dde25b460d09e0ba6958ef1473480c348dc6b09e1e248e189d86fc25ca6f7c6"
+      },
+      "718209024": {
+        "bytes": 65536,
+        "sha256": "4591ee537e05439d1185a04610e838df708b2696ac15b12f44d4c47f00c6a8aa"
+      },
+      "721420288": {
+        "bytes": 65536,
+        "sha256": "a3a564113dcc86c4b91c8bb597fc94a21e1e6f77d30b49385610193c221f3198"
+      },
+      "545980416": {
+        "bytes": 65536,
+        "sha256": "d70acc43a903274b684c6288b03190e1387775dc89b0f25b58fdf4bfcffc522e"
+      },
+      "550436864": {
+        "bytes": 65536,
+        "sha256": "574b29fab695b3e6c8e6584b31a0639a1d48c74f1d7b2512a05406d44d1ec4cf"
+      },
+      "719454208": {
+        "bytes": 65536,
+        "sha256": "0740faa94c1560c4258e397e61037801a009aec86bd0b602016c9be7473ccb34"
+      },
+      "566034432": {
+        "bytes": 65536,
+        "sha256": "4b395453e5513b693b3106d719bc7098e58b85a50164339c5b0b7f401ffb8e38"
+      },
+      "720175104": {
+        "bytes": 65536,
+        "sha256": "728ff7bfe63751417aaf71db6e3a21d9c3d22e11394415e588c05c667ee21935"
+      },
+      "720109568": {
+        "bytes": 65536,
+        "sha256": "cb7f7be4ea9e52b8beb22e102cfde09431513fe4f88a0d47c419bca7a77f342a"
+      },
+      "575340544": {
+        "bytes": 65536,
+        "sha256": "307934fc48e1cc3cfec6c58a478ea86bae32cda85ad5f4e77377eafd98d73541"
+      },
+      "720830464": {
+        "bytes": 65536,
+        "sha256": "c72c7637c4e80fd7b814953de250b04aaacb5e40a831e164b6ed60093572cade"
+      },
+      "600244224": {
+        "bytes": 65536,
+        "sha256": "4884ad4f9928ca061f1ba8ed4e8391fbe860eed08d6be5ba257fa8f22018675c"
+      },
+      "721354752": {
+        "bytes": 65536,
+        "sha256": "5c9ca2ddff9c638bef9b7383ffecafebfec5f0611390270fcc5943688b6c2cbe"
+      },
+      "615841792": {
+        "bytes": 65536,
+        "sha256": "cbfa2343e812e409f9406fb6cb0ddbb7985c8471fd6ceb32dc4c5910d2bbc8c1"
+      },
+      "722141184": {
+        "bytes": 65536,
+        "sha256": "bce67f9bc73111acc7c16ee221e2d883f8fb62a154d8d86d2ece082073fed5e3"
+      },
+      "628490240": {
+        "bytes": 65536,
+        "sha256": "ac0b03649575250fbd50155d7116979ba799a1378ece555fe50c9a27ae7e576e"
+      },
+      "722796544": {
+        "bytes": 65536,
+        "sha256": "8ea7a3fc94214dd1bb484418b2cdb148c167ae3f341d839c4a8b4a2d8c6cf35f"
+      },
+      "650838016": {
+        "bytes": 65536,
+        "sha256": "091b4222831b98ab75b32a84d2e32c350287251bba4d82aac522d6675eb55ecd"
+      },
+      "723386368": {
+        "bytes": 65536,
+        "sha256": "f8138ffae76087d8fb64dd3d630e358a0409643a4bdca44fbb52d4022c0493dc"
+      },
+      "726925312": {
+        "bytes": 65536,
+        "sha256": "7cc3aa1275c45ac1dbe5ab1e9252fe43eeb5ee19a4733ac932fe9a09a013f9d7"
+      },
+      "724107264": {
+        "bytes": 65536,
+        "sha256": "6a4b32a546b5754ebe99493754126ca78922bdc8625938fbb4eece6c59aaba96"
+      }
+    },
+    "used_overlay": {},
+    "downloaded_this_session": 0,
+    "overlay_manifest_sha256": "2780277f58632d68826dc09a892d70f33e15c3cb26370e423faf57ac5f5b5abc"
+  },
+  "units": {
+    "capacitance_fast": "F",
+    "capacitance_slow": "F",
+    "comments": "Units retained verbatim; rounded display."
+  },
+  "interpretation": "Instrument settings, not membrane capacitance estimates. Missing datasets are not zeros; disabled circuits are not applied compensation.",
+  "definitions": [
+    "https://alleninstitute.github.io/MIES/labnotebook-descriptions.html",
+    "https://alleninstitute.github.io/MIES/IPNWB/doc/nwb1.html"
+  ]
+}

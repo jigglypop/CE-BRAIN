@@ -1,4 +1,5 @@
 from __future__ import annotations
+from importlib.metadata import distribution as _distribution
 
 import importlib.util
 from fractions import Fraction as F
@@ -7,7 +8,7 @@ import sys
 
 
 ROOT = Path(__file__).resolve().parents[1]
-MODULE_DIR = ROOT / "reality_stone" / "python" / "reality_stone" / "clarus"
+MODULE_DIR = Path(_distribution("reality_stone").locate_file("reality_stone")) / "clarus"
 
 
 def _load(name: str, filename: str):

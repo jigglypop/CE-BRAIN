@@ -525,12 +525,12 @@ adapter와 evidence seed 실행을 승인하지 않았다. 2026-08-12 후속 lig
 
 구현된 opt-in unit surface:
 
-- [finite tower generator](../../reality_stone/python/reality_stone/clarus/nested_scc_tower.py)
-- [finite controller](../../reality_stone/python/reality_stone/clarus/adaptive_scc_tower_controller.py)
+- [finite tower generator](https://github.com/jigglypop/reality_stone/blob/v0.3.0/python/reality_stone/clarus/nested_scc_tower.py)
+- [finite controller](https://github.com/jigglypop/reality_stone/blob/v0.3.0/python/reality_stone/clarus/adaptive_scc_tower_controller.py)
 - [graph·dynamics unit tests](../../tests/test_nested_scc_tower.py)
 - [controller·intervention unit tests](../../tests/test_adaptive_scc_tower_controller.py)
 - [deterministic non-evidence demo](../../examples/agi/nested_scc_tower_demo.py)
-- [opt-in runtime action path](../../reality_stone/python/reality_stone/clarus/agent.py)
+- [opt-in runtime action path](https://github.com/jigglypop/reality_stone/blob/v0.3.0/python/reality_stone/clarus/agent.py)
 - [runtime integration tests](../../tests/test_agent.py)
 - [runtime integration demo](../../examples/agi/nested_scc_runtime_agent_demo.py)
 
@@ -769,4 +769,4 @@ V17 근거:
 - 등록 계약
 - 독립 수학 검증
 - **[미완성] 봉인 확인 결과:** 선행 run이 인용한 `artifacts/confirmation-results.json`은 현재 보관본에 없어 재현할 수 없다.
-- [homogeneous signed-cue 구현](../../reality_stone/python/reality_stone/clarus/homogeneous_signed_cue.py)
+- [homogeneous signed-cue 구현](https://github.com/jigglypop/reality_stone/blob/v0.3.0/python/reality_stone/clarus/homogeneous_signed_cue.py)

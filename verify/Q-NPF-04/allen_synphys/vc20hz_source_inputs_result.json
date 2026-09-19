@@ -1,0 +1,4001 @@
+{
+  "schema": "allen.vc20hz.source-inputs.v1",
+  "source_sha256": "2a10fbf34a3c15b0f33765baf6b335249ebb06647d47cda6429b4d6b123227cb",
+  "test_sha256": "6ba38701e4a32c468475487706f2b2eff518d5aff471798a571ad4078547ed20",
+  "python": "3.11.9",
+  "numpy": "2.4.6",
+  "h5py": "3.16.0",
+  "provenance": {
+    "remote": {
+      "url": "https://allen-synphys.s3-us-west-2.amazonaws.com/synphys-1574292898.139.nwb",
+      "bytes": 837666824,
+      "etag": "\"d75a9df955a518184274653255f990e1-100\"",
+      "last_modified": "Sat, 04 May 2024 04:45:36 GMT"
+    },
+    "base_manifest": "data\\external\\allen_synphys_r21\\raw_ranges\\1574292898.139\\manifest.json",
+    "base_manifest_sha256": "dfea65157ac4bfc8af5aae0c08964b6c4258e631655d9cd17a3c4140ff06b15d",
+    "used_base": {
+      "0": {
+        "bytes": 65536,
+        "sha256": "16dd12dc33b277c0db941a21ca52c49300d8299104b422cd525dd131647bef10"
+      },
+      "773849088": {
+        "bytes": 65536,
+        "sha256": "62956a8c1dde7ce8f11f9f95d51f1ea190b4733c5d6cda1e03695ded6c2d03ea"
+      },
+      "756350976": {
+        "bytes": 65536,
+        "sha256": "43e78cb1656aa1ac57cb21d6af76fda5fbb18b4437f0d588e8d7efdad2bb075c"
+      },
+      "710934528": {
+        "bytes": 65536,
+        "sha256": "95c845c733b4d6d7f2e00e595ea5c48492d4afab2b01ba27f5352ab5da112048"
+      },
+      "231276544": {
+        "bytes": 65536,
+        "sha256": "03cb043533b6513e5898d9e45f2434d0095a0a78c9775cbbab89c62c9eb400f1"
+      },
+      "712245248": {
+        "bytes": 65536,
+        "sha256": "f71c3e65f8741742515023b0a3837a44e4ad76766f15fb47f43dbfd5a582ddb9"
+      },
+      "712310784": {
+        "bytes": 65536,
+        "sha256": "71cbd335937ebbdd51074bfeb5bbd391ce39094afcec6c3b749037e2e11643de"
+      },
+      "712638464": {
+        "bytes": 65536,
+        "sha256": "396646fab7f4364d978aac50ac2b756639edf307b2670176bf9c14e1d52b3b97"
+      },
+      "712966144": {
+        "bytes": 65536,
+        "sha256": "44e3b62e4f5d1df4abc61775af8e239fbb72c5573e0a4db66101244796fed49e"
+      },
+      "712704000": {
+        "bytes": 65536,
+        "sha256": "187c705c4702a99d00a438bd484019dd8f34cb79e737d7950da0adc6a534acc6"
+      },
+      "712769536": {
+        "bytes": 65536,
+        "sha256": "e2f8975edcf9de445db6663e0b29fa6f19a0bbc795a5424afcbd4d4c3c2b1512"
+      },
+      "712835072": {
+        "bytes": 65536,
+        "sha256": "1b36341511694134efd4470fb8789225754c94b9fe8d92f5b2f8acfca2e3bc49"
+      },
+      "710410240": {
+        "bytes": 65536,
+        "sha256": "c6a5f921d5384e3ea0dda43e99175ddc94e41e267c49ce0d9ea9946b6142b0b2"
+      },
+      "710475776": {
+        "bytes": 65536,
+        "sha256": "98fdabef6c801fdfc9552fbf63f8e9e0a86b670b5d126153008fc42393aaef36"
+      },
+      "219414528": {
+        "bytes": 65536,
+        "sha256": "559247a1fdfb0f54cb5c37c7bdba915bdd76d135450bd269b006fae934faacbb"
+      },
+      "711524352": {
+        "bytes": 65536,
+        "sha256": "3de5745df8e28db8f8c6e664d7e0c3339ead5438909c0e93a8ce9849bdb12ed0"
+      },
+      "711852032": {
+        "bytes": 65536,
+        "sha256": "daeb605f86a2e08a2f3cec2c49dd9f743a54dbec479f6144734fd7f0a1a47aab"
+      },
+      "8519680": {
+        "bytes": 65536,
+        "sha256": "8247bf53febf6fee45d9b266f5c5fff76f647ea7e4b991b9e6a1cef6e30908bb"
+      },
+      "711983104": {
+        "bytes": 65536,
+        "sha256": "9adaaebc3fb97e331fb247adef8b17b69bf1ce93c0954c9788263e276955c22e"
+      },
+      "712048640": {
+        "bytes": 65536,
+        "sha256": "7fbc507a825b75b5d5c215324104f66b49c575178f3b67007e1c43c7a972e82d"
+      },
+      "68681728": {
+        "bytes": 65536,
+        "sha256": "d44b4d14bdb7e6cce3cb500d57ba986fb5c20cb2af4d2118bd823bd0866e7a78"
+      },
+      "711196672": {
+        "bytes": 65536,
+        "sha256": "ee8c11a823615509f0a4ee404e8c7c6fcc9865c34ab6ffb767645cb5ab0f3fad"
+      },
+      "711458816": {
+        "bytes": 65536,
+        "sha256": "b644fe39356e63f20ec5d0c5cbccec6d102695f36d67484ef0f779ecb7a2ffd6"
+      },
+      "774373376": {
+        "bytes": 65536,
+        "sha256": "a750919e82def9e13f1556fb2803bf4966bfb4e5f1f334fcacb5e382eb899743"
+      },
+      "756482048": {
+        "bytes": 65536,
+        "sha256": "e2b084c024f2cfff001e477864939109a49785d0e47cf4c567c19c14b5212eb9"
+      },
+      "245563392": {
+        "bytes": 65536,
+        "sha256": "c8d2d7c7c508b2ecd930f9c6bce19a2ec636475b1cf5fbc509e3a87394b0f65d"
+      },
+      "713031680": {
+        "bytes": 65536,
+        "sha256": "5d343aec33c2de20c281346e4ea80c2020bff4538b668fed4a7b2d9a213739b1"
+      },
+      "231145472": {
+        "bytes": 65536,
+        "sha256": "1388d20b0a16767a3e314aeacc5caa671780be91e3b37ad83e4396803afd7ab9"
+      },
+      "106823680": {
+        "bytes": 65536,
+        "sha256": "c2d0ed1f4e2759c2741f655f48ff7ae2975532e40e183e03d6f6a58b4474d2c6"
+      },
+      "716242944": {
+        "bytes": 65536,
+        "sha256": "08af9097b297548bca138e84c78be7f2a1a334a880e9a88916d404eb15f24963"
+      },
+      "354091008": {
+        "bytes": 65536,
+        "sha256": "707390e1e70e73b68fb02cf366a934be6533641535fdc79dc93e64b2b53568c6"
+      },
+      "714276864": {
+        "bytes": 65536,
+        "sha256": "ae4587d3e063584fbe35357d6b77d9b307da0dafc8047fa24061e83bd602cee2"
+      },
+      "714932224": {
+        "bytes": 65536,
+        "sha256": "718d26892ab27e00d84162f151341b2ecabfd18dd9aff4413d9f8cb8445fd447"
+      },
+      "714670080": {
+        "bytes": 65536,
+        "sha256": "b9205832529e025b252d2c59e023584752c7a0416532952add7fc5c4d64d0e66"
+      },
+      "714735616": {
+        "bytes": 65536,
+        "sha256": "f3081d8c5bb563820bcaebec70bce9124e0fe3dfcfebf470ca10cdab4a69e830"
+      },
+      "714211328": {
+        "bytes": 65536,
+        "sha256": "7c6265b0e6981aa506ebc65be1f92ac45e345ee2fa2b90e08851c069e7228d3e"
+      },
+      "297926656": {
+        "bytes": 65536,
+        "sha256": "518292404098bb8eaa2e55682a3a24315be4ca1f8ab2becf1ebacf6b8df925b4"
+      },
+      "713555968": {
+        "bytes": 65536,
+        "sha256": "43726ec7a2262f3ab5e95a75b5f4efe737ec4932fc17572997a062516ec708b7"
+      },
+      "713883648": {
+        "bytes": 65536,
+        "sha256": "b01f66929f9ca582b9eb6d9e56a0b7ee19eb2dc86035508b0578ac87ac900491"
+      },
+      "713949184": {
+        "bytes": 65536,
+        "sha256": "935db4f39fdf68fff280dee1fa41b99400c38ec36a9c1ac6f5da6c67967ac4a7"
+      },
+      "714014720": {
+        "bytes": 65536,
+        "sha256": "86c49a5e5cd1bbc3395a21c6c0dcba4db0bf0c37841d9e3b5df177c23f7b981a"
+      },
+      "714080256": {
+        "bytes": 65536,
+        "sha256": "a7b514d8c2fce0876b17b5756ca542cebab31077e065c6686b9bc94f34fa072c"
+      },
+      "246874112": {
+        "bytes": 65536,
+        "sha256": "7e4cf91c06d95d8ef20ffe597ca0def396679d89f06f27feb9bdfd6dde96e9dc"
+      },
+      "713293824": {
+        "bytes": 65536,
+        "sha256": "b28517f30ee00284935c26362062a4b19ba9c0da8efd48d4f66e7ac5b18d5ed9"
+      },
+      "716898304": {
+        "bytes": 65536,
+        "sha256": "440d3f060805a8fa9e3389648dd0518ea9c7c1b96face986287958314bf4fe88"
+      },
+      "379650048": {
+        "bytes": 65536,
+        "sha256": "412988f8a83c69dc4afed0685f828f029b381d4172996e87b0b02b9460f82147"
+      },
+      "317128704": {
+        "bytes": 65536,
+        "sha256": "0beb9661de44af7380f46450aca237a10fe75328cd538ced161481b170da6190"
+      },
+      "718864384": {
+        "bytes": 65536,
+        "sha256": "b3fc7db821f848232beff59cea7639fdf1fa51146b5ffa5b1964739e3edc5fcb"
+      },
+      "511705088": {
+        "bytes": 65536,
+        "sha256": "bef47052626039ba35fd988648cb69c33fd68a12e2fed2a99a7c37136b2d13dd"
+      },
+      "716570624": {
+        "bytes": 65536,
+        "sha256": "1dc3dfeee6f26b4886cb7b8dea5f4237ce7edac765248ad11841337aa1b3b53f"
+      },
+      "716177408": {
+        "bytes": 65536,
+        "sha256": "a1f8c4f4f8537cb5e11a2d9c4c2b0c1b7824f5fb89e161892a45e67448709101"
+      },
+      "716636160": {
+        "bytes": 65536,
+        "sha256": "84ea1ca253448833a9698462b802eeb060fd6b86ce2facd0580d128458b0ab2d"
+      },
+      "716701696": {
+        "bytes": 65536,
+        "sha256": "e2c82d8ca17198671eca0a7cf062655e7593c3ef1cf35621fc63a86368557859"
+      },
+      "716767232": {
+        "bytes": 65536,
+        "sha256": "3fab9a036cc916d10b940d924a99e72f42d1c4c3139f83bedd5e1c3cb1a9c9a4"
+      },
+      "506331136": {
+        "bytes": 65536,
+        "sha256": "4fed1304dc1c8529406fc8a22fa566a65b170513e0a3b1c7652f4882dc15a4d8"
+      },
+      "715522048": {
+        "bytes": 65536,
+        "sha256": "47fe890987972d236a0bea7434a85c924635ef3e084712cc51fe68cd7a2a60d2"
+      },
+      "715849728": {
+        "bytes": 65536,
+        "sha256": "4ad26ae7a053a5150e04488abbf2780554554abcb6cc6c7973bbb73a973dea3a"
+      },
+      "715915264": {
+        "bytes": 65536,
+        "sha256": "95a92357a7f9d787b77cdd0737d04a781cbc214533765eddc2826fddd6d39634"
+      },
+      "715980800": {
+        "bytes": 65536,
+        "sha256": "f30d3bfa44e7a009fb064a7ebfd1fac25524991a0bc9531705a7894c7b3b7e64"
+      },
+      "716046336": {
+        "bytes": 65536,
+        "sha256": "000f848e0980783d1136a537a7eeafa1f7bf2f450972d1ed8b001243e10e4f57"
+      },
+      "715456512": {
+        "bytes": 65536,
+        "sha256": "8b93861209aae073c7574020c3eb68d688da2766e66ee8a2a32231065425493f"
+      },
+      "475332608": {
+        "bytes": 65536,
+        "sha256": "79e46a83ef5da80e941fd99b6fe2d5093dd3aadf59151aa8d396605876b64c7d"
+      },
+      "715194368": {
+        "bytes": 65536,
+        "sha256": "67a0bd7f703e597151c3cc760d13a9c7c62e4b8d9bdb9f3d127d26e79a71bc41"
+      },
+      "719388672": {
+        "bytes": 65536,
+        "sha256": "d992c6fad313568bac21227b7fccaee0d02a987da0711c8cc1027006dc231701"
+      },
+      "520028160": {
+        "bytes": 65536,
+        "sha256": "ac1576d68a2391ff41c0b9ff4247df7ec9262c50d25fb50235fe8c1747dfefc3"
+      },
+      "716963840": {
+        "bytes": 65536,
+        "sha256": "bc9ff1c30847bb698c012bc3653b0f1545b8640d82c82697359842a124ac695d"
+      },
+      "506396672": {
+        "bytes": 65536,
+        "sha256": "12797a4401d08d35138f0994b37f0402018280f90d0c12245b451894911f89b1"
+      },
+      "541392896": {
+        "bytes": 65536,
+        "sha256": "6dde25b460d09e0ba6958ef1473480c348dc6b09e1e248e189d86fc25ca6f7c6"
+      },
+      "718209024": {
+        "bytes": 65536,
+        "sha256": "4591ee537e05439d1185a04610e838df708b2696ac15b12f44d4c47f00c6a8aa"
+      },
+      "718536704": {
+        "bytes": 65536,
+        "sha256": "08f9c81926942ea5738f164fadc231214c9a2c379e1eee56f206bb63e05204e4"
+      },
+      "718602240": {
+        "bytes": 65536,
+        "sha256": "da50f9e23529ab0b0a32669c76e1b5039e730d113413d4e278d7b21d5cae7c35"
+      },
+      "718667776": {
+        "bytes": 65536,
+        "sha256": "184f13aab4663af06e8fdef2161ac6440bed937f875eb1e9ae5001e94bb266d6"
+      },
+      "718733312": {
+        "bytes": 65536,
+        "sha256": "68cd937ccc6ce5cc6d5fb2154f6a7a5fc16f0391cfbaa63d37d30dfe3b4e44b2"
+      },
+      "530317312": {
+        "bytes": 65536,
+        "sha256": "d48b5aa0aa1a24d3464621454f795a6f1baa23bd2c6f7c23954cf999dd8ca139"
+      },
+      "717225984": {
+        "bytes": 65536,
+        "sha256": "c423376d035d62b82041ceec7161c92685ebc2b7ab5cb2409b3e7aaeef476d78"
+      },
+      "717488128": {
+        "bytes": 65536,
+        "sha256": "2a15ebc32fb3188d14906da592246ea33623167a9afe5aaccb5100795e15b5ad"
+      },
+      "717815808": {
+        "bytes": 65536,
+        "sha256": "eb9075469ce2c374635ddfec13fe167d754c678a0376dfb6544411d8b121cdfe"
+      },
+      "717946880": {
+        "bytes": 65536,
+        "sha256": "6974ab26d476c4c309d210dfb9fa4127c5a4c22df8ae37154970caf6ffc43356"
+      },
+      "718012416": {
+        "bytes": 65536,
+        "sha256": "50207c44472156f78059d022ae0f38d91d3eb0b066fd7557a00bb2b3d4e23bc5"
+      },
+      "524091392": {
+        "bytes": 65536,
+        "sha256": "b94408f8a10fcb1f2d18369776afc99d73e3e08df39245735ad05a10415535c0"
+      },
+      "542703616": {
+        "bytes": 65536,
+        "sha256": "ff152bb89d9189dafd04233d8f00e1dc27633705dec4495cae506fd74f306baa"
+      },
+      "538902528": {
+        "bytes": 65536,
+        "sha256": "21fdc26d9ef9ecded5752a263719684d2e61ba64abecbfebcb7c3290f926f9da"
+      },
+      "721420288": {
+        "bytes": 65536,
+        "sha256": "a3a564113dcc86c4b91c8bb597fc94a21e1e6f77d30b49385610193c221f3198"
+      },
+      "566034432": {
+        "bytes": 65536,
+        "sha256": "4b395453e5513b693b3106d719bc7098e58b85a50164339c5b0b7f401ffb8e38"
+      },
+      "720175104": {
+        "bytes": 65536,
+        "sha256": "728ff7bfe63751417aaf71db6e3a21d9c3d22e11394415e588c05c667ee21935"
+      },
+      "720502784": {
+        "bytes": 65536,
+        "sha256": "73b0761e1ed63397852c3d62205ecf9d2be34a933430e36b627abb3b875a166f"
+      },
+      "720830464": {
+        "bytes": 65536,
+        "sha256": "c72c7637c4e80fd7b814953de250b04aaacb5e40a831e164b6ed60093572cade"
+      },
+      "720568320": {
+        "bytes": 65536,
+        "sha256": "35735d3004f2a819eaf85b43b0f8de2143bfea3bd9d5c6d3fbd5a74991d553aa"
+      },
+      "720633856": {
+        "bytes": 65536,
+        "sha256": "7aaed3d10a035cb8f3a3a90bb25661aef4b0353bbb821b9030a607346ff10531"
+      },
+      "720699392": {
+        "bytes": 65536,
+        "sha256": "2eafe672c769db0d79e47901f4d387c913c7c0b6a35691f9f8b139d455d1003d"
+      },
+      "550436864": {
+        "bytes": 65536,
+        "sha256": "574b29fab695b3e6c8e6584b31a0639a1d48c74f1d7b2512a05406d44d1ec4cf"
+      },
+      "719454208": {
+        "bytes": 65536,
+        "sha256": "0740faa94c1560c4258e397e61037801a009aec86bd0b602016c9be7473ccb34"
+      },
+      "719781888": {
+        "bytes": 65536,
+        "sha256": "95a8064e464160204062cbe24fd1c02fe37ab3813b6d5c9f5295687111c85bbe"
+      },
+      "720109568": {
+        "bytes": 65536,
+        "sha256": "cb7f7be4ea9e52b8beb22e102cfde09431513fe4f88a0d47c419bca7a77f342a"
+      },
+      "719847424": {
+        "bytes": 65536,
+        "sha256": "0b064aa54263caba002723572c7e9dd5cdc069facf281ad5e3c5a682e5505434"
+      },
+      "719912960": {
+        "bytes": 65536,
+        "sha256": "ebcd5b219c504b68826b75fea7d2bf9c5a7b7dea519398c5a4e745ff15ae6d47"
+      },
+      "719978496": {
+        "bytes": 65536,
+        "sha256": "c85b6e7d1b54940e374099d42147651a979a4d8f89a34a686720f4fe40164943"
+      },
+      "545980416": {
+        "bytes": 65536,
+        "sha256": "d70acc43a903274b684c6288b03190e1387775dc89b0f25b58fdf4bfcffc522e"
+      },
+      "722141184": {
+        "bytes": 65536,
+        "sha256": "bce67f9bc73111acc7c16ee221e2d883f8fb62a154d8d86d2ece082073fed5e3"
+      },
+      "567541760": {
+        "bytes": 65536,
+        "sha256": "3ea4e412c39abce91552d975c63f39d0c99264e84e5bbd6b2bbdf5e36c092bbb"
+      },
+      "564527104": {
+        "bytes": 65536,
+        "sha256": "2e7cc716586ba243d31533a82d90644f1df7711b89f69507bb76475c7dedf252"
+      },
+      "615841792": {
+        "bytes": 65536,
+        "sha256": "cbfa2343e812e409f9406fb6cb0ddbb7985c8471fd6ceb32dc4c5910d2bbc8c1"
+      },
+      "722468864": {
+        "bytes": 65536,
+        "sha256": "130f2403e44e7b51e6d2536267c9461010098ea0d3d70716d80f851dccedec74"
+      },
+      "722796544": {
+        "bytes": 65536,
+        "sha256": "8ea7a3fc94214dd1bb484418b2cdb148c167ae3f341d839c4a8b4a2d8c6cf35f"
+      },
+      "600244224": {
+        "bytes": 65536,
+        "sha256": "4884ad4f9928ca061f1ba8ed4e8391fbe860eed08d6be5ba257fa8f22018675c"
+      },
+      "721747968": {
+        "bytes": 65536,
+        "sha256": "22f6be1c70d65efc10e9db187b40d7eb4ceb08f84e1f402b963b41d62a862b4c"
+      },
+      "721354752": {
+        "bytes": 65536,
+        "sha256": "5c9ca2ddff9c638bef9b7383ffecafebfec5f0611390270fcc5943688b6c2cbe"
+      },
+      "575340544": {
+        "bytes": 65536,
+        "sha256": "307934fc48e1cc3cfec6c58a478ea86bae32cda85ad5f4e77377eafd98d73541"
+      },
+      "721092608": {
+        "bytes": 65536,
+        "sha256": "43d13b7e286a0841dbb04bab42354dd8382cae2dadc22cf158d73353b3126276"
+      },
+      "623575040": {
+        "bytes": 65536,
+        "sha256": "b3bec6b7e4482355108638d95a566c17e7bc2c11069a0b0e91f0d9164e04cf06"
+      },
+      "602210304": {
+        "bytes": 65536,
+        "sha256": "cb6e9864c14b43fb23daeb632fcf9ab518ac42b9693f4fed1ba2911cce26c950"
+      },
+      "726925312": {
+        "bytes": 65536,
+        "sha256": "7cc3aa1275c45ac1dbe5ab1e9252fe43eeb5ee19a4733ac932fe9a09a013f9d7"
+      },
+      "724107264": {
+        "bytes": 65536,
+        "sha256": "6a4b32a546b5754ebe99493754126ca78922bdc8625938fbb4eece6c59aaba96"
+      },
+      "724434944": {
+        "bytes": 65536,
+        "sha256": "1743c1dadc6824c934a899443cc623d139fbb7670c6bb6b7df9ce9ff5297cccb"
+      },
+      "724762624": {
+        "bytes": 65536,
+        "sha256": "be14c010ab022da9e3efab6409520c4db544e39a0a6bde41dc6f20e96f533228"
+      },
+      "650838016": {
+        "bytes": 65536,
+        "sha256": "091b4222831b98ab75b32a84d2e32c350287251bba4d82aac522d6675eb55ecd"
+      },
+      "723386368": {
+        "bytes": 65536,
+        "sha256": "f8138ffae76087d8fb64dd3d630e358a0409643a4bdca44fbb52d4022c0493dc"
+      },
+      "723714048": {
+        "bytes": 65536,
+        "sha256": "83ab2ce9c94e2b0c7f5da51d6c58a077cf548c1d72f047c9afc312f760b55399"
+      },
+      "628490240": {
+        "bytes": 65536,
+        "sha256": "ac0b03649575250fbd50155d7116979ba799a1378ece555fe50c9a27ae7e576e"
+      },
+      "722862080": {
+        "bytes": 65536,
+        "sha256": "85a4027ff044b2f950d4c7a3dcdd293cba366d818684466c5f3a94f8ebe7bc2c"
+      },
+      "723124224": {
+        "bytes": 65536,
+        "sha256": "2a63d4a92ee70c0951b42e056532d1358c27d999b3d90314b10e18662334395b"
+      },
+      "727580672": {
+        "bytes": 65536,
+        "sha256": "76ceaba3a8f12e3dacaa801f47b46ab0f9919b37ef890db3d56bc31e84e8e8c7"
+      },
+      "698286080": {
+        "bytes": 65536,
+        "sha256": "43eb8f47a4b9b2ef3e3cab2a5d0da33c2fdfee6bd48072a94bbcb1abd16227e0"
+      }
+    },
+    "used_overlay": {
+      "712376320": {
+        "bytes": 65536,
+        "sha256": "869ad16aa31f7d9db0f028b63fd9a777af8929af439dd09063de2ae6aa24aac1"
+      },
+      "712441856": {
+        "bytes": 65536,
+        "sha256": "b057d650a1b5d4ec30d1dadc9e4166f00dcd784a7d15c312248c861eb42d9553"
+      },
+      "712507392": {
+        "bytes": 65536,
+        "sha256": "20e32b04e69ee8ae5a383c0d639d3570c0d6042c68ec775083ef1f3e9817ecc7"
+      },
+      "712572928": {
+        "bytes": 65536,
+        "sha256": "033e81d78e3bed08c767f1fde9c08b9037b031a102ac4d873b6d0a32265392e7"
+      },
+      "712900608": {
+        "bytes": 65536,
+        "sha256": "3519a46b3e700b5e7aff696a5a9c84574f13368187e9dbc3d5527185ec5d160a"
+      },
+      "711589888": {
+        "bytes": 65536,
+        "sha256": "2f6476036df085bd71d9923505a8f7175468b43bb0b435f4c410b23e0f57503b"
+      },
+      "711655424": {
+        "bytes": 65536,
+        "sha256": "23388ba3920694bc27aa3b8bf8f5c53f9ee79cdc00c7fbef9b273e86f5f86976"
+      },
+      "711720960": {
+        "bytes": 65536,
+        "sha256": "f5527ff5cc2d8837388947a287246a5e73951125dee96fe1ca9e517cc359c662"
+      },
+      "711786496": {
+        "bytes": 65536,
+        "sha256": "3addca1bf3be5e244506bd916ce6382a66539813e978ad43a8d770b3b875eacb"
+      },
+      "711917568": {
+        "bytes": 65536,
+        "sha256": "071352b4d07940edf53bfde0ca8e69f88d68988d50486b70596882afff7fba11"
+      },
+      "712114176": {
+        "bytes": 65536,
+        "sha256": "47f9f2eda3695f56944d97982ef0268f101e029a71d16283f09b336ee54ffc5d"
+      },
+      "712179712": {
+        "bytes": 65536,
+        "sha256": "a98728684cf1a2b93e7ccb423fdafdf37abf48e22cb44cd141df810a1018def5"
+      },
+      "711000064": {
+        "bytes": 65536,
+        "sha256": "b1072c3de97d42e805132f51f33dfb3353085e7327dd8905f9e114ccf0ac2d58"
+      },
+      "711065600": {
+        "bytes": 65536,
+        "sha256": "90782bbf3eaab4cbadee632a0a532707b6df067183eb3c6b6e6663fb14e30137"
+      },
+      "711131136": {
+        "bytes": 65536,
+        "sha256": "e0c8303046ea5244bb342b4c10f1a942941e13add07635665b90bc03d074092d"
+      },
+      "711262208": {
+        "bytes": 65536,
+        "sha256": "ed082a18161326a39892cec4bc584b5d3ecabcabe61b8bc5a845e087417341f8"
+      },
+      "711327744": {
+        "bytes": 65536,
+        "sha256": "5cc31b4d4336b23055037b5764b23d147d319288a786fedf26bae6420fc87b46"
+      },
+      "711393280": {
+        "bytes": 65536,
+        "sha256": "fcc97bd4d5d84e5a650d58389e61609d16e94c61caabee0225c2fe7083a6db38"
+      },
+      "714342400": {
+        "bytes": 65536,
+        "sha256": "bd54a97d5cf2a380086279f73690b3008ff6445430ed61c880efdca2fc6a4d5e"
+      },
+      "714407936": {
+        "bytes": 65536,
+        "sha256": "d2325c38a34c0e134d38b910726a4154da93e90f10d8a630ffe89cf26d32fae0"
+      },
+      "714473472": {
+        "bytes": 65536,
+        "sha256": "e8de267d2cf7e25424f1635d3b366949b878145d494b0dc75cba8692fb6452f7"
+      },
+      "714539008": {
+        "bytes": 65536,
+        "sha256": "38024d553878f3c9833680d28ccd4d3e16b263d2fbe57e42b35ac217fa81c9e0"
+      },
+      "714604544": {
+        "bytes": 65536,
+        "sha256": "55e7cfd84a04548a6debe6918151a3738d1965cedce29816aae5a3ef6de857c3"
+      },
+      "714801152": {
+        "bytes": 65536,
+        "sha256": "23c5db8ada6691d130f99952dad02c1eb11a88773da00a278ffb06831bfdbfb5"
+      },
+      "714866688": {
+        "bytes": 65536,
+        "sha256": "806d874b3c1922eb0a9b4a1e78150aa832a833fc21d3ba9af009801246227e3d"
+      },
+      "713621504": {
+        "bytes": 65536,
+        "sha256": "46cb667db6c25be387a34cd2687562c5a93c87734e3c823a15c715df6217c015"
+      },
+      "713687040": {
+        "bytes": 65536,
+        "sha256": "ba1d614dcc97b01a9dbb94f85751b2160a21f8b81b23b50fe15a4fd2fa1093d1"
+      },
+      "713752576": {
+        "bytes": 65536,
+        "sha256": "9b1be13f5b7644975cc229ad93f64cdd9314d84eacf790a351dd7196a50ba0b7"
+      },
+      "713818112": {
+        "bytes": 65536,
+        "sha256": "f1a908f04b0e447758fbef1ade14d66ca26768c6e342ded2d6f7f8a5d562daf2"
+      },
+      "714145792": {
+        "bytes": 65536,
+        "sha256": "93c2d74933d8b4edc7434deeba3bf10dd96142ced75f1f511c7036a0a6478e8f"
+      },
+      "713097216": {
+        "bytes": 65536,
+        "sha256": "c4230d0e06232c7adb82aca867a61e2162e058c0b1c06ed3a3a0e8136e72cc4f"
+      },
+      "713162752": {
+        "bytes": 65536,
+        "sha256": "f876dae01fb9eff2ee571937f21fe2e5134d08d0097674fff40c31de886c73c4"
+      },
+      "713228288": {
+        "bytes": 65536,
+        "sha256": "0ee6d0b81afa605db80e5fbd423bcddcbaec71012ec21b9fb9d32ec7c2f04ed7"
+      },
+      "713359360": {
+        "bytes": 65536,
+        "sha256": "c35a741facb05d71b7a51903b83d36e8c7f039e2b8a970e79efdd09b7f67f463"
+      },
+      "713424896": {
+        "bytes": 65536,
+        "sha256": "f0e9627a98a31db3e4ea115e82a5f83ed750f5661e6349a1e80239a18bb98188"
+      },
+      "713490432": {
+        "bytes": 65536,
+        "sha256": "cbf7167d062749526e58488d2613b87e3612b425d706baf30fba8ab088e13d55"
+      },
+      "249495552": {
+        "bytes": 65536,
+        "sha256": "5b2d45fb8b9fece61278c9e6a13aec26a6970b94c3e3303b4737c7b01e98331e"
+      },
+      "716308480": {
+        "bytes": 65536,
+        "sha256": "df96fd4033e624e677f7ddfc0618310e50c1c236c333468aef6209c7475ff47f"
+      },
+      "716374016": {
+        "bytes": 65536,
+        "sha256": "44ee5757e1eeda5d84320b018c7652df625c96bd6cc06c643ca714c78ff8f775"
+      },
+      "716439552": {
+        "bytes": 65536,
+        "sha256": "7963bb94ef7754f3bf706492e64a1e8eefc384205dab4fb8831b969609630ac4"
+      },
+      "716505088": {
+        "bytes": 65536,
+        "sha256": "9d255dc07c6d8c289b1c3a9a3ad57915982dbc10496ee8748033c7a811cdd879"
+      },
+      "716832768": {
+        "bytes": 65536,
+        "sha256": "f9c03fa84b7d24cf60670d68e48ecd203fdf85ec96e8454f521ff186dd0eedc3"
+      },
+      "715587584": {
+        "bytes": 65536,
+        "sha256": "347c4ee543d2336b46a0e351553d559a2eb944a35248bad21384d94e7ba306bc"
+      },
+      "715653120": {
+        "bytes": 65536,
+        "sha256": "5156fca9ab18325af729b384065901c1db4136e4472767ee87c112d8d2a29d5b"
+      },
+      "715718656": {
+        "bytes": 65536,
+        "sha256": "0f0d396a4a164bdd1393ff7536cd8dbdc54f767f3db21ae259547b93e3a31473"
+      },
+      "715784192": {
+        "bytes": 65536,
+        "sha256": "64868378b05fa2fa663b435c9e869a267b42c9c669407f412379656caa7bac51"
+      },
+      "716111872": {
+        "bytes": 65536,
+        "sha256": "c8f62c94ff35c00f2a673edbce2570266946a4b41605f9d9ce27da326983ba83"
+      },
+      "714997760": {
+        "bytes": 65536,
+        "sha256": "1638e250a6c45f9966072eda41a7e84b526c895b963237e2447ee30cbc8e8b79"
+      },
+      "715063296": {
+        "bytes": 65536,
+        "sha256": "2529d8190b975f97eacd8903d85bce8dc82647f399cb8e35e7335cc83b853c5f"
+      },
+      "715128832": {
+        "bytes": 65536,
+        "sha256": "736585864523746d31b00e5127f63ce3a2a61f848fb85b121107286f6f275a7c"
+      },
+      "715259904": {
+        "bytes": 65536,
+        "sha256": "5c5626f31d8980a3d0b210f12f54ac82a0e4b1345ba7d8da61ade6af078c8615"
+      },
+      "715325440": {
+        "bytes": 65536,
+        "sha256": "18ae4b7933702a9304cbe0c7ecd93ee41d795c2c00d1142e70370aaf245f143a"
+      },
+      "715390976": {
+        "bytes": 65536,
+        "sha256": "fb64d8bc63408bcfd8900bf8ed305f593ec83c95867f7621a1c17abe1732fd5f"
+      },
+      "486014976": {
+        "bytes": 65536,
+        "sha256": "f681f5dbd7db708b93e6ce34e8d88496de7c2c53329aae24dc47e5ac2fed1518"
+      },
+      "718274560": {
+        "bytes": 65536,
+        "sha256": "a1643f8198eb1c682533c7bfc45457cc6e2a92f7c34ed52161bedeed169818e1"
+      },
+      "718340096": {
+        "bytes": 65536,
+        "sha256": "6422829a42905c53f8ee584ffa14fa45c33d683544d901d4fa830a7b5f2207b2"
+      },
+      "718405632": {
+        "bytes": 65536,
+        "sha256": "1bdae1213bfc4a3537aa2df462cb6232d9fc14df2821a5080b29be2e2464018b"
+      },
+      "718471168": {
+        "bytes": 65536,
+        "sha256": "c5678d7bfb474d491724976b9687939e8a5a91137a84ebf67720e505c924437a"
+      },
+      "718798848": {
+        "bytes": 65536,
+        "sha256": "8e8820f80944970fafd9883f4f4959896da60b63456ed8887f8b3df088331352"
+      },
+      "717553664": {
+        "bytes": 65536,
+        "sha256": "4f7535d08c64293eacbf722470e878a38cdf84b6ce3194e2c89d99ab1ae38d24"
+      },
+      "717619200": {
+        "bytes": 65536,
+        "sha256": "410c5bd92e7381a6dc7e74db86213e2786b2f3f87e8ddb0b57b94b7ffad7245f"
+      },
+      "717684736": {
+        "bytes": 65536,
+        "sha256": "aa978165afbcedc4151a4b3db57885bde46655574bc240ce4bf9c34df351323d"
+      },
+      "717750272": {
+        "bytes": 65536,
+        "sha256": "0d49d8c8896e4cd503829c8750887e64f95be19ef8cfe8e7529fc3f72d85c82f"
+      },
+      "717881344": {
+        "bytes": 65536,
+        "sha256": "f8dac2f966abb6846b760cd282db46d5494238c63681abab706467ed53f5fcfa"
+      },
+      "718077952": {
+        "bytes": 65536,
+        "sha256": "b0c04ce00dc726af7b129020dcf6d1c85008aa74a836da9b53aefa53c89ce6c2"
+      },
+      "718143488": {
+        "bytes": 65536,
+        "sha256": "8cc2b96e0b3d2005a62a7a95561de490c34417e19f3fb62d335c98692c5e54f2"
+      },
+      "717029376": {
+        "bytes": 65536,
+        "sha256": "adb972da5d1b97feb6ed18e3a1c229c22f84be996007ce554d60552f25861ffb"
+      },
+      "717094912": {
+        "bytes": 65536,
+        "sha256": "797d4a02728495263d0cc0e8f1b89c4a2d4b86f79c2963ec42eaff79e1e15a95"
+      },
+      "717160448": {
+        "bytes": 65536,
+        "sha256": "46eed538a7f83aece2322bd43a21d788900ce763bcdd8a3d39d88bfdaebbc297"
+      },
+      "717291520": {
+        "bytes": 65536,
+        "sha256": "5b0457efab9b4e8b1d78b11a2dbe83560fa67e1b0228cfa466d8f39128651763"
+      },
+      "717357056": {
+        "bytes": 65536,
+        "sha256": "d949e1c0514a96d6e3211451b8e18d18022037f00c884e9b1834e7b919c1f838"
+      },
+      "717422592": {
+        "bytes": 65536,
+        "sha256": "4bc69e4eab384cf8f1b65072a17beee2db293c7f1ef99e9c1a0c197f604585f6"
+      },
+      "527826944": {
+        "bytes": 65536,
+        "sha256": "12600bf9f8c19f090858fe2a388b3ddff658d8fd10b2242830e2c8b6801e262a"
+      },
+      "720240640": {
+        "bytes": 65536,
+        "sha256": "2a68ebb2bea07af4ac300cc106b77b9361c7a9a0f640bdcbc9ebc98cf78a7952"
+      },
+      "720306176": {
+        "bytes": 65536,
+        "sha256": "a3889ca153bb725d116d3d0d6b8852dfd4696a870e7e3f7ef7177a8c1c220a81"
+      },
+      "720371712": {
+        "bytes": 65536,
+        "sha256": "ef98833094335ec6a67b5d123bb7b2a39dc75de959252b9991821e36dfcd9393"
+      },
+      "720437248": {
+        "bytes": 65536,
+        "sha256": "544ff436170f99cf2d1889b82c5f9f337fe175f1b637ddd453ab1421548ce6bd"
+      },
+      "720764928": {
+        "bytes": 65536,
+        "sha256": "521c2c67f4efeef80e383864a30f03b39b99ca4b297a0542790da6765e4f3f45"
+      },
+      "719519744": {
+        "bytes": 65536,
+        "sha256": "ae556c9db4989f4d19bbaeb1992bf692baedf8bf46c4248bf50675407fa7db58"
+      },
+      "719585280": {
+        "bytes": 65536,
+        "sha256": "768692dd808945a0114f4e52b7f5e4f0e3f454a64754a21e7df9931f73745780"
+      },
+      "719650816": {
+        "bytes": 65536,
+        "sha256": "7c28ce2f691acd436f02b00c9ebb0fbc34969094078a0aa08dd47f751a1f500b"
+      },
+      "719716352": {
+        "bytes": 65536,
+        "sha256": "ac74595e644c0a47e43af8d5781c34eea364332c5fec4ccf3b10bd34592c73a4"
+      },
+      "720044032": {
+        "bytes": 65536,
+        "sha256": "c253891e521946d2bf8e988ea3b55707f22426d4b9105653b57f9f71512ac8ab"
+      },
+      "718929920": {
+        "bytes": 65536,
+        "sha256": "0921062ef9d914aa4a43828b2e0e5f4204c0e622279f01c78819d50ca4a9d4eb"
+      },
+      "718995456": {
+        "bytes": 65536,
+        "sha256": "d2fb314de03dc2fc2121bb61428301ba431c3239e40a21a8b12789c80d2b4ad5"
+      },
+      "719060992": {
+        "bytes": 65536,
+        "sha256": "a62c1af9c6516b4d27c05720da11d65798b4141acc6784b9d07d0ba5795294ae"
+      },
+      "719126528": {
+        "bytes": 65536,
+        "sha256": "907586df6b3c0722f7d34acb45b139765357f81d4b1147340af83c49a41a8a91"
+      },
+      "719192064": {
+        "bytes": 65536,
+        "sha256": "8f0ff96873ab4f8fd93ba56797ca2acef7e43cfadd129bf6468866270c52f1f8"
+      },
+      "719257600": {
+        "bytes": 65536,
+        "sha256": "f445be62b1038e703b28e547c7bdf3dc60ffbe3ca5efea4396b0bed65d472692"
+      },
+      "719323136": {
+        "bytes": 65536,
+        "sha256": "106c5ca94e46155c6068c47c60f986b8c14b929e5fa48e565bf9921fc4ef7a94"
+      },
+      "548208640": {
+        "bytes": 65536,
+        "sha256": "fb5d33148b6635ce4bcc0b42dc9545074aa5a26f9f00084efa9b259178fc3d96"
+      },
+      "722206720": {
+        "bytes": 65536,
+        "sha256": "6e43b15d492c8615ab858a384826065e31a8433b777e6e9277a44bd83336e83e"
+      },
+      "722272256": {
+        "bytes": 65536,
+        "sha256": "c42212ffd1706a00a07f4a224cabcad0d1a70062e712826ba4db5d5814cc3c2e"
+      },
+      "722337792": {
+        "bytes": 65536,
+        "sha256": "5f7b9a60c010b4e54f2f397603266efb9371711c02c325a8fb1ef2977979ee3a"
+      },
+      "722403328": {
+        "bytes": 65536,
+        "sha256": "210c08398bf7189ddc3f64074444a29daa24cf717e86dade3b81151fad53dc03"
+      },
+      "722534400": {
+        "bytes": 65536,
+        "sha256": "bff32bed67442550df75e0d01b319e3d94be61f20a1de78d95077bb4964e4fbd"
+      },
+      "722599936": {
+        "bytes": 65536,
+        "sha256": "4e109a99db3a14ea64dfe14b82e47716b0568ccae09edcd607b320add9b38489"
+      },
+      "722665472": {
+        "bytes": 65536,
+        "sha256": "c4c54a5b2254336e061936d55552e00ee49de0507155b1b638963702ccc3f901"
+      },
+      "722731008": {
+        "bytes": 65536,
+        "sha256": "590e4f026f40a1a412aba27e395e66f9f732ad4da218173417350c54c7e098a9"
+      },
+      "721485824": {
+        "bytes": 65536,
+        "sha256": "b801b151e0000008320af714d60c05af63e100fe5675cb66ed083a2998a56e0f"
+      },
+      "721551360": {
+        "bytes": 65536,
+        "sha256": "20cc1d1ab69d7db2c54d86e632198d5c66907c8114dbcb3d9455c8b6b6c91a5f"
+      },
+      "721616896": {
+        "bytes": 65536,
+        "sha256": "bf42ef298640026cc062185bdc61481d7da19dfbec6927ec2e528bc2dfff2b74"
+      },
+      "721682432": {
+        "bytes": 65536,
+        "sha256": "6e898bfabc05af333b5f3c6dd498bf00b248e5dfd61f0a173cae5cf4252604d0"
+      },
+      "721813504": {
+        "bytes": 65536,
+        "sha256": "9ce03c5d6b9fbca3723d6d669d6b25087318a28a8008c29520807d5f34d723a6"
+      },
+      "721879040": {
+        "bytes": 65536,
+        "sha256": "b9cbb4d0ae52f64dbef3c22401898080501721a8633b2d2eb011a3612f5abe03"
+      },
+      "721944576": {
+        "bytes": 65536,
+        "sha256": "baf1048117918314777d445a8f9733ad81bb19f2e9d68c54ca1136e152ba5fde"
+      },
+      "722010112": {
+        "bytes": 65536,
+        "sha256": "dade2566a086b28e4c08bf40bb8a7acbe329447996328e0a60df610af1f199a9"
+      },
+      "722075648": {
+        "bytes": 65536,
+        "sha256": "94787faa558bc1eb6b8bbad5bae678b0456530cec9839a3eb792d9e0847a3580"
+      },
+      "720896000": {
+        "bytes": 65536,
+        "sha256": "6c3201c7d5f88b4513ee88e5fcd555041779cedf69ff4144319e69dc4b673a20"
+      },
+      "720961536": {
+        "bytes": 65536,
+        "sha256": "b11433506dcd310d35cbe1368ec0ac6bba2924099cb6d865984711143d1e2c7e"
+      },
+      "721027072": {
+        "bytes": 65536,
+        "sha256": "4e0c66979b3c3aaeca71d6164f10e3110b7bd6e66613ca88d4798b7aecc0dec3"
+      },
+      "721158144": {
+        "bytes": 65536,
+        "sha256": "38bde14998e7db85329976198051dd4ced5d222c746a6950a85435a8360c3640"
+      },
+      "721223680": {
+        "bytes": 65536,
+        "sha256": "959a9e80f0101b30d6ed7e6ad1c46ed5cf8a965eb2b33cb2caf4d68810c4d4b2"
+      },
+      "721289216": {
+        "bytes": 65536,
+        "sha256": "f5386ee346639c3031ab5b60678d09878462cdb5cfabc481c3d002de6eb23f45"
+      },
+      "597295104": {
+        "bytes": 65536,
+        "sha256": "a91f0f40dbcc653e79488667c0a10aebe5d94594d66c5943fd2f90d5b382ff4a"
+      },
+      "724172800": {
+        "bytes": 65536,
+        "sha256": "21b5b5dc26d8ac019a488659d4d7f733b5f0fc2f550cc487bd6823ae9dd90a5e"
+      },
+      "724238336": {
+        "bytes": 65536,
+        "sha256": "652343fc27bc64a81f2b25074248c8ca7a2d5a9f1a83ba91ecdb8e598c991d23"
+      },
+      "724303872": {
+        "bytes": 65536,
+        "sha256": "11f90ef5be3c630304cc3c100b3146fed50e92a8b354c473510c44bc2e51372e"
+      },
+      "724369408": {
+        "bytes": 65536,
+        "sha256": "49eefc96e0e65790025a5b459be5d7806b26f2978e47a9ee2cff597f10b11ee8"
+      },
+      "724500480": {
+        "bytes": 65536,
+        "sha256": "cc4cdacad6fded62aff51e02e7e017e36de974b2134f491216a5b709b0d13162"
+      },
+      "724566016": {
+        "bytes": 65536,
+        "sha256": "d14c79a388d0e051b7dc430758e86215103841c2f5209f9e43b38629a7cf0bce"
+      },
+      "724631552": {
+        "bytes": 65536,
+        "sha256": "d892741d6c9d1106a9b5a6eef46f3749b9ce1b67d4c4dcd6ec3f497067bff91b"
+      },
+      "724697088": {
+        "bytes": 65536,
+        "sha256": "57e083bbc280ee424d220338c936b14096376aa415c9a61d7b557ff4a11d2efe"
+      },
+      "723451904": {
+        "bytes": 65536,
+        "sha256": "fee4241b56739cc875f966dfe7670b4bb30e2ff8752b5963a851df9020982472"
+      },
+      "723517440": {
+        "bytes": 65536,
+        "sha256": "b3e176e9ef25cb14d94fde572491f2e1ef3093563bd9bbe8730f83a4ab8063e7"
+      },
+      "723582976": {
+        "bytes": 65536,
+        "sha256": "007a5f52a19a78ae0d65306289eb2447227e06dcbff74a3114e25121fa68004e"
+      },
+      "723648512": {
+        "bytes": 65536,
+        "sha256": "92d696b1d5de9dbeb81a83b3d71eb81106cc0acc5a0baf83ba21fe089c4617cb"
+      },
+      "723779584": {
+        "bytes": 65536,
+        "sha256": "eb333e573cd0878e04357d3f0e37a49c55da83cf2de35e87357db97e83f67eea"
+      },
+      "723845120": {
+        "bytes": 65536,
+        "sha256": "464ebc268a747865278f1651c0630fd664afadff79f1bdfce04494bf9fafb738"
+      },
+      "723910656": {
+        "bytes": 65536,
+        "sha256": "4e30f21d0a8ff4807f456457ba0f425d7778c0c9f471b4f835e3be897b00fdab"
+      },
+      "723976192": {
+        "bytes": 65536,
+        "sha256": "db33c36e67fd2c7e150b72731294b0dcc526c7bceda6f33ebdd91bc38cc89115"
+      },
+      "724041728": {
+        "bytes": 65536,
+        "sha256": "23b3fecc718bbea811957298e4b5ef72ac3ad355f7b99ee661be0806ef3af47e"
+      },
+      "722927616": {
+        "bytes": 65536,
+        "sha256": "77ce26479588bf458bfdff80248379283321c7b36ae8fd2d433337d72c4d0925"
+      },
+      "722993152": {
+        "bytes": 65536,
+        "sha256": "5e947da50d87f7c5933f46c154f156ca3cd2a9e238c6bbe66e984e7dc3a1d40c"
+      },
+      "723058688": {
+        "bytes": 65536,
+        "sha256": "114a7cc55ee1e1e687355f94a5da8b12a5ad9d8520561309d91976ac8fe9e9d5"
+      },
+      "723189760": {
+        "bytes": 65536,
+        "sha256": "10cbcdf9721bf58ae1a1bece719b4566c442513ec210d17db15f491695d24962"
+      },
+      "723255296": {
+        "bytes": 65536,
+        "sha256": "d0e80f82e42791133ef11ff00b5b523f514adb758bc91b699b5db21163f5ccdd"
+      },
+      "723320832": {
+        "bytes": 65536,
+        "sha256": "e486d68de6e5177d520e33ae98b8cbe366cc1c810faab00fbdcaa9e75b11d1c2"
+      },
+      "645988352": {
+        "bytes": 65536,
+        "sha256": "df29e98c2039c1b2af74d1ac8924c1915578cdc41ab6b4e7aca21d9c6a1a9686"
+      }
+    },
+    "downloaded_this_session": 9109504,
+    "overlay_bytes": 9109504,
+    "overlay_manifest": "data\\external\\allen_synphys_r21\\vc20hz_ranges\\1574292898.139\\manifest.json",
+    "overlay_manifest_sha256": "2780277f58632d68826dc09a892d70f33e15c3cb26370e423faf57ac5f5b5abc"
+  },
+  "records": [
+    {
+      "sweep": 0,
+      "channel": "AD9",
+      "path": "/acquisition/timeseries/data_00000_AD9",
+      "array_key": "s0_AD9_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4099.66100025177,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_5",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 0,
+      "channel": "AD8",
+      "path": "/acquisition/timeseries/data_00000_AD8",
+      "array_key": "s0_AD8_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4099.66100025177,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_4",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 0,
+      "channel": "AD2",
+      "path": "/acquisition/timeseries/data_00000_AD2",
+      "array_key": "s0_AD2_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4099.66100025177,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_2",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 0,
+      "channel": "DA5",
+      "path": "/stimulus/presentation/data_00000_DA5",
+      "array_key": "s0_DA5_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4099.66100025177,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_5",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 305602,
+          "stop_index": 305753,
+          "start_s": 3.05602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 310602,
+          "stop_index": 310753,
+          "start_s": 3.10602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 315602,
+          "stop_index": 315753,
+          "start_s": 3.15602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 320602,
+          "stop_index": 320753,
+          "start_s": 3.20602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 325602,
+          "stop_index": 325753,
+          "start_s": 3.25602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 330602,
+          "stop_index": 330753,
+          "start_s": 3.30602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 335602,
+          "stop_index": 335753,
+          "start_s": 3.35602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 340602,
+          "stop_index": 340753,
+          "start_s": 3.40602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 365753,
+          "stop_index": 365903,
+          "start_s": 3.65753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 370753,
+          "stop_index": 370903,
+          "start_s": 3.70753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 375753,
+          "stop_index": 375903,
+          "start_s": 3.75753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 380753,
+          "stop_index": 380903,
+          "start_s": 3.80753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        }
+      ]
+    },
+    {
+      "sweep": 0,
+      "channel": "DA4",
+      "path": "/stimulus/presentation/data_00000_DA4",
+      "array_key": "s0_DA4_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4099.66100025177,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_4",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 205301,
+          "stop_index": 205452,
+          "start_s": 2.05301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 210301,
+          "stop_index": 210452,
+          "start_s": 2.10301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 215301,
+          "stop_index": 215452,
+          "start_s": 2.15301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 220301,
+          "stop_index": 220452,
+          "start_s": 2.20301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 225301,
+          "stop_index": 225452,
+          "start_s": 2.25301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 230301,
+          "stop_index": 230452,
+          "start_s": 2.30301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 235301,
+          "stop_index": 235452,
+          "start_s": 2.35301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 240301,
+          "stop_index": 240452,
+          "start_s": 2.40301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 265452,
+          "stop_index": 265602,
+          "start_s": 2.65452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 270452,
+          "stop_index": 270602,
+          "start_s": 2.70452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 275452,
+          "stop_index": 275602,
+          "start_s": 2.75452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 280452,
+          "stop_index": 280602,
+          "start_s": 2.80452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        }
+      ]
+    },
+    {
+      "sweep": 0,
+      "channel": "DA2",
+      "path": "/stimulus/presentation/data_00000_DA2",
+      "array_key": "s0_DA2_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4099.66100025177,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_2",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 105000,
+          "stop_index": 105151,
+          "start_s": 1.05,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 110000,
+          "stop_index": 110151,
+          "start_s": 1.1,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 115000,
+          "stop_index": 115151,
+          "start_s": 1.15,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 120000,
+          "stop_index": 120151,
+          "start_s": 1.2,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 125000,
+          "stop_index": 125151,
+          "start_s": 1.25,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 130000,
+          "stop_index": 130151,
+          "start_s": 1.3,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 135000,
+          "stop_index": 135151,
+          "start_s": 1.35,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 140000,
+          "stop_index": 140151,
+          "start_s": 1.4,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 165151,
+          "stop_index": 165301,
+          "start_s": 1.65151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 170151,
+          "stop_index": 170301,
+          "start_s": 1.70151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 175151,
+          "stop_index": 175301,
+          "start_s": 1.75151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 180151,
+          "stop_index": 180301,
+          "start_s": 1.80151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        }
+      ]
+    },
+    {
+      "sweep": 1,
+      "channel": "AD9",
+      "path": "/acquisition/timeseries/data_00001_AD9",
+      "array_key": "s1_AD9_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4115.183000087738,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_5",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 1,
+      "channel": "AD8",
+      "path": "/acquisition/timeseries/data_00001_AD8",
+      "array_key": "s1_AD8_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4115.183000087738,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_4",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 1,
+      "channel": "AD2",
+      "path": "/acquisition/timeseries/data_00001_AD2",
+      "array_key": "s1_AD2_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4115.183000087738,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_2",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 1,
+      "channel": "DA5",
+      "path": "/stimulus/presentation/data_00001_DA5",
+      "array_key": "s1_DA5_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4115.183000087738,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_5",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 305602,
+          "stop_index": 305753,
+          "start_s": 3.05602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 310602,
+          "stop_index": 310753,
+          "start_s": 3.10602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 315602,
+          "stop_index": 315753,
+          "start_s": 3.15602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 320602,
+          "stop_index": 320753,
+          "start_s": 3.20602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 325602,
+          "stop_index": 325753,
+          "start_s": 3.25602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 330602,
+          "stop_index": 330753,
+          "start_s": 3.30602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 335602,
+          "stop_index": 335753,
+          "start_s": 3.35602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 340602,
+          "stop_index": 340753,
+          "start_s": 3.40602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 365753,
+          "stop_index": 365903,
+          "start_s": 3.65753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 370753,
+          "stop_index": 370903,
+          "start_s": 3.70753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 375753,
+          "stop_index": 375903,
+          "start_s": 3.75753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 380753,
+          "stop_index": 380903,
+          "start_s": 3.80753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        }
+      ]
+    },
+    {
+      "sweep": 1,
+      "channel": "DA4",
+      "path": "/stimulus/presentation/data_00001_DA4",
+      "array_key": "s1_DA4_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4115.183000087738,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_4",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 205301,
+          "stop_index": 205452,
+          "start_s": 2.05301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 210301,
+          "stop_index": 210452,
+          "start_s": 2.10301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 215301,
+          "stop_index": 215452,
+          "start_s": 2.15301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 220301,
+          "stop_index": 220452,
+          "start_s": 2.20301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 225301,
+          "stop_index": 225452,
+          "start_s": 2.25301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 230301,
+          "stop_index": 230452,
+          "start_s": 2.30301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 235301,
+          "stop_index": 235452,
+          "start_s": 2.35301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 240301,
+          "stop_index": 240452,
+          "start_s": 2.40301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 265452,
+          "stop_index": 265602,
+          "start_s": 2.65452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 270452,
+          "stop_index": 270602,
+          "start_s": 2.70452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 275452,
+          "stop_index": 275602,
+          "start_s": 2.75452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 280452,
+          "stop_index": 280602,
+          "start_s": 2.80452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        }
+      ]
+    },
+    {
+      "sweep": 1,
+      "channel": "DA2",
+      "path": "/stimulus/presentation/data_00001_DA2",
+      "array_key": "s1_DA2_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4115.183000087738,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_2",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 105000,
+          "stop_index": 105151,
+          "start_s": 1.05,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 110000,
+          "stop_index": 110151,
+          "start_s": 1.1,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 115000,
+          "stop_index": 115151,
+          "start_s": 1.15,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 120000,
+          "stop_index": 120151,
+          "start_s": 1.2,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 125000,
+          "stop_index": 125151,
+          "start_s": 1.25,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 130000,
+          "stop_index": 130151,
+          "start_s": 1.3,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 135000,
+          "stop_index": 135151,
+          "start_s": 1.35,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 140000,
+          "stop_index": 140151,
+          "start_s": 1.4,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 165151,
+          "stop_index": 165301,
+          "start_s": 1.65151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 170151,
+          "stop_index": 170301,
+          "start_s": 1.70151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 175151,
+          "stop_index": 175301,
+          "start_s": 1.75151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        },
+        {
+          "start_index": 180151,
+          "stop_index": 180301,
+          "start_s": 1.80151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.06000000284984708,
+          "delta_max_V": 0.06000000284984708
+        }
+      ]
+    },
+    {
+      "sweep": 2,
+      "channel": "AD9",
+      "path": "/acquisition/timeseries/data_00002_AD9",
+      "array_key": "s2_AD9_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4130.649000167847,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_5",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 2,
+      "channel": "AD8",
+      "path": "/acquisition/timeseries/data_00002_AD8",
+      "array_key": "s2_AD8_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4130.649000167847,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_4",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 2,
+      "channel": "AD2",
+      "path": "/acquisition/timeseries/data_00002_AD2",
+      "array_key": "s2_AD2_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4130.649000167847,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_2",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 2,
+      "channel": "DA5",
+      "path": "/stimulus/presentation/data_00002_DA5",
+      "array_key": "s2_DA5_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4130.649000167847,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_5",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 305602,
+          "stop_index": 305753,
+          "start_s": 3.05602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 310602,
+          "stop_index": 310753,
+          "start_s": 3.10602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 315602,
+          "stop_index": 315753,
+          "start_s": 3.15602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 320602,
+          "stop_index": 320753,
+          "start_s": 3.20602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 325602,
+          "stop_index": 325753,
+          "start_s": 3.25602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 330602,
+          "stop_index": 330753,
+          "start_s": 3.30602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 335602,
+          "stop_index": 335753,
+          "start_s": 3.35602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 340602,
+          "stop_index": 340753,
+          "start_s": 3.40602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 365753,
+          "stop_index": 365903,
+          "start_s": 3.65753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 370753,
+          "stop_index": 370903,
+          "start_s": 3.70753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 375753,
+          "stop_index": 375903,
+          "start_s": 3.75753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 380753,
+          "stop_index": 380903,
+          "start_s": 3.80753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        }
+      ]
+    },
+    {
+      "sweep": 2,
+      "channel": "DA4",
+      "path": "/stimulus/presentation/data_00002_DA4",
+      "array_key": "s2_DA4_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4130.649000167847,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_4",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 205301,
+          "stop_index": 205452,
+          "start_s": 2.05301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 210301,
+          "stop_index": 210452,
+          "start_s": 2.10301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 215301,
+          "stop_index": 215452,
+          "start_s": 2.15301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 220301,
+          "stop_index": 220452,
+          "start_s": 2.20301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 225301,
+          "stop_index": 225452,
+          "start_s": 2.25301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 230301,
+          "stop_index": 230452,
+          "start_s": 2.30301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 235301,
+          "stop_index": 235452,
+          "start_s": 2.35301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 240301,
+          "stop_index": 240452,
+          "start_s": 2.40301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 265452,
+          "stop_index": 265602,
+          "start_s": 2.65452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 270452,
+          "stop_index": 270602,
+          "start_s": 2.70452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 275452,
+          "stop_index": 275602,
+          "start_s": 2.75452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 280452,
+          "stop_index": 280602,
+          "start_s": 2.80452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        }
+      ]
+    },
+    {
+      "sweep": 2,
+      "channel": "DA2",
+      "path": "/stimulus/presentation/data_00002_DA2",
+      "array_key": "s2_DA2_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4130.649000167847,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_2",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 105000,
+          "stop_index": 105151,
+          "start_s": 1.05,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 110000,
+          "stop_index": 110151,
+          "start_s": 1.1,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 115000,
+          "stop_index": 115151,
+          "start_s": 1.15,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 120000,
+          "stop_index": 120151,
+          "start_s": 1.2,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 125000,
+          "stop_index": 125151,
+          "start_s": 1.25,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 130000,
+          "stop_index": 130151,
+          "start_s": 1.3,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 135000,
+          "stop_index": 135151,
+          "start_s": 1.35,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 140000,
+          "stop_index": 140151,
+          "start_s": 1.4,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 165151,
+          "stop_index": 165301,
+          "start_s": 1.65151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 170151,
+          "stop_index": 170301,
+          "start_s": 1.70151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 175151,
+          "stop_index": 175301,
+          "start_s": 1.75151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 180151,
+          "stop_index": 180301,
+          "start_s": 1.80151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        }
+      ]
+    },
+    {
+      "sweep": 3,
+      "channel": "AD9",
+      "path": "/acquisition/timeseries/data_00003_AD9",
+      "array_key": "s3_AD9_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4146.187000274658,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_5",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 3,
+      "channel": "AD8",
+      "path": "/acquisition/timeseries/data_00003_AD8",
+      "array_key": "s3_AD8_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4146.187000274658,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_4",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 3,
+      "channel": "AD2",
+      "path": "/acquisition/timeseries/data_00003_AD2",
+      "array_key": "s3_AD2_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4146.187000274658,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_2",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 3,
+      "channel": "DA5",
+      "path": "/stimulus/presentation/data_00003_DA5",
+      "array_key": "s3_DA5_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4146.187000274658,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_5",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 305602,
+          "stop_index": 305753,
+          "start_s": 3.05602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 310602,
+          "stop_index": 310753,
+          "start_s": 3.10602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 315602,
+          "stop_index": 315753,
+          "start_s": 3.15602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 320602,
+          "stop_index": 320753,
+          "start_s": 3.20602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 325602,
+          "stop_index": 325753,
+          "start_s": 3.25602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 330602,
+          "stop_index": 330753,
+          "start_s": 3.30602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 335602,
+          "stop_index": 335753,
+          "start_s": 3.35602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 340602,
+          "stop_index": 340753,
+          "start_s": 3.40602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 365753,
+          "stop_index": 365903,
+          "start_s": 3.65753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 370753,
+          "stop_index": 370903,
+          "start_s": 3.70753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 375753,
+          "stop_index": 375903,
+          "start_s": 3.75753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 380753,
+          "stop_index": 380903,
+          "start_s": 3.80753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        }
+      ]
+    },
+    {
+      "sweep": 3,
+      "channel": "DA4",
+      "path": "/stimulus/presentation/data_00003_DA4",
+      "array_key": "s3_DA4_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4146.187000274658,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_4",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 205301,
+          "stop_index": 205452,
+          "start_s": 2.05301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 210301,
+          "stop_index": 210452,
+          "start_s": 2.10301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 215301,
+          "stop_index": 215452,
+          "start_s": 2.15301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 220301,
+          "stop_index": 220452,
+          "start_s": 2.20301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 225301,
+          "stop_index": 225452,
+          "start_s": 2.25301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 230301,
+          "stop_index": 230452,
+          "start_s": 2.30301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 235301,
+          "stop_index": 235452,
+          "start_s": 2.35301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 240301,
+          "stop_index": 240452,
+          "start_s": 2.40301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 265452,
+          "stop_index": 265602,
+          "start_s": 2.65452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 270452,
+          "stop_index": 270602,
+          "start_s": 2.70452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 275452,
+          "stop_index": 275602,
+          "start_s": 2.75452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 280452,
+          "stop_index": 280602,
+          "start_s": 2.80452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        }
+      ]
+    },
+    {
+      "sweep": 3,
+      "channel": "DA2",
+      "path": "/stimulus/presentation/data_00003_DA2",
+      "array_key": "s3_DA2_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4146.187000274658,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_2",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 105000,
+          "stop_index": 105151,
+          "start_s": 1.05,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 110000,
+          "stop_index": 110151,
+          "start_s": 1.1,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 115000,
+          "stop_index": 115151,
+          "start_s": 1.15,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 120000,
+          "stop_index": 120151,
+          "start_s": 1.2,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 125000,
+          "stop_index": 125151,
+          "start_s": 1.25,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 130000,
+          "stop_index": 130151,
+          "start_s": 1.3,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 135000,
+          "stop_index": 135151,
+          "start_s": 1.35,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 140000,
+          "stop_index": 140151,
+          "start_s": 1.4,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 165151,
+          "stop_index": 165301,
+          "start_s": 1.65151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 170151,
+          "stop_index": 170301,
+          "start_s": 1.70151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 175151,
+          "stop_index": 175301,
+          "start_s": 1.75151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 180151,
+          "stop_index": 180301,
+          "start_s": 1.80151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        }
+      ]
+    },
+    {
+      "sweep": 4,
+      "channel": "AD9",
+      "path": "/acquisition/timeseries/data_00004_AD9",
+      "array_key": "s4_AD9_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4161.845000267029,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_5",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 4,
+      "channel": "AD8",
+      "path": "/acquisition/timeseries/data_00004_AD8",
+      "array_key": "s4_AD8_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4161.845000267029,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_4",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 4,
+      "channel": "AD2",
+      "path": "/acquisition/timeseries/data_00004_AD2",
+      "array_key": "s4_AD2_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4161.845000267029,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_2",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 4,
+      "channel": "DA5",
+      "path": "/stimulus/presentation/data_00004_DA5",
+      "array_key": "s4_DA5_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4161.845000267029,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_5",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 305602,
+          "stop_index": 305753,
+          "start_s": 3.05602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 310602,
+          "stop_index": 310753,
+          "start_s": 3.10602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 315602,
+          "stop_index": 315753,
+          "start_s": 3.15602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 320602,
+          "stop_index": 320753,
+          "start_s": 3.20602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 325602,
+          "stop_index": 325753,
+          "start_s": 3.25602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 330602,
+          "stop_index": 330753,
+          "start_s": 3.30602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 335602,
+          "stop_index": 335753,
+          "start_s": 3.35602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 340602,
+          "stop_index": 340753,
+          "start_s": 3.40602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 365753,
+          "stop_index": 365903,
+          "start_s": 3.65753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 370753,
+          "stop_index": 370903,
+          "start_s": 3.70753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 375753,
+          "stop_index": 375903,
+          "start_s": 3.75753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 380753,
+          "stop_index": 380903,
+          "start_s": 3.80753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        }
+      ]
+    },
+    {
+      "sweep": 4,
+      "channel": "DA4",
+      "path": "/stimulus/presentation/data_00004_DA4",
+      "array_key": "s4_DA4_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4161.845000267029,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_4",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 205301,
+          "stop_index": 205452,
+          "start_s": 2.05301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 210301,
+          "stop_index": 210452,
+          "start_s": 2.10301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 215301,
+          "stop_index": 215452,
+          "start_s": 2.15301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 220301,
+          "stop_index": 220452,
+          "start_s": 2.20301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 225301,
+          "stop_index": 225452,
+          "start_s": 2.25301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 230301,
+          "stop_index": 230452,
+          "start_s": 2.30301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 235301,
+          "stop_index": 235452,
+          "start_s": 2.35301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 240301,
+          "stop_index": 240452,
+          "start_s": 2.40301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 265452,
+          "stop_index": 265602,
+          "start_s": 2.65452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 270452,
+          "stop_index": 270602,
+          "start_s": 2.70452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 275452,
+          "stop_index": 275602,
+          "start_s": 2.75452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 280452,
+          "stop_index": 280602,
+          "start_s": 2.80452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        }
+      ]
+    },
+    {
+      "sweep": 4,
+      "channel": "DA2",
+      "path": "/stimulus/presentation/data_00004_DA2",
+      "array_key": "s4_DA2_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4161.845000267029,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_2",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 105000,
+          "stop_index": 105151,
+          "start_s": 1.05,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 110000,
+          "stop_index": 110151,
+          "start_s": 1.1,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 115000,
+          "stop_index": 115151,
+          "start_s": 1.15,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 120000,
+          "stop_index": 120151,
+          "start_s": 1.2,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 125000,
+          "stop_index": 125151,
+          "start_s": 1.25,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 130000,
+          "stop_index": 130151,
+          "start_s": 1.3,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 135000,
+          "stop_index": 135151,
+          "start_s": 1.35,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 140000,
+          "stop_index": 140151,
+          "start_s": 1.4,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 165151,
+          "stop_index": 165301,
+          "start_s": 1.65151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 170151,
+          "stop_index": 170301,
+          "start_s": 1.70151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 175151,
+          "stop_index": 175301,
+          "start_s": 1.75151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 180151,
+          "stop_index": 180301,
+          "start_s": 1.80151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        }
+      ]
+    },
+    {
+      "sweep": 5,
+      "channel": "AD9",
+      "path": "/acquisition/timeseries/data_00005_AD9",
+      "array_key": "s5_AD9_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4177.409999847412,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_5",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 5,
+      "channel": "AD8",
+      "path": "/acquisition/timeseries/data_00005_AD8",
+      "array_key": "s5_AD8_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4177.409999847412,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_4",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 5,
+      "channel": "AD2",
+      "path": "/acquisition/timeseries/data_00005_AD2",
+      "array_key": "s5_AD2_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4177.409999847412,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_2",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 5,
+      "channel": "DA5",
+      "path": "/stimulus/presentation/data_00005_DA5",
+      "array_key": "s5_DA5_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4177.409999847412,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_5",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 305602,
+          "stop_index": 305753,
+          "start_s": 3.05602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 310602,
+          "stop_index": 310753,
+          "start_s": 3.10602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 315602,
+          "stop_index": 315753,
+          "start_s": 3.15602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 320602,
+          "stop_index": 320753,
+          "start_s": 3.20602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 325602,
+          "stop_index": 325753,
+          "start_s": 3.25602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 330602,
+          "stop_index": 330753,
+          "start_s": 3.30602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 335602,
+          "stop_index": 335753,
+          "start_s": 3.35602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 340602,
+          "stop_index": 340753,
+          "start_s": 3.40602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 365753,
+          "stop_index": 365903,
+          "start_s": 3.65753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 370753,
+          "stop_index": 370903,
+          "start_s": 3.70753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 375753,
+          "stop_index": 375903,
+          "start_s": 3.75753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 380753,
+          "stop_index": 380903,
+          "start_s": 3.80753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        }
+      ]
+    },
+    {
+      "sweep": 5,
+      "channel": "DA4",
+      "path": "/stimulus/presentation/data_00005_DA4",
+      "array_key": "s5_DA4_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4177.409999847412,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_4",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 205301,
+          "stop_index": 205452,
+          "start_s": 2.05301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 210301,
+          "stop_index": 210452,
+          "start_s": 2.10301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 215301,
+          "stop_index": 215452,
+          "start_s": 2.15301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 220301,
+          "stop_index": 220452,
+          "start_s": 2.20301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 225301,
+          "stop_index": 225452,
+          "start_s": 2.25301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 230301,
+          "stop_index": 230452,
+          "start_s": 2.30301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 235301,
+          "stop_index": 235452,
+          "start_s": 2.35301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 240301,
+          "stop_index": 240452,
+          "start_s": 2.40301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 265452,
+          "stop_index": 265602,
+          "start_s": 2.65452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 270452,
+          "stop_index": 270602,
+          "start_s": 2.70452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 275452,
+          "stop_index": 275602,
+          "start_s": 2.75452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 280452,
+          "stop_index": 280602,
+          "start_s": 2.80452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        }
+      ]
+    },
+    {
+      "sweep": 5,
+      "channel": "DA2",
+      "path": "/stimulus/presentation/data_00005_DA2",
+      "array_key": "s5_DA2_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4177.409999847412,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_2",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 105000,
+          "stop_index": 105151,
+          "start_s": 1.05,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 110000,
+          "stop_index": 110151,
+          "start_s": 1.1,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 115000,
+          "stop_index": 115151,
+          "start_s": 1.15,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 120000,
+          "stop_index": 120151,
+          "start_s": 1.2,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 125000,
+          "stop_index": 125151,
+          "start_s": 1.25,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 130000,
+          "stop_index": 130151,
+          "start_s": 1.3,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 135000,
+          "stop_index": 135151,
+          "start_s": 1.35,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 140000,
+          "stop_index": 140151,
+          "start_s": 1.4,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 165151,
+          "stop_index": 165301,
+          "start_s": 1.65151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 170151,
+          "stop_index": 170301,
+          "start_s": 1.70151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 175151,
+          "stop_index": 175301,
+          "start_s": 1.75151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 180151,
+          "stop_index": 180301,
+          "start_s": 1.80151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        }
+      ]
+    },
+    {
+      "sweep": 6,
+      "channel": "AD9",
+      "path": "/acquisition/timeseries/data_00006_AD9",
+      "array_key": "s6_AD9_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4192.912000179291,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_5",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 6,
+      "channel": "AD8",
+      "path": "/acquisition/timeseries/data_00006_AD8",
+      "array_key": "s6_AD8_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4192.912000179291,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_4",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 6,
+      "channel": "AD2",
+      "path": "/acquisition/timeseries/data_00006_AD2",
+      "array_key": "s6_AD2_A",
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4192.912000179291,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_2",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries"
+    },
+    {
+      "sweep": 6,
+      "channel": "DA5",
+      "path": "/stimulus/presentation/data_00006_DA5",
+      "array_key": "s6_DA5_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4192.912000179291,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_5",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 305602,
+          "stop_index": 305753,
+          "start_s": 3.05602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 310602,
+          "stop_index": 310753,
+          "start_s": 3.10602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 315602,
+          "stop_index": 315753,
+          "start_s": 3.15602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 320602,
+          "stop_index": 320753,
+          "start_s": 3.20602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 325602,
+          "stop_index": 325753,
+          "start_s": 3.25602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 330602,
+          "stop_index": 330753,
+          "start_s": 3.30602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 335602,
+          "stop_index": 335753,
+          "start_s": 3.35602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 340602,
+          "stop_index": 340753,
+          "start_s": 3.40602,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 365753,
+          "stop_index": 365903,
+          "start_s": 3.65753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 370753,
+          "stop_index": 370903,
+          "start_s": 3.70753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 375753,
+          "stop_index": 375903,
+          "start_s": 3.75753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 380753,
+          "stop_index": 380903,
+          "start_s": 3.80753,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        }
+      ]
+    },
+    {
+      "sweep": 6,
+      "channel": "DA4",
+      "path": "/stimulus/presentation/data_00006_DA4",
+      "array_key": "s6_DA4_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4192.912000179291,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_4",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 205301,
+          "stop_index": 205452,
+          "start_s": 2.05301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 210301,
+          "stop_index": 210452,
+          "start_s": 2.10301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 215301,
+          "stop_index": 215452,
+          "start_s": 2.15301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 220301,
+          "stop_index": 220452,
+          "start_s": 2.20301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 225301,
+          "stop_index": 225452,
+          "start_s": 2.25301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 230301,
+          "stop_index": 230452,
+          "start_s": 2.30301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 235301,
+          "stop_index": 235452,
+          "start_s": 2.35301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 240301,
+          "stop_index": 240452,
+          "start_s": 2.40301,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 265452,
+          "stop_index": 265602,
+          "start_s": 2.65452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 270452,
+          "stop_index": 270602,
+          "start_s": 2.70452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 275452,
+          "stop_index": 275602,
+          "start_s": 2.75452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        },
+        {
+          "start_index": 280452,
+          "stop_index": 280602,
+          "start_s": 2.80452,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.1500000071246177,
+          "delta_max_V": 0.1500000071246177
+        }
+      ]
+    },
+    {
+      "sweep": 6,
+      "channel": "DA2",
+      "path": "/stimulus/presentation/data_00006_DA2",
+      "array_key": "s6_DA2_V",
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "offset": 0.0,
+      "rate": 100000.0,
+      "start": 4192.912000179291,
+      "samples": 505902,
+      "dtype": "float32",
+      "electrode": "electrode_2",
+      "description": "PLACEHOLDER",
+      "neurodata_type": "TimeSeries",
+      "initial_command_V": 0.0,
+      "all_command_intervals": [
+        {
+          "start_index": 750,
+          "stop_index": 1751,
+          "start_s": 0.0075,
+          "duration_s": 0.01001,
+          "delta_min_V": -0.010000000474974513,
+          "delta_max_V": -0.010000000474974513
+        },
+        {
+          "start_index": 105000,
+          "stop_index": 105151,
+          "start_s": 1.05,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 110000,
+          "stop_index": 110151,
+          "start_s": 1.1,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 115000,
+          "stop_index": 115151,
+          "start_s": 1.15,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 120000,
+          "stop_index": 120151,
+          "start_s": 1.2,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 125000,
+          "stop_index": 125151,
+          "start_s": 1.25,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 130000,
+          "stop_index": 130151,
+          "start_s": 1.3,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 135000,
+          "stop_index": 135151,
+          "start_s": 1.35,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 140000,
+          "stop_index": 140151,
+          "start_s": 1.4,
+          "duration_s": 0.00151,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 165151,
+          "stop_index": 165301,
+          "start_s": 1.65151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 170151,
+          "stop_index": 170301,
+          "start_s": 1.70151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 175151,
+          "stop_index": 175301,
+          "start_s": 1.75151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        },
+        {
+          "start_index": 180151,
+          "stop_index": 180301,
+          "start_s": 1.80151,
+          "duration_s": 0.0015,
+          "delta_min_V": 0.12000000569969416,
+          "delta_max_V": 0.12000000569969416
+        }
+      ]
+    }
+  ],
+  "arrays": {
+    "path": "data/local/allen-synphys-analysis/vc20hz-inputs-v1/full_inputs.npz",
+    "bytes": 11226104,
+    "sha256": "9222e0ce81471c2452f0e20929b1634b79fa790f120c6a5cd45df00789050a97"
+  },
+  "interpretation": "Command-locked clamp currents; no independent source Vm/AP channel; not identified PSCs or plasticity."
+}

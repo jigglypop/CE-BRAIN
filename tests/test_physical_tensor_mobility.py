@@ -1,4 +1,5 @@
 from __future__ import annotations
+from importlib.metadata import distribution as _distribution
 
 import importlib.util
 from fractions import Fraction as F
@@ -9,7 +10,7 @@ import pytest
 
 
 ROOT = Path(__file__).resolve().parents[1]
-MODULE_PATH = ROOT / "reality_stone" / "python" / "reality_stone" / "clarus" / "physical_tensor_mobility.py"
+MODULE_PATH = Path(_distribution("reality_stone").locate_file("reality_stone")) / "clarus" / "physical_tensor_mobility.py"
 
 
 def _load():

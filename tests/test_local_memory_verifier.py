@@ -3,6 +3,7 @@ from __future__ import annotations
 import copy
 import json
 from pathlib import Path
+from importlib.metadata import distribution
 
 from reality_stone.clarus.local_memory_verifier import (
     CANONICAL_TEXT_SHA256_SCHEME,
@@ -19,7 +20,7 @@ RESULT_PATHS = {
     6: ROOT / "artifacts/agi/local_memory_aml32_h6_confirmatory.json",
 }
 IMPLEMENTATION = (
-    ROOT / "reality_stone/python/reality_stone/clarus/local_memory.py"
+    Path(distribution("reality_stone").locate_file("reality_stone/clarus/local_memory.py"))
 )
 PROOF = ROOT / "artifacts/agi/local_memory_aml32_proof.json"
 
@@ -97,4 +98,11 @@ def test_proof_generator_records_canonical_cross_platform_hashes() -> None:
     assert proof["proof_passed"]
     assert proof["input_hash_scheme"] == CANONICAL_TEXT_SHA256_SCHEME
     assert proof["inputs"]["implementation"]["sha256"] == _inputs()[2]
-    assert proof == json.loads(PROOF.read_text(encoding="utf-8"))
+    historical = json.loads(PROOF.read_text(encoding="utf-8"))
+    # Relocation changes provenance, not implementation bytes or the old receipt.
+    assert proof["inputs"]["implementation"]["path"] != historical["inputs"]["implementation"]["path"]
+    assert proof["inputs"]["implementation"]["sha256"] == historical["inputs"]["implementation"]["sha256"]
+    current_path = proof["inputs"]["implementation"].pop("path")
+    historical["inputs"]["implementation"].pop("path")
+    assert current_path.endswith("local_memory.py")
+    assert proof == historical

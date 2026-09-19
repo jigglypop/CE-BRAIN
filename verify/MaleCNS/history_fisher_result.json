@@ -1,0 +1,287 @@
+{
+  "schema": "malecns-history-fisher-v1",
+  "steps": 16,
+  "source_count": 1834661,
+  "probe_count": 54,
+  "cohort_labels": [
+    "ENS",
+    "ascending_neuron",
+    "cb_efferent",
+    "cb_endocrine",
+    "cb_intrinsic",
+    "cb_motor",
+    "cb_sensory",
+    "cb_sensory_tbc",
+    "descending_neuron",
+    "descending_neuron_tbc",
+    "efferent_ascending",
+    "efferent_descending",
+    "ol_intrinsic",
+    "ol_sensory",
+    "sensory_ascending",
+    "sensory_ascending_tbc",
+    "sensory_descending",
+    "visual_centrifugal",
+    "visual_projection",
+    "visual_projection_tbc",
+    "vnc_efferent",
+    "vnc_endocrine",
+    "vnc_intrinsic",
+    "vnc_motor",
+    "vnc_sensory",
+    "vnc_sensory_tbc",
+    "vnc_tbc"
+  ],
+  "feature_labels": [
+    "active_target",
+    "same_assigned_superclass",
+    "reciprocal_nonself",
+    "source_common_gauge"
+  ],
+  "observation_labels": [
+    "endpoint30",
+    "endpoint60",
+    "endpoint_refined",
+    "pair30",
+    "pair60",
+    "full_path"
+  ],
+  "numerical_tolerance": 5e-09,
+  "working_bytes_estimate": 8439638464,
+  "analytic_seconds": 337.25611929997103,
+  "pair_operator_nonzero_source_joint_cells": 5014620,
+  "feature_pair_operator_nonzero_cells": [
+    3253892,
+    176408,
+    1064359
+  ],
+  "pair_operator_column_max_error": 5.495603971894525e-14,
+  "pair_tangent_column_max_error": 2.631228568361621e-14,
+  "source_covariance_scaled_min_eigenvalue": -4.440892098500791e-16,
+  "diagnostics": [
+    {
+      "cohort_start": 0,
+      "cohort_count": 3,
+      "marginal_probability_max_error": 1.149080830487037e-13,
+      "marginal_tangent_max_error": 4.579669976578771e-15,
+      "joint_mass_max_error": 1.1679546219056647e-13,
+      "joint_tangent_mass_max_error": 6.563236988791653e-15,
+      "scaled_loewner_min_eigenvalue": -9.770257738573136e-17
+    },
+    {
+      "cohort_start": 3,
+      "cohort_count": 3,
+      "marginal_probability_max_error": 3.785860513971784e-13,
+      "marginal_tangent_max_error": 6.670425417475646e-15,
+      "joint_mass_max_error": 1.7252865802674933e-13,
+      "joint_tangent_mass_max_error": 7.55394894264362e-15,
+      "scaled_loewner_min_eigenvalue": -1.3190757897211744e-14
+    },
+    {
+      "cohort_start": 6,
+      "cohort_count": 3,
+      "marginal_probability_max_error": 7.982503547054876e-14,
+      "marginal_tangent_max_error": 3.6637359812630166e-15,
+      "joint_mass_max_error": 8.615330671091215e-14,
+      "joint_tangent_mass_max_error": 4.291186698000791e-15,
+      "scaled_loewner_min_eigenvalue": -2.1700366198151248e-15
+    },
+    {
+      "cohort_start": 9,
+      "cohort_count": 3,
+      "marginal_probability_max_error": 4.6074255521944e-15,
+      "marginal_tangent_max_error": 5.176414852314792e-15,
+      "joint_mass_max_error": 2.4424906541753444e-15,
+      "joint_tangent_mass_max_error": 8.525586699178542e-15,
+      "scaled_loewner_min_eigenvalue": -1.3545818446960555e-15
+    },
+    {
+      "cohort_start": 12,
+      "cohort_count": 3,
+      "marginal_probability_max_error": 1.1900480600957053e-12,
+      "marginal_tangent_max_error": 1.026927181020708e-14,
+      "joint_mass_max_error": 1.8407497748285095e-13,
+      "joint_tangent_mass_max_error": 1.026927181020708e-14,
+      "scaled_loewner_min_eigenvalue": -1.0538503433277012e-14
+    },
+    {
+      "cohort_start": 15,
+      "cohort_count": 3,
+      "marginal_probability_max_error": 9.175993298526919e-14,
+      "marginal_tangent_max_error": 4.496403249731884e-15,
+      "joint_mass_max_error": 3.885780586188048e-14,
+      "joint_tangent_mass_max_error": 5.681288555975587e-15,
+      "scaled_loewner_min_eigenvalue": -2.5211030847701407e-14
+    },
+    {
+      "cohort_start": 18,
+      "cohort_count": 3,
+      "marginal_probability_max_error": 2.1249668691325496e-13,
+      "marginal_tangent_max_error": 7.327471962526033e-15,
+      "joint_mass_max_error": 2.5757174171303632e-14,
+      "joint_tangent_mass_max_error": 8.040380975855515e-15,
+      "scaled_loewner_min_eigenvalue": -1.9525437343876075e-14
+    },
+    {
+      "cohort_start": 21,
+      "cohort_count": 3,
+      "marginal_probability_max_error": 2.4502622153477205e-13,
+      "marginal_tangent_max_error": 4.468647674116255e-15,
+      "joint_mass_max_error": 1.0369483049998962e-13,
+      "joint_tangent_mass_max_error": 6.971901004386495e-15,
+      "scaled_loewner_min_eigenvalue": -5.181732128816714e-15
+    },
+    {
+      "cohort_start": 24,
+      "cohort_count": 3,
+      "marginal_probability_max_error": 1.2145839889399213e-13,
+      "marginal_tangent_max_error": 3.552713678800501e-15,
+      "joint_mass_max_error": 2.6201263381153694e-14,
+      "joint_tangent_mass_max_error": 5.4929333828909505e-15,
+      "scaled_loewner_min_eigenvalue": -2.4690080608616907e-15
+    }
+  ],
+  "finite_difference": [
+    {
+      "feature": "active_target",
+      "step_size": 0.0001,
+      "max_absolute_error": 2.980803034957624e-10,
+      "max_scaled_error": 0.004821160039184059,
+      "elapsed_seconds": 114.00596360000782,
+      "max_error_location_step_previous_current_probe": [
+        5,
+        33,
+        33,
+        17
+      ]
+    },
+    {
+      "feature": "active_target",
+      "step_size": 5e-05,
+      "max_absolute_error": 2.1829445889798293e-10,
+      "max_scaled_error": 0.00970033576329328,
+      "elapsed_seconds": 139.5274100000388,
+      "max_error_location_step_previous_current_probe": [
+        7,
+        33,
+        33,
+        24
+      ]
+    },
+    {
+      "feature": "same_assigned_superclass",
+      "step_size": 0.0001,
+      "max_absolute_error": 1.9276634455334118e-10,
+      "max_scaled_error": 0.002466430861208527,
+      "elapsed_seconds": 120.91334269999061,
+      "max_error_location_step_previous_current_probe": [
+        4,
+        15,
+        15,
+        24
+      ]
+    },
+    {
+      "feature": "same_assigned_superclass",
+      "step_size": 5e-05,
+      "max_absolute_error": 2.2253249243320283e-10,
+      "max_scaled_error": 0.004402706373653374,
+      "elapsed_seconds": 103.36941909999587,
+      "max_error_location_step_previous_current_probe": [
+        16,
+        33,
+        33,
+        24
+      ]
+    },
+    {
+      "feature": "reciprocal_nonself",
+      "step_size": 0.0001,
+      "max_absolute_error": 1.8354125164155022e-10,
+      "max_scaled_error": 0.0063516894216551125,
+      "elapsed_seconds": 127.99534490000224,
+      "max_error_location_step_previous_current_probe": [
+        5,
+        33,
+        33,
+        25
+      ]
+    },
+    {
+      "feature": "reciprocal_nonself",
+      "step_size": 5e-05,
+      "max_absolute_error": 3.1474500783446047e-10,
+      "max_scaled_error": 0.01836184489316089,
+      "elapsed_seconds": 135.69870810001157,
+      "max_error_location_step_previous_current_probe": [
+        5,
+        33,
+        33,
+        24
+      ]
+    }
+  ],
+  "rank_rule": "eigenvalue > 1e-10 * max(1, largest eigenvalue) of three structural coordinates; gauge is additional exact zero",
+  "input_artifacts": {
+    "active_transition.npz": {
+      "path": "C:\\dev\\ce\\ce-agi-runtime\\data\\local\\malecns-analysis\\hidden-walk-v1\\active_transition.npz",
+      "bytes": 131402054,
+      "sha256": "7d9a412563fe11e4390c94cd705f728ab93a1c05ff5db9c462eaaafd8afea350"
+    },
+    "probe_traces.npz": {
+      "path": "C:\\dev\\ce\\ce-agi-runtime\\data\\local\\malecns-analysis\\hidden-walk-v1\\probe_traces.npz",
+      "bytes": 520093,
+      "sha256": "122178b18ca034be8e15752a58a32505894b46e9d3da4ffac7a7ebdfbf37ec58"
+    },
+    "source_scope.npz": {
+      "path": "C:\\dev\\ce\\ce-agi-runtime\\data\\local\\malecns-analysis\\hidden-walk-v1\\source_scope.npz",
+      "bytes": 7344249,
+      "sha256": "f5106515fd1c00e32c4f988da07c7a8a5e08b0662f15d5427cc1ade0d9796273"
+    },
+    "terminal_boundary.npz": {
+      "path": "C:\\dev\\ce\\ce-agi-runtime\\data\\local\\malecns-analysis\\hidden-walk-v1\\terminal_boundary.npz",
+      "bytes": 6079459,
+      "sha256": "d18bc531debd8fd3e84c8804bb5a848addb3d8bacc321cb51e8ec7aa2b5d5130"
+    },
+    "observation_memory_arrays.npz": {
+      "path": "C:\\dev\\ce\\ce-agi-runtime\\data\\local\\malecns-analysis\\observation-memory-v1\\observation_memory_arrays.npz",
+      "bytes": 5198766,
+      "sha256": "0c21697b4f095cc43b8dcc0dbb1aa16feddff0b5e7f03a3f7768ba5ef8225b65"
+    },
+    "connection_fisher_arrays.npz": {
+      "path": "C:\\dev\\ce\\ce-agi-runtime\\data\\local\\malecns-analysis\\connection-fisher-v1\\connection_fisher_arrays.npz",
+      "bytes": 3241836,
+      "sha256": "0775de822b424e752b62d281996ee02ed7d2dd2edb11aa7139c3380e5ce27206"
+    }
+  },
+  "parent_result": "C:\\dev\\ce\\ce-agi-runtime\\verify\\MaleCNS\\connection_fisher_result.json",
+  "parent_result_sha256": "c0a2d62f56b32d8010ffa49b7e6309a4d7f77dfe874c59db9994dc7fc0990ff7",
+  "parent_source_sha256": "13ab5df66b57526b38e0b3b1852ce937902d1fe9ee4f85575190eee02650f96d",
+  "parent_test_sha256": "5e33aa6799d4900611b9b3f886b37d625a27caa8caa590b15c8c818c6a10c400",
+  "source_code_sha256": "84f0fa52148b3be5ca6775b902a56daca4da4d5bb93e30e28d74acbcacf635af",
+  "test_code_sha256": "42d52a0da5a0f64505e6a596292197ee833c93b4655cc39745490fa0c88d8dff",
+  "artifacts": {
+    "history_fisher_arrays.npz": {
+      "path": "C:\\dev\\ce\\ce-agi-runtime\\data\\local\\malecns-analysis\\history-fisher-v1\\history_fisher_arrays.npz",
+      "bytes": 38813621,
+      "sha256": "2408e1b1bf23ae35f0dbde33f7647953e70440b6f1b4f63dceeaa58e1372fc65"
+    }
+  },
+  "software": {
+    "python": "3.11.15",
+    "executable": "C:\\Users\\dongh\\AppData\\Local\\uv\\cache\\archive-v0\\Sp2cxzBGA63aECqn\\Scripts\\python.exe",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1"
+  },
+  "argv": [
+    "verify/MaleCNS/history_fisher.py",
+    "--parent-result",
+    "verify/MaleCNS/connection_fisher_result.json",
+    "--cache-dir",
+    "data/local/malecns-analysis/history-fisher-v1",
+    "--result",
+    "verify/MaleCNS/history_fisher_result.json"
+  ],
+  "elapsed_seconds": 1100.0919502000324,
+  "interpretation": "Same full contact-supported absorbing proxy and three fixed shared log-efficacy coordinates plus common-source gauge. Pair observation is exactly (Y[t-1],Y[t]), not full coarse history and not independent repeated trials. Full-path Fisher observes all active raw IDs and terminal category from step0 and sums expected conditional score covariances, not endpoint Fisher. Source-specific terminal-category compression is sufficient for the chosen full-path score but not claimed sufficient for coarse paths or endpoint terminal ID information. Pair60 and refined endpoint are nonnested. No probability repair, biological learning, neural time or physical metric is established."
+}

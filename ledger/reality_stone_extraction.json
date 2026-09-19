@@ -1,0 +1,156 @@
+{
+  "source_commit": "fffd356ee4f1f7bf5079f3379cd06e4dc56a444c",
+  "library_repository": "https://github.com/jigglypop/reality_stone",
+  "library_version": "0.3.0",
+  "library_commit": "cf8f47884a7b17a4a1d8e75f0bc9b7499c4706fd",
+  "reproduction_checkout": "C:\\dev\\ce\\ce-agi-runtime-repro-fffd356",
+  "relocated_paths": {
+    "examples/agi/causal_recurrent_geometry_development_run.py": "8fc4f0092308fd36bee2ee4649bc9069b004657b55563bc3c946db5805249bec",
+    "examples/agi/cloudcell_mtl_gate.py": "4f75b0edde9598481478f092e879464a310a85508624737b122bb058b630282b",
+    "examples/agi/latent_causal_bridge_gate.py": "ce0eb45234083fa2d8fa2505106a79cb0c1db8e9db474de07ccff6407b246c16",
+    "examples/agi/local_memory_celegans_gate.py": "b0143297de251d4d12b514d0435c33aeb520ef9396654cfff78d6a4ef0d926c5",
+    "examples/agi/sparse_causal_bridge_gate.py": "e1a507127fc4804534764b7651ba719465b32c90090f2f637a115bc8ee9a5508",
+    "tests/test_agi_world_memory_integration_v3.py": "595bd7ba2e64929a2c0932dbdb900d74c7a777f99de05cc8c45d745ec5b5c5dc",
+    "tests/test_causal_recurrent_geometry_benchmark.py": "51ae999423db61844c7303b7fe9747a7d6fac5fa0f92b44883c1b26116260dd7",
+    "tests/test_episodic_ltm_dream_bridge.py": "d4c680540efee646fa7e2ea6c019d73de2e1bc48bafe67be8e6cabd847ae2d07",
+    "tests/test_episodic_ltm_dream_bridge_integrity.py": "cf780d576e1c93387ad60687ef315f29a7f2d098a0fa33f6b3796dd819d828e0",
+    "tests/test_episodic_ltm_dream_bridge_integrity_v2.py": "3665ca2f121595aee81b6d3afe357ac5db8dbc6a5faa1b9e805c5008d08bb6d0",
+    "tests/test_episodic_ltm_dream_bridge_v2.py": "ca9d7366e652e89235cc3853048d67cdda2129850b4a5e657eb82d871f865f5c",
+    "tests/test_neural_graph_transform_measurement_bridge.py": "fff46bd6b3ef6c088e5f04773a60ead591771a4408bd42c617f7833c60e905c6",
+    "tests/test_reality_bridge.py": "fb4fb1b972e6b9a55528f6bd357118addeb08339d219733938ed7cbd4c72c1da",
+    "tests/test_verified_automatic_defective_conformal_moving_knot_spline_bridge.py": "f1442bc9bf3209bda8c0530aa89143647916c5ad9c904f632f539856bbb5600b",
+    "tests/test_verified_automatic_interval_defective_general_affine_moving_knot_spline_bridge.py": "fe559107136c33a02c68adc8b7f2dd31f1855bae7bfe2f5f7cdf6b6d6a3aabf8",
+    "tests/test_verified_conformal_interval_characteristic_bridge.py": "f8bcf509ad2339c32b8f9d0b6c0cd0bd1319f7743279c5030b62fa1c6e215dcb",
+    "tests/test_verified_defective_conformal_moving_knot_spline_bridge.py": "5a7b24df235ef0588afb9467150b5d09b89b39ec3e0b85c171b4c18890576429",
+    "tests/test_verified_defective_general_affine_moving_knot_spline_bridge.py": "9a9f05bfcbe518658997e81b470f9bf72a468748b7677d83b988dee5757c2043",
+    "tests/test_verified_ellipse_polygon_rank_bridge.py": "90f1b01ee29a0d175960ea07d23e2210763d12ea20a00f4fdfac288849cebed9",
+    "tests/test_verified_interval_defective_conformal_moving_knot_spline_bridge.py": "60ea3d14cc3c3dae79e524da1723bc06f1139096f8a86f0f88a81885416a5957",
+    "tests/test_verified_interval_moving_knot_spline_spectral_rank_bridge.py": "78b5d618668bd36bb23c7bc16cf3f1a33fa0060d7e300b5ff4920f9bf703de53",
+    "tests/test_verified_moving_knot_spline_spectral_rank_bridge.py": "6f1bab5211e77c3928956266d6efa61a899784db2db2cbe7f1b88506d1b7eaea",
+    "tests/test_verified_piecewise_polynomial_radial_polygon_rank_bridge.py": "b2b4629d487f18223e31c63f438d46149818983b4e4fb51af98a69cb9801c030",
+    "tests/test_verified_piecewise_rational_radial_polygon_rank_bridge.py": "aabd997efce429c5de72e25af9a7f2b3e56726ed8579cc4126ea2f9a7456494e",
+    "tests/test_verified_polynomial_radial_polygon_rank_bridge.py": "fefa76bed7bf33431f86fea87fbce2af7a7df368152ec154303c41a9e62bf093",
+    "tests/test_verified_radial_polygon_rank_bridge.py": "8833846e2ad2cb3020b1cd9b1222857a45bf42e9a3ed267977549ce67d4b9f5e"
+  },
+  "state": "complete: published package installed and validated; vendored source relocated out of CE checkout",
+  "release_tag": "v0.3.0",
+  "release_workflow": "https://github.com/jigglypop/reality_stone/actions/runs/35435176257",
+  "registry": "https://pypi.org/project/reality-stone/0.3.0/",
+  "published_artifacts": {
+    "reality_stone-0.3.0-cp310-cp310-macosx_11_0_arm64.whl": {
+      "sha256": "baea407e79eabfd148702f83e7f68687f4f07ee59552cc336634c9d1fd384ff2",
+      "bytes": 2886999
+    },
+    "reality_stone-0.3.0-cp310-cp310-manylinux_2_28_x86_64.whl": {
+      "sha256": "b4f3a877edc02048d124148f5476e8993e6defb644ff48f4a3b2983d8965675c",
+      "bytes": 3108654
+    },
+    "reality_stone-0.3.0-cp310-cp310-win_amd64.whl": {
+      "sha256": "e8c42a30089ce3b5d21c5499a855e6dd53d14d882e8ff888cb350c18de1fb2e7",
+      "bytes": 2816084
+    },
+    "reality_stone-0.3.0-cp311-cp311-macosx_11_0_arm64.whl": {
+      "sha256": "5fd45be214f3d2c64b872f931a62c49f14c9e921dc6969c56306597a88eb3912",
+      "bytes": 2886982
+    },
+    "reality_stone-0.3.0-cp311-cp311-manylinux_2_28_x86_64.whl": {
+      "sha256": "f1c785a25e855c9de19d88a905e7feb9e468b4442e1b6d3826212d9772f353c2",
+      "bytes": 3108816
+    },
+    "reality_stone-0.3.0-cp311-cp311-win_amd64.whl": {
+      "sha256": "834e44c5447da86abe2786b5aa7c6925c060220525fc7543e09957a819690290",
+      "bytes": 2816894
+    },
+    "reality_stone-0.3.0-cp312-cp312-macosx_11_0_arm64.whl": {
+      "sha256": "0b41c3c44192b3078002a31247a03b9f26d05913c211ada24d9b56537dd2a0ce",
+      "bytes": 2886680
+    },
+    "reality_stone-0.3.0-cp312-cp312-manylinux_2_28_x86_64.whl": {
+      "sha256": "37c2a13da7b87ef64af33de1a8b0a81949758d5b609745defbd5dba318379bca",
+      "bytes": 3113627
+    },
+    "reality_stone-0.3.0-cp312-cp312-win_amd64.whl": {
+      "sha256": "a6217c16a6b239c9cd623c4d2788e39453a699a80fa61a476019d4bd01bc39fb",
+      "bytes": 2819132
+    },
+    "reality_stone-0.3.0.tar.gz": {
+      "sha256": "9a3418a718164d862030db202c949d301b2be75d80a18247c6e405f5d2547d98",
+      "bytes": 1362451
+    }
+  },
+  "reproduction_manifest": "C:\\dev\\build\\reality-stone-extraction-20260919\\reproduction-environment.json",
+  "preserved_tracked_files": 2590,
+  "retired_active_tree": "C:\\dev\\build\\reality-stone-extraction-20260919\\retired-active-files",
+  "relocated_vendor_bytes": 1831482473,
+  "validation": {
+    "release_wheels": 9,
+    "platforms": [
+      "Windows AMD64",
+      "Linux manylinux_2_28 x86_64",
+      "macOS arm64"
+    ],
+    "python_versions": [
+      "3.10",
+      "3.11",
+      "3.12"
+    ],
+    "native_and_fallback_gates": 18,
+    "native_gradient_tests_per_wheel": 4,
+    "consumer_migrated_tests_passed": 1793,
+    "historical_selected_tests_passed": 4,
+    "consumer_package_build": "PASS",
+    "additional_document_policy_violations": 0,
+    "preexisting_document_policy_violations": 38
+  },
+  "evidence": {
+    "published-native-verification.log": {
+      "path": "C:\\dev\\build\\reality-stone-extraction-20260919\\published-native-verification.log",
+      "sha256": "b66cfcbb7dfc02e442b5b4e5c0c81722b705f9bf592c649f3924c62fe800894e"
+    },
+    "published-fallback-verification.log": {
+      "path": "C:\\dev\\build\\reality-stone-extraction-20260919\\published-fallback-verification.log",
+      "sha256": "e748ac49699f022b6c8094e7716ec3ce24be0d86418b727950764e93ad9d2b88"
+    },
+    "published-consumer-verification.log": {
+      "path": "C:\\dev\\build\\reality-stone-extraction-20260919\\published-consumer-verification.log",
+      "sha256": "a237463d974a63d470d8dd1b144c1ed78d38f0fe651490b51d43d78af16e0ef3"
+    },
+    "published-consumer-tests.log": {
+      "path": "C:\\dev\\build\\reality-stone-extraction-20260919\\published-consumer-tests.log",
+      "sha256": "29efd317ce9623f5f477b3e58c3b0b7db4559c9f34530dfc506bdff4527d5a5c"
+    },
+    "final-historical-verification.log": {
+      "path": "C:\\dev\\build\\reality-stone-extraction-20260919\\final-historical-verification.log",
+      "sha256": "5504fc0e8c398c69a497f348d9c2a92ef72775ecfaf433b28e3aae569e0ba4e3"
+    },
+    "consumer-package-build.log": {
+      "path": "C:\\dev\\build\\reality-stone-extraction-20260919\\consumer-package-build.log",
+      "sha256": "063f4f794d7b1e18385ff558de1513a4ecceaf98e40f6bf95c0b6bc19dd61953"
+    },
+    "published/release-workflow.json": {
+      "path": "C:\\dev\\build\\reality-stone-extraction-20260919\\published\\release-workflow.json",
+      "sha256": "1bb5635334a03efe71daf70eb91feb523d6d255f933658122118415c69def01e"
+    },
+    "published/pypi-0.3.0.json": {
+      "path": "C:\\dev\\build\\reality-stone-extraction-20260919\\published\\pypi-0.3.0.json",
+      "sha256": "08f0943263d9f31aaef02500b52fa6a968df30c793624a0f6c6b22fc00d248d4"
+    },
+    "post-migration-document-issues.json": {
+      "path": "C:\\dev\\build\\reality-stone-extraction-20260919\\post-migration-document-issues.json",
+      "sha256": "0bd71006df029fbc478875e201d7f2dfc8a2f74d3754b4ee2713f9a5eebace46"
+    }
+  },
+  "consumer_git": {
+    "repository": "https://github.com/jigglypop/CE-BRAIN.git",
+    "branch": "main",
+    "upstream": "origin/main",
+    "head": "fffd356ee4f1f7bf5079f3379cd06e4dc56a444c",
+    "remote_tip": "fffd356ee4f1f7bf5079f3379cd06e4dc56a444c",
+    "changes": "working tree; not committed or pushed"
+  },
+  "excluded_concurrent_edits": [
+    ".codex/",
+    "AGENTS.md",
+    "CE_BRAIN_RESEARCH.md"
+  ]
+}

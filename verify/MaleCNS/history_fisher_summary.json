@@ -1,0 +1,2343 @@
+{
+  "result_sha256": "a825d15ee161145dda6fa6d7b40f5e9eaca2e128be977333d1486cc3541ab58e",
+  "snapshots": [
+    {
+      "step": 1,
+      "reference": "uniform",
+      "trace_by_observation": {
+        "endpoint30": {
+          "min": 0.0796679377320555,
+          "median": 0.27554595589931813,
+          "max": 0.45560494669257456,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "endpoint60": {
+          "min": 0.11438956057626794,
+          "median": 0.28705263638823486,
+          "max": 0.46843264955057373,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "endpoint_refined": {
+          "min": 0.12122937915853,
+          "median": 0.35002251544827634,
+          "max": 0.50068776763206,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "pair30": {
+          "min": 0.07966793773205547,
+          "median": 0.27554595589931796,
+          "max": 0.45560494669256413,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "pair60": {
+          "min": 0.11438956057626791,
+          "median": 0.2870526363882379,
+          "max": 0.46843264955056363,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "full_path": {
+          "min": 0.17882198748546713,
+          "median": 0.37124451591674934,
+          "max": 0.602239745594265,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        }
+      },
+      "pair60_extra_past_trace": {
+        "min": -1.0103029524088925e-14,
+        "median": -5.551115123125783e-17,
+        "max": 3.0531133177191805e-15,
+        "min_cohort": "ol_intrinsic",
+        "max_cohort": "descending_neuron"
+      },
+      "endpoint60_fraction_of_pair60": {
+        "min": 0.9999999999999893,
+        "median": 1.0000000000000002,
+        "max": 1.0000000000000215,
+        "min_cohort": "descending_neuron",
+        "max_cohort": "ol_intrinsic"
+      },
+      "pair60_fraction_of_path": {
+        "min": 0.6351809636095384,
+        "median": 0.7591099079214275,
+        "max": 0.9424958989072169,
+        "min_cohort": "cb_endocrine",
+        "max_cohort": "descending_neuron_tbc"
+      },
+      "endpoint60_fraction_of_path": {
+        "min": 0.6351809636095388,
+        "median": 0.7591099079214321,
+        "max": 0.9424958989072169,
+        "min_cohort": "cb_endocrine",
+        "max_cohort": "descending_neuron_tbc"
+      },
+      "extra_past_positive_cohorts": 0,
+      "nonnested_counts": [
+        27,
+        0,
+        0,
+        0
+      ],
+      "rank_counts": {
+        "endpoint30": [
+          0,
+          0,
+          3,
+          24
+        ],
+        "endpoint60": [
+          0,
+          0,
+          3,
+          24
+        ],
+        "endpoint_refined": [
+          0,
+          0,
+          3,
+          24
+        ],
+        "pair30": [
+          0,
+          0,
+          3,
+          24
+        ],
+        "pair60": [
+          0,
+          0,
+          3,
+          24
+        ],
+        "full_path": [
+          0,
+          0,
+          3,
+          24
+        ]
+      }
+    },
+    {
+      "step": 1,
+      "reference": "out_weight",
+      "trace_by_observation": {
+        "endpoint30": {
+          "min": 0.085300205606423,
+          "median": 0.28209876591293315,
+          "max": 0.4656421630574279,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "endpoint60": {
+          "min": 0.1088022825376177,
+          "median": 0.2965280346391996,
+          "max": 0.4781545142685319,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "endpoint_refined": {
+          "min": 0.11689683468023498,
+          "median": 0.3558736040568786,
+          "max": 0.5064123571565895,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "pair30": {
+          "min": 0.08530020560642297,
+          "median": 0.282098765912949,
+          "max": 0.4656421630574411,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "pair60": {
+          "min": 0.10880228253761766,
+          "median": 0.296528034639199,
+          "max": 0.4781545142685478,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "full_path": {
+          "min": 0.13676171560977915,
+          "median": 0.3789171918466536,
+          "max": 0.6160912760364454,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        }
+      },
+      "pair60_extra_past_trace": {
+        "min": -2.531308496145357e-14,
+        "median": -5.551115123125783e-17,
+        "max": 1.5931700403370996e-14,
+        "min_cohort": "visual_centrifugal",
+        "max_cohort": "ol_intrinsic"
+      },
+      "endpoint60_fraction_of_pair60": {
+        "min": 0.9999999999999578,
+        "median": 1.0000000000000002,
+        "max": 1.0000000000000961,
+        "min_cohort": "ol_sensory",
+        "max_cohort": "visual_centrifugal"
+      },
+      "pair60_fraction_of_path": {
+        "min": 0.6882430484285088,
+        "median": 0.7743995951294439,
+        "max": 0.9205583281569477,
+        "min_cohort": "vnc_tbc",
+        "max_cohort": "descending_neuron_tbc"
+      },
+      "endpoint60_fraction_of_path": {
+        "min": 0.6882430484285087,
+        "median": 0.7743995951294377,
+        "max": 0.920558328156948,
+        "min_cohort": "vnc_tbc",
+        "max_cohort": "descending_neuron_tbc"
+      },
+      "extra_past_positive_cohorts": 0,
+      "nonnested_counts": [
+        27,
+        0,
+        0,
+        0
+      ],
+      "rank_counts": {
+        "endpoint30": [
+          0,
+          0,
+          3,
+          24
+        ],
+        "endpoint60": [
+          0,
+          0,
+          3,
+          24
+        ],
+        "endpoint_refined": [
+          0,
+          0,
+          3,
+          24
+        ],
+        "pair30": [
+          0,
+          0,
+          3,
+          24
+        ],
+        "pair60": [
+          0,
+          0,
+          3,
+          24
+        ],
+        "full_path": [
+          0,
+          0,
+          3,
+          24
+        ]
+      }
+    },
+    {
+      "step": 2,
+      "reference": "uniform",
+      "trace_by_observation": {
+        "endpoint30": {
+          "min": 0.14086048540584953,
+          "median": 0.3286666047960374,
+          "max": 0.5509293172354206,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "endpoint60": {
+          "min": 0.15264357114520574,
+          "median": 0.3501235192175152,
+          "max": 0.5664540215520295,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "endpoint_refined": {
+          "min": 0.16296876449639022,
+          "median": 0.37956977842943157,
+          "max": 0.5916464743889752,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "pair30": {
+          "min": 0.16661289725312597,
+          "median": 0.45406394855198884,
+          "max": 0.6755512489451179,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "pair60": {
+          "min": 0.19028040367851967,
+          "median": 0.4653333381629037,
+          "max": 0.6893587984604724,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "full_path": {
+          "min": 0.2512820640843223,
+          "median": 0.6264171957170694,
+          "max": 0.9003993680089749,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        }
+      },
+      "pair60_extra_past_trace": {
+        "min": 0.03763683253331393,
+        "median": 0.12290477690844293,
+        "max": 0.18437854823905242,
+        "min_cohort": "ENS",
+        "max_cohort": "vnc_intrinsic"
+      },
+      "endpoint60_fraction_of_pair60": {
+        "min": 0.6649696478403387,
+        "median": 0.7468226143641191,
+        "max": 0.8217114553655904,
+        "min_cohort": "cb_efferent",
+        "max_cohort": "ol_intrinsic"
+      },
+      "pair60_fraction_of_path": {
+        "min": 0.6400551896278855,
+        "median": 0.766009877071006,
+        "max": 0.899968358775754,
+        "min_cohort": "cb_intrinsic",
+        "max_cohort": "descending_neuron_tbc"
+      },
+      "endpoint60_fraction_of_path": {
+        "min": 0.47643192158755054,
+        "median": 0.5692610484251457,
+        "max": 0.6729506490234458,
+        "min_cohort": "vnc_motor",
+        "max_cohort": "descending_neuron_tbc"
+      },
+      "extra_past_positive_cohorts": 27,
+      "nonnested_counts": [
+        0,
+        0,
+        0,
+        27
+      ],
+      "rank_counts": {
+        "endpoint30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint_refined": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "full_path": [
+          0,
+          0,
+          0,
+          27
+        ]
+      }
+    },
+    {
+      "step": 2,
+      "reference": "out_weight",
+      "trace_by_observation": {
+        "endpoint30": {
+          "min": 0.06654081126133865,
+          "median": 0.33195244845166566,
+          "max": 0.5607885994673617,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "endpoint60": {
+          "min": 0.08877470904061699,
+          "median": 0.34506254769042705,
+          "max": 0.5756335740020632,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "endpoint_refined": {
+          "min": 0.0989701984175638,
+          "median": 0.3972812101402754,
+          "max": 0.6003096717027443,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "pair30": {
+          "min": 0.1217262992339738,
+          "median": 0.4778546658506735,
+          "max": 0.6893108805121714,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "pair60": {
+          "min": 0.14723122892280796,
+          "median": 0.48540182809208077,
+          "max": 0.7023520923208622,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "full_path": {
+          "min": 0.17787818140927994,
+          "median": 0.612258783567095,
+          "max": 0.9174892462599773,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        }
+      },
+      "pair60_extra_past_trace": {
+        "min": 0.05845651988219097,
+        "median": 0.1266582532650904,
+        "max": 0.18859436932070378,
+        "min_cohort": "ENS",
+        "max_cohort": "vnc_intrinsic"
+      },
+      "endpoint60_fraction_of_pair60": {
+        "min": 0.6029611359636262,
+        "median": 0.7312308554412329,
+        "max": 0.8195797809898046,
+        "min_cohort": "ENS",
+        "max_cohort": "ol_intrinsic"
+      },
+      "pair60_fraction_of_path": {
+        "min": 0.7129974295450552,
+        "median": 0.7872468321562592,
+        "max": 0.8787932302803169,
+        "min_cohort": "vnc_motor",
+        "max_cohort": "descending_neuron_tbc"
+      },
+      "endpoint60_fraction_of_path": {
+        "min": 0.4815219682237713,
+        "median": 0.5802965065555568,
+        "max": 0.6619971237041117,
+        "min_cohort": "vnc_motor",
+        "max_cohort": "descending_neuron_tbc"
+      },
+      "extra_past_positive_cohorts": 27,
+      "nonnested_counts": [
+        0,
+        0,
+        0,
+        27
+      ],
+      "rank_counts": {
+        "endpoint30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint_refined": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "full_path": [
+          0,
+          0,
+          0,
+          27
+        ]
+      }
+    },
+    {
+      "step": 4,
+      "reference": "uniform",
+      "trace_by_observation": {
+        "endpoint30": {
+          "min": 0.12176199758673148,
+          "median": 0.2037656378166395,
+          "max": 0.44323366074387677,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_sensory"
+        },
+        "endpoint60": {
+          "min": 0.13864798974728149,
+          "median": 0.21586772200317567,
+          "max": 0.48072748202665244,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_sensory"
+        },
+        "endpoint_refined": {
+          "min": 0.1436520576267659,
+          "median": 0.22804550542648738,
+          "max": 0.505709935434019,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_sensory"
+        },
+        "pair30": {
+          "min": 0.1648297897745552,
+          "median": 0.31153698810136093,
+          "max": 0.5614410291178752,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_sensory"
+        },
+        "pair60": {
+          "min": 0.18150607583712447,
+          "median": 0.32184136062998464,
+          "max": 0.5960551738954665,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_sensory"
+        },
+        "full_path": {
+          "min": 0.30748048404592415,
+          "median": 0.7770155644362625,
+          "max": 1.1324682533660586,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        }
+      },
+      "pair60_extra_past_trace": {
+        "min": 0.042858086089842984,
+        "median": 0.10547519388619023,
+        "max": 0.1521068201929039,
+        "min_cohort": "ENS",
+        "max_cohort": "ol_intrinsic"
+      },
+      "endpoint60_fraction_of_pair60": {
+        "min": 0.6003118898403957,
+        "median": 0.6845073232104145,
+        "max": 0.8065150728998794,
+        "min_cohort": "efferent_descending",
+        "max_cohort": "ol_sensory"
+      },
+      "pair60_fraction_of_path": {
+        "min": 0.3643508507767615,
+        "median": 0.45714355720424976,
+        "max": 0.5903011256155541,
+        "min_cohort": "cb_intrinsic",
+        "max_cohort": "ENS"
+      },
+      "endpoint60_fraction_of_path": {
+        "min": 0.24093073846956198,
+        "median": 0.31291811266476804,
+        "max": 0.45091638962872693,
+        "min_cohort": "efferent_descending",
+        "max_cohort": "ENS"
+      },
+      "extra_past_positive_cohorts": 27,
+      "nonnested_counts": [
+        0,
+        0,
+        1,
+        26
+      ],
+      "rank_counts": {
+        "endpoint30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint_refined": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "full_path": [
+          0,
+          0,
+          0,
+          27
+        ]
+      }
+    },
+    {
+      "step": 4,
+      "reference": "out_weight",
+      "trace_by_observation": {
+        "endpoint30": {
+          "min": 0.043290321722979676,
+          "median": 0.21998650380592608,
+          "max": 0.4312538247032776,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_sensory"
+        },
+        "endpoint60": {
+          "min": 0.05632519615841253,
+          "median": 0.22872384071754884,
+          "max": 0.4618247461914317,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_sensory"
+        },
+        "endpoint_refined": {
+          "min": 0.06065289042952113,
+          "median": 0.2353136648275102,
+          "max": 0.48563887378819587,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_sensory"
+        },
+        "pair30": {
+          "min": 0.07002262613719948,
+          "median": 0.3331317277420328,
+          "max": 0.5677385239524417,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "pair60": {
+          "min": 0.08157196084717439,
+          "median": 0.33671583526886895,
+          "max": 0.5894060659415423,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        },
+        "full_path": {
+          "min": 0.2035763889047092,
+          "median": 0.7741765920426065,
+          "max": 1.152014254783093,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        }
+      },
+      "pair60_extra_past_trace": {
+        "min": 0.025246764688761858,
+        "median": 0.10633250341440914,
+        "max": 0.15564976079075382,
+        "min_cohort": "ENS",
+        "max_cohort": "ol_intrinsic"
+      },
+      "endpoint60_fraction_of_pair60": {
+        "min": 0.5998232921053465,
+        "median": 0.6728414537576677,
+        "max": 0.7919911007182295,
+        "min_cohort": "efferent_descending",
+        "max_cohort": "ol_sensory"
+      },
+      "pair60_fraction_of_path": {
+        "min": 0.3666741486007542,
+        "median": 0.4414834434017358,
+        "max": 0.5380580591440286,
+        "min_cohort": "cb_intrinsic",
+        "max_cohort": "ol_sensory"
+      },
+      "endpoint60_fraction_of_path": {
+        "min": 0.24488529152368985,
+        "median": 0.2992693296979282,
+        "max": 0.4261371945117935,
+        "min_cohort": "cb_intrinsic",
+        "max_cohort": "ol_sensory"
+      },
+      "extra_past_positive_cohorts": 27,
+      "nonnested_counts": [
+        0,
+        0,
+        1,
+        26
+      ],
+      "rank_counts": {
+        "endpoint30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint_refined": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "full_path": [
+          0,
+          0,
+          0,
+          27
+        ]
+      }
+    },
+    {
+      "step": 8,
+      "reference": "uniform",
+      "trace_by_observation": {
+        "endpoint30": {
+          "min": 0.013895433725469048,
+          "median": 0.031356543279547844,
+          "max": 0.10782221103535557,
+          "min_cohort": "ENS",
+          "max_cohort": "cb_sensory"
+        },
+        "endpoint60": {
+          "min": 0.01521501495381633,
+          "median": 0.03746885064672514,
+          "max": 0.15888107368179236,
+          "min_cohort": "efferent_descending",
+          "max_cohort": "ol_sensory"
+        },
+        "endpoint_refined": {
+          "min": 0.015722229898735198,
+          "median": 0.038521785341433336,
+          "max": 0.16166232276894615,
+          "min_cohort": "efferent_descending",
+          "max_cohort": "ol_sensory"
+        },
+        "pair30": {
+          "min": 0.026713163359153778,
+          "median": 0.060598799238634066,
+          "max": 0.18368665150955488,
+          "min_cohort": "efferent_descending",
+          "max_cohort": "ol_sensory"
+        },
+        "pair60": {
+          "min": 0.027498717846553326,
+          "median": 0.06357011960199405,
+          "max": 0.23346984285380828,
+          "min_cohort": "efferent_descending",
+          "max_cohort": "ol_sensory"
+        },
+        "full_path": {
+          "min": 0.32474147593386005,
+          "median": 0.8311113759679533,
+          "max": 1.2100754986362703,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_sensory"
+        }
+      },
+      "pair60_extra_past_trace": {
+        "min": 0.012283702892736996,
+        "median": 0.02610126895526891,
+        "max": 0.07458876917201593,
+        "min_cohort": "efferent_descending",
+        "max_cohort": "ol_sensory"
+      },
+      "endpoint60_fraction_of_pair60": {
+        "min": 0.5359011824225032,
+        "median": 0.5941308253219851,
+        "max": 0.7749947050475451,
+        "min_cohort": "cb_sensory_tbc",
+        "max_cohort": "cb_intrinsic"
+      },
+      "pair60_fraction_of_path": {
+        "min": 0.04587056911863947,
+        "median": 0.08194784796079181,
+        "max": 0.19293824485903888,
+        "min_cohort": "efferent_descending",
+        "max_cohort": "ol_sensory"
+      },
+      "endpoint60_fraction_of_path": {
+        "min": 0.025380143138842463,
+        "median": 0.050307203679109506,
+        "max": 0.13129848002116232,
+        "min_cohort": "efferent_descending",
+        "max_cohort": "ol_sensory"
+      },
+      "extra_past_positive_cohorts": 27,
+      "nonnested_counts": [
+        0,
+        0,
+        1,
+        26
+      ],
+      "rank_counts": {
+        "endpoint30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint_refined": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "full_path": [
+          0,
+          0,
+          0,
+          27
+        ]
+      }
+    },
+    {
+      "step": 8,
+      "reference": "out_weight",
+      "trace_by_observation": {
+        "endpoint30": {
+          "min": 0.00559841244575936,
+          "median": 0.03496649904896734,
+          "max": 0.10079600349786737,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_sensory"
+        },
+        "endpoint60": {
+          "min": 0.011812741086172088,
+          "median": 0.04036949109235577,
+          "max": 0.14514807659067144,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_sensory"
+        },
+        "endpoint_refined": {
+          "min": 0.012044322477656275,
+          "median": 0.04110159928509491,
+          "max": 0.14796546932590804,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_sensory"
+        },
+        "pair30": {
+          "min": 0.012452910070573914,
+          "median": 0.06256568429565429,
+          "max": 0.17296456276044175,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_sensory"
+        },
+        "pair60": {
+          "min": 0.018569633355641758,
+          "median": 0.06613066032446613,
+          "max": 0.21448648630436465,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_sensory"
+        },
+        "full_path": {
+          "min": 0.21072857056122912,
+          "median": 0.8168538456979659,
+          "max": 1.228288160505819,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        }
+      },
+      "pair60_extra_past_trace": {
+        "min": 0.006756892269469669,
+        "median": 0.02576116923211036,
+        "max": 0.0693384097136932,
+        "min_cohort": "ENS",
+        "max_cohort": "ol_sensory"
+      },
+      "endpoint60_fraction_of_pair60": {
+        "min": 0.5108064188984827,
+        "median": 0.59203026950982,
+        "max": 0.7219509377398936,
+        "min_cohort": "cb_motor",
+        "max_cohort": "cb_intrinsic"
+      },
+      "pair60_fraction_of_path": {
+        "min": 0.04594434669690354,
+        "median": 0.08339549291814094,
+        "max": 0.17917855822472747,
+        "min_cohort": "cb_motor",
+        "max_cohort": "ol_sensory"
+      },
+      "endpoint60_fraction_of_path": {
+        "min": 0.02346866720487563,
+        "median": 0.04875366349212038,
+        "max": 0.1212543668401714,
+        "min_cohort": "cb_motor",
+        "max_cohort": "ol_sensory"
+      },
+      "extra_past_positive_cohorts": 27,
+      "nonnested_counts": [
+        0,
+        0,
+        1,
+        26
+      ],
+      "rank_counts": {
+        "endpoint30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint_refined": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "full_path": [
+          0,
+          0,
+          0,
+          27
+        ]
+      }
+    },
+    {
+      "step": 16,
+      "reference": "uniform",
+      "trace_by_observation": {
+        "endpoint30": {
+          "min": 0.00022041077232928542,
+          "median": 0.0011088223112599037,
+          "max": 0.013709268207811681,
+          "min_cohort": "descending_neuron",
+          "max_cohort": "cb_intrinsic"
+        },
+        "endpoint60": {
+          "min": 0.00026926100526601275,
+          "median": 0.0013975003822604257,
+          "max": 0.014048509095885198,
+          "min_cohort": "cb_sensory_tbc",
+          "max_cohort": "cb_intrinsic"
+        },
+        "endpoint_refined": {
+          "min": 0.0002731836784075354,
+          "median": 0.001410005448098795,
+          "max": 0.01427350180731307,
+          "min_cohort": "cb_sensory_tbc",
+          "max_cohort": "cb_intrinsic"
+        },
+        "pair30": {
+          "min": 0.0003684010674512834,
+          "median": 0.0015313841422764474,
+          "max": 0.018352805978998125,
+          "min_cohort": "cb_sensory_tbc",
+          "max_cohort": "cb_intrinsic"
+        },
+        "pair60": {
+          "min": 0.00039468698153743515,
+          "median": 0.0017335928262066217,
+          "max": 0.018467951220694806,
+          "min_cohort": "cb_sensory_tbc",
+          "max_cohort": "cb_intrinsic"
+        },
+        "full_path": {
+          "min": 0.3259230047380537,
+          "median": 0.8328626566083944,
+          "max": 1.2215119155924135,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_sensory"
+        }
+      },
+      "pair60_extra_past_trace": {
+        "min": 0.0001254259762714224,
+        "median": 0.0003438642469625405,
+        "max": 0.004419442124809608,
+        "min_cohort": "cb_sensory_tbc",
+        "max_cohort": "cb_intrinsic"
+      },
+      "endpoint60_fraction_of_pair60": {
+        "min": 0.5967904757727623,
+        "median": 0.7189473639261542,
+        "max": 0.8933117975041707,
+        "min_cohort": "vnc_intrinsic",
+        "max_cohort": "cb_endocrine"
+      },
+      "pair60_fraction_of_path": {
+        "min": 0.0005715855089176586,
+        "median": 0.0020814870404517894,
+        "max": 0.018249153655705404,
+        "min_cohort": "cb_motor",
+        "max_cohort": "cb_intrinsic"
+      },
+      "endpoint60_fraction_of_path": {
+        "min": 0.00039557159554549345,
+        "median": 0.0016779481840996017,
+        "max": 0.013882070515602035,
+        "min_cohort": "cb_motor",
+        "max_cohort": "cb_intrinsic"
+      },
+      "extra_past_positive_cohorts": 27,
+      "nonnested_counts": [
+        0,
+        0,
+        0,
+        27
+      ],
+      "rank_counts": {
+        "endpoint30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint_refined": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "full_path": [
+          0,
+          0,
+          0,
+          27
+        ]
+      }
+    },
+    {
+      "step": 16,
+      "reference": "out_weight",
+      "trace_by_observation": {
+        "endpoint30": {
+          "min": 0.00013843806561206803,
+          "median": 0.0007560848486166923,
+          "max": 0.007121800704544332,
+          "min_cohort": "cb_motor",
+          "max_cohort": "cb_sensory"
+        },
+        "endpoint60": {
+          "min": 0.0001856487086489841,
+          "median": 0.0008318314481005827,
+          "max": 0.007429165015401223,
+          "min_cohort": "cb_motor",
+          "max_cohort": "cb_sensory"
+        },
+        "endpoint_refined": {
+          "min": 0.00019025312756646676,
+          "median": 0.0008484164843438229,
+          "max": 0.0074975488944430775,
+          "min_cohort": "cb_motor",
+          "max_cohort": "cb_sensory"
+        },
+        "pair30": {
+          "min": 0.00024928574922899115,
+          "median": 0.0010611988388093678,
+          "max": 0.010229295249586337,
+          "min_cohort": "cb_motor",
+          "max_cohort": "cb_sensory"
+        },
+        "pair60": {
+          "min": 0.0002865019174050847,
+          "median": 0.0011258311679459454,
+          "max": 0.010344403637995216,
+          "min_cohort": "cb_motor",
+          "max_cohort": "cb_sensory"
+        },
+        "full_path": {
+          "min": 0.21121733389946262,
+          "median": 0.818365092811018,
+          "max": 1.233535444803144,
+          "min_cohort": "ENS",
+          "max_cohort": "ol_intrinsic"
+        }
+      },
+      "pair60_extra_past_trace": {
+        "min": 0.00010085320875610063,
+        "median": 0.00032547753736385395,
+        "max": 0.0029152386225939925,
+        "min_cohort": "cb_motor",
+        "max_cohort": "cb_sensory"
+      },
+      "endpoint60_fraction_of_pair60": {
+        "min": 0.6058907769246439,
+        "median": 0.6896365141159794,
+        "max": 0.9061024173255885,
+        "min_cohort": "vnc_intrinsic",
+        "max_cohort": "cb_endocrine"
+      },
+      "pair60_fraction_of_path": {
+        "min": 0.0003201103722177755,
+        "median": 0.0022275016785768247,
+        "max": 0.009751653366462732,
+        "min_cohort": "cb_motor",
+        "max_cohort": "cb_sensory"
+      },
+      "endpoint60_fraction_of_path": {
+        "min": 0.00020742645552123955,
+        "median": 0.0014607717568314335,
+        "max": 0.007173757187914953,
+        "min_cohort": "cb_motor",
+        "max_cohort": "cb_intrinsic"
+      },
+      "extra_past_positive_cohorts": 27,
+      "nonnested_counts": [
+        0,
+        0,
+        1,
+        26
+      ],
+      "rank_counts": {
+        "endpoint30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "endpoint_refined": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "pair60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "full_path": [
+          0,
+          0,
+          0,
+          27
+        ]
+      }
+    }
+  ],
+  "nonnested_order_labels": [
+    "Refined endpoint dominates",
+    "Numerically equal",
+    "Adjacent pair dominates",
+    "Direction-dependent / indefinite"
+  ],
+  "nonnested_order_counts_by_step": [
+    {
+      "step": 1,
+      "all54_counts": [
+        54,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "step": 2,
+      "all54_counts": [
+        0,
+        0,
+        0,
+        54
+      ]
+    },
+    {
+      "step": 3,
+      "all54_counts": [
+        0,
+        0,
+        15,
+        39
+      ]
+    },
+    {
+      "step": 4,
+      "all54_counts": [
+        0,
+        0,
+        2,
+        52
+      ]
+    },
+    {
+      "step": 5,
+      "all54_counts": [
+        0,
+        0,
+        3,
+        51
+      ]
+    },
+    {
+      "step": 6,
+      "all54_counts": [
+        0,
+        0,
+        3,
+        51
+      ]
+    },
+    {
+      "step": 7,
+      "all54_counts": [
+        0,
+        0,
+        2,
+        52
+      ]
+    },
+    {
+      "step": 8,
+      "all54_counts": [
+        0,
+        0,
+        2,
+        52
+      ]
+    },
+    {
+      "step": 9,
+      "all54_counts": [
+        0,
+        0,
+        1,
+        53
+      ]
+    },
+    {
+      "step": 10,
+      "all54_counts": [
+        0,
+        0,
+        1,
+        53
+      ]
+    },
+    {
+      "step": 11,
+      "all54_counts": [
+        0,
+        0,
+        1,
+        53
+      ]
+    },
+    {
+      "step": 12,
+      "all54_counts": [
+        0,
+        0,
+        1,
+        53
+      ]
+    },
+    {
+      "step": 13,
+      "all54_counts": [
+        0,
+        0,
+        1,
+        53
+      ]
+    },
+    {
+      "step": 14,
+      "all54_counts": [
+        0,
+        0,
+        1,
+        53
+      ]
+    },
+    {
+      "step": 15,
+      "all54_counts": [
+        0,
+        0,
+        1,
+        53
+      ]
+    },
+    {
+      "step": 16,
+      "all54_counts": [
+        0,
+        0,
+        1,
+        53
+      ]
+    }
+  ],
+  "finite_difference": [
+    {
+      "feature": "active_target",
+      "step_size": 0.0001,
+      "max_absolute_error": 2.980803034957624e-10,
+      "max_scaled_error": 0.004821160039184059,
+      "elapsed_seconds": 114.00596360000782,
+      "max_error_location_step_previous_current_probe": [
+        5,
+        33,
+        33,
+        17
+      ]
+    },
+    {
+      "feature": "active_target",
+      "step_size": 5e-05,
+      "max_absolute_error": 2.1829445889798293e-10,
+      "max_scaled_error": 0.00970033576329328,
+      "elapsed_seconds": 139.5274100000388,
+      "max_error_location_step_previous_current_probe": [
+        7,
+        33,
+        33,
+        24
+      ]
+    },
+    {
+      "feature": "same_assigned_superclass",
+      "step_size": 0.0001,
+      "max_absolute_error": 1.9276634455334118e-10,
+      "max_scaled_error": 0.002466430861208527,
+      "elapsed_seconds": 120.91334269999061,
+      "max_error_location_step_previous_current_probe": [
+        4,
+        15,
+        15,
+        24
+      ]
+    },
+    {
+      "feature": "same_assigned_superclass",
+      "step_size": 5e-05,
+      "max_absolute_error": 2.2253249243320283e-10,
+      "max_scaled_error": 0.004402706373653374,
+      "elapsed_seconds": 103.36941909999587,
+      "max_error_location_step_previous_current_probe": [
+        16,
+        33,
+        33,
+        24
+      ]
+    },
+    {
+      "feature": "reciprocal_nonself",
+      "step_size": 0.0001,
+      "max_absolute_error": 1.8354125164155022e-10,
+      "max_scaled_error": 0.0063516894216551125,
+      "elapsed_seconds": 127.99534490000224,
+      "max_error_location_step_previous_current_probe": [
+        5,
+        33,
+        33,
+        25
+      ]
+    },
+    {
+      "feature": "reciprocal_nonself",
+      "step_size": 5e-05,
+      "max_absolute_error": 3.1474500783446047e-10,
+      "max_scaled_error": 0.01836184489316089,
+      "elapsed_seconds": 135.69870810001157,
+      "max_error_location_step_previous_current_probe": [
+        5,
+        33,
+        33,
+        24
+      ]
+    }
+  ],
+  "gauge_max_absolute_tangent": 0.0,
+  "rank_rule": "eigenvalue > 1e-10 * max(1, largest eigenvalue) of three structural coordinates; gauge is additional exact zero",
+  "finite_difference_probe_max_error": [
+    [
+      [
+        7.065514145976337e-11,
+        4.6020354194098445e-11,
+        2.5548881760206754e-10,
+        2.425147790918736e-10,
+        2.3498594736715006e-10,
+        2.3110701546924517e-10,
+        1.972665433780385e-10,
+        2.109813851403075e-10,
+        1.1380330011689921e-10,
+        1.1311868802765801e-10,
+        2.601771506571815e-10,
+        2.294785750311945e-10,
+        1.8692922210128415e-10,
+        2.772981982923639e-10,
+        2.58181725998341e-10,
+        2.47947710974028e-10,
+        2.352444072872828e-10,
+        2.980803034957624e-10,
+        2.370666718487513e-10,
+        2.2568758667462774e-10,
+        2.273655569373645e-10,
+        2.5190358132753943e-10,
+        2.272423152427372e-10,
+        2.335789270335731e-10,
+        2.7380561012924076e-10,
+        2.420300071470649e-10,
+        2.975720225784073e-10,
+        2.5946541443166993e-10,
+        2.5603580366961864e-10,
+        2.357175218903329e-10,
+        2.6295617072680244e-10,
+        2.598372142448291e-10,
+        2.1909049574553308e-10,
+        2.3731464710019523e-10,
+        2.440717628005018e-10,
+        2.13139790539163e-10,
+        2.735519102903261e-10,
+        2.1214931894553146e-10,
+        2.822604094898651e-10,
+        2.52148621426862e-10,
+        2.5927043845186404e-10,
+        2.0079726076316362e-10,
+        2.5233388989409633e-10,
+        2.627774386976256e-10,
+        2.541990715143605e-10,
+        1.9009197688157897e-10,
+        1.9959860153573317e-10,
+        1.8873001772501397e-10,
+        2.3184375252949252e-10,
+        2.44558734374678e-10,
+        1.8446269511862567e-10,
+        2.4097716877502506e-10,
+        2.2077509959084196e-10,
+        2.627334391713809e-10
+      ],
+      [
+        1.917704189891012e-11,
+        1.3823886479968905e-11,
+        9.339625600679469e-11,
+        1.1317379672304284e-10,
+        4.976974388171129e-11,
+        4.4727221926166294e-11,
+        8.948328709956765e-11,
+        8.10852912591642e-11,
+        1.5599240432359607e-10,
+        1.5693230569213679e-10,
+        6.755345588471684e-11,
+        1.0013759266236377e-10,
+        6.809916519578962e-11,
+        7.912338839677346e-11,
+        1.3994297387576182e-10,
+        6.753646947244007e-11,
+        1.7085147185902372e-10,
+        1.226650656049877e-10,
+        3.9593009426575065e-11,
+        6.192969054241715e-11,
+        1.0054586330188187e-10,
+        1.1146036871245713e-10,
+        5.894167098841052e-11,
+        5.940382907798636e-11,
+        2.1829445889798293e-10,
+        1.1088842187144052e-10,
+        1.4807763348834158e-10,
+        2.0930165933741307e-10,
+        5.416867648877499e-11,
+        9.916008986143865e-11,
+        6.977775302008382e-11,
+        7.276463459549021e-11,
+        6.754505288419921e-11,
+        8.00059624670238e-11,
+        1.1587850123895294e-10,
+        9.406217471585876e-11,
+        9.21895476624357e-11,
+        1.203023321152269e-10,
+        7.116218725400358e-11,
+        6.563115328983571e-11,
+        8.163475451183899e-11,
+        6.824094761492816e-11,
+        1.0987788456873204e-10,
+        6.37809943748735e-11,
+        1.4761766115034547e-10,
+        7.858391715132029e-11,
+        1.4105325935043211e-10,
+        6.993615409012222e-11,
+        7.593247558501659e-11,
+        6.698738785892999e-11,
+        5.734215879904525e-11,
+        5.860227941475483e-11,
+        1.2400965324066426e-10,
+        5.3513318776232666e-11
+      ]
+    ],
+    [
+      [
+        5.660180137090354e-11,
+        1.5945779852782893e-11,
+        4.458404478935307e-11,
+        5.176681999730093e-11,
+        5.473991399052025e-11,
+        4.542740489332786e-11,
+        8.815376900672689e-11,
+        5.0782444221963985e-11,
+        1.3458023584433931e-10,
+        1.8015305219831745e-10,
+        5.439147743313555e-11,
+        6.313546213609911e-11,
+        1.568794608108881e-10,
+        8.762282566188162e-11,
+        5.652245338438888e-11,
+        4.9191619527766406e-11,
+        7.979199072305487e-11,
+        6.577535391349976e-11,
+        4.112078386131479e-11,
+        2.3116439318293658e-11,
+        5.897656842057675e-11,
+        3.4757877132030046e-11,
+        4.13045153635494e-11,
+        3.7976007755124996e-11,
+        1.9276634455334118e-10,
+        1.8713342680998224e-10,
+        9.41249439501135e-11,
+        9.112900017926862e-11,
+        4.034680575748517e-11,
+        7.574330052051437e-11,
+        2.4954292104917286e-11,
+        5.304084255142172e-11,
+        1.389954817909711e-11,
+        3.164676853906201e-11,
+        8.047140731548552e-11,
+        6.332947360965235e-11,
+        6.732297705425161e-11,
+        6.893928483631129e-11,
+        4.2804559918264984e-11,
+        5.5230021944741026e-11,
+        6.633864985117199e-11,
+        5.7321775798202523e-11,
+        8.235226389707861e-11,
+        1.1185573300931395e-10,
+        1.602387805776928e-10,
+        1.6847798850472273e-10,
+        5.038647277189057e-11,
+        6.293626730879964e-11,
+        8.225731207289755e-11,
+        5.1391741556772175e-11,
+        4.058631035419591e-11,
+        8.573829146651946e-11,
+        6.09510844573613e-11,
+        4.953609744617893e-11
+      ],
+      [
+        1.6078660972085324e-11,
+        6.080148537424002e-12,
+        5.0465284728851145e-11,
+        8.87749578709629e-11,
+        7.670565571604726e-11,
+        1.4309041798665767e-11,
+        5.540218978028477e-11,
+        3.3691438527938544e-11,
+        6.793499096602318e-11,
+        7.559688985914192e-11,
+        5.215492682777425e-11,
+        3.735261506023803e-11,
+        1.0337208671516718e-10,
+        2.220414243095381e-10,
+        2.4025188088971916e-11,
+        1.259762780203566e-11,
+        2.535371912415485e-11,
+        5.385957652093154e-11,
+        1.101000714209821e-11,
+        1.26377481613274e-11,
+        3.899255397732393e-11,
+        7.588297335327579e-11,
+        1.227721938869275e-11,
+        1.1334027466558538e-11,
+        2.2253249243320283e-10,
+        7.428713200141601e-11,
+        1.2122616799281616e-10,
+        7.710362816965022e-11,
+        8.182857169636293e-11,
+        2.2979949540480327e-11,
+        2.942864875399298e-11,
+        4.322244970110132e-11,
+        1.8340440277597736e-11,
+        8.993347733188273e-11,
+        1.6397406002455206e-11,
+        1.2488630268814305e-10,
+        1.232935477888178e-10,
+        5.855897017292833e-11,
+        8.998903846483414e-11,
+        5.276877546034342e-11,
+        5.861098412163201e-11,
+        4.078846600210316e-11,
+        8.479186103249603e-11,
+        5.7728943587270765e-11,
+        1.0903417752006206e-10,
+        8.855274846730765e-11,
+        3.588010444310896e-11,
+        3.260016247837866e-11,
+        8.204235665940258e-11,
+        4.9784648625816885e-11,
+        7.524027234584452e-11,
+        4.572387297073748e-11,
+        2.971015794495102e-11,
+        3.497312162092925e-11
+      ]
+    ],
+    [
+      [
+        6.304881616792102e-11,
+        2.3094580501453743e-11,
+        6.423835074986783e-11,
+        6.784921235958308e-11,
+        5.680039771860379e-11,
+        5.6429846906347336e-11,
+        8.139873497459149e-11,
+        4.816914922489701e-11,
+        3.970056922097953e-11,
+        1.1410884737106386e-10,
+        9.407323531274159e-11,
+        1.459053641794661e-10,
+        9.093620301214855e-11,
+        1.3561074485579638e-10,
+        7.846766292285423e-11,
+        1.017577966333505e-10,
+        6.583845968410884e-11,
+        6.357595006001304e-11,
+        3.2456023979499093e-11,
+        3.256253253147712e-11,
+        8.175164017965031e-11,
+        8.492723885256126e-11,
+        8.217462821313859e-11,
+        6.627971782524611e-11,
+        7.907863253109326e-11,
+        1.8354125164155022e-10,
+        1.2254808973155562e-10,
+        1.1528754340073277e-10,
+        3.360077494019009e-11,
+        4.132017644709052e-11,
+        6.397751425857301e-11,
+        9.00318153362889e-11,
+        9.048676044565163e-11,
+        6.60786633743804e-11,
+        1.217226319738529e-10,
+        5.931231894518163e-11,
+        1.0263043193070587e-10,
+        1.3578309310258163e-10,
+        1.0707172301560597e-10,
+        9.773273162982932e-11,
+        6.68810146153831e-11,
+        9.6997652965225e-11,
+        7.627090625739186e-11,
+        1.2292104833999673e-10,
+        5.1177409532421336e-11,
+        4.99971626599649e-11,
+        6.725330015111552e-11,
+        7.556144598908077e-11,
+        1.40788544017445e-10,
+        6.385249273765936e-11,
+        5.807346270536584e-11,
+        7.994162970481611e-11,
+        6.216334044739646e-11,
+        7.159159376435298e-11
+      ],
+      [
+        1.8639895182914756e-11,
+        6.888878356647865e-12,
+        6.060069009512737e-11,
+        4.517292095940206e-11,
+        1.7454442025836153e-11,
+        1.368626045827881e-11,
+        1.811602257095757e-11,
+        2.734060165223394e-11,
+        1.063066301654203e-10,
+        1.6240354894225817e-10,
+        5.733775260141627e-11,
+        4.173793255457525e-11,
+        2.4120289099371917e-11,
+        9.769374198498326e-11,
+        1.4494433431266884e-11,
+        2.570751944652727e-11,
+        3.752777255616735e-11,
+        8.733472304448941e-11,
+        2.4735754243498942e-11,
+        2.913604156117716e-11,
+        3.678760768233147e-11,
+        2.3309860985865072e-11,
+        2.4998142444943028e-11,
+        4.128299296109108e-11,
+        3.1474500783446047e-10,
+        6.778139161056629e-11,
+        1.1629161522641596e-10,
+        1.0529553617910636e-10,
+        4.4087133473276214e-11,
+        4.574815526403597e-11,
+        1.3783744978734802e-11,
+        4.839845191284553e-11,
+        5.0869924321083476e-11,
+        5.488235560457966e-11,
+        1.2671863558466612e-10,
+        2.6690566423681616e-11,
+        7.389502898469402e-11,
+        3.153444172454556e-11,
+        6.272875274770939e-11,
+        4.888291854632243e-11,
+        1.709916409853296e-11,
+        4.814783988171811e-11,
+        5.3777092642263297e-11,
+        4.687077115317351e-11,
+        5.468578367917587e-11,
+        9.496318635555988e-11,
+        2.3655817315583732e-11,
+        1.6286540258786397e-11,
+        6.041164790637765e-11,
+        1.4233036971234014e-10,
+        1.3729943411041647e-11,
+        3.7585198842116085e-11,
+        3.82935454179556e-11,
+        1.6621205842606065e-11
+      ]
+    ]
+  ],
+  "rank_deficient_future_cases": [
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "uniform",
+      "observation": "endpoint30",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.0024152857823986646,
+        0.21543704434513877
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "uniform",
+      "observation": "endpoint60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.002450325341246396,
+        0.22425478320378806
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "uniform",
+      "observation": "endpoint_refined",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.013786554974933753,
+        0.22481378823789622
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "uniform",
+      "observation": "pair30",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.0024152857823986646,
+        0.21543704434513877
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "uniform",
+      "observation": "pair60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.002450325341246396,
+        0.22425478320378806
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "uniform",
+      "observation": "full_path",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.013985152077652354,
+        0.22655181875467614
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "out_weight",
+      "observation": "endpoint30",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.0035471522925639197,
+        0.2045322126520772
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "out_weight",
+      "observation": "endpoint60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.0036410792519352905,
+        0.217339897889676
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "out_weight",
+      "observation": "endpoint_refined",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.02093319471443884,
+        0.21781722139975274
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "out_weight",
+      "observation": "pair30",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.0035471522925639206,
+        0.20453221265207713
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "out_weight",
+      "observation": "pair60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.0036410792519352905,
+        0.21733989788967595
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "out_weight",
+      "observation": "full_path",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.021093244025374134,
+        0.21895778846491668
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "uniform",
+      "observation": "endpoint30",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.012721534677026525,
+        0.2187734798875291
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "uniform",
+      "observation": "endpoint60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.012850916131566416,
+        0.22753362177923026
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "uniform",
+      "observation": "endpoint_refined",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.051699347974104116,
+        0.23007856318420714
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "uniform",
+      "observation": "pair30",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.012721534677026518,
+        0.2187734798875291
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "uniform",
+      "observation": "pair60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.012850916131566414,
+        0.2275336217792302
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "uniform",
+      "observation": "full_path",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.05172288076948069,
+        0.23642780451666864
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "out_weight",
+      "observation": "endpoint30",
+      "rank": 2,
+      "eigenvalues": [
+        -5.481662390871165e-19,
+        0.012740523003338972,
+        0.23507342889917188
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "out_weight",
+      "observation": "endpoint60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.013125705347254393,
+        0.25581314409515526
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "out_weight",
+      "observation": "endpoint_refined",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.06935615527178743,
+        0.2586052628250807
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "out_weight",
+      "observation": "pair30",
+      "rank": 2,
+      "eigenvalues": [
+        -5.481662390871163e-19,
+        0.012740523003338968,
+        0.23507342889917182
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "out_weight",
+      "observation": "pair60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.013125705347254392,
+        0.2558131440951552
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "out_weight",
+      "observation": "full_path",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.06935635881275919,
+        0.25964173391665907
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "uniform",
+      "observation": "endpoint30",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.002473499761812524,
+        0.24751073572459306
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "uniform",
+      "observation": "endpoint60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.002473499761812524,
+        0.24751073572459306
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "uniform",
+      "observation": "endpoint_refined",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.07701063443963581,
+        0.2518419307557469
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "uniform",
+      "observation": "pair30",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.002473499761812525,
+        0.24751073572459292
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "uniform",
+      "observation": "pair60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.002473499761812525,
+        0.24751073572459292
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "uniform",
+      "observation": "full_path",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.07827881777176161,
+        0.2519710601433629
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "out_weight",
+      "observation": "endpoint30",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.002284510871812055,
+        0.2579013699676156
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "out_weight",
+      "observation": "endpoint60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.002284510871812055,
+        0.2579013699676157
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "out_weight",
+      "observation": "endpoint_refined",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.09209330923235705,
+        0.267004240394657
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "out_weight",
+      "observation": "pair30",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.002284510871812048,
+        0.25790136996761565
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "out_weight",
+      "observation": "pair60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.002284510871812055,
+        0.25790136996761565
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "out_weight",
+      "observation": "full_path",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.09282125637236438,
+        0.26703453839049357
+      ]
+    }
+  ],
+  "pair60_decreasing_transition_probe_cells": 756,
+  "pair60_decreasing_probe_count": 54,
+  "past_gain_by_step": [
+    {
+      "step": 1,
+      "positive_probes": 0,
+      "min_extra_trace": -2.531308496145357e-14,
+      "median_extra_trace": -5.551115123125783e-17,
+      "max_extra_trace": 1.5931700403370996e-14
+    },
+    {
+      "step": 2,
+      "positive_probes": 54,
+      "min_extra_trace": 0.03763683253331393,
+      "median_extra_trace": 0.12475525517956326,
+      "max_extra_trace": 0.18859436932070378
+    },
+    {
+      "step": 3,
+      "positive_probes": 54,
+      "min_extra_trace": 0.031194738012597673,
+      "median_extra_trace": 0.11671930943133763,
+      "max_extra_trace": 0.1701307624488254
+    },
+    {
+      "step": 4,
+      "positive_probes": 54,
+      "min_extra_trace": 0.025246764688761858,
+      "median_extra_trace": 0.10599587123496068,
+      "max_extra_trace": 0.15564976079075382
+    },
+    {
+      "step": 5,
+      "positive_probes": 54,
+      "min_extra_trace": 0.020681814214982414,
+      "median_extra_trace": 0.08576669693633243,
+      "max_extra_trace": 0.1374427464688091
+    },
+    {
+      "step": 6,
+      "positive_probes": 54,
+      "min_extra_trace": 0.014380352829621943,
+      "median_extra_trace": 0.06087417593510683,
+      "max_extra_trace": 0.11440930375135744
+    },
+    {
+      "step": 7,
+      "positive_probes": 54,
+      "min_extra_trace": 0.010352232895865815,
+      "median_extra_trace": 0.04006854873775281,
+      "max_extra_trace": 0.09592050171466354
+    },
+    {
+      "step": 8,
+      "positive_probes": 54,
+      "min_extra_trace": 0.006756892269469669,
+      "median_extra_trace": 0.025931219093689634,
+      "max_extra_trace": 0.07458876917201593
+    },
+    {
+      "step": 9,
+      "positive_probes": 54,
+      "min_extra_trace": 0.0044156975416793035,
+      "median_extra_trace": 0.015919265485690226,
+      "max_extra_trace": 0.054706612853690564
+    },
+    {
+      "step": 10,
+      "positive_probes": 54,
+      "min_extra_trace": 0.002762630769378358,
+      "median_extra_trace": 0.009588635187732498,
+      "max_extra_trace": 0.03831898963875212
+    },
+    {
+      "step": 11,
+      "positive_probes": 54,
+      "min_extra_trace": 0.001722522623398037,
+      "median_extra_trace": 0.005632049541496648,
+      "max_extra_trace": 0.025815838409530105
+    },
+    {
+      "step": 12,
+      "positive_probes": 54,
+      "min_extra_trace": 0.0010577344018314555,
+      "median_extra_trace": 0.0032122249267465914,
+      "max_extra_trace": 0.0168904925089821
+    },
+    {
+      "step": 13,
+      "positive_probes": 54,
+      "min_extra_trace": 0.0006463131714893259,
+      "median_extra_trace": 0.0018594847759443392,
+      "max_extra_trace": 0.010783417287109905
+    },
+    {
+      "step": 14,
+      "positive_probes": 54,
+      "min_extra_trace": 0.00035619304615496384,
+      "median_extra_trace": 0.0010666042924331789,
+      "max_extra_trace": 0.007307717178737256
+    },
+    {
+      "step": 15,
+      "positive_probes": 54,
+      "min_extra_trace": 0.00018714522831985255,
+      "median_extra_trace": 0.0005951289370232415,
+      "max_extra_trace": 0.005698210719431038
+    },
+    {
+      "step": 16,
+      "positive_probes": 54,
+      "min_extra_trace": 0.00010085320875610063,
+      "median_extra_trace": 0.0003399783454543683,
+      "max_extra_trace": 0.004419442124809608
+    }
+  ]
+}

@@ -140,10 +140,10 @@ raw weight의 NULL·비양수와 endpoint ID는 위 전수 순회로 확인했�
 
 | 코드 | 확인 방식 | 결과와 범위 |
 |---|---|---|
-| [BrainRuntime](../reality_stone/python/reality_stone/clarus/runtime.py) | 10×10 ones, `dale_law=True`, `axon_delay=False`, torch 경로 | snapshot 복원 가중치의 최대 변화 12.0. 0 delta의 반환 norm 0, 실제 Frobenius 변화 53.66563034. 프로세스 내부 재현 |
+| [BrainRuntime](https://github.com/jigglypop/reality_stone/blob/v0.3.0/python/reality_stone/clarus/runtime.py) | 10×10 ones, `dale_law=True`, `axon_delay=False`, torch 경로 | snapshot 복원 가중치의 최대 변화 12.0. 0 delta의 반환 norm 0, 실제 Frobenius 변화 53.66563034. 프로세스 내부 재현 |
 | 같은 파일 `HippocampusMemory.encode` | 같은 CPU float32 입력을 저장한 뒤 호출자 텐서를 0으로 변경 | 저장된 value도 0으로 변경됨. 기억 소유권 alias 재현 |
 | 같은 파일의 부호·저장 | 소스 검사 | `W @ x`에 행 부호 적용, dense weight와 CSR 동시 보유. `forget_tau` 설정 대신 전역 상수로 우선순위 감소 |
-| [선충 replay](../reality_stone/python/reality_stone/clarus/connectome_replay.py) | parser·manifest 검사 | OpenWorm 고정 dataset ID와 CSV 규격. MaleCNS loader로 사용할 수 없음 |
+| [선충 replay](https://github.com/jigglypop/reality_stone/blob/v0.3.0/python/reality_stone/clarus/connectome_replay.py) | parser·manifest 검사 | OpenWorm 고정 dataset ID와 CSV 규격. MaleCNS loader로 사용할 수 없음 |
 | [HPI-1](../paper/8_해마수면_관계기억_연구/HPI1/predictive_core.py) | 코드 읽기·`test_predictive.py` 실행 | 고정 방출 슬롯, 학습 전이, 결측 marginalization. 19 tests 통과. 온라인 HPI-2 또는 원뇌 학습 검증이 아님 |
 | [HPI 경로 계량](../paper/8_해마수면_관계기억_연구/HPI1/path_geometry.py) | 수식·입출력 확인 | 주어진 선형계와 전체 관측 공분산으로 Gaussian 계량 계산. 실제 회로 추론 모듈이 아님 |
 

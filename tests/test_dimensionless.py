@@ -1,4 +1,5 @@
 from __future__ import annotations
+from importlib.metadata import distribution as _distribution
 
 import importlib.util
 import math
@@ -10,7 +11,7 @@ import pytest
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CLARUS_DIR = ROOT / "reality_stone" / "python" / "reality_stone" / "clarus"
+CLARUS_DIR = Path(_distribution("reality_stone").locate_file("reality_stone")) / "clarus"
 
 
 def _load_standalone_module(name: str, filename: str):

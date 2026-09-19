@@ -34,12 +34,14 @@ SEEDS = [int(s) for s in os.environ.get("SEEDS", "0").split(",")]
 EVAL_LENS = [int(x) for x in os.environ.get(
     "EVAL_LENS", "64,128,256,512,1024").split(",")]
 HEAD_TYPES = ["nope", "alibi", "rope", "xpos"]
-REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REPO = os.environ.get("CE_REPRO_SOURCE_ROOT", os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "ce-agi-runtime-repro-fffd356"))
 
 
 def load_corpus() -> str:
     files = glob.glob(os.path.join(REPO, "reality_stone", "**", "*.py"),
                       recursive=True)
+    if not files:
+        raise FileNotFoundError(f"Preserved source corpus missing at {REPO}; set CE_REPRO_SOURCE_ROOT")
     text = []
     for f in sorted(files):
         try:

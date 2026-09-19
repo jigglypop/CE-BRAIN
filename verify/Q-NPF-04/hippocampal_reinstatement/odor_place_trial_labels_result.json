@@ -1,0 +1,291 @@
+{
+  "schema": "hippocampal.odor-place-trial-labels.v1",
+  "source_sha256": "0f7ad1f7ff823ebef5fb571322f25450ad85303db2c5560b13b772a90d95a080",
+  "test_sha256": "b7e7cc44631270c558be64b77ecb33b21355d5806074f0ae11fa0d504f00838c",
+  "inputs": {
+    "nwb_audit": {
+      "path": "data/external/hippocampal_reinstatement/dandi001539_0.250815.1203_header_v1/nwb_metadata_audit.json",
+      "sha256": "1acac83c2a22bfdaeaa6f4f6ae6976fa28a9924555f69828e2b1859eefa1e451"
+    },
+    "labels": {
+      "path": "data/external/hippocampal_reinstatement/figshare19620783_v3_labels_v1/label_24_CS39odorTriggers06.mat",
+      "sha256": "9e81070725e4eccee5ce37c4b7ff75237cdbeb48e216e367ae696c8564cf1e7c"
+    }
+  },
+  "dandiset": "001539",
+  "version": "0.250815.1203",
+  "asset_id": "dd3aaf58-c574-4d84-b918-f060f3663878",
+  "nwb_identifier": "CS39_06",
+  "source_matlab_day": 6,
+  "source_matlab_epoch": 2,
+  "exact_time_match": true,
+  "trials": [
+    {
+      "trial_id": 0,
+      "start_s": 1390.192,
+      "stop_s": 1391.121,
+      "odor_side": "right",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 1,
+      "start_s": 1411.147,
+      "stop_s": 1411.786,
+      "odor_side": "left",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 2,
+      "start_s": 1447.181,
+      "stop_s": 1447.899,
+      "odor_side": "right",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 3,
+      "start_s": 1471.177,
+      "stop_s": 1471.976,
+      "odor_side": "left",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 4,
+      "start_s": 1486.49,
+      "stop_s": 1487.597,
+      "odor_side": "right",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 5,
+      "start_s": 1506.413,
+      "stop_s": 1507.37,
+      "odor_side": "right",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 6,
+      "start_s": 1520.238,
+      "stop_s": 1521.405,
+      "odor_side": "right",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 7,
+      "start_s": 1535.584,
+      "stop_s": 1536.315,
+      "odor_side": "left",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 8,
+      "start_s": 1551.229,
+      "stop_s": 1552.12,
+      "odor_side": "right",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 9,
+      "start_s": 1564.699,
+      "stop_s": 1565.679,
+      "odor_side": "right",
+      "correct": false,
+      "rewarded": false
+    },
+    {
+      "trial_id": 10,
+      "start_s": 1571.275,
+      "stop_s": 1571.831,
+      "odor_side": "left",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 11,
+      "start_s": 1590.603,
+      "stop_s": 1591.302,
+      "odor_side": "left",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 12,
+      "start_s": 1605.353,
+      "stop_s": 1605.997,
+      "odor_side": "left",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 13,
+      "start_s": 1619.896,
+      "stop_s": 1620.624,
+      "odor_side": "right",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 14,
+      "start_s": 1634.03,
+      "stop_s": 1635.156,
+      "odor_side": "right",
+      "correct": false,
+      "rewarded": false
+    },
+    {
+      "trial_id": 15,
+      "start_s": 1643.73,
+      "stop_s": 1644.338,
+      "odor_side": "left",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 16,
+      "start_s": 1660.878,
+      "stop_s": 1661.776,
+      "odor_side": "left",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 17,
+      "start_s": 1674.623,
+      "stop_s": 1676.153,
+      "odor_side": "right",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 18,
+      "start_s": 1689.914,
+      "stop_s": 1690.528,
+      "odor_side": "left",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 19,
+      "start_s": 1706.458,
+      "stop_s": 1707.086,
+      "odor_side": "left",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 20,
+      "start_s": 1721.099,
+      "stop_s": 1721.933,
+      "odor_side": "right",
+      "correct": false,
+      "rewarded": false
+    },
+    {
+      "trial_id": 21,
+      "start_s": 1728.98,
+      "stop_s": 1729.754,
+      "odor_side": "right",
+      "correct": true,
+      "rewarded": true
+    },
+    {
+      "trial_id": 22,
+      "start_s": 1744.852,
+      "stop_s": 1745.455,
+      "odor_side": "right",
+      "correct": true,
+      "rewarded": true
+    }
+  ],
+  "units": [
+    {
+      "unit_id": 0,
+      "electrode_row": 4,
+      "electrode_id": 4,
+      "region": "PFC"
+    },
+    {
+      "unit_id": 1,
+      "electrode_row": 4,
+      "electrode_id": 4,
+      "region": "PFC"
+    },
+    {
+      "unit_id": 2,
+      "electrode_row": 9,
+      "electrode_id": 9,
+      "region": "PFC"
+    },
+    {
+      "unit_id": 3,
+      "electrode_row": 9,
+      "electrode_id": 9,
+      "region": "PFC"
+    },
+    {
+      "unit_id": 4,
+      "electrode_row": 12,
+      "electrode_id": 12,
+      "region": "PFC"
+    },
+    {
+      "unit_id": 5,
+      "electrode_row": 12,
+      "electrode_id": 12,
+      "region": "PFC"
+    },
+    {
+      "unit_id": 6,
+      "electrode_row": 17,
+      "electrode_id": 17,
+      "region": "PFC"
+    },
+    {
+      "unit_id": 7,
+      "electrode_row": 17,
+      "electrode_id": 17,
+      "region": "PFC"
+    },
+    {
+      "unit_id": 8,
+      "electrode_row": 17,
+      "electrode_id": 17,
+      "region": "PFC"
+    },
+    {
+      "unit_id": 9,
+      "electrode_row": 21,
+      "electrode_id": 21,
+      "region": "CA1"
+    },
+    {
+      "unit_id": 10,
+      "electrode_row": 26,
+      "electrode_id": 26,
+      "region": "CA1"
+    }
+  ],
+  "counts": {
+    "trials": 23,
+    "left": 10,
+    "right": 13,
+    "correct": 20,
+    "incorrect": 3,
+    "units_by_region": {
+      "CA1": 2,
+      "PFC": 9
+    }
+  },
+  "python": "3.11.9",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "interpretation": "Labels joined by exact ordered time and disjoint exhaustive odor/outcome partitions. Reward correctness agreement established for this source epoch only. Odor side is coupled to learned goal side; cue decoding alone cannot identify retrieval or hippocampal indexing. Neural spike values/choices were not inferred or fitted."
+}

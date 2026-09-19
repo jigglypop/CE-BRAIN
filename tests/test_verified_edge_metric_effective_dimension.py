@@ -1,4 +1,5 @@
 from __future__ import annotations
+from importlib.metadata import distribution as _distribution
 
 import importlib.util
 from fractions import Fraction as F
@@ -9,7 +10,7 @@ import pytest
 
 
 ROOT = Path(__file__).resolve().parents[1]
-MODULE = ROOT / "reality_stone" / "python" / "reality_stone" / "clarus" / "verified_edge_metric_effective_dimension.py"
+MODULE = Path(_distribution("reality_stone").locate_file("reality_stone")) / "clarus" / "verified_edge_metric_effective_dimension.py"
 SPEC = importlib.util.spec_from_file_location("verified_edge_metric_effective_dimension", MODULE)
 assert SPEC and SPEC.loader
 E = importlib.util.module_from_spec(SPEC)

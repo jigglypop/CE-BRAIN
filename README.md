@@ -1,5 +1,8 @@
 # CE-AGI Runtime: 뇌의 전기 동역학에서 현재 세계 모델까지
 
+공통 연산과 뇌 실행 모듈은 `reality_stone[llm]==0.3.0`을 사용합니다.
+설치와 분리 전 연구 재현 절차는 [라이브러리 전환 안내](LIBRARY.md)에 있습니다.
+
 > 최신 상태: **유한 수동 관측의 metric 비식별 no-go, BA-OBS-ID1의 제한된 국소 식별성, BA-OBS-ID2의 가산 완전 exact-oracle 전역 식별 정리는 유지된다. 실제 인간 CCEP의 새 다환자 BA-OBS-DISC2R는 사전 고정한 관측 endpoint에서 단순 유클리드 거리 감쇠 `SC`를 환자-disjoint D0–D3에 걸쳐 통과시켰다.** D3의 평균 개선은 $0.0173522$, 97.5% participant-bootstrap 하한은 $0.0102676$, geometry permutation은 $p=1/4096$였고 matched prestimulus 대조는 통과하지 않았다. 이는 등록 좌표의 거리 항이 이 bipolar CCEP 관측 kernel 예측에 유익했다는 결과일 뿐, 뇌 metric·무한차원·의식·자아·해마 hash·AGI의 검증이나 반증이 아니다. 앞선 DISC1의 D2 음성 결과도 그대로 유지된다.
 
 이 README의 중심 결론은 네 갈래를 함께 읽어야 한다는 것이다. 수동 EEG 같은 유한 관측은 주변 공간 전체의 계량이나 차원을 고르지 못한다. 사전 제한한 유한 계량족에서는 알려진 동역학·개입과 양의 정부호 Gramian 아래 국소 식별성이 가능하다. 더 강하게, 모든 basis 방향과 쌍 방향에 대한 exact 능동 응답을 가산히 완전하게 얻는 이상적 oracle에서는 임의 bounded strong metric도 전역적으로 정해진다. 마지막으로 실제 CCEP는 그 oracle을 흉내 내지 않고, 전극이 읽는 유한 응답 자체에서 훨씬 작은 상호성 필요조건만 시험했다. 이 네 결과는 서로 경쟁하지 않는다. 정보량과 측정모형이 달라질 때 어디까지 말할 수 있는지를 각각 제한한다.
@@ -436,9 +439,9 @@ $a_i$는 국소 활성, $r_i$는 refractory 상태, $M_t$는 소프트웨어 모
 
 | 코드 표면 | 책임 |
 |---|---|
-| [`runtime.py`](reality_stone/python/reality_stone/clarus/runtime.py) | 지속 상태, 수명주기, 빠른 기억과 replay |
-| [`engine.py`](reality_stone/python/reality_stone/clarus/engine.py) | 외부 입력과 runtime을 잇는 실행 엔진 |
-| [`sleep.py`](reality_stone/python/reality_stone/clarus/sleep.py) | WAKE/NREM/REM 이름을 쓰는 소프트웨어 refinement cycle |
+| [`runtime.py`](https://github.com/jigglypop/reality_stone/blob/v0.3.0/python/reality_stone/clarus/runtime.py) | 지속 상태, 수명주기, 빠른 기억과 replay |
+| [`engine.py`](https://github.com/jigglypop/reality_stone/blob/v0.3.0/python/reality_stone/clarus/engine.py) | 외부 입력과 runtime을 잇는 실행 엔진 |
+| [`sleep.py`](https://github.com/jigglypop/reality_stone/blob/v0.3.0/python/reality_stone/clarus/sleep.py) | WAKE/NREM/REM 이름을 쓰는 소프트웨어 refinement cycle |
 | [`examples/agi/`](examples/agi/) | 각 계산 가설의 격리된 예제와 gate |
 | [`tests/`](tests/) | 회귀, 불변량, 실패 경계 |
 

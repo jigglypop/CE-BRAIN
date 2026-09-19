@@ -33,12 +33,14 @@ from reality_stone.clarus.ce_euler import RecursiveEulerCEBlock, fixed_point_los
 SEED = 0
 D_MODEL, N_HEADS, BLOCK = 64, 4, 64
 STEPS, BATCH, LR = 700, 32, 3e-3
-REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REPO = os.environ.get("CE_REPRO_SOURCE_ROOT", os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "ce-agi-runtime-repro-fffd356"))
 
 
 def load_corpus() -> str:
     files = sorted(glob.glob(os.path.join(REPO, "reality_stone", "**", "*.py"),
                              recursive=True))
+    if not files:
+        raise FileNotFoundError(f"Preserved source corpus missing at {REPO}; set CE_REPRO_SOURCE_ROOT")
     text = []
     for f in files:
         try:

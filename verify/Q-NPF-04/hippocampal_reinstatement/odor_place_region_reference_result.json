@@ -1,0 +1,1070 @@
+{
+  "schema": "hippocampal.odor-place-region-reference.v1",
+  "source_sha256": "cec16c5136d3783abce0bf67c1882f078dc8ec3ca09068eebf6c913d35a41ae1",
+  "test_sha256": "618d843c530c3df17bd0f23e5e18b0b794f5e2276b9951114c6c65b061b744ab",
+  "inputs": [
+    {
+      "path": "verify/Q-NPF-04/hippocampal_reinstatement/odor_place_cohort_labels_result.json",
+      "sha256": "304968b35ba65a7831ca3a4742e07500efa679834bfee362baa768e6c87b21e3"
+    },
+    {
+      "path": "data/local/hippocampal-reinstatement/odor-place-electrode-reference-identity-v1/electrode_reference_identity_result.json",
+      "sha256": "4e3e1efe1049d696ee298f6ab69aaaab58d3118428f72a6fba9b521dcdaf6d44"
+    },
+    {
+      "path": "data/local/hippocampal-reinstatement/odor-place-neural-position-postcheck-v1/offline_value_diagnostics.json",
+      "sha256": "e32682238b2c3a32674bd99b4eecc053e3edfa530288875f949be88f10eb3919"
+    }
+  ],
+  "sessions": [
+    {
+      "asset_id": "f1a65eed-37d6-4391-a70c-9f298635df0f",
+      "identifier": "CS33_03",
+      "rat": "CS33",
+      "day": 3,
+      "previous_unit_region_status": "provisional_row_index_only",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": null,
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "PFC": 29,
+        "CA1": 6
+      },
+      "trial_counts": {
+        "trials": 120,
+        "correct_left": 46,
+        "incorrect_left": 15,
+        "correct_right": 50,
+        "incorrect_right": 9,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": false
+    },
+    {
+      "asset_id": "681eac45-0747-4efb-b3d6-fbf1c80f9a67",
+      "identifier": "CS33_01",
+      "rat": "CS33",
+      "day": 1,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 6,
+        "PFC": 17
+      },
+      "trial_counts": {
+        "trials": 100,
+        "correct_left": 33,
+        "incorrect_left": 20,
+        "correct_right": 36,
+        "incorrect_right": 11,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "227f975e-d99d-42ab-95c7-04707b4d19d9",
+      "identifier": "CS33_02",
+      "rat": "CS33",
+      "day": 2,
+      "previous_unit_region_status": "provisional_row_index_only",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": null,
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 6,
+        "PFC": 22
+      },
+      "trial_counts": {
+        "trials": 114,
+        "correct_left": 42,
+        "incorrect_left": 12,
+        "correct_right": 52,
+        "incorrect_right": 8,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": false
+    },
+    {
+      "asset_id": "9d570fab-f3be-4017-a3af-08eb30ae640b",
+      "identifier": "CS33_04",
+      "rat": "CS33",
+      "day": 4,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "PFC": 23,
+        "CA1": 4
+      },
+      "trial_counts": {
+        "trials": 138,
+        "correct_left": 50,
+        "incorrect_left": 17,
+        "correct_right": 58,
+        "incorrect_right": 13,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "3b7ea457-e49d-4d4d-b070-83f3ee049639",
+      "identifier": "CS34_01",
+      "rat": "CS34",
+      "day": 1,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 33,
+        "OB": 2,
+        "PFC": 23
+      },
+      "trial_counts": {
+        "trials": 121,
+        "correct_left": 43,
+        "incorrect_left": 17,
+        "correct_right": 43,
+        "incorrect_right": 18,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "779d4868-7fb6-43ab-bcd4-1cf53f8f222e",
+      "identifier": "CS34_03",
+      "rat": "CS34",
+      "day": 3,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 50,
+        "OB": 4,
+        "PFC": 41
+      },
+      "trial_counts": {
+        "trials": 109,
+        "correct_left": 42,
+        "incorrect_left": 13,
+        "correct_right": 45,
+        "incorrect_right": 9,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "40e95230-a9d8-44f3-87e0-5b5a6abbff04",
+      "identifier": "CS34_02",
+      "rat": "CS34",
+      "day": 2,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 31,
+        "OB": 5,
+        "PFC": 37
+      },
+      "trial_counts": {
+        "trials": 110,
+        "correct_left": 40,
+        "incorrect_left": 13,
+        "correct_right": 36,
+        "incorrect_right": 21,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "9f9a3511-97fa-4df9-b90a-b4f63b1c4e4d",
+      "identifier": "CS34_04",
+      "rat": "CS34",
+      "day": 4,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 63,
+        "OB": 6,
+        "PFC": 35
+      },
+      "trial_counts": {
+        "trials": 95,
+        "correct_left": 43,
+        "incorrect_left": 6,
+        "correct_right": 41,
+        "incorrect_right": 5,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "75873721-2cf6-49f2-9df7-ea01341804a9",
+      "identifier": "CS35_01",
+      "rat": "CS35",
+      "day": 1,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 20,
+        "PFC": 25,
+        "OB": 4
+      },
+      "trial_counts": {
+        "trials": 81,
+        "correct_left": 30,
+        "incorrect_left": 10,
+        "correct_right": 33,
+        "incorrect_right": 8,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "414530b2-6456-4716-b700-7fc1bda4b8ce",
+      "identifier": "CS35_02",
+      "rat": "CS35",
+      "day": 2,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 12,
+        "PFC": 23,
+        "OB": 2
+      },
+      "trial_counts": {
+        "trials": 71,
+        "correct_left": 27,
+        "incorrect_left": 11,
+        "correct_right": 27,
+        "incorrect_right": 6,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "55606404-ecad-40af-b7ab-de1c79138926",
+      "identifier": "CS41_01",
+      "rat": "CS41",
+      "day": 1,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 9,
+        "PFC": 7
+      },
+      "trial_counts": {
+        "trials": 101,
+        "correct_left": 43,
+        "incorrect_left": 2,
+        "correct_right": 26,
+        "incorrect_right": 30,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "283765e7-961e-4d76-9fb8-8e43fdcc3540",
+      "identifier": "CS41_02",
+      "rat": "CS41",
+      "day": 2,
+      "previous_unit_region_status": "provisional_row_index_only",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": null,
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 9,
+        "PFC": 3
+      },
+      "trial_counts": {
+        "trials": 81,
+        "correct_left": 28,
+        "incorrect_left": 7,
+        "correct_right": 25,
+        "incorrect_right": 21,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": false
+    },
+    {
+      "asset_id": "27f7315e-d598-4a79-a177-e6b105738136",
+      "identifier": "CS41_03",
+      "rat": "CS41",
+      "day": 3,
+      "previous_unit_region_status": "provisional_row_index_only",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": null,
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 10,
+        "PFC": 9,
+        "OB": 13
+      },
+      "trial_counts": {
+        "trials": 140,
+        "correct_left": 53,
+        "incorrect_left": 13,
+        "correct_right": 47,
+        "incorrect_right": 27,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": false
+    },
+    {
+      "asset_id": "de8b522e-1189-4b34-8783-a0cd96e196cb",
+      "identifier": "CS41_05",
+      "rat": "CS41",
+      "day": 5,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 9,
+        "PFC": 14,
+        "OB": 4
+      },
+      "trial_counts": {
+        "trials": 163,
+        "correct_left": 62,
+        "incorrect_left": 17,
+        "correct_right": 57,
+        "incorrect_right": 27,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "4a11bacb-9376-4f66-ae04-f29161edfb7b",
+      "identifier": "CS41_06",
+      "rat": "CS41",
+      "day": 6,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 13,
+        "PFC": 16,
+        "OB": 3
+      },
+      "trial_counts": {
+        "trials": 125,
+        "correct_left": 58,
+        "incorrect_left": 5,
+        "correct_right": 45,
+        "incorrect_right": 17,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "c7881698-2de4-4782-9ee2-8fcf96735da8",
+      "identifier": "CS41_07",
+      "rat": "CS41",
+      "day": 7,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 11,
+        "PFC": 12,
+        "OB": 1
+      },
+      "trial_counts": {
+        "trials": 122,
+        "correct_left": 55,
+        "incorrect_left": 8,
+        "correct_right": 45,
+        "incorrect_right": 14,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "594662cc-c652-421c-90df-f67cef3438d0",
+      "identifier": "CS35_03",
+      "rat": "CS35",
+      "day": 3,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 15,
+        "PFC": 21,
+        "OB": 3
+      },
+      "trial_counts": {
+        "trials": 108,
+        "correct_left": 40,
+        "incorrect_left": 15,
+        "correct_right": 41,
+        "incorrect_right": 12,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "69a4a6dc-5cdd-477b-b386-05ff27f0ad32",
+      "identifier": "CS44_01",
+      "rat": "CS44",
+      "day": 1,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 23,
+        "PFC": 25,
+        "OB": 16
+      },
+      "trial_counts": {
+        "trials": 95,
+        "correct_left": 41,
+        "incorrect_left": 6,
+        "correct_right": 29,
+        "incorrect_right": 19,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "1ec95775-e7af-4217-bfab-e70f4493b8ec",
+      "identifier": "CS44_04",
+      "rat": "CS44",
+      "day": 4,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 23,
+        "PFC": 27,
+        "OB": 5
+      },
+      "trial_counts": {
+        "trials": 89,
+        "correct_left": 29,
+        "incorrect_left": 13,
+        "correct_right": 35,
+        "incorrect_right": 12,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "db768b19-df72-4b08-870e-35c3cea82496",
+      "identifier": "CS44_02",
+      "rat": "CS44",
+      "day": 2,
+      "previous_unit_region_status": "provisional_row_index_only",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": null,
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 33,
+        "PFC": 32,
+        "OB": 10
+      },
+      "trial_counts": {
+        "trials": 132,
+        "correct_left": 55,
+        "incorrect_left": 5,
+        "correct_right": 40,
+        "incorrect_right": 32,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": false
+    },
+    {
+      "asset_id": "9492079f-a247-40eb-ab25-6ef7b10aa2fb",
+      "identifier": "CS44_05",
+      "rat": "CS44",
+      "day": 5,
+      "previous_unit_region_status": "provisional_row_index_only",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": null,
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 22,
+        "PFC": 22,
+        "OB": 2
+      },
+      "trial_counts": {
+        "trials": 107,
+        "correct_left": 43,
+        "incorrect_left": 9,
+        "correct_right": 40,
+        "incorrect_right": 15,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": false
+    },
+    {
+      "asset_id": "88ad4292-bdfa-4f7c-9a84-97347dfbfe02",
+      "identifier": "CS44_03",
+      "rat": "CS44",
+      "day": 3,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 20,
+        "PFC": 24,
+        "OB": 7
+      },
+      "trial_counts": {
+        "trials": 117,
+        "correct_left": 44,
+        "incorrect_left": 8,
+        "correct_right": 47,
+        "incorrect_right": 18,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "8e66601f-1f18-4e22-b9ec-d9674b804cdc",
+      "identifier": "CS31_01",
+      "rat": "CS31",
+      "day": 1,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 18,
+        "PFC": 27
+      },
+      "trial_counts": {
+        "trials": 40,
+        "correct_left": 18,
+        "incorrect_left": 2,
+        "correct_right": 7,
+        "incorrect_right": 13,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "7126b256-f1ce-4cca-a645-a4be18d19f60",
+      "identifier": "CS31_03",
+      "rat": "CS31",
+      "day": 3,
+      "previous_unit_region_status": "provisional_row_index_only",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": null,
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "PFC": 30,
+        "CA1": 25
+      },
+      "trial_counts": {
+        "trials": 66,
+        "correct_left": 27,
+        "incorrect_left": 3,
+        "correct_right": 20,
+        "incorrect_right": 16,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": false
+    },
+    {
+      "asset_id": "0693aa50-1df7-45c0-83ed-d2c32753414d",
+      "identifier": "CS31_02",
+      "rat": "CS31",
+      "day": 2,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 12,
+        "PFC": 32
+      },
+      "trial_counts": {
+        "trials": 61,
+        "correct_left": 33,
+        "incorrect_left": 2,
+        "correct_right": 14,
+        "incorrect_right": 12,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "bdf3c83a-fbaf-4c8a-88ca-b07b28fd6fe5",
+      "identifier": "CS39_02",
+      "rat": "CS39",
+      "day": 2,
+      "previous_unit_region_status": "provisional_row_index_only",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": null,
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "PFC": 7,
+        "CA1": 3,
+        "OB": 1
+      },
+      "trial_counts": {
+        "trials": 30,
+        "correct_left": 14,
+        "incorrect_left": 2,
+        "correct_right": 5,
+        "incorrect_right": 9,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": false
+    },
+    {
+      "asset_id": "f6687686-4167-4249-b806-0b3b50100061",
+      "identifier": "CS39_04",
+      "rat": "CS39",
+      "day": 4,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "PFC": 9,
+        "CA1": 3
+      },
+      "trial_counts": {
+        "trials": 25,
+        "correct_left": 12,
+        "incorrect_left": 1,
+        "correct_right": 8,
+        "incorrect_right": 4,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "dad4b38d-19a1-4ef6-ae90-fdf67519fce2",
+      "identifier": "CS39_05",
+      "rat": "CS39",
+      "day": 5,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "PFC": 7,
+        "OB": 1
+      },
+      "trial_counts": {
+        "trials": 22,
+        "correct_left": 9,
+        "incorrect_left": 1,
+        "correct_right": 11,
+        "incorrect_right": 1,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": false,
+      "eligible_for_cue_outcome_comparison": false,
+      "neural_position_values_acquired": false
+    },
+    {
+      "asset_id": "dd3aaf58-c574-4d84-b918-f060f3663878",
+      "identifier": "CS39_06",
+      "rat": "CS39",
+      "day": 6,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "PFC": 9,
+        "CA1": 2
+      },
+      "trial_counts": {
+        "trials": 23,
+        "correct_left": 10,
+        "incorrect_left": 0,
+        "correct_right": 10,
+        "incorrect_right": 3,
+        "all_four_cells_positive": false
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": false,
+      "neural_position_values_acquired": false
+    },
+    {
+      "asset_id": "c1dbd250-852f-435c-ac54-e5bda313d92d",
+      "identifier": "CS39_03",
+      "rat": "CS39",
+      "day": 3,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "PFC": 17,
+        "CA1": 7
+      },
+      "trial_counts": {
+        "trials": 50,
+        "correct_left": 21,
+        "incorrect_left": 1,
+        "correct_right": 19,
+        "incorrect_right": 9,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "74bf993c-dbaf-4455-9d89-c261e4642ed2",
+      "identifier": "CS39_07",
+      "rat": "CS39",
+      "day": 7,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "PFC": 6,
+        "CA1": 4
+      },
+      "trial_counts": {
+        "trials": 63,
+        "correct_left": 32,
+        "incorrect_left": 0,
+        "correct_right": 23,
+        "incorrect_right": 8,
+        "all_four_cells_positive": false
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": false,
+      "neural_position_values_acquired": false
+    },
+    {
+      "asset_id": "7a2d22aa-b7c3-43e6-a1e0-129a37bf8ffc",
+      "identifier": "CS39_01",
+      "rat": "CS39",
+      "day": 1,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "PFC": 12,
+        "CA1": 9,
+        "OB": 1
+      },
+      "trial_counts": {
+        "trials": 95,
+        "correct_left": 35,
+        "incorrect_left": 8,
+        "correct_right": 33,
+        "incorrect_right": 19,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "8db8a992-2960-462f-99e4-8908658a2d65",
+      "identifier": "CS42_02",
+      "rat": "CS42",
+      "day": 2,
+      "previous_unit_region_status": null,
+      "electrode_reference_verified": true,
+      "electrode_row_contract": false,
+      "reference_name": null,
+      "trial_join_status": "unresolved",
+      "trial_join_reason": "Trial task-epoch support missing or ambiguous",
+      "unit_region_counts": {},
+      "trial_counts": null,
+      "ca1_pfc_task_supported": false,
+      "eligible_for_cue_outcome_comparison": false,
+      "neural_position_values_acquired": false
+    },
+    {
+      "asset_id": "89219228-a61e-45ca-9434-734513314671",
+      "identifier": "CS42_01",
+      "rat": "CS42",
+      "day": 1,
+      "previous_unit_region_status": "provisional_row_index_only",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": null,
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "PFC": 8,
+        "OB": 5,
+        "CA1": 2
+      },
+      "trial_counts": {
+        "trials": 148,
+        "correct_left": 54,
+        "incorrect_left": 20,
+        "correct_right": 62,
+        "incorrect_right": 12,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": false
+    },
+    {
+      "asset_id": "f4eadd97-1559-40ed-9ce7-b3e7db6ae036",
+      "identifier": "CS42_03",
+      "rat": "CS42",
+      "day": 3,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 4,
+        "PFC": 11,
+        "OB": 5
+      },
+      "trial_counts": {
+        "trials": 196,
+        "correct_left": 71,
+        "incorrect_left": 20,
+        "correct_right": 73,
+        "incorrect_right": 32,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    },
+    {
+      "asset_id": "9997b472-5b20-4444-855d-9383c4b4e1df",
+      "identifier": "CS42_04",
+      "rat": "CS42",
+      "day": 4,
+      "previous_unit_region_status": null,
+      "electrode_reference_verified": true,
+      "electrode_row_contract": false,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "unresolved",
+      "trial_join_reason": "Trial task-epoch support missing or ambiguous",
+      "unit_region_counts": {},
+      "trial_counts": null,
+      "ca1_pfc_task_supported": false,
+      "eligible_for_cue_outcome_comparison": false,
+      "neural_position_values_acquired": false
+    },
+    {
+      "asset_id": "653f62d8-0b58-49fb-af4a-8bcc86d2bf67",
+      "identifier": "CS42_05",
+      "rat": "CS42",
+      "day": 5,
+      "previous_unit_region_status": null,
+      "electrode_reference_verified": true,
+      "electrode_row_contract": false,
+      "reference_name": null,
+      "trial_join_status": "unresolved",
+      "trial_join_reason": "Trial task-epoch support missing or ambiguous",
+      "unit_region_counts": {},
+      "trial_counts": null,
+      "ca1_pfc_task_supported": false,
+      "eligible_for_cue_outcome_comparison": false,
+      "neural_position_values_acquired": false
+    },
+    {
+      "asset_id": "7160172d-16f1-4c89-a0b9-cdee132775c2",
+      "identifier": "CS42_06",
+      "rat": "CS42",
+      "day": 6,
+      "previous_unit_region_status": "verified_table_reference",
+      "electrode_reference_verified": true,
+      "electrode_row_contract": true,
+      "reference_name": "/general/extracellular_ephys/electrodes",
+      "trial_join_status": "exact_label_join",
+      "trial_join_reason": null,
+      "unit_region_counts": {
+        "CA1": 3,
+        "PFC": 16,
+        "OB": 7
+      },
+      "trial_counts": {
+        "trials": 242,
+        "correct_left": 97,
+        "incorrect_left": 28,
+        "correct_right": 87,
+        "incorrect_right": 30,
+        "all_four_cells_positive": true
+      },
+      "ca1_pfc_task_supported": true,
+      "eligible_for_cue_outcome_comparison": true,
+      "neural_position_values_acquired": true
+    }
+  ],
+  "summary": {
+    "assets": 38,
+    "electrode_identity_verified": 38,
+    "exact_trial_supported": 35,
+    "ca1_pfc_task_supported": 34,
+    "prior_eligible": 23,
+    "corrected_eligible": 32,
+    "acquired": 23,
+    "added_identifiers": [
+      "CS33_03",
+      "CS33_02",
+      "CS41_02",
+      "CS41_03",
+      "CS44_02",
+      "CS44_05",
+      "CS31_03",
+      "CS39_02",
+      "CS42_01"
+    ],
+    "pending_values_identifiers": [
+      "CS33_03",
+      "CS33_02",
+      "CS41_02",
+      "CS41_03",
+      "CS44_02",
+      "CS44_05",
+      "CS31_03",
+      "CS39_02",
+      "CS42_01"
+    ]
+  },
+  "correction": "h5py dereferenced .name=None was incorrectly treated as null/unresolved in prior reports. Present non-null references to the same HDF object and address are verified regardless of name. Frozen trial support and four-cell criteria remain unchanged. No neural-effect selection or decoding. The previously acquired23 remain valid; nine newly eligible assets still require value acquisition."
+}

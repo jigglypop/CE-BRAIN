@@ -1,4 +1,5 @@
 from __future__ import annotations
+from importlib.metadata import distribution as _distribution
 
 import importlib.util
 import math
@@ -10,7 +11,7 @@ import pytest
 
 
 ROOT = Path(__file__).resolve().parents[1]
-MODULE_PATH = ROOT / "reality_stone" / "python" / "reality_stone" / "clarus" / "history_edge_subspace.py"
+MODULE_PATH = Path(_distribution("reality_stone").locate_file("reality_stone")) / "clarus" / "history_edge_subspace.py"
 
 
 def _load_standalone_module():

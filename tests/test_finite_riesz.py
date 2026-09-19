@@ -1,4 +1,5 @@
 from __future__ import annotations
+from importlib.metadata import distribution as _distribution
 
 import importlib.util
 from pathlib import Path
@@ -9,7 +10,7 @@ import pytest
 
 
 ROOT = Path(__file__).resolve().parents[1]
-MODULE_PATH = ROOT / "reality_stone" / "python" / "reality_stone" / "clarus" / "finite_riesz.py"
+MODULE_PATH = Path(_distribution("reality_stone").locate_file("reality_stone")) / "clarus" / "finite_riesz.py"
 
 
 def _load_standalone_module():

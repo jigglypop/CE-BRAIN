@@ -1,4 +1,5 @@
 from __future__ import annotations
+from importlib.metadata import distribution as _distribution
 
 import importlib.util
 from fractions import Fraction as F
@@ -10,10 +11,7 @@ import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
 MODULE = (
-    ROOT
-    / "reality_stone"
-    / "python"
-    / "reality_stone"
+    Path(_distribution("reality_stone").locate_file("reality_stone"))
     / "clarus"
     / "verified_complete_q_polynomial_factorization.py"
 )

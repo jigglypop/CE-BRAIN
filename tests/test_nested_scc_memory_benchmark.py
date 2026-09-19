@@ -1,4 +1,6 @@
 import json
+from pathlib import Path
+from importlib.metadata import distribution
 
 import pytest
 
@@ -12,6 +14,16 @@ from reality_stone.clarus.nested_scc_memory_benchmark import (
     run_locked_phase,
     verify_preregistration,
 )
+
+
+def _source_fixture(tmp_path):
+    root = tmp_path / "source-fixture"
+    source_root = Path(distribution("reality_stone").locate_file("reality_stone/clarus"))
+    for name in ("nested_scc_memory_benchmark.py", "nested_scc_tower.py", "adaptive_scc_tower_controller.py"):
+        target = root / "reality_stone/python/reality_stone/clarus" / name
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes((source_root / name).read_bytes())
+    return root
 
 
 def test_episode_generation_is_balanced_deterministic_and_current_input_blind() -> None:
@@ -44,7 +56,7 @@ def test_preregistration_is_hash_bound_and_rejects_mutation(tmp_path) -> None:
         "reality_stone/python/reality_stone/clarus/nested_scc_tower.py",
         "reality_stone/python/reality_stone/clarus/adaptive_scc_tower_controller.py",
     )
-    repository_root = __import__("pathlib").Path(__file__).resolve().parents[1]
+    repository_root = _source_fixture(tmp_path)
     for source in sources:
         target = root / source
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -60,7 +72,7 @@ def test_preregistration_is_hash_bound_and_rejects_mutation(tmp_path) -> None:
 def test_locked_runner_refuses_missing_audit_existing_result_and_early_confirmation(
     tmp_path,
 ) -> None:
-    repository_root = __import__("pathlib").Path(__file__).resolve().parents[1]
+    repository_root = _source_fixture(tmp_path)
     prereg = preregistration_payload(
         repository_root=repository_root, config=MemoryBenchmarkConfig()
     )

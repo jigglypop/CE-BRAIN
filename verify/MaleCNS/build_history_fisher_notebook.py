@@ -213,12 +213,15 @@ norm=BoundaryNorm([-.5,.5,1.5,2.5,3.5],4)
 for r,ax in enumerate(axes):
     values=comparison[1:,r::2].T
     artist=ax.imshow(values,cmap=cmap,norm=norm,aspect='auto',interpolation='nearest')
+    symbols=['E','=','P','D']
+    for row,column in np.ndindex(values.shape):
+        ax.text(column,row,symbols[int(values[row,column])],ha='center',va='center',fontsize=7,color='#202020')
     ax.set_xticks(range(16),range(1,17))
     ax.set_yticks(range(27),names)
     ax.set_xlabel('Endpoint model step (pair uses previous and current)')
     ax.set_title(['Uniform fixed initial distribution','Out-weight fixed initial distribution'][r],fontsize=12)
 colorbar=fig.colorbar(artist,ax=axes,location='bottom',ticks=range(4),shrink=.85,pad=.04)
-colorbar.ax.set_xticklabels(['Refined dominates','Numerically equal','Pair dominates','Direction-dependent'])
+colorbar.ax.set_xticklabels(['E: Refined dominates','=: Numerically equal','P: Pair dominates','D: Direction-dependent'])
 path=figures/'history_vs_current_resolution.png'
 fig.savefig(path,dpi=150)
 plt.close(fig)
@@ -307,7 +310,10 @@ notebook = nbformat.v4.new_notebook(cells=cells, metadata={"kernelspec": {
 temporary = Path(tempfile.mkdtemp(prefix="ce-malecns-history-kernel-"))
 kernel = temporary / "kernels/ce-malecns-history"
 kernel.mkdir(parents=True)
-spec = {"argv": [os.environ.get("COMSPEC", "cmd.exe"), "/d", "/c", str(ROOT / ".codex/hooks/python.cmd"),
+wrapper = Path(os.environ.get("CE_PYTHON_WRAPPER", str(ROOT / ".codex/hooks/python.cmd"))).resolve()
+if not wrapper.is_file():
+    raise FileNotFoundError("Set CE_PYTHON_WRAPPER to the preserved, approved python.cmd launcher")
+spec = {"argv": [os.environ.get("COMSPEC", "cmd.exe"), "/d", "/c", str(wrapper),
                  "python", "-m", "ipykernel_launcher", "-f", "{connection_file}"],
         "display_name": "CE policy wrapper", "language": "python",
         "env": {"CE_PYTHON": sys.executable, "PYTHONPATH": os.environ.get("PYTHONPATH", "")}}
@@ -315,6 +321,31 @@ spec = {"argv": [os.environ.get("COMSPEC", "cmd.exe"), "/d", "/c", str(ROOT / ".
 os.environ["JUPYTER_PATH"] = str(temporary) + os.pathsep + os.environ.get("JUPYTER_PATH", "")
 nbformat.validate(notebook)
 NotebookClient(notebook, timeout=240, kernel_name="ce-malecns-history", resources={"metadata": {"path": str(ROOT)}}).execute()
+executed_summary = json.loads(SUMMARY.read_text(encoding="utf-8"))
+final_snapshots = [row for row in executed_summary["snapshots"] if row["step"] == 16]
+overview = []
+for row in final_snapshots:
+    endpoint_fraction = row["endpoint60_fraction_of_pair60"]
+    path_fraction = row["pair60_fraction_of_path"]
+    overview.append(
+        f"- Step 16, {row['reference']}: median endpoint/pair trace "
+        f"{endpoint_fraction['median']:.2%} (cohort range "
+        f"{endpoint_fraction['min']:.2%} to {endpoint_fraction['max']:.2%}); "
+        f"median pair/path trace {path_fraction['median']:.2%}; "
+        f"extra-past trace above the numerical threshold in "
+        f"{row['extra_past_positive_cohorts']}/27 cohorts."
+    )
+notebook.cells[0].source = (
+    "# MaleCNS: Endpoint, Adjacent Pair, and Full-Path Information\n\n"
+    "## tl;dr\n"
+    "The completed run uses all original connections, 54 fixed probes and model steps 0..16. "
+    "Independent joint-likelihood finite differences and the saved-array checks passed.\n\n"
+    + "\n".join(overview)
+    + "\n\nThese are coordinate-dependent Fisher-trace ratios in a contact-supported probability "
+    "model, not measured neural memory, physical time or confidence intervals. The adjacent "
+    "pair records only two observations; the full path also records raw IDs and has a larger "
+    "observation budget. Inputs and source hashes are verified in the next cell."
+)
 nbformat.validate(notebook)
 nbformat.write(notebook, NOTEBOOK)
 sections = []

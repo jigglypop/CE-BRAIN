@@ -1,0 +1,211 @@
+{
+  "source_sha256": "af832fbef05bf83f439e3db9dca32162aaf137f7de0e9648337f8310fb685e70",
+  "raw_result_sha256": "311e4ecca0709b306651090ca210d12637d92a32659ed13dc9a9609d018b323b",
+  "pulse_result_sha256": "f023db5b41d40c4ccbb5bb91c89af926898f38d7fb607c09b8446bb341aa76c7",
+  "arrays": {
+    "path": "data/local/allen-synphys-analysis/mixed-clamp-inputs-v1/full_inputs.npz",
+    "bytes": 36586995,
+    "sha256": "3342f101bb47ba3f10079cc75946588f18244847c90ba08c5c5f6d3d3837e0e7"
+  },
+  "matplotlib": "3.10.6",
+  "numpy": "2.4.6",
+  "selected": [
+    {
+      "sweep": 69,
+      "protocol": "50 Hz",
+      "pulse_number": 0,
+      "pulse_id": 6314928,
+      "onset_s": 4.853700000000001,
+      "sample_start": 242585,
+      "sample_stop": 243085,
+      "pre_stop": 242675,
+      "target_baseline_A": -5.547152755612449e-10,
+      "array_keys": [
+        "s69_d6_command_A",
+        "s69_d6_acquisition_V",
+        "s69_d1_acquisition_A"
+      ]
+    },
+    {
+      "sweep": 69,
+      "protocol": "50 Hz",
+      "pulse_number": 7,
+      "pulse_id": 6314935,
+      "onset_s": 4.9937000000000005,
+      "sample_start": 249585,
+      "sample_stop": 250085,
+      "pre_stop": 249675,
+      "target_baseline_A": -5.508194422434786e-10,
+      "array_keys": [
+        "s69_d6_command_A",
+        "s69_d6_acquisition_V",
+        "s69_d1_acquisition_A"
+      ]
+    },
+    {
+      "sweep": 69,
+      "protocol": "50 Hz",
+      "pulse_number": 8,
+      "pulse_id": 6314936,
+      "onset_s": 5.495220000000001,
+      "sample_start": 274661,
+      "sample_stop": 275161,
+      "pre_stop": 274751,
+      "target_baseline_A": -5.567986088862536e-10,
+      "array_keys": [
+        "s69_d6_command_A",
+        "s69_d6_acquisition_V",
+        "s69_d1_acquisition_A"
+      ]
+    },
+    {
+      "sweep": 69,
+      "protocol": "50 Hz",
+      "pulse_number": 11,
+      "pulse_id": 6314939,
+      "onset_s": 5.55522,
+      "sample_start": 277661,
+      "sample_stop": 278161,
+      "pre_stop": 277751,
+      "target_baseline_A": -5.567777755530036e-10,
+      "array_keys": [
+        "s69_d6_command_A",
+        "s69_d6_acquisition_V",
+        "s69_d1_acquisition_A"
+      ]
+    },
+    {
+      "sweep": 77,
+      "protocol": "20 Hz",
+      "pulse_number": 0,
+      "pulse_id": 6315408,
+      "onset_s": 5.0537,
+      "sample_start": 252585,
+      "sample_stop": 253085,
+      "pre_stop": 252675,
+      "target_baseline_A": -2.9784027658766675e-10,
+      "array_keys": [
+        "s77_d6_command_A",
+        "s77_d6_acquisition_V",
+        "s77_d1_acquisition_A"
+      ]
+    },
+    {
+      "sweep": 77,
+      "protocol": "20 Hz",
+      "pulse_number": 7,
+      "pulse_id": 6315415,
+      "onset_s": 5.403700000000001,
+      "sample_start": 270085,
+      "sample_stop": 270585,
+      "pre_stop": 270175,
+      "target_baseline_A": -3.301041653476355e-10,
+      "array_keys": [
+        "s77_d6_command_A",
+        "s77_d6_acquisition_V",
+        "s77_d1_acquisition_A"
+      ]
+    },
+    {
+      "sweep": 77,
+      "protocol": "20 Hz",
+      "pulse_number": 8,
+      "pulse_id": 6315416,
+      "onset_s": 5.655220000000001,
+      "sample_start": 282661,
+      "sample_stop": 283161,
+      "pre_stop": 282751,
+      "target_baseline_A": -3.11715276532225e-10,
+      "array_keys": [
+        "s77_d6_command_A",
+        "s77_d6_acquisition_V",
+        "s77_d1_acquisition_A"
+      ]
+    },
+    {
+      "sweep": 77,
+      "protocol": "20 Hz",
+      "pulse_number": 11,
+      "pulse_id": 6315419,
+      "onset_s": 5.80522,
+      "sample_start": 290161,
+      "sample_stop": 290661,
+      "pre_stop": 290251,
+      "target_baseline_A": -3.1134722097814013e-10,
+      "array_keys": [
+        "s77_d6_command_A",
+        "s77_d6_acquisition_V",
+        "s77_d1_acquisition_A"
+      ]
+    },
+    {
+      "sweep": 82,
+      "protocol": "100 Hz",
+      "pulse_number": 0,
+      "pulse_id": 6315708,
+      "onset_s": 3.4537000000000004,
+      "sample_start": 172585,
+      "sample_stop": 173085,
+      "pre_stop": 172675,
+      "target_baseline_A": -5.11611109066814e-10,
+      "array_keys": [
+        "s82_d6_command_A",
+        "s82_d6_acquisition_V",
+        "s82_d1_acquisition_A"
+      ]
+    },
+    {
+      "sweep": 82,
+      "protocol": "100 Hz",
+      "pulse_number": 7,
+      "pulse_id": 6315715,
+      "onset_s": 3.5237000000000003,
+      "sample_start": 176085,
+      "sample_stop": 176585,
+      "pre_stop": 176175,
+      "target_baseline_A": -5.061458313108744e-10,
+      "array_keys": [
+        "s82_d6_command_A",
+        "s82_d6_acquisition_V",
+        "s82_d1_acquisition_A"
+      ]
+    },
+    {
+      "sweep": 82,
+      "protocol": "100 Hz",
+      "pulse_number": 8,
+      "pulse_id": 6315716,
+      "onset_s": 3.7752200000000005,
+      "sample_start": 188661,
+      "sample_stop": 189161,
+      "pre_stop": 188751,
+      "target_baseline_A": -4.912499980370619e-10,
+      "array_keys": [
+        "s82_d6_command_A",
+        "s82_d6_acquisition_V",
+        "s82_d1_acquisition_A"
+      ]
+    },
+    {
+      "sweep": 82,
+      "protocol": "100 Hz",
+      "pulse_number": 11,
+      "pulse_id": 6315719,
+      "onset_s": 3.8052200000000003,
+      "sample_start": 190161,
+      "sample_stop": 190661,
+      "pre_stop": 190251,
+      "target_baseline_A": -4.867638869438764e-10,
+      "array_keys": [
+        "s82_d6_command_A",
+        "s82_d6_acquisition_V",
+        "s82_d1_acquisition_A"
+      ]
+    }
+  ],
+  "image": {
+    "path": "verify/Q-NPF-04/allen_synphys/figures/mixed_clamp_observed_waveforms.png",
+    "sha256": "d3b9b24cab3e75addc809370012eb4063b809d6c4bcbac34d6d7f194bbef979c"
+  },
+  "selection": "First joint recording-QC pass in each50/20/100Hz block; source6 pair121566; pulses1/8/9/12 chosen before raw waveform audit."
+}

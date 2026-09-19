@@ -1,4 +1,5 @@
 from __future__ import annotations
+from importlib.metadata import distribution as _distribution
 
 from dataclasses import replace
 from decimal import Decimal
@@ -14,7 +15,7 @@ import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
 PACKAGE_DIR = (
-    ROOT / "reality_stone" / "python" / "reality_stone" / "clarus" / "agi_lab"
+    Path(_distribution("reality_stone").locate_file("reality_stone")) / "clarus" / "agi_lab"
 )
 INIT_PATH = PACKAGE_DIR / "__init__.py"
 
@@ -47,6 +48,11 @@ PARENT_SNAPSHOT = frozenset(
     if name == "reality_stone" or name.startswith("reality_stone.")
 )
 agi = _isolated_load()
+PARENT_AFTER_LOAD = frozenset(
+    name
+    for name in sys.modules
+    if name == "reality_stone" or name.startswith("reality_stone.")
+)
 
 
 class ScriptedPlanner:
@@ -159,12 +165,8 @@ def _trace(family: str, *, key: bytes = b"A" * 32, proxy: bool = False):
 
 
 def test_isolated_package_does_not_import_parent_or_export_agi_claims() -> None:
-    after = frozenset(
-        name
-        for name in sys.modules
-        if name == "reality_stone" or name.startswith("reality_stone.")
-    )
-    assert after == PARENT_SNAPSHOT
+    # Compare immediately around the isolated load, before other tests import the parent.
+    assert PARENT_AFTER_LOAD == PARENT_SNAPSHOT
     assert agi.IMPLEMENTATION_STATUS == "PHYSICS_INDEPENDENT_CORE_SCAFFOLD"
     assert not agi.PHYSICAL_AGI_CLAIM
     assert not agi.CONSCIOUSNESS_CLAIM
