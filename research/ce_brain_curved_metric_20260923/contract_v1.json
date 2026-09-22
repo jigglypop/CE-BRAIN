@@ -1,0 +1,81 @@
+{
+ "schema": "ce-curved-metric-contract-v1",
+ "version": 1,
+ "frozen_at": "2026-09-23 (before any confirmation panel was evaluated with a new formula)",
+ "question": "Does a state-dependent (non-zero curvature) SPD metric G(y) predict 31C TRPA KC calcium cohort means from control means better than the published constant 7x7 SPD metric, on the same evaluation units?",
+ "scope": "Retrospective development on the same processed public KC calcium means (Bergmann et al. 2026). Not a new animal, spike, current or behaviour test; not evidence of curvature in the brain; BIO_EVIDENCE level unchanged.",
+ "data": {
+  "source": "aclinlab/bergmann-et-al@0b2da3f9c865626f8858881a468394c8eff68fa7:CorrelationAnalysis/all KC values.csv",
+  "path": "data/external/bergmann_2026_kc/all KC values.csv",
+  "sha256": "5733b69eda14e5c557e784e96da917091877dc86a3a4a9c6026eae2520c8765a",
+  "bytes": 17682,
+  "git_blob": "965d7e038fa23ba4226cda865d8802157f0d18c8"
+ },
+ "frozen_code_sha256": {
+  "kc_data.py": "5dd63209eee50d995644834e8bdca9ede1c527c62e3f66dc887971918ed4be16",
+  "metric_models.py": "c6d25f1ab0deb0e9682c2a5296de0d9ad65a157bc3c0f69a8af14e6cf97bbf4c",
+  "run_curved_metric.py": "1e884e534c2537895e63a7dac205ee091f5952b9f792ad944d331e021f1b966e"
+ },
+ "baseline": {
+  "model": "published constant SPD (research/ce_brain_publication_20260919/model.json config), reimplemented in metric_models.py",
+  "published_rmse": {"leave1": 0.03635965190430477, "leave2": 0.039622675324239486, "slot0": 0.06419516470352883, "slot1": 0.07450860016306389, "fresh32": 0.12141653250790259},
+  "published_mae": {"leave1": 0.025777385900733127, "leave2": 0.02803102720640074, "slot0": 0.05078362748295236, "slot1": 0.05940024838884759, "fresh32": 0.08880692863122822},
+  "reimplementation_before_freeze": "leave1/leave2/slot0/slot1 RMSE and MAE within 2e-7 of published; 42 saved leave1 predictions within 1.9e-7; fresh32 previous-config aggregate within 1e-7, published-config within 1.0e-6 RMSE / 3e-6 MAE; per-split win counts 17/18/16 reproduced exactly. Residual gap: the original eigenvalue-constrained solver (iterative) vs the exact KKT solver used here."
+ },
+ "panels": {
+  "leave1": "DEVELOPMENT / primary: full 31C cohort means, one odour position held out of all regions (7 tasks, 42 predictions).",
+  "leave2": "CONFIRMATION: two positions held (21 tasks, 252 predictions, pooled).",
+  "slot0": "CONFIRMATION: train on odd record slots, test on even slots, leave-one-position (42 predictions).",
+  "slot1": "CONFIRMATION: train on even slots, test on odd slots (42 predictions).",
+  "fresh32": "CONFIRMATION: seeds 2026091900-2026091931; numpy.default_rng(seed).permutation per region x group column in table order (all 4 groups), first floor(n/2) vectors train, rest test; leave-one-position inside; 32 x 42 predictions pooled."
+ },
+ "families": {
+  "curved_apl_metric": {
+   "role": "pre-registered curved hypothesis (development attempt D9)",
+   "formula": "G(y) = S(y) G_0 S(y),  S(y) = diag(Omega(y), 1, 1, 1, 1, 1, 1),  Omega(y)^2 = 1 + beta_c (s(y)/s_0 - 1),  s(y) = v^T y,  s_0 = mean_train v^T y;  prediction y_hat solves G_yy(y_hat) y_hat + G_yr(y_hat) = phi(x) = x^0.625, i.e. y_hat = argmin_y Phi_{G(y_hat)}(y; x)",
+   "state_dependence": "calyx (KC dendritic compartment) factor depends on total KC population activity s(y) along the published coupling direction v; lobes unscaled",
+   "fit": "observed-state linearisation S(y) y = b + L S(y)^-1 phi (linear in the 11 published coefficients) with the published weights, offset penalty, rho penalty, lambda_min(L) >= 0.025 constraint and SPD log-exp correction (step 0.2) recomputed on every leave-one-condition subset",
+   "free_parameters": "11 fitted (4 mobilities, rho, 6 offsets) + 1 state parameter beta_c selected by nested CV = 12",
+   "grid_beta_calyx": [-0.65, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0.0, 0.1, 0.2],
+   "grid_rationale": "beta_c = I_TRPA - I_ctrl (change of normalised APL divisive gain); admissible beta_c >= -I_ctrl with I_ctrl = 0.5-0.67 (APL silencing raises KC GCaMP responses 2-3 fold; Lin et al. 2014, Apostolopoulou & Lin 2020, cited in Bergmann et al. 2026)",
+   "beta0_limit": "beta_c = 0 reproduces the published constant metric exactly"
+  },
+  "flat_input_metric": {
+   "role": "equal-parameter constant-metric counterpart: same S G0 S form but S = S(x) from the control state (metric constant on y-space for each input)",
+   "free_parameters": 12,
+   "grid_beta_calyx": [-0.65, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0.0, 0.1, 0.2]
+  },
+  "flat_exponent_force": {
+   "role": "equal-parameter constant-metric counterpart: published constant metric with a calyx-specific input exponent",
+   "free_parameters": 12,
+   "grid_p_calyx": [0.625, 0.75, 1.0, 1.25, 1.5, 2.0, 2.5, 3.0]
+  },
+  "affine_x": {"role": "plain Euclidean comparator: independent per-region OLS y = k x + c", "free_parameters": 12},
+  "affine_phi": {"role": "plain Euclidean comparator: independent per-region OLS y = k x^0.625 + c", "free_parameters": 12}
+ },
+ "grids": {"beta_calyx": [-0.65, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0.0, 0.1, 0.2], "beta_lobes": [0.0], "p_calyx": [0.625, 0.75, 1.0, 1.25, 1.5, 2.0, 2.5, 3.0], "p_lobes": [0.625]},
+ "nested_rule": "For every outer task, each grid value is scored by leave-one-condition-out over the outer training conditions only (training-side means; held conditions and test halves never used). Pick the minimum pooled inner RMSE; ties within 1e-12 go to the value closest to the published model (beta=0 or p=0.625). Hyperparameters are re-selected independently in every outer task. If the chosen value fails to fit/solve, the next-ranked value is used and counted. The final full-cohort model uses the same rule over all seven conditions.",
+ "win_criteria": {
+  "1": "primary (leave1) nested RMSE < 0.03635965190430477",
+  "2": "leave2 <= 0.039622675324239486, slot0 <= 0.06419516470352883, slot1 <= 0.07450860016306389",
+  "3": "fresh32 pooled RMSE < 0.12141653250790259 and more than 16/32 splits with lower RMSE than the reimplemented published baseline; one-sided sign-test p reported",
+  "4": "curvature contributes on the primary panel: (a) beats the beta=0 constant metric, (b) beats the best equal-parameter constant-metric counterpart (min of flat_input_metric, flat_exponent_force), (c) beats its own frozen-metric ablation (S fixed at the reference state); state-dependence magnitude, Omega range, metric variation and curvature (scalar, Ricci, sectional) at observed states reported",
+  "5": "final full-cohort beta_c lies in the literature-admissible range [-2/3, 0] (reduced APL gain in the calyx after KC overactivation, Bergmann et al. 2026)",
+  "verdict": "WIN only if every item holds; otherwise NOT WIN. Per-region RMSE and MAE reported for all models and panels."
+ },
+ "development_disclosure": "The primary panel was used for all development, including the choice of the calyx compartment, the grid bounds and the reduction from two to one state parameter. Confirmation panels share records with the primary panel (leave2 uses the same cohort means; slot/fresh use subsets of the same flies), so confirmation is weak.",
+ "development_attempts": [
+  {"id": "D1", "family": "global APL divisive conformal metric Omega^2(y) G0, s = u.y (u uniform or v), observed-state fit", "curved": true, "primary_fixed_beta": "all beta in [-0.4, 1.0] worse than 0.03636 (best -0.1: 0.03650)"},
+  {"id": "D2", "family": "Hessian metric of psi = quadratic + beta (u.y)^3", "curved": false, "note": "rank-one term depending on the same direction is a 1-D reparametrisation (flat)", "primary_fixed_beta": "best 0.036357 (delta -3e-6)"},
+  {"id": "D3", "family": "leading-order quadratic screen (phi*s, phi^2, s^2, sister, calyx, gamma, v s^2; shared or per type)", "curved": "leading-order proxy", "primary": "all 14 worse (0.03697-0.05084 vs 0.03680 without SPD step)"},
+  {"id": "D4", "family": "D1 with self-consistent nonlinear least-squares fit", "curved": true, "primary_fixed_beta": "beta=0 best; any beta != 0 worse"},
+  {"id": "D5", "family": "zero-parameter APL recruitment metric L(y) = diag(d) + rho (s/s0) v v^T", "curved": true, "primary": "0.03698 vs 0.03680 (worse)"},
+  {"id": "D6", "family": "Bergmann-significance mask divisive force map (calyx, gamma, beta', alpha')", "curved": "not a symmetric metric", "primary_fixed_beta": "best 0.036329 at beta=0.05, MAE worse"},
+  {"id": "D7", "family": "dendritic/axonal two-compartment divisive force map", "curved": "not a symmetric metric", "primary_fixed_grid": "best 0.035012"},
+  {"id": "D8", "family": "symmetric two-compartment metric S(y) G0 S(y), beta_c and beta_l nested", "curved": true, "primary_fixed_grid": "best 0.034704", "primary_nested": "0.03656939 (worse than baseline; lobe beta unstable across folds)", "file": "results_development_attempt_D8.json"},
+  {"id": "D9", "family": "calyx-compartment symmetric metric (this contract)", "curved": true, "primary_nested": "0.03504374, MAE 0.02451719", "file": "results_development_v1.json"}
+ ],
+ "development_flat_controls": "calyx exponent and input-state calyx modulation were explored on the primary panel before freezing and are pre-registered here as counterparts",
+ "revision_policy": "Any change after opening confirmation panels requires contract_v2.json (v3, ...), keeping all earlier contracts and results; every attempted family is counted.",
+ "stopping_rule": "D9 was fixed as the last development iteration before this freeze regardless of its confirmation outcome."
+}

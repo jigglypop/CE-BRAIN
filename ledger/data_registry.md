@@ -620,3 +620,21 @@ Collector는 exit0으로 끝났고 진행 중 수신은 없다. 원 바이트/�
 추가 log-gain은−0.0176267661 nats로 제시 순서 기준을 개선하지 못했다. 정확히1회
 실행했고 수정·재적합 없이 실패 결과를 보존했다. 해마 신호는 이번 판독 특징에
 들어가지 않았으며 해마 검색의 인과 효과나 계량을 검증한 결과가 아니다.
+
+## Bergmann 2026 KC 칼슘 가공표 (2026-09-23)
+
+CE-BRAIN 게시본(`research/ce_brain_publication_20260919/`)은 이 CSV의 해시만 기록했고
+로컬 사본·원장 기록이 없었다. 곡률 계량 검사(`research/ce_brain_curved_metric_20260923/`)를
+위해 고정 커밋에서 처음 받았다. 자료 ID `bergmann-2026-kc`, 판본은 커밋 해시다.
+
+| 항목 | 값 |
+|---|---|
+| 출처 | `aclinlab/bergmann-et-al@0b2da3f9c865626f8858881a468394c8eff68fa7:CorrelationAnalysis/all KC values.csv` (raw.githubusercontent.com, 공백은 `%20`) |
+| 위치 | `data/external/bergmann_2026_kc/all KC values.csv` |
+| 크기 | 17,682 bytes |
+| SHA-256 | `5733b69eda14e5c557e784e96da917091877dc86a3a4a9c6026eae2520c8765a` |
+| Git blob | `965d7e038fa23ba4226cda865d8802157f0d18c8` |
+
+SHA-256·크기·Git blob이 게시본 `source_manifest.json`과 모두 일치했다. 유효값 1,540개,
+완전한 7조건 벡터 220개, 음수 39개이며 42개 게시 목표 평균을 오차 0으로 재현했다.
+저자 가공 칼슘 평균이며 새 동물·원시 영상·스파이크 자료가 아니다.

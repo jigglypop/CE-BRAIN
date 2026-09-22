@@ -1,0 +1,258 @@
+{
+ "schema": "ce-curved-metric-attempt-log-v1",
+ "contract_versions": [
+  "contract_v1.json"
+ ],
+ "contract_sha256": "a3b0dd8eabf4ed8788f8c9283456b539b292cae509875f6367b29f113a058fb9",
+ "formula_families_attempted": 9,
+ "valid_curved_riemannian_families": 5,
+ "families_evaluated_on_confirmation": [
+  "curved_apl_metric (D9)"
+ ],
+ "development_attempts": [
+  {
+   "id": "D1",
+   "family": "global APL divisive conformal metric Omega^2(y) G0, s = u.y (u uniform or v), observed-state fit",
+   "curved": true,
+   "primary_fixed_beta": "all beta in [-0.4, 1.0] worse than 0.03636 (best -0.1: 0.03650)"
+  },
+  {
+   "id": "D2",
+   "family": "Hessian metric of psi = quadratic + beta (u.y)^3",
+   "curved": false,
+   "note": "rank-one term depending on the same direction is a 1-D reparametrisation (flat)",
+   "primary_fixed_beta": "best 0.036357 (delta -3e-6)"
+  },
+  {
+   "id": "D3",
+   "family": "leading-order quadratic screen (phi*s, phi^2, s^2, sister, calyx, gamma, v s^2; shared or per type)",
+   "curved": "leading-order proxy",
+   "primary": "all 14 worse (0.03697-0.05084 vs 0.03680 without SPD step)"
+  },
+  {
+   "id": "D4",
+   "family": "D1 with self-consistent nonlinear least-squares fit",
+   "curved": true,
+   "primary_fixed_beta": "beta=0 best; any beta != 0 worse"
+  },
+  {
+   "id": "D5",
+   "family": "zero-parameter APL recruitment metric L(y) = diag(d) + rho (s/s0) v v^T",
+   "curved": true,
+   "primary": "0.03698 vs 0.03680 (worse)"
+  },
+  {
+   "id": "D6",
+   "family": "Bergmann-significance mask divisive force map (calyx, gamma, beta', alpha')",
+   "curved": "not a symmetric metric",
+   "primary_fixed_beta": "best 0.036329 at beta=0.05, MAE worse"
+  },
+  {
+   "id": "D7",
+   "family": "dendritic/axonal two-compartment divisive force map",
+   "curved": "not a symmetric metric",
+   "primary_fixed_grid": "best 0.035012"
+  },
+  {
+   "id": "D8",
+   "family": "symmetric two-compartment metric S(y) G0 S(y), beta_c and beta_l nested",
+   "curved": true,
+   "primary_fixed_grid": "best 0.034704",
+   "primary_nested": "0.03656939 (worse than baseline; lobe beta unstable across folds)",
+   "file": "results_development_attempt_D8.json"
+  },
+  {
+   "id": "D9",
+   "family": "calyx-compartment symmetric metric (this contract)",
+   "curved": true,
+   "primary_nested": "0.03504374, MAE 0.02451719",
+   "file": "results_development_v1.json"
+  }
+ ],
+ "development_nested_primary": {
+  "D8_two_parameter": {
+   "published_constant_spd": 0.036359663786290755,
+   "affine_x": 0.043255788587912354,
+   "affine_phi": 0.042426399110864765,
+   "curved_apl_metric": 0.03656938949948236,
+   "flat_input_metric": 0.037572170044610984,
+   "flat_exponent_force": 0.03623034419503825
+  },
+  "D9_calyx": {
+   "published_constant_spd": 0.036359663786290755,
+   "affine_x": 0.043255788587912354,
+   "affine_phi": 0.042426399110864765,
+   "curved_apl_metric": 0.035043744103708106,
+   "flat_input_metric": 0.03527816420049722,
+   "flat_exponent_force": 0.03564925121741058
+  }
+ },
+ "confirmation_v1": {
+  "leave1": {
+   "published_constant_spd": {
+    "rmse": 0.036359663786290755,
+    "mae": 0.025777398623320884
+   },
+   "affine_x": {
+    "rmse": 0.043255788587912354,
+    "mae": 0.031484940216627004
+   },
+   "affine_phi": {
+    "rmse": 0.042426399110864765,
+    "mae": 0.03036722248602201
+   },
+   "curved_apl_metric": {
+    "rmse": 0.035043744103708106,
+    "mae": 0.02451719372498031
+   },
+   "flat_input_metric": {
+    "rmse": 0.03527816420049722,
+    "mae": 0.024583051376647763
+   },
+   "flat_exponent_force": {
+    "rmse": 0.03564925121741058,
+    "mae": 0.025151925462716343
+   }
+  },
+  "leave2": {
+   "published_constant_spd": {
+    "rmse": 0.039622611561290225,
+    "mae": 0.028031014913385686
+   },
+   "affine_x": {
+    "rmse": 0.04615604041243146,
+    "mae": 0.03352927488330157
+   },
+   "affine_phi": {
+    "rmse": 0.045461105652455557,
+    "mae": 0.03277088386015058
+   },
+   "curved_apl_metric": {
+    "rmse": 0.03880151880306787,
+    "mae": 0.027326536510066304
+   },
+   "flat_input_metric": {
+    "rmse": 0.03920680141961977,
+    "mae": 0.027706854406580474
+   },
+   "flat_exponent_force": {
+    "rmse": 0.03990920292291826,
+    "mae": 0.028292174183199834
+   }
+  },
+  "slot0": {
+   "published_constant_spd": {
+    "rmse": 0.06419528524610801,
+    "mae": 0.05078381976709205
+   },
+   "affine_x": {
+    "rmse": 0.06977047932953216,
+    "mae": 0.056565585618801574
+   },
+   "affine_phi": {
+    "rmse": 0.06724281696221128,
+    "mae": 0.054849392376781714
+   },
+   "curved_apl_metric": {
+    "rmse": 0.06406430331498586,
+    "mae": 0.05023267692482798
+   },
+   "flat_input_metric": {
+    "rmse": 0.06441610516631964,
+    "mae": 0.050553628452166176
+   },
+   "flat_exponent_force": {
+    "rmse": 0.08560362406744372,
+    "mae": 0.06136953599413387
+   }
+  },
+  "slot1": {
+   "published_constant_spd": {
+    "rmse": 0.07450863257289615,
+    "mae": 0.05940027010233869
+   },
+   "affine_x": {
+    "rmse": 0.07857923998150786,
+    "mae": 0.06172278748792504
+   },
+   "affine_phi": {
+    "rmse": 0.07800687126824975,
+    "mae": 0.06265833419916675
+   },
+   "curved_apl_metric": {
+    "rmse": 0.07533587160328178,
+    "mae": 0.059891836965011734
+   },
+   "flat_input_metric": {
+    "rmse": 0.07599837405938059,
+    "mae": 0.060321320065950534
+   },
+   "flat_exponent_force": {
+    "rmse": 0.07421667566611019,
+    "mae": 0.05794637758827339
+   }
+  },
+  "fresh32": {
+   "published_constant_spd": {
+    "rmse": 0.12141755083555415,
+    "mae": 0.08880982931215906,
+    "rmse_improved_vs_reimplemented_baseline": 0,
+    "sign_test_p_one_sided": 1.0
+   },
+   "affine_x": {
+    "rmse": 0.12459257157217837,
+    "mae": 0.09044624152842472,
+    "rmse_improved_vs_reimplemented_baseline": 12,
+    "sign_test_p_one_sided": 0.9449079174082726
+   },
+   "affine_phi": {
+    "rmse": 0.12251783618314871,
+    "mae": 0.08954920825420437,
+    "rmse_improved_vs_reimplemented_baseline": 11,
+    "sign_test_p_one_sided": 0.9749487701337785
+   },
+   "curved_apl_metric": {
+    "rmse": 0.12065380945701043,
+    "mae": 0.08807235143710032,
+    "rmse_improved_vs_reimplemented_baseline": 21,
+    "sign_test_p_one_sided": 0.055092082591727376
+   },
+   "flat_input_metric": {
+    "rmse": 0.12070619819007053,
+    "mae": 0.08813676636645065,
+    "rmse_improved_vs_reimplemented_baseline": 21,
+    "sign_test_p_one_sided": 0.055092082591727376
+   },
+   "flat_exponent_force": {
+    "rmse": 0.12413429161596341,
+    "mae": 0.09057172440323018,
+    "rmse_improved_vs_reimplemented_baseline": 9,
+    "sign_test_p_one_sided": 0.99649981665425
+   }
+  }
+ },
+ "criteria_v1": {
+  "1_primary_below_baseline": true,
+  "2_other_panels_not_worse": {
+   "leave2": true,
+   "slot0": true,
+   "slot1": false
+  },
+  "3_fresh32": {
+   "aggregate_below": true,
+   "majority_improved": true,
+   "sign_test_p_one_sided": 0.055092082591727376
+  },
+  "4_curvature_contributes": {
+   "beats_beta0_constant_metric": true,
+   "beats_best_equal_parameter_flat_counterpart": true,
+   "beats_frozen_metric_ablation": true
+  },
+  "5_biology": {
+   "beta_calyx_in_literature_range": true
+  },
+  "verdict": "NOT WIN"
+ },
+ "verdict": "NOT WIN",
+ "post_confirmation_revisions": "none; any revision would be tuned on opened panels"
+}
