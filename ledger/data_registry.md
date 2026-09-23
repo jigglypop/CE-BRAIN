@@ -699,3 +699,13 @@ A1 22단계에서 17–21단계를 제3 개체로 판별하는 데 쓴다. 원�
 | (압축 해제) `exported-traced-adjacencies-v1.2/traced-roi-connections.csv` | 126,023,187 | sha256 `d4f4ecaa…fe12` |
 
 잘리지 않은 traced 뉴런의 쌍별 연결표와 유형·인스턴스, 몸체별 NT 예측이다. 6.2 GB neo4j 입력과 시냅스 좌표표는 받지 않았다.
+
+## FlyWire Codex 783 시각엽 기둥 배정 (2026-09-24, 상시 승인)
+
+| 파일 | 출처 | 크기 | 검증 |
+|---|---|---:|---|
+| `data/external/flywire_783/codex/column_assignment.csv.gz` | `gs://flywire-data/codex/data/fafb/783/` (Matsliah et al. 2024) | 462,838 | 서버 md5 일치, sha256 `bdf4ce7f…f0f6` |
+
+- 열: root_id, hemisphere, type, column_id, x, y, p, q. 셀 45,528개, 양쪽 반구.
+- 좌표 관계는 y = p + q, x = ⌊(q − p)/2⌋다(축 좌표 60°).
+- 용도는 A1 29단계(T4/T5 이동 연산자 재현)다.
