@@ -638,3 +638,64 @@ CE-BRAIN 게시본(`research/ce_brain_publication_20260919/`)은 이 CSV의 해�
 SHA-256·크기·Git blob이 게시본 `source_manifest.json`과 모두 일치했다. 유효값 1,540개,
 완전한 7조건 벡터 220개, 음수 39개이며 42개 게시 목표 평균을 오차 0으로 재현했다.
 저자 가공 칼슘 평균이며 새 동물·원시 영상·스파이크 자료가 아니다.
+
+## MaleCNS 뉴런 수준 그래프 캐시 (2026-09-23)
+
+자료 ID `malecns-analysis`, 판본 `neuron-graph-v1`. 보유 MaleCNS v1.0 `edges.feather`·`annotations.feather`에서
+만든 파생물이며 새 다운로드는 없다. 주석 non-Glia body 199,713개를 노드로, 노드 사이 접촉 26,013,498쌍
+(125,334,312 시냅스)을 out-CSR로, 그 밖의 분절과의 접촉은 노드별 경계 합으로 보존한다.
+
+| 항목 | 값 |
+|---|---|
+| 캐시 | `data/local/malecns-analysis/neuron-graph-v1/neuron_graph.npz` (220,801,350 bytes) |
+| 결과·계산기 | `verify/MaleCNS/neuron_graph_result.json`, `verify/MaleCNS/neuron_graph.py`, `tests/test_malecns_neuron_graph.py` |
+| 교차검증 | whole-structure-v1 총량·범주별 흐름, `malecns-full`·`malecns-neurons166k` CSR의 dyad·시냅스 전량, 서버 md5가 맞는 공식 traced-only 표 25,563,197행 전량 — 모두 일치(PASS) |
+| 시간 | build 43 s(1회), `check`/`load` 약 1–1.6 s |
+
+기존 두 CSR의 연결·시냅스 수는 원자료와 정확히 같다. 부호 열은 발신 뉴런별로 일관되지만 NT 신뢰도
+규칙은 이 검사로 검증하지 않았다. 접촉 수이며 활동·부호·지연·가소성·계량이 아니다.
+
+## MaleCNS 뉴런×ROI 시냅스 캐시 (2026-09-23)
+
+자료 ID `malecns-analysis`, 판본 `neuron-roi-v1`. 보유 `syn-partners-male-cns-v1.0-minconf-0.5.feather`(6.8 GB, 크기만 manifest와 대조)와
+`neuron-graph-v1`에서 만든 파생물이며 새 다운로드는 없다. 뉴런 쌍 × 수신 쪽 `primary_post` ROI별 시냅스 수 29,898,768칸이다.
+시냅스 행 311,833,243개가 연결표 weight 합과 같고, 26,013,498개 뉴런 쌍 각각의 ROI 합이 `neuron-graph-v1` weight와 정확히 같다(PASS).
+build 23 s, 세포유형×ROI 조회 약 0.6 s. 캐시 `data/local/malecns-analysis/neuron-roi-v1/neuron_roi.npz`,
+계산기 `verify/MaleCNS/neuron_roi.py`, 결과 `verify/MaleCNS/neuron_roi_result.json`, 테스트 `tests/test_malecns_neuron_roi.py`.
+
+## 종간 비교용 커넥톰 (2026-09-23, 사용자 승인 다운로드)
+
+A1 14단계(뇌→몸 잠재 통로와 MB 확장·압축의 종간 비교)를 위해 처음 받았다. 둘 다 원장에 없었다.
+
+| 자료 ID | 판본 | 파일 | 크기 | SHA-256 |
+|---|---|---|---:|---|
+| `winding-2023-larva` | `brain-networks/larval-drosophila-connectome@15e065f5` (Winding et al. 2023 Science Data S1 미러) | `data/external/winding_2023_larva/Supplementary-Data-S1.zip` | 1,107,380 | `8c1f4380…72a4c` |
+| `cook-2019-celegans` | WormWiring SI 5 보정판 (Last-Modified 2020-07-09) | `data/external/cook_2019_celegans/SI 5 Connectome adjacency matrices, corrected July 2020.xlsx` | 4,188,190 | `1f4fdbf8…0c9` |
+| `cook-2019-celegans` | WormWiring SI 6 | `data/external/cook_2019_celegans/SI 6 Cell class lists.xlsx` | 11,454 | `6a9d4d5f…5bc` |
+
+유충 자료는 뇌와 SEZ만 포함하고 VNC는 없다. 선충은 성체 자웅동체의 화학 시냅스 행렬을 쓴다(간극 연접은 보고용).
+
+## FlyWire 783 (2026-09-23, 사용자 승인 다운로드)
+
+A1 15단계(다른 개체에서 MaleCNS 발견 재현)용이다. 원장에 없었다.
+
+| 파일 | 출처 | 크기 | 검증 |
+|---|---|---:|---|
+| `data/external/flywire_783/proofread_connections_783.feather` | Zenodo 10676866 v783.0 | 852,022,274 | 서버 md5 `f48f972d…396b8a` 일치, sha256 `24f960ae…3faf` |
+| `data/external/flywire_783/Supplemental_file1_neuron_annotations.tsv` | `flyconnectome/flywire_annotations@8587524c` | 31,718,505 | sha256 `9a4f8b2f…d1be` |
+
+뉴런 쌍×neuropil 연결표와 뉴런 주석이다. 9.5 GB 시냅스별 파일은 받지 않았다.
+
+## hemibrain v1.2 (2026-09-24, 사용자 승인 다운로드)
+
+A1 22단계에서 17–21단계를 제3 개체로 판별하는 데 쓴다. 원장에 없었다. 출처는 Janelia 공개 버킷 `gs://hemibrain/v1.2/`이다.
+
+| 파일 | 크기 | 검증 |
+|---|---:|---|
+| `data/external/hemibrain_v1_2/exported-traced-adjacencies-v1.2.tar.gz` | 45,872,577 | 서버 md5 일치, sha256 `07d8946e…5cf7` |
+| `data/external/hemibrain_v1_2/hemibrain-v1.2-body-mean-neurotransmitters.feather` | 45,591,786 | 서버 md5 일치, sha256 `aab49d85…59ad` |
+| (압축 해제) `exported-traced-adjacencies-v1.2/traced-neurons.csv` | 582,598 | sha256 `d07c1cac…c825` |
+| (압축 해제) `exported-traced-adjacencies-v1.2/traced-total-connections.csv` | 82,191,321 | sha256 `1b954eb5…742e` |
+| (압축 해제) `exported-traced-adjacencies-v1.2/traced-roi-connections.csv` | 126,023,187 | sha256 `d4f4ecaa…fe12` |
+
+잘리지 않은 traced 뉴런의 쌍별 연결표와 유형·인스턴스, 몸체별 NT 예측이다. 6.2 GB neo4j 입력과 시냅스 좌표표는 받지 않았다.

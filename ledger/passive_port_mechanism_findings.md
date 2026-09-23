@@ -177,7 +177,38 @@ $-1.20\times10^{-5}$, $-0.004567$ mV/pA다. 특히 큰 전체 개선을 만든 2
 | 비교 `predictions.npz` | `c08726c8caac671226b8090fa417f9f2aeadd5274500847398f3308dba1c05db` |
 | `independent_summary.json` | `4c33a6ec439ee4f1715e7e4ab3504fbedc86b31c3252503703f19079cc59b7b9` |
 
-## 5. 전체 목표의 남은 연결
+## 5. 장비의 관측식과 포트 역수의 조건
+
+[MultiClamp 700B 매뉴얼](https://neurophysics.ucsd.edu/Manuals/Axon%20Instruments/MultiClamp_700B.pdf)의
+Bridge Balance 절은 IC에서 전극 뒤 전압 $V_p$로부터 설정한 $R_bI$를 빼는 회로를
+설명한다. [고정 NWB parser](../verify/Q-NPF-04/allen_synphys/qc_sources/miesnwb_pinned.py)의
+`MiesTSeries.data`는 IC primary 값을 V로 환산하며 bridge를 다시 빼지 않는다.
+`MiesRecording`은 bridge 값을 별도 메타데이터로 보존한다. 이번 분석도 저장 AD 전압에
+bridge를 사후 적용하지 않고, 예측 쪽에만 $Z-R_b$를 사용한다.
+
+매뉴얼에는 입력 명령이 합산된 뒤 선택한 command filter를 거치는 과정과 출력 필터가
+구분돼 있다. 다음 식은 동일한 선형 포트와 feedforward bridge를 가정했을 때 필요한
+관측 연산자의 일반형이다. $H_c,H_o$는 각각 VC 입력·출력 전달함수,
+$J_c,J_o$는 IC 입력·출력 전달함수다. 장치 대역·필터가 독립 보정되지 않으면
+
+$$
+\widetilde Y_{\rm VC}=H_oY_{\rm port}H_c,\qquad
+\widetilde Z_{\rm IC}=J_o(Y_{\rm port}^{-1}-R_b)J_c
+$$
+
+이므로 일반적으로 $\widetilde Z_{\rm IC}\ne\widetilde Y_{\rm VC}^{-1}-R_b$다.
+예를 들어 $R_b=0$, 두 모드의 같은 출력 필터 $H_o=J_o=H$, 입력 필터가 1이면
+두 관측 전달함수의 곱은 1이 아니라 $H^2$다. 기록된 출력의 역수를 그대로 실제
+포트의 역수로 해석하면 이 차이가 숨는다. 실제 IC의 중화 보정과 작동점까지 다르면
+두 모드가 같은 $Y_{\rm port}$를 공유한다는 가정부터 검증해야 한다.
+
+이는 잔차 전체가 장치 때문이라는 결론이 아니다. 특히 늦은 회복 오차를 빠른 필터로
+설명했다고 주장하지 않는다. 필요한 입력·출력 대응을 생리 기전과 함께 식별하기 위한 식이다.
+현재 `Neut Cap Value`의 음수값은 [MIES 필드 정의](https://alleninstitute.github.io/MIES/labnotebook-descriptions.html)에
+부호 의미가 명시돼 있지 않다. 매뉴얼의 negative-capacitance 회로 명칭을 근거로
+그 값을 물리적 음의 정전용량이나 정확한 보정량으로 대입하지 않는다.
+
+## 6. 전체 목표의 남은 연결
 
 | 필요한 연결 | 현재 근거 | 완료에 필요한 증거 |
 |---|---|---|
