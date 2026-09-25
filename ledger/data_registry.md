@@ -709,3 +709,121 @@ A1 22단계에서 17–21단계를 제3 개체로 판별하는 데 쓴다. 원�
 - 열: root_id, hemisphere, type, column_id, x, y, p, q. 셀 45,528개, 양쪽 반구.
 - 좌표 관계는 y = p + q, x = ⌊(q − p)/2⌋다(축 좌표 60°).
 - 용도는 A1 29단계(T4/T5 이동 연산자 재현)다.
+
+## Vafidis 2022 LearnPI 코드·학습된 망 (2026-09-24, 상시 승인)
+
+학습 항(ġ) 검사용 문헌 식이다. Vafidis et al. 2022, eLife 11:e69841 원 코드다. 원 코드와 학습 완료 가중치로 어둠 속 적분 이득 1.032를 재현했다(저자 저장값 1.035).
+
+| 파일 | 출처 | 크기 | sha256 |
+|---|---|---:|---|
+| `data/external/vafidis_2022_learnpi/EB_synapses.py` | GitHub @c6e354f8 | 5,634 | `ad359a70…6d00` |
+| `data/external/vafidis_2022_learnpi/fly_rec.py` | GitHub @c6e354f8 | 11,709 | `0b1aa470…914e` |
+| `data/external/vafidis_2022_learnpi/fly_rec2Enoughv02inh1rot15NoClipOUsigma225tau05NoBoundx1k1b25s015exc4N60InitNoAnneal05.npz` | gin | 5,867,486 | `2a7ed94c…4aba` |
+| `data/external/vafidis_2022_learnpi/LICENSE` | GitHub @c6e354f8 | 1,073 | `79a7f966…fdfc` |
+| `data/external/vafidis_2022_learnpi/math_appendix.py` | GitHub @c6e354f8 | 19,725 | `4c2a7d4c…ed94` |
+| `data/external/vafidis_2022_learnpi/README.md` | GitHub @c6e354f8 | 338 | `1b92abd6…7cf3` |
+| `data/external/vafidis_2022_learnpi/run_simulation.py` | GitHub @c6e354f8 | 3,447 | `a6c0435c…6be6` |
+| `data/external/vafidis_2022_learnpi/stability.py` | GitHub @c6e354f8 | 8,383 | `5c511521…782c` |
+| `data/external/vafidis_2022_learnpi/utilities.py` | GitHub @c6e354f8 | 9,027 | `8ff612aa…64af` |
+
+## Kim 2017 고리 끌개 생리 분석 코드 (2026-09-25, 상시 승인)
+
+Kim et al. 2017 Science의 생리 자료 분석 코드(MATLAB)다. 도약·흐름 분류, 광유전 문턱 절차를 A1 선택 검사(37–42단계)의 절차 기준으로 쓴다. 모형 코드는 github.com/hrouault/RingAttractor에 있으며 받지 않았다. 가공 자료(2–7 GB)와 원자료(44–138 GB)도 받지 않았다.
+
+| 파일 | 출처 | 크기 | sha256 |
+|---|---|---:|---|
+| `data/external/kim_2017_ring_attractor/ringattractor.zip` | figshare 9847369 | 748,696 | `712382f1…aec1` |
+
+## Kim 2019 ModelDB 261585 모형 코드 (2026-09-25, 상시 승인)
+
+Kim et al. 2019 Nature 576:126의 모형이다. 고리 뉴런→EPG 가소성, 곧 시각 장면을 나침반에 사상하는 학습이다. A1 43단계(학습 항) 검사용이다. 압축을 풀어 쓴 파일의 해시도 적는다.
+
+| 파일 | 출처 | 크기 | sha256 |
+|---|---|---:|---|
+| `data/external/kim_2019_modeldb_261585/repo.zip` | GitHub @85711ed8 | 815,156 | `109047c9…dd08` |
+| `data/external/kim_2019_modeldb_261585/261585-85711ed886eaa6ae377e555b74b9e6322ad6684c/pos_data.mat` | GitHub @85711ed8 | 1,071,434 | `2482724f…0726` |
+| `data/external/kim_2019_modeldb_261585/261585-85711ed886eaa6ae377e555b74b9e6322ad6684c/RingAttractorODESolver.m` | GitHub @85711ed8 | 6,552 | `00d4df38…74fe` |
+| `data/external/kim_2019_modeldb_261585/261585-85711ed886eaa6ae377e555b74b9e6322ad6684c/main_config.m` | GitHub @85711ed8 | 5,706 | `3ea4f667…3fb5` |
+| `data/external/kim_2019_modeldb_261585/261585-85711ed886eaa6ae377e555b74b9e6322ad6684c/param_Ring_Attractor.m` | GitHub @85711ed8 | 1,106 | `4a490608…37da` |
+| `data/external/kim_2019_modeldb_261585/261585-85711ed886eaa6ae377e555b74b9e6322ad6684c/param_Ring_Attractor_check.m` | GitHub @85711ed8 | 2,265 | `81cbb501…5614` |
+| `data/external/kim_2019_modeldb_261585/261585-85711ed886eaa6ae377e555b74b9e6322ad6684c/param_Plasticity.m` | GitHub @85711ed8 | 728 | `8d8002bc…bd03` |
+| `data/external/kim_2019_modeldb_261585/261585-85711ed886eaa6ae377e555b74b9e6322ad6684c/param_Inputs.m` | GitHub @85711ed8 | 1,279 | `2750e1d6…6322` |
+| `data/external/kim_2019_modeldb_261585/261585-85711ed886eaa6ae377e555b74b9e6322ad6684c/sim_cond.m` | GitHub @85711ed8 | 15,509 | `442fa8f8…2c45` |
+| `data/external/kim_2019_modeldb_261585/261585-85711ed886eaa6ae377e555b74b9e6322ad6684c/complex_scene_sample.mat` | GitHub @85711ed8 | 465 | `432afd2a…2f3f` |
+
+## Noorman 2024 논문·분석 코드 (2026-09-25, 상시 승인)
+
+Noorman et al. 2024 Nat Neurosci 27:2207(doi 10.1038/s41593-024-01766-5)이다. 어둠에서 서 있는 구간(0.3–2초)의 범프 표류, 파리별 Watson U² p, 모형 τ = 0.1초를 A1 52단계(뉴런 수준 우물이 실측에서 보였어야 하는가)의 생물 기준으로 쓴다.
+
+- 논문 PDF는 공개 논문의 독일 국립도서관(DNB) 보관본이다.
+- 코드는 저자 Zenodo 판본(CC-BY-4.0)이며 md5 `ec51adee…6ce9`로 확인했다. 표류 분석과 U² 검정을 그대로 옮기는 데 쓴다.
+
+| 파일 | 출처 | 크기 | sha256 |
+|---|---|---:|---|
+| `data/external/noorman_2024_natneuro/noorman_2024_natneuro.pdf` | d-nb.info/1354208005/34 | 11,438,982 | `571bba4c…cf3f` |
+| `data/external/noorman_2024_natneuro/DiscreteRingAttractor-v1.0.zip` | Zenodo 12789923 v1.0 | 2,104,182 | `ea8942a9…cfd2` |
+| `data/external/noorman_2024_natneuro/code/HermundstadLab-DiscreteRingAttractor-1d9e83a/plotDriftAnalysisFigs.m` | zip에서 추출 | 11,701 | `b126b77f…e8b5` |
+| `data/external/noorman_2024_natneuro/code/HermundstadLab-DiscreteRingAttractor-1d9e83a/auxFunctions/watsons_u2/watsons_U2.m` | zip에서 추출 | 1,892 | `83e03bbc…2c39` |
+| `data/external/noorman_2024_natneuro/code/HermundstadLab-DiscreteRingAttractor-1d9e83a/auxFunctions/watsons_u2/watsons_U2_perm_test.m` | zip에서 추출 | 1,609 | `5401d205…29bf` |
+
+**받지 못한 자료** (파일을 남기지 않았다):
+
+- **Noorman 파리 원자료.** figshare 10.25378/janelia.26169355, `NoormanEtAlFlyWalkingInDarkness2PBehData.mat`, 172,523,406 바이트, md5 `bd388696…6890`, CC BY-NC 4.0이다. ndownloader가 AWS WAF 자바스크립트 검사(HTTP 202/403)로 막혔다. 사람이 브라우저로 받아 이 폴더에 두면 52단계의 저주파 표류 예측을 파리별로 검사할 수 있다.
+- **Renart, Song & Wang 2003 Neuron 38:473.** 출판사·S3 사본 모두 HTTP 403이었다. Europe PMC에는 초록만 있다. 51단계는 초록과 van Rossum 2000 비례형으로 구현했다.
+
+## Itskov 2011 단기 촉진 논문 (2026-09-25, 상시 승인)
+
+Itskov, Hansel & Tsodyks 2011 Front Comput Neurosci 5:40(doi 10.3389/fncom.2011.00040, 공개)이다. 불균질이 만드는 범프 표류를 단기 촉진(Mongillo 2008 형식, U = 0.05, t_f = 1 s)이 늦춘다는 모형이다. Noorman 2024가 항상성과 함께 인용한 후보이며, A1 뉴런 수준 간격(50–54단계)의 다음 후보 기전이다.
+
+| 파일 | 출처 | 크기 | sha256 |
+|---|---|---:|---|
+| `data/external/itskov_2011_fncom/PMC3199447.xml` | Europe PMC 전문 XML | 394,017 | `a4ffd64b…095e` |
+
+## Raccuglia 2025 수면 필터 논문 (2026-09-25, 상시 승인)
+
+Raccuglia et al. 2025 Nature(doi 10.1038/s41586-025-09376-2, 공개)다.
+- 수면 압력 R5와 helicon(ExR1)의 느린 파 동조가 나침반 EPG를 조절한다.
+- R5는 EPG를 과분극시키고 helicon은 탈분극시킨다. helicon을 켜면 파리가 깬다.
+- A1 나침반 루프의 수면·각성 질문에 기준으로 쓴다.
+
+| 파일 | 출처 | 크기 | sha256 |
+|---|---|---:|---|
+| `data/external/sleep_literature_20260925/PMC12527942.xml` | Europe PMC 전문 XML | 207,569 | `85dd3d6c…1868` |
+
+## DANDI 000939 생쥐 후구 피질 HD 세포 — 범위 읽기 추출 (2026-09-25, 상시 승인)
+
+DANDI 000939 판본 0.260512.1701의 NWB 31개(생쥐 31마리, 원본 합계 약 731 GB)에서 필요한 부분만 HTTP 범위 읽기로 뽑았다.
+- 뽑은 필드: units(스파이크 시각, 저자의 HD·흥분·빠른발화 표지), intervals(sleep_states, epochs), CompassDirection(머리방향).
+- 원본 파일 전체는 받지 않았다.
+- 추출 코드: `research/ce_brain_a1_loop_20260923/step56_mouse_sleep_ring/extract_000939.py`, sha256 `fef98c19…0050`.
+- 세션별 자산 ID·원본 크기·npz 해시는 `manifest.json`과 JSONL 원장에 있다.
+- 용도: A1 56단계. 잠에서도 고리가 살아 있는가, 깰 때 무엇이 먼저 켜지는가.
+
+| 파일 | 출처 | 크기 | sha256 |
+|---|---|---:|---|
+| `data/external/dandi_000939_extract/*.npz` (31개) | DANDI 000939 범위 읽기 | 합계 929,425,178 | 파일별 JSONL 참조 |
+| `data/external/dandi_000939_extract/manifest.json` | 추출 코드가 생성 | — | `53f76659…` |
+
+## 시상 IFB 모형 매개변수 논문 (2026-09-25, 상시 승인)
+
+Elijah, Samengo & Montemurro 2015 Front Comput Neurosci(공개)다. 시상 중계의 발화-또는-버스트(IFB) 모형과 Smith 외 2000(J Neurophysiol 83:588, 원문은 403) 매개변수를 그대로 옮겨 적었다.
+- C 2 µF/cm², gL 0.035, EL −65 mV, gT 0.07, ET 120 mV.
+- Vθ −35 mV, Vh −60 mV, Vreset −50 mV.
+- τh⁻ 20 ms, τh⁺ 100 ms.
+- A1 수면 단계(시상 긴장성/버스트 방식)의 기준으로 쓴다.
+- PMC6301066(Nat Neurosci 2019)은 Europe PMC가 500 오류를 돌려주어 받지 못했다. 오류 파일은 지웠다.
+
+| 파일 | 출처 | 크기 | sha256 |
+|---|---|---:|---|
+| `data/external/ifb_thalamus_literature/PMC4585143.xml` | Europe PMC 전문 XML | 219,629 | `af3ec34b…7447` |
+
+## 단기 시냅스 가소성(작업 기억) 매개변수 논문 (2026-09-25, 상시 승인)
+
+Taher, Torcini & Olmi 2020(arXiv 2010.07071, 공개)이다. Mongillo, Barak & Tsodyks 2008 Science 319:1543의 단기 가소성 식과 값을 그대로 쓴다.
+- 식: dx/dt = (1−x)/τd − u·x·r, du/dt = (U0−u)/τf + U0(1−u)·r.
+- 값: U0 0.2, τd 200 ms, τf 1,500 ms.
+- 용도: A1 61단계(논렘 다운 상태를 건너는 활동 없는 흔적)의 기준.
+
+| 파일 | 출처 | 크기 | sha256 |
+|---|---|---:|---|
+| `data/external/stp_working_memory_literature/arxiv_2010.07071.pdf` | arXiv | 10,453,265 | `1fbfd879…84ef` |
