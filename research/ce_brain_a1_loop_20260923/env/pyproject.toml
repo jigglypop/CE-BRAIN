@@ -1,0 +1,19 @@
+[project]
+name = "ce-brain-a1-env"
+version = "0.1.0"
+description = "Pinned research environment for the CE-BRAIN A1 loop (simulations, connectome and NWB analysis)"
+requires-python = "==3.11.*"
+dependencies = [
+    "numpy",
+    "scipy",
+    "numba",
+    "pyarrow",
+    "pandas",
+    "h5py",
+    "remfile",
+    "pypdf",
+    "websocket-client",
+]
+
+[tool.uv]
+package = false

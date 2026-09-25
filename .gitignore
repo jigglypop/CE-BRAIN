@@ -177,3 +177,6 @@ dist/
 htmlcov/
 *.profraw
 *.profdata
+
+# CE-BRAIN research environments (pinned by env/uv.lock; the venv itself is local)
+research/**/.venv/

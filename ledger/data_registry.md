@@ -827,3 +827,16 @@ Taher, Torcini & Olmi 2020(arXiv 2010.07071, 공개)이다. Mongillo, Barak & Ts
 | 파일 | 출처 | 크기 | sha256 |
 |---|---|---:|---|
 | `data/external/stp_working_memory_literature/arxiv_2010.07071.pdf` | arXiv | 10,453,265 | `1fbfd879…84ef` |
+
+## 시상 머리방향 세포 발화율 논문 (2026-09-26, 상시 승인)
+
+Taube 1995 J Neurosci 15:70(공개 PDF, PMC6578288)다. 쥐 전측 시상 머리방향 세포 37개를 기록했다. 표 1의 값은 다음과 같다.
+- 배경 발화율 1.99 ± 0.35 Hz(0.04–13.24).
+- 관측 최고 발화율 41.08 ± 4.40 Hz(7.79–118.06).
+- 방향 발화 범위 96.24 ± 3.25°.
+
+64단계 H9(IFB 시상 중계)의 긴장성 전류를 이 값에 맞춘다. Europe PMC 전문 XML은 없었다(스캔본). PubMed 쪽은 reCAPTCHA에 막혔다.
+
+| 파일 | 출처 | 크기 | sha256 |
+|---|---|---:|---|
+| `data/external/taube_1995_jneurosci/taube1995_jneurosci_15_70.pdf` | J Neurosci 출판사 PDF | 3,730,067 | `9a3a3f2c…5fd5` |
