@@ -1,0 +1,1022 @@
+{
+ "schema": "ce-a1-step27-sigmoid-universal",
+ "code_sha256": "3291312e1a81ae28662c176e29915c80f19ac013423e207673d3ba579e6efeba",
+ "U1_common_operating_point": true,
+ "common_points": [
+  [
+   -1.0,
+   1.5
+  ]
+ ],
+ "U2_width_invariant": false,
+ "U3_linear_integration": false,
+ "verdict": "UNIVERSAL_WIDTH_ONLY",
+ "per_dataset_literature_points": {
+  "malecns": [
+   [
+    -1.0,
+    1.05
+   ],
+   [
+    -1.0,
+    1.2
+   ],
+   [
+    -1.0,
+    1.5
+   ],
+   [
+    -1.0,
+    2.0
+   ],
+   [
+    -1.0,
+    3.0
+   ],
+   [
+    -1.0,
+    4.0
+   ]
+  ],
+  "flywire": [
+   [
+    -1.0,
+    1.5
+   ]
+  ],
+  "hemibrain": [
+   [
+    -1.0,
+    1.5
+   ],
+   [
+    -1.0,
+    4.0
+   ]
+  ]
+ },
+ "datasets": {
+  "malecns": {
+   "basis": "E1_labels",
+   "lambda1_raw": 579.24927919194,
+   "table": [
+    {
+     "fwhm": 37.0,
+     "peaks": 1,
+     "contrast": 0.9999909155110869,
+     "drift_deg": 0.006750233001124052,
+     "velocity": -7.039284125211084e-07,
+     "persistent": true,
+     "b": -3.0,
+     "g": 1.05,
+     "in_literature": false
+    },
+    {
+     "fwhm": 37.25,
+     "peaks": 1,
+     "contrast": 0.9999982377236326,
+     "drift_deg": 0.0027684664233223336,
+     "velocity": -1.567143363558806e-07,
+     "persistent": true,
+     "b": -3.0,
+     "g": 1.2,
+     "in_literature": false
+    },
+    {
+     "fwhm": 35.75,
+     "peaks": 1,
+     "contrast": 0.999999915082384,
+     "drift_deg": 0.0013179181812947526,
+     "velocity": 6.997103950142162e-08,
+     "persistent": true,
+     "b": -3.0,
+     "g": 1.5,
+     "in_literature": false
+    },
+    {
+     "fwhm": 41.75,
+     "peaks": 1,
+     "contrast": 0.9999999997002442,
+     "drift_deg": 1.2266433567364663e-06,
+     "velocity": 8.709304549075632e-11,
+     "persistent": true,
+     "b": -3.0,
+     "g": 2.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 45.0,
+     "peaks": 1,
+     "contrast": 0.9999999999999999,
+     "drift_deg": 0.004761680599960394,
+     "velocity": -4.90267784593443e-07,
+     "persistent": true,
+     "b": -3.0,
+     "g": 3.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 43.25,
+     "peaks": 1,
+     "contrast": 1.0,
+     "drift_deg": 0.0016954952033412772,
+     "velocity": 5.0136919915322654e-08,
+     "persistent": true,
+     "b": -3.0,
+     "g": 4.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 48.0,
+     "peaks": 1,
+     "contrast": 0.9932854373372058,
+     "drift_deg": 0.013575327864922727,
+     "velocity": 1.882460204441878e-06,
+     "persistent": true,
+     "b": -2.0,
+     "g": 1.05,
+     "in_literature": false
+    },
+    {
+     "fwhm": 57.75,
+     "peaks": 1,
+     "contrast": 0.9933884075073954,
+     "drift_deg": 0.006485334738301294,
+     "velocity": 6.911297534650607e-07,
+     "persistent": true,
+     "b": -2.0,
+     "g": 1.2,
+     "in_literature": false
+    },
+    {
+     "fwhm": 58.75,
+     "peaks": 1,
+     "contrast": 0.9994702218631915,
+     "drift_deg": 9.504860227269002e-06,
+     "velocity": -6.825587943828056e-10,
+     "persistent": true,
+     "b": -2.0,
+     "g": 1.5,
+     "in_literature": false
+    },
+    {
+     "fwhm": 60.5,
+     "peaks": 1,
+     "contrast": 0.999978656698364,
+     "drift_deg": 1.0902607489815382e-09,
+     "velocity": -6.018201264076231e-14,
+     "persistent": true,
+     "b": -2.0,
+     "g": 2.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 61.5,
+     "peaks": 1,
+     "contrast": 0.9999999340224515,
+     "drift_deg": 8.405858514192814e-05,
+     "velocity": 9.875561770974033e-09,
+     "persistent": true,
+     "b": -2.0,
+     "g": 3.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 60.75,
+     "peaks": 1,
+     "contrast": 0.9999999998213581,
+     "drift_deg": 0.0005330922941551059,
+     "velocity": -5.5475005121977096e-08,
+     "persistent": true,
+     "b": -2.0,
+     "g": 4.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 94.0,
+     "peaks": 1,
+     "contrast": 0.8822683885265554,
+     "drift_deg": 6.813429518048663,
+     "velocity": 0.0009495673445345973,
+     "persistent": true,
+     "b": -1.0,
+     "g": 1.05,
+     "in_literature": true
+    },
+    {
+     "fwhm": 96.25,
+     "peaks": 1,
+     "contrast": 0.9605123001910845,
+     "drift_deg": 3.8861079904663556,
+     "velocity": 0.0004103078472075175,
+     "persistent": true,
+     "b": -1.0,
+     "g": 1.2,
+     "in_literature": true
+    },
+    {
+     "fwhm": 99.5,
+     "peaks": 1,
+     "contrast": 0.9898096792212637,
+     "drift_deg": 4.1528193011752705,
+     "velocity": 0.00036924320778953845,
+     "persistent": true,
+     "b": -1.0,
+     "g": 1.5,
+     "in_literature": true
+    },
+    {
+     "fwhm": 101.0,
+     "peaks": 1,
+     "contrast": 0.998533140541058,
+     "drift_deg": 40.93805572045449,
+     "velocity": 0.007791926240231949,
+     "persistent": true,
+     "b": -1.0,
+     "g": 2.0,
+     "in_literature": true
+    },
+    {
+     "fwhm": 104.75,
+     "peaks": 1,
+     "contrast": 0.9999843637294084,
+     "drift_deg": 0.17045651924635755,
+     "velocity": 2.1332920411302518e-05,
+     "persistent": true,
+     "b": -1.0,
+     "g": 3.0,
+     "in_literature": true
+    },
+    {
+     "fwhm": 108.25,
+     "peaks": 1,
+     "contrast": 0.9999997494399512,
+     "drift_deg": 5.153974294717168,
+     "velocity": 0.0008060543442570067,
+     "persistent": true,
+     "b": -1.0,
+     "g": 4.0,
+     "in_literature": true
+    },
+    {
+     "fwhm": 154.25,
+     "peaks": 1,
+     "contrast": 0.669918728553614,
+     "drift_deg": 16.787384898960937,
+     "velocity": 0.0027761187939647014,
+     "persistent": true,
+     "b": 0.0,
+     "g": 1.05,
+     "in_literature": false
+    },
+    {
+     "fwhm": 167.25,
+     "peaks": 1,
+     "contrast": 0.8761888514733246,
+     "drift_deg": 35.04716675412067,
+     "velocity": 0.006383062587631644,
+     "persistent": true,
+     "b": 0.0,
+     "g": 1.2,
+     "in_literature": false
+    },
+    {
+     "fwhm": 183.75,
+     "peaks": 2,
+     "contrast": 0.9819378085391504,
+     "drift_deg": 0.003925403801177606,
+     "velocity": 4.954385521625289e-07,
+     "persistent": false,
+     "b": 0.0,
+     "g": 1.5,
+     "in_literature": false
+    },
+    {
+     "fwhm": 183.25,
+     "peaks": 2,
+     "contrast": 0.9978003846989075,
+     "drift_deg": 0.0010377430243314909,
+     "velocity": -8.856461736194268e-08,
+     "persistent": false,
+     "b": 0.0,
+     "g": 2.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 182.25,
+     "peaks": 2,
+     "contrast": 0.9999425675900093,
+     "drift_deg": 3.2984193746964972e-06,
+     "velocity": -2.2331335185210608e-10,
+     "persistent": false,
+     "b": 0.0,
+     "g": 3.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 181.75,
+     "peaks": 2,
+     "contrast": 0.9999982523277416,
+     "drift_deg": 0.0003362564957216308,
+     "velocity": 3.5217187067122736e-08,
+     "persistent": false,
+     "b": 0.0,
+     "g": 4.0,
+     "in_literature": false
+    }
+   ]
+  },
+  "flywire": {
+   "basis": "label_free",
+   "lambda1_raw": 212.31245502941917,
+   "table": [
+    {
+     "fwhm": 25.25,
+     "peaks": 1,
+     "contrast": 0.9999819270350956,
+     "drift_deg": 1.6346887615819997e-06,
+     "velocity": 1.0094968321425172e-10,
+     "persistent": true,
+     "b": -3.0,
+     "g": 1.05,
+     "in_literature": false
+    },
+    {
+     "fwhm": 25.25,
+     "peaks": 1,
+     "contrast": 0.9999960434677185,
+     "drift_deg": 0.016694462963618418,
+     "velocity": -3.1897332292916437e-07,
+     "persistent": true,
+     "b": -3.0,
+     "g": 1.2,
+     "in_literature": false
+    },
+    {
+     "fwhm": 48.75,
+     "peaks": 1,
+     "contrast": 0.9999986248935356,
+     "drift_deg": 1.7283392662017187,
+     "velocity": -9.331789066277632e-05,
+     "persistent": true,
+     "b": -3.0,
+     "g": 1.5,
+     "in_literature": false
+    },
+    {
+     "fwhm": 48.25,
+     "peaks": 1,
+     "contrast": 0.9999998627383088,
+     "drift_deg": 1.3864172557906032,
+     "velocity": 9.259396674490034e-06,
+     "persistent": true,
+     "b": -3.0,
+     "g": 2.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 45.25,
+     "peaks": 1,
+     "contrast": 0.999999999999663,
+     "drift_deg": 3.8647136212181534e-08,
+     "velocity": -2.3860058182440264e-12,
+     "persistent": true,
+     "b": -3.0,
+     "g": 3.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 45.75,
+     "peaks": 1,
+     "contrast": 0.9999999999999993,
+     "drift_deg": 0.08701898750057378,
+     "velocity": 5.959937734848825e-05,
+     "persistent": true,
+     "b": -3.0,
+     "g": 4.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 49.75,
+     "peaks": 1,
+     "contrast": 0.9945168126614378,
+     "drift_deg": 6.976177113336238e-08,
+     "velocity": 4.283941725332211e-12,
+     "persistent": true,
+     "b": -2.0,
+     "g": 1.05,
+     "in_literature": false
+    },
+    {
+     "fwhm": 49.25,
+     "peaks": 1,
+     "contrast": 0.9975616545898094,
+     "drift_deg": 3.445941436306705e-08,
+     "velocity": -2.3829629575003147e-12,
+     "persistent": true,
+     "b": -2.0,
+     "g": 1.2,
+     "in_literature": false
+    },
+    {
+     "fwhm": 48.25,
+     "peaks": 1,
+     "contrast": 0.9994917111272498,
+     "drift_deg": 6.036607546552292e-08,
+     "velocity": -4.1925044973518874e-12,
+     "persistent": true,
+     "b": -2.0,
+     "g": 1.5,
+     "in_literature": false
+    },
+    {
+     "fwhm": 47.5,
+     "peaks": 1,
+     "contrast": 0.9999628091206324,
+     "drift_deg": 0.001072086911985724,
+     "velocity": -1.1118955388330135e-07,
+     "persistent": true,
+     "b": -2.0,
+     "g": 2.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 48.0,
+     "peaks": 1,
+     "contrast": 0.9999997106758717,
+     "drift_deg": 3.846111657358193e-06,
+     "velocity": -2.98726316740229e-10,
+     "persistent": true,
+     "b": -2.0,
+     "g": 3.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 48.0,
+     "peaks": 1,
+     "contrast": 0.9999999991279408,
+     "drift_deg": 0.0016547686485308471,
+     "velocity": -5.098254814469308e-08,
+     "persistent": true,
+     "b": -2.0,
+     "g": 4.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 79.5,
+     "peaks": 1,
+     "contrast": 0.9354856594633959,
+     "drift_deg": 0.011493209146640811,
+     "velocity": -8.362587482976242e-07,
+     "persistent": true,
+     "b": -1.0,
+     "g": 1.05,
+     "in_literature": false
+    },
+    {
+     "fwhm": 79.25,
+     "peaks": 1,
+     "contrast": 0.9689919553185659,
+     "drift_deg": 0.0010644026028324993,
+     "velocity": -6.768240189466682e-08,
+     "persistent": true,
+     "b": -1.0,
+     "g": 1.2,
+     "in_literature": false
+    },
+    {
+     "fwhm": 81.75,
+     "peaks": 1,
+     "contrast": 0.9903442107664335,
+     "drift_deg": 0.19958558928938705,
+     "velocity": -1.2110450488020757e-05,
+     "persistent": true,
+     "b": -1.0,
+     "g": 1.5,
+     "in_literature": true
+    },
+    {
+     "fwhm": 115.5,
+     "peaks": 2,
+     "contrast": 0.9988179766552987,
+     "drift_deg": 0.00045159248310925395,
+     "velocity": 3.617408419352524e-08,
+     "persistent": false,
+     "b": -1.0,
+     "g": 2.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 116.25,
+     "peaks": 2,
+     "contrast": 0.9999682922242974,
+     "drift_deg": 0.0021527402382201244,
+     "velocity": 1.2775242289762529e-07,
+     "persistent": false,
+     "b": -1.0,
+     "g": 3.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 116.5,
+     "peaks": 2,
+     "contrast": 0.9999993672425009,
+     "drift_deg": 0.0016604597972204648,
+     "velocity": 1.4274930312767237e-07,
+     "persistent": false,
+     "b": -1.0,
+     "g": 4.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 194.75,
+     "peaks": 2,
+     "contrast": 0.8085836200243687,
+     "drift_deg": 0.01047482796096719,
+     "velocity": 1.1380739434124978e-06,
+     "persistent": false,
+     "b": 0.0,
+     "g": 1.05,
+     "in_literature": false
+    },
+    {
+     "fwhm": 194.0,
+     "peaks": 2,
+     "contrast": 0.931807341574459,
+     "drift_deg": 2.3504480045722605e-05,
+     "velocity": -2.293759489509106e-09,
+     "persistent": false,
+     "b": 0.0,
+     "g": 1.2,
+     "in_literature": false
+    },
+    {
+     "fwhm": 189.25,
+     "peaks": 2,
+     "contrast": 0.9874491858306143,
+     "drift_deg": 0.0027814629241493414,
+     "velocity": -2.6633328182686734e-07,
+     "persistent": false,
+     "b": 0.0,
+     "g": 1.5,
+     "in_literature": false
+    },
+    {
+     "fwhm": 184.5,
+     "peaks": 2,
+     "contrast": 0.9982798720196195,
+     "drift_deg": 0.012070370634387833,
+     "velocity": 1.2920325866626293e-06,
+     "persistent": false,
+     "b": 0.0,
+     "g": 2.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 181.75,
+     "peaks": 2,
+     "contrast": 0.9998845036496282,
+     "drift_deg": 3.01388066604936e-05,
+     "velocity": 3.0701200650367536e-09,
+     "persistent": false,
+     "b": 0.0,
+     "g": 3.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 181.0,
+     "peaks": 2,
+     "contrast": 0.9999909824287554,
+     "drift_deg": 2.488550300553883e-05,
+     "velocity": 2.272333600436475e-09,
+     "persistent": false,
+     "b": 0.0,
+     "g": 4.0,
+     "in_literature": false
+    }
+   ]
+  },
+  "hemibrain": {
+   "basis": "E1_labels",
+   "lambda1_raw": 500.3308477304156,
+   "table": [
+    {
+     "fwhm": 42.0,
+     "peaks": 1,
+     "contrast": 0.9999853636386921,
+     "drift_deg": 6.7449800490969095e-09,
+     "velocity": -3.766143410906788e-13,
+     "persistent": true,
+     "b": -3.0,
+     "g": 1.05,
+     "in_literature": false
+    },
+    {
+     "fwhm": 43.5,
+     "peaks": 1,
+     "contrast": 0.9999985461920509,
+     "drift_deg": 5.8333840968473715e-08,
+     "velocity": 3.987565443098328e-12,
+     "persistent": true,
+     "b": -3.0,
+     "g": 1.2,
+     "in_literature": false
+    },
+    {
+     "fwhm": 43.25,
+     "peaks": 1,
+     "contrast": 0.9999999631755518,
+     "drift_deg": 1.142296213847622e-11,
+     "velocity": 6.052007827288007e-16,
+     "persistent": true,
+     "b": -3.0,
+     "g": 1.5,
+     "in_literature": false
+    },
+    {
+     "fwhm": 43.0,
+     "peaks": 1,
+     "contrast": 0.9999999998888419,
+     "drift_deg": 5.713059339984919e-06,
+     "velocity": 6.454828785220751e-10,
+     "persistent": true,
+     "b": -3.0,
+     "g": 2.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 42.75,
+     "peaks": 1,
+     "contrast": 0.9999999999999986,
+     "drift_deg": 2.3505889373356122e-11,
+     "velocity": 1.6044628136409168e-15,
+     "persistent": true,
+     "b": -3.0,
+     "g": 3.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 42.0,
+     "peaks": 1,
+     "contrast": 1.0,
+     "drift_deg": 1.192940710832088e-07,
+     "velocity": 7.852691426018062e-12,
+     "persistent": true,
+     "b": -3.0,
+     "g": 4.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 66.25,
+     "peaks": 1,
+     "contrast": 0.9815198163924416,
+     "drift_deg": 0.18451539324052216,
+     "velocity": 1.9647838094672055e-05,
+     "persistent": true,
+     "b": -2.0,
+     "g": 1.05,
+     "in_literature": false
+    },
+    {
+     "fwhm": 63.75,
+     "peaks": 1,
+     "contrast": 0.9968478844153913,
+     "drift_deg": 4.697939080852988e-06,
+     "velocity": 3.000000894768437e-10,
+     "persistent": true,
+     "b": -2.0,
+     "g": 1.2,
+     "in_literature": false
+    },
+    {
+     "fwhm": 65.5,
+     "peaks": 1,
+     "contrast": 0.9996296034477935,
+     "drift_deg": 1.2181559177565164e-07,
+     "velocity": 7.319342142517089e-12,
+     "persistent": true,
+     "b": -2.0,
+     "g": 1.5,
+     "in_literature": false
+    },
+    {
+     "fwhm": 66.5,
+     "peaks": 1,
+     "contrast": 0.9999751715242966,
+     "drift_deg": 3.453650075125688e-07,
+     "velocity": 2.327922535217948e-11,
+     "persistent": true,
+     "b": -2.0,
+     "g": 2.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 66.0,
+     "peaks": 1,
+     "contrast": 0.9999997734885148,
+     "drift_deg": 0.0002685955926262402,
+     "velocity": 2.2076580158341637e-08,
+     "persistent": true,
+     "b": -2.0,
+     "g": 3.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 63.5,
+     "peaks": 1,
+     "contrast": 0.9999999979200851,
+     "drift_deg": 0.012068792675430004,
+     "velocity": 1.5549123162497474e-06,
+     "persistent": true,
+     "b": -2.0,
+     "g": 4.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 116.75,
+     "peaks": 1,
+     "contrast": 0.8007111641926468,
+     "drift_deg": 73.56251444189738,
+     "velocity": -0.015901910802532077,
+     "persistent": true,
+     "b": -1.0,
+     "g": 1.05,
+     "in_literature": false
+    },
+    {
+     "fwhm": 115.0,
+     "peaks": 2,
+     "contrast": 0.9591297494958338,
+     "drift_deg": 20.483781494398944,
+     "velocity": -0.002973355750816705,
+     "persistent": false,
+     "b": -1.0,
+     "g": 1.2,
+     "in_literature": false
+    },
+    {
+     "fwhm": 111.5,
+     "peaks": 1,
+     "contrast": 0.983673214175252,
+     "drift_deg": 5.093290908938498,
+     "velocity": -0.0008213914917140523,
+     "persistent": true,
+     "b": -1.0,
+     "g": 1.5,
+     "in_literature": true
+    },
+    {
+     "fwhm": 117.25,
+     "peaks": 2,
+     "contrast": 0.9989359317599045,
+     "drift_deg": 48.74124996030559,
+     "velocity": -0.011945198354124026,
+     "persistent": false,
+     "b": -1.0,
+     "g": 2.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 116.75,
+     "peaks": 2,
+     "contrast": 0.9999688275386711,
+     "drift_deg": 43.09268584786005,
+     "velocity": -0.008595261485171719,
+     "persistent": false,
+     "b": -1.0,
+     "g": 3.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 117.0,
+     "peaks": 1,
+     "contrast": 0.9999964877751278,
+     "drift_deg": 0.01455062710102052,
+     "velocity": -1.992748541895571e-06,
+     "persistent": true,
+     "b": -1.0,
+     "g": 4.0,
+     "in_literature": true
+    },
+    {
+     "fwhm": 171.0,
+     "peaks": 2,
+     "contrast": 0.6004343966274375,
+     "drift_deg": 15.85031749996856,
+     "velocity": 0.0023533911950950476,
+     "persistent": false,
+     "b": 0.0,
+     "g": 1.05,
+     "in_literature": false
+    },
+    {
+     "fwhm": 185.0,
+     "peaks": 1,
+     "contrast": 0.8659849443265405,
+     "drift_deg": 117.25671753588077,
+     "velocity": -0.02389318918062962,
+     "persistent": true,
+     "b": 0.0,
+     "g": 1.2,
+     "in_literature": false
+    },
+    {
+     "fwhm": 185.0,
+     "peaks": 1,
+     "contrast": 0.9751624769491989,
+     "drift_deg": 103.14928532123591,
+     "velocity": -0.020570288655210652,
+     "persistent": true,
+     "b": 0.0,
+     "g": 1.5,
+     "in_literature": false
+    },
+    {
+     "fwhm": 177.0,
+     "peaks": 2,
+     "contrast": 0.9966382025549612,
+     "drift_deg": 59.66882538215567,
+     "velocity": -0.011848219146860586,
+     "persistent": false,
+     "b": 0.0,
+     "g": 2.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 180.5,
+     "peaks": 2,
+     "contrast": 0.9995099434296831,
+     "drift_deg": 0.27516991891836745,
+     "velocity": -2.8771486523755144e-05,
+     "persistent": false,
+     "b": 0.0,
+     "g": 3.0,
+     "in_literature": false
+    },
+    {
+     "fwhm": 181.25,
+     "peaks": 2,
+     "contrast": 0.999966174714432,
+     "drift_deg": 0.03161875993224828,
+     "velocity": 6.258714427749745e-06,
+     "persistent": false,
+     "b": 0.0,
+     "g": 4.0,
+     "in_literature": false
+    }
+   ]
+  }
+ },
+ "drive": {
+  "malecns": {
+   "base": {
+    "fwhm": 99.5,
+    "peaks": 1,
+    "contrast": 0.9898096792212637,
+    "drift_deg": 4.1528193011752705,
+    "velocity": 0.00036924320778953845,
+    "persistent": true
+   },
+   "runs": [
+    {
+     "fwhm": 99.0,
+     "peaks": 1,
+     "contrast": 0.9901853583885303,
+     "drift_deg": 7.827379051579896,
+     "velocity": 0.0006773271247253819,
+     "persistent": true,
+     "u": -0.1
+    },
+    {
+     "fwhm": 99.0,
+     "peaks": 1,
+     "contrast": 0.9900078783925919,
+     "drift_deg": 5.528556969687284,
+     "velocity": 0.0004839511408662118,
+     "persistent": true,
+     "u": -0.05
+    },
+    {
+     "fwhm": 99.5,
+     "peaks": 1,
+     "contrast": 0.989587097574106,
+     "drift_deg": 3.3046291361250755,
+     "velocity": 0.0002991386348450797,
+     "persistent": true,
+     "u": 0.05
+    },
+    {
+     "fwhm": 99.75,
+     "peaks": 1,
+     "contrast": 0.9893353887706853,
+     "drift_deg": 2.7699558061742087,
+     "velocity": 0.00025588966451456726,
+     "persistent": true,
+     "u": 0.1
+    }
+   ],
+   "width_invariant": true,
+   "linear_integration": false
+  },
+  "flywire": {
+   "base": {
+    "fwhm": 81.75,
+    "peaks": 1,
+    "contrast": 0.9903442107664335,
+    "drift_deg": 0.19958558928938705,
+    "velocity": -1.2110450488020757e-05,
+    "persistent": true
+   },
+   "runs": [
+    {
+     "fwhm": 81.25,
+     "peaks": 1,
+     "contrast": 0.9907934534928885,
+     "drift_deg": 6.622809644485727,
+     "velocity": -0.0004105843239106033,
+     "persistent": true,
+     "u": -0.1
+    },
+    {
+     "fwhm": 81.25,
+     "peaks": 1,
+     "contrast": 0.990575208990809,
+     "drift_deg": 1.0522307161248938,
+     "velocity": -6.434760030033972e-05,
+     "persistent": true,
+     "u": -0.05
+    },
+    {
+     "fwhm": 82.0,
+     "peaks": 1,
+     "contrast": 0.9900987169797102,
+     "drift_deg": 0.046833598625115595,
+     "velocity": -2.8262213475434824e-06,
+     "persistent": true,
+     "u": 0.05
+    },
+    {
+     "fwhm": 82.25,
+     "peaks": 1,
+     "contrast": 0.9898369216790541,
+     "drift_deg": 0.013514019938529437,
+     "velocity": -8.119785285434073e-07,
+     "persistent": true,
+     "u": 0.1
+    }
+   ],
+   "width_invariant": true,
+   "linear_integration": false
+  },
+  "hemibrain": {
+   "base": {
+    "fwhm": 111.5,
+    "peaks": 1,
+    "contrast": 0.9836732141752521,
+    "drift_deg": 5.0932909089385685,
+    "velocity": -0.0008213914917140627,
+    "persistent": true
+   },
+   "runs": [
+    {
+     "fwhm": 116.25,
+     "peaks": 2,
+     "contrast": 0.992304373980002,
+     "drift_deg": 27.486513434819145,
+     "velocity": -0.002368902923540825,
+     "persistent": false,
+     "u": -0.1
+    },
+    {
+     "fwhm": 116.0,
+     "peaks": 2,
+     "contrast": 0.9921624669388402,
+     "drift_deg": 49.83339151039267,
+     "velocity": -0.009464651516154986,
+     "persistent": false,
+     "u": -0.05
+    },
+    {
+     "fwhm": 108.5,
+     "peaks": 1,
+     "contrast": 0.9830222470548704,
+     "drift_deg": 0.25182826669755254,
+     "velocity": -3.494180626673234e-05,
+     "persistent": true,
+     "u": 0.05
+    },
+    {
+     "fwhm": 108.0,
+     "peaks": 1,
+     "contrast": 0.9844775521653713,
+     "drift_deg": 0.07043254853627365,
+     "velocity": -8.215042632222691e-06,
+     "persistent": true,
+     "u": 0.1
+    }
+   ],
+   "width_invariant": false,
+   "linear_integration": false
+  }
+ }
+}

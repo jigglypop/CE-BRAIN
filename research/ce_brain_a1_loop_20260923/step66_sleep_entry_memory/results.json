@@ -1,0 +1,2711 @@
+{
+ "schema": "ce-a1-step66-sleep-entry-memory",
+ "hashes": {
+  "entry_memory.py": "9c79eb0d0e208be6ac4cb7c2650d4a59df209ff53cedbaf110e86a06dcb2839c",
+  "../step64_hypothesis_batch/run_batch.py": "740237d365854053679d516ed98bd5bfe34bef6c97b2291addf7a73316c3384f",
+  "../step64_hypothesis_batch/hypotheses.py": "ffec59e20f402ca368d51c207d974b32b34e0971cb4bde267b7d9d684edac6b1",
+  "../fastcore/models.py": "7110e738efd84d2f70f51f47009839f3eafcf79fb4b7c75f4fe5111ed9766297",
+  "../fastcore/analysis.py": "3df71067f9d00dcf5f16d315201029760f174e911bfb7e3468519fa199d6b5b4",
+  "../fastcore/ring_kernels.py": "7ddcc0711341e5451116d081258245a1cc6215e8bf1de2469f5aedc819f1f0c6",
+  "../fastcore/batch.py": "ff79ebd933ab3489f9e6fc48c177b8e435e8ffb15ce20a0ab2d6ba8d1502f291",
+  "../env/uv.lock": "ee135391193675b5ac9165f644fb9e189f4cb46205979ae4929794e44e58a78f",
+  "../step62_upstream_pull/upstream_pull.py": "0eb016c7b55a82b1d66ed303b79b538df118c40f93d3810673a582b175d6a464",
+  "../step61_stp_trace/stp_trace.py": "dc4dacd6a012305301b3530fb973e7a4f746f52ffb4c96a6d96eef4dffc9d3da",
+  "../step58_sleep_equation/sleep_equation.py": "cc3339e7c92263e9ebdbad4f52aa290e1d0390e992621681c3a31c6b62c32824",
+  "../step59_upstate_holding/upstate_holding.py": "7d9760a9702e401a53a0f3ed8f4b851d0f1b287cd881cd7828766198a64bc62f",
+  "../step60_reanchoring/reanchoring.py": "a7bfb9296af4b5f3c35b31e8bbd1dd82226df66bd2a4f3dbc3122acca3316e76",
+  "../step57_sleep_holding/holding_gap.py": "1882bce892334f69deccdd77195393bc8c0d2f32560ef40345d8481ce6ab5655",
+  "../step56_mouse_sleep_ring/mouse_sleep_ring.py": "b12563f94fad9b859ddd5d60bc09e59d876f2037682c1fe4d971749823c2db1a",
+  "../step41_few_neuron_attractor/tl_ring.py": "cd4fe7b44eafb72b81cb04de9f261a77592beafc7d659d7019a2738a73f6f01c"
+ },
+ "models": {
+  "H2_held": {
+   "n_sessions": 10,
+   "n_with_late": 10,
+   "late_diff_median": 0.1983469822928064,
+   "ci95": [
+    0.1262113804839538,
+    0.29959373434922326
+   ],
+   "verdict": "HEADING_HELD",
+   "by_window": {
+    "0-10": {
+     "matched": 0.20187907356983636,
+     "mismatched": -0.035594349195909425,
+     "n_sessions": 10
+    },
+    "10-30": {
+     "matched": 0.17152725517179307,
+     "mismatched": -0.037967006968784536,
+     "n_sessions": 10
+    },
+    "30-60": {
+     "matched": 0.2000596137970855,
+     "mismatched": -0.05727198787118445,
+     "n_sessions": 10
+    },
+    "60-120": {
+     "matched": 0.1903174746373648,
+     "mismatched": -0.007457144170937828,
+     "n_sessions": 10
+    },
+    "120-300": {
+     "matched": 0.1895761199357268,
+     "mismatched": -0.028010671903018893,
+     "n_sessions": 10
+    },
+    "300-end": {
+     "matched": 0.12722545681609781,
+     "mismatched": 0.0012584726094167318,
+     "n_sessions": 7
+    },
+    "late": {
+     "matched": 0.19127331429769903,
+     "mismatched": -0.021647009628266087,
+     "n_sessions": 10
+    }
+   }
+  },
+  "H3_wandering": {
+   "n_sessions": 10,
+   "n_with_late": 10,
+   "late_diff_median": 0.007701396814685758,
+   "ci95": [
+    -0.010952960122431667,
+    0.01850216220567711
+   ],
+   "verdict": "HEADING_NOT_HELD",
+   "by_window": {
+    "0-10": {
+     "matched": 0.018883504761987586,
+     "mismatched": -0.0022629982863931674,
+     "n_sessions": 10
+    },
+    "10-30": {
+     "matched": -0.014603279754821407,
+     "mismatched": -0.022233263880173704,
+     "n_sessions": 10
+    },
+    "30-60": {
+     "matched": 0.016364855447233918,
+     "mismatched": 0.0036497865593679607,
+     "n_sessions": 10
+    },
+    "60-120": {
+     "matched": 0.007310606662182945,
+     "mismatched": -0.00607499519065562,
+     "n_sessions": 10
+    },
+    "120-300": {
+     "matched": -0.0009300772114175304,
+     "mismatched": -0.0013344986377187217,
+     "n_sessions": 10
+    },
+    "300-end": {
+     "matched": 0.06515088563464269,
+     "mismatched": -0.006539287486797826,
+     "n_sessions": 7
+    },
+    "late": {
+     "matched": 0.0026514345837568834,
+     "mismatched": 0.004125928300708995,
+     "n_sessions": 10
+    }
+   }
+  }
+ },
+ "estimator_check": true,
+ "mouse": {
+  "n_sessions": 31,
+  "n_with_late": 31,
+  "late_diff_median": 0.03545653097673523,
+  "ci95": [
+   0.020652438204931373,
+   0.07768273618945816
+  ],
+  "verdict": "HEADING_HELD",
+  "by_window": {
+   "0-10": {
+    "matched": 0.23117995214260492,
+    "mismatched": 0.11846097481534115,
+    "n_sessions": 31
+   },
+   "10-30": {
+    "matched": 0.18895890636115475,
+    "mismatched": 0.1238899082869503,
+    "n_sessions": 31
+   },
+   "30-60": {
+    "matched": 0.18302769335553556,
+    "mismatched": 0.09648370895319099,
+    "n_sessions": 31
+   },
+   "60-120": {
+    "matched": 0.14076191641038718,
+    "mismatched": 0.07981723528544224,
+    "n_sessions": 31
+   },
+   "120-300": {
+    "matched": 0.1316093895845997,
+    "mismatched": 0.06296422611750843,
+    "n_sessions": 31
+   },
+   "300-end": {
+    "matched": 0.08060737790892299,
+    "mismatched": 0.08440451297539106,
+    "n_sessions": 28
+   },
+   "late": {
+    "matched": 0.12914674651642294,
+    "mismatched": 0.05612550982131818,
+    "n_sessions": 31
+   }
+  }
+ },
+ "verdict": "HEADING_HELD",
+ "model_rows": [
+  {
+   "model": "H2_held",
+   "seed": 670,
+   "qualifies": true,
+   "n_episodes": 6,
+   "0-10": {
+    "matched": 0.16667009732379945,
+    "mismatched": 0.07056952344957897,
+    "n_matched": 26500,
+    "n_mismatched": 53000
+   },
+   "10-30": {
+    "matched": 0.15243464752756086,
+    "mismatched": 0.02115011299336268,
+    "n_matched": 51750,
+    "n_mismatched": 103500
+   },
+   "30-60": {
+    "matched": 0.17325568462285418,
+    "mismatched": 0.08320977353857344,
+    "n_matched": 77150,
+    "n_mismatched": 154300
+   },
+   "60-120": {
+    "matched": 0.17969556546208326,
+    "mismatched": 0.11199776503400743,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "120-300": {
+    "matched": 0.1858459454384285,
+    "mismatched": 0.08176568154942783,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "300-end": {
+    "matched": null,
+    "mismatched": null,
+    "n_matched": 0,
+    "n_mismatched": 0
+   },
+   "late": {
+    "matched": 0.17736169057452,
+    "mismatched": 0.09192641599745471,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "late_diff": 0.08543527457706529,
+   "seconds": 9.9,
+   "_seconds": 9.9
+  },
+  {
+   "model": "H2_held",
+   "seed": 671,
+   "qualifies": true,
+   "n_episodes": 6,
+   "0-10": {
+    "matched": 0.21127933152193373,
+    "mismatched": 0.03909551363066647,
+    "n_matched": 25450,
+    "n_mismatched": 50900
+   },
+   "10-30": {
+    "matched": 0.2163322422683039,
+    "mismatched": -0.014955383495455617,
+    "n_matched": 51400,
+    "n_mismatched": 102800
+   },
+   "30-60": {
+    "matched": 0.20582171821373924,
+    "mismatched": 0.10448330173891213,
+    "n_matched": 77750,
+    "n_mismatched": 155500
+   },
+   "60-120": {
+    "matched": 0.21364339717134842,
+    "mismatched": 0.04902807474007161,
+    "n_matched": 106850,
+    "n_mismatched": 213700
+   },
+   "120-300": {
+    "matched": 0.22631057830935045,
+    "mismatched": 0.06725615962745721,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "300-end": {
+    "matched": 0.31826480084497905,
+    "mismatched": 0.16276835702118056,
+    "n_matched": 9000,
+    "n_mismatched": 18000
+   },
+   "late": {
+    "matched": 0.23085227796448876,
+    "mismatched": 0.06996807238022369,
+    "n_matched": 106850,
+    "n_mismatched": 213700
+   },
+   "late_diff": 0.16088420558426508,
+   "seconds": 9.6,
+   "_seconds": 9.7
+  },
+  {
+   "model": "H2_held",
+   "seed": 672,
+   "qualifies": true,
+   "n_episodes": 6,
+   "0-10": {
+    "matched": 0.23680357768690807,
+    "mismatched": -0.05538668352132142,
+    "n_matched": 25700,
+    "n_mismatched": 51400
+   },
+   "10-30": {
+    "matched": 0.16419640273610775,
+    "mismatched": -0.07504786776267112,
+    "n_matched": 51600,
+    "n_mismatched": 103200
+   },
+   "30-60": {
+    "matched": 0.2470900250140208,
+    "mismatched": -0.10815765974222995,
+    "n_matched": 77700,
+    "n_mismatched": 155400
+   },
+   "60-120": {
+    "matched": 0.21052733656103445,
+    "mismatched": -0.06469831132676475,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "120-300": {
+    "matched": 0.2497284630762786,
+    "mismatched": -0.10266981476472291,
+    "n_matched": 107300,
+    "n_mismatched": 214600
+   },
+   "300-end": {
+    "matched": 0.3283154017074466,
+    "mismatched": -0.12723618510896095,
+    "n_matched": 36650,
+    "n_mismatched": 73300
+   },
+   "late": {
+    "matched": 0.23546717379436952,
+    "mismatched": -0.09470735851411274,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "late_diff": 0.33017453230848226,
+   "seconds": 9.6,
+   "_seconds": 9.7
+  },
+  {
+   "model": "H2_held",
+   "seed": 673,
+   "qualifies": true,
+   "n_episodes": 5,
+   "0-10": {
+    "matched": 0.1572598525154192,
+    "mismatched": -0.0967112872193281,
+    "n_matched": 21350,
+    "n_mismatched": 42700
+   },
+   "10-30": {
+    "matched": 0.26790556149626255,
+    "mismatched": -0.15104016910161336,
+    "n_matched": 42650,
+    "n_mismatched": 85300
+   },
+   "30-60": {
+    "matched": 0.1961247336999334,
+    "mismatched": -0.0869729231173705,
+    "n_matched": 64050,
+    "n_mismatched": 128100
+   },
+   "60-120": {
+    "matched": 0.174675656880599,
+    "mismatched": -0.09438931148973893,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "120-300": {
+    "matched": 0.19330629443302508,
+    "mismatched": -0.10140367728403397,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "300-end": {
+    "matched": 0.20095401301232504,
+    "mismatched": -0.12220560985854118,
+    "n_matched": 35250,
+    "n_mismatched": 70500
+   },
+   "late": {
+    "matched": 0.19680077550252298,
+    "mismatched": -0.10775036743357601,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "late_diff": 0.304551142936099,
+   "seconds": 9.5,
+   "_seconds": 9.5
+  },
+  {
+   "model": "H2_held",
+   "seed": 674,
+   "qualifies": true,
+   "n_episodes": 5,
+   "0-10": {
+    "matched": 0.19247881561773897,
+    "mismatched": -0.021711513460041732,
+    "n_matched": 21550,
+    "n_mismatched": 43100
+   },
+   "10-30": {
+    "matched": 0.1640353320816015,
+    "mismatched": -0.07720962722433687,
+    "n_matched": 43000,
+    "n_mismatched": 86000
+   },
+   "30-60": {
+    "matched": 0.20291948110508667,
+    "mismatched": -0.09245384299955813,
+    "n_matched": 63550,
+    "n_mismatched": 127100
+   },
+   "60-120": {
+    "matched": 0.16967611457134618,
+    "mismatched": -0.032720401086512405,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "120-300": {
+    "matched": 0.1510552855300703,
+    "mismatched": -0.058622346560505544,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "300-end": {
+    "matched": 0.09774718501701744,
+    "mismatched": -0.0807204011524913,
+    "n_matched": 20000,
+    "n_mismatched": 40000
+   },
+   "late": {
+    "matched": 0.1590746249002581,
+    "mismatched": -0.04522943010285474,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "late_diff": 0.20430405500311283,
+   "seconds": 9.3,
+   "_seconds": 9.4
+  },
+  {
+   "model": "H2_held",
+   "seed": 675,
+   "qualifies": true,
+   "n_episodes": 6,
+   "0-10": {
+    "matched": 0.2554339025969947,
+    "mismatched": -0.14922042868847885,
+    "n_matched": 26000,
+    "n_mismatched": 52000
+   },
+   "10-30": {
+    "matched": 0.22333428993671042,
+    "mismatched": -0.06097863044211345,
+    "n_matched": 51300,
+    "n_mismatched": 102600
+   },
+   "30-60": {
+    "matched": 0.2534645477534378,
+    "mismatched": -0.08347456283283582,
+    "n_matched": 77500,
+    "n_mismatched": 155000
+   },
+   "60-120": {
+    "matched": 0.19189836853644673,
+    "mismatched": -0.06699672039327112,
+    "n_matched": 113600,
+    "n_mismatched": 227200
+   },
+   "120-300": {
+    "matched": 0.23197900570494184,
+    "mismatched": -0.11656130122693639,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "300-end": {
+    "matched": null,
+    "mismatched": null,
+    "n_matched": 0,
+    "n_mismatched": 0
+   },
+   "late": {
+    "matched": 0.20898536621104097,
+    "mismatched": -0.09060836813818231,
+    "n_matched": 113600,
+    "n_mismatched": 227200
+   },
+   "late_diff": 0.29959373434922326,
+   "seconds": 10.1,
+   "_seconds": 10.1
+  },
+  {
+   "model": "H2_held",
+   "seed": 676,
+   "qualifies": true,
+   "n_episodes": 6,
+   "0-10": {
+    "matched": 0.2978671308978921,
+    "mismatched": 0.07332392330323344,
+    "n_matched": 25950,
+    "n_mismatched": 51900
+   },
+   "10-30": {
+    "matched": 0.16062188062611762,
+    "mismatched": 0.007938844146844502,
+    "n_matched": 51200,
+    "n_mismatched": 102400
+   },
+   "30-60": {
+    "matched": 0.1522765430395635,
+    "mismatched": 0.004406445650095877,
+    "n_matched": 77950,
+    "n_mismatched": 155900
+   },
+   "60-120": {
+    "matched": 0.18907785842699226,
+    "mismatched": 0.053050977991449484,
+    "n_matched": 115150,
+    "n_mismatched": 230300
+   },
+   "120-300": {
+    "matched": 0.16861959029997464,
+    "mismatched": 0.03217357319586572,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "300-end": {
+    "matched": null,
+    "mismatched": null,
+    "n_matched": 0,
+    "n_mismatched": 0
+   },
+   "late": {
+    "matched": 0.18574585309287509,
+    "mismatched": 0.05953447260892127,
+    "n_matched": 115150,
+    "n_mismatched": 230300
+   },
+   "late_diff": 0.1262113804839538,
+   "seconds": 7.6,
+   "_seconds": 7.6
+  },
+  {
+   "model": "H2_held",
+   "seed": 677,
+   "qualifies": true,
+   "n_episodes": 6,
+   "0-10": {
+    "matched": 0.1133046731633966,
+    "mismatched": 0.06286655006575065,
+    "n_matched": 25250,
+    "n_mismatched": 50500
+   },
+   "10-30": {
+    "matched": 0.18240228058009425,
+    "mismatched": 0.12884483444832023,
+    "n_matched": 52000,
+    "n_mismatched": 104000
+   },
+   "30-60": {
+    "matched": 0.19719974648908434,
+    "mismatched": 0.11609192208509084,
+    "n_matched": 76650,
+    "n_mismatched": 153300
+   },
+   "60-120": {
+    "matched": 0.1844683556144594,
+    "mismatched": 0.09005935037652578,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "120-300": {
+    "matched": 0.16588438307270748,
+    "mismatched": 0.06290256517854688,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "300-end": {
+    "matched": 0.055148211955726396,
+    "mismatched": 0.0012584726094167318,
+    "n_matched": 9700,
+    "n_mismatched": 19400
+   },
+   "late": {
+    "matched": 0.16799458649436624,
+    "mismatched": 0.07198974791672422,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "late_diff": 0.09600483857764203,
+   "seconds": 7.5,
+   "_seconds": 7.5
+  },
+  {
+   "model": "H2_held",
+   "seed": 678,
+   "qualifies": true,
+   "n_episodes": 5,
+   "0-10": {
+    "matched": 0.15995255445059453,
+    "mismatched": -0.049477184931777114,
+    "n_matched": 21350,
+    "n_mismatched": 42700
+   },
+   "10-30": {
+    "matched": 0.17078822083256023,
+    "mismatched": -0.09448000837809738,
+    "n_matched": 42850,
+    "n_mismatched": 85700
+   },
+   "30-60": {
+    "matched": 0.14379534887673917,
+    "mismatched": -0.06347870937571551,
+    "n_matched": 64900,
+    "n_mismatched": 129800
+   },
+   "60-120": {
+    "matched": 0.1915570908477373,
+    "mismatched": 0.014544469194145893,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "120-300": {
+    "matched": 0.17527290094124529,
+    "mismatched": -0.030746198300858427,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "300-end": {
+    "matched": 0.11703121254628705,
+    "mismatched": 0.049029196584259915,
+    "n_matched": 32000,
+    "n_mismatched": 64000
+   },
+   "late": {
+    "matched": 0.17495483040169388,
+    "mismatched": -0.017435079180806095,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "late_diff": 0.19238990958249996,
+   "seconds": 7.1,
+   "_seconds": 7.2
+  },
+  {
+   "model": "H2_held",
+   "seed": 679,
+   "qualifies": true,
+   "n_episodes": 5,
+   "0-10": {
+    "matched": 0.24899816711725078,
+    "mismatched": -0.11290964226457635,
+    "n_matched": 21750,
+    "n_mismatched": 43500
+   },
+   "10-30": {
+    "matched": 0.17226628951102593,
+    "mismatched": 0.0212651807693888,
+    "n_matched": 42450,
+    "n_mismatched": 84900
+   },
+   "30-60": {
+    "matched": 0.25023242237965754,
+    "mismatched": -0.051065266366653386,
+    "n_matched": 64300,
+    "n_mismatched": 128600
+   },
+   "60-120": {
+    "matched": 0.22338351410050508,
+    "mismatched": -0.02945875753602155,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "120-300": {
+    "matched": 0.21023150803661317,
+    "mismatched": -0.02527514550517936,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "300-end": {
+    "matched": 0.12722545681609781,
+    "mismatched": 0.1355275644777782,
+    "n_matched": 15950,
+    "n_mismatched": 31900
+   },
+   "late": {
+    "matched": 0.2114683781846309,
+    "mismatched": -0.02585894007572608,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "late_diff": 0.237327318260357,
+   "seconds": 7.4,
+   "_seconds": 7.4
+  },
+  {
+   "model": "H3_wandering",
+   "seed": 670,
+   "qualifies": true,
+   "n_episodes": 6,
+   "0-10": {
+    "matched": -0.09748586785840066,
+    "mismatched": -0.005943379970022409,
+    "n_matched": 26500,
+    "n_mismatched": 53000
+   },
+   "10-30": {
+    "matched": 0.03710982085445174,
+    "mismatched": -0.06610549226982244,
+    "n_matched": 52000,
+    "n_mismatched": 104000
+   },
+   "30-60": {
+    "matched": 0.041172997759550585,
+    "mismatched": 0.02742997739221613,
+    "n_matched": 77000,
+    "n_mismatched": 154000
+   },
+   "60-120": {
+    "matched": -0.017917855783787916,
+    "mismatched": -0.032048305806654825,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "120-300": {
+    "matched": 0.014299621661689244,
+    "mismatched": -0.007204532205534646,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "300-end": {
+    "matched": null,
+    "mismatched": null,
+    "n_matched": 0,
+    "n_mismatched": 0
+   },
+   "late": {
+    "matched": 0.004296928118621163,
+    "mismatched": -0.014205234087055948,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "late_diff": 0.01850216220567711,
+   "seconds": 7.7,
+   "_seconds": 7.7
+  },
+  {
+   "model": "H3_wandering",
+   "seed": 671,
+   "qualifies": true,
+   "n_episodes": 6,
+   "0-10": {
+    "matched": 0.027660337960629458,
+    "mismatched": -0.0501307719301068,
+    "n_matched": 25600,
+    "n_mismatched": 51200
+   },
+   "10-30": {
+    "matched": -0.03623305486343775,
+    "mismatched": -0.003521978152357328,
+    "n_matched": 51700,
+    "n_mismatched": 103400
+   },
+   "30-60": {
+    "matched": -0.00763379494180588,
+    "mismatched": 0.0010495055272224812,
+    "n_matched": 78700,
+    "n_mismatched": 157400
+   },
+   "60-120": {
+    "matched": 0.02919649493702855,
+    "mismatched": -0.03388568937138502,
+    "n_matched": 107000,
+    "n_mismatched": 214000
+   },
+   "120-300": {
+    "matched": 0.01519208957501774,
+    "mismatched": 0.02919781477762462,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "300-end": {
+    "matched": 0.07034298893957071,
+    "mismatched": 0.06632416427174488,
+    "n_matched": 9200,
+    "n_mismatched": 18400
+   },
+   "late": {
+    "matched": 0.02554329128191624,
+    "mismatched": 0.005645360643477864,
+    "n_matched": 107000,
+    "n_mismatched": 214000
+   },
+   "late_diff": 0.019897930638438376,
+   "seconds": 7.5,
+   "_seconds": 7.5
+  },
+  {
+   "model": "H3_wandering",
+   "seed": 672,
+   "qualifies": true,
+   "n_episodes": 6,
+   "0-10": {
+    "matched": 0.010106671563345713,
+    "mismatched": 0.0014173833972360745,
+    "n_matched": 26000,
+    "n_mismatched": 52000
+   },
+   "10-30": {
+    "matched": 0.007286450430522638,
+    "mismatched": 0.017062905180167186,
+    "n_matched": 51600,
+    "n_mismatched": 103200
+   },
+   "30-60": {
+    "matched": -0.02665885923981165,
+    "mismatched": 0.025160730413007686,
+    "n_matched": 77150,
+    "n_mismatched": 154300
+   },
+   "60-120": {
+    "matched": 0.047953015520719885,
+    "mismatched": -0.010028630275716537,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "120-300": {
+    "matched": -0.0030589097785032964,
+    "mismatched": -0.017296672702306514,
+    "n_matched": 107250,
+    "n_mismatched": 214500
+   },
+   "300-end": {
+    "matched": 0.06515088563464269,
+    "mismatched": -0.021356894352009496,
+    "n_matched": 36750,
+    "n_mismatched": 73500
+   },
+   "late": {
+    "matched": 0.019527450155324255,
+    "mismatched": -0.016571424951788812,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "late_diff": 0.03609887510711307,
+   "seconds": 7.6,
+   "_seconds": 7.6
+  },
+  {
+   "model": "H3_wandering",
+   "seed": 673,
+   "qualifies": true,
+   "n_episodes": 5,
+   "0-10": {
+    "matched": 0.12530457803168268,
+    "mismatched": 0.012718565942789807,
+    "n_matched": 21800,
+    "n_mismatched": 43600
+   },
+   "10-30": {
+    "matched": -0.01304877269796713,
+    "mismatched": -0.01774080564983795,
+    "n_matched": 42900,
+    "n_mismatched": 85800
+   },
+   "30-60": {
+    "matched": -0.002615767692890335,
+    "mismatched": -0.02506807443478077,
+    "n_matched": 64100,
+    "n_mismatched": 128200
+   },
+   "60-120": {
+    "matched": 0.004036096599825238,
+    "mismatched": -0.015974076799025405,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "120-300": {
+    "matched": 0.01637976281110222,
+    "mismatched": -0.001640060154397624,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "300-end": {
+    "matched": -0.09087257804880756,
+    "mismatched": -0.04592036045671137,
+    "n_matched": 35300,
+    "n_mismatched": 70600
+   },
+   "late": {
+    "matched": 0.0007880227553477352,
+    "mismatched": -0.007640140358180928,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "late_diff": 0.008428163113528663,
+   "seconds": 7.5,
+   "_seconds": 7.5
+  },
+  {
+   "model": "H3_wandering",
+   "seed": 674,
+   "qualifies": true,
+   "n_episodes": 5,
+   "0-10": {
+    "matched": -0.05316890317039272,
+    "mismatched": 0.07062820657265474,
+    "n_matched": 21700,
+    "n_mismatched": 43400
+   },
+   "10-30": {
+    "matched": 0.09977002115366627,
+    "mismatched": -0.02672572211050946,
+    "n_matched": 42950,
+    "n_mismatched": 85900
+   },
+   "30-60": {
+    "matched": 0.1023770733943647,
+    "mismatched": -0.03170931151265671,
+    "n_matched": 64050,
+    "n_mismatched": 128100
+   },
+   "60-120": {
+    "matched": 0.01058511672454065,
+    "mismatched": 0.013984901364143917,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "120-300": {
+    "matched": -0.020341410397053793,
+    "mismatched": 0.00804245703392994,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "300-end": {
+    "matched": 0.15144171804637022,
+    "mismatched": -0.1141113832566657,
+    "n_matched": 20000,
+    "n_mismatched": 40000
+   },
+   "late": {
+    "matched": -0.006879210150945788,
+    "mismatched": 0.01189116584889497,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "late_diff": -0.018770375999840758,
+   "seconds": 7.3,
+   "_seconds": 7.3
+  },
+  {
+   "model": "H3_wandering",
+   "seed": 675,
+   "qualifies": true,
+   "n_episodes": 6,
+   "0-10": {
+    "matched": -0.057397204414207224,
+    "mismatched": -0.020237215790254344,
+    "n_matched": 26500,
+    "n_mismatched": 53000
+   },
+   "10-30": {
+    "matched": 0.012783170705675516,
+    "mismatched": 0.02736090064353816,
+    "n_matched": 51650,
+    "n_mismatched": 103300
+   },
+   "30-60": {
+    "matched": 0.05000538929277572,
+    "mismatched": 0.0062500675915134404,
+    "n_matched": 77550,
+    "n_mismatched": 155100
+   },
+   "60-120": {
+    "matched": 0.039701908059607764,
+    "mismatched": 0.006451445964959515,
+    "n_matched": 113650,
+    "n_mismatched": 227300
+   },
+   "120-300": {
+    "matched": -0.010248020166217765,
+    "mismatched": -0.0006568975978458802,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "300-end": {
+    "matched": null,
+    "mismatched": null,
+    "n_matched": 0,
+    "n_mismatched": 0
+   },
+   "late": {
+    "matched": 0.024602214807004898,
+    "mismatched": 0.007309436316147663,
+    "n_matched": 113650,
+    "n_mismatched": 227300
+   },
+   "late_diff": 0.017292778490857235,
+   "seconds": 7.6,
+   "_seconds": 7.6
+  },
+  {
+   "model": "H3_wandering",
+   "seed": 676,
+   "qualifies": true,
+   "n_episodes": 6,
+   "0-10": {
+    "matched": 0.06982443258970035,
+    "mismatched": 0.08920687603984993,
+    "n_matched": 26100,
+    "n_mismatched": 52200
+   },
+   "10-30": {
+    "matched": -0.01846866453209205,
+    "mismatched": -0.057140017157508334,
+    "n_matched": 51250,
+    "n_mismatched": 102500
+   },
+   "30-60": {
+    "matched": 0.0675534490952552,
+    "mismatched": 0.0932570770428236,
+    "n_matched": 77700,
+    "n_mismatched": 155400
+   },
+   "60-120": {
+    "matched": -0.006841851713541483,
+    "mismatched": 0.0038580947401126177,
+    "n_matched": 115150,
+    "n_mismatched": 230300
+   },
+   "120-300": {
+    "matched": -0.003629597193853282,
+    "mismatched": -0.0062987592959869165,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "300-end": {
+    "matched": null,
+    "mismatched": null,
+    "n_matched": 0,
+    "n_mismatched": 0
+   },
+   "late": {
+    "matched": 0.006226086744882389,
+    "mismatched": 0.0034427237889997886,
+    "n_matched": 115150,
+    "n_mismatched": 230300
+   },
+   "late_diff": 0.0027833629558826002,
+   "seconds": 7.4,
+   "_seconds": 7.5
+  },
+  {
+   "model": "H3_wandering",
+   "seed": 677,
+   "qualifies": true,
+   "n_episodes": 6,
+   "0-10": {
+    "matched": -0.04466577908291928,
+    "mismatched": -0.025004071143926526,
+    "n_matched": 25150,
+    "n_mismatched": 50300
+   },
+   "10-30": {
+    "matched": -0.03532202151937427,
+    "mismatched": -0.04359937022097417,
+    "n_matched": 51800,
+    "n_mismatched": 103600
+   },
+   "30-60": {
+    "matched": -0.07021814143660039,
+    "mismatched": -0.017439616476017366,
+    "n_matched": 77400,
+    "n_mismatched": 154800
+   },
+   "60-120": {
+    "matched": 0.013927448536845523,
+    "mismatched": -0.002121360105594704,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "120-300": {
+    "matched": -0.018035583929640032,
+    "mismatched": 0.029027244756471785,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "300-end": {
+    "matched": 0.0974116225335051,
+    "mismatched": 0.015568245138922177,
+    "n_matched": 9600,
+    "n_mismatched": 19200
+   },
+   "late": {
+    "matched": -0.0044864163737974696,
+    "mismatched": 0.024067423425147918,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "late_diff": -0.028553839798945387,
+   "seconds": 7.5,
+   "_seconds": 7.5
+  },
+  {
+   "model": "H3_wandering",
+   "seed": 678,
+   "qualifies": true,
+   "n_episodes": 5,
+   "0-10": {
+    "matched": 0.1263921791650973,
+    "mismatched": 0.04418169820447615,
+    "n_matched": 21350,
+    "n_mismatched": 42700
+   },
+   "10-30": {
+    "matched": -0.09171563820408964,
+    "mismatched": 0.002470502268299253,
+    "n_matched": 43150,
+    "n_mismatched": 86300
+   },
+   "30-60": {
+    "matched": -0.0262321849569531,
+    "mismatched": -0.040427855162356786,
+    "n_matched": 64650,
+    "n_mismatched": 129300
+   },
+   "60-120": {
+    "matched": -0.012885362670339065,
+    "mismatched": 0.0059528907532065125,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "120-300": {
+    "matched": 0.0011987553556682357,
+    "mismatched": -0.001832900439675354,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "300-end": {
+    "matched": -0.05991717679289347,
+    "mismatched": -0.006539287486797826,
+    "n_matched": 31950,
+    "n_mismatched": 63900
+   },
+   "late": {
+    "matched": -0.006143827310013464,
+    "mismatched": 0.004809132812418202,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "late_diff": -0.010952960122431667,
+   "seconds": 5.3,
+   "_seconds": 5.3
+  },
+  {
+   "model": "H3_wandering",
+   "seed": 679,
+   "qualifies": true,
+   "n_episodes": 5,
+   "0-10": {
+    "matched": 0.06556397855481541,
+    "mismatched": -0.038441532726133446,
+    "n_matched": 21900,
+    "n_mismatched": 43800
+   },
+   "10-30": {
+    "matched": -0.016157786811675685,
+    "mismatched": -0.045299279794296446,
+    "n_matched": 42800,
+    "n_mismatched": 85600
+   },
+   "30-60": {
+    "matched": 0.03534547858735817,
+    "mismatched": 0.02206556468314651,
+    "n_matched": 64350,
+    "n_mismatched": 128700
+   },
+   "60-120": {
+    "matched": -0.04623228797463172,
+    "mismatched": -0.01724449538369636,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "120-300": {
+    "matched": 0.015778516777140365,
+    "mismatched": -0.0010289371210398194,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "300-end": {
+    "matched": 0.007300578093129895,
+    "mismatched": -0.0056317387459096585,
+    "n_matched": 15950,
+    "n_mismatched": 31900
+   },
+   "late": {
+    "matched": 0.0010059410488926046,
+    "mismatched": -0.0059686894669502485,
+    "n_matched": 100000,
+    "n_mismatched": 200000
+   },
+   "late_diff": 0.006974630515842854,
+   "seconds": 5.3,
+   "_seconds": 5.3
+  }
+ ],
+ "mouse_rows": [
+  {
+   "session": "sub-A1808_ses-190807_behavior+ecephys+ogen",
+   "qualifies": true,
+   "n_episodes": 22,
+   "0-10": {
+    "matched": 0.2945526927598606,
+    "mismatched": 0.15075354047632283,
+    "n_matched": 12851,
+    "n_mismatched": 25288
+   },
+   "10-30": {
+    "matched": 0.294821677624972,
+    "mismatched": 0.14984414281108643,
+    "n_matched": 26903,
+    "n_mismatched": 52476
+   },
+   "30-60": {
+    "matched": 0.23294957887558737,
+    "mismatched": 0.11948945707253276,
+    "n_matched": 30142,
+    "n_mismatched": 58622
+   },
+   "60-120": {
+    "matched": 0.2782691910935761,
+    "mismatched": 0.07981723528544224,
+    "n_matched": 35416,
+    "n_mismatched": 65810
+   },
+   "120-300": {
+    "matched": 0.27035769120756814,
+    "mismatched": -0.040301918591853884,
+    "n_matched": 43289,
+    "n_mismatched": 65545
+   },
+   "300-end": {
+    "matched": null,
+    "mismatched": null,
+    "n_matched": 0,
+    "n_mismatched": 0
+   },
+   "late": {
+    "matched": 0.2743839955545505,
+    "mismatched": 0.0271649700549925,
+    "n_matched": 78705,
+    "n_mismatched": 131355
+   },
+   "late_diff": 0.24721902549955801,
+   "_seconds": 2.3
+  },
+  {
+   "session": "sub-A1813_ses-190408_behavior+ecephys+ogen",
+   "qualifies": true,
+   "n_episodes": 30,
+   "0-10": {
+    "matched": 0.2717873123274586,
+    "mismatched": 0.21621755841116133,
+    "n_matched": 54347,
+    "n_mismatched": 107908
+   },
+   "10-30": {
+    "matched": 0.41888024598595885,
+    "mismatched": 0.361076806081726,
+    "n_matched": 95929,
+    "n_mismatched": 191140
+   },
+   "30-60": {
+    "matched": 0.3734658261418894,
+    "mismatched": 0.3188347106368021,
+    "n_matched": 118261,
+    "n_mismatched": 235565
+   },
+   "60-120": {
+    "matched": 0.3926586799681145,
+    "mismatched": 0.3877932103462721,
+    "n_matched": 163491,
+    "n_mismatched": 334953
+   },
+   "120-300": {
+    "matched": 0.36033291850484245,
+    "mismatched": 0.39427533968708484,
+    "n_matched": 174975,
+    "n_mismatched": 365230
+   },
+   "300-end": {
+    "matched": 0.7799520849489039,
+    "mismatched": 0.6845552700475449,
+    "n_matched": 13439,
+    "n_mismatched": 24941
+   },
+   "late": {
+    "matched": 0.3830659833418336,
+    "mismatched": 0.3919649790454561,
+    "n_matched": 283005,
+    "n_mismatched": 575235
+   },
+   "late_diff": -0.008898995703622459,
+   "_seconds": 4.7
+  },
+  {
+   "session": "sub-A1815_ses-190523_behavior+ecephys+ogen",
+   "qualifies": true,
+   "n_episodes": 10,
+   "0-10": {
+    "matched": 0.7202785248555118,
+    "mismatched": 0.5916070534416532,
+    "n_matched": 19096,
+    "n_mismatched": 38312
+   },
+   "10-30": {
+    "matched": 0.4317595552414815,
+    "mismatched": 0.5053120559907783,
+    "n_matched": 36433,
+    "n_mismatched": 72927
+   },
+   "30-60": {
+    "matched": 0.4193818804002477,
+    "mismatched": 0.3804842914082288,
+    "n_matched": 39368,
+    "n_mismatched": 78149
+   },
+   "60-120": {
+    "matched": 0.06977859071792734,
+    "mismatched": 0.06689776417569605,
+    "n_matched": 40664,
+    "n_mismatched": 88009
+   },
+   "120-300": {
+    "matched": 0.03458611948725273,
+    "mismatched": -0.021187263645000814,
+    "n_matched": 58426,
+    "n_mismatched": 127166
+   },
+   "300-end": {
+    "matched": -0.02996588744162887,
+    "mismatched": -0.14125549873921356,
+    "n_matched": 40000,
+    "n_mismatched": 80000
+   },
+   "late": {
+    "matched": 0.007406034352668284,
+    "mismatched": -0.02073350247449303,
+    "n_matched": 81880,
+    "n_mismatched": 169950
+   },
+   "late_diff": 0.02813953682716131,
+   "_seconds": 3.0
+  },
+  {
+   "session": "sub-A1821_ses-190910_behavior+ecephys+ogen",
+   "qualifies": true,
+   "n_episodes": 11,
+   "0-10": {
+    "matched": 0.7498710461756922,
+    "mismatched": 0.5937049917575978,
+    "n_matched": 11115,
+    "n_mismatched": 21810
+   },
+   "10-30": {
+    "matched": 0.5992150344104682,
+    "mismatched": 0.4316784853763865,
+    "n_matched": 24276,
+    "n_mismatched": 48577
+   },
+   "30-60": {
+    "matched": 0.4305281688359063,
+    "mismatched": 0.3118961154494911,
+    "n_matched": 35398,
+    "n_mismatched": 71012
+   },
+   "60-120": {
+    "matched": 0.5526459413193405,
+    "mismatched": 0.47507743032105865,
+    "n_matched": 64083,
+    "n_mismatched": 116981
+   },
+   "120-300": {
+    "matched": 0.47372046618643143,
+    "mismatched": 0.3874899674345391,
+    "n_matched": 124899,
+    "n_mismatched": 242433
+   },
+   "300-end": {
+    "matched": 0.4069643375414622,
+    "mismatched": 0.3360843173074545,
+    "n_matched": 73909,
+    "n_mismatched": 149090
+   },
+   "late": {
+    "matched": 0.45162636060202677,
+    "mismatched": 0.3730671022877003,
+    "n_matched": 149292,
+    "n_mismatched": 288917
+   },
+   "late_diff": 0.07855925831432647,
+   "_seconds": 3.7
+  },
+  {
+   "session": "sub-A1824_ses-190827_behavior+ecephys+ogen",
+   "qualifies": true,
+   "n_episodes": 13,
+   "0-10": {
+    "matched": 0.40865237884235145,
+    "mismatched": -0.09169692729674521,
+    "n_matched": 21332,
+    "n_mismatched": 41676
+   },
+   "10-30": {
+    "matched": 0.3881067139592039,
+    "mismatched": -0.0645771801246842,
+    "n_matched": 38679,
+    "n_mismatched": 75000
+   },
+   "30-60": {
+    "matched": 0.262519865820683,
+    "mismatched": -0.05086162593500923,
+    "n_matched": 34637,
+    "n_mismatched": 73228
+   },
+   "60-120": {
+    "matched": 0.16446271296773793,
+    "mismatched": 0.009930994379344858,
+    "n_matched": 34891,
+    "n_mismatched": 75984
+   },
+   "120-300": {
+    "matched": 0.15722032528090485,
+    "mismatched": 0.0495620253768407,
+    "n_matched": 70788,
+    "n_mismatched": 144709
+   },
+   "300-end": {
+    "matched": 0.11715489348884757,
+    "mismatched": 0.001365543498074232,
+    "n_matched": 47187,
+    "n_mismatched": 97348
+   },
+   "late": {
+    "matched": 0.1410493169130851,
+    "mismatched": 0.0480195364048886,
+    "n_matched": 95016,
+    "n_mismatched": 185662
+   },
+   "late_diff": 0.09302978050819649,
+   "_seconds": 3.1
+  },
+  {
+   "session": "sub-A3701_ses-191119_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 33,
+   "0-10": {
+    "matched": 0.2212205981036577,
+    "mismatched": 0.04212438277460578,
+    "n_matched": 67722,
+    "n_mismatched": 133537
+   },
+   "10-30": {
+    "matched": 0.07411166286063244,
+    "mismatched": 0.024621695339385824,
+    "n_matched": 127920,
+    "n_mismatched": 252764
+   },
+   "30-60": {
+    "matched": 0.02323273250084165,
+    "mismatched": 0.07040629101791039,
+    "n_matched": 152617,
+    "n_mismatched": 308071
+   },
+   "60-120": {
+    "matched": 0.14743508491954135,
+    "mismatched": 0.03279060591861568,
+    "n_matched": 154500,
+    "n_mismatched": 318113
+   },
+   "120-300": {
+    "matched": 0.19036954867833317,
+    "mismatched": -0.06065589895749067,
+    "n_matched": 110497,
+    "n_mismatched": 216916
+   },
+   "300-end": {
+    "matched": 0.033029367758669395,
+    "mismatched": 0.008400398627137656,
+    "n_matched": 39446,
+    "n_mismatched": 83220
+   },
+   "late": {
+    "matched": 0.15579730223492144,
+    "mismatched": 0.023259416410769826,
+    "n_matched": 227562,
+    "n_mismatched": 463197
+   },
+   "late_diff": 0.1325378858241516,
+   "_seconds": 10.3
+  },
+  {
+   "session": "sub-A3702_ses-191126_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 9,
+   "0-10": {
+    "matched": 0.11390959541716758,
+    "mismatched": -0.03998286084706387,
+    "n_matched": 11889,
+    "n_mismatched": 23939
+   },
+   "10-30": {
+    "matched": 0.16956440354315463,
+    "mismatched": -0.0011861307831080774,
+    "n_matched": 22598,
+    "n_mismatched": 44832
+   },
+   "30-60": {
+    "matched": 0.07783175123183575,
+    "mismatched": -0.0017690065050469568,
+    "n_matched": 37074,
+    "n_mismatched": 73798
+   },
+   "60-120": {
+    "matched": 0.12643131712941683,
+    "mismatched": -0.01920898451255191,
+    "n_matched": 66273,
+    "n_mismatched": 131397
+   },
+   "120-300": {
+    "matched": 0.07816230172350208,
+    "mismatched": -0.039537351428226765,
+    "n_matched": 126342,
+    "n_mismatched": 244061
+   },
+   "300-end": {
+    "matched": 0.07754295823999066,
+    "mismatched": -0.038567822614633235,
+    "n_matched": 110112,
+    "n_mismatched": 219973
+   },
+   "late": {
+    "matched": 0.08219360708348603,
+    "mismatched": -0.023379726993225346,
+    "n_matched": 140357,
+    "n_mismatched": 290006
+   },
+   "late_diff": 0.10557333407671138,
+   "_seconds": 6.3
+  },
+  {
+   "session": "sub-A3703_ses-191215_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 26,
+   "0-10": {
+    "matched": 0.016879323372144896,
+    "mismatched": 0.007440009834016071,
+    "n_matched": 84850,
+    "n_mismatched": 169592
+   },
+   "10-30": {
+    "matched": 0.04431667072543286,
+    "mismatched": 0.02016955129085969,
+    "n_matched": 161688,
+    "n_mismatched": 323172
+   },
+   "30-60": {
+    "matched": 0.026720388770039252,
+    "mismatched": 0.012147378404937913,
+    "n_matched": 216175,
+    "n_mismatched": 429278
+   },
+   "60-120": {
+    "matched": 0.03641869473547149,
+    "mismatched": 0.02236313011535913,
+    "n_matched": 370218,
+    "n_mismatched": 732087
+   },
+   "120-300": {
+    "matched": 0.039534731444948366,
+    "mismatched": 0.02226217787915535,
+    "n_matched": 304290,
+    "n_mismatched": 603008
+   },
+   "300-end": {
+    "matched": 0.036097889363090344,
+    "mismatched": 0.013477873478018819,
+    "n_matched": 88268,
+    "n_mismatched": 176128
+   },
+   "late": {
+    "matched": 0.04127977943518713,
+    "mismatched": 0.025827404700971432,
+    "n_matched": 383192,
+    "n_mismatched": 768717
+   },
+   "late_diff": 0.0154523747342157,
+   "_seconds": 16.3
+  },
+  {
+   "session": "sub-A3705_ses-200306_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 28,
+   "0-10": {
+    "matched": 0.19816080333914607,
+    "mismatched": 0.13684063485595602,
+    "n_matched": 68925,
+    "n_mismatched": 137483
+   },
+   "10-30": {
+    "matched": 0.18063143211042526,
+    "mismatched": 0.11956701593378377,
+    "n_matched": 129612,
+    "n_mismatched": 258716
+   },
+   "30-60": {
+    "matched": 0.13609131540124503,
+    "mismatched": 0.09872617639209796,
+    "n_matched": 186655,
+    "n_mismatched": 370967
+   },
+   "60-120": {
+    "matched": 0.14076191641038718,
+    "mismatched": 0.11058840023549217,
+    "n_matched": 328542,
+    "n_mismatched": 652941
+   },
+   "120-300": {
+    "matched": 0.15892234648861392,
+    "mismatched": 0.1187283851280957,
+    "n_matched": 373890,
+    "n_mismatched": 759034
+   },
+   "300-end": {
+    "matched": 0.15044253753478562,
+    "mismatched": 0.12851518478590757,
+    "n_matched": 113842,
+    "n_mismatched": 220581
+   },
+   "late": {
+    "matched": 0.15676500539580943,
+    "mismatched": 0.12832314572539996,
+    "n_matched": 468998,
+    "n_mismatched": 953365
+   },
+   "late_diff": 0.028441859670409464,
+   "_seconds": 16.6
+  },
+  {
+   "session": "sub-A3706_ses-200313_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 10,
+   "0-10": {
+    "matched": 0.035458423315439344,
+    "mismatched": -0.10513787672763567,
+    "n_matched": 20599,
+    "n_mismatched": 41071
+   },
+   "10-30": {
+    "matched": 0.002738146306176821,
+    "mismatched": -0.11562365213840965,
+    "n_matched": 36925,
+    "n_mismatched": 73710
+   },
+   "30-60": {
+    "matched": 0.024147275180897522,
+    "mismatched": -0.09082017802349954,
+    "n_matched": 49695,
+    "n_mismatched": 98724
+   },
+   "60-120": {
+    "matched": 0.006641786980752678,
+    "mismatched": -0.09155079637976715,
+    "n_matched": 72872,
+    "n_mismatched": 146698
+   },
+   "120-300": {
+    "matched": -0.0010121556327873742,
+    "mismatched": -0.07146736429070244,
+    "n_matched": 120000,
+    "n_mismatched": 240000
+   },
+   "300-end": {
+    "matched": -0.04242751010404416,
+    "mismatched": -0.06825824173734692,
+    "n_matched": 111550,
+    "n_mismatched": 223870
+   },
+   "late": {
+    "matched": -0.006946874227044376,
+    "mismatched": -0.07643311761876523,
+    "n_matched": 127524,
+    "n_mismatched": 260018
+   },
+   "late_diff": 0.06948624339172085,
+   "_seconds": 9.4
+  },
+  {
+   "session": "sub-A3707_ses-200317_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 28,
+   "0-10": {
+    "matched": 0.2820272023187647,
+    "mismatched": 0.2515957415711506,
+    "n_matched": 74302,
+    "n_mismatched": 148280
+   },
+   "10-30": {
+    "matched": 0.23760606390211209,
+    "mismatched": 0.20637322176562653,
+    "n_matched": 138922,
+    "n_mismatched": 277508
+   },
+   "30-60": {
+    "matched": 0.25385790331569713,
+    "mismatched": 0.22818085706874688,
+    "n_matched": 164001,
+    "n_mismatched": 331554
+   },
+   "60-120": {
+    "matched": 0.2544631886671684,
+    "mismatched": 0.2303196807147578,
+    "n_matched": 195574,
+    "n_mismatched": 403679
+   },
+   "120-300": {
+    "matched": 0.22381296507813525,
+    "mismatched": 0.18577665141907598,
+    "n_matched": 132452,
+    "n_mismatched": 258859
+   },
+   "300-end": {
+    "matched": 0.1736268906842894,
+    "mismatched": 0.14693614722943718,
+    "n_matched": 49082,
+    "n_mismatched": 96252
+   },
+   "late": {
+    "matched": 0.24051907966907426,
+    "mismatched": 0.2177936505218241,
+    "n_matched": 234174,
+    "n_mismatched": 486023
+   },
+   "late_diff": 0.022725429147250176,
+   "_seconds": 13.7
+  },
+  {
+   "session": "sub-A3708_ses-200317b_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 32,
+   "0-10": {
+    "matched": 0.06901348000820581,
+    "mismatched": 0.05419767188982669,
+    "n_matched": 46259,
+    "n_mismatched": 92684
+   },
+   "10-30": {
+    "matched": 0.1066471560136211,
+    "mismatched": 0.08363462127454013,
+    "n_matched": 91267,
+    "n_mismatched": 182134
+   },
+   "30-60": {
+    "matched": 0.08296925713997359,
+    "mismatched": 0.0799744958047217,
+    "n_matched": 116488,
+    "n_mismatched": 236191
+   },
+   "60-120": {
+    "matched": 0.036785745440471085,
+    "mismatched": 0.04891061390095653,
+    "n_matched": 124407,
+    "n_mismatched": 252295
+   },
+   "120-300": {
+    "matched": 0.03172785246103155,
+    "mismatched": 0.05487161915292438,
+    "n_matched": 47876,
+    "n_mismatched": 95053
+   },
+   "300-end": {
+    "matched": null,
+    "mismatched": null,
+    "n_matched": 0,
+    "n_mismatched": 0
+   },
+   "late": {
+    "matched": 0.035134043030071116,
+    "mismatched": 0.05034649078679146,
+    "n_matched": 167791,
+    "n_mismatched": 335683
+   },
+   "late_diff": -0.015212447756720343,
+   "_seconds": 6.2
+  },
+  {
+   "session": "sub-A3709_ses-200601_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 38,
+   "0-10": {
+    "matched": -1.112260221318362,
+    "mismatched": -1.1316053223851765,
+    "n_matched": 61098,
+    "n_mismatched": 120141
+   },
+   "10-30": {
+    "matched": -1.0238019351641812,
+    "mismatched": -1.0263816160967367,
+    "n_matched": 112101,
+    "n_mismatched": 221546
+   },
+   "30-60": {
+    "matched": -0.8359763633169159,
+    "mismatched": -0.859993767236547,
+    "n_matched": 130177,
+    "n_mismatched": 263433
+   },
+   "60-120": {
+    "matched": -0.5418447812626103,
+    "mismatched": -0.5453303391734957,
+    "n_matched": 190026,
+    "n_mismatched": 396330
+   },
+   "120-300": {
+    "matched": -0.39391801822879785,
+    "mismatched": -0.3004775303138383,
+    "n_matched": 232041,
+    "n_mismatched": 491876
+   },
+   "300-end": {
+    "matched": -1.8988330883920481,
+    "mismatched": -0.7810086927934025,
+    "n_matched": 84083,
+    "n_mismatched": 167506
+   },
+   "late": {
+    "matched": -0.4673564986690856,
+    "mismatched": -0.4083076239857839,
+    "n_matched": 379912,
+    "n_mismatched": 759836
+   },
+   "late_diff": -0.059048874683301666,
+   "_seconds": 6.1
+  },
+  {
+   "session": "sub-A3710_ses-200609_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 19,
+   "0-10": {
+    "matched": 0.48691689058108817,
+    "mismatched": 0.3188103863452694,
+    "n_matched": 59061,
+    "n_mismatched": 117372
+   },
+   "10-30": {
+    "matched": 0.21405670246250802,
+    "mismatched": 0.20256769552916754,
+    "n_matched": 117005,
+    "n_mismatched": 232722
+   },
+   "30-60": {
+    "matched": 0.32913275341583115,
+    "mismatched": 0.21072934369322455,
+    "n_matched": 148159,
+    "n_mismatched": 292274
+   },
+   "60-120": {
+    "matched": 0.09184509796805886,
+    "mismatched": 0.10499725202717555,
+    "n_matched": 193964,
+    "n_mismatched": 385662
+   },
+   "120-300": {
+    "matched": 0.15399023215749497,
+    "mismatched": 0.17140833796056798,
+    "n_matched": 192598,
+    "n_mismatched": 390931
+   },
+   "300-end": {
+    "matched": 0.08367179757785531,
+    "mismatched": 0.19944512827858601,
+    "n_matched": 61317,
+    "n_mismatched": 138303
+   },
+   "late": {
+    "matched": 0.09712506319543496,
+    "mismatched": 0.14675854529953955,
+    "n_matched": 242544,
+    "n_mismatched": 480514
+   },
+   "late_diff": -0.04963348210410459,
+   "_seconds": 14.4
+  },
+  {
+   "session": "sub-A3711_ses-200810b_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 21,
+   "0-10": {
+    "matched": 0.48757424023217244,
+    "mismatched": 0.21926144909786344,
+    "n_matched": 51694,
+    "n_mismatched": 102095
+   },
+   "10-30": {
+    "matched": 0.5035712381619115,
+    "mismatched": 0.22656875610932742,
+    "n_matched": 99406,
+    "n_mismatched": 195471
+   },
+   "30-60": {
+    "matched": 0.4386792127722106,
+    "mismatched": 0.1898986259034216,
+    "n_matched": 123973,
+    "n_mismatched": 244992
+   },
+   "60-120": {
+    "matched": 0.33857528435920486,
+    "mismatched": 0.17954221600222214,
+    "n_matched": 175702,
+    "n_mismatched": 350839
+   },
+   "120-300": {
+    "matched": 0.2184321030341528,
+    "mismatched": 0.15906114585668085,
+    "n_matched": 225987,
+    "n_mismatched": 452000
+   },
+   "300-end": {
+    "matched": 0.24200654771409377,
+    "mismatched": 0.16037547132423344,
+    "n_matched": 118985,
+    "n_mismatched": 239141
+   },
+   "late": {
+    "matched": 0.2984372029986895,
+    "mismatched": 0.1737209826650971,
+    "n_matched": 266345,
+    "n_mismatched": 528270
+   },
+   "late_diff": 0.12471622033359236,
+   "_seconds": 17.5
+  },
+  {
+   "session": "sub-A3712_ses-200903a_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 23,
+   "0-10": {
+    "matched": 0.1878007798228001,
+    "mismatched": 0.1187308732232041,
+    "n_matched": 74057,
+    "n_mismatched": 147940
+   },
+   "10-30": {
+    "matched": 0.18568136335668364,
+    "mismatched": 0.1238899082869503,
+    "n_matched": 142539,
+    "n_mismatched": 284806
+   },
+   "30-60": {
+    "matched": 0.16596115389519508,
+    "mismatched": 0.11050549009148379,
+    "n_matched": 200037,
+    "n_mismatched": 401558
+   },
+   "60-120": {
+    "matched": 0.13130969857565356,
+    "mismatched": 0.10790019152078954,
+    "n_matched": 336770,
+    "n_mismatched": 678719
+   },
+   "120-300": {
+    "matched": 0.1132980775729517,
+    "mismatched": 0.11437836399691828,
+    "n_matched": 235823,
+    "n_mismatched": 471153
+   },
+   "300-end": {
+    "matched": 0.05745937627086373,
+    "mismatched": 0.05965275772735967,
+    "n_matched": 33764,
+    "n_mismatched": 67176
+   },
+   "late": {
+    "matched": 0.12927291731729873,
+    "mismatched": 0.10862047911236736,
+    "n_matched": 364769,
+    "n_mismatched": 731466
+   },
+   "late_diff": 0.020652438204931373,
+   "_seconds": 15.5
+  },
+  {
+   "session": "sub-A3713_ses-200909a_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 20,
+   "0-10": {
+    "matched": 0.19807741893978448,
+    "mismatched": -0.013984129014192322,
+    "n_matched": 31671,
+    "n_mismatched": 58507
+   },
+   "10-30": {
+    "matched": 0.0001496208535820198,
+    "mismatched": -0.10805490222438081,
+    "n_matched": 59972,
+    "n_mismatched": 110685
+   },
+   "30-60": {
+    "matched": -0.38547144069540823,
+    "mismatched": -0.20209990603197106,
+    "n_matched": 64592,
+    "n_mismatched": 125077
+   },
+   "60-120": {
+    "matched": 0.29600142990463524,
+    "mismatched": 0.18292123404204066,
+    "n_matched": 66249,
+    "n_mismatched": 134528
+   },
+   "120-300": {
+    "matched": -0.27229303055746146,
+    "mismatched": -0.2545642410631256,
+    "n_matched": 61852,
+    "n_mismatched": 138247
+   },
+   "300-end": {
+    "matched": 0.18075472303852638,
+    "mismatched": 0.000854631075539695,
+    "n_matched": 51346,
+    "n_mismatched": 103974
+   },
+   "late": {
+    "matched": 0.10147420998911502,
+    "mismatched": 0.0516220563040447,
+    "n_matched": 146753,
+    "n_mismatched": 304357
+   },
+   "late_diff": 0.04985215368507032,
+   "_seconds": 3.5
+  },
+  {
+   "session": "sub-A3716_ses-201015b_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 20,
+   "0-10": {
+    "matched": 0.33195925622997996,
+    "mismatched": 0.13948250728856834,
+    "n_matched": 75548,
+    "n_mismatched": 151054
+   },
+   "10-30": {
+    "matched": 0.18895890636115475,
+    "mismatched": 0.10283932482607419,
+    "n_matched": 145976,
+    "n_mismatched": 292041
+   },
+   "30-60": {
+    "matched": 0.04355359988938956,
+    "mismatched": 0.061779768213133,
+    "n_matched": 180854,
+    "n_mismatched": 361221
+   },
+   "60-120": {
+    "matched": 0.09821575748134433,
+    "mismatched": -0.06538708003866571,
+    "n_matched": 198913,
+    "n_mismatched": 398685
+   },
+   "120-300": {
+    "matched": -0.12323714883033238,
+    "mismatched": -0.0241627329346364,
+    "n_matched": 166400,
+    "n_mismatched": 332800
+   },
+   "300-end": {
+    "matched": -0.003611134771255328,
+    "mismatched": 0.14386653505075475,
+    "n_matched": 107400,
+    "n_mismatched": 214800
+   },
+   "late": {
+    "matched": 0.0555350661008672,
+    "mismatched": -0.03973390270727108,
+    "n_matched": 212461,
+    "n_mismatched": 424458
+   },
+   "late_diff": 0.09526896880813827,
+   "_seconds": 14.8
+  },
+  {
+   "session": "sub-A3717_ses-201021_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 19,
+   "0-10": {
+    "matched": 0.12338179551543049,
+    "mismatched": 0.10223197239184743,
+    "n_matched": 42423,
+    "n_mismatched": 84419
+   },
+   "10-30": {
+    "matched": 0.1642250655031506,
+    "mismatched": 0.13718966701808794,
+    "n_matched": 81805,
+    "n_mismatched": 162153
+   },
+   "30-60": {
+    "matched": 0.10543858068344283,
+    "mismatched": 0.0827555309153551,
+    "n_matched": 108808,
+    "n_mismatched": 218593
+   },
+   "60-120": {
+    "matched": 0.12970740908695205,
+    "mismatched": 0.10424461631329482,
+    "n_matched": 176454,
+    "n_mismatched": 350632
+   },
+   "120-300": {
+    "matched": 0.08096590908710434,
+    "mismatched": 0.08295615208469262,
+    "n_matched": 211107,
+    "n_mismatched": 421645
+   },
+   "300-end": {
+    "matched": 0.10740935898996799,
+    "mismatched": 0.10218424245951788,
+    "n_matched": 85246,
+    "n_mismatched": 164102
+   },
+   "late": {
+    "matched": 0.12914674651642294,
+    "mismatched": 0.10671428230280397,
+    "n_matched": 273691,
+    "n_mismatched": 551367
+   },
+   "late_diff": 0.02243246421361897,
+   "_seconds": 12.8
+  },
+  {
+   "session": "sub-A3723_ses-201115_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 15,
+   "0-10": {
+    "matched": 0.45959862471191554,
+    "mismatched": 0.40247663317780963,
+    "n_matched": 15332,
+    "n_mismatched": 30459
+   },
+   "10-30": {
+    "matched": 0.32685225250142863,
+    "mismatched": 0.3079100675224511,
+    "n_matched": 30885,
+    "n_mismatched": 62065
+   },
+   "30-60": {
+    "matched": 0.39747130635550754,
+    "mismatched": 0.4005363461401639,
+    "n_matched": 40040,
+    "n_mismatched": 84546
+   },
+   "60-120": {
+    "matched": 0.43821317738641724,
+    "mismatched": 0.4839103163056704,
+    "n_matched": 41537,
+    "n_mismatched": 84679
+   },
+   "120-300": {
+    "matched": 0.43985582809531254,
+    "mismatched": 0.4878268962928816,
+    "n_matched": 83994,
+    "n_mismatched": 163683
+   },
+   "300-end": {
+    "matched": 0.3793550046042186,
+    "mismatched": 0.42439745630125225,
+    "n_matched": 89315,
+    "n_mismatched": 170697
+   },
+   "late": {
+    "matched": 0.4093788954874241,
+    "mismatched": 0.46186537424075486,
+    "n_matched": 111267,
+    "n_mismatched": 227497
+   },
+   "late_diff": -0.052486478753330734,
+   "_seconds": 5.8
+  },
+  {
+   "session": "sub-A3728_ses-210309b_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 4,
+   "0-10": {
+    "matched": 0.19479754612248074,
+    "mismatched": -0.016035614843439423,
+    "n_matched": 2962,
+    "n_mismatched": 5810
+   },
+   "10-30": {
+    "matched": 0.01422709817042094,
+    "mismatched": -0.056576885881606864,
+    "n_matched": 5485,
+    "n_mismatched": 10842
+   },
+   "30-60": {
+    "matched": -0.0033598919954184853,
+    "mismatched": -0.10384780711624499,
+    "n_matched": 6856,
+    "n_mismatched": 13628
+   },
+   "60-120": {
+    "matched": 0.061927443935635415,
+    "mismatched": -0.009977308281693022,
+    "n_matched": 10776,
+    "n_mismatched": 21083
+   },
+   "120-300": {
+    "matched": 0.018638185934231544,
+    "mismatched": -0.060736666998015554,
+    "n_matched": 26884,
+    "n_mismatched": 50141
+   },
+   "300-end": {
+    "matched": -0.08792729934193452,
+    "mismatched": -0.08713719432696351,
+    "n_matched": 8577,
+    "n_mismatched": 16240
+   },
+   "late": {
+    "matched": -0.000993104293087149,
+    "mismatched": -0.036449635269822374,
+    "n_matched": 41392,
+    "n_mismatched": 78300
+   },
+   "late_diff": 0.03545653097673523,
+   "_seconds": 1.9
+  },
+  {
+   "session": "sub-A3730_ses-210323b_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 7,
+   "0-10": {
+    "matched": 0.022246245845900178,
+    "mismatched": -0.09380416874349692,
+    "n_matched": 12134,
+    "n_mismatched": 24106
+   },
+   "10-30": {
+    "matched": 0.12931506122227976,
+    "mismatched": -0.053923829761815915,
+    "n_matched": 22818,
+    "n_mismatched": 45633
+   },
+   "30-60": {
+    "matched": 0.11412361303333773,
+    "mismatched": -0.039424127956882625,
+    "n_matched": 29200,
+    "n_mismatched": 57129
+   },
+   "60-120": {
+    "matched": 0.21955071345768565,
+    "mismatched": 0.11995875425949748,
+    "n_matched": 35130,
+    "n_mismatched": 69888
+   },
+   "120-300": {
+    "matched": 0.15636440847461053,
+    "mismatched": 0.0730590386378571,
+    "n_matched": 49920,
+    "n_mismatched": 110810
+   },
+   "300-end": {
+    "matched": 0.18516136241962178,
+    "mismatched": 0.10773820928817956,
+    "n_matched": 47500,
+    "n_mismatched": 110380
+   },
+   "late": {
+    "matched": 0.15625763050421324,
+    "mismatched": 0.07857489431475508,
+    "n_matched": 70560,
+    "n_mismatched": 136896
+   },
+   "late_diff": 0.07768273618945816,
+   "_seconds": 3.9
+  },
+  {
+   "session": "sub-A5505_ses-200831_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 21,
+   "0-10": {
+    "matched": 0.40515624780389725,
+    "mismatched": 0.36253183750507656,
+    "n_matched": 20401,
+    "n_mismatched": 40456
+   },
+   "10-30": {
+    "matched": 0.45066199624556913,
+    "mismatched": 0.41414585746176547,
+    "n_matched": 41543,
+    "n_mismatched": 83196
+   },
+   "30-60": {
+    "matched": 0.31501388040651057,
+    "mismatched": 0.2787177123928165,
+    "n_matched": 58119,
+    "n_mismatched": 110506
+   },
+   "60-120": {
+    "matched": 0.32405115589876915,
+    "mismatched": 0.2641111425525899,
+    "n_matched": 100164,
+    "n_mismatched": 186425
+   },
+   "120-300": {
+    "matched": 0.3244953902403225,
+    "mismatched": 0.3017110871785298,
+    "n_matched": 158600,
+    "n_mismatched": 295720
+   },
+   "300-end": {
+    "matched": 0.47615616775060904,
+    "mismatched": 0.4178006260825577,
+    "n_matched": 60489,
+    "n_mismatched": 116761
+   },
+   "late": {
+    "matched": 0.30917980605853773,
+    "mismatched": 0.2594267476602436,
+    "n_matched": 227789,
+    "n_mismatched": 436405
+   },
+   "late_diff": 0.04975305839829414,
+   "_seconds": 4.3
+  },
+  {
+   "session": "sub-A5506_ses-200914a_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 10,
+   "0-10": {
+    "matched": -0.48599746004465066,
+    "mismatched": -0.7809269289345311,
+    "n_matched": 9897,
+    "n_mismatched": 18542
+   },
+   "10-30": {
+    "matched": -1.2796117357190284,
+    "mismatched": -0.47067710592808937,
+    "n_matched": 20803,
+    "n_mismatched": 40446
+   },
+   "30-60": {
+    "matched": -0.8650798421815535,
+    "mismatched": -1.186998012306877,
+    "n_matched": 27532,
+    "n_mismatched": 50878
+   },
+   "60-120": {
+    "matched": -0.5601472109347496,
+    "mismatched": -0.5939525443552538,
+    "n_matched": 40949,
+    "n_mismatched": 70775
+   },
+   "120-300": {
+    "matched": -1.3092873810778827,
+    "mismatched": -0.5608995037727179,
+    "n_matched": 78772,
+    "n_mismatched": 135534
+   },
+   "300-end": {
+    "matched": -0.93644494157407,
+    "mismatched": 0.30661776070305496,
+    "n_matched": 61021,
+    "n_mismatched": 106618
+   },
+   "late": {
+    "matched": -0.6733199010911354,
+    "mismatched": 0.06852265312579182,
+    "n_matched": 87312,
+    "n_mismatched": 175831
+   },
+   "late_diff": -0.7418425542169272,
+   "_seconds": 2.5
+  },
+  {
+   "session": "sub-A5507_ses-200920_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 16,
+   "0-10": {
+    "matched": 0.14780387778546056,
+    "mismatched": 0.11846097481534115,
+    "n_matched": 27161,
+    "n_mismatched": 54511
+   },
+   "10-30": {
+    "matched": 0.22876048322062711,
+    "mismatched": 0.17611978316703802,
+    "n_matched": 50644,
+    "n_mismatched": 102222
+   },
+   "30-60": {
+    "matched": 0.26156941146976,
+    "mismatched": 0.19088645345945662,
+    "n_matched": 63361,
+    "n_mismatched": 128994
+   },
+   "60-120": {
+    "matched": 0.09487100375654832,
+    "mismatched": 0.21363502066089732,
+    "n_matched": 72522,
+    "n_mismatched": 162986
+   },
+   "120-300": {
+    "matched": 0.12655051578151874,
+    "mismatched": 0.09942765433003382,
+    "n_matched": 87756,
+    "n_mismatched": 188948
+   },
+   "300-end": {
+    "matched": 0.1895951495114558,
+    "mismatched": 0.09947693609758566,
+    "n_matched": 40000,
+    "n_mismatched": 80000
+   },
+   "late": {
+    "matched": 0.1019616189636966,
+    "mismatched": 0.17471678092156345,
+    "n_matched": 133092,
+    "n_mismatched": 271276
+   },
+   "late_diff": -0.07275516195786685,
+   "_seconds": 5.4
+  },
+  {
+   "session": "sub-A5508_ses-200930_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 13,
+   "0-10": {
+    "matched": 0.5336501275789017,
+    "mismatched": 0.26134120099479036,
+    "n_matched": 19847,
+    "n_mismatched": 39896
+   },
+   "10-30": {
+    "matched": 0.47239332322204663,
+    "mismatched": 0.2392961501237871,
+    "n_matched": 37517,
+    "n_mismatched": 75291
+   },
+   "30-60": {
+    "matched": 0.330745019691716,
+    "mismatched": 0.21433758521203736,
+    "n_matched": 51732,
+    "n_mismatched": 101926
+   },
+   "60-120": {
+    "matched": 0.33124573179229044,
+    "mismatched": 0.14885677039950743,
+    "n_matched": 77394,
+    "n_mismatched": 152524
+   },
+   "120-300": {
+    "matched": 0.15608045963596626,
+    "mismatched": 0.08494200537863995,
+    "n_matched": 134210,
+    "n_mismatched": 291244
+   },
+   "300-end": {
+    "matched": -0.021748640140932196,
+    "mismatched": 0.06617010931456774,
+    "n_matched": 60348,
+    "n_mismatched": 129574
+   },
+   "late": {
+    "matched": 0.2618457403083999,
+    "mismatched": 0.12032785342790549,
+    "n_matched": 160033,
+    "n_mismatched": 343375
+   },
+   "late_diff": 0.14151788688049444,
+   "_seconds": 3.5
+  },
+  {
+   "session": "sub-A5801_ses-200924_behavior+ecephys",
+   "qualifies": true,
+   "n_episodes": 3,
+   "0-10": {
+    "matched": 0.3066438272733209,
+    "mismatched": 0.08477736514638275,
+    "n_matched": 548,
+    "n_mismatched": 1156
+   },
+   "10-30": {
+    "matched": 0.26334742763610886,
+    "mismatched": 0.27875796298302563,
+    "n_matched": 1164,
+    "n_mismatched": 2340
+   },
+   "30-60": {
+    "matched": 0.1989552836237216,
+    "mismatched": 0.07182036757174079,
+    "n_matched": 1456,
+    "n_mismatched": 2840
+   },
+   "60-120": {
+    "matched": 0.16424295368988356,
+    "mismatched": 0.05557837223747143,
+    "n_matched": 3596,
+    "n_mismatched": 6724
+   },
+   "120-300": {
+    "matched": 0.0208555825120688,
+    "mismatched": 0.06296422611750843,
+    "n_matched": 10444,
+    "n_mismatched": 20852
+   },
+   "300-end": {
+    "matched": 0.032604824388101826,
+    "mismatched": 0.06609792158417281,
+    "n_matched": 12812,
+    "n_mismatched": 36028
+   },
+   "late": {
+    "matched": 0.04906153732548215,
+    "mismatched": 0.05612550982131818,
+    "n_matched": 26852,
+    "n_mismatched": 60924
+   },
+   "late_diff": -0.007063972495836027,
+   "_seconds": 1.2
+  },
+  {
+   "session": "sub-A6211_ses-210407_behavior+ecephys+ogen",
+   "qualifies": true,
+   "n_episodes": 8,
+   "0-10": {
+    "matched": 0.0617555868495895,
+    "mismatched": 0.05531898526728277,
+    "n_matched": 10183,
+    "n_mismatched": 19962
+   },
+   "10-30": {
+    "matched": 0.06536878723427385,
+    "mismatched": -0.013723687403805897,
+    "n_matched": 19820,
+    "n_mismatched": 39131
+   },
+   "30-60": {
+    "matched": 0.18302769335553556,
+    "mismatched": -0.0025173897529248393,
+    "n_matched": 24497,
+    "n_mismatched": 45240
+   },
+   "60-120": {
+    "matched": -0.00512297960696731,
+    "mismatched": -0.10549849782281462,
+    "n_matched": 48855,
+    "n_mismatched": 91023
+   },
+   "120-300": {
+    "matched": 0.1316093895845997,
+    "mismatched": -0.0020280747386796217,
+    "n_matched": 101236,
+    "n_mismatched": 201821
+   },
+   "300-end": {
+    "matched": -0.1008640210316302,
+    "mismatched": -0.12322805277580279,
+    "n_matched": 51544,
+    "n_mismatched": 118759
+   },
+   "late": {
+    "matched": 0.052125534774375405,
+    "mismatched": -0.052082285328556986,
+    "n_matched": 125174,
+    "n_mismatched": 240032
+   },
+   "late_diff": 0.10420782010293239,
+   "_seconds": 4.2
+  },
+  {
+   "session": "sub-A6215_ses-210610_behavior+ecephys+ogen",
+   "qualifies": true,
+   "n_episodes": 25,
+   "0-10": {
+    "matched": 0.5176036150314879,
+    "mismatched": 0.46024660093478753,
+    "n_matched": 31030,
+    "n_mismatched": 61543
+   },
+   "10-30": {
+    "matched": 0.4986744254492062,
+    "mismatched": 0.4333174883408239,
+    "n_matched": 60902,
+    "n_mismatched": 121701
+   },
+   "30-60": {
+    "matched": 0.4453561183014962,
+    "mismatched": 0.41563888952002437,
+    "n_matched": 90224,
+    "n_mismatched": 180117
+   },
+   "60-120": {
+    "matched": 0.41688286970389754,
+    "mismatched": 0.4106676593947727,
+    "n_matched": 160963,
+    "n_mismatched": 321327
+   },
+   "120-300": {
+    "matched": 0.44134676037319076,
+    "mismatched": 0.39073141246098764,
+    "n_matched": 167872,
+    "n_mismatched": 327247
+   },
+   "300-end": {
+    "matched": null,
+    "mismatched": 0.19187040772346764,
+    "n_matched": 12765,
+    "n_mismatched": 25530
+   },
+   "late": {
+    "matched": 0.4322055993127285,
+    "mismatched": 0.39623582511598815,
+    "n_matched": 291098,
+    "n_mismatched": 573871
+   },
+   "late_diff": 0.035969774196740356,
+   "_seconds": 4.9
+  },
+  {
+   "session": "sub-A6216_ses-210623_behavior+ecephys+ogen",
+   "qualifies": true,
+   "n_episodes": 28,
+   "0-10": {
+    "matched": 0.23117995214260492,
+    "mismatched": 0.170390448997492,
+    "n_matched": 32441,
+    "n_mismatched": 65693
+   },
+   "10-30": {
+    "matched": 0.17681814624886735,
+    "mismatched": 0.1203108677731356,
+    "n_matched": 69626,
+    "n_mismatched": 137572
+   },
+   "30-60": {
+    "matched": 0.12592772016811873,
+    "mismatched": 0.09648370895319099,
+    "n_matched": 94699,
+    "n_mismatched": 189032
+   },
+   "60-120": {
+    "matched": 0.05597966505476106,
+    "mismatched": 0.04114813730209887,
+    "n_matched": 169193,
+    "n_mismatched": 338567
+   },
+   "120-300": {
+    "matched": 0.020580090631849294,
+    "mismatched": 0.03172822716802142,
+    "n_matched": 140764,
+    "n_mismatched": 281858
+   },
+   "300-end": {
+    "matched": 0.03182477683297037,
+    "mismatched": 0.08440451297539106,
+    "n_matched": 27548,
+    "n_mismatched": 54652
+   },
+   "late": {
+    "matched": 0.04076297432141582,
+    "mismatched": 0.030601120132857866,
+    "n_matched": 276573,
+    "n_mismatched": 546689
+   },
+   "late_diff": 0.010161854188557952,
+   "_seconds": 5.3
+  },
+  {
+   "session": "sub-A9701_ses-210805_behavior+ecephys+ogen",
+   "qualifies": true,
+   "n_episodes": 11,
+   "0-10": {
+    "matched": 0.612207324115397,
+    "mismatched": 0.06189000827596456,
+    "n_matched": 28815,
+    "n_mismatched": 56877
+   },
+   "10-30": {
+    "matched": 0.5791361858575298,
+    "mismatched": 0.1615293944320119,
+    "n_matched": 56846,
+    "n_mismatched": 111960
+   },
+   "30-60": {
+    "matched": 0.37610885657334137,
+    "mismatched": 0.1358066483055603,
+    "n_matched": 57469,
+    "n_mismatched": 117913
+   },
+   "60-120": {
+    "matched": 0.25903106063245396,
+    "mismatched": 0.02691047787361523,
+    "n_matched": 74745,
+    "n_mismatched": 152238
+   },
+   "120-300": {
+    "matched": 0.19932934441419387,
+    "mismatched": 0.07548634212125184,
+    "n_matched": 119316,
+    "n_mismatched": 239072
+   },
+   "300-end": {
+    "matched": 0.19059572970984887,
+    "mismatched": -0.0113111715391677,
+    "n_matched": 76218,
+    "n_mismatched": 153396
+   },
+   "late": {
+    "matched": 0.20102909406686284,
+    "mismatched": 0.04360465416331237,
+    "n_matched": 126685,
+    "n_mismatched": 254134
+   },
+   "late_diff": 0.15742443990355048,
+   "_seconds": 4.1
+  }
+ ],
+ "errors": [],
+ "minutes": 1.2
+}

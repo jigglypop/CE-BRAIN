@@ -1,0 +1,369 @@
+{
+ "schema": "ce-a1-step23-isometry-generator",
+ "code_sha256": "0c2ef4dfb1bcd3924c9374ac0d765ab52cd3bd66b6c14924ee0cea0dca5ab187",
+ "datasets": {
+  "malecns": {
+   "E1_labels": {
+    "pairs": {
+     "1": {
+      "lambda": [
+       0.6312300201006422,
+       0.6302693270757014
+      ],
+      "lambda_imag": [
+       0.0,
+       0.0
+      ],
+      "purity": [
+       0.9919067525128286,
+       0.9891169674341684
+      ],
+      "gap": 0.001521938111859237,
+      "template_R2": 0.985142371855335
+     },
+     "2": {
+      "lambda": [
+       0.4596946790214459,
+       0.44067509389151277
+      ],
+      "lambda_imag": [
+       0.0,
+       0.0
+      ],
+      "purity": [
+       0.9724802384064748,
+       0.90100796529481
+      ],
+      "gap": 0.041374386082562886,
+      "template_R2": 0.9449044089683365
+     },
+     "3": null
+    },
+    "routes": {
+     "1": {
+      "left": {
+       "angle_deg": 11.74167454961408,
+       "gain": 0.09975487005604843,
+       "conformal_fraction": 0.9992787977641956
+      },
+      "right": {
+       "angle_deg": -11.808657818681526,
+       "gain": 0.09725137197322765,
+       "conformal_fraction": 0.9994084481739529
+      }
+     },
+     "2": {
+      "left": {
+       "angle_deg": 5.734353640909322,
+       "gain": 0.07629492236024314,
+       "conformal_fraction": 0.9991095864290432
+      },
+      "right": {
+       "angle_deg": -4.25639329752057,
+       "gain": 0.07808979997900904,
+       "conformal_fraction": 0.9966476772957528
+      }
+     }
+    },
+    "lambda_uniform": 0.8084325115296571,
+    "K1_invariance": true,
+    "K2_isometry": true,
+    "K3_literature_shift": false,
+    "detail": {
+     "conformal_all": true,
+     "psi2_minus_2psi1_deg": {
+      "left": -17.74899545831883,
+      "right": 19.36092233984249
+     },
+     "psi1_left_plus_right_deg": -0.06698326906743546,
+     "Delta_deg": 11.775166184147807
+    },
+    "report_spectrum": {
+     "lambda_0": 0.8084325115296571,
+     "lambda_m": [
+      0.6307496735881718,
+      0.45018488645647936,
+      null
+     ]
+    }
+   },
+   "label_free": {
+    "pairs": {
+     "1": {
+      "lambda": [
+       0.6312300201006422,
+       0.6302693270757014
+      ],
+      "lambda_imag": [
+       0.0,
+       0.0
+      ],
+      "purity": [
+       0.9969075963522507,
+       0.9924130231073792
+      ],
+      "gap": 0.001521938111859237,
+      "template_R2": 0.9985996197159561
+     },
+     "2": {
+      "lambda": [
+       0.4596946790214459,
+       0.44067509389151277
+      ],
+      "lambda_imag": [
+       0.0,
+       0.0
+      ],
+      "purity": [
+       1.0339795786038197,
+       0.9146206472136061
+      ],
+      "gap": 0.041374386082562886,
+      "template_R2": 0.9763250956451834
+     },
+     "3": null
+    },
+    "routes": {
+     "1": {
+      "left": {
+       "angle_deg": 11.75664197325953,
+       "gain": 0.0997602900934553,
+       "conformal_fraction": 0.9991703862397047
+      },
+      "right": {
+       "angle_deg": -11.796995962937222,
+       "gain": 0.09724723579128149,
+       "conformal_fraction": 0.9994933715790293
+      }
+     },
+     "2": {
+      "left": {
+       "angle_deg": 5.690305618262353,
+       "gain": 0.07628905536598553,
+       "conformal_fraction": 0.9992630148591549
+      },
+      "right": {
+       "angle_deg": -4.313194116347805,
+       "gain": 0.07809560041175587,
+       "conformal_fraction": 0.9965006480651869
+      }
+     }
+    },
+    "lambda_uniform": 0.8084325115296571,
+    "K1_invariance": true,
+    "K2_isometry": true,
+    "K3_literature_shift": false,
+    "detail": {
+     "conformal_all": true,
+     "psi2_minus_2psi1_deg": {
+      "left": -17.82297832825671,
+      "right": 19.280797809526632
+     },
+     "psi1_left_plus_right_deg": -0.040353989677697655,
+     "Delta_deg": 11.776818968098382
+    },
+    "report_spectrum": {
+     "lambda_0": 0.8084325115296571,
+     "lambda_m": [
+      0.6307496735881718,
+      0.45018488645647936,
+      null
+     ]
+    }
+   },
+   "primary": "E1_labels",
+   "pass": false
+  },
+  "flywire": {
+   "label_free": {
+    "pairs": {
+     "1": {
+      "lambda": [
+       0.682225003047683,
+       0.6533432091271734
+      ],
+      "lambda_imag": [
+       0.0,
+       0.0
+      ],
+      "purity": [
+       0.9855647164811544,
+       0.9681099688302982
+      ],
+      "gap": 0.042334704520483483,
+      "template_R2": 0.9830897854205088
+     },
+     "2": null,
+     "3": null
+    },
+    "routes": {
+     "1": {
+      "left": {
+       "angle_deg": -5.897833008798891,
+       "gain": 0.11861681876787684,
+       "conformal_fraction": 0.9974283212207558
+      },
+      "right": {
+       "angle_deg": 6.3525848311084,
+       "gain": 0.13125634980195386,
+       "conformal_fraction": 0.9925555013796884
+      }
+     }
+    },
+    "lambda_uniform": 0.8206599463507114,
+    "K1_invariance": false,
+    "K2_isometry": false,
+    "K3_literature_shift": false,
+    "detail": {},
+    "report_spectrum": {
+     "lambda_0": 0.8206599463507114,
+     "lambda_m": [
+      0.6677841060874281,
+      null,
+      null
+     ]
+    }
+   },
+   "primary": "label_free",
+   "pass": false
+  },
+  "hemibrain": {
+   "E1_labels": {
+    "pairs": {
+     "1": {
+      "lambda": [
+       0.5974700703964977,
+       0.5793650023105075
+      ],
+      "lambda_imag": [
+       0.0,
+       0.0
+      ],
+      "purity": [
+       0.9689944925946112,
+       0.874041761004057
+      ],
+      "gap": 0.030302887095206614,
+      "template_R2": 0.9238632542964181
+     },
+     "2": {
+      "lambda": [
+       0.3877574448919931,
+       0.36313744626660066
+      ],
+      "lambda_imag": [
+       0.0,
+       0.0
+      ],
+      "purity": [
+       0.9464549980133546,
+       0.873043942264419
+      ],
+      "gap": 0.0634932970332785,
+      "template_R2": 0.9097003993127957
+     },
+     "3": null
+    },
+    "routes": {
+     "1": {
+      "left": {
+       "angle_deg": 20.86803453355786,
+       "gain": 0.09232381237522662,
+       "conformal_fraction": 0.9830795673766726
+      },
+      "right": {
+       "angle_deg": -23.95638096561799,
+       "gain": 0.11031010889324214,
+       "conformal_fraction": 0.9989442296420827
+      }
+     },
+     "2": {
+      "left": {
+       "angle_deg": 10.35479497245322,
+       "gain": 0.06940462689984718,
+       "conformal_fraction": 0.9986442184764553
+      },
+      "right": {
+       "angle_deg": -12.58211629903536,
+       "gain": 0.07259350530665648,
+       "conformal_fraction": 0.9919681121553666
+      }
+     }
+    },
+    "lambda_uniform": 0.6426300589103008,
+    "K1_invariance": true,
+    "K2_isometry": false,
+    "K3_literature_shift": false,
+    "detail": {
+     "conformal_all": true,
+     "psi2_minus_2psi1_deg": {
+      "left": -31.3812740946625,
+      "right": 35.33064563220063
+     },
+     "psi1_left_plus_right_deg": -3.0883464320601206,
+     "Delta_deg": 22.41220774958792
+    },
+    "report_spectrum": {
+     "lambda_0": 0.6426300589103008,
+     "lambda_m": [
+      0.5884175363535026,
+      0.3754474455792969,
+      null
+     ]
+    }
+   },
+   "label_free": {
+    "pairs": {
+     "1": {
+      "lambda": [
+       0.5974700703964977,
+       0.5793650023105075
+      ],
+      "lambda_imag": [
+       0.0,
+       0.0
+      ],
+      "purity": [
+       0.9911737925035892,
+       0.9000577935808189
+      ],
+      "gap": 0.030302887095206614,
+      "template_R2": 0.9585412481235673
+     },
+     "2": null,
+     "3": null
+    },
+    "routes": {
+     "1": {
+      "left": {
+       "angle_deg": 20.80997566956899,
+       "gain": 0.09228820873411349,
+       "conformal_fraction": 0.9838131064066412
+      },
+      "right": {
+       "angle_deg": -23.992307728475044,
+       "gain": 0.11034087205019812,
+       "conformal_fraction": 0.9983887787980288
+      }
+     }
+    },
+    "lambda_uniform": 0.6426300589103008,
+    "K1_invariance": false,
+    "K2_isometry": false,
+    "K3_literature_shift": false,
+    "detail": {},
+    "report_spectrum": {
+     "lambda_0": 0.6426300589103008,
+     "lambda_m": [
+      0.5884175363535026,
+      null,
+      null
+     ]
+    }
+   },
+   "primary": "E1_labels",
+   "pass": false
+  }
+ },
+ "verdict": "ISOMETRY_GENERATOR_NOT_SUPPORTED"
+}

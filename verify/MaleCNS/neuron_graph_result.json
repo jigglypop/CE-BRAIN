@@ -1,0 +1,110 @@
+{
+  "schema": "malecns-neuron-graph-v1",
+  "status": "PASS",
+  "failed_checks": [],
+  "scope": {
+    "nodes": 199713,
+    "node_dyads": 26013498,
+    "node_weight": 125334312,
+    "segment_rows": 151856684,
+    "segment_weight": 311833243,
+    "self_dyads": 112,
+    "out_boundary_weight": 171515537,
+    "in_boundary_weight": 5734274,
+    "superclass_assigned_nodes": 166700
+  },
+  "checks": {
+    "whole_structure": {
+      "node_ids_equal": true,
+      "category_codes_equal": true,
+      "out_totals_equal": true,
+      "in_totals_equal": true,
+      "node_to_node_by_target_category_equal": true
+    },
+    "prebuilt_full": {
+      "nodes": 199713,
+      "all_nodes_found": true,
+      "node_scope_matches_rule": true,
+      "edges": 26013498,
+      "dyads_equal": true,
+      "synapses_equal": true,
+      "sources_with_mixed_sign": 0,
+      "sign_edge_counts": {
+        "-1": 9744876,
+        "0": 1436560,
+        "1": 14832062
+      }
+    },
+    "prebuilt_neurons166k": {
+      "nodes": 166700,
+      "all_nodes_found": true,
+      "node_scope_matches_rule": true,
+      "edges": 25582938,
+      "dyads_equal": true,
+      "synapses_equal": true,
+      "sources_with_mixed_sign": 0,
+      "sign_edge_counts": {
+        "-1": 9669523,
+        "0": 1207620,
+        "1": 14705795
+      }
+    },
+    "official_traced_only": {
+      "file": "connectome-weights-male-cns-v1.0-minconf-0.5-traced-only.feather",
+      "bytes": 508025642,
+      "server_md5_matches": true,
+      "rows": 25563197,
+      "rows_with_both_endpoints_in_nodes": 25563197,
+      "rows_found_in_cache": 25563197,
+      "weights_equal_where_found": true,
+      "cache_dyads_not_in_traced_table": 450301
+    }
+  },
+  "sources": {
+    "annotations.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+      "bytes": 14483314,
+      "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+      "path": "C:\\dev\\ce\\ce-agi-runtime\\data\\local\\malecns-v1.0\\annotations.feather",
+      "verified_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+      "mtime_ns": 1789042956096102800
+    },
+    "edges.feather": {
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+      "bytes": 1051241946,
+      "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1",
+      "path": "C:\\dev\\ce\\ce-agi-runtime\\data\\local\\malecns-v1.0\\edges.feather",
+      "verified_sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1",
+      "mtime_ns": 1789043074766865700
+    }
+  },
+  "cache": {
+    "path": "C:\\dev\\ce\\ce-agi-runtime\\data\\local\\malecns-analysis\\neuron-graph-v1\\neuron_graph.npz",
+    "bytes": 220801350,
+    "sha256": "58f63f549ae90074c56c1d47bf4ff294d01352ff57bc387a10404c8ed2cd4fb6"
+  },
+  "source_code_sha256": "854fda2be809817bc0b5fd5f4f78f9ac4a1fe6cbd456eb6bd6e308818ce52bf3",
+  "argv": [
+    "verify/MaleCNS/neuron_graph.py",
+    "build"
+  ],
+  "software": {
+    "executable": "C:\\Users\\dongh\\AppData\\Local\\uv\\cache\\builds-v0\\.tmpo91iYx\\Scripts\\python.exe",
+    "python": "3.11.9",
+    "numpy": "2.4.6",
+    "pyarrow": "25.0.1"
+  },
+  "timing_seconds": {
+    "source_lock": 0.711,
+    "annotations": 0.487,
+    "stream_edges": 5.133,
+    "csr": 2.738,
+    "check_whole_structure": 1.004,
+    "check_prebuilt_full": 4.233,
+    "check_prebuilt_neurons166k": 7.686,
+    "check_traced_only": 20.131,
+    "save": 0.455
+  },
+  "elapsed_seconds": 43.123,
+  "interpretation": "Annotated non-Glia bodies as nodes, synapse contact counts as dyad weights, all other segment contact kept as per-node boundary totals. Structural counts from one animal; not activity, transmitter sign, delay, learning or a biological metric."
+}

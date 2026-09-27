@@ -1,0 +1,35 @@
+{
+ "neurons": {
+  "EPG": 46,
+  "PEN_a(PEN1)": 20,
+  "PEN_b(PEN2)": 22,
+  "PEG": 18,
+  "Delta7": 42
+ },
+ "sign": {
+  "EPG": 1.0,
+  "PEN_a(PEN1)": 1.0,
+  "PEN_b(PEN2)": 1.0,
+  "PEG": 1.0,
+  "Delta7": -1.0
+ },
+ "pair_eigenvalues": [
+  0.6743101024471287,
+  0.6709160333372811
+ ],
+ "pair_gap": 0.005033395017411521,
+ "epg_radius_variation": 0.0694498578256318,
+ "halves": {
+  "L": {
+   "epg": 23,
+   "slope_deg_per_glomerulus": -45.25,
+   "R": 0.9952203794993505
+  },
+  "R": {
+   "epg": 23,
+   "slope_deg_per_glomerulus": 45.5,
+   "R": 0.9962553025988165
+  }
+ },
+ "verdict": "SUPPORTED"
+}

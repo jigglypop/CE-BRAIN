@@ -1,0 +1,198 @@
+{
+ "schema": "ce-a1-step38-teacher-calibration",
+ "note": "continue authors' learned network with teacher (M, sigma), 4000 s, OU seed 11; dark bump after 2 s light + 3 s dark",
+ "runs": [
+  {
+   "M": 2.0,
+   "sigma": 0.2,
+   "T_s": 4000.0,
+   "err_first_hz": 1.09,
+   "err_last_hz": 1.07,
+   "start": {
+    "dark_fwhm": 187.75,
+    "dark_peak_over_fmax": 0.012905722257265929,
+    "dark_n_above_0p9": 0,
+    "light_fwhm": 37.0,
+    "light_peak_over_fmax": 0.059760614487579515
+   },
+   "end": {
+    "dark_fwhm": 188.25,
+    "dark_peak_over_fmax": 0.012586557462266598,
+    "dark_n_above_0p9": 0,
+    "light_fwhm": 36.75,
+    "light_peak_over_fmax": 0.05941911806129972
+   },
+   "posthoc_law_fwhm_deg": 54.48014793583839,
+   "npz": "calib_M2_s0.2.npz",
+   "npz_sha256": "37af70577be684f494872348d7ffb5275d26f4fa763518f3b4ad813a533791bf"
+  },
+  {
+   "M": 2.0,
+   "sigma": 0.25,
+   "T_s": 4000.0,
+   "err_first_hz": 0.44,
+   "err_last_hz": 0.32,
+   "start": {
+    "dark_fwhm": 59.25,
+    "dark_peak_over_fmax": 0.9984264169369982,
+    "dark_n_above_0p9": 10,
+    "light_fwhm": 59.25,
+    "light_peak_over_fmax": 0.9992978333107463
+   },
+   "end": {
+    "dark_fwhm": 60.25,
+    "dark_peak_over_fmax": 0.999784834391607,
+    "dark_n_above_0p9": 10,
+    "light_fwhm": 60.25,
+    "light_peak_over_fmax": 0.9999058506677715
+   },
+   "posthoc_law_fwhm_deg": 68.47485938037137,
+   "npz": "calib_M2_s0.25.npz",
+   "npz_sha256": "e21154c46b24cddb2c1d1ef37d2dd9b637e291b40aee7be446ce42e292b54a88"
+  },
+  {
+   "M": 2.0,
+   "sigma": 0.3,
+   "T_s": 4000.0,
+   "err_first_hz": 0.57,
+   "err_last_hz": 0.37,
+   "start": {
+    "dark_fwhm": 59.25,
+    "dark_peak_over_fmax": 0.9984264169369982,
+    "dark_n_above_0p9": 10,
+    "light_fwhm": 59.75,
+    "light_peak_over_fmax": 0.9992934539129789
+   },
+   "end": {
+    "dark_fwhm": 72.25,
+    "dark_peak_over_fmax": 0.9999985958811138,
+    "dark_n_above_0p9": 12,
+    "light_fwhm": 72.25,
+    "light_peak_over_fmax": 0.9999993206429925
+   },
+   "posthoc_law_fwhm_deg": 82.73830324646327,
+   "npz": "calib_M2_s0.3.npz",
+   "npz_sha256": "2c0ea4285f8dbabbc54fe6ddc83997a77667016a67e42780598cc437cc939934"
+  },
+  {
+   "M": 2.0,
+   "sigma": 0.35,
+   "T_s": 4000.0,
+   "err_first_hz": 0.71,
+   "err_last_hz": 0.5,
+   "start": {
+    "dark_fwhm": 59.25,
+    "dark_peak_over_fmax": 0.9984264169369982,
+    "dark_n_above_0p9": 10,
+    "light_fwhm": 59.75,
+    "light_peak_over_fmax": 0.9992909765565544
+   },
+   "end": {
+    "dark_fwhm": 96.0,
+    "dark_peak_over_fmax": 0.9999998943196672,
+    "dark_n_above_0p9": 16,
+    "light_fwhm": 96.0,
+    "light_peak_over_fmax": 0.9999999549142765
+   },
+   "posthoc_law_fwhm_deg": 97.3456548334623,
+   "npz": "calib_M2_s0.35.npz",
+   "npz_sha256": "c212a465641fcdd59d301a9297b9aa67a8fef46e3aa35889a0cf0b10eada670d"
+  },
+  {
+   "M": 3.0,
+   "sigma": 0.2,
+   "T_s": 4000.0,
+   "err_first_hz": 0.6,
+   "err_last_hz": 0.38,
+   "start": {
+    "dark_fwhm": 59.25,
+    "dark_peak_over_fmax": 0.9984264169369982,
+    "dark_n_above_0p9": 10,
+    "light_fwhm": 59.75,
+    "light_peak_over_fmax": 0.9996891290219445
+   },
+   "end": {
+    "dark_fwhm": 60.25,
+    "dark_peak_over_fmax": 0.9999023038806498,
+    "dark_n_above_0p9": 10,
+    "light_fwhm": 60.25,
+    "light_peak_over_fmax": 0.9999813897136713
+   },
+   "posthoc_law_fwhm_deg": 68.9806068478476,
+   "npz": "calib_M3_s0.2.npz",
+   "npz_sha256": "754ca19c0d40cb20da1af72c806ebcdb5069b58072bd9f12bdedbf776e448e94"
+  },
+  {
+   "M": 3.0,
+   "sigma": 0.25,
+   "T_s": 4000.0,
+   "err_first_hz": 0.97,
+   "err_last_hz": 0.42,
+   "start": {
+    "dark_fwhm": 59.25,
+    "dark_peak_over_fmax": 0.9984264169369982,
+    "dark_n_above_0p9": 10,
+    "light_fwhm": 59.75,
+    "light_peak_over_fmax": 0.999685510196554
+   },
+   "end": {
+    "dark_fwhm": 84.0,
+    "dark_peak_over_fmax": 0.9999997546783879,
+    "dark_n_above_0p9": 14,
+    "light_fwhm": 84.0,
+    "light_peak_over_fmax": 0.9999999548244395
+   },
+   "posthoc_law_fwhm_deg": 87.00456841685727,
+   "npz": "calib_M3_s0.25.npz",
+   "npz_sha256": "c75f504a7c0e2a91c82efb97684b780fe844087d1cadd22a842632577165b2bd"
+  },
+  {
+   "M": 3.0,
+   "sigma": 0.3,
+   "T_s": 4000.0,
+   "err_first_hz": 1.32,
+   "err_last_hz": 0.41,
+   "start": {
+    "dark_fwhm": 59.25,
+    "dark_peak_over_fmax": 0.9984264169369983,
+    "dark_n_above_0p9": 10,
+    "light_fwhm": 59.75,
+    "light_peak_over_fmax": 0.9996842143293238
+   },
+   "end": {
+    "dark_fwhm": 108.25,
+    "dark_peak_over_fmax": 0.9999999621266569,
+    "dark_n_above_0p9": 18,
+    "light_fwhm": 108.25,
+    "light_peak_over_fmax": 0.9999999930869086
+   },
+   "posthoc_law_fwhm_deg": 105.61431931578656,
+   "npz": "calib_M3_s0.3.npz",
+   "npz_sha256": "1880dcbbd4e165eebc1a8b9e5bd8960d09bd9b4073a7a093def82590cbe1c9aa"
+  },
+  {
+   "M": 3.0,
+   "sigma": 0.35,
+   "T_s": 4000.0,
+   "err_first_hz": 1.57,
+   "err_last_hz": 0.39,
+   "start": {
+    "dark_fwhm": 59.25,
+    "dark_peak_over_fmax": 0.9984264169369983,
+    "dark_n_above_0p9": 10,
+    "light_fwhm": 59.75,
+    "light_peak_over_fmax": 0.9996839104159396
+   },
+   "end": {
+    "dark_fwhm": 132.25,
+    "dark_peak_over_fmax": 0.999999784749656,
+    "dark_n_above_0p9": 22,
+    "light_fwhm": 132.25,
+    "light_peak_over_fmax": 0.9999999554397725
+   },
+   "posthoc_law_fwhm_deg": 125.00886663001117,
+   "npz": "calib_M3_s0.35.npz",
+   "npz_sha256": "0c08ba7e5d52da95be073ee577eaddaecd08cfa7db16b457932733940547ae9f"
+  }
+ ]
+}

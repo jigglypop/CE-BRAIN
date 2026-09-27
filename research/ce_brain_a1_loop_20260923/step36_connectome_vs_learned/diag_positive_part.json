@@ -1,0 +1,12 @@
+{
+ "malecns": {
+  "corr_pos_L": 0.9613646101714527,
+  "corr_pos_R": 0.944125198397373,
+  "learned_negative_fraction": 0.6431406390362553
+ },
+ "hemibrain": {
+  "corr_pos_L": 0.9598478627993856,
+  "corr_pos_R": 0.9469730893695355,
+  "learned_negative_fraction": 0.6431406390362553
+ }
+}

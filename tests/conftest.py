@@ -20,10 +20,8 @@ def pytest_runtest_call(item):
     try:
         return (yield)
     except FileNotFoundError as error:
-        missing = Path(error.filename) if error.filename else None
-        if missing is not None and any(
-            str(missing).startswith(str(root)) for root in _EVIDENCE_ROOTS
-        ):
+        missing = Path(error.filename).resolve() if error.filename else None
+        if missing is not None and any(missing.is_relative_to(root) for root in _EVIDENCE_ROOTS):
             pytest.skip(
                 f"CE run evidence file missing: {missing} "
                 "(populate ce-runs next to this repo or set CE_RUNS_PATH)"

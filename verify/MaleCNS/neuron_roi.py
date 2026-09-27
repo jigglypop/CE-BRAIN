@@ -153,7 +153,7 @@ def load(result_path, verify_hash=True):
     result = json.loads(Path(result_path).read_text(encoding="utf-8"))
     if result.get("status") != "PASS":
         raise ValueError("ROI cache did not pass its cross-checks")
-    path = Path(result["cache"]["path"])
+    path = graph_module.local(result["cache"]["path"])
     if verify_hash and digest(path).hexdigest() != result["cache"]["sha256"]:
         raise ValueError("ROI cache hash changed")
     with np.load(path) as cache:

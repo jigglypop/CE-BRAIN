@@ -1,0 +1,1042 @@
+{
+  "result_sha256": "c0a2d62f56b32d8010ffa49b7e6309a4d7f77dfe874c59db9994dc7fc0990ff7",
+  "source_sha256": "13ab5df66b57526b38e0b3b1852ce937902d1fe9ee4f85575190eee02650f96d",
+  "gauge_max_absolute_jacobian": 0.0,
+  "rank_rule": "eigenvalue > 1e-10 * max(1, largest eigenvalue) of three structural coordinates; gauge is additional exact zero",
+  "snapshots": [
+    {
+      "step": 1,
+      "reference": "uniform",
+      "rank_counts_by_observation": {
+        "category30": [
+          0,
+          0,
+          3,
+          24
+        ],
+        "active_terminal60": [
+          0,
+          0,
+          3,
+          24
+        ],
+        "active_id_terminal_category": [
+          0,
+          0,
+          3,
+          24
+        ]
+      },
+      "diagonal60": [
+        {
+          "feature": "active_target",
+          "min": 0.06704310258816602,
+          "median": 0.21937569077098779,
+          "max": 0.2395973513034158,
+          "min_cohort": "ENS",
+          "max_cohort": "efferent_ascending",
+          "at_or_below_1e_minus10": []
+        },
+        {
+          "feature": "same_assigned_superclass",
+          "min": 0.0,
+          "median": 0.04530895997024137,
+          "max": 0.20559425760770592,
+          "min_cohort": "descending_neuron_tbc",
+          "max_cohort": "ol_intrinsic",
+          "at_or_below_1e_minus10": [
+            "descending_neuron_tbc",
+            "sensory_ascending_tbc",
+            "visual_projection_tbc"
+          ]
+        },
+        {
+          "feature": "reciprocal_nonself",
+          "min": 0.0029738888666764247,
+          "median": 0.02947751920818978,
+          "max": 0.07996735594137033,
+          "min_cohort": "descending_neuron_tbc",
+          "max_cohort": "cb_motor",
+          "at_or_below_1e_minus10": []
+        }
+      ],
+      "trace_fraction_of_refined": {
+        "category30": {
+          "min": 0.6571669201396703,
+          "median": 0.7725443208422899,
+          "max": 0.9368604544763467,
+          "min_cohort": "ENS",
+          "max_cohort": "vnc_intrinsic"
+        },
+        "active_terminal60": {
+          "min": 0.7491804585417569,
+          "median": 0.8530992969698802,
+          "max": 0.9637098589778742,
+          "min_cohort": "vnc_efferent",
+          "max_cohort": "vnc_intrinsic"
+        }
+      }
+    },
+    {
+      "step": 1,
+      "reference": "out_weight",
+      "rank_counts_by_observation": {
+        "category30": [
+          0,
+          0,
+          3,
+          24
+        ],
+        "active_terminal60": [
+          0,
+          0,
+          3,
+          24
+        ],
+        "active_id_terminal_category": [
+          0,
+          0,
+          3,
+          24
+        ]
+      },
+      "diagonal60": [
+        {
+          "feature": "active_target",
+          "min": 0.08672508809785745,
+          "median": 0.22207513673115786,
+          "max": 0.2474958811011339,
+          "min_cohort": "ENS",
+          "max_cohort": "sensory_ascending_tbc",
+          "at_or_below_1e_minus10": []
+        },
+        {
+          "feature": "same_assigned_superclass",
+          "min": 0.0,
+          "median": 0.040606696499284375,
+          "max": 0.2072083453699656,
+          "min_cohort": "descending_neuron_tbc",
+          "max_cohort": "ol_intrinsic",
+          "at_or_below_1e_minus10": [
+            "descending_neuron_tbc",
+            "sensory_ascending_tbc",
+            "visual_projection_tbc"
+          ]
+        },
+        {
+          "feature": "reciprocal_nonself",
+          "min": 0.00490514394495624,
+          "median": 0.03155951988137631,
+          "max": 0.11349833756159777,
+          "min_cohort": "descending_neuron_tbc",
+          "max_cohort": "cb_motor",
+          "at_or_below_1e_minus10": []
+        }
+      ],
+      "trace_fraction_of_refined": {
+        "category30": {
+          "min": 0.6892860672876293,
+          "median": 0.7902531279225038,
+          "max": 0.9446592803416082,
+          "min_cohort": "vnc_tbc",
+          "max_cohort": "vnc_intrinsic"
+        },
+        "active_terminal60": {
+          "min": 0.724554876828529,
+          "median": 0.867630270803163,
+          "max": 0.9668037433808893,
+          "min_cohort": "visual_projection_tbc",
+          "max_cohort": "vnc_intrinsic"
+        }
+      }
+    },
+    {
+      "step": 16,
+      "reference": "uniform",
+      "rank_counts_by_observation": {
+        "category30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "active_terminal60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "active_id_terminal_category": [
+          0,
+          0,
+          0,
+          27
+        ]
+      },
+      "diagonal60": [
+        {
+          "feature": "active_target",
+          "min": 0.00018817252893298255,
+          "median": 0.0006591267238444832,
+          "max": 0.004941031514003655,
+          "min_cohort": "cb_sensory_tbc",
+          "max_cohort": "cb_intrinsic",
+          "at_or_below_1e_minus10": []
+        },
+        {
+          "feature": "same_assigned_superclass",
+          "min": 4.189514055857623e-05,
+          "median": 0.00019874577088177178,
+          "max": 0.004233947218007918,
+          "min_cohort": "vnc_sensory_tbc",
+          "max_cohort": "cb_intrinsic",
+          "at_or_below_1e_minus10": []
+        },
+        {
+          "feature": "reciprocal_nonself",
+          "min": 2.6187414455128832e-05,
+          "median": 0.00013283863185325673,
+          "max": 0.004873530363873625,
+          "min_cohort": "vnc_sensory_tbc",
+          "max_cohort": "cb_intrinsic",
+          "at_or_below_1e_minus10": []
+        }
+      ],
+      "trace_fraction_of_refined": {
+        "category30": {
+          "min": 0.5232219623014612,
+          "median": 0.8102322469863733,
+          "max": 0.9755531357446225,
+          "min_cohort": "descending_neuron",
+          "max_cohort": "cb_endocrine"
+        },
+        "active_terminal60": {
+          "min": 0.9730412506510051,
+          "median": 0.9834647025839391,
+          "max": 0.9967338866436597,
+          "min_cohort": "ascending_neuron",
+          "max_cohort": "ENS"
+        }
+      }
+    },
+    {
+      "step": 16,
+      "reference": "out_weight",
+      "rank_counts_by_observation": {
+        "category30": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "active_terminal60": [
+          0,
+          0,
+          0,
+          27
+        ],
+        "active_id_terminal_category": [
+          0,
+          0,
+          0,
+          27
+        ]
+      },
+      "diagonal60": [
+        {
+          "feature": "active_target",
+          "min": 0.00011552603371797475,
+          "median": 0.000585373589944895,
+          "max": 0.003249353902658844,
+          "min_cohort": "cb_motor",
+          "max_cohort": "cb_sensory",
+          "at_or_below_1e_minus10": []
+        },
+        {
+          "feature": "same_assigned_superclass",
+          "min": 3.532344461544836e-05,
+          "median": 0.0001716671438939687,
+          "max": 0.0023790070167759385,
+          "min_cohort": "cb_motor",
+          "max_cohort": "cb_endocrine",
+          "at_or_below_1e_minus10": []
+        },
+        {
+          "feature": "reciprocal_nonself",
+          "min": 3.127581346485873e-05,
+          "median": 0.00013345599981424565,
+          "max": 0.0022053543910162737,
+          "min_cohort": "vnc_sensory_tbc",
+          "max_cohort": "cb_sensory",
+          "at_or_below_1e_minus10": []
+        }
+      ],
+      "trace_fraction_of_refined": {
+        "category30": {
+          "min": 0.5230506741824343,
+          "median": 0.791850052677949,
+          "max": 0.9761954120210733,
+          "min_cohort": "descending_neuron",
+          "max_cohort": "cb_endocrine"
+        },
+        "active_terminal60": {
+          "min": 0.9717025130365794,
+          "median": 0.9817338927912264,
+          "max": 0.9950972084829302,
+          "min_cohort": "vnc_intrinsic",
+          "max_cohort": "cb_endocrine"
+        }
+      }
+    }
+  ],
+  "finite_difference": [
+    {
+      "feature": "active_target",
+      "step_size": 0.0001,
+      "max_absolute_error": 2.980803034957624e-10,
+      "max_scaled_error": 0.004821160039184059,
+      "elapsed_seconds": 110.375700900011,
+      "max_error_location_step_output_probe": [
+        4,
+        33,
+        17
+      ]
+    },
+    {
+      "feature": "active_target",
+      "step_size": 5e-05,
+      "max_absolute_error": 2.1829445889798293e-10,
+      "max_scaled_error": 0.00970033576329328,
+      "elapsed_seconds": 129.56636699999217,
+      "max_error_location_step_output_probe": [
+        6,
+        33,
+        24
+      ]
+    },
+    {
+      "feature": "same_assigned_superclass",
+      "step_size": 0.0001,
+      "max_absolute_error": 1.8713342680998224e-10,
+      "max_scaled_error": 0.0025749370881618873,
+      "elapsed_seconds": 165.92696149999392,
+      "max_error_location_step_output_probe": [
+        5,
+        33,
+        25
+      ]
+    },
+    {
+      "feature": "same_assigned_superclass",
+      "step_size": 5e-05,
+      "max_absolute_error": 2.5007659137932237e-10,
+      "max_scaled_error": 0.0047360870019016905,
+      "elapsed_seconds": 167.21265719999792,
+      "max_error_location_step_output_probe": [
+        1,
+        15,
+        34
+      ]
+    },
+    {
+      "feature": "reciprocal_nonself",
+      "step_size": 0.0001,
+      "max_absolute_error": 1.8354125164155022e-10,
+      "max_scaled_error": 0.0063516894216551125,
+      "elapsed_seconds": 151.46783239999786,
+      "max_error_location_step_output_probe": [
+        4,
+        33,
+        25
+      ]
+    },
+    {
+      "feature": "reciprocal_nonself",
+      "step_size": 5e-05,
+      "max_absolute_error": 3.1474500783446047e-10,
+      "max_scaled_error": 0.01836184489316089,
+      "elapsed_seconds": 118.22991069999989,
+      "max_error_location_step_output_probe": [
+        4,
+        33,
+        24
+      ]
+    }
+  ],
+  "feature_census": [
+    {
+      "feature": "active_target",
+      "active_raw_id_dyads": 32751675,
+      "terminal_source_category_cells": 0,
+      "active_contact_weight": 134213930,
+      "terminal_contact_weight": 0
+    },
+    {
+      "feature": "same_assigned_superclass",
+      "active_raw_id_dyads": 18420974,
+      "terminal_source_category_cells": 14518,
+      "active_contact_weight": 84663333,
+      "terminal_contact_weight": 150107
+    },
+    {
+      "feature": "reciprocal_nonself",
+      "active_raw_id_dyads": 8871458,
+      "terminal_source_category_cells": 0,
+      "active_contact_weight": 52619911,
+      "terminal_contact_weight": 0
+    }
+  ],
+  "finite_difference_probe_max_error": [
+    [
+      [
+        7.065514145976337e-11,
+        5.530016375376867e-11,
+        2.5548881760206754e-10,
+        2.425147790918736e-10,
+        2.3498594736715006e-10,
+        2.3110701546924517e-10,
+        1.972665433780385e-10,
+        2.109813851403075e-10,
+        1.1380330011689921e-10,
+        1.1421177198434052e-10,
+        2.601771506571815e-10,
+        2.294785750311945e-10,
+        1.8692922210128415e-10,
+        2.772981982923639e-10,
+        2.58181725998341e-10,
+        2.47947710974028e-10,
+        2.352444072872828e-10,
+        2.980803034957624e-10,
+        2.370666718487513e-10,
+        2.2568758667462774e-10,
+        2.273655569373645e-10,
+        2.5190358132753943e-10,
+        2.272423152427372e-10,
+        2.335789270335731e-10,
+        2.7380561012924076e-10,
+        2.420300071470649e-10,
+        2.975720225784073e-10,
+        2.5946541443166993e-10,
+        2.5603580366961864e-10,
+        2.357175218903329e-10,
+        2.6295617072680244e-10,
+        2.598372142448291e-10,
+        2.1909049574553308e-10,
+        2.3731464710019523e-10,
+        2.440717628005018e-10,
+        2.13139790539163e-10,
+        2.735519102903261e-10,
+        2.1214931894553146e-10,
+        2.822604094898651e-10,
+        2.52148621426862e-10,
+        2.5927043845186404e-10,
+        2.0079726076316362e-10,
+        2.5233388989409633e-10,
+        2.627774386976256e-10,
+        2.541990715143605e-10,
+        1.9009197688157897e-10,
+        1.9959860153573317e-10,
+        1.8873001772501397e-10,
+        2.3184375252949252e-10,
+        2.44558734374678e-10,
+        1.8446269511862567e-10,
+        2.4097716877502506e-10,
+        2.2077509959084196e-10,
+        2.627334391713809e-10
+      ],
+      [
+        1.917704189891012e-11,
+        1.3823886479968905e-11,
+        9.339625600679469e-11,
+        1.1317379672304284e-10,
+        4.976974388171129e-11,
+        4.4727221926166294e-11,
+        8.948328709956765e-11,
+        8.10852912591642e-11,
+        1.5658594689979544e-10,
+        1.5797644832907243e-10,
+        6.755345588471684e-11,
+        1.0013759266236377e-10,
+        6.809916519578962e-11,
+        1.0983905451844578e-10,
+        1.3994297387576182e-10,
+        6.753646947244007e-11,
+        1.7085147185902372e-10,
+        1.226650656049877e-10,
+        3.9593009426575065e-11,
+        6.192969054241715e-11,
+        1.0054586330188187e-10,
+        1.1146036871245713e-10,
+        5.894167098841052e-11,
+        5.940382907798636e-11,
+        2.1829445889798293e-10,
+        1.1138718549949522e-10,
+        1.4807763348834158e-10,
+        2.0930165933741307e-10,
+        5.416867648877499e-11,
+        9.916008986143865e-11,
+        6.977775302008382e-11,
+        7.276463459549021e-11,
+        6.754505288419921e-11,
+        8.116002921804144e-11,
+        1.1587850123895294e-10,
+        2.057104486752337e-10,
+        9.337948605548166e-11,
+        1.203023321152269e-10,
+        7.116218725400358e-11,
+        6.563115328983571e-11,
+        8.163475451183899e-11,
+        6.824094761492816e-11,
+        1.0987788456873204e-10,
+        6.37809943748735e-11,
+        1.4761766115034547e-10,
+        7.858391715132029e-11,
+        1.4105325935043211e-10,
+        6.993615409012222e-11,
+        7.593247558501659e-11,
+        6.698738785892999e-11,
+        5.734215879904525e-11,
+        5.860971224406347e-11,
+        1.2400965324066426e-10,
+        5.3513318776232666e-11
+      ]
+    ],
+    [
+      [
+        5.660180137090354e-11,
+        1.5945779852782893e-11,
+        4.4514628094738384e-11,
+        5.176681999730093e-11,
+        5.470522645989462e-11,
+        4.542739795443396e-11,
+        8.815376900672689e-11,
+        4.87977123986294e-11,
+        1.3458023584433931e-10,
+        1.8015305219831745e-10,
+        5.439147743313555e-11,
+        6.397479421216268e-11,
+        1.568794608108881e-10,
+        1.0433409691756879e-10,
+        5.652245338438888e-11,
+        4.755768348574385e-11,
+        7.979199072305487e-11,
+        6.577535391349976e-11,
+        4.112078386131479e-11,
+        2.3116439318293658e-11,
+        5.897656842057675e-11,
+        3.328829573101544e-11,
+        4.13045153635494e-11,
+        3.708197984786388e-11,
+        1.8230668363816704e-10,
+        1.8713342680998224e-10,
+        9.132869460692916e-11,
+        8.852202304510115e-11,
+        4.034680575748517e-11,
+        7.574330052051437e-11,
+        2.447759356316581e-11,
+        5.304084255142172e-11,
+        1.389954817909711e-11,
+        3.164676853906201e-11,
+        8.826387537519409e-11,
+        5.951876665133415e-11,
+        7.315095230941981e-11,
+        6.893928483631129e-11,
+        4.342273399573007e-11,
+        5.5230021944741026e-11,
+        6.31204429002441e-11,
+        5.7321775798202523e-11,
+        8.390223238396999e-11,
+        1.1185573300931395e-10,
+        1.50175746838066e-10,
+        1.6144768855141933e-10,
+        5.419805403084066e-11,
+        7.02067709523746e-11,
+        8.225731207289755e-11,
+        5.0908763316037664e-11,
+        4.058631035419591e-11,
+        8.573829146651946e-11,
+        6.09510844573613e-11,
+        4.564867928102956e-11
+      ],
+      [
+        1.6078660972085324e-11,
+        6.080148537424002e-12,
+        5.0465284728851145e-11,
+        8.87749578709629e-11,
+        7.670565571604726e-11,
+        1.4309041798665767e-11,
+        5.540218978028477e-11,
+        3.3691438527938544e-11,
+        5.868230901207028e-11,
+        5.057962382259973e-11,
+        5.2547983861092867e-11,
+        7.740659502264435e-11,
+        1.0433884095259471e-10,
+        2.227759704140353e-10,
+        2.4025188088971916e-11,
+        1.9338343426600346e-11,
+        2.535371912415485e-11,
+        5.385957652093154e-11,
+        1.101000714209821e-11,
+        1.273065279496638e-11,
+        3.899255397732393e-11,
+        7.610287194263071e-11,
+        2.846953922608364e-11,
+        3.892584865550219e-11,
+        2.2280443462419086e-10,
+        1.0684106377389924e-10,
+        1.2122616799281616e-10,
+        8.416957408829973e-11,
+        8.182857169636293e-11,
+        2.2979949540480327e-11,
+        2.942864875399298e-11,
+        4.3684866820128693e-11,
+        1.8340440277597736e-11,
+        8.993347733188273e-11,
+        2.5007659137932237e-10,
+        1.2488630268814305e-10,
+        1.2349596659969736e-10,
+        5.855897017292833e-11,
+        8.998903846483414e-11,
+        5.276877546034342e-11,
+        5.861098412163201e-11,
+        4.113490353462729e-11,
+        8.479186103249603e-11,
+        5.786410651846541e-11,
+        1.0903417752006206e-10,
+        8.855274846730765e-11,
+        3.588010444310896e-11,
+        3.3037654426429364e-11,
+        8.204235665940258e-11,
+        4.9784648625816885e-11,
+        7.524027234584452e-11,
+        4.572387297073748e-11,
+        2.971015794495102e-11,
+        3.497312162092925e-11
+      ]
+    ],
+    [
+      [
+        6.304881616792102e-11,
+        2.3094580501453743e-11,
+        6.423835074986783e-11,
+        6.784921235958308e-11,
+        5.680039771860379e-11,
+        5.6429846906347336e-11,
+        8.139873497459149e-11,
+        4.816914922489701e-11,
+        4.0825840971758787e-11,
+        1.1410884737106386e-10,
+        9.407323531274159e-11,
+        1.459053641794661e-10,
+        9.093620301214855e-11,
+        1.3561074485579638e-10,
+        7.846766292285423e-11,
+        1.017577966333505e-10,
+        6.583845968410884e-11,
+        6.357595006001304e-11,
+        3.2456023979499093e-11,
+        3.256253253147712e-11,
+        8.175164017965031e-11,
+        8.492723885256126e-11,
+        8.217462821313859e-11,
+        6.627971782524611e-11,
+        8.331799139504881e-11,
+        1.8354125164155022e-10,
+        1.2254808973155562e-10,
+        1.1528754340073277e-10,
+        3.360077494019009e-11,
+        4.132017644709052e-11,
+        6.397751425857301e-11,
+        9.00318153362889e-11,
+        9.048676044565163e-11,
+        6.60786633743804e-11,
+        1.217226319738529e-10,
+        1.5510669831853008e-10,
+        1.0263043193070587e-10,
+        1.3578309310258163e-10,
+        1.0707172301560597e-10,
+        9.773273162982932e-11,
+        6.68810146153831e-11,
+        9.6997652965225e-11,
+        7.627090625739186e-11,
+        1.2292104833999673e-10,
+        5.1177409532421336e-11,
+        5.4978868679889104e-11,
+        6.725330015111552e-11,
+        7.556144598908077e-11,
+        1.40788544017445e-10,
+        6.385249273765936e-11,
+        5.807346270536584e-11,
+        7.994162970481611e-11,
+        6.216334044739646e-11,
+        7.159159376435298e-11
+      ],
+      [
+        1.8639895182914756e-11,
+        6.888878356647865e-12,
+        6.060069009512737e-11,
+        4.517292095940206e-11,
+        1.7454442025836153e-11,
+        1.368626045827881e-11,
+        1.811602257095757e-11,
+        2.734060165223394e-11,
+        1.063066301654203e-10,
+        1.6240354894225817e-10,
+        5.733775260141627e-11,
+        7.581874017503765e-11,
+        3.614243626604008e-11,
+        9.769374198498326e-11,
+        1.837761887113487e-11,
+        2.570751944652727e-11,
+        3.752777255616735e-11,
+        8.733472304448941e-11,
+        2.4735754243498942e-11,
+        2.913604156117716e-11,
+        3.678760768233147e-11,
+        2.5411610315995148e-11,
+        2.4998142444943028e-11,
+        4.128299296109108e-11,
+        3.1474500783446047e-10,
+        6.778139161056629e-11,
+        1.1629161522641596e-10,
+        1.0529553617910636e-10,
+        4.4087133473276214e-11,
+        4.574815526403597e-11,
+        1.3783744978734802e-11,
+        4.839845191284553e-11,
+        5.0869924321083476e-11,
+        5.488235560457966e-11,
+        1.4252241054002468e-10,
+        1.0524060095606913e-10,
+        7.389502898469402e-11,
+        3.153444172454556e-11,
+        6.272875274770939e-11,
+        4.888291854632243e-11,
+        1.709916409853296e-11,
+        4.814783988171811e-11,
+        5.3777092642263297e-11,
+        4.687077115317351e-11,
+        5.468578367917587e-11,
+        9.496318635555988e-11,
+        2.3655817315583732e-11,
+        1.6946741265063542e-11,
+        6.041164790637765e-11,
+        1.4233036971234014e-10,
+        1.3729943411041647e-11,
+        3.7585198842116085e-11,
+        3.82935454179556e-11,
+        2.2239505376164814e-11
+      ]
+    ]
+  ],
+  "rank_deficient_future_cases": [
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "uniform",
+      "observation": "category30",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.0024152857823986646,
+        0.21543704434513877
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "uniform",
+      "observation": "active_terminal60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.002450325341246396,
+        0.22425478320378806
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "uniform",
+      "observation": "active_id_terminal_category",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.013786554974933753,
+        0.22481378823789622
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "out_weight",
+      "observation": "category30",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.0035471522925639197,
+        0.2045322126520772
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "out_weight",
+      "observation": "active_terminal60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.0036410792519352905,
+        0.217339897889676
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "descending_neuron_tbc",
+      "reference": "out_weight",
+      "observation": "active_id_terminal_category",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.02093319471443884,
+        0.21781722139975274
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "uniform",
+      "observation": "category30",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.012721534677026525,
+        0.2187734798875291
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "uniform",
+      "observation": "active_terminal60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.012850916131566416,
+        0.22753362177923026
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "uniform",
+      "observation": "active_id_terminal_category",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.051699347974104116,
+        0.23007856318420714
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "out_weight",
+      "observation": "category30",
+      "rank": 2,
+      "eigenvalues": [
+        -5.481662390871165e-19,
+        0.012740523003338973,
+        0.23507342889917188
+      ],
+      "smallest_eigenvector": [
+        9.166023549199278e-17,
+        -1.0,
+        -3.330669073875469e-16
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "out_weight",
+      "observation": "active_terminal60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.013125705347254393,
+        0.25581314409515526
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "sensory_ascending_tbc",
+      "reference": "out_weight",
+      "observation": "active_id_terminal_category",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.06935615527178743,
+        0.2586052628250807
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "uniform",
+      "observation": "category30",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.002473499761812524,
+        0.24751073572459306
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "uniform",
+      "observation": "active_terminal60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.002473499761812524,
+        0.24751073572459306
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "uniform",
+      "observation": "active_id_terminal_category",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.07701063443963581,
+        0.2518419307557469
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "out_weight",
+      "observation": "category30",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.002284510871812055,
+        0.2579013699676156
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "out_weight",
+      "observation": "active_terminal60",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.002284510871812055,
+        0.2579013699676157
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "step": 1,
+      "cohort": "visual_projection_tbc",
+      "reference": "out_weight",
+      "observation": "active_id_terminal_category",
+      "rank": 2,
+      "eigenvalues": [
+        0.0,
+        0.09209330923235705,
+        0.267004240394657
+      ],
+      "smallest_eigenvector": [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    }
+  ],
+  "near_zero_coordinate_cases": []
+}

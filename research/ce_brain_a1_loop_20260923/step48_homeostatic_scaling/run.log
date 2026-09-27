@@ -1,0 +1,9 @@
+== malecns
+    before {"amp0": 29.271, "max_abs_err": 93.097, "median_abs_err": 30.184, "retention_22p5": 0.375, "distinct_end_positions": 3, "C1": false, "S1_n_ok": 2, "g": 0.004} rot 0.838 S2 None
+    after {"amp0": 642187.728, "max_abs_err": 111.814, "median_abs_err": 45.0, "retention_22p5": 0.25, "distinct_end_positions": 2, "C1": false, "S1_n_ok": 0, "g": 0.005} rot nan S2 None
+== hemibrain
+    before {"amp0": 285.681, "max_abs_err": 91.179, "median_abs_err": 33.565, "retention_22p5": 0.344, "distinct_end_positions": 3, "C1": false, "S1_n_ok": 2, "g": 0.007} rot 17.8 S2 None
+    after {"amp0": 532201.642, "max_abs_err": 133.026, "median_abs_err": 45.248, "retention_22p5": 0.25, "distinct_end_positions": 2, "C1": false, "S1_n_ok": 0, "g": 0.006} rot 0.009 S2 None
+== flywire
+    before {"amp0": 15927.649, "max_abs_err": 83.365, "median_abs_err": 29.583, "retention_22p5": 0.375, "distinct_end_positions": 3, "C1": false, "S1_n_ok": 1, "g": 0.014} rot nan S2 None
+verdict HOMEOSTASIS_DOES_NOT_REMOVE_WELLS {'malecns': False, 'hemibrain': False, 'flywire': False} {'malecns': False, 'hemibrain': False, 'flywire': False} {'malecns': False, 'hemibrain': False, 'flywire': False}

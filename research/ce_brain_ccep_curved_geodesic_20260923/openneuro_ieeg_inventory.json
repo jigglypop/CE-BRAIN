@@ -1,0 +1,659 @@
+[
+ {
+  "id": "ds004080",
+  "name": "CCEP ECoG dataset across age 4-51",
+  "tag": "1.2.4",
+  "size_bytes": 288953106451,
+  "n_subjects": 74,
+  "ccep_like": true,
+  "readme_head": "# Dataset description\nThis dataset consists of 74 patients age 4-51 years old where Cortico-Cortical Evoked Potentials (CCEPs) were measured with Electro-CorticoGraphy (ECoG) during single pulse electrical stimulation. For a detailed description see:\n\n- Developmental trajectory of transmission speed in the human brain. D. van Blooijs¹, M.A. van den Boom¹, J.F. van der Aar, G.J.M. Huiskamp, G. Castegnaro, M. Demuru, W.J.E.M. Zweiphenning, P. van Eijsden, K. J. Miller, F.S.S. Leijten, D. Hermes, Nature Neuroscience, 2023, https://doi.org/10.1038/s41593-023-01272-0  \n  ¹ these authors contributed"
+ },
+ {
+  "id": "ds005489",
+  "name": "Free Recall with Open-Loop Stimulation at Encoding",
+  "tag": "1.0.3",
+  "size_bytes": 69728763972,
+  "n_subjects": 38,
+  "ccep_like": true,
+  "readme_head": "### Free Recall with Open-Loop Stimulation at Encoding\n\n#### Description\nThis dataset contains behavioral events and intracranial electrophysiological recordings from a delayed free recall task with open-loop stimulation at encoding.  The experiment consists of participants studying a list of words, presented visually one at a time, completing simple arithmetic problems that function as a distractor, and then freely recalling the words from the just-presented list in any order.  The data was collected at clinical sites across the country as part of a collaboration with the Computational Memory"
+ },
+ {
+  "id": "ds006254",
+  "name": "IEEG CCEP Recording",
+  "tag": "1.0.0",
+  "size_bytes": 168302849862,
+  "n_subjects": 30,
+  "ccep_like": true,
+  "readme_head": ""
+ },
+ {
+  "id": "ds002799",
+  "name": "Human es-fMRI Resource: Concurrent deep-brain stimulation and whole-brain functional MRI",
+  "tag": "1.0.4",
+  "size_bytes": 19940287452,
+  "n_subjects": 26,
+  "ccep_like": true,
+  "readme_head": "Link to published paper for this data resource: https://rdcu.be/b57kz\n\nThis collection contains data from 26 human patients who underwent electrical stimulation during functional magnetic resonance imaging (es-fMRI). The patients had medically refractory epilepsy requiring surgically implanted intracranial electrodes in cortical and subcortical locations. One or multiple contacts on these electrodes were stimulated while simultaneously recording BOLD-fMRI activity in a block design. Multiple runs exist for patients with different stimulation sites. \nData is organized in two sessions : Pre-op ("
+ },
+ {
+  "id": "ds005523",
+  "name": "Spatial Memory of Object Locations with Open-Loop Stimulation at Encoding",
+  "tag": "1.0.1",
+  "size_bytes": 74834541025,
+  "n_subjects": 22,
+  "ccep_like": true,
+  "readme_head": "### Spatial Navigation Memory of Object Locations with Open-Loop Stimulation at Encoding\n\n#### Description\nThis dataset contains behavioral events and intracranial electrophysiological recordings from a spatial navigation memory task with open-loop stimulation at encoding.  The experiment consists of participants encoding object locations during a guided navigation learning phase and then recalling the object locations during a self-navigation test phase.  The data was collected at clinical sites across the country as part of a collaboration with the Computational Memory Lab at the University "
+ },
+ {
+  "id": "ds003498",
+  "name": "iEEG Interictal Asleep HFO Dataset",
+  "tag": "1.1.1",
+  "size_bytes": 48030875385,
+  "n_subjects": 20,
+  "ccep_like": true,
+  "readme_head": "Zurich iEEG HFO Dataset\n====================\n\nThis dataset was obtained from the publication [1].\n\nThere are 20 subjects with HFO events. We converted the dataset into BIDS format. The channels that were included in the resected region and channels excluded from analysis are included in the clinical Excel file under the ``sourcedata/`` directory. The channels were extracted from the Supplementary table at: https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-017-13064-1/MediaObjects/41598_2017_13064_MOESM1_ESM.pdf.\n\nThe original uploader: adam2392 obtained explicit permission from th"
+ },
+ {
+  "id": "ds005494",
+  "name": "Cued Recall of Paired Associates with Open-Loop Stimulation at Encoding or Retrieval",
+  "tag": "1.0.1",
+  "size_bytes": 28279607081,
+  "n_subjects": 20,
+  "ccep_like": true,
+  "readme_head": "### Cued Recall of Paired Associates with Open-Loop Stimulation at Encoding or Retrieval\n\n#### Description\nThis dataset contains behavioral events and intracranial electrophysiological recordings from a paired associates memory task with open-loop stimulation at encoding or retrieval.  The experiment consists of participants studying pairs of visually presented words, completing simple arithmetic problems that function as a distractor, and then completing a cued recall task.  The data was collected at clinical sites across the country as part of a collaboration with the Computational Memory La"
+ },
+ {
+  "id": "ds005491",
+  "name": "Categorized Free Recall with Open-Loop Stimulation at Encoding",
+  "tag": "1.0.0",
+  "size_bytes": 24202629465,
+  "n_subjects": 19,
+  "ccep_like": true,
+  "readme_head": "### Categorized Free Recall with Open-Loop Stimulation at Encoding\n\n#### Description\nThis dataset contains behavioral events and intracranial electrophysiological recordings from a categorized free recall task with open-loop stimulation at encoding.  The experiment consists of participants studying a list of words, presented visually one at a time, completing simple arithmetic problems that function as a distractor, and then freely recalling the words from the just-presented list in any order.  The data was collected at clinical sites across the country as part of a collaboration with the Comp"
+ },
+ {
+  "id": "ds005557",
+  "name": "Free Recall with Closed-Loop Stimulation at Encoding (Encoding Classifier)",
+  "tag": "1.0.0",
+  "size_bytes": 37243089880,
+  "n_subjects": 18,
+  "ccep_like": true,
+  "readme_head": "### Free Recall with Closed-Loop Stimulation at Encoding (Encoding Classifier)\n\n#### Description\nThis dataset contains behavioral events and intracranial electrophysiology recordings from a delayed free recall task with closed-loop stimulation at encoding, using a classifier trained on encoding data.  The experiment consists of participants studying a list of words, presented visually one at a time, completing simple arithmetic problems that function as a distractor, and then freely recalling the words from the just-presented list in any order.  The data was collected at clinical sites across "
+ },
+ {
+  "id": "ds005448",
+  "name": "STReEF",
+  "tag": "1.0.0",
+  "size_bytes": 48025611704,
+  "n_subjects": 13,
+  "ccep_like": true,
+  "readme_head": "Dataset description\nThis dataset is part of a bigger dataset of intracranial EEG (iEEG)  called RESPect (Registry for Epilepsy Surgery Patients), a dataset recorded at the University Medical Center of Utrecht, the Netherlands.\nThis dataset consists of 13 patients with long-term recordings (5 patients recorded with electrocorticography and 8 patients recorded with stereo-encephalography. For a detailed description see Jelsma S.B. et al 2024, Structural and effective brain connectivity in focal epilepsy.\n\nThis data is organized according to the Brain Imaging Data Structure specification: A commu"
+ },
+ {
+  "id": "ds005558",
+  "name": "Categorized Free Recall with Closed-Loop Stimulation at Encoding (Encoding Classifier)",
+  "tag": "1.0.0",
+  "size_bytes": 13091493612,
+  "n_subjects": 9,
+  "ccep_like": true,
+  "readme_head": "### Categorized Free Recall with Closed-Loop Stimulation at Encoding (Encoding Classifier)\n\n#### Description\nThis dataset contains behavioral events and intracranial electrophysiology recordings from a categorized free recall task with closed-loop stimulation at encoding, using a classifier trained on encoding data.  The experiment consists of participants studying a list of words, presented visually one at a time, completing simple arithmetic problems that function as a distractor, and then freely recalling the words from the just-presented list in any order.  The data was collected at clinic"
+ },
+ {
+  "id": "ds004696",
+  "name": "HAPwave_bids",
+  "tag": "1.0.1",
+  "size_bytes": 15212997823,
+  "n_subjects": 8,
+  "ccep_like": true,
+  "readme_head": "# Information\nThis dataset contains intracranial EEG (iEEG) recordings from 8 patients during single pulse electrical stimulation used in the publication of:\nOjeda Valencia G, Gregg N, Huang H, Lundstrom B, Brinkmann B, Pal Attia T, Van Gompel J, Bernstein M, In MH, Huston J, Worrell G, Miller KJ, and Hermes D. 2023. Signatures of electrical stimulation driven network interactions in the human limbic system. Journal of Neuroscience (in press).\n\n# License\nThis dataset is made available under the Public Domain Dedication and License CC v1.0, whose full text can be found at \nhttps://creativecommo"
+ },
+ {
+  "id": "ds007095",
+  "name": "RNS_Epilepsy-iBIDS",
+  "tag": "1.0.0",
+  "size_bytes": 521941815,
+  "n_subjects": 8,
+  "ccep_like": true,
+  "readme_head": "Dataset of long-term iEEG invasively recorded in epilepsy patients implanted with responsive neurostimulation system  (RNS)\n----------\nWe provided a long-term intracranial electroencephalography (iEEG) dataset of 8 epilepsy patients implanted with responsive neurostimulation (RNS) devices. The dataset was constituted by iEEG data recorded from bilateral epileptic lesion areas.\n\nEach recording contains 90 seconds of dual-channel iEEG around each stimulation, 60 seconds before the start of the stimulation, and about 30 seconds after the end of the stimulation. The stimulation markers are contain"
+ },
+ {
+  "id": "ds004370",
+  "name": "PRIOS",
+  "tag": "1.0.2",
+  "size_bytes": 29584367694,
+  "n_subjects": 7,
+  "ccep_like": true,
+  "readme_head": "# Dataset description\nThis dataset consists of 6 patients age 13-53 years old where Cortico-Cortical Evoked Potentials (CCEPs) were recorded with Electro-CorticoGraphy (ECoG) during single pulse electrical stimulation (SPES) in the awake patient for clinical routine (SPES-clinical) and under general propofol-anesthesia (SPES-propofol). \n\nFor a detailed description see:\n- The effect of propofol on local effective brain networks (submitted). D. van Blooijs, S. Blok, G.J.M. Huiskamp, P. van Eijsden, H.G.E. Meijer, F.S.S. Leijten\n\nThe study was approved by the Medical Ethical Committee from the UM"
+ },
+ {
+  "id": "ds006065",
+  "name": "TSS_iEEG",
+  "tag": "1.0.0",
+  "size_bytes": 10343281171,
+  "n_subjects": 7,
+  "ccep_like": true,
+  "readme_head": "# iEEG Dataset: Theta-synchronized Stimulation of Human Hippocampal Networks\n\n## Information\nThis folder contains intracranial EEG (iEEG) data from **7 participants** undergoing closed-loop stimulation as part of a study on hippocampal network connectivity, as used in the following publication:  \n\n**Kragel et al., 2025, Nature Communications:**  \n*“Closed-loop control of theta oscillations enhances human hippocampal network connectivity”*  \n\nFor questions or further information, contact:  \n- **James Kragel:** [jkragel@uchicago.edu](mailto:jkragel@uchicago.edu)  \n- **Joel Voss:** [joelvoss@uchi"
+ },
+ {
+  "id": "ds003844",
+  "name": "RESPect",
+  "tag": "1.0.3",
+  "size_bytes": 2795794610,
+  "n_subjects": 6,
+  "ccep_like": true,
+  "readme_head": "Dataset description\nThis dataset is part of a bigger dataset of intracranial EEG (iEEG)  called RESPect (Registry for Epilepsy Surgery Patients), a dataset recorded at the University Medical Center of Utrecht, the Netherlands.\nIt consists of 12 patients: six patients recorded intraoperatively using electrocorticography (acute ECoG), six patients with long-term recordings (3 patients recorded with ECoG and 3 patients recorded with stereo-encephalography SEEG). For a detailed description see (Demuru M, van Blooijs D, Zweiphenning W, Hermes D, Leijten F, Zijlmans M, on behalf of the RESPect group"
+ },
+ {
+  "id": "ds003848",
+  "name": "Dataset Clinical Epilepsy iEEG to BIDS - RESPect_longterm_iEEG",
+  "tag": "1.0.3",
+  "size_bytes": 69773848040,
+  "n_subjects": 6,
+  "ccep_like": true,
+  "readme_head": "Dataset description\nThis dataset is part of a bigger dataset of intracranial EEG (iEEG)  called RESPect (Registry for Epilepsy Surgery Patients), a dataset recorded at the University Medical Center of Utrecht, the Netherlands.\nIt consists of 12 patients: six patients recorded intraoperatively using electrocorticography (acute ECoG), six patients with long-term recordings (3 patients recorded with ECoG and 3 patients recorded with stereo-encephalography SEEG). For a detailed description see Demuru M, van Blooijs D, Zweiphenning W, Hermes D, Leijten F, Zijlmans M, on behalf of the RESPect group."
+ },
+ {
+  "id": "ds004457",
+  "name": "Electrical stimulation of temporal and limbic circuitry produces distinct responses in human ventral temporal cortex",
+  "tag": "1.0.2",
+  "size_bytes": 11705318065,
+  "n_subjects": 5,
+  "ccep_like": true,
+  "readme_head": "# Basis Profile Curve identification in the human ventral temporal cortex\n\nThis dataset contains intracranial EEG recordings from five patients during single pulse electrical stimulation as described in:\n \n* Huang, H., Gregg, N. M., Valencia, G. O., Brinkmann, B. H., Lundstrom, B. N., Worrell, G. A., ... & Hermes, D. (2023). Electrical stimulation of temporal and limbic circuitry produces distinct responses in human ventral temporal cortex. Journal of Neuroscience.\nDOI: https://doi.org/10.1523/JNEUROSCI.1325-22.2023\n\nPlease cite this work when using the data. These data were recorded at the Ma"
+ },
+ {
+  "id": "ds004977",
+  "name": "CARLA: Adjusted common average referencing for cortico-cortical evoked potential data",
+  "tag": "1.2.0",
+  "size_bytes": 1604950022,
+  "n_subjects": 4,
+  "ccep_like": true,
+  "readme_head": "# CARLA: Adjusted common average referencing for cortico-cortical evoked potential data\n\nThis dataset contains intracranial EEG recordings from four patients during single pulse electrical stimulation as described in:\n \n* H Huang, G Ojeda Valencia, NM Gregg, GM Osman, MN Montoya, GA Worrell, KJ Miller, and D Hermes. (2024). CARLA: Adjusted common average referencing for cortico-cortical evoked potential data. Journal of Neuroscience Methods, 110153. DOI: https://doi.org/10.1016/j.jneumeth.2024.110153.\n\nCurrently, this dataset contains the raw data needed to generate all results EXCEPT for thos"
+ },
+ {
+  "id": "ds007703",
+  "name": "Single pulse electrical stimulation in white matter modulates iEEG visual responses in human early visual cortex",
+  "tag": "1.0.0",
+  "size_bytes": 12294429866,
+  "n_subjects": 2,
+  "ccep_like": true,
+  "readme_head": "# SPES + Visual iEEG dataset\n\nThis dataset contains intracranial EEG recordings from two patients during single pulse electrical stimulation (SPES) and visual stimulation as described in:\n \nH Harvey, KN Kay, NM Gregg, G Ojeda Valencia, M In, C Kapeller, Y Shu, GA Worrell, KJ Miller, and D Hermes (2025). Single pulse electrical stimulation in white matter modulates iEEG visual responses in human early visual cortex. (Under Review)\n\nA preprint is available currently at doi: https://doi.org/10.1101/2025.05.05.652264. Note that stimulation data contained in the raw data files but which are not rel"
+ },
+ {
+  "id": "ds003708",
+  "name": "Basis profile curve identification to understand electrical stimulation effects in human brain networks",
+  "tag": "1.0.4",
+  "size_bytes": 650274380,
+  "n_subjects": 1,
+  "ccep_like": true,
+  "readme_head": "--------\nThis dataset contains intracranial EEG recordings from one patient during single pulse electrical stimulation. These data were recorded at the Mayo Clinic in Rochester, MN, as part of the NIH Brain Initiative supported project R01 MH122258 \"CRCNS: Processing speed in the human connectome across the lifespan\". \n\nThe overarching goal of this project is to develop a large database of single pulse stimulation data and develop tools to advance our understanding of the human connectome across the lifespan. \n\n\nCiting this dataset\n-------------------\nThis dataset is part of the paper on 'Basi"
+ },
+ {
+  "id": "ds004819",
+  "name": "Flexible, Scalable, High Channel Count Stereo-Electrode for Recording in the Human Brain",
+  "tag": "1.0.0",
+  "size_bytes": 722127657,
+  "n_subjects": 1,
+  "ccep_like": true,
+  "readme_head": "This project contains the data for the publication Lee et al, \"Flexible, Scalable, High Channel Count Stereo-Electrode for Recording in the Human Brain\". It contains the raw and preprocessed (epoched) intracranial EEG (iEEG) data files for multiple species to test novel high resolution micro-stereo-electrodes for recording neural activity in the brain. The data set involves the use of direct electrical stimulation to examine effects of stimulation in the brain. \n\nData are in the iEEG-BIDS format with binary files and channel maps included in the related derivatives folder. "
+ },
+ {
+  "id": "ds004789",
+  "name": "Delayed Free Recall of Word Lists",
+  "tag": "3.1.0",
+  "size_bytes": 618808962711,
+  "n_subjects": 280,
+  "ccep_like": false,
+  "readme_head": "### Delayed Free Recall of Word Lists\n\n#### Description\nThis dataset contains behavioral events and intracranial electrophysiological recordings from a delayed free recall task.  The experiment consists of participants studying a list of words, presented visually one at a time, completing simple arithmetic problems that function as a distractor, and then freely recalling the words from the just-presented list in any order.  The data was collected at clinical sites across the country as part of a collaboration with the Computational Memory Lab at the University of Pennsylvania.\n\n#### To Note\n* "
+ },
+ {
+  "id": "ds004809",
+  "name": "Categorized Free Recall: Delayed Free Recall of Word Lists Organized by Semantic Categories",
+  "tag": "2.2.0",
+  "size_bytes": 512365835522,
+  "n_subjects": 258,
+  "ccep_like": false,
+  "readme_head": "### Categorized Free Recall: Delayed Free Recall of Word Lists Organized by Semantic Categories\n\n#### Description\nThis dataset contains behavioral events and intracranial electrophysiological recordings from a categorized free recall task.  The experiment consists of participants studying a list of words, presented visually one at a time, completing simple arithmetic problems that function as a distractor, and then freely recalling the words from the just-presented list in any order.  The data was collected at clinical sites across the country as part of a collaboration with the Computational "
+ },
+ {
+  "id": "ds005398",
+  "name": "Open iEEG Dataset",
+  "tag": "1.1.3",
+  "size_bytes": 109729585717,
+  "n_subjects": 185,
+  "ccep_like": false,
+  "readme_head": "This dataset was utilized for the publication of the manuscript by Zhang et al. [1]. A subset of the data has been employed in [2], [3], [4], and [5].\n\nSummary:\nThis data set comprises the de-identified subjects with interictal iEEG recordings with sleep from University of California Los Angels Mattel Children’s Hospital, and Children’s Hospital of Michigan, Detroit. \nSubject-wise information is contained in each folder, including iEEGs collected from 185 subjects during sleep. The channel name and valuables, such as the anatomical label and the resection status, are attached to each folder. T"
+ },
+ {
+  "id": "ds006107",
+  "name": "iEEG_Neural_spatial_volatility",
+  "tag": "1.0.0",
+  "size_bytes": 12778446176,
+  "n_subjects": 166,
+  "ccep_like": false,
+  "readme_head": ""
+ },
+ {
+  "id": "ds006910",
+  "name": "Auditory Naming",
+  "tag": "1.0.1",
+  "size_bytes": 47891802796,
+  "n_subjects": 121,
+  "ccep_like": false,
+  "readme_head": "This dataset, used in the analysis reported by Kochi et al., (2025), contains intracranial EEG recordings from 121 individuals who performed an auditory‑naming task. Electrode coordinates are provided in MNI‑305 space.\n\nEach EDF file is tagged for the auditory naming task with the following event codes:  \n401 – stimulus onset  \n402 – stimulus offset  \n501 – response onset  \n\nReference: \nRyuzaburo Kochi, Aya Kanno, Hiroshi Uda, Keisuke Hatano,  Masaki Sonoda, Hidenori Endo, Michael Cools, Robert Rothermel, Aimee F. Luat, Eishi Asano. Whole-Brain Millisecond-Scale Effective Connectivity Atlases "
+ },
+ {
+  "id": "ds006234",
+  "name": "Auditory naming",
+  "tag": "1.0.0",
+  "size_bytes": 47167316634,
+  "n_subjects": 119,
+  "ccep_like": false,
+  "readme_head": "This dataset, used in the analysis reported by Kochi et al., (2025), contains intracranial EEG recordings from 119 individuals who performed an auditory‑naming task. Electrode coordinates are provided in MNI‑305 space.\n\nEach EDF file is tagged for the auditory naming task with the following event codes:  \n401 – stimulus onset  \n402 – stimulus offset  \n501 – response onset  \n\nReference: \nRyuzaburo Kochi, Aya Kanno, Hiroshi Uda, Keisuke Hatano, Hidenori Endo, Michael Cools, Robert Rothermel, Aimee F. Luat, Eishi Asano. Naming is Shaped by Early Facilitative and Late Compensatory Neural Interacti"
+ },
+ {
+  "id": "ds004551",
+  "name": "testMIproject",
+  "tag": "1.0.6",
+  "size_bytes": 74017379206,
+  "n_subjects": 114,
+  "ccep_like": false,
+  "readme_head": "This dataset was curated for publication as part of the manuscript in Sakakura et al. (in preparation). \nIt contains iEEGs collected from 114 individuals during slow wave sleep. \nThe available Matlab code can be found at https://github.com/kaz1126/MI_HFO.\nThe iEEG coordinate system employed in this dataset is MNI305.\n"
+ },
+ {
+  "id": "ds006914",
+  "name": "Picture naming",
+  "tag": "1.0.3",
+  "size_bytes": 18843484223,
+  "n_subjects": 110,
+  "ccep_like": false,
+  "readme_head": "This dataset, used in the analysis reported by Kochi et al., (2025), contains intracranial EEG recordings from 110 individuals who performed an visual‑naming task. Electrode coordinates are provided in MNI‑305 space.\n\nEach EDF file is tagged for the visual naming task with the following event codes:  \n401 – stimulus onset  \n501 – response onset  \n\nReference: \nRyuzaburo Kochi, Aya Kanno, Hiroshi Uda, Keisuke Hatano,  Masaki Sonoda, Hidenori Endo, Michael Cools, Robert Rothermel, Aimee F. Luat, Eishi Asano. Whole-Brain Millisecond-Scale Effective Connectivity Atlases of Speech \n"
+ },
+ {
+  "id": "ds006233",
+  "name": "Picture naming",
+  "tag": "1.0.0",
+  "size_bytes": 18579703387,
+  "n_subjects": 108,
+  "ccep_like": false,
+  "readme_head": "This dataset, used in the analysis reported by Kochi et al., (2025), contains intracranial EEG recordings from 108 individuals who performed an picture‑naming task. Electrode coordinates are provided in MNI‑305 space.\n\nEach EDF file is tagged for the auditory naming task with the following event codes:  \n401 – stimulus onset  \n501 – response onset  \n\nReference: \nRyuzaburo Kochi, Aya Kanno, Hiroshi Uda, Keisuke Hatano, Hidenori Endo, Michael Cools, Robert Rothermel, Aimee F. Luat, Eishi Asano. Naming is Shaped by Early Facilitative and Late Compensatory Neural Interactions: An Intracranial Stud"
+ },
+ {
+  "id": "ds005545",
+  "name": "auditory",
+  "tag": "1.0.3",
+  "size_bytes": 42905692557,
+  "n_subjects": 106,
+  "ccep_like": false,
+  "readme_head": "This dataset, used in the analysis reported by Kanno et al., (2025), contains intracranial EEG recordings from 106 individuals who performed an auditory‑naming task. The corresponding MATLAB analysis code is available at https://github.com/a8k8nn0/TractographyAtlas, and electrode coordinates are provided in MNI‑305 space.\n\nEach EDF file is tagged for the auditory naming task with the following event codes:  \n401 – stimulus onset  \n402 – stimulus offset  \n501 – response onset  \n\nReference: \nAya Kanno, Ryuzaburo Kochi, Kazuki Sakakura, Yu Kitazawa, Hiroshi Uda, Riyo Ueda, Masaki Sonoda, Min-Hee "
+ },
+ {
+  "id": "ds007119",
+  "name": "iEEG_comprehensive_HFA_model_part3",
+  "tag": "1.0.0",
+  "size_bytes": 34981740938,
+  "n_subjects": 103,
+  "ccep_like": false,
+  "readme_head": "This dataset contains intracranial EEG data recorded during non-REM sleep and used in Hatano et al. (in press).\n\nAuthors: \nKeisuke Hatano, Naoto Kuroda, Hiroshi Uda, Kazuki Sakakura, Michael J. Cools, Aimee F. Luat, Shin-Ichiro Osawa, Hitoshi Nemoto, Kazushi Ukishiro, Hidenori Endo, Nobukazu Nakasato, Yutaro Takayama, Keiya Iijima, Masaki Iwasaki, Eishi Asano\n\nFunding: \nNational Institutes of Health (NIH; NS064033 to E.A.); \nUehara Memorial Foundation Postdoctoral Fellowship (202441017 to K.H.; 20210301 to H.U.);\nJapan Society for the Promotion of Science (JP22J23281, JP22KJ0323, and 202560576"
+ },
+ {
+  "id": "ds005059",
+  "name": "Paired Associates Learning: Memory for Word Pairs in Cued Recall",
+  "tag": "1.0.6",
+  "size_bytes": 179631838657,
+  "n_subjects": 72,
+  "ccep_like": false,
+  "readme_head": "### Paired Associates Learning of Word Pairs\n\n#### Description\nThis dataset contains behavioral events and intracranial electrophysiological recordings from a paired associates memory task.  The experiment consists of participants studying pairs of visually presented words, solving simple arithmetic problems that function as a distractor, and then completing a cued recall task.  The data was collected at clinical sites across the country as part of a collaboration with the Computational Memory Lab at the University of Pennsylvania.\n\nEach session contains 25 lists of the structure: encoding, di"
+ },
+ {
+  "id": "ds007118",
+  "name": "iEEG_comprehensive_HFA_model_part1",
+  "tag": "1.0.0",
+  "size_bytes": 36317646610,
+  "n_subjects": 65,
+  "ccep_like": false,
+  "readme_head": "This dataset contains intracranial EEG data recorded during non-REM sleep and used in Hatano et al. (in press).\n\nAuthors: \nKeisuke Hatano, Naoto Kuroda, Hiroshi Uda, Kazuki Sakakura, Michael J. Cools, Aimee F. Luat, Shin-Ichiro Osawa, Hitoshi Nemoto, Kazushi Ukishiro, Hidenori Endo, Nobukazu Nakasato, Yutaro Takayama, Keiya Iijima, Masaki Iwasaki, Eishi Asano\n\nFunding: \nNational Institutes of Health (NIH; NS064033 to E.A.); \nUehara Memorial Foundation Postdoctoral Fellowship (202441017 to K.H.; 20210301 to H.U.);\nJapan Society for the Promotion of Science (JP22J23281, JP22KJ0323, and 202560576"
+ },
+ {
+  "id": "ds007120",
+  "name": "iEEG_comprehensive_HFA_model_part2",
+  "tag": "1.0.0",
+  "size_bytes": 35448518496,
+  "n_subjects": 65,
+  "ccep_like": false,
+  "readme_head": "This dataset contains intracranial EEG data recorded during non-REM sleep and used in Hatano et al. (in press).\n\nAuthors: \nKeisuke Hatano, Naoto Kuroda, Hiroshi Uda, Kazuki Sakakura, Michael J. Cools, Aimee F. Luat, Shin-Ichiro Osawa, Hitoshi Nemoto, Kazushi Ukishiro, Hidenori Endo, Nobukazu Nakasato, Yutaro Takayama, Keiya Iijima, Masaki Iwasaki, Eishi Asano\n\nFunding: \nNational Institutes of Health (NIH; NS064033 to E.A.); \nUehara Memorial Foundation Postdoctoral Fellowship (202441017 to K.H.; 20210301 to H.U.);\nJapan Society for the Promotion of Science (JP22J23281, JP22KJ0323, and 202560576"
+ },
+ {
+  "id": "ds003688",
+  "name": "Open multimodal iEEG-fMRI dataset from naturalistic stimulation with a short audiovisual film",
+  "tag": "1.0.7",
+  "size_bytes": 16334721863,
+  "n_subjects": 63,
+  "ccep_like": false,
+  "readme_head": "Open iEEG-fMRI dataset from stimulation with a short audiovisual film\n\nFull description of the data in our dataset paper: https://www.nature.com/articles/s41597-022-01173-0\n\nVideo description of the dataset: https://www.youtube.com/watch?v=C14cWM1CvrE&t=13s\n\nUMC Utrecht Team\nhttps://www.nick-ramsey.eu/\n\n"
+ },
+ {
+  "id": "ds005083",
+  "name": "Safety and Accuracy of Stereoelectroencephalography for Pediatric Patients with Prior Craniotomy",
+  "tag": "1.0.0",
+  "size_bytes": 288430,
+  "n_subjects": 60,
+  "ccep_like": false,
+  "readme_head": "BIDS iEEG dataset for the SEEG electrode data used for analysis in the manuscript title \"Safety and Accuracy of Stereoelectroencephalography for Pediatric Patients with Prior Craniotomy.\"\nAll coordinates are recorded in the individual native post-operative CT imaging space. There was no alignment to other imaging modalities or standardized atlases.\n"
+ },
+ {
+  "id": "ds005522",
+  "name": "Spatial Navigation Memory of Object Locations",
+  "tag": "1.0.0",
+  "size_bytes": 115392336164,
+  "n_subjects": 58,
+  "ccep_like": false,
+  "readme_head": "### Spatial Navigation Memory of Object Locations\n\n#### Description\nThis dataset contains behavioral events and intracranial electrophysiological recordings from a spatial navigation memory task.  The experiment consists of participants encoding object locations during a guided navigation learning phase and then recalling the object locations during a self-navigation test phase.  The data was collected at clinical sites across the country as part of a collaboration with the Computational Memory Lab at the University of Pennsylvania.\n\nEach session contains 50 trials (2 practice and 48 experimen"
+ },
+ {
+  "id": "ds004100",
+  "name": " ",
+  "tag": "1.1.3",
+  "size_bytes": 14196260504,
+  "n_subjects": 57,
+  "ccep_like": false,
+  "readme_head": "<h1>HUP iEEG dataset</h1>\n\nThis dataset was prepared for release as part of a manuscript by Bernabei & Li et al. (in preparation). A subset of the data has been featured in Kini & Bernabei et al., Brain (2019) [1], and Bernabei & Sinha et al., Brain (2022) [2]. \n\n<h3>Dataset description</h3>\nThese files contain de-identified patient data collected as part of surgical treatment for drug resistant epilepsy at the Hospital of the University of Pennsylvania. Each of the 58 subjects underwent intracranial EEG with subdural grid, strip, and depth electrodes (ECoG) or purely stereotactically-placed d"
+ },
+ {
+  "id": "ds004865",
+  "name": "pyFR: Delayed Free Recall of Word Lists, Preliminary Cognitive Electrophysiology Study",
+  "tag": "2.0.1",
+  "size_bytes": 104999471870,
+  "n_subjects": 49,
+  "ccep_like": false,
+  "readme_head": "### pyFR: Delayed Free Recall of Word Lists, Preliminary Cognitive Electrophysiology Study\n\n#### Description\nThis dataset contains behavioral events and intracranial electrophysiological recordings from a delayed free recall task.  The experiment consists of participants studying a list of words, presented visually one at a time, completing simple arithmetic problems that function as a distractor, and then freely recalled the words from the just-presented list in any order.  The data was collected at clinical sites across the country as part of a collaboration with the Computational Memory Lab"
+ },
+ {
+  "id": "ds005411",
+  "name": "Free Recall of Word Lists with Repeated Items",
+  "tag": "1.0.1",
+  "size_bytes": 168961242901,
+  "n_subjects": 48,
+  "ccep_like": false,
+  "readme_head": "### Free Recall of Word Lists with Repeated Items\n\n#### Description\nThis dataset contains behavioral events and intracranial electrophysiological recordings from a repated item free recall task.  The experiment consists of participants studying a list of words, presented visually one at a time, and then freely recalling the words from the just-presented list in any order. On each list, there is a 7-second delay period between the encoding and recall phases.  The data were collected at clinical sites across the country as part of a collaboration with the Computational Memory Lab at the Universi"
+ },
+ {
+  "id": "ds005007",
+  "name": "Auditory naming task with questions that begin or end with a wh-interrogative",
+  "tag": "1.0.0",
+  "size_bytes": 8896470075,
+  "n_subjects": 40,
+  "ccep_like": false,
+  "readme_head": ""
+ },
+ {
+  "id": "ds003876",
+  "name": "Epilepsy-iEEG-Interictal-Multicenter-Dataset",
+  "tag": "1.0.2",
+  "size_bytes": 5368598177,
+  "n_subjects": 39,
+  "ccep_like": false,
+  "readme_head": "Epilepsy Interictal Dataset\n=====================\n\nThis dataset was updated and prepared for release as part of a manuscript by Bernabei & Li et al. (in preparation). A subset of the data has been featured in [1] and [2].\n\nSummary\n-------------\n\nThis dataset comprises of de-identified subjects with interictal iEEG recordings possibly with sleep or awake state annotated. The subjects come from the following centers:\n\n- National Institute of Health (NIH)\n- Johns Hopkins Hospital (JHH)\n- University of Miami Florida Jackson Memorial Hospital (UMF)\n\nIn the actual study, there is also data from Kans"
+ },
+ {
+  "id": "ds003029",
+  "name": "iEEG Fragility Epileptogenic Zone",
+  "tag": "1.0.7",
+  "size_bytes": 11083752416,
+  "n_subjects": 35,
+  "ccep_like": false,
+  "readme_head": "Fragility Multi-Center Retrospective Study\n------------------------------------------\n\nThis dataset was updated and prepared for release as part of a manuscript by Bernabei & Li et al. (in preparation). A subset of the data has been featured in [1].\n\nSummary\n-------------\n\niEEG and EEG data from 5 centers is organized in our study with a total of 100 subjects. We publish 4 centers' dataset here due to data sharing issues. \n\nAcquisitions include ECoG and SEEG. Each run specifies a different snapshot of EEG data from that specific subject's session. For seizure sessions, this means that each run"
+ },
+ {
+  "id": "ds005624",
+  "name": "Color Change Detection Task",
+  "tag": "1.0.0",
+  "size_bytes": 14768426442,
+  "n_subjects": 24,
+  "ccep_like": false,
+  "readme_head": "References\r\n----------\r\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Höchenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896\r\n\r\nHoldgraf, C., Appelhoff, S., Bickel, S., Bouchard, K., D'Ambrosio, S., David, O., … Hermes, D. (2019). iEEG-BIDS, extending the Brain Imaging Data Structure specification to h"
+ },
+ {
+  "id": "ds004944",
+  "name": "Dataset of BCI2000-compatible intraoperative ECoG with neuromorphic encoding",
+  "tag": "1.1.0",
+  "size_bytes": 473061643,
+  "n_subjects": 22,
+  "ccep_like": false,
+  "readme_head": "## Overview\n\nThis dataset comprises recordings of intraoperative Electrocorticography (ECoG) from 22 patients undergoing resective epilepsy surgery.\nFor each patient, the dataset is organized into pre-resection recording (referred to as SITUATION1A) and post-resection recording (referred to as SITUATION2A).\n\nWe provide raw ECoG recordings for each patient and a derivative folder that contains all the main processing stages \nperformed with our neuromorphic processing pipeline: [https://doi.org/10.1038/s41467-024-47495-y](https://doi.org/10.1038/s41467-024-47495-y).\n\nThe pipeline preprocesses EC"
+ },
+ {
+  "id": "ds006253",
+  "name": "MetaRDK",
+  "tag": "1.0.3",
+  "size_bytes": 671939,
+  "n_subjects": 21,
+  "ccep_like": false,
+  "readme_head": "## Evidence accumulation in the pre-supplementary motor area and insula drives confidence and changes of mind\n\nGoueytes, D., Gigyer, L., Rouy, M., Hoffmann, D., Minotti, L., Kahane, P., Pereira, M., and Faivre, N. Evidence accumulation in the pre-supplementary motor area and insula drives confidence and changes of mind.\n\n## Overview\n\n### Overview of the task\n\nMetaRDK is a project aiming to understand the neural correlates of decision making and decision making-related metacognition. Epileptic patient with pharmacology intractable epilepsy performed a perceptual decision making task associated "
+ },
+ {
+  "id": "ds006519",
+  "name": "Dataset of intracranial EEG during cortical stimulations evoking negative motor responses",
+  "tag": "1.0.0",
+  "size_bytes": 1118742821,
+  "n_subjects": 21,
+  "ccep_like": false,
+  "readme_head": "In this dataset we included iEEG recordings of responses to 41 intracranial high frequency stimulations evoking \r\nnegative motor responses, in 23 patients undergoing stereo-EEG presurgical evaluation for drug-resistant epilepsy.\r\n\r\nThe dataset contains 24 seconds of iEEG data around each stimulation, 9-10 seconds before the start of the stimulation, \r\nup to 5 seconds of intracranial stimulation and 9-10 seconds after the end of the stimulation. Each recording contains\r\ntwo 5 second epochs, pre-stimulation (used as baseline in the connectivity analysis) and post-stimulation.\r\n\r\nWe have used hig"
+ },
+ {
+  "id": "ds005169",
+  "name": "Dataset of intracranial EEG during cortical stimulation evoking visual effects",
+  "tag": "1.0.0",
+  "size_bytes": 4322721427,
+  "n_subjects": 20,
+  "ccep_like": false,
+  "readme_head": "In this dataset we included iEEG recordings of responses to 115 intracranial high frequency stimulations evoking \nvisual hallucinations, in 22 patients undergoing stereo-EEG presurgical evaluation for drug-resistant epilepsy.\n\nThe dataset contains 21 seconds of iEEG data around each stimulation, 8 seconds before the start of the stimulation, \nup to 5 seconds of intracranial stimulation and 8 seconds after the end of the stimulation.\n\nWe have used high-frequency bipolar stimulations of different areas of the brain, using alternating polarity \nbiphasic pulses having a duration of 1 ms, at 43.2 H"
+ },
+ {
+  "id": "ds004752",
+  "name": "Dataset of intracranial EEG, scalp EEG and beamforming sources from epilepsy patients performing a verbal working memory task",
+  "tag": "1.0.1",
+  "size_bytes": 10984448479,
+  "n_subjects": 15,
+  "ccep_like": false,
+  "readme_head": "### Dataset of intracranial EEG, scalp EEG and beamforming sources from human epilepsy patients performing a verbal working memory task\n\n#### Description\nWe present an electrophysiological dataset recorded from fifteen subjects during a verbal working memory task. Subjects were epilepsy patients undergoing intracranial monitoring for localization of epileptic seizures. Subjects performed a modified Sternberg task in which the encoding of memory items, maintenance, and recall were temporally separated. The dataset includes simultaneously recorded scalp EEG with the 10-20 system, intracranial EE"
+ },
+ {
+  "id": "ds004194",
+  "name": "Visual ECoG dataset",
+  "tag": "3.0.0",
+  "size_bytes": 8405758704,
+  "n_subjects": 14,
+  "ccep_like": false,
+  "readme_head": "## Details related to access to the data\n\n- Contact person\n\nPlease contact Iris Groen (i.i.a.groen@uva.nl, https://orcid.org/0000-0002-5536-6128) for more information.\n\nPlease see the following papers for more details on the data collection and preprocessing: \n\nGroen IIA, Piantoni G, Montenegro S, Flinker A, Devore S, Devinsky O, Doyle W, Dugan P, Friedman D, Ramsey N, Petridou N, Winawer JA (2022) Temporal dynamics of neural responses in human visual cortex. The Journal of Neuroscience 42(40):7562-7580 (https://doi.org/10.1523/JNEUROSCI.1812-21.2022) \n\nYuasa K, Groen IIA, Piantoni G, Monteneg"
+ },
+ {
+  "id": "ds004774",
+  "name": "Automatic Evoked Response Detection (ER-Detect) dataset",
+  "tag": "1.0.0",
+  "size_bytes": 26608945134,
+  "n_subjects": 14,
+  "ccep_like": false,
+  "readme_head": ""
+ },
+ {
+  "id": "ds005415",
+  "name": "Numbers",
+  "tag": "1.0.0",
+  "size_bytes": 8015284412,
+  "n_subjects": 13,
+  "ccep_like": false,
+  "readme_head": "Welcome to the numbers dataset. These data were collected using stereoelectroencephalography recordings of epilepsy patients while they were waiting on the epilepsy monitoring unit to have seizures at Oregon Health & Science University. They were shown auditory and visual numbers that were symbolic (Arabic + spoken) or non-symbolic (dots + beeps)."
+ },
+ {
+  "id": "ds006136",
+  "name": "OWM-Dataset",
+  "tag": "1.0.1",
+  "size_bytes": 299778229,
+  "n_subjects": 13,
+  "ccep_like": false,
+  "readme_head": "# OWM-Dataset\n\n## Description\nThe dataset contains processed intracranial EEG recordings from frontal (LMFG, RMFG) and temporal (LMTG, RMTG) areas of 13 subjects (epilepsy patients) while they performed a load-3 object working memory task. Please see the associated publication (Paper): https://doi.org/10.1016/j.neuroimage.2026.121718\n\n## Data structure\n\n### Included trials\nThe dataset includes trials which were used for the final analyses (i.e., after artifact rejection; see the Methods section of the Paper for a full description of preprocessing procedures). Note that since some artifact reje"
+ },
+ {
+  "id": "ds004642",
+  "name": "Intraoperative recordings of medianus stimulation with low and high impedance ECoG",
+  "tag": "1.0.1",
+  "size_bytes": 1292805561,
+  "n_subjects": 10,
+  "ccep_like": false,
+  "readme_head": " ## Intraoperative recordings of medianus stimulation with low and high impedance ECoG\nThis dataset of medianus SEP was first analyzed in publication [1]. There we investigated whether the low impedance ECoG electrode (LoZ) improves fast ripple detection over a standard electrode with high impedance contacts (HiZ).\nThere are 10 patients (median age 40 y, range 19-56 y, 6 female) who underwent brain tumor resections in the perirolandic region at our institution. The data includes the continuous raw data from the ECoG contacts of both electrodes. We recorded medianus SEP intraoperatively (stimul"
+ },
+ {
+  "id": "ds004703",
+  "name": "PassiveListen",
+  "tag": "1.1.0",
+  "size_bytes": 13278807157,
+  "n_subjects": 10,
+  "ccep_like": false,
+  "readme_head": "CONTACT\r\n\r\nFor questions about this data set, please contact Anna Mai (anna.mai@mpi.nl; ORCiD 0000-0002-8343-9216). \r\n\r\nPERMISSIONS\r\n\r\nThese data may not be used for commericial purposes, including but not limited to use in any kind of training set for commercial machine learning applications.\r\n\r\nThese data may not be used in any way that either in part or in whole disambiguates participant identity, including but not limited to attempts at 3D facial reconstruction.\r\n\r\nRECORDING SETUP\r\n\r\nThese data were collected from June 2018 to August 2019.\r\n\r\nFor all patients, a scalp electrode was used fo"
+ },
+ {
+  "id": "ds004770",
+  "name": "iEEG on children during gameplay",
+  "tag": "1.0.0",
+  "size_bytes": 9325612810,
+  "n_subjects": 10,
+  "ccep_like": false,
+  "readme_head": "Dataset of intracranial EEG from human epilepsy patients performing a visuospatial working memory task\n\nDescription:\n\nWe present an electrophysiological dataset recorded from ten subjects during a visuospatial working memory task. Subjects were epilepsy patients undergoing intracranial monitoring for localization of epileptic seizures. Subjects completed 60 trials (five sessions) of Memory Matrix - a visuospatial working memory game on the Lumosity platform (https://www.lumosity.com/; Lumos Labs, Inc, San Francisco, CA) - during interictal iEEG recording.\n\nRepository structure:\n\nMain directory"
+ },
+ {
+  "id": "ds003374",
+  "name": "Dataset of neurons and intracranial EEG from human amygdala during aversive dynamic visual stimulation",
+  "tag": "1.1.1",
+  "size_bytes": 175461388,
+  "n_subjects": 9,
+  "ccep_like": false,
+  "readme_head": "# Dataset of neurons and intracranial EEG from human amygdala during aversive dynamic visual stimulation\n\n## Summary\nWe present an electrophysiological dataset collected from the amygdalae of nine subjects attending a visual dynamic stimulation of emotional aversive content. The subjects were patients affected by epilepsy who underwent preoperative invasive monitoring in the mesial temporal lobe. Subjects were presented with dynamic visual sequences of fearful faces (aversive condition), interleaved with sequences of neutral landscapes (neutral condition).\n\nWe provide the recordings of intracr"
+ },
+ {
+  "id": "ds005574",
+  "name": "The \"Podcast\" ECoG dataset for modeling neural activity during natural story listening",
+  "tag": "1.0.2",
+  "size_bytes": 3483284760,
+  "n_subjects": 9,
+  "ccep_like": false,
+  "readme_head": "The \"Podcast\" ECoG dataset for modeling neural activity during natural story listening.\n\nWe introduce the “Podcast” electrocorticography (ECoG) dataset for modeling neural activity supporting natural narrative comprehension. This dataset combines the exceptional spatiotemporal resolution of human intracranial electrophysiology with a naturalistic experimental paradigm for language comprehension. In addition to the raw data, we provide a minimally preprocessed version in the high-gamma spectral band to showcase a simple pipeline and to make it easier to use. Furthermore, we include the auditory"
+ },
+ {
+  "id": "ds004127",
+  "name": "Somatosensory Cortex Rat DISC Data",
+  "tag": "3.0.0",
+  "size_bytes": 201353276068,
+  "n_subjects": 8,
+  "ccep_like": false,
+  "readme_head": "Project Title: DISC Validation in Rat Somatosensory Cortex\r\nProject ID: 000\r\n\r\nExpected experimentation period:\r\nStart date: N/A\r\nEnd date: N/A\r\n\r\nProject Description:\r\nDISC were implanted in rat somatosensory cortex. While anesthetized, whiskers were being stimulated using an air puffer. Task name corresponds to the id of the whisker being stimulated. \r\nFor more information of the task go to our biorxiv's paper: https://www.biorxiv.org/content/10.1101/2021.09.20.460996v3 \r\n\r\nParticipant categories:\r\nN/A\r\n\r\nTrigger channels:\r\nN/A\r\n\r\nEvents:\r\nN/A"
+ },
+ {
+  "id": "ds004473",
+  "name": "sEEG Forced Two-Choice Task",
+  "tag": "1.0.2",
+  "size_bytes": 6767566336,
+  "n_subjects": 8,
+  "ccep_like": false,
+  "readme_head": "Welcome to our dataset! Here we present stereoelectroencephalography data from a forced two-choice response task collected in the epilepsy monitoring unit at Oregon Health & Science University. The data was analyzed in collaboration with the University of Oregon. The accompanying paper the first reference below.\n\nReferences\n----------\n\nRockhill, A. P., Mantovani, A., Stedelin, B., Nerison, C. S., Raslan, A. M., & Swann, N. C. (2022). Stereo-EEG recordings extend known distributions of canonical movement-related oscillations. Journal of Neural Engineering. https://doi.org/10.1088/1741-2552/acae"
+ },
+ {
+  "id": "ds005691",
+  "name": "SpinalExpect_Invasive",
+  "tag": "1.0.0",
+  "size_bytes": 758159062,
+  "n_subjects": 8,
+  "ccep_like": false,
+  "readme_head": "Contact person: \nMax-Philipp Stenner, email: max-philipp.stenner@med.ovgu.de or max-philipp.stenner@lin-magdeburg.de, ORCID: 0000-0002-3694-1887\n\nBrief overview of the tasks in the experiment:\nThe goal was to reveal whether temporal expectation influences initial sensory processing in the human spinal cord. In each trial, subjects (included n=8, patients with neuropathic pain following epidural electrode implantation into the cervical spinal canal, dorsal to the spinal cord) received at least one electric median nerve stimulation on the left wrist. Their task was to silently count in how many "
+ },
+ {
+  "id": "ds005931",
+  "name": "Visuomotor_task",
+  "tag": "1.0.0",
+  "size_bytes": 857380965,
+  "n_subjects": 8,
+  "ccep_like": false,
+  "readme_head": "Dataset of intracranial EEG from human epilepsy patients performing a visuomotor task\n\nDescription:\n\nWe present an electrophysiological dataset recorded from ten subjects during a visuomotor task. Subjects were epilepsy patients undergoing intracranial monitoring for localization of epileptic seizures. Subjects completed five sessions of Speed Match - a visuomotor on the Lumosity platform (https://www.lumosity.com/; Lumos Labs, Inc, San Francisco, CA) - during interictal EEG recording.\n\nRepository structure:\n\nMain directory (interictal EEG from children during gameplay): Contains interictal EE"
+ },
+ {
+  "id": "ds004859",
+  "name": "iEEG on children during Stroop task",
+  "tag": "1.0.0",
+  "size_bytes": 2435511071,
+  "n_subjects": 7,
+  "ccep_like": false,
+  "readme_head": ""
+ },
+ {
+  "id": "ds003078",
+  "name": "PROBE iEEG",
+  "tag": "1.0.0",
+  "size_bytes": 11761361020,
+  "n_subjects": 6,
+  "ccep_like": false,
+  "readme_head": "--- version 1.0.0 ---\n\ninitial release\n\nRaw iEEG data + pre and post surgery MRI \nNo DOI to data\nNo reference to the published study (still in press)"
+ },
+ {
+  "id": "ds004624",
+  "name": "Intracranial recordings using BCI2000 and the CorTec BrainInterchange",
+  "tag": "2.0.0",
+  "size_bytes": 20739089774,
+  "n_subjects": 3,
+  "ccep_like": false,
+  "readme_head": "An Ecosystem of Technology and Protocols for Adaptive Neuromodulation Research in Humans\n\nThis study aims to develop an ecosystem for the purpose of neurmodulation using the Cortec BCI device and BCI2000 software.\n\nContact: For questions regarding this dataset, please contact\nmivalt.filip@mayo.edu or Miller.Kai@mayo.edu\n\nFunding: NIH U01NS128612\n"
+ },
+ {
+  "id": "ds004993",
+  "name": "WIRED ICM Sample Dataset - Workshop on Intracranial Recordings in Humans, Epilepsy, DBS",
+  "tag": "1.1.2",
+  "size_bytes": 319927247,
+  "n_subjects": 3,
+  "ccep_like": false,
+  "readme_head": "WIRED ICM TUTORIAL DATA\n------------------------\n\n*Contributors:* Liberty S. Hamilton, PhD, Maansi Desai, PhD, Alyssa Field, MEd\n\n*Email:* liberty.hamilton@austin.utexas.edu\n\nThis is a sample BIDS dataset for the WIRED ICM course in Paris, France in March 2024.\n\nThis contains intracranial recordings collected by the Hamilton Lab at the University of Texas at Austin. These recordings include examples of evoked data during natural listening tasks along with some examples of seizure-related activity and vagus nerve stimulator (VNS) artifact for illustrative purposes. All procedures were approved "
+ },
+ {
+  "id": "ds005670",
+  "name": "SEEG Resting State Recording",
+  "tag": "1.0.0",
+  "size_bytes": 743242149,
+  "n_subjects": 2,
+  "ccep_like": false,
+  "readme_head": " Dataset description\n\n===================\n\nThis SEEG raw dataset includes resting state recordings for two patients with epilepsy. \n\nThe depth electrodes used in this dataset are Sinovation SDE-08 medical-grade stainless steel electrodes, with the following specifications:\n    Diameter: 0.8 mm\n    Contact length: 2 mm\n    Insulator length: 1.5 mm\n    Distance between the center of two contacts: 3.5 mm\n    Between 8 and 16 contacts on each electrode \n\n=======\n\nFor questions, please contact Pengfei Xu (pxu@bnu.edu.cn)."
+ },
+ {
+  "id": "ds005953",
+  "name": "iEEG_visual",
+  "tag": "1.0.0",
+  "size_bytes": 605346653,
+  "n_subjects": 2,
+  "ccep_like": false,
+  "readme_head": "Information\n===========\n\nThis folder contains the ECoG data from 2 subjects performing a visual task used in the publications of Hermes et al., 2015, Cerebral Cortex \"Stimulus Dependence of Gamma Oscillations in Human Visual Cortex\" and Hermes et al., 2017, PLOS Biology “Neuronal synchrony and the relation between the blood-oxygen-level dependent response and the local field potential”.\nContact: Dora Hermes (dorahermes@gmail.com)\n\n\nCiting this dataset\n--------\nIf you use this data as a part of any publications, please use the following citation:\n[1] Hermes D, Miller KJ, Wandell BA, Winawer J ("
+ },
+ {
+  "id": "ds006890",
+  "name": "Longitudinal Multitask Wireless ECoG Data from Two Fully Implanted Macaca fuscata",
+  "tag": "1.0.0",
+  "size_bytes": 44207054000,
+  "n_subjects": 2,
+  "ccep_like": false,
+  "readme_head": "Longitudinal Multitask Wireless ECoG Data from Two Fully Implanted Macaca fuscata — README\n\n## Overview\nThis repository contains a wireless subdural ECoG (iEEG) dataset from *Macaca fuscata* monkeys,\norganized in compliance with the iEEG-BIDS specification.\nRecordings were acquired several times each week using a wireless, inductively powered implant. The data were curated and organized in BIDS format to facilitate reproducible research in neuroscience.\n\nKeywords: wireless subdural ECoG, iEEG, Macaca fuscata, BIDS-compliant dataset,\nlongitudinal recordings, task-based neurophysiology\n\n## BIDS "
+ },
+ {
+  "id": "ds008610",
+  "name": "FUS and Tactile Neuromodulation in NHP VPL - Electrophysiology",
+  "tag": "1.0.0",
+  "size_bytes": 5440782216,
+  "n_subjects": 2,
+  "ccep_like": false,
+  "readme_head": "# Raw Macaque Electrophysiology Dataset\n\n## Overview\nThis dataset contains intracranial electrophysiology recordings from macaque VPL thalamus, acquired with a NeuroNexus V1x32-Edge (Vector Array) single-shank probe (32 sites, 100 µm pitch, 177 µm² iridium sites) on a Blackrock Cerebus system, during two conditions:\n\n- Focused ultrasound (FUS) neuromodulation, with sonication targeted at either:\n  - VPL thalamus (co-located with the recording array), or\n  - insular cortex (recording remains in VPL)\n- Tactile stimulation of the hand contralateral to the recording hemisphere (right-hemisphere VP"
+ },
+ {
+  "id": "ds006392",
+  "name": "HED schema library for SCORE annotations example",
+  "tag": "1.0.1",
+  "size_bytes": 33603727,
+  "n_subjects": 1,
+  "ccep_like": false,
+  "readme_head": "# BIDS example with HED-SCORE schema library annotations\r\n\r\nThe HED schema library for the Standardized Computer-based Organized Reporting of EEG (SCORE) can be used to add annotations for BIDS datasets. The annotations are machine readable and validated with the BIDS and HED validators. \n\nThis example is related to the following preprint:\r\nDora Hermes, Tal Pal Attia, Sándor Beniczky, Jorge Bosch-Bayard, Arnaud Delorme, Brian Nils Lundstrom, Christine Rogers, Stefan Rampp, Seyed Yahya Shirazi, Dung Truong, Pedro Valdes-Sosa, Greg Worrell, Scott Makeig, Kay Robbins. Hierarchical Event Descripto"
+ }
+]

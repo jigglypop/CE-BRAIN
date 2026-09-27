@@ -14,7 +14,7 @@ Status: `SUPERSEDED_DO_NOT_FREEZE / EXECUTION_NOT_AUTHORIZED / BIO_EVIDENCE_L0`
 
 정본 규약:
 [`실제 뇌 식 기반 발견 루프`](../../.codex/harnesses/real_brain_equation_discovery_loop.md),
-[`뇌 생물학 증거 사다리`](../../.codex/harnesses/brain_evidence_ladder.md),
+[`뇌 생물학 증거 사다리`](../참조/뇌_증거사다리.md),
 [`성체 최소증거 재설정`](성체_리만접힘_최소증거_재설정.md).
 
 기계 판본:

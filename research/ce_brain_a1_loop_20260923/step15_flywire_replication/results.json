@@ -1,0 +1,112 @@
+{
+  "schema": "ce-a1-step15-flywire-replication",
+  "code_sha256": "79597319625da2681563ea71bce1302c3806367cbc3bde5e934fee4f2faa8273",
+  "neurons": 139248,
+  "edges_used": 16846880,
+  "dn": 1303,
+  "F1_neck": {
+    "real": {
+      "rank90": 402,
+      "erank": 879.8529066536718,
+      "PR": 137.7866538407246,
+      "shape": [
+        17738,
+        1295
+      ]
+    },
+    "null_edge_swap": {
+      "rank90": 592,
+      "erank": 1034.0619974239676,
+      "PR": 407.1141150778151,
+      "shape": [
+        17738,
+        1295
+      ]
+    },
+    "ratio_rank90": 0.6790540540540541,
+    "ratio_PR": 0.3384472528406152,
+    "rank90_per_dn": 0.3104247104247104,
+    "pass": true
+  },
+  "F2_mb": {
+    "ALPN_KC": {
+      "real": {
+        "rank90": 164,
+        "erank": 241.17156712657848,
+        "PR": 104.21928867425777,
+        "shape": [
+          319,
+          4887
+        ]
+      },
+      "null_edge_swap": {
+        "rank90": 159,
+        "erank": 236.03531118189997,
+        "PR": 117.05399197576443,
+        "shape": [
+          319,
+          4887
+        ]
+      },
+      "ratio_rank90": 1.0314465408805031,
+      "ratio_PR": 0.890352280303571
+    },
+    "KC_MBON": {
+      "real": {
+        "rank90": 35,
+        "erank": 69.84112597242874,
+        "PR": 25.97966441196999,
+        "shape": [
+          5177,
+          96
+        ]
+      },
+      "null_edge_swap": {
+        "rank90": 52,
+        "erank": 82.63490469542927,
+        "PR": 42.974626929634894,
+        "shape": [
+          5177,
+          96
+        ]
+      },
+      "ratio_rank90": 0.6730769230769231,
+      "ratio_PR": 0.6045349609319042
+    },
+    "pass": true
+  },
+  "F3_dichotomy": {
+    "kc_units": 14,
+    "kc_median_r12": 0.25322348767755765,
+    "super_class_medians": {
+      "optic": 0.6358548134961686,
+      "sensory": 0.5619077668472152,
+      "central": 0.6849250147223093,
+      "visual_projection": 0.6606911021012869
+    },
+    "pass": true
+  },
+  "F4_epg_ring": {
+    "right": {
+      "class": "sheet",
+      "radius_cv": 0.31927948335896233,
+      "span_deg": 313.4786992339247,
+      "n": 23
+    },
+    "left": {
+      "class": "sheet",
+      "radius_cv": 0.2634272627178784,
+      "span_deg": 316.6344264016398,
+      "n": 24
+    },
+    "pass": false
+  },
+  "class_counts": {
+    "ring": 25,
+    "sheet": 364,
+    "line": 63,
+    "other": 576,
+    "fragmented": 3
+  },
+  "verdict": "FLYWIRE_REPLICATION_PARTIAL_OR_FAILED"
+}

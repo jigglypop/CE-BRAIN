@@ -21,7 +21,12 @@ def runner():
     module = importlib.util.module_from_spec(spec)
     sys.modules[spec.name] = module
     try:
-        spec.loader.exec_module(module)
+        try:
+            spec.loader.exec_module(module)
+        except ModuleNotFoundError as error:
+            if error.name != "funnel_core_v2":
+                raise
+            pytest.skip("CE run evidence missing: funnel_core_v2 (SRM8/SRM9 artifacts in ce-runs)")
         yield module
     finally:
         sys.modules.pop(spec.name, None)

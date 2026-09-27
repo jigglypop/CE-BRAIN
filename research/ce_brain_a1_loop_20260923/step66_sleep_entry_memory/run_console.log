@@ -1,0 +1,28 @@
+[batch] 20/20 done, 31 s elapsed
+[batch] 20/31 done, 33 s elapsed
+[batch] 31/31 done, 40 s elapsed
+verdict HEADING_HELD estimator check True
+H2_held HEADING_HELD late diff 0.1983469822928064 [0.1262113804839538, 0.29959373434922326] n 10
+    0-10 {'matched': 0.202, 'mismatched': -0.036, 'n_sessions': 10}
+    10-30 {'matched': 0.172, 'mismatched': -0.038, 'n_sessions': 10}
+    30-60 {'matched': 0.2, 'mismatched': -0.057, 'n_sessions': 10}
+    60-120 {'matched': 0.19, 'mismatched': -0.007, 'n_sessions': 10}
+    120-300 {'matched': 0.19, 'mismatched': -0.028, 'n_sessions': 10}
+    300-end {'matched': 0.127, 'mismatched': 0.001, 'n_sessions': 7}
+    late {'matched': 0.191, 'mismatched': -0.022, 'n_sessions': 10}
+H3_wandering HEADING_NOT_HELD late diff 0.007701396814685758 [-0.010952960122431667, 0.01850216220567711] n 10
+    0-10 {'matched': 0.019, 'mismatched': -0.002, 'n_sessions': 10}
+    10-30 {'matched': -0.015, 'mismatched': -0.022, 'n_sessions': 10}
+    30-60 {'matched': 0.016, 'mismatched': 0.004, 'n_sessions': 10}
+    60-120 {'matched': 0.007, 'mismatched': -0.006, 'n_sessions': 10}
+    120-300 {'matched': -0.001, 'mismatched': -0.001, 'n_sessions': 10}
+    300-end {'matched': 0.065, 'mismatched': -0.007, 'n_sessions': 7}
+    late {'matched': 0.003, 'mismatched': 0.004, 'n_sessions': 10}
+mouse HEADING_HELD late diff 0.03545653097673523 [0.020652438204931373, 0.07768273618945816] n 31
+    0-10 {'matched': 0.231, 'mismatched': 0.118, 'n_sessions': 31}
+    10-30 {'matched': 0.189, 'mismatched': 0.124, 'n_sessions': 31}
+    30-60 {'matched': 0.183, 'mismatched': 0.096, 'n_sessions': 31}
+    60-120 {'matched': 0.141, 'mismatched': 0.08, 'n_sessions': 31}
+    120-300 {'matched': 0.132, 'mismatched': 0.063, 'n_sessions': 31}
+    300-end {'matched': 0.081, 'mismatched': 0.084, 'n_sessions': 28}
+    late {'matched': 0.129, 'mismatched': 0.056, 'n_sessions': 31}

@@ -1,0 +1,128 @@
+{
+ "all_same": true,
+ "rows": [
+  {
+   "model": "step58_base",
+   "seed": 581,
+   "old_s": {
+    "schedule_s": 0.63,
+    "sim_s": 30.55,
+    "spikes_s": 2.01,
+    "measures_s": 0.44
+   },
+   "new_s": {
+    "schedule_s": 0.33,
+    "sim_s": 0.96,
+    "spikes_s": 0.64,
+    "measures_s": 0.4
+   },
+   "schedule_same": true,
+   "max_abs_rate_diff": 1.862645149230957e-09,
+   "measures_same": true,
+   "measures": {
+    "re_early": -0.03045370641540344,
+    "re_late": 0.018932172319712406,
+    "up_early": 0.9010616559153525,
+    "up_mid": 0.9896871233256432,
+    "up_late": 0.9107800571477433
+   },
+   "structure_same": true,
+   "structure": {
+    "nrem": {
+     "C": 0.5405076282194274,
+     "ring_index": 0.8973118638190194
+    },
+    "wake_home": {
+     "C": 0.5601587874868473,
+     "ring_index": 0.9105124275360807
+    },
+    "ring_ratio": 0.9855020499250261
+   },
+   "structure_s": {
+    "step56_analyse": 4.84,
+    "fast": 0.08
+   },
+   "step57_same": true,
+   "spike_arrays_same": true,
+   "spike_rng_state_same": true
+  },
+  {
+   "model": "step61_stp",
+   "seed": 611,
+   "old_s": {
+    "schedule_s": 0.84,
+    "sim_s": 98.85,
+    "spikes_s": 1.88,
+    "measures_s": 0.47
+   },
+   "new_s": {
+    "schedule_s": 0.02,
+    "sim_s": 1.01,
+    "spikes_s": 0.54,
+    "measures_s": 0.37
+   },
+   "schedule_same": true,
+   "max_abs_rate_diff": 1.4901161193847656e-08,
+   "measures_same": true,
+   "measures": {
+    "re_early": 0.9850686946418595,
+    "re_late": 0.9911667930160912,
+    "up_early": 0.9842532786343904,
+    "up_mid": 0.9999228402810847,
+    "up_late": 0.9947282169540315
+   }
+  },
+  {
+   "model": "step62_pull",
+   "seed": 621,
+   "old_s": {
+    "schedule_s": 0.95,
+    "sim_s": 48.55,
+    "spikes_s": 2.2,
+    "measures_s": 0.52
+   },
+   "new_s": {
+    "schedule_s": 0.03,
+    "sim_s": 1.89,
+    "spikes_s": 0.58,
+    "measures_s": 0.44
+   },
+   "schedule_same": true,
+   "max_abs_rate_diff": 0.0,
+   "measures_same": true,
+   "measures": {
+    "re_early": 0.2047044255929848,
+    "re_late": 0.2777276679776482,
+    "up_early": 0.5337626884565805,
+    "up_mid": 0.5599753267191085,
+    "up_late": 0.5585832991360441
+   }
+  },
+  {
+   "model": "step63_wander",
+   "seed": 631,
+   "old_s": {
+    "schedule_s": 0.81,
+    "sim_s": 46.17,
+    "spikes_s": 2.28,
+    "measures_s": 0.47
+   },
+   "new_s": {
+    "schedule_s": 0.03,
+    "sim_s": 1.94,
+    "spikes_s": 0.69,
+    "measures_s": 0.48
+   },
+   "schedule_same": true,
+   "max_abs_rate_diff": 1.3877787807814457e-17,
+   "measures_same": true,
+   "measures": {
+    "re_early": 0.30179810216338027,
+    "re_late": 0.05482340738238179,
+    "up_early": 0.6472880279472273,
+    "up_mid": 0.6371151675410829,
+    "up_late": 0.6298385574879262
+   }
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+C:\dev\ce\ce-agi-runtime\research\ce_brain_a1_loop_20260923\step56_mouse_sleep_ring\mouse_sleep_ring.py:214: RuntimeWarning: Mean of empty slice
+  avg = {k: np.nanmean(np.array(v), 0) for k, v in curves.items() if v}
+C:\dev\ce\ce-agi-runtime\research\ce_brain_a1_loop_20260923\step56_mouse_sleep_ring\mouse_sleep_ring.py:218: RuntimeWarning: Mean of empty slice
+  a, b = float(np.nanmean(c[pre])), float(np.nanmean(c[post]))
+{"max_abs_rate_diff": 1.862645149230957e-09, "measures_same": true, "model": "step58_base", "new_s": {"measures_s": 0.4, "schedule_s": 0.33, "sim_s": 0.96, "spikes_s": 0.64}, "old_s": {"measures_s": 0.44, "schedule_s": 0.63, "sim_s": 30.55, "spikes_s": 2.01}, "schedule_same": true, "seed": 581, "spike_arrays_same": true, "spike_rng_state_same": true, "step57_same": true, "structure_s": {"fast": 0.08, "step56_analyse": 4.84}, "structure_same": true}
+{"max_abs_rate_diff": 1.4901161193847656e-08, "measures_same": true, "model": "step61_stp", "new_s": {"measures_s": 0.37, "schedule_s": 0.02, "sim_s": 1.01, "spikes_s": 0.54}, "old_s": {"measures_s": 0.47, "schedule_s": 0.84, "sim_s": 98.85, "spikes_s": 1.88}, "schedule_same": true, "seed": 611}
+{"max_abs_rate_diff": 0.0, "measures_same": true, "model": "step62_pull", "new_s": {"measures_s": 0.44, "schedule_s": 0.03, "sim_s": 1.89, "spikes_s": 0.58}, "old_s": {"measures_s": 0.52, "schedule_s": 0.95, "sim_s": 48.55, "spikes_s": 2.2}, "schedule_same": true, "seed": 621}
+{"max_abs_rate_diff": 1.3877787807814457e-17, "measures_same": true, "model": "step63_wander", "new_s": {"measures_s": 0.48, "schedule_s": 0.03, "sim_s": 1.94, "spikes_s": 0.69}, "old_s": {"measures_s": 0.47, "schedule_s": 0.81, "sim_s": 46.17, "spikes_s": 2.28}, "schedule_same": true, "seed": 631}
+ALL SAME

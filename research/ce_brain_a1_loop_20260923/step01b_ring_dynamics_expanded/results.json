@@ -1,0 +1,48 @@
+{
+  "schema": "ce-a1-step01b-ring-dynamics-expanded",
+  "code_sha256": "bc382c5691e0923d92928ba8765081c6ddc2565e21744cffed6c4c98241dbd6b",
+  "neurons": 297,
+  "grid": 224,
+  "grid_passing_T1": 1,
+  "T1": true,
+  "selected": {
+    "gE": 8,
+    "gI": 4,
+    "b": 0.05,
+    "R_b": 0.6825535913904565,
+    "position_deg": -4.679853975238326,
+    "epg_mean": 0.4176582580780318,
+    "ok": true
+  },
+  "n_passing_examples": [
+    {
+      "gE": 8,
+      "gI": 4,
+      "b": 0.05,
+      "R_b": 0.6825535913904565,
+      "position_deg": -4.679853975238326,
+      "epg_mean": 0.4176582580780318,
+      "ok": true
+    }
+  ],
+  "T2": {
+    "velocity_deg_per_tau": {
+      "-0.1": 1.08077984275671,
+      "-0.05": 1.086338841512323,
+      "-0.02": -0.008226133509985807,
+      "0.02": -0.0002735155462745266,
+      "0.05": -0.0003527640361665359,
+      "0.1": -0.0014085296167961213
+    },
+    "gain_deg_per_tau_per_u": -6.294355238585305,
+    "R2": 0.15692104125450523,
+    "opposite": false,
+    "odd": false,
+    "pass": false
+  },
+  "T3": {
+    "fwhm_deg": 162.0,
+    "pass": false
+  },
+  "verdict": "A1_RING_DYNAMICS_EXPANDED_NOT_SUPPORTED"
+}

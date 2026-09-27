@@ -39,6 +39,14 @@ def digest(path, algorithm="sha256"):
         return hashlib.file_digest(stream, algorithm)
 
 
+def local(path):
+    """Map a cache path recorded by an earlier checkout onto this repository's `data/` tree."""
+    path = Path(path)
+    if path.exists() or "data" not in path.parts:
+        return path
+    return ROOT.joinpath(*path.parts[path.parts.index("data"):])
+
+
 def locate(values, reference):
     indices = np.searchsorted(reference, values)
     matched = indices < len(reference)
@@ -327,7 +335,7 @@ def load(result_path, verify_hash=True):
     result = json.loads(Path(result_path).read_text(encoding="utf-8"))
     if result.get("status") != "PASS":
         raise ValueError("neuron graph cache did not pass its cross-checks")
-    path = Path(result["cache"]["path"])
+    path = local(result["cache"]["path"])
     if path.stat().st_size != result["cache"]["bytes"]:
         raise ValueError("neuron graph cache size changed")
     if verify_hash and digest(path).hexdigest() != result["cache"]["sha256"]:

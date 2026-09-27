@@ -1,0 +1,243 @@
+{
+ "schema": "ce-a1-step29-visual-shift-flywire",
+ "code_sha256": "b90b39afffd96196cbe04566a3372a472c9da2053758d4fb52f7c8e5845cf6e8",
+ "eyes": {
+  "right": {
+   "subtypes": {
+    "T4a": {
+     "neurons": 700,
+     "zero_vectors_excluded": 4,
+     "median_vector": [
+      -0.7288690476190478,
+      0.2965974221231671
+     ],
+     "median_direction_deg": 157.8572026163944,
+     "R": 0.7700608789317807,
+     "median_magnitude": 0.9325993462075787
+    },
+    "T4b": {
+     "neurons": 708,
+     "zero_vectors_excluded": 7,
+     "median_vector": [
+      0.75,
+      -0.26992999598476164
+     ],
+     "median_direction_deg": -19.794141871606126,
+     "R": 0.7621376311461574,
+     "median_magnitude": 0.971793151249553
+    },
+    "T4c": {
+     "neurons": 716,
+     "zero_vectors_excluded": 3,
+     "median_vector": [
+      0.19971509971509993,
+      1.7320508075688785
+     ],
+     "median_direction_deg": 83.42252504057724,
+     "R": 0.9271849637813534,
+     "median_magnitude": 1.7793675755643013
+    },
+    "T4d": {
+     "neurons": 701,
+     "zero_vectors_excluded": 2,
+     "median_vector": [
+      0.06944444444444464,
+      -2.015477303352875
+     ],
+     "median_direction_deg": -88.02662121998219,
+     "R": 0.9519919882553081,
+     "median_magnitude": 2.03264677023874
+    },
+    "T5a": {
+     "neurons": 732,
+     "zero_vectors_excluded": 0,
+     "median_vector": [
+      -0.27646475256769376,
+      0.09796978468941342
+     ],
+     "median_direction_deg": 160.4873900551344,
+     "R": 0.6261953679049664,
+     "median_magnitude": 0.4432584213941178
+    },
+    "T5b": {
+     "neurons": 743,
+     "zero_vectors_excluded": 0,
+     "median_vector": [
+      0.24210526315789477,
+      -0.05026040289820344
+     ],
+     "median_direction_deg": -11.727866517265028,
+     "R": 0.5829307259803314,
+     "median_magnitude": 0.3907694631738742
+    },
+    "T5c": {
+     "neurons": 739,
+     "zero_vectors_excluded": 0,
+     "median_vector": [
+      0.061128526645767955,
+      0.6076308777135582
+     ],
+     "median_direction_deg": 84.25529147905438,
+     "R": 0.8256554409416851,
+     "median_magnitude": 0.6282112731241649
+    },
+    "T5d": {
+     "neurons": 704,
+     "zero_vectors_excluded": 0,
+     "median_vector": [
+      0.0674406281171156,
+      -0.6524872850690429
+     ],
+     "median_direction_deg": -84.09890297582334,
+     "R": 0.8138552866809055,
+     "median_magnitude": 0.692709428218162
+    }
+   },
+   "tests": {
+    "T4": {
+     "ab_deg": 177.6513444880005,
+     "cd_deg": 171.44914626055936,
+     "axes_deg": 71.02998669294635,
+     "V1": true,
+     "V2": true,
+     "V3": true
+    },
+    "T5": {
+     "ab_deg": 172.21525657239945,
+     "cd_deg": 168.35419445487776,
+     "axes_deg": 73.76072716500335,
+     "V1": true,
+     "V2": true,
+     "V3": false
+    },
+    "V4_T4_T5_same_frame_deg": {
+     "a": 2.63018743873969,
+     "b": 8.066275354341153,
+     "c": 0.8327664384772994,
+     "d": 3.9277182441589416
+    },
+    "V4": true,
+    "pass": false
+   }
+  },
+  "left": {
+   "subtypes": {
+    "T4a": {
+     "neurons": 676,
+     "zero_vectors_excluded": 3,
+     "median_vector": [
+      -0.7197646103896105,
+      0.2500000684856363
+     ],
+     "median_direction_deg": 160.84605170068878,
+     "R": 0.7730786525724042,
+     "median_magnitude": 0.9341166770209761
+    },
+    "T4b": {
+     "neurons": 680,
+     "zero_vectors_excluded": 10,
+     "median_vector": [
+      0.7685439560439562,
+      -0.22592838658913456
+     ],
+     "median_direction_deg": -16.381721051191885,
+     "R": 0.7543206050651702,
+     "median_magnitude": 0.9371384660215714
+    },
+    "T4c": {
+     "neurons": 697,
+     "zero_vectors_excluded": 8,
+     "median_vector": [
+      0.2,
+      1.756107068785111
+     ],
+     "median_direction_deg": 83.50267741242799,
+     "R": 0.9385884195743912,
+     "median_magnitude": 1.802775637731996
+    },
+    "T4d": {
+     "neurons": 678,
+     "zero_vectors_excluded": 5,
+     "median_vector": [
+      0.10000000000000009,
+      -1.9726134197312213
+     ],
+     "median_direction_deg": -87.09792232834673,
+     "R": 0.9356499752065675,
+     "median_magnitude": 1.9941377846887307
+    },
+    "T5a": {
+     "neurons": 726,
+     "zero_vectors_excluded": 2,
+     "median_vector": [
+      -0.27803030303030307,
+      0.09937185807643001
+     ],
+     "median_direction_deg": 160.33241098950703,
+     "R": 0.6204125186927446,
+     "median_magnitude": 0.433989624587631
+    },
+    "T5b": {
+     "neurons": 739,
+     "zero_vectors_excluded": 0,
+     "median_vector": [
+      0.2525083612040131,
+      -0.04518393411049715
+     ],
+     "median_direction_deg": -10.145154692280125,
+     "R": 0.5918126369006678,
+     "median_magnitude": 0.38537639265551593
+    },
+    "T5c": {
+     "neurons": 732,
+     "zero_vectors_excluded": 0,
+     "median_vector": [
+      0.06563810773022771,
+      0.6214788571052305
+     ],
+     "median_direction_deg": 83.97100025908003,
+     "R": 0.800608633837339,
+     "median_magnitude": 0.6525751815824075
+    },
+    "T5d": {
+     "neurons": 712,
+     "zero_vectors_excluded": 0,
+     "median_vector": [
+      0.060107425822621074,
+      -0.6184160567196451
+     ],
+     "median_direction_deg": -84.44853028727579,
+     "R": 0.8331011048675633,
+     "median_magnitude": 0.6464323161604989
+    }
+   },
+   "tests": {
+    "T4": {
+     "ab_deg": 177.22777275188062,
+     "cd_deg": 170.60059974077475,
+     "axes_deg": 73.8031018848409,
+     "V1": true,
+     "V2": true,
+     "V3": true
+    },
+    "T5": {
+     "ab_deg": 170.47756568178715,
+     "cd_deg": 168.41953054635582,
+     "axes_deg": 75.01418230188575,
+     "V1": true,
+     "V2": true,
+     "V3": false
+    },
+    "V4_T4_T5_same_frame_deg": {
+     "a": 0.5136407111808556,
+     "b": 6.236566358911612,
+     "c": 0.46832284665262464,
+     "d": 2.6493920410707026
+    },
+    "V4": true,
+    "pass": false
+   }
+  }
+ },
+ "verdict": "A1_SHIFT_OPERATORS_NOT_REPLICATED_FLYWIRE"
+}

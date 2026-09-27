@@ -1,0 +1,357 @@
+{
+ "step": "c5_1_pen_shift",
+ "premise": "C5",
+ "premise_text": "계량과 신호 방향의 분리",
+ "claim": "방향 고리의 기억 평면을 돌리는 방향 성분은 PEN의 PB 경로에만 실려 좌·우 반대로 한 타일(45°) 돌리고, 같은 PEN의 EB 경로는 평면을 돌리지 않는다. 수컷 전신경계·암컷 반뇌·암컷 전뇌 세 연결체에서 모두 성립한다",
+ "reference": "Green et al. 2017 Nature 546:101; Turner-Evans et al. 2017 eLife 6:e23496; Hulse et al. 2021 eLife 10:e66039: PEN의 PB→EB 한 타일(45°) 어긋남, 좌·우 반대",
+ "checks": {
+  "malecns_ring": {
+   "value": 0.0694498578256318,
+   "low": null,
+   "high": 0.25,
+   "passed": true
+  },
+  "malecns_pb_conformal": {
+   "value": 0.9589685128884827,
+   "low": 0.9,
+   "high": null,
+   "passed": true
+  },
+  "malecns_pb_opposite": {
+   "value": 1.0,
+   "low": 1,
+   "high": null,
+   "passed": true
+  },
+  "malecns_pb_tile": {
+   "value": 9.706547494614348,
+   "low": null,
+   "high": 15.0,
+   "passed": true
+  },
+  "malecns_eb_holds": {
+   "value": 0.372372469866266,
+   "low": null,
+   "high": 15.0,
+   "passed": true
+  },
+  "hemibrain_ring": {
+   "value": 0.09405147103340995,
+   "low": null,
+   "high": 0.25,
+   "passed": true
+  },
+  "hemibrain_pb_conformal": {
+   "value": 0.9427293472522256,
+   "low": 0.9,
+   "high": null,
+   "passed": true
+  },
+  "hemibrain_pb_opposite": {
+   "value": 1.0,
+   "low": 1,
+   "high": null,
+   "passed": true
+  },
+  "hemibrain_pb_tile": {
+   "value": 8.403464001598081,
+   "low": null,
+   "high": 15.0,
+   "passed": true
+  },
+  "hemibrain_eb_holds": {
+   "value": 0.8560715161019631,
+   "low": null,
+   "high": 15.0,
+   "passed": true
+  },
+  "flywire_ring": {
+   "value": 0.23055036915011762,
+   "low": null,
+   "high": 0.25,
+   "passed": true
+  },
+  "flywire_pb_conformal": {
+   "value": 0.9153198292377676,
+   "low": 0.9,
+   "high": null,
+   "passed": true
+  },
+  "flywire_pb_opposite": {
+   "value": 1.0,
+   "low": 1,
+   "high": null,
+   "passed": true
+  },
+  "flywire_pb_tile": {
+   "value": 9.328463742297359,
+   "low": null,
+   "high": 15.0,
+   "passed": true
+  },
+  "flywire_eb_holds": {
+   "value": 1.0777086509517293,
+   "low": null,
+   "high": 15.0,
+   "passed": true
+  }
+ },
+ "reverse_proof": {
+  "term": "PB·EB 경로 분리",
+  "error_with": 9.706547494614348,
+  "error_without": 31.6430650541719,
+  "tolerance": 15.0,
+  "passed": true
+ },
+ "verdict": "지지됨",
+ "axiom_adopted": true,
+ "measured": {
+  "malecns": {
+   "neurons": {
+    "EPG": 46,
+    "PEN_a(PEN1)": 20,
+    "PEN_b(PEN2)": 22,
+    "PEG": 18,
+    "Delta7": 42
+   },
+   "pair_eigenvalues": [
+    0.6743101024471287,
+    0.6709160333372811
+   ],
+   "epg_radius_variation": 0.0694498578256318,
+   "L": {
+    "pen": 21,
+    "pb_path": {
+     "angle_deg": 53.634458465154445,
+     "scale": 0.009863062218692053,
+     "conformal": 0.9589685128884827,
+     "inplane": 0.9378717152002425
+    },
+    "eb_path": {
+     "angle_deg": 0.07962340283131751,
+     "scale": 0.07342876028452874,
+     "conformal": 0.9982058879417578,
+     "inplane": 0.9880581577286063
+    },
+    "whole_path": {
+     "angle_deg": 5.794013560844193,
+     "scale": 0.07968392556192973,
+     "conformal": 0.9959161171884751,
+     "inplane": 0.9873623828659905
+    }
+   },
+   "R": {
+    "pen": 21,
+    "pb_path": {
+     "angle_deg": -54.70654749461435,
+     "scale": 0.009708852430530756,
+     "conformal": 0.994270518825681,
+     "inplane": 0.8725599579320154
+    },
+    "eb_path": {
+     "angle_deg": 0.372372469866266,
+     "scale": 0.07094770222313487,
+     "conformal": 0.9983857747334997,
+     "inplane": 0.988107379488469
+    },
+    "whole_path": {
+     "angle_deg": -5.568093209868454,
+     "scale": 0.07691856626113974,
+     "conformal": 0.9979537196742677,
+     "inplane": 0.9861025331355998
+    }
+   }
+  },
+  "hemibrain": {
+   "neurons": {
+    "EPG": 46,
+    "PEN_a(PEN1)": 20,
+    "PEN_b(PEN2)": 22,
+    "PEG": 18,
+    "Delta7": 42
+   },
+   "pair_eigenvalues": [
+    0.6538987107644154,
+    0.6422870450202273
+   ],
+   "epg_radius_variation": 0.09405147103340995,
+   "L": {
+    "pen": 21,
+    "pb_path": {
+     "angle_deg": -52.60773148290099,
+     "scale": 0.01939198194459087,
+     "conformal": 0.9646521101638015,
+     "inplane": 0.9010588683673076
+    },
+    "eb_path": {
+     "angle_deg": -0.09220780081359212,
+     "scale": 0.05934707493101916,
+     "conformal": 0.9989846590840812,
+     "inplane": 0.9793313524134745
+    },
+    "whole_path": {
+     "angle_deg": -12.296169958654902,
+     "scale": 0.07279302616073056,
+     "conformal": 0.9944210753703429,
+     "inplane": 0.9843308008952124
+    }
+   },
+   "R": {
+    "pen": 21,
+    "pb_path": {
+     "angle_deg": 53.40346400159808,
+     "scale": 0.02388402187500451,
+     "conformal": 0.9427293472522256,
+     "inplane": 0.9137398875095144
+    },
+    "eb_path": {
+     "angle_deg": -0.8560715161019631,
+     "scale": 0.06258854729687327,
+     "conformal": 0.9993725084216711,
+     "inplane": 0.9647330471231151
+    },
+    "whole_path": {
+     "angle_deg": 13.3569349458281,
+     "scale": 0.07895643804107302,
+     "conformal": 0.9937325282269734,
+     "inplane": 0.9759547422718126
+    }
+   }
+  },
+  "flywire": {
+   "neurons": {
+    "EPG": 47,
+    "PEN_a(PEN1)": 20,
+    "PEN_b(PEN2)": 22,
+    "PEG": 20,
+    "Delta7": 42
+   },
+   "pair_eigenvalues": [
+    0.7397218551219247,
+    0.7085929328884187
+   ],
+   "epg_radius_variation": 0.23055036915011762,
+   "L": {
+    "pen": 21,
+    "pb_path": {
+     "angle_deg": -54.32846374229736,
+     "scale": 0.010024824823329021,
+     "conformal": 0.9153198292377676,
+     "inplane": 0.8372762358865827
+    },
+    "eb_path": {
+     "angle_deg": -1.0777086509517293,
+     "scale": 0.10829712124316515,
+     "conformal": 0.9996272302367599,
+     "inplane": 0.9503433453833005
+    },
+    "whole_path": {
+     "angle_deg": -5.0977697985436246,
+     "scale": 0.11457702400553252,
+     "conformal": 0.9995464879975438,
+     "inplane": 0.9499762171547738
+    }
+   },
+   "R": {
+    "pen": 21,
+    "pb_path": {
+     "angle_deg": 51.03701929355291,
+     "scale": 0.010828213938791693,
+     "conformal": 0.9897161504988025,
+     "inplane": 0.7971177497437286
+    },
+    "eb_path": {
+     "angle_deg": -0.3046746177531345,
+     "scale": 0.11325022821431817,
+     "conformal": 0.9856391785436889,
+     "inplane": 0.9605274114135285
+    },
+    "whole_path": {
+     "angle_deg": 3.7254312552233966,
+     "scale": 0.12031183813670447,
+     "conformal": 0.985436540381559,
+     "inplane": 0.9600050366466168
+    }
+   }
+  }
+ },
+ "data": [
+  {
+   "dataset": "malecns-analysis",
+   "version": "neuron-graph-v1",
+   "asset": "neuron_graph.npz",
+   "sha256": "58f63f549ae90074c56c1d47bf4ff294d01352ff57bc387a10404c8ed2cd4fb6"
+  },
+  {
+   "dataset": "malecns-analysis",
+   "version": "neuron-roi-v1",
+   "asset": "neuron_roi.npz",
+   "sha256": "63ca88382891cf491c66e768722b8603a762d807784957ed35774d228601cd68"
+  },
+  {
+   "dataset": "malecns",
+   "version": "v1.0",
+   "asset": "annotations.feather",
+   "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+  },
+  {
+   "dataset": "hemibrain-v1.2",
+   "version": "hemibrain v1.2 (neuprint export, neuprint-python 0.4.12)",
+   "asset": "traced-neurons.csv (extracted)",
+   "sha256": "d07c1cac648c12d8135786996ac55de5a2b63d605cd6a24c5ce366224172c825"
+  },
+  {
+   "dataset": "hemibrain-v1.2",
+   "version": "hemibrain v1.2 (neuprint export, neuprint-python 0.4.12)",
+   "asset": "traced-total-connections.csv (extracted)",
+   "sha256": "1b954eb5b73e8ca8a650323e2a41a079b12d6fb2e92e3b5127f727785741742e"
+  },
+  {
+   "dataset": "hemibrain-v1.2",
+   "version": "hemibrain v1.2 (neuprint export, neuprint-python 0.4.12)",
+   "asset": "traced-roi-connections.csv (extracted)",
+   "sha256": "d4f4ecaa5a328a29c550f16aaf725cce80193b09a9bc503561a664fae0dcfe12"
+  },
+  {
+   "dataset": "flywire-783",
+   "version": "Zenodo 10676866 v783.0",
+   "asset": "proofread_connections_783.feather",
+   "sha256": "24f960ae3e7d4f8cd30db3b62e99fb5179cc3d1e76d8c155bfb441e9737d3faf"
+  },
+  {
+   "dataset": "flywire-783",
+   "version": "flyconnectome/flywire_annotations@8587524c1748ce5ef2080822a2fc890fc03bf597",
+   "asset": "Supplemental_file1_neuron_annotations.tsv",
+   "sha256": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be"
+  }
+ ],
+ "code_sha256": {
+  "c1_1_common_equation.py": "3e22dcc79593c2dc919e203117b40ff7d7b0106b7e108e1d5af0bf667936d74f",
+  "c1_2_common_equation_onset.py": "e105afc1e813949da022cbed0317938159ff157423d37a6ac54f4e65f96cd005",
+  "c2_1_fixed_points.py": "385d7335edc34ebdca3185219f7995194290a93c1237c5beff5b27cee9cbec34",
+  "c3_1_sleep_trace.py": "e799d26d92ce58ece7caf1084981574690c7ca4f102d1c607ab0e724442d2b3a",
+  "c3_2_trace_replication.py": "05dd291fcc05ca80f2cdb8228fa242466e31ebaa97c5c3732190dc6e637bbf13",
+  "c3_3_restoring.py": "b66d34a5c59480376f5a38c4f62769bbfd6bc668a83ffc8b2db876d701f7f0bf",
+  "c3_4_past_conflict.py": "fca73a61de2ef6291ee9a81a932e318f5f64722e6d4223d441d40e8e88031a87",
+  "c4_1_metric_hd.py": "79c9235b7f5a1a3cc6e36e8ee48baf78f84047015a66298e9388734c093a6ccd",
+  "c4_2_anisotropic_metric.py": "b1802dd63f2bc29161ab43abbe8c8f27222e83d70af9614c546499339e8a3769",
+  "c4_3_soft_modes.py": "a54bcf1863a16d684970377e436f9765686d9fd08e6b46130ffded10244ceb98",
+  "c4_4_ring_diffusion.py": "40abe5670757ad39de343d4a61be71d038ad980794422e74770add2247cd1250",
+  "c4_5_ring_diffusion_long.py": "aadfdbc629130333dd0f1855cdba113fe1b7bffcfbf115dabaf2deed0e24a960",
+  "c5_1_pen_shift.py": "6de1006cf1192a8e401f3e68aeafb773d7056e772894d8082c185e4ad570856c",
+  "c6_1_reactivation.py": "52ce4657738c64742aeafab2a20731255cd6dcd59fa1564e5a33bc6c2246502a",
+  "c7_1_address.py": "c66d67e3c74ad020d57a663162aa375beee1346978124aa698ca73a1134cf198",
+  "c8_1_selection.py": "dd95f9d7ecce38537ec326960af23bcee089619d85ba493c189a9a2c66710568",
+  "core.py": "e8b3160318234bdf651f465efabcaedd12c521c86f18713fc34f3a93014382e3",
+  "fast/Cargo.toml": "0dd61494902f2b39209c6ec8b7469513ba2dc5d4dff8acf5cbe13a0ed0c75d43",
+  "fast/src/lib.rs": "f61451f47a5a73a453ee58dcc36fc8cac81f26555ac8b5423422f0bb7780885b",
+  "fetch.py": "300cb3095db4dfac9881ad35bf0dc841d79b8c22d375333218e1db551758d5b0",
+  "harness.py": "618b6d06350e1e5c3cfa7809656bf526bbcecb33c15356091041f2b02f4c2528",
+  "malecns.py": "b0e319267076fdea65ffba366f97e331d96833eae9608839f0242fadc7190c26",
+  "step01_ring_plane.py": "8213a4dac5a52378c553f50ac1c190fe837d276cfeb120fc3a7755f490be5722",
+  "step02_pen_rotation.py": "63f0f8a6f1964e96bf9950f7d95d9666f60f880a8ea51e573baa1782ccff3153",
+  "step02b_pen_pb_shift.py": "d0a321e824501fc7e1ccd8617187a6d6f3fc0610b4950cb253a07d6374c49791",
+  "store.py": "effbe46995f88fabf2c7968ff2b48c975845ffc114e0a8f449a448fa62da7684"
+ },
+ "date": "2026-09-27"
+}

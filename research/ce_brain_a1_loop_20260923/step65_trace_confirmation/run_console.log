@@ -1,0 +1,19 @@
+[batch] 20/20 done, 33 s elapsed
+[batch] 20/31 done, 20 s elapsed
+[batch] 31/31 done, 24 s elapsed
+C:\dev\ce\ce-agi-runtime\research\ce_brain_a1_loop_20260923\env\.venv\Lib\site-packages\numpy\_core\fromnumeric.py:3824: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\dev\ce\ce-agi-runtime\research\ce_brain_a1_loop_20260923\env\.venv\Lib\site-packages\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+H2 TRACE_REPRODUCED {"re_early": true, "re_late": true, "rise": true, "rho_gap": true, "curve_level": true} mad 0.019 {'re_early': 0.031, 're_late': 0.081, 'rise': 0.058, 'rho_gap': 0.021, 'up_early': 0.548, 'up_mid': 0.553, 'up_late': 0.535, 'rho_all_3_nrem': 0.305, 'ring_ratio': 1.19, 'rho_all_3_wake': 0.984} 
+  profile [0.025, 0.033, 0.05, 0.061, 0.081, 0.082, 0.086, 0.093, 0.105, 0.077] 
+  alignment {"relay_fidelity": 0.11263436022212017, "theory_fidelity": 0.11155412024665476, "alignment_all": 0.22783779878504923, "alignment_late": 0.27460727644443944, "alignment_late_sq": 0.07540961463633294} 
+  by onset [0.157, 0.195, 0.228, 0.248, 0.267, 0.27, 0.281, 0.268, 0.253, nan] 
+  model split WITHIN_UP_TIME_COURSE {"rho_short_early": 0.5502000199942028, "rho_short_mid": 0.5521323439070518, "rho_short_late": 0.5992246082239723, "rho_long_early": 0.5557675136107428, "rho_long_mid": 0.5492737305754326, "rho_long_late": 0.4775242184176604}
+H4 TRACE_REPRODUCED {"re_early": true, "re_late": true, "rise": true, "rho_gap": true, "curve_level": true} mad 0.02 {'re_early': 0.03, 're_late': 0.083, 'rise': 0.061, 'rho_gap': 0.0, 'up_early': 0.534, 'up_mid': 0.554, 'up_late': 0.528, 'rho_all_3_nrem': 0.299, 'ring_ratio': 1.191, 'rho_all_3_wake': 0.984} 
+  profile [0.01, 0.022, 0.049, 0.066, 0.075, 0.081, 0.088, 0.092, 0.093, 0.072] 
+  alignment {"relay_fidelity": 0.11263436022212017, "theory_fidelity": 0.11155412024665476, "alignment_all": 0.22767859857127215, "alignment_late": 0.2745220913120856, "alignment_late_sq": 0.07536347428098264} 
+  by onset [0.154, 0.193, 0.223, 0.248, 0.266, 0.27, 0.282, 0.267, 0.253, nan] 
+  model split WITHIN_UP_TIME_COURSE {"rho_short_early": 0.5331791966444193, "rho_short_mid": 0.5537042578666742, "rho_short_late": 0.6061992448742897, "rho_long_early": 0.554897236631589, "rho_long_mid": 0.5669543473768366, "rho_long_late": 0.46099354305191975}
+mouse split BOTH {"n": 30, "median": 0.07609722605769276, "ci95": [0.056003557198849696, 0.11587502980974401], "supported": true} {"n": 27, "median": 0.06261344177183992, "ci95": [0.04017711821438752, 0.13553118203614511], "supported": true} 
+  class medians {"rho_short_early": 0.47568850220543024, "rho_short_mid": 0.5380611401265654, "rho_short_late": 0.5710627493034948, "rho_long_early": 0.5211342832626876, "rho_long_mid": 0.6287528811795826, "rho_long_late": 0.6314478685678279}

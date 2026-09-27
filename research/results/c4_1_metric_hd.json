@@ -1,0 +1,889 @@
+{
+ "step": "c4_1_metric_hd",
+ "premise": "C4",
+ "premise_text": "기능적 거리와 변화 비용 = 리만 계량",
+ "claim": "머리방향 세포의 국소 판별 정밀도는 상태 의존 리만 계량 g(θ)의 역수로 맞춰지고, 평평한 계량으로는 맞춰지지 않는다",
+ "reference": "실측: DANDI:000939 생쥐 후구상 머리방향 세포 (주 검사 wake_square, 재현 wake_triangle)",
+ "checks": {
+  "sessions": {
+   "value": 31.0,
+   "low": 5,
+   "high": null,
+   "passed": true
+  },
+  "accuracy": {
+   "value": 0.4311259352730664,
+   "low": null,
+   "high": 0.35,
+   "passed": false
+  },
+  "replication_accuracy": {
+   "value": 0.40882006555024664,
+   "low": null,
+   "high": 0.35,
+   "passed": false
+  },
+  "replication_flat_fails": {
+   "value": 0.37038996595762275,
+   "low": 0.35,
+   "high": null,
+   "passed": true
+  }
+ },
+ "reverse_proof": {
+  "term": "상태 의존 계량 g(θ)",
+  "error_with": 0.4311259352730664,
+  "error_without": 0.36963396098344636,
+  "tolerance": 0.35,
+  "passed": false
+ },
+ "verdict": "실패",
+ "axiom_adopted": false,
+ "measured": {
+  "standard": "포아송 Fisher–Rao g = T·Σf′²/f",
+  "median_rms_square": {
+   "A": 0.4311259352730664,
+   "B": 0.36963396098344636,
+   "C": 0.5413881602303596
+  },
+  "median_rms_triangle": {
+   "A": 0.40882006555024664,
+   "B": 0.37038996595762275,
+   "C": 0.5453823372265882
+  },
+  "median_scale_A": 2.98538272297665,
+  "square": [
+   {
+    "session": "sub-A1808_ses-190807",
+    "cells": 29,
+    "rms": {
+     "A": 0.3332438993072718,
+     "C": 0.4657611187575046,
+     "B": 0.2919798919376924
+    },
+    "scale_A": 2.202194288673746,
+    "bins": 12,
+    "test_windows": 4496
+   },
+   {
+    "session": "sub-A1813_ses-190408",
+    "cells": 30,
+    "rms": {
+     "A": 0.6501271802282588,
+     "C": 0.8240498124899693,
+     "B": 0.551297967748664
+    },
+    "scale_A": 2.570231806363968,
+    "bins": 12,
+    "test_windows": 5077
+   },
+   {
+    "session": "sub-A1815_ses-190523",
+    "cells": 33,
+    "rms": {
+     "A": 0.4352457621803082,
+     "C": 0.6863872315688956,
+     "B": 0.44591260842540736
+    },
+    "scale_A": 2.7852070862113756,
+    "bins": 12,
+    "test_windows": 4433
+   },
+   {
+    "session": "sub-A1821_ses-190910",
+    "cells": 37,
+    "rms": {
+     "A": 0.23806766785340164,
+     "C": 0.37464659126049193,
+     "B": 0.19045210673462026
+    },
+    "scale_A": 2.6335583326555088,
+    "bins": 12,
+    "test_windows": 13305
+   },
+   {
+    "session": "sub-A1824_ses-190827",
+    "cells": 39,
+    "rms": {
+     "A": 0.2952733268986819,
+     "C": 0.5004267883875558,
+     "B": 0.16201078311151446
+    },
+    "scale_A": 2.543878212449855,
+    "bins": 12,
+    "test_windows": 5970
+   },
+   {
+    "session": "sub-A3701_ses-191119",
+    "cells": 71,
+    "rms": {
+     "A": 0.3659219415146938,
+     "C": 0.47323703575467185,
+     "B": 0.40492615178977054
+    },
+    "scale_A": 5.434279754135144,
+    "bins": 12,
+    "test_windows": 12467
+   },
+   {
+    "session": "sub-A3702_ses-191126",
+    "cells": 61,
+    "rms": {
+     "A": 0.492985377541355,
+     "C": 0.6973966959273941,
+     "B": 0.4425340790542204
+    },
+    "scale_A": 4.8580750415691645,
+    "bins": 12,
+    "test_windows": 12555
+   },
+   {
+    "session": "sub-A3703_ses-191215",
+    "cells": 65,
+    "rms": {
+     "A": 0.39172030467828073,
+     "C": 0.45294104735363705,
+     "B": 0.5452919525541172
+    },
+    "scale_A": 4.485096370665003,
+    "bins": 12,
+    "test_windows": 11944
+   },
+   {
+    "session": "sub-A3705_ses-200306",
+    "cells": 66,
+    "rms": {
+     "A": 0.3076318186138784,
+     "C": 0.36362704960196707,
+     "B": 0.3368210775671903
+    },
+    "scale_A": 4.8539259139439865,
+    "bins": 12,
+    "test_windows": 13066
+   },
+   {
+    "session": "sub-A3706_ses-200313",
+    "cells": 86,
+    "rms": {
+     "A": 0.16082005516905495,
+     "C": 0.20389001036511703,
+     "B": 0.12873227223380826
+    },
+    "scale_A": 6.228024138555632,
+    "bins": 12,
+    "test_windows": 11955
+   },
+   {
+    "session": "sub-A3707_ses-200317",
+    "cells": 117,
+    "rms": {
+     "A": 0.5533416752441864,
+     "C": 0.7132675684714328,
+     "B": 0.6021009942463378
+    },
+    "scale_A": 8.888864813219492,
+    "bins": 12,
+    "test_windows": 8983
+   },
+   {
+    "session": "sub-A3708_ses-200317b",
+    "cells": 44,
+    "rms": {
+     "A": 0.32688877280587714,
+     "C": 0.4880983159013666,
+     "B": 0.2937483702978694
+    },
+    "scale_A": 2.7486116261740987,
+    "bins": 12,
+    "test_windows": 9381
+   },
+   {
+    "session": "sub-A3709_ses-200601",
+    "cells": 21,
+    "rms": {
+     "A": 0.4619113513007604,
+     "C": 0.68294218008618,
+     "B": 0.2997309299308363
+    },
+    "scale_A": 1.7443101743294813,
+    "bins": 12,
+    "test_windows": 9274
+   },
+   {
+    "session": "sub-A3710_ses-200609",
+    "cells": 80,
+    "rms": {
+     "A": 0.48314341271796646,
+     "C": 0.6497112318952352,
+     "B": 0.36420374565664493
+    },
+    "scale_A": 5.16788807396156,
+    "bins": 12,
+    "test_windows": 11972
+   },
+   {
+    "session": "sub-A3711_ses-200810b",
+    "cells": 90,
+    "rms": {
+     "A": 0.4776260026663554,
+     "C": 0.5899226257301667,
+     "B": 0.42690326850930627
+    },
+    "scale_A": 7.250495706466971,
+    "bins": 12,
+    "test_windows": 11855
+   },
+   {
+    "session": "sub-A3712_ses-200903a",
+    "cells": 73,
+    "rms": {
+     "A": 0.4062101102408583,
+     "C": 0.5413881602303596,
+     "B": 0.347400407038765
+    },
+    "scale_A": 5.70519845147294,
+    "bins": 12,
+    "test_windows": 8453
+   },
+   {
+    "session": "sub-A3713_ses-200909a",
+    "cells": 25,
+    "rms": {
+     "A": 0.303617493414948,
+     "C": 0.41546456628080114,
+     "B": 0.22030925657841086
+    },
+    "scale_A": 2.5149406981688402,
+    "bins": 12,
+    "test_windows": 8949
+   },
+   {
+    "session": "sub-A3716_ses-201015b",
+    "cells": 93,
+    "rms": {
+     "A": 0.4767607834837572,
+     "C": 0.570848834707323,
+     "B": 0.39011150332241407
+    },
+    "scale_A": 5.152096641297218,
+    "bins": 12,
+    "test_windows": 8821
+   },
+   {
+    "session": "sub-A3717_ses-201021",
+    "cells": 59,
+    "rms": {
+     "A": 0.4311259352730664,
+     "C": 0.5425170539941878,
+     "B": 0.40018599198766347
+    },
+    "scale_A": 4.762533527623104,
+    "bins": 12,
+    "test_windows": 8974
+   },
+   {
+    "session": "sub-A3723_ses-201115",
+    "cells": 37,
+    "rms": {
+     "A": 0.1626302305621927,
+     "C": 0.2581138881833951,
+     "B": 0.14833701126650234
+    },
+    "scale_A": 1.6597294176451167,
+    "bins": 12,
+    "test_windows": 11994
+   },
+   {
+    "session": "sub-A3728_ses-210309b",
+    "cells": 27,
+    "rms": {
+     "A": 0.41366184758722135,
+     "C": 0.6639823428427496,
+     "B": 0.37759174075183777
+    },
+    "scale_A": 3.5492673074413306,
+    "bins": 12,
+    "test_windows": 8399
+   },
+   {
+    "session": "sub-A3730_ses-210323b",
+    "cells": 47,
+    "rms": {
+     "A": 0.3515816482343645,
+     "C": 0.478501183901951,
+     "B": 0.352496742771981
+    },
+    "scale_A": 4.506515014432067,
+    "bins": 12,
+    "test_windows": 11971
+   },
+   {
+    "session": "sub-A5505_ses-200831",
+    "cells": 30,
+    "rms": {
+     "A": 0.4773659875892089,
+     "C": 0.6020358619432522,
+     "B": 0.32074670085224805
+    },
+    "scale_A": 2.3012661775419154,
+    "bins": 12,
+    "test_windows": 8957
+   },
+   {
+    "session": "sub-A5506_ses-200914a",
+    "cells": 24,
+    "rms": {
+     "A": 0.5744058996063502,
+     "C": 0.8166547154928533,
+     "B": 0.36963396098344636
+    },
+    "scale_A": 3.0856510199610665,
+    "bins": 12,
+    "test_windows": 8949
+   },
+   {
+    "session": "sub-A5507_ses-200920",
+    "cells": 43,
+    "rms": {
+     "A": 0.33582489995441794,
+     "C": 0.3866576117066021,
+     "B": 0.34849019969913664
+    },
+    "scale_A": 2.271167187652463,
+    "bins": 12,
+    "test_windows": 8915
+   },
+   {
+    "session": "sub-A5508_ses-200930",
+    "cells": 33,
+    "rms": {
+     "A": 0.21253539932278298,
+     "C": 0.29861395512331934,
+     "B": 0.2076547749282176
+    },
+    "scale_A": 2.3065481870578073,
+    "bins": 12,
+    "test_windows": 8970
+   },
+   {
+    "session": "sub-A5801_ses-200924",
+    "cells": 26,
+    "rms": {
+     "A": 0.45156157747715114,
+     "C": 0.5019362053769277,
+     "B": 0.3898008278849898
+    },
+    "scale_A": 2.0072645719158495,
+    "bins": 12,
+    "test_windows": 11881
+   },
+   {
+    "session": "sub-A6211_ses-210407",
+    "cells": 36,
+    "rms": {
+     "A": 0.4421946053153434,
+     "C": 0.5818399747694739,
+     "B": 0.3933133337619287
+    },
+    "scale_A": 2.98538272297665,
+    "bins": 12,
+    "test_windows": 5997
+   },
+   {
+    "session": "sub-A6215_ses-210610",
+    "cells": 29,
+    "rms": {
+     "A": 0.7191900206455232,
+     "C": 0.7160688194715177,
+     "B": 0.749926405444139
+    },
+    "scale_A": 2.4302952153820887,
+    "bins": 12,
+    "test_windows": 4800
+   },
+   {
+    "session": "sub-A6216_ses-210623",
+    "cells": 44,
+    "rms": {
+     "A": 0.5112672505994159,
+     "C": 0.5997373885916778,
+     "B": 0.5362752397902301
+    },
+    "scale_A": 5.521807323710047,
+    "bins": 12,
+    "test_windows": 5999
+   },
+   {
+    "session": "sub-A9701_ses-210805",
+    "cells": 38,
+    "rms": {
+     "A": 0.44210982089585893,
+     "C": 0.5235473268761298,
+     "B": 0.41780300506857343
+    },
+    "scale_A": 1.9214826930383526,
+    "bins": 12,
+    "test_windows": 5998
+   }
+  ],
+  "triangle": [
+   {
+    "session": "sub-A3701_ses-191119",
+    "cells": 71,
+    "rms": {
+     "A": 0.4978037511926137,
+     "C": 0.5785090467651844,
+     "B": 0.5547019256520478
+    },
+    "scale_A": 5.141323390169298,
+    "bins": 12,
+    "test_windows": 11912
+   },
+   {
+    "session": "sub-A3702_ses-191126",
+    "cells": 61,
+    "rms": {
+     "A": 0.33099135876461816,
+     "C": 0.438785576664932,
+     "B": 0.39495466880185953
+    },
+    "scale_A": 5.5614041098774925,
+    "bins": 12,
+    "test_windows": 11938
+   },
+   {
+    "session": "sub-A3703_ses-191215",
+    "cells": 65,
+    "rms": {
+     "A": 0.3702834722708216,
+     "C": 0.40843964728132776,
+     "B": 0.255002268898251
+    },
+    "scale_A": 3.719145734542227,
+    "bins": 12,
+    "test_windows": 10503
+   },
+   {
+    "session": "sub-A3705_ses-200306",
+    "cells": 66,
+    "rms": {
+     "A": 0.3775562129896333,
+     "C": 0.45194283875155755,
+     "B": 0.516941860265092
+    },
+    "scale_A": 4.494843252494528,
+    "bins": 12,
+    "test_windows": 12155
+   },
+   {
+    "session": "sub-A3706_ses-200313",
+    "cells": 86,
+    "rms": {
+     "A": 0.15658154462779128,
+     "C": 0.2385630389097376,
+     "B": 0.1861647337113155
+    },
+    "scale_A": 7.369076989435139,
+    "bins": 12,
+    "test_windows": 11888
+   },
+   {
+    "session": "sub-A3707_ses-200317",
+    "cells": 117,
+    "rms": {
+     "A": 0.6268346858403194,
+     "C": 0.8900883762964861,
+     "B": 0.6993337940802244
+    },
+    "scale_A": 13.127184421547057,
+    "bins": 12,
+    "test_windows": 6043
+   },
+   {
+    "session": "sub-A3708_ses-200317b",
+    "cells": 44,
+    "rms": {
+     "A": 0.16115483905363326,
+     "C": 0.3912703791887891,
+     "B": 0.30632837133112556
+    },
+    "scale_A": 2.683667075592605,
+    "bins": 12,
+    "test_windows": 8675
+   },
+   {
+    "session": "sub-A3710_ses-200609",
+    "cells": 80,
+    "rms": {
+     "A": 0.457892098953725,
+     "C": 0.6351123986256244,
+     "B": 0.40819255499196627
+    },
+    "scale_A": 4.764968058818754,
+    "bins": 12,
+    "test_windows": 11958
+   },
+   {
+    "session": "sub-A3711_ses-200810b",
+    "cells": 90,
+    "rms": {
+     "A": 0.5352776449748209,
+     "C": 0.6369173016878353,
+     "B": 0.636598395968822
+    },
+    "scale_A": 9.919844358428572,
+    "bins": 12,
+    "test_windows": 12160
+   },
+   {
+    "session": "sub-A3712_ses-200903a",
+    "cells": 73,
+    "rms": {
+     "A": 0.4178517070405248,
+     "C": 0.5691440298521877,
+     "B": 0.3862427119689432
+    },
+    "scale_A": 5.179077489124791,
+    "bins": 12,
+    "test_windows": 8490
+   },
+   {
+    "session": "sub-A3713_ses-200909a",
+    "cells": 25,
+    "rms": {
+     "A": 0.4464639884210876,
+     "C": 0.6663742114071115,
+     "B": 0.28543763653235593
+    },
+    "scale_A": 2.929754325748696,
+    "bins": 12,
+    "test_windows": 8767
+   },
+   {
+    "session": "sub-A3716_ses-201015b",
+    "cells": 93,
+    "rms": {
+     "A": 0.38522510886658723,
+     "C": 0.5216206446009887,
+     "B": 0.3542106683432722
+    },
+    "scale_A": 5.220168114438932,
+    "bins": 12,
+    "test_windows": 8183
+   },
+   {
+    "session": "sub-A3717_ses-201021",
+    "cells": 59,
+    "rms": {
+     "A": 0.47761817782661226,
+     "C": 0.5932617458169067,
+     "B": 0.41228522895096986
+    },
+    "scale_A": 3.6418186174013027,
+    "bins": 12,
+    "test_windows": 8983
+   },
+   {
+    "session": "sub-A3723_ses-201115",
+    "cells": 37,
+    "rms": {
+     "A": 0.2931842499639117,
+     "C": 0.44632268615692916,
+     "B": 0.28208801126288774
+    },
+    "scale_A": 1.7931774779110998,
+    "bins": 12,
+    "test_windows": 11952
+   },
+   {
+    "session": "sub-A3728_ses-210309b",
+    "cells": 27,
+    "rms": {
+     "A": 0.3997884240599684,
+     "C": 0.5951277903939733,
+     "B": 0.46342216746835346
+    },
+    "scale_A": 2.7553299760128347,
+    "bins": 12,
+    "test_windows": 8697
+   },
+   {
+    "session": "sub-A3730_ses-210323b",
+    "cells": 47,
+    "rms": {
+     "A": 0.37663875102070354,
+     "C": 0.46658657918317875,
+     "B": 0.3545372199463023
+    },
+    "scale_A": 5.09192785216815,
+    "bins": 12,
+    "test_windows": 8896
+   },
+   {
+    "session": "sub-A5505_ses-200831",
+    "cells": 30,
+    "rms": {
+     "A": 0.6664383596566316,
+     "C": 0.8546017975579053,
+     "B": 0.32970161586034474
+    },
+    "scale_A": 2.8744086714977994,
+    "bins": 12,
+    "test_windows": 8940
+   },
+   {
+    "session": "sub-A5506_ses-200914a",
+    "cells": 24,
+    "rms": {
+     "A": 0.4485370424388421,
+     "C": 0.7700466096308693,
+     "B": 0.34960741801925554
+    },
+    "scale_A": 2.438527362036038,
+    "bins": 12,
+    "test_windows": 8907
+   },
+   {
+    "session": "sub-A5507_ses-200920",
+    "cells": 43,
+    "rms": {
+     "A": 0.276831715191523,
+     "C": 0.3616976309033796,
+     "B": 0.3310016903979439
+    },
+    "scale_A": 2.800224311018974,
+    "bins": 12,
+    "test_windows": 8929
+   },
+   {
+    "session": "sub-A5508_ses-200930",
+    "cells": 33,
+    "rms": {
+     "A": 0.5405421994657117,
+     "C": 0.5012596606370728,
+     "B": 0.4460736696181759
+    },
+    "scale_A": 3.632131832124693,
+    "bins": 12,
+    "test_windows": 8296
+   }
+  ]
+ },
+ "data": [
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A1808_ses-190807_behavior+ecephys+ogen.npz",
+   "sha256": "2851d0047915bc2fa0cd3725b3467a58991025736cc9e5cd8871f9e1e70aa441"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A1813_ses-190408_behavior+ecephys+ogen.npz",
+   "sha256": "b7f9951d4e5f6d4dfefc15ed56a5ab0c6a61b752584a60dc63b4fcf60ea23b03"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A1815_ses-190523_behavior+ecephys+ogen.npz",
+   "sha256": "0100beed36785c9df5fcf6ee36d848333804266aa977cd1b3f1655cf3440bd96"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A1821_ses-190910_behavior+ecephys+ogen.npz",
+   "sha256": "473a7e1c8163df5e2ab17a673583a5eeb4277cac89ed3b63d1e6cb6c853b7da2"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A1824_ses-190827_behavior+ecephys+ogen.npz",
+   "sha256": "2f923f09838a495f1278148e3e4fa34ed47bd0b305fbbc0e5a27e60a9f89a252"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3701_ses-191119_behavior+ecephys.npz",
+   "sha256": "1c3debcef501566e9be6c5e36154047744e8e22a318d0f3a2648075dca41efea"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3702_ses-191126_behavior+ecephys.npz",
+   "sha256": "4ef8b29e70c81a1fc729a230ab7d8d4ef7aa6bbef124857e62fc58e29a44eae6"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3703_ses-191215_behavior+ecephys.npz",
+   "sha256": "6a107c5bf161ac05e7a731e3c1eb11c2a6bd075fdd603e474ad0a269b0ca1574"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3705_ses-200306_behavior+ecephys.npz",
+   "sha256": "097a7285ae338269e4d667122c378a49fd5cfac8c34d1ee0881469448647e1eb"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3706_ses-200313_behavior+ecephys.npz",
+   "sha256": "20e3728331c2fd53e0a48adf72b768bfe4840d9d93c12480444d5c72d38fb9c9"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3707_ses-200317_behavior+ecephys.npz",
+   "sha256": "3f3c845d4768ede3c7697dba5cb44b51a5b8c4962b7436d51bde60e28d5fc3ee"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3708_ses-200317b_behavior+ecephys.npz",
+   "sha256": "6d79c90c863059fdb3d1a8e70a7f596e3305bf7d5445f2e191b207c77fd11f35"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3709_ses-200601_behavior+ecephys.npz",
+   "sha256": "56914ee7db7980096ab63c13700aeb5ad6f2352f2c6e8702c413741e8a7ce3b8"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3710_ses-200609_behavior+ecephys.npz",
+   "sha256": "81e2334090536909085254a8d188fc4b1cddb1d31d74a3c17790060f91b0b54b"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3711_ses-200810b_behavior+ecephys.npz",
+   "sha256": "4574ebe7d7c8ac69bb3f54b5c139ccaba5c7feec5dea3cbd6afd491188e8cee1"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3712_ses-200903a_behavior+ecephys.npz",
+   "sha256": "0f23f5affd1c7534630337e6545e0f3dbc6b7a280964612b88a00c8325343383"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3713_ses-200909a_behavior+ecephys.npz",
+   "sha256": "8101adcc6b411af9e0da607277adef6cbc6528ab85660c6844cdd28732c64b93"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3716_ses-201015b_behavior+ecephys.npz",
+   "sha256": "51eb80f5047ba3f83b3e3c385f37e1360daade9b2801a830222071805eb61a80"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3717_ses-201021_behavior+ecephys.npz",
+   "sha256": "5ca0a567591affc3ad8e3f4828296f2441b3172e710b5a409114679cdbda53e0"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3723_ses-201115_behavior+ecephys.npz",
+   "sha256": "75348445ba36abcf08e715d6d037fe0109c2ade23fc26a1a5825a7031e1f30f4"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3728_ses-210309b_behavior+ecephys.npz",
+   "sha256": "60d33b238ea32ac5f14f6d72edeedd069666fd8480f29317547fa633b358e319"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A3730_ses-210323b_behavior+ecephys.npz",
+   "sha256": "64df6bca1f0d218c52f40cb0f0e12dc7051df5489f7c3a03c6399f3df99b847d"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A5505_ses-200831_behavior+ecephys.npz",
+   "sha256": "964ea05070a09c7a16b8679c1ef1b0dc2de851b0049bcbe5f635740690117096"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A5506_ses-200914a_behavior+ecephys.npz",
+   "sha256": "b31c948f40bc109141f26431b3bdeb296dcd61107a7a62cbddba46b8da686355"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A5507_ses-200920_behavior+ecephys.npz",
+   "sha256": "7d2f9158637871e7e18b5b55371d59e18f057d4af105551426a7b2d13a8cb1d2"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A5508_ses-200930_behavior+ecephys.npz",
+   "sha256": "8881a1a94f3c6c540a9cbf38862553458e2149391d1298d8a802bf3ad11d664e"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A5801_ses-200924_behavior+ecephys.npz",
+   "sha256": "6616b16fab5b7d5fe1c920ecedba2ac868e73197bb2873adcd8d6eac54aa195c"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A6211_ses-210407_behavior+ecephys+ogen.npz",
+   "sha256": "47dd70cdc52046b26e018e17fea4a88adc906cccfbda8c8ff8cf6ef0c44346b6"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A6215_ses-210610_behavior+ecephys+ogen.npz",
+   "sha256": "986e447809606ac9cc135d848636aff0fe7219532984dc095b5234a0113b24db"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A6216_ses-210623_behavior+ecephys+ogen.npz",
+   "sha256": "b71af911f032879b4846504395205e54fa1f034c78d58864c2b77d41d5492292"
+  },
+  {
+   "dataset": "dandi-000939-extract",
+   "version": "DANDI 000939 0.260512.1701",
+   "asset": "sub-A9701_ses-210805_behavior+ecephys+ogen.npz",
+   "sha256": "91eaae097f7a7937108f56a6c9fda09426a3188bd669a711fc76620d8a694e84"
+  }
+ ],
+ "code_sha256": {
+  "c1_1_common_equation.py": "3e22dcc79593c2dc919e203117b40ff7d7b0106b7e108e1d5af0bf667936d74f",
+  "c1_2_common_equation_onset.py": "e105afc1e813949da022cbed0317938159ff157423d37a6ac54f4e65f96cd005",
+  "c2_1_fixed_points.py": "385d7335edc34ebdca3185219f7995194290a93c1237c5beff5b27cee9cbec34",
+  "c3_1_sleep_trace.py": "e799d26d92ce58ece7caf1084981574690c7ca4f102d1c607ab0e724442d2b3a",
+  "c3_2_trace_replication.py": "05dd291fcc05ca80f2cdb8228fa242466e31ebaa97c5c3732190dc6e637bbf13",
+  "c3_3_restoring.py": "b66d34a5c59480376f5a38c4f62769bbfd6bc668a83ffc8b2db876d701f7f0bf",
+  "c3_4_past_conflict.py": "fca73a61de2ef6291ee9a81a932e318f5f64722e6d4223d441d40e8e88031a87",
+  "c4_1_metric_hd.py": "79c9235b7f5a1a3cc6e36e8ee48baf78f84047015a66298e9388734c093a6ccd",
+  "c4_2_anisotropic_metric.py": "b1802dd63f2bc29161ab43abbe8c8f27222e83d70af9614c546499339e8a3769",
+  "c4_3_soft_modes.py": "a54bcf1863a16d684970377e436f9765686d9fd08e6b46130ffded10244ceb98",
+  "c4_4_ring_diffusion.py": "40abe5670757ad39de343d4a61be71d038ad980794422e74770add2247cd1250",
+  "c4_5_ring_diffusion_long.py": "aadfdbc629130333dd0f1855cdba113fe1b7bffcfbf115dabaf2deed0e24a960",
+  "c5_1_pen_shift.py": "6de1006cf1192a8e401f3e68aeafb773d7056e772894d8082c185e4ad570856c",
+  "c6_1_reactivation.py": "52ce4657738c64742aeafab2a20731255cd6dcd59fa1564e5a33bc6c2246502a",
+  "c7_1_address.py": "c66d67e3c74ad020d57a663162aa375beee1346978124aa698ca73a1134cf198",
+  "c8_1_selection.py": "dd95f9d7ecce38537ec326960af23bcee089619d85ba493c189a9a2c66710568",
+  "core.py": "e8b3160318234bdf651f465efabcaedd12c521c86f18713fc34f3a93014382e3",
+  "fast/Cargo.toml": "0dd61494902f2b39209c6ec8b7469513ba2dc5d4dff8acf5cbe13a0ed0c75d43",
+  "fast/src/lib.rs": "f61451f47a5a73a453ee58dcc36fc8cac81f26555ac8b5423422f0bb7780885b",
+  "fetch.py": "300cb3095db4dfac9881ad35bf0dc841d79b8c22d375333218e1db551758d5b0",
+  "harness.py": "618b6d06350e1e5c3cfa7809656bf526bbcecb33c15356091041f2b02f4c2528",
+  "malecns.py": "b0e319267076fdea65ffba366f97e331d96833eae9608839f0242fadc7190c26",
+  "step01_ring_plane.py": "8213a4dac5a52378c553f50ac1c190fe837d276cfeb120fc3a7755f490be5722",
+  "step02_pen_rotation.py": "63f0f8a6f1964e96bf9950f7d95d9666f60f880a8ea51e573baa1782ccff3153",
+  "step02b_pen_pb_shift.py": "d0a321e824501fc7e1ccd8617187a6d6f3fc0610b4950cb253a07d6374c49791",
+  "store.py": "effbe46995f88fabf2c7968ff2b48c975845ffc114e0a8f449a448fa62da7684"
+ },
+ "date": "2026-09-27"
+}

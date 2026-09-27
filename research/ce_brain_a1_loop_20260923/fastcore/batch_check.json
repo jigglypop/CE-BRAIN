@@ -1,0 +1,34 @@
+{
+ "serial_s_per_session": 3.55,
+ "cpu": "Ryzen 5 7500F, 6 cores / 12 threads",
+ "runs": [
+  {
+   "workers": 3,
+   "sessions": 24,
+   "wall_s": 25.9,
+   "sessions_per_s": 0.93,
+   "speedup_vs_serial": 3.29,
+   "identical_to_serial": true,
+   "errors": []
+  },
+  {
+   "workers": 6,
+   "sessions": 24,
+   "wall_s": 20.3,
+   "sessions_per_s": 1.18,
+   "speedup_vs_serial": 4.19,
+   "identical_to_serial": true,
+   "errors": []
+  },
+  {
+   "workers": 9,
+   "sessions": 24,
+   "wall_s": 20.4,
+   "sessions_per_s": 1.18,
+   "speedup_vs_serial": 4.18,
+   "identical_to_serial": true,
+   "errors": []
+  }
+ ],
+ "all_identical": true
+}

@@ -80,6 +80,7 @@ def test_recheck_authority_binds_progress_and_orphan_complete_is_not_success(tmp
  assert h.resolve(oq,r,op)=='INCOMPLETE_AUTHORITY'
 
 def test_initial_journal_commit_then_raise_records_terminal(tmp_path,monkeypatch):
+ if not h.LOCK.exists():pytest.skip(f"CE run evidence file missing: {h.LOCK}")
  q,r,p=tmp_path/'q.json',tmp_path/'r.json',tmp_path/'p.json';original=h._write;calls={'writes':0,'loads':0}
  def flaky(path,value):
   calls['writes']+=1;original(path,value)

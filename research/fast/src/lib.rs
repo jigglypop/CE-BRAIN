@@ -1,0 +1,224 @@
+//! CE-BRAIN 빠른 계산 핵심.
+//!
+//! 스파이크는 NWB처럼 평탄한 시각 배열 `times`와 단위별 끝 색인 `ends`로 받는다. 단위마다 시각은
+//! 오름차순이어야 하고, 모든 칸은 반열린 구간 [시작, 끝)이다. 단위별로 나누어 GIL 밖에서 병렬로 센다.
+
+use numpy::ndarray::{Array2, Array3};
+use numpy::{IntoPyArray, PyArray2, PyArray3, PyReadonlyArray1};
+use pyo3::exceptions::PyValueError;
+use pyo3::prelude::*;
+use rayon::prelude::*;
+
+type Times<'py> = PyReadonlyArray1<'py, f64>;
+type Ends<'py> = PyReadonlyArray1<'py, i64>;
+
+/// Split flat spike times into per-unit slices, checking the index and the order of every unit.
+fn units<'a>(times: &'a [f64], ends: &[i64]) -> PyResult<Vec<&'a [f64]>> {
+    let mut start = 0;
+    let mut out = Vec::with_capacity(ends.len());
+    for (i, &end) in ends.iter().enumerate() {
+        let end = usize::try_from(end)
+            .ok()
+            .filter(|&e| e >= start && e <= times.len())
+            .ok_or_else(|| PyValueError::new_err(format!("bad end index of unit {i}")))?;
+        let unit = &times[start..end];
+        if unit.windows(2).any(|w| !(w[0] <= w[1])) {
+            return Err(PyValueError::new_err(format!("spike times of unit {i} are not sorted")));
+        }
+        out.push(unit);
+        start = end;
+    }
+    Ok(out)
+}
+
+/// Number of spikes before time x.
+fn before(unit: &[f64], x: f64) -> u32 {
+    unit.partition_point(|&s| s < x) as u32
+}
+
+/// Spike counts (units × bins) in contiguous bins [edges[k], edges[k+1]).
+#[pyfunction]
+fn bin_counts<'py>(
+    py: Python<'py>,
+    times: Times<'py>,
+    ends: Ends<'py>,
+    edges: Times<'py>,
+) -> PyResult<Bound<'py, PyArray2<u32>>> {
+    let (times, ends, edges) = (times.as_slice()?, ends.as_slice()?, edges.as_slice()?);
+    if edges.windows(2).any(|w| !(w[0] < w[1])) {
+        return Err(PyValueError::new_err("edges must increase"));
+    }
+    let units = units(times, ends)?;
+    let bins = edges.len().saturating_sub(1);
+    let mut out = vec![0u32; units.len() * bins];
+    if bins > 0 {
+        py.detach(|| {
+            out.par_chunks_mut(bins).zip(&units).for_each(|(row, unit)| {
+                let mut k = 0;
+                for &t in &unit[before(unit, edges[0]) as usize..] {
+                    while k < bins && t >= edges[k + 1] {
+                        k += 1;
+                    }
+                    if k == bins {
+                        break;
+                    }
+                    row[k] += 1;
+                }
+            })
+        });
+    }
+    Ok(Array2::from_shape_vec((units.len(), bins), out).unwrap().into_pyarray(py))
+}
+
+/// Spike counts (units × windows) in arbitrary, possibly overlapping windows [starts[w], stops[w]).
+#[pyfunction]
+fn window_counts<'py>(
+    py: Python<'py>,
+    times: Times<'py>,
+    ends: Ends<'py>,
+    starts: Times<'py>,
+    stops: Times<'py>,
+) -> PyResult<Bound<'py, PyArray2<u32>>> {
+    let (times, ends, starts, stops) =
+        (times.as_slice()?, ends.as_slice()?, starts.as_slice()?, stops.as_slice()?);
+    if starts.len() != stops.len() || starts.iter().zip(stops).any(|(a, b)| !(a <= b)) {
+        return Err(PyValueError::new_err("windows need starts ≤ stops of equal length"));
+    }
+    let units = units(times, ends)?;
+    let windows = starts.len();
+    let mut out = vec![0u32; units.len() * windows];
+    if windows > 0 {
+        py.detach(|| {
+            out.par_chunks_mut(windows).zip(&units).for_each(|(row, unit)| {
+                for (c, (&a, &b)) in row.iter_mut().zip(starts.iter().zip(stops)) {
+                    *c = before(unit, b) - before(unit, a);
+                }
+            })
+        });
+    }
+    Ok(Array2::from_shape_vec((units.len(), windows), out).unwrap().into_pyarray(py))
+}
+
+/// Cross-correlograms (a units × b units × 2·half+1): counts of b spikes at lag t_b − t_a, in bins of
+/// `width` centred on zero lag. Passing the same units twice gives all pairs, with each unit's own
+/// spikes in its zero-lag bin.
+#[pyfunction]
+fn ccg<'py>(
+    py: Python<'py>,
+    a_times: Times<'py>,
+    a_ends: Ends<'py>,
+    b_times: Times<'py>,
+    b_ends: Ends<'py>,
+    width: f64,
+    half: usize,
+) -> PyResult<Bound<'py, PyArray3<u32>>> {
+    if !(width > 0.0) {
+        return Err(PyValueError::new_err("width must be positive"));
+    }
+    let a = units(a_times.as_slice()?, a_ends.as_slice()?)?;
+    let b = units(b_times.as_slice()?, b_ends.as_slice()?)?;
+    let (bins, reach) = (2 * half + 1, (half as f64 + 0.5) * width);
+    let mut out = vec![0u32; a.len() * b.len() * bins];
+    if !b.is_empty() {
+        py.detach(|| {
+            out.par_chunks_mut(b.len() * bins).zip(&a).for_each(|(block, ua)| {
+                for (row, ub) in block.chunks_mut(bins).zip(&b) {
+                    let mut lo = 0;
+                    for &t in ua.iter() {
+                        while lo < ub.len() && ub[lo] < t - reach {
+                            lo += 1;
+                        }
+                        for &s in ub[lo..].iter().take_while(|&&s| s < t + reach) {
+                            row[(((s - t + reach) / width) as usize).min(bins - 1)] += 1;
+                        }
+                    }
+                }
+            })
+        });
+    }
+    Ok(Array3::from_shape_vec((a.len(), b.len(), bins), out).unwrap().into_pyarray(py))
+}
+
+/// SplitMix64 with Box–Muller normals: one fixed stream per trajectory, so every parameter set sees the same noise.
+struct Rng(u64);
+
+impl Rng {
+    fn next(&mut self) -> u64 {
+        self.0 = self.0.wrapping_add(0x9E37_79B9_7F4A_7C15);
+        let mut z = self.0;
+        z = (z ^ (z >> 30)).wrapping_mul(0xBF58_476D_1CE4_E5B9);
+        z = (z ^ (z >> 27)).wrapping_mul(0x94D0_49BB_1331_11EB);
+        z ^ (z >> 31)
+    }
+
+    fn uniform(&mut self) -> f64 {
+        ((self.next() >> 11) as f64 + 0.5) / (1u64 << 53) as f64
+    }
+
+    fn normal(&mut self) -> f64 {
+        (-2.0 * self.uniform().ln()).sqrt() * (std::f64::consts::TAU * self.uniform()).cos()
+    }
+}
+
+/// The common equation on a ring, one trajectory per event, from θ(0) = 0 and h(0) = 1:
+///   dθ = −D ∂E/∂θ dt + √(2D) dW,   τ ḣ = −h + e^{iθ},
+///   E = −A|h|·g(θ − arg h) − A_s·g(θ − θ_s),   g(x) = e^{β(cos x − 1)}.
+/// Returns the circular-mean angle of θ over each window of `substeps` Euler steps (events × windows),
+/// NaN past each event's length.
+#[pyfunction]
+#[allow(clippy::too_many_arguments)]
+fn ring_trace<'py>(
+    py: Python<'py>,
+    heads: Times<'py>,
+    lengths: Ends<'py>,
+    windows: usize,
+    d: f64,
+    a: f64,
+    tau: f64,
+    a_s: f64,
+    beta: f64,
+    substeps: usize,
+    seed: u64,
+) -> PyResult<Bound<'py, PyArray2<f64>>> {
+    let (heads, lengths) = (heads.as_slice()?, lengths.as_slice()?);
+    if heads.len() != lengths.len() || substeps == 0 || !(d >= 0.0) || !(tau > 0.0) {
+        return Err(PyValueError::new_err("need equal heads and lengths, substeps > 0, D ≥ 0, τ > 0"));
+    }
+    let dt = 1.0 / substeps as f64;
+    let noise = (2.0 * d * dt).sqrt();
+    let mut out = vec![f64::NAN; heads.len() * windows];
+    if windows > 0 {
+        py.detach(|| {
+            out.par_chunks_mut(windows).enumerate().for_each(|(i, row)| {
+                let mut rng = Rng(seed ^ (i as u64 + 1).wrapping_mul(0xD1B5_4A32_D192_ED03));
+                let (head, length) = (heads[i], (lengths[i].max(0) as usize).min(windows));
+                let (mut th, mut hr, mut hi) = (0.0f64, 1.0f64, 0.0f64);
+                for cell in row.iter_mut().take(length) {
+                    let (mut sr, mut si) = (0.0, 0.0);
+                    for _ in 0..substeps {
+                        let (x, y) = (th - hi.atan2(hr), th - head);
+                        let pull = a * hr.hypot(hi) * x.sin() * (beta * (x.cos() - 1.0)).exp()
+                            + a_s * y.sin() * (beta * (y.cos() - 1.0)).exp();
+                        th += -d * beta * pull * dt + noise * rng.normal();
+                        let (s, c) = th.sin_cos();
+                        hr += (c - hr) * dt / tau;
+                        hi += (s - hi) * dt / tau;
+                        sr += c;
+                        si += s;
+                    }
+                    *cell = si.atan2(sr);
+                }
+            })
+        });
+    }
+    Ok(Array2::from_shape_vec((heads.len(), windows), out).unwrap().into_pyarray(py))
+}
+
+#[pymodule]
+fn cefast(m: &Bound<'_, PyModule>) -> PyResult<()> {
+    m.add_function(wrap_pyfunction!(bin_counts, m)?)?;
+    m.add_function(wrap_pyfunction!(window_counts, m)?)?;
+    m.add_function(wrap_pyfunction!(ccg, m)?)?;
+    m.add_function(wrap_pyfunction!(ring_trace, m)?)?;
+    Ok(())
+}

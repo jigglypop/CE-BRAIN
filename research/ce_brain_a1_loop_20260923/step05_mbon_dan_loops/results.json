@@ -1,0 +1,96 @@
+{
+  "schema": "ce-a1-step05-mbon-dan-loops",
+  "code_sha256": "c38c616e093f62e9d6d27bbc8ae0359842d68398af2ca2d81bee815bd3222778",
+  "mbon_neurons": 93,
+  "dan_neurons": 326,
+  "mbon_to_dan_synapses": 9307,
+  "fraction_mbon_output_to_dan": 0.03774725118733295,
+  "F_same_compartment": 0.31578381863113786,
+  "null_mean": 0.07938893306113677,
+  "null_q975": 0.10906038465670997,
+  "p": 9.999000099990002e-05,
+  "L1": true,
+  "same_compartment_loop_synapses_by_mbon_nt": {
+    "glutamate": 1830,
+    "acetylcholine": 699,
+    "gaba": 410
+  },
+  "top_same_compartment_loops": [
+    {
+      "mbon": "MBON05(y4>y1y2)",
+      "dan": "PAM07(y4<y1y2)",
+      "synapses": 407
+    },
+    {
+      "mbon": "MBON05(y4>y1y2)",
+      "dan": "PAM08(y4)",
+      "synapses": 205
+    },
+    {
+      "mbon": "MBON11(y1pedc>a/B)",
+      "dan": "PPL101(y1ped)",
+      "synapses": 205
+    },
+    {
+      "mbon": "MBON30(y1y2y3)",
+      "dan": "PPL101(y1ped)",
+      "synapses": 179
+    },
+    {
+      "mbon": "MBON06(B1>a)",
+      "dan": "PAM10(B1)",
+      "synapses": 166
+    },
+    {
+      "mbon": "MBON16(a'3ap)",
+      "dan": "PPL104(a'3)",
+      "synapses": 160
+    },
+    {
+      "mbon": "MBON04(B'2mp",
+      "dan": "PAM05(B'2p)",
+      "synapses": 143
+    },
+    {
+      "mbon": "MBON28(a'3a)",
+      "dan": "PPL104(a'3)",
+      "synapses": 131
+    },
+    {
+      "mbon": "MBON01(y5B'2a)",
+      "dan": "PAM01(y5)",
+      "synapses": 128
+    },
+    {
+      "mbon": "MBON20(y1y2)",
+      "dan": "PPL101(y1ped)",
+      "synapses": 83
+    },
+    {
+      "mbon": "MBON15(a'1)",
+      "dan": "PPL103(y2a'1)",
+      "synapses": 81
+    },
+    {
+      "mbon": "MBON07(a1)",
+      "dan": "PAM11(a1)",
+      "synapses": 74
+    },
+    {
+      "mbon": "MBON30(y1y2y3)",
+      "dan": "PPL103(y2a'1)",
+      "synapses": 72
+    },
+    {
+      "mbon": "MBON17(a'3m)",
+      "dan": "PPL104(a'3)",
+      "synapses": 68
+    },
+    {
+      "mbon": "MBON15-like(a'1a'2)",
+      "dan": "PPL105(a'2a2)",
+      "synapses": 67
+    }
+  ],
+  "verdict": "SAME_COMPARTMENT_LOOPS_ENRICHED"
+}
