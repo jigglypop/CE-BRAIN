@@ -8,7 +8,7 @@
 
 | # | 공리 후보 | 상태 |
 |---|---|---|
-| C1 | 고정 뉴런의 전기적 상호작용과 과거 흔적이 기억·학습·현재 세계모델을 하나의 공통 구조로 만든다 | 미채택: 공통 식(이동도 + 흔적 우물)이 독립 자료 000939를 맞추고(χ² 1.35) 흔적 항이 필수지만, 000056은 χ² 2.73으로 기준 미달. 두 자료의 이동도·우물 깊이가 비슷하고 τ_h만 다르다 (C1-1·2 실패, 4.17–4.18) |
+| C1 | 고정 뉴런의 전기적 상호작용과 과거 흔적이 기억·학습·현재 세계모델을 하나의 공통 구조로 만든다 | 미채택: 공통 식의 꼴(이동도 + 흔적 우물)은 세 자료를 맞추고 흔적 항이 늘 필요하며 우물 깊이(약 3 kT)는 종을 넘어 옮겨 가지만, 이동도와 τ_h는 계마다 달라 한 매개변수 집합은 기준 미달 (C1-1·2·3 실패, 4.17–4.19) |
 | C2 | 뉴런은 고정된 점이고, 변하는 것은 상태와 관계다 | **채택** (C2-1): 환경이 바뀌어도 세포의 고리 위 자리는 고정되고(이동의 평균 벡터 길이 0.977), 전체 회전과 발화율만 바뀐다 (4.1) |
 | C3 | 현재 상태에는 과거의 흔적이 포함된다 | **채택** (C3-1). 독립 자료에서 재현되고 자유 확산이 아닌 되돌림이다(C3-3, 두 자료). τ는 계마다 다르고(192 s, 896 s; C3-2 실패), 되돌림의 중심은 갈등 창에서 과거가 현재의 4배지만 독립 확인이 없다(C3-3 실패, C3-4 미확립; 4.2–4.5, 4.16) |
 | C4 | 기능적 거리와 변화 비용은 리만 계량이다 | **미채택**: C4-1·2·3 실패(동시각 공분산은 E를 잰다). C4-4 실패: 렘 이동도는 확산형이나 문헌의 0.4배이고 쓸기와 구별 못 함 (4.6–4.11) |
@@ -26,10 +26,10 @@ $$
 | 기호 | 뜻 | 공리 | 지금까지 잰 값 |
 |---|---|---|---|
 | $x$, $W$ | 고정 뉴런의 상태, 방향 있는 관계(연결) | C2 | 세포의 고리 위 자리는 환경이 바뀌어도 고정(4.1) |
-| $G$ | 계량: 상태 변화의 비용 $ds^2=dx^\top G\,dx$, 기능적 거리는 그 측지 거리 | C4 | 고리 방향 이동도 $D=TG^{-1}$ 약 0.12–0.2 rad²/s (렘 4.10, 논렘 4.18; 미채택) |
-| $E$ | 기억 지형: 상태가 머무는 끌개 | C6, C8 | 흔적이 만드는 우물, 깊이 약 3 kT (4.4, 4.18) |
+| $G$ | 계량: 상태 변화의 비용 $ds^2=dx^\top G\,dx$, 기능적 거리는 그 측지 거리 | C4 | 고리 방향 이동도 $D=TG^{-1}$: 생쥐 0.12–0.2, 쥐 1.06 rad²/s (4.10, 4.18–4.19; 미채택) |
+| $E$ | 기억 지형: 상태가 머무는 끌개 | C6, C8 | 흔적이 만드는 우물, 깊이 2.6–3.3 kT로 두 종·세 연구실에서 같음 (4.4, 4.18–4.19) |
 | $F$ | 방향: 연결체의 방향 있는 신호 흐름, 입력 $u$가 켠다 | C5 | PEN의 PB 경로, 한 타일 51–55° (4.12) |
-| $h$ | 흔적: 현재 상태에 남은 과거 | C3 | τ_h는 계마다 다름: 192–254 s(000939), 896–1145 s(000056) (4.3, 4.18) |
+| $h$ | 흔적: 현재 상태에 남은 과거 | C3 | τ_h는 계마다 다름: 102–194 s(001699), 192–254 s(000939), 896–1145 s(000056) (4.3, 4.18–4.19) |
 | $\Phi$ | 학습: 흔적이 관계·계량을 바꾸는 규칙 | C6 | 경험이 수면 뒤 쌍 상관 분산의 약 11%를 설명(4.14) |
 
 ## 3. 자료 (원장 등록분)
@@ -42,6 +42,8 @@ $$
 - `malecns`, `malecns-analysis`: FlyEM male CNS v1.0 연결체와 그 파생 캐시(시냅스 수, 영역별 시냅스 수, 전달물질).
 - `hemibrain-v1.2`: FlyEM hemibrain v1.2 추적 뉴런·영역별 연결(암컷 반뇌). `flywire-783`: FlyWire 783 검수 연결과
   뉴런 주석(암컷 전뇌).
+- `dandi-001699`: 쥐 후구상 기록, 야생형 22세션(DANDI:001699, 판본 0.260917.2322; Moore et al. 2025). 깸·논렘·렘 점수,
+  탐색 중 머리 방향. Fmr1 결손 세션은 받지 않았다.
 - `dandi-000044`: 쥐 양쪽 CA1 실리콘 탐침 기록, 4마리 8세션(DANDI:000044, 판본 0.250624.0426; Grosmark & Buzsáki 2016,
   CRCNS hc-11과 같은 자료). 수면 전 → 새 선형 트랙 → 수면 후 에포크, 깸·논렘·렘 점수, 선형 위치, 흥분·억제 분류와 샤프트.
 
@@ -374,11 +376,31 @@ C1-1을 본 뒤 세운 새 단계다. 흔적 중심이 잠드는 순간 θ_pre�
   결과를 본 뒤의 것이라 매개변수를 고정해 새 자료로 옮기는 검사로 확인해야 한다.
 - 판정: 실패. 결과: `research/results/c1_2_common_equation_onset.json`.
 
+### 4.19 C1-3 계량과 흔적 우물은 다른 연구실·종으로 옮겨 가는가 — 실패 (우물 깊이는 옮겨 가고 이동도는 계마다 다름)
+
+C1-2를 본 뒤 세운 새 단계다. C1-2의 두 생쥐 자료에서 이동도 D와 흔적 우물 깊이 A가 비슷했으므로, 두 적합의 기하평균(D 0.168
+rad²/s, A 2.90 kT)을 고정해 아직 보지 않은 자료를 예측했다. DANDI:001699(Moore et al. 2025; 쥐 후구상, 다른 연구실·종, 야생형
+22세션 중 방향 세포 ≥ 10인 12세션, 316 사건)의 정렬 감쇠 6칸과 창 자기상관 5개가 대상이다.
+
+| 001699 야생형 | D·A를 옮겨 고정 | D·A 자유 | 흔적 없음 (A = 0) |
+|---|---|---|---|
+| χ²/자유도 (기준 ≤ 2) | **2.40** | 0.63 | 6.95 |
+| 이동도 D (rad²/s) | 0.168 (옮김) | **1.06** | 0.005 |
+| 흔적 우물 깊이 A (kT) | 2.90 (옮김) | **2.90** | 0 |
+| τ_h, 잠들 때 어긋남 σ₀ | 194 s, 72° | 102 s, 77° | —, 72° |
+
+- 우물 깊이 A는 그대로 옮겨 간다. 풀어서 맞춰도 2.90으로 옮긴 값과 같다. 두 종·세 연구실 자료에서 A는 2.6–3.3 kT다.
+- 이동도 D는 옮겨 가지 않는다. 쥐 자료는 6배 빠르고, 옮긴 식은 1 s 자기상관을 낮게 예측한다(실측 0.20, 예측 0.157). D·A를 풀면
+  χ²가 15.4 줄어 기준(5.99)을 넘는다. 흔적 시간 τ_h도 계마다 다르다(102–1,145 s).
+- 흔적 항은 세 자료 모두에서 필요하다(흔적 없는 식 χ²/자유도 9.88, 6.95). 식의 꼴은 세 자료를 맞춘다(자유 적합 2.73, 1.35, 0.63).
+- 판정: 실패. 결과: `research/results/c1_3_parameter_transfer.json`.
+
 ## 5. 다음
 
-- C1 매개변수 이전: C1-2에서 두 자료의 이동도 D·우물 깊이 A가 비슷했다. D·A를 고정하고 τ_h·σ₀·ρ만 두어 새 자료(수면 머리방향
-  기록, 예: DANDI:001699 쥐 후구상)를 예측하는 검사가 공통 구조의 판정이다. 갈등 창의 중간 성분을 설명할 항도 필요하다.
-- C4 계량: 문헌과 같은 해독 방법으로 렘 기울기를 다시 재고, 논렘 이동도와 렘 이동도가 같은지(C1-2의 관찰)를 사전 기준으로 판정한다.
+- C1: 식의 꼴과 우물 깊이는 공통이고 이동도·τ_h는 계마다 다르다. 공통 구조를 "모든 매개변수가 같다"가 아니라 "우물 깊이는 같고
+  이동도는 계의 속성(예: 영역 구성, 종, 나이)으로 정해진다"로 좁혀, 이동도를 미리 정하는 독립 측정(예: 같은 동물의 렘 이동도)으로
+  예측하는 검사가 다음이다.
+- C4 계량: 논렘과 렘의 이동도가 같은지 사전 기준으로 판정한다(생쥐에서 1.2배 안 관찰). 문헌 해독 방법으로 렘 기울기를 다시 잰다.
 - C3: 수면 중 머리를 추적한 다른 연구실 자료로 과거 우세를 확인한다. C7: 리플(LFP) 검출로 느린 세포 우세를 다시 본다.
 
 ## 6. 재현
@@ -387,7 +409,8 @@ C1-1을 본 뒤 세운 새 단계다. 흔적 중심이 잠드는 순간 θ_pre�
 uv sync --python 3.11
 .venv/Scripts/python -m research.fetch dandi-000056
 .venv/Scripts/python -m research.fetch dandi-000044
-for step in c1_1_common_equation c1_2_common_equation_onset c2_1_fixed_points c3_1_sleep_trace c3_2_trace_replication c3_3_restoring c3_4_past_conflict             c4_1_metric_hd c4_2_anisotropic_metric c4_3_soft_modes c4_4_ring_diffusion c4_5_ring_diffusion_long c5_1_pen_shift             c6_1_reactivation c7_1_address c8_1_selection; do .venv/Scripts/python -m research.$step; done
+.venv/Scripts/python -m research.fetch dandi-001699
+for step in c1_1_common_equation c1_2_common_equation_onset c1_3_parameter_transfer c2_1_fixed_points c3_1_sleep_trace c3_2_trace_replication c3_3_restoring c3_4_past_conflict             c4_1_metric_hd c4_2_anisotropic_metric c4_3_soft_modes c4_4_ring_diffusion c4_5_ring_diffusion_long c5_1_pen_shift             c6_1_reactivation c7_1_address c8_1_selection; do .venv/Scripts/python -m research.$step; done
 .venv/Scripts/python -m pytest tests/test_harness.py tests/test_core.py tests/test_malecns.py tests/test_fast.py tests/test_store.py tests/test_c3_trace.py tests/test_c3_replication.py tests/test_c3_restoring.py tests/test_c4_metric.py tests/test_c4_anisotropic.py tests/test_c4_soft_modes.py tests/test_c4_diffusion.py tests/test_c6_reactivation.py tests/test_c7_address.py tests/test_c8_selection.py tests/test_c1_common.py
 ```
 
@@ -403,6 +426,7 @@ for step in c1_1_common_equation c1_2_common_equation_onset c2_1_fixed_points c3
 - Hulse BK, Haberkern H, Franconville R, et al. (2021). A connectome of the *Drosophila* central complex reveals network motifs suitable for flexible navigation and context-dependent action selection. *eLife* 10:e66039.
 - Kim SS, Rouault H, Druckmann S, Jayaraman V (2017). Ring attractor dynamics in the *Drosophila* central brain. *Science* 356:849–853.
 - Kudrimoti HS, Barnes CA, McNaughton BL (1999). Reactivation of hippocampal cell assemblies: effects of behavioral state, experience, and EEG dynamics. *J Neurosci* 19:4090–4101.
+- Moore JL, Duszkiewicz AJ, Asiminas A, Dudchenko PA, Peyrache A, Wood ER (2025). bioRxiv doi:10.1101/2025.01.09.632139. (DANDI:001699)
 - Peyrache A, Lacroix MM, Petersen PC, Buzsáki G (2015). Internally organized mechanisms of the head direction sense. *Nat Neurosci* 18:569–575.
 - Scheffer LK, Xu CS, Januszewski M, et al. (2020). A connectome and analysis of the adult *Drosophila* central brain. *eLife* 9:e57443. (hemibrain)
 - Turner-Evans D, Wegener S, Rouault H, et al. (2017). Angular velocity integration in a fly heading circuit. *eLife* 6:e23496.

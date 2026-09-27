@@ -194,6 +194,12 @@ def dandi_assets(dandiset, version):
     return assets
 
 
+def dandi_genotype(dandiset, version, asset_id):
+    """Genotype of the subject of one DANDI asset, from its metadata."""
+    meta = requests.get(f"{API}/dandisets/{dandiset}/versions/{version}/assets/{asset_id}/", timeout=60).json()
+    return (meta.get("wasAttributedTo") or [{}])[0].get("genotype")
+
+
 def dandi_url(asset_id):
     return f"{API}/assets/{asset_id}/download/"
 

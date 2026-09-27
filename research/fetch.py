@@ -27,6 +27,14 @@ SOURCES = {
         "series": {"position": "processing/behavior/*LinearizedPosition/*"},
         "citation": "Grosmark AD, Buzsáki G (2016) Science 351:1440–1443, doi:10.1126/science.aad1935 (CRCNS hc-11)",
     },
+    "dandi-001699": {
+        "dandiset": "001699", "version": "0.260917.2322", "genotype": "WT",
+        "premises": "C1-3 공통 식 매개변수의 이전(다른 연구실·종의 수면 머리방향 기록)",
+        "tables": None,
+        "series": {"head": "processing/behavior/CompassDirection/head-direction"},
+        "citation": "Moore JL, Duszkiewicz AJ, Asiminas A, Dudchenko PA, Peyrache A, Wood ER (2025) bioRxiv "
+                    "doi:10.1101/2025.01.09.632139 (쥐 후구상, 야생형만)",
+    },
 }
 
 
@@ -38,6 +46,8 @@ def fetch(name, workers=4):
         done = set()
     assets = [a for a in store.dandi_assets(spec["dandiset"], spec["version"])
               if a[0].endswith(".nwb") and f"{Path(a[0]).stem}.npz" not in done]
+    if "genotype" in spec:
+        assets = [a for a in assets if store.dandi_genotype(spec["dandiset"], spec["version"], a[1]) == spec["genotype"]]
     reason = f"{spec['premises']}. {spec['citation']}. 표 {spec['tables']}, 시계열 {spec['series']}"
 
     def one(asset):

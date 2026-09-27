@@ -382,32 +382,14 @@
   }
  ],
  "code_sha256": {
-  "c1_1_common_equation.py": "3e22dcc79593c2dc919e203117b40ff7d7b0106b7e108e1d5af0bf667936d74f",
-  "c1_2_common_equation_onset.py": "e105afc1e813949da022cbed0317938159ff157423d37a6ac54f4e65f96cd005",
   "c2_1_fixed_points.py": "385d7335edc34ebdca3185219f7995194290a93c1237c5beff5b27cee9cbec34",
   "c3_1_sleep_trace.py": "e799d26d92ce58ece7caf1084981574690c7ca4f102d1c607ab0e724442d2b3a",
   "c3_2_trace_replication.py": "05dd291fcc05ca80f2cdb8228fa242466e31ebaa97c5c3732190dc6e637bbf13",
-  "c3_3_restoring.py": "b66d34a5c59480376f5a38c4f62769bbfd6bc668a83ffc8b2db876d701f7f0bf",
-  "c3_4_past_conflict.py": "fca73a61de2ef6291ee9a81a932e318f5f64722e6d4223d441d40e8e88031a87",
   "c4_1_metric_hd.py": "79c9235b7f5a1a3cc6e36e8ee48baf78f84047015a66298e9388734c093a6ccd",
-  "c4_2_anisotropic_metric.py": "b1802dd63f2bc29161ab43abbe8c8f27222e83d70af9614c546499339e8a3769",
-  "c4_3_soft_modes.py": "a54bcf1863a16d684970377e436f9765686d9fd08e6b46130ffded10244ceb98",
-  "c4_4_ring_diffusion.py": "40abe5670757ad39de343d4a61be71d038ad980794422e74770add2247cd1250",
-  "c4_5_ring_diffusion_long.py": "aadfdbc629130333dd0f1855cdba113fe1b7bffcfbf115dabaf2deed0e24a960",
-  "c5_1_pen_shift.py": "6de1006cf1192a8e401f3e68aeafb773d7056e772894d8082c185e4ad570856c",
-  "c6_1_reactivation.py": "52ce4657738c64742aeafab2a20731255cd6dcd59fa1564e5a33bc6c2246502a",
-  "c7_1_address.py": "c66d67e3c74ad020d57a663162aa375beee1346978124aa698ca73a1134cf198",
-  "c8_1_selection.py": "dd95f9d7ecce38537ec326960af23bcee089619d85ba493c189a9a2c66710568",
-  "core.py": "e8b3160318234bdf651f465efabcaedd12c521c86f18713fc34f3a93014382e3",
   "fast/Cargo.toml": "0dd61494902f2b39209c6ec8b7469513ba2dc5d4dff8acf5cbe13a0ed0c75d43",
   "fast/src/lib.rs": "f61451f47a5a73a453ee58dcc36fc8cac81f26555ac8b5423422f0bb7780885b",
-  "fetch.py": "300cb3095db4dfac9881ad35bf0dc841d79b8c22d375333218e1db551758d5b0",
-  "harness.py": "618b6d06350e1e5c3cfa7809656bf526bbcecb33c15356091041f2b02f4c2528",
-  "malecns.py": "b0e319267076fdea65ffba366f97e331d96833eae9608839f0242fadc7190c26",
-  "step01_ring_plane.py": "8213a4dac5a52378c553f50ac1c190fe837d276cfeb120fc3a7755f490be5722",
-  "step02_pen_rotation.py": "63f0f8a6f1964e96bf9950f7d95d9666f60f880a8ea51e573baa1782ccff3153",
-  "step02b_pen_pb_shift.py": "d0a321e824501fc7e1ccd8617187a6d6f3fc0610b4950cb253a07d6374c49791",
-  "store.py": "effbe46995f88fabf2c7968ff2b48c975845ffc114e0a8f449a448fa62da7684"
+  "harness.py": "48d17159ed5e45655d4241bf13d7f128376a896f0aacbb0221367b377dd8e77e",
+  "store.py": "1d40da18c0b899ee45a0211da7b0fef7ba66aa9554c382f7f0c2513568586627"
  },
- "date": "2026-09-27"
+ "date": "2026-09-28"
 }

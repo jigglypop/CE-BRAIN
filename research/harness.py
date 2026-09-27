@@ -13,6 +13,7 @@ from __future__ import annotations
 import datetime
 import hashlib
 import json
+import sys
 import threading
 from pathlib import Path
 
@@ -114,8 +115,13 @@ def record(step, premise, claim, reference, checks, data, proof=None, **measured
 
 
 def code():
-    """Every source file a step can run: research/*.py and the Rust kernels."""
-    return sorted([*HERE.glob("*.py"), HERE / "fast/Cargo.toml", *HERE.glob("fast/src/*.rs")])
+    """Source files the running step has loaded: its research modules, and the Rust kernels when cefast is loaded."""
+    files = {Path(m.__file__).resolve() for name, m in list(sys.modules.items())
+             if (name.startswith("research.") or name == "__main__") and getattr(m, "__file__", None)}
+    files = {f for f in files if f.is_relative_to(HERE) and f.suffix == ".py"}
+    if "cefast" in sys.modules:
+        files |= {HERE / "fast/Cargo.toml", *HERE.glob("fast/src/*.rs")}
+    return sorted(files)
 
 
 def sha256(file):

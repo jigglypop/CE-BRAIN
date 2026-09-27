@@ -1,0 +1,304 @@
+{
+ "step": "c1_3_parameter_transfer",
+ "premise": "C1",
+ "premise_text": "하나의 공통 구조",
+ "claim": "공통 식의 고리 이동도 D와 흔적 우물 깊이 A를 두 생쥐 자료에서 옮겨 고정하고 τ_h·σ₀·ρ만 맞춰도 다른 연구실·종(쥐)의 수면 정렬 감쇠와 창 자기상관을 맞추고, D·A를 풀어도 유의하게 나아지지 않는다",
+ "reference": "C1-2의 두 생쥐 적합(DANDI:000056, 000939)에서 옮긴 D·A, Peyrache et al. 2015의 봉우리 폭(β). 실측: DANDI:001699 야생형",
+ "checks": {
+  "sessions": {
+   "value": 12.0,
+   "low": 5,
+   "high": null,
+   "passed": true
+  },
+  "events": {
+   "value": 316.0,
+   "low": 50,
+   "high": null,
+   "passed": true
+  },
+  "accuracy": {
+   "value": 2.4030478812723923,
+   "low": null,
+   "high": 2.0,
+   "passed": false
+  },
+  "transfer": {
+   "value": 15.432823792227612,
+   "low": null,
+   "high": 5.99,
+   "passed": false
+  }
+ },
+ "reverse_proof": {
+  "term": "흔적 h의 우물",
+  "error_with": 2.4030478812723923,
+  "error_without": 6.948351108101131,
+  "tolerance": 2.0,
+  "passed": false
+ },
+ "verdict": "실패",
+ "axiom_adopted": false,
+ "measured": {
+  "transferred": {
+   "D": 0.1676959245130461,
+   "A": 2.8970579582225455
+  },
+  "observed": [
+   0.14965713671117967,
+   0.1457004774463093,
+   0.08501673021657574,
+   0.08148252473993617,
+   0.09621524346233665,
+   0.07364191881398585,
+   0.2000355729960424,
+   0.0926486249703863,
+   0.0664218223375021,
+   0.06579187255380288,
+   0.052055335815604765
+  ],
+  "se": [
+   0.01978701753768544,
+   0.02176078151970367,
+   0.020863677499093923,
+   0.022402370937734253,
+   0.02663902227063003,
+   0.04717755732089249,
+   0.015443432408734406,
+   0.014030068571349022,
+   0.01372397814464331,
+   0.014527499158162737,
+   0.014986780499916145
+  ],
+  "moved": {
+   "params": {
+    "D": 0.1676959245130461,
+    "A": 2.8970579582225455,
+    "As": 0.0,
+    "tau": 194.27871946676993,
+    "sigma0": 1.2653804773651096
+   },
+   "rho": 0.413323700083035,
+   "chi2_dof": 2.4030478812723923,
+   "prediction": [
+    0.15087750378071316,
+    0.12348515922623066,
+    0.1043521403553001,
+    0.09848571372575594,
+    0.08563212826433916,
+    0.04371513604649226,
+    0.15696188322220883,
+    0.12849004303089095,
+    0.08305456047208509,
+    0.05659425199231699,
+    0.05069204853417181,
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  "free": {
+   "params": {
+    "As": 0.0,
+    "D": 1.0584584260260645,
+    "A": 2.902232270049417,
+    "tau": 102.25197753822485,
+    "sigma0": 1.3461736532952158
+   },
+   "rho": 0.5604635304400457,
+   "chi2_dof": 0.6319265429919211,
+   "prediction": [
+    0.15392804889910247,
+    0.12411079236848951,
+    0.09858165303983667,
+    0.1021370388465895,
+    0.07979734281372701,
+    0.028502330914652332,
+    0.19716110034223744,
+    0.09527700252901992,
+    0.07064019810301772,
+    0.06359607749996407,
+    0.05094422576609786,
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  "no_trace": {
+   "params": {
+    "A": 0.0,
+    "tau": 1.0,
+    "As": 0.0,
+    "D": 0.005,
+    "sigma0": 1.2534249929422494
+   },
+   "rho": 0.32802772642596034,
+   "chi2_dof": 6.948351108101131,
+   "prediction": [
+    0.14163420716209812,
+    0.12606642216135333,
+    0.12024973773551594,
+    0.09006038246377784,
+    0.0694762932511183,
+    -0.00612051474459048,
+    0.107238848531031,
+    0.10614505407074444,
+    0.10244328351006782,
+    0.0924422719674393,
+    0.06220144033515914,
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  "chi2_gain_from_freeing": 15.432823792227612
+ },
+ "data": [
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3006_ses-200314-2_behavior+ecephys+image.npz",
+   "sha256": "a59d2c0c30c04b1046b538679054db169a61756d7469e82c09464372f9294abf"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3001_ses-200202_behavior+ecephys.npz",
+   "sha256": "c60b13fff26461b33acddfa8d84da2dc0a5a9aee551676232c169c2b90727a40"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3006_ses-200314-1_behavior+ecephys+image.npz",
+   "sha256": "46258c4c5e214e97c10d347e997eca539844593a6903edaa4bc81a1255d211e1"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3001_ses-200201_behavior+ecephys.npz",
+   "sha256": "c29c2a4ba741304cc7ecbb07329f096b6caef0ee8b4a94b982e37e1747de16b8"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3009_ses-200812_behavior+ecephys+image.npz",
+   "sha256": "191d45def70b3201eafb874dc29d78bd00d9be31004dc1d7cf06cc0bcc688123"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3015_ses-210416-1_behavior+ecephys+image.npz",
+   "sha256": "78245a1ea74c56789726d0303910ea6444c5fbef36ea3b47ebd7e4d23cddb065"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3009_ses-200813_behavior+ecephys+image.npz",
+   "sha256": "b25c0ab930c14667b3406072f8e6ab11e8862c191cb918543acc8e9ad00b0842"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3015_ses-210416-2_behavior+ecephys+image.npz",
+   "sha256": "1920263f49ab3fb00cf3b74ff893903188893374a5e75d60c431d6366b0d9d3d"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3023_ses-210812_behavior+ecephys+image.npz",
+   "sha256": "1162170d6888dba497c4e207abaac37d9a6e89c7b1b0d7e812bd4b608d39e68f"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3015_ses-210417_behavior+ecephys+image.npz",
+   "sha256": "fc2698ffd451f6001ca0397f681a0a2edbc73c1194f5a86daceccddcc05fd7f5"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3022_ses-210806_behavior+ecephys+image.npz",
+   "sha256": "0ff24d85d9a57fac4204d71a8d5320e72dbfa317dd31d1ad639bd56c2d9c574d"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3023_ses-210813-1_behavior+ecephys+image.npz",
+   "sha256": "1e41506010e3ebf914a2ff6757c92f2aae24122b4f383326e29b2d73eb3f8ce8"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3026_ses-211004-2_behavior+ecephys+image.npz",
+   "sha256": "1dd9845ac7104a2894c163c39597770d03b68720e4ac8db856c739a62233edda"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3026_ses-211003_behavior+ecephys+image.npz",
+   "sha256": "a436c243154538e48ad3f49535df9ce5212c85b3ef2c8f398a1b97ee50a0fcbc"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3029_ses-230510_behavior+ecephys+image.npz",
+   "sha256": "67e3dcc65e69e378a3fb09a1aa628682b3ddc72248a9bbb2f8d3b06d5de303ad"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H4813_ses-220728_behavior+ecephys+image.npz",
+   "sha256": "a4b58e78ca040c6c35e2a37b0a72ac81d27693d19a6907fbb7bfb7264040dbce"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H4815_ses-220814_behavior+ecephys+image.npz",
+   "sha256": "f14716666a0c260f9e588da405a8ca6932914eb58421cc7eef94987983e4d8a6"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H4820_ses-221007_behavior+ecephys+image.npz",
+   "sha256": "490ec52bef620d1180d9235a61bceb2eca2d2e04d00cb429a423e7b7395a3ad8"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H4826_ses-221203_behavior+ecephys+image.npz",
+   "sha256": "3fcde3002016ae35e8dbd56c1fc43955a004defc9fa97de8f72d83b2afcbed0f"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H4823_ses-221108_behavior+ecephys.npz",
+   "sha256": "539a2b22357a704aa42687aa93967a0fd9bf008eb63a248c08d9e852971da55c"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H3022_ses-210805_behavior+ecephys+image.npz",
+   "sha256": "731c5c2fd921105dee79d89a348ff2ac5664ae7595baf73d494b969e6f700182"
+  },
+  {
+   "dataset": "dandi-001699",
+   "version": "DANDI 001699 0.260917.2322",
+   "asset": "sub-H4830_ses-230406_behavior+ecephys+image.npz",
+   "sha256": "e093d463aecb121fb0ebb974d29d212abd44a6f3dd2b5032431485336316aa28"
+  }
+ ],
+ "code_sha256": {
+  "c1_1_common_equation.py": "3e22dcc79593c2dc919e203117b40ff7d7b0106b7e108e1d5af0bf667936d74f",
+  "c1_2_common_equation_onset.py": "e105afc1e813949da022cbed0317938159ff157423d37a6ac54f4e65f96cd005",
+  "c1_3_parameter_transfer.py": "b920dd0cd41c74edd32a906fbc26a33b860e897780c6e57f22baf5040486b564",
+  "c3_1_sleep_trace.py": "e799d26d92ce58ece7caf1084981574690c7ca4f102d1c607ab0e724442d2b3a",
+  "c3_2_trace_replication.py": "05dd291fcc05ca80f2cdb8228fa242466e31ebaa97c5c3732190dc6e637bbf13",
+  "c3_3_restoring.py": "b66d34a5c59480376f5a38c4f62769bbfd6bc668a83ffc8b2db876d701f7f0bf",
+  "c4_1_metric_hd.py": "79c9235b7f5a1a3cc6e36e8ee48baf78f84047015a66298e9388734c093a6ccd",
+  "fast/Cargo.toml": "0dd61494902f2b39209c6ec8b7469513ba2dc5d4dff8acf5cbe13a0ed0c75d43",
+  "fast/src/lib.rs": "f61451f47a5a73a453ee58dcc36fc8cac81f26555ac8b5423422f0bb7780885b",
+  "harness.py": "48d17159ed5e45655d4241bf13d7f128376a896f0aacbb0221367b377dd8e77e",
+  "store.py": "1d40da18c0b899ee45a0211da7b0fef7ba66aa9554c382f7f0c2513568586627"
+ },
+ "date": "2026-09-28"
+}
