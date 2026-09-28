@@ -3,8 +3,8 @@
 //! 스파이크는 NWB처럼 평탄한 시각 배열 `times`와 단위별 끝 색인 `ends`로 받는다. 단위마다 시각은
 //! 오름차순이어야 하고, 모든 칸은 반열린 구간 [시작, 끝)이다. 단위별로 나누어 GIL 밖에서 병렬로 센다.
 
-use numpy::ndarray::{Array2, Array3};
-use numpy::{IntoPyArray, PyArray2, PyArray3, PyReadonlyArray1};
+use numpy::ndarray::{Array1, Array2, Array3};
+use numpy::{IntoPyArray, PyArray1, PyArray2, PyArray3, PyReadonlyArray1};
 use pyo3::exceptions::PyValueError;
 use pyo3::prelude::*;
 use rayon::prelude::*;
@@ -218,11 +218,128 @@ fn ring_trace<'py>(
     Ok(Array2::from_shape_vec((heads.len(), windows), out).unwrap().into_pyarray(py))
 }
 
+/// Standard normals from Box–Muller, both values of each pair used.
+struct Normals {
+    rng: Rng,
+    spare: Option<f64>,
+}
+
+impl Normals {
+    fn next(&mut self) -> f64 {
+        if let Some(z) = self.spare.take() {
+            return z;
+        }
+        let r = (-2.0 * self.rng.uniform().ln()).sqrt();
+        let (s, c) = (std::f64::consts::TAU * self.rng.uniform()).sin_cos();
+        self.spare = Some(r * s);
+        r * c
+    }
+}
+
+/// The same ring equation as `ring_trace` (no head input), integrated by local linearisation: each step solves
+/// the Ornstein–Uhlenbeck process of the well linearised at θ exactly, so steep wells stay stable at large steps;
+/// the trace takes the exact exponential step with e^{iθ} held. Instead of the windows it returns the sums behind
+/// the observables, over all events: for each lag bin [edges[j], edges[j+1]) of window centres k + ½ the sum of
+/// cos(θ_k − offset) and the window count, then for each lag d the sum of cos(θ_{k+d} − θ_k) and the pair count.
+/// The window direction averages e^{iθ} at every `thin`-th step only (the observation's samples), so the integration
+/// step and the number of samples per window can be set apart. `scheme` 0 is the local linearisation above; 1 is the
+/// Leimkuhler–Matthews step θ += b(θ)dt + √(2D dt)(ξ_n + ξ_{n+1})/2, Euler's cost with a second-order stationary law.
+#[pyfunction]
+#[allow(clippy::too_many_arguments)]
+fn ring_observe<'py>(
+    py: Python<'py>,
+    offsets: Times<'py>,
+    lengths: Ends<'py>,
+    d: f64,
+    a: f64,
+    tau: f64,
+    beta: f64,
+    substeps: usize,
+    seed: u64,
+    edges: Times<'py>,
+    deltas: Ends<'py>,
+    thin: usize,
+    scheme: u8,
+) -> PyResult<Bound<'py, PyArray1<f64>>> {
+    let (offsets, lengths, edges, deltas) = (offsets.as_slice()?, lengths.as_slice()?, edges.as_slice()?, deltas.as_slice()?);
+    if offsets.len() != lengths.len() || substeps == 0 || thin == 0 || !(d >= 0.0) || !(tau > 0.0) || edges.len() < 2
+        || deltas.iter().any(|&x| x < 1)
+    {
+        return Err(PyValueError::new_err("need equal offsets and lengths, substeps > 0, D ≥ 0, τ > 0, bins, lags ≥ 1"));
+    }
+    let (bins, lags) = (edges.len() - 1, deltas.len());
+    let dt = 1.0 / substeps as f64;
+    let keep = (-dt / tau).exp();
+    let sums = py.detach(|| {
+        (0..offsets.len())
+            .into_par_iter()
+            .map(|i| {
+                let mut out = vec![0.0; 2 * bins + 2 * lags];
+                let mut z = Normals { rng: Rng(seed ^ (i as u64 + 1).wrapping_mul(0xD1B5_4A32_D192_ED03)), spare: None };
+                let length = lengths[i].max(0) as usize;
+                let (mut th, mut hr, mut hi, mut s, mut c) = (0.0f64, 1.0f64, 0.0f64, 0.0f64, 1.0f64);
+                let mut unit: Vec<(f64, f64)> = Vec::with_capacity(length);
+                let mut last = z.next();
+                for k in 0..length {
+                    let (mut sr, mut si) = (0.0, 0.0);
+                    for step in 0..substeps {
+                        let m = hr.hypot(hi);
+                        let (drift, rate) = if m > 0.0 && a > 0.0 {
+                            let (cx, sx) = ((c * hr + s * hi) / m, (s * hr - c * hi) / m);
+                            let well = d * beta * a * m * (beta * (cx - 1.0)).exp();
+                            (-well * sx, well * (cx - beta * sx * sx))
+                        } else {
+                            (0.0, 0.0)
+                        };
+                        let x = rate * dt;
+                        th += if scheme == 1 {
+                            let fresh = z.next();
+                            let step = drift * dt + (0.5 * d * dt).sqrt() * (last + fresh);
+                            last = fresh;
+                            step
+                        } else if x.abs() > 1e-6 {
+                            let e = (-x).exp();
+                            drift / rate * (1.0 - e) + (d * (1.0 - e * e) / rate).sqrt() * z.next()
+                        } else {
+                            drift * dt + (2.0 * d * dt).sqrt() * z.next()
+                        };
+                        (s, c) = th.sin_cos();
+                        hr = c + (hr - c) * keep;
+                        hi = s + (hi - s) * keep;
+                        if step % thin == thin - 1 {
+                            sr += c;
+                            si += s;
+                        }
+                    }
+                    let n = sr.hypot(si);
+                    let u = if n > 0.0 { (sr / n, si / n) } else { (1.0, 0.0) };
+                    let centre = k as f64 + 0.5;
+                    if let Some(j) = (0..bins).find(|&j| edges[j] <= centre && centre < edges[j + 1]) {
+                        let (so, co) = offsets[i].sin_cos();
+                        out[j] += u.0 * co + u.1 * so;
+                        out[bins + j] += 1.0;
+                    }
+                    for (j, &lag) in deltas.iter().enumerate() {
+                        if let Some(p) = k.checked_sub(lag as usize).map(|p| unit[p]) {
+                            out[2 * bins + j] += u.0 * p.0 + u.1 * p.1;
+                            out[2 * bins + lags + j] += 1.0;
+                        }
+                    }
+                    unit.push(u);
+                }
+                out
+            })
+            .reduce(|| vec![0.0; 2 * bins + 2 * lags], |x, y| x.iter().zip(&y).map(|(p, q)| p + q).collect())
+    });
+    Ok(Array1::from(sums).into_pyarray(py))
+}
+
 #[pymodule]
 fn cefast(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(bin_counts, m)?)?;
     m.add_function(wrap_pyfunction!(window_counts, m)?)?;
     m.add_function(wrap_pyfunction!(ccg, m)?)?;
     m.add_function(wrap_pyfunction!(ring_trace, m)?)?;
+    m.add_function(wrap_pyfunction!(ring_observe, m)?)?;
     Ok(())
 }

@@ -8,7 +8,7 @@
 
 | # | 공리 후보 | 상태 |
 |---|---|---|
-| C1 | 고정 뉴런의 전기적 상호작용과 과거 흔적이 기억·학습·현재 세계모델을 하나의 공통 구조로 만든다 | **채택** (C1-4, C1-6): 같은 논렘 구간 집단(≥ 240 s)으로 재면 두 종·세 연구실의 흔적 감쇠를 τ_h 하나(743 s)가 맞추고(C1-4), 공통 식 v2가 우물 깊이 A와 흔적 시간상수 τ_h 하나씩으로 세 자료의 관측 30개를 함께 맞춘다. 적합에 쓰지 않은 모의 잡음으로 잰 χ²/자유도 0.97, 흔적 없이 8.10 (C1-6). 매개변수 값은 적합 체제에 따라 움직이고(A 2.2–3.5 kT, τ_h 350–430 s) 이동도 D는 이 관측으로 잘 정해지지 않는다. C1-5는 난수열 하나에 맞춰 경계였다. C1-1·2·3 실패는 모든 구간을 섞은 설계 탓이 크다 (4.17–4.19, 4.21, 4.24–4.25) |
+| C1 | 고정 뉴런의 전기적 상호작용과 과거 흔적이 기억·학습·현재 세계모델을 하나의 공통 구조로 만든다 | **채택** (C1-4, C1-6): 같은 논렘 구간 집단(≥ 240 s)으로 재면 두 종·세 연구실의 흔적 감쇠를 τ_h 하나(743 s)가 맞추고(C1-4), 공통 식 v2가 우물 깊이 A와 흔적 시간상수 τ_h 하나씩으로 세 자료의 관측 30개를 함께 맞춘다. 적합에 쓰지 않은 모의 잡음으로 잰 χ²/자유도 0.97, 흔적 없이 8.10 (C1-6). 매개변수 값은 적합 체제에 따라 움직이고(A 2.2–3.5 kT, τ_h 350–430 s) 이동도 D는 이 관측으로 잘 정해지지 않는다. C1-5는 난수열 하나에 맞춰 경계였다. 흔적의 시계는 하나다: 짧은 깸에서 잰 τ = 45 s와 우물 4.45 kT로 000056 논렘이 맞는다(판정 χ²/자유도 0.64, 시계를 풀어도 Δχ² 0.71; C1-7). C1-1·2·3 실패는 모든 구간을 섞은 설계 탓이 크다 (4.17–4.19, 4.21, 4.24–4.25) |
 | C2 | 뉴런은 고정된 점이고, 변하는 것은 상태와 관계다 | **채택** (C2-1): 환경이 바뀌어도 세포의 고리 위 자리는 고정되고(이동의 평균 벡터 길이 0.977), 전체 회전과 발화율만 바뀐다 (4.1) |
 | C3 | 현재 상태에는 과거의 흔적이 포함된다 | **채택** (C3-1). 독립 자료에서 재현되고 자유 확산이 아닌 되돌림이다(C3-3, 두 자료). 모든 구간을 섞으면 τ는 계마다 다르지만(192 s, 896 s; C3-2 실패) 같은 구간 집단으로 재면 하나다(C1-4, 4.21). 흔적 중심은 τ_h로 거른 과거가 아니라 잠들기 직전 10–40 s의 방향이다(C3-5 실패, 4.22). 깸은 흔적을 τ_w ≤ 45 s로 덮어 논렘 τ_h의 1/16 이하이고(두 자료군), 앞 논렘 방향이 짧은 깸을 지나 남는 것은 000056에서만 보인다(C3-6 실패, 4.23). 되돌림의 중심은 갈등 창에서 과거가 현재의 4배지만 독립 확인이 없다(C3-3 실패, C3-4 미확립; 4.2–4.5, 4.16) |
 | C4 | 기능적 거리와 변화 비용은 리만 계량이다 | **미채택**: C4-1·2·3 실패(동시각 공분산은 E를 잰다). C4-4 실패: 렘 이동도는 확산형이나 문헌의 0.4배이고 쓸기와 구별 못 함 (4.6–4.11) |
@@ -57,8 +57,25 @@ v1($\dot x=-G(h)^{-1}\nabla E+F$, $\tau_h\dot h=-h+x$)에서 바꾼 곳:
 | $\Phi$ | 학습: 흔적이 관계·계량을 바꾸는 규칙 | C6 | 경험이 수면 뒤 쌍 상관 분산의 약 11%를 설명 (4.14) | 채택(관계 쪽) |
 | $\rho$, $\sigma_0$ | 관측: 해독 잡음, 잠들 때 θ_pre와 흔적 중심의 어긋남 | — | ρ 0.44, σ₀ 57–77° (4.18–4.19). σ₀의 정체(해독 오차인지 깸 끝의 빠른 이동인지)는 미해결 | 관측 |
 
-시간의 식(중심 가설, 2026-09-28): 식에 시간은 늘 비어 있었고 벽시계 t로 채워 두었다. 일반상대론에서 고유시간이 계량과 궤적에서
-나오듯, 흔적은 뉴런이 떠받치는 고유시간 σ로 늙는다:
+기록장 식(v3, 2026-09-29; C1-7 지지됨, 4.27): 전기신호가 하드웨어에서 식의 일부를 맡는다. 뉴런 ψ의 막은 경과함수 N = g_tot/C로 제 고유시간을
+세고(막 식이 곧 고유시간 식이며 이산화하면 Δ = N dt인 Mamba 셀), 그 발화가 제 기록 m(ψ)을 쓴다. 기록은 하나의 시간상수 τ로 지워지고,
+기록 전체가 끌개 지형을 만든다:
+
+$$
+\tau\,\partial_t m(\psi,t)=-m(\psi,t)+f\big(\theta(t)-\psi\big),\qquad
+E(\theta)=-A\!\int m(\psi)\,g(\theta-\psi)\,d\psi-A_u\,g(\theta-\theta_u),\qquad
+d\theta=-D\,\partial_\theta E\,dt+\sqrt{2D}\,dW
+$$
+
+v2의 흔적 $h=\int m(\psi)e^{i\psi}d\psi$는 이 기록장의 첫 푸리에 성분이다. 시계는 하나다. 논렘에서는 지형이 상태를 기록 자리로 끌고 그
+자리 뉴런이 기록을 다시 쓰므로 흔적이 τ보다 훨씬 오래 남고(되먹임), 깸에서는 입력 우물 $A_u$가 상태를 다른 자리로 옮겨 τ 안에 덮인다.
+이 식이면 잠과 깸에 시계 두 개(τ_h, τ_w)를 둘 까닭이 없다: 000056의 단위 1,077개는 짧은 깸과 논렘에서 같은 빠르기로 발화한다(비 중앙
+1.00). 모형만으로 τ = 45 s, A = 3.5 kT이면 180 s 뒤 정렬이 처음의 0.41–0.49로, 되먹임 없는 지수(0.02)보다 20배 넘게 오래 남는다.
+C1-7: 짧은 깸의 덮임에서 잰 시계 τ = 45 s 하나와 우물 4.45 kT로 000056 논렘 관측 10개가 맞고(판정 χ²/자유도 0.64), 시계를 풀어도
+나아지지 않는다(Δχ² 0.71). 잠의 긴 유지는 두 번째 시계가 아니라 기록의 되먹임에서 나온다.
+
+아래는 v3 전에 세운 두 시계 틀(시간의 식, 2026-09-28)과 그 대조다. 식에 시간은 늘 비어 있었고 벽시계 t로 채워 두었다. 일반상대론에서
+고유시간이 계량과 궤적에서 나오듯, 흔적은 뉴런이 떠받치는 고유시간 σ로 늙는다:
 
 $$
 dh=(x-h)\,\frac{d\sigma}{\ell},\qquad \Delta_t=\frac{\sigma_{t}-\sigma_{t-1}}{\ell}\quad(\text{Mamba의 선택적 }\Delta)
@@ -70,10 +87,12 @@ $$
 | 시계 | 예측 | 대조 |
 |---|---|---|
 | ① 상태 x의 호 길이 | 많이 움직이면 빨리 잊는다 | 배제: 논렘 내부 방향은 1 s 안쪽에서 깸보다 15.5배 빨리 움직이는데(4.4) 흔적은 16배 넘게 오래 남는다(4.23). 확산 경로의 호 길이는 창에 따라 달라 시계가 되지 못한다 |
-| ④ 방향 세포 자신의 발화 수 | 발화 비만큼 시간이 다르게 흐른다 | 배제: 깸/논렘 발화 비는 1.16(000056)·1.57(000939)인데 τ_h/τ_w ≥ 16이다 |
+| ④ 전기신호의 경과함수: $C\dot V=-g_{\text{tot}}(V-V_\infty)$ ⇒ $dV/d\tau=-(V-V_\infty)$, $d\tau=N\,dt$, $N=g_{\text{tot}}/C$ (막 식은 그 자체로 고유시간 식이고, 이산화하면 $\Delta_t=N(t)dt$인 Mamba 셀) | 시계를 돌리는 뉴런의 전기 활동이 깸/논렘에서 τ_h/τ_w ≈ 8–16배 달라야 한다 | 기록된 뉴런의 스파이크에는 없다(탐색, 판정 아님): 방향 세포의 깸/논렘 발화 비 1.06–1.50, 논렘 하강 상태는 시간의 0.4–5%. 긴 깸에서만 켜지는 단위(1.7%)는 흔적이 덮이는 짧은 깸 102개 중 76개에서 스파이크가 0이다. 000056의 단위 1,077개의 짧은 깸/논렘 발화 비는 중앙 1.00(방향 세포 0.71)이고, 반으로 나눠 고른 4배 이상 단위는 다른 반에서 40%만 유지된다. 남은 자리: 기록되지 않은 입력 경로(전정·시각), 스파이크로 보이지 않는 막 아래 전도도, 또는 깸으로 넘어가는 순간 한 번의 기록(Mamba의 경계에서 Δ → ∞) |
 | ② 입력 경로의 호 길이(외부 머리 회전, 또는 내부 각속도 구동 F) | 입력이 도는 동안만 시간이 흐른다 | 살아 있음: 000056 짧은 깸에서 ℓ ≈ 5 rad |
 | ③ 기억 우물 깊이의 시간 지연 | 우물 깊숙이 있으면 시간이 느리다 | 살아 있음 |
 
+④가 옳다면 ②와 한 식이 된다: 입력을 전하는 뉴런의 전기 활동이 경과함수 N을 정하고, 흔적은 $\int N\,dt$로 늙는다. 전기신호가
+식의 일부(Δ)를 하드웨어에서 직접 계산하므로 따로 계산하지 않아도 되고, 누적 고유시간 σ = ∫N dt는 그 자체로 하나의 기록이다.
 가르는 관측은 렘이다. 렘에서는 머리가 멈춰 있고 방향 세포는 깸만큼 발화하며(논렘의 1.35–1.98배) 내부 방향은 확산한다(4.9–4.10).
 외부 입력 시계(②)면 렘을 지나도 흔적이 남고, 내부 구동 시계(②의 F)나 발화 시계면 렘이 흔적을 덮는다. 원장 자료에서는 렘 → 논렘
 묶음이 방향 세포가 충분한 세션에 16개뿐이라 아직 가르지 못했다(4.26).
@@ -599,6 +618,9 @@ C1-5를 본 뒤 세운 새 단계다. 명제와 기준은 C1-5와 같고 측정�
 - 매개변수 값은 적합 체제에 따라 움직인다(A 2.2–3.5 kT, τ_h 350–430 s). 특히 이동도 D는 논렘 1 s 관측으로 잘 정해지지 않으므로,
   C1-5에서 본 "D 하나로 묶어도 된다"는 관찰은 견고하지 않다. D는 1 s보다 짧은 창(C4-4·5의 교차 상관)에서 따로 재야 한다.
 - 방법 검증: 같은 식의 합성 자료에서 적합 조건(복제 8)과 판정 조건(복제 32) 모두 참 매개변수는 기준 안, 흔적 없는 식은 기준 밖이었다.
+- 적분 검산(판정 뒤, 2026-09-29): C1-1–C1-6의 적분(오일러, 초당 200걸음)은 우물 이완율 D·β·A가 크면 치우친다. 000056 해(D 5.07,
+  A 2.2 → 58/s)에서 초당 1,600걸음의 정확한 OU 걸음 대비 관측이 최대 2.1 SE 어긋난다. 이완율 2–16/s인 다른 적합(C1-1–C1-5, C1-6의
+  000939·001699)은 오일러로 충분하다. 000056 부분(판정 χ² 11.8)은 검증된 적분(`research/ring.py`)으로 다시 판정해야 한다.
 - 판정: 지지됨. 공리 C1을 채택한다(공통 식 v2의 꼴과 흔적 항, 공통 A·τ_h). 결과: `research/results/c1_6_common_equation_precise.json`.
 
 ### 4.26 C3-7 입력 없는 렘은 흔적의 시간을 멈추는가 — 실패 (자료 부족, 판정 불능)
@@ -617,6 +639,31 @@ C1-5를 본 뒤 세운 새 단계다. 명제와 기준은 C1-5와 같고 측정�
   세션에 있다. 방향을 해독할 수 있는 묶음이 16개뿐이라 판정할 수 없다. 합성 검증은 72 묶음에서 보존·덮음을 20번 모두 갈랐다.
 - 판정: 실패(자료 부족). 명제에 대한 증거는 어느 쪽도 아니다. 결과: `research/results/c3_7_rem_clock.json`.
 
+### 4.27 C1-7 흔적의 시계는 하나다 — 지지됨 (잠의 긴 유지는 기록의 되먹임)
+
+§2의 기록장 식(v3)에서 세운 새 단계다. v2는 흔적 시계를 깸(τ_w)과 잠(τ_h) 두 개로 두었는데, 000056의 단위 1,077개는 짧은 깸과 논렘에서
+같은 빠르기로 발화한다(비 중앙 1.00). v3에서는 뉴런이 제 발화로 기록을 쓰고 기록은 하나의 시간상수로 지워지며, 논렘에서는 지형이 상태를
+기록 자리로 끌어 기록을 다시 쓰게 하므로 흔적이 시계보다 오래 남는다. 명제: 000056 논렘 관측 10개(같은 구간 집단의 정렬 감쇠 5칸, 창
+자기상관 5개)를 짧은 깸의 덮임에서 따로 잰 시계 하나 τ = τ_w = 45.25 s(C3-6)로 맞추고, 시계를 풀어도 유의하게 나아지지 않는다. 적분은
+검증된 `research/ring.py`, 판정의 χ²은 적합에 쓰지 않은 모의 잡음(복제 32)이다(C1-6).
+
+| 000056 | 판정 χ² (χ²/자유도) | A (kT) | D (rad²/s) | τ (s) | 기준 |
+|---|---|---|---|---|---|
+| 시계 하나 (깸에서 옮긴 τ) | 3.84 (**0.64**) | 4.45 | 0.43 | 45.25 (고정) | ≤ 2 |
+| 시계 자유 | 3.12 (0.62) | 4.19 | 0.32 | 85 | Δχ² **0.71** ≤ 3.84 |
+| 흔적 없음 (A = 0) | 58.4 (8.35) | — | 0.005 | — | 역증명 > 2 |
+| 보고: τ를 C3-6 구간 끝 16 s / 91 s에 고정 | 11.0 (1.84) / 3.0 (0.49) | | | | — |
+| 보고: 000939 / 001699를 C3-5의 τ* 10 s에 고정 | 11.6 (1.94) / 16.6 (2.76) | 3.54 / 3.46 | 1.56 / 1.57 | 10 | — |
+
+- 짧은 깸에서 잰 시계 하나가 잠든 동안 수백 초 이어지는 흔적을 맞춘다. 되먹임(우물 4.45 kT)이 흔적을 시계보다 오래 붙든다. 자료는 τ를
+  약 20 s 이상으로 묶는다(16 s에서 χ² 11.0).
+- 000939는 C3-5의 τ = 10 s 하나로도 맞고(1.94), 001699는 맞지 않는다(2.76). 판정이 아닌 보고다.
+- 새 해는 우물 이완율 약 10/s의 완만한 체제다. C1-6의 000056 해(D 5.07, 58/s)는 오일러 적분의 치우침이 만든 체제였을 가능성이 크다(4.25).
+- 실행 이력: 첫 실행은 출발점이 적분 불안정 영역(옛 적분의 제한)에 있어 최적화가 움직이지 않았다(판정 χ²/자유도 4.44, 실패로 기록).
+  출발점을 옮긴 재실행은 옛 적분의 치우침을 확인하고 결과 전에 멈췄다. 기준을 바꾸지 않고 검증된 적분으로 바꿔 실행했다.
+- 방법 검증: 같은 식의 합성 자료(τ = 45 s, A = 3.5 kT)에서 참 매개변수는 기준 안, 흔적 없는 식은 기준 밖이었다.
+- 판정: 지지됨. 공리 C1을 흔적 시계 하나(v3)로 넓혀 채택한다. 결과: `research/results/c1_7_single_clock.json`.
+
 ## 5. 다음
 
 - C1: v2가 세 자료를 A·τ_h 공통으로 맞춘다(4.25). 다음은 (1) A·τ_h를 고정해 아직 보지 않은 자료(후보: Senzai & Scanziani 2022의
@@ -630,13 +677,18 @@ C1-5를 본 뒤 세운 새 단계다. 명제와 기준은 C1-5와 같고 측정�
 
 ## 6. 재현
 
+고리 공통 식의 적분(C1-7부터)은 `research/ring.py`가 맡는다. Rust 핵심 `cefast.ring_observe`가 Leimkuhler–Matthews 걸음(오일러와 같은
+비용, 정상 분포 2차 정확도)으로 적분하면서 관측 합을 바로 쌓는다. 우물이 가파르면 이완율 × 간격 ≤ 0.8이 되도록 초당 걸음을 늘린다(최소 100).
+초당 1,600걸음의 정확한 OU 걸음 대비 모양 오차는 모의 잡음 수준(0.26–0.61 SE)이다. 000056 한 번 평가(복제 8)가 0.96 s에서 0.40 s로
+줄었고, 적합은 복제 2개로 먼저 맞춘 뒤 복제 8개로 다듬는다. C1-1–C1-6의 `ring_trace`(오일러)는 기록 재현을 위해 그대로 둔다.
+
 ```sh
 uv sync --python 3.11
 .venv/Scripts/python -m research.fetch dandi-000056
 .venv/Scripts/python -m research.fetch dandi-000044
 .venv/Scripts/python -m research.fetch dandi-001699
-for step in c1_1_common_equation c1_2_common_equation_onset c1_3_parameter_transfer c1_4_common_trace_time c1_5_common_equation_v2 c1_6_common_equation_precise c2_1_fixed_points c3_1_sleep_trace c3_2_trace_replication c3_3_restoring c3_4_past_conflict c3_5_trace_center c3_6_wake_overwrite c3_7_rem_clock             c4_1_metric_hd c4_2_anisotropic_metric c4_3_soft_modes c4_4_ring_diffusion c4_5_ring_diffusion_long c5_1_pen_shift             c6_1_reactivation c7_1_address c8_1_selection c8_2_window_selection; do .venv/Scripts/python -m research.$step; done
-.venv/Scripts/python -m pytest tests/test_harness.py tests/test_core.py tests/test_malecns.py tests/test_fast.py tests/test_store.py tests/test_c3_trace.py tests/test_c3_replication.py tests/test_c3_restoring.py tests/test_c4_metric.py tests/test_c4_anisotropic.py tests/test_c4_soft_modes.py tests/test_c4_diffusion.py tests/test_c6_reactivation.py tests/test_c7_address.py tests/test_c8_selection.py tests/test_c8_window.py tests/test_c1_common.py tests/test_c1_trace_time.py tests/test_c1_equation_v2.py tests/test_c1_equation_precise.py tests/test_c3_trace_center.py tests/test_c3_wake_overwrite.py tests/test_c3_rem_clock.py
+for step in c1_1_common_equation c1_2_common_equation_onset c1_3_parameter_transfer c1_4_common_trace_time c1_5_common_equation_v2 c1_6_common_equation_precise c1_7_single_clock c2_1_fixed_points c3_1_sleep_trace c3_2_trace_replication c3_3_restoring c3_4_past_conflict c3_5_trace_center c3_6_wake_overwrite c3_7_rem_clock             c4_1_metric_hd c4_2_anisotropic_metric c4_3_soft_modes c4_4_ring_diffusion c4_5_ring_diffusion_long c5_1_pen_shift             c6_1_reactivation c7_1_address c8_1_selection c8_2_window_selection; do .venv/Scripts/python -m research.$step; done
+.venv/Scripts/python -m pytest tests/test_harness.py tests/test_core.py tests/test_malecns.py tests/test_fast.py tests/test_store.py tests/test_c3_trace.py tests/test_c3_replication.py tests/test_c3_restoring.py tests/test_c4_metric.py tests/test_c4_anisotropic.py tests/test_c4_soft_modes.py tests/test_c4_diffusion.py tests/test_c6_reactivation.py tests/test_c7_address.py tests/test_c8_selection.py tests/test_c8_window.py tests/test_c1_common.py tests/test_c1_trace_time.py tests/test_c1_equation_v2.py tests/test_c1_equation_precise.py tests/test_ring.py tests/test_c1_single_clock.py tests/test_c3_trace_center.py tests/test_c3_wake_overwrite.py tests/test_c3_rem_clock.py
 ```
 
 ## 참고문헌
