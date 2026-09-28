@@ -191,16 +191,20 @@ fn ring_trace<'py>(
         py.detach(|| {
             out.par_chunks_mut(windows).enumerate().for_each(|(i, row)| {
                 let mut rng = Rng(seed ^ (i as u64 + 1).wrapping_mul(0xD1B5_4A32_D192_ED03));
-                let (head, length) = (heads[i], (lengths[i].max(0) as usize).min(windows));
-                let (mut th, mut hr, mut hi) = (0.0f64, 1.0f64, 0.0f64);
+                let length = (lengths[i].max(0) as usize).min(windows);
+                let (sh, ch) = heads[i].sin_cos();
+                let (mut th, mut hr, mut hi, mut s, mut c) = (0.0f64, 1.0f64, 0.0f64, 0.0f64, 1.0f64);
                 for cell in row.iter_mut().take(length) {
                     let (mut sr, mut si) = (0.0, 0.0);
                     for _ in 0..substeps {
-                        let (x, y) = (th - hi.atan2(hr), th - head);
-                        let pull = a * hr.hypot(hi) * x.sin() * (beta * (x.cos() - 1.0)).exp()
-                            + a_s * y.sin() * (beta * (y.cos() - 1.0)).exp();
+                        // |h|·sin(θ − arg h) = s·hr − c·hi, cos(θ − arg h) = (c·hr + s·hi)/|h|: atan2·sin·cos 없이 같은 힘
+                        let m = hr.hypot(hi);
+                        let mut pull = if m > 0.0 { a * (s * hr - c * hi) * (beta * ((c * hr + s * hi) / m - 1.0)).exp() } else { 0.0 };
+                        if a_s != 0.0 {
+                            pull += a_s * (s * ch - c * sh) * (beta * (c * ch + s * sh - 1.0)).exp();
+                        }
                         th += -d * beta * pull * dt + noise * rng.normal();
-                        let (s, c) = th.sin_cos();
+                        (s, c) = th.sin_cos();
                         hr += (c - hr) * dt / tau;
                         hi += (s - hi) * dt / tau;
                         sr += c;
