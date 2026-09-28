@@ -1,0 +1,410 @@
+{
+ "step": "c3_8_record_relocation",
+ "premise": "C3",
+ "premise_text": "현재 상태에 남는 과거 흔적",
+ "claim": "논렘에서 내부 방향이 기록 자리를 15–45 s 벗어났다가 끝난 뒤의 정렬은 시계 하나(τ 45 s) 기록장 식의 예측에 맞고 느린 시계(τ 743 s) 식의 예측에서는 벗어난다: 그만큼 벗어나면 흔적 중심이 새 자리로 옮겨 간다",
+ "reference": "같은 식의 다른 관측: C3-6의 깸 덮임 τ_w 45 s, C1-4의 τ 743 s. 실측: DANDI:000056",
+ "checks": {
+  "excursions": {
+   "value": 215.0,
+   "low": 100,
+   "high": null,
+   "passed": true
+  },
+  "accuracy": {
+   "value": 1.265157550586561,
+   "low": null,
+   "high": 2.0,
+   "passed": true
+  }
+ },
+ "reverse_proof": {
+  "term": "기록의 재배치(시계 하나)",
+  "error_with": 1.265157550586561,
+  "error_without": 1.9233802160338844,
+  "tolerance": 2.0,
+  "passed": false
+ },
+ "verdict": "실패",
+ "axiom_adopted": false,
+ "measured": {
+  "observed": {
+   "R": [
+    0.16639673960106283,
+    0.24092864110618079,
+    -0.19873757628642597
+   ],
+   "se": [
+    0.016549764116656842,
+    0.05755584028539871,
+    0.36488740817331444
+   ],
+   "count": [
+    2592,
+    215,
+    2
+   ],
+   "null": [
+    0.0010231965886687707,
+    -0.1635366250545664,
+    -0.354399703734933
+   ]
+  },
+  "predicted": {
+   "v3": [
+    0.23904508537491545,
+    0.16811143518875443,
+    0.4911039409488908
+   ],
+   "slow_743": [
+    0.2838573379658696,
+    0.3516304056283227,
+    -0.15768905453324927
+   ],
+   "mid_348": [
+    0.28797654123571487,
+    0.3914870017413252,
+    0.20589575542193217
+   ]
+  },
+  "bins": [
+   [
+    5,
+    15
+   ],
+   [
+    15,
+    45
+   ],
+   [
+    45,
+    135
+   ]
+  ],
+  "slow_fit": {
+   "params": [
+    {
+     "tau": 743.0,
+     "A": 3.850513024867055,
+     "D": 0.2762140749979598,
+     "sigma0": 0.9791309456925822
+    }
+   ],
+   "rho": [
+    0.4342220046424257
+   ],
+   "chi2": 4.315360105874122,
+   "chi2_dof": 0.7192266843123537
+  },
+  "slow_judged": {
+   "chi2": 4.666804016661854,
+   "chi2_dof": 0.7778006694436423,
+   "chi2_each": [
+    4.666804016661854
+   ],
+   "rho": [
+    0.43191264792584294
+   ],
+   "prediction": [
+    [
+     0.23440600229258804,
+     0.21669465852259534,
+     0.2148004445099361,
+     0.21306691774084557,
+     0.20816636082072412,
+     0.17323342600941496,
+     0.15336319939056337,
+     0.1291023390087337,
+     0.11875492572791616,
+     0.11846177977960529
+    ]
+   ]
+  },
+  "mid_fit": {
+   "params": [
+    {
+     "tau": 348.0,
+     "A": 3.9090377788130595,
+     "D": 0.21917217169466063,
+     "sigma0": 0.9790760859414407
+    }
+   ],
+   "rho": [
+    0.4322345391265799
+   ],
+   "chi2": 3.6124226294405104,
+   "chi2_dof": 0.6020704382400851
+  },
+  "mid_judged": {
+   "chi2": 4.0452477128817605,
+   "chi2_dof": 0.67420795214696,
+   "chi2_each": [
+    4.0452477128817605
+   ],
+   "rho": [
+    0.43083098224752664
+   ],
+   "prediction": [
+    [
+     0.23704321766955852,
+     0.21755285135972727,
+     0.21505107333060394,
+     0.21161362460674163,
+     0.2028987250003597,
+     0.17377490792072978,
+     0.1553691953096001,
+     0.13064407536564634,
+     0.11734732914954349,
+     0.11642178703698101
+    ]
+   ]
+  }
+ },
+ "data": [
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse17_ses-Mouse17-130125_behavior+ecephys.npz",
+   "sha256": "9de4c2e46d3b6f8d3837e293668231d9cba9a0f5fae3084dfee08cc4a39a4422"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse17_ses-Mouse17-130128_behavior+ecephys.npz",
+   "sha256": "28acdd0f9ef00466812884421a27d8725acf0bd68ca1ce58217278b1bf7dc6ad"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse12_ses-Mouse12-120808_behavior+ecephys.npz",
+   "sha256": "c08fb70d2c49bd76369cb3e103953748b7487d0610c02db422098a37729244d1"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse12_ses-Mouse12-120807_behavior+ecephys.npz",
+   "sha256": "f29949e73a99383c13095dc6701f74bb1b414824fcaeb2954bc1592702443c89"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse17_ses-Mouse17-130131_behavior+ecephys.npz",
+   "sha256": "53a2d56068b433b22f0f8d6249120a713e4139f6146634dc182e3718773ec910"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse17_ses-Mouse17-130130_behavior+ecephys.npz",
+   "sha256": "e8bcf9abd92cb117120496e68d3ad05cd1a8e214719c1de6c209ef87c5e304e7"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse17_ses-Mouse17-130129_behavior+ecephys.npz",
+   "sha256": "dea65e7f2a4be9e0d92c7caa11bff4d6b63db5e27a719d55714ed16093c16a03"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse17_ses-Mouse17-130202_behavior+ecephys.npz",
+   "sha256": "65e73dda11cac011871966ba46d61f2794171297ebd36c2796fec7e13a9f67bd"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse20_ses-Mouse20-130514_behavior+ecephys.npz",
+   "sha256": "65125f1946171f3452ec3c8f61b7aa56afbacb2ecb72232a5f2db2212c58aeac"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse17_ses-Mouse17-130203_behavior+ecephys.npz",
+   "sha256": "8f9103ff27f911fc4d45d42ef97b294ee87a32226e29f6b53984ddc3303ed953"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse17_ses-Mouse17-130204_behavior+ecephys.npz",
+   "sha256": "f032e408bc0a17bda187929362dcc51f5c9800b8944f1d1a574940b1d17ff66f"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse20_ses-Mouse20-130515_behavior+ecephys.npz",
+   "sha256": "44cf166753cf7e000dbd3722aaf6d188ba20f5999a2cc876c9ce2316c4e221e3"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse20_ses-Mouse20-130516_behavior+ecephys.npz",
+   "sha256": "20b80e574db17b58ad14aa99058b31f5a907a5a98fe655bbcc97d9c6db2353cb"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse12_ses-Mouse12-120810_behavior+ecephys.npz",
+   "sha256": "065038b0193bf319a6d53bdca0f9417479197797c7930001601da46b0c9c063f"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse24_ses-Mouse24-131213_behavior+ecephys.npz",
+   "sha256": "3397fc1870710f70055af14ddbe4915d918cff7656d51526a123981fd10213d8"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse12_ses-Mouse12-120806_behavior+ecephys.npz",
+   "sha256": "8a6883ed6efc97cdc860440f6f9f18b1b3294fa3a03f8de7880ad3feb7f9579a"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse20_ses-Mouse20-130517_behavior+ecephys.npz",
+   "sha256": "7cc0c75806bf3c5dc7afb292ca0c981f3e2846d5a6ecdd28fab4898ea0878e02"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse20_ses-Mouse20-130520_behavior+ecephys.npz",
+   "sha256": "9d9368666fa1b8ea215a3d446672e80018754b83e998111e388b2eb1fd8522f7"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse24_ses-Mouse24-131217_behavior+ecephys.npz",
+   "sha256": "377a03390970336241965c1eafff8c31eaa9c6a4aa0b7977afa23f1b0ddf4c58"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse12_ses-Mouse12-120809_behavior+ecephys.npz",
+   "sha256": "adc2be4077825ed0ebbb510813abdbd1e57d717fb78b68cb33f6bc7fe12c4aee"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse24_ses-Mouse24-131216_behavior+ecephys.npz",
+   "sha256": "efb0bed715f2c7228984c5816a4c08f5440f7c3b781716117fdd0dad8bb5b398"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse24_ses-Mouse24-131218_behavior+ecephys.npz",
+   "sha256": "e281cb5cdb21846239fac7252dabc1596656da99358b791fbe964a3fbe203989"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse25_ses-Mouse25-140124_behavior+ecephys.npz",
+   "sha256": "5021c264a53f5deb084c0b398a1fcaac4a9f603760022a971fe25943d11730cf"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse25_ses-Mouse25-140123_behavior+ecephys.npz",
+   "sha256": "05a3306a677571e8a3663e0c8910287d46f198aaf2b393a5d718ae06c638ab96"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse25_ses-Mouse25-140131_behavior+ecephys.npz",
+   "sha256": "483e65422530c615e2e323057025518c53cf3473051fef1485f54c9a61e87df6"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse25_ses-Mouse25-140203_behavior+ecephys.npz",
+   "sha256": "31b64f65c3a85de8e2e354fffc1cdd8d890ae481bdd73057086723e6f8b5148e"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse25_ses-Mouse25-140128_behavior+ecephys.npz",
+   "sha256": "b57858957139ee8e81091ce853742aaf1289e84be19bb2217f41388f92aacae4"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse25_ses-Mouse25-140129_behavior+ecephys.npz",
+   "sha256": "935846466e47fb36136c9107e6cb83fe144a1bf268ec57c851596fbe3d9bdec5"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse25_ses-Mouse25-140205_behavior+ecephys.npz",
+   "sha256": "30d24c6cbe11a04ca3fb53adc09cddfae2de2e70b624bbd69b4fce6f5b70a3e5"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse25_ses-Mouse25-140130_behavior+ecephys.npz",
+   "sha256": "c1cdcc31049ebafa0ded1d67721952c58b96cc020644404039e0c590ab8ecac7"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse25_ses-Mouse25-140204_behavior+ecephys.npz",
+   "sha256": "308452c89e26fd427f253245cf237322c7d36190c56a2b7891b47ea0d200a16c"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse25_ses-Mouse25-140206_behavior+ecephys.npz",
+   "sha256": "564f15a46c584a15b7ddb65b3f612a8e50ec879820515d1339797e3282c9aaf4"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse28_ses-Mouse28-140310_behavior+ecephys.npz",
+   "sha256": "3af19671709c1b3414bba08c8223cc2a3bffe0cf3866c6f6be4e6a0c5fcb0ef3"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse28_ses-Mouse28-140311_behavior+ecephys.npz",
+   "sha256": "cf6cff2da7d617e65307ca9962a3916911288d0159601f370850a3b36c2264b7"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse28_ses-Mouse28-140317_behavior+ecephys.npz",
+   "sha256": "3d9088f63bcf8f3f34d39dff993bea67280aa60f9da7af12fed3129fd300f684"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse28_ses-Mouse28-140313_behavior+ecephys.npz",
+   "sha256": "d998d48117a88bf18396530ee40f285f98cef679b140dfd1421d8e9bc7d6ef81"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse28_ses-Mouse28-140318_behavior+ecephys.npz",
+   "sha256": "bcee7b4fd2788611a35becd1f11a74667ce356cb69b625748a1d6dda400d1818"
+  },
+  {
+   "dataset": "dandi-000056",
+   "version": "DANDI 000056 0.250624.0430",
+   "asset": "sub-Mouse28_ses-Mouse28-140312_behavior+ecephys.npz",
+   "sha256": "2bc85db422dbe14159bee5a3b76b9404ffe1e9f4ad3deaf32fdfad93da63f7ed"
+  }
+ ],
+ "code_sha256": {
+  "c1_1_common_equation.py": "3e22dcc79593c2dc919e203117b40ff7d7b0106b7e108e1d5af0bf667936d74f",
+  "c1_2_common_equation_onset.py": "e105afc1e813949da022cbed0317938159ff157423d37a6ac54f4e65f96cd005",
+  "c1_4_common_trace_time.py": "ac195c45079d6a611634d5669e6f0f442ecde4a32d096e99ccf30fc9200adc98",
+  "c1_5_common_equation_v2.py": "3a7c47242bef2fea195a85597e7ebe4efca2d48fdd3a94fa0bb6631a5d4ac020",
+  "c3_1_sleep_trace.py": "e799d26d92ce58ece7caf1084981574690c7ca4f102d1c607ab0e724442d2b3a",
+  "c3_2_trace_replication.py": "05dd291fcc05ca80f2cdb8228fa242466e31ebaa97c5c3732190dc6e637bbf13",
+  "c3_3_restoring.py": "b66d34a5c59480376f5a38c4f62769bbfd6bc668a83ffc8b2db876d701f7f0bf",
+  "c3_8_record_relocation.py": "0de0060593c1d9abac7cfd5ec7dab75a1f50f7156a456b28d976d6008e641fbd",
+  "c4_1_metric_hd.py": "79c9235b7f5a1a3cc6e36e8ee48baf78f84047015a66298e9388734c093a6ccd",
+  "fast/Cargo.toml": "0dd61494902f2b39209c6ec8b7469513ba2dc5d4dff8acf5cbe13a0ed0c75d43",
+  "fast/src/lib.rs": "9b019ee7fa40873bd6c167b8d674fab79b209a5acffa6992fee7ae543764ad8e",
+  "harness.py": "48d17159ed5e45655d4241bf13d7f128376a896f0aacbb0221367b377dd8e77e",
+  "ring.py": "7eb00271c68d7bc9413cc5268968ded2d0c50dd896d387b1e96e9ef6af86d444",
+  "store.py": "1d40da18c0b899ee45a0211da7b0fef7ba66aa9554c382f7f0c2513568586627"
+ },
+ "date": "2026-09-29"
+}

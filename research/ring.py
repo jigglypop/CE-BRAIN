@@ -48,9 +48,10 @@ class Model:
         return chi2, rho, noise_free
 
 
-def fit(models, common, each, fixed, start, maxiter=2000, restarts=4):
+def fit(models, common, each, fixed, start, maxiter=2000, restarts=4, tol=(1e-3, 1e-3)):
     """Nelder–Mead over log parameters (`common` shared, `each` per data set), restarting the simplex until χ² stops
-    falling by 0.1. `start` is one dict or one per data set. No stability cut is needed: `steps` keeps the well resolved."""
+    falling by 0.1. `start` is one dict or one per data set. No stability cut is needed: `steps` keeps the well resolved.
+    `tol` is (xatol on log parameters, fatol on χ²); (0.01, 0.05) stops at the size of the model's own sampling noise."""
     n = len(models)
     starts = start if isinstance(start, list) else [start] * n
 
@@ -64,7 +65,7 @@ def fit(models, common, each, fixed, start, maxiter=2000, restarts=4):
     best = cost(x)
     for _ in range(restarts):
         r = minimize(cost, x, method="Nelder-Mead", options={
-            "maxiter": maxiter, "xatol": 1e-3, "fatol": 1e-3, "initial_simplex": np.vstack([x, x + 0.7 * np.eye(len(x))])})
+            "maxiter": maxiter, "xatol": tol[0], "fatol": tol[1], "initial_simplex": np.vstack([x, x + 0.7 * np.eye(len(x))])})
         if best - r.fun < 0.1:
             x = r.x if r.fun < best else x
             break
@@ -85,7 +86,7 @@ def judged(bases, f, n_free):
             "prediction": [(r ** c12.POWER * nf)[c15.INDEX].tolist() for _, r, nf in parts]}
 
 
-def fit_data(bases, common, each, fixed, start):
+def fit_data(bases, common, each, fixed, start, tol=(1e-3, 1e-3)):
     """Coarse to fine: fit with 2 replicas (a quarter of the cost), then refine from there with FIT replicas."""
-    coarse = fit([Model(b, 2, FIT[1]) for b in bases], common, each, fixed, start)
-    return fit([Model(b, *FIT) for b in bases], common, each, fixed, coarse["params"])
+    coarse = fit([Model(b, 2, FIT[1]) for b in bases], common, each, fixed, start, tol=tol)
+    return fit([Model(b, *FIT) for b in bases], common, each, fixed, coarse["params"], tol=tol)
