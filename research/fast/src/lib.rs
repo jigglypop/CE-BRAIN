@@ -334,8 +334,134 @@ fn ring_observe<'py>(
     Ok(Array1::from(sums).into_pyarray(py))
 }
 
+/// The record-field equation (v3) on a ring, one trajectory per event, from θ(0) = 0 with the record gathered there:
+///   dθ = −D ∂E/∂θ dt + √(2D) dW,   τ ḣ_k = −h_k + e^{ikθ} (k = 1..K, the record's Fourier coefficients),
+///   E(θ) = −A Σ_k coef_k Re(h_k e^{−ikθ})   (coef_k = 2 I_k(β) e^{−β}: a gathered record gives the well e^{β(cos x − 1)}).
+/// Leimkuhler–Matthews steps. Returns the circular-mean angle of θ over each window (events × windows), NaN past each length.
+#[pyfunction]
+#[allow(clippy::too_many_arguments)]
+fn ring_field<'py>(
+    py: Python<'py>,
+    lengths: Ends<'py>,
+    windows: usize,
+    d: f64,
+    a: f64,
+    tau: f64,
+    coef: Times<'py>,
+    substeps: usize,
+    seed: u64,
+) -> PyResult<Bound<'py, PyArray2<f64>>> {
+    let (lengths, coef) = (lengths.as_slice()?, coef.as_slice()?);
+    if substeps == 0 || !(d >= 0.0) || !(tau > 0.0) || coef.is_empty() {
+        return Err(PyValueError::new_err("need substeps > 0, D ≥ 0, τ > 0 and at least one harmonic"));
+    }
+    let harmonics = coef.len();
+    let dt = 1.0 / substeps as f64;
+    let keep = (-dt / tau).exp();
+    let mut out = vec![f64::NAN; lengths.len() * windows];
+    if windows > 0 {
+        py.detach(|| {
+            out.par_chunks_mut(windows).enumerate().for_each(|(i, row)| {
+                let mut z = Normals { rng: Rng(seed ^ (i as u64 + 1).wrapping_mul(0xD1B5_4A32_D192_ED03)), spare: None };
+                let mut last = z.next();
+                let length = (lengths[i].max(0) as usize).min(windows);
+                let (mut th, mut s, mut c) = (0.0f64, 0.0f64, 1.0f64);
+                let (mut hr, mut hi) = (vec![1.0f64; harmonics], vec![0.0f64; harmonics]);
+                for cell in row.iter_mut().take(length) {
+                    let (mut sr, mut si) = (0.0, 0.0);
+                    for _ in 0..substeps {
+                        let (mut pr, mut pi, mut drift) = (c, s, 0.0);
+                        for k in 0..harmonics {
+                            drift += (k + 1) as f64 * coef[k] * (hi[k] * pr - hr[k] * pi); // k·coef_k·Im(h_k e^{−ikθ})
+                            (pr, pi) = (pr * c - pi * s, pr * s + pi * c);
+                        }
+                        let fresh = z.next();
+                        th += d * a * drift * dt + (0.5 * d * dt).sqrt() * (last + fresh);
+                        last = fresh;
+                        (s, c) = th.sin_cos();
+                        let (mut pr, mut pi) = (c, s);
+                        for k in 0..harmonics {
+                            hr[k] = pr + (hr[k] - pr) * keep;
+                            hi[k] = pi + (hi[k] - pi) * keep;
+                            (pr, pi) = (pr * c - pi * s, pr * s + pi * c);
+                        }
+                        sr += c;
+                        si += s;
+                    }
+                    *cell = si.atan2(sr);
+                }
+            })
+        });
+    }
+    Ok(Array2::from_shape_vec((lengths.len(), windows), out).unwrap().into_pyarray(py))
+}
+
+/// The ring equation with an internal angular-velocity drive (the direction term F in sleep), from θ(0) = 0, h(0) = 1:
+///   dθ = (−D ∂E/∂θ + ω) dt + √(2D) dW,   τ_ω dω = −ω dt + v √(2τ_ω) dW′,   τ ḣ = −h + e^{iθ},   E = −A|h|·g(θ − arg h).
+/// ω is an Ornstein–Uhlenbeck velocity with stationary SD v (exact step); θ takes Leimkuhler–Matthews steps.
+/// Returns the circular-mean angle of θ over each window (events × windows), NaN past each event's length.
+#[pyfunction]
+#[allow(clippy::too_many_arguments)]
+fn ring_sweep<'py>(
+    py: Python<'py>,
+    lengths: Ends<'py>,
+    windows: usize,
+    d: f64,
+    a: f64,
+    tau: f64,
+    beta: f64,
+    speed: f64,
+    tau_w: f64,
+    substeps: usize,
+    seed: u64,
+) -> PyResult<Bound<'py, PyArray2<f64>>> {
+    let lengths = lengths.as_slice()?;
+    if substeps == 0 || !(d >= 0.0) || !(tau > 0.0) || !(tau_w > 0.0) || !(speed >= 0.0) {
+        return Err(PyValueError::new_err("need substeps > 0, D ≥ 0, τ > 0, τ_ω > 0, v ≥ 0"));
+    }
+    let dt = 1.0 / substeps as f64;
+    let (keep, carry) = ((-dt / tau).exp(), (-dt / tau_w).exp());
+    let kick = speed * (1.0 - carry * carry).sqrt();
+    let mut out = vec![f64::NAN; lengths.len() * windows];
+    if windows > 0 {
+        py.detach(|| {
+            out.par_chunks_mut(windows).enumerate().for_each(|(i, row)| {
+                let mut z = Normals { rng: Rng(seed ^ (i as u64 + 1).wrapping_mul(0xD1B5_4A32_D192_ED03)), spare: None };
+                let mut last = z.next();
+                let length = (lengths[i].max(0) as usize).min(windows);
+                let (mut th, mut hr, mut hi, mut s, mut c) = (0.0f64, 1.0f64, 0.0f64, 0.0f64, 1.0f64);
+                let mut w = speed * z.next();
+                for cell in row.iter_mut().take(length) {
+                    let (mut sr, mut si) = (0.0, 0.0);
+                    for _ in 0..substeps {
+                        let m = hr.hypot(hi);
+                        let pull = if m > 0.0 && a > 0.0 {
+                            a * (s * hr - c * hi) * (beta * ((c * hr + s * hi) / m - 1.0)).exp()
+                        } else {
+                            0.0
+                        };
+                        let fresh = z.next();
+                        th += (-d * beta * pull + w) * dt + (0.5 * d * dt).sqrt() * (last + fresh);
+                        last = fresh;
+                        w = w * carry + kick * z.next();
+                        (s, c) = th.sin_cos();
+                        hr = c + (hr - c) * keep;
+                        hi = s + (hi - s) * keep;
+                        sr += c;
+                        si += s;
+                    }
+                    *cell = si.atan2(sr);
+                }
+            })
+        });
+    }
+    Ok(Array2::from_shape_vec((lengths.len(), windows), out).unwrap().into_pyarray(py))
+}
+
 #[pymodule]
 fn cefast(m: &Bound<'_, PyModule>) -> PyResult<()> {
+    m.add_function(wrap_pyfunction!(ring_sweep, m)?)?;
+    m.add_function(wrap_pyfunction!(ring_field, m)?)?;
     m.add_function(wrap_pyfunction!(bin_counts, m)?)?;
     m.add_function(wrap_pyfunction!(window_counts, m)?)?;
     m.add_function(wrap_pyfunction!(ccg, m)?)?;
