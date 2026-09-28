@@ -17,91 +17,72 @@
 | C7 | 해마는 기억의 주소 지정·검색 구조다 | 미채택: 경험 뒤 동기 방전이 트랙 위 가까운 주소를 함께 불러내지만(경험 전에는 없음) 느린 세포 우세는 미재현 (C7-1 실패, 4.15) |
 | C8 | 여러 가능한 표현 중 하나가 지금 여기의 세계로 선택된다 | 미채택: 갈등하는 두 후보를 섞지 않고 주로 한쪽에 놓이지만 중간 성분 4%가 남음 (C8-1 실패, 4.16). 봉우리 꼬리를 거울 칸으로 빼면 중간 초과는 0과 구별되지 않으나 C8-1 크기도 배제하지 못함 (C8-2 실패, 4.20) |
 
-## 2. 공통 식 (2026-09-28 재정립, v2)
+## 2. 공통 식 (식부터 다시 세움, 2026-09-29)
 
-뇌의 식:
+도출 순서: 고정 뉴런(C2)에서 가장 일반적인 확률 동역학을 쓰고, 그 분해가 계량·방향·지형을 유일하게 가른다는 데서 C4·C5를 얻는다. 지형의 기록 항에서
+C3·C6·C7을, 정상 분포에서 C8을, 기록의 경과율에서 시간을 얻는다. 4장의 판정은 이 식의 각 항을 재는 근거로만 쓴다.
 
-$$
-\dot x=-G^{-1}\nabla E(x;h,W)+F(x;W,u)+\sqrt{2TG^{-1}}\,\xi,\qquad
-\dot h=\lambda(s,u)\,(x-h),\qquad \dot W=\Phi(x,h)
-$$
+### 2.1 식
 
-관측의 식(창 W의 집단 벡터; 모든 단계가 같은 것을 쓴다):
+1. **상태와 관측 (C2).** 고정 뉴런 i의 활동 $x_i$와 관계 $W$. 관측은 스파이크 $n_i\sim\mathrm{Poisson}\big(\int_W\lambda_i(x)\,dt\big)$이고,
+   방향은 이득에 불변인 집단 벡터 $y=\arg\sum_i (n_i/\bar r_i)e^{i\varphi_i}$로 읽는다(4.35–4.36).
+2. **동역학 (C4, C5).**
+   $$dx=\big[-G^{-1}\nabla E+F\big]dt+\sqrt{2T\,G^{-1}}\,dB,\qquad \nabla\cdot\big(F\,e^{-E/T}\big)=0$$
+   이 꼴은 가정이 아니라 분해다. 어떤 확산 과정도 잡음 공분산($G$), 정상 분포($E$), 나머지 확률 흐름($F$)으로 유일하게 나뉜다(Graham 1977; Ao 2004).
+   그래서 계량과 방향의 분리(C5)는 이 분해 자체이고, 계량(C4)은 짧은 시간 증분의 공분산으로만 읽힌다. 동시각 공분산은 $T(\nabla^2E)^{-1}$, 곧 지형을
+   잰다(4.6–4.11). 두 상태 사이의 가장 그럴듯한 경로는 Onsager–Machlup 작용 $\int(\dot x-b)^\top G(\dot x-b)\,dt/4T$를 최소화하고, $E$가 평평하고
+   $F=0$이면 $G$의 측지선이다(기능적 거리).
+3. **지형 (C1).** $E(x)=E_W(x)+E_m(x)+E_u(x)$: 느린 기록(관계 $W$), 빠른 기록(흔적 $m$), 지금 입력 $u$.
+4. **흔적 = 빠른 기록 (C2, C3).** 뉴런은 제 발화로 제 기록을 쓴다(하드웨어가 기록한다):
+   $$\tau\,\dot m_i=N_i\,\big(\varphi_i(x)-m_i\big),\qquad E_m(x)=-A\sum_i m_i\,\varphi_i(x)$$
+   머리방향 고리에서는 $E_m(\theta)=-A\int m(\psi)\,g(\theta-\psi)\,d\psi$, $g(x)=e^{\beta(\cos x-1)}$, $\beta=5.2$(문헌 60° 봉우리). 논렘에서는 지형이 상태를
+   기록 자리로 끌고 그 자리 뉴런이 기록을 다시 쓰므로, 흔적은 시계 $\tau$보다 훨씬 오래 남는다(되먹임, 4.27).
+5. **느린 기록 = 학습 (C6).** $\tau_W\dot W=\eta\,\langle\varphi\varphi^\top\rangle-W$. 잠의 재활성이 이 항으로 관계를 바꾼다(4.14).
+6. **검색 (C7).** 저장된 기록이 여럿($\xi_\mu$)이면 $E_m=-T\log\sum_\mu\exp\big(A\,s(x,\xi_\mu)/T\big)$다. 검색의 무게는 softmax이므로, 지금 상태와 가까운
+   주소일수록 함께 불려 나온다(현대 Hopfield, Ramsauer et al. 2021; 트랜스포머의 주의와 같은 꼴).
+7. **선택 (C8).** 정상 분포 $p(x)\propto\sqrt{\det G}\,e^{-E/T}$. 과거 흔적의 우물과 지금 입력의 우물이 봉우리 폭(β = 5.2에서 약 50°)보다 멀면 $E$가
+   쌍안정이라 한 우물만 차지된다. 점유 비는 우물 깊이 차의 지수다: $P(\text{과거})/P(\text{지금})\approx e^{A_m-A_u}\sqrt{A_u/A_m}$. 따로 선택 항을 두지 않는다.
+8. **시간 (C3).** 기록의 경과율 $N_i$는 뉴런 막의 경과함수 $g_{\text{tot}}/C$다. 막 식 $C\dot V=-g_{\text{tot}}(V-V_\infty)$은 $d\tau=N\,dt$인 고유시간 식이고
+   (일반상대론의 경과함수와 같은 꼴), 이산화하면 Mamba의 선택적 게이트 $\Delta=N\,dt/\tau$다. 기록된 방향 세포의 발화는 짧은 깸과 논렘에서 같으므로
+   (000056 단위 1,077개의 짧은 깸/논렘 발화 비 중앙 1.00; 긴 깸에서만 켜지는 단위 1.7%는 짧은 깸 102개 중 76개에서 스파이크 0; 탐색) 지금 자료에서 $N$은
+   상태에 따라 달라지지 않는다. 시계는 하나다. 상태 자체가 움직인 거리는 시계가 아니다: 논렘 내부 방향은 1 s 안쪽에서 깸보다 15.5배 빨리 움직이는데
+   흔적은 더 오래 남는다(4.4, 4.23).
 
-$$
-y_W=\arg\sum_i\big(n_i-\bar r_i W\big)e^{i\varphi_i},\qquad n_i\sim\mathrm{Poisson}\Big(\int_W f_i(x)\,dt\Big)
-$$
+### 2.2 각 항을 재는 관측과 지금까지의 근거
 
-관측 잡음: 논렘 해독 잡음은 거의 창마다 독립이고 느린 성분은 분산의 약 9%다(4.31). 다만 초과 발화 벡터 해독은 스파이크가 적은 창을 세션마다 고정된 "빈 방향"으로 읽는다(논렘 창 약 20%, 4.35): 관측 식에 이 끌림을 넣어야 한다. 깸 해독 오차의 느린 성분(41%, 4.30)은 대부분 내부 방향과 머리의 실제 차이다.
-
-머리방향 고리에서 잰 꼴: $x=e^{i\theta}$, $E=-A|h|\,g(\theta-\arg h)-A_u\,g(\theta-\theta_u)$, $g(x)=e^{\beta(\cos x-1)}$.
-흔적 갱신 $\lambda\,dt=\Delta$는 Mamba의 선택적 게이트 $h_t=e^{-\Delta_t}h_{t-1}+(1-e^{-\Delta_t})x_t$다.
-
-v1($\dot x=-G(h)^{-1}\nabla E+F$, $\tau_h\dot h=-h+x$)에서 바꾼 곳:
-
-| 바꾼 곳 | v1 | v2 | 근거 |
+| 항 | 재는 관측 | 근거 (4장) | 상태 |
 |---|---|---|---|
-| 흔적 갱신 | 시간상수 하나 τ_h | 상태 선택적 λ: 잠 1/τ_h, 깸 1/τ_w (τ_w ≪ τ_h) | 잠들기 전 적분 10–40 s, 깸 덮임 ≤ 45 s, 잠든 뒤 유지 743 s (4.21–4.23) |
-| 계량 | 흔적에 따라 변하는 G(h) | 상태 불변 G. 우물 이완 1/(DAβ) ≈ 0.4 s보다 빠른 동역학에서만 읽는다 | 동시각 공분산은 $T(\nabla^2E)^{-1}$을 잰다 (4.6–4.11), 렘/논렘 이동도 1.2배 (4.18) |
-| 잡음 | 없음 | 요동–소산 $\sqrt{2TG^{-1}}\xi$ | 4.11 정리 2 |
-| 관측 | 단계마다 따로 | 창 집단 벡터 $y_W$를 식에 넣는다 | 창 평균·혼합 꼬리가 판정을 바꿨다 (4.16, 4.20) |
-| 선택 | 따로 항을 찾음 | 따로 두지 않는다: 두 우물이 봉우리 폭(β = 5.2)보다 멀면 E가 쌍안정이라 한쪽만 남는다 | 섞임 기각 (4.16) |
-| 매개변수 | 모두 공통이라 가정 | 공통 A, β, τ_h / 계마다 D, τ_w / 관측 ρ, σ₀ | 4.19, 4.21, 4.23 |
+| 고정 점 (C2) | 환경이 바뀌어도 고리 위 자리 | 평균 벡터 길이 0.977 (4.1) | 채택 |
+| $E$: 흔적 우물 $A$ | 정상 점유, 정렬 감쇠 | 세 자료가 우물 깊이 하나로 맞음, 값은 2.2–4.5 kT로 적합 체제에 따라 움직임 (4.24–4.28); 초파리 고리의 원 (4.13) | 채택 |
+| $m$: 흔적 | 잠든 뒤 정렬 | 흔적 있음, 되돌림, 세 자료 공통 τ (4.2, 4.4, 4.21, 4.36) | 채택 |
+| $\tau$, $N$: 시간 | 짧은 깸의 덮임, 잠의 유지, 상태별 발화 | 시계 하나와 양립 (4.27–4.28), 스파이크 비 1.00 | 양립 · 미판정 |
+| $G$: 계량 | 짧은 시간 증분 | 렘 확산 모양 (4.9–4.10); 논렘 1 s 관측은 $G$를 정하지 못함 (4.28) | 미채택 |
+| $F$: 방향 | 확률 흐름(시간 비대칭) | PB 경로의 한 타일 회전 (4.12); 잠의 알짜 회전은 깸 회전의 약 3%이고 합치면 0이나 세션마다 0은 아님 (4.37); 논렘 긴 쓸기는 1 s 관측이 받지 않음 (4.34) | 채택(연결체) |
+| $W$: 학습 | 잠 뒤 쌍 상관 | EV 0.108, 역방향 0.018 (4.14) | 채택(관계 쪽) |
+| 검색 (C7) | 동기 방전의 공동 활성 대 주소 거리 | 거리 의존 있음, 느린 세포 우세 없음 (4.15) | 미채택 |
+| 선택 (C8) | 갈등 창의 점유 | 섞임 기각 (4.16), 중간 성분은 가르지 못함 (4.20) | 미채택 |
+| 관측 | 방향 해독 | 초과 발화 벡터는 빈 방향 인공물(4.35), 이득 불변 벡터로 흔적·공통 τ 재현(4.36) | — |
 
-| 기호 | 뜻 | 전제 | 지금까지 잰 값 | 구분 · 상태 |
+열린 문제: 논렘 방향이 기록 자리를 5–15 s 벗어난 뒤의 되돌아옴(실측 0.150–0.166)을 모든 식이 0.22–0.29로 과대 예측한다. 관측 잡음 상관, 기록장의 여러
+봉우리, 세션 고정 끌개, 논렘 쓸기, 스파이크 수 잡음, 빈 방향 인공물은 원인이 아니었다(4.29–4.36).
+
+### 2.3 이 식에서 바로 나오는 판정 (한 단계에 명제 하나)
+
+1. C5: 잠에서는 확률 흐름이 없고($F=0$, 상세 균형) 깸에서는 머리 회전 방향으로 $F$가 켜진다(교차 상관 첫 조화의 허수부).
+2. C4: 짧은 시간 증분(우물 이완 0.1–0.4 s보다 짧은 지연)으로 읽은 $G$는 렘과 논렘에서 같다.
+3. C8: 갈등 창에서 과거와 지금의 점유 비가 따로 잰 두 우물 깊이의 Boltzmann 비를 따른다.
+4. C7: 동기 방전의 공동 활성은 주소 거리의 softmax 핵을 따르고, 핵의 폭은 장소장 폭이다.
+5. C1: 식 전체(매개변수는 종·계마다)를 원장에 새로 등록한 자료로 옮긴다.
+
+### 2.4 이전 식에서 바뀐 곳
+
+| | v1 (2026-09-27) | v2 (09-28) | v3 (09-29) | 지금 |
 |---|---|---|---|---|
-| $x$, $W$ | 고정 뉴런의 상태, 방향 있는 관계(연결) | C2 | 세포의 고리 위 자리는 환경이 바뀌어도 고정 (4.1) | 채택 |
-| $G$ ($D=TG^{-1}$) | 계량: 상태 변화의 비용 $ds^2=dx^\top G\,dx$ | C4 | 논렘 1 s 관측으로는 잘 정해지지 않는다: 같은 구간 집단에서 0.38(난수열 하나, 4.24)부터 5.1·0.7·1.1 rad²/s(정밀 적합, 4.25)까지 맞음. 모든 구간을 섞으면 생쥐 0.14–0.20, 쥐 1.06 (4.18–4.19). 000056 렘 M/2 0.12 (4.10) | 미정 · 미채택 |
-| $E$: $A$, $\beta$ | 기억 지형: 흔적 우물의 깊이와 폭 | C1, C3, C8 | 세 자료가 A 하나를 함께 씀: 2.20 kT (정밀 적합, 4.25), 3.45 kT (4.24); 따로 맞추면 2.6–3.3 (4.18–4.19). β 5.2 (문헌 60° 봉우리) | 공통 · 채택 (C1-6) |
-| $F$ | 방향: 연결체의 방향 있는 신호 흐름, 입력 $u$가 켠다 | C5 | PEN의 PB 경로, 한 타일 51–55° (4.12) | 채택 |
-| $h$: $\tau_h$ | 잠든 동안 흔적이 남는 시간 | C1, C3 | 같은 논렘 구간 집단에서 정렬 감쇠의 지수 743 s (497–1,331) (4.21). 식 안의 흔적 시간상수는 348 s (정밀 적합, 4.25; 4.24에서 428 s). 정렬 감쇠는 D·A에도 걸린다 | 공통 · 채택 |
-| $h$: $\tau_w$ | 깸에서 흔적이 덮이는 시간 | C3 | 000056: 잠들기 전 적분 40 s (14–160)와 깸 덮임 45 s (16–90), 두 관측이 일치. 000939·001699: 10 s, ≤ 32 s (4.22–4.23) | 계마다 · 선택성은 두 자료군 재현 |
-| $\Phi$ | 학습: 흔적이 관계·계량을 바꾸는 규칙 | C6 | 경험이 수면 뒤 쌍 상관 분산의 약 11%를 설명 (4.14) | 채택(관계 쪽) |
-| $\rho$, $\sigma_0$ | 관측: 해독 잡음, 잠들 때 θ_pre와 흔적 중심의 어긋남 | — | ρ 0.44, σ₀ 57–77° (4.18–4.19). σ₀의 정체(해독 오차인지 깸 끝의 빠른 이동인지)는 미해결 | 관측 |
-
-기록장 식(v3, 2026-09-29; C1-7 지지됨, 4.27): 전기신호가 하드웨어에서 식의 일부를 맡는다. 뉴런 ψ의 막은 경과함수 N = g_tot/C로 제 고유시간을
-세고(막 식이 곧 고유시간 식이며 이산화하면 Δ = N dt인 Mamba 셀), 그 발화가 제 기록 m(ψ)을 쓴다. 기록은 하나의 시간상수 τ로 지워지고,
-기록 전체가 끌개 지형을 만든다:
-
-$$
-\tau\,\partial_t m(\psi,t)=-m(\psi,t)+f\big(\theta(t)-\psi\big),\qquad
-E(\theta)=-A\!\int m(\psi)\,g(\theta-\psi)\,d\psi-A_u\,g(\theta-\theta_u),\qquad
-d\theta=-D\,\partial_\theta E\,dt+\sqrt{2D}\,dW
-$$
-
-v2의 흔적 $h=\int m(\psi)e^{i\psi}d\psi$는 이 기록장의 첫 푸리에 성분이다. 시계는 하나다. 논렘에서는 지형이 상태를 기록 자리로 끌고 그
-자리 뉴런이 기록을 다시 쓰므로 흔적이 τ보다 훨씬 오래 남고(되먹임), 깸에서는 입력 우물 $A_u$가 상태를 다른 자리로 옮겨 τ 안에 덮인다.
-이 식이면 잠과 깸에 시계 두 개(τ_h, τ_w)를 둘 까닭이 없다: 000056의 단위 1,077개는 짧은 깸과 논렘에서 같은 빠르기로 발화한다(비 중앙
-1.00). 모형만으로 τ = 45 s, A = 3.5 kT이면 180 s 뒤 정렬이 처음의 0.41–0.49로, 되먹임 없는 지수(0.02)보다 20배 넘게 오래 남는다.
-C1-7: 짧은 깸의 덮임에서 잰 시계 τ = 45 s 하나와 우물 4.45 kT로 000056 논렘 관측 10개가 맞고(판정 χ²/자유도 0.64), 시계를 풀어도
-나아지지 않는다(Δχ² 0.71). 잠의 긴 유지는 두 번째 시계가 아니라 기록의 되먹임에서 나온다.
-
-아래는 v3 전에 세운 두 시계 틀(시간의 식, 2026-09-28)과 그 대조다. 식에 시간은 늘 비어 있었고 벽시계 t로 채워 두었다. 일반상대론에서
-고유시간이 계량과 궤적에서 나오듯, 흔적은 뉴런이 떠받치는 고유시간 σ로 늙는다:
-
-$$
-dh=(x-h)\,\frac{d\sigma}{\ell},\qquad \Delta_t=\frac{\sigma_{t}-\sigma_{t-1}}{\ell}\quad(\text{Mamba의 선택적 }\Delta)
-$$
-
-입력이 없으면 σ가 거의 멈춰 과거의 "지금"이 남고(잠: τ_h 743 s), 신호가 흐르면 σ가 흘러 흔적이 덮인다(깸: τ_w ≤ 45 s). 매개변수(ℓ, τ)는
-종·계마다 다르고 식의 꼴이 공통이다. 무엇이 σ를 돌리는지의 후보와 지금까지 수치(결과를 본 뒤의 대조, 판정 아님):
-
-| 시계 | 예측 | 대조 |
-|---|---|---|
-| ① 상태 x의 호 길이 | 많이 움직이면 빨리 잊는다 | 배제: 논렘 내부 방향은 1 s 안쪽에서 깸보다 15.5배 빨리 움직이는데(4.4) 흔적은 16배 넘게 오래 남는다(4.23). 확산 경로의 호 길이는 창에 따라 달라 시계가 되지 못한다 |
-| ④ 전기신호의 경과함수: $C\dot V=-g_{\text{tot}}(V-V_\infty)$ ⇒ $dV/d\tau=-(V-V_\infty)$, $d\tau=N\,dt$, $N=g_{\text{tot}}/C$ (막 식은 그 자체로 고유시간 식이고, 이산화하면 $\Delta_t=N(t)dt$인 Mamba 셀) | 시계를 돌리는 뉴런의 전기 활동이 깸/논렘에서 τ_h/τ_w ≈ 8–16배 달라야 한다 | 기록된 뉴런의 스파이크에는 없다(탐색, 판정 아님): 방향 세포의 깸/논렘 발화 비 1.06–1.50, 논렘 하강 상태는 시간의 0.4–5%. 긴 깸에서만 켜지는 단위(1.7%)는 흔적이 덮이는 짧은 깸 102개 중 76개에서 스파이크가 0이다. 000056의 단위 1,077개의 짧은 깸/논렘 발화 비는 중앙 1.00(방향 세포 0.71)이고, 반으로 나눠 고른 4배 이상 단위는 다른 반에서 40%만 유지된다. 남은 자리: 기록되지 않은 입력 경로(전정·시각), 스파이크로 보이지 않는 막 아래 전도도, 또는 깸으로 넘어가는 순간 한 번의 기록(Mamba의 경계에서 Δ → ∞) |
-| ② 입력 경로의 호 길이(외부 머리 회전, 또는 내부 각속도 구동 F) | 입력이 도는 동안만 시간이 흐른다 | 살아 있음: 000056 짧은 깸에서 ℓ ≈ 5 rad |
-| ③ 기억 우물 깊이의 시간 지연 | 우물 깊숙이 있으면 시간이 느리다 | 살아 있음 |
-
-④가 옳다면 ②와 한 식이 된다: 입력을 전하는 뉴런의 전기 활동이 경과함수 N을 정하고, 흔적은 $\int N\,dt$로 늙는다. 전기신호가
-식의 일부(Δ)를 하드웨어에서 직접 계산하므로 따로 계산하지 않아도 되고, 누적 고유시간 σ = ∫N dt는 그 자체로 하나의 기록이다.
-가르는 관측은 렘이다. 렘에서는 머리가 멈춰 있고 방향 세포는 깸만큼 발화하며(논렘의 1.35–1.98배) 내부 방향은 확산한다(4.9–4.10).
-외부 입력 시계(②)면 렘을 지나도 흔적이 남고, 내부 구동 시계(②의 F)나 발화 시계면 렘이 흔적을 덮는다. 원장 자료에서는 렘 → 논렘
-묶음이 방향 세포가 충분한 세션에 16개뿐이라 아직 가르지 못했다(4.26).
-
-v2가 내는 예측 가운데 아직 판정하지 않은 것: (1) 선택의 문턱: 두 우물 간격이 약 2/√β ≈ 50°보다 좁으면 봉우리는 중간에 놓이고(섞임) 넓으면
-한쪽에 놓인다. (2) 깸의 λ는 입력 세기에 따른다(Mamba $\Delta(u)$): 깸 동안 머리를 많이 돌릴수록 흔적이 더 덮인다. (3) G는 렘과 논렘에서
-같다(0.4 s보다 짧은 창).
+| 계량과 방향 | $G(h)$, $F$ 따로 | 상태 불변 $G$ | 같음 | 분해로 정의: $G$는 잡음 공분산, $F$는 확률 흐름, $E$는 정상 분포 |
+| 흔적 | $\tau_h\dot h=-h+x$ | 두 시계(깸 $\tau_w$, 잠 $\tau_h$) | 기록장, 시계 하나, 되먹임 | 같음 + 경과함수 $N$(시간), 느린 기록 $W$(학습) |
+| 검색·선택 | 선택 항을 찾음 | $E$의 쌍안정 | 같음 | 검색은 기록 무게의 softmax, 선택은 Boltzmann 점유 비 |
+| 관측 | 단계마다 | 창 집단 벡터 | 같음 | 이득 불변 집단 벡터(빈 방향 인공물 없음) |
+| 적분 | 오일러 200/s | 같음 | Leimkuhler–Matthews(`research/ring.py`) | 같음 |
 
 ## 3. 자료 (원장 등록분)
 
@@ -833,16 +814,51 @@ s: 평균을 C1-7의 ρ에 맞춘 척도)을 입히면 적합에 쓰지 않은 R
 - 방법 검증: 스파이크 수에 비례하는 합성 잡음에서 c를 15% 안에서 되찾았다.
 - 판정: 실패. 결과: `research/results/c1_11_count_noise.json`.
 
+### 4.36 C1-12 흔적과 공통 τ는 해독 인공물 없이도 서는가 — 실패 (인공물 기준 미달; 흔적과 공통 τ는 다시 섬)
+
+C1-11을 본 뒤 세운 새 단계다. 해독을 이득에 불변인 집단 벡터 θ = arg Σ_i (n_i/r̄_i)e^{iφ_i}로 바꿨다(발화율을 빼지 않으므로 스파이크가 없어도 고정 방향이
+생기지 않는다; 스파이크가 없는 창은 무작위 방향). 명제: 이 해독기로 다시 재도 빈 방향 인공물은 사라지고(스파이크 수 하위 10% 창에서 빈 방향과의 cos ≤ 0.1),
+세 자료 모두 흔적이 있으며, 같은 논렘 구간 집단에서 τ 하나의 지수식이 세 자료를 함께 맞춘다(C1-4의 기준).
+
+| | 초과 발화 벡터 (지금까지) | 이득 불변 집단 벡터 | 기준 |
+|---|---|---|---|
+| 빈 방향과의 cos, 스파이크 하위 10% (000056) | 0.644 | **0.140** | ≤ 0.1 |
+| 첫 칸 정렬 (순열 99%): 000056 / 000939 / 001699 | 0.239 / 0.085 / 0.078 | 0.213 (0.036) / 0.069 (0.045) / 0.099 (0.077) | > 99% |
+| 공통 τ (95%), 공동 χ²/자유도, Δχ² | 743 s (497–1,331), 0.51, 2.48 | 1,211 s (674–4,335), **0.25**, **1.51** | ≤ 2, ≤ 5.99 |
+| 보고: 000056 R(5–15), R(15–45) | 0.166 ± 0.017, 0.241 ± 0.058 | 0.150 ± 0.020, 0.194 ± 0.059 | — |
+
+- 인공물은 크게 줄었지만(0.644 → 0.140) 미리 정한 기준을 넘지 못했다. 남은 0.14는 세포가 적게 배치된 방향에 봉우리가 있을 때 스파이크가 실제로 적어지는
+  효과일 수 있다(해독기가 아니라 세포 배치의 성질).
+- 채택한 결과는 해독 인공물에 기대지 않는다: 세 자료 모두 흔적이 있고, τ 하나의 지수식이 세 자료를 맞춘다(C1-4 재현). τ는 더 길고 구간이 넓다.
+- 짧은 이탈 뒤 되돌아옴은 깨끗한 해독에서도 낮다(0.150). 빈 방향 인공물은 짧은 이탈 불일치(4.29–4.35)의 원인이 아니다. 이 불일치는 여섯 가지 후보(관측 잡음
+  상관, 기록장의 여러 봉우리, 세션 고정 끌개, 논렘 쓸기, 스파이크 수 잡음, 빈 방향 인공물)를 모두 버텼다. 식의 열린 문제로 남긴다.
+- 방법 검증: 세포 배치가 치우치고 집단 발화가 가끔 줄어드는 합성 세션에서 초과 발화 벡터의 끌림 1.000, 이득 불변 벡터 −0.104, 정확도는 같다(0.78).
+- 판정: 실패(인공물 기준). 결과: `research/results/c1_12_clean_decoder.json`.
+
+### 4.37 C5-3 잠에서는 확률 흐름이 없는가 — 실패 (세션마다 작은 한 방향 회전이 있고 합치면 0)
+
+§2를 다시 세운 뒤의 첫 판정이다. 동역학의 분해에서 방향 F는 확률 흐름이고, 고리 위 1차원 운동의 정상 확률 흐름은 고리를 도는 순환 하나뿐이다. 상세 균형(F = 0)은
+알짜 회전 0과 같다. 명제: 000056의 잠(논렘, 렘)에서 세션마다 알짜 회전 D = ΣIm F₁/ΣRe F₁(방향 세포 쌍 교차 상관 첫 조화, 20–300 ms)이 오차 안에서 0이다(세션별
+(D/SE)²의 χ² p ≥ 0.01, SE는 구간 10묶음 잭나이프). 같은 도구로 깸에서 머리를 돌리는 동안은 회전 방향에 따라 D가 갈린다(양성 대조).
+
+| | 세션 | χ² (p) | 세션별 \|D\| 중앙 (SE 중앙) | 가중 평균 D | \|z\| > 3 |
+|---|---|---|---|---|---|
+| 000056 논렘 | 21 | 182.6 (≈ 0) | 0.015 (0.010) | −0.001 | 8 |
+| 000056 렘 | 19 | 67.6 (≈ 0) | 0.016 (0.012) | +0.001 | 2 |
+| 000056 깸 회전 대조 (양성 대조) | 21 | 대조 0.553 (1% 0.47) | — | — | — |
+| 보고: 000939 논렘 / 렘 | 30 / 6 | 251.8 / 16.9 | 0.017 / 0.028 | −0.001 / −0.013 | 6 / 1 |
+
+- 도구는 방향 구동을 잡는다(깸 회전 대조 0.55). 잠의 알짜 회전은 그 3% 정도로 작고(\|D\| 상한 0.025, 크기 기준 통과), 세션을 합치면 0이다.
+- 그러나 세션마다 오차 안에서 0이라는 상세 균형은 기각된다(두 자료, 두 상태). 세션마다 부호가 다른 작은 한 방향 회전이 있다. 후보(판정 아님): 세션마다 방향이
+  정해진 느린 내부 표류(작은 F), 또는 스파이크 수준의 비가역성(시냅스 선후 관계와 쌍 구성). 뒤의 것이면 고리 수준의 F가 아니다.
+- 방법 검증: 알려진 회전 구간을 머리 각속도에서 되찾고, 한쪽으로 도는 봉우리의 교차 상관에서 D의 부호가 도는 방향을 따른다(합성).
+- 판정: 실패. 결과: `research/results/c5_3_detailed_balance.json`.
+
 ## 5. 다음
 
-- C1: v2가 세 자료를 A·τ_h 공통으로 맞춘다(4.25). 다음은 (1) A·τ_h를 고정해 아직 보지 않은 자료(후보: Senzai & Scanziani 2022의
-  ADN 수면 기록, NWB 아님)로 옮기는 검사와 (2) 1 s 관측으로 정해지지 않는 이동도 D를 짧은 창(C4-4·5의 교차 상관)에서 따로 재는 검사다.
-  공개 자료 조사(2026-09-28)에서 방향 세포·수면 채점·수면 중 머리 추적을 모두 갖춘 기록은 000056 밖에 찾지 못했다.
-- C3: 선택적 게이트의 Δ가 무엇에 따라 정해지는지 본다. 000056과 000939·001699의 차이(짧은 깸을 지나 남음, 긴 구간의 진폭)가
-  깸 동안의 머리 움직임(입력 세기)으로 설명되면 $\Delta=\Delta(u)$, 곧 입력이 흔적을 덮는다는 Mamba의 선택 식이 된다.
-- C4 계량: 논렘과 렘의 이동도가 같은지 사전 기준으로 판정한다(생쥐에서 1.2배 안 관찰). 문헌 해독 방법으로 렘 기울기를 다시 잰다.
-- C3: 수면 중 머리를 추적한 다른 연구실 자료로 과거 우세를 확인한다. C7: 리플(LFP) 검출로 느린 세포 우세를 다시 본다.
-- C8: 꼬리를 뺀 중간 초과를 가를 만큼 갈등 창이 많은 자료(수면 중 머리 추적)가 필요하다.
+§2.3의 판정을 차례로 한다(한 단계에 명제 하나, 돌리기 전에 검정력 계산). 먼저 C5(잠의 상세 균형)와 C4(짧은 시간 증분의 계량)는 원장 자료와 C4-4의 교차 상관
+도구로 바로 할 수 있다. C8은 두 우물 깊이를 따로 재야 하고, C7은 000044의 리플(LFP) 검출이 필요하다. 식 전체를 옮기는 검사(C1)에는 새 자료가 필요하다:
+공개 자료 조사(2026-09-28)에서 방향 세포·수면 채점·수면 중 머리 추적을 모두 갖춘 기록은 000056뿐이었고, 후보는 Senzai & Scanziani 2022의 ADN 수면 기록이다.
 
 ## 6. 재현
 
@@ -856,12 +872,18 @@ uv sync --python 3.11
 .venv/Scripts/python -m research.fetch dandi-000056
 .venv/Scripts/python -m research.fetch dandi-000044
 .venv/Scripts/python -m research.fetch dandi-001699
-for step in c1_1_common_equation c1_2_common_equation_onset c1_3_parameter_transfer c1_4_common_trace_time c1_5_common_equation_v2 c1_6_common_equation_precise c1_7_single_clock c1_8_joint_v3 c1_9_decoding_noise c1_10_split_half c1_11_count_noise c2_1_fixed_points c3_1_sleep_trace c3_2_trace_replication c3_3_restoring c3_4_past_conflict c3_5_trace_center c3_6_wake_overwrite c3_7_rem_clock c3_8_record_relocation c3_9_record_field c3_10_fixed_attractors             c4_1_metric_hd c4_2_anisotropic_metric c4_3_soft_modes c4_4_ring_diffusion c4_5_ring_diffusion_long c5_1_pen_shift c5_2_nrem_sweep             c6_1_reactivation c7_1_address c8_1_selection c8_2_window_selection; do .venv/Scripts/python -m research.$step; done
-.venv/Scripts/python -m pytest tests/test_harness.py tests/test_core.py tests/test_malecns.py tests/test_fast.py tests/test_store.py tests/test_c3_trace.py tests/test_c3_replication.py tests/test_c3_restoring.py tests/test_c4_metric.py tests/test_c4_anisotropic.py tests/test_c4_soft_modes.py tests/test_c4_diffusion.py tests/test_c6_reactivation.py tests/test_c7_address.py tests/test_c8_selection.py tests/test_c8_window.py tests/test_c1_common.py tests/test_c1_trace_time.py tests/test_c1_equation_v2.py tests/test_c1_equation_precise.py tests/test_ring.py tests/test_c1_single_clock.py tests/test_c1_joint_v3.py tests/test_c1_decoding_noise.py tests/test_c1_split_half.py tests/test_c1_count_noise.py tests/test_c3_trace_center.py tests/test_c3_wake_overwrite.py tests/test_c3_rem_clock.py tests/test_c3_record_relocation.py tests/test_c3_record_field.py tests/test_c3_fixed_attractors.py tests/test_c5_nrem_sweep.py
+for step in c1_1_common_equation c1_2_common_equation_onset c1_3_parameter_transfer c1_4_common_trace_time c1_5_common_equation_v2 c1_6_common_equation_precise c1_7_single_clock c1_8_joint_v3 c1_9_decoding_noise c1_10_split_half c1_11_count_noise c1_12_clean_decoder c2_1_fixed_points c3_1_sleep_trace c3_2_trace_replication c3_3_restoring c3_4_past_conflict c3_5_trace_center c3_6_wake_overwrite c3_7_rem_clock c3_8_record_relocation c3_9_record_field c3_10_fixed_attractors             c4_1_metric_hd c4_2_anisotropic_metric c4_3_soft_modes c4_4_ring_diffusion c4_5_ring_diffusion_long c5_1_pen_shift c5_2_nrem_sweep c5_3_detailed_balance             c6_1_reactivation c7_1_address c8_1_selection c8_2_window_selection; do .venv/Scripts/python -m research.$step; done
+.venv/Scripts/python -m pytest tests/test_harness.py tests/test_core.py tests/test_malecns.py tests/test_fast.py tests/test_store.py tests/test_c3_trace.py tests/test_c3_replication.py tests/test_c3_restoring.py tests/test_c4_metric.py tests/test_c4_anisotropic.py tests/test_c4_soft_modes.py tests/test_c4_diffusion.py tests/test_c6_reactivation.py tests/test_c7_address.py tests/test_c8_selection.py tests/test_c8_window.py tests/test_c1_common.py tests/test_c1_trace_time.py tests/test_c1_equation_v2.py tests/test_c1_equation_precise.py tests/test_ring.py tests/test_c1_single_clock.py tests/test_c1_joint_v3.py tests/test_c1_decoding_noise.py tests/test_c1_split_half.py tests/test_c1_count_noise.py tests/test_c1_clean_decoder.py tests/test_c3_trace_center.py tests/test_c3_wake_overwrite.py tests/test_c3_rem_clock.py tests/test_c3_record_relocation.py tests/test_c3_record_field.py tests/test_c3_fixed_attractors.py tests/test_c5_nrem_sweep.py tests/test_c5_detailed_balance.py
 ```
 
 ## 참고문헌
 
+- Ao P (2004). Potential in stochastic differential equations: novel construction. *J Phys A* 37:L25–L30.
+- Destexhe A, Rudolph M, Paré D (2003). The high-conductance state of neocortical neurons in vivo. *Nat Rev Neurosci* 4:739–751.
+- Graham R (1977). Covariant formulation of non-equilibrium statistical thermodynamics. *Z Phys B* 26:397–405.
+- Leimkuhler B, Matthews C (2013). Rational construction of stochastic numerical methods for molecular sampling. *Appl Math Res Express* 2013:34–56.
+- Onsager L, Machlup S (1953). Fluctuations and irreversible processes. *Phys Rev* 91:1505–1512.
+- Ramsauer H, Schäfl B, Lehner J, et al. (2021). Hopfield networks is all you need. *ICLR 2021*.
 - Chaudhuri R, Gerçek B, Pandey B, Peyrache A, Fiete I (2019). The intrinsic attractor manifold and population dynamics of a canonical cognitive circuit across waking and sleep. *Nat Neurosci* 22:1512–1520.
 - DANDI:000056 (0.250624.0430). Peyrache A, Buzsáki G. Mouse anterodorsal thalamus and postsubiculum, wake/sleep.
 - DANDI:000939 (0.260512.1701). Mouse postsubiculum head-direction cells, wake/NREM/REM.
