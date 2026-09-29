@@ -58,9 +58,11 @@ def equivalence(ratios, margin=EQUIVALENCE, level=LEVEL):
     """Two one-sided tests at (1 − level)/2 each: equivalent when the central `level` interval of the bootstrap ratios
     lies inside [1/margin, margin]. `spread` = max(1/low, high) is the farthest the interval reaches from 1."""
     ratios = np.asarray(ratios, float)
-    low, high = np.percentile(ratios[np.isfinite(ratios)], [50 * (1 - level), 50 * (1 + level)])
+    finite = ratios[np.isfinite(ratios)]
+    low, high = np.percentile(finite, [50 * (1 - level), 50 * (1 + level)])
     spread = float(max(1 / low, high)) if low > 0 else float("inf")
-    return {"interval": [float(low), float(high)], "spread": spread, "passed": spread <= margin}
+    return {"interval": [float(low), float(high)], "spread": spread, "passed": spread <= margin,
+            "draws": len(finite), "dropped": len(ratios) - len(finite)}
 
 
 def synthetic(sessions=31, observables=6, per=10, reps=300, draws=1000, correlation=0.7, noise=0.3, session_sd=0.05,

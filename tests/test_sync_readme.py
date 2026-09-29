@@ -17,9 +17,9 @@ def cited(cell):
     """Steps a status cell names with a verdict: '**채택** (C1-4, C1-6)' → 지지됨, 'C1-1·2·3 실패' → 실패."""
     named = {}
     adopted = re.match(r"\*\*채택\*\*[^(]*\(([^)]*)\)", cell)
-    for premise, number in re.findall(r"(C\d)-(\d+)", adopted.group(1) if adopted else ""):
+    for premise, number in re.findall(r"(C\d)-(\d+r?)", adopted.group(1) if adopted else ""):
         named[f"{premise}-{number}"] = "지지됨"
-    for premise, numbers, verdict in re.findall(r"(C\d)-(\d+(?:·\d+)*) ?(실패|미확립)", cell):
+    for premise, numbers, verdict in re.findall(r"(C\d)-(\d+r?(?:·\d+r?)*) ?(실패|미확립)", cell):
         named.update({f"{premise}-{n}": verdict for n in numbers.split("·")})
     return named
 
@@ -51,3 +51,13 @@ def test_adoption_needs_a_supported_step():
     assert status["C5"]["미확립"] == ["C5-2"] and status["C5"]["지지됨"] == ["C5-10"]
     text = sync_readme.render(f"머리\n{sync_readme.BEGIN}\n옛 표\n{sync_readme.END}\n꼬리", rows)
     assert "옛 표" not in text and "| C5 " in text and "최근 판정 2026-01-03" in text and text.endswith("꼬리")
+
+
+def test_a_rejudged_step_replaces_the_original_for_adoption():
+    rows = [{"step": "c3_1_x", "premise": "C3", "verdict": "지지됨", "date": "2026-01-01"},
+            {"step": "c3_1r_x", "premise": "C3", "verdict": "실패", "date": "2026-01-02"},
+            {"step": "c3_2_x", "premise": "C3", "verdict": "실패", "date": "2026-01-01"}]
+    status = sync_readme.status(sorted(rows, key=lambda r: sync_readme.order(r["step"])))
+    assert not status["C3"]["adopted"]
+    assert status["C3"]["지지됨"] == ["C3-1(→C3-1r)"] and status["C3"]["실패"] == ["C3-1r", "C3-2"]
+    assert sync_readme.status(rows[:1] + rows[2:])["C3"]["adopted"]
