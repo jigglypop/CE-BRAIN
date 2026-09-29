@@ -856,9 +856,51 @@ C1-11을 본 뒤 세운 새 단계다. 해독을 이득에 불변인 집단 벡�
 - 방법 검증: 알려진 회전 구간을 머리 각속도에서 되찾고, 한쪽으로 도는 봉우리의 교차 상관에서 D의 부호가 도는 방향을 따른다(합성).
 - 판정: 실패. 결과: `research/results/c5_3_detailed_balance.json`.
 
+### 4.38 오차 재보정: 세션 부트스트랩과 전체 공분산 (C3-1r, C1-4r, C1-6r, C1-8r) — 미실행 (원자료가 이 컴퓨터에 없음)
+
+지금까지의 χ²은 사건 부트스트랩의 대각 표준오차로 쟀다(χ² = Σ(r/se)²). 두 가정이 틀린다. 한 세션의 사건들은 서로 닮았는데 사건을
+독립으로 다시 뽑았고, 한 사건이 여러 지연 칸에 들어가 칸끼리 상관되는데 상관을 버렸다. `research/stats.py`는 세션을 복원 추출하고
+그 복제들의 전체 공분산으로 χ² = rᵀΣ⁻¹r를 쓴다. 세션 G개로 관측 k개의 공분산을 재면 역행렬이 치우치므로, G ≥ 2(k + 2)면 Hartlap
+보정 (G − k − 2)/G를 곱하고(Hartlap et al. 2007) 그보다 적으면 상관을 Ledoit–Wolf 수축한다(Ledoit & Wolf 2004). 이 규칙은 아래 합성 검증만 보고 실데이터 실행 전에 고정했다.
+
+합성 검증(`python -m research.stats`): 참 모형이 지수식이고 지연 칸이 AR(1) 0.7로 상관된 세션 자료 300벌. 참 모형 χ²/자유도의 평균
+(전체 공분산은 χ²/자유도 > 2인 비율도 적음. 이론값은 자유도 3–4에서 0.09–0.11, 8에서 0.04):
+
+| 세션 · 관측 (세션당 사건) | 대각, 사건 부트스트랩 (옛 단계) | 대각, 세션 | 전체 공분산, 세션 (> 2 비율) | 규칙 |
+|---|---|---|---|---|
+| 31 · 6 (15) — C3-1 규모 | 0.53 | 0.41 | **0.96** (0.09) | Hartlap |
+| 21 · 5 (15) — C1-4의 000056 | 0.54 | 0.46 | **0.95** (0.11) | Hartlap |
+| 27 · 5 (3) — C1-4의 000939 | 0.42 | 0.42 | **0.94** (0.10) | Hartlap |
+| 12 · 5 (5) — C1-4의 001699 | 0.43 | 0.50 | 0.67 (0.04) | Ledoit–Wolf |
+| 27 · 10 (3) — C1-6·8의 000939 | 0.51 | 0.52 | **1.05** (0.08) | Hartlap |
+| 21 · 10 (15) — C1-6·8의 000056 | 0.64 | 0.52 | 0.76 (0.02) | Ledoit–Wolf |
+| 12 · 10 (5) — C1-6·8의 001699 | 0.52 | 0.58 | 0.73 (0.02) | Ledoit–Wolf |
+
+- 대각 χ²는 참 모형을 0.4–0.6으로 낮춘다. "χ²/자유도 ≤ 2"가 뜻하던 여유(참 모형이 약 10% 떨어지는 문턱)가 대각 오차에서는 거의 0%가 되어,
+  옛 정확도 기준은 보이는 것보다 느슨했다. 전체 공분산은 세션이 충분하면 1 근처이고, 세션이 적어 수축할 때는 0.67–0.76으로 보수적이다.
+- 대각이 틀린 식에 더 너그럽지는 않았다. τ를 참값의 2배로 묶은 틀린 식이 ≤ 2를 통과한 비율은 대각(사건) 0.21–0.85, 전체 공분산 0.38–0.84로
+  비슷하거나 전체 쪽이 조금 높다. 매끈한 어긋남은 칸끼리 상관된 잡음과 닮아 전체 공분산이 덜 벌한다. 곧 바뀌는 것은 기준의 눈금이지 검정력이 아니다.
+
+재판정 단계는 식·자료·사건·순열 보정·판정 문턱을 원래 단계와 같게 두고 오차만 바꾼다. C1-4r은 공통 τ의 기준도 바꾼다: Δχ² ≤ 5.99는
+차이를 보지 못했다는 뜻일 뿐이라, 세 쌍 모두 세션 부트스트랩 τ 비의 90% 구간이 [1/1.5, 1.5] 안이어야 하는 동등성 검정(두 단측 검정, Schuirmann 1987)으로 한다.
+재판정이 나오면 공리 채택은 원래 단계 대신 재판정으로 센다(`tools/sync_readme.py`).
+
+| 원래 단계 | 원래 판정 (대각, 사건 부트스트랩) | 재판정 단계 | 재판정 | 바뀐 것 |
+|---|---|---|---|---|
+| C3-1 흔적 | 지지됨: 지수식 1.66, 흔적 없음 59.9 (4.2) | C3-1r | 미실행 | 오차 |
+| C1-4 공통 τ | 지지됨: 공동 0.51, Δχ² 2.48 ≤ 5.99, τ 743 s (497–1,331) (4.21) | C1-4r | 미실행 | 오차, 공통 τ = 동등성 검정 |
+| C1-6 공통 식 v2 | 지지됨: 판정 0.97, 흔적 없음 8.10 (4.25) | C1-6r | 미실행 | 오차 (적합과 판정 모두) |
+| C1-8 기록장 v3 | 지지됨: 판정 1.18, 흔적 없음 7.16 (4.28) | C1-8r | 미실행 | 오차 (적합과 판정 모두) |
+
+- 미실행 이유: 세 자료(dandi-000056 5.4 GB, dandi-000939-extract 0.9 GB, dandi-001699 0.5 GB)가 원장에는 있으나 이 컴퓨터의 `data/`에 없다.
+  기준을 담은 단계 파일은 커밋했고(실행 전 고정), 계산 경로는 합성 자료로 검사했다(`tests/test_rejudge.py`: 관측값이 원래 단계와 같고 오차만 바뀜).
+- 예상(판정 아님): C1-4의 자료별 τ 95% 구간(사건 부트스트랩)이 000056 532–1,702 s, 000939 58–634 s, 001699 109 s–발산으로 이미 1.5배보다 넓다.
+  세션 부트스트랩은 대개 더 넓으므로 C1-4r의 동등성 기준은 통과하기 어렵다.
+- C1은 재판정이 모두 실패해도 C1-5·7·9·10이 지지됨으로 남아 채택이 바뀌지 않는다. 이 단계들도 대각 오차를 썼다.
+
 ## 5. 다음
 
-§2.3의 판정을 차례로 한다(한 단계에 명제 하나, 돌리기 전에 검정력 계산). 먼저 C5(잠의 상세 균형)와 C4(짧은 시간 증분의 계량)는 원장 자료와 C4-4의 교차 상관
+먼저 원자료를 `data/`에 두고 재판정 C3-1r·C1-4r·C1-6r·C1-8r을 실행해 4.38의 표를 채운다(기준은 커밋됨). 그다음 §2.3의 판정을 차례로 한다(한 단계에 명제 하나, 돌리기 전에 검정력 계산). 먼저 C5(잠의 상세 균형)와 C4(짧은 시간 증분의 계량)는 원장 자료와 C4-4의 교차 상관
 도구로 바로 할 수 있다. C8은 두 우물 깊이를 따로 재야 하고, C7은 000044의 리플(LFP) 검출이 필요하다. 식 전체를 옮기는 검사(C1)에는 새 자료가 필요하다:
 공개 자료 조사(2026-09-28)에서 방향 세포·수면 채점·수면 중 머리 추적을 모두 갖춘 기록은 000056뿐이었고, 후보는 Senzai & Scanziani 2022의 ADN 수면 기록이다.
 
@@ -875,13 +917,18 @@ uv sync --python 3.11
 .venv/Scripts/python -m research.fetch dandi-000044
 .venv/Scripts/python -m research.fetch dandi-001699
 for step in c1_1_common_equation c1_2_common_equation_onset c1_3_parameter_transfer c1_4_common_trace_time c1_5_common_equation_v2 c1_6_common_equation_precise c1_7_single_clock c1_8_joint_v3 c1_9_decoding_noise c1_10_split_half c1_11_count_noise c1_12_clean_decoder c2_1_fixed_points c3_1_sleep_trace c3_2_trace_replication c3_3_restoring c3_4_past_conflict c3_5_trace_center c3_6_wake_overwrite c3_7_rem_clock c3_8_record_relocation c3_9_record_field c3_10_fixed_attractors             c4_1_metric_hd c4_2_anisotropic_metric c4_3_soft_modes c4_4_ring_diffusion c4_5_ring_diffusion_long c5_1_pen_shift c5_2_nrem_sweep c5_3_detailed_balance             c6_1_reactivation c7_1_address c8_1_selection c8_2_window_selection; do .venv/Scripts/python -m research.$step; done
-.venv/Scripts/python -m pytest tests/test_harness.py tests/test_core.py tests/test_malecns.py tests/test_fast.py tests/test_store.py tests/test_c3_trace.py tests/test_c3_replication.py tests/test_c3_restoring.py tests/test_c4_metric.py tests/test_c4_anisotropic.py tests/test_c4_soft_modes.py tests/test_c4_diffusion.py tests/test_c6_reactivation.py tests/test_c7_address.py tests/test_c8_selection.py tests/test_c8_window.py tests/test_c1_common.py tests/test_c1_trace_time.py tests/test_c1_equation_v2.py tests/test_c1_equation_precise.py tests/test_ring.py tests/test_c1_single_clock.py tests/test_c1_joint_v3.py tests/test_c1_decoding_noise.py tests/test_c1_split_half.py tests/test_c1_count_noise.py tests/test_c1_clean_decoder.py tests/test_c3_trace_center.py tests/test_c3_wake_overwrite.py tests/test_c3_rem_clock.py tests/test_c3_record_relocation.py tests/test_c3_record_field.py tests/test_c3_fixed_attractors.py tests/test_c5_nrem_sweep.py tests/test_c5_detailed_balance.py
+.venv/Scripts/python -m research.stats  # 합성 검증 (4.38)
+for step in c3_1r_sleep_trace c1_4r_common_trace_time c1_6r_common_equation_precise c1_8r_joint_v3; do .venv/Scripts/python -m research.$step; done
+.venv/Scripts/python -m pytest
 ```
 
 ## 참고문헌
 
 - Ao P (2004). Potential in stochastic differential equations: novel construction. *J Phys A* 37:L25–L30.
 - Destexhe A, Rudolph M, Paré D (2003). The high-conductance state of neocortical neurons in vivo. *Nat Rev Neurosci* 4:739–751.
+- Hartlap J, Simon P, Schneider P (2007). Why your model parameter confidences might be too optimistic. Unbiased estimation of the inverse covariance matrix. *A&A* 464:399–404.
+- Ledoit O, Wolf M (2004). A well-conditioned estimator for large-dimensional covariance matrices. *J Multivar Anal* 88:365–411.
+- Schuirmann DJ (1987). A comparison of the two one-sided tests procedure and the power approach for assessing the equivalence of average bioavailability. *J Pharmacokinet Biopharm* 15:657–680.
 - Graham R (1977). Covariant formulation of non-equilibrium statistical thermodynamics. *Z Phys B* 26:397–405.
 - Leimkuhler B, Matthews C (2013). Rational construction of stochastic numerical methods for molecular sampling. *Appl Math Res Express* 2013:34–56.
 - Onsager L, Machlup S (1953). Fluctuations and irreversible processes. *Phys Rev* 91:1505–1512.

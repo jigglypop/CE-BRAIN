@@ -39,6 +39,7 @@ $G$는 변화 비용(계량), $E$는 기억이 머무는 지형, $F$는 신호 �
 | `research/malecns.py` | MaleCNS 적재(파일·해시는 원장에서): 고정 뉴런, 방향 있는 시냅스, 영역별 시냅스, 전달물질 부호 |
 | `research/store.py` | 세션 형식(스파이크·단위 열·구간·시계열)으로 원장 파일 읽기, NWB 원격 범위 읽기 추출 |
 | `research/fetch.py` | 공개 자료를 세션 형식으로 가져와 원장에 등록: `python -m research.fetch <이름>` |
+| `research/stats.py` | 세션 부트스트랩, 부트스트랩 공분산의 χ²(Hartlap 보정·Ledoit–Wolf 수축), τ 비의 동등성 검정, 합성 검증 |
 | `research/fast/` | Rust 핵심 `cefast`(칸 세기, 창 세기, 교차 상관), `uv sync`가 빌드 |
 | `ledger/data_registry.jsonl` | 자료 원장: 출처·판본·파일·sha256 |
 | `research/c<전제>_<번호>_*.py` | 단계별 검사. 판정 기준은 파일 머리에 실행 전 고정 |
