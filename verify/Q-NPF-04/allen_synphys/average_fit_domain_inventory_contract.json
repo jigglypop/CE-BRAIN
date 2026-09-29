@@ -1,0 +1,16 @@
+{
+  "question": "공개 PSP 모델의 유효 범위 위반이 제작자 QC 통과 평균에도 있는가?",
+  "objective": "연결 강도 해석에 사용하는 적합 매개변수의 적격성을 검사한다. 뇌 구조나 연결의 부재 판정이 아니다.",
+  "population": "SynPhys r2.1 small DB avg_response_fit 전체 행. 종·모드·QC·단일/다중시냅스·유지전압을 분리하고 누락도 분모에 유지한다.",
+  "criterion": "양수 유한 rise_time,decay_tau,power에서 rise_time/(power*decay_tau)>=1이면 공개 모델 유효 범위 밖. NULL power는 공개 코드의 고정값2 조건부. source clipping은 ratio>0.99999로 별도 표시.",
+  "interpretation": "행 단위 전수 기술이며 독립 동물 표본이 아니다. null QC는 실패와 분리한다. 적합 수정·제외·유의성 검정·생물학적 인과 주장 없음. L0 측정모형 감사.",
+  "gate": "전수 행수와 ID 보존·범주 분모 합·독립 SQL 교차검사. 위반이면 QC만으로 모델 영역 적합성을 보증할 수 없다고 판정한다.",
+  "sql": "select a.id,a.synapse_id,a.poly_synapse_id,a.clamp_mode,a.holding,\n a.manual_qc_pass,a.n_averaged_responses,a.fit_rise_time,a.fit_decay_tau,a.fit_rise_power,\n a.fit_amp,a.nrmse,coalesce(s.pair_id,y.pair_id) pair_id,\n coalesce(s.synapse_type,y.synapse_type) synapse_type,p.experiment_id,\n e.slice_id,e.target_region,l.species\n from avg_response_fit a\n left join synapse s on s.id=a.synapse_id\n left join poly_synapse y on y.id=a.poly_synapse_id\n left join pair p on p.id=coalesce(s.pair_id,y.pair_id)\n left join experiment e on e.id=p.experiment_id\n left join slice l on l.id=e.slice_id order by a.id",
+  "code_sha256": "810d122babf30390eac35e597e8212a90dbe9b4c15c46b0c06187002b56f8540",
+  "db_sha256": "7372499fdd874f057565080d5769baaf2659ef39d9f3bc3c7147dd1e1c280a53",
+  "sources": {
+    "source_snapshots/allen971__neuroanalysis__fitting__psp.py": "a9d72f690d635b6f901d15e08e647dd6afc709ac20fe59c81ae95317b79030fe",
+    "source_snapshots/aisynphys__pipeline__multipatch__synapse.py": "7b00d89b0e34894af68ca6421553440aa9e94489deebe02cb7d0b6caa8a98f13",
+    "vc_amplitude_estimands_v2_result.json": "9a9dcb541a45e2b4db19ca8db4f27a140a8214330f0d46cee3781813bd651e90"
+  }
+}

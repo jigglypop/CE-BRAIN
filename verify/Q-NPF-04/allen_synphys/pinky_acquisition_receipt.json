@@ -1,0 +1,21 @@
+{
+  "record": "https://zenodo.org/records/3710459",
+  "selection": "only two official small tables; no full3.2million synapse table or meshes",
+  "files": [
+    {
+      "path": "data/external/microns_pinky_v185/soma_subgraph_synapses_spines_v185.csv",
+      "source": "https://zenodo.org/records/3710459/files/soma_subgraph_synapses_spines_v185.csv?download=1",
+      "bytes": 274298,
+      "server_md5": "5bbb8ff59dcad4ccea6d46930920cd04",
+      "sha256": "ac22845bf2078fad27f895b0d4ab1f8b1bf980a2f00056be3f1eec6183770ae4"
+    },
+    {
+      "path": "data/external/microns_pinky_v185/soma_valence_v185.csv",
+      "source": "https://zenodo.org/records/3710459/files/soma_valence_v185.csv?download=1",
+      "bytes": 30881,
+      "server_md5": "a8ce8aa4e5cdf4202caa5ae10411c333",
+      "sha256": "e0845382e88a51d22b296f0d8cdcc7f74561868f98fb4fdf8056b0627ee8e95f"
+    }
+  ],
+  "script_sha256": "002df0345db58a4efe08e2aaa9ba7a136e87a9598ac72320d74db272503b985f"
+}

@@ -1,0 +1,3250 @@
+[
+  {
+    "kind": "Clip",
+    "row": 0,
+    "start": 18.85249095557191,
+    "stop": 28.81900411246278,
+    "condition_hash": "JEL5/i5FccX4ykUOKaDW"
+  },
+  {
+    "kind": "Clip",
+    "row": 1,
+    "start": 28.91899018881776,
+    "stop": 38.88550191519715,
+    "condition_hash": "AAQ1HNKGrg1cIXlMw7nz"
+  },
+  {
+    "kind": "Clip",
+    "row": 2,
+    "start": 38.98549681303956,
+    "stop": 48.95199709532716,
+    "condition_hash": "ksTS42zV+O0YJqa0+s4Y"
+  },
+  {
+    "kind": "Clip",
+    "row": 3,
+    "start": 49.051991754750986,
+    "stop": 59.01849632857301,
+    "condition_hash": "m5JLObtSRnbRKw1ukcSE"
+  },
+  {
+    "kind": "Clip",
+    "row": 4,
+    "start": 59.11848669646241,
+    "stop": 69.08498888609864,
+    "condition_hash": "L8Z/mji+v1WipuJe4GaL"
+  },
+  {
+    "kind": "Clip",
+    "row": 5,
+    "start": 69.18498879073121,
+    "stop": 79.15147715208985,
+    "condition_hash": "3+VHi96yg36hu1kI8ZBn"
+  },
+  {
+    "kind": "Clip",
+    "row": 6,
+    "start": 139.5338078081415,
+    "stop": 149.50031428931214,
+    "condition_hash": "JOYs8Wny1GJlw6AxCVo5"
+  },
+  {
+    "kind": "Clip",
+    "row": 7,
+    "start": 149.6003177702234,
+    "stop": 159.56681614516236,
+    "condition_hash": "mG4xsIyTTnaRWKW82yeD"
+  },
+  {
+    "kind": "Clip",
+    "row": 8,
+    "start": 159.6668186723993,
+    "stop": 169.63332205412843,
+    "condition_hash": "hnYVTt6SOC5gw43jdDOb"
+  },
+  {
+    "kind": "Clip",
+    "row": 9,
+    "start": 169.73331099150636,
+    "stop": 179.6998153269098,
+    "condition_hash": "HvUTYlGssHeK5Ub4iNLY"
+  },
+  {
+    "kind": "Clip",
+    "row": 10,
+    "start": 179.78314428923585,
+    "stop": 189.74965696928956,
+    "condition_hash": "pBsrFShgY2qLi+7xYSGi"
+  },
+  {
+    "kind": "Clip",
+    "row": 11,
+    "start": 189.84965687392213,
+    "stop": 199.81614928839662,
+    "condition_hash": "IPvYT7eXLYJ557HrVPnG"
+  },
+  {
+    "kind": "Clip",
+    "row": 12,
+    "start": 260.16516285536744,
+    "stop": 270.13166313765504,
+    "condition_hash": "JNYUnhFvI0mZbwN58E20"
+  },
+  {
+    "kind": "Clip",
+    "row": 13,
+    "start": 270.2316668569849,
+    "stop": 280.1981750070856,
+    "condition_hash": "7keiPs7vk9CHNrtDuOxL"
+  },
+  {
+    "kind": "Clip",
+    "row": 14,
+    "start": 280.2981687128351,
+    "stop": 290.26466732619264,
+    "condition_hash": "t24nBc6mpih4DR5C/qVP"
+  },
+  {
+    "kind": "Clip",
+    "row": 15,
+    "start": 290.3646708071039,
+    "stop": 300.33117609618165,
+    "condition_hash": "JzIVwvytTHCEhcYc0EkS"
+  },
+  {
+    "kind": "Clip",
+    "row": 16,
+    "start": 300.4311776697443,
+    "stop": 310.39767699835755,
+    "condition_hash": "shDuGRZylVmZLCBFIVeP"
+  },
+  {
+    "kind": "Clip",
+    "row": 17,
+    "start": 310.4976728498743,
+    "stop": 320.46418123839356,
+    "condition_hash": "ysjy6YgGXX5+mcx52KSM"
+  },
+  {
+    "kind": "Clip",
+    "row": 18,
+    "start": 320.564177805166,
+    "stop": 330.530676180105,
+    "condition_hash": "MaN8zZQItdhsFNBq5/yl"
+  },
+  {
+    "kind": "Clip",
+    "row": 19,
+    "start": 330.6306827604578,
+    "stop": 340.59718089697816,
+    "condition_hash": "18PTv0aCUhaUeL2r9kDd"
+  },
+  {
+    "kind": "Clip",
+    "row": 20,
+    "start": 340.6971836626337,
+    "stop": 350.66368632910707,
+    "condition_hash": "cK20wOm48y1gpxBcZuzN"
+  },
+  {
+    "kind": "Clip",
+    "row": 21,
+    "start": 350.76368265746095,
+    "stop": 360.73018389342286,
+    "condition_hash": "s8DvZS/fghphUcTsLOzM"
+  },
+  {
+    "kind": "Clip",
+    "row": 22,
+    "start": 360.8301806986139,
+    "stop": 370.79667716620423,
+    "condition_hash": "8IyLxfa6UikBgn/lOdpD"
+  },
+  {
+    "kind": "Clip",
+    "row": 23,
+    "start": 370.896683746557,
+    "stop": 380.86318021414735,
+    "condition_hash": "AXD+rrWG8VbV+xLvzwfb"
+  },
+  {
+    "kind": "Clip",
+    "row": 24,
+    "start": 380.9631858408258,
+    "stop": 390.9296861231134,
+    "condition_hash": "KXdTNAGMo1gCWz2Ge8zr"
+  },
+  {
+    "kind": "Clip",
+    "row": 25,
+    "start": 391.02969079611756,
+    "stop": 400.9961941778467,
+    "condition_hash": "5zQTb77qI+ig8rigx1XU"
+  },
+  {
+    "kind": "Clip",
+    "row": 26,
+    "start": 401.0961809694574,
+    "stop": 411.0626972257898,
+    "condition_hash": "GjCMo2GkJp6y5vricadg"
+  },
+  {
+    "kind": "Clip",
+    "row": 27,
+    "start": 411.16269283888795,
+    "stop": 421.129190021734,
+    "condition_hash": "ecUQJtcERZJGdqza1k7h"
+  },
+  {
+    "kind": "Clip",
+    "row": 28,
+    "start": 421.2291918337152,
+    "stop": 431.1956921160028,
+    "condition_hash": "7UETOWO5Z8aWuHDBJ2GG"
+  },
+  {
+    "kind": "Clip",
+    "row": 29,
+    "start": 431.2956977426813,
+    "stop": 441.26219611762025,
+    "condition_hash": "Oup5uAZxF2G7zEJkT+ui"
+  },
+  {
+    "kind": "Clip",
+    "row": 30,
+    "start": 441.3621948301599,
+    "stop": 451.3286951124475,
+    "condition_hash": "OGDpg6WW49pnyTOTgYAR"
+  },
+  {
+    "kind": "Clip",
+    "row": 31,
+    "start": 451.4286928713129,
+    "stop": 461.39519792197206,
+    "condition_hash": "f20vYP5GosM7fnjAc8om"
+  },
+  {
+    "kind": "Clip",
+    "row": 32,
+    "start": 461.49520187972047,
+    "stop": 471.4617019235895,
+    "condition_hash": "YO1lUcfNiJnGpmGPY5bt"
+  },
+  {
+    "kind": "Clip",
+    "row": 33,
+    "start": 471.56170087454774,
+    "stop": 481.52819519637086,
+    "condition_hash": "hVJazBja+yuwOnjgxx0E"
+  },
+  {
+    "kind": "Clip",
+    "row": 34,
+    "start": 481.6282008230493,
+    "stop": 491.59470325110414,
+    "condition_hash": "UHxmnOk6mc1GE0i/dCTR"
+  },
+  {
+    "kind": "Clip",
+    "row": 35,
+    "start": 491.6946988642023,
+    "stop": 501.6612012922571,
+    "condition_hash": "6TyqkB4YNgddSyet4TtV"
+  },
+  {
+    "kind": "Clip",
+    "row": 36,
+    "start": 501.7611997663782,
+    "stop": 511.7277041017816,
+    "condition_hash": "6JCcCAZLXBBgykuQApYr"
+  },
+  {
+    "kind": "Clip",
+    "row": 37,
+    "start": 511.8277037679956,
+    "stop": 521.7942050039576,
+    "condition_hash": "edPVjQwH9wZuyUmabE5X"
+  },
+  {
+    "kind": "Clip",
+    "row": 38,
+    "start": 521.8941939413355,
+    "stop": 531.8606992304133,
+    "condition_hash": "IGHViDqXGZ6uvLQyymES"
+  },
+  {
+    "kind": "Clip",
+    "row": 39,
+    "start": 531.9440367758082,
+    "stop": 541.9105399191187,
+    "condition_hash": "6AlJNxL7si+lxcNb3dSD"
+  },
+  {
+    "kind": "Clip",
+    "row": 40,
+    "start": 542.0105398237513,
+    "stop": 551.9770410597132,
+    "condition_hash": "0mMT9EtO9UIfdwfmieo8"
+  },
+  {
+    "kind": "Clip",
+    "row": 41,
+    "start": 552.0770438253687,
+    "stop": 562.0435362398432,
+    "condition_hash": "GF6lVUsA6Y73ElY4T2xn"
+  },
+  {
+    "kind": "Clip",
+    "row": 42,
+    "start": 562.1435437738703,
+    "stop": 572.1100371420191,
+    "condition_hash": "QmynNYnz4Q0hMBpTZ/xv"
+  },
+  {
+    "kind": "Clip",
+    "row": 43,
+    "start": 572.2100427686976,
+    "stop": 582.1765411436365,
+    "condition_hash": "gpu0WyfdPMgXV/xhy6ZP"
+  },
+  {
+    "kind": "Clip",
+    "row": 44,
+    "start": 582.2765436708735,
+    "stop": 592.2430382311152,
+    "condition_hash": "0ir9/br3yxbe2BBf65zF"
+  },
+  {
+    "kind": "Clip",
+    "row": 45,
+    "start": 592.3430488645838,
+    "stop": 602.3095501005457,
+    "condition_hash": "NM2SnnQwIoj8iKOMP6xA"
+  },
+  {
+    "kind": "Clip",
+    "row": 46,
+    "start": 602.4095447599695,
+    "stop": 612.3760459959315,
+    "condition_hash": "F5KOXJGuqZljKK9USGu/"
+  },
+  {
+    "kind": "Clip",
+    "row": 47,
+    "start": 612.4760478079127,
+    "stop": 622.4425421297358,
+    "condition_hash": "uWDM4AAJ+PIdXzpPxOha"
+  },
+  {
+    "kind": "Clip",
+    "row": 48,
+    "start": 622.5425458490656,
+    "stop": 632.5090461313532,
+    "condition_hash": "KjDfO15MEsKyQ1ecL7gs"
+  },
+  {
+    "kind": "Clip",
+    "row": 49,
+    "start": 632.5923808157252,
+    "stop": 642.5588841974543,
+    "condition_hash": "W72D46ICk0GV1uh0E98o"
+  },
+  {
+    "kind": "Clip",
+    "row": 50,
+    "start": 642.6588848173426,
+    "stop": 652.6253791391657,
+    "condition_hash": "rKhBb2Q+dILxw3t33TsJ"
+  },
+  {
+    "kind": "Clip",
+    "row": 51,
+    "start": 652.725379759054,
+    "stop": 662.6918840944575,
+    "condition_hash": "YfqXNa8nksH/H4Q7tw5G"
+  },
+  {
+    "kind": "Clip",
+    "row": 52,
+    "start": 662.791886860113,
+    "stop": 672.7583890497492,
+    "condition_hash": "OFk94miLCLRW7fhR6BQE"
+  },
+  {
+    "kind": "Clip",
+    "row": 53,
+    "start": 672.8583798944758,
+    "stop": 682.8248899519251,
+    "condition_hash": "VIxFQLvrzWwvLKX9CM5N"
+  },
+  {
+    "kind": "Clip",
+    "row": 54,
+    "start": 743.1738927900599,
+    "stop": 753.1403980791376,
+    "condition_hash": "Q7sCUc2TwBmBBIXRlvDQ"
+  },
+  {
+    "kind": "Clip",
+    "row": 55,
+    "start": 753.2403886854456,
+    "stop": 763.2068970739649,
+    "condition_hash": "v0XPLhf4A0opXpZdzgZM"
+  },
+  {
+    "kind": "Clip",
+    "row": 56,
+    "start": 763.3235607683466,
+    "stop": 773.2900651037501,
+    "condition_hash": "nOa2c6TTfQhiGESZrsir"
+  },
+  {
+    "kind": "Clip",
+    "row": 57,
+    "start": 773.3900616705225,
+    "stop": 783.3565621912287,
+    "condition_hash": "J1+uNLvpao39DvjFo5mg"
+  },
+  {
+    "kind": "Clip",
+    "row": 58,
+    "start": 783.4565687715815,
+    "stop": 793.4230721533106,
+    "condition_hash": "bcGOegaz8EFa/b4ESYN5"
+  },
+  {
+    "kind": "Clip",
+    "row": 59,
+    "start": 793.5230598985956,
+    "stop": 803.489567095022,
+    "condition_hash": "IMl7CnYcZgC9KX3lGPWL"
+  },
+  {
+    "kind": "Clip",
+    "row": 60,
+    "start": 803.589575821142,
+    "stop": 813.556065136175,
+    "condition_hash": "KXdTNAGMo1gCWz2Ge8zr"
+  },
+  {
+    "kind": "Clip",
+    "row": 61,
+    "start": 813.6560757696436,
+    "stop": 823.6225691377924,
+    "condition_hash": "5zQTb77qI+ig8rigx1XU"
+  },
+  {
+    "kind": "Clip",
+    "row": 62,
+    "start": 823.7392418920801,
+    "stop": 833.7057469427393,
+    "condition_hash": "GjCMo2GkJp6y5vricadg"
+  },
+  {
+    "kind": "Clip",
+    "row": 63,
+    "start": 833.8057408869074,
+    "stop": 843.7722342550562,
+    "condition_hash": "ecUQJtcERZJGdqza1k7h"
+  },
+  {
+    "kind": "Clip",
+    "row": 64,
+    "start": 843.8889117777155,
+    "stop": 853.8554072916315,
+    "condition_hash": "7UETOWO5Z8aWuHDBJ2GG"
+  },
+  {
+    "kind": "Clip",
+    "row": 65,
+    "start": 853.9554126798914,
+    "stop": 863.9219091474818,
+    "condition_hash": "Oup5uAZxF2G7zEJkT+ui"
+  },
+  {
+    "kind": "Clip",
+    "row": 66,
+    "start": 924.2709167539881,
+    "stop": 934.2374296724604,
+    "condition_hash": "YWGU9pCJb1jD1EEZ20tf"
+  },
+  {
+    "kind": "Clip",
+    "row": 67,
+    "start": 934.320749813299,
+    "stop": 944.287261778097,
+    "condition_hash": "FQR1XltfRJLPikdVpYNn"
+  },
+  {
+    "kind": "Clip",
+    "row": 68,
+    "start": 944.3872497618006,
+    "stop": 954.3537626802729,
+    "condition_hash": "O/TPbFEXzCLov05/KwS+"
+  },
+  {
+    "kind": "Clip",
+    "row": 69,
+    "start": 954.4537637769984,
+    "stop": 964.4202631056116,
+    "condition_hash": "GLb98O6GN6r7256/fA8Y"
+  },
+  {
+    "kind": "Clip",
+    "row": 70,
+    "start": 964.520260864477,
+    "stop": 974.4867561399744,
+    "condition_hash": "SuNRz+E/BsGGxVlNWLt9"
+  },
+  {
+    "kind": "Clip",
+    "row": 71,
+    "start": 974.5867617666529,
+    "stop": 984.553268009405,
+    "condition_hash": "mbeT2YEuzrol94GMBsSP"
+  },
+  {
+    "kind": "Clip",
+    "row": 72,
+    "start": 1044.9022687017725,
+    "stop": 1054.8687830507563,
+    "condition_hash": "fgiAByOtIBHNFZ19SGwo"
+  },
+  {
+    "kind": "Clip",
+    "row": 73,
+    "start": 1054.968769842367,
+    "stop": 1064.9352782308863,
+    "condition_hash": "BWEnAy2vzlftiMu7mZWD"
+  },
+  {
+    "kind": "Clip",
+    "row": 74,
+    "start": 1065.0519528925226,
+    "stop": 1075.01844316123,
+    "condition_hash": "HzD2xjPjrCEOyKM01aO6"
+  },
+  {
+    "kind": "Clip",
+    "row": 75,
+    "start": 1075.1184423506068,
+    "stop": 1085.0849493086146,
+    "condition_hash": "TuS3Z41thoa6Fyd+VRt2"
+  },
+  {
+    "kind": "Clip",
+    "row": 76,
+    "start": 1085.1849496900843,
+    "stop": 1095.1514583170222,
+    "condition_hash": "pfKNEU3/U/9UxjbVwJep"
+  },
+  {
+    "kind": "Clip",
+    "row": 77,
+    "start": 1095.2514472544,
+    "stop": 1105.2179532587336,
+    "condition_hash": "cXBCgSTyCYROZ/8zVFdy"
+  },
+  {
+    "kind": "Clip",
+    "row": 78,
+    "start": 1225.832665735464,
+    "stop": 1235.7991760313319,
+    "condition_hash": "RL8zpBtdUqrcItpujIVj"
+  },
+  {
+    "kind": "Clip",
+    "row": 79,
+    "start": 1235.8991737901972,
+    "stop": 1245.8656843244837,
+    "condition_hash": "L313XjQzD6eqzIitZmbl"
+  },
+  {
+    "kind": "Clip",
+    "row": 80,
+    "start": 1245.9656808912562,
+    "stop": 1255.932182127218,
+    "condition_hash": "G8GCQlSYxw5oG/LVKDs2"
+  },
+  {
+    "kind": "Clip",
+    "row": 81,
+    "start": 1256.0321798860834,
+    "stop": 1265.998690897207,
+    "condition_hash": "YxZMp94AewnnwYmjI/0v"
+  },
+  {
+    "kind": "Clip",
+    "row": 82,
+    "start": 1266.0820236742304,
+    "stop": 1276.0485282480524,
+    "condition_hash": "wE8wskQ2OpXgYdnpm+o0"
+  },
+  {
+    "kind": "Clip",
+    "row": 83,
+    "start": 1276.1485348284052,
+    "stop": 1286.1150460779475,
+    "condition_hash": "Hx7nWm9l4FGDuTlUO/17"
+  },
+  {
+    "kind": "Clip",
+    "row": 84,
+    "start": 1286.1983738481806,
+    "stop": 1296.1648822367,
+    "condition_hash": "KXdTNAGMo1gCWz2Ge8zr"
+  },
+  {
+    "kind": "Clip",
+    "row": 85,
+    "start": 1296.2648797571467,
+    "stop": 1306.2313769399927,
+    "condition_hash": "5zQTb77qI+ig8rigx1XU"
+  },
+  {
+    "kind": "Clip",
+    "row": 86,
+    "start": 1306.3313847124384,
+    "stop": 1316.2978931009577,
+    "condition_hash": "GjCMo2GkJp6y5vricadg"
+  },
+  {
+    "kind": "Clip",
+    "row": 87,
+    "start": 1316.3978779852198,
+    "stop": 1326.3643873274134,
+    "condition_hash": "ecUQJtcERZJGdqza1k7h"
+  },
+  {
+    "kind": "Clip",
+    "row": 88,
+    "start": 1326.4643958151148,
+    "stop": 1336.4308882295893,
+    "condition_hash": "7UETOWO5Z8aWuHDBJ2GG"
+  },
+  {
+    "kind": "Clip",
+    "row": 89,
+    "start": 1336.5308926641749,
+    "stop": 1346.4973929464625,
+    "condition_hash": "Oup5uAZxF2G7zEJkT+ui"
+  },
+  {
+    "kind": "Clip",
+    "row": 90,
+    "start": 1346.5974038183497,
+    "stop": 1356.5638981401728,
+    "condition_hash": "KTTbidmos9UqkVidqpfn"
+  },
+  {
+    "kind": "Clip",
+    "row": 91,
+    "start": 1356.6639006674097,
+    "stop": 1366.6304150163935,
+    "condition_hash": "KohBmgMQnzxzM2XkuNmk"
+  },
+  {
+    "kind": "Clip",
+    "row": 92,
+    "start": 1366.7304077684687,
+    "stop": 1376.6969061434077,
+    "condition_hash": "IlFIB7tD8DgA5UoylNu9"
+  },
+  {
+    "kind": "Clip",
+    "row": 93,
+    "start": 1376.7969148695277,
+    "stop": 1386.763410145025,
+    "condition_hash": "Mz6sH4GUkXYNx20Pj3qF"
+  },
+  {
+    "kind": "Clip",
+    "row": 94,
+    "start": 1386.8634198248194,
+    "stop": 1396.8299112856196,
+    "condition_hash": "aFwTRc2iZ4XqoWRcpyWI"
+  },
+  {
+    "kind": "Clip",
+    "row": 95,
+    "start": 1396.9299178659724,
+    "stop": 1406.8964269697474,
+    "condition_hash": "BjS06bRiMiS/10DA8eSf"
+  },
+  {
+    "kind": "Clip",
+    "row": 96,
+    "start": 1406.9964237749384,
+    "stop": 1416.962924057226,
+    "condition_hash": "aXomPxZNX8sCZo8Hyi2X"
+  },
+  {
+    "kind": "Clip",
+    "row": 97,
+    "start": 1417.0629287302302,
+    "stop": 1427.029431158285,
+    "condition_hash": "J60O5PIYhF3CuoC5XaKI"
+  },
+  {
+    "kind": "Clip",
+    "row": 98,
+    "start": 1427.129420095663,
+    "stop": 1437.0959389745997,
+    "condition_hash": "hmblRNsK39YUBRSelCqD"
+  },
+  {
+    "kind": "Clip",
+    "row": 99,
+    "start": 1437.195936733465,
+    "stop": 1447.1624398767756,
+    "condition_hash": "bVLl/ycCJuD/M0MyBsud"
+  },
+  {
+    "kind": "Clip",
+    "row": 100,
+    "start": 1447.2791066705988,
+    "stop": 1457.2456040918635,
+    "condition_hash": "atyjA3yQp+/tBydotjPX"
+  },
+  {
+    "kind": "Clip",
+    "row": 101,
+    "start": 1457.3456078111933,
+    "stop": 1467.3121100008295,
+    "condition_hash": "ypW4fTmjYiXqhojT8ftw"
+  },
+  {
+    "kind": "Clip",
+    "row": 102,
+    "start": 1467.4121108591364,
+    "stop": 1477.3786171018885,
+    "condition_hash": "4tIOoaR5VNXdEFB3JLsd"
+  },
+  {
+    "kind": "Clip",
+    "row": 103,
+    "start": 1477.4786038934992,
+    "stop": 1487.4451160967158,
+    "condition_hash": "wrhbg7/9C5fsnGqt95w/"
+  },
+  {
+    "kind": "Clip",
+    "row": 104,
+    "start": 1487.5451188623713,
+    "stop": 1497.51161223052,
+    "condition_hash": "gnKtNfR9QYEW0PRkfRU4"
+  },
+  {
+    "kind": "Clip",
+    "row": 105,
+    "start": 1497.6116166651057,
+    "stop": 1507.5781171858118,
+    "condition_hash": "LfckM0X1gCCgUlsmXIea"
+  },
+  {
+    "kind": "Clip",
+    "row": 106,
+    "start": 1507.678120666723,
+    "stop": 1517.6446171343134,
+    "condition_hash": "Ta17hPcaONVDy5sPjE9z"
+  },
+  {
+    "kind": "Clip",
+    "row": 107,
+    "start": 1517.7446237146662,
+    "stop": 1527.7111280500696,
+    "condition_hash": "mpoHL5UE5tDtz7b51b3H"
+  },
+  {
+    "kind": "Clip",
+    "row": 108,
+    "start": 1648.2925007879542,
+    "stop": 1658.2590146601008,
+    "condition_hash": "klXJG+8d2qlOC9L42HKS"
+  },
+  {
+    "kind": "Clip",
+    "row": 109,
+    "start": 1658.359005743246,
+    "stop": 1668.325510793905,
+    "condition_hash": "VUUkA6NFaCo5oIkaQxSe"
+  },
+  {
+    "kind": "Clip",
+    "row": 110,
+    "start": 1668.425508791189,
+    "stop": 1678.392024093847,
+    "condition_hash": "8ccsOFQCCUMn+rugzfHb"
+  },
+  {
+    "kind": "Clip",
+    "row": 111,
+    "start": 1678.4920256674097,
+    "stop": 1688.458526188116,
+    "condition_hash": "fbc//2/ZsREZQWzfeWyI"
+  },
+  {
+    "kind": "Clip",
+    "row": 112,
+    "start": 1688.55853086112,
+    "stop": 1698.525029236059,
+    "condition_hash": "Cm49kA4KAHWVeDLH0OFF"
+  },
+  {
+    "kind": "Clip",
+    "row": 113,
+    "start": 1698.6250231802271,
+    "stop": 1708.591539198141,
+    "condition_hash": "57XsbCms7hFWk+oLfQwC"
+  },
+  {
+    "kind": "Clip",
+    "row": 114,
+    "start": 1708.6915367185877,
+    "stop": 1718.658042246084,
+    "condition_hash": "KXdTNAGMo1gCWz2Ge8zr"
+  },
+  {
+    "kind": "Clip",
+    "row": 115,
+    "start": 1718.7580366670893,
+    "stop": 1728.7245421945856,
+    "condition_hash": "5zQTb77qI+ig8rigx1XU"
+  },
+  {
+    "kind": "Clip",
+    "row": 116,
+    "start": 1728.8245447218226,
+    "stop": 1738.7910450041102,
+    "condition_hash": "GjCMo2GkJp6y5vricadg"
+  },
+  {
+    "kind": "Clip",
+    "row": 117,
+    "start": 1738.8910508692072,
+    "stop": 1748.8575420915888,
+    "condition_hash": "ecUQJtcERZJGdqza1k7h"
+  },
+  {
+    "kind": "Clip",
+    "row": 118,
+    "start": 1748.9575508177088,
+    "stop": 1758.924050146322,
+    "condition_hash": "7UETOWO5Z8aWuHDBJ2GG"
+  },
+  {
+    "kind": "Clip",
+    "row": 119,
+    "start": 1759.024052673559,
+    "stop": 1768.990557247381,
+    "condition_hash": "Oup5uAZxF2G7zEJkT+ui"
+  },
+  {
+    "kind": "Clip",
+    "row": 120,
+    "start": 1769.0905538141535,
+    "stop": 1779.0570619642542,
+    "condition_hash": "Mg5bLgoNvze3EPLB9rbZ"
+  },
+  {
+    "kind": "Clip",
+    "row": 121,
+    "start": 1779.157062822561,
+    "stop": 1789.1235590517329,
+    "condition_hash": "yfFAPn1QpVQmEC2iXg07"
+  },
+  {
+    "kind": "Clip",
+    "row": 122,
+    "start": 1789.2235618173884,
+    "stop": 1799.1900580465601,
+    "condition_hash": "fSfoxctVyPEoVzFOpsAw"
+  },
+  {
+    "kind": "Clip",
+    "row": 123,
+    "start": 1799.2900667726801,
+    "stop": 1809.2565661012934,
+    "condition_hash": "5Q4+LRPdnmpiazfLNOdJ"
+  },
+  {
+    "kind": "Clip",
+    "row": 124,
+    "start": 1809.356573873739,
+    "stop": 1819.3230729639338,
+    "condition_hash": "EyGfkWSsxEsE8f3GX5Ox"
+  },
+  {
+    "kind": "Clip",
+    "row": 125,
+    "start": 1819.4230697691248,
+    "stop": 1829.3895671903895,
+    "condition_hash": "Lp/pttdcIH1AZsCOGZuG"
+  },
+  {
+    "kind": "Clip",
+    "row": 126,
+    "start": 1829.489577823858,
+    "stop": 1839.4560709535883,
+    "condition_hash": "APccFaui8xmgaLPZxjAA"
+  },
+  {
+    "kind": "Clip",
+    "row": 127,
+    "start": 1839.539403015356,
+    "stop": 1849.5059142648981,
+    "condition_hash": "hclIiiBW4rID0gjoYwbv"
+  },
+  {
+    "kind": "Clip",
+    "row": 128,
+    "start": 1849.6059148847864,
+    "stop": 1859.5724111139582,
+    "condition_hash": "ZW5GVcDmKHQQrQdljO9u"
+  },
+  {
+    "kind": "Clip",
+    "row": 129,
+    "start": 1859.672406965475,
+    "stop": 1869.6389170229243,
+    "condition_hash": "YWz8BdF7JHpb7SyGU3LO"
+  },
+  {
+    "kind": "Clip",
+    "row": 130,
+    "start": 1869.7389188349055,
+    "stop": 1879.7054179251002,
+    "condition_hash": "otpDc+UZTnv0+G/1LL/A"
+  },
+  {
+    "kind": "Clip",
+    "row": 131,
+    "start": 1879.8220828115748,
+    "stop": 1889.7885811865137,
+    "condition_hash": "4ZE6JPeH4hCIesp0aRIB"
+  },
+  {
+    "kind": "Clip",
+    "row": 132,
+    "start": 1889.8885887205408,
+    "stop": 1899.8550961553858,
+    "condition_hash": "IXkKFfO8wqDNA9ifsnXg"
+  },
+  {
+    "kind": "Clip",
+    "row": 133,
+    "start": 1899.9550936758326,
+    "stop": 1909.9215932428644,
+    "condition_hash": "t67A1vioNv4ZgHCJFa5v"
+  },
+  {
+    "kind": "Clip",
+    "row": 134,
+    "start": 1910.0215967237757,
+    "stop": 1919.9880991518305,
+    "condition_hash": "VwpKMnF4Wyoj8CxXukam"
+  },
+  {
+    "kind": "Clip",
+    "row": 135,
+    "start": 1920.088095718603,
+    "stop": 1930.0546012460993,
+    "condition_hash": "pMZZmjKpemMp2M7U4rA/"
+  },
+  {
+    "kind": "Clip",
+    "row": 136,
+    "start": 1930.1545968591975,
+    "stop": 1940.1211002409266,
+    "condition_hash": "nPUSHbXJM8LFc40y8zSs"
+  },
+  {
+    "kind": "Clip",
+    "row": 137,
+    "start": 1940.2210910856531,
+    "stop": 1950.1876001894282,
+    "condition_hash": "hn6L4b/2RLUoTWuusk1X"
+  },
+  {
+    "kind": "Clip",
+    "row": 138,
+    "start": 1950.2875998556422,
+    "stop": 1960.254103952627,
+    "condition_hash": "UIRT1CCHgVDfheNGYQd6"
+  },
+  {
+    "kind": "Clip",
+    "row": 139,
+    "start": 1960.3541076719569,
+    "stop": 1970.3206031858729,
+    "condition_hash": "Qtx9ZilPEN9mdem3G1lL"
+  },
+  {
+    "kind": "Clip",
+    "row": 140,
+    "start": 1970.4205968916224,
+    "stop": 1980.3871031343745,
+    "condition_hash": "8PA1UPAZQPiLL4qyfbe0"
+  },
+  {
+    "kind": "Clip",
+    "row": 141,
+    "start": 1980.4871097147272,
+    "stop": 1990.4536080896662,
+    "condition_hash": "yCXacouyIMBJMNQBQeSe"
+  },
+  {
+    "kind": "Clip",
+    "row": 142,
+    "start": 1990.5536077558802,
+    "stop": 2000.5201151907252,
+    "condition_hash": "cX1uqe3yuBtkCRNeZPSD"
+  },
+  {
+    "kind": "Clip",
+    "row": 143,
+    "start": 2000.6201158106135,
+    "stop": 2010.5866101324366,
+    "condition_hash": "0JcYLY6eaQxNgD0AqyHf"
+  },
+  {
+    "kind": "Clip",
+    "row": 144,
+    "start": 2010.6866138517664,
+    "stop": 2020.6531200945185,
+    "condition_hash": "9a/8b/vPTFRfYEvEim9G"
+  },
+  {
+    "kind": "Clip",
+    "row": 145,
+    "start": 2020.7531207144068,
+    "stop": 2030.71962004302,
+    "condition_hash": "9guoHZdPG/RSjmDity6a"
+  },
+  {
+    "kind": "Clip",
+    "row": 146,
+    "start": 2030.8196206629084,
+    "stop": 2040.7861161768244,
+    "condition_hash": "9H2Q1atq/l2+yI/+dMzi"
+  },
+  {
+    "kind": "Clip",
+    "row": 147,
+    "start": 2040.8861218035029,
+    "stop": 2050.8526161253258,
+    "condition_hash": "KZdVrpJa481YqlbUfFx+"
+  },
+  {
+    "kind": "Clip",
+    "row": 148,
+    "start": 2050.95262580512,
+    "stop": 2060.919128233175,
+    "condition_hash": "Ds2NESkzadfQWlEiYKUS"
+  },
+  {
+    "kind": "Clip",
+    "row": 149,
+    "start": 2061.019122177343,
+    "stop": 2070.985631281118,
+    "condition_hash": "KnKkJydQansRXtNyArjM"
+  },
+  {
+    "kind": "Clip",
+    "row": 150,
+    "start": 2071.0856261789604,
+    "stop": 2081.0521340906425,
+    "condition_hash": "HboM1aaHWjkPcTEuRr4g"
+  },
+  {
+    "kind": "Clip",
+    "row": 151,
+    "start": 2081.152132803182,
+    "stop": 2091.1186359464928,
+    "condition_hash": "mALKNT0pAepernrEq3+9"
+  },
+  {
+    "kind": "Clip",
+    "row": 152,
+    "start": 2091.218628698568,
+    "stop": 2101.1851282656,
+    "condition_hash": "fU8THgO2MCIx4VtxJnWK"
+  },
+  {
+    "kind": "Clip",
+    "row": 153,
+    "start": 2101.285135799627,
+    "stop": 2111.2516413271233,
+    "condition_hash": "U+1qcBHNmS5KSpBpTbu1"
+  },
+  {
+    "kind": "Clip",
+    "row": 154,
+    "start": 2111.3516357481285,
+    "stop": 2121.3181341230675,
+    "condition_hash": "x6egxGrUd3GXIUol/b04"
+  },
+  {
+    "kind": "Clip",
+    "row": 155,
+    "start": 2121.4181387960716,
+    "stop": 2131.384631925802,
+    "condition_hash": "pmC7fMdXmgR+i2cNfXP4"
+  },
+  {
+    "kind": "Clip",
+    "row": 156,
+    "start": 2131.484638744573,
+    "stop": 2141.451144033651,
+    "condition_hash": "KXdTNAGMo1gCWz2Ge8zr"
+  },
+  {
+    "kind": "Clip",
+    "row": 157,
+    "start": 2141.5511427461906,
+    "stop": 2151.517645889501,
+    "condition_hash": "5zQTb77qI+ig8rigx1XU"
+  },
+  {
+    "kind": "Clip",
+    "row": 158,
+    "start": 2151.6176407873436,
+    "stop": 2161.5841482221886,
+    "condition_hash": "GjCMo2GkJp6y5vricadg"
+  },
+  {
+    "kind": "Clip",
+    "row": 159,
+    "start": 2161.684144788961,
+    "stop": 2171.6506429254814,
+    "condition_hash": "ecUQJtcERZJGdqza1k7h"
+  },
+  {
+    "kind": "Clip",
+    "row": 160,
+    "start": 2171.75064688323,
+    "stop": 2181.7171392977043,
+    "condition_hash": "7UETOWO5Z8aWuHDBJ2GG"
+  },
+  {
+    "kind": "Clip",
+    "row": 161,
+    "start": 2181.8171468317314,
+    "stop": 2191.783654981832,
+    "condition_hash": "Oup5uAZxF2G7zEJkT+ui"
+  },
+  {
+    "kind": "Clip",
+    "row": 162,
+    "start": 2191.866977268438,
+    "stop": 2201.8334832727714,
+    "condition_hash": "J4PH3ez0PBmcINVwekyF"
+  },
+  {
+    "kind": "Clip",
+    "row": 163,
+    "start": 2201.9334867536827,
+    "stop": 2211.899992281179,
+    "condition_hash": "n2kq4Nv6UNm4wJbdtuHM"
+  },
+  {
+    "kind": "Clip",
+    "row": 164,
+    "start": 2211.9999867021843,
+    "stop": 2221.966491991262,
+    "condition_hash": "iYxs1vPwdSenUzRva/I3"
+  },
+  {
+    "kind": "Clip",
+    "row": 165,
+    "start": 2222.066492849569,
+    "stop": 2232.0329869329735,
+    "condition_hash": "N1Sn679rCW0XsG5S7c/C"
+  },
+  {
+    "kind": "Clip",
+    "row": 166,
+    "start": 2232.1496577799126,
+    "stop": 2242.1161640226646,
+    "condition_hash": "jlM0Ornu8Dw2nAXCwego"
+  },
+  {
+    "kind": "Clip",
+    "row": 167,
+    "start": 2242.216157728414,
+    "stop": 2252.182655149679,
+    "condition_hash": "iXM+aZY10zP+t3wPmZOW"
+  },
+  {
+    "kind": "Clip",
+    "row": 168,
+    "start": 2312.531666809301,
+    "stop": 2322.4981768667503,
+    "condition_hash": "okYfMyn8qc2ClgvpS7WG"
+  },
+  {
+    "kind": "Clip",
+    "row": 169,
+    "start": 2322.581503683309,
+    "stop": 2332.5480087339683,
+    "condition_hash": "NHlF8hOkZ6psFRIVhB6N"
+  },
+  {
+    "kind": "Clip",
+    "row": 170,
+    "start": 2332.648005777578,
+    "stop": 2342.6145139276787,
+    "condition_hash": "AxNNo310kAl9uUSr+hXS"
+  },
+  {
+    "kind": "Clip",
+    "row": 171,
+    "start": 2342.7145188391014,
+    "stop": 2352.681017929296,
+    "condition_hash": "mjtZRmGqaXCHGB59txoI"
+  },
+  {
+    "kind": "Clip",
+    "row": 172,
+    "start": 2352.7810206949516,
+    "stop": 2362.747529083471,
+    "condition_hash": "W50xYLSTlUixv1tOfuSJ"
+  },
+  {
+    "kind": "Clip",
+    "row": 173,
+    "start": 2362.847520881872,
+    "stop": 2372.814028078298,
+    "condition_hash": "WpAnXD10RC/bdk0t5JIH"
+  },
+  {
+    "kind": "Clip",
+    "row": 174,
+    "start": 2372.9140258371635,
+    "stop": 2382.880526119451,
+    "condition_hash": "NWqTwzuwGakTM37kHKK4"
+  },
+  {
+    "kind": "Clip",
+    "row": 175,
+    "start": 2382.980529838781,
+    "stop": 2392.9470363199516,
+    "condition_hash": "ik5DKO+EInbAGwcH0BfB"
+  },
+  {
+    "kind": "Clip",
+    "row": 176,
+    "start": 2393.047032886724,
+    "stop": 2403.0135303079887,
+    "condition_hash": "dHvGJAD7cN8KboJxFF4/"
+  },
+  {
+    "kind": "Clip",
+    "row": 177,
+    "start": 2403.1135337889,
+    "stop": 2413.080028110723,
+    "condition_hash": "zlQ935qW1A8YOiseS7gY"
+  },
+  {
+    "kind": "Clip",
+    "row": 178,
+    "start": 2413.1800377905174,
+    "stop": 2423.146536880712,
+    "condition_hash": "XoerXglPXrngFUI5uTG6"
+  },
+  {
+    "kind": "Clip",
+    "row": 179,
+    "start": 2423.2465408384605,
+    "stop": 2433.2130380213066,
+    "condition_hash": "EKhyHmLj04EcBoR25T/e"
+  },
+  {
+    "kind": "Clip",
+    "row": 180,
+    "start": 2433.3130376875206,
+    "stop": 2443.2795351087852,
+    "condition_hash": "NzZNEoasg1rLMdr/4Z+I"
+  },
+  {
+    "kind": "Clip",
+    "row": 181,
+    "start": 2443.379541689138,
+    "stop": 2453.34604626296,
+    "condition_hash": "FLJ8pgHEcz7q8inSfiQI"
+  },
+  {
+    "kind": "Clip",
+    "row": 182,
+    "start": 2453.4460468828483,
+    "stop": 2463.4125412046715,
+    "condition_hash": "rrsulkK1jYJXFm0/p8yV"
+  },
+  {
+    "kind": "Clip",
+    "row": 183,
+    "start": 2463.5125477850243,
+    "stop": 2473.4790432989403,
+    "condition_hash": "YbkTWH4IyTiDGCLyZm4Y"
+  },
+  {
+    "kind": "Clip",
+    "row": 184,
+    "start": 2473.579044872503,
+    "stop": 2483.545544201116,
+    "condition_hash": "6NaV6j+IVbwTTuGyxiB9"
+  },
+  {
+    "kind": "Clip",
+    "row": 185,
+    "start": 2483.6455498277946,
+    "stop": 2493.6120472490593,
+    "condition_hash": "TInmVzJN8koY/tsuvUYl"
+  },
+  {
+    "kind": "Clip",
+    "row": 186,
+    "start": 2493.7120507299705,
+    "stop": 2503.678548151235,
+    "condition_hash": "ubOIjeUGbsNAJqMPIDqU"
+  },
+  {
+    "kind": "Clip",
+    "row": 187,
+    "start": 2503.778554731588,
+    "stop": 2513.745046192388,
+    "condition_hash": "ihsP/Q14/eSpxdQLR3F4"
+  },
+  {
+    "kind": "Clip",
+    "row": 188,
+    "start": 2513.845056825857,
+    "stop": 2523.8115580618187,
+    "condition_hash": "ClffawlgRfZbgKwX6zRB"
+  },
+  {
+    "kind": "Clip",
+    "row": 189,
+    "start": 2523.911558681707,
+    "stop": 2533.878057056646,
+    "condition_hash": "aedxogPGpb5IiLcjLo8c"
+  },
+  {
+    "kind": "Clip",
+    "row": 190,
+    "start": 2533.978058868627,
+    "stop": 2543.9445632040306,
+    "condition_hash": "3wXTReOQa7mnr6Oz8aUf"
+  },
+  {
+    "kind": "Clip",
+    "row": 191,
+    "start": 2544.044563823919,
+    "stop": 2554.0110543310448,
+    "condition_hash": "0eP/PPhAGmbJ2peZOa/E"
+  },
+  {
+    "kind": "Clip",
+    "row": 192,
+    "start": 2554.1110563814445,
+    "stop": 2564.0775671541496,
+    "condition_hash": "Mg5bLgoNvze3EPLB9rbZ"
+  },
+  {
+    "kind": "Clip",
+    "row": 193,
+    "start": 2564.1775668203636,
+    "stop": 2574.1440601885124,
+    "condition_hash": "yfFAPn1QpVQmEC2iXg07"
+  },
+  {
+    "kind": "Clip",
+    "row": 194,
+    "start": 2574.244068676214,
+    "stop": 2584.2105701505943,
+    "condition_hash": "fSfoxctVyPEoVzFOpsAw"
+  },
+  {
+    "kind": "Clip",
+    "row": 195,
+    "start": 2584.3105578958794,
+    "stop": 2594.2770691454216,
+    "condition_hash": "5Q4+LRPdnmpiazfLNOdJ"
+  },
+  {
+    "kind": "Clip",
+    "row": 196,
+    "start": 2594.3770666658684,
+    "stop": 2604.3435729086204,
+    "condition_hash": "EyGfkWSsxEsE8f3GX5Ox"
+  },
+  {
+    "kind": "Clip",
+    "row": 197,
+    "start": 2604.4435737669273,
+    "stop": 2614.4100719034477,
+    "condition_hash": "Lp/pttdcIH1AZsCOGZuG"
+  },
+  {
+    "kind": "Clip",
+    "row": 198,
+    "start": 2795.3237867891594,
+    "stop": 2805.2902987539574,
+    "condition_hash": "4BmWOYtidpN8UNFjIU1U"
+  },
+  {
+    "kind": "Clip",
+    "row": 199,
+    "start": 2805.390291744451,
+    "stop": 2815.356802755575,
+    "condition_hash": "BDhavgw9pFLB+Q8Bq3Ws"
+  },
+  {
+    "kind": "Clip",
+    "row": 200,
+    "start": 2815.4567957460686,
+    "stop": 2825.4233100950523,
+    "condition_hash": "OJxJm4SKCIdETxQo8HTl"
+  },
+  {
+    "kind": "Clip",
+    "row": 201,
+    "start": 2825.5233107149406,
+    "stop": 2835.489811235647,
+    "condition_hash": "aEAvIEfOqtneG1jn9rtY"
+  },
+  {
+    "kind": "Clip",
+    "row": 202,
+    "start": 2835.589811855535,
+    "stop": 2845.5563133299156,
+    "condition_hash": "dlwVSXn39IsSsrXuH2SF"
+  },
+  {
+    "kind": "Clip",
+    "row": 203,
+    "start": 2845.6563108503624,
+    "stop": 2855.6228211462303,
+    "condition_hash": "MBmWanO5PpwjSn0OmLbo"
+  },
+  {
+    "kind": "Clip",
+    "row": 204,
+    "start": 2855.7228217661186,
+    "stop": 2865.6893151342674,
+    "condition_hash": "Y3VFdR/8vV8akN0QaYmi"
+  },
+  {
+    "kind": "Clip",
+    "row": 205,
+    "start": 2865.7893176615044,
+    "stop": 2875.755817228536,
+    "condition_hash": "LpIPAshjEGJJajUN0iDU"
+  },
+  {
+    "kind": "Clip",
+    "row": 206,
+    "start": 2875.8558247625633,
+    "stop": 2885.8223290979668,
+    "condition_hash": "aAFp4NDz9KOYeXAukger"
+  },
+  {
+    "kind": "Clip",
+    "row": 207,
+    "start": 2885.9223306715294,
+    "stop": 2895.888835006933,
+    "condition_hash": "c//hD2xwM78z1jI0XURX"
+  },
+  {
+    "kind": "Clip",
+    "row": 208,
+    "start": 2895.9888296663567,
+    "stop": 2905.9553258955284,
+    "condition_hash": "TVgeD9ub5ehcM1tKrqII"
+  },
+  {
+    "kind": "Clip",
+    "row": 209,
+    "start": 2906.055334860067,
+    "stop": 2916.0218310892387,
+    "condition_hash": "doi1g7eol/T8suJUQ2lz"
+  },
+  {
+    "kind": "Clip",
+    "row": 210,
+    "start": 2916.1218326628014,
+    "stop": 2926.0883372366234,
+    "condition_hash": "KXdTNAGMo1gCWz2Ge8zr"
+  },
+  {
+    "kind": "Clip",
+    "row": 211,
+    "start": 2926.188338810186,
+    "stop": 2936.1548352777763,
+    "condition_hash": "5zQTb77qI+ig8rigx1XU"
+  },
+  {
+    "kind": "Clip",
+    "row": 212,
+    "start": 2936.254844719152,
+    "stop": 2946.2213399946495,
+    "condition_hash": "GjCMo2GkJp6y5vricadg"
+  },
+  {
+    "kind": "Clip",
+    "row": 213,
+    "start": 2946.3213458597465,
+    "stop": 2956.2878482878014,
+    "condition_hash": "ecUQJtcERZJGdqza1k7h"
+  },
+  {
+    "kind": "Clip",
+    "row": 214,
+    "start": 2956.40451079009,
+    "stop": 2966.3710072576805,
+    "condition_hash": "7UETOWO5Z8aWuHDBJ2GG"
+  },
+  {
+    "kind": "Clip",
+    "row": 215,
+    "start": 2966.4710138380333,
+    "stop": 2976.4375210344597,
+    "condition_hash": "Oup5uAZxF2G7zEJkT+ui"
+  },
+  {
+    "kind": "Clip",
+    "row": 216,
+    "start": 3036.769868665914,
+    "stop": 3046.7363770544334,
+    "condition_hash": "ubOIjeUGbsNAJqMPIDqU"
+  },
+  {
+    "kind": "Clip",
+    "row": 217,
+    "start": 3046.8363647997185,
+    "stop": 3056.8028669893547,
+    "condition_hash": "ihsP/Q14/eSpxdQLR3F4"
+  },
+  {
+    "kind": "Clip",
+    "row": 218,
+    "start": 3056.9028678476616,
+    "stop": 3066.8693690836235,
+    "condition_hash": "ClffawlgRfZbgKwX6zRB"
+  },
+  {
+    "kind": "Clip",
+    "row": 219,
+    "start": 3066.969367796163,
+    "stop": 3076.93588500617,
+    "condition_hash": "aedxogPGpb5IiLcjLo8c"
+  },
+  {
+    "kind": "Clip",
+    "row": 220,
+    "start": 3077.0358708441063,
+    "stop": 3087.0023820936485,
+    "condition_hash": "3wXTReOQa7mnr6Oz8aUf"
+  },
+  {
+    "kind": "Clip",
+    "row": 221,
+    "start": 3087.102382713537,
+    "stop": 3097.0688829958244,
+    "condition_hash": "0eP/PPhAGmbJ2peZOa/E"
+  },
+  {
+    "kind": "Clip",
+    "row": 222,
+    "start": 3097.1688826620384,
+    "stop": 3107.135385328512,
+    "condition_hash": "JNYUnhFvI0mZbwN58E20"
+  },
+  {
+    "kind": "Clip",
+    "row": 223,
+    "start": 3107.2353907167717,
+    "stop": 3117.201892191152,
+    "condition_hash": "7keiPs7vk9CHNrtDuOxL"
+  },
+  {
+    "kind": "Clip",
+    "row": 224,
+    "start": 3117.301889711599,
+    "stop": 3127.2683883249565,
+    "condition_hash": "t24nBc6mpih4DR5C/qVP"
+  },
+  {
+    "kind": "Clip",
+    "row": 225,
+    "start": 3127.3683937132164,
+    "stop": 3137.3348949491783,
+    "condition_hash": "JzIVwvytTHCEhcYc0EkS"
+  },
+  {
+    "kind": "Clip",
+    "row": 226,
+    "start": 3137.4348967611595,
+    "stop": 3147.40139489768,
+    "condition_hash": "shDuGRZylVmZLCBFIVeP"
+  },
+  {
+    "kind": "Clip",
+    "row": 227,
+    "start": 3147.5013998091026,
+    "stop": 3157.467896276693,
+    "condition_hash": "ysjy6YgGXX5+mcx52KSM"
+  },
+  {
+    "kind": "Clip",
+    "row": 228,
+    "start": 3157.56789880393,
+    "stop": 3167.53439527152,
+    "condition_hash": "UIRT1CCHgVDfheNGYQd6"
+  },
+  {
+    "kind": "Clip",
+    "row": 229,
+    "start": 3167.6344037592216,
+    "stop": 3177.600896173696,
+    "condition_hash": "Qtx9ZilPEN9mdem3G1lL"
+  },
+  {
+    "kind": "Clip",
+    "row": 230,
+    "start": 3177.7008939325615,
+    "stop": 3187.6674082815452,
+    "condition_hash": "8PA1UPAZQPiLL4qyfbe0"
+  },
+  {
+    "kind": "Clip",
+    "row": 231,
+    "start": 3187.7674048483177,
+    "stop": 3197.7338989317223,
+    "condition_hash": "yCXacouyIMBJMNQBQeSe"
+  },
+  {
+    "kind": "Clip",
+    "row": 232,
+    "start": 3197.8339076578422,
+    "stop": 3207.800414139013,
+    "condition_hash": "cX1uqe3yuBtkCRNeZPSD"
+  },
+  {
+    "kind": "Clip",
+    "row": 233,
+    "start": 3207.900399023275,
+    "stop": 3217.86690312026,
+    "condition_hash": "0JcYLY6eaQxNgD0AqyHf"
+  },
+  {
+    "kind": "Clip",
+    "row": 234,
+    "start": 3217.966904932241,
+    "stop": 3227.9334052145286,
+    "condition_hash": "1d3QaLUMg7YdmHCb8c8h"
+  },
+  {
+    "kind": "Clip",
+    "row": 235,
+    "start": 3228.033409887533,
+    "stop": 3237.999884897451,
+    "condition_hash": "qfN1dPPepSgEzofZKymz"
+  },
+  {
+    "kind": "Clip",
+    "row": 236,
+    "start": 3238.099881702642,
+    "stop": 3248.0663610040947,
+    "condition_hash": "XayucnneiTuwIiPCHY42"
+  },
+  {
+    "kind": "Clip",
+    "row": 237,
+    "start": 3248.1663568556114,
+    "stop": 3258.132834011297,
+    "condition_hash": "EgtOzxLSQAeWVhDRaEKA"
+  },
+  {
+    "kind": "Clip",
+    "row": 238,
+    "start": 3258.232820087652,
+    "stop": 3268.199307018499,
+    "condition_hash": "TUaXCy41Sr4h5cJ+WW96"
+  },
+  {
+    "kind": "Clip",
+    "row": 239,
+    "start": 3268.2993028700157,
+    "stop": 3278.265777879934,
+    "condition_hash": "AcxIHN7IxR8x6H1gszz3"
+  },
+  {
+    "kind": "Clip",
+    "row": 240,
+    "start": 3278.365780884008,
+    "stop": 3288.332262331228,
+    "condition_hash": "BXF9MG/PW1TDPohpW/7k"
+  },
+  {
+    "kind": "Clip",
+    "row": 241,
+    "start": 3288.4155908167168,
+    "stop": 3298.3820682108208,
+    "condition_hash": "XzX9LhJ2Lult+jh52KNN"
+  },
+  {
+    "kind": "Clip",
+    "row": 242,
+    "start": 3298.482065016012,
+    "stop": 3308.4485393106743,
+    "condition_hash": "QGZcwgdAvM2PHOQpBFv6"
+  },
+  {
+    "kind": "Clip",
+    "row": 243,
+    "start": 3308.5485468447014,
+    "stop": 3318.515018278341,
+    "condition_hash": "xs8LXyzPkNXcVmoBifgB"
+  },
+  {
+    "kind": "Clip",
+    "row": 244,
+    "start": 3318.598355823736,
+    "stop": 3328.5648360788628,
+    "condition_hash": "DnZRoBHXiCpZHtgcaGfJ"
+  },
+  {
+    "kind": "Clip",
+    "row": 245,
+    "start": 3328.664840751867,
+    "stop": 3338.6313131391807,
+    "condition_hash": "rHhNVzq7Eqpc40cy9gtv"
+  },
+  {
+    "kind": "Clip",
+    "row": 246,
+    "start": 3338.7313128053947,
+    "stop": 3348.6977892458244,
+    "condition_hash": "KXdTNAGMo1gCWz2Ge8zr"
+  },
+  {
+    "kind": "Clip",
+    "row": 247,
+    "start": 3348.7811220228477,
+    "stop": 3358.7476029932304,
+    "condition_hash": "5zQTb77qI+ig8rigx1XU"
+  },
+  {
+    "kind": "Clip",
+    "row": 248,
+    "start": 3358.8475969373985,
+    "stop": 3368.814081960897,
+    "condition_hash": "GjCMo2GkJp6y5vricadg"
+  },
+  {
+    "kind": "Clip",
+    "row": 249,
+    "start": 3368.9140837728783,
+    "stop": 3378.8805621206566,
+    "condition_hash": "ecUQJtcERZJGdqza1k7h"
+  },
+  {
+    "kind": "Clip",
+    "row": 250,
+    "start": 3378.980567747335,
+    "stop": 3388.9470489561363,
+    "condition_hash": "7UETOWO5Z8aWuHDBJ2GG"
+  },
+  {
+    "kind": "Clip",
+    "row": 251,
+    "start": 3389.04703693984,
+    "stop": 3399.0135260164543,
+    "condition_hash": "Oup5uAZxF2G7zEJkT+ui"
+  },
+  {
+    "kind": "Clip",
+    "row": 252,
+    "start": 3399.1135318815514,
+    "stop": 3409.080000931005,
+    "condition_hash": "5o5FMJ4bUk3lVHu2zjgP"
+  },
+  {
+    "kind": "Clip",
+    "row": 253,
+    "start": 3409.1800127565666,
+    "stop": 3419.146491104345,
+    "condition_hash": "JdjmVGyU8bChDZ1A8Nj1"
+  },
+  {
+    "kind": "Clip",
+    "row": 254,
+    "start": 3419.246491247396,
+    "stop": 3429.2129753172203,
+    "condition_hash": "evkVGg5xUG+ymKgxuba/"
+  },
+  {
+    "kind": "Clip",
+    "row": 255,
+    "start": 3429.312962108831,
+    "stop": 3439.2794471323296,
+    "condition_hash": "Y3J15pD+SVHgUTa5hMfA"
+  },
+  {
+    "kind": "Clip",
+    "row": 256,
+    "start": 3439.39611774085,
+    "stop": 3449.3626051485344,
+    "condition_hash": "N8B7ZG0lvmhltnKzfRDC"
+  },
+  {
+    "kind": "Clip",
+    "row": 257,
+    "start": 3449.4625928938194,
+    "stop": 3459.4290803015037,
+    "condition_hash": "ken+FwPxzHGQ31IB4Q4R"
+  },
+  {
+    "kind": "Clip",
+    "row": 258,
+    "start": 3459.529087835531,
+    "stop": 3469.4955692827507,
+    "condition_hash": "okYfMyn8qc2ClgvpS7WG"
+  },
+  {
+    "kind": "Clip",
+    "row": 259,
+    "start": 3469.59555798171,
+    "stop": 3479.562045150976,
+    "condition_hash": "NHlF8hOkZ6psFRIVhB6N"
+  },
+  {
+    "kind": "Clip",
+    "row": 260,
+    "start": 3479.6620410024925,
+    "stop": 3489.6285381853386,
+    "condition_hash": "AxNNo310kAl9uUSr+hXS"
+  },
+  {
+    "kind": "Clip",
+    "row": 261,
+    "start": 3489.7285328447624,
+    "stop": 3499.6950111925407,
+    "condition_hash": "mjtZRmGqaXCHGB59txoI"
+  },
+  {
+    "kind": "Clip",
+    "row": 262,
+    "start": 3499.7950227796837,
+    "stop": 3509.761499935369,
+    "condition_hash": "W50xYLSTlUixv1tOfuSJ"
+  },
+  {
+    "kind": "Clip",
+    "row": 263,
+    "start": 3509.861493879537,
+    "stop": 3519.827983909826,
+    "condition_hash": "WpAnXD10RC/bdk0t5JIH"
+  },
+  {
+    "kind": "Clip",
+    "row": 264,
+    "start": 3519.927984768133,
+    "stop": 3529.8944731294914,
+    "condition_hash": "0xzltMBEgpsUIXm1B1G0"
+  },
+  {
+    "kind": "Clip",
+    "row": 265,
+    "start": 3529.994474703054,
+    "stop": 3539.9609621107384,
+    "condition_hash": "07ZlK5NBmsi4SsKD9/mI"
+  },
+  {
+    "kind": "Clip",
+    "row": 266,
+    "start": 3540.060956770162,
+    "stop": 3550.0274401247307,
+    "condition_hash": "Nrp36DAS1FoZ/a82hd9E"
+  },
+  {
+    "kind": "Clip",
+    "row": 267,
+    "start": 3550.127440744619,
+    "stop": 3560.0939310133263,
+    "condition_hash": "+DqYQkvkSP6i+eLp+/m1"
+  },
+  {
+    "kind": "Clip",
+    "row": 268,
+    "start": 3560.1939170896812,
+    "stop": 3570.16040711997,
+    "condition_hash": "ToJe/W6TBUjR2PPZj463"
+  },
+  {
+    "kind": "Clip",
+    "row": 269,
+    "start": 3570.2604098856254,
+    "stop": 3580.22689896224,
+    "condition_hash": "iVRTXlEQz026Ygl3HTwA"
+  },
+  {
+    "kind": "Clip",
+    "row": 270,
+    "start": 3700.758100086431,
+    "stop": 3710.7245958387657,
+    "condition_hash": "oeNNx3ypbcSUQ4SPKyBK"
+  },
+  {
+    "kind": "Clip",
+    "row": 271,
+    "start": 3710.8079147875114,
+    "stop": 3720.7744091093346,
+    "condition_hash": "0urVFGWdeYvKIxYwrSxn"
+  },
+  {
+    "kind": "Clip",
+    "row": 272,
+    "start": 3720.8577397405907,
+    "stop": 3730.824240738134,
+    "condition_hash": "e3DijbJyyI7e+UxV03+Z"
+  },
+  {
+    "kind": "Clip",
+    "row": 273,
+    "start": 3730.924229675512,
+    "stop": 3740.890725189428,
+    "condition_hash": "rfdZF0b+HmsBE/212Sx4"
+  },
+  {
+    "kind": "Clip",
+    "row": 274,
+    "start": 3740.9907317697807,
+    "stop": 3750.9572263300224,
+    "condition_hash": "wu3r1PTwkwFDCxczAMIC"
+  },
+  {
+    "kind": "Clip",
+    "row": 275,
+    "start": 3751.0572248041435,
+    "stop": 3761.0237153112694,
+    "condition_hash": "NMKTPCtR5s90iWscjhRI"
+  },
+  {
+    "kind": "Clip",
+    "row": 276,
+    "start": 3761.107035928945,
+    "stop": 3771.073534303884,
+    "condition_hash": "J4PH3ez0PBmcINVwekyF"
+  },
+  {
+    "kind": "Clip",
+    "row": 277,
+    "start": 3771.173534685354,
+    "stop": 3781.140023285131,
+    "condition_hash": "n2kq4Nv6UNm4wJbdtuHM"
+  },
+  {
+    "kind": "Clip",
+    "row": 278,
+    "start": 3781.2400277197166,
+    "stop": 3791.2065232336327,
+    "condition_hash": "iYxs1vPwdSenUzRva/I3"
+  },
+  {
+    "kind": "Clip",
+    "row": 279,
+    "start": 3791.3065207540794,
+    "stop": 3801.2730138838097,
+    "condition_hash": "N1Sn679rCW0XsG5S7c/C"
+  },
+  {
+    "kind": "Clip",
+    "row": 280,
+    "start": 3801.3896797239586,
+    "stop": 3811.3561690389915,
+    "condition_hash": "jlM0Ornu8Dw2nAXCwego"
+  },
+  {
+    "kind": "Clip",
+    "row": 281,
+    "start": 3811.4561737119957,
+    "stop": 3821.4226658880516,
+    "condition_hash": "iXM+aZY10zP+t3wPmZOW"
+  },
+  {
+    "kind": "Clip",
+    "row": 282,
+    "start": 3821.5226598322197,
+    "stop": 3831.489150100927,
+    "condition_hash": "KXdTNAGMo1gCWz2Ge8zr"
+  },
+  {
+    "kind": "Clip",
+    "row": 283,
+    "start": 3831.5891516744896,
+    "stop": 3841.5556479036613,
+    "condition_hash": "5zQTb77qI+ig8rigx1XU"
+  },
+  {
+    "kind": "Clip",
+    "row": 284,
+    "start": 3841.655643755178,
+    "stop": 3851.6221418916984,
+    "condition_hash": "GjCMo2GkJp6y5vricadg"
+  },
+  {
+    "kind": "Clip",
+    "row": 285,
+    "start": 3851.7221336900993,
+    "stop": 3861.688627058248,
+    "condition_hash": "ecUQJtcERZJGdqza1k7h"
+  },
+  {
+    "kind": "Clip",
+    "row": 286,
+    "start": 3861.788630777578,
+    "stop": 3871.755116039495,
+    "condition_hash": "7UETOWO5Z8aWuHDBJ2GG"
+  },
+  {
+    "kind": "Clip",
+    "row": 287,
+    "start": 3871.8551228582664,
+    "stop": 3881.8216102659508,
+    "condition_hash": "Oup5uAZxF2G7zEJkT+ui"
+  },
+  {
+    "kind": "Clip",
+    "row": 288,
+    "start": 3881.9216127931877,
+    "stop": 3891.888108068685,
+    "condition_hash": "pmTdp+7kXt5NuAxgT78j"
+  },
+  {
+    "kind": "Clip",
+    "row": 289,
+    "start": 3891.988107734899,
+    "stop": 3901.9546001493736,
+    "condition_hash": "2KvIBDmHDja9uEh1mTui"
+  },
+  {
+    "kind": "Clip",
+    "row": 290,
+    "start": 3902.0545926630302,
+    "stop": 3912.0210879385277,
+    "condition_hash": "qPpugfypUeZ4zf0teSek"
+  },
+  {
+    "kind": "Clip",
+    "row": 291,
+    "start": 3912.1210878431602,
+    "stop": 3922.087580019216,
+    "condition_hash": "tShg9H1X4QYhheK3/xZX"
+  },
+  {
+    "kind": "Clip",
+    "row": 292,
+    "start": 3922.187578731756,
+    "stop": 3932.1540790140434,
+    "condition_hash": "iXy5uB8abCcrsJ0x0FwD"
+  },
+  {
+    "kind": "Clip",
+    "row": 293,
+    "start": 3932.2540650903984,
+    "stop": 3942.220564180593,
+    "condition_hash": "hv6/loIOKx5nX750wvoP"
+  },
+  {
+    "kind": "Clip",
+    "row": 294,
+    "start": 3942.3205688535973,
+    "stop": 3952.2870522081657,
+    "condition_hash": "uTR7Xb3nivCoNXtu/iPK"
+  },
+  {
+    "kind": "Clip",
+    "row": 295,
+    "start": 3952.387059742193,
+    "stop": 3962.353551202993,
+    "condition_hash": "LJCk45eW7ctcd1JD5dSw"
+  },
+  {
+    "kind": "Clip",
+    "row": 296,
+    "start": 3962.4535518228813,
+    "stop": 3972.42004519103,
+    "condition_hash": "6iQrf0tknzkrseQovFDB"
+  },
+  {
+    "kind": "Clip",
+    "row": 297,
+    "start": 3972.520043665151,
+    "stop": 3982.4865282118126,
+    "condition_hash": "BXUrOXu9x67C6a2eif0N"
+  },
+  {
+    "kind": "Clip",
+    "row": 298,
+    "start": 3982.586533838491,
+    "stop": 3992.5530262529655,
+    "condition_hash": "nxagVCZO0/ZBnaaANtc3"
+  },
+  {
+    "kind": "Clip",
+    "row": 299,
+    "start": 3992.636361891012,
+    "stop": 4002.602849298696,
+    "condition_hash": "fSOmk4Va/Qv/laayVZRG"
+  },
+  {
+    "kind": "Clip",
+    "row": 300,
+    "start": 4002.7028527796074,
+    "stop": 4012.669354730825,
+    "condition_hash": "4tIOoaR5VNXdEFB3JLsd"
+  },
+  {
+    "kind": "Clip",
+    "row": 301,
+    "start": 4012.7693517744347,
+    "stop": 4022.7358372747703,
+    "condition_hash": "wrhbg7/9C5fsnGqt95w/"
+  },
+  {
+    "kind": "Clip",
+    "row": 302,
+    "start": 4022.8358407556816,
+    "stop": 4032.802331978063,
+    "condition_hash": "gnKtNfR9QYEW0PRkfRU4"
+  },
+  {
+    "kind": "Clip",
+    "row": 303,
+    "start": 4032.902335697393,
+    "stop": 4042.8688281118675,
+    "condition_hash": "LfckM0X1gCCgUlsmXIea"
+  },
+  {
+    "kind": "Clip",
+    "row": 304,
+    "start": 4042.968830877523,
+    "stop": 4052.935323053579,
+    "condition_hash": "Ta17hPcaONVDy5sPjE9z"
+  },
+  {
+    "kind": "Clip",
+    "row": 305,
+    "start": 4053.0353258192345,
+    "stop": 4063.0018122732445,
+    "condition_hash": "mpoHL5UE5tDtz7b51b3H"
+  },
+  {
+    "kind": "Clip",
+    "row": 306,
+    "start": 4063.085147672872,
+    "stop": 4073.0516372263237,
+    "condition_hash": "RL8zpBtdUqrcItpujIVj"
+  },
+  {
+    "kind": "Clip",
+    "row": 307,
+    "start": 4073.1683128416344,
+    "stop": 4083.1347992956444,
+    "condition_hash": "L313XjQzD6eqzIitZmbl"
+  },
+  {
+    "kind": "Clip",
+    "row": 308,
+    "start": 4083.2347949087425,
+    "stop": 4093.201299244146,
+    "condition_hash": "G8GCQlSYxw5oG/LVKDs2"
+  },
+  {
+    "kind": "Clip",
+    "row": 309,
+    "start": 4093.301301771383,
+    "stop": 4103.267789179067,
+    "condition_hash": "YxZMp94AewnnwYmjI/0v"
+  },
+  {
+    "kind": "Clip",
+    "row": 310,
+    "start": 4103.36779575942,
+    "stop": 4113.334287935476,
+    "condition_hash": "wE8wskQ2OpXgYdnpm+o0"
+  },
+  {
+    "kind": "Clip",
+    "row": 311,
+    "start": 4113.434283786993,
+    "stop": 4123.40078406928,
+    "condition_hash": "Hx7nWm9l4FGDuTlUO/17"
+  },
+  {
+    "kind": "Clip",
+    "row": 312,
+    "start": 4123.5007710993095,
+    "stop": 4133.467278295736,
+    "condition_hash": "QmynNYnz4Q0hMBpTZ/xv"
+  },
+  {
+    "kind": "Clip",
+    "row": 313,
+    "start": 4133.567278677206,
+    "stop": 4143.53377109168,
+    "condition_hash": "gpu0WyfdPMgXV/xhy6ZP"
+  },
+  {
+    "kind": "Clip",
+    "row": 314,
+    "start": 4143.633773857336,
+    "stop": 4153.600260072927,
+    "condition_hash": "0ir9/br3yxbe2BBf65zF"
+  },
+  {
+    "kind": "Clip",
+    "row": 315,
+    "start": 4153.700265699606,
+    "stop": 4163.666756921987,
+    "condition_hash": "NM2SnnQwIoj8iKOMP6xA"
+  },
+  {
+    "kind": "Clip",
+    "row": 316,
+    "start": 4163.766758733968,
+    "stop": 4173.733252102117,
+    "condition_hash": "F5KOXJGuqZljKK9USGu/"
+  },
+  {
+    "kind": "Clip",
+    "row": 317,
+    "start": 4173.833255821447,
+    "stop": 4183.799753004293,
+    "condition_hash": "uWDM4AAJ+PIdXzpPxOha"
+  },
+  {
+    "kind": "Clip",
+    "row": 318,
+    "start": 4183.899745756368,
+    "stop": 4193.86624031661,
+    "condition_hash": "JOYs8Wny1GJlw6AxCVo5"
+  },
+  {
+    "kind": "Clip",
+    "row": 319,
+    "start": 4193.966246658544,
+    "stop": 4203.932739311437,
+    "condition_hash": "mG4xsIyTTnaRWKW82yeD"
+  },
+  {
+    "kind": "Clip",
+    "row": 320,
+    "start": 4204.032737785558,
+    "stop": 4213.999235922079,
+    "condition_hash": "hnYVTt6SOC5gw43jdDOb"
+  },
+  {
+    "kind": "Clip",
+    "row": 321,
+    "start": 4214.099236780386,
+    "stop": 4224.065730148534,
+    "condition_hash": "HvUTYlGssHeK5Ub4iNLY"
+  },
+  {
+    "kind": "Clip",
+    "row": 322,
+    "start": 4224.165730768423,
+    "stop": 4234.132223182897,
+    "condition_hash": "pBsrFShgY2qLi+7xYSGi"
+  },
+  {
+    "kind": "Clip",
+    "row": 323,
+    "start": 4234.232225710134,
+    "stop": 4244.198718124609,
+    "condition_hash": "IPvYT7eXLYJ557HrVPnG"
+  },
+  {
+    "kind": "Clip",
+    "row": 324,
+    "start": 4244.298717790823,
+    "stop": 4254.265208297948,
+    "condition_hash": "KXdTNAGMo1gCWz2Ge8zr"
+  },
+  {
+    "kind": "Clip",
+    "row": 325,
+    "start": 4254.365215831976,
+    "stop": 4264.331713014822,
+    "condition_hash": "5zQTb77qI+ig8rigx1XU"
+  },
+  {
+    "kind": "Clip",
+    "row": 326,
+    "start": 4264.431706720571,
+    "stop": 4274.398202234487,
+    "condition_hash": "GjCMo2GkJp6y5vricadg"
+  },
+  {
+    "kind": "Clip",
+    "row": 327,
+    "start": 4274.498206669073,
+    "stop": 4284.464704328756,
+    "condition_hash": "ecUQJtcERZJGdqza1k7h"
+  },
+  {
+    "kind": "Clip",
+    "row": 328,
+    "start": 4284.5646997034355,
+    "stop": 4294.531195932607,
+    "condition_hash": "7UETOWO5Z8aWuHDBJ2GG"
+  },
+  {
+    "kind": "Clip",
+    "row": 329,
+    "start": 4294.6311948835655,
+    "stop": 4304.597689205389,
+    "condition_hash": "Oup5uAZxF2G7zEJkT+ui"
+  },
+  {
+    "kind": "Clip",
+    "row": 330,
+    "start": 4425.162323766927,
+    "stop": 4435.128817135076,
+    "condition_hash": "NWqTwzuwGakTM37kHKK4"
+  },
+  {
+    "kind": "Clip",
+    "row": 331,
+    "start": 4435.228824669103,
+    "stop": 4445.195311123113,
+    "condition_hash": "ik5DKO+EInbAGwcH0BfB"
+  },
+  {
+    "kind": "Clip",
+    "row": 332,
+    "start": 4445.295320802908,
+    "stop": 4455.261816316824,
+    "condition_hash": "dHvGJAD7cN8KboJxFF4/"
+  },
+  {
+    "kind": "Clip",
+    "row": 333,
+    "start": 4455.361820751409,
+    "stop": 4465.328309112768,
+    "condition_hash": "zlQ935qW1A8YOiseS7gY"
+  },
+  {
+    "kind": "Clip",
+    "row": 334,
+    "start": 4465.428314739446,
+    "stop": 4475.39481907485,
+    "condition_hash": "XoerXglPXrngFUI5uTG6"
+  },
+  {
+    "kind": "Clip",
+    "row": 335,
+    "start": 4475.494812780599,
+    "stop": 4485.461306148748,
+    "condition_hash": "EKhyHmLj04EcBoR25T/e"
+  },
+  {
+    "kind": "Clip",
+    "row": 336,
+    "start": 4485.561307722311,
+    "stop": 4495.527808004598,
+    "condition_hash": "APccFaui8xmgaLPZxjAA"
+  },
+  {
+    "kind": "Clip",
+    "row": 337,
+    "start": 4495.627806717138,
+    "stop": 4505.594310098867,
+    "condition_hash": "hclIiiBW4rID0gjoYwbv"
+  },
+  {
+    "kind": "Clip",
+    "row": 338,
+    "start": 4505.694308811407,
+    "stop": 4515.660809093694,
+    "condition_hash": "ZW5GVcDmKHQQrQdljO9u"
+  },
+  {
+    "kind": "Clip",
+    "row": 339,
+    "start": 4515.760792070608,
+    "stop": 4525.727298074941,
+    "condition_hash": "YWz8BdF7JHpb7SyGU3LO"
+  },
+  {
+    "kind": "Clip",
+    "row": 340,
+    "start": 4525.827300840597,
+    "stop": 4535.793789201955,
+    "condition_hash": "otpDc+UZTnv0+G/1LL/A"
+  },
+  {
+    "kind": "Clip",
+    "row": 341,
+    "start": 4535.8937967359825,
+    "stop": 4545.860288196783,
+    "condition_hash": "4ZE6JPeH4hCIesp0aRIB"
+  },
+  {
+    "kind": "Clip",
+    "row": 342,
+    "start": 4545.960293823461,
+    "stop": 4555.926783138494,
+    "condition_hash": "YWGU9pCJb1jD1EEZ20tf"
+  },
+  {
+    "kind": "Clip",
+    "row": 343,
+    "start": 4556.026789718847,
+    "stop": 4565.993285232763,
+    "condition_hash": "FQR1XltfRJLPikdVpYNn"
+  },
+  {
+    "kind": "Clip",
+    "row": 344,
+    "start": 4566.09328776,
+    "stop": 4576.059783989172,
+    "condition_hash": "O/TPbFEXzCLov05/KwS+"
+  },
+  {
+    "kind": "Clip",
+    "row": 345,
+    "start": 4576.159776025991,
+    "stop": 4586.12628608344,
+    "condition_hash": "GLb98O6GN6r7256/fA8Y"
+  },
+  {
+    "kind": "Clip",
+    "row": 346,
+    "start": 4586.226277881841,
+    "stop": 4596.192781978826,
+    "condition_hash": "SuNRz+E/BsGGxVlNWLt9"
+  },
+  {
+    "kind": "Clip",
+    "row": 347,
+    "start": 4596.292778784017,
+    "stop": 4606.259275966863,
+    "condition_hash": "mbeT2YEuzrol94GMBsSP"
+  },
+  {
+    "kind": "Clip",
+    "row": 348,
+    "start": 4606.359266096334,
+    "stop": 4616.3257749616905,
+    "condition_hash": "MaN8zZQItdhsFNBq5/yl"
+  },
+  {
+    "kind": "Clip",
+    "row": 349,
+    "start": 4616.425774866323,
+    "stop": 4626.392272287588,
+    "condition_hash": "18PTv0aCUhaUeL2r9kDd"
+  },
+  {
+    "kind": "Clip",
+    "row": 350,
+    "start": 4626.49227386115,
+    "stop": 4636.458770328741,
+    "condition_hash": "cK20wOm48y1gpxBcZuzN"
+  },
+  {
+    "kind": "Clip",
+    "row": 351,
+    "start": 4636.558766895513,
+    "stop": 4646.525262886266,
+    "condition_hash": "s8DvZS/fghphUcTsLOzM"
+  },
+  {
+    "kind": "Clip",
+    "row": 352,
+    "start": 4646.625266844015,
+    "stop": 4656.591763311605,
+    "condition_hash": "8IyLxfa6UikBgn/lOdpD"
+  },
+  {
+    "kind": "Clip",
+    "row": 353,
+    "start": 4656.691761785726,
+    "stop": 4666.658259206991,
+    "condition_hash": "AXD+rrWG8VbV+xLvzwfb"
+  },
+  {
+    "kind": "Clip",
+    "row": 354,
+    "start": 4666.758257681112,
+    "stop": 4676.724755102377,
+    "condition_hash": "KXdTNAGMo1gCWz2Ge8zr"
+  },
+  {
+    "kind": "Clip",
+    "row": 355,
+    "start": 4676.824750715475,
+    "stop": 4686.791252189855,
+    "condition_hash": "5zQTb77qI+ig8rigx1XU"
+  },
+  {
+    "kind": "Clip",
+    "row": 356,
+    "start": 4686.891249710302,
+    "stop": 4696.857748085241,
+    "condition_hash": "GjCMo2GkJp6y5vricadg"
+  },
+  {
+    "kind": "Clip",
+    "row": 357,
+    "start": 4696.957749658804,
+    "stop": 4706.924247318487,
+    "condition_hash": "ecUQJtcERZJGdqza1k7h"
+  },
+  {
+    "kind": "Clip",
+    "row": 358,
+    "start": 4707.024241262655,
+    "stop": 4716.990744167547,
+    "condition_hash": "7UETOWO5Z8aWuHDBJ2GG"
+  },
+  {
+    "kind": "Clip",
+    "row": 359,
+    "start": 4717.074074083547,
+    "stop": 4727.040576034765,
+    "condition_hash": "Oup5uAZxF2G7zEJkT+ui"
+  },
+  {
+    "kind": "Clip",
+    "row": 360,
+    "start": 4787.40622573493,
+    "stop": 4797.37272887824,
+    "condition_hash": "KjDfO15MEsKyQ1ecL7gs"
+  },
+  {
+    "kind": "Clip",
+    "row": 361,
+    "start": 4797.472726875524,
+    "stop": 4807.439234787206,
+    "condition_hash": "W72D46ICk0GV1uh0E98o"
+  },
+  {
+    "kind": "Clip",
+    "row": 362,
+    "start": 4807.5392246782585,
+    "stop": 4817.5057230531975,
+    "condition_hash": "rKhBb2Q+dILxw3t33TsJ"
+  },
+  {
+    "kind": "Clip",
+    "row": 363,
+    "start": 4817.605728679876,
+    "stop": 4827.5722289621635,
+    "condition_hash": "YfqXNa8nksH/H4Q7tw5G"
+  },
+  {
+    "kind": "Clip",
+    "row": 364,
+    "start": 4827.672228866796,
+    "stop": 4837.638721281271,
+    "condition_hash": "OFk94miLCLRW7fhR6BQE"
+  },
+  {
+    "kind": "Clip",
+    "row": 365,
+    "start": 4837.722051197271,
+    "stop": 4847.68855291007,
+    "condition_hash": "VIxFQLvrzWwvLKX9CM5N"
+  },
+  {
+    "kind": "Clip",
+    "row": 366,
+    "start": 4847.788556867818,
+    "stop": 4857.755054289083,
+    "condition_hash": "vupBZSx6nFZESRaJBL3f"
+  },
+  {
+    "kind": "Clip",
+    "row": 367,
+    "start": 4857.8550537168785,
+    "stop": 4867.821545177679,
+    "condition_hash": "D3JX/fT6PFESorDVkSNi"
+  },
+  {
+    "kind": "Clip",
+    "row": 368,
+    "start": 4867.904877001028,
+    "stop": 4877.8713810980125,
+    "condition_hash": "O20XEPFO52urbaPlfDFt"
+  },
+  {
+    "kind": "Clip",
+    "row": 369,
+    "start": 4877.971384817342,
+    "stop": 4887.937887245397,
+    "condition_hash": "elRAd8zEIwLxLbUV0Q/E"
+  },
+  {
+    "kind": "Clip",
+    "row": 370,
+    "start": 4888.037881666402,
+    "stop": 4898.004373127203,
+    "condition_hash": "rTUMCNiAtF41S2DpD49t"
+  },
+  {
+    "kind": "Clip",
+    "row": 371,
+    "start": 4898.104368978719,
+    "stop": 4908.070875221471,
+    "condition_hash": "kmJSw1b/9ZllkglRR7Uc"
+  },
+  {
+    "kind": "Clip",
+    "row": 372,
+    "start": 4908.17087584136,
+    "stop": 4918.13736897109,
+    "condition_hash": "sMCyiMmSESIHN2wSu3Va"
+  },
+  {
+    "kind": "Clip",
+    "row": 373,
+    "start": 4918.237374836187,
+    "stop": 4928.2038779794975,
+    "condition_hash": "LhRN5tFKHk4NLodioMgM"
+  },
+  {
+    "kind": "Clip",
+    "row": 374,
+    "start": 4928.30387287734,
+    "stop": 4938.2703640997215,
+    "condition_hash": "YeUQIW1mIMsa5QVSMc0F"
+  },
+  {
+    "kind": "Clip",
+    "row": 375,
+    "start": 4938.370371872167,
+    "stop": 4948.336869293432,
+    "condition_hash": "f1WtvGDJE25Bd7kMiHvp"
+  },
+  {
+    "kind": "Clip",
+    "row": 376,
+    "start": 4948.436866813879,
+    "stop": 4958.4033709108635,
+    "condition_hash": "YvnCn8jnhLEX1KZhVkkm"
+  },
+  {
+    "kind": "Clip",
+    "row": 377,
+    "start": 4958.503365808706,
+    "stop": 4968.469869190435,
+    "condition_hash": "5oglOt1Fjwd1eCPGX5Cj"
+  },
+  {
+    "kind": "Clip",
+    "row": 378,
+    "start": 4968.569867664556,
+    "stop": 4978.536353164892,
+    "condition_hash": "DCM6Wd1w6zoYhtjnrQal"
+  },
+  {
+    "kind": "Clip",
+    "row": 379,
+    "start": 4978.636361891012,
+    "stop": 4988.602857166509,
+    "condition_hash": "Yq6a1CkRldy6GagO19nl"
+  },
+  {
+    "kind": "Clip",
+    "row": 380,
+    "start": 4988.7028577863975,
+    "stop": 4998.669353061895,
+    "condition_hash": "G7LCxEBd65xpWYz2BxM+"
+  },
+  {
+    "kind": "Clip",
+    "row": 381,
+    "start": 4998.7860208093925,
+    "stop": 5008.752514177541,
+    "condition_hash": "LzLRDBF5Ur6dm1J+Quar"
+  },
+  {
+    "kind": "Clip",
+    "row": 382,
+    "start": 5008.852523857336,
+    "stop": 5018.819013887624,
+    "condition_hash": "IMKu+gRN8qOBuyu0YN+F"
+  },
+  {
+    "kind": "Clip",
+    "row": 383,
+    "start": 5018.935682827215,
+    "stop": 5028.902188116293,
+    "condition_hash": "owkBHih6INnj1E45lT8d"
+  },
+  {
+    "kind": "Monet2",
+    "row": 0,
+    "start": 79.26814203856446,
+    "stop": 94.25123506186463,
+    "condition_hash": "DKYV7TrfEl+C8nvadH+1"
+  },
+  {
+    "kind": "Monet2",
+    "row": 1,
+    "start": 94.33455782530763,
+    "stop": 109.31764202712037,
+    "condition_hash": "+rgSVBVRE8Ij1WNhq8ZW"
+  },
+  {
+    "kind": "Monet2",
+    "row": 2,
+    "start": 109.40097265837647,
+    "stop": 124.38405876753785,
+    "condition_hash": "GHn0W57E+2PS+Qr5yD2r"
+  },
+  {
+    "kind": "Monet2",
+    "row": 3,
+    "start": 124.46739273665406,
+    "stop": 139.45048409102418,
+    "condition_hash": "u0ftbdrw9UHzSHDe1o4f"
+  },
+  {
+    "kind": "Monet2",
+    "row": 4,
+    "start": 984.6532667219446,
+    "stop": 999.6363456785487,
+    "condition_hash": "WdUz9wrTqcT0KJgVrQeF"
+  },
+  {
+    "kind": "Monet2",
+    "row": 5,
+    "start": 999.7030108511256,
+    "stop": 1014.6860967218684,
+    "condition_hash": "CJhwNJFKI+lyFVQSBCsh"
+  },
+  {
+    "kind": "Monet2",
+    "row": 6,
+    "start": 1014.7694297373102,
+    "stop": 1029.752516800146,
+    "condition_hash": "SzeVJsDzE+Ceeb3XK4TT"
+  },
+  {
+    "kind": "Monet2",
+    "row": 7,
+    "start": 1029.8358488619135,
+    "stop": 1044.8189356863306,
+    "condition_hash": "WD0uyxvusJmVxfeKu9mZ"
+  },
+  {
+    "kind": "Monet2",
+    "row": 8,
+    "start": 1105.3179491102503,
+    "stop": 1120.3010438024805,
+    "condition_hash": "YLuStB2eXkgOS+Cescsy"
+  },
+  {
+    "kind": "Monet2",
+    "row": 9,
+    "start": 1120.3843677580164,
+    "stop": 1135.3674557745264,
+    "condition_hash": "gnsVaYRshZj1q1gqKWom"
+  },
+  {
+    "kind": "Monet2",
+    "row": 10,
+    "start": 1135.450787836294,
+    "stop": 1150.4338768064783,
+    "condition_hash": "kEq0YeYOSSBtM1ZkWA1a"
+  },
+  {
+    "kind": "Monet2",
+    "row": 11,
+    "start": 1150.517207676153,
+    "stop": 1165.500295692663,
+    "condition_hash": "Sqv4lziRTQgtkUPYRRiM"
+  },
+  {
+    "kind": "Monet2",
+    "row": 12,
+    "start": 1588.0601437628077,
+    "stop": 1603.0432308256434,
+    "condition_hash": "jo4pGmWfIBqjijpTSGuz"
+  },
+  {
+    "kind": "Monet2",
+    "row": 13,
+    "start": 1603.1098957598017,
+    "stop": 1618.0929878294276,
+    "condition_hash": "clN4ica4q7huSnWVFTFi"
+  },
+  {
+    "kind": "Monet2",
+    "row": 14,
+    "start": 1618.1763186991022,
+    "stop": 1633.1594138681696,
+    "condition_hash": "yAH9HaWI/xVA35yTf/aY"
+  },
+  {
+    "kind": "Monet2",
+    "row": 15,
+    "start": 1633.2427456915186,
+    "stop": 1648.2258337080286,
+    "condition_hash": "GREu5PSxAHKUEjkndvwN"
+  },
+  {
+    "kind": "Monet2",
+    "row": 16,
+    "start": 2252.2659884035393,
+    "stop": 2267.249087864141,
+    "condition_hash": "8N0+p7lrk5cU7sbL+JVR"
+  },
+  {
+    "kind": "Monet2",
+    "row": 17,
+    "start": 2267.3324108660026,
+    "stop": 2282.31550269721,
+    "condition_hash": "yv/S61fYnDSQcA9J6Nk8"
+  },
+  {
+    "kind": "Monet2",
+    "row": 18,
+    "start": 2282.398831659536,
+    "stop": 2297.381923729162,
+    "condition_hash": "sXP7VEVbNjUtY1Sll+wp"
+  },
+  {
+    "kind": "Monet2",
+    "row": 19,
+    "start": 2297.4652467310234,
+    "stop": 2312.448341661672,
+    "condition_hash": "AZvr1UF39ygFqNxKr/8K"
+  },
+  {
+    "kind": "Monet2",
+    "row": 20,
+    "start": 2674.7924128114983,
+    "stop": 2689.7755008280083,
+    "condition_hash": "8N0+p7lrk5cU7sbL+JVR"
+  },
+  {
+    "kind": "Monet2",
+    "row": 21,
+    "start": 2689.858831697683,
+    "stop": 2704.84192185996,
+    "condition_hash": "yv/S61fYnDSQcA9J6Nk8"
+  },
+  {
+    "kind": "Monet2",
+    "row": 22,
+    "start": 2704.925253683309,
+    "stop": 2719.908342891912,
+    "condition_hash": "sXP7VEVbNjUtY1Sll+wp"
+  },
+  {
+    "kind": "Monet2",
+    "row": 23,
+    "start": 2719.991674715261,
+    "stop": 2734.9747767984672,
+    "condition_hash": "AZvr1UF39ygFqNxKr/8K"
+  },
+  {
+    "kind": "Monet2",
+    "row": 24,
+    "start": 2735.058104807119,
+    "stop": 2750.0411897241875,
+    "condition_hash": "DKYV7TrfEl+C8nvadH+1"
+  },
+  {
+    "kind": "Monet2",
+    "row": 25,
+    "start": 2750.1245227396294,
+    "stop": 2765.107609802465,
+    "condition_hash": "+rgSVBVRE8Ij1WNhq8ZW"
+  },
+  {
+    "kind": "Monet2",
+    "row": 26,
+    "start": 2765.1909418642326,
+    "stop": 2780.1740379869743,
+    "condition_hash": "GHn0W57E+2PS+Qr5yD2r"
+  },
+  {
+    "kind": "Monet2",
+    "row": 27,
+    "start": 2780.257363849859,
+    "stop": 2795.240455681066,
+    "condition_hash": "u0ftbdrw9UHzSHDe1o4f"
+  },
+  {
+    "kind": "Monet2",
+    "row": 28,
+    "start": 2976.5375168859764,
+    "stop": 2991.520598942022,
+    "condition_hash": "YLuStB2eXkgOS+Cescsy"
+  },
+  {
+    "kind": "Monet2",
+    "row": 29,
+    "start": 2991.5872626840874,
+    "stop": 3006.570349746923,
+    "condition_hash": "gnsVaYRshZj1q1gqKWom"
+  },
+  {
+    "kind": "Monet2",
+    "row": 30,
+    "start": 3006.6370158731743,
+    "stop": 3021.6201048433586,
+    "condition_hash": "kEq0YeYOSSBtM1ZkWA1a"
+  },
+  {
+    "kind": "Monet2",
+    "row": 31,
+    "start": 3021.686769777517,
+    "stop": 3036.669871860723,
+    "condition_hash": "Sqv4lziRTQgtkUPYRRiM"
+  },
+  {
+    "kind": "Monet2",
+    "row": 32,
+    "start": 3580.3268998205467,
+    "stop": 3595.3099568426414,
+    "condition_hash": "jo4pGmWfIBqjijpTSGuz"
+  },
+  {
+    "kind": "Monet2",
+    "row": 33,
+    "start": 3595.3766208231254,
+    "stop": 3610.359690958242,
+    "condition_hash": "clN4ica4q7huSnWVFTFi"
+  },
+  {
+    "kind": "Monet2",
+    "row": 34,
+    "start": 3610.426352792959,
+    "stop": 3625.4094188749596,
+    "condition_hash": "yAH9HaWI/xVA35yTf/aY"
+  },
+  {
+    "kind": "Monet2",
+    "row": 35,
+    "start": 3625.4760828554436,
+    "stop": 3640.4591527521416,
+    "condition_hash": "GREu5PSxAHKUEjkndvwN"
+  },
+  {
+    "kind": "Monet2",
+    "row": 36,
+    "start": 3640.5424817144676,
+    "stop": 3655.5255539953514,
+    "condition_hash": "WdUz9wrTqcT0KJgVrQeF"
+  },
+  {
+    "kind": "Monet2",
+    "row": 37,
+    "start": 3655.608887726049,
+    "stop": 3670.5919528543754,
+    "condition_hash": "CJhwNJFKI+lyFVQSBCsh"
+  },
+  {
+    "kind": "Monet2",
+    "row": 38,
+    "start": 3670.658617788534,
+    "stop": 3685.641687685232,
+    "condition_hash": "SzeVJsDzE+Ceeb3XK4TT"
+  },
+  {
+    "kind": "Monet2",
+    "row": 39,
+    "start": 3685.708353811483,
+    "stop": 3700.6914246618553,
+    "condition_hash": "WD0uyxvusJmVxfeKu9mZ"
+  },
+  {
+    "kind": "Trippy",
+    "row": 0,
+    "start": 199.91615872977235,
+    "stop": 214.89923768637635,
+    "condition_hash": "tRgm529SPpQspr220FRm"
+  },
+  {
+    "kind": "Trippy",
+    "row": 1,
+    "start": 214.9658978521631,
+    "stop": 229.94898896811463,
+    "condition_hash": "bPIYtu0PZKbei9UFlwH6"
+  },
+  {
+    "kind": "Trippy",
+    "row": 2,
+    "start": 230.0323176920221,
+    "stop": 245.01541786787965,
+    "condition_hash": "2L0dFgMONTKcgyZJiM/T"
+  },
+  {
+    "kind": "Trippy",
+    "row": 3,
+    "start": 245.0987377702997,
+    "stop": 260.0818338930414,
+    "condition_hash": "zcz9H/fzww6BdAJTTzoe"
+  },
+  {
+    "kind": "Trippy",
+    "row": 4,
+    "start": 682.9248819887446,
+    "stop": 697.9079657137202,
+    "condition_hash": "pbCnC+ND3OiX0SGNCm4k"
+  },
+  {
+    "kind": "Trippy",
+    "row": 5,
+    "start": 697.9912977754877,
+    "stop": 712.9743829309748,
+    "condition_hash": "c6il6/HFHBatfpiQJdgg"
+  },
+  {
+    "kind": "Trippy",
+    "row": 6,
+    "start": 713.0410552561091,
+    "stop": 728.0241427957819,
+    "condition_hash": "WsmrwbIua3koAxhulivL"
+  },
+  {
+    "kind": "Trippy",
+    "row": 7,
+    "start": 728.1074667513178,
+    "stop": 743.0905616819666,
+    "condition_hash": "oU8OuOIfg4zaGVH3nIGm"
+  },
+  {
+    "kind": "Trippy",
+    "row": 8,
+    "start": 864.0219138204859,
+    "stop": 879.0049999296473,
+    "condition_hash": "GovxzB/fmPMG9nkvb5jY"
+  },
+  {
+    "kind": "Trippy",
+    "row": 9,
+    "start": 879.0883276998804,
+    "stop": 894.0714166700648,
+    "condition_hash": "U6NqQRL+v/N/9xnLSH2y"
+  },
+  {
+    "kind": "Trippy",
+    "row": 10,
+    "start": 894.1547446787165,
+    "stop": 909.1378310262965,
+    "condition_hash": "Vdi70xOyBQEeDGhPVulx"
+  },
+  {
+    "kind": "Trippy",
+    "row": 11,
+    "start": 909.2211587965296,
+    "stop": 924.2042487203883,
+    "condition_hash": "hhWRsNy4ljt4M1PtvZ3u"
+  },
+  {
+    "kind": "Trippy",
+    "row": 12,
+    "start": 1165.5836277544306,
+    "stop": 1180.5667188703821,
+    "condition_hash": "5/1FqWTahoTvRpmjfXdl"
+  },
+  {
+    "kind": "Trippy",
+    "row": 13,
+    "start": 1180.6500506937311,
+    "stop": 1195.6331458627985,
+    "condition_hash": "+4gByvU9LfvSD0JHP6Ae"
+  },
+  {
+    "kind": "Trippy",
+    "row": 14,
+    "start": 1195.7164748251246,
+    "stop": 1210.6995707094477,
+    "condition_hash": "S3YyVltepwIk1BYeNSvC"
+  },
+  {
+    "kind": "Trippy",
+    "row": 15,
+    "start": 1210.7829068243311,
+    "stop": 1225.765998893957,
+    "condition_hash": "EhwIk1vM51LHZPE6xFZX"
+  },
+  {
+    "kind": "Trippy",
+    "row": 16,
+    "start": 1527.8111308157252,
+    "stop": 1542.794216686468,
+    "condition_hash": "FwG4V5nAZdXPlcAEu/X9"
+  },
+  {
+    "kind": "Trippy",
+    "row": 17,
+    "start": 1542.8775396883295,
+    "stop": 1557.8606277048395,
+    "condition_hash": "Uz0eRwz/MjTDK3dkTUCD"
+  },
+  {
+    "kind": "Trippy",
+    "row": 18,
+    "start": 1557.9439616739558,
+    "stop": 1572.9270508825587,
+    "condition_hash": "ZJvulWBItHtLlDVkIntm"
+  },
+  {
+    "kind": "Trippy",
+    "row": 19,
+    "start": 1573.0103858053492,
+    "stop": 1587.9934728681849,
+    "condition_hash": "Td0j9+lkU+ZRdgIUDMl9"
+  },
+  {
+    "kind": "Trippy",
+    "row": 20,
+    "start": 2614.5267417967125,
+    "stop": 2629.509818130712,
+    "condition_hash": "pbCnC+ND3OiX0SGNCm4k"
+  },
+  {
+    "kind": "Trippy",
+    "row": 21,
+    "start": 2629.5931497156425,
+    "stop": 2644.576243692617,
+    "condition_hash": "c6il6/HFHBatfpiQJdgg"
+  },
+  {
+    "kind": "Trippy",
+    "row": 22,
+    "start": 2644.6595707475944,
+    "stop": 2659.6426587641045,
+    "condition_hash": "WsmrwbIua3koAxhulivL"
+  },
+  {
+    "kind": "Trippy",
+    "row": 23,
+    "start": 2659.725988680105,
+    "stop": 2674.7090819418236,
+    "condition_hash": "oU8OuOIfg4zaGVH3nIGm"
+  },
+  {
+    "kind": "Trippy",
+    "row": 24,
+    "start": 4304.697688871603,
+    "stop": 4319.680766874532,
+    "condition_hash": "tRgm529SPpQspr220FRm"
+  },
+  {
+    "kind": "Trippy",
+    "row": 25,
+    "start": 4319.764094883184,
+    "stop": 4334.747173839788,
+    "condition_hash": "bPIYtu0PZKbei9UFlwH6"
+  },
+  {
+    "kind": "Trippy",
+    "row": 26,
+    "start": 4334.83050184844,
+    "stop": 4349.813595825414,
+    "condition_hash": "2L0dFgMONTKcgyZJiM/T"
+  },
+  {
+    "kind": "Trippy",
+    "row": 27,
+    "start": 4349.896918827276,
+    "stop": 4364.879993730764,
+    "condition_hash": "zcz9H/fzww6BdAJTTzoe"
+  },
+  {
+    "kind": "Trippy",
+    "row": 28,
+    "start": 4364.946659857015,
+    "stop": 4379.929741674642,
+    "condition_hash": "GovxzB/fmPMG9nkvb5jY"
+  },
+  {
+    "kind": "Trippy",
+    "row": 29,
+    "start": 4379.996406847219,
+    "stop": 4394.979491049032,
+    "condition_hash": "U6NqQRL+v/N/9xnLSH2y"
+  },
+  {
+    "kind": "Trippy",
+    "row": 30,
+    "start": 4395.046152883749,
+    "stop": 4410.0292358934685,
+    "condition_hash": "Vdi70xOyBQEeDGhPVulx"
+  },
+  {
+    "kind": "Trippy",
+    "row": 31,
+    "start": 4410.095902734975,
+    "stop": 4425.07898669837,
+    "condition_hash": "hhWRsNy4ljt4M1PtvZ3u"
+  },
+  {
+    "kind": "Trippy",
+    "row": 32,
+    "start": 4727.157241874914,
+    "stop": 4742.140318924169,
+    "condition_hash": "FwG4V5nAZdXPlcAEu/X9"
+  },
+  {
+    "kind": "Trippy",
+    "row": 33,
+    "start": 4742.2236517011925,
+    "stop": 4757.206733041982,
+    "condition_hash": "Uz0eRwz/MjTDK3dkTUCD"
+  },
+  {
+    "kind": "Trippy",
+    "row": 34,
+    "start": 4757.273399883489,
+    "stop": 4772.256476694326,
+    "condition_hash": "ZJvulWBItHtLlDVkIntm"
+  },
+  {
+    "kind": "Trippy",
+    "row": 35,
+    "start": 4772.339808756094,
+    "stop": 4787.322892957906,
+    "condition_hash": "Td0j9+lkU+ZRdgIUDMl9"
+  },
+  {
+    "kind": "Trippy",
+    "row": 36,
+    "start": 5029.002184683065,
+    "stop": 5043.985255771856,
+    "condition_hash": "5/1FqWTahoTvRpmjfXdl"
+  },
+  {
+    "kind": "Trippy",
+    "row": 37,
+    "start": 5044.068586879949,
+    "stop": 5059.051683717947,
+    "condition_hash": "+4gByvU9LfvSD0JHP6Ae"
+  },
+  {
+    "kind": "Trippy",
+    "row": 38,
+    "start": 5059.135000759344,
+    "stop": 5074.118090921621,
+    "condition_hash": "S3YyVltepwIk1BYeNSvC"
+  },
+  {
+    "kind": "Trippy",
+    "row": 39,
+    "start": 5074.201420837621,
+    "stop": 5089.184514814596,
+    "condition_hash": "EhwIk1vM51LHZPE6xFZX"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "question": "In this exploratory session, how does post-train stored firing differ from prestimulus firing and the same nominal catch windows?",
+  "windows": {
+    "pre": [
+      -0.7,
+      -0.2
+    ],
+    "post": [
+      0.8,
+      1.3
+    ]
+  },
+  "anchor": "Stim onset for stimulated trials, trial start for catch. Post begins100ms after nominal700ms train. Half-open intervals.",
+  "selection": "All33 units; retain all trials and quality labels. Primary uses is_good_trial and geometry-pass, all-quality sensitivity also reported. Geometry-pass requires both windows inside provided session duration proxy and zero overlap with any electrical train. No outcome-based selection.",
+  "analysis": "Count spikes in both500ms windows. Per-unit post-minus-pre Hz averaged across trials within each current, subtract per-unit catch mean difference, then equal-weight units for descriptive summary. No pooled-unit p-value.",
+  "limits": "Single session previously inspected; exploratory not confirmation. Wheel stream duration is only a session coverage proxy; continuous per-unit detection not proven. Catch assignment/randomization and movement confounding unverified. Stored spikes are processed; post-train artifacts or adaptation remain possible.",
+  "code_sha256": "efe919e7950459f22e7a368062e550022687ab77e2395d30f13bc8ed236eec9c",
+  "input_sha256": "843e8cfabc9d4e8c8413f3c7f3e3046f47976e83328f98c9144f1e0b26993187"
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "EXPLORATORY_WITHIN_EXPERIMENT_L1_COMPONENT",
+  "question": "같은 전세포6의 spike 후 양성표적5와 음성표적3의 전압 반응이 구분되는가?",
+  "selection": "메타데이터로 선택한 첫5 IC SRecovery 시행32..36,12pulse씩; 모든 기록 유지, 후세포값으로 제외하지 않음.",
+  "primary": "각 sweep 첫pulse의 spike 정렬 전압 변화: 표적5-표적3. 5개의 짝 비교이며60개의 독립 생물표본이 아님. 원 연결 판정을 알고 정한 검사로 blind 구조발견이 아님.",
+  "secondary": "각 sweep의 모든1-spike pulse 전압 평균; 50Hz 잔류반응·단기 가소성을 분리하지 않음.",
+  "detection": "고정 neuroanalysis detect_ic_evoked_spikes 기본값. 단일 후보 및 유한max_slope_time이 있는 pulse에만 반응 요약. 누락건수와 모든 후보 기록.",
+  "window": "추출 command[-10,+12]ms; 반응 spike+[2,8)ms minus baseline[-8,-3)ms. 자극 전 대조[-7,-2)ms minus[-9,-7)ms. 100kHz interpolation. 공간누화/동일공통입력 인과분리는 아직 없음.",
+  "decision": "방향과 크기를 기술한다. n=5 선택된 한 전세포/한slice이며 일반화 p값이나 인과 지지를 선언하지 않음. 참조양성표지 재현 가능성만 탐색.",
+  "claim_ceiling": "L1 관측; 전체뇌구조·미시변수-계량-행동 미확립.",
+  "inventory_sha256": "abb5b446c78ad2f9201f5fd4576544db10195ce66509c9181cb7b1e9a7fd02a2",
+  "code_sha256": "5b4549184da13dd9a0fcd347af42278f5a6107b3b66b7adddffff64ecaa42eec",
+  "upstream_commit": "bbe61c4047de592984b4e7089d0803a7d4101c7f",
+  "source_manifest_sha256": "d578a418a27cf8a5558b1030d78c81ed921890690eec3f5499f4d294932565bf",
+  "runtime": {
+    "python": "3.11.9",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "executable": "C:\\Users\\dongh\\AppData\\Local\\Programs\\Python\\Python311\\python.exe"
+  },
+  "fixtures": {
+    "passive": 0,
+    "spike": 1
+  },
+  "compatibility": "동일한 process-local trapz->trapezoid alias. upstream source 변경 없음."
+}

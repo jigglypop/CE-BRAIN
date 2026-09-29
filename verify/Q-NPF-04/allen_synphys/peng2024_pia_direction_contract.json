@@ -1,0 +1,10 @@
+{
+  "question": "Does ER pia-distance difference predict one-way orientation and explain directional imbalance?",
+  "scope": "ER one-way dyads with finite piadistance at both cells; all available, no amplitude selection; TR availability only until coordinate transformation provenance confirmed",
+  "provenance_gate": "ER difference equals rotated-y difference plus distance_pia offset difference within 1e-5",
+  "model": "p(lexicographic a to b)=sigmoid(beta*(pia_a-pia_b)/100); no intercept; ridge beta^2/2; leave entire patient out",
+  "endpoint": "held-out logloss vs log2; expected S under independent biased directions on same retained skeleton; no causal inference",
+  "limits": "posthoc exploratory model; missing positions change sample; patient exclusion not independent confirmation; no TR effect claim",
+  "archive_sha256": "3711f8b8b911a24b0e5fd69e6e6c845f9e8601539807a9b960118c77ba5ad68d",
+  "code_sha256": "0c0667d60f3dc7c40854b75a6c22c1c8f9003ecbb238feb4075e6357f692d339"
+}

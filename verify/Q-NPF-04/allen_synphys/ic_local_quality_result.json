@@ -1,0 +1,1260 @@
+{
+  "status": "PARTIAL_QC_ONLY",
+  "timing": "Post-result diagnostic; no exclusions or revised response estimates",
+  "upstream_commit": "b187927abf1e8df46d11b47eeb88c8e2c76aee3c",
+  "source_sha256": "27cdf2753740d860ccd5e94b0f8745b7bce7288a914c0be43575280c14da887a",
+  "arrays_sha256": "70b0ad697360e2f04c121421d9b6ead29bb7f0ec081dbfc6c0e95f7b623fa05b",
+  "code_sha256": "5f23f21743705d2b5c57e80663d47ef367748227dc9451a206d61e1769212c47",
+  "window": "command[-10,+12)ms; first5ms local baseline; not verified original producer response window",
+  "missing": [
+    "full-recording baseline current/potential/noise",
+    "whole-sweep zero fraction",
+    "producer pulse windows and original QC outcomes",
+    "complete adjacent-stimulus context",
+    "independent biological spike truth and access-resistance assessment"
+  ],
+  "summaries": {
+    "positive": {
+      "windows": 60,
+      "local_failure_count": 0,
+      "baseline_mV": [
+        -68.37500324763823,
+        -66.06250313780038
+      ],
+      "baseline_sd_uV": [
+        15.77204738908954,
+        237.95049382548197
+      ],
+      "peak_mV": [
+        -68.15625323724817,
+        -65.5812485373053
+      ],
+      "excursion_mV": [
+        0.1250000059371814,
+        1.6750031313161884
+      ]
+    },
+    "negative": {
+      "windows": 60,
+      "local_failure_count": 0,
+      "baseline_mV": [
+        -69.9687533233373,
+        -68.7750047925162
+      ],
+      "baseline_sd_uV": [
+        17.794801468566742,
+        52.74531315356723
+      ],
+      "peak_mV": [
+        -69.83750484298224,
+        -68.65000478657902
+      ],
+      "excursion_mV": [
+        0.0999984788707664,
+        0.33750154190936854
+      ]
+    }
+  },
+  "records": [
+    {
+      "sweep": 32,
+      "pulse": 1,
+      "target": "positive",
+      "baseline_mV": -67.81250322092092,
+      "baseline_sd_uV": 93.11585284662448,
+      "peak_mV": -67.67499863675309,
+      "excursion_mV": 0.21250153597218713,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 1,
+      "target": "negative",
+      "baseline_mV": -69.937503321853,
+      "baseline_sd_uV": 24.649278665739022,
+      "peak_mV": -69.83750484298224,
+      "excursion_mV": 0.0999984788707664,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 2,
+      "target": "positive",
+      "baseline_mV": -67.76250016678809,
+      "baseline_sd_uV": 16.635364592314314,
+      "peak_mV": -67.7000001638195,
+      "excursion_mV": 0.37500001781154424,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 2,
+      "target": "negative",
+      "baseline_mV": -69.9687533233373,
+      "baseline_sd_uV": 22.52853974431653,
+      "peak_mV": -69.63125178142792,
+      "excursion_mV": 0.33750154190936854,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 3,
+      "target": "positive",
+      "baseline_mV": -68.11249865753322,
+      "baseline_sd_uV": 33.272584633660266,
+      "peak_mV": -67.71875321646803,
+      "excursion_mV": 0.3937454410651853,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 3,
+      "target": "negative",
+      "baseline_mV": -69.78125331443152,
+      "baseline_sd_uV": 34.14214638182029,
+      "peak_mV": -69.66250178291222,
+      "excursion_mV": 0.14374542919082245,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 4,
+      "target": "positive",
+      "baseline_mV": -67.83750474798734,
+      "baseline_sd_uV": 28.05912769240705,
+      "peak_mV": -67.77500474501875,
+      "excursion_mV": 0.21875001039006747,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 4,
+      "target": "negative",
+      "baseline_mV": -69.83124873916947,
+      "baseline_sd_uV": 25.55279109764551,
+      "peak_mV": -69.69375178439651,
+      "excursion_mV": 0.1374969547729421,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 5,
+      "target": "positive",
+      "baseline_mV": -67.97500170276027,
+      "baseline_sd_uV": 29.944812967193418,
+      "peak_mV": -67.89374864714316,
+      "excursion_mV": 0.25624848629224317,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 5,
+      "target": "negative",
+      "baseline_mV": -69.7312502602987,
+      "baseline_sd_uV": 34.28036185341602,
+      "peak_mV": -69.51250024990863,
+      "excursion_mV": 0.21875001039006747,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 6,
+      "target": "positive",
+      "baseline_mV": -68.19375171315033,
+      "baseline_sd_uV": 41.70978093379987,
+      "peak_mV": -68.08124865604893,
+      "excursion_mV": 0.21875001039006747,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 6,
+      "target": "negative",
+      "baseline_mV": -69.81875179033369,
+      "baseline_sd_uV": 35.304274545446695,
+      "peak_mV": -69.74375483852936,
+      "excursion_mV": 0.18750000890577212,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 7,
+      "target": "positive",
+      "baseline_mV": -68.3562501949897,
+      "baseline_sd_uV": 26.950629975050422,
+      "peak_mV": -68.15625323724817,
+      "excursion_mV": 0.1999969577415328,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 7,
+      "target": "negative",
+      "baseline_mV": -69.87500331888441,
+      "baseline_sd_uV": 21.650471554987412,
+      "peak_mV": -69.79375026326728,
+      "excursion_mV": 0.1124954277065271,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 8,
+      "target": "positive",
+      "baseline_mV": -68.19375171315033,
+      "baseline_sd_uV": 37.13125339699566,
+      "peak_mV": -67.63125168643302,
+      "excursion_mV": 0.5625000267173164,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 8,
+      "target": "negative",
+      "baseline_mV": -69.86875484446654,
+      "baseline_sd_uV": 22.338519213977555,
+      "peak_mV": -69.69375178439651,
+      "excursion_mV": 0.17500306007001143,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 9,
+      "target": "positive",
+      "baseline_mV": -68.37500324763823,
+      "baseline_sd_uV": 30.819470371809025,
+      "peak_mV": -67.53750168198013,
+      "excursion_mV": 0.8375015656580942,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 9,
+      "target": "negative",
+      "baseline_mV": -69.88750026772017,
+      "baseline_sd_uV": 17.794801468566742,
+      "peak_mV": -69.74375483852936,
+      "excursion_mV": 0.14374542919082245,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 10,
+      "target": "positive",
+      "baseline_mV": -67.75000321795233,
+      "baseline_sd_uV": 22.490837057713172,
+      "peak_mV": -67.61875473759727,
+      "excursion_mV": 0.2500000118743628,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 10,
+      "target": "negative",
+      "baseline_mV": -69.7875017888494,
+      "baseline_sd_uV": 40.18869790364566,
+      "peak_mV": -69.60000177994363,
+      "excursion_mV": 0.18750000890577212,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 11,
+      "target": "positive",
+      "baseline_mV": -67.71875321646803,
+      "baseline_sd_uV": 38.53272005975034,
+      "peak_mV": -67.65000473908157,
+      "excursion_mV": 0.2500000118743628,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 11,
+      "target": "negative",
+      "baseline_mV": -69.81875179033369,
+      "baseline_sd_uV": 48.7298840780492,
+      "peak_mV": -69.7250017858808,
+      "excursion_mV": 0.1374969547729421,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 12,
+      "target": "positive",
+      "baseline_mV": -67.89374864714316,
+      "baseline_sd_uV": 24.36608534422037,
+      "peak_mV": -67.77500474501875,
+      "excursion_mV": 0.18750000890577212,
+      "local_failures": []
+    },
+    {
+      "sweep": 32,
+      "pulse": 12,
+      "target": "negative",
+      "baseline_mV": -69.85000179181799,
+      "baseline_sd_uV": 48.508631252726495,
+      "peak_mV": -69.65625330849434,
+      "excursion_mV": 0.19374848332365247,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 1,
+      "target": "positive",
+      "baseline_mV": -67.0687516597157,
+      "baseline_sd_uV": 19.159057915533722,
+      "peak_mV": -67.02500470939566,
+      "excursion_mV": 0.2500000118743628,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 1,
+      "target": "negative",
+      "baseline_mV": -69.16875023358138,
+      "baseline_sd_uV": 41.737347612186966,
+      "peak_mV": -69.1000017561949,
+      "excursion_mV": 0.2500000118743628,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 2,
+      "target": "positive",
+      "baseline_mV": -67.2187531927193,
+      "baseline_sd_uV": 38.6854234586879,
+      "peak_mV": -67.13125166268429,
+      "excursion_mV": 0.27500153894077783,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 2,
+      "target": "negative",
+      "baseline_mV": -69.35625024248715,
+      "baseline_sd_uV": 38.81635532636736,
+      "peak_mV": -69.24375481478063,
+      "excursion_mV": 0.25624848629224317,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 3,
+      "target": "positive",
+      "baseline_mV": -67.46875320459367,
+      "baseline_sd_uV": 23.37466602575718,
+      "peak_mV": -67.18125471681714,
+      "excursion_mV": 0.2874984877765385,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 3,
+      "target": "negative",
+      "baseline_mV": -69.52500482813929,
+      "baseline_sd_uV": 36.60268811324293,
+      "peak_mV": -69.34375329365139,
+      "excursion_mV": 0.18125153448789177,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 4,
+      "target": "positive",
+      "baseline_mV": -67.28750167010577,
+      "baseline_sd_uV": 42.04200431758616,
+      "peak_mV": -67.11249861003577,
+      "excursion_mV": 0.1999969577415328,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 4,
+      "target": "negative",
+      "baseline_mV": -69.45000024694004,
+      "baseline_sd_uV": 30.594172304594657,
+      "peak_mV": -69.36249871690504,
+      "excursion_mV": 0.10625458268354038,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 5,
+      "target": "positive",
+      "baseline_mV": -67.12812742547536,
+      "baseline_sd_uV": 55.80503902811752,
+      "peak_mV": -66.85000164932563,
+      "excursion_mV": 0.278125776149718,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 5,
+      "target": "negative",
+      "baseline_mV": -69.40625329661998,
+      "baseline_sd_uV": 25.323685206116664,
+      "peak_mV": -69.28750176510067,
+      "excursion_mV": 0.11875153151930107,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 6,
+      "target": "positive",
+      "baseline_mV": -67.01874860558289,
+      "baseline_sd_uV": 60.18471526940653,
+      "peak_mV": -66.88125165080993,
+      "excursion_mV": 0.3437500163272489,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 6,
+      "target": "negative",
+      "baseline_mV": -69.38125176955356,
+      "baseline_sd_uV": 41.26501001970413,
+      "peak_mV": -69.31875176658497,
+      "excursion_mV": 0.11250305710142072,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 7,
+      "target": "positive",
+      "baseline_mV": -67.23125014155507,
+      "baseline_sd_uV": 26.205700492954687,
+      "peak_mV": -66.743754696037,
+      "excursion_mV": 0.48749544551807134,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 7,
+      "target": "negative",
+      "baseline_mV": -69.44375177252215,
+      "baseline_sd_uV": 38.60392574503091,
+      "peak_mV": -69.30625481774922,
+      "excursion_mV": 0.1374969547729421,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 8,
+      "target": "positive",
+      "baseline_mV": -66.79999859519282,
+      "baseline_sd_uV": 32.1730263410345,
+      "peak_mV": -65.5812485373053,
+      "excursion_mV": 1.2187500578875188,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 8,
+      "target": "negative",
+      "baseline_mV": -69.32500024100285,
+      "baseline_sd_uV": 49.49342020893451,
+      "peak_mV": -69.18750328622991,
+      "excursion_mV": 0.1374969547729421,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 9,
+      "target": "positive",
+      "baseline_mV": -67.35000167307436,
+      "baseline_sd_uV": 39.997250013754325,
+      "peak_mV": -67.26250014303936,
+      "excursion_mV": 0.31250001484295353,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 9,
+      "target": "negative",
+      "baseline_mV": -69.16250175916349,
+      "baseline_sd_uV": 24.80407446531172,
+      "peak_mV": -68.99375480290627,
+      "excursion_mV": 0.16874695625723746,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 10,
+      "target": "positive",
+      "baseline_mV": -67.48125015342943,
+      "baseline_sd_uV": 47.12628747303103,
+      "peak_mV": -67.24375471978573,
+      "excursion_mV": 0.2374954336437085,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 10,
+      "target": "negative",
+      "baseline_mV": -69.04999870206208,
+      "baseline_sd_uV": 27.915032726285084,
+      "peak_mV": -68.86249869315631,
+      "excursion_mV": 0.18750000890577212,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 11,
+      "target": "positive",
+      "baseline_mV": -67.37500320014078,
+      "baseline_sd_uV": 44.19953386825153,
+      "peak_mV": -67.2500031942036,
+      "excursion_mV": 0.1250000059371814,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 11,
+      "target": "negative",
+      "baseline_mV": -68.96250480142197,
+      "baseline_sd_uV": 21.678796487611947,
+      "peak_mV": -68.90000479845338,
+      "excursion_mV": 0.1999969577415328,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 12,
+      "target": "positive",
+      "baseline_mV": -67.28750167010577,
+      "baseline_sd_uV": 95.73138817236938,
+      "peak_mV": -66.71875316897058,
+      "excursion_mV": 0.5687485011351967,
+      "local_failures": []
+    },
+    {
+      "sweep": 33,
+      "pulse": 12,
+      "target": "negative",
+      "baseline_mV": -69.05625480587486,
+      "baseline_sd_uV": 23.904299859978064,
+      "peak_mV": -68.98749869909349,
+      "excursion_mV": 0.16874695625723746,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 1,
+      "target": "positive",
+      "baseline_mV": -66.92499860113,
+      "baseline_sd_uV": 51.52504826040161,
+      "peak_mV": -66.82500012225923,
+      "excursion_mV": 0.28750611717143215,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 1,
+      "target": "negative",
+      "baseline_mV": -69.0687517547106,
+      "baseline_sd_uV": 27.495799623780847,
+      "peak_mV": -68.93750327435555,
+      "excursion_mV": 0.13124848035506176,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 2,
+      "target": "positive",
+      "baseline_mV": -67.12500318826642,
+      "baseline_sd_uV": 26.5124887218782,
+      "peak_mV": -66.79999859519282,
+      "excursion_mV": 0.32500459307360785,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 2,
+      "target": "negative",
+      "baseline_mV": -68.98749869909349,
+      "baseline_sd_uV": 18.455479051819324,
+      "peak_mV": -68.8937486946406,
+      "excursion_mV": 0.11250305710142072,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 3,
+      "target": "positive",
+      "baseline_mV": -66.86875470197418,
+      "baseline_sd_uV": 35.68286928212419,
+      "peak_mV": -66.47500163151409,
+      "excursion_mV": 0.3937530704600789,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 3,
+      "target": "negative",
+      "baseline_mV": -69.03125327880844,
+      "baseline_sd_uV": 52.74531315356723,
+      "peak_mV": -68.90000479845338,
+      "excursion_mV": 0.13124848035506176,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 4,
+      "target": "positive",
+      "baseline_mV": -66.73749859222423,
+      "baseline_sd_uV": 62.824172526934085,
+      "peak_mV": -66.18125466931969,
+      "excursion_mV": 0.5562439229045424,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 4,
+      "target": "negative",
+      "baseline_mV": -69.05625480587486,
+      "baseline_sd_uV": 27.613219403981216,
+      "peak_mV": -68.9812502246756,
+      "excursion_mV": 0.31250001484295353,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 5,
+      "target": "positive",
+      "baseline_mV": -66.70000011632204,
+      "baseline_sd_uV": 50.38074629881606,
+      "peak_mV": -66.61875469009982,
+      "excursion_mV": 0.42500307194437426,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 5,
+      "target": "negative",
+      "baseline_mV": -69.33124871542074,
+      "baseline_sd_uV": 31.98891790672759,
+      "peak_mV": -69.08750480735915,
+      "excursion_mV": 0.24374390806158885,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 6,
+      "target": "positive",
+      "baseline_mV": -67.04999860706718,
+      "baseline_sd_uV": 42.107070602442896,
+      "peak_mV": -66.97500165526282,
+      "excursion_mV": 0.2812500133586582,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 6,
+      "target": "negative",
+      "baseline_mV": -69.1000017561949,
+      "baseline_sd_uV": 48.270469041297574,
+      "peak_mV": -68.96250480142197,
+      "excursion_mV": 0.20625306155430678,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 7,
+      "target": "positive",
+      "baseline_mV": -67.0687516597157,
+      "baseline_sd_uV": 28.06516488079596,
+      "peak_mV": -66.98749860409859,
+      "excursion_mV": 0.21250153597218713,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 7,
+      "target": "negative",
+      "baseline_mV": -69.19375176064779,
+      "baseline_sd_uV": 30.71186774591386,
+      "peak_mV": -68.99375480290627,
+      "excursion_mV": 0.1999969577415328,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 8,
+      "target": "positive",
+      "baseline_mV": -67.23125014155507,
+      "baseline_sd_uV": 32.413950928902395,
+      "peak_mV": -67.00625165674711,
+      "excursion_mV": 0.25624848629224317,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 8,
+      "target": "negative",
+      "baseline_mV": -69.2812532906828,
+      "baseline_sd_uV": 31.367061450037863,
+      "peak_mV": -69.20624870948356,
+      "excursion_mV": 0.21875001039006747,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 9,
+      "target": "positive",
+      "baseline_mV": -68.19375171315033,
+      "baseline_sd_uV": 36.31661345195365,
+      "peak_mV": -68.0562547583774,
+      "excursion_mV": 0.1374969547729421,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 9,
+      "target": "negative",
+      "baseline_mV": -69.31875176658497,
+      "baseline_sd_uV": 22.973369836409233,
+      "peak_mV": -69.19375176064779,
+      "excursion_mV": 0.1250000059371814,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 10,
+      "target": "positive",
+      "baseline_mV": -68.20000018756822,
+      "baseline_sd_uV": 31.90183435964554,
+      "peak_mV": -67.56250320904655,
+      "excursion_mV": 0.6374969785216678,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 10,
+      "target": "negative",
+      "baseline_mV": -69.26874871245215,
+      "baseline_sd_uV": 24.855892957632857,
+      "peak_mV": -69.20000023506567,
+      "excursion_mV": 0.11250305710142072,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 11,
+      "target": "positive",
+      "baseline_mV": -67.7250016908859,
+      "baseline_sd_uV": 26.51087283207617,
+      "peak_mV": -67.64374863526879,
+      "excursion_mV": 0.20625306155430678,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 11,
+      "target": "negative",
+      "baseline_mV": -69.29999871393645,
+      "baseline_sd_uV": 25.252383678293647,
+      "peak_mV": -69.11875480884345,
+      "excursion_mV": 0.18124390509299815,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 12,
+      "target": "positive",
+      "baseline_mV": -67.78125321943662,
+      "baseline_sd_uV": 22.557411386296383,
+      "peak_mV": -67.71875321646803,
+      "excursion_mV": 0.2624969607101235,
+      "local_failures": []
+    },
+    {
+      "sweep": 34,
+      "pulse": 12,
+      "target": "negative",
+      "baseline_mV": -69.23749871096786,
+      "baseline_sd_uV": 31.570192710186816,
+      "peak_mV": -69.18750328622991,
+      "excursion_mV": 0.21875001039006747,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 1,
+      "target": "positive",
+      "baseline_mV": -67.80625474650304,
+      "baseline_sd_uV": 42.95733165884042,
+      "peak_mV": -67.35000167307436,
+      "excursion_mV": 0.4562530734286696,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 1,
+      "target": "negative",
+      "baseline_mV": -69.26874871245215,
+      "baseline_sd_uV": 35.47712703652245,
+      "peak_mV": -69.14374870651497,
+      "excursion_mV": 0.1250000059371814,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 2,
+      "target": "positive",
+      "baseline_mV": -67.45000015194513,
+      "baseline_sd_uV": 25.36900068743712,
+      "peak_mV": -67.38750014897654,
+      "excursion_mV": 0.2874984877765385,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 2,
+      "target": "negative",
+      "baseline_mV": -69.2500032891985,
+      "baseline_sd_uV": 38.807135621772815,
+      "peak_mV": -69.13750023209708,
+      "excursion_mV": 0.11250305710142072,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 3,
+      "target": "positive",
+      "baseline_mV": -67.66250168791731,
+      "baseline_sd_uV": 22.48109601507774,
+      "peak_mV": -65.98749855660114,
+      "excursion_mV": 1.6750031313161884,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 3,
+      "target": "negative",
+      "baseline_mV": -69.19375176064779,
+      "baseline_sd_uV": 23.96940243638989,
+      "peak_mV": -69.08124870354638,
+      "excursion_mV": 0.11250305710142072,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 4,
+      "target": "positive",
+      "baseline_mV": -66.06250313780038,
+      "baseline_sd_uV": 33.29047371685484,
+      "peak_mV": -65.98749855660114,
+      "excursion_mV": 0.6749954544238435,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 4,
+      "target": "negative",
+      "baseline_mV": -69.15625328474562,
+      "baseline_sd_uV": 27.937968633368936,
+      "peak_mV": -68.96250480142197,
+      "excursion_mV": 0.19374848332365247,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 5,
+      "target": "positive",
+      "baseline_mV": -66.73749859222423,
+      "baseline_sd_uV": 59.10386685638288,
+      "peak_mV": -66.60625011186916,
+      "excursion_mV": 0.38750459604219856,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 5,
+      "target": "negative",
+      "baseline_mV": -69.08124870354638,
+      "baseline_sd_uV": 21.652196296835992,
+      "peak_mV": -68.90625327287125,
+      "excursion_mV": 0.1749954306751178,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 6,
+      "target": "positive",
+      "baseline_mV": -66.73749859222423,
+      "baseline_sd_uV": 76.95977745197592,
+      "peak_mV": -66.64374858777134,
+      "excursion_mV": 0.21875001039006747,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 6,
+      "target": "negative",
+      "baseline_mV": -68.96875327583984,
+      "baseline_sd_uV": 19.317060309945898,
+      "peak_mV": -68.91875022170701,
+      "excursion_mV": 0.1749954306751178,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 7,
+      "target": "positive",
+      "baseline_mV": -66.92499860113,
+      "baseline_sd_uV": 55.78777408508603,
+      "peak_mV": -66.75625164487275,
+      "excursion_mV": 0.4937515493308453,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 7,
+      "target": "negative",
+      "baseline_mV": -69.05625480587486,
+      "baseline_sd_uV": 27.494337695121555,
+      "peak_mV": -68.91250174728913,
+      "excursion_mV": 0.14375305858571608,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 8,
+      "target": "positive",
+      "baseline_mV": -67.38750014897654,
+      "baseline_sd_uV": 33.190467854400254,
+      "peak_mV": -67.33750472423861,
+      "excursion_mV": 0.34999849074512923,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 8,
+      "target": "negative",
+      "baseline_mV": -68.93125479993768,
+      "baseline_sd_uV": 25.561255355520906,
+      "peak_mV": -68.65000478657902,
+      "excursion_mV": 0.2812500133586582,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 9,
+      "target": "positive",
+      "baseline_mV": -67.36562667381651,
+      "baseline_sd_uV": 139.1690130340649,
+      "peak_mV": -67.11875471384855,
+      "excursion_mV": 0.2656250126165105,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 9,
+      "target": "negative",
+      "baseline_mV": -69.1000017561949,
+      "baseline_sd_uV": 21.10731417142441,
+      "peak_mV": -69.03750175322631,
+      "excursion_mV": 0.13124848035506176,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 10,
+      "target": "positive",
+      "baseline_mV": -67.4625047301758,
+      "baseline_sd_uV": 35.75050321282753,
+      "peak_mV": -67.39374862339443,
+      "excursion_mV": 0.5124969725844863,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 10,
+      "target": "negative",
+      "baseline_mV": -69.15625328474562,
+      "baseline_sd_uV": 28.08064074534196,
+      "peak_mV": -69.0437502276442,
+      "excursion_mV": 0.11250305710142072,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 11,
+      "target": "positive",
+      "baseline_mV": -67.9375032268581,
+      "baseline_sd_uV": 41.32607815595378,
+      "peak_mV": -67.88125169830738,
+      "excursion_mV": 0.2624969607101235,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 11,
+      "target": "negative",
+      "baseline_mV": -69.1000017561949,
+      "baseline_sd_uV": 49.68181180689968,
+      "peak_mV": -68.94375174877342,
+      "excursion_mV": 0.15625000742147677,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 12,
+      "target": "positive",
+      "baseline_mV": -68.06875170721315,
+      "baseline_sd_uV": 23.69080816998951,
+      "peak_mV": -67.71250474205016,
+      "excursion_mV": 0.3562469651630096,
+      "local_failures": []
+    },
+    {
+      "sweep": 35,
+      "pulse": 12,
+      "target": "negative",
+      "baseline_mV": -69.1000017561949,
+      "baseline_sd_uV": 37.36719959467043,
+      "peak_mV": -68.96875327583984,
+      "excursion_mV": 0.13124848035506176,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 1,
+      "target": "positive",
+      "baseline_mV": -67.33124862042584,
+      "baseline_sd_uV": 24.575507816085143,
+      "peak_mV": -67.26874861745725,
+      "excursion_mV": 0.17500306007001143,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 1,
+      "target": "negative",
+      "baseline_mV": -68.94375174877342,
+      "baseline_sd_uV": 34.2164311461979,
+      "peak_mV": -68.67499868425054,
+      "excursion_mV": 0.2687530645228975,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 2,
+      "target": "positive",
+      "baseline_mV": -67.48125015342943,
+      "baseline_sd_uV": 46.57586365174058,
+      "peak_mV": -67.36249862191013,
+      "excursion_mV": 0.13750458416783573,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 2,
+      "target": "negative",
+      "baseline_mV": -68.7750047925162,
+      "baseline_sd_uV": 37.465438764606496,
+      "peak_mV": -68.72500173838336,
+      "excursion_mV": 0.22499848480794782,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 3,
+      "target": "positive",
+      "baseline_mV": -67.4625047301758,
+      "baseline_sd_uV": 34.42329969318461,
+      "peak_mV": -67.36249862191013,
+      "excursion_mV": 0.2812500133586582,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 3,
+      "target": "negative",
+      "baseline_mV": -68.93125479993768,
+      "baseline_sd_uV": 22.082227407065186,
+      "peak_mV": -68.86249869315631,
+      "excursion_mV": 0.1124954277065271,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 4,
+      "target": "positive",
+      "baseline_mV": -67.65000473908157,
+      "baseline_sd_uV": 15.77204738908954,
+      "peak_mV": -67.54375015639802,
+      "excursion_mV": 0.1374969547729421,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 4,
+      "target": "negative",
+      "baseline_mV": -68.94375174877342,
+      "baseline_sd_uV": 29.35853975378664,
+      "peak_mV": -68.85625021873842,
+      "excursion_mV": 0.1374969547729421,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 5,
+      "target": "positive",
+      "baseline_mV": -67.7562516923702,
+      "baseline_sd_uV": 25.06533873493219,
+      "peak_mV": -67.41250167604295,
+      "excursion_mV": 0.3437500163272489,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 5,
+      "target": "negative",
+      "baseline_mV": -68.96875327583984,
+      "baseline_sd_uV": 49.04835071782801,
+      "peak_mV": -68.86875479696909,
+      "excursion_mV": 0.0999984788707664,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 6,
+      "target": "positive",
+      "baseline_mV": -67.48125015342943,
+      "baseline_sd_uV": 28.95844755205076,
+      "peak_mV": -67.09375318678212,
+      "excursion_mV": 0.38749696664730493,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 6,
+      "target": "negative",
+      "baseline_mV": -68.9562486976092,
+      "baseline_sd_uV": 33.48426091422031,
+      "peak_mV": -68.85625021873842,
+      "excursion_mV": 0.14375305858571608,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 7,
+      "target": "positive",
+      "baseline_mV": -66.9562486026143,
+      "baseline_sd_uV": 237.95049382548197,
+      "peak_mV": -66.7125046945527,
+      "excursion_mV": 0.4437561245929089,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 7,
+      "target": "negative",
+      "baseline_mV": -68.96250480142197,
+      "baseline_sd_uV": 32.52887150574524,
+      "peak_mV": -68.87500327138696,
+      "excursion_mV": 0.1624984818393571,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 8,
+      "target": "positive",
+      "baseline_mV": -67.15000471533284,
+      "baseline_sd_uV": 33.27143716438696,
+      "peak_mV": -67.05625471087995,
+      "excursion_mV": 0.2124939065772935,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 8,
+      "target": "negative",
+      "baseline_mV": -69.03750175322631,
+      "baseline_sd_uV": 51.37531047506856,
+      "peak_mV": -68.83124869167202,
+      "excursion_mV": 0.20625306155430678,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 9,
+      "target": "positive",
+      "baseline_mV": -66.50000315858051,
+      "baseline_sd_uV": 40.57170760920064,
+      "peak_mV": -66.30625467525687,
+      "excursion_mV": 0.3062515404250732,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 9,
+      "target": "negative",
+      "baseline_mV": -69.11875480884345,
+      "baseline_sd_uV": 25.696601302970404,
+      "peak_mV": -68.87500327138696,
+      "excursion_mV": 0.24375153745648248,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 10,
+      "target": "positive",
+      "baseline_mV": -66.81250317342347,
+      "baseline_sd_uV": 52.844421264200605,
+      "peak_mV": -66.71875316897058,
+      "excursion_mV": 0.4937515493308453,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 10,
+      "target": "negative",
+      "baseline_mV": -68.90000479845338,
+      "baseline_sd_uV": 31.0942093081047,
+      "peak_mV": -68.83750479548479,
+      "excursion_mV": 0.16874695625723746,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 11,
+      "target": "positive",
+      "baseline_mV": -67.26250014303936,
+      "baseline_sd_uV": 19.730100127955698,
+      "peak_mV": -66.83124859667711,
+      "excursion_mV": 0.4312515463622546,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 11,
+      "target": "negative",
+      "baseline_mV": -69.0437502276442,
+      "baseline_sd_uV": 31.244480747948714,
+      "peak_mV": -68.95000022319131,
+      "excursion_mV": 0.11875153151930107,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 12,
+      "target": "positive",
+      "baseline_mV": -67.00625165674711,
+      "baseline_sd_uV": 39.613449113154196,
+      "peak_mV": -66.90625317787635,
+      "excursion_mV": 0.2874984877765385,
+      "local_failures": []
+    },
+    {
+      "sweep": 36,
+      "pulse": 12,
+      "target": "negative",
+      "baseline_mV": -69.07500022912849,
+      "baseline_sd_uV": 23.777263273767698,
+      "peak_mV": -69.02500480439056,
+      "excursion_mV": 0.17500306007001143,
+      "local_failures": []
+    }
+  ]
+}

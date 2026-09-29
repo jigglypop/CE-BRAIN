@@ -1,0 +1,83 @@
+{
+  "file": "C:\\dev\\ce\\ce-agi-runtime\\derivations\\Q-NPF-02\\F-01.formula.md",
+  "question": "Q-NPF-02",
+  "attempt": null,
+  "card": "F-01",
+  "sympy": true,
+  "details": [
+    {
+      "type": "limit",
+      "expr": "(p1*(u-Delta) + p2*(u-Delta)**2 - p1*u - p2*u**2 - (q1*(u-Delta) + q2*(u-Delta)**2 - q1*u - q2*u**2))/(4*Delta)",
+      "var": "Delta",
+      "point": 0,
+      "expected": "-(p1 + 2*p2*u - q1 - 2*q2*u)/4",
+      "result": "-p1/4 - p2*u/2 + q1/4 + q2*u/2",
+      "symbolic": "pass",
+      "index": 0
+    },
+    {
+      "type": "identity",
+      "lhs": "gam + (p1*(u-Delta) + p2*(u-Delta)**2 - p1*u - p2*u**2 + q1*(u-Delta) + q2*(u-Delta)**2 - q1*u - q2*u**2)/2",
+      "rhs": "gam - Delta*(p1 + 2*p2*u + q1 + 2*q2*u)/2 + Delta**2*(p2 + q2)/2",
+      "symbolic": "pass",
+      "max_rel_err": 3.7167963629677223e-16,
+      "numeric": "pass",
+      "index": 1
+    },
+    {
+      "type": "identity",
+      "lhs": "(w1+w2)*(w1*u1**2+w2*u2**2) - (w1*u1+w2*u2)**2",
+      "rhs": "w1*w2*(u1-u2)**2",
+      "symbolic": "pass",
+      "max_rel_err": 7.565311725774678e-15,
+      "numeric": "pass",
+      "index": 2
+    },
+    {
+      "type": "limit",
+      "expr": "(p1*(u-Delta) + p2*(u-Delta)**2 - p1*u - p2*u**2 + q1*(u-Delta) + q2*(u-Delta)**2 - q1*u - q2*u**2)/(2*Delta)",
+      "var": "Delta",
+      "point": 0,
+      "expected": "-(p1 + 2*p2*u + q1 + 2*q2*u)/2",
+      "result": "-p1/2 - p2*u - q1/2 - q2*u",
+      "symbolic": "pass",
+      "index": 3
+    },
+    {
+      "type": "identity",
+      "lhs": "u - u/(1+eps)",
+      "rhs": "u*eps/(1+eps)",
+      "symbolic": "pass",
+      "max_rel_err": 1.3655852850432622e-16,
+      "numeric": "pass",
+      "index": 4
+    },
+    {
+      "type": "identity",
+      "lhs": "(2*gam + ea)/2 - (2*gam + ea + 2*gam + eb + 2*gam)/6",
+      "rhs": "ea/2 - (ea + eb)/6",
+      "symbolic": "pass",
+      "max_rel_err": 0.0,
+      "numeric": "pass",
+      "index": 5
+    },
+    {
+      "type": "identity",
+      "lhs": "(u2 - u2/(1+eps)) - (u1 - u1/(1+eps))",
+      "rhs": "(eps/(1+eps))*(u2-u1)",
+      "symbolic": "pass",
+      "max_rel_err": 1.4109144364460412e-16,
+      "numeric": "pass",
+      "index": 6
+    },
+    {
+      "type": "numeric",
+      "expr": "9/256 - 0.03515625",
+      "max_rel_err": 0.0,
+      "numeric": "pass",
+      "index": 7
+    }
+  ],
+  "symbolic": "pass",
+  "numeric": "pass"
+}

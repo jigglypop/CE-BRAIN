@@ -1,0 +1,9 @@
+{
+  "question": "Are the existing 511 Allen human upper TCx dyads equipped for matched Planert joint prediction?",
+  "scope": "Reuse exact prior eligible dyads; inventory only, no outcome-model fitting or inference of donor identities.",
+  "fields": "Both-cell cortical distance_to_pia, steady-state input resistance, rheobase; pair distance; explicit donor/patient schema fields and slice metadata key names only.",
+  "gate": "Finite numeric inputs are availability, not verified units or protocol/QC equivalence. Slice/specimen names are not donor IDs.",
+  "source_sha256": "242d1d8f8d7087143fdae68f90d1338594a30ff9893f943df5e4081b9f12bbdd",
+  "db_sha256": "7372499fdd874f057565080d5769baaf2659ef39d9f3bc3c7147dd1e1c280a53",
+  "code_sha256": "33fbb1f4cab5e40bcb7dbddb69a9329493492b9b313c636765d32812cb87ef44"
+}

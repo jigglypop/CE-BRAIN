@@ -1,0 +1,113 @@
+{
+  "created_utc": "2026-09-05T11:47:58.597802+00:00",
+  "question": "Can a fixed passive Rs+(Rm||Cm) measurement model predict repeated common test-pulse clamp currents before connection inference?",
+  "objective_chain": "fixed cell P -> corrected V,I -> identified connection response -> spatial metric; this cycle tests the measurement correction only",
+  "external_id": "1630015960.701",
+  "experiment_id": 4863,
+  "preparation": "mouse VisP ex vivo multipatch; same five cells; exploratory temporal prediction within one recording",
+  "inventory_sha256": "2f34fbf39624468dcdfb5d892ec341b40dbd1393abe592a9acedd231656ca403",
+  "remote": {
+    "url": "https://allen-synphys.s3-us-west-2.amazonaws.com/synphys-1630015960.701.nwb",
+    "bytes": 188824605,
+    "etag": "\"b2994f78213ba3f1a1e5c5e52ff0ed9f-23\"",
+    "last_modified": "Sat, 04 May 2024 07:06:47 GMT"
+  },
+  "cells": [
+    {
+      "cell_id": 24114,
+      "device": 0
+    },
+    {
+      "cell_id": 24115,
+      "device": 1
+    },
+    {
+      "cell_id": 24119,
+      "device": 6
+    },
+    {
+      "cell_id": 24117,
+      "device": 3
+    },
+    {
+      "cell_id": 24118,
+      "device": 5
+    }
+  ],
+  "train_sweeps": [
+    0,
+    1,
+    2
+  ],
+  "holdout_sweeps": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "holdout_strata": {
+    "same_holding": [
+      3,
+      4
+    ],
+    "shifted_holding": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "holding_metadata": "Metadata-only audit before response extraction: sweeps 0..4 about -70 mV; 5..9 about -55 mV. Report strata separately; shifted condition is a transport test, not same-condition replication.",
+  "prior_exposure": "Sweep 0 late current and command already reported; no claim of wholly unseen source or independent biological replication",
+  "baseline_s": [
+    0.008,
+    0.013
+  ],
+  "extract_s": [
+    0.008,
+    0.041
+  ],
+  "evaluate_until_s": 0.04,
+  "edge_exclusion_s": 0.0002,
+  "command_pulse_V": -0.01,
+  "command_tolerance_V": 1e-06,
+  "duration_s": 0.01,
+  "duration_tolerance_s": 4e-05,
+  "expected_rate_Hz": 50000.0,
+  "tau_bounds_s": [
+    5e-05,
+    0.03
+  ],
+  "tau_grid_size": 161,
+  "models": [
+    "zero connection substitution (diagnostic only)",
+    "positive conductance",
+    "positive conductance plus one passive exponential"
+  ],
+  "model_equation": "I_pA=Ginf_nS*U_mV+Gtrans_nS*(U_mV-lowpass_tau(U_mV)); baseline subtracted per sweep",
+  "estimator": "nonnegative least squares at fixed tau, train-only log-grid plus local bounded refinement; no ridge; all cells retained",
+  "null_controls": "zero response and static conductance, fitted to identical train samples; held-out offset recovery tests dynamics",
+  "decision": {
+    "maximum_rc_to_resistor_rmse_ratio": 0.8,
+    "maximum_rc_to_baseline_sd_ratio": 3.0,
+    "physical_fit": "Ginf and Gtrans positive; tau interior to bounds; all five cells required",
+    "separate_decisions": "absolute predictive adequacy and 20 percent RC improvement are separate; a sufficient resistor need not gain from RC"
+  },
+  "residual_rule": "held-out sweeps pooled per cell within holding stratum; descriptive RMS only, not independent time-sample inference; adequacy and RC improvement reported separately for each cell and across all five",
+  "revision_trigger": "Failure is measurement-model insufficiency; do not subtract this fit to identify connections or retune on holdout",
+  "identifiability": "Common mode has rank one and cannot identify balanced connections. Rs,Rm,C are conditional effective circuit values; amplifier/dendrite/hidden circuit equivalence remains.",
+  "claim_ceiling": "BIO_EVIDENCE_L1 clamp response only; metric L0; no L2 without independent calibration/drift controls",
+  "source_urls": [
+    "https://github.com/AllenInstitute/neuroanalysis/blob/65e511681cfab5a02ac30298d287d565f385db13/neuroanalysis/test_pulse.py",
+    "https://alleninstitute.github.io/MIES/TPAnalysis_algorithm.html"
+  ],
+  "code_sha256": "4e7d79c5be4636e9c41ef234333d2dbfe1fe75057d8b1ea3a159868152a64ab7",
+  "dependency_sha256": {
+    "allen_joint_inventory.py": "507af06777eec79792ff52c39229fc89fcdb1f62b3e9dda8f17047e4052ff2c6"
+  },
+  "raw_reader_sha256": "5aa32fce7a19372183cf304ecf70bcd1d168dc723ffcffbc74f0711d83db50ae"
+}

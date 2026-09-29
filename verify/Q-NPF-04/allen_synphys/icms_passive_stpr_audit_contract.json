@@ -1,0 +1,13 @@
+{
+  "code_sha256": "0ebb78e88eec0fea9ec8b59edeb7ae695790392e93304148aa4b9fe293535c32",
+  "decoder_sha256": "c79c4985fdbadfdfe94cfbd8ea78facbab79fd4c6f149714e28e1a5b578bdd26",
+  "inputs": {
+    "ICMS43_pop_coupling_control.pkl": "80664e66b030d7ff24485c2236f452a3cdca503e88a03a24448f2cd83034b68d",
+    "ICMS45_pop_coupling_control.pkl": "2db3820f0f55e2312186ac0c7df81f247c88ada3146a52d4bc73ad69be50d39f",
+    "ICMS48_pop_coupling_control.pkl": "5c5c4a84ba871047163317b80b4b7f5cb41984826ec3f60b33da7d35e0c80ea5",
+    "ICMS54_pop_coupling_control.pkl": "ec8474d16e994539d8bcf0d6adbbd7b0392eb7386315a58e4b32236a1830578e",
+    "ICMS56_pop_coupling_control.pkl": "b7915bce3adf9a0685a2ee19a7672702f364a8d59fcdb6a6ff0ccbe8cb0b1781"
+  },
+  "method": "Static decode only; accept exactly little-endian float64 201-element arrays. Verify sample100 equals saved PC. Under producer1ms lag convention compare mean +10..+100ms minus -100..-10ms; compute odd/even RMS. Preserve all missing arrays and no independent-unit inference.",
+  "boundary": "Source-summary consistency and descriptive shape, not causal direction or synaptic delay. Time axis inferred from producer configuration; not serialized lags."
+}

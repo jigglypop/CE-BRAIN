@@ -1,0 +1,73 @@
+{
+    "objective":  "후속 연구 끝까지 진행해서 뇌 구조 밝혀",
+    "goal_complete":  false,
+    "classification":  "No new scientific progress; verified recurring input blocker",
+    "blocker":  "Independently calibrated same-unit biological intervention and structural measurements have not been supplied; synthetic artifacts cannot establish brain structure",
+    "consecutive_goal_turns_with_same_missing_input":  [
+                                                           {
+                                                               "turn":  "C17-C18",
+                                                               "evidence":  "verify/Q-NPF-04/F-01/c18_measurement_requirements.json",
+                                                               "state":  "Biological feasibility and same-unit input unestablished; computation still progressed"
+                                                           },
+                                                           {
+                                                               "turn":  "C19",
+                                                               "evidence":  "verify/Q-NPF-04/F-01/c19_decision.json",
+                                                               "state":  "Required actual input; user input requested; shunt audit completed"
+                                                           },
+                                                           {
+                                                               "turn":  "Current revalidation",
+                                                               "evidence":  "Prior artifact hashes unchanged; no user-supplied data path; Q-NPF-04 input-manifest search",
+                                                               "state":  "Same missing input; no remaining scientific execution justified by available inputs"
+                                                           }
+                                                       ],
+    "scoped_manifest_candidates":  [
+
+                                   ],
+    "scope_limit":  "This checks the active lineage and supplied paths, not all possible datasets worldwide",
+    "other_lineage_lab_handoff":  {
+                                      "status":  "LAB_HANDOFF_READY_EXTERNAL_ACTION_REQUIRED",
+                                      "biological_endpoint_evaluated":  false,
+                                      "not_same_contract":  true
+                                  },
+    "live_computation":  "Prior C18 and C19 commands returned exit_code=0; no pending execution handle",
+    "resume_condition":  "Actual same-cell pre/post voltage, measured input current, independent dose and recording calibration, identity and structural measurements with provenance",
+    "artifact":  "verify/Q-NPF-04/F-01/c19_blocked_audit.json",
+    "repository_root":  "C:/dev/ce/ce-agi-runtime",
+    "branch":  "main",
+    "upstream":  "origin/main",
+    "head":  "cfcbc894b83f838c9ced5401297c3a10f11e1f8f",
+    "remote_tip_readonly":  "cfcbc894b83f838c9ced5401297c3a10f11e1f8f\trefs/heads/main",
+    "exact_changed_paths":  [
+                                "verify/Q-NPF-04/F-01/c19_blocked_audit.json"
+                            ],
+    "validation":  "C18/C19 path manifests rehashed; input manifest names checked under Q-NPF-04",
+    "remaining_unrelated_dirt":  [
+                                     " M .claude/CLAUDE.md",
+                                     " M .claude/agents/adversary-bio.md",
+                                     " M .claude/agents/bio-reader.md",
+                                     " M .claude/agents/judge-bio.md",
+                                     " M .claude/agents/paper-writer-bio.md",
+                                     " M .claude/agents/prover-bio.md",
+                                     " M .claude/agents/sourcer-bio.md",
+                                     " M .claude/settings.json",
+                                     " M _workspace/20260902-brain-리만접힘_카드attempt.md",
+                                     " M ledger/questions.yaml",
+                                     " M paper/진전_원장.md",
+                                     " M verify/Q-NPF-04/spec.md",
+                                     "?? .claude/hooks/bio-budget.cmd",
+                                     "?? .claude/hooks/lib/bio_budget.py",
+                                     "?? 0.045",
+                                     "?? a",
+                                     "?? every",
+                                     "?? phase",
+                                     "?? tests/test_bio_budget.py",
+                                     "?? verify/Q-NPF-04/F-01/_mkreport.py",
+                                     "?? verify/Q-NPF-04/F-01/c14_loop_cert.py",
+                                     "?? verify/Q-NPF-04/F-01/c15_c2_lag_cert.py",
+                                     "?? verify/Q-NPF-04/F-01/c17_model_audit.py",
+                                     "?? verify/Q-NPF-04/F-01/c18_intervention_identifiability.py",
+                                     "?? verify/Q-NPF-04/F-01/c19_shunt_identifiability.py",
+                                     "?? verify/Q-NPF-04/F-01/fwd_loop.py"
+                                 ],
+    "published":  false
+}

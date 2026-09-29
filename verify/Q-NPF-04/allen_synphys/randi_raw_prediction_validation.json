@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "session": "6",
+      "result_sha256": "2b62ee12df836f85781139328552dfb0032b1bff27f922381efafcace19dbe38",
+      "verified_cells": 6,
+      "test_observations": 21
+    },
+    {
+      "session": "9",
+      "result_sha256": "66ce6d936fcfaa8bd294ae44cc22ee671c5d824175606b86b650287aa13b4919",
+      "verified_cells": 10,
+      "test_observations": 40
+    }
+  ],
+  "status": "PASS",
+  "method": "Recompute every cell and aggregate MSE from recorded predictions, observations and training scales"
+}

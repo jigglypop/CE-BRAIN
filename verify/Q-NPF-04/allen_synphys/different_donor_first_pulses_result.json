@@ -1,0 +1,290 @@
+{
+  "contract_sha256": "48d903f2ff098dc23cafce29018a3b422ff90ab43f60492cf9630fbfddea7ae1",
+  "selection": {
+    "experiment_id": 4251,
+    "ext_id": "1623269658.635",
+    "slice_id": 3951,
+    "lims_specimen_name": "Tlx3-Cre_PL56;Ai193-hyg-581866.06.06",
+    "pair_id": 116053,
+    "pre_cell_id": 22223,
+    "post_cell_id": 22221,
+    "pre_electrode_id": 33930,
+    "post_electrode_id": 33926,
+    "synapse_id": 2754,
+    "latency": 0.0009000000000007727,
+    "psp_rise_time": 0.004712521456226842,
+    "psp_decay_tau": 0.005000000000337183,
+    "parsed": {
+      "pedigree1": "Tlx3-Cre_PL56;Ai193-hyg",
+      "donor_id": "581866",
+      "pedigree2": null,
+      "section_num": "06",
+      "orientation_num": "06"
+    }
+  },
+  "records": [
+    {
+      "recording": {
+        "id": 716321,
+        "sync_rec_id": 193844,
+        "electrode_id": 33926,
+        "start_time": "2021-06-09 13:49:31.946000",
+        "sample_rate": null,
+        "device_name": null,
+        "stim_name": "Y4_SRecovery_50H_DA_0",
+        "stim_meta": "{\"type\": \"Stimulus\", \"args\": {\"start_time\": 0, \"description\": \"Y4_SRecovery_50H_DA_0\", \"units\": null}, \"items\": [{\"type\": \"Offset\", \"args\": {\"start_time\": 0, \"description\": \"holding current\", \"units\": \"A\", \"amplitude\": -7.564907589241443e-10}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 0.015835000000000002, \"description\": \"test pulse\", \"units\": null, \"duration\": 0.01, \"amplitude\": -5.000000413701855e-11}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 0.5416667000000001, \"description\": \"Epoch 0\", \"units\": \"A\", \"duration\": 0.5, \"amplitude\": 0.0}, \"items\": []}, {\"type\": \"SquarePulseTrain\", \"args\": {\"start_time\": 1.0416667, \"description\": \"Epoch 1\", \"units\": \"A\", \"n_pulses\": 8, \"pulse_duration\": 0.0015, \"amplitude\": 1.508e-09, \"interval\": 0.02}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 1.1831717, \"description\": \"Epoch 2\", \"units\": \"A\", \"duration\": 0.125, \"amplitude\": 0.0}, \"items\": []}, {\"type\": \"SquarePulseTrain\", \"args\": {\"start_time\": 1.3081717, \"description\": \"Epoch 3\", \"units\": \"A\", \"n_pulses\": 4, \"pulse_duration\": 0.0015, \"amplitude\": 1.508e-09, \"interval\": 0.02}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 1.3696766999999999, \"description\": \"Epoch 4\", \"units\": \"A\", \"duration\": 0.5, \"amplitude\": 0.0}, \"items\": []}]}",
+        "meta": "null"
+      },
+      "qc": {
+        "id": 715938,
+        "recording_id": 716321,
+        "clamp_mode": "ic",
+        "patch_mode": null,
+        "baseline_potential": -0.06690283119678497,
+        "baseline_current": -7.564907589241443e-10,
+        "baseline_noise_stdev": 0.0005842990358360112,
+        "nearest_test_pulse_id": 716321,
+        "qc_pass": 1,
+        "access_adj_baseline_potential": null,
+        "meta": "null"
+      },
+      "first_pulse": {
+        "id": 19022627,
+        "stim_pulse_id": 5801200,
+        "baseline_id": 16554835,
+        "ex_qc_pass": 1,
+        "onset_time": 1.6196750000000002,
+        "pre_recording_id": 716322,
+        "n_spikes": 1
+      },
+      "fits": [
+        {
+          "id": 1095366,
+          "pulse_response_id": 19022627,
+          "fit_amp": 1.5808493203703905e-15,
+          "fit_latency": 0.0009000000000007726,
+          "fit_yoffset": -0.06677389847366844,
+          "fit_rise_time": 0.004712521456226842,
+          "fit_decay_tau": 0.005000000000337183,
+          "fit_exp_amp": 5.402599525035634e-05,
+          "fit_nrmse": 0.6941945300741599,
+          "baseline_fit_amp": 0.000837609242355773,
+          "baseline_fit_latency": 0.0009000000000007726,
+          "baseline_fit_yoffset": -0.07007655668476154,
+          "baseline_fit_rise_time": 0.011302428974707197,
+          "baseline_fit_decay_tau": 0.0499999960434663,
+          "baseline_fit_exp_amp": 0.0029251195056540173,
+          "baseline_fit_nrmse": 0.1825091065468605,
+          "dec_fit_amp": -0.0005454468697937886,
+          "dec_fit_reconv_amp": -0.0002408468375174007,
+          "dec_fit_latency": 0.0009000000000007727,
+          "dec_fit_yoffset": 0.0001870022937684275,
+          "dec_fit_rise_time": 0.001612964859967816,
+          "dec_fit_decay_tau": 0.00205188288145754,
+          "dec_fit_nrmse": null,
+          "baseline_dec_fit_amp": 0.0005431133137570046,
+          "baseline_dec_fit_reconv_amp": 0.00023981643543288315,
+          "baseline_dec_fit_latency": 0.0009000000000007727,
+          "baseline_dec_fit_yoffset": 0.0003425107507477219,
+          "baseline_dec_fit_rise_time": 0.001612964859967816,
+          "baseline_dec_fit_decay_tau": 0.00205188288145754,
+          "baseline_dec_fit_nrmse": null,
+          "meta": "null"
+        }
+      ],
+      "difference_uV": -480.66327295028384
+    },
+    {
+      "recording": {
+        "id": 716323,
+        "sync_rec_id": 193845,
+        "electrode_id": 33926,
+        "start_time": "2021-06-09 13:49:47.974000",
+        "sample_rate": null,
+        "device_name": null,
+        "stim_name": "Y4_SRecovery_50H_DA_0",
+        "stim_meta": "{\"type\": \"Stimulus\", \"args\": {\"start_time\": 0, \"description\": \"Y4_SRecovery_50H_DA_0\", \"units\": null}, \"items\": [{\"type\": \"Offset\", \"args\": {\"start_time\": 0, \"description\": \"holding current\", \"units\": \"A\", \"amplitude\": -7.900938792104739e-10}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 0.015835000000000002, \"description\": \"test pulse\", \"units\": null, \"duration\": 0.01, \"amplitude\": -5.000000413701855e-11}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 0.5416667000000001, \"description\": \"Epoch 0\", \"units\": \"A\", \"duration\": 0.5, \"amplitude\": 0.0}, \"items\": []}, {\"type\": \"SquarePulseTrain\", \"args\": {\"start_time\": 1.0416667, \"description\": \"Epoch 1\", \"units\": \"A\", \"n_pulses\": 8, \"pulse_duration\": 0.0015, \"amplitude\": 1.508e-09, \"interval\": 0.02}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 1.1831717, \"description\": \"Epoch 2\", \"units\": \"A\", \"duration\": 0.25, \"amplitude\": 0.0}, \"items\": []}, {\"type\": \"SquarePulseTrain\", \"args\": {\"start_time\": 1.4331717, \"description\": \"Epoch 3\", \"units\": \"A\", \"n_pulses\": 4, \"pulse_duration\": 0.0015, \"amplitude\": 1.508e-09, \"interval\": 0.02}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 1.4946766999999999, \"description\": \"Epoch 4\", \"units\": \"A\", \"duration\": 0.5, \"amplitude\": 0.0}, \"items\": []}]}",
+        "meta": "null"
+      },
+      "qc": {
+        "id": 715940,
+        "recording_id": 716323,
+        "clamp_mode": "ic",
+        "patch_mode": null,
+        "baseline_potential": -0.06936563551425934,
+        "baseline_current": -7.900938792104739e-10,
+        "baseline_noise_stdev": 0.00038532953476533294,
+        "nearest_test_pulse_id": 716323,
+        "qc_pass": 1,
+        "access_adj_baseline_potential": null,
+        "meta": "null"
+      },
+      "first_pulse": {
+        "id": 19022651,
+        "stim_pulse_id": 5801224,
+        "baseline_id": 16554883,
+        "ex_qc_pass": 1,
+        "onset_time": 1.7446750000000002,
+        "pre_recording_id": 716324,
+        "n_spikes": 1
+      },
+      "fits": [
+        {
+          "id": 1095302,
+          "pulse_response_id": 19022651,
+          "fit_amp": 0.00022217116272961335,
+          "fit_latency": 0.0009000000000007726,
+          "fit_yoffset": -0.06952542588259372,
+          "fit_rise_time": 0.004712521456226842,
+          "fit_decay_tau": 0.005000000000337183,
+          "fit_exp_amp": 2.9079520073188593e-05,
+          "fit_nrmse": 0.6933509917270696,
+          "baseline_fit_amp": 0.0009845697895045878,
+          "baseline_fit_latency": 0.0009000899999886227,
+          "baseline_fit_yoffset": -0.006960432167001179,
+          "baseline_fit_rise_time": 0.02380922847560367,
+          "baseline_fit_decay_tau": 0.025460194221803033,
+          "baseline_fit_exp_amp": 0.050008049527199366,
+          "baseline_fit_nrmse": 553.5173691469806,
+          "dec_fit_amp": 0.0008156454434838927,
+          "dec_fit_reconv_amp": 0.0003601553817200224,
+          "dec_fit_latency": 0.0009000000000007727,
+          "dec_fit_yoffset": 6.833988455628478e-05,
+          "dec_fit_rise_time": 0.001612964859967816,
+          "dec_fit_decay_tau": 0.00205188288145754,
+          "dec_fit_nrmse": null,
+          "baseline_dec_fit_amp": 0.00031437496937564846,
+          "baseline_dec_fit_reconv_amp": 0.0001388150182205278,
+          "baseline_dec_fit_latency": 0.0009000000000007727,
+          "baseline_dec_fit_yoffset": 7.38843683582899e-05,
+          "baseline_dec_fit_rise_time": 0.001612964859967816,
+          "baseline_dec_fit_decay_tau": 0.00205188288145754,
+          "baseline_dec_fit_nrmse": null,
+          "meta": "null"
+        }
+      ],
+      "difference_uV": 221.34036349949463
+    },
+    {
+      "recording": {
+        "id": 716325,
+        "sync_rec_id": 193846,
+        "electrode_id": 33926,
+        "start_time": "2021-06-09 13:50:04.261000",
+        "sample_rate": null,
+        "device_name": null,
+        "stim_name": "Y4_SRecovery_50H_DA_0",
+        "stim_meta": "{\"type\": \"Stimulus\", \"args\": {\"start_time\": 0, \"description\": \"Y4_SRecovery_50H_DA_0\", \"units\": null}, \"items\": [{\"type\": \"Offset\", \"args\": {\"start_time\": 0, \"description\": \"holding current\", \"units\": \"A\", \"amplitude\": -7.745548646909128e-10}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 0.015835000000000002, \"description\": \"test pulse\", \"units\": null, \"duration\": 0.01, \"amplitude\": -5.000000413701855e-11}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 0.5416667000000001, \"description\": \"Epoch 0\", \"units\": \"A\", \"duration\": 0.5, \"amplitude\": 0.0}, \"items\": []}, {\"type\": \"SquarePulseTrain\", \"args\": {\"start_time\": 1.0416667, \"description\": \"Epoch 1\", \"units\": \"A\", \"n_pulses\": 8, \"pulse_duration\": 0.0015, \"amplitude\": 1.508e-09, \"interval\": 0.02}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 1.1831717, \"description\": \"Epoch 2\", \"units\": \"A\", \"duration\": 0.5, \"amplitude\": 0.0}, \"items\": []}, {\"type\": \"SquarePulseTrain\", \"args\": {\"start_time\": 1.6831717, \"description\": \"Epoch 3\", \"units\": \"A\", \"n_pulses\": 4, \"pulse_duration\": 0.0015, \"amplitude\": 1.508e-09, \"interval\": 0.02}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 1.7446766999999999, \"description\": \"Epoch 4\", \"units\": \"A\", \"duration\": 0.5, \"amplitude\": 0.0}, \"items\": []}]}",
+        "meta": "null"
+      },
+      "qc": {
+        "id": 715942,
+        "recording_id": 716325,
+        "clamp_mode": "ic",
+        "patch_mode": null,
+        "baseline_potential": -0.07050996273756027,
+        "baseline_current": -7.745548646909128e-10,
+        "baseline_noise_stdev": 0.0006019943975843489,
+        "nearest_test_pulse_id": 716325,
+        "qc_pass": 1,
+        "access_adj_baseline_potential": null,
+        "meta": "null"
+      },
+      "first_pulse": {
+        "id": 19022675,
+        "stim_pulse_id": 5801248,
+        "baseline_id": 16554936,
+        "ex_qc_pass": 1,
+        "onset_time": 1.9946750000000002,
+        "pre_recording_id": 716326,
+        "n_spikes": 1
+      },
+      "fits": [],
+      "difference_uV": null
+    },
+    {
+      "recording": {
+        "id": 716327,
+        "sync_rec_id": 193847,
+        "electrode_id": 33926,
+        "start_time": "2021-06-09 13:50:32.031000",
+        "sample_rate": null,
+        "device_name": null,
+        "stim_name": "Y4_SRecovery_50H_DA_0",
+        "stim_meta": "{\"type\": \"Stimulus\", \"args\": {\"start_time\": 0, \"description\": \"Y4_SRecovery_50H_DA_0\", \"units\": null}, \"items\": [{\"type\": \"Offset\", \"args\": {\"start_time\": 0, \"description\": \"holding current\", \"units\": \"A\", \"amplitude\": -7.546778757472339e-10}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 0.015835000000000002, \"description\": \"test pulse\", \"units\": null, \"duration\": 0.01, \"amplitude\": -5.000000413701855e-11}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 0.5416667000000001, \"description\": \"Epoch 0\", \"units\": \"A\", \"duration\": 0.5, \"amplitude\": 0.0}, \"items\": []}, {\"type\": \"SquarePulseTrain\", \"args\": {\"start_time\": 1.0416667, \"description\": \"Epoch 1\", \"units\": \"A\", \"n_pulses\": 8, \"pulse_duration\": 0.0015, \"amplitude\": 1.508e-09, \"interval\": 0.02}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 1.1831717, \"description\": \"Epoch 2\", \"units\": \"A\", \"duration\": 1.0, \"amplitude\": 0.0}, \"items\": []}, {\"type\": \"SquarePulseTrain\", \"args\": {\"start_time\": 2.1831717, \"description\": \"Epoch 3\", \"units\": \"A\", \"n_pulses\": 4, \"pulse_duration\": 0.0015, \"amplitude\": 1.508e-09, \"interval\": 0.02}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 2.2446767, \"description\": \"Epoch 4\", \"units\": \"A\", \"duration\": 0.5, \"amplitude\": 0.0}, \"items\": []}]}",
+        "meta": "null"
+      },
+      "qc": {
+        "id": 715944,
+        "recording_id": 716327,
+        "clamp_mode": "ic",
+        "patch_mode": null,
+        "baseline_potential": -0.06956560909748077,
+        "baseline_current": -7.546778757472339e-10,
+        "baseline_noise_stdev": 0.000424055615440011,
+        "nearest_test_pulse_id": 716327,
+        "qc_pass": 1,
+        "access_adj_baseline_potential": null,
+        "meta": "null"
+      },
+      "first_pulse": {
+        "id": 19022699,
+        "stim_pulse_id": 5801272,
+        "baseline_id": 16555013,
+        "ex_qc_pass": 1,
+        "onset_time": 1.43317,
+        "pre_recording_id": 716328,
+        "n_spikes": 1
+      },
+      "fits": [],
+      "difference_uV": null
+    },
+    {
+      "recording": {
+        "id": 716337,
+        "sync_rec_id": 193849,
+        "electrode_id": 33926,
+        "start_time": "2021-06-09 13:54:53.567000",
+        "sample_rate": null,
+        "device_name": null,
+        "stim_name": "X1_PulsTrn_20Hz_DA_0",
+        "stim_meta": "{\"type\": \"Stimulus\", \"args\": {\"start_time\": 0, \"description\": \"X1_PulsTrn_20Hz_DA_0\", \"units\": null}, \"items\": [{\"type\": \"Offset\", \"args\": {\"start_time\": 0, \"description\": \"holding current\", \"units\": \"A\", \"amplitude\": -7.509226018775905e-10}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 0.01584, \"description\": \"test pulse\", \"units\": null, \"duration\": 0.01, \"amplitude\": -5.000000413701855e-11}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 0.5416667000000001, \"description\": \"Epoch 0\", \"units\": \"A\", \"duration\": 0.5, \"amplitude\": 0.0}, \"items\": []}, {\"type\": \"SquarePulseTrain\", \"args\": {\"start_time\": 1.0416667, \"description\": \"Epoch 1\", \"units\": \"A\", \"n_pulses\": 8, \"pulse_duration\": 0.003, \"amplitude\": 1e-09, \"interval\": 0.05}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 1.3946717, \"description\": \"Epoch 2\", \"units\": \"A\", \"duration\": 0.25, \"amplitude\": 0.0}, \"items\": []}, {\"type\": \"SquarePulseTrain\", \"args\": {\"start_time\": 1.6446717, \"description\": \"Epoch 3\", \"units\": \"A\", \"n_pulses\": 4, \"pulse_duration\": 0.003, \"amplitude\": 1e-09, \"interval\": 0.05}, \"items\": []}, {\"type\": \"SquarePulse\", \"args\": {\"start_time\": 1.7976767, \"description\": \"Epoch 4\", \"units\": \"A\", \"duration\": 0.5, \"amplitude\": 0.0}, \"items\": []}]}",
+        "meta": "null"
+      },
+      "qc": {
+        "id": 715954,
+        "recording_id": 716337,
+        "clamp_mode": "ic",
+        "patch_mode": null,
+        "baseline_potential": 0.0035752933472394943,
+        "baseline_current": -7.509226018775905e-10,
+        "baseline_noise_stdev": 2.575606049504131e-05,
+        "nearest_test_pulse_id": 716337,
+        "qc_pass": 0,
+        "access_adj_baseline_potential": null,
+        "meta": "{\"qc_failures\": [\"baseline potential of 3.58 mV is outside of bounds [-85mV, -45mV]\"]}"
+      },
+      "first_pulse": {
+        "id": 19022903,
+        "stim_pulse_id": 5801332,
+        "baseline_id": 16555375,
+        "ex_qc_pass": 0,
+        "onset_time": 1.04166,
+        "pre_recording_id": 716340,
+        "n_spikes": 0
+      },
+      "fits": [],
+      "difference_uV": null
+    }
+  ],
+  "summary": {
+    "candidate_ic_records": 5,
+    "selected": 5,
+    "usable": 2,
+    "ex_qc_pass": 4,
+    "mean_difference_uV": -129.6614547253946,
+    "median_difference_uV": -129.6614547253946,
+    "positive": 1
+  },
+  "new_bytes": 1179648
+}

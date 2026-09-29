@@ -1,0 +1,13 @@
+{
+  "result_sha256": "c263e018b20d7ee76190459ff2344f5335b4c1d8f6227f4de388a651d3b02133",
+  "verifier_sha256": "d226516b2cfb6a989f9e1238827f8836a6e8ae76b07247a244082a8c2ba58b93",
+  "graphs_verified": 64,
+  "spatial_graphs_regenerated": 64,
+  "full_graph_replays": [
+    0,
+    63
+  ],
+  "reciprocal_direct_count_checked": true,
+  "adequacy_recalculated": true,
+  "biological_validation": false
+}

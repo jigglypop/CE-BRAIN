@@ -1,0 +1,36 @@
+{
+  "scope": "post-result diagnostic of sweeps37..56, one experiment; not blinded confirmation or randomized sham",
+  "question": "Is the fixed first-pulse positive-minus-negative contrast distinguishable descriptively from matched baseline-window changes?",
+  "control_centers_s": [
+    0.1,
+    0.125,
+    0.15000000000000002,
+    0.17500000000000002,
+    0.2,
+    0.225,
+    0.25,
+    0.275,
+    0.30000000000000004,
+    0.325,
+    0.35,
+    0.375,
+    0.4,
+    0.42500000000000004,
+    0.45000000000000007,
+    0.475,
+    0.5
+  ],
+  "control": "17 fixed centers in notebook initial quiet interval, same pre spike fractional lag added; no voltage-based exclusion",
+  "windows": "response[2,8)ms minus[-8,-3)ms, same 100kHz interpolation; baseline controls use identical windows",
+  "summary": "actual minus mean of 17 controls per sweep; mean, median, signs, ranges; chronological groups of5; no p-values",
+  "waveform": "1ms bins from-8 to12ms, each event baseline-subtracted with[-8,-3)ms; averages only, no peak picking",
+  "limitations": "Notebook-defined baseline, not command-verified across every channel; temporal drift, spontaneous activity, cross-talk and source QC mismatch remain; controls not independent biological samples",
+  "source_sha256": {
+    "responses": "56f02b2eff4d167237ff112bc8fcda83ae57780b2214b0820bc5a63663b0224a",
+    "inventory": "fdf5d0b30b5dee6242b940c57c6523ff5e6c963f3b1c0dfe84343ca89e61ff84",
+    "full_records": "b7b867e17595435604c02cefb85f7bb8e077d826721fb2579f1f2837c8d53203",
+    "baseline": "d722d92e5f7a0cc8c705a9bfb43e2aa12c2083673def050ceb283274c03eb10e"
+  },
+  "code_sha256": "f860950df256b276753a85dfe73189424d96d7a034cf7792ce66df8d61a19d01",
+  "prior_response_check_tolerance_uV": 1e-05
+}

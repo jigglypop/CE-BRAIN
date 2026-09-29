@@ -1,0 +1,9 @@
+{
+  "question": "Does posttrain-minus-pre minus catch remain negative when catch is matched within the frozen four ordinal blocks?",
+  "method": "Same windows, units and good-only/all-quality selections. Within each block subtract per-unit catch mean paired difference from current mean paired difference. Average blocks by number of eligible stimulated trials; do not extrapolate absent current blocks. Preserve original global-catch contrast and all block results.",
+  "limits": "Exploratory coarse time stratification. Blocks are not independent replicates, within-block drift and movement remain. No p-value or causal identification.",
+  "code_sha256": "6cccb7a18c0603dd64ad30b26225db968be5da2727a582a9b3332f7c0e83cd05",
+  "behavior_sha256": "a6fc6d9717a69590f38eba139901ff2117b33667bdcfcc39246b931bffaabf3c",
+  "prior_sha256": "a45e922b897062491552ddaa2dc193c929f0f2a212689dc3a479cde37948e4f6",
+  "counts_sha256": "20551389d09a648bec78fe9d9c82ec998ad859dd6ba7f2bc917247afa11b115c"
+}

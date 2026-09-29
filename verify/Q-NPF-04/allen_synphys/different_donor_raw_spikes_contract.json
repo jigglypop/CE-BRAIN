@@ -1,0 +1,29 @@
+{
+  "question": "누락된 max-slope 정렬 4건이 고정 검출기의 파형 경계 판정과 일치하는가?",
+  "selection": "기존 coverage의 전세포 기록 716326,716328 전체 24 pulse. 누락 4건과 나머지 20건; 제외 없음.",
+  "method": "DB recording→sync→experiment 및 electrode→device 결박. NWB electrode_name으로 전압과 명령을 선택. 양의 명령 peak 절반 경계, 12 pulse와 DB onset 1 sample 이내 확인.",
+  "detector": "고정 neuroanalysis IC 기본값; actual onset [-10,+12)ms. max_time 호출 결과를 감싸 기록하되 입력·출력·threshold는 변경하지 않음.",
+  "decision": "후보 수, max-slope 존재, DB 시각 차이, max_time 경계 반환을 전부 보고. 불일치는 보존.",
+  "limits": "사후 원인 진단. 원 생산 환경 동일성 및 독립 spike ground truth 없음. 인과·뇌 구조·CE 증거 승격 아님.",
+  "coverage_sha256": "3003b83655836b5a9592442f4c8ab15fe1d91d66c75f7dc96083df048db24cf8",
+  "source_manifest": {
+    "repository": "https://github.com/campagnola/neuroanalysis",
+    "commit": "bbe61c4047de592984b4e7089d0803a7d4101c7f",
+    "files": {
+      "neuroanalysis/__init__.py": "27e8febb48ada44153ea2add9969a2c50a9831a74d9755fdd53c549a888b1cc2",
+      "neuroanalysis/data.py": "0699a12ed400961f7bf941dfa57ce5ddc7ff4e43ec5acae7dd034877c21ae418",
+      "neuroanalysis/stats.py": "4c1affb469a017bb5e7c8899acb3284af840f58ced9d64d0bc2831093f14d3ae",
+      "neuroanalysis/units.py": "7a02a8eeed1ee8f640a201a7cb1ed51c0722f34c3a6bb4c447100f171dd7fdb4",
+      "neuroanalysis/baseline.py": "4f5e14d5e8e607b424903e17bc13b4eb5d0dbe9316a2f5cbc248a32f8d37062a",
+      "neuroanalysis/event_detection.py": "aec6726e5d85b516ab75464d69057cacec1c09fa9a2ce88c54fde8bbb3e616cf",
+      "neuroanalysis/filter.py": "3cffa8ca5f11d352ecf99e040aa79094100e47245c87bf886faed07f6fc74eb1",
+      "neuroanalysis/spike_detection.py": "b6db5640912710b3609f243229f81aa8c59109747737f00c14138402613c90d4",
+      "neuroanalysis/util/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "neuroanalysis/util/data_test.py": "f76a02f3d47329a650734f19192007013449165a81c23b7f537ac2b027dcf7d9",
+      "neuroanalysis/util/optional_import.py": "8c83fba926d9deef2ada057d9222bc033b701948e64f410d716d45c3d766f3ad"
+    },
+    "scope": "Reference detector runtime source; historical DB producer commit unverified"
+  },
+  "code_sha256": "e6d2653f7704ad92861c9e44d44db5edad4594d1c89d7cb12c5072f5fe1434b0",
+  "reader_sha256": "5aa32fce7a19372183cf304ecf70bcd1d168dc723ffcffbc74f0711d83db50ae"
+}

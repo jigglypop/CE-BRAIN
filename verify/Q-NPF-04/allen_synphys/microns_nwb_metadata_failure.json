@@ -1,0 +1,6 @@
+{
+  "status": "METADATA_ENUMERATION_INCOMPLETE",
+  "reason": "whole-file visititems reached configured32MiB cumulative cache cap; error string says64MiB but actual LIMIT was32MiB",
+  "session": 55947,
+  "exit_code": 1
+}

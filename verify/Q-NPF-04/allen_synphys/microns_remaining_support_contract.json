@@ -1,0 +1,10 @@
+{
+  "question": "Which remaining scans support the fixed linked-versus-unlisted field-distance contrast before further fluorescence acquisition?",
+  "method": "Same v1718 either-direction annotated synapse labels and scan4/7 numerical distance cuts. Unique nucleus with exactly one unit can enter fixed geometry. Multi-unit nuclei are listed and excluded only from the diagnostic singleton subset, not silently resolved.",
+  "gate": "At least one stratum containing both linked and unlisted dyads is necessary. Multi-unit identity requires a separate declared rule. No fluorescence used, no geometry threshold relaxation.",
+  "code_sha256": "2c8e9e4bfca1921a6af783c32df17eabddb81f4c0f4c6994fac26a3d30dab77d",
+  "structure_sha256": "fee7afc8c37528e3e1c1a4365f016f74c8ff42b6dad0f06100ef32d38adb0434",
+  "cells_sha256": "1959b7b7eaad7501c6331551c3ed1e229b40ed3c339ff6273b6365009e33fb09",
+  "targets_sha256": "e88b1c4f1e83ed644e5a01f537e60bd32c8faaf09c594a9f419c540c3e4898d2",
+  "cut_source_sha256": "18a4eecb4d6c61b63b9394cb1b0f9d178760f8a1d2020a265619a6ac4dee87fd"
+}

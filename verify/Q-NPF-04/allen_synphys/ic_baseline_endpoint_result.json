@@ -1,0 +1,1713 @@
+{
+  "reason": "Previous metadata used n/fs end; pinned TSeries.t_end=(n-1)/fs. Tail window shifted earlier by one sample (10us).",
+  "timing": "source boundary correction; original contract and output preserved",
+  "source_result_sha256": "b7b867e17595435604c02cefb85f7bb8e077d826721fb2579f1f2837c8d53203",
+  "code_sha256": "5095be1d52fc93026ea9b270b3166c45fcbb3b534c7dafda1d1f345206f56313",
+  "corrected_passed": 50,
+  "total": 50,
+  "changed_passes": 0,
+  "max_abs_baseline_delta_uV": 0.0,
+  "max_abs_noise_delta_uV": 0.00813914959843487,
+  "records": [
+    {
+      "sweep": 32,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 32,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.2238451220258,
+        "baseline_sd_uV": 473.1889080653967,
+        "holding_pA": 3.6881266270161195,
+        "baseline_segment_means_mV": [
+          -67.59478076505353,
+          -68.05353407274708
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.0014964859031465494,
+      "pass_changed": false
+    },
+    {
+      "sweep": 32,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 32,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -69.71860888524331,
+        "baseline_sd_uV": 450.015967752697,
+        "holding_pA": -318.4948971224344,
+        "baseline_segment_means_mV": [
+          -68.79947351560223,
+          -69.72423818499921
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0002885247166091176,
+      "pass_changed": false
+    },
+    {
+      "sweep": 33,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          3.1590100000000003,
+          4.15901
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 33,
+        "target": "positive",
+        "samples": 415902,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -67.56608742779646,
+        "baseline_sd_uV": 398.49888809247926,
+        "holding_pA": 5.370430228995859,
+        "baseline_segment_means_mV": [
+          -67.37358577728293,
+          -67.70433366835881
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0019903815172597206,
+      "pass_changed": false
+    },
+    {
+      "sweep": 33,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          3.1590100000000003,
+          4.15901
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 33,
+        "target": "negative",
+        "samples": 415902,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.75019604074167,
+        "baseline_sd_uV": 209.69068140148644,
+        "holding_pA": -318.4948971224344,
+        "baseline_segment_means_mV": [
+          -68.71970510483101,
+          -69.01029048995571
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0012386209224644062,
+      "pass_changed": false
+    },
+    {
+      "sweep": 34,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          3.9090100000000003,
+          4.90901
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 34,
+        "target": "positive",
+        "samples": 490902,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -67.79467970259778,
+        "baseline_sd_uV": 290.35460015562273,
+        "holding_pA": 4.076350802045825,
+        "baseline_segment_means_mV": [
+          -67.7995045990877,
+          -67.68306759503734
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.00813914959843487,
+      "pass_changed": false
+    },
+    {
+      "sweep": 34,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          3.9090100000000003,
+          4.90901
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 34,
+        "target": "negative",
+        "samples": 490902,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -69.13871988057043,
+        "baseline_sd_uV": 402.5997192039107,
+        "holding_pA": -322.5127664929772,
+        "baseline_segment_means_mV": [
+          -68.37155763254538,
+          -69.18730516099161
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0003809162517427467,
+      "pass_changed": false
+    },
+    {
+      "sweep": 35,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          4.347510000000001,
+          5.347510000000001
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 35,
+        "target": "positive",
+        "samples": 534752,
+        "nonfinite": 0,
+        "zeros": 1,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.12808039546633,
+        "baseline_sd_uV": 532.1062136833172,
+        "holding_pA": 3.235199001055955,
+        "baseline_segment_means_mV": [
+          -67.21883191876675,
+          -67.9285507475663
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0007398997161089937,
+      "pass_changed": false
+    },
+    {
+      "sweep": 35,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          4.347510000000001,
+          5.347510000000001
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 35,
+        "target": "negative",
+        "samples": 534752,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.72478190535375,
+        "baseline_sd_uV": 215.22915483232978,
+        "holding_pA": -323.5969270320993,
+        "baseline_segment_means_mV": [
+          -68.44047281236286,
+          -68.81720638578348
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0027107491437163844,
+      "pass_changed": false
+    },
+    {
+      "sweep": 36,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          6.2860000000000005,
+          7.2860000000000005
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 36,
+        "target": "positive",
+        "samples": 728601,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -67.72797253191483,
+        "baseline_sd_uV": 349.96290436323073,
+        "holding_pA": 2.2646392140029947,
+        "baseline_segment_means_mV": [
+          -67.56608782377981,
+          -67.75748606018091
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.0002483370959680542,
+      "pass_changed": false
+    },
+    {
+      "sweep": 36,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          6.2860000000000005,
+          7.2860000000000005
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 36,
+        "target": "negative",
+        "samples": 728601,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -69.07369262575769,
+        "baseline_sd_uV": 270.83155290383036,
+        "holding_pA": -326.3392889252259,
+        "baseline_segment_means_mV": [
+          -68.59571434012219,
+          -69.08342340167822
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.0016262919338601023,
+      "pass_changed": false
+    },
+    {
+      "sweep": 37,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 37,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.31178902882235,
+        "baseline_sd_uV": 343.5995842350023,
+        "holding_pA": 1.5528955074964323,
+        "baseline_segment_means_mV": [
+          -67.87203415163545,
+          -68.04028153244477
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -6.223869684163219e-05,
+      "pass_changed": false
+    },
+    {
+      "sweep": 37,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 37,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 1,
+        "baseline_samples": 150000,
+        "baseline_mV": -69.04262684360305,
+        "baseline_sd_uV": 237.25703682825085,
+        "holding_pA": -327.5510140898774,
+        "baseline_segment_means_mV": [
+          -68.56114477900147,
+          -69.00142145366104
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 6.1357077072443644e-06,
+      "pass_changed": false
+    },
+    {
+      "sweep": 38,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 38,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 1,
+        "baseline_samples": 150000,
+        "baseline_mV": -67.9343512517716,
+        "baseline_sd_uV": 347.19821076845756,
+        "holding_pA": 1.2940795353702517,
+        "baseline_segment_means_mV": [
+          -67.96678665491525,
+          -68.32555606122284
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.0010954190897791705,
+      "pass_changed": false
+    },
+    {
+      "sweep": 38,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 38,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -69.87548536061372,
+        "baseline_sd_uV": 141.3661569222835,
+        "holding_pA": -328.6989846973398,
+        "baseline_segment_means_mV": [
+          -69.87867282269029,
+          -69.87960443993731
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.003954007932719605,
+      "pass_changed": false
+    },
+    {
+      "sweep": 39,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 39,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.02755087522542,
+        "baseline_sd_uV": 393.215730616858,
+        "holding_pA": 2.7175670568035937,
+        "baseline_segment_means_mV": [
+          -67.68666734519306,
+          -67.8543546197746
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.0027936954885490195,
+      "pass_changed": false
+    },
+    {
+      "sweep": 39,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 39,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -69.56958044508714,
+        "baseline_sd_uV": 276.0053042951103,
+        "holding_pA": -327.6147964026421,
+        "baseline_segment_means_mV": [
+          -68.98210511851505,
+          -69.4932914453616
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -7.880622280254101e-05,
+      "pass_changed": false
+    },
+    {
+      "sweep": 40,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 40,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 1,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.1844515892031,
+        "baseline_sd_uV": 342.89564396771135,
+        "holding_pA": 2.199935329391667,
+        "baseline_segment_means_mV": [
+          -68.16490217808865,
+          -67.9653193240655
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.0004879617343362952,
+      "pass_changed": false
+    },
+    {
+      "sweep": 40,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 40,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -69.59370079675753,
+        "baseline_sd_uV": 207.2363433463581,
+        "holding_pA": -328.6352023845751,
+        "baseline_segment_means_mV": [
+          -69.21743248687022,
+          -69.56109332426867
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.0007678824555910069,
+      "pass_changed": false
+    },
+    {
+      "sweep": 41,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 41,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 1,
+        "baseline_samples": 150000,
+        "baseline_mV": -73.3825141216862,
+        "baseline_sd_uV": 316.3966522063319,
+        "holding_pA": -20.05823285244901,
+        "baseline_segment_means_mV": [
+          -72.75924187308419,
+          -73.26726481583887
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.000669259960659474,
+      "pass_changed": false
+    },
+    {
+      "sweep": 41,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 41,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -69.43619335860092,
+        "baseline_sd_uV": 342.212967054518,
+        "holding_pA": -328.6352023845751,
+        "baseline_segment_means_mV": [
+          -69.44113233834622,
+          -69.97582293030149
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0033154580339669337,
+      "pass_changed": false
+    },
+    {
+      "sweep": 42,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 42,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -67.91666099157453,
+        "baseline_sd_uV": 315.8381710472302,
+        "holding_pA": 2.782271158255356,
+        "baseline_segment_means_mV": [
+          -67.90604155605222,
+          -67.6888653965975
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0032138158233578906,
+      "pass_changed": false
+    },
+    {
+      "sweep": 42,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 42,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.9757675483059,
+        "baseline_sd_uV": 184.10081055767373,
+        "holding_pA": -328.6352023845751,
+        "baseline_segment_means_mV": [
+          -68.8079879178621,
+          -68.97549376627231
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.00048465559891042176,
+      "pass_changed": false
+    },
+    {
+      "sweep": 43,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 43,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.11482713111197,
+        "baseline_sd_uV": 403.7537123148996,
+        "holding_pA": 2.329343315454757,
+        "baseline_segment_means_mV": [
+          -67.96295943015461,
+          -67.86658446372401
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.002383355861866221,
+      "pass_changed": false
+    },
+    {
+      "sweep": 43,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 43,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 1,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.6997342766337,
+        "baseline_sd_uV": 210.00149200568956,
+        "holding_pA": -333.2270293032735,
+        "baseline_segment_means_mV": [
+          -68.45058395297983,
+          -68.76054727367153
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0005232172373723643,
+      "pass_changed": false
+    },
+    {
+      "sweep": 44,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 44,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.02798288231844,
+        "baseline_sd_uV": 319.06700945163914,
+        "holding_pA": 1.2940795353702517,
+        "baseline_segment_means_mV": [
+          -67.95859702439931,
+          -67.83261946485734
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.0013258191783052098,
+      "pass_changed": false
+    },
+    {
+      "sweep": 44,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 44,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -69.19273637098708,
+        "baseline_sd_uV": 237.1302169517738,
+        "holding_pA": -336.60713105732043,
+        "baseline_segment_means_mV": [
+          -68.76675824061084,
+          -69.20756444357009
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.0006870531094875787,
+      "pass_changed": false
+    },
+    {
+      "sweep": 45,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 45,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.21927026479165,
+        "baseline_sd_uV": 233.58337428371468,
+        "holding_pA": 0.8411517467797613,
+        "baseline_segment_means_mV": [
+          -68.11855595197987,
+          -68.10482815217928
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.00037380694521971236,
+      "pass_changed": false
+    },
+    {
+      "sweep": 45,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 45,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 1,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.76157084753082,
+        "baseline_sd_uV": 165.37783942028216,
+        "holding_pA": -336.60713105732043,
+        "baseline_segment_means_mV": [
+          -68.82973175464927,
+          -68.9992776128457
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 7.870839235124549e-05,
+      "pass_changed": false
+    },
+    {
+      "sweep": 46,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 46,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.00489816679081,
+        "baseline_sd_uV": 203.19433394656852,
+        "holding_pA": 1.5528955074964323,
+        "baseline_segment_means_mV": [
+          -68.00643358749296,
+          -67.98803153225184
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.002586075401893595,
+      "pass_changed": false
+    },
+    {
+      "sweep": 46,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 46,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.49502992310019,
+        "baseline_sd_uV": 163.80244275637128,
+        "holding_pA": -337.81888397754756,
+        "baseline_segment_means_mV": [
+          -68.45073930058243,
+          -68.48581698207336
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.00022174242198502725,
+      "pass_changed": false
+    },
+    {
+      "sweep": 47,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 47,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.00021166804946,
+        "baseline_sd_uV": 323.6285717599863,
+        "holding_pA": 0.9705596786327431,
+        "baseline_segment_means_mV": [
+          -67.89382905028418,
+          -68.05883841305639
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.000586812756978361,
+      "pass_changed": false
+    },
+    {
+      "sweep": 47,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 47,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 1,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.87438979509497,
+        "baseline_sd_uV": 370.02674977433117,
+        "holding_pA": -341.5816240970315,
+        "baseline_segment_means_mV": [
+          -68.15207728780055,
+          -68.87998464933962
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0002629877596973529,
+      "pass_changed": false
+    },
+    {
+      "sweep": 48,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 48,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 1,
+        "baseline_samples": 150000,
+        "baseline_mV": -67.5899225150118,
+        "baseline_sd_uV": 582.5933940506059,
+        "holding_pA": 0.5176318358321441,
+        "baseline_segment_means_mV": [
+          -67.28635681272108,
+          -67.58472647166826
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0009530589179576054,
+      "pass_changed": false
+    },
+    {
+      "sweep": 48,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 48,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.93660540103325,
+        "baseline_sd_uV": 249.98820610986667,
+        "holding_pA": -345.4081742848558,
+        "baseline_segment_means_mV": [
+          -68.4934736524352,
+          -68.96718284211046
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.00029639986476581726,
+      "pass_changed": false
+    },
+    {
+      "sweep": 49,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 49,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -67.98603750418872,
+        "baseline_sd_uV": 368.9379867887747,
+        "holding_pA": 1.4881915144648872,
+        "baseline_segment_means_mV": [
+          -67.43148014419903,
+          -67.85962333256451
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.0006000052983381465,
+      "pass_changed": false
+    },
+    {
+      "sweep": 49,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 49,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 1,
+        "baseline_samples": 150000,
+        "baseline_mV": -69.19502798887139,
+        "baseline_sd_uV": 260.3485513012478,
+        "holding_pA": -349.04337753438597,
+        "baseline_segment_means_mV": [
+          -68.66138997342959,
+          -69.1528022928367
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.00015765145582236073,
+      "pass_changed": false
+    },
+    {
+      "sweep": 50,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 50,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.00586428081189,
+        "baseline_sd_uV": 301.59883088554074,
+        "holding_pA": 0.9705596786327431,
+        "baseline_segment_means_mV": [
+          -67.88589773536278,
+          -67.80218448622365
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0006482874157995866,
+      "pass_changed": false
+    },
+    {
+      "sweep": 50,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 50,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 1,
+        "baseline_samples": 150000,
+        "baseline_mV": -70.46942820353563,
+        "baseline_sd_uV": 333.1953787226831,
+        "holding_pA": -350.3188850118022,
+        "baseline_segment_means_mV": [
+          -69.86510151040018,
+          -70.5224141406504
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.00021184315681921362,
+      "pass_changed": false
+    },
+    {
+      "sweep": 51,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 51,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 1,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.4161028472157,
+        "baseline_sd_uV": 432.42799056455726,
+        "holding_pA": -0.12940795895803603,
+        "baseline_segment_means_mV": [
+          -67.82667725479727,
+          -68.21836157317544
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0025564167643210567,
+      "pass_changed": false
+    },
+    {
+      "sweep": 51,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 51,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -69.14421968857881,
+        "baseline_sd_uV": 149.00011357099734,
+        "holding_pA": -349.04337753438597,
+        "baseline_segment_means_mV": [
+          -69.16401290745915,
+          -69.31196601141036
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0012154174661418438,
+      "pass_changed": false
+    },
+    {
+      "sweep": 52,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 52,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -67.98774362022897,
+        "baseline_sd_uV": 267.68031332782226,
+        "holding_pA": 1.8117113712023958,
+        "baseline_segment_means_mV": [
+          -67.92663406435453,
+          -67.94502780645438
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.0007585348655538837,
+      "pass_changed": false
+    },
+    {
+      "sweep": 52,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 52,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -70.00637023228812,
+        "baseline_sd_uV": 343.69949403749155,
+        "holding_pA": -349.04337753438597,
+        "baseline_segment_means_mV": [
+          -69.31435323060944,
+          -69.9566837995249
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.00027271391854810645,
+      "pass_changed": false
+    },
+    {
+      "sweep": 53,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 53,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.52841795900389,
+        "baseline_sd_uV": 388.35986877755494,
+        "holding_pA": 0.12940795895803603,
+        "baseline_segment_means_mV": [
+          -67.89884799522471,
+          -68.16675705747974
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.0002646228720664112,
+      "pass_changed": false
+    },
+    {
+      "sweep": 53,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 53,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -70.60181957513144,
+        "baseline_sd_uV": 418.29797971577267,
+        "holding_pA": -349.04337753438597,
+        "baseline_segment_means_mV": [
+          -69.74256469092033,
+          -70.57145839934279
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -0.0016996829506865652,
+      "pass_changed": false
+    },
+    {
+      "sweep": 54,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 54,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.23973917229459,
+        "baseline_sd_uV": 247.2832023339197,
+        "holding_pA": -0.5176318358321441,
+        "baseline_segment_means_mV": [
+          -67.98422742509177,
+          -68.09415380093374
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.001508831441071834,
+      "pass_changed": false
+    },
+    {
+      "sweep": 54,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 54,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -69.59284129712299,
+        "baseline_sd_uV": 192.5485237431001,
+        "holding_pA": -345.1530727893726,
+        "baseline_segment_means_mV": [
+          -69.55838727753981,
+          -69.84962890704992
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.001328078797314447,
+      "pass_changed": false
+    },
+    {
+      "sweep": 55,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 55,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -67.885792863976,
+        "baseline_sd_uV": 263.5036820026467,
+        "holding_pA": 0.3235198838425629,
+        "baseline_segment_means_mV": [
+          -67.7302809623769,
+          -67.81845021041542
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0008341093457602256,
+      "pass_changed": false
+    },
+    {
+      "sweep": 55,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 55,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -69.80004019664501,
+        "baseline_sd_uV": 165.59987995183906,
+        "holding_pA": -345.1530727893726,
+        "baseline_segment_means_mV": [
+          -69.69670085161422,
+          -69.75219595526329
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": -3.182783197530625e-05,
+      "pass_changed": false
+    },
+    {
+      "sweep": 56,
+      "target": "positive",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 56,
+        "target": "positive",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 0,
+        "baseline_samples": 150000,
+        "baseline_mV": -68.36107179513468,
+        "baseline_sd_uV": 293.68117482495063,
+        "holding_pA": -0.19411193843705404,
+        "baseline_segment_means_mV": [
+          -68.00086312656553,
+          -68.38248149025722
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0013188180002430272,
+      "pass_changed": false
+    },
+    {
+      "sweep": 56,
+      "target": "negative",
+      "corrected_regions_s": [
+        [
+          0.05,
+          0.55
+        ],
+        [
+          2.7840100000000003,
+          3.7840100000000003
+        ]
+      ],
+      "corrected_measurement": {
+        "sweep": 56,
+        "target": "negative",
+        "samples": 378402,
+        "nonfinite": 0,
+        "zeros": 2,
+        "baseline_samples": 150000,
+        "baseline_mV": -69.38087184737348,
+        "baseline_sd_uV": 316.8585291494262,
+        "holding_pA": -345.1530727893726,
+        "baseline_segment_means_mV": [
+          -68.7756814107429,
+          -69.32322268537644
+        ],
+        "failures": [],
+        "reconstructed_recording_pass": true
+      },
+      "baseline_delta_uV": 0.0,
+      "noise_delta_uV": 0.0004948753635289904,
+      "pass_changed": false
+    }
+  ]
+}

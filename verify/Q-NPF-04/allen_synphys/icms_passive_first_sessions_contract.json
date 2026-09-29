@@ -1,0 +1,45 @@
+{
+  "selected": [
+    {
+      "asset_id": "e9967f1a-fa70-4043-b165-ecfa54b29af0",
+      "blob": "167ad10b-909e-4970-853c-dc0008e19c34",
+      "zarr": null,
+      "path": "sub-ICMS45/sub-ICMS45_ses-2022-02-05_ecephys.nwb",
+      "size": 294448,
+      "created": "2026-06-12T17:14:49.474197Z",
+      "modified": "2026-07-15T20:16:14.433965Z"
+    },
+    {
+      "asset_id": "ef9c4610-1c3f-4514-b2c7-bcef4c6d0c81",
+      "blob": "aeea2eea-0b83-46d9-9924-bdc47dcd5a07",
+      "zarr": null,
+      "path": "sub-ICMS48/sub-ICMS48_ses-2022-04-08_ecephys+ophys.nwb",
+      "size": 5341000,
+      "created": "2026-06-12T17:14:53.982435Z",
+      "modified": "2026-07-15T20:16:14.535042Z"
+    },
+    {
+      "asset_id": "4943b10e-7eb1-4c84-969e-6604d15745cf",
+      "blob": "b7035fb9-e5e1-4fde-9187-1d7bda64b4ce",
+      "zarr": null,
+      "path": "sub-ICMS54/sub-ICMS54_ses-2022-05-20_ecephys.nwb",
+      "size": 681744,
+      "created": "2026-06-12T17:14:54.188322Z",
+      "modified": "2026-07-15T20:16:14.547714Z"
+    },
+    {
+      "asset_id": "14177584-3fdb-43cc-b00a-15c05cce5101",
+      "blob": "4529a37c-9b58-4517-b0f6-af6834f9591d",
+      "zarr": null,
+      "path": "sub-ICMS56/sub-ICMS56_ses-2022-06-21_ecephys.nwb",
+      "size": 2046728,
+      "created": "2026-06-12T17:14:56.550055Z",
+      "modified": "2026-07-15T20:16:14.585813Z"
+    }
+  ],
+  "version": "0.260715.2016",
+  "selection": "Earliest ecephys date for each of four nonbehavior subjects in fixed manifest before payload inspection",
+  "question": "Are passive-cohort recordings capable of the same time-window spike analysis?",
+  "gate": "Inspect units spike times, stimulation intervals, recording extent and behavioral event fields. Do not infer absent spike arrays as zero firing. No substitute sessions on schema failure.",
+  "claim_ceiling": "L0 input audit, not causal comparison"
+}

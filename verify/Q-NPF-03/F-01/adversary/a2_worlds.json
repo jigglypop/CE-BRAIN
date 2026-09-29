@@ -1,0 +1,179 @@
+{
+  "note": "adversary A2",
+  "seed": 20260902,
+  "checks": [
+    {
+      "name": "A2_baseline",
+      "row": {
+        "tag": "카드 동결(주변 분산)",
+        "lam_true": 0.9897,
+        "p": 1.3659,
+        "rho": 0.139,
+        "R": 0.5439,
+        "Gamma": 1.4561,
+        "logalpha": 0.236,
+        "bins": 512,
+        "pairs": 16
+      }
+    },
+    {
+      "name": "A2a_chart_offset_dF/F_zero_point",
+      "rows": [
+        {
+          "tag": "offset=-0.50*mean",
+          "lam_true": 0.9008,
+          "p": 0.7044,
+          "rho": 0.1865,
+          "R": 1.0518,
+          "Gamma": 0.9482,
+          "logalpha": 0.4673,
+          "bins": 512,
+          "pairs": 16
+        },
+        {
+          "tag": "offset=-0.25*mean",
+          "lam_true": 0.9751,
+          "p": 1.0396,
+          "rho": 0.152,
+          "R": 0.8124,
+          "Gamma": 1.1876,
+          "logalpha": 0.311,
+          "bins": 512,
+          "pairs": 16
+        },
+        {
+          "tag": "offset=-0.10*mean",
+          "lam_true": 0.9868,
+          "p": 1.2359,
+          "rho": 0.1431,
+          "R": 0.6527,
+          "Gamma": 1.3473,
+          "logalpha": 0.2609,
+          "bins": 512,
+          "pairs": 16
+        },
+        {
+          "tag": "offset=+0.00*mean",
+          "lam_true": 0.9897,
+          "p": 1.3659,
+          "rho": 0.139,
+          "R": 0.5439,
+          "Gamma": 1.4561,
+          "logalpha": 0.236,
+          "bins": 512,
+          "pairs": 16
+        },
+        {
+          "tag": "offset=+0.10*mean",
+          "lam_true": 0.9904,
+          "p": 1.4952,
+          "rho": 0.1359,
+          "R": 0.434,
+          "Gamma": 1.566,
+          "logalpha": 0.2156,
+          "bins": 512,
+          "pairs": 16
+        },
+        {
+          "tag": "offset=+0.25*mean",
+          "lam_true": 0.9891,
+          "p": 1.6885,
+          "rho": 0.1324,
+          "R": 0.268,
+          "Gamma": 1.732,
+          "logalpha": 0.1911,
+          "bins": 512,
+          "pairs": 16
+        },
+        {
+          "tag": "offset=+0.50*mean",
+          "lam_true": 0.984,
+          "p": 2.0155,
+          "rho": 0.1256,
+          "R": -0.0154,
+          "Gamma": 2.0154,
+          "logalpha": 0.1633,
+          "bins": 448,
+          "pairs": 14
+        },
+        {
+          "tag": "offset=+1.00*mean",
+          "lam_true": 0.9689,
+          "p": 2.6521,
+          "rho": 0.1169,
+          "R": -0.5769,
+          "Gamma": 2.5769,
+          "logalpha": 0.1344,
+          "bins": 256,
+          "pairs": 8
+        },
+        {
+          "tag": "offset=+2.00*mean",
+          "lam_true": null,
+          "note": "게이트 이전에 자료 없음(0/0)",
+          "bins": 0,
+          "pairs": 0
+        }
+      ],
+      "verdict": "Phi=mu^2/s2 는 곱셈 재척도에만 불변이고 영점 이동에는 전혀 불변이 아니다. dF/F 처럼 영점이 전처리(F0 창) 선택인 관측에서 Gamma·Lambda 가 이동한다."
+    },
+    {
+      "name": "A2b_conditional_Sigma_of_21.42",
+      "row": {
+        "tag": "조건부 Sigma (Poisson 만)",
+        "lam_true": 0.9945,
+        "p": 1.0,
+        "rho": 0.0604,
+        "R": 0.9396,
+        "Gamma": 1.0604,
+        "logalpha": 0.236,
+        "bins": 512,
+        "pairs": 16
+      },
+      "verdict": "(21.42) 의 Sigma 는 상태 고정 조건부 출력공분산이다. 시행공유 gain·구동 jitter 는 상태변동이라 21장 §5.2 가 금한 치환(조건부 식에 주변 모멘트)이다. 이 읽기에서는 p, Gamma 가 다른 값이 된다."
+    },
+    {
+      "name": "A2c_channel_isolation_21.47",
+      "rows": [
+        {
+          "tag": "효능만 dW",
+          "lam_true": null,
+          "note": "게이트 이전에 자료 없음(0/0)",
+          "bins": 0,
+          "pairs": 0
+        },
+        {
+          "tag": "내재 gain 만",
+          "lam_true": 0.9861,
+          "p": 1.3659,
+          "rho": 0.139,
+          "R": 0.5439,
+          "Gamma": 1.4561,
+          "logalpha": 0.2218,
+          "bins": 512,
+          "pairs": 16
+        },
+        {
+          "tag": "전도속도만 v",
+          "lam_true": null,
+          "note": "게이트 이전에 자료 없음(0/0)",
+          "bins": 0,
+          "pairs": 0
+        },
+        {
+          "tag": "셋 다(카드)",
+          "lam_true": 0.9897,
+          "p": 1.3659,
+          "rho": 0.139,
+          "R": 0.5439,
+          "Gamma": 1.4561,
+          "logalpha": 0.236,
+          "bins": 512,
+          "pairs": 16
+        }
+      ],
+      "verdict": "카드 recovers 넷째 극한('지연 채널은 평균궤적으로만 Phi 를 움직인다')의 증거로 인용된 lam_true=0.988 은 세 채널을 동시에 켠 세계의 값이다. 지연 채널 단독 세계를 실제로 돌려야 그 극한이 검사된다."
+    }
+  ],
+  "chart_mean_level": 0.31367
+}

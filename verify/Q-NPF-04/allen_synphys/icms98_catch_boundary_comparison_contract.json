@@ -1,0 +1,8 @@
+{
+  "code_sha256": "82d77f97799f921d3e92a2f5a2cfbde62d22c1172267b3bb3996503a642cff09",
+  "input_sha256": "f272cda53d49e66155f5dfc1792b202b67de94e6a17473ffe36908663b9c4865",
+  "selection_sha256": "347698997dc60d0a0f00bca539a7978ec990c2882da5e3caec57d7401217aa70",
+  "selection": "Reuse36 geometry-valid no-response good catches from original next-session analysis; trial-start+0.8 to+1.3 seconds.",
+  "method": "All21 units; fixed500 one-ms bins per trial, count spikes. Exclude target from population sum, smooth sigma10bins truncate4. Compare concatenated all eligible triggers; same concatenated signal using only trial-interior triggers; per-trial smoothed signal with identical interior triggers. Full-window mean centering. Require >=50 interior trigger spikes for descriptive direction counts. Fixed duration, not last-spike-derived duration.",
+  "boundary": "New exploratory measurement sensitivity on task catches, not reproduction of passive source estimator. Internal trigger bin range100..399; endpoint PC at zero lag. No shuffle significance or causal claim."
+}

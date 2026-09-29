@@ -1,0 +1,139 @@
+{
+  "created_utc": "2026-09-05T11:59:27.736414+00:00",
+  "code_sha256": "68606c023fa34e34a4ab32e84c71ac55a2c41916ae16d1b4e0d76d5e2de41b8d",
+  "execution": {
+    "python": "3.11.9",
+    "executable": "C:\\Users\\dongh\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "numpy": "2.4.6",
+    "h5py": "3.16.0",
+    "runner": ".codex/hooks/python.cmd",
+    "runner_sha256": "0945ec0ff80df3a2e273b7d5dd0e4dc25433b39697c1fd3b351df910eaa2f781"
+  },
+  "source_sha256": "2f34fbf39624468dcdfb5d892ec341b40dbd1393abe592a9acedd231656ca403",
+  "helper_sha256": "507af06777eec79792ff52c39229fc89fcdb1f62b3e9dda8f17047e4052ff2c6",
+  "raw_reader_sha256": "5aa32fce7a19372183cf304ecf70bcd1d168dc723ffcffbc74f0711d83db50ae",
+  "question": "Do independently injected small currents identify reproducible cross-cell voltage transfer at fixed neuronal positions?",
+  "objective_chain": "fixed P -> independent current basis -> observed cross-cell voltage operator -> only if identified, assess mechanism and spatial metric",
+  "preparation": "same five mouse VisP cells, IC TargetV sweeps 10..15, NWB 1630015960.701",
+  "remote": {
+    "url": "https://allen-synphys.s3-us-west-2.amazonaws.com/synphys-1630015960.701.nwb",
+    "bytes": 188824605,
+    "etag": "\"b2994f78213ba3f1a1e5c5e52ff0ed9f-23\"",
+    "last_modified": "Sat, 04 May 2024 07:06:47 GMT"
+  },
+  "cells": [
+    {
+      "cell_id": 24114,
+      "device": 0,
+      "position_m": [
+        0.00014101447305859462,
+        -0.0020715507993670614,
+        0.001762240193784237
+      ]
+    },
+    {
+      "cell_id": 24115,
+      "device": 1,
+      "position_m": [
+        0.00017446645356636894,
+        -0.0020713981381286304,
+        0.0017190800281241536
+      ]
+    },
+    {
+      "cell_id": 24117,
+      "device": 3,
+      "position_m": [
+        0.00015516516676629245,
+        -0.002135189331490825,
+        0.0017404300160706043
+      ]
+    },
+    {
+      "cell_id": 24118,
+      "device": 5,
+      "position_m": [
+        8.575189427606539e-05,
+        -0.0021037996857660186,
+        0.001754219876602292
+      ]
+    },
+    {
+      "cell_id": 24119,
+      "device": 6,
+      "position_m": [
+        0.0001252641959581524,
+        -0.002082610037177801,
+        0.001771989744156599
+      ]
+    }
+  ],
+  "train_sweep": 10,
+  "signed_holdout_sweeps": [
+    11,
+    12
+  ],
+  "extrapolation_sweeps": [
+    13,
+    14,
+    15
+  ],
+  "onsets_s": [
+    0.74166,
+    2.64166,
+    4.54166,
+    6.44166,
+    8.34166
+  ],
+  "duration_s": 1.0,
+  "windows_relative_onset_s": {
+    "baseline": [
+      -0.3,
+      -0.2
+    ],
+    "sham": [
+      -0.2,
+      -0.1
+    ],
+    "late_early": [
+      0.6,
+      0.7
+    ],
+    "late": [
+      0.8,
+      0.9
+    ]
+  },
+  "input_scope": "Pulse epochs and sparse command values inspected before voltage responses. Actual five-channel command vectors averaged in all windows, not rounded metadata amplitudes.",
+  "model": "V_mV=1e-3*Z_MOhm*I_pA; columns are stimulated cells, rows measured cells. Z is a specified-window effective transfer, not an anatomical adjacency or a steady state unless plateau checked.",
+  "ce_delta": "Off-diagonal effective transfer over diagonal-only response; mechanistic/metric interpretation deferred",
+  "comparators": [
+    "full Z from sweep10",
+    "diagonal-only Z from same training",
+    "zero response on nonstimulated cells",
+    "pre-stimulus sham change"
+  ],
+  "command_tolerance_pA": 0.05,
+  "expected_rate_Hz": 50000.0,
+  "small_input_checks": {
+    "maximum_source_late_change_mV": 10.0,
+    "spike_flag_voltage_mV": -20.0
+  },
+  "decision": {
+    "offdiagonal_rmse_ratio_max": 0.8,
+    "required_signed_sweeps": [
+      11,
+      12
+    ],
+    "interpretation": "20 percent lower nonstimulated RMSE than diagonal-only prediction in EACH signed holdout is necessary for predictive cross-cell support; zero is a separate comparator; plateau, drift, quality and calibration remain separate gates"
+  },
+  "uncertainty": "Per-pulse and per-sweep descriptive errors; baseline sample SD and sham changes are technical comparators, not independent animal inference or p-values.",
+  "falsifier": "No off-diagonal holdout improvement, unresolved input rank, non-small/spiking response or drifting plateau prevents connection inference from this candidate.",
+  "limits": [
+    "Hyperpolarizing subthreshold currents need not engage chemical synapses; null transfer does not mean no synaptic connection.",
+    "Common reference, stimulation crosstalk, drift and hidden neurons can produce off-diagonal voltage changes.",
+    "Own-cell voltage includes membrane and electrode effects; off-diagonal response is an observation, not calibrated synaptic conductance.",
+    "Six sweeps of one recording are not independent animals; no SPD forcing, inversion into a metric, or graph reconstruction."
+  ],
+  "claim_ceiling": "BIO_EVIDENCE_L1 specified-window transfer only; mechanism, metric and whole-brain structure unestablished"
+}

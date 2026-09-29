@@ -1,0 +1,2402 @@
+{
+  "contract_sha256": "b59e3db27416915839260dfab3d2e538f7672ec51325d8e8e17fef09cb677c5e",
+  "analysis": {
+    "noise": [
+      {
+        "donor": "581866",
+        "holding_V": -0.07000026851892471,
+        "sweeps": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "controls_pA": [
+          [
+            7.055312471808371,
+            -6.055312475804174,
+            2.204843741189902,
+            -4.067031233748954,
+            -3.6631249853628884,
+            11.718281203176053,
+            -4.316874982750625,
+            5.77624997691923,
+            0.4639062481463097,
+            1.4548437441867281,
+            8.06249996778384,
+            0.36218749855278154,
+            -4.649843731420134,
+            -7.234374971092864,
+            -1.5309374938826714,
+            -4.665312481358322,
+            1.6914062432414743
+          ],
+          [
+            3.1259374875093826,
+            -7.538906219876015,
+            -2.870312488530787,
+            4.465312482157498,
+            -0.03265624986947898,
+            1.020156245923665,
+            6.369687474547966,
+            8.496562466049419,
+            0.21890624912529585,
+            2.259218740972626,
+            2.220937491125601,
+            -1.0556249957818913,
+            11.442656204277368,
+            3.0596874877741067,
+            0.08890624964473574,
+            -4.1057812335941115,
+            11.664374953391462
+          ],
+          [
+            2.3414062406441714,
+            -6.631406223502189,
+            4.86171873057351,
+            5.169687479342919,
+            1.4307812442828947,
+            -4.161093733373102,
+            1.275156244904698,
+            -4.930937480296962,
+            3.546874985827387,
+            -3.336406236668333,
+            0.5537499977873118,
+            -5.7504687270222155,
+            -0.30999999876131973,
+            0.25234374899171513,
+            0.5435937478279148,
+            3.0453124878315627,
+            0.5742187477055352
+          ],
+          [
+            4.623281231526309,
+            -0.7312499970780796,
+            1.5448437438271339,
+            1.0754687457026555,
+            5.867499976554631,
+            0.8732812465105176,
+            -3.0653124877516014,
+            -1.3287499946905337,
+            3.1009374876093085,
+            7.625624969529515,
+            -4.287499982867975,
+            1.2682812449321816,
+            -2.1629687413572407,
+            0.9581249961715359,
+            4.199843733218261,
+            -5.414062478366474,
+            -4.5314062318933965
+          ],
+          [
+            0.2960937488168574,
+            -2.7710937389272767,
+            11.825937452745908,
+            -7.5612499697867195,
+            3.3224999867239227,
+            -1.6785937432926559,
+            -14.677968691349708,
+            2.3643749905523865,
+            7.592812469660658,
+            6.89734372243956,
+            -3.4340624862781697,
+            2.4892187400535333,
+            6.058281225792299,
+            0.5467187478154176,
+            6.167812475354635,
+            -2.3346874906710324,
+            3.8535937346017746
+          ]
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.055000267922878265,
+        "sweeps": [
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "controls_pA": [
+          [
+            -4.786093730875674,
+            1.3204687447236694,
+            7.733749969097452,
+            -2.897812488420904,
+            -2.0915624916424997,
+            -5.964218726168149,
+            9.468437462165987,
+            -6.587343723678292,
+            -1.2754687449034536,
+            1.6979687432152353,
+            -25.807499896878305,
+            -0.12984374948118238,
+            6.058593725791054,
+            -10.054531209824074,
+            2.764531238953464,
+            -5.157499979391663,
+            9.841874960673834
+          ],
+          [
+            3.5689062357393357,
+            -18.65374992546326,
+            -7.934687468294568,
+            -9.488124962087321,
+            20.289374918927663,
+            -5.072343729731942,
+            -0.9456249962214731,
+            -7.7328124691011855,
+            -7.3110937207862925,
+            16.133281185534596,
+            -8.088906217678314,
+            1.096093745620205,
+            -1.02312499591179,
+            0.143749999425593,
+            6.887812472477674,
+            0.9629687461521936,
+            -2.8078124887805247
+          ],
+          [
+            3.7760937349115093,
+            10.496406208058435,
+            0.7590624969669008,
+            8.23515621709395,
+            -2.186718741262293,
+            -3.5921874856463583,
+            -4.9543749802032595,
+            0.5696874977236845,
+            -3.9060937343920177,
+            -5.544374977845738,
+            -2.5689062397351905,
+            5.037499979871122,
+            24.04703115391281,
+            7.101562471623557,
+            -4.824531230722129,
+            7.55859371979735,
+            -6.277812474915054
+          ],
+          [
+            -4.4164062323529425,
+            -5.48359372808863,
+            1.1743749953074105,
+            4.082968733685223,
+            1.9249999923080692,
+            10.395156208463014,
+            13.850624944655621,
+            -8.981874964110165,
+            7.027031221921365,
+            -9.909687460402838,
+            5.621249977538596,
+            2.080312491687459,
+            8.1218749675466,
+            0.5084374979683923,
+            7.265781220967373,
+            3.7156249851531054,
+            2.989218738055684
+          ],
+          [
+            -3.9356249842739937,
+            -8.664218715379441,
+            -3.5040624859984595,
+            -2.7965624888254834,
+            -6.26546872496442,
+            -4.226406233112112,
+            1.4159374943422178,
+            6.97671872212241,
+            4.507968731987099,
+            -1.8117187427607189,
+            3.338124986661488,
+            5.455624978200431,
+            8.562031215787805,
+            2.501718740003596,
+            3.5673437357456104,
+            -5.394843728443273,
+            19.008124924047284
+          ]
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.0700037032365799,
+        "sweeps": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "controls_pA": [
+          [
+            -0.6287499974876389,
+            0.7681249969307236,
+            0.6224999975126128,
+            1.2762499949003567,
+            8.15562496741173,
+            -0.4762499980969988,
+            1.725624993104743,
+            -0.38437499846411327,
+            -0.3812499984766001,
+            -0.8531249965910808,
+            -4.743124981047408,
+            -0.019374999922581272,
+            -1.1506249954023293,
+            -1.5399999938464635,
+            0.9737499961090865,
+            -6.828124972716159,
+            0.26624999893611767
+          ],
+          [
+            0.7724999969132429,
+            1.2549999949852675,
+            2.559374989773241,
+            -0.08062499967783918,
+            3.1968749872259177,
+            -2.105624991586338,
+            4.605624981596831,
+            -3.2512499870086455,
+            0.11312499954797435,
+            0.7337499970680795,
+            0.043124999827681455,
+            3.048749987817796,
+            1.1399999954447861,
+            0.8337499966684996,
+            2.2974999908196416,
+            2.3799999904899893,
+            0.5149999979421613
+          ],
+          [
+            -0.14187499943309587,
+            -6.399999974426863,
+            -0.2606249989585956,
+            -2.394999990430052,
+            1.0049999959842164,
+            -2.439999990250242,
+            -1.8874999924579197,
+            1.498124994013789,
+            -1.2724999949153415,
+            -0.22312499910843625,
+            1.1824999952749649,
+            2.087499991658763,
+            -1.250624995002751,
+            -0.051874999792719284,
+            0.1993749992033389,
+            1.0668749957369776,
+            -1.775624992904951
+          ],
+          [
+            -2.095624991626295,
+            2.479374990092905,
+            -2.545624989828184,
+            -0.6412499974376933,
+            -1.0049999959842197,
+            -1.9256249923055835,
+            1.361874994558217,
+            -2.0868749916612583,
+            1.7531249929948591,
+            -3.0606249877703453,
+            -0.1612499993556751,
+            -0.5299999978822242,
+            1.9031249923954885,
+            4.258749982982876,
+            -1.6337499934718598,
+            -0.19624999921582317,
+            -1.1231249955122118
+          ],
+          [
+            2.335624990667302,
+            0.001249999995002403,
+            1.3743749945082666,
+            -2.099374991611312,
+            -6.836874972681196,
+            -4.469999982138758,
+            6.027499975915298,
+            -1.9612499921632327,
+            -0.34249999863143715,
+            2.007499991978425,
+            0.25187499899355614,
+            0.3931249984291508,
+            0.7943749968258333,
+            -0.721249997118028,
+            -0.9781249960916034,
+            1.7631249929548993,
+            -1.1131249955521731
+          ]
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.054988786578178406,
+        "sweeps": [
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "controls_pA": [
+          [
+            -1.5718749937190923,
+            4.865624980557927,
+            -7.784999968892673,
+            -1.1393749954472785,
+            -7.136249971484946,
+            2.917499988342252,
+            2.0162499919434578,
+            2.1581249913765572,
+            1.5224999939163908,
+            -9.946874960254243,
+            -0.27499999890114907,
+            5.703749977208948,
+            3.2662499869487176,
+            -2.0087499919734304,
+            0.21624999913591333,
+            -3.4318749862869073,
+            0.936874996256424
+          ],
+          [
+            -2.334999990669801,
+            -0.7406249970406008,
+            5.549999977823297,
+            -1.7106249931646886,
+            1.7443749930298247,
+            0.2437499990260179,
+            -0.6449999974227004,
+            2.5462499898256916,
+            -6.381249974501789,
+            1.838749992652716,
+            -0.3612499985565152,
+            -5.314374978764804,
+            1.333124994673097,
+            1.3537499945906721,
+            -0.6743749973053248,
+            4.893749980445542,
+            -0.5637499977473569
+          ],
+          [
+            11.348124954655123,
+            -3.4618749861670297,
+            0.8106249967609034,
+            -0.0637499997452712,
+            -3.8912499844513277,
+            -3.97874998410169,
+            0.7787499968882743,
+            2.9474999882223614,
+            0.4012499983966955,
+            1.9481249922156751,
+            -0.8493749966060619,
+            0.18749999925078698,
+            -0.13999999944059227,
+            -3.014999987952659,
+            0.05374999978522612,
+            1.9993749920108965,
+            1.8143749927501143
+          ],
+          [
+            -5.0243749799235875,
+            0.3437499986264428,
+            -1.8206249927251328,
+            -2.8562499885869856,
+            -0.4568749981744155,
+            -5.833124976691984,
+            -2.2181249911368015,
+            -0.45874999816692236,
+            -4.457499982188702,
+            -1.5874999936566707,
+            6.2206249751436085,
+            9.766874960973498,
+            -0.24749999901103156,
+            -0.6587499973677592,
+            0.6693749973253023,
+            -6.780624972905964,
+            4.785624980877593
+          ],
+          [
+            0.09374999962539349,
+            1.1712499953199207,
+            1.7231249931147385,
+            -2.8212499887268407,
+            -0.6699999973228131,
+            0.08374999966536134,
+            0.5606249977598541,
+            -1.047499995814392,
+            5.00937497998352,
+            2.547499989820688,
+            -3.4799999860946,
+            -0.7418749970356097,
+            -4.289374982860507,
+            -4.542499981849059,
+            2.1249999915089193,
+            -0.24874999900604045,
+            -1.0093749959667313
+          ]
+        ]
+      }
+    ],
+    "records": [
+      {
+        "donor": "581866",
+        "holding_V": -0.07000026851892471,
+        "n_records": 1,
+        "sweeps": [
+          "0"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -5.240642340170531,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.375,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 20,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.375
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 0.75
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.07000026851892471,
+        "n_records": 1,
+        "sweeps": [
+          "0"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -5.240642340170531,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.375,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 20,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.375
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 0.75
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.07000026851892471,
+        "n_records": 2,
+        "sweeps": [
+          "0",
+          "1"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 81,
+        "evaluation_combinations": 64,
+        "threshold_pA": -4.366336788108539,
+        "train_null_flag_fraction": 0.04938271604938271,
+        "evaluation_null_flag_fraction": 0.265625,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 10,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.265625
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.390625
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.578125
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.765625
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 0.96875
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.07000026851892471,
+        "n_records": 2,
+        "sweeps": [
+          "0",
+          "1"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -3.9337586648370237,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.375,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 10,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.375
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.375
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.625
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.75
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.07000026851892471,
+        "n_records": 3,
+        "sweeps": [
+          "0",
+          "1",
+          "2"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 729,
+        "evaluation_combinations": 512,
+        "threshold_pA": -3.2351562370729456,
+        "train_null_flag_fraction": 0.04938271604938271,
+        "evaluation_null_flag_fraction": 0.41796875,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 5,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.41796875
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.552734375
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.673828125
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.78125
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.921875
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.07000026851892471,
+        "n_records": 3,
+        "sweeps": [
+          "0",
+          "1",
+          "2"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -2.6943749892337956,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.5,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 5,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.625
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.625
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.75
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.07000026851892471,
+        "n_records": 4,
+        "sweeps": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 6561,
+        "evaluation_combinations": 4096,
+        "threshold_pA": -3.1066102306421586,
+        "train_null_flag_fraction": 0.04999237921048621,
+        "evaluation_null_flag_fraction": 0.319091796875,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 5,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.319091796875
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.474365234375
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.640380859375
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.773681640625
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.93408203125
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.07000026851892471,
+        "n_records": 4,
+        "sweeps": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -1.5357899244188533,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.5,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 2,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.875
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.07000026851892471,
+        "n_records": 5,
+        "sweeps": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 59049,
+        "evaluation_combinations": 32768,
+        "threshold_pA": -3.823253456945255,
+        "train_null_flag_fraction": 0.04999237921048621,
+        "evaluation_null_flag_fraction": 0.189239501953125,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 5,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.189239501953125
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.358184814453125
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.549407958984375
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.7218017578125
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.932952880859375
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 0.999969482421875
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.07000026851892471,
+        "n_records": 5,
+        "sweeps": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -4.631003453717651,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.125,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 5,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.25
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.25
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.625
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.875
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.055000267922878265,
+        "n_records": 1,
+        "sweeps": [
+          "5"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -26.019340173809624,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.0,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": null,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 0.375
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.055000267922878265,
+        "n_records": 1,
+        "sweeps": [
+          "5"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -26.019340173809624,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.0,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": null,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 0.375
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.055000267922878265,
+        "n_records": 2,
+        "sweeps": [
+          "5",
+          "6"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 81,
+        "evaluation_combinations": 64,
+        "threshold_pA": -13.667612792609136,
+        "train_null_flag_fraction": 0.04938271604938271,
+        "evaluation_null_flag_fraction": 0.015625,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": 20,
+        "qualified_grid_for_80pct_pA": 20,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.015625
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.03125
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.0625
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.078125
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.15625
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 0.46875
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 0.9375
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.055000267922878265,
+        "n_records": 2,
+        "sweeps": [
+          "5",
+          "6"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -17.200503403492398,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.0,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": 20,
+        "qualified_grid_for_80pct_pA": 20,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 0.25
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 0.875
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.055000267922878265,
+        "n_records": 3,
+        "sweeps": [
+          "5",
+          "6",
+          "7"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 729,
+        "evaluation_combinations": 512,
+        "threshold_pA": -10.299999958843228,
+        "train_null_flag_fraction": 0.04938271604938271,
+        "evaluation_null_flag_fraction": 0.0078125,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": 20,
+        "qualified_grid_for_80pct_pA": 20,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.0078125
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.01953125
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.029296875
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.0546875
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.140625
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 0.59375
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.055000267922878265,
+        "n_records": 3,
+        "sweeps": [
+          "5",
+          "6",
+          "7"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -12.466406200186709,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.0,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": 20,
+        "qualified_grid_for_80pct_pA": 20,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 0.375
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.055000267922878265,
+        "n_records": 4,
+        "sweeps": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 6561,
+        "evaluation_combinations": 4096,
+        "threshold_pA": -7.543324622636135,
+        "train_null_flag_fraction": 0.04999237921048621,
+        "evaluation_null_flag_fraction": 0.054931640625,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": 10,
+        "qualified_grid_for_80pct_pA": 10,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.054931640625
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.094970703125
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.162109375
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.24755859375
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.466552734375
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 0.91650390625
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.055000267922878265,
+        "n_records": 4,
+        "sweeps": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -9.154457428698375,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.0,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": 10,
+        "qualified_grid_for_80pct_pA": 10,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.25
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.055000267922878265,
+        "n_records": 5,
+        "sweeps": [
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 59049,
+        "evaluation_combinations": 32768,
+        "threshold_pA": -6.190649280818944,
+        "train_null_flag_fraction": 0.04999237921048621,
+        "evaluation_null_flag_fraction": 0.102020263671875,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 10,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.102020263671875
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.18023681640625
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.28753662109375
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.418304443359375
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.685791015625
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 0.984619140625
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "581866",
+        "holding_V": -0.055000267922878265,
+        "n_records": 5,
+        "sweeps": [
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -7.249149276589395,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.0,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": 10,
+        "qualified_grid_for_80pct_pA": 10,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.25
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.0700037032365799,
+        "n_records": 1,
+        "sweeps": [
+          "0"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -5.280902756676332,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.125,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 10,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.75
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.0700037032365799,
+        "n_records": 1,
+        "sweeps": [
+          "0"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -5.280902756676332,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.125,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 10,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.75
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.0700037032365799,
+        "n_records": 2,
+        "sweeps": [
+          "0",
+          "1"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 81,
+        "evaluation_combinations": 64,
+        "threshold_pA": -2.917291655009744,
+        "train_null_flag_fraction": 0.04938271604938271,
+        "evaluation_null_flag_fraction": 0.203125,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 3,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.203125
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.328125
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.546875
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.875
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.0700037032365799,
+        "n_records": 2,
+        "sweeps": [
+          "0",
+          "1"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -3.4657291528182963,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.0,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": 5,
+        "qualified_grid_for_80pct_pA": 5,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.25
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.75
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.0700037032365799,
+        "n_records": 3,
+        "sweeps": [
+          "0",
+          "1",
+          "2"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 729,
+        "evaluation_combinations": 512,
+        "threshold_pA": -1.8452777704044108,
+        "train_null_flag_fraction": 0.04938271604938271,
+        "evaluation_null_flag_fraction": 0.27734375,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 2,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.27734375
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.521484375
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.814453125
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.986328125
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.0700037032365799,
+        "n_records": 3,
+        "sweeps": [
+          "0",
+          "1",
+          "2"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -1.7606944374090563,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.25,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 2,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.25
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.75
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.875
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.0700037032365799,
+        "n_records": 4,
+        "sweeps": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 6561,
+        "evaluation_combinations": 4096,
+        "threshold_pA": -1.4848263829558146,
+        "train_null_flag_fraction": 0.04999237921048621,
+        "evaluation_null_flag_fraction": 0.26123046875,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 2,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.26123046875
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.571533203125
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.87548828125
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.98486328125
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.0700037032365799,
+        "n_records": 4,
+        "sweeps": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -1.2623263838448808,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.25,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 2,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.25
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.75
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.875
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.0700037032365799,
+        "n_records": 5,
+        "sweeps": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 59049,
+        "evaluation_combinations": 32768,
+        "threshold_pA": -1.7061111042938275,
+        "train_null_flag_fraction": 0.04999237921048621,
+        "evaluation_null_flag_fraction": 0.180084228515625,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 2,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.180084228515625
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.50762939453125
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.8583984375
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.987213134765625
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.0700037032365799,
+        "n_records": 5,
+        "sweeps": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -0.9931111071428343,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.375,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 2,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.375
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.75
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.054988786578178406,
+        "n_records": 1,
+        "sweeps": [
+          "5"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -6.8061110839152335,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.125,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 20,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.25
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 0.625
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.054988786578178406,
+        "n_records": 1,
+        "sweeps": [
+          "5"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -6.8061110839152335,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.125,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 20,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.25
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 0.625
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.054988786578178406,
+        "n_records": 2,
+        "sweeps": [
+          "5",
+          "6"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 81,
+        "evaluation_combinations": 64,
+        "threshold_pA": -3.6106249855726533,
+        "train_null_flag_fraction": 0.04938271604938271,
+        "evaluation_null_flag_fraction": 0.09375,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": 10,
+        "qualified_grid_for_80pct_pA": 10,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.09375
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.140625
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.1875
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.28125
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.578125
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.054988786578178406,
+        "n_records": 2,
+        "sweeps": [
+          "5",
+          "6"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -2.076874991701215,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.125,
+        "evaluation_null_gate_le_10pct": false,
+        "minimum_grid_for_80pct_pA": 5,
+        "qualified_grid_for_80pct_pA": null,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.125
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.25
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.875
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.054988786578178406,
+        "n_records": 3,
+        "sweeps": [
+          "5",
+          "6",
+          "7"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 729,
+        "evaluation_combinations": 512,
+        "threshold_pA": -3.201203690912323,
+        "train_null_flag_fraction": 0.04938271604938271,
+        "evaluation_null_flag_fraction": 0.078125,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": 5,
+        "qualified_grid_for_80pct_pA": 5,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.078125
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.15234375
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.267578125
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.4296875
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.8046875
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.054988786578178406,
+        "n_records": 3,
+        "sweeps": [
+          "5",
+          "6",
+          "7"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -3.064120358126747,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.0,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": 5,
+        "qualified_grid_for_80pct_pA": 5,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.25
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.5
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.875
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.054988786578178406,
+        "n_records": 4,
+        "sweeps": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 6561,
+        "evaluation_combinations": 4096,
+        "threshold_pA": -2.8938367939923513,
+        "train_null_flag_fraction": 0.04999237921048621,
+        "evaluation_null_flag_fraction": 0.086181640625,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": 5,
+        "qualified_grid_for_80pct_pA": 5,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.086181640625
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.187255859375
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.35400390625
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.561767578125
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.88818359375
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.054988786578178406,
+        "n_records": 4,
+        "sweeps": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -2.3414930461994095,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.0,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": 5,
+        "qualified_grid_for_80pct_pA": 5,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.375
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.625
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.75
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.875
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.054988786578178406,
+        "n_records": 5,
+        "sweeps": [
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "dependence": "independent_record_draws",
+        "train_combinations": 59049,
+        "evaluation_combinations": 32768,
+        "threshold_pA": -2.4538472124171333,
+        "train_null_flag_fraction": 0.04999237921048621,
+        "evaluation_null_flag_fraction": 0.09100341796875,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": 5,
+        "qualified_grid_for_80pct_pA": 5,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.09100341796875
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.23236083984375
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.458831787109375
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.70709228515625
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 0.957366943359375
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      },
+      {
+        "donor": "593646",
+        "holding_V": -0.054988786578178406,
+        "n_records": 5,
+        "sweeps": [
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "dependence": "shared_center_draws",
+        "train_combinations": 9,
+        "evaluation_combinations": 8,
+        "threshold_pA": -2.008597214196263,
+        "train_null_flag_fraction": 0.0,
+        "evaluation_null_flag_fraction": 0.0,
+        "evaluation_null_gate_le_10pct": true,
+        "minimum_grid_for_80pct_pA": 5,
+        "qualified_grid_for_80pct_pA": 5,
+        "rates": [
+          {
+            "added_inward_mean_pA": 0,
+            "flag_fraction": 0.0
+          },
+          {
+            "added_inward_mean_pA": 1,
+            "flag_fraction": 0.375
+          },
+          {
+            "added_inward_mean_pA": 2,
+            "flag_fraction": 0.625
+          },
+          {
+            "added_inward_mean_pA": 3,
+            "flag_fraction": 0.75
+          },
+          {
+            "added_inward_mean_pA": 5,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 10,
+            "flag_fraction": 1.0
+          },
+          {
+            "added_inward_mean_pA": 20,
+            "flag_fraction": 1.0
+          }
+        ]
+      }
+    ],
+    "checks": "Cartesian enumeration agrees with itertools; additive shift; stored control means; nondecreasing response rates"
+  }
+}

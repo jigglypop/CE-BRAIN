@@ -1,0 +1,23 @@
+{
+  "frozen_at": "2026-09-04T19:52:36.660247+00:00",
+  "question": "원 명령에서 전세포 spike 후보가 검출되는지, 그 시각 기준으로 후세포 전류가 어떠한지",
+  "kind": "POST_RESULT_REFERENCE_DETECTOR_AUDIT",
+  "upstream_commit": "bbe61c4047de592984b4e7089d0803a7d4101c7f",
+  "source_manifest_sha256": "d578a418a27cf8a5558b1030d78c81ed921890690eec3f5499f4d294932565bf",
+  "code_sha256": "89cfb476f2dc07d7f7975925852fb4a7aaa677a0b6c8ad729893bf7c736f2453",
+  "array_sha256": "bcfdbdba77302dd5ff64d504f959b6093c2e815e493408a83bedaad89efb1571",
+  "previous_result_sha256": "58ca953d01fc9fcb5cadd8ebac138302f8daa8db056168758545d6860a5bd162",
+  "runtime": {
+    "python": "3.11.9",
+    "executable": "C:\\Users\\dongh\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1"
+  },
+  "compatibility": "Only in-process np.trapz=np.trapezoid when absent; no upstream source edits. Trapezoid formula fixture verified.",
+  "scope": "모든 보유 60 pulse, 임의 제외 없음. 고정 source의 detect_vc_evoked_spikes 기본값. 검출기는 VC pulse 안의 unclamped spike를 가정한다. 과거 DB producer commit과 동일성 미확인.",
+  "edges": "실제 command의 baseline 대비 양의 peak 절반을 넘는 연속 pulse 첫/끝 sample. 물리적 spike detector threshold는 수정하지 않음.",
+  "negative_control": "각 보유 pre trace의[-6,-4.5]ms 기준선 구간에 같은 검출기를 적용. 생물학적 거짓양성률의 보편 추정 아님.",
+  "alignment": "정확히1개이고 max_slope_time 유한한 후보만 진단창 요약; 제외건수 기록. 후세포 baseline[-8,-3)ms, response[1,5)ms는 max_slope 상대시간; interpolation100kHz; 후세포값으로 선택하지 않음.",
+  "summary": "60/120mV dose를 구분. 표준 source의 peak_value는 사용하지 않음. 추정 onset/max_slope/peak_time만 기록.",
+  "ceiling": "Spike 후보와 원본 전류의 L1 기술적 관측. 단일시냅스 인과, 연결 부재, 원 spike QC 또는 원 평균 재현을 확정하지 않음."
+}

@@ -1,0 +1,383 @@
+{
+  "contract_sha256": "b3efd5d1ade1518bc56772e628043e76f6b01871ce857b30555234cf90993c45",
+  "session": "9",
+  "cells": [
+    {
+      "cell": 7,
+      "train_n": 32,
+      "test_n": 5,
+      "baseline_mse": 1.21522045520642,
+      "target_mse": 1.1586031990764623,
+      "evaluation": [
+        {
+          "event": 40,
+          "observed": 0.08452950558213705,
+          "baseline_prediction": -0.06540164889361694,
+          "target_prediction": -0.061402373147815784,
+          "train_scale": 0.06406748537572718
+        },
+        {
+          "event": 43,
+          "observed": -0.08968510422606603,
+          "baseline_prediction": -0.0525785592983896,
+          "target_prediction": -0.051013478574772474,
+          "train_scale": 0.06406748537572718
+        },
+        {
+          "event": 48,
+          "observed": -0.001631604526834831,
+          "baseline_prediction": -0.020399941976035913,
+          "target_prediction": -0.01640066623023476,
+          "train_scale": 0.06406748537572718
+        },
+        {
+          "event": 54,
+          "observed": -0.012748222603579358,
+          "baseline_prediction": -0.00041680166526664923,
+          "target_prediction": 0.0035824740805345053,
+          "train_scale": 0.06406748537572718
+        },
+        {
+          "event": 57,
+          "observed": 0.021174239764028123,
+          "baseline_prediction": -0.0029020463443787847,
+          "target_prediction": -0.0012274569649666663,
+          "train_scale": 0.06406748537572718
+        }
+      ]
+    },
+    {
+      "cell": 26,
+      "train_n": 33,
+      "test_n": 5,
+      "baseline_mse": 0.9958579929593615,
+      "target_mse": 0.8979710164768905,
+      "evaluation": [
+        {
+          "event": 40,
+          "observed": 0.006242144059310974,
+          "baseline_prediction": -0.015330571069257476,
+          "target_prediction": -0.007594206890348209,
+          "train_scale": 0.049704004780969195
+        },
+        {
+          "event": 43,
+          "observed": -0.024342174232099827,
+          "baseline_prediction": 0.005006513206461566,
+          "target_prediction": 0.0027670490630919784,
+          "train_scale": 0.049704004780969195
+        },
+        {
+          "event": 48,
+          "observed": 0.03456044797340148,
+          "baseline_prediction": 0.005232572292167697,
+          "target_prediction": 0.012968936471076963,
+          "train_scale": 0.049704004780969195
+        },
+        {
+          "event": 54,
+          "observed": 0.11620872195613811,
+          "baseline_prediction": 0.02227811345081538,
+          "target_prediction": 0.030014477629724645,
+          "train_scale": 0.049704004780969195
+        },
+        {
+          "event": 57,
+          "observed": 0.03816605818979984,
+          "baseline_prediction": 0.0022290916726465495,
+          "target_prediction": -0.009479904842932228,
+          "train_scale": 0.049704004780969195
+        }
+      ]
+    },
+    {
+      "cell": 50,
+      "train_n": 34,
+      "test_n": 4,
+      "baseline_mse": 1.3667822256268631,
+      "target_mse": 1.1713789504428485,
+      "evaluation": [
+        {
+          "event": 40,
+          "observed": 0.022169194057424388,
+          "baseline_prediction": 0.05407157480279895,
+          "target_prediction": 0.04475952857733015,
+          "train_scale": 0.11934684717448646
+        },
+        {
+          "event": 43,
+          "observed": -0.0636205179282872,
+          "baseline_prediction": 0.07529027240417359,
+          "target_prediction": 0.05805042734963838,
+          "train_scale": 0.11934684717448646
+        },
+        {
+          "event": 48,
+          "observed": -0.06820978160565988,
+          "baseline_prediction": 0.11167622814791009,
+          "target_prediction": 0.10236418192244129,
+          "train_scale": 0.11934684717448646
+        },
+        {
+          "event": 54,
+          "observed": -0.06960525876739297,
+          "baseline_prediction": 0.0891367756207496,
+          "target_prediction": 0.0798247293952808,
+          "train_scale": 0.11934684717448646
+        }
+      ]
+    },
+    {
+      "cell": 51,
+      "train_n": 36,
+      "test_n": 4,
+      "baseline_mse": 0.6071988768186231,
+      "target_mse": 0.5783235759668661,
+      "evaluation": [
+        {
+          "event": 40,
+          "observed": 0.03942175881693193,
+          "baseline_prediction": 0.13903317931949308,
+          "target_prediction": 0.13558049043868398,
+          "train_scale": 0.1599040815258829
+        },
+        {
+          "event": 43,
+          "observed": 0.07419877790248128,
+          "baseline_prediction": 0.1282975768018355,
+          "target_prediction": 0.10742251027277483,
+          "train_scale": 0.1599040815258829
+        },
+        {
+          "event": 54,
+          "observed": -0.08559028361874646,
+          "baseline_prediction": 0.1141874385516076,
+          "target_prediction": 0.1107347496707985,
+          "train_scale": 0.1599040815258829
+        },
+        {
+          "event": 57,
+          "observed": 0.06906524757056917,
+          "baseline_prediction": 0.16572125972014318,
+          "target_prediction": 0.1703347625053976,
+          "train_scale": 0.1599040815258829
+        }
+      ]
+    },
+    {
+      "cell": 60,
+      "train_n": 33,
+      "test_n": 3,
+      "baseline_mse": 0.936371314693697,
+      "target_mse": 0.8816796424659676,
+      "evaluation": [
+        {
+          "event": 40,
+          "observed": -0.08649130628622388,
+          "baseline_prediction": 0.021881978808816347,
+          "target_prediction": 0.02743556962825989,
+          "train_scale": 0.08376969107707712
+        },
+        {
+          "event": 48,
+          "observed": 0.011913859659436244,
+          "baseline_prediction": -0.04192569324078186,
+          "target_prediction": -0.036372102421338315,
+          "train_scale": 0.08376969107707712
+        },
+        {
+          "event": 57,
+          "observed": 0.051998585072514994,
+          "baseline_prediction": -0.01919903187557004,
+          "target_prediction": -0.005013047087406467,
+          "train_scale": 0.08376969107707712
+        }
+      ]
+    },
+    {
+      "cell": 66,
+      "train_n": 30,
+      "test_n": 5,
+      "baseline_mse": 0.10745935370839783,
+      "target_mse": 0.11414682693974527,
+      "evaluation": [
+        {
+          "event": 40,
+          "observed": -0.02628713641312814,
+          "baseline_prediction": -0.0124735573932241,
+          "target_prediction": -0.02254939756869657,
+          "train_scale": 0.061907128211494966
+        },
+        {
+          "event": 43,
+          "observed": -0.034036813709933514,
+          "baseline_prediction": -0.012008662442730866,
+          "target_prediction": -0.0024817281090712476,
+          "train_scale": 0.061907128211494966
+        },
+        {
+          "event": 48,
+          "observed": -0.01355988951201154,
+          "baseline_prediction": -0.0003494288870585454,
+          "target_prediction": -0.010425269062531016,
+          "train_scale": 0.061907128211494966
+        },
+        {
+          "event": 54,
+          "observed": -0.007021311746241485,
+          "baseline_prediction": -0.009406375369895048,
+          "target_prediction": -0.01948221554536752,
+          "train_scale": 0.061907128211494966
+        },
+        {
+          "event": 57,
+          "observed": -0.008327024981074953,
+          "baseline_prediction": -0.04301025776406365,
+          "target_prediction": -0.04014746206604586,
+          "train_scale": 0.061907128211494966
+        }
+      ]
+    },
+    {
+      "cell": 72,
+      "train_n": 33,
+      "test_n": 3,
+      "baseline_mse": 0.5935515596855739,
+      "target_mse": 0.2797051264431233,
+      "evaluation": [
+        {
+          "event": 40,
+          "observed": -0.06947651006711442,
+          "baseline_prediction": -0.019946845895524402,
+          "target_prediction": -0.042320586852801795,
+          "train_scale": 0.0864177642054289
+        },
+        {
+          "event": 48,
+          "observed": -0.09897055302848916,
+          "baseline_prediction": -0.00762660106157107,
+          "target_prediction": -0.030000342018848464,
+          "train_scale": 0.0864177642054289
+        },
+        {
+          "event": 57,
+          "observed": 0.07765559460378658,
+          "baseline_prediction": 0.02764482260411365,
+          "target_prediction": 0.049867024489329365,
+          "train_scale": 0.0864177642054289
+        }
+      ]
+    },
+    {
+      "cell": 94,
+      "train_n": 34,
+      "test_n": 3,
+      "baseline_mse": 0.8957608454664915,
+      "target_mse": 0.7238298424326258,
+      "evaluation": [
+        {
+          "event": 43,
+          "observed": -0.3074207952370828,
+          "baseline_prediction": -0.012490840160606944,
+          "target_prediction": -0.04426967353753711,
+          "train_scale": 0.30373214347285715
+        },
+        {
+          "event": 48,
+          "observed": 0.003303003863891364,
+          "baseline_prediction": 0.24579470112938562,
+          "target_prediction": 0.2178530068504567,
+          "train_scale": 0.30373214347285715
+        },
+        {
+          "event": 54,
+          "observed": 0.03573671649290307,
+          "baseline_prediction": 0.35530603901092844,
+          "target_prediction": 0.32736434473199955,
+          "train_scale": 0.30373214347285715
+        }
+      ]
+    },
+    {
+      "cell": 95,
+      "train_n": 32,
+      "test_n": 5,
+      "baseline_mse": 0.5312487428696255,
+      "target_mse": 0.6194414810853484,
+      "evaluation": [
+        {
+          "event": 40,
+          "observed": -0.029079497907949652,
+          "baseline_prediction": -0.011059281876848017,
+          "target_prediction": -0.022634781138087652,
+          "train_scale": 0.04440423528708645
+        },
+        {
+          "event": 43,
+          "observed": -0.07616099071207412,
+          "baseline_prediction": -0.01996883961225417,
+          "target_prediction": -0.023076934463583644,
+          "train_scale": 0.04440423528708645
+        },
+        {
+          "event": 48,
+          "observed": 0.032720753025549304,
+          "baseline_prediction": 0.000454684915643664,
+          "target_prediction": -0.01112081434559597,
+          "train_scale": 0.04440423528708645
+        },
+        {
+          "event": 54,
+          "observed": -0.032869785082174766,
+          "baseline_prediction": -0.03270614866576502,
+          "target_prediction": -0.04428164792700465,
+          "train_scale": 0.04440423528708645
+        },
+        {
+          "event": 57,
+          "observed": -0.03300481320192495,
+          "baseline_prediction": -0.006284040511764535,
+          "target_prediction": 0.0015655590941133762,
+          "train_scale": 0.04440423528708645
+        }
+      ]
+    },
+    {
+      "cell": 110,
+      "train_n": 33,
+      "test_n": 3,
+      "baseline_mse": 0.20588394902392657,
+      "target_mse": 0.12930200723084168,
+      "evaluation": [
+        {
+          "event": 40,
+          "observed": 0.07001277605402491,
+          "baseline_prediction": 0.003464713592428737,
+          "target_prediction": 0.017626381285941517,
+          "train_scale": 0.08643479198052723
+        },
+        {
+          "event": 43,
+          "observed": 0.007196522640260432,
+          "baseline_prediction": -0.006208441414117063,
+          "target_prediction": 0.011332875823359193,
+          "train_scale": 0.08643479198052723
+        },
+        {
+          "event": 48,
+          "observed": -0.012441778855356455,
+          "baseline_prediction": -0.014916199531937202,
+          "target_prediction": -0.0007545318384244212,
+          "train_scale": 0.08643479198052723
+        }
+      ]
+    }
+  ],
+  "cells_evaluated": 10,
+  "supported_test_event_count": 5,
+  "baseline_mse": 0.745533531605898,
+  "target_mse": 0.655438166856072,
+  "relative_mse_reduction": 0.12084683106842731,
+  "cells_improved": 8,
+  "status": "EXPLORATORY_GAIN"
+}

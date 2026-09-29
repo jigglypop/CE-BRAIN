@@ -1,0 +1,397 @@
+{
+  "contract_sha256": "6b5447f4a2b1f9cac1f36579d2b50455a76a224d661c024fa34e70b08b29604b",
+  "records": [
+    {
+      "sweep": 82,
+      "electrode": "electrode_2",
+      "active_command": true,
+      "step_pA": 99.99999960041973,
+      "spike_candidates": 1,
+      "clipped_candidates": 0,
+      "peak_times_s": [
+        0.16335
+      ],
+      "threshold_times_s": [
+        0.16266
+      ],
+      "peak_voltage_mV": [
+        -15.175000911508697
+      ]
+    },
+    {
+      "sweep": 82,
+      "electrode": "electrode_4",
+      "active_command": true,
+      "step_pA": 99.99999960041973,
+      "spike_candidates": 8,
+      "clipped_candidates": 1,
+      "peak_times_s": [
+        0.12149,
+        0.16691,
+        0.28451,
+        0.43932,
+        0.58401,
+        0.74045,
+        0.89471,
+        1.04925
+      ],
+      "threshold_times_s": [
+        0.1206,
+        0.1659,
+        0.28352,
+        0.43831,
+        0.58301,
+        0.73943,
+        0.89368,
+        1.04824
+      ],
+      "peak_voltage_mV": [
+        22.63125145639644,
+        25.581250452104687,
+        24.89375041945019,
+        24.700000028777815,
+        24.55000040312294,
+        24.2562515335798,
+        24.587500786373838,
+        23.981249994639022
+      ]
+    },
+    {
+      "sweep": 82,
+      "electrode": "electrode_5",
+      "active_command": true,
+      "step_pA": 99.99999960041973,
+      "spike_candidates": 1,
+      "clipped_candidates": 0,
+      "peak_times_s": [
+        0.12376
+      ],
+      "threshold_times_s": [
+        0.12299
+      ],
+      "peak_voltage_mV": [
+        21.912501422257648
+      ]
+    },
+    {
+      "sweep": 83,
+      "electrode": "electrode_2",
+      "active_command": true,
+      "step_pA": 199.99999920083945,
+      "spike_candidates": 7,
+      "clipped_candidates": 0,
+      "peak_times_s": [
+        0.07202,
+        0.09179,
+        0.16691,
+        0.28645,
+        0.44531,
+        0.60455,
+        0.95237
+      ],
+      "threshold_times_s": [
+        0.07137,
+        0.09101,
+        0.16615,
+        0.28571,
+        0.44455,
+        0.60381,
+        0.9516
+      ],
+      "peak_voltage_mV": [
+        -5.818750181008358,
+        -6.293750108202212,
+        -4.731250033987444,
+        -4.506250118667953,
+        -4.812500228581484,
+        -5.012500047346102,
+        -4.937500234518666
+      ]
+    },
+    {
+      "sweep": 83,
+      "electrode": "electrode_4",
+      "active_command": true,
+      "step_pA": 49.999999800209864,
+      "spike_candidates": 0,
+      "clipped_candidates": 0,
+      "peak_times_s": [],
+      "threshold_times_s": [],
+      "peak_voltage_mV": []
+    },
+    {
+      "sweep": 83,
+      "electrode": "electrode_5",
+      "active_command": true,
+      "step_pA": 49.999999800209864,
+      "spike_candidates": 0,
+      "clipped_candidates": 0,
+      "peak_times_s": [],
+      "threshold_times_s": [],
+      "peak_voltage_mV": []
+    },
+    {
+      "sweep": 84,
+      "electrode": "electrode_2",
+      "active_command": true,
+      "step_pA": 149.99999940062958,
+      "spike_candidates": 2,
+      "clipped_candidates": 0,
+      "peak_times_s": [
+        0.08872,
+        0.48302
+      ],
+      "threshold_times_s": [
+        0.08805,
+        0.48229
+      ],
+      "peak_voltage_mV": [
+        -10.675000697770166,
+        -9.381249873380849
+      ]
+    },
+    {
+      "sweep": 84,
+      "electrode": "electrode_4",
+      "active_command": true,
+      "step_pA": 59.99999976025183,
+      "spike_candidates": 3,
+      "clipped_candidates": 0,
+      "peak_times_s": [
+        0.25449,
+        0.6216,
+        1.0258
+      ],
+      "threshold_times_s": [
+        0.25358,
+        0.62064,
+        1.02484
+      ],
+      "peak_voltage_mV": [
+        22.39375030070656,
+        23.462500732939205,
+        23.356249964953115
+      ]
+    },
+    {
+      "sweep": 84,
+      "electrode": "electrode_5",
+      "active_command": true,
+      "step_pA": 59.99999976025183,
+      "spike_candidates": 0,
+      "clipped_candidates": 0,
+      "peak_times_s": [],
+      "threshold_times_s": [],
+      "peak_voltage_mV": []
+    },
+    {
+      "sweep": 85,
+      "electrode": "electrode_2",
+      "active_command": true,
+      "step_pA": 99.99999960041973,
+      "spike_candidates": 1,
+      "clipped_candidates": 0,
+      "peak_times_s": [
+        0.19411
+      ],
+      "threshold_times_s": [
+        0.1934
+      ],
+      "peak_voltage_mV": [
+        -14.406250684260158
+      ]
+    },
+    {
+      "sweep": 85,
+      "electrode": "electrode_4",
+      "active_command": false,
+      "step_pA": 0.0,
+      "spike_candidates": 0,
+      "clipped_candidates": 0,
+      "peak_times_s": [],
+      "threshold_times_s": [],
+      "peak_voltage_mV": []
+    },
+    {
+      "sweep": 85,
+      "electrode": "electrode_5",
+      "active_command": true,
+      "step_pA": 69.9999997202938,
+      "spike_candidates": 0,
+      "clipped_candidates": 0,
+      "peak_times_s": [],
+      "threshold_times_s": [],
+      "peak_voltage_mV": []
+    },
+    {
+      "sweep": 86,
+      "electrode": "electrode_2",
+      "active_command": true,
+      "step_pA": 109.99999956046169,
+      "spike_candidates": 1,
+      "clipped_candidates": 0,
+      "peak_times_s": [
+        0.1289
+      ],
+      "threshold_times_s": [
+        0.12824
+      ],
+      "peak_voltage_mV": [
+        -13.518750832841043
+      ]
+    },
+    {
+      "sweep": 86,
+      "electrode": "electrode_4",
+      "active_command": false,
+      "step_pA": 0.0,
+      "spike_candidates": 0,
+      "clipped_candidates": 0,
+      "peak_times_s": [],
+      "threshold_times_s": [],
+      "peak_voltage_mV": []
+    },
+    {
+      "sweep": 86,
+      "electrode": "electrode_5",
+      "active_command": true,
+      "step_pA": 79.99999968033578,
+      "spike_candidates": 0,
+      "clipped_candidates": 0,
+      "peak_times_s": [],
+      "threshold_times_s": [],
+      "peak_voltage_mV": []
+    },
+    {
+      "sweep": 87,
+      "electrode": "electrode_2",
+      "active_command": true,
+      "step_pA": 119.99999952050366,
+      "spike_candidates": 2,
+      "clipped_candidates": 0,
+      "peak_times_s": [
+        0.10569,
+        0.54891
+      ],
+      "threshold_times_s": [
+        0.10503,
+        0.54821
+      ],
+      "peak_voltage_mV": [
+        -12.550000786827887,
+        -11.80625017929704
+      ]
+    },
+    {
+      "sweep": 87,
+      "electrode": "electrode_4",
+      "active_command": false,
+      "step_pA": 0.0,
+      "spike_candidates": 0,
+      "clipped_candidates": 0,
+      "peak_times_s": [],
+      "threshold_times_s": [],
+      "peak_voltage_mV": []
+    },
+    {
+      "sweep": 87,
+      "electrode": "electrode_5",
+      "active_command": true,
+      "step_pA": 89.99999964037775,
+      "spike_candidates": 1,
+      "clipped_candidates": 0,
+      "peak_times_s": [
+        0.1379
+      ],
+      "threshold_times_s": [
+        0.13712
+      ],
+      "peak_voltage_mV": [
+        21.475001401477513
+      ]
+    },
+    {
+      "sweep": 88,
+      "electrode": "electrode_2",
+      "active_command": true,
+      "step_pA": 129.99999948054563,
+      "spike_candidates": 1,
+      "clipped_candidates": 0,
+      "peak_times_s": [
+        0.09271
+      ],
+      "threshold_times_s": [
+        0.09204
+      ],
+      "peak_voltage_mV": [
+        -11.568749977281524
+      ]
+    },
+    {
+      "sweep": 88,
+      "electrode": "electrode_4",
+      "active_command": false,
+      "step_pA": 0.0,
+      "spike_candidates": 0,
+      "clipped_candidates": 0,
+      "peak_times_s": [],
+      "threshold_times_s": [],
+      "peak_voltage_mV": []
+    },
+    {
+      "sweep": 88,
+      "electrode": "electrode_5",
+      "active_command": false,
+      "step_pA": 0.0,
+      "spike_candidates": 0,
+      "clipped_candidates": 0,
+      "peak_times_s": [],
+      "threshold_times_s": [],
+      "peak_voltage_mV": []
+    },
+    {
+      "sweep": 89,
+      "electrode": "electrode_2",
+      "active_command": true,
+      "step_pA": 139.9999994405876,
+      "spike_candidates": 2,
+      "clipped_candidates": 0,
+      "peak_times_s": [
+        0.08955,
+        0.59621
+      ],
+      "threshold_times_s": [
+        0.08889,
+        0.59549
+      ],
+      "peak_voltage_mV": [
+        -10.568749929784072,
+        -9.918750280380472
+      ]
+    },
+    {
+      "sweep": 89,
+      "electrode": "electrode_4",
+      "active_command": false,
+      "step_pA": 0.0,
+      "spike_candidates": 0,
+      "clipped_candidates": 0,
+      "peak_times_s": [],
+      "threshold_times_s": [],
+      "peak_voltage_mV": []
+    },
+    {
+      "sweep": 89,
+      "electrode": "electrode_5",
+      "active_command": false,
+      "step_pA": 0.0,
+      "spike_candidates": 0,
+      "clipped_candidates": 0,
+      "peak_times_s": [],
+      "threshold_times_s": [],
+      "peak_voltage_mV": []
+    }
+  ],
+  "verification": "PASS exact archive hashes, flat trace and all24 time-origin checks",
+  "claim": "Fixed current-release algorithm candidates; not independent biological verification or full historical pipeline reproduction"
+}

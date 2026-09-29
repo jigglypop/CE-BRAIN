@@ -1,0 +1,11 @@
+{
+  "result_sha256": "b735745c89fe7bac6b8b8a7a01e692a87d95f66cb6d33906b1fde46315a3318f",
+  "verifier_sha256": "360fe105dfffbdafe853f4cdc0440a0145da419aa310b65f116fb0335972b1ba",
+  "marginal_fits_verified": 5,
+  "joint_tables_verified": 15,
+  "fixed_minnie_coefficient_verified": true,
+  "folds_with_training_label_invariance": 5,
+  "max_marginal_error": 5.551115123125783e-17,
+  "max_baseline_gradient": 8.65441052155802e-12,
+  "biological_preregistered_confirmation": false
+}

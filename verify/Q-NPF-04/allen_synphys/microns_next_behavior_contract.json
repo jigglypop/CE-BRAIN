@@ -1,0 +1,7 @@
+{
+  "question": "What observed behavior and missingness accompany all60 repeats in scan5/3, including influential repeat10?",
+  "method": "Reuse original adjacent-finite-sample interpolation with maximum gap3 median source intervals. Apply units conversion once. Report every repeat; no outcome-based exclusions or imputation.",
+  "limits": "Descriptive behavior audit; no causal attribution of influential repeat.",
+  "code_sha256": "89dc80361e5681badf499b14ba626f543e98463df629adc738eef200b3cfe6de",
+  "source_sha256": "f20462b1aa475a9b5ecffdb3d4fb1238a2b96b9c906a6b5884327a72e52f0913"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "Q-NPF-04-ALLEN-SYNPHYS-ACQUISITION",
+  "date": "2026-09-05",
+  "authorization": "User explicitly requested finding and downloading public data after the prior blocked decision. This reopens public discovery/download for this task; historical locked restrictions and receipts are not edited.",
+  "overall_goal": "Investigate actual brain structure and mechanism; retain the complete goal rather than equating this component study with completion.",
+  "current_question": "In same-experiment, same-cell paired cortical recordings, does independently measured postsynaptic membrane resistance explain voltage-response variation beyond measured synaptic current?",
+  "why": "C17-C19 showed that gain/coupling inference depends on membrane and observation calibration. This dataset replaces some arbitrary latent parameters with measured same-cell physiology.",
+  "routes_considered": [
+    {"name":"MICrONS", "source":"https://tutorial.microns-explorer.org/programmatic_access/functional_tutorial/em_functional_intro.html", "scope":"Same-neuron anatomy/function; not direct calibrated membrane/current measurements for C19."},
+    {"name":"Randi 2023", "source":"https://www.nature.com/articles/s41586-023-06683-4", "scope":"Acute optogenetic propagation with calcium; already inventoried locally, no independent membrane/current calibration."},
+    {"name":"Allen synaptic physiology", "source":"https://registry.opendata.aws/allen-synphys/", "selected":true, "scope":"Paired cortical electrophysiology with same-cell intrinsic properties and synaptic responses."}
+  ],
+  "eligibility": {
+    "component_observation":"Eligible from official schema for same-cell membrane/current/voltage comparison; actual overlap and missingness must be counted.",
+    "full_original_chain":"NOT_ELIGIBLE_FOR_FULL_CHAIN: no complete same-unit structural intervention -> independently estimated metric -> separate behavior mediation.",
+    "not_a_substitution":"This is a prerequisite component measurement under the user's broader actual-brain research request, not a passing original card or completion of the overall goal.",
+    "claim_ceiling":"At most source-locked L1 component observation in the stated preparation. No gain/k/delay causal identification or whole-brain anatomy from this alone."
+  },
+  "source": {
+    "paper":"https://doi.org/10.1126/science.abj5861",
+    "official_registry":"https://registry.opendata.aws/allen-synphys/",
+    "official_manifest":"https://raw.githubusercontent.com/AllenInstitute/aisynphys/download_urls/download_urls.json",
+    "file":"synphys_r2.1_small.sqlite",
+    "url":"https://allen-synphys.s3-us-west-2.amazonaws.com/synphys_r2.1_small.sqlite",
+    "schema_version":"22",
+    "head_content_length":176771072,
+    "head_last_modified":"Thu, 26 Jan 2023 02:29:36 GMT",
+    "head_etag":"46d336fbe4f8200e08d40e64c3dd5093-22",
+    "etag_note":"Multipart S3 ETag is not a full-file MD5. Compute an independent local SHA-256.",
+    "license_reference":"https://alleninstitute.org/legal/terms-use/"
+  },
+  "download": {
+    "destination":"data/external/allen_synphys_r21/synphys_r2.1_small.sqlite",
+    "maximum_bytes":200000000,
+    "scope":"One 177MB summary database; no raw NWB cohort or EM volume.",
+    "reason_for_size":"The officially published small database is the smallest current summary release supporting joinable pair/cell/intrinsic measurements; not a bulk raw-data or eligibility-sample download.",
+    "network_timeout_s":45,
+    "read_only_sqlite":true
+  },
+  "before_outcomes": "Inspect schema, metadata and missingness first; freeze exact analysis, splits and controls before reading response values or calculating relationships.",
+  "next_gate":"Valid SQLite, exact expected byte count, provenance hash, and schema allowing correct same-cell joins. If missing, report that exact failure without claiming biological rejection."
+}

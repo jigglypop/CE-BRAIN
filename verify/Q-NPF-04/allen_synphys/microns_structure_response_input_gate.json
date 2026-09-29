@@ -1,0 +1,7 @@
+{
+  "cell_source_sha256": "1959b7b7eaad7501c6331551c3ed1e229b40ed3c339ff6273b6365009e33fb09",
+  "targets": 53,
+  "all_target_nuclei_and_proofreading_match": true,
+  "dyads": 1378,
+  "annotated_synapses": 115
+}

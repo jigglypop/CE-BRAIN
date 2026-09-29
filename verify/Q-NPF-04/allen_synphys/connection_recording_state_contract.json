@@ -1,0 +1,11 @@
+{
+  "question": "What recording state and DB timestamps accompany the20 existing connection-stimulation sweeps?",
+  "selection": "All sweeps37..56, devices2/4/5 in experiment3337; no outcome or resistance exclusions.",
+  "checks": "Exact60 sweep/device keys, original raw inventory stimulus names; unique QC and nearest-test-pulse rows; report same-recording links.",
+  "endpoint": "Descriptive time range, holding/baseline/access/input resistance ranges and medians by device.",
+  "limits": "No cross-clock arithmetic, causal drift correction, cell stability certification or mechanistic fit.",
+  "source_sha256": "31bfd2c67ff24cea0d2c64ef63f39909595138463efe8acb7595a80f4ffb8883",
+  "inventory_sha256": "4e2c6111306a032d3d6e820a2953654c58e892ea5373eb624559b7da7e448546",
+  "code_sha256": "26433b951708b407cfac18b93fbfb9bb0c9ead712af6af717e75e10ed88b8991",
+  "vfs_sha256": "0d2ee2f4a52cc21bbcf940b8c5642ffcb66f458d72aaf78bc3d4b69a85b6edf9"
+}

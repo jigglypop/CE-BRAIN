@@ -1,0 +1,59 @@
+{
+  "acquisition_sha256": "ccbb7d4f1ea3944343a75e8397baee2f2f62421b81a77cb0da5d3ad818488997",
+  "code_sha256": "8df39413f50a70afb366e31da36ece3b37d3e47245f141a202f37c2e24f18090",
+  "sessions": [
+    {
+      "session": "6",
+      "metadata_byte_matches": {
+        "t": true,
+        "stim_volume_i": true,
+        "stim_neurons": true,
+        "labels": true,
+        "ds_name": true
+      },
+      "old_shape": [
+        5427,
+        95
+      ],
+      "new_shape": [
+        5427,
+        95
+      ],
+      "old_nonfinite": 0,
+      "new_nonfinite": 176075,
+      "old_sha256": "19cd9c5163ba6301fc9951e3154416d81446f14c257f7aa8d409cafc4ad6f021",
+      "new_sha256": "410217e0e4fabc2103f60437ecdb8e235384ef9fee0f9bf61d71b541c5e47224",
+      "alignment_pass": true,
+      "shared_finite_values": 339490,
+      "mean_absolute_difference_shared_finite": 12.373964477616106,
+      "old_finite_new_missing": 176075
+    },
+    {
+      "session": "9",
+      "metadata_byte_matches": {
+        "t": true,
+        "stim_volume_i": true,
+        "stim_neurons": true,
+        "labels": true,
+        "ds_name": true
+      },
+      "old_shape": [
+        3795,
+        137
+      ],
+      "new_shape": [
+        3795,
+        137
+      ],
+      "old_nonfinite": 0,
+      "new_nonfinite": 172433,
+      "old_sha256": "3ee1c241559652c6818b4854df3b54bc6f6c5fb9f54e21cb4aee0671807e8487",
+      "new_sha256": "df37f5129a01ad3265bc9802296093c6bd7f90d30ebeae945cb1130a0b5af0cf",
+      "alignment_pass": true,
+      "shared_finite_values": 347482,
+      "mean_absolute_difference_shared_finite": 14.970617377207578,
+      "old_finite_new_missing": 172433
+    }
+  ],
+  "claim_ceiling": "L0; equal metadata does not independently prove cell identity or raw extraction causality"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "Within the existing field-pair and fixed-distance-quartile strata, do annotated dyads retain different soma distances from unlisted dyads?",
+  "method": "Use unchanged linked-count-weighted strata. Apply same contrast weights to soma distance in microns. Report weighted linked/unlisted means and descriptive pooled-SD standardized difference, individual strata and linked distances outside unlisted min/max.",
+  "selection": "All14 analyzed scans; all32/384 ROI assignments; scan4/7 disputed-unit exclusion also reported. No new cutpoints or outcome-based selection.",
+  "limits": "Post-observation balance diagnosis, not an effect correction, p-value or causal attribution. Soma distance may not capture optical overlap. Min/max support is only one-dimensional.",
+  "code_sha256": "30c4ddcfb276ee384ded6aaf4d635589303b062768f0727c57344e5dda3bcd4f",
+  "cells_sha256": "1959b7b7eaad7501c6331551c3ed1e229b40ed3c339ff6273b6365009e33fb09",
+  "synapses_sha256": "fee7afc8c37528e3e1c1a4365f016f74c8ff42b6dad0f06100ef32d38adb0434",
+  "coverage_sha256": "e48f8c7b0a942f47504ed9de59e668d766e1ed1ad6fbd289205bb24430c162f5",
+  "targets_sha256": "e88b1c4f1e83ed644e5a01f537e60bd32c8faaf09c594a9f419c540c3e4898d2",
+  "cuts_sha256": "18a4eecb4d6c61b63b9394cb1b0f9d178760f8a1d2020a265619a6ac4dee87fd",
+  "weight_code_sha256": "9cb56cb5972bcfb5e5184715877c530519dff7ac0fa8bc79db59c12e53837e8c"
+}

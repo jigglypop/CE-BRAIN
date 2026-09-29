@@ -1,0 +1,8 @@
+{
+  "question": "첫 스캔53대상을 NWB 저장 EM좌표와 field로 유일하게 ROI에 대응할 수 있는가?",
+  "method": "같은field에서 세 정수 EM좌표의 완전 일치. root float 비교 금지. 동일위치 후보0/복수는 보존. 변환 소스는 mask_id 순서로 ROI/trace 저장.",
+  "limits": "NWB 저장 대응 열의 정확성에 조건부이며 현미경 원영상 독립 재검증 아님. 변환 코드 ScanUnit fetch에는 명시 order_by가 없어 원테이블 행순서 보장은 후속 확인 필요. L0 후보 대응.",
+  "source_sha256": "6bad0a7ef6949d917b007d06bddd1870510bb95b4e148b822cee620249d6569f",
+  "identity_sha256": "a8e0dc075bb767001682ae49c734c037a2d55a01c5e6201ad193432f17a3967f",
+  "code_sha256": "2ac799722de040b0e723d42741dbf6fa942058ac27f9fd3203391c8689f6c67c"
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What does the fixed producer measurement show in the first20 IC records of the separately selected experiment?",
+  "selection": "All pair responses grouped by recording; keep IC records ordered by DB start time then ID, first20. Within each use earliest presynaptic onset. No amplitude/QC exclusion.",
+  "endpoint": "Stored dec_fit_reconv_amp minus its assigned baseline; mean/median/sign count. Report missing fits and exQC.",
+  "limits": "Separate experiment, animal independence unverified; producer waveform parameters use unknown full-record scope. Not blinded discovery or raw reproduction.",
+  "selected_sha256": "d131c8423026de55f5622fc4af987e0208413d1ef0d1ea5682b15e8e8fabecbb",
+  "code_sha256": "299a7a0655e30ceb2f4a433a15c36848de7704e183d6e4d59d1d2a3a170813f5"
+}

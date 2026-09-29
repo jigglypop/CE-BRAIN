@@ -1,0 +1,61 @@
+{
+  "snapshot_bytes": 704643072,
+  "pending": "Incomplete payload: need 840152714 bytes, have 704643072",
+  "full_file_verified": false,
+  "blocks": [
+    {
+      "name": "photostim_r",
+      "tiff_path": "/home/rlees/mnt/qnap/Data/2021-02-18/RL127/2021-02-18_RL127_t-008",
+      "paq_path": "/home/rlees/mnt/qnap/Data/2021-02-18/RL127/2021-02-18_RL127_t-008.paq",
+      "naparm_path": "/home/rlees/mnt/qnap/Data/2021-02-18/RL127/2021-02-18_RL127_NAPARM_005",
+      "stim_type": "pr",
+      "fps": 15.023207174398689,
+      "n_frames": 22986,
+      "stim_dur": 150.0,
+      "duration_frames": 4,
+      "frames_range": [
+        0,
+        22986,
+        1
+      ],
+      "frame_clock_n": 22990,
+      "stim_n": 100,
+      "stim_gap_samples": [
+        300000
+      ],
+      "all_preceding_indices_match": true
+    },
+    {
+      "name": "photostim_s",
+      "tiff_path": "/home/rlees/mnt/qnap/Data/2021-02-18/RL127/2021-02-18_RL127_t-009",
+      "paq_path": "/home/rlees/mnt/qnap/Data/2021-02-18/RL127/2021-02-18_RL127_t-009.paq",
+      "naparm_path": "/home/rlees/mnt/qnap/Data/2021-02-18/RL127/2021-02-18_RL127_NAPARM_004",
+      "stim_type": "ps",
+      "fps": 15.023206948701938,
+      "n_frames": 22986,
+      "stim_dur": 150.0,
+      "duration_frames": 4,
+      "frames_range": [
+        22986,
+        45972,
+        1
+      ],
+      "frame_clock_n": 22989,
+      "stim_n": 100,
+      "stim_gap_samples": [
+        300000
+      ],
+      "all_preceding_indices_match": true
+    }
+  ],
+  "stored_cell_order_matches": {
+    "cell_id": true,
+    "cell_s1": true,
+    "cell_s2": true
+  },
+  "parent_sha256": "6b6e115756e362805d075f1eea232edfbdf0a953e7d8565f01fa5725e828b9ca",
+  "limits": [
+    "Stored ROI identity is not independent anatomical verification",
+    "Second raw and target metadata incomplete"
+  ]
+}

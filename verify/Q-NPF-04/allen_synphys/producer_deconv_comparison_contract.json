@@ -1,0 +1,21 @@
+{
+  "question": "Do source-informed candidate inputs reproduce stored deconvolved reconvolved amplitudes?",
+  "scope": "All240 responses and240 assigned baselines; cross-version numerical reproduction audit, not independent biology.",
+  "method": "Execute selected unchanged AST function bodies; Psp static numerical functions, deconvolution, deconv_filter and scale-offset only. No nonlinear optimizer needed.",
+  "alignment": "Both response and baseline use response data_start_time minus DB first_spike_time, as get_tseries specifies.",
+  "fixed": "DB synapse rise/decay/latency; rise_power2; IC lowpass2000; producer fit interval and baseline subtraction.",
+  "tolerance": "Absolute1e-9 V plus relative1e-4 against DB reconvolved amplitude. No post-result parameter adjustment.",
+  "tests": "Analytic template scale/offset versus independent least squares; finite arrays; all inputs hashed; deconvolved kinetic values compared to stored metadata.",
+  "limits": "Previous reconstruction uses mixed pinned versions; missing DB blobs prevent independent array equality; source-function extraction is not full pipeline execution.",
+  "inputs": {
+    "producer_input_reconstruction_result.json": "7ebe0c997d1cb6f116ab823a9c4a68f902cb3cce4f54a8465a989b60a5bc456f",
+    "producer_pulse_fits_result.json": "24d164efe521cfd2d4ccae8f4b8c7e8931756309b3b3a34ad32986bd0f9266f7"
+  },
+  "sources": {
+    "allen971__neuroanalysis__fitting__psp.py": "a9d72f690d635b6f901d15e08e647dd6afc709ac20fe59c81ae95317b79030fe",
+    "allen971__neuroanalysis__event_detection.py": "f9bec300562ce8576a329f40fada111b8a1b3b1b143ffa50ba88ddcfa436d358",
+    "allen971__fit_scale_offset.py": "e35ce439409914e98d8e16eb36725d32bffceebc4e81a1713c24b798cf5cdb1a",
+    "aisynphys__pulse_response_strength.py": "170b96f552a12dcc135740fdede54f97e18eb05a6303b003aa5465a6279efe29"
+  },
+  "code_sha256": "baf249f73dd7cfbe6fd438968393b7bbeac9246605f70267596865769cd84242"
+}

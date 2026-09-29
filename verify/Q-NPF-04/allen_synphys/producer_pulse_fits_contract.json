@@ -1,0 +1,15 @@
+{
+  "question": "Are producer fit rows available and pulse-matched for the same20 positive-pair train records?",
+  "scope": "Pair104272; all responses on target-device4 in sweeps37..56; retain QC failures and missing fits; no sign/outcome exclusion.",
+  "checks": "Presynaptic recording matches device5; actual onset nearest within one100kHz sample; same240 unique sweep/pulse keys.",
+  "limits": "Stored source-conditioned fits are not independent connection evidence; exact historical software version unverified; not a reproduction of fitting.",
+  "inputs": {
+    "connection_recording_state_result.json": "320499e20394a4df09848e54fffd197dd905b7723592301b244ccf4aa09eded1",
+    "recovery_train_responses_result.json": "31f8ab7e53c87358cf0cdfe4cef02458b7b97125e6163fde34d317b728db030b"
+  },
+  "code_sha256": "5ce0477636ec54d9726f380e0c26623d9e1f564caf69206aef86ceebe8abfb03",
+  "sources": {
+    "aisynphys__pulse_response_strength.py": "170b96f552a12dcc135740fdede54f97e18eb05a6303b003aa5465a6279efe29",
+    "aisynphys__pipeline__multipatch__pulse_response.py": "bf52058987c937f6ff039d9e266d47ef6f63af5290310a3e111c6c2c83f037c5"
+  }
+}

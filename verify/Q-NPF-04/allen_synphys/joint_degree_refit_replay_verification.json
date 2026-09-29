@@ -1,0 +1,20 @@
+{
+  "verifier_sha256": "241d4f91027917df7c5b1f03cd1bb29ce2ab57fdcde6122cccafcc153323ac9c",
+  "checks": [
+    {
+      "dataset": "minnie23P",
+      "record_sha256": "375cbaab2f850a51ad9609fbcc75964c22d317257cbfab1382547bf5976a09fd",
+      "replayed_graph": true,
+      "refitted_mean_difference": -9.094947017729282e-13,
+      "max_margin_error": 4.729372449219227e-11
+    },
+    {
+      "dataset": "pinky",
+      "record_sha256": "7d36c1d718a09328daf5ece8bd725d2a159a87eb01aa72f96365fa08139f5882",
+      "replayed_graph": true,
+      "refitted_mean_difference": -3.552713678800501e-15,
+      "max_margin_error": 9.208633855450898e-12
+    }
+  ],
+  "status": "TWO_SEEDED_GRAPHS_AND_REFITS_REPLAYED"
+}

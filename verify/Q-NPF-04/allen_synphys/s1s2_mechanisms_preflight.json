@@ -1,0 +1,71 @@
+{
+  "cohorts": {
+    "projection": [
+      {
+        "url": "https://gin.g-node.org/vdplasthijs/S1S2_mechanisms_data/src/master/pkl_files/projection_2sec_test/2021-02-18_RL127.pkl",
+        "mouse": "RL127"
+      },
+      {
+        "url": "https://gin.g-node.org/vdplasthijs/S1S2_mechanisms_data/src/master/pkl_files/projection_2sec_test/2021-02-22_RL128.pkl",
+        "mouse": "RL128"
+      },
+      {
+        "url": "https://gin.g-node.org/vdplasthijs/S1S2_mechanisms_data/src/master/pkl_files/projection_2sec_test/2021-02-23_RL129.pkl",
+        "mouse": "RL129"
+      },
+      {
+        "url": "https://gin.g-node.org/vdplasthijs/S1S2_mechanisms_data/src/master/pkl_files/projection_2sec_test/2021-02-24_RL132.pkl",
+        "mouse": "RL132"
+      },
+      {
+        "url": "https://gin.g-node.org/vdplasthijs/S1S2_mechanisms_data/src/master/pkl_files/projection_2sec_test/2021-02-25_RL131.pkl",
+        "mouse": "RL131"
+      },
+      {
+        "url": "https://gin.g-node.org/vdplasthijs/S1S2_mechanisms_data/src/master/pkl_files/projection_2sec_test/2021-03-02_RL130.pkl",
+        "mouse": "RL130"
+      }
+    ],
+    "sensory": [
+      {
+        "url": "https://gin.g-node.org/vdplasthijs/S1S2_mechanisms_data/src/master/pkl_files/sensory_2sec_test/2020-09-04_RL093.pkl",
+        "mouse": "RL093"
+      },
+      {
+        "url": "https://gin.g-node.org/vdplasthijs/S1S2_mechanisms_data/src/master/pkl_files/sensory_2sec_test/2020-09-08_RL099.pkl",
+        "mouse": "RL099"
+      },
+      {
+        "url": "https://gin.g-node.org/vdplasthijs/S1S2_mechanisms_data/src/master/pkl_files/sensory_2sec_test/2020-09-14_RL101.pkl",
+        "mouse": "RL101"
+      },
+      {
+        "url": "https://gin.g-node.org/vdplasthijs/S1S2_mechanisms_data/src/master/pkl_files/sensory_2sec_test/2020-09-16_RL103.pkl",
+        "mouse": "RL103"
+      },
+      {
+        "url": "https://gin.g-node.org/vdplasthijs/S1S2_mechanisms_data/src/master/pkl_files/sensory_2sec_test/2020-10-02_RL108.pkl",
+        "mouse": "RL108"
+      },
+      {
+        "url": "https://gin.g-node.org/vdplasthijs/S1S2_mechanisms_data/src/master/pkl_files/sensory_2sec_test/2020-10-12_RL109.pkl",
+        "mouse": "RL109"
+      }
+    ]
+  },
+  "prior_mouse_label_overlap": [],
+  "source_hashes": {
+    "s1s2_mechanisms_data_README.md": "3c8d185fa4bf5a82628d06fdee102848c933fcb26b7e17e131d73783cf2fe48b",
+    "s1s2_mechanisms_example.ipynb": "57b6b5524608972bf44255633f2de2feb9f9329ab0060663d721f02f871d055c",
+    "s1s2_mechanisms_gin.html": "d80117e12527804a628664e4a1d2facf6ff6f3217d30527d624cc3ea0103dfd5",
+    "s1s2_mechanisms_loader.py": "ece00718fac0ac7d07e030a1c03bc0b06c444abd240739fb8e177f7a79a621dd",
+    "s1s2_mechanisms_pkl_listing.html": "ac374ef9680f53520044267138f04f43d890c5a398adbda273523efcfbd2fb80",
+    "s1s2_mechanisms_projection_listing.html": "412973fe8158ce1c3726641d9683cfaa58632b50397217950e53d87fc07ae2cd",
+    "s1s2_mechanisms_README.md": "1fc001e4d69485b35d596b86d8a135bc46bdf14da1098fee685fc5d495814a5e",
+    "s1s2_mechanisms_sensory_listing.html": "e55196dcbda6393235fa4b4f01a8fa2178a2d13fa9447c0bb14acd9b086c4ac7",
+    "s1s2_mechanisms_tree.json": "d50203b36567ca9f001a8c454da5346ac9e8ee6588d086891760230fa3ad633c"
+  },
+  "design_status": "loader comment says non-interleaved blocks; actual session ordering unverified",
+  "payload_downloaded": false,
+  "interpretation": "distinct recorded mouse labels, not independently verified animal provenance"
+}

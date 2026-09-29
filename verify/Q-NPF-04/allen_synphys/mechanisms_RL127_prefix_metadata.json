@@ -1,0 +1,30 @@
+{
+  "snapshot_bytes": 100663296,
+  "pending": "Incomplete payload: need 219640172 bytes, have 100663296",
+  "complete_file_verified": false,
+  "block": "photostim_r (first serialized block; chronological order not established)",
+  "fps": 15.023207174398689,
+  "n_planes": 1,
+  "n_units": [
+    2334
+  ],
+  "stim_dur_stored": 150.0,
+  "duration_frames": 4,
+  "code_sha256": "8f5b50e54cc131cd76d2ebff581718348bfeb957e8ce30f5d5f8d7168b947302",
+  "frame_clock": {
+    "count": 22990,
+    "first": 196712.0,
+    "last": 30801445.0
+  },
+  "stim_times": {
+    "count": 100,
+    "first": 317609.0,
+    "last": 30017609.0
+  },
+  "stim_start_frames": {
+    "count": 100,
+    "first": 90.0,
+    "last": 22400.0
+  },
+  "prefix_sha256": "7ff2f85153fcb1481d559aa63cb3edbc7c4c70f7994b94e089c1951352b6a47b"
+}

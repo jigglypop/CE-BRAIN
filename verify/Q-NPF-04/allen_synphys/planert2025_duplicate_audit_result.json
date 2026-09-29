@@ -1,0 +1,2251 @@
+{
+  "archive_sha256": "6b0d7244dec5c665a88d0d1828ae842d084bb737a6df9f86561d53d8564c4bfd",
+  "code_sha256": "b97a9f31d80bc36bc6b2d37c16b625fade00700e23418877ba79c3b8be764f65",
+  "failed_contract_sha256": "f2cafb8d19c5058e489ce78777e06578f01cda6c677509c7915702fef2e95738",
+  "rows": 10784,
+  "unique_pair_keys": 10684,
+  "duplicate_pair_keys": 98,
+  "multiplicity": {
+    "2": 96,
+    "3": 2
+  },
+  "different_field_counts": {
+    "": 98,
+    "avg_psp_amplitude": 23,
+    "avg_psp_latency": 23,
+    "avg_psp_ppr": 23,
+    "avg_psp_risetime2080": 23,
+    "avg_psp_maxslope": 23,
+    "avg_psp_decayslope10080": 23,
+    "avg_psp_decaytime10080": 23,
+    "avg_psp_cv_decay80amp": 23,
+    "avg_psp_decay_negpeaktime_rel": 23,
+    "avg_psp_halfwidth": 21,
+    "connected": 23
+  },
+  "conflicting_connection_keys": 23,
+  "duplicates": [
+    {
+      "pre": "c_#10_s4cl1_c1.1",
+      "post": "c_#10_s4cl1_c2.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9763",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10427",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c1.1",
+      "post": "c_#10_s4cl1_c3.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9764",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10428",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c4.1",
+      "post": "c_#10_s4cl1_c2.2",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "9765",
+          "connected": "1",
+          "amplitude": "0.663866591987457"
+        },
+        {
+          "row_label": "10431",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c4.1",
+      "post": "c_#10_s4cl1_c3.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9766",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10432",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c6.1",
+      "post": "c_#10_s4cl1_c2.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9769",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10435",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c6.1",
+      "post": "c_#10_s4cl1_c3.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9770",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10436",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c8.1",
+      "post": "c_#10_s4cl1_c2.2",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "9773",
+          "connected": "1",
+          "amplitude": "1.13144961025134"
+        },
+        {
+          "row_label": "10439",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c8.1",
+      "post": "c_#10_s4cl1_c3.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9774",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10440",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c2.2",
+      "post": "c_#10_s4cl1_c1.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9775",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10443",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c2.2",
+      "post": "c_#10_s4cl1_c4.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9776",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10444",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c2.2",
+      "post": "c_#10_s4cl1_c6.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9778",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10445",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c2.2",
+      "post": "c_#10_s4cl1_c8.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9780",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10446",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c2.2",
+      "post": "c_#10_s4cl1_c3.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9781",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10447",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c3.2",
+      "post": "c_#10_s4cl1_c1.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9782",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10450",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c3.2",
+      "post": "c_#10_s4cl1_c4.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9783",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10451",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c3.2",
+      "post": "c_#10_s4cl1_c6.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9785",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10452",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c3.2",
+      "post": "c_#10_s4cl1_c8.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9787",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10453",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#10_s4cl1_c3.2",
+      "post": "c_#10_s4cl1_c2.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9788",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10454",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#08_s1cl1_c2.1",
+      "post": "c_#08_s1cl1_c5.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9854",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10471",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#08_s1cl1_c6.1",
+      "post": "c_#08_s1cl1_c5.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "9858",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10477",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#08_s1cl1_c5.2",
+      "post": "c_#08_s1cl1_c2.1",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "9888",
+          "connected": "1",
+          "amplitude": "3.72086037369548"
+        },
+        {
+          "row_label": "10483",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#08_s1cl1_c5.2",
+      "post": "c_#08_s1cl1_c6.1",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "9889",
+          "connected": "1",
+          "amplitude": "3.75546181489863"
+        },
+        {
+          "row_label": "10484",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s2cl1_c2.1",
+      "post": "c_#11_s2cl1_c7.2",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10160",
+          "connected": "1",
+          "amplitude": "0.218180852045066"
+        },
+        {
+          "row_label": "10525",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s2cl1_c4.1",
+      "post": "c_#11_s2cl1_c7.2",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10162",
+          "connected": "1",
+          "amplitude": "0.391373706664915"
+        },
+        {
+          "row_label": "10527",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s2cl1_c6.1",
+      "post": "c_#11_s2cl1_c7.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10166",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10529",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s2cl1_c8.1",
+      "post": "c_#11_s2cl1_c7.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10168",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10531",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s2cl1_c7.2",
+      "post": "c_#11_s2cl1_c2.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10175",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10533",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s2cl1_c7.2",
+      "post": "c_#11_s2cl1_c4.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10176",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10534",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s2cl1_c7.2",
+      "post": "c_#11_s2cl1_c6.1",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10178",
+          "connected": "1",
+          "amplitude": "0.114495852168901"
+        },
+        {
+          "row_label": "10535",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s2cl1_c7.2",
+      "post": "c_#11_s2cl1_c8.1",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10179",
+          "connected": "1",
+          "amplitude": "0.281112677182193"
+        },
+        {
+          "row_label": "10536",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c1.1",
+      "post": "c_#11_s3cl1_c6.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10182",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10543",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c1.1",
+      "post": "c_#11_s3cl1_c7.2",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10183",
+          "connected": "1",
+          "amplitude": "0.810182009023059"
+        },
+        {
+          "row_label": "10544",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c2.1",
+      "post": "c_#11_s3cl1_c6.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10185",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10547",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c2.1",
+      "post": "c_#11_s3cl1_c7.2",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10186",
+          "connected": "1",
+          "amplitude": "1.83761003704054"
+        },
+        {
+          "row_label": "10548",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c4.1",
+      "post": "c_#11_s3cl1_c6.2",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10191",
+          "connected": "1",
+          "amplitude": "0.58924734354644"
+        },
+        {
+          "row_label": "10551",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c4.1",
+      "post": "c_#11_s3cl1_c7.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10192",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10552",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c8.1",
+      "post": "c_#11_s3cl1_c6.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10194",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10555",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c8.1",
+      "post": "c_#11_s3cl1_c7.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10195",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10556",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c6.2",
+      "post": "c_#11_s3cl1_c1.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10203",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10559",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c6.2",
+      "post": "c_#11_s3cl1_c2.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10204",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10560",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c6.2",
+      "post": "c_#11_s3cl1_c4.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10206",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10561",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c6.2",
+      "post": "c_#11_s3cl1_c8.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10207",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10562",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c6.2",
+      "post": "c_#11_s3cl1_c7.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10209",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10563",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c7.2",
+      "post": "c_#11_s3cl1_c1.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10210",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10566",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c7.2",
+      "post": "c_#11_s3cl1_c2.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10211",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10567",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c7.2",
+      "post": "c_#11_s3cl1_c4.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10213",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10568",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c7.2",
+      "post": "c_#11_s3cl1_c8.1",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10214",
+          "connected": "1",
+          "amplitude": "1.11366274461925"
+        },
+        {
+          "row_label": "10569",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#11_s3cl1_c7.2",
+      "post": "c_#11_s3cl1_c6.2",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10216",
+          "connected": "1",
+          "amplitude": "2.22468638209692"
+        },
+        {
+          "row_label": "10570",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c1.1",
+      "post": "c_#01_s2cl1_c7.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10244",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10587",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c1.1",
+      "post": "c_#01_s2cl1_c9.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10245",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10588",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c4.1",
+      "post": "c_#01_s2cl1_c7.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10250",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10592",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c4.1",
+      "post": "c_#01_s2cl1_c9.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10251",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10593",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c5.1",
+      "post": "c_#01_s2cl1_c7.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10253",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10597",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c5.1",
+      "post": "c_#01_s2cl1_c9.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10254",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10598",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c8.1",
+      "post": "c_#01_s2cl1_c7.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10259",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10602",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c8.1",
+      "post": "c_#01_s2cl1_c9.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10260",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10603",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c7.2",
+      "post": "c_#01_s2cl1_c1.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10269",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10607",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c7.2",
+      "post": "c_#01_s2cl1_c4.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10271",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10608",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c7.2",
+      "post": "c_#01_s2cl1_c5.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10272",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10609",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c7.2",
+      "post": "c_#01_s2cl1_c8.1",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10274",
+          "connected": "1",
+          "amplitude": "0.358154296875"
+        },
+        {
+          "row_label": "10610",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c7.2",
+      "post": "c_#01_s2cl1_c9.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10276",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10611",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c9.2",
+      "post": "c_#01_s2cl1_c1.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10277",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10615",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c9.2",
+      "post": "c_#01_s2cl1_c4.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10279",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10616",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c9.2",
+      "post": "c_#01_s2cl1_c5.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10280",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10617",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c9.2",
+      "post": "c_#01_s2cl1_c8.1",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10282",
+          "connected": "1",
+          "amplitude": "0.165970142071075"
+        },
+        {
+          "row_label": "10618",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c9.2",
+      "post": "c_#01_s2cl1_c7.2",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10284",
+          "connected": "1",
+          "amplitude": "0.159053802490234"
+        },
+        {
+          "row_label": "10619",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#15_s5cl1_c10.1",
+      "post": "c_#15_s5cl1_c2.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10380",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10647",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#15_s5cl1_c3.1",
+      "post": "c_#15_s5cl1_c2.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10383",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10650",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#15_s5cl1_c4.1",
+      "post": "c_#15_s5cl1_c2.2",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10386",
+          "connected": "1",
+          "amplitude": "0.121984863281249"
+        },
+        {
+          "row_label": "10653",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#15_s5cl1_c5.1",
+      "post": "c_#15_s5cl1_c2.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10389",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10656",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#15_s5cl1_c7.1",
+      "post": "c_#15_s5cl1_c2.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10395",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10659",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#15_s5cl1_c8.1",
+      "post": "c_#15_s5cl1_c2.2",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10398",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10662",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#15_s5cl1_c2.2",
+      "post": "c_#15_s5cl1_c10.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10409",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10665",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#15_s5cl1_c2.2",
+      "post": "c_#15_s5cl1_c3.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10410",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10666",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#15_s5cl1_c2.2",
+      "post": "c_#15_s5cl1_c4.1",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10411",
+          "connected": "1",
+          "amplitude": "0.0980758666992188"
+        },
+        {
+          "row_label": "10667",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#15_s5cl1_c2.2",
+      "post": "c_#15_s5cl1_c5.1",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10412",
+          "connected": "1",
+          "amplitude": "0.411231994628906"
+        },
+        {
+          "row_label": "10668",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#15_s5cl1_c2.2",
+      "post": "c_#15_s5cl1_c7.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10414",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10669",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#15_s5cl1_c2.2",
+      "post": "c_#15_s5cl1_c8.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10415",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10670",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c1.1",
+      "post": "c_#01_s2cl1_c2.3",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10589",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10689",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c1.1",
+      "post": "c_#01_s2cl1_c10.3",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10591",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10690",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c8.1",
+      "post": "c_#01_s2cl1_c2.3",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10604",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10701",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c8.1",
+      "post": "c_#01_s2cl1_c10.3",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10606",
+          "connected": "1",
+          "amplitude": "0.124406178792313"
+        },
+        {
+          "row_label": "10702",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c2.3",
+      "post": "c_#01_s2cl1_c1.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10623",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10707",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c2.3",
+      "post": "c_#01_s2cl1_c8.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10626",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10709",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c2.3",
+      "post": "c_#01_s2cl1_c10.3",
+      "multiplicity": 3,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10630",
+          "connected": "1",
+          "amplitude": "0.0606422424316406"
+        },
+        {
+          "row_label": "10710",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10755",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c10.3",
+      "post": "c_#01_s2cl1_c1.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10639",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10715",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c10.3",
+      "post": "c_#01_s2cl1_c8.1",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10642",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10717",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c10.3",
+      "post": "c_#01_s2cl1_c2.3",
+      "multiplicity": 3,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10645",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10718",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10760",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c2.3",
+      "post": "c_#01_s2cl1_c4.4",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10712",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10756",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c2.3",
+      "post": "c_#01_s2cl1_c9.4",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10714",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10757",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c10.3",
+      "post": "c_#01_s2cl1_c4.4",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10720",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10761",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c10.3",
+      "post": "c_#01_s2cl1_c9.4",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10722",
+          "connected": "1",
+          "amplitude": "0.408177779892739"
+        },
+        {
+          "row_label": "10762",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c4.4",
+      "post": "c_#01_s2cl1_c2.3",
+      "multiplicity": 2,
+      "different_fields": [
+        "",
+        "avg_psp_amplitude",
+        "avg_psp_latency",
+        "avg_psp_ppr",
+        "avg_psp_risetime2080",
+        "avg_psp_maxslope",
+        "avg_psp_decayslope10080",
+        "avg_psp_decaytime10080",
+        "avg_psp_cv_decay80amp",
+        "avg_psp_decay_negpeaktime_rel",
+        "avg_psp_halfwidth",
+        "connected"
+      ],
+      "rows": [
+        {
+          "row_label": "10734",
+          "connected": "1",
+          "amplitude": "0.968758534576921"
+        },
+        {
+          "row_label": "10765",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c4.4",
+      "post": "c_#01_s2cl1_c10.3",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10735",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10766",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c4.4",
+      "post": "c_#01_s2cl1_c9.4",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10738",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10767",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c9.4",
+      "post": "c_#01_s2cl1_c2.3",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10750",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10770",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c9.4",
+      "post": "c_#01_s2cl1_c10.3",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10751",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10771",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    },
+    {
+      "pre": "c_#01_s2cl1_c9.4",
+      "post": "c_#01_s2cl1_c4.4",
+      "multiplicity": 2,
+      "different_fields": [
+        ""
+      ],
+      "rows": [
+        {
+          "row_label": "10753",
+          "connected": "0",
+          "amplitude": "NA"
+        },
+        {
+          "row_label": "10772",
+          "connected": "0",
+          "amplitude": "NA"
+        }
+      ]
+    }
+  ],
+  "status": "STOP_ID_AMBIGUITY; no arbitrary deduplication or effect fit"
+}

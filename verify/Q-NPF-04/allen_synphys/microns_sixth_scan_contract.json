@@ -1,0 +1,6 @@
+{
+  "question": "Open the next lexicographically ordered scan with registered structural targets and verify the same mask-domain/time/first1250-frame input checks.",
+  "selection": "session6 scan4; all53 targets, no response selection; zero nucleus overlap with first scan, same mouse17797.",
+  "limits": "Current v1412 registration plus v8 ScanUnit. Historical NWB annotations audited separately. Input acquisition not hypothesis confirmation.",
+  "code_sha256": "3e2949c5062f56fff968f3a1160b67dd0f1e39563839d8b87b2fd8cb3d4cd7db"
+}

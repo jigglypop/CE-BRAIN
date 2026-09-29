@@ -1,0 +1,49 @@
+{
+  "contract_sha256": "0d1e22224e4a9662c2534943d25e13701110d5b5a3afc48f23b5aa961a7b91fa",
+  "excluded_clusters": [
+    "c_#01_s2cl1",
+    "c_#08_s1cl1",
+    "c_#10_s4cl1",
+    "c_#11_s2cl1",
+    "c_#11_s3cl1",
+    "c_#15_s5cl1"
+  ],
+  "excluded_rows": 952,
+  "cells": 1560,
+  "connection_rows": 9832,
+  "counts": {
+    "joined_rows": 9832,
+    "paired_dyads": 4916,
+    "positive_directions": 1503,
+    "oneway_dyads": 1175,
+    "finite_pia_Rin_rheo_dyads": 926
+  },
+  "oneway_both_finite_by_field": {
+    "piadistance": 1028,
+    "R_in": 1175,
+    "rheo": 1057,
+    "V_m": 1175,
+    "sag": 1112
+  },
+  "candidate_patient_labels": 22,
+  "qc_flag_values_uninterpreted": {
+    "removal_boolean": {
+      "1": 1101,
+      "0": 459
+    },
+    "resting_bool": {
+      "1": 1274,
+      "0": 286
+    },
+    "access_bool": {
+      "1": 1414,
+      "0": 146
+    },
+    "is_pc": {
+      "TRUE": 907,
+      "NA": 640,
+      "FALSE": 13
+    }
+  },
+  "status": "DIRECT_JOIN_CHECKED; QC_UNITS_COHORT_GATE_PENDING; NO_EFFECT_ESTIMATED"
+}

@@ -1,0 +1,41 @@
+{
+  "question": "전반에서 적합한 자극 표지의 기여가 후반 S2 반응 예측 오차를 줄이는가",
+  "source_sha256": "810c432e5ad92d33422d82e43fb39e26b2747caa5db0f777465d3b7e6e7ccb4b",
+  "parent_sha256": "68be7c947c0159785b65ca05a4b5a9fac007658261eb4fb9f8c7d24b847573b8",
+  "code_sha256": "1e769ceae6702a95af37f8d7409300797d189a0e4fb7c0dbc83e900e936a4ff1",
+  "helper_sha256": "151a39ddb1f34418a1fcfe9677f134c4dcae5f5e5d1a359c4938d38c06fe07e9",
+  "inherit": "자료·시행 제외·명목 전후 창·관측 척도는 전 상태 보정 계약 유지",
+  "split": "첫~마지막 유효 시행의 galvo 시간 중간 이전 적합; 중간+10초 이상 평가",
+  "gap": "평가 시작을 중간에서 10초 지연; 명목 반응 창 겹침 감소, 전처리 시간 혼입 제거를 보장하지 않음",
+  "models": {
+    "baseline": [
+      "elapsed_seconds",
+      "S1_pre",
+      "S2_pre"
+    ],
+    "stimulus_added": [
+      "elapsed_seconds",
+      "S1_pre",
+      "S2_pre",
+      "test_indicator"
+    ]
+  },
+  "training": "절편 포함 OLS, 표준화는 학습 자료만; 후반 결과는 적합·모형 선택에 사용 안 함",
+  "minimum": "학습·평가 각각 catch와 test 최소 6시행; 실패 기록 명시, 다른 split으로 교체 없음",
+  "endpoints": [
+    "평가 MSE baseline와 stimulus_added",
+    "1-MSE_added/MSE_baseline",
+    "시행별 두 예측과 오차"
+  ],
+  "decision": "상대 오차 감소가 양수이면 이 split의 예측 개선; 인과 또는 독립 복제 판정 아님",
+  "selection": "이미 본 11세션 모두 사용한 사후 탐색; tuning 없음",
+  "limits": [
+    "전처리된 pre 입력에 미래 정보 혼입 가능",
+    "실제 프레임 시각 미확인",
+    "시간 외삽·상태 변화",
+    "자극 강도·표적 수는 이 모형에 없음",
+    "세션별 개선을 독립 동물 복제로 합산하지 않음",
+    "L2 독립 calibration·holdout 조건 미충족"
+  ],
+  "claim_ceiling": "BIO_EVIDENCE_L1 exploratory temporal prediction"
+}

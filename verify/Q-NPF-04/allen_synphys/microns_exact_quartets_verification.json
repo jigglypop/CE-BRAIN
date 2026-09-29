@@ -1,0 +1,12 @@
+{
+  "source_sha256": "0c798aaf9c436551ada1b4cd49ff5e0d7855cda1c3ef7483a3c8c58547b009dd",
+  "verifier_sha256": "468a5d75e04284e11953d3493d76a8fea6db1949146d89b538a20eb1e5340b1d",
+  "exhaustive_rechecks": 114,
+  "all_joint_variable_quartets_included": true,
+  "nearby_threshold1_joint_variable_quartets": 50,
+  "unique_cells": 189,
+  "max_cell_occurrences": 3,
+  "unique_dyads": 293,
+  "max_dyad_occurrences": 3,
+  "status": "INDEPENDENT_BIT_ENUMERATION_MATCH"
+}

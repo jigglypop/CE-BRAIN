@@ -1,0 +1,10 @@
+{
+  "question": "Can official human donor site/number fields group existing eligible slices without treating slices as people?",
+  "scope": "Existing 511 dyads and 362 numeric candidates; no fitting or biological endpoint.",
+  "identity": "Official lims.py human regex; groups()[1] site plus groups()[2] donor number. No real-world identity inference or demographic linkage.",
+  "gates": "All relevant names match; each site/number has one first prefix; all slices map once. Prefix ambiguity blocks grouping.",
+  "limits": "Name-derived donor groups, not live LIMS donor-table verification; source code and release pipeline versions may differ.",
+  "source_sha256": "af1eff74b14ed4344f3cc0ff3e3dc7a536a0e0435005dc7841b86f264cedd2d8",
+  "inventory_sha256": "dc39d622ff5d985c5ee362104b64b1e4a535a7d143f53c5b3c6e4dab8915941f",
+  "code_sha256": "340cfe65ffc79d4240be6ad658a4196f7369b2543295673179938c49e0ee0c02"
+}

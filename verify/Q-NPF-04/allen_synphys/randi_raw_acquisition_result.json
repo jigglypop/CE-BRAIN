@@ -1,0 +1,104 @@
+{
+  "files": [
+    {
+      "name": "6_ds_name.txt",
+      "source": "https://osf.io/download/671a5334891e5703b31150ef/",
+      "osf_id": "671a5334891e5703b31150ef",
+      "bytes": 85,
+      "sha256": "4eb6d1d6d7839a9adeeb518359fd847fd3526649b974b78d1a2a26c6480e5b26",
+      "modified": "2024-10-24T14:01:24.697017"
+    },
+    {
+      "name": "6_gcamp.txt",
+      "source": "https://osf.io/download/671a533958663ee5506298ec/",
+      "osf_id": "671a533958663ee5506298ec",
+      "bytes": 9191550,
+      "sha256": "410217e0e4fabc2103f60437ecdb8e235384ef9fee0f9bf61d71b541c5e47224",
+      "modified": "2024-10-24T14:01:29.267553"
+    },
+    {
+      "name": "6_labels.txt",
+      "source": "https://osf.io/download/671a5339d8486e19bf1b3aa6/",
+      "osf_id": "671a5339d8486e19bf1b3aa6",
+      "bytes": 311,
+      "sha256": "f6690f8717242a66c4bb79b0b53dc9d2f654f73373b9d7920417aa2854ad121f",
+      "modified": "2024-10-24T14:01:29.570263"
+    },
+    {
+      "name": "6_stim_neurons.txt",
+      "source": "https://osf.io/download/671a533d361eddcf1f629e79/",
+      "osf_id": "671a533d361eddcf1f629e79",
+      "bytes": 243,
+      "sha256": "48839ec0c3b2029bee0f454a263f56bc556766a714faa0625775a2e30a6ec53b",
+      "modified": "2024-10-24T14:01:33.702926"
+    },
+    {
+      "name": "6_stim_volume_i.txt",
+      "source": "https://osf.io/download/671a533d361eddcf1f629e77/",
+      "osf_id": "671a533d361eddcf1f629e77",
+      "bytes": 408,
+      "sha256": "69d9f358d91f529296f06a4aafb3edab6ba55345c857a5ec58f2410995076a41",
+      "modified": "2024-10-24T14:01:33.529137"
+    },
+    {
+      "name": "6_t.txt",
+      "source": "https://osf.io/download/671a5342c5750ffb8abfa7d1/",
+      "osf_id": "671a5342c5750ffb8abfa7d1",
+      "bytes": 135675,
+      "sha256": "49b3863c3e6d9416023bb4ca1301fad82515a6bf29b1b1daab74158d142da5e9",
+      "modified": "2024-10-24T14:01:38.718293"
+    },
+    {
+      "name": "9_ds_name.txt",
+      "source": "https://osf.io/download/671a5363badd54a212870855/",
+      "osf_id": "671a5363badd54a212870855",
+      "bytes": 73,
+      "sha256": "bdca5339581b91822804bbc03a3103f5f0199be867bbbedf5f64fea2cc245b21",
+      "modified": "2024-10-24T14:02:11.283929"
+    },
+    {
+      "name": "9_gcamp.txt",
+      "source": "https://osf.io/download/671a536454ecc1d5f8bfae92/",
+      "osf_id": "671a536454ecc1d5f8bfae92",
+      "bytes": 9376782,
+      "sha256": "df37f5129a01ad3265bc9802296093c6bd7f90d30ebeae945cb1130a0b5af0cf",
+      "modified": "2024-10-24T14:02:12.744815"
+    },
+    {
+      "name": "9_labels.txt",
+      "source": "https://osf.io/download/671a5366d70a8207c3870b3f/",
+      "osf_id": "671a5366d70a8207c3870b3f",
+      "bytes": 418,
+      "sha256": "f3ec300961db9c99fbab36c1133128d28547c0f4854a47355cd884ea2f76e34b",
+      "modified": "2024-10-24T14:02:14.528539"
+    },
+    {
+      "name": "9_stim_neurons.txt",
+      "source": "https://osf.io/download/671a536ac5750ffb8abfa7ec/",
+      "osf_id": "671a536ac5750ffb8abfa7ec",
+      "bytes": 195,
+      "sha256": "a395b02de146e10d25786d28e052bbee2217fc672881816c9401ea3a0a67b218",
+      "modified": "2024-10-24T14:02:18.074914"
+    },
+    {
+      "name": "9_stim_volume_i.txt",
+      "source": "https://osf.io/download/671a536a16b5106717bfaa08/",
+      "osf_id": "671a536a16b5106717bfaa08",
+      "bytes": 283,
+      "sha256": "8367c54630ce14bf4854638999a8828005267dee0fe16e89eb3116cd4b4434a7",
+      "modified": "2024-10-24T14:02:18.066556"
+    },
+    {
+      "name": "9_t.txt",
+      "source": "https://osf.io/download/671a536fc5750ffb8abfa7ee/",
+      "osf_id": "671a536fc5750ffb8abfa7ee",
+      "bytes": 94875,
+      "sha256": "59a5fb9ef5a426ced2d711b6297f4f6f9804cf943951912f12d91a2646126ceb",
+      "modified": "2024-10-24T14:02:23.562881"
+    }
+  ],
+  "session_name_match": true,
+  "source_folder": "https://osf.io/e2syt/",
+  "claim_ceiling": "BIO_EVIDENCE_L0",
+  "code_sha256": "a726209fe696f145160a4b27fc4c6601e7a74d23d2ff559e6db3338ac6be708a"
+}

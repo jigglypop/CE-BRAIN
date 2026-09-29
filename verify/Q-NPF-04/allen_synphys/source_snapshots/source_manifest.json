@@ -1,0 +1,47 @@
+{
+    "upstream_commit":  "b187927abf1e8df46d11b47eeb88c8e2c76aee3c",
+    "download_manifest_commit":  "66d147da3bb4973b135ea33a479abe716d0e322b",
+    "sources":  [
+                    {
+                        "url":  "https://raw.githubusercontent.com/AllenInstitute/aisynphys/b187927abf1e8df46d11b47eeb88c8e2c76aee3c/aisynphys/database/schema/synapse.py",
+                        "file":  "aisynphys__database__schema__synapse.py",
+                        "sha256":  "28506002e7dbad0f5b06bdfdc8e5f7804f38351286ff26d01bb60da7ab617fb3"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/AllenInstitute/aisynphys/b187927abf1e8df46d11b47eeb88c8e2c76aee3c/aisynphys/database/schema/intrinsic.py",
+                        "file":  "aisynphys__database__schema__intrinsic.py",
+                        "sha256":  "cf9b09da80367068307282dccc3195e16600772531704760217d100c71a7fa52"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/AllenInstitute/aisynphys/b187927abf1e8df46d11b47eeb88c8e2c76aee3c/aisynphys/database/schema/experiment.py",
+                        "file":  "aisynphys__database__schema__experiment.py",
+                        "sha256":  "330d8bcf65f2984a00da8bba9370588d9245705cd359df0fc75f460a87432f21"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/AllenInstitute/aisynphys/b187927abf1e8df46d11b47eeb88c8e2c76aee3c/aisynphys/database/schema/slice.py",
+                        "file":  "aisynphys__database__schema__slice.py",
+                        "sha256":  "bc43214c20300aa55947f646562ff1260d5ebd56dc39c3ccfdb6d11eebe8a298"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/AllenInstitute/aisynphys/b187927abf1e8df46d11b47eeb88c8e2c76aee3c/aisynphys/pipeline/multipatch/intrinsic.py",
+                        "file":  "aisynphys__pipeline__multipatch__intrinsic.py",
+                        "sha256":  "f1b665c7a37dbb4992fdbe6ea69fd4a13d38902750a121aa39e33a560bdf28fe"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/AllenInstitute/aisynphys/b187927abf1e8df46d11b47eeb88c8e2c76aee3c/aisynphys/pipeline/multipatch/synapse.py",
+                        "file":  "aisynphys__pipeline__multipatch__synapse.py",
+                        "sha256":  "7b00d89b0e34894af68ca6421553440aa9e94489deebe02cb7d0b6caa8a98f13"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/AllenInstitute/aisynphys/b187927abf1e8df46d11b47eeb88c8e2c76aee3c/aisynphys/pipeline/multipatch/resting_state.py",
+                        "file":  "aisynphys__pipeline__multipatch__resting_state.py",
+                        "sha256":  "aefebe64b050c9409b603bc2c4b9ce4c248af668d71ea99e1b67abd9a822338b"
+                    },
+                    {
+                        "url":  "https://raw.githubusercontent.com/AllenInstitute/aisynphys/b187927abf1e8df46d11b47eeb88c8e2c76aee3c/aisynphys/resting_state.py",
+                        "file":  "aisynphys__resting_state.py",
+                        "sha256":  "d9d09574416afe640ab30d7d0fa993ee5144825a093b04621e0e856222d11d9d"
+                    }
+                ],
+    "scope":  "Exact documentation/implementation snapshot; not asserted to be the historical execution commit of every published DB record"
+}

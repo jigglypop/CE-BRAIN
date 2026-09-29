@@ -1,0 +1,15 @@
+{
+  "question": "나이·칼슘 기준선에 선형 날짜 항을 추가하면 후기 방향별 연결 예측 오차가 줄어드는가?",
+  "split": "최초90일 내부학습, 다음40일 내부검증; 기존 앞130일로 재적합, 마지막56일 평가",
+  "candidates": [
+    "age_calcium",
+    "age_calcium_date"
+  ],
+  "selection": "내부검증 방향별 logloss 낮은 후보 선택; 동률은 기존 기준선; 날짜 항 하나만 비교",
+  "fitting": "학습 부분만 표준화; 절편 무벌점, 기울기 ridge1; 가중치/시간창 탐색 없음",
+  "test": "후기 전체1394쌍; 선택 고정 후 두 후보 모두 공개; Minnie 계수도 고정",
+  "limits": "후기 결과를 이미 본 탐색적 설계; 날짜는 동물ID 아님; 시간 외삽은 인과설명 아님",
+  "source_sha256": "1e3fc8ebf2ef2db8ce8d3ec84ce14f325bbdd6ee526c0cf0ebd5e55db8a23bbb",
+  "code_sha256": "dbde48afa3b8b4abfa181492130c0135f132774f56d5330b11d19cfb6e7877fb",
+  "fit_code_sha256": "e8fb0fdc93f6b52e75466a694269710ac54c03f034a09bb3be32b6187b3f94b8"
+}

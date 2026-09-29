@@ -1,0 +1,89 @@
+{
+  "contract_sha256": "31636a131632b2a3e2a4b4020551189a3f928956340757739a00cfc6f7f64d82",
+  "sweeps": [
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "command_height_pA_range": [
+    1999.9999920083944,
+    1999.9999920083944
+  ],
+  "pulse_duration_ms_range": [
+    1.5099999999999996,
+    1.5099999999999996
+  ],
+  "spike_counts": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "lag_ms": [
+    1.3050000000000002,
+    1.185,
+    1.2850000000000001,
+    1.245,
+    1.2650000000000001,
+    1.2950000000000002,
+    1.2750000000000001,
+    1.2950000000000002,
+    1.1250000000000002,
+    1.085,
+    1.1350000000000002,
+    1.165,
+    1.1450000000000002,
+    1.1450000000000002,
+    1.1350000000000002,
+    1.1350000000000002,
+    1.1350000000000002,
+    1.095,
+    1.1450000000000002,
+    1.1350000000000002
+  ],
+  "lag_range_ms": [
+    1.085,
+    1.3050000000000002
+  ],
+  "lag_sample_sd_ms": 0.07471172669175273,
+  "linear_trend_ms_per_sweep": -0.00943609022556389,
+  "detrended_residual_rms_ms": 0.04839604004181875,
+  "sampling_interval_ms": [
+    0.01
+  ],
+  "verification": "PASS exact source-event joins, timestamp identities and trend normal equations",
+  "claim": "No postsynaptic mechanism separation established; repeated fixed-dose suprathreshold responses and descriptive timing only."
+}

@@ -1,0 +1,9478 @@
+{
+  "conditions": [
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 2,
+      "channel": 8,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 2,
+      "channel": 12,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 2,
+      "channel": 14,
+      "all_counts": {
+        "pl": 2,
+        "npl": 0
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 2,
+      "channel": 17,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 2,
+      "channel": 23,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 2,
+      "channel": 25,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 2,
+      "channel": 32,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 5,
+      "channel": 8,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 5,
+      "channel": 12,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 5,
+      "channel": 14,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 5,
+      "channel": 17,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 5,
+      "channel": 23,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 5,
+      "channel": 25,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 5,
+      "channel": 32,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 7,
+      "channel": 8,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 7,
+      "channel": 12,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 7,
+      "channel": 14,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 7,
+      "channel": 17,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 7,
+      "channel": 23,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 7,
+      "channel": 25,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 7,
+      "channel": 32,
+      "all_counts": {
+        "pl": 2,
+        "npl": 0
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 10,
+      "channel": 8,
+      "all_counts": {
+        "pl": 2,
+        "npl": 0
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 10,
+      "channel": 12,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 10,
+      "channel": 14,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 10,
+      "channel": 17,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 10,
+      "channel": 23,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 10,
+      "channel": 25,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS43",
+      "session": "21-Jan-2022",
+      "current": 10,
+      "channel": 32,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 2,
+      "channel": 1,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 2,
+      "channel": 3,
+      "all_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 2,
+      "channel": 4,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 2,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 2,
+      "channel": 10,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 2,
+      "channel": 12,
+      "all_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 2,
+      "channel": 18,
+      "all_counts": {
+        "pl": 1,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 2,
+      "channel": 28,
+      "all_counts": {
+        "pl": 1,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 5,
+      "channel": 1,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 5,
+      "channel": 3,
+      "all_counts": {
+        "pl": 4,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 5,
+      "channel": 4,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 5,
+      "channel": 5,
+      "all_counts": {
+        "pl": 4,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 5,
+      "channel": 10,
+      "all_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 5,
+      "channel": 12,
+      "all_counts": {
+        "pl": 5,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 5,
+      "channel": 18,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 5,
+      "channel": 28,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 7,
+      "channel": 1,
+      "all_counts": {
+        "pl": 5,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 7,
+      "channel": 3,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 7,
+      "channel": 4,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 7,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 7,
+      "channel": 10,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 7,
+      "channel": 12,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 7,
+      "channel": 18,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 7,
+      "channel": 28,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 9,
+      "channel": 1,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 9,
+      "channel": 3,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 9,
+      "channel": 4,
+      "all_counts": {
+        "pl": 5,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 9,
+      "channel": 5,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 9,
+      "channel": 10,
+      "all_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 9,
+      "channel": 12,
+      "all_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 9,
+      "channel": 18,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "04-Mar-2022",
+      "current": 9,
+      "channel": 28,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 2,
+      "channel": 4,
+      "all_counts": {
+        "pl": 1,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 2,
+      "channel": 5,
+      "all_counts": {
+        "pl": 5,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 2,
+      "channel": 6,
+      "all_counts": {
+        "pl": 4,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 2,
+      "channel": 7,
+      "all_counts": {
+        "pl": 5,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 2,
+      "channel": 12,
+      "all_counts": {
+        "pl": 2,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 2,
+      "channel": 18,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 2,
+      "channel": 20,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 2,
+      "channel": 28,
+      "all_counts": {
+        "pl": 2,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 5,
+      "channel": 4,
+      "all_counts": {
+        "pl": 4,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 5,
+      "channel": 5,
+      "all_counts": {
+        "pl": 2,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 5,
+      "channel": 6,
+      "all_counts": {
+        "pl": 5,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 5,
+      "channel": 7,
+      "all_counts": {
+        "pl": 2,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 5,
+      "channel": 12,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 5,
+      "channel": 18,
+      "all_counts": {
+        "pl": 2,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 5,
+      "channel": 20,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 5,
+      "channel": 28,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 7,
+      "channel": 4,
+      "all_counts": {
+        "pl": 2,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 7,
+      "channel": 5,
+      "all_counts": {
+        "pl": 2,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 7,
+      "channel": 6,
+      "all_counts": {
+        "pl": 5,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 7,
+      "channel": 7,
+      "all_counts": {
+        "pl": 1,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 7,
+      "channel": 12,
+      "all_counts": {
+        "pl": 4,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 7,
+      "channel": 18,
+      "all_counts": {
+        "pl": 5,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 7,
+      "channel": 20,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 7,
+      "channel": 28,
+      "all_counts": {
+        "pl": 4,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 10,
+      "channel": 4,
+      "all_counts": {
+        "pl": 1,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 10,
+      "channel": 5,
+      "all_counts": {
+        "pl": 4,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 10,
+      "channel": 6,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 10,
+      "channel": 7,
+      "all_counts": {
+        "pl": 1,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 10,
+      "channel": 12,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 10,
+      "channel": 18,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 10,
+      "channel": 20,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "12-Feb-2022",
+      "current": 10,
+      "channel": 28,
+      "all_counts": {
+        "pl": 5,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 2,
+      "channel": 1,
+      "all_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 2,
+      "channel": 3,
+      "all_counts": {
+        "pl": 3,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 2,
+      "channel": 4,
+      "all_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 2,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 2,
+      "channel": 10,
+      "all_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 2,
+      "channel": 12,
+      "all_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 2,
+      "channel": 18,
+      "all_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 2,
+      "channel": 28,
+      "all_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 5,
+      "channel": 1,
+      "all_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 5,
+      "channel": 3,
+      "all_counts": {
+        "pl": 2,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 5,
+      "channel": 4,
+      "all_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 5,
+      "channel": 5,
+      "all_counts": {
+        "pl": 2,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 5,
+      "channel": 10,
+      "all_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 5,
+      "channel": 12,
+      "all_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 5,
+      "channel": 18,
+      "all_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 5,
+      "channel": 28,
+      "all_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 7,
+      "channel": 1,
+      "all_counts": {
+        "pl": 3,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 7,
+      "channel": 3,
+      "all_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 7,
+      "channel": 4,
+      "all_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 7,
+      "channel": 5,
+      "all_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 7,
+      "channel": 10,
+      "all_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 7,
+      "channel": 12,
+      "all_counts": {
+        "pl": 3,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 7,
+      "channel": 18,
+      "all_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 7,
+      "channel": 28,
+      "all_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 10,
+      "channel": 1,
+      "all_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 10,
+      "channel": 3,
+      "all_counts": {
+        "pl": 4,
+        "npl": 0
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 10,
+      "channel": 4,
+      "all_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 10,
+      "channel": 5,
+      "all_counts": {
+        "pl": 4,
+        "npl": 0
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 10,
+      "channel": 10,
+      "all_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 10,
+      "channel": 12,
+      "all_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 10,
+      "channel": 18,
+      "all_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS45",
+      "session": "26-Feb-2022",
+      "current": 10,
+      "channel": 28,
+      "all_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 2,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 2,
+      "channel": 13,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 2,
+      "channel": 15,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 2,
+      "channel": 17,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 2,
+      "channel": 19,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 2,
+      "channel": 23,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 2,
+      "channel": 25,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 2,
+      "channel": 27,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 2,
+      "channel": 29,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 5,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 5,
+      "channel": 13,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 5,
+      "channel": 15,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 5,
+      "channel": 17,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 5,
+      "channel": 19,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 5,
+      "channel": 23,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 5,
+      "channel": 25,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 5,
+      "channel": 27,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 5,
+      "channel": 29,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 7,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 7,
+      "channel": 13,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 7,
+      "channel": 15,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 7,
+      "channel": 17,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 7,
+      "channel": 19,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 7,
+      "channel": 23,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 7,
+      "channel": 25,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 7,
+      "channel": 27,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 7,
+      "channel": 29,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 10,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 10,
+      "channel": 13,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 10,
+      "channel": 15,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 10,
+      "channel": 17,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 10,
+      "channel": 19,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 10,
+      "channel": 23,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 10,
+      "channel": 25,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 10,
+      "channel": 27,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "08-Apr-2022",
+      "current": 10,
+      "channel": 29,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 2,
+      "channel": 1,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 2,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 2,
+      "channel": 13,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          144
+        ],
+        "npl": [
+          14,
+          31
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 3.4400300205122964,
+          "npl": 4.0109483004211715
+        },
+        "npl_minus_pl": 0.570918279908875
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 1.389750836603327,
+          "npl": 1.1757475765769596
+        },
+        "npl_minus_pl": -0.2140032600263675
+      }
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 2,
+      "channel": 15,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 2,
+      "channel": 25,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 2,
+      "channel": 27,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 2,
+      "channel": 29,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 5,
+      "channel": 1,
+      "all_counts": {
+        "pl": 2,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 5,
+      "channel": 5,
+      "all_counts": {
+        "pl": 2,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          14
+        ],
+        "npl": [
+          31,
+          144
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": -9.404720374530255,
+          "npl": 11.610303847863623
+        },
+        "npl_minus_pl": 21.015024222393876
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": -2.0343788784212324,
+          "npl": 3.7589825474125647
+        },
+        "npl_minus_pl": 5.7933614258337975
+      }
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 5,
+      "channel": 13,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 5,
+      "channel": 15,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 5,
+      "channel": 25,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          14
+        ],
+        "npl": [
+          31,
+          144
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 4.938866504583635,
+          "npl": 4.064738228628954
+        },
+        "npl_minus_pl": -0.8741282759546811
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 1.4461400442093693,
+          "npl": 1.3512119236199738
+        },
+        "npl_minus_pl": -0.09492812058939548
+      }
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 5,
+      "channel": 27,
+      "all_counts": {
+        "pl": 2,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 5,
+      "channel": 29,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 7,
+      "channel": 1,
+      "all_counts": {
+        "pl": 2,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 7,
+      "channel": 5,
+      "all_counts": {
+        "pl": 2,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 7,
+      "channel": 13,
+      "all_counts": {
+        "pl": 3,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 7,
+      "channel": 15,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 7,
+      "channel": 25,
+      "all_counts": {
+        "pl": 2,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 7,
+      "channel": 27,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 7,
+      "channel": 29,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 10,
+      "channel": 1,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 10,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 10,
+      "channel": 13,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 10,
+      "channel": 15,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 10,
+      "channel": 25,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 10,
+      "channel": 27,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "current": 10,
+      "channel": 29,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 2,
+      "channel": 1,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 2,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 2,
+      "channel": 7,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 2,
+      "channel": 19,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 2,
+      "channel": 21,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 2,
+      "channel": 25,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 2,
+      "channel": 27,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 5,
+      "channel": 1,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 5,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 5,
+      "channel": 7,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 5,
+      "channel": 19,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 5,
+      "channel": 21,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 5,
+      "channel": 25,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 5,
+      "channel": 27,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          154
+        ],
+        "npl": [
+          166
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 1.5161650819113799,
+          "npl": 0.86027525756193
+        },
+        "npl_minus_pl": -0.6558898243494499
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 1.5876798734658115,
+          "npl": 1.7971876279814785
+        },
+        "npl_minus_pl": 0.20950775451566694
+      }
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 7,
+      "channel": 1,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 7,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 7,
+      "channel": 7,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 7,
+      "channel": 19,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 7,
+      "channel": 21,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 7,
+      "channel": 25,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 7,
+      "channel": 27,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 10,
+      "channel": 1,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 10,
+      "channel": 5,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 10,
+      "channel": 7,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 10,
+      "channel": 19,
+      "all_counts": {
+        "pl": 2,
+        "npl": 0
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 10,
+      "channel": 21,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 10,
+      "channel": 25,
+      "all_counts": {
+        "pl": 2,
+        "npl": 0
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "current": 10,
+      "channel": 27,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 2,
+      "channel": 1,
+      "all_counts": {
+        "pl": 0,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 8
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 2,
+      "channel": 3,
+      "all_counts": {
+        "pl": 0,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 8
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 2,
+      "channel": 10,
+      "all_counts": {
+        "pl": 0,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 2,
+      "channel": 12,
+      "all_counts": {
+        "pl": 0,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 8
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 2,
+      "channel": 14,
+      "all_counts": {
+        "pl": 1,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 8
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 2,
+      "channel": 19,
+      "all_counts": {
+        "pl": 0,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 8
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 2,
+      "channel": 21,
+      "all_counts": {
+        "pl": 0,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 2,
+      "channel": 23,
+      "all_counts": {
+        "pl": 0,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 2,
+      "channel": 32,
+      "all_counts": {
+        "pl": 1,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 8
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 5,
+      "channel": 1,
+      "all_counts": {
+        "pl": 1,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 8
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          49
+        ],
+        "npl": [
+          29,
+          34,
+          88,
+          92,
+          109,
+          110,
+          117,
+          134001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 5.685583262435035,
+          "npl": 5.046371541774834
+        },
+        "npl_minus_pl": -0.6392117206602013
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 1.8204300051179751,
+          "npl": 1.5674657600318
+        },
+        "npl_minus_pl": -0.2529642450861751
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 5,
+      "channel": 3,
+      "all_counts": {
+        "pl": 2,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 2,
+        "npl": 7
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          34,
+          88
+        ],
+        "npl": [
+          29,
+          49,
+          92,
+          109,
+          110,
+          117,
+          134001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 11.056829274460783,
+          "npl": 18.938371973228087
+        },
+        "npl_minus_pl": 7.881542698767303
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 2.7522705521989557,
+          "npl": 4.019942970546481
+        },
+        "npl_minus_pl": 1.2676724183475252
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 5,
+      "channel": 10,
+      "all_counts": {
+        "pl": 4,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 4,
+        "npl": 4
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          34,
+          49,
+          88,
+          110
+        ],
+        "npl": [
+          29,
+          109,
+          117,
+          134001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 6.868563707558441,
+          "npl": 17.262906426031314
+        },
+        "npl_minus_pl": 10.394342718472874
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 1.4870218941997868,
+          "npl": 4.051337480499128
+        },
+        "npl_minus_pl": 2.564315586299341
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 5,
+      "channel": 12,
+      "all_counts": {
+        "pl": 5,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 4,
+        "npl": 4
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          34,
+          49,
+          92,
+          134001
+        ],
+        "npl": [
+          29,
+          109,
+          110,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 15.4292005866442,
+          "npl": 14.087147107372108
+        },
+        "npl_minus_pl": -1.3420534792720922
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 3.777845194028119,
+          "npl": 2.265308959984396
+        },
+        "npl_minus_pl": -1.512536234043723
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 5,
+      "channel": 14,
+      "all_counts": {
+        "pl": 3,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 3,
+        "npl": 5
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          34,
+          92,
+          134001
+        ],
+        "npl": [
+          29,
+          49,
+          109,
+          110,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 30.64566919195029,
+          "npl": 28.525691354275025
+        },
+        "npl_minus_pl": -2.1199778376752647
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 2.940772661517846,
+          "npl": 3.833964959164773
+        },
+        "npl_minus_pl": 0.8931922976469266
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 5,
+      "channel": 19,
+      "all_counts": {
+        "pl": 0,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 8
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 5,
+      "channel": 21,
+      "all_counts": {
+        "pl": 1,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 7
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          134001
+        ],
+        "npl": [
+          29,
+          34,
+          49,
+          88,
+          109,
+          110,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 12.392137563263933,
+          "npl": 10.843238038735283
+        },
+        "npl_minus_pl": -1.5488995245286503
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 3.7612891073108767,
+          "npl": 2.6817420436139314
+        },
+        "npl_minus_pl": -1.0795470636969453
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 5,
+      "channel": 23,
+      "all_counts": {
+        "pl": 3,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 3,
+        "npl": 6
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          49,
+          88,
+          134001
+        ],
+        "npl": [
+          29,
+          34,
+          109,
+          110,
+          117,
+          11001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 9.34922924155875,
+          "npl": 14.008860362467665
+        },
+        "npl_minus_pl": 4.659631120908916
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 3.096001550442293,
+          "npl": 3.2052959335852527
+        },
+        "npl_minus_pl": 0.1092943831429598
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 5,
+      "channel": 32,
+      "all_counts": {
+        "pl": 1,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 7
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          49
+        ],
+        "npl": [
+          29,
+          34,
+          92,
+          109,
+          110,
+          117,
+          134001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 7.424668159853091,
+          "npl": 12.148722411055374
+        },
+        "npl_minus_pl": 4.724054251202283
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 1.7963401488364221,
+          "npl": 2.362417251674074
+        },
+        "npl_minus_pl": 0.5660771028376517
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 7,
+      "channel": 1,
+      "all_counts": {
+        "pl": 2,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 2,
+        "npl": 7
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          49,
+          134001
+        ],
+        "npl": [
+          29,
+          34,
+          88,
+          92,
+          109,
+          110,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 11.665935796708718,
+          "npl": 16.605052338525574
+        },
+        "npl_minus_pl": 4.9391165418168566
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 3.1804583536799207,
+          "npl": 4.030446274562157
+        },
+        "npl_minus_pl": 0.8499879208822367
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 7,
+      "channel": 3,
+      "all_counts": {
+        "pl": 4,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 4,
+        "npl": 5
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          34,
+          49,
+          88,
+          134001
+        ],
+        "npl": [
+          29,
+          92,
+          109,
+          110,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 19.65630992111142,
+          "npl": 19.842454797686493
+        },
+        "npl_minus_pl": 0.1861448765750744
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 4.309599786094735,
+          "npl": 3.8411589478392827
+        },
+        "npl_minus_pl": -0.4684408382554519
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 7,
+      "channel": 10,
+      "all_counts": {
+        "pl": 4,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 4,
+        "npl": 5
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          49,
+          88,
+          110,
+          134001
+        ],
+        "npl": [
+          29,
+          34,
+          92,
+          109,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 27.592774517188683,
+          "npl": 27.55617907682785
+        },
+        "npl_minus_pl": -0.036595440360834175
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 3.889143804169552,
+          "npl": 5.031237751260855
+        },
+        "npl_minus_pl": 1.1420939470913032
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 7,
+      "channel": 12,
+      "all_counts": {
+        "pl": 3,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 2,
+        "npl": 6
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          34,
+          92
+        ],
+        "npl": [
+          29,
+          49,
+          109,
+          110,
+          117,
+          134001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 18.585564334792206,
+          "npl": 28.19374929721104
+        },
+        "npl_minus_pl": 9.608184962418832
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 2.2850528085759962,
+          "npl": 3.7783256955190727
+        },
+        "npl_minus_pl": 1.4932728869430765
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 7,
+      "channel": 14,
+      "all_counts": {
+        "pl": 2,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 5
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          92
+        ],
+        "npl": [
+          34,
+          49,
+          109,
+          110,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 35.42659970612434,
+          "npl": 30.731293790455034
+        },
+        "npl_minus_pl": -4.695305915669309
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 2.0114306095514043,
+          "npl": 2.482610720898477
+        },
+        "npl_minus_pl": 0.4711801113470728
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 7,
+      "channel": 19,
+      "all_counts": {
+        "pl": 3,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 3,
+        "npl": 5
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          34,
+          49,
+          134001
+        ],
+        "npl": [
+          29,
+          92,
+          109,
+          110,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 11.705420451909516,
+          "npl": 6.60567488436429
+        },
+        "npl_minus_pl": -5.099745567545226
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 3.2761726653899013,
+          "npl": 1.5165550869107538
+        },
+        "npl_minus_pl": -1.7596175784791475
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 7,
+      "channel": 21,
+      "all_counts": {
+        "pl": 5,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 3,
+        "npl": 5
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          49,
+          88,
+          134001
+        ],
+        "npl": [
+          29,
+          34,
+          109,
+          110,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 5.926493024906704,
+          "npl": 8.019387330468028
+        },
+        "npl_minus_pl": 2.092894305561324
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 1.5222108618410082,
+          "npl": 2.910348895421897
+        },
+        "npl_minus_pl": 1.3881380335808888
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 7,
+      "channel": 23,
+      "all_counts": {
+        "pl": 5,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 5,
+        "npl": 4
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          49,
+          88,
+          92,
+          110,
+          134001
+        ],
+        "npl": [
+          29,
+          34,
+          109,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 5.672187552560913,
+          "npl": 5.281582240754407
+        },
+        "npl_minus_pl": -0.3906053118065058
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 1.7780786295386692,
+          "npl": 1.8642913327389994
+        },
+        "npl_minus_pl": 0.08621270320033014
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 7,
+      "channel": 32,
+      "all_counts": {
+        "pl": 5,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 4,
+        "npl": 5
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          49,
+          88,
+          92,
+          134001
+        ],
+        "npl": [
+          29,
+          34,
+          109,
+          110,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 20.55560392681454,
+          "npl": 25.50231858707404
+        },
+        "npl_minus_pl": 4.946714660259499
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 2.7074358374208103,
+          "npl": 4.47397146770519
+        },
+        "npl_minus_pl": 1.7665356302843795
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 10,
+      "channel": 1,
+      "all_counts": {
+        "pl": 5,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 4,
+        "npl": 3
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          34,
+          49,
+          92,
+          134001
+        ],
+        "npl": [
+          29,
+          109,
+          110
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 6.909682750143755,
+          "npl": 17.251980406686467
+        },
+        "npl_minus_pl": 10.342297656542712
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 1.938627498089254,
+          "npl": 3.6646931387426958
+        },
+        "npl_minus_pl": 1.7260656406534418
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 10,
+      "channel": 3,
+      "all_counts": {
+        "pl": 5,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 5,
+        "npl": 3
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          34,
+          49,
+          88,
+          92,
+          134001
+        ],
+        "npl": [
+          109,
+          110,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 29.22814884708542,
+          "npl": 24.699286345316082
+        },
+        "npl_minus_pl": -4.528862501769339
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 2.923189177728463,
+          "npl": 4.33295138209931
+        },
+        "npl_minus_pl": 1.409762204370847
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 10,
+      "channel": 10,
+      "all_counts": {
+        "pl": 5,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 5,
+        "npl": 4
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          34,
+          49,
+          92,
+          110,
+          134001
+        ],
+        "npl": [
+          29,
+          88,
+          109,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 34.34320521556613,
+          "npl": 33.51800038794112
+        },
+        "npl_minus_pl": -0.8252048276250079
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 4.187267374060508,
+          "npl": 3.098143880057701
+        },
+        "npl_minus_pl": -1.0891234940028074
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 10,
+      "channel": 12,
+      "all_counts": {
+        "pl": 2,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          34,
+          92
+        ],
+        "npl": [
+          29,
+          49,
+          109,
+          110,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 31.89599491486807,
+          "npl": 44.43735195201981
+        },
+        "npl_minus_pl": 12.54135703715174
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 2.376996520507203,
+          "npl": 2.309525682209851
+        },
+        "npl_minus_pl": -0.06747083829735168
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 10,
+      "channel": 14,
+      "all_counts": {
+        "pl": 1,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 5
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          92
+        ],
+        "npl": [
+          34,
+          49,
+          109,
+          110,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 31.96414420826116,
+          "npl": 32.85503541929129
+        },
+        "npl_minus_pl": 0.8908912110301301
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 1.8032410774801737,
+          "npl": 2.401170340950267
+        },
+        "npl_minus_pl": 0.5979292634700935
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 10,
+      "channel": 19,
+      "all_counts": {
+        "pl": 4,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 3,
+        "npl": 5
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          34,
+          49,
+          92
+        ],
+        "npl": [
+          29,
+          109,
+          110,
+          117,
+          134001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 3.701158006534934,
+          "npl": 11.386860027713817
+        },
+        "npl_minus_pl": 7.685702021178884
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 1.0106195728192497,
+          "npl": 2.3638866838128894
+        },
+        "npl_minus_pl": 1.3532671109936396
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 10,
+      "channel": 21,
+      "all_counts": {
+        "pl": 5,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 3,
+        "npl": 5
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          49,
+          110,
+          134001
+        ],
+        "npl": [
+          29,
+          34,
+          92,
+          109,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 28.288243615623596,
+          "npl": 19.74942245854272
+        },
+        "npl_minus_pl": -8.538821157080875
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 6.892828327883774,
+          "npl": 4.673304692537864
+        },
+        "npl_minus_pl": -2.21952363534591
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 10,
+      "channel": 23,
+      "all_counts": {
+        "pl": 5,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 3,
+        "npl": 5
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          34,
+          49,
+          134001
+        ],
+        "npl": [
+          29,
+          92,
+          109,
+          110,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 14.628406424086828,
+          "npl": 16.520688888947266
+        },
+        "npl_minus_pl": 1.892282464860438
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 3.6464740376955227,
+          "npl": 3.9282270248623945
+        },
+        "npl_minus_pl": 0.2817529871668718
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "current": 10,
+      "channel": 32,
+      "all_counts": {
+        "pl": 3,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          34,
+          92
+        ],
+        "npl": [
+          29,
+          49,
+          109,
+          110,
+          117
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 26.07115054781886,
+          "npl": 38.187558792132535
+        },
+        "npl_minus_pl": 12.116408244313675
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 2.940958022007805,
+          "npl": 3.1507202282994573
+        },
+        "npl_minus_pl": 0.2097622062916522
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "20-May-2022",
+      "current": 5,
+      "channel": 1,
+      "all_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          104,
+          244,
+          64001
+        ],
+        "npl": [
+          73,
+          113,
+          119,
+          160
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": -0.8099626166910787,
+          "npl": 6.128050399007928
+        },
+        "npl_minus_pl": 6.938013015699006
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": -0.7472694420684954,
+          "npl": 6.766539549097939
+        },
+        "npl_minus_pl": 7.513808991166435
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "20-May-2022",
+      "current": 5,
+      "channel": 3,
+      "all_counts": {
+        "pl": 6,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 6,
+        "npl": 1
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          73,
+          104,
+          113,
+          119,
+          244,
+          64001
+        ],
+        "npl": [
+          160
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 15.610090857184973,
+          "npl": 0.2521586595497007
+        },
+        "npl_minus_pl": -15.357932197635273
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 5.5849028306606865,
+          "npl": 0.095518283180741
+        },
+        "npl_minus_pl": -5.489384547479945
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "20-May-2022",
+      "current": 5,
+      "channel": 5,
+      "all_counts": {
+        "pl": 4,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 4,
+        "npl": 3
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          73,
+          104,
+          113,
+          244
+        ],
+        "npl": [
+          119,
+          160,
+          64001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 9.799763067764719,
+          "npl": 4.665630077359961
+        },
+        "npl_minus_pl": -5.1341329904047575
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 6.131624246606151,
+          "npl": 3.1630224546747203
+        },
+        "npl_minus_pl": -2.9686017919314307
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "20-May-2022",
+      "current": 5,
+      "channel": 10,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          104,
+          244
+        ],
+        "npl": [
+          73,
+          113,
+          119,
+          160,
+          64001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": -2.6899204851575655,
+          "npl": 7.09513689680977
+        },
+        "npl_minus_pl": 9.785057381967334
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 0.8209438529268852,
+          "npl": 6.470983537785839
+        },
+        "npl_minus_pl": 5.650039684858954
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "20-May-2022",
+      "current": 5,
+      "channel": 12,
+      "all_counts": {
+        "pl": 5,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 5,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          73,
+          104,
+          113,
+          119,
+          244
+        ],
+        "npl": [
+          160,
+          64001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 13.017113272512955,
+          "npl": 7.013298348450427
+        },
+        "npl_minus_pl": -6.003814924062527
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 4.278948139826067,
+          "npl": 2.394384344002006
+        },
+        "npl_minus_pl": -1.8845637958240609
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "20-May-2022",
+      "current": 5,
+      "channel": 14,
+      "all_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          73,
+          119,
+          244
+        ],
+        "npl": [
+          104,
+          113,
+          160,
+          64001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 8.453552190887692,
+          "npl": 13.745715362659787
+        },
+        "npl_minus_pl": 5.292163171772096
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 2.874232604300232,
+          "npl": 5.6296571310800125
+        },
+        "npl_minus_pl": 2.7554245267797803
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "20-May-2022",
+      "current": 5,
+      "channel": 17,
+      "all_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS54",
+      "session": "20-May-2022",
+      "current": 5,
+      "channel": 19,
+      "all_counts": {
+        "pl": 5,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 5,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          73,
+          104,
+          113,
+          119,
+          244
+        ],
+        "npl": [
+          160,
+          64001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 18.198769153188127,
+          "npl": -0.30597206467239585
+        },
+        "npl_minus_pl": -18.504741217860524
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 6.170108841400719,
+          "npl": -0.0205413271251072
+        },
+        "npl_minus_pl": -6.190650168525826
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "20-May-2022",
+      "current": 5,
+      "channel": 21,
+      "all_counts": {
+        "pl": 4,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 4,
+        "npl": 3
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          73,
+          104,
+          113,
+          244
+        ],
+        "npl": [
+          119,
+          160,
+          64001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 5.378136789888433,
+          "npl": 1.3849539788806244
+        },
+        "npl_minus_pl": -3.993182811007809
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 2.5249136870247826,
+          "npl": 0.8768240529275172
+        },
+        "npl_minus_pl": -1.6480896340972655
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "20-May-2022",
+      "current": 5,
+      "channel": 23,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          104,
+          244
+        ],
+        "npl": [
+          73,
+          113,
+          119,
+          160,
+          64001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": -0.7914583920637082,
+          "npl": 6.3665826159682055
+        },
+        "npl_minus_pl": 7.158041008031914
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 0.4322382126143294,
+          "npl": 8.878549788066564
+        },
+        "npl_minus_pl": 8.446311575452235
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "20-May-2022",
+      "current": 5,
+      "channel": 26,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 2,
+        "npl": 4
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          113,
+          64001
+        ],
+        "npl": [
+          73,
+          119,
+          160,
+          244
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 15.49806790194486,
+          "npl": 23.137669140083176
+        },
+        "npl_minus_pl": 7.639601238138315
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 5.1456445498666685,
+          "npl": 10.124951183788603
+        },
+        "npl_minus_pl": 4.979306633921935
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "20-May-2022",
+      "current": 5,
+      "channel": 30,
+      "all_counts": {
+        "pl": 4,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 4,
+        "npl": 3
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          73,
+          113,
+          119,
+          244
+        ],
+        "npl": [
+          104,
+          160,
+          64001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 11.255780942414173,
+          "npl": 4.298429804221532
+        },
+        "npl_minus_pl": -6.957351138192641
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 4.682274715560402,
+          "npl": 1.5849518223981736
+        },
+        "npl_minus_pl": -3.097322893162228
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "session": "20-May-2022",
+      "current": 5,
+      "channel": 32,
+      "all_counts": {
+        "pl": 5,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 5,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          104,
+          113,
+          119,
+          244,
+          64001
+        ],
+        "npl": [
+          73,
+          160
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 7.69917703499072,
+          "npl": 2.7839844703387233
+        },
+        "npl_minus_pl": -4.915192564651997
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 5.930358684733616,
+          "npl": 2.0352645643078575
+        },
+        "npl_minus_pl": -3.895094120425758
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 2,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 2,
+      "channel": 7,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 2,
+      "channel": 10,
+      "all_counts": {
+        "pl": 4,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 2,
+      "channel": 12,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 2,
+      "channel": 17,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 2,
+      "channel": 19,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 2,
+      "channel": 21,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 2,
+      "channel": 23,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 2,
+      "channel": 25,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 5,
+      "channel": 5,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 5,
+      "channel": 7,
+      "all_counts": {
+        "pl": 2,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 5,
+      "channel": 10,
+      "all_counts": {
+        "pl": 2,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 5,
+      "channel": 12,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 5,
+      "channel": 17,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 5,
+      "channel": 19,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 5,
+      "channel": 21,
+      "all_counts": {
+        "pl": 3,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 5,
+      "channel": 23,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 5,
+      "channel": 25,
+      "all_counts": {
+        "pl": 2,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 7,
+      "channel": 5,
+      "all_counts": {
+        "pl": 3,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 7,
+      "channel": 7,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 7,
+      "channel": 10,
+      "all_counts": {
+        "pl": 4,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 7,
+      "channel": 12,
+      "all_counts": {
+        "pl": 3,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 7,
+      "channel": 17,
+      "all_counts": {
+        "pl": 3,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 7,
+      "channel": 19,
+      "all_counts": {
+        "pl": 2,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 7,
+      "channel": 21,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 7,
+      "channel": 23,
+      "all_counts": {
+        "pl": 2,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 7,
+      "channel": 25,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 10,
+      "channel": 5,
+      "all_counts": {
+        "pl": 2,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 10,
+      "channel": 7,
+      "all_counts": {
+        "pl": 2,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 10,
+      "channel": 10,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 10,
+      "channel": 12,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 10,
+      "channel": 17,
+      "all_counts": {
+        "pl": 1,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 10,
+      "channel": 19,
+      "all_counts": {
+        "pl": 3,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 10,
+      "channel": 21,
+      "all_counts": {
+        "pl": 2,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 10,
+      "channel": 23,
+      "all_counts": {
+        "pl": 3,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "06-Jul-2022",
+      "current": 10,
+      "channel": 25,
+      "all_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 2,
+      "channel": 5,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 2,
+      "channel": 7,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 2,
+      "channel": 10,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 2,
+      "channel": 12,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 2,
+      "channel": 17,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 2,
+      "channel": 19,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 2,
+      "channel": 21,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 2,
+      "channel": 23,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 2,
+      "channel": 25,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 5,
+      "channel": 1,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 5,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 5,
+      "channel": 7,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 5,
+      "channel": 10,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 5,
+      "channel": 12,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 5,
+      "channel": 17,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 5,
+      "channel": 19,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 5,
+      "channel": 21,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 5,
+      "channel": 23,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 5,
+      "channel": 25,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 7,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 7,
+      "channel": 7,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 7,
+      "channel": 10,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 7,
+      "channel": 12,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 7,
+      "channel": 17,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 7,
+      "channel": 19,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 7,
+      "channel": 21,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 7,
+      "channel": 23,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 7,
+      "channel": 25,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 10,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 10,
+      "channel": 7,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 10,
+      "channel": 10,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 10,
+      "channel": 12,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 10,
+      "channel": 17,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 10,
+      "channel": 19,
+      "all_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 10,
+      "channel": 21,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 10,
+      "channel": 23,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "11-Jul-2022",
+      "current": 10,
+      "channel": 25,
+      "all_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 2,
+      "channel": 5,
+      "all_counts": {
+        "pl": 2,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 2,
+      "channel": 7,
+      "all_counts": {
+        "pl": 0,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 2,
+      "channel": 10,
+      "all_counts": {
+        "pl": 2,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 2,
+      "channel": 12,
+      "all_counts": {
+        "pl": 2,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 2,
+      "channel": 17,
+      "all_counts": {
+        "pl": 1,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 2,
+      "channel": 19,
+      "all_counts": {
+        "pl": 1,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 2,
+      "channel": 21,
+      "all_counts": {
+        "pl": 1,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 2,
+      "channel": 23,
+      "all_counts": {
+        "pl": 2,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 2,
+      "channel": 25,
+      "all_counts": {
+        "pl": 2,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 5,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 5,
+      "channel": 7,
+      "all_counts": {
+        "pl": 3,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 5,
+      "channel": 10,
+      "all_counts": {
+        "pl": 2,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 5,
+      "channel": 12,
+      "all_counts": {
+        "pl": 3,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 5,
+      "channel": 17,
+      "all_counts": {
+        "pl": 1,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 5,
+      "channel": 19,
+      "all_counts": {
+        "pl": 0,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 5,
+      "channel": 21,
+      "all_counts": {
+        "pl": 1,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 5,
+      "channel": 23,
+      "all_counts": {
+        "pl": 2,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 5
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 5,
+      "channel": 25,
+      "all_counts": {
+        "pl": 0,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 7,
+      "channel": 5,
+      "all_counts": {
+        "pl": 3,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 7,
+      "channel": 7,
+      "all_counts": {
+        "pl": 0,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 7,
+      "channel": 10,
+      "all_counts": {
+        "pl": 1,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 7,
+      "channel": 12,
+      "all_counts": {
+        "pl": 3,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 7,
+      "channel": 17,
+      "all_counts": {
+        "pl": 2,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 7,
+      "channel": 19,
+      "all_counts": {
+        "pl": 2,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 7,
+      "channel": 21,
+      "all_counts": {
+        "pl": 1,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 7,
+      "channel": 23,
+      "all_counts": {
+        "pl": 2,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 7,
+      "channel": 25,
+      "all_counts": {
+        "pl": 1,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 10,
+      "channel": 5,
+      "all_counts": {
+        "pl": 3,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 10,
+      "channel": 7,
+      "all_counts": {
+        "pl": 4,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 10,
+      "channel": 10,
+      "all_counts": {
+        "pl": 2,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 10,
+      "channel": 12,
+      "all_counts": {
+        "pl": 0,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 10,
+      "channel": 17,
+      "all_counts": {
+        "pl": 3,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 10,
+      "channel": 19,
+      "all_counts": {
+        "pl": 3,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 10,
+      "channel": 21,
+      "all_counts": {
+        "pl": 3,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 10,
+      "channel": 23,
+      "all_counts": {
+        "pl": 2,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "15-Jul-2022",
+      "current": 10,
+      "channel": 25,
+      "all_counts": {
+        "pl": 1,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 2,
+      "channel": 5,
+      "all_counts": {
+        "pl": 1,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 2,
+      "channel": 7,
+      "all_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 2,
+      "channel": 13,
+      "all_counts": {
+        "pl": 1,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 2,
+      "channel": 15,
+      "all_counts": {
+        "pl": 1,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 2,
+      "channel": 17,
+      "all_counts": {
+        "pl": 1,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          13
+        ],
+        "npl": [
+          6,
+          130
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": -2.366450723294145,
+          "npl": 1.072491021010071
+        },
+        "npl_minus_pl": 3.4389417443042163
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": -0.8383690306459622,
+          "npl": 0.4217378002808031
+        },
+        "npl_minus_pl": 1.2601068309267653
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 2,
+      "channel": 19,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 2,
+      "channel": 25,
+      "all_counts": {
+        "pl": 1,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 2,
+      "channel": 27,
+      "all_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 5,
+      "channel": 5,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 5,
+      "channel": 7,
+      "all_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          13
+        ],
+        "npl": [
+          6,
+          130
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": -6.723072140207073,
+          "npl": 1.8585647678174584
+        },
+        "npl_minus_pl": 8.581636908024532
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": -2.688588407293102,
+          "npl": 0.9175912221978555
+        },
+        "npl_minus_pl": 3.6061796294909576
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 5,
+      "channel": 13,
+      "all_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 5,
+      "channel": 15,
+      "all_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          13
+        ],
+        "npl": [
+          6,
+          130
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 2.384023435981296,
+          "npl": -2.6197386740468755
+        },
+        "npl_minus_pl": -5.0037621100281715
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 0.8510795316959576,
+          "npl": -0.9640302662898428
+        },
+        "npl_minus_pl": -1.8151097979858004
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 5,
+      "channel": 17,
+      "all_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          13
+        ],
+        "npl": [
+          6,
+          130
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 0.5074731964700366,
+          "npl": 2.3922687377048417
+        },
+        "npl_minus_pl": 1.884795541234805
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 0.1335248367850056,
+          "npl": 0.7530640213315275
+        },
+        "npl_minus_pl": 0.6195391845465219
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 5,
+      "channel": 19,
+      "all_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          13
+        ],
+        "npl": [
+          6,
+          130
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": -5.4841044525831215,
+          "npl": 8.678581322445305
+        },
+        "npl_minus_pl": 14.162685775028427
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": -1.832574173068719,
+          "npl": 3.6173676863036435
+        },
+        "npl_minus_pl": 5.4499418593723625
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 5,
+      "channel": 25,
+      "all_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 5,
+      "channel": 27,
+      "all_counts": {
+        "pl": 1,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 7,
+      "channel": 5,
+      "all_counts": {
+        "pl": 1,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 7,
+      "channel": 7,
+      "all_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 7,
+      "channel": 13,
+      "all_counts": {
+        "pl": 1,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 7,
+      "channel": 15,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          13
+        ],
+        "npl": [
+          6,
+          130
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 5.064515497009838,
+          "npl": 6.226707853433
+        },
+        "npl_minus_pl": 1.1621923564231622
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 1.7550845311508179,
+          "npl": 2.386904915222859
+        },
+        "npl_minus_pl": 0.6318203840720413
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 7,
+      "channel": 17,
+      "all_counts": {
+        "pl": 4,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 7,
+      "channel": 19,
+      "all_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 7,
+      "channel": 25,
+      "all_counts": {
+        "pl": 4,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          13
+        ],
+        "npl": [
+          6,
+          130
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": -0.5187422090566906,
+          "npl": -0.619410672835732
+        },
+        "npl_minus_pl": -0.10066846377904148
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": -0.19399609030688034,
+          "npl": -0.48868848165645157
+        },
+        "npl_minus_pl": -0.29469239134957126
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 7,
+      "channel": 27,
+      "all_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 10,
+      "channel": 5,
+      "all_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 10,
+      "channel": 7,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 10,
+      "channel": 13,
+      "all_counts": {
+        "pl": 2,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 10,
+      "channel": 15,
+      "all_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 10,
+      "channel": 17,
+      "all_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 10,
+      "channel": 19,
+      "all_counts": {
+        "pl": 0,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 10,
+      "channel": 25,
+      "all_counts": {
+        "pl": 1,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          13
+        ],
+        "npl": [
+          6,
+          130
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": -10.601102265713566,
+          "npl": -0.7870427348098301
+        },
+        "npl_minus_pl": 9.814059530903736
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": -2.9398772595914933,
+          "npl": -0.40716829141879884
+        },
+        "npl_minus_pl": 2.5327089681726944
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "current": 10,
+      "channel": 27,
+      "all_counts": {
+        "pl": 3,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          13
+        ],
+        "npl": [
+          6,
+          130
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": -0.46842389454266636,
+          "npl": -0.8960658446068305
+        },
+        "npl_minus_pl": -0.4276419500641641
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": -0.17845578154130448,
+          "npl": -0.022684577461224043
+        },
+        "npl_minus_pl": 0.15577120408008044
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 2,
+      "channel": 5,
+      "all_counts": {
+        "pl": 5,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 2,
+      "channel": 7,
+      "all_counts": {
+        "pl": 5,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 2,
+      "channel": 10,
+      "all_counts": {
+        "pl": 1,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 2,
+      "channel": 12,
+      "all_counts": {
+        "pl": 0,
+        "npl": 11
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 2,
+      "channel": 17,
+      "all_counts": {
+        "pl": 4,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 2,
+      "channel": 19,
+      "all_counts": {
+        "pl": 2,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 2,
+      "channel": 21,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 2,
+      "channel": 23,
+      "all_counts": {
+        "pl": 0,
+        "npl": 11
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 2,
+      "channel": 25,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 5,
+      "channel": 5,
+      "all_counts": {
+        "pl": 2,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 5,
+      "channel": 7,
+      "all_counts": {
+        "pl": 4,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 5,
+      "channel": 10,
+      "all_counts": {
+        "pl": 1,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 5,
+      "channel": 12,
+      "all_counts": {
+        "pl": 4,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 5,
+      "channel": 17,
+      "all_counts": {
+        "pl": 2,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 5,
+      "channel": 19,
+      "all_counts": {
+        "pl": 2,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 5,
+      "channel": 21,
+      "all_counts": {
+        "pl": 4,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 5,
+      "channel": 23,
+      "all_counts": {
+        "pl": 2,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 5,
+      "channel": 25,
+      "all_counts": {
+        "pl": 1,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 7,
+      "channel": 5,
+      "all_counts": {
+        "pl": 2,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 7,
+      "channel": 7,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 7,
+      "channel": 10,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 7,
+      "channel": 12,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 7,
+      "channel": 17,
+      "all_counts": {
+        "pl": 4,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 7,
+      "channel": 19,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 7,
+      "channel": 21,
+      "all_counts": {
+        "pl": 1,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 7,
+      "channel": 23,
+      "all_counts": {
+        "pl": 1,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 7,
+      "channel": 25,
+      "all_counts": {
+        "pl": 0,
+        "npl": 11
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 10,
+      "channel": 5,
+      "all_counts": {
+        "pl": 1,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 10,
+      "channel": 7,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 10,
+      "channel": 10,
+      "all_counts": {
+        "pl": 6,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 10,
+      "channel": 12,
+      "all_counts": {
+        "pl": 3,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 10,
+      "channel": 17,
+      "all_counts": {
+        "pl": 5,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 10,
+      "channel": 19,
+      "all_counts": {
+        "pl": 2,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 10,
+      "channel": 21,
+      "all_counts": {
+        "pl": 4,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 10,
+      "channel": 23,
+      "all_counts": {
+        "pl": 4,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "23-Jul-2022",
+      "current": 10,
+      "channel": 25,
+      "all_counts": {
+        "pl": 4,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 2,
+      "channel": 5,
+      "all_counts": {
+        "pl": 2,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 2,
+      "channel": 7,
+      "all_counts": {
+        "pl": 1,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 2,
+      "channel": 10,
+      "all_counts": {
+        "pl": 3,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 2,
+      "channel": 12,
+      "all_counts": {
+        "pl": 2,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 2,
+      "channel": 17,
+      "all_counts": {
+        "pl": 2,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 2,
+      "channel": 19,
+      "all_counts": {
+        "pl": 3,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 2,
+      "channel": 21,
+      "all_counts": {
+        "pl": 2,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 2,
+      "channel": 23,
+      "all_counts": {
+        "pl": 4,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 2,
+      "channel": 25,
+      "all_counts": {
+        "pl": 3,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 5,
+      "channel": 5,
+      "all_counts": {
+        "pl": 2,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 5,
+      "channel": 7,
+      "all_counts": {
+        "pl": 1,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 5,
+      "channel": 10,
+      "all_counts": {
+        "pl": 1,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 5,
+      "channel": 12,
+      "all_counts": {
+        "pl": 2,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 5,
+      "channel": 17,
+      "all_counts": {
+        "pl": 2,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 5,
+      "channel": 19,
+      "all_counts": {
+        "pl": 4,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 5,
+      "channel": 21,
+      "all_counts": {
+        "pl": 2,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 5,
+      "channel": 23,
+      "all_counts": {
+        "pl": 3,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 5,
+      "channel": 25,
+      "all_counts": {
+        "pl": 2,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 7,
+      "channel": 5,
+      "all_counts": {
+        "pl": 2,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 7,
+      "channel": 7,
+      "all_counts": {
+        "pl": 2,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 7,
+      "channel": 10,
+      "all_counts": {
+        "pl": 2,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 7,
+      "channel": 12,
+      "all_counts": {
+        "pl": 1,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 7,
+      "channel": 17,
+      "all_counts": {
+        "pl": 3,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 7,
+      "channel": 19,
+      "all_counts": {
+        "pl": 4,
+        "npl": 2
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 7,
+      "channel": 21,
+      "all_counts": {
+        "pl": 3,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 7,
+      "channel": 23,
+      "all_counts": {
+        "pl": 1,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 7,
+      "channel": 25,
+      "all_counts": {
+        "pl": 3,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 10,
+      "channel": 5,
+      "all_counts": {
+        "pl": 3,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 10,
+      "channel": 7,
+      "all_counts": {
+        "pl": 0,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 10,
+      "channel": 10,
+      "all_counts": {
+        "pl": 3,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 10,
+      "channel": 12,
+      "all_counts": {
+        "pl": 1,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 10,
+      "channel": 17,
+      "all_counts": {
+        "pl": 1,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 0
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 10,
+      "channel": 19,
+      "all_counts": {
+        "pl": 3,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 10,
+      "channel": 21,
+      "all_counts": {
+        "pl": 2,
+        "npl": 4
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 10,
+      "channel": 23,
+      "all_counts": {
+        "pl": 3,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "29-Jul-2022",
+      "current": 10,
+      "channel": 25,
+      "all_counts": {
+        "pl": 3,
+        "npl": 3
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 2,
+      "channel": 5,
+      "all_counts": {
+        "pl": 3,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 2,
+      "channel": 7,
+      "all_counts": {
+        "pl": 2,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 2,
+      "channel": 10,
+      "all_counts": {
+        "pl": 1,
+        "npl": 11
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 2,
+      "channel": 12,
+      "all_counts": {
+        "pl": 2,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 2,
+      "channel": 13,
+      "all_counts": {
+        "pl": 2,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 2,
+      "channel": 17,
+      "all_counts": {
+        "pl": 5,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          22001
+        ],
+        "npl": [
+          26001,
+          146001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 1.7937944128736591,
+          "npl": 3.4769146033752962
+        },
+        "npl_minus_pl": 1.683120190501637
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 0.6324825989029444,
+          "npl": 1.7131926806823934
+        },
+        "npl_minus_pl": 1.0807100817794488
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 2,
+      "channel": 19,
+      "all_counts": {
+        "pl": 5,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 2,
+      "channel": 21,
+      "all_counts": {
+        "pl": 4,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 2,
+      "channel": 25,
+      "all_counts": {
+        "pl": 1,
+        "npl": 11
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 2,
+      "channel": 27,
+      "all_counts": {
+        "pl": 2,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 5,
+      "channel": 5,
+      "all_counts": {
+        "pl": 5,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 5,
+      "channel": 7,
+      "all_counts": {
+        "pl": 4,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          22001
+        ],
+        "npl": [
+          26001,
+          146001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 2.1462978268289157,
+          "npl": -1.4852674378238708
+        },
+        "npl_minus_pl": -3.6315652646527865
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 0.8057915874672528,
+          "npl": -0.3847876716020611
+        },
+        "npl_minus_pl": -1.1905792590693138
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 5,
+      "channel": 10,
+      "all_counts": {
+        "pl": 2,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 5,
+      "channel": 12,
+      "all_counts": {
+        "pl": 3,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 5,
+      "channel": 13,
+      "all_counts": {
+        "pl": 2,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 5,
+      "channel": 17,
+      "all_counts": {
+        "pl": 2,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          120
+        ],
+        "npl": [
+          22001,
+          26001,
+          146001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 10.945997953634151,
+          "npl": -0.6810840899043843
+        },
+        "npl_minus_pl": -11.627082043538536
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 1.4921038174151826,
+          "npl": -0.2705914383820025
+        },
+        "npl_minus_pl": -1.7626952557971851
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 5,
+      "channel": 19,
+      "all_counts": {
+        "pl": 4,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 5,
+      "channel": 21,
+      "all_counts": {
+        "pl": 3,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 5,
+      "channel": 25,
+      "all_counts": {
+        "pl": 2,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 5,
+      "channel": 27,
+      "all_counts": {
+        "pl": 3,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 7,
+      "channel": 5,
+      "all_counts": {
+        "pl": 5,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 7,
+      "channel": 7,
+      "all_counts": {
+        "pl": 5,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 2,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          120,
+          22001
+        ],
+        "npl": [
+          26001,
+          146001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 3.6583680266207215,
+          "npl": 4.73727577673701
+        },
+        "npl_minus_pl": 1.0789077501162887
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 0.6619996754594734,
+          "npl": 1.2553485697639055
+        },
+        "npl_minus_pl": 0.5933488943044322
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 7,
+      "channel": 10,
+      "all_counts": {
+        "pl": 3,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 7,
+      "channel": 12,
+      "all_counts": {
+        "pl": 2,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 7,
+      "channel": 13,
+      "all_counts": {
+        "pl": 2,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 7,
+      "channel": 17,
+      "all_counts": {
+        "pl": 5,
+        "npl": 7
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          120
+        ],
+        "npl": [
+          26001,
+          146001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 6.134930581334317,
+          "npl": -2.392220795327276
+        },
+        "npl_minus_pl": -8.527151376661593
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 1.6364106705971286,
+          "npl": -0.9191183235335636
+        },
+        "npl_minus_pl": -2.5555289941306922
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 7,
+      "channel": 19,
+      "all_counts": {
+        "pl": 6,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 7,
+      "channel": 21,
+      "all_counts": {
+        "pl": 6,
+        "npl": 6
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 7,
+      "channel": 25,
+      "all_counts": {
+        "pl": 4,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          22001
+        ],
+        "npl": [
+          26001,
+          146001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 4.5329718400145085,
+          "npl": 4.179635810001468
+        },
+        "npl_minus_pl": -0.3533360300130406
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 2.102563854511759,
+          "npl": 1.284092548857704
+        },
+        "npl_minus_pl": -0.8184713056540551
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 7,
+      "channel": 27,
+      "all_counts": {
+        "pl": 2,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 10,
+      "channel": 5,
+      "all_counts": {
+        "pl": 3,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 10,
+      "channel": 7,
+      "all_counts": {
+        "pl": 2,
+        "npl": 10
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 3
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          120
+        ],
+        "npl": [
+          22001,
+          26001,
+          146001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 6.7978181796723485,
+          "npl": 6.691920408367346
+        },
+        "npl_minus_pl": -0.10589777130500266
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 2.0987754183058938,
+          "npl": 2.1952152147295667
+        },
+        "npl_minus_pl": 0.09643979642367295
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 10,
+      "channel": 10,
+      "all_counts": {
+        "pl": 4,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 2
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          22001
+        ],
+        "npl": [
+          26001,
+          146001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": -3.2624788211319347,
+          "npl": 3.821837810025397
+        },
+        "npl_minus_pl": 7.084316631157332
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": -1.5546287106397323,
+          "npl": 1.2508716791803773
+        },
+        "npl_minus_pl": 2.80550038982011
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 10,
+      "channel": 12,
+      "all_counts": {
+        "pl": 4,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 10,
+      "channel": 13,
+      "all_counts": {
+        "pl": 4,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 2
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 10,
+      "channel": 17,
+      "all_counts": {
+        "pl": 3,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 4
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 10,
+      "channel": 19,
+      "all_counts": {
+        "pl": 3,
+        "npl": 9
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 1
+      },
+      "status": "UNDEFINED"
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 10,
+      "channel": 21,
+      "all_counts": {
+        "pl": 4,
+        "npl": 8
+      },
+      "finite_counts": {
+        "pl": 1,
+        "npl": 1
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          22001
+        ],
+        "npl": [
+          146001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": 2.2364740155589367,
+          "npl": 4.2330606384341305
+        },
+        "npl_minus_pl": 1.9965866228751938
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": 0.6843292216990376,
+          "npl": 3.2034443244940345
+        },
+        "npl_minus_pl": 2.5191151027949967
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 10,
+      "channel": 25,
+      "all_counts": {
+        "pl": 7,
+        "npl": 5
+      },
+      "finite_counts": {
+        "pl": 2,
+        "npl": 1
+      },
+      "status": "DEFINED",
+      "units": {
+        "pl": [
+          22001,
+          26001
+        ],
+        "npl": [
+          146001
+        ]
+      },
+      "pc": {
+        "medians": {
+          "pl": -0.05128345932470174,
+          "npl": 1.192453828457622
+        },
+        "npl_minus_pl": 1.2437372877823238
+      },
+      "pc_norm": {
+        "medians": {
+          "pl": -0.09616632104785214,
+          "npl": 0.5588597722298657
+        },
+        "npl_minus_pl": 0.6550260932777179
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "current": 10,
+      "channel": 27,
+      "all_counts": {
+        "pl": 1,
+        "npl": 11
+      },
+      "finite_counts": {
+        "pl": 0,
+        "npl": 3
+      },
+      "status": "UNDEFINED"
+    }
+  ],
+  "sessions": [
+    {
+      "animal": "ICMS48",
+      "session": "15-Apr-2022",
+      "conditions": 3,
+      "pc": 6.903938075449356,
+      "pc_norm": 1.8281433484060114
+    },
+    {
+      "animal": "ICMS48",
+      "session": "25-Apr-2022",
+      "conditions": 1,
+      "pc": -0.6558898243494499,
+      "pc_norm": 0.20950775451566694
+    },
+    {
+      "animal": "ICMS54",
+      "session": "01-Jun-2022",
+      "conditions": 26,
+      "pc": 2.505241595656432,
+      "pc_norm": 0.37412648105164337
+    },
+    {
+      "animal": "ICMS54",
+      "session": "20-May-2022",
+      "conditions": 12,
+      "pc": -2.0044560023505724,
+      "pc_norm": 0.34759870506106855
+    },
+    {
+      "animal": "ICMS56",
+      "session": "21-Jun-2022",
+      "conditions": 9,
+      "pc": 3.7235821480052778,
+      "pc_norm": 1.3495850968140057
+    },
+    {
+      "animal": "ICMS56",
+      "session": "30-Jun-2022",
+      "conditions": 10,
+      "pc": -1.1158364003738181,
+      "pc_norm": 0.1422865543749132
+    }
+  ],
+  "animals": [
+    {
+      "animal": "ICMS43",
+      "total_conditions": 28,
+      "defined_conditions": 0,
+      "defined_sessions": 0,
+      "sign_disagreement": 0,
+      "animal_equal_session_mean": {
+        "pc": null,
+        "pc_norm": null
+      },
+      "positive_conditions": {
+        "pc": 0,
+        "pc_norm": 0
+      }
+    },
+    {
+      "animal": "ICMS45",
+      "total_conditions": 96,
+      "defined_conditions": 0,
+      "defined_sessions": 0,
+      "sign_disagreement": 0,
+      "animal_equal_session_mean": {
+        "pc": null,
+        "pc_norm": null
+      },
+      "positive_conditions": {
+        "pc": 0,
+        "pc_norm": 0
+      }
+    },
+    {
+      "animal": "ICMS48",
+      "total_conditions": 92,
+      "defined_conditions": 4,
+      "defined_sessions": 2,
+      "sign_disagreement": 2,
+      "animal_equal_session_mean": {
+        "pc": 3.124024125549953,
+        "pc_norm": 1.0188255514608393
+      },
+      "positive_conditions": {
+        "pc": 2,
+        "pc_norm": 2
+      }
+    },
+    {
+      "animal": "ICMS54",
+      "total_conditions": 49,
+      "defined_conditions": 38,
+      "defined_sessions": 2,
+      "sign_disagreement": 7,
+      "animal_equal_session_mean": {
+        "pc": 0.2503927966529298,
+        "pc_norm": 0.36086259305635593
+      },
+      "positive_conditions": {
+        "pc": 20,
+        "pc_norm": 23
+      }
+    },
+    {
+      "animal": "ICMS56",
+      "total_conditions": 253,
+      "defined_conditions": 19,
+      "defined_sessions": 2,
+      "sign_disagreement": 2,
+      "animal_equal_session_mean": {
+        "pc": 1.3038728738157297,
+        "pc_norm": 0.7459358255944595
+      },
+      "positive_conditions": {
+        "pc": 11,
+        "pc_norm": 13
+      }
+    }
+  ]
+}

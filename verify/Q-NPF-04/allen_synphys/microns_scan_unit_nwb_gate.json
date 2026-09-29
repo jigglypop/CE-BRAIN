@@ -1,0 +1,48 @@
+{
+  "status": "MASK_DOMAIN_MATCHES_ALL_EIGHT_PLANES",
+  "checks": [
+    {
+      "field": 1,
+      "count": 643,
+      "all_mask_ids_present": true
+    },
+    {
+      "field": 2,
+      "count": 452,
+      "all_mask_ids_present": true
+    },
+    {
+      "field": 3,
+      "count": 1455,
+      "all_mask_ids_present": true
+    },
+    {
+      "field": 4,
+      "count": 1389,
+      "all_mask_ids_present": true
+    },
+    {
+      "field": 5,
+      "count": 1420,
+      "all_mask_ids_present": true
+    },
+    {
+      "field": 6,
+      "count": 1411,
+      "all_mask_ids_present": true
+    },
+    {
+      "field": 7,
+      "count": 895,
+      "all_mask_ids_present": true
+    },
+    {
+      "field": 8,
+      "count": 730,
+      "all_mask_ids_present": true
+    }
+  ],
+  "decoder_sha256": "74d23a5bf1afdc34e0fa1621f6a7d280c2663257df3f1dfaa9203c4e9c121336",
+  "source_schema_sha256": "22fd6efd3fa874779af09cb55e687e61fdb38e974c950096b315737f9a42d99f",
+  "limits": "Supports v8 mask mapping; does not establish exact historical NWB identity or correct unit-specific timing. One of 13 old coordinate candidates disagrees."
+}

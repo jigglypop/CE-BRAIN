@@ -1,0 +1,16 @@
+{
+  "question": "Does other-edge directional imbalance improve masked orientation prediction beyond pia depth?",
+  "scope": "same ER 881 finite-pia one-way dyads; 22 patients; use only other retained dyads in the same recording",
+  "feature": "for each target (a,b), omit target entirely; r=(out_a-in_a)/(incident_a+1)-(out_b-in_b)/(incident_b+1) on other edges",
+  "models": [
+    "pia difference/100 only",
+    "pia difference/100 and r"
+  ],
+  "fit": "leave entire patient out of coefficient training; ridge identity, no intercept or tuning; each training target likewise omitted from its own features",
+  "task": "conditional network completion with all other same-record orientations observed, not prediction of a fully unseen graph; no joint graph likelihood",
+  "checks": "target flip leaves features unchanged; vertex swap negates role; train/test patient split; gradient; reproduce earlier depth-only losses",
+  "endpoint": "masked directional logloss; pooled and equal-patient means; count patient improvements; delete-one-patient fixed-score sensitivity",
+  "limits": "posthoc exploration; roles may encode layer nonlinearities, geometry or detection; not intrinsic cell-type or causal evidence",
+  "source_sha256": "15ed3ffd56efb84bf03981a35b2fc0fc41344898daf5a01df22112b000dffefd",
+  "code_sha256": "8c39ebbfd1af6e380868a9e166a72539a9810a63d451f9e046838327fa7f328a"
+}

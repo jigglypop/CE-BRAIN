@@ -1,0 +1,30 @@
+{
+  "question": "Does conditional cell-role prediction survive three fixed masks, fewer observed directions, and a cubic depth-difference baseline?",
+  "scope": "same 881 ER dyads/22 patients; no new biological replication",
+  "masks": "seed0,seed1,seed2; per-record hash sorted endpoints round-robin into k=2 or4 groups; target group g sees only (g+1)%k",
+  "models": {
+    "linear": [
+      0
+    ],
+    "cubic": [
+      0,
+      1
+    ],
+    "linear_role": [
+      0,
+      2
+    ],
+    "cubic_role": [
+      0,
+      1,
+      2
+    ]
+  },
+  "features": "x=depth difference/100; x^3/10; role imbalance on visible edges only; all features reverse sign on endpoint swap",
+  "fit": "leave whole patient out; no intercept; ridge identity; fixed scaling and no selection among settings",
+  "checks": "all hidden-label flip invariance; no target visible; gradient<1e-9; seed0 k2 reproduces existing linear-role predictions",
+  "endpoint": "pooled/equal-patient logloss for every setting; patients improved vs corresponding depth baseline",
+  "limits": "cubic depth difference is one alternative, not all spatial confounding; conditional completion not joint graph generation or causal role",
+  "source_sha256": "15ed3ffd56efb84bf03981a35b2fc0fc41344898daf5a01df22112b000dffefd",
+  "code_sha256": "58b694db29c425be8c2aaefb0b34ced616cb3c37b374212a71b8cce808781815"
+}

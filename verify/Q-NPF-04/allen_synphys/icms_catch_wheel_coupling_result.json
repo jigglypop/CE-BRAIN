@@ -1,0 +1,5094 @@
+{
+  "subjects": [
+    {
+      "subject": "ICMS93",
+      "wheel_metadata": {
+        "unit": "a.u.",
+        "rate": 1000.0,
+        "description": "Analysis-ready wheel position. Pipeline: unwrap 12-bit encoder (jump_thresh=2000, wrap_val=4096) at 30000 Hz → decimate to 1000 Hz (scipy.signal.decimate, IIR, zero-phase) → 20 Hz low-pass (2nd-order Butterworth, zero-phase). This is the signal used in the movement-onset analysis (manuscript wheel figure)."
+      },
+      "trials": [
+        {
+          "trial_id": 11,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 14.91412353515625,
+                "displacement": -0.2668800354003906
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.7697525024414062,
+                "displacement": -0.24256515502929688
+              },
+              "mean_unit_change_hz": 1.393939393939394
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 14.933853149414062,
+                "displacement": -0.13827896118164062
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.821208953857422,
+                "displacement": -0.3047523498535156
+              },
+              "mean_unit_change_hz": 1.5757575757575757
+            }
+          ]
+        },
+        {
+          "trial_id": 28,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 15.077880859375,
+                "displacement": -0.271240234375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 11.23681640625,
+                "displacement": 4.27978515625
+              },
+              "mean_unit_change_hz": 3.6363636363636362
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 14.988525390625,
+                "displacement": -0.163330078125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 12.14013671875,
+                "displacement": 3.353515625
+              },
+              "mean_unit_change_hz": 3.6363636363636362
+            }
+          ]
+        },
+        {
+          "trial_id": 30,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 21.006591796875,
+                "displacement": -1.051513671875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.88720703125,
+                "displacement": -0.3974609375
+              },
+              "mean_unit_change_hz": 0.9090909090909091
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 20.416259765625,
+                "displacement": -1.641845703125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.843994140625,
+                "displacement": -0.335693359375
+              },
+              "mean_unit_change_hz": 0.9090909090909091
+            }
+          ]
+        },
+        {
+          "trial_id": 45,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 16.096923828125,
+                "displacement": 0.333251953125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.06884765625,
+                "displacement": -2.19921875
+              },
+              "mean_unit_change_hz": 2.5454545454545454
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 16.079833984375,
+                "displacement": 0.273681640625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.609375,
+                "displacement": -1.73974609375
+              },
+              "mean_unit_change_hz": 2.606060606060606
+            }
+          ]
+        },
+        {
+          "trial_id": 109,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.223388671875,
+                "displacement": -3.741455078125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.873779296875,
+                "displacement": -2.797607421875
+              },
+              "mean_unit_change_hz": 0.36363636363636365
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.1923828125,
+                "displacement": -3.6484375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.9404296875,
+                "displacement": -2.9111328125
+              },
+              "mean_unit_change_hz": 0.42424242424242425
+            }
+          ]
+        },
+        {
+          "trial_id": 139,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.11328125,
+                "displacement": -0.8876953125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 17.34619140625,
+                "displacement": -0.23193359375
+              },
+              "mean_unit_change_hz": 2.242424242424242
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.148681640625,
+                "displacement": -0.789306640625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 17.34814453125,
+                "displacement": -0.22998046875
+              },
+              "mean_unit_change_hz": 2.1818181818181817
+            }
+          ]
+        },
+        {
+          "trial_id": 144,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.289794921875,
+                "displacement": 0.682373046875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.50537109375,
+                "displacement": -0.306640625
+              },
+              "mean_unit_change_hz": 1.696969696969697
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.278564453125,
+                "displacement": 0.693603515625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.482421875,
+                "displacement": -0.25244140625
+              },
+              "mean_unit_change_hz": 1.696969696969697
+            }
+          ]
+        },
+        {
+          "trial_id": 149,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.962890625,
+                "displacement": 0.29296875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.932861328125,
+                "displacement": -0.972412109375
+              },
+              "mean_unit_change_hz": 2.1818181818181817
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.970947265625,
+                "displacement": 0.284912109375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.950439453125,
+                "displacement": -0.954833984375
+              },
+              "mean_unit_change_hz": 2.121212121212121
+            }
+          ]
+        },
+        {
+          "trial_id": 201,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 13.208251953125,
+                "displacement": -0.150146484375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.58447265625,
+                "displacement": -0.0927734375
+              },
+              "mean_unit_change_hz": -2.0606060606060606
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 13.182861328125,
+                "displacement": 0.014892578125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.577392578125,
+                "displacement": -0.085693359375
+              },
+              "mean_unit_change_hz": -1.9393939393939394
+            }
+          ]
+        },
+        {
+          "trial_id": 222,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.177490234375,
+                "displacement": -0.112548828125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.959228515625,
+                "displacement": 4.889892578125
+              },
+              "mean_unit_change_hz": 1.2727272727272727
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.091064453125,
+                "displacement": -0.026123046875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.002685546875,
+                "displacement": 4.980712890625
+              },
+              "mean_unit_change_hz": 1.2121212121212122
+            }
+          ]
+        },
+        {
+          "trial_id": 236,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.109375,
+                "displacement": 0.0517578125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.210693359375,
+                "displacement": -2.912353515625
+              },
+              "mean_unit_change_hz": 2.9696969696969697
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.10302734375,
+                "displacement": 0.05810546875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.2431640625,
+                "displacement": -2.99462890625
+              },
+              "mean_unit_change_hz": 3.090909090909091
+            }
+          ]
+        },
+        {
+          "trial_id": 239,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 13.889892578125,
+                "displacement": -0.027099609375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.080322265625,
+                "displacement": 1.043212890625
+              },
+              "mean_unit_change_hz": 1.4545454545454546
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 13.925048828125,
+                "displacement": 0.008056640625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.145263671875,
+                "displacement": 1.137451171875
+              },
+              "mean_unit_change_hz": 1.393939393939394
+            }
+          ]
+        },
+        {
+          "trial_id": 313,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.291170120239258,
+                "displacement": 0.1840801239013672
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.888278961181641,
+                "displacement": -0.07824325561523438
+              },
+              "mean_unit_change_hz": 0.9090909090909091
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.3999576568603516,
+                "displacement": 0.29286766052246094
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.878084182739258,
+                "displacement": 0.009710311889648438
+              },
+              "mean_unit_change_hz": 0.8484848484848485
+            }
+          ]
+        },
+        {
+          "trial_id": 322,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 12.40966796875,
+                "displacement": 0.14013671875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 13.0810546875,
+                "displacement": -0.05078125
+              },
+              "mean_unit_change_hz": -0.30303030303030304
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 12.421875,
+                "displacement": 0.158203125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 13.106689453125,
+                "displacement": -0.076416015625
+              },
+              "mean_unit_change_hz": -0.24242424242424243
+            }
+          ]
+        },
+        {
+          "trial_id": 326,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.635498046875,
+                "displacement": -1.390869140625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.322265625,
+                "displacement": -0.07275390625
+              },
+              "mean_unit_change_hz": 4.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.218017578125,
+                "displacement": -0.755126953125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.406494140625,
+                "displacement": 0.144287109375
+              },
+              "mean_unit_change_hz": 3.9393939393939394
+            }
+          ]
+        },
+        {
+          "trial_id": 330,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.40771484375,
+                "displacement": 0.13232421875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.874267578125,
+                "displacement": 0.919189453125
+              },
+              "mean_unit_change_hz": 3.757575757575758
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.4794921875,
+                "displacement": 0.51611328125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.736328125,
+                "displacement": 0.78125
+              },
+              "mean_unit_change_hz": 3.696969696969697
+            }
+          ]
+        },
+        {
+          "trial_id": 344,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 14.2958984375,
+                "displacement": -0.0517578125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.995849609375,
+                "displacement": 0.206787109375
+              },
+              "mean_unit_change_hz": 0.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 14.241455078125,
+                "displacement": -0.124755859375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 10.072998046875,
+                "displacement": 0.103759765625
+              },
+              "mean_unit_change_hz": -0.18181818181818182
+            }
+          ]
+        },
+        {
+          "trial_id": 346,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 13.305419921875,
+                "displacement": -1.138916015625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.90380859375,
+                "displacement": 0.0498046875
+              },
+              "mean_unit_change_hz": -1.0909090909090908
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 13.269775390625,
+                "displacement": -1.174560546875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.9169921875,
+                "displacement": 0.03515625
+              },
+              "mean_unit_change_hz": -1.0909090909090908
+            }
+          ]
+        }
+      ],
+      "summaries": [
+        {
+          "anchor": "trial_start",
+          "trials": 18,
+          "pre_tv_median": 10.90869140625,
+          "post_tv_median": 6.113037109375,
+          "tv_increase_trials": 5,
+          "post_tv_firing_spearman": -0.13939082910744177,
+          "tv_change_firing_spearman": 0.1786267661895365,
+          "mean_firing_change": 1.4377104377104377,
+          "lower_half_trials": [
+            239,
+            144,
+            11,
+            149,
+            30,
+            236,
+            109,
+            330,
+            346
+          ],
+          "lower_half_mean_firing_change": 1.5151515151515151,
+          "lower_half_post_tv_range": [
+            3.080322265625,
+            5.90380859375
+          ]
+        },
+        {
+          "anchor": "shifted",
+          "trials": 18,
+          "pre_tv_median": 10.95068359375,
+          "post_tv_median": 6.1734619140625,
+          "tv_increase_trials": 5,
+          "post_tv_firing_spearman": -0.17647058823529413,
+          "tv_change_firing_spearman": 0.15583075335397317,
+          "mean_firing_change": 1.4377104377104377,
+          "lower_half_trials": [
+            239,
+            144,
+            11,
+            149,
+            30,
+            236,
+            330,
+            346,
+            109
+          ],
+          "lower_half_mean_firing_change": 1.5353535353535352,
+          "lower_half_post_tv_range": [
+            3.145263671875,
+            5.9404296875
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ICMS100",
+      "wheel_metadata": {
+        "unit": "a.u.",
+        "rate": 1000.0,
+        "description": "Analysis-ready wheel position. Pipeline: unwrap 12-bit encoder (jump_thresh=2000, wrap_val=4096) at 30000 Hz → decimate to 1000 Hz (scipy.signal.decimate, IIR, zero-phase) → 20 Hz low-pass (2nd-order Butterworth, zero-phase). This is the signal used in the movement-onset analysis (manuscript wheel figure)."
+      },
+      "trials": [
+        {
+          "trial_id": 9,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 15.8125,
+                "displacement": -0.2265625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.47265625,
+                "displacement": 0.0849609375
+              },
+              "mean_unit_change_hz": -0.125
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 15.654296875,
+                "displacement": -0.48974609375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.508544921875,
+                "displacement": 0.012451171875
+              },
+              "mean_unit_change_hz": 0.125
+            }
+          ]
+        },
+        {
+          "trial_id": 19,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.5830078125,
+                "displacement": 0.294921875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.81494140625,
+                "displacement": -0.17822265625
+              },
+              "mean_unit_change_hz": 1.25
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.5126953125,
+                "displacement": 0.365234375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.79931640625,
+                "displacement": 0.13232421875
+              },
+              "mean_unit_change_hz": 1.25
+            }
+          ]
+        },
+        {
+          "trial_id": 38,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.359375,
+                "displacement": -0.09375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 22.75390625,
+                "displacement": 1.04296875
+              },
+              "mean_unit_change_hz": 4.25
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.37109375,
+                "displacement": -0.08203125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 22.984375,
+                "displacement": 0.0859375
+              },
+              "mean_unit_change_hz": 4.0
+            }
+          ]
+        },
+        {
+          "trial_id": 61,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 21.52734375,
+                "displacement": 1.05859375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 31.2578125,
+                "displacement": 0.484375
+              },
+              "mean_unit_change_hz": 2.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 21.64453125,
+                "displacement": 0.75390625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 31.41796875,
+                "displacement": 0.64453125
+              },
+              "mean_unit_change_hz": 1.875
+            }
+          ]
+        },
+        {
+          "trial_id": 62,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 15.57421875,
+                "displacement": 1.12890625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 11.9375,
+                "displacement": 1.15625
+              },
+              "mean_unit_change_hz": 1.875
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 15.73828125,
+                "displacement": 0.85546875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 11.95703125,
+                "displacement": 1.17578125
+              },
+              "mean_unit_change_hz": 1.75
+            }
+          ]
+        },
+        {
+          "trial_id": 66,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.38671875,
+                "displacement": -0.01953125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.1484375,
+                "displacement": 0.1484375
+              },
+              "mean_unit_change_hz": 1.625
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.40625,
+                "displacement": 0.0
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.1875,
+                "displacement": 0.1015625
+              },
+              "mean_unit_change_hz": 1.75
+            }
+          ]
+        },
+        {
+          "trial_id": 84,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.79296875,
+                "displacement": -0.12109375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.390625,
+                "displacement": 0.2734375
+              },
+              "mean_unit_change_hz": 1.375
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.8046875,
+                "displacement": -0.1328125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.3203125,
+                "displacement": 0.203125
+              },
+              "mean_unit_change_hz": 1.375
+            }
+          ]
+        },
+        {
+          "trial_id": 96,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.77734375,
+                "displacement": -0.32421875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.05078125,
+                "displacement": -0.35546875
+              },
+              "mean_unit_change_hz": 0.875
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.77734375,
+                "displacement": -0.32421875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.98828125,
+                "displacement": -0.42578125
+              },
+              "mean_unit_change_hz": 0.875
+            }
+          ]
+        },
+        {
+          "trial_id": 107,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.30078125,
+                "displacement": 0.14453125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 12.0078125,
+                "displacement": -0.078125
+              },
+              "mean_unit_change_hz": 0.75
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.30078125,
+                "displacement": 0.15234375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 11.9765625,
+                "displacement": -0.015625
+              },
+              "mean_unit_change_hz": 0.75
+            }
+          ]
+        },
+        {
+          "trial_id": 111,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.625,
+                "displacement": -2.515625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.28515625,
+                "displacement": -1.96484375
+              },
+              "mean_unit_change_hz": 1.125
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.6875,
+                "displacement": -2.453125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.2734375,
+                "displacement": -1.890625
+              },
+              "mean_unit_change_hz": 1.125
+            }
+          ]
+        },
+        {
+          "trial_id": 118,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.49609375,
+                "displacement": 2.85546875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.33984375,
+                "displacement": -0.00390625
+              },
+              "mean_unit_change_hz": 2.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.36328125,
+                "displacement": 2.72265625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.30859375,
+                "displacement": -0.03515625
+              },
+              "mean_unit_change_hz": 2.125
+            }
+          ]
+        },
+        {
+          "trial_id": 123,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.78515625,
+                "displacement": 0.46484375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 65.41796875,
+                "displacement": 19.23828125
+              },
+              "mean_unit_change_hz": 6.125
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.7578125,
+                "displacement": 0.40625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 65.25390625,
+                "displacement": 19.07421875
+              },
+              "mean_unit_change_hz": 6.0
+            }
+          ]
+        },
+        {
+          "trial_id": 166,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.015625,
+                "displacement": 0.046875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.36328125,
+                "displacement": 0.23828125
+              },
+              "mean_unit_change_hz": 0.75
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.05078125,
+                "displacement": 0.16796875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.31640625,
+                "displacement": 0.19140625
+              },
+              "mean_unit_change_hz": 0.75
+            }
+          ]
+        },
+        {
+          "trial_id": 177,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 14.08203125,
+                "displacement": 0.22265625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.37890625,
+                "displacement": 0.22265625
+              },
+              "mean_unit_change_hz": 5.25
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 14.19140625,
+                "displacement": -0.04296875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.390625,
+                "displacement": 0.2890625
+              },
+              "mean_unit_change_hz": 5.125
+            }
+          ]
+        },
+        {
+          "trial_id": 178,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.87890625,
+                "displacement": -0.38671875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.9921875,
+                "displacement": -0.140625
+              },
+              "mean_unit_change_hz": 1.375
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.859375,
+                "displacement": -0.40625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.9140625,
+                "displacement": -0.21875
+              },
+              "mean_unit_change_hz": 1.5
+            }
+          ]
+        },
+        {
+          "trial_id": 182,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.96484375,
+                "displacement": 0.16796875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.17578125,
+                "displacement": -3.22265625
+              },
+              "mean_unit_change_hz": 1.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.9765625,
+                "displacement": 0.1796875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.1328125,
+                "displacement": -3.1484375
+              },
+              "mean_unit_change_hz": 1.0
+            }
+          ]
+        },
+        {
+          "trial_id": 199,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 19.53515625,
+                "displacement": -5.412109375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.8017578125,
+                "displacement": 0.4072265625
+              },
+              "mean_unit_change_hz": -0.625
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 18.9736328125,
+                "displacement": -4.7451171875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.7998046875,
+                "displacement": 0.5224609375
+              },
+              "mean_unit_change_hz": -0.625
+            }
+          ]
+        },
+        {
+          "trial_id": 204,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4618.9931640625,
+                "displacement": -4048.6552734375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.92578125,
+                "displacement": -0.3896484375
+              },
+              "mean_unit_change_hz": 2.75
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4618.71435546875,
+                "displacement": -4048.93994140625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 10.03125,
+                "displacement": -0.1650390625
+              },
+              "mean_unit_change_hz": 2.5
+            }
+          ]
+        },
+        {
+          "trial_id": 218,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.015625,
+                "displacement": 4.4912109375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.8681640625,
+                "displacement": 0.13671875
+              },
+              "mean_unit_change_hz": 2.875
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.20068359375,
+                "displacement": 4.30615234375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.86181640625,
+                "displacement": 0.03076171875
+              },
+              "mean_unit_change_hz": 2.875
+            }
+          ]
+        },
+        {
+          "trial_id": 219,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.42919921875,
+                "displacement": 1.20361328125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 11.49658203125,
+                "displacement": 0.04638671875
+              },
+              "mean_unit_change_hz": 0.25
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.39794921875,
+                "displacement": 1.14208984375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 11.33984375,
+                "displacement": -0.1103515625
+              },
+              "mean_unit_change_hz": 0.125
+            }
+          ]
+        },
+        {
+          "trial_id": 237,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.35205078125,
+                "displacement": 0.40380859375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.10107421875,
+                "displacement": -0.24267578125
+              },
+              "mean_unit_change_hz": 1.125
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.41015625,
+                "displacement": 0.345703125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.1005859375,
+                "displacement": -0.1513671875
+              },
+              "mean_unit_change_hz": 1.0
+            }
+          ]
+        },
+        {
+          "trial_id": 256,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.7236328125,
+                "displacement": -1.4404296875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.7783203125,
+                "displacement": -2.8291015625
+              },
+              "mean_unit_change_hz": 0.75
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.7080078125,
+                "displacement": -1.1298828125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.765625,
+                "displacement": -2.92578125
+              },
+              "mean_unit_change_hz": 0.75
+            }
+          ]
+        },
+        {
+          "trial_id": 271,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.81640625,
+                "displacement": 0.162109375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 16.9853515625,
+                "displacement": -1.5751953125
+              },
+              "mean_unit_change_hz": 4.125
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.8349609375,
+                "displacement": 0.2509765625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 17.060546875,
+                "displacement": -1.484375
+              },
+              "mean_unit_change_hz": 4.125
+            }
+          ]
+        },
+        {
+          "trial_id": 281,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.3896484375,
+                "displacement": -0.1845703125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 13.9892578125,
+                "displacement": -0.1044921875
+              },
+              "mean_unit_change_hz": 2.125
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.3681640625,
+                "displacement": -0.2060546875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 14.2353515625,
+                "displacement": 0.4287109375
+              },
+              "mean_unit_change_hz": 2.125
+            }
+          ]
+        },
+        {
+          "trial_id": 287,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.5302734375,
+                "displacement": 0.0712890625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 13.35546875,
+                "displacement": -2.650390625
+              },
+              "mean_unit_change_hz": 3.75
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.521484375,
+                "displacement": -0.041015625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 13.6845703125,
+                "displacement": -2.9794921875
+              },
+              "mean_unit_change_hz": 3.75
+            }
+          ]
+        },
+        {
+          "trial_id": 299,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.125,
+                "displacement": 0.0205078125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.1064453125,
+                "displacement": -0.1865234375
+              },
+              "mean_unit_change_hz": 0.375
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.12158203125,
+                "displacement": 0.01708984375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.1259765625,
+                "displacement": -0.2060546875
+              },
+              "mean_unit_change_hz": 0.25
+            }
+          ]
+        },
+        {
+          "trial_id": 318,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.8818359375,
+                "displacement": -2.2216796875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.501953125,
+                "displacement": -0.384765625
+              },
+              "mean_unit_change_hz": 1.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.8876953125,
+                "displacement": -2.2978515625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.66357421875,
+                "displacement": -0.65771484375
+              },
+              "mean_unit_change_hz": 1.0
+            }
+          ]
+        },
+        {
+          "trial_id": 328,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.244140625,
+                "displacement": 0.1220703125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.1796875,
+                "displacement": 0.15625
+              },
+              "mean_unit_change_hz": 1.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.27978515625,
+                "displacement": -0.02001953125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.21875,
+                "displacement": 0.234375
+              },
+              "mean_unit_change_hz": 1.0
+            }
+          ]
+        },
+        {
+          "trial_id": 333,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.787109375,
+                "displacement": -3.50390625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 56.759765625,
+                "displacement": 3.912109375
+              },
+              "mean_unit_change_hz": 3.25
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.66259765625,
+                "displacement": -3.75537109375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 56.90234375,
+                "displacement": 3.4814453125
+              },
+              "mean_unit_change_hz": 3.125
+            }
+          ]
+        },
+        {
+          "trial_id": 335,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.40478515625,
+                "displacement": 0.19384765625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.56103515625,
+                "displacement": 0.34228515625
+              },
+              "mean_unit_change_hz": 1.125
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.5107421875,
+                "displacement": 0.087890625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.61767578125,
+                "displacement": 0.14990234375
+              },
+              "mean_unit_change_hz": 1.0
+            }
+          ]
+        },
+        {
+          "trial_id": 363,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.871337890625,
+                "displacement": -0.192138671875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.479736328125,
+                "displacement": 0.093017578125
+              },
+              "mean_unit_change_hz": 1.75
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.810546875,
+                "displacement": -0.09716796875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.47607421875,
+                "displacement": 0.130859375
+              },
+              "mean_unit_change_hz": 2.0
+            }
+          ]
+        },
+        {
+          "trial_id": 370,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.044677734375,
+                "displacement": 0.165771484375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.281982421875,
+                "displacement": -0.156005859375
+              },
+              "mean_unit_change_hz": 1.75
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.129638671875,
+                "displacement": 0.446533203125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.23583984375,
+                "displacement": -0.2021484375
+              },
+              "mean_unit_change_hz": 1.625
+            }
+          ]
+        },
+        {
+          "trial_id": 374,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.496826171875,
+                "displacement": -0.012939453125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.992919921875,
+                "displacement": -1.806884765625
+              },
+              "mean_unit_change_hz": 1.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.542236328125,
+                "displacement": -0.058349609375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.9169921875,
+                "displacement": -1.697265625
+              },
+              "mean_unit_change_hz": 1.125
+            }
+          ]
+        },
+        {
+          "trial_id": 383,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.791015625,
+                "displacement": 0.20654296875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.8515625,
+                "displacement": -0.330078125
+              },
+              "mean_unit_change_hz": 1.375
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.859619140625,
+                "displacement": 0.061767578125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.82373046875,
+                "displacement": -0.18701171875
+              },
+              "mean_unit_change_hz": 1.375
+            }
+          ]
+        },
+        {
+          "trial_id": 395,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.14697265625,
+                "displacement": -0.23095703125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 14.1201171875,
+                "displacement": -0.20849609375
+              },
+              "mean_unit_change_hz": 2.75
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.134765625,
+                "displacement": -0.2431640625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 14.125244140625,
+                "displacement": -0.205322265625
+              },
+              "mean_unit_change_hz": 2.375
+            }
+          ]
+        }
+      ],
+      "summaries": [
+        {
+          "anchor": "trial_start",
+          "trials": 35,
+          "pre_tv_median": 7.40478515625,
+          "post_tv_median": 6.81494140625,
+          "tv_increase_trials": 18,
+          "post_tv_firing_spearman": 0.5205199165847351,
+          "tv_change_firing_spearman": 0.34626500111351116,
+          "mean_firing_change": 1.8285714285714285,
+          "lower_half_trials": [
+            66,
+            178,
+            374,
+            370,
+            166,
+            84,
+            9,
+            363,
+            318,
+            199,
+            237,
+            299,
+            328,
+            111,
+            177,
+            335,
+            256
+          ],
+          "lower_half_mean_firing_change": 1.213235294117647,
+          "lower_half_post_tv_range": [
+            4.1484375,
+            6.7783203125
+          ]
+        },
+        {
+          "anchor": "shifted",
+          "trials": 35,
+          "pre_tv_median": 7.41015625,
+          "post_tv_median": 6.79931640625,
+          "tv_increase_trials": 18,
+          "post_tv_firing_spearman": 0.47772185081822616,
+          "tv_change_firing_spearman": 0.3406083818847929,
+          "mean_firing_change": 1.7964285714285715,
+          "lower_half_trials": [
+            66,
+            178,
+            374,
+            370,
+            166,
+            84,
+            363,
+            9,
+            318,
+            199,
+            237,
+            299,
+            328,
+            111,
+            177,
+            335,
+            256
+          ],
+          "lower_half_mean_firing_change": 1.2279411764705883,
+          "lower_half_post_tv_range": [
+            4.1875,
+            6.765625
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ICMS101",
+      "wheel_metadata": {
+        "unit": "a.u.",
+        "rate": 1000.0,
+        "description": "Analysis-ready wheel position. Pipeline: unwrap 12-bit encoder (jump_thresh=2000, wrap_val=4096) at 30000 Hz → decimate to 1000 Hz (scipy.signal.decimate, IIR, zero-phase) → 20 Hz low-pass (2nd-order Butterworth, zero-phase). This is the signal used in the movement-onset analysis (manuscript wheel figure)."
+      },
+      "trials": [
+        {
+          "trial_id": 13,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.76318359375,
+                "displacement": -0.1123046875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.47998046875,
+                "displacement": 1.5048828125
+              },
+              "mean_unit_change_hz": 1.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.1572265625,
+                "displacement": -0.177734375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.83251953125,
+                "displacement": 1.0078125
+              },
+              "mean_unit_change_hz": 1.4
+            }
+          ]
+        },
+        {
+          "trial_id": 18,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 17.3232421875,
+                "displacement": -0.3681640625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 25.310302734375,
+                "displacement": -0.057373046875
+              },
+              "mean_unit_change_hz": -0.2
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 17.368896484375,
+                "displacement": 0.427490234375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 21.019775390625,
+                "displacement": -5.046630859375
+              },
+              "mean_unit_change_hz": -0.8
+            }
+          ]
+        },
+        {
+          "trial_id": 31,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.139404296875,
+                "displacement": -2.161376953125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.6435546875,
+                "displacement": 0.25244140625
+              },
+              "mean_unit_change_hz": -0.6
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.3935546875,
+                "displacement": 0.89306640625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.830810546875,
+                "displacement": -0.200927734375
+              },
+              "mean_unit_change_hz": -0.2
+            }
+          ]
+        },
+        {
+          "trial_id": 37,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.833251953125,
+                "displacement": 1.030029296875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 20.9814453125,
+                "displacement": 3.26220703125
+              },
+              "mean_unit_change_hz": 3.8
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.62548828125,
+                "displacement": -0.85595703125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 22.263427734375,
+                "displacement": 3.055908203125
+              },
+              "mean_unit_change_hz": 2.8
+            }
+          ]
+        },
+        {
+          "trial_id": 42,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.530029296875,
+                "displacement": 0.269287109375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 15.409912109375,
+                "displacement": 0.443603515625
+              },
+              "mean_unit_change_hz": 2.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.453369140625,
+                "displacement": -0.225830078125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 15.500244140625,
+                "displacement": -0.003662109375
+              },
+              "mean_unit_change_hz": 1.6
+            }
+          ]
+        },
+        {
+          "trial_id": 58,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.916259765625,
+                "displacement": 0.158935546875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 12.062744140625,
+                "displacement": -1.153076171875
+              },
+              "mean_unit_change_hz": 1.2
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.74072265625,
+                "displacement": 0.74951171875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.978515625,
+                "displacement": -1.830078125
+              },
+              "mean_unit_change_hz": 0.4
+            }
+          ]
+        },
+        {
+          "trial_id": 67,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.5107421875,
+                "displacement": -0.06201171875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.20263671875,
+                "displacement": -1.88037109375
+              },
+              "mean_unit_change_hz": 2.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.44140625,
+                "displacement": -0.0712890625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.82470703125,
+                "displacement": -1.46875
+              },
+              "mean_unit_change_hz": 3.0
+            }
+          ]
+        },
+        {
+          "trial_id": 76,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.604206085205078,
+                "displacement": -2.600849151611328
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.167606353759766,
+                "displacement": 0.10385513305664062
+              },
+              "mean_unit_change_hz": -0.6
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.06097412109375,
+                "displacement": -2.7572860717773438
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.893348693847656,
+                "displacement": -0.16582489013671875
+              },
+              "mean_unit_change_hz": 0.2
+            }
+          ]
+        },
+        {
+          "trial_id": 81,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.940673828125,
+                "displacement": 0.070068359375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 17.039794921875,
+                "displacement": 1.977783203125
+              },
+              "mean_unit_change_hz": 1.6
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.053466796875,
+                "displacement": 0.531005859375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 19.5302734375,
+                "displacement": -0.8818359375
+              },
+              "mean_unit_change_hz": 1.4
+            }
+          ]
+        },
+        {
+          "trial_id": 104,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 18.23681640625,
+                "displacement": -8.9755859375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 19.208984375,
+                "displacement": -0.03857421875
+              },
+              "mean_unit_change_hz": 0.8
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 16.80810546875,
+                "displacement": -10.85205078125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 16.86572265625,
+                "displacement": -2.52587890625
+              },
+              "mean_unit_change_hz": 1.2
+            }
+          ]
+        },
+        {
+          "trial_id": 109,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.3984375,
+                "displacement": 0.84912109375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.520263671875,
+                "displacement": 1.212158203125
+              },
+              "mean_unit_change_hz": 3.2
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.36767578125,
+                "displacement": 0.310546875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.130859375,
+                "displacement": -0.18798828125
+              },
+              "mean_unit_change_hz": 2.8
+            }
+          ]
+        },
+        {
+          "trial_id": 114,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.942138671875,
+                "displacement": 0.803955078125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.30224609375,
+                "displacement": 2.904296875
+              },
+              "mean_unit_change_hz": 2.8
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.9619140625,
+                "displacement": 1.486328125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.77734375,
+                "displacement": 3.34814453125
+              },
+              "mean_unit_change_hz": 1.6
+            }
+          ]
+        },
+        {
+          "trial_id": 123,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.3525390625,
+                "displacement": 0.79541015625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 11.414306640625,
+                "displacement": 0.260009765625
+              },
+              "mean_unit_change_hz": 0.4
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.151123046875,
+                "displacement": 0.710693359375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.819091796875,
+                "displacement": -1.054443359375
+              },
+              "mean_unit_change_hz": 0.2
+            }
+          ]
+        },
+        {
+          "trial_id": 146,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 41.39892578125,
+                "displacement": -1.7099609375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.669921875,
+                "displacement": 0.1708984375
+              },
+              "mean_unit_change_hz": -5.2
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 35.71533203125,
+                "displacement": -11.42041015625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.77880859375,
+                "displacement": 0.15087890625
+              },
+              "mean_unit_change_hz": -5.0
+            }
+          ]
+        },
+        {
+          "trial_id": 151,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 11.067138671875,
+                "displacement": -1.441650390625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 10.053955078125,
+                "displacement": 3.545654296875
+              },
+              "mean_unit_change_hz": 2.8
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.894775390625,
+                "displacement": -3.153076171875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.950439453125,
+                "displacement": 3.141845703125
+              },
+              "mean_unit_change_hz": 3.4
+            }
+          ]
+        },
+        {
+          "trial_id": 188,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.069660186767578,
+                "displacement": -0.054546356201171875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.069084167480469,
+                "displacement": 0.7091903686523438
+              },
+              "mean_unit_change_hz": 1.2
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.15780258178711,
+                "displacement": 0.044803619384765625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.611541748046875,
+                "displacement": 1.1624069213867188
+              },
+              "mean_unit_change_hz": 1.4
+            }
+          ]
+        },
+        {
+          "trial_id": 191,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.8740386962890625,
+                "displacement": 0.39434814453125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 16.947742462158203,
+                "displacement": 6.630092620849609
+              },
+              "mean_unit_change_hz": 0.6
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.276969909667969,
+                "displacement": -0.0920867919921875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 21.93203353881836,
+                "displacement": 1.9113426208496094
+              },
+              "mean_unit_change_hz": 1.0
+            }
+          ]
+        },
+        {
+          "trial_id": 206,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.50830078125,
+                "displacement": 0.337890625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 31.2470703125,
+                "displacement": 16.71240234375
+              },
+              "mean_unit_change_hz": 1.8
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.4111328125,
+                "displacement": -1.12548828125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 31.09326171875,
+                "displacement": 14.7578125
+              },
+              "mean_unit_change_hz": 1.8
+            }
+          ]
+        },
+        {
+          "trial_id": 218,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.989013671875,
+                "displacement": -1.760009765625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.9189453125,
+                "displacement": 0.01953125
+              },
+              "mean_unit_change_hz": -0.8
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.28173828125,
+                "displacement": -0.46142578125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.002685546875,
+                "displacement": 0.408935546875
+              },
+              "mean_unit_change_hz": -1.2
+            }
+          ]
+        },
+        {
+          "trial_id": 229,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.476318359375,
+                "displacement": -0.360107421875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.369140625,
+                "displacement": 0.24560546875
+              },
+              "mean_unit_change_hz": -0.4
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.796875,
+                "displacement": 1.97705078125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.51904296875,
+                "displacement": 0.4560546875
+              },
+              "mean_unit_change_hz": -0.4
+            }
+          ]
+        },
+        {
+          "trial_id": 245,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.146484375,
+                "displacement": -0.8857421875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 13.60595703125,
+                "displacement": -5.39013671875
+              },
+              "mean_unit_change_hz": -0.2
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.38818359375,
+                "displacement": -1.296875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 13.008544921875,
+                "displacement": -5.103759765625
+              },
+              "mean_unit_change_hz": 0.6
+            }
+          ]
+        },
+        {
+          "trial_id": 256,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.09375,
+                "displacement": 1.25390625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.3828125,
+                "displacement": -0.28125
+              },
+              "mean_unit_change_hz": 1.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.17578125,
+                "displacement": 1.23046875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.046875,
+                "displacement": -0.28515625
+              },
+              "mean_unit_change_hz": 1.2
+            }
+          ]
+        },
+        {
+          "trial_id": 268,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.291015625,
+                "displacement": 0.134765625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 11.021484375,
+                "displacement": -4.798828125
+              },
+              "mean_unit_change_hz": -1.4
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.580078125,
+                "displacement": -0.458984375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 12.01953125,
+                "displacement": -5.44921875
+              },
+              "mean_unit_change_hz": -1.0
+            }
+          ]
+        },
+        {
+          "trial_id": 279,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.181640625,
+                "displacement": 1.201171875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 12.6376953125,
+                "displacement": 2.2900390625
+              },
+              "mean_unit_change_hz": -0.4
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.4052734375,
+                "displacement": 0.0830078125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 10.6494140625,
+                "displacement": -0.0810546875
+              },
+              "mean_unit_change_hz": -0.2
+            }
+          ]
+        },
+        {
+          "trial_id": 296,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.71875,
+                "displacement": -1.015625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 15.505859375,
+                "displacement": 0.392578125
+              },
+              "mean_unit_change_hz": 2.2
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.42578125,
+                "displacement": 0.578125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 15.314453125,
+                "displacement": -0.033203125
+              },
+              "mean_unit_change_hz": 0.2
+            }
+          ]
+        },
+        {
+          "trial_id": 305,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.77734375,
+                "displacement": 0.12109375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 10.111328125,
+                "displacement": -0.001953125
+              },
+              "mean_unit_change_hz": -0.6
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.4453125,
+                "displacement": -0.21484375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 10.2109375,
+                "displacement": -0.453125
+              },
+              "mean_unit_change_hz": -0.4
+            }
+          ]
+        },
+        {
+          "trial_id": 324,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.8828125,
+                "displacement": 0.044921875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.419921875,
+                "displacement": 0.26953125
+              },
+              "mean_unit_change_hz": -1.2
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.98046875,
+                "displacement": 0.009765625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.0478515625,
+                "displacement": -0.3154296875
+              },
+              "mean_unit_change_hz": -0.6
+            }
+          ]
+        },
+        {
+          "trial_id": 327,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.375,
+                "displacement": 0.0625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.830078125,
+                "displacement": 1.841796875
+              },
+              "mean_unit_change_hz": -0.2
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.09375,
+                "displacement": 2.0859375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.75390625,
+                "displacement": 1.1328125
+              },
+              "mean_unit_change_hz": -0.2
+            }
+          ]
+        },
+        {
+          "trial_id": 328,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.232421875,
+                "displacement": 0.302734375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.23046875,
+                "displacement": 1.15625
+              },
+              "mean_unit_change_hz": 0.2
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.548828125,
+                "displacement": 0.228515625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.392578125,
+                "displacement": 1.638671875
+              },
+              "mean_unit_change_hz": 1.4
+            }
+          ]
+        },
+        {
+          "trial_id": 341,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.818359375,
+                "displacement": 1.787109375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 13.94140625,
+                "displacement": -3.97265625
+              },
+              "mean_unit_change_hz": -1.2
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.9375,
+                "displacement": 1.1796875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 11.78125,
+                "displacement": -5.5234375
+              },
+              "mean_unit_change_hz": -1.4
+            }
+          ]
+        },
+        {
+          "trial_id": 353,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.71484375,
+                "displacement": -0.359375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.12109375,
+                "displacement": 4.125
+              },
+              "mean_unit_change_hz": 2.2
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.490234375,
+                "displacement": -2.880859375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 16.6015625,
+                "displacement": 13.25
+              },
+              "mean_unit_change_hz": 3.2
+            }
+          ]
+        },
+        {
+          "trial_id": 370,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.876953125,
+                "displacement": -0.744140625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.513671875,
+                "displacement": 0.568359375
+              },
+              "mean_unit_change_hz": 0.4
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.189453125,
+                "displacement": -0.302734375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.4140625,
+                "displacement": -1.16015625
+              },
+              "mean_unit_change_hz": 1.2
+            }
+          ]
+        },
+        {
+          "trial_id": 392,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 33.94921875,
+                "displacement": -0.37890625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 11.2314453125,
+                "displacement": 5.0693359375
+              },
+              "mean_unit_change_hz": -0.4
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 27.8623046875,
+                "displacement": 6.2431640625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 15.4404296875,
+                "displacement": -0.0400390625
+              },
+              "mean_unit_change_hz": 0.0
+            }
+          ]
+        }
+      ],
+      "summaries": [
+        {
+          "anchor": "trial_start",
+          "trials": 33,
+          "pre_tv_median": 8.604206085205078,
+          "post_tv_median": 10.053955078125,
+          "tv_increase_trials": 19,
+          "post_tv_firing_spearman": 0.22696488647614574,
+          "tv_change_firing_spearman": 0.39133031311300054,
+          "mean_firing_change": 0.5393939393939394,
+          "lower_half_trials": [
+            328,
+            229,
+            324,
+            31,
+            109,
+            327,
+            218,
+            188,
+            76,
+            67,
+            256,
+            353,
+            114,
+            13,
+            370,
+            146
+          ],
+          "lower_half_mean_firing_change": 0.3125,
+          "lower_half_post_tv_range": [
+            5.23046875,
+            8.669921875
+          ]
+        },
+        {
+          "anchor": "shifted",
+          "trials": 33,
+          "pre_tv_median": 8.3935546875,
+          "post_tv_median": 9.4140625,
+          "tv_increase_trials": 20,
+          "post_tv_firing_spearman": 0.1743284402139421,
+          "tv_change_firing_spearman": 0.3761207269169202,
+          "mean_firing_change": 0.6242424242424243,
+          "lower_half_trials": [
+            31,
+            324,
+            328,
+            229,
+            123,
+            109,
+            188,
+            327,
+            67,
+            76,
+            218,
+            256,
+            13,
+            114,
+            146,
+            58
+          ],
+          "lower_half_mean_firing_change": 0.375,
+          "lower_half_post_tv_range": [
+            4.830810546875,
+            8.978515625
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ICMS92",
+      "wheel_metadata": {
+        "unit": "a.u.",
+        "rate": 1000.0,
+        "description": "Analysis-ready wheel position. Pipeline: unwrap 12-bit encoder (jump_thresh=2000, wrap_val=4096) at 30000 Hz → decimate to 1000 Hz (scipy.signal.decimate, IIR, zero-phase) → 20 Hz low-pass (2nd-order Butterworth, zero-phase). This is the signal used in the movement-onset analysis (manuscript wheel figure)."
+      },
+      "trials": [
+        {
+          "trial_id": 8,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.51708984375,
+                "displacement": 0.92822265625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.66455078125,
+                "displacement": 0.04052734375
+              },
+              "mean_unit_change_hz": 0.4
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.5517578125,
+                "displacement": 0.7978515625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.68896484375,
+                "displacement": 0.00927734375
+              },
+              "mean_unit_change_hz": 0.5
+            }
+          ]
+        },
+        {
+          "trial_id": 9,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.0576171875,
+                "displacement": -0.076171875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 257.23583984375,
+                "displacement": -56.97900390625
+              },
+              "mean_unit_change_hz": 8.3
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.0634765625,
+                "displacement": 0.013671875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 257.9306640625,
+                "displacement": -56.2841796875
+              },
+              "mean_unit_change_hz": 8.2
+            }
+          ]
+        },
+        {
+          "trial_id": 12,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 11.81123161315918,
+                "displacement": 7.117780685424805
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.791913986206055,
+                "displacement": 0.03133201599121094
+              },
+              "mean_unit_change_hz": -0.2
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 12.230812072753906,
+                "displacement": 7.652606964111328
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.814380645751953,
+                "displacement": 0.0088653564453125
+              },
+              "mean_unit_change_hz": -0.2
+            }
+          ]
+        },
+        {
+          "trial_id": 22,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.143281936645508,
+                "displacement": 0.12016868591308594
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.89311408996582,
+                "displacement": -0.8480968475341797
+              },
+              "mean_unit_change_hz": -1.2
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.130729675292969,
+                "displacement": 0.1388397216796875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.89463996887207,
+                "displacement": -0.9024524688720703
+              },
+              "mean_unit_change_hz": -1.0
+            }
+          ]
+        },
+        {
+          "trial_id": 32,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.173828125,
+                "displacement": -0.1591796875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.82861328125,
+                "displacement": 4.62841796875
+              },
+              "mean_unit_change_hz": 5.4
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.24169921875,
+                "displacement": -0.2744140625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.830078125,
+                "displacement": 4.6298828125
+              },
+              "mean_unit_change_hz": 5.5
+            }
+          ]
+        },
+        {
+          "trial_id": 51,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.477294921875,
+                "displacement": 0.399658203125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.610107421875,
+                "displacement": 0.709228515625
+              },
+              "mean_unit_change_hz": 2.3
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.5185546875,
+                "displacement": 0.30078125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.61181640625,
+                "displacement": 0.71142578125
+              },
+              "mean_unit_change_hz": 2.4
+            }
+          ]
+        },
+        {
+          "trial_id": 54,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.241455078125,
+                "displacement": -0.010009765625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.055908203125,
+                "displacement": 1.064697265625
+              },
+              "mean_unit_change_hz": 2.1
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.22900390625,
+                "displacement": 0.00244140625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.08984375,
+                "displacement": 1.02880859375
+              },
+              "mean_unit_change_hz": 2.0
+            }
+          ]
+        },
+        {
+          "trial_id": 67,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4621.673816680908,
+                "displacement": -4047.5343170166016
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.416986465454102,
+                "displacement": -2.1356945037841797
+              },
+              "mean_unit_change_hz": 3.7
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4620.606735229492,
+                "displacement": -4046.4475898742676
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.432680130004883,
+                "displacement": -2.1200008392333984
+              },
+              "mean_unit_change_hz": 3.7
+            }
+          ]
+        },
+        {
+          "trial_id": 98,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 17.418575286865234,
+                "displacement": -0.036624908447265625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.699213027954102,
+                "displacement": -0.04828834533691406
+              },
+              "mean_unit_change_hz": 5.8
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 17.447551727294922,
+                "displacement": 0.13705825805664062
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.670463562011719,
+                "displacement": -0.07703781127929688
+              },
+              "mean_unit_change_hz": 5.7
+            }
+          ]
+        },
+        {
+          "trial_id": 109,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 38.32958984375,
+                "displacement": 11.0517578125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 105.940673828125,
+                "displacement": -35.094970703125
+              },
+              "mean_unit_change_hz": 2.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 38.075439453125,
+                "displacement": 10.797607421875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 109.2783203125,
+                "displacement": -30.580078125
+              },
+              "mean_unit_change_hz": 2.0
+            }
+          ]
+        },
+        {
+          "trial_id": 120,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.98095703125,
+                "displacement": -0.86474609375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.246337890625,
+                "displacement": 0.853759765625
+              },
+              "mean_unit_change_hz": -0.6
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.711181640625,
+                "displacement": -1.197998046875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.271728515625,
+                "displacement": 0.886474609375
+              },
+              "mean_unit_change_hz": -0.5
+            }
+          ]
+        },
+        {
+          "trial_id": 126,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.3720703125,
+                "displacement": 0.22021484375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 13.82666015625,
+                "displacement": 0.1484375
+              },
+              "mean_unit_change_hz": 3.2
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.3037109375,
+                "displacement": 0.15185546875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 13.802001953125,
+                "displacement": 0.127197265625
+              },
+              "mean_unit_change_hz": 2.9
+            }
+          ]
+        },
+        {
+          "trial_id": 131,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.097900390625,
+                "displacement": 0.322998046875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 17.5517578125,
+                "displacement": 10.8037109375
+              },
+              "mean_unit_change_hz": 7.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.047607421875,
+                "displacement": 0.270751953125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 17.98095703125,
+                "displacement": 11.23583984375
+              },
+              "mean_unit_change_hz": 7.5
+            }
+          ]
+        },
+        {
+          "trial_id": 132,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.15380859375,
+                "displacement": -0.4814453125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.8974609375,
+                "displacement": 1.966796875
+              },
+              "mean_unit_change_hz": 0.7
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.221923828125,
+                "displacement": -0.617431640625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.871826171875,
+                "displacement": 1.941162109375
+              },
+              "mean_unit_change_hz": 0.6
+            }
+          ]
+        },
+        {
+          "trial_id": 153,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.897216796875,
+                "displacement": -0.046142578125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 23.6083984375,
+                "displacement": -4.48681640625
+              },
+              "mean_unit_change_hz": 1.1
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.891357421875,
+                "displacement": -0.019287109375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 24.33740234375,
+                "displacement": -5.23388671875
+              },
+              "mean_unit_change_hz": 1.0
+            }
+          ]
+        },
+        {
+          "trial_id": 168,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 21.158203125,
+                "displacement": -15.5986328125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 14.687744140625,
+                "displacement": 1.135498046875
+              },
+              "mean_unit_change_hz": -1.3
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 20.87939453125,
+                "displacement": -15.31982421875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 14.6806640625,
+                "displacement": 1.12841796875
+              },
+              "mean_unit_change_hz": -1.2
+            }
+          ]
+        },
+        {
+          "trial_id": 180,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.3505859375,
+                "displacement": 2.10107421875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.04541015625,
+                "displacement": 1.2373046875
+              },
+              "mean_unit_change_hz": 1.5
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.304443359375,
+                "displacement": 2.052490234375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.046142578125,
+                "displacement": 1.236572265625
+              },
+              "mean_unit_change_hz": 1.6
+            }
+          ]
+        },
+        {
+          "trial_id": 212,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.539436340332031,
+                "displacement": -3.1119956970214844
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.519287109375,
+                "displacement": -0.1046905517578125
+              },
+              "mean_unit_change_hz": 1.1
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.402690887451172,
+                "displacement": -2.975250244140625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.671432495117188,
+                "displacement": -0.2885856628417969
+              },
+              "mean_unit_change_hz": 0.9
+            }
+          ]
+        },
+        {
+          "trial_id": 225,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.42919921875,
+                "displacement": 0.14208984375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.9716796875,
+                "displacement": 0.1298828125
+              },
+              "mean_unit_change_hz": 0.7
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.390380859375,
+                "displacement": 0.079833984375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.937744140625,
+                "displacement": 0.163818359375
+              },
+              "mean_unit_change_hz": 0.7
+            }
+          ]
+        },
+        {
+          "trial_id": 229,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.20458984375,
+                "displacement": 0.35986328125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.33740234375,
+                "displacement": 0.16015625
+              },
+              "mean_unit_change_hz": 0.1
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.148681640625,
+                "displacement": 0.572021484375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.302734375,
+                "displacement": 0.224609375
+              },
+              "mean_unit_change_hz": -0.1
+            }
+          ]
+        },
+        {
+          "trial_id": 234,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.45263671875,
+                "displacement": -4.03857421875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.31103515625,
+                "displacement": -1.486328125
+              },
+              "mean_unit_change_hz": 1.1
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.471435546875,
+                "displacement": -4.135009765625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.2724609375,
+                "displacement": -1.52587890625
+              },
+              "mean_unit_change_hz": 1.5
+            }
+          ]
+        },
+        {
+          "trial_id": 238,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.130615234375,
+                "displacement": -0.429443359375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.086181640625,
+                "displacement": -0.214599609375
+              },
+              "mean_unit_change_hz": 2.3
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.131103515625,
+                "displacement": -0.118408203125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.113037109375,
+                "displacement": -0.150634765625
+              },
+              "mean_unit_change_hz": 2.3
+            }
+          ]
+        },
+        {
+          "trial_id": 243,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.659423828125,
+                "displacement": 0.128662109375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.087890625,
+                "displacement": 2.79052734375
+              },
+              "mean_unit_change_hz": 0.9
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.735595703125,
+                "displacement": 0.294677734375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.377197265625,
+                "displacement": 2.501220703125
+              },
+              "mean_unit_change_hz": 1.1
+            }
+          ]
+        },
+        {
+          "trial_id": 262,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.09912109375,
+                "displacement": 1.53125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.8818359375,
+                "displacement": -0.89697265625
+              },
+              "mean_unit_change_hz": 2.3
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.342529296875,
+                "displacement": 1.774658203125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.892822265625,
+                "displacement": -0.931396484375
+              },
+              "mean_unit_change_hz": 2.5
+            }
+          ]
+        },
+        {
+          "trial_id": 288,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.67041015625,
+                "displacement": 1.65771484375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.736328125,
+                "displacement": 2.7724609375
+              },
+              "mean_unit_change_hz": 0.6
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.62646484375,
+                "displacement": 1.50439453125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.77392578125,
+                "displacement": 2.68994140625
+              },
+              "mean_unit_change_hz": 0.5
+            }
+          ]
+        },
+        {
+          "trial_id": 298,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 19.84375,
+                "displacement": 3.7294921875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.10595703125,
+                "displacement": 0.62353515625
+              },
+              "mean_unit_change_hz": 3.4
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 19.75927734375,
+                "displacement": 3.63037109375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.4462890625,
+                "displacement": 0.283203125
+              },
+              "mean_unit_change_hz": 3.5
+            }
+          ]
+        },
+        {
+          "trial_id": 308,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 21.4970703125,
+                "displacement": 4.3095703125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 40.28564453125,
+                "displacement": -34.63623046875
+              },
+              "mean_unit_change_hz": 3.3
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 21.47021484375,
+                "displacement": 4.28369140625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 45.15478515625,
+                "displacement": -39.50537109375
+              },
+              "mean_unit_change_hz": 3.4
+            }
+          ]
+        },
+        {
+          "trial_id": 315,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 11.2626953125,
+                "displacement": 2.6103515625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.3955078125,
+                "displacement": -1.1396484375
+              },
+              "mean_unit_change_hz": 0.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 11.3212890625,
+                "displacement": 2.6826171875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.3876953125,
+                "displacement": -1.1474609375
+              },
+              "mean_unit_change_hz": 0.0
+            }
+          ]
+        },
+        {
+          "trial_id": 330,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.3583984375,
+                "displacement": -1.3115234375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.5244140625,
+                "displacement": 3.1748046875
+              },
+              "mean_unit_change_hz": -0.4
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.3447265625,
+                "displacement": -1.3251953125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.546875,
+                "displacement": 3.197265625
+              },
+              "mean_unit_change_hz": 0.0
+            }
+          ]
+        },
+        {
+          "trial_id": 356,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 12.1669921875,
+                "displacement": 0.3154296875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 10.1904296875,
+                "displacement": 0.3896484375
+              },
+              "mean_unit_change_hz": 1.7
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 11.4990234375,
+                "displacement": 0.9833984375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 10.33984375,
+                "displacement": 0.23046875
+              },
+              "mean_unit_change_hz": 1.9
+            }
+          ]
+        },
+        {
+          "trial_id": 361,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.13671875,
+                "displacement": 0.328125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 13.4619140625,
+                "displacement": 0.1748046875
+              },
+              "mean_unit_change_hz": 1.4
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.1494140625,
+                "displacement": 0.3408203125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 13.3486328125,
+                "displacement": 0.2919921875
+              },
+              "mean_unit_change_hz": 1.4
+            }
+          ]
+        },
+        {
+          "trial_id": 371,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.466796875,
+                "displacement": -0.255859375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.759765625,
+                "displacement": -0.048828125
+              },
+              "mean_unit_change_hz": -0.5
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 8.4140625,
+                "displacement": -0.16015625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.7412109375,
+                "displacement": -0.0244140625
+              },
+              "mean_unit_change_hz": -0.7
+            }
+          ]
+        },
+        {
+          "trial_id": 385,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.6181640625,
+                "displacement": -0.4150390625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.236328125,
+                "displacement": -0.169921875
+              },
+              "mean_unit_change_hz": -4.4
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.623046875,
+                "displacement": -0.431640625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.1962890625,
+                "displacement": -0.1298828125
+              },
+              "mean_unit_change_hz": -4.4
+            }
+          ]
+        },
+        {
+          "trial_id": 389,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.115234375,
+                "displacement": -0.154296875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.6455078125,
+                "displacement": -0.1201171875
+              },
+              "mean_unit_change_hz": 2.1
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 9.130859375,
+                "displacement": -0.1328125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.6376953125,
+                "displacement": -0.1123046875
+              },
+              "mean_unit_change_hz": 2.1
+            }
+          ]
+        },
+        {
+          "trial_id": 398,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 13.3076171875,
+                "displacement": -3.2177734375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 10.341796875,
+                "displacement": -0.185546875
+              },
+              "mean_unit_change_hz": 0.5
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 13.3408203125,
+                "displacement": -3.1845703125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 10.2744140625,
+                "displacement": -0.0947265625
+              },
+              "mean_unit_change_hz": 0.6
+            }
+          ]
+        }
+      ],
+      "summaries": [
+        {
+          "anchor": "trial_start",
+          "trials": 35,
+          "pre_tv_median": 8.897216796875,
+          "post_tv_median": 8.6455078125,
+          "tv_increase_trials": 17,
+          "post_tv_firing_spearman": 0.19074987164399643,
+          "tv_change_firing_spearman": 0.12165384907199771,
+          "mean_firing_change": 1.6114285714285717,
+          "lower_half_trials": [
+            51,
+            262,
+            54,
+            120,
+            315,
+            8,
+            22,
+            238,
+            234,
+            229,
+            180,
+            243,
+            330,
+            288,
+            67,
+            98,
+            298
+          ],
+          "lower_half_mean_firing_change": 1.4294117647058822,
+          "lower_half_post_tv_range": [
+            3.610107421875,
+            8.10595703125
+          ]
+        },
+        {
+          "anchor": "shifted",
+          "trials": 35,
+          "pre_tv_median": 8.891357421875,
+          "post_tv_median": 8.6376953125,
+          "tv_increase_trials": 17,
+          "post_tv_firing_spearman": 0.1753992783896354,
+          "tv_change_firing_spearman": 0.09820678446576234,
+          "mean_firing_change": 1.6542857142857141,
+          "lower_half_trials": [
+            51,
+            262,
+            54,
+            120,
+            315,
+            8,
+            22,
+            238,
+            234,
+            229,
+            180,
+            243,
+            330,
+            288,
+            67,
+            98,
+            298
+          ],
+          "lower_half_mean_firing_change": 1.511764705882353,
+          "lower_half_post_tv_range": [
+            3.61181640625,
+            8.4462890625
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "ICMS98",
+      "wheel_metadata": {
+        "unit": "a.u.",
+        "rate": 1000.0,
+        "description": "Analysis-ready wheel position. Pipeline: unwrap 12-bit encoder (jump_thresh=2000, wrap_val=4096) at 30000 Hz → decimate to 1000 Hz (scipy.signal.decimate, IIR, zero-phase) → 20 Hz low-pass (2nd-order Butterworth, zero-phase). This is the signal used in the movement-onset analysis (manuscript wheel figure)."
+      },
+      "trials": [
+        {
+          "trial_id": 4,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.832275390625,
+                "displacement": -4.177001953125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 25.493896484375,
+                "displacement": -1.643798828125
+              },
+              "mean_unit_change_hz": 1.4285714285714286
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.896240234375,
+                "displacement": -4.084716796875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 23.62353515625,
+                "displacement": 0.2265625
+              },
+              "mean_unit_change_hz": 1.3333333333333333
+            }
+          ]
+        },
+        {
+          "trial_id": 14,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 22.8828125,
+                "displacement": -11.0302734375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.99951171875,
+                "displacement": 0.26123046875
+              },
+              "mean_unit_change_hz": 1.3333333333333333
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 22.5458984375,
+                "displacement": -10.5947265625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.869140625,
+                "displacement": 0.8515625
+              },
+              "mean_unit_change_hz": 1.0476190476190477
+            }
+          ]
+        },
+        {
+          "trial_id": 20,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.37109375,
+                "displacement": -1.34375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 15.52734375,
+                "displacement": 2.875
+              },
+              "mean_unit_change_hz": 4.666666666666667
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.369140625,
+                "displacement": -1.396484375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 15.53564453125,
+                "displacement": 3.03759765625
+              },
+              "mean_unit_change_hz": 4.380952380952381
+            }
+          ]
+        },
+        {
+          "trial_id": 45,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.157447814941406,
+                "displacement": -0.0049591064453125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 23.942474365234375,
+                "displacement": 1.9106216430664062
+              },
+              "mean_unit_change_hz": 0.9523809523809523
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 10.141685485839844,
+                "displacement": 0.01583099365234375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 24.30584716796875,
+                "displacement": 1.2702903747558594
+              },
+              "mean_unit_change_hz": 1.0476190476190477
+            }
+          ]
+        },
+        {
+          "trial_id": 56,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 13.108871459960938,
+                "displacement": 2.844207763671875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 13.052860260009766,
+                "displacement": -2.0909767150878906
+              },
+              "mean_unit_change_hz": -3.619047619047619
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 13.959785461425781,
+                "displacement": 1.9932937622070312
+              },
+              "post": {
+                "samples": 500,
+                "tv": 12.982158660888672,
+                "displacement": -2.020275115966797
+              },
+              "mean_unit_change_hz": -3.7142857142857144
+            }
+          ]
+        },
+        {
+          "trial_id": 95,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 21.42626953125,
+                "displacement": 0.56689453125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 2.80517578125,
+                "displacement": 0.111328125
+              },
+              "mean_unit_change_hz": 0.47619047619047616
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 20.687255859375,
+                "displacement": -0.185302734375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 2.850830078125,
+                "displacement": 0.065673828125
+              },
+              "mean_unit_change_hz": 0.5714285714285714
+            }
+          ]
+        },
+        {
+          "trial_id": 114,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.078006744384766,
+                "displacement": -1.3965187072753906
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.265205383300781,
+                "displacement": -1.2045516967773438
+              },
+              "mean_unit_change_hz": -2.0952380952380953
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.103693008422852,
+                "displacement": -1.4665164947509766
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.2818450927734375,
+                "displacement": -1.1879119873046875
+              },
+              "mean_unit_change_hz": -2.0
+            }
+          ]
+        },
+        {
+          "trial_id": 125,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.035888671875,
+                "displacement": -2.842529296875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.422119140625,
+                "displacement": -0.242431640625
+              },
+              "mean_unit_change_hz": -0.47619047619047616
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.03759765625,
+                "displacement": -2.8427734375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.48876953125,
+                "displacement": -0.30908203125
+              },
+              "mean_unit_change_hz": -0.5714285714285714
+            }
+          ]
+        },
+        {
+          "trial_id": 127,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.05322265625,
+                "displacement": -0.103515625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.2177734375,
+                "displacement": 0.02880859375
+              },
+              "mean_unit_change_hz": 0.5714285714285714
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.055419921875,
+                "displacement": -0.104248046875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.5283203125,
+                "displacement": 0.33935546875
+              },
+              "mean_unit_change_hz": 0.38095238095238093
+            }
+          ]
+        },
+        {
+          "trial_id": 150,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.7783203125,
+                "displacement": 0.265625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.49853515625,
+                "displacement": 1.24951171875
+              },
+              "mean_unit_change_hz": -1.5238095238095237
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.77099609375,
+                "displacement": 0.26611328125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.25,
+                "displacement": 1.0009765625
+              },
+              "mean_unit_change_hz": -2.0
+            }
+          ]
+        },
+        {
+          "trial_id": 163,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 11.68798828125,
+                "displacement": 1.07763671875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 28.50341796875,
+                "displacement": -16.32568359375
+              },
+              "mean_unit_change_hz": 6.095238095238095
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 11.13720703125,
+                "displacement": 0.52685546875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 28.60595703125,
+                "displacement": -16.51513671875
+              },
+              "mean_unit_change_hz": 6.285714285714286
+            }
+          ]
+        },
+        {
+          "trial_id": 166,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.89501953125,
+                "displacement": 0.23779296875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.2998046875,
+                "displacement": -0.0224609375
+              },
+              "mean_unit_change_hz": 2.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.92626953125,
+                "displacement": 0.12158203125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.34765625,
+                "displacement": -0.0830078125
+              },
+              "mean_unit_change_hz": 2.0
+            }
+          ]
+        },
+        {
+          "trial_id": 172,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.21435546875,
+                "displacement": 1.27685546875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.76220703125,
+                "displacement": -0.21826171875
+              },
+              "mean_unit_change_hz": 0.09523809523809523
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.150390625,
+                "displacement": 1.3408203125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.755859375,
+                "displacement": -0.2080078125
+              },
+              "mean_unit_change_hz": 0.09523809523809523
+            }
+          ]
+        },
+        {
+          "trial_id": 191,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 12.947265625,
+                "displacement": -6.59375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 166.9375,
+                "displacement": -149.740234375
+              },
+              "mean_unit_change_hz": 4.761904761904762
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 13.04443359375,
+                "displacement": -6.69091796875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 168.2919921875,
+                "displacement": -148.3857421875
+              },
+              "mean_unit_change_hz": 4.666666666666667
+            }
+          ]
+        },
+        {
+          "trial_id": 192,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.61572265625,
+                "displacement": 0.03173828125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 54.9140625,
+                "displacement": -39.701171875
+              },
+              "mean_unit_change_hz": 3.619047619047619
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 3.60791015625,
+                "displacement": 0.09619140625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 55.5283203125,
+                "displacement": -38.998046875
+              },
+              "mean_unit_change_hz": 3.5238095238095237
+            }
+          ]
+        },
+        {
+          "trial_id": 197,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.580078125,
+                "displacement": -1.0068359375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 13.12451171875,
+                "displacement": -1.01806640625
+              },
+              "mean_unit_change_hz": 6.857142857142857
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.62548828125,
+                "displacement": -1.16162109375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 13.18994140625,
+                "displacement": -1.33740234375
+              },
+              "mean_unit_change_hz": 6.190476190476191
+            }
+          ]
+        },
+        {
+          "trial_id": 212,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 18.4658203125,
+                "displacement": -0.3916015625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 50.056640625,
+                "displacement": 27.41015625
+              },
+              "mean_unit_change_hz": 3.4285714285714284
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 18.4951171875,
+                "displacement": -0.48046875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 50.42236328125,
+                "displacement": 27.03173828125
+              },
+              "mean_unit_change_hz": 3.3333333333333335
+            }
+          ]
+        },
+        {
+          "trial_id": 218,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.37890625,
+                "displacement": 0.45703125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.93212890625,
+                "displacement": -1.66748046875
+              },
+              "mean_unit_change_hz": 3.4285714285714284
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 7.37255859375,
+                "displacement": 1.00830078125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.921875,
+                "displacement": -1.6962890625
+              },
+              "mean_unit_change_hz": 3.0476190476190474
+            }
+          ]
+        },
+        {
+          "trial_id": 221,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.62939453125,
+                "displacement": 0.16259765625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 173.00537109375,
+                "displacement": -123.50634765625
+              },
+              "mean_unit_change_hz": 9.142857142857142
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.85595703125,
+                "displacement": 0.43310546875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 173.2177734375,
+                "displacement": -123.2939453125
+              },
+              "mean_unit_change_hz": 9.142857142857142
+            }
+          ]
+        },
+        {
+          "trial_id": 236,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 11.9609375,
+                "displacement": -1.8779296875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 23.93359375,
+                "displacement": -16.0205078125
+              },
+              "mean_unit_change_hz": 5.0476190476190474
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 11.78515625,
+                "displacement": -1.7021484375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 22.9765625,
+                "displacement": -15.048828125
+              },
+              "mean_unit_change_hz": 4.9523809523809526
+            }
+          ]
+        },
+        {
+          "trial_id": 248,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.00732421875,
+                "displacement": -0.42138671875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.57373046875,
+                "displacement": 0.41064453125
+              },
+              "mean_unit_change_hz": -0.19047619047619047
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.0224609375,
+                "displacement": -0.3369140625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.572265625,
+                "displacement": 0.412109375
+              },
+              "mean_unit_change_hz": -0.19047619047619047
+            }
+          ]
+        },
+        {
+          "trial_id": 290,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.1181640625,
+                "displacement": 1.4736328125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.9375,
+                "displacement": 0.19140625
+              },
+              "mean_unit_change_hz": -3.8095238095238093
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.4892578125,
+                "displacement": 1.0869140625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.16796875,
+                "displacement": 0.421875
+              },
+              "mean_unit_change_hz": -3.9047619047619047
+            }
+          ]
+        },
+        {
+          "trial_id": 293,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.1640625,
+                "displacement": -0.79296875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.822265625,
+                "displacement": 0.931640625
+              },
+              "mean_unit_change_hz": -0.7619047619047619
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.3583984375,
+                "displacement": -0.9873046875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.7744140625,
+                "displacement": 0.9794921875
+              },
+              "mean_unit_change_hz": -0.8571428571428571
+            }
+          ]
+        },
+        {
+          "trial_id": 327,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.953125,
+                "displacement": 1.23046875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.748046875,
+                "displacement": 1.556640625
+              },
+              "mean_unit_change_hz": 2.380952380952381
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.921875,
+                "displacement": 1.19921875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 9.728515625,
+                "displacement": 1.576171875
+              },
+              "mean_unit_change_hz": 2.380952380952381
+            }
+          ]
+        },
+        {
+          "trial_id": 333,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.294921875,
+                "displacement": 0.498046875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.8046875,
+                "displacement": 0.51171875
+              },
+              "mean_unit_change_hz": -4.190476190476191
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.388671875,
+                "displacement": 0.662109375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.984375,
+                "displacement": 0.6953125
+              },
+              "mean_unit_change_hz": -3.8095238095238093
+            }
+          ]
+        },
+        {
+          "trial_id": 342,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.71875,
+                "displacement": 1.2265625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.478515625,
+                "displacement": 1.291015625
+              },
+              "mean_unit_change_hz": 0.0
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.783203125,
+                "displacement": 1.310546875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 5.4375,
+                "displacement": 1.25
+              },
+              "mean_unit_change_hz": 0.09523809523809523
+            }
+          ]
+        },
+        {
+          "trial_id": 348,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.658203125,
+                "displacement": 0.30859375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.92578125,
+                "displacement": 0.443359375
+              },
+              "mean_unit_change_hz": 0.6666666666666666
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 5.7275390625,
+                "displacement": 0.2392578125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 3.8359375,
+                "displacement": 0.56640625
+              },
+              "mean_unit_change_hz": 0.7619047619047619
+            }
+          ]
+        },
+        {
+          "trial_id": 356,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 12.62109375,
+                "displacement": 0.326171875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 12.408203125,
+                "displacement": -0.166015625
+              },
+              "mean_unit_change_hz": -3.4285714285714284
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 12.630859375,
+                "displacement": 0.3515625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 12.4521484375,
+                "displacement": -0.0107421875
+              },
+              "mean_unit_change_hz": -3.238095238095238
+            }
+          ]
+        },
+        {
+          "trial_id": 361,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.0185546875,
+                "displacement": 1.0966796875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.51953125,
+                "displacement": 1.423828125
+              },
+              "mean_unit_change_hz": 0.7619047619047619
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 4.0087890625,
+                "displacement": 1.1376953125
+              },
+              "post": {
+                "samples": 500,
+                "tv": 6.5400390625,
+                "displacement": 1.4033203125
+              },
+              "mean_unit_change_hz": 0.6666666666666666
+            }
+          ]
+        },
+        {
+          "trial_id": 379,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 16.1796875,
+                "displacement": 2.41015625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.212890625,
+                "displacement": -0.177734375
+              },
+              "mean_unit_change_hz": -0.38095238095238093
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 16.171875,
+                "displacement": 2.3671875
+              },
+              "post": {
+                "samples": 500,
+                "tv": 4.322265625,
+                "displacement": -0.326171875
+              },
+              "mean_unit_change_hz": -0.09523809523809523
+            }
+          ]
+        },
+        {
+          "trial_id": 390,
+          "variants": [
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.830078125,
+                "displacement": -2.630859375
+              },
+              "post": {
+                "samples": 500,
+                "tv": 7.8515625,
+                "displacement": -0.140625
+              },
+              "mean_unit_change_hz": 3.3333333333333335
+            },
+            {
+              "pre": {
+                "samples": 500,
+                "tv": 6.740234375,
+                "displacement": -2.541015625
+              },
+              "post": {
+                "samples": 500,
+                "tv": 8.021484375,
+                "displacement": 0.033203125
+              },
+              "mean_unit_change_hz": 3.3333333333333335
+            }
+          ]
+        }
+      ],
+      "summaries": [
+        {
+          "anchor": "trial_start",
+          "trials": 31,
+          "pre_tv_median": 6.294921875,
+          "post_tv_median": 7.8515625,
+          "tv_increase_trials": 21,
+          "post_tv_firing_spearman": 0.629902211085019,
+          "tv_change_firing_spearman": 0.6413953052053283,
+          "mean_firing_change": 1.3087557603686633,
+          "lower_half_trials": [
+            95,
+            125,
+            348,
+            379,
+            114,
+            166,
+            333,
+            14,
+            342,
+            293,
+            290,
+            127,
+            361,
+            248,
+            172
+          ],
+          "lower_half_mean_firing_change": -0.40000000000000013,
+          "lower_half_post_tv_range": [
+            2.80517578125,
+            7.76220703125
+          ]
+        },
+        {
+          "anchor": "shifted",
+          "trials": 31,
+          "pre_tv_median": 6.388671875,
+          "post_tv_median": 8.021484375,
+          "tv_increase_trials": 21,
+          "post_tv_firing_spearman": 0.6115369597997105,
+          "tv_change_firing_spearman": 0.633723327074766,
+          "mean_firing_change": 1.2534562211981564,
+          "lower_half_trials": [
+            95,
+            125,
+            348,
+            114,
+            379,
+            166,
+            14,
+            333,
+            342,
+            293,
+            290,
+            127,
+            361,
+            248,
+            172
+          ],
+          "lower_half_mean_firing_change": -0.38730158730158737,
+          "lower_half_post_tv_range": [
+            2.850830078125,
+            7.755859375
+          ]
+        }
+      ]
+    }
+  ]
+}

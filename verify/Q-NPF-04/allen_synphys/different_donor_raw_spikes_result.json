@@ -1,0 +1,999 @@
+{
+  "contract_sha256": "49bc4f402fc4f0b9a19a05518d355ceb64bf0b67f6fbffb95d2cf72434eba52d",
+  "assets": [
+    {
+      "binding": {
+        "recording": 716326,
+        "sweep": "32",
+        "experiment": 4251,
+        "external": "1623269658.635",
+        "electrode": 33930,
+        "device": 5
+      },
+      "path": "data/external/allen_synphys_r21/raw_ranges/1623269658.635/pre_32.npz",
+      "sha256": "9749b2bbd9f4acfd4ba8c6f549eb77f4820d10f96f20cd55709b0938f88710fa",
+      "nodes": [
+        "/acquisition/timeseries/data_00032_AD9",
+        "/stimulus/presentation/data_00032_DA5"
+      ],
+      "rate_hz": 200000.0,
+      "start_s": 2944.0679998397827,
+      "remote": {
+        "url": "https://allen-synphys.s3-us-west-2.amazonaws.com/synphys-1623269658.635.nwb",
+        "bytes": 645002597,
+        "etag": "\"eca1a0ddcbd4bcb133a5fcd11cdde76c-77\"",
+        "last_modified": "Sat, 04 May 2024 06:28:30 GMT"
+      }
+    },
+    {
+      "binding": {
+        "recording": 716328,
+        "sweep": "33",
+        "experiment": 4251,
+        "external": "1623269658.635",
+        "electrode": 33930,
+        "device": 5
+      },
+      "path": "data/external/allen_synphys_r21/raw_ranges/1623269658.635/pre_33.npz",
+      "sha256": "1d1d36a77b275a7b97d90f59347cb6d74cf5c7bebafe76b3efb28a8d68e94d08",
+      "nodes": [
+        "/acquisition/timeseries/data_00033_AD9",
+        "/stimulus/presentation/data_00033_DA5"
+      ],
+      "rate_hz": 200000.0,
+      "start_s": 2960.2339997291565,
+      "remote": {
+        "url": "https://allen-synphys.s3-us-west-2.amazonaws.com/synphys-1623269658.635.nwb",
+        "bytes": 645002597,
+        "etag": "\"eca1a0ddcbd4bcb133a5fcd11cdde76c-77\"",
+        "last_modified": "Sat, 04 May 2024 06:28:30 GMT"
+      }
+    }
+  ],
+  "records": [
+    {
+      "sweep": 32,
+      "stimulus": {
+        "id": 5801248,
+        "recording_id": 716326,
+        "pulse_number": 0,
+        "onset_time": 1.9946750000000002,
+        "n_spikes": 1,
+        "first_spike_time": null
+      },
+      "actual_onset_s": 1.994675,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": null,
+          "max_slope_time": null,
+          "peak_time": 0.0017250000000000006,
+          "peak_value": 0.039431253398762856,
+          "max_slope": null
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0016075000000000004,
+          "samples": 379,
+          "time": 0.0016075000000000004,
+          "edge": -1
+        },
+        {
+          "start": 0.0016050000000000005,
+          "samples": 380,
+          "time": 0.0017250000000000006,
+          "edge": 0
+        }
+      ],
+      "aligned": false,
+      "missing_matches": true,
+      "delta_us": null
+    },
+    {
+      "sweep": 32,
+      "stimulus": {
+        "id": 5801249,
+        "recording_id": 716326,
+        "pulse_number": 1,
+        "onset_time": 2.014675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0158924999999996
+      },
+      "actual_onset_s": 2.014675,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0008550000000000001,
+          "peak_time": 0.0014299999999999998,
+          "max_slope_time": 0.0012175,
+          "peak_value": 0.037212503293377885,
+          "max_slope": 367.50003652880054
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0008525000000000001,
+          "samples": 120,
+          "time": 0.0012175,
+          "edge": 0
+        },
+        {
+          "start": 0.0008549999999999999,
+          "samples": 530,
+          "time": 0.0014299999999999998,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 4.440892098500626e-10
+    },
+    {
+      "sweep": 32,
+      "stimulus": {
+        "id": 5801250,
+        "recording_id": 716326,
+        "pulse_number": 2,
+        "onset_time": 2.034675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0359425
+      },
+      "actual_onset_s": 2.034675,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0009050000000000001,
+          "peak_time": 0.0014850000000000013,
+          "max_slope_time": 0.0012675000000000002,
+          "peak_value": 0.03650625020807485,
+          "max_slope": 352.50000243773593
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009025000000000001,
+          "samples": 110,
+          "time": 0.0012675000000000002,
+          "edge": 0
+        },
+        {
+          "start": 0.0009050000000000013,
+          "samples": 520,
+          "time": 0.0014850000000000013,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 0.0
+    },
+    {
+      "sweep": 32,
+      "stimulus": {
+        "id": 5801251,
+        "recording_id": 716326,
+        "pulse_number": 3,
+        "onset_time": 2.054675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0559375
+      },
+      "actual_onset_s": 2.054675,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0008950000000000001,
+          "peak_time": 0.001475,
+          "max_slope_time": 0.0012625000000000002,
+          "peak_value": 0.03617500095528081,
+          "max_slope": 344.99999731313335
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0008925000000000001,
+          "samples": 112,
+          "time": 0.0012625000000000002,
+          "edge": 0
+        },
+        {
+          "start": 0.000895,
+          "samples": 522,
+          "time": 0.001475,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 0.0
+    },
+    {
+      "sweep": 32,
+      "stimulus": {
+        "id": 5801252,
+        "recording_id": 716326,
+        "pulse_number": 4,
+        "onset_time": 2.074675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0759475
+      },
+      "actual_onset_s": 2.074675,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0008950000000000001,
+          "peak_time": 0.001485,
+          "max_slope_time": 0.0012725000000000002,
+          "peak_value": 0.03604375247492575,
+          "max_slope": 342.50003534136385
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0008925000000000001,
+          "samples": 112,
+          "time": 0.0012725000000000002,
+          "edge": 0
+        },
+        {
+          "start": 0.000895,
+          "samples": 522,
+          "time": 0.001485,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 0.0
+    },
+    {
+      "sweep": 32,
+      "stimulus": {
+        "id": 5801253,
+        "recording_id": 716326,
+        "pulse_number": 5,
+        "onset_time": 2.094675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0960075
+      },
+      "actual_onset_s": 2.094675,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0009600000000000001,
+          "peak_time": 0.001595000000000001,
+          "max_slope_time": 0.0013325000000000001,
+          "peak_value": 0.03571875169654959,
+          "max_slope": 337.50001603038953
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009625000000000001,
+          "samples": 98,
+          "time": 0.0013325000000000001,
+          "edge": 0
+        },
+        {
+          "start": 0.0009600000000000008,
+          "samples": 509,
+          "time": 0.001595000000000001,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 4.440892098500626e-10
+    },
+    {
+      "sweep": 32,
+      "stimulus": {
+        "id": 5801254,
+        "recording_id": 716326,
+        "pulse_number": 6,
+        "onset_time": 2.114675,
+        "n_spikes": 1,
+        "first_spike_time": 2.1160025
+      },
+      "actual_onset_s": 2.114675,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0009550000000000001,
+          "peak_time": 0.001595000000000001,
+          "max_slope_time": 0.0013275000000000001,
+          "peak_value": 0.03566250016799888,
+          "max_slope": 331.25002765446004
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009525000000000001,
+          "samples": 100,
+          "time": 0.0013275000000000001,
+          "edge": 0
+        },
+        {
+          "start": 0.000955000000000001,
+          "samples": 510,
+          "time": 0.001595000000000001,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 0.0
+    },
+    {
+      "sweep": 32,
+      "stimulus": {
+        "id": 5801255,
+        "recording_id": 716326,
+        "pulse_number": 7,
+        "onset_time": 2.134675,
+        "n_spikes": 1,
+        "first_spike_time": 2.1360075
+      },
+      "actual_onset_s": 2.134675,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0009550000000000001,
+          "peak_time": 0.001595000000000001,
+          "max_slope_time": 0.0013325000000000001,
+          "peak_value": 0.03551250244969273,
+          "max_slope": 327.50002509215864
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009525000000000001,
+          "samples": 100,
+          "time": 0.0013325000000000001,
+          "edge": 0
+        },
+        {
+          "start": 0.000955000000000001,
+          "samples": 510,
+          "time": 0.001595000000000001,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 4.440892098500626e-10
+    },
+    {
+      "sweep": 32,
+      "stimulus": {
+        "id": 5801256,
+        "recording_id": 716326,
+        "pulse_number": 8,
+        "onset_time": 2.6361800000000004,
+        "n_spikes": 1,
+        "first_spike_time": null
+      },
+      "actual_onset_s": 2.63618,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": null,
+          "max_slope_time": null,
+          "peak_time": 0.0017250000000000006,
+          "peak_value": 0.03828125181826181,
+          "max_slope": null
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0016075000000000004,
+          "samples": 379,
+          "time": 0.0016075000000000004,
+          "edge": -1
+        },
+        {
+          "start": 0.0016050000000000005,
+          "samples": 380,
+          "time": 0.0017250000000000006,
+          "edge": 0
+        }
+      ],
+      "aligned": false,
+      "missing_matches": true,
+      "delta_us": null
+    },
+    {
+      "sweep": 32,
+      "stimulus": {
+        "id": 5801257,
+        "recording_id": 716326,
+        "pulse_number": 9,
+        "onset_time": 2.6561800000000004,
+        "n_spikes": 1,
+        "first_spike_time": 2.6574275
+      },
+      "actual_onset_s": 2.65618,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.000885,
+          "peak_time": 0.0014600000000000004,
+          "max_slope_time": 0.0012475000000000001,
+          "peak_value": 0.036418752492737294,
+          "max_slope": 351.25004529371023
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0008825,
+          "samples": 114,
+          "time": 0.0012475000000000001,
+          "edge": 0
+        },
+        {
+          "start": 0.0008850000000000004,
+          "samples": 524,
+          "time": 0.0014600000000000004,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 0.0
+    },
+    {
+      "sweep": 32,
+      "stimulus": {
+        "id": 5801258,
+        "recording_id": 716326,
+        "pulse_number": 10,
+        "onset_time": 2.67618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6774775
+      },
+      "actual_onset_s": 2.67618,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.00093,
+          "peak_time": null,
+          "max_slope_time": 0.0012975,
+          "peak_value": null,
+          "max_slope": 344.99999731313346
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009275,
+          "samples": 105,
+          "time": 0.0012975,
+          "edge": 0
+        },
+        {
+          "start": 0.0009300000000000003,
+          "samples": 515,
+          "time": 0.0015150000000000003,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 0.0
+    },
+    {
+      "sweep": 32,
+      "stimulus": {
+        "id": 5801259,
+        "recording_id": 716326,
+        "pulse_number": 11,
+        "onset_time": 2.69618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6974675
+      },
+      "actual_onset_s": 2.69618,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0009150000000000001,
+          "peak_time": null,
+          "max_slope_time": 0.0012875,
+          "peak_value": null,
+          "max_slope": 338.75004469999243
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009125000000000001,
+          "samples": 108,
+          "time": 0.0012875,
+          "edge": 0
+        },
+        {
+          "start": 0.0009150000000000009,
+          "samples": 518,
+          "time": 0.001515000000000001,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 0.0
+    },
+    {
+      "sweep": 33,
+      "stimulus": {
+        "id": 5801272,
+        "recording_id": 716328,
+        "pulse_number": 0,
+        "onset_time": 1.43317,
+        "n_spikes": 1,
+        "first_spike_time": null
+      },
+      "actual_onset_s": 1.43317,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": null,
+          "max_slope_time": null,
+          "peak_time": 0.0016950000000000005,
+          "peak_value": 0.03908125109332028,
+          "max_slope": null
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0016075000000000004,
+          "samples": 379,
+          "time": 0.0016075000000000004,
+          "edge": -1
+        },
+        {
+          "start": 0.0016050000000000005,
+          "samples": 380,
+          "time": 0.0016950000000000005,
+          "edge": 0
+        }
+      ],
+      "aligned": false,
+      "missing_matches": true,
+      "delta_us": null
+    },
+    {
+      "sweep": 33,
+      "stimulus": {
+        "id": 5801273,
+        "recording_id": 716328,
+        "pulse_number": 1,
+        "onset_time": 1.45317,
+        "n_spikes": 1,
+        "first_spike_time": 1.4544374999999998
+      },
+      "actual_onset_s": 1.45317,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0009100000000000001,
+          "peak_time": 0.001490000000000001,
+          "max_slope_time": 0.0012675000000000002,
+          "peak_value": 0.03719375024072935,
+          "max_slope": 363.7500220455695
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009125000000000001,
+          "samples": 108,
+          "time": 0.0012675000000000002,
+          "edge": 0
+        },
+        {
+          "start": 0.0009100000000000011,
+          "samples": 519,
+          "time": 0.001490000000000001,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 2.220446049250313e-10
+    },
+    {
+      "sweep": 33,
+      "stimulus": {
+        "id": 5801274,
+        "recording_id": 716328,
+        "pulse_number": 2,
+        "onset_time": 1.47317,
+        "n_spikes": 1,
+        "first_spike_time": 1.4744625
+      },
+      "actual_onset_s": 1.47317,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.000925,
+          "peak_time": null,
+          "max_slope_time": 0.0012925,
+          "peak_value": null,
+          "max_slope": 352.50002627959515
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009225,
+          "samples": 106,
+          "time": 0.0012925,
+          "edge": 0
+        },
+        {
+          "start": 0.0009250000000000005,
+          "samples": 516,
+          "time": 0.0015150000000000005,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 0.0
+    },
+    {
+      "sweep": 33,
+      "stimulus": {
+        "id": 5801275,
+        "recording_id": 716328,
+        "pulse_number": 3,
+        "onset_time": 1.49317,
+        "n_spikes": 1,
+        "first_spike_time": 1.4944875
+      },
+      "actual_onset_s": 1.49317,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0009400000000000001,
+          "peak_time": null,
+          "max_slope_time": 0.0013175,
+          "peak_value": null,
+          "max_slope": 343.7500163272489
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009425000000000001,
+          "samples": 102,
+          "time": 0.0013175,
+          "edge": 0
+        },
+        {
+          "start": 0.0009399999999999999,
+          "samples": 513,
+          "time": 0.0015199999999999999,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 2.220446049250313e-10
+    },
+    {
+      "sweep": 33,
+      "stimulus": {
+        "id": 5801276,
+        "recording_id": 716328,
+        "pulse_number": 4,
+        "onset_time": 1.5131700000000001,
+        "n_spikes": 1,
+        "first_spike_time": 1.5144725
+      },
+      "actual_onset_s": 1.51317,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.00093,
+          "peak_time": null,
+          "max_slope_time": 0.0013025,
+          "peak_value": null,
+          "max_slope": 341.25003051362063
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009275,
+          "samples": 105,
+          "time": 0.0013025,
+          "edge": 0
+        },
+        {
+          "start": 0.0009300000000000003,
+          "samples": 515,
+          "time": 0.0015200000000000003,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": -2.220446049250313e-10
+    },
+    {
+      "sweep": 33,
+      "stimulus": {
+        "id": 5801277,
+        "recording_id": 716328,
+        "pulse_number": 5,
+        "onset_time": 1.5331700000000001,
+        "n_spikes": 1,
+        "first_spike_time": 1.5344775
+      },
+      "actual_onset_s": 1.53317,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0009350000000000001,
+          "peak_time": null,
+          "max_slope_time": 0.0013075,
+          "peak_value": null,
+          "max_slope": 336.2500350445052
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009325000000000001,
+          "samples": 104,
+          "time": 0.0013075,
+          "edge": 0
+        },
+        {
+          "start": 0.0009350000000000001,
+          "samples": 514,
+          "time": 0.00152,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 0.0
+    },
+    {
+      "sweep": 33,
+      "stimulus": {
+        "id": 5801278,
+        "recording_id": 716328,
+        "pulse_number": 6,
+        "onset_time": 1.5531700000000002,
+        "n_spikes": 1,
+        "first_spike_time": 1.5544825
+      },
+      "actual_onset_s": 1.55317,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0009500000000000001,
+          "peak_time": null,
+          "max_slope_time": 0.0013125,
+          "peak_value": null,
+          "max_slope": 333.75001346808847
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009525000000000001,
+          "samples": 100,
+          "time": 0.0013125,
+          "edge": 0
+        },
+        {
+          "start": 0.0009500000000000012,
+          "samples": 511,
+          "time": 0.0015250000000000012,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 0.0
+    },
+    {
+      "sweep": 33,
+      "stimulus": {
+        "id": 5801279,
+        "recording_id": 716328,
+        "pulse_number": 7,
+        "onset_time": 1.5731700000000002,
+        "n_spikes": 1,
+        "first_spike_time": 1.5744925
+      },
+      "actual_onset_s": 1.57317,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0009500000000000001,
+          "peak_time": 0.0015950000000000014,
+          "max_slope_time": 0.0013225,
+          "peak_value": 0.035868753229553185,
+          "max_slope": 331.25001573353074
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009525000000000001,
+          "samples": 100,
+          "time": 0.0013225,
+          "edge": 0
+        },
+        {
+          "start": 0.0009500000000000012,
+          "samples": 511,
+          "time": 0.0015950000000000014,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": -2.220446049250313e-10
+    },
+    {
+      "sweep": 33,
+      "stimulus": {
+        "id": 5801280,
+        "recording_id": 716328,
+        "pulse_number": 8,
+        "onset_time": 2.574675,
+        "n_spikes": 1,
+        "first_spike_time": null
+      },
+      "actual_onset_s": 2.574675,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": null,
+          "max_slope_time": null,
+          "peak_time": 0.0017000000000000006,
+          "peak_value": 0.03867500107402444,
+          "max_slope": null
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0016075000000000004,
+          "samples": 379,
+          "time": 0.0016075000000000004,
+          "edge": -1
+        },
+        {
+          "start": 0.0016050000000000005,
+          "samples": 380,
+          "time": 0.0017000000000000006,
+          "edge": 0
+        }
+      ],
+      "aligned": false,
+      "missing_matches": true,
+      "delta_us": null
+    },
+    {
+      "sweep": 33,
+      "stimulus": {
+        "id": 5801281,
+        "recording_id": 716328,
+        "pulse_number": 9,
+        "onset_time": 2.594675,
+        "n_spikes": 1,
+        "first_spike_time": 2.5959325
+      },
+      "actual_onset_s": 2.594675,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0009050000000000001,
+          "peak_time": 0.0014800000000000013,
+          "max_slope_time": 0.0012575000000000002,
+          "peak_value": 0.03691875251648602,
+          "max_slope": 353.7500162061768
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009025000000000001,
+          "samples": 110,
+          "time": 0.0012575000000000002,
+          "edge": 0
+        },
+        {
+          "start": 0.0009050000000000013,
+          "samples": 520,
+          "time": 0.0014800000000000013,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 0.0
+    },
+    {
+      "sweep": 33,
+      "stimulus": {
+        "id": 5801282,
+        "recording_id": 716328,
+        "pulse_number": 10,
+        "onset_time": 2.614675,
+        "n_spikes": 1,
+        "first_spike_time": 2.6159525
+      },
+      "actual_onset_s": 2.614675,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0009150000000000001,
+          "peak_time": null,
+          "max_slope_time": 0.0012775000000000002,
+          "peak_value": null,
+          "max_slope": 346.2500259827361
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009125000000000001,
+          "samples": 108,
+          "time": 0.0012775000000000002,
+          "edge": 0
+        },
+        {
+          "start": 0.0009150000000000009,
+          "samples": 518,
+          "time": 0.001515000000000001,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 0.0
+    },
+    {
+      "sweep": 33,
+      "stimulus": {
+        "id": 5801283,
+        "recording_id": 716328,
+        "pulse_number": 11,
+        "onset_time": 2.634675,
+        "n_spikes": 1,
+        "first_spike_time": 2.6360025
+      },
+      "actual_onset_s": 2.634675,
+      "duration_s": 0.001505,
+      "spikes": [
+        {
+          "onset_time": 0.0009650000000000001,
+          "peak_time": 0.0015950000000000005,
+          "max_slope_time": 0.0013275000000000001,
+          "peak_value": 0.036100000188779006,
+          "max_slope": 338.7499970162743
+        }
+      ],
+      "max_time_calls": [
+        {
+          "start": 0.0009625000000000001,
+          "samples": 98,
+          "time": 0.0013275000000000001,
+          "edge": 0
+        },
+        {
+          "start": 0.0009650000000000006,
+          "samples": 508,
+          "time": 0.0015950000000000005,
+          "edge": 0
+        }
+      ],
+      "aligned": true,
+      "missing_matches": true,
+      "delta_us": 0.0
+    }
+  ],
+  "summary": {
+    "total": 24,
+    "db_missing": 4,
+    "detected_missing": 4,
+    "missing_pattern_matches": 24
+  },
+  "new_nwb_bytes": 5111808,
+  "ceiling": "L0 측정 누락 진단; 통합 생물학 인과사슬은 미확립"
+}

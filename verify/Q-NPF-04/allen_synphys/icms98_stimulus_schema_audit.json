@@ -1,0 +1,545 @@
+{
+  "trials": 499,
+  "units": 21,
+  "catch_trials": 50,
+  "events": 449,
+  "non70_count": 89,
+  "non100hz_count": 0,
+  "non700ms_count": 89,
+  "irregular_events": [
+    {
+      "trial_id": 401,
+      "pulses": 139,
+      "frequency": 100.0,
+      "duration": 4.66493333333392
+    },
+    {
+      "trial_id": 402,
+      "pulses": 163,
+      "frequency": 100.0,
+      "duration": 5.508299999999963
+    },
+    {
+      "trial_id": 403,
+      "pulses": 161,
+      "frequency": 100.0,
+      "duration": 5.407066666666651
+    },
+    {
+      "trial_id": 404,
+      "pulses": 118,
+      "frequency": 100.0,
+      "duration": 3.956600000000435
+    },
+    {
+      "trial_id": 406,
+      "pulses": 133,
+      "frequency": 100.0,
+      "duration": 4.462633333333542
+    },
+    {
+      "trial_id": 407,
+      "pulses": 130,
+      "frequency": 100.0,
+      "duration": 4.36143333333348
+    },
+    {
+      "trial_id": 408,
+      "pulses": 180,
+      "frequency": 100.0,
+      "duration": 6.047866666666778
+    },
+    {
+      "trial_id": 409,
+      "pulses": 125,
+      "frequency": 100.0,
+      "duration": 4.260166666666919
+    },
+    {
+      "trial_id": 410,
+      "pulses": 207,
+      "frequency": 100.0,
+      "duration": 6.992433333333793
+    },
+    {
+      "trial_id": 411,
+      "pulses": 121,
+      "frequency": 100.0,
+      "duration": 4.057833333333292
+    },
+    {
+      "trial_id": 412,
+      "pulses": 132,
+      "frequency": 100.0,
+      "duration": 4.462600000000293
+    },
+    {
+      "trial_id": 413,
+      "pulses": 136,
+      "frequency": 100.0,
+      "duration": 4.563800000000356
+    },
+    {
+      "trial_id": 415,
+      "pulses": 204,
+      "frequency": 100.0,
+      "duration": 6.857533333333322
+    },
+    {
+      "trial_id": 416,
+      "pulses": 124,
+      "frequency": 100.0,
+      "duration": 4.159066666667059
+    },
+    {
+      "trial_id": 417,
+      "pulses": 136,
+      "frequency": 100.0,
+      "duration": 4.563833333333605
+    },
+    {
+      "trial_id": 418,
+      "pulses": 136,
+      "frequency": 100.0,
+      "duration": 4.563733333333403
+    },
+    {
+      "trial_id": 419,
+      "pulses": 133,
+      "frequency": 100.0,
+      "duration": 4.462566666666589
+    },
+    {
+      "trial_id": 421,
+      "pulses": 146,
+      "frequency": 100.0,
+      "duration": 4.901100000000497
+    },
+    {
+      "trial_id": 422,
+      "pulses": 130,
+      "frequency": 100.0,
+      "duration": 4.361466666666729
+    },
+    {
+      "trial_id": 423,
+      "pulses": 136,
+      "frequency": 100.0,
+      "duration": 4.563833333333605
+    },
+    {
+      "trial_id": 424,
+      "pulses": 133,
+      "frequency": 100.0,
+      "duration": 4.462533333333795
+    },
+    {
+      "trial_id": 425,
+      "pulses": 133,
+      "frequency": 100.0,
+      "duration": 4.46253333333334
+    },
+    {
+      "trial_id": 426,
+      "pulses": 139,
+      "frequency": 100.0,
+      "duration": 4.66493333333392
+    },
+    {
+      "trial_id": 427,
+      "pulses": 130,
+      "frequency": 100.0,
+      "duration": 4.3613666666669815
+    },
+    {
+      "trial_id": 428,
+      "pulses": 127,
+      "frequency": 100.0,
+      "duration": 4.260200000000168
+    },
+    {
+      "trial_id": 429,
+      "pulses": 139,
+      "frequency": 100.0,
+      "duration": 4.66493333333392
+    },
+    {
+      "trial_id": 430,
+      "pulses": 127,
+      "frequency": 100.0,
+      "duration": 4.260200000000168
+    },
+    {
+      "trial_id": 431,
+      "pulses": 136,
+      "frequency": 100.0,
+      "duration": 4.563800000000356
+    },
+    {
+      "trial_id": 433,
+      "pulses": 139,
+      "frequency": 100.0,
+      "duration": 4.665000000000418
+    },
+    {
+      "trial_id": 434,
+      "pulses": 149,
+      "frequency": 100.0,
+      "duration": 5.002300000000105
+    },
+    {
+      "trial_id": 435,
+      "pulses": 139,
+      "frequency": 100.0,
+      "duration": 4.665000000000418
+    },
+    {
+      "trial_id": 436,
+      "pulses": 145,
+      "frequency": 100.0,
+      "duration": 4.86736666666684
+    },
+    {
+      "trial_id": 437,
+      "pulses": 136,
+      "frequency": 100.0,
+      "duration": 4.563833333333605
+    },
+    {
+      "trial_id": 439,
+      "pulses": 142,
+      "frequency": 100.0,
+      "duration": 4.766200000000026
+    },
+    {
+      "trial_id": 440,
+      "pulses": 127,
+      "frequency": 100.0,
+      "duration": 4.260266666667121
+    },
+    {
+      "trial_id": 441,
+      "pulses": 177,
+      "frequency": 100.0,
+      "duration": 5.946800000000167
+    },
+    {
+      "trial_id": 442,
+      "pulses": 133,
+      "frequency": 100.0,
+      "duration": 4.462533333333795
+    },
+    {
+      "trial_id": 443,
+      "pulses": 130,
+      "frequency": 100.0,
+      "duration": 4.361333333333732
+    },
+    {
+      "trial_id": 444,
+      "pulses": 139,
+      "frequency": 100.0,
+      "duration": 4.664899999999761
+    },
+    {
+      "trial_id": 445,
+      "pulses": 158,
+      "frequency": 100.0,
+      "duration": 5.30580000000009
+    },
+    {
+      "trial_id": 446,
+      "pulses": 183,
+      "frequency": 100.0,
+      "duration": 6.149200000000292
+    },
+    {
+      "trial_id": 447,
+      "pulses": 133,
+      "frequency": 100.0,
+      "duration": 4.46253333333334
+    },
+    {
+      "trial_id": 448,
+      "pulses": 142,
+      "frequency": 100.0,
+      "duration": 4.766100000000279
+    },
+    {
+      "trial_id": 449,
+      "pulses": 142,
+      "frequency": 100.0,
+      "duration": 4.766133333333528
+    },
+    {
+      "trial_id": 450,
+      "pulses": 142,
+      "frequency": 100.0,
+      "duration": 4.766133333333528
+    },
+    {
+      "trial_id": 451,
+      "pulses": 121,
+      "frequency": 100.0,
+      "duration": 4.057800000000043
+    },
+    {
+      "trial_id": 453,
+      "pulses": 229,
+      "frequency": 100.0,
+      "duration": 7.700666666667075
+    },
+    {
+      "trial_id": 454,
+      "pulses": 226,
+      "frequency": 100.0,
+      "duration": 7.599500000000262
+    },
+    {
+      "trial_id": 455,
+      "pulses": 183,
+      "frequency": 100.0,
+      "duration": 6.1491000000000895
+    },
+    {
+      "trial_id": 456,
+      "pulses": 177,
+      "frequency": 100.0,
+      "duration": 5.946700000000419
+    },
+    {
+      "trial_id": 457,
+      "pulses": 127,
+      "frequency": 100.0,
+      "duration": 4.260200000000168
+    },
+    {
+      "trial_id": 458,
+      "pulses": 133,
+      "frequency": 100.0,
+      "duration": 4.462566666667044
+    },
+    {
+      "trial_id": 459,
+      "pulses": 133,
+      "frequency": 100.0,
+      "duration": 4.462566666667044
+    },
+    {
+      "trial_id": 460,
+      "pulses": 130,
+      "frequency": 100.0,
+      "duration": 4.361400000000231
+    },
+    {
+      "trial_id": 461,
+      "pulses": 121,
+      "frequency": 100.0,
+      "duration": 4.057800000000498
+    },
+    {
+      "trial_id": 462,
+      "pulses": 133,
+      "frequency": 100.0,
+      "duration": 4.462566666666589
+    },
+    {
+      "trial_id": 463,
+      "pulses": 133,
+      "frequency": 100.0,
+      "duration": 4.462566666666589
+    },
+    {
+      "trial_id": 464,
+      "pulses": 139,
+      "frequency": 100.0,
+      "duration": 4.664933333333465
+    },
+    {
+      "trial_id": 465,
+      "pulses": 142,
+      "frequency": 100.0,
+      "duration": 4.766133333333528
+    },
+    {
+      "trial_id": 466,
+      "pulses": 142,
+      "frequency": 100.0,
+      "duration": 4.766166666667232
+    },
+    {
+      "trial_id": 467,
+      "pulses": 136,
+      "frequency": 100.0,
+      "duration": 4.563766666667107
+    },
+    {
+      "trial_id": 468,
+      "pulses": 117,
+      "frequency": 100.0,
+      "duration": 3.9229000000004817
+    },
+    {
+      "trial_id": 469,
+      "pulses": 174,
+      "frequency": 100.0,
+      "duration": 5.845566666666855
+    },
+    {
+      "trial_id": 470,
+      "pulses": 124,
+      "frequency": 100.0,
+      "duration": 4.1590000000001055
+    },
+    {
+      "trial_id": 472,
+      "pulses": 164,
+      "frequency": 100.0,
+      "duration": 5.508233333333919
+    },
+    {
+      "trial_id": 473,
+      "pulses": 136,
+      "frequency": 100.0,
+      "duration": 4.563800000000356
+    },
+    {
+      "trial_id": 474,
+      "pulses": 133,
+      "frequency": 100.0,
+      "duration": 4.462566666666589
+    },
+    {
+      "trial_id": 475,
+      "pulses": 133,
+      "frequency": 100.0,
+      "duration": 4.462600000000293
+    },
+    {
+      "trial_id": 476,
+      "pulses": 142,
+      "frequency": 100.0,
+      "duration": 4.766166666667232
+    },
+    {
+      "trial_id": 477,
+      "pulses": 139,
+      "frequency": 100.0,
+      "duration": 4.664966666667169
+    },
+    {
+      "trial_id": 478,
+      "pulses": 127,
+      "frequency": 100.0,
+      "duration": 4.260200000000168
+    },
+    {
+      "trial_id": 480,
+      "pulses": 136,
+      "frequency": 100.0,
+      "duration": 4.563799999999901
+    },
+    {
+      "trial_id": 481,
+      "pulses": 139,
+      "frequency": 100.0,
+      "duration": 4.664966666667169
+    },
+    {
+      "trial_id": 482,
+      "pulses": 136,
+      "frequency": 100.0,
+      "duration": 4.563766666666652
+    },
+    {
+      "trial_id": 483,
+      "pulses": 133,
+      "frequency": 100.0,
+      "duration": 4.462600000000293
+    },
+    {
+      "trial_id": 484,
+      "pulses": 139,
+      "frequency": 100.0,
+      "duration": 4.664999999999964
+    },
+    {
+      "trial_id": 485,
+      "pulses": 155,
+      "frequency": 100.0,
+      "duration": 5.204666666666526
+    },
+    {
+      "trial_id": 486,
+      "pulses": 133,
+      "frequency": 100.0,
+      "duration": 4.462600000000293
+    },
+    {
+      "trial_id": 488,
+      "pulses": 133,
+      "frequency": 100.0,
+      "duration": 4.462600000000293
+    },
+    {
+      "trial_id": 489,
+      "pulses": 145,
+      "frequency": 100.0,
+      "duration": 4.86736666666684
+    },
+    {
+      "trial_id": 490,
+      "pulses": 139,
+      "frequency": 100.0,
+      "duration": 4.665000000000418
+    },
+    {
+      "trial_id": 491,
+      "pulses": 148,
+      "frequency": 100.0,
+      "duration": 4.968566666666902
+    },
+    {
+      "trial_id": 493,
+      "pulses": 139,
+      "frequency": 100.0,
+      "duration": 4.664966666667169
+    },
+    {
+      "trial_id": 494,
+      "pulses": 152,
+      "frequency": 100.0,
+      "duration": 5.103500000000167
+    },
+    {
+      "trial_id": 495,
+      "pulses": 130,
+      "frequency": 100.0,
+      "duration": 4.36143333333348
+    },
+    {
+      "trial_id": 496,
+      "pulses": 121,
+      "frequency": 100.0,
+      "duration": 4.057833333333292
+    },
+    {
+      "trial_id": 497,
+      "pulses": 136,
+      "frequency": 100.0,
+      "duration": 4.563799999999901
+    },
+    {
+      "trial_id": 498,
+      "pulses": 155,
+      "frequency": 100.0,
+      "duration": 5.20470000000023
+    },
+    {
+      "trial_id": 499,
+      "pulses": 130,
+      "frequency": 100.0,
+      "duration": 4.361400000000231
+    }
+  ]
+}

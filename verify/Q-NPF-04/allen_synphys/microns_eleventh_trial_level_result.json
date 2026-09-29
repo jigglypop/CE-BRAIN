@@ -1,0 +1,1128 @@
+{
+  "results": [
+    {
+      "timing": "common_frame",
+      "subset": "all10",
+      "total_matched": 0.02265049030660309,
+      "trial_mean_component": 0.011850962267380968,
+      "within_trial_component": 0.010799528039222177,
+      "within_trial_renormalized_matched": 0.022689934312579752,
+      "median_trial_mean_variance_fraction": 0.4293368177301452,
+      "cell_variance_fractions": [
+        {
+          "unit_id": 2011,
+          "fraction": 0.3362852995745804
+        },
+        {
+          "unit_id": 2012,
+          "fraction": 0.4334780414657349
+        },
+        {
+          "unit_id": 2014,
+          "fraction": 0.2788250189143176
+        },
+        {
+          "unit_id": 2035,
+          "fraction": 0.20777745821902896
+        },
+        {
+          "unit_id": 2038,
+          "fraction": 0.23627645441101863
+        },
+        {
+          "unit_id": 2039,
+          "fraction": 0.6036906479952736
+        },
+        {
+          "unit_id": 2040,
+          "fraction": 0.42519559399455553
+        },
+        {
+          "unit_id": 2068,
+          "fraction": 0.47791744141462933
+        },
+        {
+          "unit_id": 2070,
+          "fraction": 0.40490437409304664
+        },
+        {
+          "unit_id": 2331,
+          "fraction": 0.4740291885931311
+        },
+        {
+          "unit_id": 2450,
+          "fraction": 0.5266103598222556
+        },
+        {
+          "unit_id": 2557,
+          "fraction": 0.47579311155192555
+        },
+        {
+          "unit_id": 2694,
+          "fraction": 0.4586857068750689
+        },
+        {
+          "unit_id": 2740,
+          "fraction": 0.49361913277909586
+        },
+        {
+          "unit_id": 2806,
+          "fraction": 0.1180752901577842
+        },
+        {
+          "unit_id": 4934,
+          "fraction": 0.5683666399489873
+        },
+        {
+          "unit_id": 5164,
+          "fraction": 0.48634588531625544
+        },
+        {
+          "unit_id": 5427,
+          "fraction": 0.45754463211079577
+        },
+        {
+          "unit_id": 5493,
+          "fraction": 0.36092184523388765
+        },
+        {
+          "unit_id": 5685,
+          "fraction": 0.5450663108267149
+        },
+        {
+          "unit_id": 7917,
+          "fraction": 0.2823996946798423
+        },
+        {
+          "unit_id": 7920,
+          "fraction": 0.320969844330546
+        },
+        {
+          "unit_id": 7941,
+          "fraction": 0.37167825511396957
+        },
+        {
+          "unit_id": 7945,
+          "fraction": 0.7108154102461215
+        },
+        {
+          "unit_id": 7946,
+          "fraction": 0.38104691873579394
+        },
+        {
+          "unit_id": 7981,
+          "fraction": 0.6160281595461926
+        },
+        {
+          "unit_id": 8124,
+          "fraction": 0.4346872099513131
+        },
+        {
+          "unit_id": 8146,
+          "fraction": 0.35650156324584503
+        },
+        {
+          "unit_id": 8165,
+          "fraction": 0.16037942856225798
+        },
+        {
+          "unit_id": 8390,
+          "fraction": 0.5094052509144875
+        },
+        {
+          "unit_id": 8543,
+          "fraction": 0.42004138833192
+        },
+        {
+          "unit_id": 8633,
+          "fraction": 0.47843794567132064
+        },
+        {
+          "unit_id": 8731,
+          "fraction": 0.37432170922735397
+        },
+        {
+          "unit_id": 8748,
+          "fraction": 0.4192223308306312
+        },
+        {
+          "unit_id": 9992,
+          "fraction": 0.6957933143539673
+        },
+        {
+          "unit_id": 9995,
+          "fraction": 0.41770793225764574
+        },
+        {
+          "unit_id": 10013,
+          "fraction": 0.7145036269830614
+        },
+        {
+          "unit_id": 10031,
+          "fraction": 0.1966464341202493
+        },
+        {
+          "unit_id": 10107,
+          "fraction": 0.6743749557541528
+        },
+        {
+          "unit_id": 10225,
+          "fraction": 0.3898964460880186
+        },
+        {
+          "unit_id": 10443,
+          "fraction": 0.4045861919406921
+        },
+        {
+          "unit_id": 10481,
+          "fraction": 0.8133938528235302
+        },
+        {
+          "unit_id": 10485,
+          "fraction": 0.6014564323138819
+        },
+        {
+          "unit_id": 10533,
+          "fraction": 0.34360160643912063
+        }
+      ]
+    },
+    {
+      "timing": "common_frame",
+      "subset": "first5",
+      "total_matched": 0.026672076525822624,
+      "trial_mean_component": 0.014288905654240047,
+      "within_trial_component": 0.012383170871582574,
+      "within_trial_renormalized_matched": 0.02570770120778522,
+      "median_trial_mean_variance_fraction": 0.3879586348464048,
+      "cell_variance_fractions": [
+        {
+          "unit_id": 2011,
+          "fraction": 0.3683151301310218
+        },
+        {
+          "unit_id": 2012,
+          "fraction": 0.33010728537450384
+        },
+        {
+          "unit_id": 2014,
+          "fraction": 0.3278488539735073
+        },
+        {
+          "unit_id": 2035,
+          "fraction": 0.14416983357157268
+        },
+        {
+          "unit_id": 2038,
+          "fraction": 0.2128182570219198
+        },
+        {
+          "unit_id": 2039,
+          "fraction": 0.538957766596608
+        },
+        {
+          "unit_id": 2040,
+          "fraction": 0.19350151069948437
+        },
+        {
+          "unit_id": 2068,
+          "fraction": 0.13711038645024834
+        },
+        {
+          "unit_id": 2070,
+          "fraction": 0.32343388866307415
+        },
+        {
+          "unit_id": 2331,
+          "fraction": 0.16831394199092192
+        },
+        {
+          "unit_id": 2450,
+          "fraction": 0.46635107000601456
+        },
+        {
+          "unit_id": 2557,
+          "fraction": 0.2436390378397204
+        },
+        {
+          "unit_id": 2694,
+          "fraction": 0.4949588388396598
+        },
+        {
+          "unit_id": 2740,
+          "fraction": 0.4817579511564766
+        },
+        {
+          "unit_id": 2806,
+          "fraction": 0.12819425308267768
+        },
+        {
+          "unit_id": 4934,
+          "fraction": 0.6604796249916448
+        },
+        {
+          "unit_id": 5164,
+          "fraction": 0.524620301036942
+        },
+        {
+          "unit_id": 5427,
+          "fraction": 0.40954434924484195
+        },
+        {
+          "unit_id": 5493,
+          "fraction": 0.42405693952331897
+        },
+        {
+          "unit_id": 5685,
+          "fraction": 0.5125922048027008
+        },
+        {
+          "unit_id": 7917,
+          "fraction": 0.2613265427237037
+        },
+        {
+          "unit_id": 7920,
+          "fraction": 0.2572646652504416
+        },
+        {
+          "unit_id": 7941,
+          "fraction": 0.33995311413470647
+        },
+        {
+          "unit_id": 7945,
+          "fraction": 0.7030632158483457
+        },
+        {
+          "unit_id": 7946,
+          "fraction": 0.40355430262292746
+        },
+        {
+          "unit_id": 7981,
+          "fraction": 0.7013949839453574
+        },
+        {
+          "unit_id": 8124,
+          "fraction": 0.3653326588301925
+        },
+        {
+          "unit_id": 8146,
+          "fraction": 0.3070322869779039
+        },
+        {
+          "unit_id": 8165,
+          "fraction": 0.15517382273559882
+        },
+        {
+          "unit_id": 8390,
+          "fraction": 0.38660803691181034
+        },
+        {
+          "unit_id": 8543,
+          "fraction": 0.406282674040362
+        },
+        {
+          "unit_id": 8633,
+          "fraction": 0.43312348201950784
+        },
+        {
+          "unit_id": 8731,
+          "fraction": 0.41099530420883235
+        },
+        {
+          "unit_id": 8748,
+          "fraction": 0.19947206027744144
+        },
+        {
+          "unit_id": 9992,
+          "fraction": 0.7371189995415683
+        },
+        {
+          "unit_id": 9995,
+          "fraction": 0.3893092327809993
+        },
+        {
+          "unit_id": 10013,
+          "fraction": 0.6293302847406846
+        },
+        {
+          "unit_id": 10031,
+          "fraction": 0.06837645042503901
+        },
+        {
+          "unit_id": 10107,
+          "fraction": 0.6668385615723089
+        },
+        {
+          "unit_id": 10225,
+          "fraction": 0.3959305226160786
+        },
+        {
+          "unit_id": 10443,
+          "fraction": 0.3965605786440811
+        },
+        {
+          "unit_id": 10481,
+          "fraction": 0.8617441556344884
+        },
+        {
+          "unit_id": 10485,
+          "fraction": 0.3634731206783273
+        },
+        {
+          "unit_id": 10533,
+          "fraction": 0.30483103447306703
+        }
+      ]
+    },
+    {
+      "timing": "common_frame",
+      "subset": "last5",
+      "total_matched": 0.019263563823072666,
+      "trial_mean_component": 0.014561067699744643,
+      "within_trial_component": 0.004702496123328009,
+      "within_trial_renormalized_matched": 0.007422417768502838,
+      "median_trial_mean_variance_fraction": 0.4062670143189776,
+      "cell_variance_fractions": [
+        {
+          "unit_id": 2011,
+          "fraction": 0.21479149801522865
+        },
+        {
+          "unit_id": 2012,
+          "fraction": 0.3550300031375709
+        },
+        {
+          "unit_id": 2014,
+          "fraction": 0.1342915540433921
+        },
+        {
+          "unit_id": 2035,
+          "fraction": 0.19144017149759182
+        },
+        {
+          "unit_id": 2038,
+          "fraction": 0.15843749995056336
+        },
+        {
+          "unit_id": 2039,
+          "fraction": 0.49405481558453423
+        },
+        {
+          "unit_id": 2040,
+          "fraction": 0.5186341152902064
+        },
+        {
+          "unit_id": 2068,
+          "fraction": 0.5456324133417132
+        },
+        {
+          "unit_id": 2070,
+          "fraction": 0.49360836717987977
+        },
+        {
+          "unit_id": 2331,
+          "fraction": 0.514037304150628
+        },
+        {
+          "unit_id": 2450,
+          "fraction": 0.4442108084100602
+        },
+        {
+          "unit_id": 2557,
+          "fraction": 0.4316747251925786
+        },
+        {
+          "unit_id": 2694,
+          "fraction": 0.4600659909109477
+        },
+        {
+          "unit_id": 2740,
+          "fraction": 0.4066522202536396
+        },
+        {
+          "unit_id": 2806,
+          "fraction": 0.11108532364024379
+        },
+        {
+          "unit_id": 4934,
+          "fraction": 0.39495579649145524
+        },
+        {
+          "unit_id": 5164,
+          "fraction": 0.4240327625576652
+        },
+        {
+          "unit_id": 5427,
+          "fraction": 0.5024790815619004
+        },
+        {
+          "unit_id": 5493,
+          "fraction": 0.2263109019823816
+        },
+        {
+          "unit_id": 5685,
+          "fraction": 0.3521713261416908
+        },
+        {
+          "unit_id": 7917,
+          "fraction": 0.3238807917506486
+        },
+        {
+          "unit_id": 7920,
+          "fraction": 0.31356554871087544
+        },
+        {
+          "unit_id": 7941,
+          "fraction": 0.26365127164485697
+        },
+        {
+          "unit_id": 7945,
+          "fraction": 0.6047646403073129
+        },
+        {
+          "unit_id": 7946,
+          "fraction": 0.3890007438147683
+        },
+        {
+          "unit_id": 7981,
+          "fraction": 0.3337435439977098
+        },
+        {
+          "unit_id": 8124,
+          "fraction": 0.5168288443802176
+        },
+        {
+          "unit_id": 8146,
+          "fraction": 0.4067347751133691
+        },
+        {
+          "unit_id": 8165,
+          "fraction": 0.06685062648548394
+        },
+        {
+          "unit_id": 8390,
+          "fraction": 0.584470846476996
+        },
+        {
+          "unit_id": 8543,
+          "fraction": 0.48381495798999014
+        },
+        {
+          "unit_id": 8633,
+          "fraction": 0.2793374504014416
+        },
+        {
+          "unit_id": 8731,
+          "fraction": 0.3373643767780345
+        },
+        {
+          "unit_id": 8748,
+          "fraction": 0.4651888703063293
+        },
+        {
+          "unit_id": 9992,
+          "fraction": 0.515827772280494
+        },
+        {
+          "unit_id": 9995,
+          "fraction": 0.27703572359665424
+        },
+        {
+          "unit_id": 10013,
+          "fraction": 0.4893374069574506
+        },
+        {
+          "unit_id": 10031,
+          "fraction": 0.31702762553887703
+        },
+        {
+          "unit_id": 10107,
+          "fraction": 0.6023987783491892
+        },
+        {
+          "unit_id": 10225,
+          "fraction": 0.22929702572282537
+        },
+        {
+          "unit_id": 10443,
+          "fraction": 0.40588180838431565
+        },
+        {
+          "unit_id": 10481,
+          "fraction": 0.6368590321934333
+        },
+        {
+          "unit_id": 10485,
+          "fraction": 0.7235539468700293
+        },
+        {
+          "unit_id": 10533,
+          "fraction": 0.1935111568479265
+        }
+      ]
+    },
+    {
+      "timing": "positive_delay_sensitivity",
+      "subset": "all10",
+      "total_matched": 0.022157073401620053,
+      "trial_mean_component": 0.01166254687253126,
+      "within_trial_component": 0.010494526529088765,
+      "within_trial_renormalized_matched": 0.02213589398850374,
+      "median_trial_mean_variance_fraction": 0.4321339412260396,
+      "cell_variance_fractions": [
+        {
+          "unit_id": 2011,
+          "fraction": 0.3425985286280866
+        },
+        {
+          "unit_id": 2012,
+          "fraction": 0.4350936805269654
+        },
+        {
+          "unit_id": 2014,
+          "fraction": 0.2814874322931287
+        },
+        {
+          "unit_id": 2035,
+          "fraction": 0.21197936909501577
+        },
+        {
+          "unit_id": 2038,
+          "fraction": 0.2406629271055027
+        },
+        {
+          "unit_id": 2039,
+          "fraction": 0.6057284271834273
+        },
+        {
+          "unit_id": 2040,
+          "fraction": 0.43023617255673186
+        },
+        {
+          "unit_id": 2068,
+          "fraction": 0.4825428381423666
+        },
+        {
+          "unit_id": 2070,
+          "fraction": 0.4068864965784687
+        },
+        {
+          "unit_id": 2331,
+          "fraction": 0.4804553847911739
+        },
+        {
+          "unit_id": 2450,
+          "fraction": 0.5292183527881095
+        },
+        {
+          "unit_id": 2557,
+          "fraction": 0.48232453702915146
+        },
+        {
+          "unit_id": 2694,
+          "fraction": 0.4564206595263824
+        },
+        {
+          "unit_id": 2740,
+          "fraction": 0.4945906707896948
+        },
+        {
+          "unit_id": 2806,
+          "fraction": 0.12170418414635872
+        },
+        {
+          "unit_id": 4934,
+          "fraction": 0.5678666560100447
+        },
+        {
+          "unit_id": 5164,
+          "fraction": 0.4891843802532481
+        },
+        {
+          "unit_id": 5427,
+          "fraction": 0.4676718048755946
+        },
+        {
+          "unit_id": 5493,
+          "fraction": 0.3606246561339833
+        },
+        {
+          "unit_id": 5685,
+          "fraction": 0.5471283678457244
+        },
+        {
+          "unit_id": 7917,
+          "fraction": 0.28545328408285614
+        },
+        {
+          "unit_id": 7920,
+          "fraction": 0.3231445659983778
+        },
+        {
+          "unit_id": 7941,
+          "fraction": 0.37899547453470944
+        },
+        {
+          "unit_id": 7945,
+          "fraction": 0.7126721677954599
+        },
+        {
+          "unit_id": 7946,
+          "fraction": 0.38249090222198606
+        },
+        {
+          "unit_id": 7981,
+          "fraction": 0.6150750558462852
+        },
+        {
+          "unit_id": 8124,
+          "fraction": 0.43403170989534734
+        },
+        {
+          "unit_id": 8146,
+          "fraction": 0.358401251794224
+        },
+        {
+          "unit_id": 8165,
+          "fraction": 0.16410786299588373
+        },
+        {
+          "unit_id": 8390,
+          "fraction": 0.5063406088178208
+        },
+        {
+          "unit_id": 8543,
+          "fraction": 0.42056164083113884
+        },
+        {
+          "unit_id": 8633,
+          "fraction": 0.4839730197443402
+        },
+        {
+          "unit_id": 8731,
+          "fraction": 0.37873019162882454
+        },
+        {
+          "unit_id": 8748,
+          "fraction": 0.42649115511838087
+        },
+        {
+          "unit_id": 9992,
+          "fraction": 0.6960372349205883
+        },
+        {
+          "unit_id": 9995,
+          "fraction": 0.41520636461390414
+        },
+        {
+          "unit_id": 10013,
+          "fraction": 0.7140138723809674
+        },
+        {
+          "unit_id": 10031,
+          "fraction": 0.19731927980209496
+        },
+        {
+          "unit_id": 10107,
+          "fraction": 0.6726518659221167
+        },
+        {
+          "unit_id": 10225,
+          "fraction": 0.3851617398567287
+        },
+        {
+          "unit_id": 10443,
+          "fraction": 0.4048784903773732
+        },
+        {
+          "unit_id": 10481,
+          "fraction": 0.8140571413421602
+        },
+        {
+          "unit_id": 10485,
+          "fraction": 0.603412187992535
+        },
+        {
+          "unit_id": 10533,
+          "fraction": 0.33676379644497934
+        }
+      ]
+    },
+    {
+      "timing": "positive_delay_sensitivity",
+      "subset": "first5",
+      "total_matched": 0.026207166273136566,
+      "trial_mean_component": 0.013960647195671562,
+      "within_trial_component": 0.012246519077465068,
+      "within_trial_renormalized_matched": 0.025340772928332433,
+      "median_trial_mean_variance_fraction": 0.380745890809554,
+      "cell_variance_fractions": [
+        {
+          "unit_id": 2011,
+          "fraction": 0.3764973128199654
+        },
+        {
+          "unit_id": 2012,
+          "fraction": 0.33195673350315963
+        },
+        {
+          "unit_id": 2014,
+          "fraction": 0.32967976703394664
+        },
+        {
+          "unit_id": 2035,
+          "fraction": 0.14798886499041117
+        },
+        {
+          "unit_id": 2038,
+          "fraction": 0.2157550353827328
+        },
+        {
+          "unit_id": 2039,
+          "fraction": 0.5419369215267863
+        },
+        {
+          "unit_id": 2040,
+          "fraction": 0.1985002591248045
+        },
+        {
+          "unit_id": 2068,
+          "fraction": 0.14141512447787777
+        },
+        {
+          "unit_id": 2070,
+          "fraction": 0.3244235324992126
+        },
+        {
+          "unit_id": 2331,
+          "fraction": 0.17351864067523506
+        },
+        {
+          "unit_id": 2450,
+          "fraction": 0.4685817670579301
+        },
+        {
+          "unit_id": 2557,
+          "fraction": 0.25310504209196893
+        },
+        {
+          "unit_id": 2694,
+          "fraction": 0.49224677888917434
+        },
+        {
+          "unit_id": 2740,
+          "fraction": 0.48236973105708736
+        },
+        {
+          "unit_id": 2806,
+          "fraction": 0.1330993077993388
+        },
+        {
+          "unit_id": 4934,
+          "fraction": 0.6567211403656742
+        },
+        {
+          "unit_id": 5164,
+          "fraction": 0.5293419359018574
+        },
+        {
+          "unit_id": 5427,
+          "fraction": 0.41516312384318194
+        },
+        {
+          "unit_id": 5493,
+          "fraction": 0.4199260659318718
+        },
+        {
+          "unit_id": 5685,
+          "fraction": 0.5155064659285495
+        },
+        {
+          "unit_id": 7917,
+          "fraction": 0.2637984673086551
+        },
+        {
+          "unit_id": 7920,
+          "fraction": 0.2600923663388133
+        },
+        {
+          "unit_id": 7941,
+          "fraction": 0.34772588057139625
+        },
+        {
+          "unit_id": 7945,
+          "fraction": 0.7053491042590043
+        },
+        {
+          "unit_id": 7946,
+          "fraction": 0.4040830148403424
+        },
+        {
+          "unit_id": 7981,
+          "fraction": 0.6990343588613939
+        },
+        {
+          "unit_id": 8124,
+          "fraction": 0.3616285302988485
+        },
+        {
+          "unit_id": 8146,
+          "fraction": 0.30694449024568
+        },
+        {
+          "unit_id": 8165,
+          "fraction": 0.15631328857775895
+        },
+        {
+          "unit_id": 8390,
+          "fraction": 0.3763061000853852
+        },
+        {
+          "unit_id": 8543,
+          "fraction": 0.40744043889292264
+        },
+        {
+          "unit_id": 8633,
+          "fraction": 0.43774409748522713
+        },
+        {
+          "unit_id": 8731,
+          "fraction": 0.4162474370319353
+        },
+        {
+          "unit_id": 8748,
+          "fraction": 0.2055216973761458
+        },
+        {
+          "unit_id": 9992,
+          "fraction": 0.7366661287844235
+        },
+        {
+          "unit_id": 9995,
+          "fraction": 0.3849944687991427
+        },
+        {
+          "unit_id": 10013,
+          "fraction": 0.6286986140277321
+        },
+        {
+          "unit_id": 10031,
+          "fraction": 0.06386386753604018
+        },
+        {
+          "unit_id": 10107,
+          "fraction": 0.6662377069722855
+        },
+        {
+          "unit_id": 10225,
+          "fraction": 0.38567397337542914
+        },
+        {
+          "unit_id": 10443,
+          "fraction": 0.39865037094973155
+        },
+        {
+          "unit_id": 10481,
+          "fraction": 0.8641585107876284
+        },
+        {
+          "unit_id": 10485,
+          "fraction": 0.3655051810708294
+        },
+        {
+          "unit_id": 10533,
+          "fraction": 0.28914301020580147
+        }
+      ]
+    },
+    {
+      "timing": "positive_delay_sensitivity",
+      "subset": "last5",
+      "total_matched": 0.01878638052231258,
+      "trial_mean_component": 0.014510514001800841,
+      "within_trial_component": 0.0042758665205117055,
+      "within_trial_renormalized_matched": 0.00679474547746988,
+      "median_trial_mean_variance_fraction": 0.4063705973589873,
+      "cell_variance_fractions": [
+        {
+          "unit_id": 2011,
+          "fraction": 0.2185536503209154
+        },
+        {
+          "unit_id": 2012,
+          "fraction": 0.3588028797845619
+        },
+        {
+          "unit_id": 2014,
+          "fraction": 0.1351549475763081
+        },
+        {
+          "unit_id": 2035,
+          "fraction": 0.19445163972153387
+        },
+        {
+          "unit_id": 2038,
+          "fraction": 0.16159298271293446
+        },
+        {
+          "unit_id": 2039,
+          "fraction": 0.4946913910569492
+        },
+        {
+          "unit_id": 2040,
+          "fraction": 0.5227311205794894
+        },
+        {
+          "unit_id": 2068,
+          "fraction": 0.549288628373547
+        },
+        {
+          "unit_id": 2070,
+          "fraction": 0.4965913259358548
+        },
+        {
+          "unit_id": 2331,
+          "fraction": 0.5193498923831377
+        },
+        {
+          "unit_id": 2450,
+          "fraction": 0.4474264472350017
+        },
+        {
+          "unit_id": 2557,
+          "fraction": 0.43692914624413676
+        },
+        {
+          "unit_id": 2694,
+          "fraction": 0.4595999010008075
+        },
+        {
+          "unit_id": 2740,
+          "fraction": 0.4074311022245224
+        },
+        {
+          "unit_id": 2806,
+          "fraction": 0.11392943280568511
+        },
+        {
+          "unit_id": 4934,
+          "fraction": 0.3988387106656666
+        },
+        {
+          "unit_id": 5164,
+          "fraction": 0.42309741923145067
+        },
+        {
+          "unit_id": 5427,
+          "fraction": 0.5146854577640768
+        },
+        {
+          "unit_id": 5493,
+          "fraction": 0.23388897514624998
+        },
+        {
+          "unit_id": 5685,
+          "fraction": 0.35393103220908284
+        },
+        {
+          "unit_id": 7917,
+          "fraction": 0.3314505607656662
+        },
+        {
+          "unit_id": 7920,
+          "fraction": 0.3153847059346853
+        },
+        {
+          "unit_id": 7941,
+          "fraction": 0.26742503932853456
+        },
+        {
+          "unit_id": 7945,
+          "fraction": 0.6085379359194457
+        },
+        {
+          "unit_id": 7946,
+          "fraction": 0.38803203480854204
+        },
+        {
+          "unit_id": 7981,
+          "fraction": 0.3357850825792277
+        },
+        {
+          "unit_id": 8124,
+          "fraction": 0.5194824472468637
+        },
+        {
+          "unit_id": 8146,
+          "fraction": 0.4071686293206092
+        },
+        {
+          "unit_id": 8165,
+          "fraction": 0.0713585613934491
+        },
+        {
+          "unit_id": 8390,
+          "fraction": 0.5902345040331715
+        },
+        {
+          "unit_id": 8543,
+          "fraction": 0.4856931273789828
+        },
+        {
+          "unit_id": 8633,
+          "fraction": 0.2827328621336261
+        },
+        {
+          "unit_id": 8731,
+          "fraction": 0.34052863820252377
+        },
+        {
+          "unit_id": 8748,
+          "fraction": 0.471571811316238
+        },
+        {
+          "unit_id": 9992,
+          "fraction": 0.5078408236055965
+        },
+        {
+          "unit_id": 9995,
+          "fraction": 0.27535824918184
+        },
+        {
+          "unit_id": 10013,
+          "fraction": 0.48629841977767724
+        },
+        {
+          "unit_id": 10031,
+          "fraction": 0.32393436382339785
+        },
+        {
+          "unit_id": 10107,
+          "fraction": 0.6034500006418055
+        },
+        {
+          "unit_id": 10225,
+          "fraction": 0.23116012468088445
+        },
+        {
+          "unit_id": 10443,
+          "fraction": 0.4055725653973654
+        },
+        {
+          "unit_id": 10481,
+          "fraction": 0.6336892073142065
+        },
+        {
+          "unit_id": 10485,
+          "fraction": 0.7266433945627286
+        },
+        {
+          "unit_id": 10533,
+          "fraction": 0.19224797626176782
+        }
+      ]
+    }
+  ],
+  "status": "EXACT_COVARIANCE_DECOMPOSITION",
+  "limits": "Additive components use total variance denominators; separately normalized within correlation has a different estimand. No causal attribution."
+}

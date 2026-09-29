@@ -1,0 +1,18 @@
+{
+  "supersedes": "v1은 NWB 세션 시각을 시행 내부 DB 시각에 그대로 적용해 첫 절단에서 IndexError. 파형 비교 전 중단. v2는 시행 시작을 0으로 둔다. 원 계약·코드는 보존하고 비교 기준은 유지한다.",
+  "question": "pair121538의 VC 두 조건에서 원파형으로 제작자 저장 평균을 재현할 수 있는가?",
+  "objective": "신경 연결 추론의 측정모형을 점검한다. 뇌 전체 구조나 인과기전 확정이 아니다.",
+  "selection": "기존 제작자 평균 선택 후보 각 60개 전부. 결과에 따른 제외 없음.",
+  "method": "명령 onset-10ms부터 최대50ms/다음명령까지 절단, 20kHz resample, DB 시작시각, 제작자 PulseResponseList 기준선·발화정렬·mean.",
+  "gate": "분모·shape 일치, 시작시각 오차<=1e-12초, 모든 샘플 atol1e-14A+rtol1e-3. 재정렬·추가 기준선 보정 없음.",
+  "limits": "고정한 공개 소스 판본을 사용한다. 역사적 제작 환경과 동일함은 미확인. 실패는 보존하며 연결 부재로 해석하지 않는다. L0 측정 진단.",
+  "code_sha256": "1e30d309c30e04ed8d74a79ba1ece5f4b9148a153952588477ff3190b27e5dff",
+  "inputs": {
+    "producer_average_membership_result.json": "4fe98572dcd39e1eb74b698b41ae836209ed02fe093fe22e56d5ee9846008b55",
+    "next_donor_recording_inventory_result.json": "0ae0a765466acad500d300b5009c81649903544473b0d5b94650f700d78f476a",
+    "next_donor_vc_response_result.json": "930a39eb961eff266ee17840c87473ae592a944415738778475b80061e48aba1",
+    "qc_sources/multipatch_data.py": "0f15e8a19f77137b175fdfe227168a899d6584b6d9b61a8f7beb5b7920a5bacd",
+    "qc_sources/dataset_pipeline.py": "6801a6caa86e83dda7e9a7ff5dab63bae09b5dcff45d982452cfd8b6c84fb191",
+    "reference_spike_audit.py": "89cfb476f2dc07d7f7975925852fb4a7aaa677a0b6c8ad729893bf7c736f2453"
+  }
+}

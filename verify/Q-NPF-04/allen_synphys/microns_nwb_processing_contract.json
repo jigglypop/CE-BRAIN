@@ -1,0 +1,6 @@
+{
+  "question": "첫스캔 processing의 반응 시계열 경로는 무엇인가?",
+  "adjustment": "전체 순회 중단을 보존하고 processing 상위4단계만 목록화. 데이터 배열 읽기 없음. 기존32MiB 재사용, 추가8MiB 이내.",
+  "code_sha256": "3e3ef11d26fddc20564e2083e57299362cb55c6a3e5485ad5046dd907b66c279",
+  "prior_contract_sha256": "50c12997c04f0ac74b1f76ac61a5f158b6a88dceca6c4f49218fb96c7a7c405f"
+}

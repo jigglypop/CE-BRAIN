@@ -1,0 +1,30 @@
+{
+  "scope": "1348 selected cells, thresholds1 and3, four fixed seeds per threshold",
+  "constraints": "exact node in/out degree and global ordered broad-type x Euclidean transformed-soma-distance-bin edge counts",
+  "distance_bins_um": [
+    50,
+    100,
+    200,
+    400,
+    800
+  ],
+  "proposal": "uniform pair of current edge indices, four distinct endpoints, no self/duplicate edges; target swap if category multiset preserved",
+  "run": "30 blocks of E proposals each; retain every block; last15 blocks descriptive only",
+  "interpretation": "reachable-state trajectory diagnostic, not proven uniform graph sampler; no p-values; no causal or whole-brain claim",
+  "gates": "exact invariants each block; report acceptance, original-edge overlap, between-chain ranges and late drift; failures stop interpretation",
+  "limitations": "possible disconnected constrained state space and slow mixing; broad types/coarse distance, proofreading and missing annotations remain",
+  "seeds": [
+    2026090501,
+    2026090502,
+    2026090503,
+    2026090504
+  ],
+  "source_sha256": {
+    "microns_structural_inventory_result.json": "ea1da5f217a80c99fd85d3f9168200de78d5c81846995a52f237d30ad156341f",
+    "v1718_cell_info.csv": "1959b7b7eaad7501c6331551c3ed1e229b40ed3c339ff6273b6365009e33fb09",
+    "v1718_v1_column_synapses.feather": "fee7afc8c37528e3e1c1a4365f016f74c8ff42b6dad0f06100ef32d38adb0434",
+    "microns_export_overlap_result.json": "98f33932d405552a236cea72e9cd76c6d96cfd6048547c27edb7bcce49944bab"
+  },
+  "code_sha256": "01fea4c3660b7624718ade5c8d88eeb5d81b72d10078de776eb0e88bc5ebcbb5",
+  "numpy": "2.4.6"
+}

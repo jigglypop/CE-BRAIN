@@ -1,0 +1,7 @@
+{
+  "question": "Does one cell account for the late-repeat negative contrast and the change when repeat10 is omitted?",
+  "selection": "All23 single-cell omissions, both timing conventions; all10, first5, last5 and last5 without10. Recompute contrast weights after cell omission; separately decompose last5-minus-without10 using unchanged full-cohort pair weights.",
+  "limits": "Post-observation influence diagnosis. Pair contributions overlap in cells; not additive cell causal effects. No favorable cell exclusions for final claim.",
+  "code_sha256": "94d51a9e716a79050887fda332fa1e444dce1c9c33225a491226b7d1517fc5e2",
+  "response_sha256": "f20462b1aa475a9b5ecffdb3d4fb1238a2b96b9c906a6b5884327a72e52f0913"
+}

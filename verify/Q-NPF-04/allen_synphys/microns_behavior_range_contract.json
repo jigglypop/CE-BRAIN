@@ -1,0 +1,7 @@
+{
+  "question": "Does prediction failure persist on validation rows inside every fitted covariate marginal training range?",
+  "method": "Reproduce existing folds, centering, scaling, OLS and rcond exactly. Partition the same held-repeat errors into all/inside/outside. No retraining on favorable subset or threshold tuning.",
+  "limits": "Marginal min-max containment is not joint support or causal positivity. Small subsets retained with row counts; not independent statistical tests.",
+  "code_sha256": "0f93a2cc7c56993a9c8eba7c3e3715428ae8ccdb6e94d382dba246005baa026a",
+  "prior_contract_sha256": "b76b2bee4c56ee679f9d142f3292ddd107d905ca06574a6059581a2968de6ac1"
+}

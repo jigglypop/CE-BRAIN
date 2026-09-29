@@ -1,0 +1,5376 @@
+{
+  "contract_sha256": "405ea5ff02a1c91b6ba83d83f5d58a65db79341cda5e769b5d4063177a56cf8c",
+  "records": [
+    {
+      "response": {
+        "id": 19022387,
+        "recording_id": 716261,
+        "stim_pulse_id": 5800960,
+        "baseline_id": 16554541,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800960,
+        "recording_id": 716262,
+        "pulse_number": 0,
+        "onset_time": 2.0446750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.0448975
+      },
+      "baseline": [
+        {
+          "id": 16554541,
+          "recording_id": 716261,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022388,
+        "recording_id": 716261,
+        "stim_pulse_id": 5800961,
+        "baseline_id": 16554542,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800961,
+        "recording_id": 716262,
+        "pulse_number": 1,
+        "onset_time": 2.094675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0948975
+      },
+      "baseline": [
+        {
+          "id": 16554542,
+          "recording_id": 716261,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022389,
+        "recording_id": 716261,
+        "stim_pulse_id": 5800962,
+        "baseline_id": 16554543,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800962,
+        "recording_id": 716262,
+        "pulse_number": 2,
+        "onset_time": 2.1446750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.1449025
+      },
+      "baseline": [
+        {
+          "id": 16554543,
+          "recording_id": 716261,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022390,
+        "recording_id": 716261,
+        "stim_pulse_id": 5800963,
+        "baseline_id": 16554544,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800963,
+        "recording_id": 716262,
+        "pulse_number": 3,
+        "onset_time": 2.194675,
+        "n_spikes": 1,
+        "first_spike_time": 2.1949025000000004
+      },
+      "baseline": [
+        {
+          "id": 16554544,
+          "recording_id": 716261,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022391,
+        "recording_id": 716261,
+        "stim_pulse_id": 5800964,
+        "baseline_id": 16554545,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800964,
+        "recording_id": 716262,
+        "pulse_number": 4,
+        "onset_time": 2.244675,
+        "n_spikes": 1,
+        "first_spike_time": 2.2449025000000002
+      },
+      "baseline": [
+        {
+          "id": 16554545,
+          "recording_id": 716261,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022392,
+        "recording_id": 716261,
+        "stim_pulse_id": 5800965,
+        "baseline_id": 16554546,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800965,
+        "recording_id": 716262,
+        "pulse_number": 5,
+        "onset_time": 2.2946750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.2949025
+      },
+      "baseline": [
+        {
+          "id": 16554546,
+          "recording_id": 716261,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022393,
+        "recording_id": 716261,
+        "stim_pulse_id": 5800966,
+        "baseline_id": 16554547,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800966,
+        "recording_id": 716262,
+        "pulse_number": 6,
+        "onset_time": 2.344675,
+        "n_spikes": 1,
+        "first_spike_time": 2.3448975
+      },
+      "baseline": [
+        {
+          "id": 16554547,
+          "recording_id": 716261,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022394,
+        "recording_id": 716261,
+        "stim_pulse_id": 5800967,
+        "baseline_id": 16554548,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800967,
+        "recording_id": 716262,
+        "pulse_number": 7,
+        "onset_time": 2.3946750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.3949025
+      },
+      "baseline": [
+        {
+          "id": 16554548,
+          "recording_id": 716261,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022395,
+        "recording_id": 716261,
+        "stim_pulse_id": 5800968,
+        "baseline_id": 16554549,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800968,
+        "recording_id": 716262,
+        "pulse_number": 8,
+        "onset_time": 2.64618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6464125000000003
+      },
+      "baseline": [
+        {
+          "id": 16554549,
+          "recording_id": 716261,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022396,
+        "recording_id": 716261,
+        "stim_pulse_id": 5800969,
+        "baseline_id": 16554550,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800969,
+        "recording_id": 716262,
+        "pulse_number": 9,
+        "onset_time": 2.69618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6964125
+      },
+      "baseline": [
+        {
+          "id": 16554550,
+          "recording_id": 716261,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022397,
+        "recording_id": 716261,
+        "stim_pulse_id": 5800970,
+        "baseline_id": 16554551,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800970,
+        "recording_id": 716262,
+        "pulse_number": 10,
+        "onset_time": 2.7461800000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.7464075
+      },
+      "baseline": [
+        {
+          "id": 16554551,
+          "recording_id": 716261,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022398,
+        "recording_id": 716261,
+        "stim_pulse_id": 5800971,
+        "baseline_id": 16554552,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800971,
+        "recording_id": 716262,
+        "pulse_number": 11,
+        "onset_time": 2.79618,
+        "n_spikes": 1,
+        "first_spike_time": 2.7964125
+      },
+      "baseline": [
+        {
+          "id": 16554552,
+          "recording_id": 716261,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022411,
+        "recording_id": 716263,
+        "stim_pulse_id": 5800984,
+        "baseline_id": 16554565,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800984,
+        "recording_id": 716264,
+        "pulse_number": 0,
+        "onset_time": 2.0446750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.0449425
+      },
+      "baseline": [
+        {
+          "id": 16554565,
+          "recording_id": 716263,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022412,
+        "recording_id": 716263,
+        "stim_pulse_id": 5800985,
+        "baseline_id": 16554566,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800985,
+        "recording_id": 716264,
+        "pulse_number": 1,
+        "onset_time": 2.094675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0949775
+      },
+      "baseline": [
+        {
+          "id": 16554566,
+          "recording_id": 716263,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022413,
+        "recording_id": 716263,
+        "stim_pulse_id": 5800986,
+        "baseline_id": 16554567,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800986,
+        "recording_id": 716264,
+        "pulse_number": 2,
+        "onset_time": 2.1446750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.1449425
+      },
+      "baseline": [
+        {
+          "id": 16554567,
+          "recording_id": 716263,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022414,
+        "recording_id": 716263,
+        "stim_pulse_id": 5800987,
+        "baseline_id": 16554568,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800987,
+        "recording_id": 716264,
+        "pulse_number": 3,
+        "onset_time": 2.194675,
+        "n_spikes": 1,
+        "first_spike_time": 2.1949425000000002
+      },
+      "baseline": [
+        {
+          "id": 16554568,
+          "recording_id": 716263,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022415,
+        "recording_id": 716263,
+        "stim_pulse_id": 5800988,
+        "baseline_id": 16554569,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800988,
+        "recording_id": 716264,
+        "pulse_number": 4,
+        "onset_time": 2.244675,
+        "n_spikes": 1,
+        "first_spike_time": 2.2449375
+      },
+      "baseline": [
+        {
+          "id": 16554569,
+          "recording_id": 716263,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022416,
+        "recording_id": 716263,
+        "stim_pulse_id": 5800989,
+        "baseline_id": 16554570,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800989,
+        "recording_id": 716264,
+        "pulse_number": 5,
+        "onset_time": 2.2946750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.2949375
+      },
+      "baseline": [
+        {
+          "id": 16554570,
+          "recording_id": 716263,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022417,
+        "recording_id": 716263,
+        "stim_pulse_id": 5800990,
+        "baseline_id": 16554571,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800990,
+        "recording_id": 716264,
+        "pulse_number": 6,
+        "onset_time": 2.344675,
+        "n_spikes": 1,
+        "first_spike_time": 2.3449425
+      },
+      "baseline": [
+        {
+          "id": 16554571,
+          "recording_id": 716263,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022418,
+        "recording_id": 716263,
+        "stim_pulse_id": 5800991,
+        "baseline_id": 16554572,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800991,
+        "recording_id": 716264,
+        "pulse_number": 7,
+        "onset_time": 2.3946750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.3949425000000004
+      },
+      "baseline": [
+        {
+          "id": 16554572,
+          "recording_id": 716263,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022419,
+        "recording_id": 716263,
+        "stim_pulse_id": 5800992,
+        "baseline_id": 16554573,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800992,
+        "recording_id": 716264,
+        "pulse_number": 8,
+        "onset_time": 2.64618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6464475000000003
+      },
+      "baseline": [
+        {
+          "id": 16554573,
+          "recording_id": 716263,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022420,
+        "recording_id": 716263,
+        "stim_pulse_id": 5800993,
+        "baseline_id": 16554574,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800993,
+        "recording_id": 716264,
+        "pulse_number": 9,
+        "onset_time": 2.69618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6964425000000003
+      },
+      "baseline": [
+        {
+          "id": 16554574,
+          "recording_id": 716263,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022421,
+        "recording_id": 716263,
+        "stim_pulse_id": 5800994,
+        "baseline_id": 16554575,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800994,
+        "recording_id": 716264,
+        "pulse_number": 10,
+        "onset_time": 2.7461800000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.7464425
+      },
+      "baseline": [
+        {
+          "id": 16554575,
+          "recording_id": 716263,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022422,
+        "recording_id": 716263,
+        "stim_pulse_id": 5800995,
+        "baseline_id": 16554576,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5800995,
+        "recording_id": 716264,
+        "pulse_number": 11,
+        "onset_time": 2.79618,
+        "n_spikes": 1,
+        "first_spike_time": 2.7964425
+      },
+      "baseline": [
+        {
+          "id": 16554576,
+          "recording_id": 716263,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022435,
+        "recording_id": 716265,
+        "stim_pulse_id": 5801008,
+        "baseline_id": 16554589,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801008,
+        "recording_id": 716266,
+        "pulse_number": 0,
+        "onset_time": 2.0446750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.0449325
+      },
+      "baseline": [
+        {
+          "id": 16554589,
+          "recording_id": 716265,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022436,
+        "recording_id": 716265,
+        "stim_pulse_id": 5801009,
+        "baseline_id": 16554590,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801009,
+        "recording_id": 716266,
+        "pulse_number": 1,
+        "onset_time": 2.094675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0949425
+      },
+      "baseline": [
+        {
+          "id": 16554590,
+          "recording_id": 716265,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022437,
+        "recording_id": 716265,
+        "stim_pulse_id": 5801010,
+        "baseline_id": 16554591,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801010,
+        "recording_id": 716266,
+        "pulse_number": 2,
+        "onset_time": 2.1446750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.1449375
+      },
+      "baseline": [
+        {
+          "id": 16554591,
+          "recording_id": 716265,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022438,
+        "recording_id": 716265,
+        "stim_pulse_id": 5801011,
+        "baseline_id": 16554592,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801011,
+        "recording_id": 716266,
+        "pulse_number": 3,
+        "onset_time": 2.194675,
+        "n_spikes": 1,
+        "first_spike_time": 2.1949375
+      },
+      "baseline": [
+        {
+          "id": 16554592,
+          "recording_id": 716265,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022439,
+        "recording_id": 716265,
+        "stim_pulse_id": 5801012,
+        "baseline_id": 16554593,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801012,
+        "recording_id": 716266,
+        "pulse_number": 4,
+        "onset_time": 2.244675,
+        "n_spikes": 1,
+        "first_spike_time": 2.2449325
+      },
+      "baseline": [
+        {
+          "id": 16554593,
+          "recording_id": 716265,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022440,
+        "recording_id": 716265,
+        "stim_pulse_id": 5801013,
+        "baseline_id": 16554594,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801013,
+        "recording_id": 716266,
+        "pulse_number": 5,
+        "onset_time": 2.2946750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.2949325
+      },
+      "baseline": [
+        {
+          "id": 16554594,
+          "recording_id": 716265,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022441,
+        "recording_id": 716265,
+        "stim_pulse_id": 5801014,
+        "baseline_id": 16554595,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801014,
+        "recording_id": 716266,
+        "pulse_number": 6,
+        "onset_time": 2.344675,
+        "n_spikes": 1,
+        "first_spike_time": 2.3449375
+      },
+      "baseline": [
+        {
+          "id": 16554595,
+          "recording_id": 716265,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022442,
+        "recording_id": 716265,
+        "stim_pulse_id": 5801015,
+        "baseline_id": 16554596,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801015,
+        "recording_id": 716266,
+        "pulse_number": 7,
+        "onset_time": 2.3946750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.3949375
+      },
+      "baseline": [
+        {
+          "id": 16554596,
+          "recording_id": 716265,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022443,
+        "recording_id": 716265,
+        "stim_pulse_id": 5801016,
+        "baseline_id": 16554597,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801016,
+        "recording_id": 716266,
+        "pulse_number": 8,
+        "onset_time": 2.64618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6464425000000005
+      },
+      "baseline": [
+        {
+          "id": 16554597,
+          "recording_id": 716265,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022444,
+        "recording_id": 716265,
+        "stim_pulse_id": 5801017,
+        "baseline_id": 16554598,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801017,
+        "recording_id": 716266,
+        "pulse_number": 9,
+        "onset_time": 2.69618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6964425000000003
+      },
+      "baseline": [
+        {
+          "id": 16554598,
+          "recording_id": 716265,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022445,
+        "recording_id": 716265,
+        "stim_pulse_id": 5801018,
+        "baseline_id": 16554599,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801018,
+        "recording_id": 716266,
+        "pulse_number": 10,
+        "onset_time": 2.7461800000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.7464425
+      },
+      "baseline": [
+        {
+          "id": 16554599,
+          "recording_id": 716265,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022446,
+        "recording_id": 716265,
+        "stim_pulse_id": 5801019,
+        "baseline_id": 16554600,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801019,
+        "recording_id": 716266,
+        "pulse_number": 11,
+        "onset_time": 2.79618,
+        "n_spikes": 1,
+        "first_spike_time": 2.7964375
+      },
+      "baseline": [
+        {
+          "id": 16554600,
+          "recording_id": 716265,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022459,
+        "recording_id": 716267,
+        "stim_pulse_id": 5801032,
+        "baseline_id": 16554613,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801032,
+        "recording_id": 716268,
+        "pulse_number": 0,
+        "onset_time": 2.0446750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.0449175
+      },
+      "baseline": [
+        {
+          "id": 16554613,
+          "recording_id": 716267,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022460,
+        "recording_id": 716267,
+        "stim_pulse_id": 5801033,
+        "baseline_id": 16554614,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801033,
+        "recording_id": 716268,
+        "pulse_number": 1,
+        "onset_time": 2.094675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0949175
+      },
+      "baseline": [
+        {
+          "id": 16554614,
+          "recording_id": 716267,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022461,
+        "recording_id": 716267,
+        "stim_pulse_id": 5801034,
+        "baseline_id": 16554615,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801034,
+        "recording_id": 716268,
+        "pulse_number": 2,
+        "onset_time": 2.1446750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.1449125
+      },
+      "baseline": [
+        {
+          "id": 16554615,
+          "recording_id": 716267,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022462,
+        "recording_id": 716267,
+        "stim_pulse_id": 5801035,
+        "baseline_id": 16554616,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801035,
+        "recording_id": 716268,
+        "pulse_number": 3,
+        "onset_time": 2.194675,
+        "n_spikes": 1,
+        "first_spike_time": 2.1949125000000005
+      },
+      "baseline": [
+        {
+          "id": 16554616,
+          "recording_id": 716267,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022463,
+        "recording_id": 716267,
+        "stim_pulse_id": 5801036,
+        "baseline_id": 16554617,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801036,
+        "recording_id": 716268,
+        "pulse_number": 4,
+        "onset_time": 2.244675,
+        "n_spikes": 1,
+        "first_spike_time": 2.2449175
+      },
+      "baseline": [
+        {
+          "id": 16554617,
+          "recording_id": 716267,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022464,
+        "recording_id": 716267,
+        "stim_pulse_id": 5801037,
+        "baseline_id": 16554618,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801037,
+        "recording_id": 716268,
+        "pulse_number": 5,
+        "onset_time": 2.2946750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.2949175
+      },
+      "baseline": [
+        {
+          "id": 16554618,
+          "recording_id": 716267,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022465,
+        "recording_id": 716267,
+        "stim_pulse_id": 5801038,
+        "baseline_id": 16554619,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801038,
+        "recording_id": 716268,
+        "pulse_number": 6,
+        "onset_time": 2.344675,
+        "n_spikes": 1,
+        "first_spike_time": 2.3449125000000004
+      },
+      "baseline": [
+        {
+          "id": 16554619,
+          "recording_id": 716267,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022466,
+        "recording_id": 716267,
+        "stim_pulse_id": 5801039,
+        "baseline_id": 16554620,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801039,
+        "recording_id": 716268,
+        "pulse_number": 7,
+        "onset_time": 2.3946750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.3949125
+      },
+      "baseline": [
+        {
+          "id": 16554620,
+          "recording_id": 716267,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022467,
+        "recording_id": 716267,
+        "stim_pulse_id": 5801040,
+        "baseline_id": 16554621,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801040,
+        "recording_id": 716268,
+        "pulse_number": 8,
+        "onset_time": 2.64618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6464175000000005
+      },
+      "baseline": [
+        {
+          "id": 16554621,
+          "recording_id": 716267,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022468,
+        "recording_id": 716267,
+        "stim_pulse_id": 5801041,
+        "baseline_id": 16554622,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801041,
+        "recording_id": 716268,
+        "pulse_number": 9,
+        "onset_time": 2.69618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6964225
+      },
+      "baseline": [
+        {
+          "id": 16554622,
+          "recording_id": 716267,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022469,
+        "recording_id": 716267,
+        "stim_pulse_id": 5801042,
+        "baseline_id": 16554623,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801042,
+        "recording_id": 716268,
+        "pulse_number": 10,
+        "onset_time": 2.7461800000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.7464225
+      },
+      "baseline": [
+        {
+          "id": 16554623,
+          "recording_id": 716267,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022470,
+        "recording_id": 716267,
+        "stim_pulse_id": 5801043,
+        "baseline_id": 16554624,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801043,
+        "recording_id": 716268,
+        "pulse_number": 11,
+        "onset_time": 2.79618,
+        "n_spikes": 1,
+        "first_spike_time": 2.7964175000000004
+      },
+      "baseline": [
+        {
+          "id": 16554624,
+          "recording_id": 716267,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022483,
+        "recording_id": 716269,
+        "stim_pulse_id": 5801056,
+        "baseline_id": 16554637,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801056,
+        "recording_id": 716270,
+        "pulse_number": 0,
+        "onset_time": 2.0446750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.0449275
+      },
+      "baseline": [
+        {
+          "id": 16554637,
+          "recording_id": 716269,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022484,
+        "recording_id": 716269,
+        "stim_pulse_id": 5801057,
+        "baseline_id": 16554638,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801057,
+        "recording_id": 716270,
+        "pulse_number": 1,
+        "onset_time": 2.094675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0949225
+      },
+      "baseline": [
+        {
+          "id": 16554638,
+          "recording_id": 716269,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022485,
+        "recording_id": 716269,
+        "stim_pulse_id": 5801058,
+        "baseline_id": 16554639,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801058,
+        "recording_id": 716270,
+        "pulse_number": 2,
+        "onset_time": 2.1446750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.1449275
+      },
+      "baseline": [
+        {
+          "id": 16554639,
+          "recording_id": 716269,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022486,
+        "recording_id": 716269,
+        "stim_pulse_id": 5801059,
+        "baseline_id": 16554640,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801059,
+        "recording_id": 716270,
+        "pulse_number": 3,
+        "onset_time": 2.194675,
+        "n_spikes": 1,
+        "first_spike_time": 2.1949225
+      },
+      "baseline": [
+        {
+          "id": 16554640,
+          "recording_id": 716269,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022487,
+        "recording_id": 716269,
+        "stim_pulse_id": 5801060,
+        "baseline_id": 16554641,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801060,
+        "recording_id": 716270,
+        "pulse_number": 4,
+        "onset_time": 2.244675,
+        "n_spikes": 1,
+        "first_spike_time": 2.2449225
+      },
+      "baseline": [
+        {
+          "id": 16554641,
+          "recording_id": 716269,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022488,
+        "recording_id": 716269,
+        "stim_pulse_id": 5801061,
+        "baseline_id": 16554642,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801061,
+        "recording_id": 716270,
+        "pulse_number": 5,
+        "onset_time": 2.2946750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.2949224999999998
+      },
+      "baseline": [
+        {
+          "id": 16554642,
+          "recording_id": 716269,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022489,
+        "recording_id": 716269,
+        "stim_pulse_id": 5801062,
+        "baseline_id": 16554643,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801062,
+        "recording_id": 716270,
+        "pulse_number": 6,
+        "onset_time": 2.344675,
+        "n_spikes": 1,
+        "first_spike_time": 2.3449175
+      },
+      "baseline": [
+        {
+          "id": 16554643,
+          "recording_id": 716269,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022490,
+        "recording_id": 716269,
+        "stim_pulse_id": 5801063,
+        "baseline_id": 16554644,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801063,
+        "recording_id": 716270,
+        "pulse_number": 7,
+        "onset_time": 2.3946750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.3949175
+      },
+      "baseline": [
+        {
+          "id": 16554644,
+          "recording_id": 716269,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022491,
+        "recording_id": 716269,
+        "stim_pulse_id": 5801064,
+        "baseline_id": 16554645,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801064,
+        "recording_id": 716270,
+        "pulse_number": 8,
+        "onset_time": 2.64618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6464225000000003
+      },
+      "baseline": [
+        {
+          "id": 16554645,
+          "recording_id": 716269,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022492,
+        "recording_id": 716269,
+        "stim_pulse_id": 5801065,
+        "baseline_id": 16554646,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801065,
+        "recording_id": 716270,
+        "pulse_number": 9,
+        "onset_time": 2.69618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6964275
+      },
+      "baseline": [
+        {
+          "id": 16554646,
+          "recording_id": 716269,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022493,
+        "recording_id": 716269,
+        "stim_pulse_id": 5801066,
+        "baseline_id": 16554647,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801066,
+        "recording_id": 716270,
+        "pulse_number": 10,
+        "onset_time": 2.7461800000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.7464275
+      },
+      "baseline": [
+        {
+          "id": 16554647,
+          "recording_id": 716269,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022494,
+        "recording_id": 716269,
+        "stim_pulse_id": 5801067,
+        "baseline_id": 16554648,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801067,
+        "recording_id": 716270,
+        "pulse_number": 11,
+        "onset_time": 2.79618,
+        "n_spikes": 1,
+        "first_spike_time": 2.7964275
+      },
+      "baseline": [
+        {
+          "id": 16554648,
+          "recording_id": 716269,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022507,
+        "recording_id": 716271,
+        "stim_pulse_id": 5801080,
+        "baseline_id": 16554661,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801080,
+        "recording_id": 716272,
+        "pulse_number": 0,
+        "onset_time": 2.0446750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.0448575
+      },
+      "baseline": [
+        {
+          "id": 16554661,
+          "recording_id": 716271,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022508,
+        "recording_id": 716271,
+        "stim_pulse_id": 5801081,
+        "baseline_id": 16554662,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801081,
+        "recording_id": 716272,
+        "pulse_number": 1,
+        "onset_time": 2.094675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0948525
+      },
+      "baseline": [
+        {
+          "id": 16554662,
+          "recording_id": 716271,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022509,
+        "recording_id": 716271,
+        "stim_pulse_id": 5801082,
+        "baseline_id": 16554663,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801082,
+        "recording_id": 716272,
+        "pulse_number": 2,
+        "onset_time": 2.1446750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.1448575
+      },
+      "baseline": [
+        {
+          "id": 16554663,
+          "recording_id": 716271,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022510,
+        "recording_id": 716271,
+        "stim_pulse_id": 5801083,
+        "baseline_id": 16554664,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801083,
+        "recording_id": 716272,
+        "pulse_number": 3,
+        "onset_time": 2.194675,
+        "n_spikes": 1,
+        "first_spike_time": 2.1948575000000003
+      },
+      "baseline": [
+        {
+          "id": 16554664,
+          "recording_id": 716271,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022511,
+        "recording_id": 716271,
+        "stim_pulse_id": 5801084,
+        "baseline_id": 16554665,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801084,
+        "recording_id": 716272,
+        "pulse_number": 4,
+        "onset_time": 2.244675,
+        "n_spikes": 1,
+        "first_spike_time": 2.2448575
+      },
+      "baseline": [
+        {
+          "id": 16554665,
+          "recording_id": 716271,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022512,
+        "recording_id": 716271,
+        "stim_pulse_id": 5801085,
+        "baseline_id": 16554666,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801085,
+        "recording_id": 716272,
+        "pulse_number": 5,
+        "onset_time": 2.2946750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.2948575
+      },
+      "baseline": [
+        {
+          "id": 16554666,
+          "recording_id": 716271,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022513,
+        "recording_id": 716271,
+        "stim_pulse_id": 5801086,
+        "baseline_id": 16554667,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801086,
+        "recording_id": 716272,
+        "pulse_number": 6,
+        "onset_time": 2.344675,
+        "n_spikes": 1,
+        "first_spike_time": 2.3448575000000003
+      },
+      "baseline": [
+        {
+          "id": 16554667,
+          "recording_id": 716271,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022514,
+        "recording_id": 716271,
+        "stim_pulse_id": 5801087,
+        "baseline_id": 16554668,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801087,
+        "recording_id": 716272,
+        "pulse_number": 7,
+        "onset_time": 2.3946750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.3948575
+      },
+      "baseline": [
+        {
+          "id": 16554668,
+          "recording_id": 716271,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022515,
+        "recording_id": 716271,
+        "stim_pulse_id": 5801088,
+        "baseline_id": 16554669,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801088,
+        "recording_id": 716272,
+        "pulse_number": 8,
+        "onset_time": 2.64618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6463625000000004
+      },
+      "baseline": [
+        {
+          "id": 16554669,
+          "recording_id": 716271,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022516,
+        "recording_id": 716271,
+        "stim_pulse_id": 5801089,
+        "baseline_id": 16554670,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801089,
+        "recording_id": 716272,
+        "pulse_number": 9,
+        "onset_time": 2.69618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6963625
+      },
+      "baseline": [
+        {
+          "id": 16554670,
+          "recording_id": 716271,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022517,
+        "recording_id": 716271,
+        "stim_pulse_id": 5801090,
+        "baseline_id": 16554671,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801090,
+        "recording_id": 716272,
+        "pulse_number": 10,
+        "onset_time": 2.7461800000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.7463575
+      },
+      "baseline": [
+        {
+          "id": 16554671,
+          "recording_id": 716271,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022518,
+        "recording_id": 716271,
+        "stim_pulse_id": 5801091,
+        "baseline_id": 16554672,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801091,
+        "recording_id": 716272,
+        "pulse_number": 11,
+        "onset_time": 2.79618,
+        "n_spikes": 1,
+        "first_spike_time": 2.7963625000000003
+      },
+      "baseline": [
+        {
+          "id": 16554672,
+          "recording_id": 716271,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022531,
+        "recording_id": 716273,
+        "stim_pulse_id": 5801104,
+        "baseline_id": 16554685,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801104,
+        "recording_id": 716274,
+        "pulse_number": 0,
+        "onset_time": 2.0446750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.0448575
+      },
+      "baseline": [
+        {
+          "id": 16554685,
+          "recording_id": 716273,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022532,
+        "recording_id": 716273,
+        "stim_pulse_id": 5801105,
+        "baseline_id": 16554686,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801105,
+        "recording_id": 716274,
+        "pulse_number": 1,
+        "onset_time": 2.094675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0948575000000003
+      },
+      "baseline": [
+        {
+          "id": 16554686,
+          "recording_id": 716273,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022533,
+        "recording_id": 716273,
+        "stim_pulse_id": 5801106,
+        "baseline_id": 16554687,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801106,
+        "recording_id": 716274,
+        "pulse_number": 2,
+        "onset_time": 2.1446750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.1448575
+      },
+      "baseline": [
+        {
+          "id": 16554687,
+          "recording_id": 716273,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022534,
+        "recording_id": 716273,
+        "stim_pulse_id": 5801107,
+        "baseline_id": 16554688,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801107,
+        "recording_id": 716274,
+        "pulse_number": 3,
+        "onset_time": 2.194675,
+        "n_spikes": 1,
+        "first_spike_time": 2.1948575000000003
+      },
+      "baseline": [
+        {
+          "id": 16554688,
+          "recording_id": 716273,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022535,
+        "recording_id": 716273,
+        "stim_pulse_id": 5801108,
+        "baseline_id": 16554689,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801108,
+        "recording_id": 716274,
+        "pulse_number": 4,
+        "onset_time": 2.244675,
+        "n_spikes": 1,
+        "first_spike_time": 2.2448575
+      },
+      "baseline": [
+        {
+          "id": 16554689,
+          "recording_id": 716273,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022536,
+        "recording_id": 716273,
+        "stim_pulse_id": 5801109,
+        "baseline_id": 16554690,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801109,
+        "recording_id": 716274,
+        "pulse_number": 5,
+        "onset_time": 2.2946750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.2948625
+      },
+      "baseline": [
+        {
+          "id": 16554690,
+          "recording_id": 716273,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022537,
+        "recording_id": 716273,
+        "stim_pulse_id": 5801110,
+        "baseline_id": 16554691,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801110,
+        "recording_id": 716274,
+        "pulse_number": 6,
+        "onset_time": 2.344675,
+        "n_spikes": 1,
+        "first_spike_time": 2.3448575000000003
+      },
+      "baseline": [
+        {
+          "id": 16554691,
+          "recording_id": 716273,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022538,
+        "recording_id": 716273,
+        "stim_pulse_id": 5801111,
+        "baseline_id": 16554692,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801111,
+        "recording_id": 716274,
+        "pulse_number": 7,
+        "onset_time": 2.3946750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.3948575
+      },
+      "baseline": [
+        {
+          "id": 16554692,
+          "recording_id": 716273,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022539,
+        "recording_id": 716273,
+        "stim_pulse_id": 5801112,
+        "baseline_id": 16554693,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801112,
+        "recording_id": 716274,
+        "pulse_number": 8,
+        "onset_time": 2.64618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6463625000000004
+      },
+      "baseline": [
+        {
+          "id": 16554693,
+          "recording_id": 716273,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022540,
+        "recording_id": 716273,
+        "stim_pulse_id": 5801113,
+        "baseline_id": 16554694,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801113,
+        "recording_id": 716274,
+        "pulse_number": 9,
+        "onset_time": 2.69618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6963625
+      },
+      "baseline": [
+        {
+          "id": 16554694,
+          "recording_id": 716273,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022541,
+        "recording_id": 716273,
+        "stim_pulse_id": 5801114,
+        "baseline_id": 16554695,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801114,
+        "recording_id": 716274,
+        "pulse_number": 10,
+        "onset_time": 2.7461800000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.7463625
+      },
+      "baseline": [
+        {
+          "id": 16554695,
+          "recording_id": 716273,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022542,
+        "recording_id": 716273,
+        "stim_pulse_id": 5801115,
+        "baseline_id": 16554696,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801115,
+        "recording_id": 716274,
+        "pulse_number": 11,
+        "onset_time": 2.79618,
+        "n_spikes": 1,
+        "first_spike_time": 2.7963625000000003
+      },
+      "baseline": [
+        {
+          "id": 16554696,
+          "recording_id": 716273,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022555,
+        "recording_id": 716275,
+        "stim_pulse_id": 5801128,
+        "baseline_id": 16554709,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801128,
+        "recording_id": 716276,
+        "pulse_number": 0,
+        "onset_time": 2.0446750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.0448575
+      },
+      "baseline": [
+        {
+          "id": 16554709,
+          "recording_id": 716275,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022556,
+        "recording_id": 716275,
+        "stim_pulse_id": 5801129,
+        "baseline_id": 16554710,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801129,
+        "recording_id": 716276,
+        "pulse_number": 1,
+        "onset_time": 2.094675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0948625
+      },
+      "baseline": [
+        {
+          "id": 16554710,
+          "recording_id": 716275,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022557,
+        "recording_id": 716275,
+        "stim_pulse_id": 5801130,
+        "baseline_id": 16554711,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801130,
+        "recording_id": 716276,
+        "pulse_number": 2,
+        "onset_time": 2.1446750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.1448575
+      },
+      "baseline": [
+        {
+          "id": 16554711,
+          "recording_id": 716275,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022558,
+        "recording_id": 716275,
+        "stim_pulse_id": 5801131,
+        "baseline_id": 16554712,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801131,
+        "recording_id": 716276,
+        "pulse_number": 3,
+        "onset_time": 2.194675,
+        "n_spikes": 1,
+        "first_spike_time": 2.1948575000000003
+      },
+      "baseline": [
+        {
+          "id": 16554712,
+          "recording_id": 716275,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022559,
+        "recording_id": 716275,
+        "stim_pulse_id": 5801132,
+        "baseline_id": 16554713,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801132,
+        "recording_id": 716276,
+        "pulse_number": 4,
+        "onset_time": 2.244675,
+        "n_spikes": 1,
+        "first_spike_time": 2.2448575
+      },
+      "baseline": [
+        {
+          "id": 16554713,
+          "recording_id": 716275,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022560,
+        "recording_id": 716275,
+        "stim_pulse_id": 5801133,
+        "baseline_id": 16554714,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801133,
+        "recording_id": 716276,
+        "pulse_number": 5,
+        "onset_time": 2.2946750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.2948625
+      },
+      "baseline": [
+        {
+          "id": 16554714,
+          "recording_id": 716275,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022561,
+        "recording_id": 716275,
+        "stim_pulse_id": 5801134,
+        "baseline_id": 16554715,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801134,
+        "recording_id": 716276,
+        "pulse_number": 6,
+        "onset_time": 2.344675,
+        "n_spikes": 1,
+        "first_spike_time": 2.3448575000000003
+      },
+      "baseline": [
+        {
+          "id": 16554715,
+          "recording_id": 716275,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022562,
+        "recording_id": 716275,
+        "stim_pulse_id": 5801135,
+        "baseline_id": 16554716,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801135,
+        "recording_id": 716276,
+        "pulse_number": 7,
+        "onset_time": 2.3946750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.3948625
+      },
+      "baseline": [
+        {
+          "id": 16554716,
+          "recording_id": 716275,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022563,
+        "recording_id": 716275,
+        "stim_pulse_id": 5801136,
+        "baseline_id": 16554717,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801136,
+        "recording_id": 716276,
+        "pulse_number": 8,
+        "onset_time": 2.64618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6463625000000004
+      },
+      "baseline": [
+        {
+          "id": 16554717,
+          "recording_id": 716275,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022564,
+        "recording_id": 716275,
+        "stim_pulse_id": 5801137,
+        "baseline_id": 16554718,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801137,
+        "recording_id": 716276,
+        "pulse_number": 9,
+        "onset_time": 2.69618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6963625
+      },
+      "baseline": [
+        {
+          "id": 16554718,
+          "recording_id": 716275,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022565,
+        "recording_id": 716275,
+        "stim_pulse_id": 5801138,
+        "baseline_id": 16554719,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801138,
+        "recording_id": 716276,
+        "pulse_number": 10,
+        "onset_time": 2.7461800000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.7463625
+      },
+      "baseline": [
+        {
+          "id": 16554719,
+          "recording_id": 716275,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022566,
+        "recording_id": 716275,
+        "stim_pulse_id": 5801139,
+        "baseline_id": 16554720,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801139,
+        "recording_id": 716276,
+        "pulse_number": 11,
+        "onset_time": 2.79618,
+        "n_spikes": 1,
+        "first_spike_time": 2.7963625000000003
+      },
+      "baseline": [
+        {
+          "id": 16554720,
+          "recording_id": 716275,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022579,
+        "recording_id": 716277,
+        "stim_pulse_id": 5801152,
+        "baseline_id": 16554737,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801152,
+        "recording_id": 716278,
+        "pulse_number": 0,
+        "onset_time": 2.0446750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.0448575
+      },
+      "baseline": [
+        {
+          "id": 16554737,
+          "recording_id": 716277,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022580,
+        "recording_id": 716277,
+        "stim_pulse_id": 5801153,
+        "baseline_id": 16554739,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801153,
+        "recording_id": 716278,
+        "pulse_number": 1,
+        "onset_time": 2.094675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0948575000000003
+      },
+      "baseline": [
+        {
+          "id": 16554739,
+          "recording_id": 716277,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022581,
+        "recording_id": 716277,
+        "stim_pulse_id": 5801154,
+        "baseline_id": 16554741,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801154,
+        "recording_id": 716278,
+        "pulse_number": 2,
+        "onset_time": 2.1446750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.1448575
+      },
+      "baseline": [
+        {
+          "id": 16554741,
+          "recording_id": 716277,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022582,
+        "recording_id": 716277,
+        "stim_pulse_id": 5801155,
+        "baseline_id": 16554743,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801155,
+        "recording_id": 716278,
+        "pulse_number": 3,
+        "onset_time": 2.194675,
+        "n_spikes": 1,
+        "first_spike_time": 2.1948575000000003
+      },
+      "baseline": [
+        {
+          "id": 16554743,
+          "recording_id": 716277,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022583,
+        "recording_id": 716277,
+        "stim_pulse_id": 5801156,
+        "baseline_id": 16554745,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801156,
+        "recording_id": 716278,
+        "pulse_number": 4,
+        "onset_time": 2.244675,
+        "n_spikes": 1,
+        "first_spike_time": 2.2448575
+      },
+      "baseline": [
+        {
+          "id": 16554745,
+          "recording_id": 716277,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022584,
+        "recording_id": 716277,
+        "stim_pulse_id": 5801157,
+        "baseline_id": 16554747,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801157,
+        "recording_id": 716278,
+        "pulse_number": 5,
+        "onset_time": 2.2946750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.2948625
+      },
+      "baseline": [
+        {
+          "id": 16554747,
+          "recording_id": 716277,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022585,
+        "recording_id": 716277,
+        "stim_pulse_id": 5801158,
+        "baseline_id": 16554749,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801158,
+        "recording_id": 716278,
+        "pulse_number": 6,
+        "onset_time": 2.344675,
+        "n_spikes": 1,
+        "first_spike_time": 2.3448575000000003
+      },
+      "baseline": [
+        {
+          "id": 16554749,
+          "recording_id": 716277,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022586,
+        "recording_id": 716277,
+        "stim_pulse_id": 5801159,
+        "baseline_id": 16554751,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801159,
+        "recording_id": 716278,
+        "pulse_number": 7,
+        "onset_time": 2.3946750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.3948575
+      },
+      "baseline": [
+        {
+          "id": 16554751,
+          "recording_id": 716277,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022587,
+        "recording_id": 716277,
+        "stim_pulse_id": 5801160,
+        "baseline_id": 16554753,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801160,
+        "recording_id": 716278,
+        "pulse_number": 8,
+        "onset_time": 2.64618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6463625000000004
+      },
+      "baseline": [
+        {
+          "id": 16554753,
+          "recording_id": 716277,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022588,
+        "recording_id": 716277,
+        "stim_pulse_id": 5801161,
+        "baseline_id": 16554755,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801161,
+        "recording_id": 716278,
+        "pulse_number": 9,
+        "onset_time": 2.69618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6963625
+      },
+      "baseline": [
+        {
+          "id": 16554755,
+          "recording_id": 716277,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022589,
+        "recording_id": 716277,
+        "stim_pulse_id": 5801162,
+        "baseline_id": 16554757,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801162,
+        "recording_id": 716278,
+        "pulse_number": 10,
+        "onset_time": 2.7461800000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.7463625
+      },
+      "baseline": [
+        {
+          "id": 16554757,
+          "recording_id": 716277,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022590,
+        "recording_id": 716277,
+        "stim_pulse_id": 5801163,
+        "baseline_id": 16554759,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801163,
+        "recording_id": 716278,
+        "pulse_number": 11,
+        "onset_time": 2.79618,
+        "n_spikes": 1,
+        "first_spike_time": 2.7963625000000003
+      },
+      "baseline": [
+        {
+          "id": 16554759,
+          "recording_id": 716277,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022603,
+        "recording_id": 716279,
+        "stim_pulse_id": 5801176,
+        "baseline_id": 16554786,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801176,
+        "recording_id": 716280,
+        "pulse_number": 0,
+        "onset_time": 2.0446750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.0448575
+      },
+      "baseline": [
+        {
+          "id": 16554786,
+          "recording_id": 716279,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022604,
+        "recording_id": 716279,
+        "stim_pulse_id": 5801177,
+        "baseline_id": 16554788,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801177,
+        "recording_id": 716280,
+        "pulse_number": 1,
+        "onset_time": 2.094675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0948575000000003
+      },
+      "baseline": [
+        {
+          "id": 16554788,
+          "recording_id": 716279,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022605,
+        "recording_id": 716279,
+        "stim_pulse_id": 5801178,
+        "baseline_id": 16554790,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801178,
+        "recording_id": 716280,
+        "pulse_number": 2,
+        "onset_time": 2.1446750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.1448625
+      },
+      "baseline": [
+        {
+          "id": 16554790,
+          "recording_id": 716279,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022606,
+        "recording_id": 716279,
+        "stim_pulse_id": 5801179,
+        "baseline_id": 16554792,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801179,
+        "recording_id": 716280,
+        "pulse_number": 3,
+        "onset_time": 2.194675,
+        "n_spikes": 1,
+        "first_spike_time": 2.1948625
+      },
+      "baseline": [
+        {
+          "id": 16554792,
+          "recording_id": 716279,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022607,
+        "recording_id": 716279,
+        "stim_pulse_id": 5801180,
+        "baseline_id": 16554795,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801180,
+        "recording_id": 716280,
+        "pulse_number": 4,
+        "onset_time": 2.244675,
+        "n_spikes": 1,
+        "first_spike_time": 2.2448625
+      },
+      "baseline": [
+        {
+          "id": 16554795,
+          "recording_id": 716279,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022608,
+        "recording_id": 716279,
+        "stim_pulse_id": 5801181,
+        "baseline_id": 16554797,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801181,
+        "recording_id": 716280,
+        "pulse_number": 5,
+        "onset_time": 2.2946750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 2.2948625
+      },
+      "baseline": [
+        {
+          "id": 16554797,
+          "recording_id": 716279,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022609,
+        "recording_id": 716279,
+        "stim_pulse_id": 5801182,
+        "baseline_id": 16554799,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801182,
+        "recording_id": 716280,
+        "pulse_number": 6,
+        "onset_time": 2.344675,
+        "n_spikes": 1,
+        "first_spike_time": 2.3448625
+      },
+      "baseline": [
+        {
+          "id": 16554799,
+          "recording_id": 716279,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022610,
+        "recording_id": 716279,
+        "stim_pulse_id": 5801183,
+        "baseline_id": 16554801,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801183,
+        "recording_id": 716280,
+        "pulse_number": 7,
+        "onset_time": 2.3946750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.3948625
+      },
+      "baseline": [
+        {
+          "id": 16554801,
+          "recording_id": 716279,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022611,
+        "recording_id": 716279,
+        "stim_pulse_id": 5801184,
+        "baseline_id": 16554803,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801184,
+        "recording_id": 716280,
+        "pulse_number": 8,
+        "onset_time": 2.64618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6463675
+      },
+      "baseline": [
+        {
+          "id": 16554803,
+          "recording_id": 716279,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022612,
+        "recording_id": 716279,
+        "stim_pulse_id": 5801185,
+        "baseline_id": 16554805,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801185,
+        "recording_id": 716280,
+        "pulse_number": 9,
+        "onset_time": 2.69618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6963675
+      },
+      "baseline": [
+        {
+          "id": 16554805,
+          "recording_id": 716279,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022613,
+        "recording_id": 716279,
+        "stim_pulse_id": 5801186,
+        "baseline_id": 16554807,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801186,
+        "recording_id": 716280,
+        "pulse_number": 10,
+        "onset_time": 2.7461800000000003,
+        "n_spikes": 1,
+        "first_spike_time": 2.7463675
+      },
+      "baseline": [
+        {
+          "id": 16554807,
+          "recording_id": 716279,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022614,
+        "recording_id": 716279,
+        "stim_pulse_id": 5801187,
+        "baseline_id": 16554809,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 1
+      },
+      "stimulus": {
+        "id": 5801187,
+        "recording_id": 716280,
+        "pulse_number": 11,
+        "onset_time": 2.79618,
+        "n_spikes": 1,
+        "first_spike_time": 2.7963625000000003
+      },
+      "baseline": [
+        {
+          "id": 16554809,
+          "recording_id": 716279,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 1
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "vc"
+    },
+    {
+      "response": {
+        "id": 19022627,
+        "recording_id": 716321,
+        "stim_pulse_id": 5801200,
+        "baseline_id": 16554835,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801200,
+        "recording_id": 716322,
+        "pulse_number": 0,
+        "onset_time": 1.6196750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 1.6209725000000001
+      },
+      "baseline": [
+        {
+          "id": 16554835,
+          "recording_id": 716321,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095366
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022628,
+        "recording_id": 716321,
+        "stim_pulse_id": 5801201,
+        "baseline_id": 16554837,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801201,
+        "recording_id": 716322,
+        "pulse_number": 1,
+        "onset_time": 1.6396750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 1.6407225
+      },
+      "baseline": [
+        {
+          "id": 16554837,
+          "recording_id": 716321,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095363
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022629,
+        "recording_id": 716321,
+        "stim_pulse_id": 5801202,
+        "baseline_id": 16554840,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801202,
+        "recording_id": 716322,
+        "pulse_number": 2,
+        "onset_time": 1.6596750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 1.6608325000000002
+      },
+      "baseline": [
+        {
+          "id": 16554840,
+          "recording_id": 716321,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095357
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022630,
+        "recording_id": 716321,
+        "stim_pulse_id": 5801203,
+        "baseline_id": 16554842,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801203,
+        "recording_id": 716322,
+        "pulse_number": 3,
+        "onset_time": 1.679675,
+        "n_spikes": 1,
+        "first_spike_time": 1.6808925
+      },
+      "baseline": [
+        {
+          "id": 16554842,
+          "recording_id": 716321,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095351
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022631,
+        "recording_id": 716321,
+        "stim_pulse_id": 5801204,
+        "baseline_id": 16554844,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801204,
+        "recording_id": 716322,
+        "pulse_number": 4,
+        "onset_time": 1.699675,
+        "n_spikes": 1,
+        "first_spike_time": 1.7008874999999999
+      },
+      "baseline": [
+        {
+          "id": 16554844,
+          "recording_id": 716321,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095343
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022632,
+        "recording_id": 716321,
+        "stim_pulse_id": 5801205,
+        "baseline_id": 16554846,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801205,
+        "recording_id": 716322,
+        "pulse_number": 5,
+        "onset_time": 1.719675,
+        "n_spikes": 1,
+        "first_spike_time": 1.7209174999999999
+      },
+      "baseline": [
+        {
+          "id": 16554846,
+          "recording_id": 716321,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095337
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022633,
+        "recording_id": 716321,
+        "stim_pulse_id": 5801206,
+        "baseline_id": 16554848,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801206,
+        "recording_id": 716322,
+        "pulse_number": 6,
+        "onset_time": 1.739675,
+        "n_spikes": 1,
+        "first_spike_time": 1.7409175000000001
+      },
+      "baseline": [
+        {
+          "id": 16554848,
+          "recording_id": 716321,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095335
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022634,
+        "recording_id": 716321,
+        "stim_pulse_id": 5801207,
+        "baseline_id": 16554850,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801207,
+        "recording_id": 716322,
+        "pulse_number": 7,
+        "onset_time": 1.759675,
+        "n_spikes": 1,
+        "first_spike_time": 1.7609074999999998
+      },
+      "baseline": [
+        {
+          "id": 16554850,
+          "recording_id": 716321,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095329
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022635,
+        "recording_id": 716321,
+        "stim_pulse_id": 5801208,
+        "baseline_id": 16554852,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801208,
+        "recording_id": 716322,
+        "pulse_number": 8,
+        "onset_time": 1.8861800000000002,
+        "n_spikes": 1,
+        "first_spike_time": 1.8875475000000002
+      },
+      "baseline": [
+        {
+          "id": 16554852,
+          "recording_id": 716321,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095325
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022636,
+        "recording_id": 716321,
+        "stim_pulse_id": 5801209,
+        "baseline_id": 16554854,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801209,
+        "recording_id": 716322,
+        "pulse_number": 9,
+        "onset_time": 1.9061800000000002,
+        "n_spikes": 1,
+        "first_spike_time": 1.9073975
+      },
+      "baseline": [
+        {
+          "id": 16554854,
+          "recording_id": 716321,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095319
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022637,
+        "recording_id": 716321,
+        "stim_pulse_id": 5801210,
+        "baseline_id": 16554856,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801210,
+        "recording_id": 716322,
+        "pulse_number": 10,
+        "onset_time": 1.9261800000000002,
+        "n_spikes": 1,
+        "first_spike_time": 1.9274925
+      },
+      "baseline": [
+        {
+          "id": 16554856,
+          "recording_id": 716321,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095313
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022638,
+        "recording_id": 716321,
+        "stim_pulse_id": 5801211,
+        "baseline_id": 16554858,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801211,
+        "recording_id": 716322,
+        "pulse_number": 11,
+        "onset_time": 1.9461800000000002,
+        "n_spikes": 1,
+        "first_spike_time": 1.9474425000000002
+      },
+      "baseline": [
+        {
+          "id": 16554858,
+          "recording_id": 716321,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095309
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022651,
+        "recording_id": 716323,
+        "stim_pulse_id": 5801224,
+        "baseline_id": 16554883,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801224,
+        "recording_id": 716324,
+        "pulse_number": 0,
+        "onset_time": 1.7446750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 1.7460425000000002
+      },
+      "baseline": [
+        {
+          "id": 16554883,
+          "recording_id": 716323,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095302
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022652,
+        "recording_id": 716323,
+        "stim_pulse_id": 5801225,
+        "baseline_id": 16554885,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801225,
+        "recording_id": 716324,
+        "pulse_number": 1,
+        "onset_time": 1.7646750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 1.7658325000000001
+      },
+      "baseline": [
+        {
+          "id": 16554885,
+          "recording_id": 716323,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095294
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022653,
+        "recording_id": 716323,
+        "stim_pulse_id": 5801226,
+        "baseline_id": 16554887,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801226,
+        "recording_id": 716324,
+        "pulse_number": 2,
+        "onset_time": 1.7846750000000002,
+        "n_spikes": 1,
+        "first_spike_time": 1.7858475
+      },
+      "baseline": [
+        {
+          "id": 16554887,
+          "recording_id": 716323,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095292
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022654,
+        "recording_id": 716323,
+        "stim_pulse_id": 5801227,
+        "baseline_id": 16554889,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801227,
+        "recording_id": 716324,
+        "pulse_number": 3,
+        "onset_time": 1.8046750000000003,
+        "n_spikes": 1,
+        "first_spike_time": 1.8059225
+      },
+      "baseline": [
+        {
+          "id": 16554889,
+          "recording_id": 716323,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095284
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022655,
+        "recording_id": 716323,
+        "stim_pulse_id": 5801228,
+        "baseline_id": 16554891,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801228,
+        "recording_id": 716324,
+        "pulse_number": 4,
+        "onset_time": 1.824675,
+        "n_spikes": 1,
+        "first_spike_time": 1.8259525
+      },
+      "baseline": [
+        {
+          "id": 16554891,
+          "recording_id": 716323,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095277
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022656,
+        "recording_id": 716323,
+        "stim_pulse_id": 5801229,
+        "baseline_id": 16554893,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801229,
+        "recording_id": 716324,
+        "pulse_number": 5,
+        "onset_time": 1.844675,
+        "n_spikes": 1,
+        "first_spike_time": 1.8459174999999999
+      },
+      "baseline": [
+        {
+          "id": 16554893,
+          "recording_id": 716323,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095270
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022657,
+        "recording_id": 716323,
+        "stim_pulse_id": 5801230,
+        "baseline_id": 16554895,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801230,
+        "recording_id": 716324,
+        "pulse_number": 6,
+        "onset_time": 1.864675,
+        "n_spikes": 1,
+        "first_spike_time": 1.8659575
+      },
+      "baseline": [
+        {
+          "id": 16554895,
+          "recording_id": 716323,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095263
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022658,
+        "recording_id": 716323,
+        "stim_pulse_id": 5801231,
+        "baseline_id": 16554897,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801231,
+        "recording_id": 716324,
+        "pulse_number": 7,
+        "onset_time": 1.884675,
+        "n_spikes": 1,
+        "first_spike_time": 1.8858975
+      },
+      "baseline": [
+        {
+          "id": 16554897,
+          "recording_id": 716323,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095258
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022659,
+        "recording_id": 716323,
+        "stim_pulse_id": 5801232,
+        "baseline_id": 16554899,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801232,
+        "recording_id": 716324,
+        "pulse_number": 8,
+        "onset_time": 2.13618,
+        "n_spikes": 1,
+        "first_spike_time": 2.1376074999999997
+      },
+      "baseline": [
+        {
+          "id": 16554899,
+          "recording_id": 716323,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095254
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022660,
+        "recording_id": 716323,
+        "stim_pulse_id": 5801233,
+        "baseline_id": 16554901,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801233,
+        "recording_id": 716324,
+        "pulse_number": 9,
+        "onset_time": 2.15618,
+        "n_spikes": 1,
+        "first_spike_time": 2.1574074999999997
+      },
+      "baseline": [
+        {
+          "id": 16554901,
+          "recording_id": 716323,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095251
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022661,
+        "recording_id": 716323,
+        "stim_pulse_id": 5801234,
+        "baseline_id": 16554903,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801234,
+        "recording_id": 716324,
+        "pulse_number": 10,
+        "onset_time": 2.17618,
+        "n_spikes": 1,
+        "first_spike_time": 2.1774975
+      },
+      "baseline": [
+        {
+          "id": 16554903,
+          "recording_id": 716323,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095245
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022662,
+        "recording_id": 716323,
+        "stim_pulse_id": 5801235,
+        "baseline_id": 16554905,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801235,
+        "recording_id": 716324,
+        "pulse_number": 11,
+        "onset_time": 2.19618,
+        "n_spikes": 1,
+        "first_spike_time": 2.1974125
+      },
+      "baseline": [
+        {
+          "id": 16554905,
+          "recording_id": 716323,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095240
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022675,
+        "recording_id": 716325,
+        "stim_pulse_id": 5801248,
+        "baseline_id": 16554936,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801248,
+        "recording_id": 716326,
+        "pulse_number": 0,
+        "onset_time": 1.9946750000000002,
+        "n_spikes": 1,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16554936,
+          "recording_id": 716325,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022676,
+        "recording_id": 716325,
+        "stim_pulse_id": 5801249,
+        "baseline_id": 16554939,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801249,
+        "recording_id": 716326,
+        "pulse_number": 1,
+        "onset_time": 2.014675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0158924999999996
+      },
+      "baseline": [
+        {
+          "id": 16554939,
+          "recording_id": 716325,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095233
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022677,
+        "recording_id": 716325,
+        "stim_pulse_id": 5801250,
+        "baseline_id": 16554942,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801250,
+        "recording_id": 716326,
+        "pulse_number": 2,
+        "onset_time": 2.034675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0359425
+      },
+      "baseline": [
+        {
+          "id": 16554942,
+          "recording_id": 716325,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095230
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022678,
+        "recording_id": 716325,
+        "stim_pulse_id": 5801251,
+        "baseline_id": 16554945,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801251,
+        "recording_id": 716326,
+        "pulse_number": 3,
+        "onset_time": 2.054675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0559375
+      },
+      "baseline": [
+        {
+          "id": 16554945,
+          "recording_id": 716325,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095228
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022679,
+        "recording_id": 716325,
+        "stim_pulse_id": 5801252,
+        "baseline_id": 16554948,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801252,
+        "recording_id": 716326,
+        "pulse_number": 4,
+        "onset_time": 2.074675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0759475
+      },
+      "baseline": [
+        {
+          "id": 16554948,
+          "recording_id": 716325,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095219
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022680,
+        "recording_id": 716325,
+        "stim_pulse_id": 5801253,
+        "baseline_id": 16554951,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801253,
+        "recording_id": 716326,
+        "pulse_number": 5,
+        "onset_time": 2.094675,
+        "n_spikes": 1,
+        "first_spike_time": 2.0960075
+      },
+      "baseline": [
+        {
+          "id": 16554951,
+          "recording_id": 716325,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095217
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022681,
+        "recording_id": 716325,
+        "stim_pulse_id": 5801254,
+        "baseline_id": 16554955,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801254,
+        "recording_id": 716326,
+        "pulse_number": 6,
+        "onset_time": 2.114675,
+        "n_spikes": 1,
+        "first_spike_time": 2.1160025
+      },
+      "baseline": [
+        {
+          "id": 16554955,
+          "recording_id": 716325,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095215
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022682,
+        "recording_id": 716325,
+        "stim_pulse_id": 5801255,
+        "baseline_id": 16554958,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801255,
+        "recording_id": 716326,
+        "pulse_number": 7,
+        "onset_time": 2.134675,
+        "n_spikes": 1,
+        "first_spike_time": 2.1360075
+      },
+      "baseline": [
+        {
+          "id": 16554958,
+          "recording_id": 716325,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095207
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022683,
+        "recording_id": 716325,
+        "stim_pulse_id": 5801256,
+        "baseline_id": 16554961,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801256,
+        "recording_id": 716326,
+        "pulse_number": 8,
+        "onset_time": 2.6361800000000004,
+        "n_spikes": 1,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16554961,
+          "recording_id": 716325,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022684,
+        "recording_id": 716325,
+        "stim_pulse_id": 5801257,
+        "baseline_id": 16554964,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801257,
+        "recording_id": 716326,
+        "pulse_number": 9,
+        "onset_time": 2.6561800000000004,
+        "n_spikes": 1,
+        "first_spike_time": 2.6574275
+      },
+      "baseline": [
+        {
+          "id": 16554964,
+          "recording_id": 716325,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095203
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022685,
+        "recording_id": 716325,
+        "stim_pulse_id": 5801258,
+        "baseline_id": 16554967,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801258,
+        "recording_id": 716326,
+        "pulse_number": 10,
+        "onset_time": 2.67618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6774775
+      },
+      "baseline": [
+        {
+          "id": 16554967,
+          "recording_id": 716325,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095200
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022686,
+        "recording_id": 716325,
+        "stim_pulse_id": 5801259,
+        "baseline_id": 16554971,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801259,
+        "recording_id": 716326,
+        "pulse_number": 11,
+        "onset_time": 2.69618,
+        "n_spikes": 1,
+        "first_spike_time": 2.6974675
+      },
+      "baseline": [
+        {
+          "id": 16554971,
+          "recording_id": 716325,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095192
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022699,
+        "recording_id": 716327,
+        "stim_pulse_id": 5801272,
+        "baseline_id": 16555013,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801272,
+        "recording_id": 716328,
+        "pulse_number": 0,
+        "onset_time": 1.43317,
+        "n_spikes": 1,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16555013,
+          "recording_id": 716327,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022700,
+        "recording_id": 716327,
+        "stim_pulse_id": 5801273,
+        "baseline_id": 16555016,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801273,
+        "recording_id": 716328,
+        "pulse_number": 1,
+        "onset_time": 1.45317,
+        "n_spikes": 1,
+        "first_spike_time": 1.4544374999999998
+      },
+      "baseline": [
+        {
+          "id": 16555016,
+          "recording_id": 716327,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095187
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022701,
+        "recording_id": 716327,
+        "stim_pulse_id": 5801274,
+        "baseline_id": 16555020,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801274,
+        "recording_id": 716328,
+        "pulse_number": 2,
+        "onset_time": 1.47317,
+        "n_spikes": 1,
+        "first_spike_time": 1.4744625
+      },
+      "baseline": [
+        {
+          "id": 16555020,
+          "recording_id": 716327,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095183
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022702,
+        "recording_id": 716327,
+        "stim_pulse_id": 5801275,
+        "baseline_id": 16555022,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801275,
+        "recording_id": 716328,
+        "pulse_number": 3,
+        "onset_time": 1.49317,
+        "n_spikes": 1,
+        "first_spike_time": 1.4944875
+      },
+      "baseline": [
+        {
+          "id": 16555022,
+          "recording_id": 716327,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095179
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022703,
+        "recording_id": 716327,
+        "stim_pulse_id": 5801276,
+        "baseline_id": 16555026,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801276,
+        "recording_id": 716328,
+        "pulse_number": 4,
+        "onset_time": 1.5131700000000001,
+        "n_spikes": 1,
+        "first_spike_time": 1.5144725
+      },
+      "baseline": [
+        {
+          "id": 16555026,
+          "recording_id": 716327,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095170
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022704,
+        "recording_id": 716327,
+        "stim_pulse_id": 5801277,
+        "baseline_id": 16555029,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801277,
+        "recording_id": 716328,
+        "pulse_number": 5,
+        "onset_time": 1.5331700000000001,
+        "n_spikes": 1,
+        "first_spike_time": 1.5344775
+      },
+      "baseline": [
+        {
+          "id": 16555029,
+          "recording_id": 716327,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095164
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022705,
+        "recording_id": 716327,
+        "stim_pulse_id": 5801278,
+        "baseline_id": 16555032,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801278,
+        "recording_id": 716328,
+        "pulse_number": 6,
+        "onset_time": 1.5531700000000002,
+        "n_spikes": 1,
+        "first_spike_time": 1.5544825
+      },
+      "baseline": [
+        {
+          "id": 16555032,
+          "recording_id": 716327,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095156
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022706,
+        "recording_id": 716327,
+        "stim_pulse_id": 5801279,
+        "baseline_id": 16555034,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801279,
+        "recording_id": 716328,
+        "pulse_number": 7,
+        "onset_time": 1.5731700000000002,
+        "n_spikes": 1,
+        "first_spike_time": 1.5744925
+      },
+      "baseline": [
+        {
+          "id": 16555034,
+          "recording_id": 716327,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095152
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022707,
+        "recording_id": 716327,
+        "stim_pulse_id": 5801280,
+        "baseline_id": 16555038,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801280,
+        "recording_id": 716328,
+        "pulse_number": 8,
+        "onset_time": 2.574675,
+        "n_spikes": 1,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16555038,
+          "recording_id": 716327,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022708,
+        "recording_id": 716327,
+        "stim_pulse_id": 5801281,
+        "baseline_id": 16555041,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801281,
+        "recording_id": 716328,
+        "pulse_number": 9,
+        "onset_time": 2.594675,
+        "n_spikes": 1,
+        "first_spike_time": 2.5959325
+      },
+      "baseline": [
+        {
+          "id": 16555041,
+          "recording_id": 716327,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095143
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022709,
+        "recording_id": 716327,
+        "stim_pulse_id": 5801282,
+        "baseline_id": 16555044,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801282,
+        "recording_id": 716328,
+        "pulse_number": 10,
+        "onset_time": 2.614675,
+        "n_spikes": 1,
+        "first_spike_time": 2.6159525
+      },
+      "baseline": [
+        {
+          "id": 16555044,
+          "recording_id": 716327,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095136
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022710,
+        "recording_id": 716327,
+        "stim_pulse_id": 5801283,
+        "baseline_id": 16555047,
+        "ex_qc_pass": 1,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801283,
+        "recording_id": 716328,
+        "pulse_number": 11,
+        "onset_time": 2.634675,
+        "n_spikes": 1,
+        "first_spike_time": 2.6360025
+      },
+      "baseline": [
+        {
+          "id": 16555047,
+          "recording_id": 716327,
+          "ex_qc_pass": 1,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [
+        1095129
+      ],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022903,
+        "recording_id": 716337,
+        "stim_pulse_id": 5801332,
+        "baseline_id": 16555375,
+        "ex_qc_pass": 0,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801332,
+        "recording_id": 716340,
+        "pulse_number": 0,
+        "onset_time": 1.04166,
+        "n_spikes": 0,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16555375,
+          "recording_id": 716337,
+          "ex_qc_pass": 0,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022904,
+        "recording_id": 716337,
+        "stim_pulse_id": 5801333,
+        "baseline_id": 16555377,
+        "ex_qc_pass": 0,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801333,
+        "recording_id": 716340,
+        "pulse_number": 1,
+        "onset_time": 1.09166,
+        "n_spikes": 0,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16555377,
+          "recording_id": 716337,
+          "ex_qc_pass": 0,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022905,
+        "recording_id": 716337,
+        "stim_pulse_id": 5801334,
+        "baseline_id": 16555379,
+        "ex_qc_pass": 0,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801334,
+        "recording_id": 716340,
+        "pulse_number": 2,
+        "onset_time": 1.1416600000000001,
+        "n_spikes": 0,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16555379,
+          "recording_id": 716337,
+          "ex_qc_pass": 0,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022906,
+        "recording_id": 716337,
+        "stim_pulse_id": 5801335,
+        "baseline_id": 16555381,
+        "ex_qc_pass": 0,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801335,
+        "recording_id": 716340,
+        "pulse_number": 3,
+        "onset_time": 1.1916600000000002,
+        "n_spikes": 0,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16555381,
+          "recording_id": 716337,
+          "ex_qc_pass": 0,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022907,
+        "recording_id": 716337,
+        "stim_pulse_id": 5801336,
+        "baseline_id": 16555050,
+        "ex_qc_pass": 0,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801336,
+        "recording_id": 716340,
+        "pulse_number": 4,
+        "onset_time": 1.2416600000000002,
+        "n_spikes": 0,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16555050,
+          "recording_id": 716337,
+          "ex_qc_pass": 0,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022908,
+        "recording_id": 716337,
+        "stim_pulse_id": 5801337,
+        "baseline_id": 16555384,
+        "ex_qc_pass": 0,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801337,
+        "recording_id": 716340,
+        "pulse_number": 5,
+        "onset_time": 1.29166,
+        "n_spikes": 0,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16555384,
+          "recording_id": 716337,
+          "ex_qc_pass": 0,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022909,
+        "recording_id": 716337,
+        "stim_pulse_id": 5801338,
+        "baseline_id": 16555386,
+        "ex_qc_pass": 0,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801338,
+        "recording_id": 716340,
+        "pulse_number": 6,
+        "onset_time": 1.34166,
+        "n_spikes": 0,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16555386,
+          "recording_id": 716337,
+          "ex_qc_pass": 0,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022910,
+        "recording_id": 716337,
+        "stim_pulse_id": 5801339,
+        "baseline_id": 16555388,
+        "ex_qc_pass": 0,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801339,
+        "recording_id": 716340,
+        "pulse_number": 7,
+        "onset_time": 1.3916600000000001,
+        "n_spikes": 0,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16555388,
+          "recording_id": 716337,
+          "ex_qc_pass": 0,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022911,
+        "recording_id": 716337,
+        "stim_pulse_id": 5801340,
+        "baseline_id": 16555390,
+        "ex_qc_pass": 0,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801340,
+        "recording_id": 716340,
+        "pulse_number": 8,
+        "onset_time": 1.6446800000000001,
+        "n_spikes": 0,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16555390,
+          "recording_id": 716337,
+          "ex_qc_pass": 0,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022912,
+        "recording_id": 716337,
+        "stim_pulse_id": 5801341,
+        "baseline_id": 16555068,
+        "ex_qc_pass": 0,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801341,
+        "recording_id": 716340,
+        "pulse_number": 9,
+        "onset_time": 1.6946800000000002,
+        "n_spikes": 0,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16555068,
+          "recording_id": 716337,
+          "ex_qc_pass": 0,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022913,
+        "recording_id": 716337,
+        "stim_pulse_id": 5801342,
+        "baseline_id": 16555298,
+        "ex_qc_pass": 0,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801342,
+        "recording_id": 716340,
+        "pulse_number": 10,
+        "onset_time": 1.7446800000000002,
+        "n_spikes": 0,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16555298,
+          "recording_id": 716337,
+          "ex_qc_pass": 0,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    },
+    {
+      "response": {
+        "id": 19022914,
+        "recording_id": 716337,
+        "stim_pulse_id": 5801343,
+        "baseline_id": 16555392,
+        "ex_qc_pass": 0,
+        "in_qc_pass": 0
+      },
+      "stimulus": {
+        "id": 5801343,
+        "recording_id": 716340,
+        "pulse_number": 11,
+        "onset_time": 1.79468,
+        "n_spikes": 0,
+        "first_spike_time": null
+      },
+      "baseline": [
+        {
+          "id": 16555392,
+          "recording_id": 716337,
+          "ex_qc_pass": 0,
+          "in_qc_pass": 0
+        }
+      ],
+      "fit_ids": [],
+      "clamp_mode": "ic"
+    }
+  ],
+  "summary": [
+    {
+      "recording": {
+        "id": 716261,
+        "start_time": "2021-06-09 13:45:36.432000",
+        "stim_name": "Y1_SPulsTrn_20Hz_DA_0",
+        "electrode_id": 33926,
+        "clamp_mode": "vc",
+        "qc_pass": 1
+      },
+      "all_pulses": 12,
+      "fits": 0,
+      "baselines": 12,
+      "ex_qc_pass": 12,
+      "with_spike_time": 12,
+      "no_fit_with_baseline": 12
+    },
+    {
+      "recording": {
+        "id": 716263,
+        "start_time": "2021-06-09 13:45:51.844000",
+        "stim_name": "Y1_SPulsTrn_20Hz_DA_0",
+        "electrode_id": 33926,
+        "clamp_mode": "vc",
+        "qc_pass": 1
+      },
+      "all_pulses": 12,
+      "fits": 0,
+      "baselines": 12,
+      "ex_qc_pass": 12,
+      "with_spike_time": 12,
+      "no_fit_with_baseline": 12
+    },
+    {
+      "recording": {
+        "id": 716265,
+        "start_time": "2021-06-09 13:46:07.295000",
+        "stim_name": "Y1_SPulsTrn_20Hz_DA_0",
+        "electrode_id": 33926,
+        "clamp_mode": "vc",
+        "qc_pass": 1
+      },
+      "all_pulses": 12,
+      "fits": 0,
+      "baselines": 12,
+      "ex_qc_pass": 12,
+      "with_spike_time": 12,
+      "no_fit_with_baseline": 12
+    },
+    {
+      "recording": {
+        "id": 716267,
+        "start_time": "2021-06-09 13:46:22.707000",
+        "stim_name": "Y1_SPulsTrn_20Hz_DA_0",
+        "electrode_id": 33926,
+        "clamp_mode": "vc",
+        "qc_pass": 1
+      },
+      "all_pulses": 12,
+      "fits": 0,
+      "baselines": 12,
+      "ex_qc_pass": 12,
+      "with_spike_time": 12,
+      "no_fit_with_baseline": 12
+    },
+    {
+      "recording": {
+        "id": 716269,
+        "start_time": "2021-06-09 13:46:38.330000",
+        "stim_name": "Y1_SPulsTrn_20Hz_DA_0",
+        "electrode_id": 33926,
+        "clamp_mode": "vc",
+        "qc_pass": 1
+      },
+      "all_pulses": 12,
+      "fits": 0,
+      "baselines": 12,
+      "ex_qc_pass": 12,
+      "with_spike_time": 12,
+      "no_fit_with_baseline": 12
+    },
+    {
+      "recording": {
+        "id": 716271,
+        "start_time": "2021-06-09 13:46:58.704000",
+        "stim_name": "Y1_SPulsTrn_20Hz_DA_0",
+        "electrode_id": 33926,
+        "clamp_mode": "vc",
+        "qc_pass": 1
+      },
+      "all_pulses": 12,
+      "fits": 0,
+      "baselines": 12,
+      "ex_qc_pass": 12,
+      "with_spike_time": 12,
+      "no_fit_with_baseline": 12
+    },
+    {
+      "recording": {
+        "id": 716273,
+        "start_time": "2021-06-09 13:47:14.020000",
+        "stim_name": "Y1_SPulsTrn_20Hz_DA_0",
+        "electrode_id": 33926,
+        "clamp_mode": "vc",
+        "qc_pass": 1
+      },
+      "all_pulses": 12,
+      "fits": 0,
+      "baselines": 12,
+      "ex_qc_pass": 12,
+      "with_spike_time": 12,
+      "no_fit_with_baseline": 12
+    },
+    {
+      "recording": {
+        "id": 716275,
+        "start_time": "2021-06-09 13:47:29.344000",
+        "stim_name": "Y1_SPulsTrn_20Hz_DA_0",
+        "electrode_id": 33926,
+        "clamp_mode": "vc",
+        "qc_pass": 1
+      },
+      "all_pulses": 12,
+      "fits": 0,
+      "baselines": 12,
+      "ex_qc_pass": 12,
+      "with_spike_time": 12,
+      "no_fit_with_baseline": 12
+    },
+    {
+      "recording": {
+        "id": 716277,
+        "start_time": "2021-06-09 13:47:44.751000",
+        "stim_name": "Y1_SPulsTrn_20Hz_DA_0",
+        "electrode_id": 33926,
+        "clamp_mode": "vc",
+        "qc_pass": 1
+      },
+      "all_pulses": 12,
+      "fits": 0,
+      "baselines": 12,
+      "ex_qc_pass": 12,
+      "with_spike_time": 12,
+      "no_fit_with_baseline": 12
+    },
+    {
+      "recording": {
+        "id": 716279,
+        "start_time": "2021-06-09 13:48:00.261000",
+        "stim_name": "Y1_SPulsTrn_20Hz_DA_0",
+        "electrode_id": 33926,
+        "clamp_mode": "vc",
+        "qc_pass": 1
+      },
+      "all_pulses": 12,
+      "fits": 0,
+      "baselines": 12,
+      "ex_qc_pass": 12,
+      "with_spike_time": 12,
+      "no_fit_with_baseline": 12
+    },
+    {
+      "recording": {
+        "id": 716321,
+        "start_time": "2021-06-09 13:49:31.946000",
+        "stim_name": "Y4_SRecovery_50H_DA_0",
+        "electrode_id": 33926,
+        "clamp_mode": "ic",
+        "qc_pass": 1
+      },
+      "all_pulses": 12,
+      "fits": 12,
+      "baselines": 12,
+      "ex_qc_pass": 12,
+      "with_spike_time": 12,
+      "no_fit_with_baseline": 0
+    },
+    {
+      "recording": {
+        "id": 716323,
+        "start_time": "2021-06-09 13:49:47.974000",
+        "stim_name": "Y4_SRecovery_50H_DA_0",
+        "electrode_id": 33926,
+        "clamp_mode": "ic",
+        "qc_pass": 1
+      },
+      "all_pulses": 12,
+      "fits": 12,
+      "baselines": 12,
+      "ex_qc_pass": 12,
+      "with_spike_time": 12,
+      "no_fit_with_baseline": 0
+    },
+    {
+      "recording": {
+        "id": 716325,
+        "start_time": "2021-06-09 13:50:04.261000",
+        "stim_name": "Y4_SRecovery_50H_DA_0",
+        "electrode_id": 33926,
+        "clamp_mode": "ic",
+        "qc_pass": 1
+      },
+      "all_pulses": 12,
+      "fits": 10,
+      "baselines": 12,
+      "ex_qc_pass": 12,
+      "with_spike_time": 10,
+      "no_fit_with_baseline": 2
+    },
+    {
+      "recording": {
+        "id": 716327,
+        "start_time": "2021-06-09 13:50:32.031000",
+        "stim_name": "Y4_SRecovery_50H_DA_0",
+        "electrode_id": 33926,
+        "clamp_mode": "ic",
+        "qc_pass": 1
+      },
+      "all_pulses": 12,
+      "fits": 10,
+      "baselines": 12,
+      "ex_qc_pass": 12,
+      "with_spike_time": 10,
+      "no_fit_with_baseline": 2
+    },
+    {
+      "recording": {
+        "id": 716337,
+        "start_time": "2021-06-09 13:54:53.567000",
+        "stim_name": "X1_PulsTrn_20Hz_DA_0",
+        "electrode_id": 33926,
+        "clamp_mode": "ic",
+        "qc_pass": 0
+      },
+      "all_pulses": 12,
+      "fits": 0,
+      "baselines": 12,
+      "ex_qc_pass": 0,
+      "with_spike_time": 0,
+      "no_fit_with_baseline": 12
+    }
+  ],
+  "new_bytes": 196608
+}

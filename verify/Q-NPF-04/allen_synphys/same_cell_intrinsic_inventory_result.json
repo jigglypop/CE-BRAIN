@@ -1,0 +1,3141 @@
+{
+  "contract_sha256": "d7682975affca1ae2424caef4a2fc3a1308206fd9bc2a35dbc0f9ba9a227b3f0",
+  "remote": {
+    "url": "https://allen-synphys.s3-us-west-2.amazonaws.com/synphys-1574292898.139.nwb",
+    "bytes": 837666824,
+    "etag": "\"d75a9df955a518184274653255f990e1-100\"",
+    "last_modified": "Sat, 04 May 2024 04:45:36 GMT"
+  },
+  "new_bytes": 8388608,
+  "records": [
+    {
+      "path": "/acquisition/timeseries/data_00000_AD2",
+      "sweep": 0,
+      "electrode": "electrode_2",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4099.66100025177
+    },
+    {
+      "path": "/acquisition/timeseries/data_00000_AD8",
+      "sweep": 0,
+      "electrode": "electrode_4",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4099.66100025177
+    },
+    {
+      "path": "/acquisition/timeseries/data_00000_AD9",
+      "sweep": 0,
+      "electrode": "electrode_5",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4099.66100025177
+    },
+    {
+      "path": "/acquisition/timeseries/data_00001_AD2",
+      "sweep": 1,
+      "electrode": "electrode_2",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4115.183000087738
+    },
+    {
+      "path": "/acquisition/timeseries/data_00001_AD8",
+      "sweep": 1,
+      "electrode": "electrode_4",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4115.183000087738
+    },
+    {
+      "path": "/acquisition/timeseries/data_00001_AD9",
+      "sweep": 1,
+      "electrode": "electrode_5",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4115.183000087738
+    },
+    {
+      "path": "/acquisition/timeseries/data_00002_AD2",
+      "sweep": 2,
+      "electrode": "electrode_2",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4130.649000167847
+    },
+    {
+      "path": "/acquisition/timeseries/data_00002_AD8",
+      "sweep": 2,
+      "electrode": "electrode_4",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4130.649000167847
+    },
+    {
+      "path": "/acquisition/timeseries/data_00002_AD9",
+      "sweep": 2,
+      "electrode": "electrode_5",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4130.649000167847
+    },
+    {
+      "path": "/acquisition/timeseries/data_00003_AD2",
+      "sweep": 3,
+      "electrode": "electrode_2",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4146.187000274658
+    },
+    {
+      "path": "/acquisition/timeseries/data_00003_AD8",
+      "sweep": 3,
+      "electrode": "electrode_4",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4146.187000274658
+    },
+    {
+      "path": "/acquisition/timeseries/data_00003_AD9",
+      "sweep": 3,
+      "electrode": "electrode_5",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4146.187000274658
+    },
+    {
+      "path": "/acquisition/timeseries/data_00004_AD2",
+      "sweep": 4,
+      "electrode": "electrode_2",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4161.845000267029
+    },
+    {
+      "path": "/acquisition/timeseries/data_00004_AD8",
+      "sweep": 4,
+      "electrode": "electrode_4",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4161.845000267029
+    },
+    {
+      "path": "/acquisition/timeseries/data_00004_AD9",
+      "sweep": 4,
+      "electrode": "electrode_5",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4161.845000267029
+    },
+    {
+      "path": "/acquisition/timeseries/data_00005_AD2",
+      "sweep": 5,
+      "electrode": "electrode_2",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4177.409999847412
+    },
+    {
+      "path": "/acquisition/timeseries/data_00005_AD8",
+      "sweep": 5,
+      "electrode": "electrode_4",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4177.409999847412
+    },
+    {
+      "path": "/acquisition/timeseries/data_00005_AD9",
+      "sweep": 5,
+      "electrode": "electrode_5",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4177.409999847412
+    },
+    {
+      "path": "/acquisition/timeseries/data_00006_AD2",
+      "sweep": 6,
+      "electrode": "electrode_2",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4192.912000179291
+    },
+    {
+      "path": "/acquisition/timeseries/data_00006_AD8",
+      "sweep": 6,
+      "electrode": "electrode_4",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4192.912000179291
+    },
+    {
+      "path": "/acquisition/timeseries/data_00006_AD9",
+      "sweep": 6,
+      "electrode": "electrode_5",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "unit": "A",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4192.912000179291
+    },
+    {
+      "path": "/acquisition/timeseries/data_00007_AD2",
+      "sweep": 7,
+      "electrode": "electrode_2",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4261.302000045776
+    },
+    {
+      "path": "/acquisition/timeseries/data_00007_AD8",
+      "sweep": 7,
+      "electrode": "electrode_4",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4261.302000045776
+    },
+    {
+      "path": "/acquisition/timeseries/data_00007_AD9",
+      "sweep": 7,
+      "electrode": "electrode_5",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4261.302000045776
+    },
+    {
+      "path": "/acquisition/timeseries/data_00008_AD2",
+      "sweep": 8,
+      "electrode": "electrode_2",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4269.634000301361
+    },
+    {
+      "path": "/acquisition/timeseries/data_00008_AD8",
+      "sweep": 8,
+      "electrode": "electrode_4",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4269.634000301361
+    },
+    {
+      "path": "/acquisition/timeseries/data_00008_AD9",
+      "sweep": 8,
+      "electrode": "electrode_5",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4269.634000301361
+    },
+    {
+      "path": "/acquisition/timeseries/data_00009_AD2",
+      "sweep": 9,
+      "electrode": "electrode_2",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4277.774000167847
+    },
+    {
+      "path": "/acquisition/timeseries/data_00009_AD8",
+      "sweep": 9,
+      "electrode": "electrode_4",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4277.774000167847
+    },
+    {
+      "path": "/acquisition/timeseries/data_00009_AD9",
+      "sweep": 9,
+      "electrode": "electrode_5",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4277.774000167847
+    },
+    {
+      "path": "/acquisition/timeseries/data_00010_AD2",
+      "sweep": 10,
+      "electrode": "electrode_2",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4285.884000301361
+    },
+    {
+      "path": "/acquisition/timeseries/data_00010_AD8",
+      "sweep": 10,
+      "electrode": "electrode_4",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4285.884000301361
+    },
+    {
+      "path": "/acquisition/timeseries/data_00010_AD9",
+      "sweep": 10,
+      "electrode": "electrode_5",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4285.884000301361
+    },
+    {
+      "path": "/acquisition/timeseries/data_00011_AD2",
+      "sweep": 11,
+      "electrode": "electrode_2",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4294.0609998703
+    },
+    {
+      "path": "/acquisition/timeseries/data_00011_AD8",
+      "sweep": 11,
+      "electrode": "electrode_4",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4294.0609998703
+    },
+    {
+      "path": "/acquisition/timeseries/data_00011_AD9",
+      "sweep": 11,
+      "electrode": "electrode_5",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4294.0609998703
+    },
+    {
+      "path": "/acquisition/timeseries/data_00012_AD2",
+      "sweep": 12,
+      "electrode": "electrode_2",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4302.204999923706
+    },
+    {
+      "path": "/acquisition/timeseries/data_00012_AD8",
+      "sweep": 12,
+      "electrode": "electrode_4",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4302.204999923706
+    },
+    {
+      "path": "/acquisition/timeseries/data_00012_AD9",
+      "sweep": 12,
+      "electrode": "electrode_5",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4302.204999923706
+    },
+    {
+      "path": "/acquisition/timeseries/data_00013_AD2",
+      "sweep": 13,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4317.485000133514
+    },
+    {
+      "path": "/acquisition/timeseries/data_00013_AD8",
+      "sweep": 13,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4317.485000133514
+    },
+    {
+      "path": "/acquisition/timeseries/data_00013_AD9",
+      "sweep": 13,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4317.485000133514
+    },
+    {
+      "path": "/acquisition/timeseries/data_00014_AD2",
+      "sweep": 14,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4318.763999938965
+    },
+    {
+      "path": "/acquisition/timeseries/data_00014_AD8",
+      "sweep": 14,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4318.763999938965
+    },
+    {
+      "path": "/acquisition/timeseries/data_00014_AD9",
+      "sweep": 14,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4318.763999938965
+    },
+    {
+      "path": "/acquisition/timeseries/data_00015_AD2",
+      "sweep": 15,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4319.938000202179
+    },
+    {
+      "path": "/acquisition/timeseries/data_00015_AD8",
+      "sweep": 15,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4319.938000202179
+    },
+    {
+      "path": "/acquisition/timeseries/data_00015_AD9",
+      "sweep": 15,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4319.938000202179
+    },
+    {
+      "path": "/acquisition/timeseries/data_00016_AD2",
+      "sweep": 16,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4321.125999927521
+    },
+    {
+      "path": "/acquisition/timeseries/data_00016_AD8",
+      "sweep": 16,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4321.125999927521
+    },
+    {
+      "path": "/acquisition/timeseries/data_00016_AD9",
+      "sweep": 16,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4321.125999927521
+    },
+    {
+      "path": "/acquisition/timeseries/data_00017_AD2",
+      "sweep": 17,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4322.399000167847
+    },
+    {
+      "path": "/acquisition/timeseries/data_00017_AD8",
+      "sweep": 17,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4322.399000167847
+    },
+    {
+      "path": "/acquisition/timeseries/data_00017_AD9",
+      "sweep": 17,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4322.399000167847
+    },
+    {
+      "path": "/acquisition/timeseries/data_00018_AD2",
+      "sweep": 18,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4323.662000179291
+    },
+    {
+      "path": "/acquisition/timeseries/data_00018_AD8",
+      "sweep": 18,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4323.662000179291
+    },
+    {
+      "path": "/acquisition/timeseries/data_00018_AD9",
+      "sweep": 18,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4323.662000179291
+    },
+    {
+      "path": "/acquisition/timeseries/data_00019_AD2",
+      "sweep": 19,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4324.938000202179
+    },
+    {
+      "path": "/acquisition/timeseries/data_00019_AD8",
+      "sweep": 19,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4324.938000202179
+    },
+    {
+      "path": "/acquisition/timeseries/data_00019_AD9",
+      "sweep": 19,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4324.938000202179
+    },
+    {
+      "path": "/acquisition/timeseries/data_00020_AD2",
+      "sweep": 20,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4326.142000198364
+    },
+    {
+      "path": "/acquisition/timeseries/data_00020_AD8",
+      "sweep": 20,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4326.142000198364
+    },
+    {
+      "path": "/acquisition/timeseries/data_00020_AD9",
+      "sweep": 20,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4326.142000198364
+    },
+    {
+      "path": "/acquisition/timeseries/data_00021_AD2",
+      "sweep": 21,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4327.353000164032
+    },
+    {
+      "path": "/acquisition/timeseries/data_00021_AD8",
+      "sweep": 21,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4327.353000164032
+    },
+    {
+      "path": "/acquisition/timeseries/data_00021_AD9",
+      "sweep": 21,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4327.353000164032
+    },
+    {
+      "path": "/acquisition/timeseries/data_00022_AD2",
+      "sweep": 22,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4328.648000240326
+    },
+    {
+      "path": "/acquisition/timeseries/data_00022_AD8",
+      "sweep": 22,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4328.648000240326
+    },
+    {
+      "path": "/acquisition/timeseries/data_00022_AD9",
+      "sweep": 22,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4328.648000240326
+    },
+    {
+      "path": "/acquisition/timeseries/data_00023_AD2",
+      "sweep": 23,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4329.921000003815
+    },
+    {
+      "path": "/acquisition/timeseries/data_00023_AD8",
+      "sweep": 23,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4329.921000003815
+    },
+    {
+      "path": "/acquisition/timeseries/data_00023_AD9",
+      "sweep": 23,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4329.921000003815
+    },
+    {
+      "path": "/acquisition/timeseries/data_00024_AD2",
+      "sweep": 24,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4331.218999862671
+    },
+    {
+      "path": "/acquisition/timeseries/data_00024_AD8",
+      "sweep": 24,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4331.218999862671
+    },
+    {
+      "path": "/acquisition/timeseries/data_00024_AD9",
+      "sweep": 24,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4331.218999862671
+    },
+    {
+      "path": "/acquisition/timeseries/data_00025_AD2",
+      "sweep": 25,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4332.5609998703
+    },
+    {
+      "path": "/acquisition/timeseries/data_00025_AD8",
+      "sweep": 25,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4332.5609998703
+    },
+    {
+      "path": "/acquisition/timeseries/data_00025_AD9",
+      "sweep": 25,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4332.5609998703
+    },
+    {
+      "path": "/acquisition/timeseries/data_00026_AD2",
+      "sweep": 26,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4333.914000034332
+    },
+    {
+      "path": "/acquisition/timeseries/data_00026_AD8",
+      "sweep": 26,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4333.914000034332
+    },
+    {
+      "path": "/acquisition/timeseries/data_00026_AD9",
+      "sweep": 26,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4333.914000034332
+    },
+    {
+      "path": "/acquisition/timeseries/data_00027_AD2",
+      "sweep": 27,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4335.25
+    },
+    {
+      "path": "/acquisition/timeseries/data_00027_AD8",
+      "sweep": 27,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4335.25
+    },
+    {
+      "path": "/acquisition/timeseries/data_00027_AD9",
+      "sweep": 27,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4335.25
+    },
+    {
+      "path": "/acquisition/timeseries/data_00028_AD2",
+      "sweep": 28,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4336.557000160217
+    },
+    {
+      "path": "/acquisition/timeseries/data_00028_AD8",
+      "sweep": 28,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4336.557000160217
+    },
+    {
+      "path": "/acquisition/timeseries/data_00028_AD9",
+      "sweep": 28,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4336.557000160217
+    },
+    {
+      "path": "/acquisition/timeseries/data_00029_AD2",
+      "sweep": 29,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4337.856999874115
+    },
+    {
+      "path": "/acquisition/timeseries/data_00029_AD8",
+      "sweep": 29,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4337.856999874115
+    },
+    {
+      "path": "/acquisition/timeseries/data_00029_AD9",
+      "sweep": 29,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4337.856999874115
+    },
+    {
+      "path": "/acquisition/timeseries/data_00030_AD2",
+      "sweep": 30,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4339.205999851227
+    },
+    {
+      "path": "/acquisition/timeseries/data_00030_AD8",
+      "sweep": 30,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4339.205999851227
+    },
+    {
+      "path": "/acquisition/timeseries/data_00030_AD9",
+      "sweep": 30,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4339.205999851227
+    },
+    {
+      "path": "/acquisition/timeseries/data_00031_AD2",
+      "sweep": 31,
+      "electrode": "electrode_2",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4340.488999843597
+    },
+    {
+      "path": "/acquisition/timeseries/data_00031_AD8",
+      "sweep": 31,
+      "electrode": "electrode_4",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4340.488999843597
+    },
+    {
+      "path": "/acquisition/timeseries/data_00031_AD9",
+      "sweep": 31,
+      "electrode": "electrode_5",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 12650,
+      "rate": 100000.0,
+      "start_s": 4340.488999843597
+    },
+    {
+      "path": "/acquisition/timeseries/data_00032_AD2",
+      "sweep": 32,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4360.398000240326
+    },
+    {
+      "path": "/acquisition/timeseries/data_00032_AD8",
+      "sweep": 32,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4360.398000240326
+    },
+    {
+      "path": "/acquisition/timeseries/data_00032_AD9",
+      "sweep": 32,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4360.398000240326
+    },
+    {
+      "path": "/acquisition/timeseries/data_00033_AD2",
+      "sweep": 33,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 415902,
+      "rate": 100000.0,
+      "start_s": 4376.369999885559
+    },
+    {
+      "path": "/acquisition/timeseries/data_00033_AD8",
+      "sweep": 33,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 415902,
+      "rate": 100000.0,
+      "start_s": 4376.369999885559
+    },
+    {
+      "path": "/acquisition/timeseries/data_00033_AD9",
+      "sweep": 33,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 415902,
+      "rate": 100000.0,
+      "start_s": 4376.369999885559
+    },
+    {
+      "path": "/acquisition/timeseries/data_00034_AD2",
+      "sweep": 34,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 490902,
+      "rate": 100000.0,
+      "start_s": 4392.507999897003
+    },
+    {
+      "path": "/acquisition/timeseries/data_00034_AD8",
+      "sweep": 34,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 490902,
+      "rate": 100000.0,
+      "start_s": 4392.507999897003
+    },
+    {
+      "path": "/acquisition/timeseries/data_00034_AD9",
+      "sweep": 34,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 490902,
+      "rate": 100000.0,
+      "start_s": 4392.507999897003
+    },
+    {
+      "path": "/acquisition/timeseries/data_00035_AD2",
+      "sweep": 35,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 534752,
+      "rate": 100000.0,
+      "start_s": 4408.997000217438
+    },
+    {
+      "path": "/acquisition/timeseries/data_00035_AD8",
+      "sweep": 35,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 534752,
+      "rate": 100000.0,
+      "start_s": 4408.997000217438
+    },
+    {
+      "path": "/acquisition/timeseries/data_00035_AD9",
+      "sweep": 35,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 534752,
+      "rate": 100000.0,
+      "start_s": 4408.997000217438
+    },
+    {
+      "path": "/acquisition/timeseries/data_00036_AD2",
+      "sweep": 36,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 728601,
+      "rate": 100000.0,
+      "start_s": 4425.97200012207
+    },
+    {
+      "path": "/acquisition/timeseries/data_00036_AD8",
+      "sweep": 36,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 728601,
+      "rate": 100000.0,
+      "start_s": 4425.97200012207
+    },
+    {
+      "path": "/acquisition/timeseries/data_00036_AD9",
+      "sweep": 36,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 728601,
+      "rate": 100000.0,
+      "start_s": 4425.97200012207
+    },
+    {
+      "path": "/acquisition/timeseries/data_00037_AD2",
+      "sweep": 37,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4445.881000041962
+    },
+    {
+      "path": "/acquisition/timeseries/data_00037_AD8",
+      "sweep": 37,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4445.881000041962
+    },
+    {
+      "path": "/acquisition/timeseries/data_00037_AD9",
+      "sweep": 37,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4445.881000041962
+    },
+    {
+      "path": "/acquisition/timeseries/data_00038_AD2",
+      "sweep": 38,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4462.139999866486
+    },
+    {
+      "path": "/acquisition/timeseries/data_00038_AD8",
+      "sweep": 38,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4462.139999866486
+    },
+    {
+      "path": "/acquisition/timeseries/data_00038_AD9",
+      "sweep": 38,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4462.139999866486
+    },
+    {
+      "path": "/acquisition/timeseries/data_00039_AD2",
+      "sweep": 39,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4478.493000030518
+    },
+    {
+      "path": "/acquisition/timeseries/data_00039_AD8",
+      "sweep": 39,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4478.493000030518
+    },
+    {
+      "path": "/acquisition/timeseries/data_00039_AD9",
+      "sweep": 39,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4478.493000030518
+    },
+    {
+      "path": "/acquisition/timeseries/data_00040_AD2",
+      "sweep": 40,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4495.300000190735
+    },
+    {
+      "path": "/acquisition/timeseries/data_00040_AD8",
+      "sweep": 40,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4495.300000190735
+    },
+    {
+      "path": "/acquisition/timeseries/data_00040_AD9",
+      "sweep": 40,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4495.300000190735
+    },
+    {
+      "path": "/acquisition/timeseries/data_00041_AD2",
+      "sweep": 41,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4515.320000171661
+    },
+    {
+      "path": "/acquisition/timeseries/data_00041_AD8",
+      "sweep": 41,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4515.320000171661
+    },
+    {
+      "path": "/acquisition/timeseries/data_00041_AD9",
+      "sweep": 41,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4515.320000171661
+    },
+    {
+      "path": "/acquisition/timeseries/data_00042_AD2",
+      "sweep": 42,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4531.450000286102
+    },
+    {
+      "path": "/acquisition/timeseries/data_00042_AD8",
+      "sweep": 42,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4531.450000286102
+    },
+    {
+      "path": "/acquisition/timeseries/data_00042_AD9",
+      "sweep": 42,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4531.450000286102
+    },
+    {
+      "path": "/acquisition/timeseries/data_00043_AD2",
+      "sweep": 43,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4547.967000007629
+    },
+    {
+      "path": "/acquisition/timeseries/data_00043_AD8",
+      "sweep": 43,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4547.967000007629
+    },
+    {
+      "path": "/acquisition/timeseries/data_00043_AD9",
+      "sweep": 43,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4547.967000007629
+    },
+    {
+      "path": "/acquisition/timeseries/data_00044_AD2",
+      "sweep": 44,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4565.034999847412
+    },
+    {
+      "path": "/acquisition/timeseries/data_00044_AD8",
+      "sweep": 44,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4565.034999847412
+    },
+    {
+      "path": "/acquisition/timeseries/data_00044_AD9",
+      "sweep": 44,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4565.034999847412
+    },
+    {
+      "path": "/acquisition/timeseries/data_00045_AD2",
+      "sweep": 45,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4584.927000045776
+    },
+    {
+      "path": "/acquisition/timeseries/data_00045_AD8",
+      "sweep": 45,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4584.927000045776
+    },
+    {
+      "path": "/acquisition/timeseries/data_00045_AD9",
+      "sweep": 45,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4584.927000045776
+    },
+    {
+      "path": "/acquisition/timeseries/data_00046_AD2",
+      "sweep": 46,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4601.00400018692
+    },
+    {
+      "path": "/acquisition/timeseries/data_00046_AD8",
+      "sweep": 46,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4601.00400018692
+    },
+    {
+      "path": "/acquisition/timeseries/data_00046_AD9",
+      "sweep": 46,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4601.00400018692
+    },
+    {
+      "path": "/acquisition/timeseries/data_00047_AD2",
+      "sweep": 47,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4617.547999858856
+    },
+    {
+      "path": "/acquisition/timeseries/data_00047_AD8",
+      "sweep": 47,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4617.547999858856
+    },
+    {
+      "path": "/acquisition/timeseries/data_00047_AD9",
+      "sweep": 47,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4617.547999858856
+    },
+    {
+      "path": "/acquisition/timeseries/data_00048_AD2",
+      "sweep": 48,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4634.5160002708435
+    },
+    {
+      "path": "/acquisition/timeseries/data_00048_AD8",
+      "sweep": 48,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4634.5160002708435
+    },
+    {
+      "path": "/acquisition/timeseries/data_00048_AD9",
+      "sweep": 48,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4634.5160002708435
+    },
+    {
+      "path": "/acquisition/timeseries/data_00049_AD2",
+      "sweep": 49,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4654.580999851227
+    },
+    {
+      "path": "/acquisition/timeseries/data_00049_AD8",
+      "sweep": 49,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4654.580999851227
+    },
+    {
+      "path": "/acquisition/timeseries/data_00049_AD9",
+      "sweep": 49,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4654.580999851227
+    },
+    {
+      "path": "/acquisition/timeseries/data_00050_AD2",
+      "sweep": 50,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4670.716000080109
+    },
+    {
+      "path": "/acquisition/timeseries/data_00050_AD8",
+      "sweep": 50,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4670.716000080109
+    },
+    {
+      "path": "/acquisition/timeseries/data_00050_AD9",
+      "sweep": 50,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4670.716000080109
+    },
+    {
+      "path": "/acquisition/timeseries/data_00051_AD2",
+      "sweep": 51,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4687.178999900818
+    },
+    {
+      "path": "/acquisition/timeseries/data_00051_AD8",
+      "sweep": 51,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4687.178999900818
+    },
+    {
+      "path": "/acquisition/timeseries/data_00051_AD9",
+      "sweep": 51,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4687.178999900818
+    },
+    {
+      "path": "/acquisition/timeseries/data_00052_AD2",
+      "sweep": 52,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4704.009000301361
+    },
+    {
+      "path": "/acquisition/timeseries/data_00052_AD8",
+      "sweep": 52,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4704.009000301361
+    },
+    {
+      "path": "/acquisition/timeseries/data_00052_AD9",
+      "sweep": 52,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4704.009000301361
+    },
+    {
+      "path": "/acquisition/timeseries/data_00053_AD2",
+      "sweep": 53,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4723.985000133514
+    },
+    {
+      "path": "/acquisition/timeseries/data_00053_AD8",
+      "sweep": 53,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4723.985000133514
+    },
+    {
+      "path": "/acquisition/timeseries/data_00053_AD9",
+      "sweep": 53,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4723.985000133514
+    },
+    {
+      "path": "/acquisition/timeseries/data_00054_AD2",
+      "sweep": 54,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4739.983000278473
+    },
+    {
+      "path": "/acquisition/timeseries/data_00054_AD8",
+      "sweep": 54,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4739.983000278473
+    },
+    {
+      "path": "/acquisition/timeseries/data_00054_AD9",
+      "sweep": 54,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4739.983000278473
+    },
+    {
+      "path": "/acquisition/timeseries/data_00055_AD2",
+      "sweep": 55,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4756.171999931335
+    },
+    {
+      "path": "/acquisition/timeseries/data_00055_AD8",
+      "sweep": 55,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4756.171999931335
+    },
+    {
+      "path": "/acquisition/timeseries/data_00055_AD9",
+      "sweep": 55,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4756.171999931335
+    },
+    {
+      "path": "/acquisition/timeseries/data_00056_AD2",
+      "sweep": 56,
+      "electrode": "electrode_2",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4772.296999931335
+    },
+    {
+      "path": "/acquisition/timeseries/data_00056_AD8",
+      "sweep": 56,
+      "electrode": "electrode_4",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4772.296999931335
+    },
+    {
+      "path": "/acquisition/timeseries/data_00056_AD9",
+      "sweep": 56,
+      "electrode": "electrode_5",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "unit": "V",
+      "samples": 378402,
+      "rate": 100000.0,
+      "start_s": 4772.296999931335
+    },
+    {
+      "path": "/acquisition/timeseries/data_00057_AD2",
+      "sweep": 57,
+      "electrode": "electrode_2",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "unit": "V",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4789.030000209808
+    },
+    {
+      "path": "/acquisition/timeseries/data_00057_AD8",
+      "sweep": 57,
+      "electrode": "electrode_4",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "unit": "V",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4789.030000209808
+    },
+    {
+      "path": "/acquisition/timeseries/data_00057_AD9",
+      "sweep": 57,
+      "electrode": "electrode_5",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "unit": "V",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4789.030000209808
+    },
+    {
+      "path": "/acquisition/timeseries/data_00058_AD2",
+      "sweep": 58,
+      "electrode": "electrode_2",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "unit": "V",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4804.578000068665
+    },
+    {
+      "path": "/acquisition/timeseries/data_00058_AD8",
+      "sweep": 58,
+      "electrode": "electrode_4",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "unit": "V",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4804.578000068665
+    },
+    {
+      "path": "/acquisition/timeseries/data_00058_AD9",
+      "sweep": 58,
+      "electrode": "electrode_5",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "unit": "V",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4804.578000068665
+    },
+    {
+      "path": "/acquisition/timeseries/data_00059_AD2",
+      "sweep": 59,
+      "electrode": "electrode_2",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "unit": "V",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4820.0609998703
+    },
+    {
+      "path": "/acquisition/timeseries/data_00059_AD8",
+      "sweep": 59,
+      "electrode": "electrode_4",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "unit": "V",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4820.0609998703
+    },
+    {
+      "path": "/acquisition/timeseries/data_00059_AD9",
+      "sweep": 59,
+      "electrode": "electrode_5",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "unit": "V",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4820.0609998703
+    },
+    {
+      "path": "/acquisition/timeseries/data_00060_AD2",
+      "sweep": 60,
+      "electrode": "electrode_2",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "unit": "V",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4835.66100025177
+    },
+    {
+      "path": "/acquisition/timeseries/data_00060_AD8",
+      "sweep": 60,
+      "electrode": "electrode_4",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "unit": "V",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4835.66100025177
+    },
+    {
+      "path": "/acquisition/timeseries/data_00060_AD9",
+      "sweep": 60,
+      "electrode": "electrode_5",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "unit": "V",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4835.66100025177
+    },
+    {
+      "path": "/acquisition/timeseries/data_00061_AD2",
+      "sweep": 61,
+      "electrode": "electrode_2",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "unit": "V",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4851.1449999809265
+    },
+    {
+      "path": "/acquisition/timeseries/data_00061_AD8",
+      "sweep": 61,
+      "electrode": "electrode_4",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "unit": "V",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4851.1449999809265
+    },
+    {
+      "path": "/acquisition/timeseries/data_00061_AD9",
+      "sweep": 61,
+      "electrode": "electrode_5",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "unit": "V",
+      "samples": 505902,
+      "rate": 100000.0,
+      "start_s": 4851.1449999809265
+    },
+    {
+      "path": "/acquisition/timeseries/data_00062_AD2",
+      "sweep": 62,
+      "electrode": "electrode_2",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "unit": "V",
+      "samples": 385902,
+      "rate": 100000.0,
+      "start_s": 4867.986000061035
+    },
+    {
+      "path": "/acquisition/timeseries/data_00062_AD8",
+      "sweep": 62,
+      "electrode": "electrode_4",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "unit": "V",
+      "samples": 385902,
+      "rate": 100000.0,
+      "start_s": 4867.986000061035
+    },
+    {
+      "path": "/acquisition/timeseries/data_00062_AD9",
+      "sweep": 62,
+      "electrode": "electrode_5",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "unit": "V",
+      "samples": 385902,
+      "rate": 100000.0,
+      "start_s": 4867.986000061035
+    },
+    {
+      "path": "/acquisition/timeseries/data_00063_AD2",
+      "sweep": 63,
+      "electrode": "electrode_2",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "unit": "V",
+      "samples": 385902,
+      "rate": 100000.0,
+      "start_s": 4883.563000202179
+    },
+    {
+      "path": "/acquisition/timeseries/data_00063_AD8",
+      "sweep": 63,
+      "electrode": "electrode_4",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "unit": "V",
+      "samples": 385902,
+      "rate": 100000.0,
+      "start_s": 4883.563000202179
+    },
+    {
+      "path": "/acquisition/timeseries/data_00063_AD9",
+      "sweep": 63,
+      "electrode": "electrode_5",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "unit": "V",
+      "samples": 385902,
+      "rate": 100000.0,
+      "start_s": 4883.563000202179
+    },
+    {
+      "path": "/acquisition/timeseries/data_00064_AD2",
+      "sweep": 64,
+      "electrode": "electrode_2",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "unit": "V",
+      "samples": 385902,
+      "rate": 100000.0,
+      "start_s": 4898.9980001449585
+    },
+    {
+      "path": "/acquisition/timeseries/data_00064_AD8",
+      "sweep": 64,
+      "electrode": "electrode_4",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "unit": "V",
+      "samples": 385902,
+      "rate": 100000.0,
+      "start_s": 4898.9980001449585
+    },
+    {
+      "path": "/acquisition/timeseries/data_00064_AD9",
+      "sweep": 64,
+      "electrode": "electrode_5",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "unit": "V",
+      "samples": 385902,
+      "rate": 100000.0,
+      "start_s": 4898.9980001449585
+    },
+    {
+      "path": "/acquisition/timeseries/data_00065_AD2",
+      "sweep": 65,
+      "electrode": "electrode_2",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "unit": "V",
+      "samples": 385902,
+      "rate": 100000.0,
+      "start_s": 4914.625999927521
+    },
+    {
+      "path": "/acquisition/timeseries/data_00065_AD8",
+      "sweep": 65,
+      "electrode": "electrode_4",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "unit": "V",
+      "samples": 385902,
+      "rate": 100000.0,
+      "start_s": 4914.625999927521
+    },
+    {
+      "path": "/acquisition/timeseries/data_00065_AD9",
+      "sweep": 65,
+      "electrode": "electrode_5",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "unit": "V",
+      "samples": 385902,
+      "rate": 100000.0,
+      "start_s": 4914.625999927521
+    },
+    {
+      "path": "/acquisition/timeseries/data_00066_AD2",
+      "sweep": 66,
+      "electrode": "electrode_2",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "unit": "V",
+      "samples": 385902,
+      "rate": 100000.0,
+      "start_s": 4930.0160002708435
+    },
+    {
+      "path": "/acquisition/timeseries/data_00066_AD8",
+      "sweep": 66,
+      "electrode": "electrode_4",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "unit": "V",
+      "samples": 385902,
+      "rate": 100000.0,
+      "start_s": 4930.0160002708435
+    },
+    {
+      "path": "/acquisition/timeseries/data_00066_AD9",
+      "sweep": 66,
+      "electrode": "electrode_5",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "unit": "V",
+      "samples": 385902,
+      "rate": 100000.0,
+      "start_s": 4930.0160002708435
+    },
+    {
+      "path": "/acquisition/timeseries/data_00067_AD2",
+      "sweep": 67,
+      "electrode": "electrode_2",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "unit": "V",
+      "samples": 370902,
+      "rate": 100000.0,
+      "start_s": 4946.165999889374
+    },
+    {
+      "path": "/acquisition/timeseries/data_00067_AD8",
+      "sweep": 67,
+      "electrode": "electrode_4",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "unit": "V",
+      "samples": 370902,
+      "rate": 100000.0,
+      "start_s": 4946.165999889374
+    },
+    {
+      "path": "/acquisition/timeseries/data_00067_AD9",
+      "sweep": 67,
+      "electrode": "electrode_5",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "unit": "V",
+      "samples": 370902,
+      "rate": 100000.0,
+      "start_s": 4946.165999889374
+    },
+    {
+      "path": "/acquisition/timeseries/data_00068_AD2",
+      "sweep": 68,
+      "electrode": "electrode_2",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "unit": "V",
+      "samples": 370902,
+      "rate": 100000.0,
+      "start_s": 4961.718999862671
+    },
+    {
+      "path": "/acquisition/timeseries/data_00068_AD8",
+      "sweep": 68,
+      "electrode": "electrode_4",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "unit": "V",
+      "samples": 370902,
+      "rate": 100000.0,
+      "start_s": 4961.718999862671
+    },
+    {
+      "path": "/acquisition/timeseries/data_00068_AD9",
+      "sweep": 68,
+      "electrode": "electrode_5",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "unit": "V",
+      "samples": 370902,
+      "rate": 100000.0,
+      "start_s": 4961.718999862671
+    },
+    {
+      "path": "/acquisition/timeseries/data_00069_AD2",
+      "sweep": 69,
+      "electrode": "electrode_2",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "unit": "V",
+      "samples": 370902,
+      "rate": 100000.0,
+      "start_s": 4977.132999897003
+    },
+    {
+      "path": "/acquisition/timeseries/data_00069_AD8",
+      "sweep": 69,
+      "electrode": "electrode_4",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "unit": "V",
+      "samples": 370902,
+      "rate": 100000.0,
+      "start_s": 4977.132999897003
+    },
+    {
+      "path": "/acquisition/timeseries/data_00069_AD9",
+      "sweep": 69,
+      "electrode": "electrode_5",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "unit": "V",
+      "samples": 370902,
+      "rate": 100000.0,
+      "start_s": 4977.132999897003
+    },
+    {
+      "path": "/acquisition/timeseries/data_00070_AD2",
+      "sweep": 70,
+      "electrode": "electrode_2",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "unit": "V",
+      "samples": 370902,
+      "rate": 100000.0,
+      "start_s": 4992.490000247955
+    },
+    {
+      "path": "/acquisition/timeseries/data_00070_AD8",
+      "sweep": 70,
+      "electrode": "electrode_4",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "unit": "V",
+      "samples": 370902,
+      "rate": 100000.0,
+      "start_s": 4992.490000247955
+    },
+    {
+      "path": "/acquisition/timeseries/data_00070_AD9",
+      "sweep": 70,
+      "electrode": "electrode_5",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "unit": "V",
+      "samples": 370902,
+      "rate": 100000.0,
+      "start_s": 4992.490000247955
+    },
+    {
+      "path": "/acquisition/timeseries/data_00071_AD2",
+      "sweep": 71,
+      "electrode": "electrode_2",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "unit": "V",
+      "samples": 370902,
+      "rate": 100000.0,
+      "start_s": 5007.926000118256
+    },
+    {
+      "path": "/acquisition/timeseries/data_00071_AD8",
+      "sweep": 71,
+      "electrode": "electrode_4",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "unit": "V",
+      "samples": 370902,
+      "rate": 100000.0,
+      "start_s": 5007.926000118256
+    },
+    {
+      "path": "/acquisition/timeseries/data_00071_AD9",
+      "sweep": 71,
+      "electrode": "electrode_5",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "unit": "V",
+      "samples": 370902,
+      "rate": 100000.0,
+      "start_s": 5007.926000118256
+    },
+    {
+      "path": "/acquisition/timeseries/data_00072_AD2",
+      "sweep": 72,
+      "electrode": "electrode_2",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "unit": "V",
+      "samples": 655902,
+      "rate": 100000.0,
+      "start_s": 5024.37900018692
+    },
+    {
+      "path": "/acquisition/timeseries/data_00072_AD8",
+      "sweep": 72,
+      "electrode": "electrode_4",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "unit": "V",
+      "samples": 655902,
+      "rate": 100000.0,
+      "start_s": 5024.37900018692
+    },
+    {
+      "path": "/acquisition/timeseries/data_00072_AD9",
+      "sweep": 72,
+      "electrode": "electrode_5",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "unit": "V",
+      "samples": 655902,
+      "rate": 100000.0,
+      "start_s": 5024.37900018692
+    },
+    {
+      "path": "/acquisition/timeseries/data_00073_AD2",
+      "sweep": 73,
+      "electrode": "electrode_2",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "unit": "V",
+      "samples": 655902,
+      "rate": 100000.0,
+      "start_s": 5039.860000133514
+    },
+    {
+      "path": "/acquisition/timeseries/data_00073_AD8",
+      "sweep": 73,
+      "electrode": "electrode_4",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "unit": "V",
+      "samples": 655902,
+      "rate": 100000.0,
+      "start_s": 5039.860000133514
+    },
+    {
+      "path": "/acquisition/timeseries/data_00073_AD9",
+      "sweep": 73,
+      "electrode": "electrode_5",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "unit": "V",
+      "samples": 655902,
+      "rate": 100000.0,
+      "start_s": 5039.860000133514
+    },
+    {
+      "path": "/acquisition/timeseries/data_00074_AD2",
+      "sweep": 74,
+      "electrode": "electrode_2",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "unit": "V",
+      "samples": 655902,
+      "rate": 100000.0,
+      "start_s": 5055.447000026703
+    },
+    {
+      "path": "/acquisition/timeseries/data_00074_AD8",
+      "sweep": 74,
+      "electrode": "electrode_4",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "unit": "V",
+      "samples": 655902,
+      "rate": 100000.0,
+      "start_s": 5055.447000026703
+    },
+    {
+      "path": "/acquisition/timeseries/data_00074_AD9",
+      "sweep": 74,
+      "electrode": "electrode_5",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "unit": "V",
+      "samples": 655902,
+      "rate": 100000.0,
+      "start_s": 5055.447000026703
+    },
+    {
+      "path": "/acquisition/timeseries/data_00075_AD2",
+      "sweep": 75,
+      "electrode": "electrode_2",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "unit": "V",
+      "samples": 655902,
+      "rate": 100000.0,
+      "start_s": 5070.994999885559
+    },
+    {
+      "path": "/acquisition/timeseries/data_00075_AD8",
+      "sweep": 75,
+      "electrode": "electrode_4",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "unit": "V",
+      "samples": 655902,
+      "rate": 100000.0,
+      "start_s": 5070.994999885559
+    },
+    {
+      "path": "/acquisition/timeseries/data_00075_AD9",
+      "sweep": 75,
+      "electrode": "electrode_5",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "unit": "V",
+      "samples": 655902,
+      "rate": 100000.0,
+      "start_s": 5070.994999885559
+    },
+    {
+      "path": "/acquisition/timeseries/data_00076_AD2",
+      "sweep": 76,
+      "electrode": "electrode_2",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "unit": "V",
+      "samples": 655902,
+      "rate": 100000.0,
+      "start_s": 5086.549000263214
+    },
+    {
+      "path": "/acquisition/timeseries/data_00076_AD8",
+      "sweep": 76,
+      "electrode": "electrode_4",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "unit": "V",
+      "samples": 655902,
+      "rate": 100000.0,
+      "start_s": 5086.549000263214
+    },
+    {
+      "path": "/acquisition/timeseries/data_00076_AD9",
+      "sweep": 76,
+      "electrode": "electrode_5",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "unit": "V",
+      "samples": 655902,
+      "rate": 100000.0,
+      "start_s": 5086.549000263214
+    },
+    {
+      "path": "/acquisition/timeseries/data_00077_AD2",
+      "sweep": 77,
+      "electrode": "electrode_2",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "unit": "V",
+      "samples": 584276,
+      "rate": 100000.0,
+      "start_s": 5102.645999908447
+    },
+    {
+      "path": "/acquisition/timeseries/data_00077_AD8",
+      "sweep": 77,
+      "electrode": "electrode_4",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "unit": "V",
+      "samples": 584276,
+      "rate": 100000.0,
+      "start_s": 5102.645999908447
+    },
+    {
+      "path": "/acquisition/timeseries/data_00077_AD9",
+      "sweep": 77,
+      "electrode": "electrode_5",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "unit": "V",
+      "samples": 584276,
+      "rate": 100000.0,
+      "start_s": 5102.645999908447
+    },
+    {
+      "path": "/acquisition/timeseries/data_00078_AD2",
+      "sweep": 78,
+      "electrode": "electrode_2",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "unit": "V",
+      "samples": 584276,
+      "rate": 100000.0,
+      "start_s": 5117.9580001831055
+    },
+    {
+      "path": "/acquisition/timeseries/data_00078_AD8",
+      "sweep": 78,
+      "electrode": "electrode_4",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "unit": "V",
+      "samples": 584276,
+      "rate": 100000.0,
+      "start_s": 5117.9580001831055
+    },
+    {
+      "path": "/acquisition/timeseries/data_00078_AD9",
+      "sweep": 78,
+      "electrode": "electrode_5",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "unit": "V",
+      "samples": 584276,
+      "rate": 100000.0,
+      "start_s": 5117.9580001831055
+    },
+    {
+      "path": "/acquisition/timeseries/data_00079_AD2",
+      "sweep": 79,
+      "electrode": "electrode_2",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "unit": "V",
+      "samples": 584276,
+      "rate": 100000.0,
+      "start_s": 5133.293000221252
+    },
+    {
+      "path": "/acquisition/timeseries/data_00079_AD8",
+      "sweep": 79,
+      "electrode": "electrode_4",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "unit": "V",
+      "samples": 584276,
+      "rate": 100000.0,
+      "start_s": 5133.293000221252
+    },
+    {
+      "path": "/acquisition/timeseries/data_00079_AD9",
+      "sweep": 79,
+      "electrode": "electrode_5",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "unit": "V",
+      "samples": 584276,
+      "rate": 100000.0,
+      "start_s": 5133.293000221252
+    },
+    {
+      "path": "/acquisition/timeseries/data_00080_AD2",
+      "sweep": 80,
+      "electrode": "electrode_2",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "unit": "V",
+      "samples": 584276,
+      "rate": 100000.0,
+      "start_s": 5148.59299993515
+    },
+    {
+      "path": "/acquisition/timeseries/data_00080_AD8",
+      "sweep": 80,
+      "electrode": "electrode_4",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "unit": "V",
+      "samples": 584276,
+      "rate": 100000.0,
+      "start_s": 5148.59299993515
+    },
+    {
+      "path": "/acquisition/timeseries/data_00080_AD9",
+      "sweep": 80,
+      "electrode": "electrode_5",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "unit": "V",
+      "samples": 584276,
+      "rate": 100000.0,
+      "start_s": 5148.59299993515
+    },
+    {
+      "path": "/acquisition/timeseries/data_00081_AD2",
+      "sweep": 81,
+      "electrode": "electrode_2",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "unit": "V",
+      "samples": 584276,
+      "rate": 100000.0,
+      "start_s": 5164.103000164032
+    },
+    {
+      "path": "/acquisition/timeseries/data_00081_AD8",
+      "sweep": 81,
+      "electrode": "electrode_4",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "unit": "V",
+      "samples": 584276,
+      "rate": 100000.0,
+      "start_s": 5164.103000164032
+    },
+    {
+      "path": "/acquisition/timeseries/data_00081_AD9",
+      "sweep": 81,
+      "electrode": "electrode_5",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "unit": "V",
+      "samples": 584276,
+      "rate": 100000.0,
+      "start_s": 5164.103000164032
+    },
+    {
+      "path": "/acquisition/timeseries/data_00082_AD2",
+      "sweep": 82,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5189.150000095367
+    },
+    {
+      "path": "/acquisition/timeseries/data_00082_AD8",
+      "sweep": 82,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5189.150000095367
+    },
+    {
+      "path": "/acquisition/timeseries/data_00082_AD9",
+      "sweep": 82,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5189.150000095367
+    },
+    {
+      "path": "/acquisition/timeseries/data_00083_AD2",
+      "sweep": 83,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5192.513999938965
+    },
+    {
+      "path": "/acquisition/timeseries/data_00083_AD8",
+      "sweep": 83,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5192.513999938965
+    },
+    {
+      "path": "/acquisition/timeseries/data_00083_AD9",
+      "sweep": 83,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5192.513999938965
+    },
+    {
+      "path": "/acquisition/timeseries/data_00084_AD2",
+      "sweep": 84,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5195.828999996185
+    },
+    {
+      "path": "/acquisition/timeseries/data_00084_AD8",
+      "sweep": 84,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5195.828999996185
+    },
+    {
+      "path": "/acquisition/timeseries/data_00084_AD9",
+      "sweep": 84,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5195.828999996185
+    },
+    {
+      "path": "/acquisition/timeseries/data_00085_AD2",
+      "sweep": 85,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5199.176000118256
+    },
+    {
+      "path": "/acquisition/timeseries/data_00085_AD8",
+      "sweep": 85,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5199.176000118256
+    },
+    {
+      "path": "/acquisition/timeseries/data_00085_AD9",
+      "sweep": 85,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5199.176000118256
+    },
+    {
+      "path": "/acquisition/timeseries/data_00086_AD2",
+      "sweep": 86,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5202.571000099182
+    },
+    {
+      "path": "/acquisition/timeseries/data_00086_AD8",
+      "sweep": 86,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5202.571000099182
+    },
+    {
+      "path": "/acquisition/timeseries/data_00086_AD9",
+      "sweep": 86,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5202.571000099182
+    },
+    {
+      "path": "/acquisition/timeseries/data_00087_AD2",
+      "sweep": 87,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5205.959000110626
+    },
+    {
+      "path": "/acquisition/timeseries/data_00087_AD8",
+      "sweep": 87,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5205.959000110626
+    },
+    {
+      "path": "/acquisition/timeseries/data_00087_AD9",
+      "sweep": 87,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5205.959000110626
+    },
+    {
+      "path": "/acquisition/timeseries/data_00088_AD2",
+      "sweep": 88,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5209.4130001068115
+    },
+    {
+      "path": "/acquisition/timeseries/data_00088_AD8",
+      "sweep": 88,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5209.4130001068115
+    },
+    {
+      "path": "/acquisition/timeseries/data_00088_AD9",
+      "sweep": 88,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5209.4130001068115
+    },
+    {
+      "path": "/acquisition/timeseries/data_00089_AD2",
+      "sweep": 89,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5212.834000110626
+    },
+    {
+      "path": "/acquisition/timeseries/data_00089_AD8",
+      "sweep": 89,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5212.834000110626
+    },
+    {
+      "path": "/acquisition/timeseries/data_00089_AD9",
+      "sweep": 89,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5212.834000110626
+    },
+    {
+      "path": "/acquisition/timeseries/data_00090_AD2",
+      "sweep": 90,
+      "electrode": "electrode_2",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5267.029000282288
+    },
+    {
+      "path": "/acquisition/timeseries/data_00090_AD8",
+      "sweep": 90,
+      "electrode": "electrode_4",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5267.029000282288
+    },
+    {
+      "path": "/acquisition/timeseries/data_00090_AD9",
+      "sweep": 90,
+      "electrode": "electrode_5",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5267.029000282288
+    },
+    {
+      "path": "/acquisition/timeseries/data_00091_AD2",
+      "sweep": 91,
+      "electrode": "electrode_2",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5273.991000175476
+    },
+    {
+      "path": "/acquisition/timeseries/data_00091_AD8",
+      "sweep": 91,
+      "electrode": "electrode_4",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5273.991000175476
+    },
+    {
+      "path": "/acquisition/timeseries/data_00091_AD9",
+      "sweep": 91,
+      "electrode": "electrode_5",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5273.991000175476
+    },
+    {
+      "path": "/acquisition/timeseries/data_00092_AD2",
+      "sweep": 92,
+      "electrode": "electrode_2",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5280.84600019455
+    },
+    {
+      "path": "/acquisition/timeseries/data_00092_AD8",
+      "sweep": 92,
+      "electrode": "electrode_4",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5280.84600019455
+    },
+    {
+      "path": "/acquisition/timeseries/data_00092_AD9",
+      "sweep": 92,
+      "electrode": "electrode_5",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5280.84600019455
+    },
+    {
+      "path": "/acquisition/timeseries/data_00093_AD2",
+      "sweep": 93,
+      "electrode": "electrode_2",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5287.697000026703
+    },
+    {
+      "path": "/acquisition/timeseries/data_00093_AD8",
+      "sweep": 93,
+      "electrode": "electrode_4",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5287.697000026703
+    },
+    {
+      "path": "/acquisition/timeseries/data_00093_AD9",
+      "sweep": 93,
+      "electrode": "electrode_5",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5287.697000026703
+    },
+    {
+      "path": "/acquisition/timeseries/data_00094_AD2",
+      "sweep": 94,
+      "electrode": "electrode_2",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5294.532999992371
+    },
+    {
+      "path": "/acquisition/timeseries/data_00094_AD8",
+      "sweep": 94,
+      "electrode": "electrode_4",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5294.532999992371
+    },
+    {
+      "path": "/acquisition/timeseries/data_00094_AD9",
+      "sweep": 94,
+      "electrode": "electrode_5",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5294.532999992371
+    },
+    {
+      "path": "/acquisition/timeseries/data_00095_AD2",
+      "sweep": 95,
+      "electrode": "electrode_2",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5301.34700012207
+    },
+    {
+      "path": "/acquisition/timeseries/data_00095_AD8",
+      "sweep": 95,
+      "electrode": "electrode_4",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5301.34700012207
+    },
+    {
+      "path": "/acquisition/timeseries/data_00095_AD9",
+      "sweep": 95,
+      "electrode": "electrode_5",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5301.34700012207
+    },
+    {
+      "path": "/acquisition/timeseries/data_00096_AD2",
+      "sweep": 96,
+      "electrode": "electrode_2",
+      "stimulus": "MIES_Blowout_DA_0",
+      "unit": "V",
+      "samples": 251250,
+      "rate": 50000.0,
+      "start_s": 5801.072999954224
+    },
+    {
+      "path": "/acquisition/timeseries/data_00096_AD8",
+      "sweep": 96,
+      "electrode": "electrode_4",
+      "stimulus": "MIES_Blowout_DA_0",
+      "unit": "V",
+      "samples": 251250,
+      "rate": 50000.0,
+      "start_s": 5801.072999954224
+    },
+    {
+      "path": "/acquisition/timeseries/data_00096_AD9",
+      "sweep": 96,
+      "electrode": "electrode_5",
+      "stimulus": "MIES_Blowout_DA_0",
+      "unit": "V",
+      "samples": 251250,
+      "rate": 50000.0,
+      "start_s": 5801.072999954224
+    }
+  ],
+  "summary": [
+    {
+      "electrode": "electrode_2",
+      "unit": "A",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "records": 7
+    },
+    {
+      "electrode": "electrode_2",
+      "unit": "V",
+      "stimulus": "MIES_Blowout_DA_0",
+      "records": 1
+    },
+    {
+      "electrode": "electrode_2",
+      "unit": "V",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "records": 8
+    },
+    {
+      "electrode": "electrode_2",
+      "unit": "V",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "records": 6
+    },
+    {
+      "electrode": "electrode_2",
+      "unit": "V",
+      "stimulus": "Y2_TargetV_DA_0",
+      "records": 6
+    },
+    {
+      "electrode": "electrode_2",
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "records": 19
+    },
+    {
+      "electrode": "electrode_2",
+      "unit": "V",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "records": 25
+    },
+    {
+      "electrode": "electrode_2",
+      "unit": "V",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "records": 5
+    },
+    {
+      "electrode": "electrode_2",
+      "unit": "V",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "records": 5
+    },
+    {
+      "electrode": "electrode_2",
+      "unit": "V",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "records": 5
+    },
+    {
+      "electrode": "electrode_2",
+      "unit": "V",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "records": 5
+    },
+    {
+      "electrode": "electrode_2",
+      "unit": "V",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "records": 5
+    },
+    {
+      "electrode": "electrode_4",
+      "unit": "A",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "records": 7
+    },
+    {
+      "electrode": "electrode_4",
+      "unit": "V",
+      "stimulus": "MIES_Blowout_DA_0",
+      "records": 1
+    },
+    {
+      "electrode": "electrode_4",
+      "unit": "V",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "records": 8
+    },
+    {
+      "electrode": "electrode_4",
+      "unit": "V",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "records": 6
+    },
+    {
+      "electrode": "electrode_4",
+      "unit": "V",
+      "stimulus": "Y2_TargetV_DA_0",
+      "records": 6
+    },
+    {
+      "electrode": "electrode_4",
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "records": 19
+    },
+    {
+      "electrode": "electrode_4",
+      "unit": "V",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "records": 25
+    },
+    {
+      "electrode": "electrode_4",
+      "unit": "V",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "records": 5
+    },
+    {
+      "electrode": "electrode_4",
+      "unit": "V",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "records": 5
+    },
+    {
+      "electrode": "electrode_4",
+      "unit": "V",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "records": 5
+    },
+    {
+      "electrode": "electrode_4",
+      "unit": "V",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "records": 5
+    },
+    {
+      "electrode": "electrode_4",
+      "unit": "V",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "records": 5
+    },
+    {
+      "electrode": "electrode_5",
+      "unit": "A",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "records": 7
+    },
+    {
+      "electrode": "electrode_5",
+      "unit": "V",
+      "stimulus": "MIES_Blowout_DA_0",
+      "records": 1
+    },
+    {
+      "electrode": "electrode_5",
+      "unit": "V",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "records": 8
+    },
+    {
+      "electrode": "electrode_5",
+      "unit": "V",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "records": 6
+    },
+    {
+      "electrode": "electrode_5",
+      "unit": "V",
+      "stimulus": "Y2_TargetV_DA_0",
+      "records": 6
+    },
+    {
+      "electrode": "electrode_5",
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0",
+      "records": 19
+    },
+    {
+      "electrode": "electrode_5",
+      "unit": "V",
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "records": 25
+    },
+    {
+      "electrode": "electrode_5",
+      "unit": "V",
+      "stimulus": "Y5_SPulsTrn_20Hz_DA_0",
+      "records": 5
+    },
+    {
+      "electrode": "electrode_5",
+      "unit": "V",
+      "stimulus": "Y6_SPulsTrn_100H_DA_0",
+      "records": 5
+    },
+    {
+      "electrode": "electrode_5",
+      "unit": "V",
+      "stimulus": "Y7_SPulsTrn_200H_DA_0",
+      "records": 5
+    },
+    {
+      "electrode": "electrode_5",
+      "unit": "V",
+      "stimulus": "Y8_SPulsTrn_10Hz_DA_0",
+      "records": 5
+    },
+    {
+      "electrode": "electrode_5",
+      "unit": "V",
+      "stimulus": "Y9_MixedfS_DA_0",
+      "records": 5
+    }
+  ],
+  "status": "METADATA_ONLY_PROTOCOL_IDENTITY_NOT_CELL_STABILITY_OR_QC"
+}

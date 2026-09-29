@@ -1,0 +1,14 @@
+{
+  "repair": "Treat literal NA distance as missing, as declared; retain original failed parser and contract; no model change",
+  "question": "Do observed other connections predict hidden connection presence beyond geometry and intrinsic physiology?",
+  "population": "all s11 tested pairs with both type1 cells satisfying prior four QC flags, finite pia<1200, positive Rin and rheobase; exclude whole duplicate-key clusters",
+  "mask": "all eligible unordered pairs, regardless of labels; seed0 hash order alternating two groups per record; hide BOTH directions of target group",
+  "baseline": "intercept, log1p(pair distance/100), mean pia/1000, signed pia difference/100, log Rin ratio, log rheobase ratio",
+  "network_features": "visible sender outgoing rate and receiver incoming rate, each Beta(1,1) smoothed (positive+1)/(tested+2); no hidden labels",
+  "fit": "leave whole patient out; train-only RMS scaling nonintercept features; ridge1 nonintercept, no intercept penalty; no tuning",
+  "endpoint": "directional marginal logloss and Brier; equal-patient logloss; not independent dyads or joint graph likelihood",
+  "checks": "all hidden labels flipped leave features unchanged; previous 523 one-way QC support recovered before distance filter; gradient<1e-8",
+  "limits": "author QC, six excluded clusters, same lineage; conditional partial-graph completion not full brain reconstruction",
+  "archive_sha256": "6b0d7244dec5c665a88d0d1828ae842d084bb737a6df9f86561d53d8564c4bfd",
+  "code_sha256": "520e4f4ff16ba47c8d714b1dd4670175f3eb225170b56ae236b673c1d96bea03"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "Does the same directional imbalance endpoint exceed the fair-orientation skeleton reference in Allen human upper TCx?",
+  "scope": "human; TCx; nonsynaptic cell class ex/ex; both target layers 2,2/3,3; both has_synapse nonnull and n_ex_test_spikes>10",
+  "endpoint": "sum per-record sum_v(out-in)^2; expectation 2*one-way dyads; preserve mutual/absent dyads; no amplitude selection",
+  "units": "record and slice aggregates; slice is NOT a patient; no donor claims",
+  "sensitivity": "delete-one-slice descriptive residual; no p-value; record information requires null variance>0",
+  "verification": "1022 qualified directions/511 dyads and 102 positive directions; independent adjacency sum vs shared score; raw condition counts",
+  "prior_audit_note": "older human strength contract gate retained stale mouse190/25 text; executable human check was parity only; this contract checks actual human denominator explicitly",
+  "limits": "different institution dataset does not itself verify individual donor independence; slice sampling, layer selection and detection asymmetry persist",
+  "db_sha256": "7372499fdd874f057565080d5769baaf2659ef39d9f3bc3c7147dd1e1c280a53",
+  "metric_code_sha256": "c3dabc9337e9e3dd73c17edb098b8307507eeac2262f4e4aec1836f304b7b1aa",
+  "code_sha256": "0cb1e044f2f13339cab3bc0e8b1196ad871493bb2c67c9f22afed07e05f62f84"
+}

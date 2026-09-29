@@ -1,0 +1,32 @@
+{
+  "question": "Does the frozen swap kernel reach all constrained graphs, and can components have different reciprocal means?",
+  "scope": "Exhaustive 4096 loop-free directed labelled four-node graphs; synthetic only, BIO_EVIDENCE_L0",
+  "cases": [
+    "one category",
+    "two broad types",
+    "two broad types and fixed line-distance bins"
+  ],
+  "coordinates": [
+    0,
+    40,
+    110,
+    250
+  ],
+  "types": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "distance_bins": [
+    50,
+    100,
+    200,
+    400,
+    800
+  ],
+  "endpoints": "constraint fibers, connected components, exact rational reciprocal means; first witness in deterministic enumeration",
+  "gate": "any unequal component means refute universal unbiased expectation from a single reachable component; no inference that actual MICrONS fiber is disconnected",
+  "source_sha256": "01fea4c3660b7624718ade5c8d88eeb5d81b72d10078de776eb0e88bc5ebcbb5",
+  "code_sha256": "e93e40032bfc3abf2a10e1e9746160189cc353a104cfad00a687b4c87865c987"
+}

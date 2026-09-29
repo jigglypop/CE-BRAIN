@@ -1,0 +1,326 @@
+{
+  "code_sha256": "32903d60457a560b064fad67d100a8c5b086e3a3bcec8ad4b3773306a150e7b2",
+  "archive_sha256": "540f98689798a06de97c7424c80710fe8d5b02082a4a9bae7b10766fe999c039",
+  "local_contract_sha256": "a2db30e55d72b3f71982d9d6883fc29d7df4cc9a8ae232c237408640f64d98cb",
+  "question": "Does protected-step integer rounding create a discontinuity between q1.5 and1.55?",
+  "records": [
+    {
+      "seed": 2026091900,
+      "first_step": {
+        "1.5": {
+          "total_selected": 344,
+          "per_row_count_histogram": {
+            "0": 3,
+            "1": 344
+          }
+        },
+        "1.55": {
+          "total_selected": 687,
+          "per_row_count_histogram": {
+            "0": 3,
+            "1": 1,
+            "2": 343
+          }
+        }
+      }
+    },
+    {
+      "seed": 2026091901,
+      "first_step": {
+        "1.5": {
+          "total_selected": 346,
+          "per_row_count_histogram": {
+            "0": 1,
+            "1": 346
+          }
+        },
+        "1.55": {
+          "total_selected": 689,
+          "per_row_count_histogram": {
+            "0": 1,
+            "1": 3,
+            "2": 343
+          }
+        }
+      }
+    },
+    {
+      "seed": 2026091902,
+      "first_step": {
+        "1.5": {
+          "total_selected": 344,
+          "per_row_count_histogram": {
+            "0": 3,
+            "1": 344
+          }
+        },
+        "1.55": {
+          "total_selected": 685,
+          "per_row_count_histogram": {
+            "0": 3,
+            "1": 3,
+            "2": 341
+          }
+        }
+      }
+    },
+    {
+      "seed": 2026091903,
+      "first_step": {
+        "1.5": {
+          "total_selected": 345,
+          "per_row_count_histogram": {
+            "0": 2,
+            "1": 345
+          }
+        },
+        "1.55": {
+          "total_selected": 686,
+          "per_row_count_histogram": {
+            "0": 2,
+            "1": 4,
+            "2": 341
+          }
+        }
+      }
+    },
+    {
+      "seed": 2026091904,
+      "first_step": {
+        "1.5": {
+          "total_selected": 345,
+          "per_row_count_histogram": {
+            "0": 2,
+            "1": 345
+          }
+        },
+        "1.55": {
+          "total_selected": 688,
+          "per_row_count_histogram": {
+            "0": 2,
+            "1": 2,
+            "2": 343
+          }
+        }
+      }
+    },
+    {
+      "seed": 2026091905,
+      "first_step": {
+        "1.5": {
+          "total_selected": 346,
+          "per_row_count_histogram": {
+            "0": 1,
+            "1": 346
+          }
+        },
+        "1.55": {
+          "total_selected": 690,
+          "per_row_count_histogram": {
+            "0": 1,
+            "1": 2,
+            "2": 344
+          }
+        }
+      }
+    },
+    {
+      "seed": 2026091906,
+      "first_step": {
+        "1.5": {
+          "total_selected": 347,
+          "per_row_count_histogram": {
+            "1": 347
+          }
+        },
+        "1.55": {
+          "total_selected": 692,
+          "per_row_count_histogram": {
+            "1": 2,
+            "2": 345
+          }
+        }
+      }
+    },
+    {
+      "seed": 2026091907,
+      "first_step": {
+        "1.5": {
+          "total_selected": 346,
+          "per_row_count_histogram": {
+            "0": 1,
+            "1": 346
+          }
+        },
+        "1.55": {
+          "total_selected": 689,
+          "per_row_count_histogram": {
+            "0": 1,
+            "1": 3,
+            "2": 343
+          }
+        }
+      }
+    },
+    {
+      "seed": 2026091908,
+      "first_step": {
+        "1.5": {
+          "total_selected": 347,
+          "per_row_count_histogram": {
+            "1": 347
+          }
+        },
+        "1.55": {
+          "total_selected": 690,
+          "per_row_count_histogram": {
+            "1": 4,
+            "2": 343
+          }
+        }
+      }
+    },
+    {
+      "seed": 2026091909,
+      "first_step": {
+        "1.5": {
+          "total_selected": 345,
+          "per_row_count_histogram": {
+            "0": 2,
+            "1": 345
+          }
+        },
+        "1.55": {
+          "total_selected": 686,
+          "per_row_count_histogram": {
+            "0": 2,
+            "1": 4,
+            "2": 341
+          }
+        }
+      }
+    },
+    {
+      "seed": 2026091910,
+      "first_step": {
+        "1.5": {
+          "total_selected": 345,
+          "per_row_count_histogram": {
+            "0": 2,
+            "1": 345
+          }
+        },
+        "1.55": {
+          "total_selected": 689,
+          "per_row_count_histogram": {
+            "0": 2,
+            "1": 1,
+            "2": 344
+          }
+        }
+      }
+    },
+    {
+      "seed": 2026091911,
+      "first_step": {
+        "1.5": {
+          "total_selected": 346,
+          "per_row_count_histogram": {
+            "0": 1,
+            "1": 346
+          }
+        },
+        "1.55": {
+          "total_selected": 687,
+          "per_row_count_histogram": {
+            "0": 1,
+            "1": 5,
+            "2": 341
+          }
+        }
+      }
+    },
+    {
+      "seed": 2026091912,
+      "first_step": {
+        "1.5": {
+          "total_selected": 346,
+          "per_row_count_histogram": {
+            "0": 1,
+            "1": 346
+          }
+        },
+        "1.55": {
+          "total_selected": 689,
+          "per_row_count_histogram": {
+            "0": 1,
+            "1": 3,
+            "2": 343
+          }
+        }
+      }
+    },
+    {
+      "seed": 2026091913,
+      "first_step": {
+        "1.5": {
+          "total_selected": 346,
+          "per_row_count_histogram": {
+            "0": 1,
+            "1": 346
+          }
+        },
+        "1.55": {
+          "total_selected": 688,
+          "per_row_count_histogram": {
+            "0": 1,
+            "1": 4,
+            "2": 342
+          }
+        }
+      }
+    },
+    {
+      "seed": 2026091914,
+      "first_step": {
+        "1.5": {
+          "total_selected": 345,
+          "per_row_count_histogram": {
+            "0": 2,
+            "1": 345
+          }
+        },
+        "1.55": {
+          "total_selected": 687,
+          "per_row_count_histogram": {
+            "0": 2,
+            "1": 3,
+            "2": 342
+          }
+        }
+      }
+    },
+    {
+      "seed": 2026091915,
+      "first_step": {
+        "1.5": {
+          "total_selected": 346,
+          "per_row_count_histogram": {
+            "0": 1,
+            "1": 346
+          }
+        },
+        "1.55": {
+          "total_selected": 689,
+          "per_row_count_histogram": {
+            "0": 1,
+            "1": 3,
+            "2": 343
+          }
+        }
+      }
+    }
+  ],
+  "all_first_step_counts_verified": true,
+  "limitation": "First step only, not a decomposition of the full-graph density difference; not a biological mechanism"
+}

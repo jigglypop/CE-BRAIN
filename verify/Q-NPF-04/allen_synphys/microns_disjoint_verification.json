@@ -1,0 +1,9 @@
+{
+  "result_sha256": "82c8b5bb8ce6a93d5cb1f41f529816dba779fea66569ddaec073d78716856b9f",
+  "detail_sha256": "d902fe5b3452876b39ebc62b1cdc3902f126defc1c48fae50e763ddeadca487d",
+  "verifier_sha256": "6c37b350362b403100b40c96e611c9452cc0cbd79672f61880871c2d9fbfc1b0",
+  "distributions_verified": 16,
+  "directly_enumerated_statistic_combinations": 56085,
+  "scope": "partition uniqueness and weighted statistic-product distribution; not independent re-enumeration of every local graph",
+  "status": "DIRECT_WEIGHTED_PRODUCT_MATCH"
+}

@@ -1,0 +1,100 @@
+{
+  "archive_sha256": "3711f8b8b911a24b0e5fd69e6e6c845f9e8601539807a9b960118c77ba5ad68d",
+  "cohorts": {
+    "er": {
+      "csv_connections": 1138,
+      "cluster_connections": 1138,
+      "matrix_entries": 177,
+      "csv_clusters": 177,
+      "matrix_connection_code_to_csv_label": [
+        {
+          "code": "0.0",
+          "label": "0",
+          "count": 5701
+        },
+        {
+          "code": "0.1",
+          "label": "0",
+          "count": 6
+        },
+        {
+          "code": "0.2",
+          "label": "0",
+          "count": 3
+        },
+        {
+          "code": "0.3",
+          "label": "0",
+          "count": 1
+        },
+        {
+          "code": "1.0",
+          "label": "1",
+          "count": 1103
+        },
+        {
+          "code": "1.2",
+          "label": "1",
+          "count": 35
+        },
+        {
+          "code": "2.0",
+          "label": "0",
+          "count": 300
+        },
+        {
+          "code": "2.3",
+          "label": "0",
+          "count": 1
+        },
+        {
+          "code": "3.0",
+          "label": "0",
+          "count": 17
+        },
+        {
+          "code": "4.0",
+          "label": "0",
+          "count": 1
+        },
+        {
+          "code": "nan",
+          "label": "0",
+          "count": 32
+        }
+      ],
+      "repatch_values": {
+        "1": 1168
+      }
+    },
+    "tr": {
+      "csv_connections": 165,
+      "cluster_connections": 165,
+      "matrix_entries": 54,
+      "csv_clusters": 54,
+      "matrix_connection_code_to_csv_label": [
+        {
+          "code": "0.0",
+          "label": "0",
+          "count": 1747
+        },
+        {
+          "code": "0.2",
+          "label": "0",
+          "count": 4
+        },
+        {
+          "code": "1.0",
+          "label": "1",
+          "count": 165
+        }
+      ],
+      "repatch_values": {
+        "1": 336,
+        "2": 1
+      }
+    }
+  },
+  "paper_er_connections": 1137,
+  "status": "ER_COUNT_DISCREPANCY_UNRESOLVED; matrix code semantics not inferred from values alone"
+}

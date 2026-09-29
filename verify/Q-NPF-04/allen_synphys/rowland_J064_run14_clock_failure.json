@@ -1,0 +1,10 @@
+{
+  "failed_contract_sha256": "50343a847862469572ebbeb82d490698e913a440b2f2c58a7eebc84b4bdf16b9",
+  "failed_check": "strict increase of galvo_ms[nonnan_trials]",
+  "reason": "one nonfinite galvo timestamp",
+  "retained_zero_based_index": 186,
+  "original_zero_based_index": 198,
+  "finite_galvo_negative_differences": 0,
+  "biological_hypothesis_failure": false,
+  "action": "separate v2 excludes nonfinite galvo times; no interpolation"
+}

@@ -1,0 +1,569 @@
+{
+  "contract_sha256": "552d3aed68dc223cc92fcff29eb1faaf8c81e8a48e4a2eb8e1226cc5ca6a03cd",
+  "rows": [
+    {
+      "mouse": "J064",
+      "run": 10,
+      "removed_n": 4,
+      "removed_indices": [
+        25,
+        85,
+        108,
+        140
+      ],
+      "test_full_n": 54,
+      "test_selected_n": 50,
+      "catch_n": 61,
+      "removed_mean": 0.03250979070120292,
+      "selected_test_mean": -0.008184009368999285,
+      "raw_shift_decomposition": -0.003014355560755719,
+      "models": {
+        "raw": {
+          "full": {
+            "coefficient": -0.0010810221924692708,
+            "rank": 2,
+            "condition_number": 2.552875331881056,
+            "treatment_residual_variance_fraction": 1.0000000000000002
+          },
+          "selected": {
+            "coefficient": -0.0040953777532249875,
+            "rank": 2,
+            "condition_number": 2.5181311129423336,
+            "treatment_residual_variance_fraction": 1.0
+          },
+          "shift": -0.003014355560755717,
+          "sign_changed": false
+        },
+        "time_prestate": {
+          "full": {
+            "coefficient": -0.002883614764573285,
+            "rank": 5,
+            "condition_number": 4.845866077731911,
+            "treatment_residual_variance_fraction": 0.9890206892331421
+          },
+          "selected": {
+            "coefficient": -0.006158011992804861,
+            "rank": 5,
+            "condition_number": 4.861142279309756,
+            "treatment_residual_variance_fraction": 0.9885229532982258
+          },
+          "shift": -0.0032743972282315756,
+          "sign_changed": false
+        }
+      }
+    },
+    {
+      "mouse": "J064",
+      "run": 11,
+      "removed_n": 10,
+      "removed_indices": [
+        4,
+        12,
+        15,
+        20,
+        32,
+        43,
+        49,
+        65,
+        71,
+        110
+      ],
+      "test_full_n": 60,
+      "test_selected_n": 50,
+      "catch_n": 44,
+      "removed_mean": -0.009792056289665665,
+      "selected_test_mean": -0.004928392178839337,
+      "raw_shift_decomposition": 0.0008106106851377213,
+      "models": {
+        "raw": {
+          "full": {
+            "coefficient": 0.001270140617037632,
+            "rank": 2,
+            "condition_number": 2.839695200945991,
+            "treatment_residual_variance_fraction": 1.0
+          },
+          "selected": {
+            "coefficient": 0.0020807513021753425,
+            "rank": 2,
+            "condition_number": 2.699675415122635,
+            "treatment_residual_variance_fraction": 1.0000000000000002
+          },
+          "shift": 0.0008106106851377105,
+          "sign_changed": false
+        },
+        "time_prestate": {
+          "full": {
+            "coefficient": -0.00317378134501254,
+            "rank": 5,
+            "condition_number": 4.037422931337609,
+            "treatment_residual_variance_fraction": 0.9848387775616224
+          },
+          "selected": {
+            "coefficient": -0.0038759762764353817,
+            "rank": 5,
+            "condition_number": 4.022018667696504,
+            "treatment_residual_variance_fraction": 0.9619402056524018
+          },
+          "shift": -0.0007021949314228418,
+          "sign_changed": false
+        }
+      }
+    },
+    {
+      "mouse": "J064",
+      "run": 14,
+      "removed_n": 5,
+      "removed_indices": [
+        2,
+        37,
+        109,
+        172,
+        176
+      ],
+      "test_full_n": 79,
+      "test_selected_n": 74,
+      "catch_n": 60,
+      "removed_mean": -0.015547004434324269,
+      "selected_test_mean": -0.02610886304051333,
+      "raw_shift_decomposition": -0.0006684720636828519,
+      "models": {
+        "raw": {
+          "full": {
+            "coefficient": -0.02439977977246522,
+            "rank": 2,
+            "condition_number": 2.8106175812105127,
+            "treatment_residual_variance_fraction": 0.9999999999999998
+          },
+          "selected": {
+            "coefficient": -0.025068251836148085,
+            "rank": 2,
+            "condition_number": 2.759127795621967,
+            "treatment_residual_variance_fraction": 0.9999999999999998
+          },
+          "shift": -0.0006684720636828644,
+          "sign_changed": false
+        },
+        "time_prestate": {
+          "full": {
+            "coefficient": -0.017584505041940368,
+            "rank": 5,
+            "condition_number": 3.279541373558763,
+            "treatment_residual_variance_fraction": 0.9456584005256209
+          },
+          "selected": {
+            "coefficient": -0.01745824813022301,
+            "rank": 5,
+            "condition_number": 3.24920687387384,
+            "treatment_residual_variance_fraction": 0.9441907044946396
+          },
+          "shift": 0.00012625691171735953,
+          "sign_changed": false
+        }
+      }
+    },
+    {
+      "mouse": "RL070",
+      "run": 28,
+      "removed_n": 0,
+      "removed_indices": [],
+      "test_full_n": 133,
+      "test_selected_n": 133,
+      "catch_n": 125,
+      "removed_mean": null,
+      "selected_test_mean": 0.011897191903077172,
+      "raw_shift_decomposition": 0.0,
+      "models": {
+        "raw": {
+          "full": {
+            "coefficient": 0.030998868910881907,
+            "rank": 2,
+            "condition_number": 2.6559532848218947,
+            "treatment_residual_variance_fraction": 0.9999999999999998
+          },
+          "selected": {
+            "coefficient": 0.030998868910881907,
+            "rank": 2,
+            "condition_number": 2.6559532848218947,
+            "treatment_residual_variance_fraction": 0.9999999999999998
+          },
+          "shift": 0.0,
+          "sign_changed": false
+        },
+        "time_prestate": {
+          "full": {
+            "coefficient": 0.02435962531615837,
+            "rank": 5,
+            "condition_number": 3.3411346305846794,
+            "treatment_residual_variance_fraction": 0.9901499129429381
+          },
+          "selected": {
+            "coefficient": 0.02435962531615837,
+            "rank": 5,
+            "condition_number": 3.3411346305846794,
+            "treatment_residual_variance_fraction": 0.9901499129429381
+          },
+          "shift": 0.0,
+          "sign_changed": false
+        }
+      }
+    },
+    {
+      "mouse": "RL070",
+      "run": 29,
+      "removed_n": 3,
+      "removed_indices": [
+        47,
+        72,
+        75
+      ],
+      "test_full_n": 88,
+      "test_selected_n": 85,
+      "catch_n": 89,
+      "removed_mean": 0.013386463307813554,
+      "selected_test_mean": 0.02489470021089625,
+      "raw_shift_decomposition": 0.0003923262580596374,
+      "models": {
+        "raw": {
+          "full": {
+            "coefficient": 0.01666528847495783,
+            "rank": 2,
+            "condition_number": 2.61147232137824,
+            "treatment_residual_variance_fraction": 1.0000000000000004
+          },
+          "selected": {
+            "coefficient": 0.01705761473301748,
+            "rank": 2,
+            "condition_number": 2.5919952649700346,
+            "treatment_residual_variance_fraction": 1.0000000000000007
+          },
+          "shift": 0.00039232625805964844,
+          "sign_changed": false
+        },
+        "time_prestate": {
+          "full": {
+            "coefficient": 0.020573453062389203,
+            "rank": 5,
+            "condition_number": 3.5457533627998132,
+            "treatment_residual_variance_fraction": 0.9941030057602743
+          },
+          "selected": {
+            "coefficient": 0.021144467960710976,
+            "rank": 5,
+            "condition_number": 3.527544014161506,
+            "treatment_residual_variance_fraction": 0.9957375379702808
+          },
+          "shift": 0.0005710148983217728,
+          "sign_changed": false
+        }
+      }
+    },
+    {
+      "mouse": "RL117",
+      "run": 26,
+      "removed_n": 8,
+      "removed_indices": [
+        31,
+        50,
+        69,
+        87,
+        145,
+        198,
+        267,
+        295
+      ],
+      "test_full_n": 119,
+      "test_selected_n": 111,
+      "catch_n": 110,
+      "removed_mean": -0.02436967422109835,
+      "selected_test_mean": -0.006022375115106258,
+      "raw_shift_decomposition": 0.001233431872671737,
+      "models": {
+        "raw": {
+          "full": {
+            "coefficient": -0.018439292581657593,
+            "rank": 2,
+            "condition_number": 2.666648755667335,
+            "treatment_residual_variance_fraction": 1.0
+          },
+          "selected": {
+            "coefficient": -0.01720586070898585,
+            "rank": 2,
+            "condition_number": 2.6233659802658877,
+            "treatment_residual_variance_fraction": 1.0000000000000002
+          },
+          "shift": 0.001233431872671744,
+          "sign_changed": false
+        },
+        "time_prestate": {
+          "full": {
+            "coefficient": -0.011138277205489558,
+            "rank": 5,
+            "condition_number": 6.305320222545793,
+            "treatment_residual_variance_fraction": 0.9760741628617606
+          },
+          "selected": {
+            "coefficient": -0.009983754163889533,
+            "rank": 5,
+            "condition_number": 6.193022403779577,
+            "treatment_residual_variance_fraction": 0.9772058614813405
+          },
+          "shift": 0.0011545230416000248,
+          "sign_changed": false
+        }
+      }
+    },
+    {
+      "mouse": "RL117",
+      "run": 29,
+      "removed_n": 8,
+      "removed_indices": [
+        59,
+        60,
+        62,
+        70,
+        107,
+        116,
+        139,
+        209
+      ],
+      "test_full_n": 100,
+      "test_selected_n": 92,
+      "catch_n": 85,
+      "removed_mean": -0.02012902813129467,
+      "selected_test_mean": -0.008468296912958875,
+      "raw_shift_decomposition": 0.0009328584974668636,
+      "models": {
+        "raw": {
+          "full": {
+            "coefficient": -0.020255042118732927,
+            "rank": 2,
+            "condition_number": 2.724175475522899,
+            "treatment_residual_variance_fraction": 1.0000000000000002
+          },
+          "selected": {
+            "coefficient": -0.019322183621266073,
+            "rank": 2,
+            "condition_number": 2.66697053820591,
+            "treatment_residual_variance_fraction": 1.0
+          },
+          "shift": 0.0009328584974668541,
+          "sign_changed": false
+        },
+        "time_prestate": {
+          "full": {
+            "coefficient": -0.022597931635341437,
+            "rank": 5,
+            "condition_number": 7.221414467434149,
+            "treatment_residual_variance_fraction": 0.9372068542360316
+          },
+          "selected": {
+            "coefficient": -0.022695613281951608,
+            "rank": 5,
+            "condition_number": 7.134829489483834,
+            "treatment_residual_variance_fraction": 0.9403447516084232
+          },
+          "shift": -9.768164661017043e-05,
+          "sign_changed": false
+        }
+      }
+    },
+    {
+      "mouse": "RL117",
+      "run": 30,
+      "removed_n": 2,
+      "removed_indices": [
+        19,
+        83
+      ],
+      "test_full_n": 66,
+      "test_selected_n": 64,
+      "catch_n": 60,
+      "removed_mean": 0.022347195952263994,
+      "selected_test_mean": 0.005933529100414893,
+      "raw_shift_decomposition": -0.0004973838439954273,
+      "models": {
+        "raw": {
+          "full": {
+            "coefficient": 0.0038304264280220475,
+            "rank": 2,
+            "condition_number": 2.6776133727886484,
+            "treatment_residual_variance_fraction": 0.9999999999999998
+          },
+          "selected": {
+            "coefficient": 0.0033330425840266136,
+            "rank": 2,
+            "condition_number": 2.6575506119454544,
+            "treatment_residual_variance_fraction": 0.9999999999999998
+          },
+          "shift": -0.000497383843995434,
+          "sign_changed": false
+        },
+        "time_prestate": {
+          "full": {
+            "coefficient": -0.0005780647490982191,
+            "rank": 5,
+            "condition_number": 3.1548600575900285,
+            "treatment_residual_variance_fraction": 0.9510762796236127
+          },
+          "selected": {
+            "coefficient": -0.0008979366055651076,
+            "rank": 5,
+            "condition_number": 3.140630068460047,
+            "treatment_residual_variance_fraction": 0.9529018534552135
+          },
+          "shift": -0.0003198718564668885,
+          "sign_changed": false
+        }
+      }
+    },
+    {
+      "mouse": "RL123",
+      "run": 22,
+      "removed_n": 1,
+      "removed_indices": [
+        148
+      ],
+      "test_full_n": 55,
+      "test_selected_n": 54,
+      "catch_n": 56,
+      "removed_mean": -0.0366980313890773,
+      "selected_test_mean": -0.02826907964123583,
+      "raw_shift_decomposition": 0.00015325366814257212,
+      "models": {
+        "raw": {
+          "full": {
+            "coefficient": -0.025394804713259164,
+            "rank": 2,
+            "condition_number": 2.607621074530591,
+            "treatment_residual_variance_fraction": 1.0000000000000004
+          },
+          "selected": {
+            "coefficient": -0.025241551045116606,
+            "rank": 2,
+            "condition_number": 2.597295255086135,
+            "treatment_residual_variance_fraction": 1.0000000000000004
+          },
+          "shift": 0.00015325366814255767,
+          "sign_changed": false
+        },
+        "time_prestate": {
+          "full": {
+            "coefficient": -0.021211224157450984,
+            "rank": 5,
+            "condition_number": 4.032549312572639,
+            "treatment_residual_variance_fraction": 0.9831183586764057
+          },
+          "selected": {
+            "coefficient": -0.021089727576814613,
+            "rank": 5,
+            "condition_number": 4.025409813926506,
+            "treatment_residual_variance_fraction": 0.9850885605281425
+          },
+          "shift": 0.00012149658063637103,
+          "sign_changed": false
+        }
+      }
+    },
+    {
+      "mouse": "RL116",
+      "run": 32,
+      "removed_n": 5,
+      "removed_indices": [
+        33,
+        52,
+        78,
+        79,
+        152
+      ],
+      "test_full_n": 95,
+      "test_selected_n": 90,
+      "catch_n": 106,
+      "removed_mean": -0.04437490117212185,
+      "selected_test_mean": -0.026224156327528746,
+      "raw_shift_decomposition": 0.0009553023602417425,
+      "models": {
+        "raw": {
+          "full": {
+            "coefficient": -0.02151434735633879,
+            "rank": 2,
+            "condition_number": 2.5589013641564784,
+            "treatment_residual_variance_fraction": 1.0
+          },
+          "selected": {
+            "coefficient": -0.020559044996097075,
+            "rank": 2,
+            "condition_number": 2.5334161128525756,
+            "treatment_residual_variance_fraction": 1.0
+          },
+          "shift": 0.0009553023602417166,
+          "sign_changed": false
+        },
+        "time_prestate": {
+          "full": {
+            "coefficient": -0.03088552861679068,
+            "rank": 5,
+            "condition_number": 4.895293289552814,
+            "treatment_residual_variance_fraction": 0.9611357199857682
+          },
+          "selected": {
+            "coefficient": -0.030408536841447644,
+            "rank": 5,
+            "condition_number": 4.87078122486767,
+            "treatment_residual_variance_fraction": 0.9642410597198324
+          },
+          "shift": 0.00047699177534303583,
+          "sign_changed": false
+        }
+      }
+    },
+    {
+      "mouse": "RL116",
+      "run": 33,
+      "removed_n": 2,
+      "removed_indices": [
+        24,
+        131
+      ],
+      "test_full_n": 73,
+      "test_selected_n": 71,
+      "catch_n": 70,
+      "removed_mean": -0.03615049603722712,
+      "selected_test_mean": -0.01955609889263008,
+      "raw_shift_decomposition": 0.00045464101766019296,
+      "models": {
+        "raw": {
+          "full": {
+            "coefficient": -0.011531286156354474,
+            "rank": 2,
+            "condition_number": 2.643333903319504,
+            "treatment_residual_variance_fraction": 0.9999999999999986
+          },
+          "selected": {
+            "coefficient": -0.011076645138694273,
+            "rank": 2,
+            "condition_number": 2.6264216530949427,
+            "treatment_residual_variance_fraction": 1.000000000000001
+          },
+          "shift": 0.00045464101766020185,
+          "sign_changed": false
+        },
+        "time_prestate": {
+          "full": {
+            "coefficient": -0.01773970846066477,
+            "rank": 5,
+            "condition_number": 3.488222090013615,
+            "treatment_residual_variance_fraction": 0.9943957133494467
+          },
+          "selected": {
+            "coefficient": -0.017253816313660335,
+            "rank": 5,
+            "condition_number": 3.468351927318441,
+            "treatment_residual_variance_fraction": 0.9946822718973748
+          },
+          "shift": 0.0004858921470044346,
+          "sign_changed": false
+        }
+      }
+    }
+  ]
+}

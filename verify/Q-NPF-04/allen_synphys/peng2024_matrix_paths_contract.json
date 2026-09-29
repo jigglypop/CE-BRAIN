@@ -1,0 +1,14 @@
+{
+  "question": "CSV 표지는 최종 monosynaptic 행렬과 일치하며 진폭은 어떤 원본 필드와 대응하는가?",
+  "scope": "두코호트 전체 행; 연결코드 임의변환 없음; ID공백정리 후 data_index/channel 직접 접근",
+  "amplitude_candidates": [
+    "matrix.avg.psp.amplitude",
+    "matrix.mean.psp.amplitude",
+    "matrix2.avg.psp.amplitude",
+    "matrix2.mean.psp.amplitude"
+  ],
+  "endpoint": "monosynaptic 코드×CSV표지 교차표; 유한CSV에 대한 후보필드 일치/결측 수; 기존matrix.avg결측42개 별도 추적",
+  "limits": "수치 일치는 생성 코드의 의미와 QC 보증이 아님; 후보검색을 생물학적 효과 선택으로 사용하지 않음",
+  "archive_sha256": "3711f8b8b911a24b0e5fd69e6e6c845f9e8601539807a9b960118c77ba5ad68d",
+  "code_sha256": "adfb83ad8c20e125a11dd9bed041eb179cbdddf35b1cdf83f303453ea612f708"
+}

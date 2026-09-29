@@ -1,0 +1,12 @@
+{
+  "question": "pair121538の制作側平均IC458/VC60/60の選択分母を再現できるか?",
+  "scope": "固定した次個体の全1042pulse_response。source response_query/sort_responsesの条件を読み取り適用し、stored avg_dataも抽出。",
+  "selection": "post記録→patch_clamp_recording→multi_patch_probe induction_frequency<=50;StimSpike inner join;holding[-80,-60)mVはexQC、[-60,-50)mVはinQC;単一spike+first_spike_time必須。",
+  "safety": "原DB読み取り専用。avg_dataはNPY magic確認後np.load allow_pickle=False。原blobは独立npyとして保管し上書きしない。",
+  "limits": "同じ数が一致しても歴史的平均へのID完全一致や波形再構成を証明しない。選択ID候補として保存。平均は独立ground truthではない。L0測定再現。",
+  "code_sha256": "2cdd6621ac5c2d7d767d76632590b6b852bae6b7db7188dad3e0eb48ed567f82",
+  "db_sha256": "7372499fdd874f057565080d5769baaf2659ef39d9f3bc3c7147dd1e1c280a53",
+  "selection_source_sha256": "bf14570a605082d4943e941c0c0b1c7c8ed2584076342f447313414472ae957a",
+  "schema_sha256": "79cc5767afd9454470629ccf19f49362f749026c92d978abd80c207af70baaa6",
+  "inventory_sha256": "0ae0a765466acad500d300b5009c81649903544473b0d5b94650f700d78f476a"
+}

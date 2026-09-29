@@ -1,0 +1,19 @@
+{
+  "question": "Does within-trial structural covariance contribution distinguish actual repeat alignment from per-cell circular repeat shifts?",
+  "method": "Same LOO condition-time residual, subtract each57-point trial mean. Normalize by original total residual SD products, fixed per-scan field-distance weights. 999 independent per-cell circular shifts; same shift for all conditions and within-trial samples.",
+  "selection": "Eighth scan6/7; both timings; all10/first5/last5; all58 registered targets. All6 scenarios; no favorable selection.",
+  "seed": 20260906,
+  "draws": 999,
+  "inputs": [
+    {
+      "scan": "6_7",
+      "path": "C:\\dev\\ce\\ce-agi-runtime\\data\\external\\microns_functional_nwb\\scan_6_7_repeated_clips.npz",
+      "sha256": "e3ccf891a622b4b7f653b1181cad79a88357e1de826f1e555a381376116c4190",
+      "pairs_sha256": "4f117605ea9aa1512ae142fb413c4508557f0200b08a006ce5bc7a74dadd2c21",
+      "previous_result_sha256": "fb8586503447303d97e18a69f9b5a7b3799b6ceefca1aa77c11f9b474090362f"
+    }
+  ],
+  "code_sha256": "998f8a567304983315181bce30f2e57be8725aefac1ac16c7f3780fa8ab6eb05",
+  "weights_sha256": "9cb56cb5972bcfb5e5184715877c530519dff7ac0fa8bc79db59c12e53837e8c",
+  "limits": "Post-observation diagnosis. No repeat exchangeability established, no calibrated p-value, no causal interpretation. Shifts break shared state and direct coupling. Mean over all offsets zero by construction. Same animal."
+}

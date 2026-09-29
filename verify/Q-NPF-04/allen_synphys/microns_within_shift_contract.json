@@ -1,0 +1,26 @@
+{
+  "question": "Does within-trial structural covariance contribution distinguish actual repeat alignment from per-cell circular repeat shifts?",
+  "method": "Same LOO condition-time residual, subtract each57-point trial mean. Normalize by original total residual SD products, fixed per-scan field-distance weights. 999 independent per-cell circular shifts; same shift for all conditions and within-trial samples.",
+  "selection": "Both scans, both timings, all10/first5/last5; scan4/7 include/exclude3151; scan5/3 additionally last_without10. All20 scenarios, no favorable selection.",
+  "seed": 20260906,
+  "draws": 999,
+  "inputs": [
+    {
+      "scan": "4_7",
+      "path": "C:\\dev\\ce\\ce-agi-runtime\\data\\external\\microns_functional_nwb\\scan_4_7_repeated_clips.npz",
+      "sha256": "49e1d0cc7c71c81deb62bebe363a0f3fdc34793a5f66cc766a037c4316913b44",
+      "pairs_sha256": "3963d01f16937f0a0166eb43ed1704036b7f845edfaaf190b06e6275131b35e2",
+      "previous_result_sha256": "8ab9549d3b7d6b4f24d21d296d98587ae37b5ab7e3bd61218f42cab061326e24"
+    },
+    {
+      "scan": "5_3",
+      "path": "C:\\dev\\ce\\ce-agi-runtime\\data\\external\\microns_functional_nwb\\scan_5_3_repeated_clips.npz",
+      "sha256": "f20462b1aa475a9b5ecffdb3d4fb1238a2b96b9c906a6b5884327a72e52f0913",
+      "pairs_sha256": "a5128e89e1e083d35afdd2d87a52e4232b303456d30a4234c5cd34e71a0ee17f",
+      "previous_result_sha256": "7592b7fd9e424fbf52c75bcc920f22de05c699c2c6944cafa36ec22642282f7b"
+    }
+  ],
+  "code_sha256": "6ece40a90e9509d3fb235d668ca2b8ec4cbf60e0d1f184b21e16170ba266128e",
+  "weights_sha256": "9cb56cb5972bcfb5e5184715877c530519dff7ac0fa8bc79db59c12e53837e8c",
+  "limits": "Post-observation diagnosis. No repeat exchangeability established, no calibrated p-value, no causal interpretation. Shifts break shared state and direct coupling. Mean over all offsets zero by construction. Same animal."
+}

@@ -1,0 +1,26 @@
+{
+  "question": "How do all12 fixed event contrasts compare with identically timed patterns in previously command-constant baseline?",
+  "scope": "All20 sweeps, all12 pulses, four fixed starts; post-result exploratory control, no randomization or independent replicates.",
+  "starts_s": [
+    0.1,
+    0.125,
+    0.15,
+    0.175
+  ],
+  "allowed_interval_s": [
+    0.08,
+    0.53
+  ],
+  "timing": "Preserve each actual relative command onset and its detected max-slope delay; no detection on pseudo events.",
+  "windows": "Unchanged post[2,8)ms minus pre[-8,-3)ms for each target; positive-minus-negative contrast.",
+  "summaries": "Mean by pulse at each control start and event; same-sweep range inclusion and event-minus-four-control-mean signs. Not p-values.",
+  "limits": "Overlapping controls, nonexchangeable early baseline and event time; no evidence that all biological input is absent; no causal correction.",
+  "checks": "All control windows contained in command-constant interval; archived DA constancy recomputed; target hashes and actual contrasts reproduced.",
+  "source_sha256": {
+    "train": "31f8ab7e53c87358cf0cdfe4cef02458b7b97125e6163fde34d317b728db030b",
+    "qc": "b7b867e17595435604c02cefb85f7bb8e077d826721fb2579f1f2837c8d53203",
+    "inventory": "fdf5d0b30b5dee6242b940c57c6523ff5e6c963f3b1c0dfe84343ca89e61ff84",
+    "command": "95674f6a7f4d3ac485e1f7742f0bc85c7be7e18e9f3220929372aa2e0d007e9d"
+  },
+  "code_sha256": "65ee4a1a49c09c13c6a4f1749c405317f38d6cc40b10d2a3ab79aed8d026b985"
+}

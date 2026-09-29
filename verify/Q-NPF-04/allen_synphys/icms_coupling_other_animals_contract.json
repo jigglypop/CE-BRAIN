@@ -1,0 +1,14 @@
+{
+  "code_sha256": "19fbb921d5581c4aad573475e9d5a9eb86c93bc94958a9c521f2ed51f7e83ede",
+  "subjects": {
+    "ICMS100": "2023-10-26",
+    "ICMS101": "2023-10-27"
+  },
+  "inputs": {
+    "ICMS100": "0a81599e13db0a8205ca777d30602e2c40063265c34cde80380b1420afd7d14f",
+    "ICMS101": "c89ebe91927c73a963d12b731dfab252edbb08a0970eb97a349177cb67ee5ca3"
+  },
+  "method": "All first-session trials from original fixed external files. Good catch with neither hit nor finite response_time; pre[-.7,-.2),post[.8,1.3) relative trialstart must fit wheel range and avoid every actual electrical train. Post500ms bins1ms; separate Gaussian10ms truncate4; fixed interior100:400 target spikes. Target excluded from population. Compare original PC and PC after removing other-unit events within15 samples of any target spike in same postwindow. Same definition and mean centering as ICMS98.",
+  "gate": "At least2 units with>=50 interior spikes per subject; otherwise UNASSESSED. All eligible censored PCs strictly positive -> DIRECTION_SUPPORTED; any nonpositive -> DIRECTION_FAILED.",
+  "limits": "Other animals, but previously explored datasets; transfer check not blinded confirmatory test. Positive PC is coactivity not direct neural connection. No unit merging."
+}

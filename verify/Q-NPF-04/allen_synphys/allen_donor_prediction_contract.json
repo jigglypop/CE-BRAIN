@@ -1,0 +1,23 @@
+{
+  "question": "Minnie에서 고정한 양방향 의존성 계수가 Allen 상층 E-E의 다른 동물 연결 예측을 개선하는가?",
+  "selection": "기존 양방향 검사 수>10인 190쌍, 공식 이름에서 복원한 59개 donor 그룹",
+  "split": "leave-one-donor-out; 같은 donor의 모든 방향·절편·실험을 함께 제외",
+  "baseline": "방향 공통 logit=절편+표준화 log1p(distance_m/0.0001); 표준화는 학습 자료만; 기울기 ridge 1, 절편 무벌점; 세포별 효과 없음",
+  "models": [
+    "independent",
+    "minnie_frozen",
+    "allen_fitted"
+  ],
+  "dependence": "방향 주변확률 고정; local 상수 logOR ridge1, 학습 자료만; 전이 상수는 기존 Minnie 값",
+  "gamma": 0.3386424856601824,
+  "primary": "모든 가린 쌍의 4상태 logloss; donor 동일가중 평균도 보고",
+  "secondary": "상호연결 logloss/Brier/예측 합, donor별 차이",
+  "limits": "이미 관찰한 3개 상호연결의 탐색적 내부 검증; 표본/검출 차이; 독립 사전등록 확증·인과 검정 아님; 거리 기준선도 새로 설정됨",
+  "gate": "학습 gradient<=1e-5; 모든 쌍 정확히 한번 예측; 가린 donor가 학습 집합에 없음; 확률합과 주변확률 일치",
+  "code_sha256": "7301e2bb55c4ced92fe5ccfaf8cbce65205fa395031e05db5b7259b5e6445a58",
+  "joint_code_sha256": "3096918dfe1bf9114f692bfb450b0bb2ddf64f331be5f79653cbefdb123f6d64",
+  "donor_result_sha256": "adf3f8963f733f1558f118729cbd607a2d8f14971d15ea2e4ad79e8346113b29",
+  "transfer_contract_sha256": "edd6008485f5190c96cb2e6f0eb387090b70ba83318aa11628d9c0a9d7f847ba",
+  "db_sha256": "7372499fdd874f057565080d5769baaf2659ef39d9f3bc3c7147dd1e1c280a53",
+  "table_sha256": "92675aaf6fc7e032fc262cc7666998cb8009ce54e6422146d40d00ff6ae28700"
+}

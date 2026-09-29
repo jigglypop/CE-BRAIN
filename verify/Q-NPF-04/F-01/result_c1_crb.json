@@ -1,0 +1,4541 @@
+{
+ "script": "c1_channel_crb.py",
+ "seed": 20260902,
+ "elapsed_s": 425.9,
+ "named_N": {
+  "mice": 8,
+  "cells_per_mouse": [
+   54,
+   52,
+   33,
+   17,
+   35,
+   62,
+   38,
+   63
+  ],
+  "total_cells": 354,
+  "trials_per_phase": 60,
+  "cue_trials": [
+   20,
+   20,
+   20
+  ],
+  "frame_dt": 0.067,
+  "n_frame": 52
+ },
+ "channel_magnitudes": {
+  "gain_dlog": 0.09531017980432493,
+  "efficacy_dlog": 0.16551443847757333,
+  "delay_dlog": -0.2231435513142097,
+  "DG": 0.1,
+  "DW": 0.18,
+  "VFAC": 1.25
+ },
+ "criteria": {
+  "C_A": "z>=2.0 all channels",
+  "C_B": "pairwise angle>=15deg",
+  "C_C": "|post-fit corr|<=0.90"
+ },
+ "rows": [
+  {
+   "rho0": 0.4,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.03100676225588257,
+    0.08049590366542717,
+    1.8766630338415713
+   ],
+   "z": {
+    "gain": 3.0738514075665155,
+    "efficacy": 2.056184612393655,
+    "delay": 0.11890443158430518
+   },
+   "angle_deg": {
+    "gain-eff": 25.159154710177074,
+    "gain-del": 79.0297408134415,
+    "eff-del": 85.4957952560046
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9095648015008164,
+    "gain-del": 0.28129200904582313,
+    "eff-del": -0.2245360100337389
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.030994902102966057,
+    0.08055185754414781,
+    3.7067482235055156
+   ],
+   "z": {
+    "gain": 3.0750276122086615,
+    "efficacy": 2.0547563212538003,
+    "delay": 0.06019927382690703
+   },
+   "angle_deg": {
+    "gain-eff": 24.954831759594484,
+    "gain-del": 79.8298808631628,
+    "eff-del": 85.89724429287658
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9106124137150677,
+    "gain-del": 0.2654455595661718,
+    "eff-del": -0.21321174796543263
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.03098819734104199,
+    0.08057830353486505,
+    7.365276049762252
+   ],
+   "z": {
+    "gain": 3.075692940618149,
+    "efficacy": 2.054081945345966,
+    "delay": 0.030296698970490414
+   },
+   "angle_deg": {
+    "gain-eff": 24.856322229020755,
+    "gain-del": 80.25248526021765,
+    "eff-del": 86.11599984644752
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9111121977922482,
+    "gain-del": 0.25715385872929963,
+    "eff-del": -0.20731664981950554
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.032387952146512286,
+    0.08482106565455919,
+    2.8464626107307938
+   ],
+   "z": {
+    "gain": 2.9427664760394077,
+    "efficacy": 1.9513364657742522,
+    "delay": 0.07839328381584482
+   },
+   "angle_deg": {
+    "gain-eff": 28.653977946097857,
+    "gain-del": 74.73419926553645,
+    "eff-del": 85.43606054759753
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8907351757642187,
+    "gain-del": 0.4047518694096715,
+    "eff-del": -0.3274545917556392
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.03238451066313841,
+    0.08490178805368574,
+    5.641168012699315
+   ],
+   "z": {
+    "gain": 2.943079202144978,
+    "efficacy": 1.9494811861078118,
+    "delay": 0.03955626756938851
+   },
+   "angle_deg": {
+    "gain-eff": 28.442626851811262,
+    "gain-del": 75.08745048661218,
+    "eff-del": 85.512006425007
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8918370199488741,
+    "gain-del": 0.3970772860841003,
+    "eff-del": -0.32164137284936306
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.03238180743552713,
+    0.08494059305496249,
+    11.231292603970626
+   ],
+   "z": {
+    "gain": 2.943324889881133,
+    "efficacy": 1.9485905681218159,
+    "delay": 0.01986802046590089
+   },
+   "angle_deg": {
+    "gain-eff": 28.337655229288476,
+    "gain-del": 75.27043628219108,
+    "eff-del": 85.55294998603594
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8923757755466273,
+    "gain-del": 0.3930602369132711,
+    "eff-del": -0.3185816081627403
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.035096155922129856,
+    0.0933357958471533,
+    4.768525733520658
+   ],
+   "z": {
+    "gain": 2.715687154336671,
+    "efficacy": 1.7733221962195487,
+    "delay": 0.046795081705359745
+   },
+   "angle_deg": {
+    "gain-eff": 33.00110387009262,
+    "gain-del": 72.25793690913287,
+    "eff-del": 86.68785914398828
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8634974194984232,
+    "gain-del": 0.4713204012026829,
+    "eff-del": -0.38128419488569354
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.03509740832476461,
+    0.09342525397839978,
+    9.473300952302258
+   ],
+   "z": {
+    "gain": 2.7155902487841077,
+    "efficacy": 1.7716241747209036,
+    "delay": 0.023554994445730136
+   },
+   "angle_deg": {
+    "gain-eff": 32.82204942010256,
+    "gain-del": 72.4781621112211,
+    "eff-del": 86.72454547148502
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8646193752696115,
+    "gain-del": 0.4676265151295668,
+    "eff-del": -0.37894419966175236
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.035097409448159915,
+    0.0934691010929805,
+    18.883085080627232
+   ],
+   "z": {
+    "gain": 2.715590161863694,
+    "efficacy": 1.7707930914294778,
+    "delay": 0.01181711305972666
+   },
+   "angle_deg": {
+    "gain-eff": 32.73265276797711,
+    "gain-del": 72.59059421823841,
+    "eff-del": 86.74341076128314
+   },
+   "postfit_corr": {
+    "gain-eff": -0.865171653926558,
+    "gain-del": 0.4657076877037222,
+    "eff-del": -0.37770727644425156
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.028041434189696963,
+    0.0461835558876891,
+    0.6906029698318499
+   ],
+   "z": {
+    "gain": 3.398905318449938,
+    "efficacy": 3.583839210650595,
+    "delay": 0.3231140916879367
+   },
+   "angle_deg": {
+    "gain-eff": 13.19569290198528,
+    "gain-del": 74.81597675021801,
+    "eff-del": 80.71310671233562
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9778338759420194,
+    "gain-del": 0.46520078726942327,
+    "eff-del": -0.424978273707516
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.02798589919328818,
+    0.046136457143402476,
+    1.3466744127142967
+   ],
+   "z": {
+    "gain": 3.405650079207855,
+    "efficacy": 3.58749779947596,
+    "delay": 0.16569970380921664
+   },
+   "angle_deg": {
+    "gain-eff": 12.94665451407347,
+    "gain-del": 75.3432077034457,
+    "eff-del": 80.8894462058802
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9782890823620868,
+    "gain-del": 0.4462291479764358,
+    "eff-del": -0.4071742068754858
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.02795702081853223,
+    0.04611180027841972,
+    2.6605292650639916
+   ],
+   "z": {
+    "gain": 3.4091679661784795,
+    "efficacy": 3.5894161034314234,
+    "delay": 0.0838718649873008
+   },
+   "angle_deg": {
+    "gain-eff": 12.82338815069589,
+    "gain-del": 75.6357263417369,
+    "eff-del": 81.00130686905925
+   },
+   "postfit_corr": {
+    "gain-eff": -0.978512577735022,
+    "gain-del": 0.43598811091871303,
+    "eff-del": -0.39759626819486504
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.03012680574338645,
+    0.049788668983919974,
+    1.2333619599844459
+   ],
+   "z": {
+    "gain": 3.1636337624425312,
+    "efficacy": 3.3243394903974797,
+    "delay": 0.18092300440093337
+   },
+   "angle_deg": {
+    "gain-eff": 16.69105595125838,
+    "gain-del": 73.32318269976768,
+    "eff-del": 82.8713262944382
+   },
+   "postfit_corr": {
+    "gain-eff": -0.970249107042665,
+    "gain-del": 0.5898556342742902,
+    "eff-del": -0.5480451126856927
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.030096835292406556,
+    0.0497854627482009,
+    2.4214472799646893
+   ],
+   "z": {
+    "gain": 3.166784111297301,
+    "efficacy": 3.3245535813274034,
+    "delay": 0.09215296701296082
+   },
+   "angle_deg": {
+    "gain-eff": 16.4785289615646,
+    "gain-del": 73.55173990665004,
+    "eff-del": 82.87355410673085
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9707166211078221,
+    "gain-del": 0.5833253428912418,
+    "eff-del": -0.542036865774734
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.03008042090636602,
+    0.049782040478932366,
+    4.798037752662533
+   ],
+   "z": {
+    "gain": 3.168512172785259,
+    "efficacy": 3.32478212795674,
+    "delay": 0.04650725209287539
+   },
+   "angle_deg": {
+    "gain-eff": 16.371919347485854,
+    "gain-del": 73.67102794319878,
+    "eff-del": 82.87699742936844
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9709454765567282,
+    "gain-del": 0.5798443769903776,
+    "eff-del": -0.5388216550564467
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.03333959862903447,
+    0.05550657205161808,
+    2.285892965003248
+   ],
+   "z": {
+    "gain": 2.8587680633120196,
+    "efficacy": 2.981889033314,
+    "delay": 0.09761767271281341
+   },
+   "angle_deg": {
+    "gain-eff": 20.960905565732702,
+    "gain-del": 72.33596892259617,
+    "eff-del": 85.38964428057082
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9575326589850451,
+    "gain-del": 0.6404711759457662,
+    "eff-del": -0.5954738614444178
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.03332794240952869,
+    0.05553367262254731,
+    4.519377011929602
+   ],
+   "z": {
+    "gain": 2.8597678978548373,
+    "efficacy": 2.9804338640187926,
+    "delay": 0.04937484762284435
+   },
+   "angle_deg": {
+    "gain-eff": 20.78756384908387,
+    "gain-del": 72.48916076387444,
+    "eff-del": 85.38804802694318
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9580644183761161,
+    "gain-del": 0.6380508766249875,
+    "eff-del": -0.5935525460794624
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.033321212437900524,
+    0.055546087805979215,
+    8.986370498404996
+   ],
+   "z": {
+    "gain": 2.860345492588269,
+    "efficacy": 2.9797677030956744,
+    "delay": 0.024831332221814776
+   },
+   "angle_deg": {
+    "gain-eff": 20.70067399688908,
+    "gain-del": 72.56751721848667,
+    "eff-del": 85.3877270054636
+   },
+   "postfit_corr": {
+    "gain-eff": -0.958325904866892,
+    "gain-del": 0.6367713106034517,
+    "eff-del": -0.5925218197941484
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.01976814754467806,
+    0.024288871521493005,
+    0.22631715563680915
+   ],
+   "z": {
+    "gain": 4.8214016811091716,
+    "efficacy": 6.814414507940852,
+    "delay": 0.9859771818284407
+   },
+   "angle_deg": {
+    "gain-eff": 5.558522515106983,
+    "gain-del": 65.37701306845513,
+    "eff-del": 69.47097445925873
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9974739401213949,
+    "gain-del": 0.7453625444735089,
+    "eff-del": -0.7268731557470035
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.019521307229200775,
+    0.023998654708016567,
+    0.4261431862291328
+   ],
+   "z": {
+    "gain": 4.882366671723503,
+    "efficacy": 6.896821529845358,
+    "delay": 0.5236351501681121
+   },
+   "angle_deg": {
+    "gain-eff": 5.34782746851752,
+    "gain-del": 65.35462821203635,
+    "eff-del": 69.22439456197225
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9975608734608484,
+    "gain-del": 0.7325528344640678,
+    "eff-del": -0.7139121023182489
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.019394943995044243,
+    0.02385028792948632,
+    0.8264108676797562
+   ],
+   "z": {
+    "gain": 4.914176593068709,
+    "efficacy": 6.939724961263314,
+    "delay": 0.2700152672734217
+   },
+   "angle_deg": {
+    "gain-eff": 5.241390878428247,
+    "gain-del": 65.3651378602367,
+    "eff-del": 69.12005403197647
+   },
+   "postfit_corr": {
+    "gain-eff": -0.997604299165498,
+    "gain-del": 0.72537978555788,
+    "eff-del": -0.7066700824385268
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.024126104569341802,
+    0.029685701842366213,
+    0.5334542094474657
+   ],
+   "z": {
+    "gain": 3.9505001534910096,
+    "efficacy": 5.575560899872609,
+    "delay": 0.41829935421324066
+   },
+   "angle_deg": {
+    "gain-eff": 8.373621015618479,
+    "gain-del": 69.71082812349502,
+    "eff-del": 76.52768886621853
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9960629733318421,
+    "gain-del": 0.8209743786469619,
+    "eff-del": -0.8059500867723823
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.0239918556555362,
+    0.029534102105727537,
+    1.034083905697891
+   ],
+   "z": {
+    "gain": 3.9726055863599607,
+    "efficacy": 5.604180478724463,
+    "delay": 0.21578863193273737
+   },
+   "angle_deg": {
+    "gain-eff": 8.204665100206142,
+    "gain-del": 69.61061926576357,
+    "eff-del": 76.26513855946801
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9961579696008801,
+    "gain-del": 0.818007018009653,
+    "eff-del": -0.8029040457815135
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.023922238411421437,
+    0.02945533199866605,
+    2.0355450400560997
+   ],
+   "z": {
+    "gain": 3.9841664548757287,
+    "efficacy": 5.619167303395834,
+    "delay": 0.10962348998578772
+   },
+   "angle_deg": {
+    "gain-eff": 8.119407639401356,
+    "gain-del": 69.5616270912712,
+    "eff-del": 76.13362196711533
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9962044633397192,
+    "gain-del": 0.8163888590080127,
+    "eff-del": -0.8012430385141543
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.028862006951690847,
+    0.03559607304737738,
+    1.151977046011303
+   ],
+   "z": {
+    "gain": 3.3022713896457327,
+    "efficacy": 4.649794887691073,
+    "delay": 0.19370485903937035
+   },
+   "angle_deg": {
+    "gain-eff": 11.804336270409047,
+    "gain-del": 74.81406881678214,
+    "eff-del": 84.64450910852544
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9932712709828666,
+    "gain-del": 0.8375567714757802,
+    "eff-del": -0.8260154658648313
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.02879867559000925,
+    0.03553605611418847,
+    2.26487171192422
+   ],
+   "z": {
+    "gain": 3.309533436926164,
+    "efficacy": 4.6576479377937625,
+    "delay": 0.09852370451685691
+   },
+   "angle_deg": {
+    "gain-eff": 11.684963207234196,
+    "gain-del": 74.74413573272189,
+    "eff-del": 84.47020360178269
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9933865385125719,
+    "gain-del": 0.8371718483568633,
+    "eff-del": -0.8255837606408617
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.028765599526544117,
+    0.03550439522642392,
+    4.490638336182056
+   ],
+   "z": {
+    "gain": 3.3133388969131436,
+    "efficacy": 4.661801374788388,
+    "delay": 0.04969083114894675
+   },
+   "angle_deg": {
+    "gain-eff": 11.624503273065372,
+    "gain-del": 74.70983887417539,
+    "eff-del": 84.38265606428459
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9934434152843591,
+    "gain-del": 0.8369401224109512,
+    "eff-del": -0.8253281024445661
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.007683082560801752,
+    0.008818254458361496,
+    0.07315313347845101
+   ],
+   "z": {
+    "gain": 12.405200523366371,
+    "efficacy": 18.76952397542033,
+    "delay": 3.050362174573724
+   },
+   "angle_deg": {
+    "gain-eff": 3.314437061671777,
+    "gain-del": 65.8300981828792,
+    "eff-del": 68.50345656964818
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9993115690377542,
+    "gain-del": 0.8107180361485039,
+    "eff-del": -0.8022008967016171
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.006882149092330849,
+    0.007928548115293402,
+    0.12647317309035142
+   ],
+   "z": {
+    "gain": 13.848897855254869,
+    "efficacy": 20.87575632647193,
+    "delay": 1.7643548102869038
+   },
+   "angle_deg": {
+    "gain-eff": 3.2111831811521028,
+    "gain-del": 66.26759940806986,
+    "eff-del": 68.75097021860813
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9992604420995055,
+    "gain-del": 0.7778937432926266,
+    "eff-del": -0.7685611719223997
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.006492842804669627,
+    0.007495158945140811,
+    0.23468882127538665
+   ],
+   "z": {
+    "gain": 14.679268029680038,
+    "efficacy": 22.082845699340112,
+    "delay": 0.9508060507593177
+   },
+   "angle_deg": {
+    "gain-eff": 3.1640936434112734,
+    "gain-del": 66.5482767813353,
+    "eff-del": 68.93399971352176
+   },
+   "postfit_corr": {
+    "gain-eff": -0.99923175341549,
+    "gain-del": 0.7587539179081456,
+    "eff-del": -0.7489951908185071
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.018475536280508076,
+    0.020605612388204478,
+    0.3274181073158107
+   ],
+   "z": {
+    "gain": 5.158723316999376,
+    "efficacy": 8.03249305865429,
+    "delay": 0.6815247731518308
+   },
+   "angle_deg": {
+    "gain-eff": 5.264293843158093,
+    "gain-del": 69.50234885741834,
+    "eff-del": 74.42074528121701
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9994062214755479,
+    "gain-del": 0.9360889090361068,
+    "eff-del": -0.9322779164589408
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.018199937528497082,
+    0.020315288761541945,
+    0.6275297713710316
+   ],
+   "z": {
+    "gain": 5.236841041629415,
+    "efficacy": 8.147284560921529,
+    "delay": 0.3555903823123548
+   },
+   "angle_deg": {
+    "gain-eff": 5.147395776905081,
+    "gain-del": 69.0430631058441,
+    "eff-del": 73.84843292440101
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9994227109549598,
+    "gain-del": 0.9353865596699363,
+    "eff-del": -0.9315044746136113
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.018054302771893245,
+    0.020161589071976384,
+    1.2277239033305507
+   ],
+   "z": {
+    "gain": 5.279083939630327,
+    "efficacy": 8.209394501925955,
+    "delay": 0.18175385419219198
+   },
+   "angle_deg": {
+    "gain-eff": 5.087260848427953,
+    "gain-del": 68.81352877414729,
+    "eff-del": 73.5604338393987
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9994306456819241,
+    "gain-del": 0.9349494117681971,
+    "eff-del": -0.9310294542877399
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.02447328860414671,
+    0.027110239112966828,
+    0.8022963786101861
+   ],
+   "z": {
+    "gain": 3.8944573958146247,
+    "efficacy": 6.10523713154591,
+    "delay": 0.2781310713389485
+   },
+   "angle_deg": {
+    "gain-eff": 6.2867731205233355,
+    "gain-del": 78.40928382677954,
+    "eff-del": 84.15952578349882
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9989924978788738,
+    "gain-del": 0.9158744603013801,
+    "eff-del": -0.9131183490394875
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.024369449257361005,
+    0.027001797558757548,
+    1.5714862517237396
+   ],
+   "z": {
+    "gain": 3.9110518583236207,
+    "efficacy": 6.129756291869231,
+    "delay": 0.14199522971928447
+   },
+   "angle_deg": {
+    "gain-eff": 6.281938610342964,
+    "gain-del": 78.37629365094172,
+    "eff-del": 84.12939713626857
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9990069406385121,
+    "gain-del": 0.9170219956597538,
+    "eff-del": -0.9142937744082135
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.03,
+   "se": [
+    0.02431563837314836,
+    0.026945569757995204,
+    3.109908146090989
+   ],
+   "z": {
+    "gain": 3.9197070766431326,
+    "efficacy": 6.142547363596289,
+    "delay": 0.0717524572533407
+   },
+   "angle_deg": {
+    "gain-eff": 6.278677595942831,
+    "gain-del": 78.35452794667633,
+    "eff-del": 84.1081291676389
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9990141096117673,
+    "gain-del": 0.9175720232385046,
+    "eff-del": -0.9148556392769385
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.030998905403299245,
+    0.08045230143407585,
+    1.7640308530225437
+   ],
+   "z": {
+    "gain": 3.074630493055441,
+    "efficacy": 2.057298989926336,
+    "delay": 0.12649639938659168
+   },
+   "angle_deg": {
+    "gain-eff": 25.2516462765178,
+    "gain-del": 80.40099900761103,
+    "eff-del": 87.35315196830959
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9104472765172568,
+    "gain-del": 0.2932949070676624,
+    "eff-del": -0.24876845860429955
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.030987172768378823,
+    0.08051624952256518,
+    3.4712296993751326
+   ],
+   "z": {
+    "gain": 3.0757946365983146,
+    "efficacy": 2.055665029842043,
+    "delay": 0.06428371805944692
+   },
+   "angle_deg": {
+    "gain-eff": 25.038367027780012,
+    "gain-del": 81.17295537788095,
+    "eff-del": 87.70573983179709
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9113980901199964,
+    "gain-del": 0.2771021865491916,
+    "eff-del": -0.23672144421266483
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.03098060772802598,
+    0.08054629560116058,
+    6.88464395272442
+   ],
+   "z": {
+    "gain": 3.0764464222599646,
+    "efficacy": 2.0548982078225886,
+    "delay": 0.03241177798684947
+   },
+   "angle_deg": {
+    "gain-eff": 24.9352674178296,
+    "gain-del": 81.57581085306674,
+    "eff-del": 87.89341339225943
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9118474367715927,
+    "gain-del": 0.2686116547026978,
+    "eff-del": -0.23039697011451624
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.032378093074332925,
+    0.08474782684578627,
+    2.7645258989779498
+   ],
+   "z": {
+    "gain": 2.9436625432360666,
+    "efficacy": 1.9530228046880336,
+    "delay": 0.0807167519742558
+   },
+   "angle_deg": {
+    "gain-eff": 28.76666498473212,
+    "gain-del": 75.74235540278363,
+    "eff-del": 86.86466271015965
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8918820895181889,
+    "gain-del": 0.4127540951986561,
+    "eff-del": -0.3455968013245318
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.032374377248572866,
+    0.08483524654807403,
+    5.470519877397108
+   ],
+   "z": {
+    "gain": 2.944000407251893,
+    "efficacy": 1.9510102841957369,
+    "delay": 0.04079019111806649
+   },
+   "angle_deg": {
+    "gain-eff": 28.55248610007288,
+    "gain-del": 76.10706633356052,
+    "eff-del": 86.948744899184
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8929500027647383,
+    "gain-del": 0.4051088957403013,
+    "eff-del": -0.33983477215491303
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.032371539585937296,
+    0.08487726443813835,
+    10.8831296735328
+   ],
+   "z": {
+    "gain": 2.9442584759153427,
+    "efficacy": 1.9500444503393048,
+    "delay": 0.020503619639567754
+   },
+   "angle_deg": {
+    "gain-eff": 28.44599049226641,
+    "gain-del": 76.2950432108415,
+    "eff-del": 86.99272895574994
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8934706547539573,
+    "gain-del": 0.40110126492305365,
+    "eff-del": -0.3367885097353894
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.03508933589053553,
+    0.0932576609726184,
+    4.7131935457811895
+   ],
+   "z": {
+    "gain": 2.7162149805756934,
+    "efficacy": 1.7748079541279769,
+    "delay": 0.04734444897005067
+   },
+   "angle_deg": {
+    "gain-eff": 33.07601554152092,
+    "gain-del": 72.79406277833311,
+    "eff-del": 87.48297091680217
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8644387770317137,
+    "gain-del": 0.4750472240883764,
+    "eff-del": -0.39122112104442963
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.03509040976769588,
+    0.09335131353708799,
+    9.358828964643566
+   ],
+   "z": {
+    "gain": 2.7161318558345013,
+    "efficacy": 1.7730274187498745,
+    "delay": 0.023843106029313808
+   },
+   "angle_deg": {
+    "gain-eff": 32.896733989107595,
+    "gain-del": 73.02239463384501,
+    "eff-del": 87.52834303169497
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8655500868348706,
+    "gain-del": 0.4713928680286822,
+    "eff-del": -0.3889663121191189
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.03509031705324578,
+    0.09339721822383372,
+    18.65028114450299
+   ],
+   "z": {
+    "gain": 2.7161390323063195,
+    "efficacy": 1.7721559766470245,
+    "delay": 0.011964621315104375
+   },
+   "angle_deg": {
+    "gain-eff": 32.80719411085976,
+    "gain-del": 73.13877006854986,
+    "eff-del": 87.5513731494334
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8660966423732093,
+    "gain-del": 0.4694931254907695,
+    "eff-del": -0.38776997310827793
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.02799150130119787,
+    0.04613673822819606,
+    0.6239082212213748
+   ],
+   "z": {
+    "gain": 3.404968485925627,
+    "efficacy": 3.5874759429009795,
+    "delay": 0.3576544493633688
+   },
+   "angle_deg": {
+    "gain-eff": 13.423086265956625,
+    "gain-del": 78.61536417155713,
+    "eff-del": 85.10661194778025
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9785956547689918,
+    "gain-del": 0.49470760146420867,
+    "eff-del": -0.4688628057043533
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.027936862520516244,
+    0.04609432698514257,
+    1.2066803967853617
+   ],
+   "z": {
+    "gain": 3.4116279068320985,
+    "efficacy": 3.590776768059181,
+    "delay": 0.18492349085032944
+   },
+   "angle_deg": {
+    "gain-eff": 13.161163404538195,
+    "gain-del": 79.17319804551991,
+    "eff-del": 85.30108204311037
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9790043044941709,
+    "gain-del": 0.47624791024124846,
+    "eff-del": -0.4515656013303972
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.027908509512486433,
+    0.04607186452100484,
+    2.3734743545959818
+   ],
+   "z": {
+    "gain": 3.4150938716982573,
+    "efficacy": 3.592527461138736,
+    "delay": 0.09401557294356935
+   },
+   "angle_deg": {
+    "gain-eff": 13.030674239051352,
+    "gain-del": 79.47412182928224,
+    "eff-del": 85.41365511807264
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9792023931558668,
+    "gain-del": 0.46619337696048363,
+    "eff-del": -0.4421454339799592
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.03006419444891922,
+    0.04972249270594217,
+    1.1796941717197427
+   ],
+   "z": {
+    "gain": 3.170222304351522,
+    "efficacy": 3.3287638947713747,
+    "delay": 0.18915372870657993
+   },
+   "angle_deg": {
+    "gain-eff": 16.879087255466782,
+    "gain-del": 75.7080047521242,
+    "eff-del": 85.6664459896284
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9710085806757337,
+    "gain-del": 0.6029099715445528,
+    "eff-del": -0.5710200423066377
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.03003329553785982,
+    0.04972165023279519,
+    2.310233104535669
+   ],
+   "z": {
+    "gain": 3.1734838983679765,
+    "efficacy": 3.3288202966442175,
+    "delay": 0.09658919304554725
+   },
+   "angle_deg": {
+    "gain-eff": 16.667187615429157,
+    "gain-del": 75.983886010817,
+    "eff-del": 85.7191408024481
+   },
+   "postfit_corr": {
+    "gain-eff": -0.971460351750522,
+    "gain-del": 0.5967770880632787,
+    "eff-del": -0.5655377934151975
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.0300164243711052,
+    0.0497193568622705,
+    4.571614366807126
+   ],
+   "z": {
+    "gain": 3.175267601029577,
+    "efficacy": 3.3289738428449756,
+    "delay": 0.0488106680507385
+   },
+   "angle_deg": {
+    "gain-eff": 16.560700898432238,
+    "gain-del": 76.12623051448297,
+    "eff-del": 85.74697501606862
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9716808285069584,
+    "gain-del": 0.593495600720957,
+    "eff-del": -0.5625842729681817
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.03329936454502336,
+    0.05545723507850592,
+    2.2488748383189865
+   ],
+   "z": {
+    "gain": 2.862222180710328,
+    "efficacy": 2.984541840992778,
+    "delay": 0.09922453109084874
+   },
+   "angle_deg": {
+    "gain-eff": 21.046724831691165,
+    "gain-del": 73.46343734791081,
+    "eff-del": 86.71887400939438
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9581328717858406,
+    "gain-del": 0.6448652198224974,
+    "eff-del": -0.6053414332568671
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.03328693234111462,
+    0.05548562991768437,
+    4.443148347518245
+   ],
+   "z": {
+    "gain": 2.8632911806835923,
+    "efficacy": 2.983014498044305,
+    "delay": 0.05022194486007839
+   },
+   "angle_deg": {
+    "gain-eff": 20.875013949235054,
+    "gain-del": 73.63775535158933,
+    "eff-del": 86.74101414079556
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9586583862447227,
+    "gain-del": 0.6425543653103627,
+    "eff-del": -0.6035946445355763
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.03327980487998123,
+    0.05549866833751788,
+    8.831674385562302
+   ],
+   "z": {
+    "gain": 2.8639044053307168,
+    "efficacy": 2.9823136921230096,
+    "delay": 0.025266279254927766
+   },
+   "angle_deg": {
+    "gain-eff": 20.788918501615214,
+    "gain-del": 73.72666956516852,
+    "eff-del": 86.75252874568064
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9589165986902359,
+    "gain-del": 0.6413302322759443,
+    "eff-del": -0.6026518190996929
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.01944370984241425,
+    0.023971380223929903,
+    0.1938387093199986
+   ],
+   "z": {
+    "gain": 4.901851579600133,
+    "efficacy": 6.904668689554441,
+    "delay": 1.151181578215284
+   },
+   "angle_deg": {
+    "gain-eff": 6.018527912857558,
+    "gain-del": 76.79178294642635,
+    "eff-del": 81.5242645171582
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9978162801307212,
+    "gain-del": 0.7898597788787647,
+    "eff-del": -0.7821644562572931
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.01920256235118968,
+    0.02368838202183752,
+    0.3603728479080099
+   ],
+   "z": {
+    "gain": 4.963409469071197,
+    "efficacy": 6.987156755788182,
+    "delay": 0.6192018977277949
+   },
+   "angle_deg": {
+    "gain-eff": 5.806656655951464,
+    "gain-del": 77.10144084290995,
+    "eff-del": 81.6147707453957
+   },
+   "postfit_corr": {
+    "gain-eff": -0.997894852286929,
+    "gain-del": 0.7807531939311675,
+    "eff-del": -0.7732002800737322
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.01907935009361911,
+    0.023543846848667973,
+    0.6939920735285903
+   ],
+   "z": {
+    "gain": 4.995462598917372,
+    "efficacy": 7.030050761944094,
+    "delay": 0.3215361670914198
+   },
+   "angle_deg": {
+    "gain-eff": 5.697922366421554,
+    "gain-del": 77.26963278570449,
+    "eff-del": 81.66884083801915
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9979332802275002,
+    "gain-del": 0.7755287797276057,
+    "eff-del": -0.768048016431056
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.02372982083750594,
+    0.02928981588912466,
+    0.4954241675411524
+   ],
+   "z": {
+    "gain": 4.0164727941680605,
+    "efficacy": 5.650921095035938,
+    "delay": 0.4504090957485926
+   },
+   "angle_deg": {
+    "gain-eff": 8.612693314088567,
+    "gain-del": 75.88699962229863,
+    "eff-del": 83.0188389627566
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9963226964088588,
+    "gain-del": 0.8319379396386947,
+    "eff-del": -0.8231003492685488
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.02358931248254016,
+    0.02913285106560765,
+    0.9565062513226488
+   ],
+   "z": {
+    "gain": 4.04039667857508,
+    "efficacy": 5.681367680246336,
+    "delay": 0.23329021739863037
+   },
+   "angle_deg": {
+    "gain-eff": 8.454793283283994,
+    "gain-del": 75.99588415827225,
+    "eff-del": 82.97875132687442
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9964170679643654,
+    "gain-del": 0.8297510862258198,
+    "eff-del": -0.8210079916731367
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.023516535462222043,
+    0.029051360692195893,
+    1.878809145671282
+   ],
+   "z": {
+    "gain": 4.052900562560979,
+    "efficacy": 5.6973041721256,
+    "delay": 0.11876861033401158
+   },
+   "angle_deg": {
+    "gain-eff": 8.375027631237344,
+    "gain-del": 76.05395412332705,
+    "eff-del": 82.96097192840804
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9964631629790646,
+    "gain-del": 0.8285448473926669,
+    "eff-del": -0.8198485699823553
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.028606784384888083,
+    0.035344748332353765,
+    1.1200156002423087
+   ],
+   "z": {
+    "gain": 3.331733428056102,
+    "efficacy": 4.682858028050103,
+    "delay": 0.1992325386056533
+   },
+   "angle_deg": {
+    "gain-eff": 11.835100990107788,
+    "gain-del": 77.27149161045617,
+    "eff-del": 87.15938459570465
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9934268786622293,
+    "gain-del": 0.8388215064793842,
+    "eff-del": -0.8302195187955826
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.02853797025659345,
+    0.03527970271364591,
+    2.199720327952117
+   ],
+   "z": {
+    "gain": 3.339767297651603,
+    "efficacy": 4.691491870580691,
+    "delay": 0.10144178261149707
+   },
+   "angle_deg": {
+    "gain-eff": 11.720217671569504,
+    "gain-del": 77.26855329097913,
+    "eff-del": 87.05700351438598
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9935419152868707,
+    "gain-del": 0.8385364817708479,
+    "eff-del": -0.8299470903413569
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.02850211584331734,
+    0.03524548623937892,
+    4.359080960244711
+   ],
+   "z": {
+    "gain": 3.3439685786229636,
+    "efficacy": 4.696046391683713,
+    "delay": 0.051190503995980574
+   },
+   "angle_deg": {
+    "gain-eff": 11.662057103493641,
+    "gain-del": 77.26842739208276,
+    "eff-del": 87.00614920966491
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9935986497932345,
+    "gain-del": 0.8383567644920588,
+    "eff-del": -0.829773837038293
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.007096793260379179,
+    0.00817197377465562,
+    0.060314449573244784
+   ],
+   "z": {
+    "gain": 13.430034708272247,
+    "efficacy": 20.2539120953736,
+    "delay": 3.699669861750594
+   },
+   "angle_deg": {
+    "gain-eff": 3.5817634470656996,
+    "gain-del": 84.10423665822131,
+    "eff-del": 87.10612358749063
+   },
+   "postfit_corr": {
+    "gain-eff": -0.999415016340235,
+    "gain-del": 0.8387358046606515,
+    "eff-del": -0.8373049483481307
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.006413508283633513,
+    0.0074094022499471045,
+    0.1043944563897348
+   ],
+   "z": {
+    "gain": 14.860849255865908,
+    "efficacy": 22.338433370756047,
+    "delay": 2.1375038391037746
+   },
+   "angle_deg": {
+    "gain-eff": 3.484067859095368,
+    "gain-del": 84.7355304781184,
+    "eff-del": 87.57677074711049
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9993778394846039,
+    "gain-del": 0.8160945329688514,
+    "eff-del": -0.8147249889781745
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.006077638744536655,
+    0.007033761108452478,
+    0.1937394026457624
+   ],
+   "z": {
+    "gain": 15.682106786949404,
+    "efficacy": 23.531427343853696,
+    "delay": 1.1517716492716277
+   },
+   "angle_deg": {
+    "gain-eff": 3.438368198977623,
+    "gain-del": 85.06500978865927,
+    "eff-del": 87.82379248436963
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9993560191730296,
+    "gain-del": 0.802930148792742,
+    "eff-del": -0.8016008933613993
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.016647006871407664,
+    0.018662793237073313,
+    0.2767500368096461
+   ],
+   "z": {
+    "gain": 5.7253643577228575,
+    "efficacy": 8.868685216357742,
+    "delay": 0.8062999878395393
+   },
+   "angle_deg": {
+    "gain-eff": 5.306339208497342,
+    "gain-del": 80.25620106253025,
+    "eff-del": 85.18957645652775
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9994085153940816,
+    "gain-del": 0.9304225195875754,
+    "eff-del": -0.9288152902606546
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.01633379678682443,
+    0.018329848879031174,
+    0.5263170384816352
+   ],
+   "z": {
+    "gain": 5.835151560181426,
+    "efficacy": 9.029776490242488,
+    "delay": 0.4239717413632541
+   },
+   "angle_deg": {
+    "gain-eff": 5.204138938643533,
+    "gain-del": 80.25962012814986,
+    "eff-del": 85.09404793300195
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9994250861910157,
+    "gain-del": 0.9296676369624007,
+    "eff-del": -0.9280649825931804
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.01617108502581242,
+    0.01815662159004349,
+    1.0255973341106546
+   ],
+   "z": {
+    "gain": 5.893864243010907,
+    "efficacy": 9.115927082400402,
+    "delay": 0.21757423102869936
+   },
+   "angle_deg": {
+    "gain-eff": 5.1516392234744615,
+    "gain-del": 80.26818697611846,
+    "eff-del": 85.05148618241061
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9994330944941252,
+    "gain-del": 0.9292098039742147,
+    "eff-del": -0.9276097890707915
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.023597254104239095,
+    0.026197580527100642,
+    0.7546555259468649
+   ],
+   "z": {
+    "gain": 4.039036888923575,
+    "efficacy": 6.317928417334318,
+    "delay": 0.29568928291385915
+   },
+   "angle_deg": {
+    "gain-eff": 6.24600331675822,
+    "gain-del": 81.81522841704097,
+    "eff-del": 87.50490204266806
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9989791191476706,
+    "gain-del": 0.9116419896085819,
+    "eff-del": -0.9099030619751504
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.02346566780406176,
+    0.026059966135708126,
+    1.4749289726522887
+   ],
+   "z": {
+    "gain": 4.061686230290337,
+    "efficacy": 6.351291387550217,
+    "delay": 0.1512910488923017
+   },
+   "angle_deg": {
+    "gain-eff": 6.240649091792654,
+    "gain-del": 81.91706198970353,
+    "eff-del": 87.60874018484512
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9989932379774503,
+    "gain-del": 0.9127192055782261,
+    "eff-del": -0.9110355423728957
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "counts",
+   "sig_jit": 0.0,
+   "se": [
+    0.023397660040140343,
+    0.02598880293271178,
+    2.91550047292905
+   ],
+   "z": {
+    "gain": 4.073491949229691,
+    "efficacy": 6.368682655607903,
+    "delay": 0.0765369628254696
+   },
+   "angle_deg": {
+    "gain-eff": 6.2371824712051165,
+    "gain-del": 81.96491285088,
+    "eff-del": 87.6567058834384
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9990002387639589,
+    "gain-del": 0.9132326058246386,
+    "eff-del": -0.9115748595908649
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005508208590882423,
+    0.014149397485996754,
+    0.8481426865857309
+   ],
+   "z": {
+    "gain": 17.30329892772926,
+    "efficacy": 11.697631552253595,
+    "delay": 0.26309671101745
+   },
+   "angle_deg": {
+    "gain-eff": 26.528712700342343,
+    "gain-del": 74.0762210506449,
+    "eff-del": 77.96425628383922
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8904954313397863,
+    "gain-del": 0.2009752614112549,
+    "eff-del": -0.08602755036934309
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005502046220158219,
+    0.01414806742018893,
+    1.6961876458680285
+   ],
+   "z": {
+    "gain": 17.32267887084092,
+    "efficacy": 11.69873125154807,
+    "delay": 0.13155593477985475
+   },
+   "angle_deg": {
+    "gain-eff": 26.44108619774807,
+    "gain-del": 74.84627820144507,
+    "eff-del": 78.49686469614198
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8915480473088582,
+    "gain-del": 0.18987552162905222,
+    "eff-del": -0.08060306124414639
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005498906224500827,
+    0.01414741748800911,
+    3.3927378986443717
+   ],
+   "z": {
+    "gain": 17.332570499140832,
+    "efficacy": 11.69926869111327,
+    "delay": 0.06577093721367945
+   },
+   "angle_deg": {
+    "gain-eff": 26.39885603925211,
+    "gain-del": 75.25569168242991,
+    "eff-del": 78.78397438502776
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8920685180595873,
+    "gain-del": 0.18407641479816958,
+    "eff-del": -0.07781226904750094
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005670714921851815,
+    0.014586052188321201,
+    0.9739019609922347
+   ],
+   "z": {
+    "gain": 16.807436296445083,
+    "efficacy": 11.347445925779551,
+    "delay": 0.2291232179950287
+   },
+   "angle_deg": {
+    "gain-eff": 28.379120275966244,
+    "gain-del": 71.40104003933354,
+    "eff-del": 77.72275667968522
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8767977434801836,
+    "gain-del": 0.28390451183901994,
+    "eff-del": -0.1508831618340787
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005667243743650575,
+    0.01458661549751911,
+    1.9446152514799213
+   ],
+   "z": {
+    "gain": 16.817730825695975,
+    "efficacy": 11.347007707560675,
+    "delay": 0.1147494606680625
+   },
+   "angle_deg": {
+    "gain-eff": 28.27561852797578,
+    "gain-del": 71.75313799443116,
+    "eff-del": 77.90290746963015
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8777051736488937,
+    "gain-del": 0.2775268658066568,
+    "eff-del": -0.14710604431496355
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005665440782320953,
+    0.014586873264358056,
+    3.886247310147344
+   ],
+   "z": {
+    "gain": 16.823082874988476,
+    "efficacy": 11.346807192874952,
+    "delay": 0.05741877279182971
+   },
+   "angle_deg": {
+    "gain-eff": 28.22456701643682,
+    "gain-del": 71.93674605716302,
+    "eff-del": 77.99926554658238
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8781567891718037,
+    "gain-del": 0.27424678885005443,
+    "eff-del": -0.14517992357807633
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005934881982048515,
+    0.015408979434385779,
+    1.2240935896293856
+   ],
+   "z": {
+    "gain": 16.059321835314268,
+    "efficacy": 10.741427696906452,
+    "delay": 0.1822928844695364
+   },
+   "angle_deg": {
+    "gain-eff": 31.506991102952853,
+    "gain-del": 70.5389111502176,
+    "eff-del": 79.93339381734955
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8556459450797217,
+    "gain-del": 0.35786554444199375,
+    "eff-del": -0.22173139616826024
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005933237882572938,
+    0.015411912961946377,
+    2.4423824577017834
+   ],
+   "z": {
+    "gain": 16.06377187138734,
+    "efficacy": 10.739383156798626,
+    "delay": 0.09136306666900229
+   },
+   "angle_deg": {
+    "gain-eff": 31.3977070442235,
+    "gain-del": 70.72598332939464,
+    "eff-del": 79.98165951299204
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8564813996497515,
+    "gain-del": 0.3539666608530969,
+    "eff-del": -0.21918336992864945
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005932375962011744,
+    0.015413353845498027,
+    4.879069089839248
+   ],
+   "z": {
+    "gain": 16.06610579212246,
+    "efficacy": 10.738379209137356,
+    "delay": 0.04573486195940744
+   },
+   "angle_deg": {
+    "gain-eff": 31.343407002171105,
+    "gain-del": 70.82197884434441,
+    "eff-del": 80.00767166169042
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8568966956405413,
+    "gain-del": 0.3519785893692074,
+    "eff-del": -0.21788748148547915
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005176244877839926,
+    0.008396808831099114,
+    0.3129203268977513
+   ],
+   "z": {
+    "gain": 18.41299669039197,
+    "efficacy": 19.71158827203025,
+    "delay": 0.7131002115663879
+   },
+   "angle_deg": {
+    "gain-eff": 12.754627567687294,
+    "gain-del": 63.90044012609652,
+    "eff-del": 67.28136448823828
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9723125650147492,
+    "gain-del": 0.3106164333667033,
+    "eff-del": -0.21623022411606838
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005163845322308963,
+    0.008384665132148184,
+    0.6242026705189825
+   ],
+   "z": {
+    "gain": 18.45721044210285,
+    "efficacy": 19.740137008330095,
+    "delay": 0.3574857363693764
+   },
+   "angle_deg": {
+    "gain-eff": 12.646874638270825,
+    "gain-del": 64.52058880330262,
+    "eff-del": 67.72063292086997
+   },
+   "postfit_corr": {
+    "gain-eff": -0.972822370870344,
+    "gain-del": 0.2974483019436886,
+    "eff-del": -0.2055508516643304
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005157381899626454,
+    0.008378521575643519,
+    1.2471311085736874
+   ],
+   "z": {
+    "gain": 18.480341704233343,
+    "efficacy": 19.754611476889448,
+    "delay": 0.17892549530691557
+   },
+   "angle_deg": {
+    "gain-eff": 12.594175929718084,
+    "gain-del": 64.87470476255902,
+    "eff-del": 67.98142150569589
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9730844978886554,
+    "gain-del": 0.29045466268598097,
+    "eff-del": -0.19996475934949412
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.0054344233085094505,
+    0.00883893084724473,
+    0.3845989592351595
+   ],
+   "z": {
+    "gain": 17.53823255819697,
+    "efficacy": 18.725617536556186,
+    "delay": 0.580198011346595
+   },
+   "angle_deg": {
+    "gain-eff": 14.74689858194806,
+    "gain-del": 64.5315126424779,
+    "eff-del": 70.16051692001083
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9668900906675919,
+    "gain-del": 0.4251892078889858,
+    "eff-del": -0.3327209991833672
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005427891962424805,
+    0.008832954025227933,
+    0.7652093825955949
+   ],
+   "z": {
+    "gain": 17.55933619609978,
+    "efficacy": 18.738288233454522,
+    "delay": 0.29161110199316354
+   },
+   "angle_deg": {
+    "gain-eff": 14.62674395304557,
+    "gain-del": 64.70813757205241,
+    "eff-del": 70.18788018647882
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9672727959717011,
+    "gain-del": 0.4178780199212917,
+    "eff-del": -0.32606947594148084
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005424499031705129,
+    0.008829868485933619,
+    1.5265908077311277
+   ],
+   "z": {
+    "gain": 17.570319258470818,
+    "efficacy": 18.74483620466662,
+    "delay": 0.1461711613774574
+   },
+   "angle_deg": {
+    "gain-eff": 14.567183651156773,
+    "gain-del": 64.80479495267807,
+    "eff-del": 70.20919525255098
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9674644194488486,
+    "gain-del": 0.4141018443736698,
+    "eff-del": -0.3226539939558129
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005775701825969627,
+    0.009447185661758815,
+    0.5290550983939545
+   ],
+   "z": {
+    "gain": 16.501921788236398,
+    "efficacy": 17.519973080190205,
+    "delay": 0.4217775275044199
+   },
+   "angle_deg": {
+    "gain-eff": 18.141341565100475,
+    "gain-del": 66.67205544817304,
+    "eff-del": 75.55690307049962
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9575932955478792,
+    "gain-del": 0.5272364061088632,
+    "eff-del": -0.4438144936092624
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005772615221819305,
+    0.009446534267116825,
+    1.0520731417282991
+   ],
+   "z": {
+    "gain": 16.510745328057194,
+    "efficacy": 17.521181186387626,
+    "delay": 0.21209889546998545
+   },
+   "angle_deg": {
+    "gain-eff": 18.01501429352198,
+    "gain-del": 66.74324091379813,
+    "eff-del": 75.49470869100546
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9579720949003973,
+    "gain-del": 0.5232387351848041,
+    "eff-del": -0.44001852647888123
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005771005211593695,
+    0.009446140895328596,
+    2.0981791304697404
+   ],
+   "z": {
+    "gain": 16.515351539251945,
+    "efficacy": 17.52191083232998,
+    "delay": 0.10635104890412876
+   },
+   "angle_deg": {
+    "gain-eff": 17.95203759531324,
+    "gain-del": 66.78117238130186,
+    "eff-del": 75.46555659633759
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9581604883656735,
+    "gain-del": 0.5211883954463729,
+    "eff-del": -0.4380766639613079
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.0043621491298887795,
+    0.005337711868642954,
+    0.08891040343576279
+   ],
+   "z": {
+    "gain": 21.849363001203727,
+    "efficacy": 31.00849999976737,
+    "delay": 2.509757493963342
+   },
+   "angle_deg": {
+    "gain-eff": 4.138026196069111,
+    "gain-del": 46.225530414456735,
+    "eff-del": 48.37433415004097
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9964729621962268,
+    "gain-del": 0.5430563191563974,
+    "eff-del": -0.49433533681669284
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.004331989719913201,
+    0.005301285185609272,
+    0.174631860687294
+   ],
+   "z": {
+    "gain": 22.00147875841096,
+    "efficacy": 31.22156848435063,
+    "delay": 1.2777940430571462
+   },
+   "angle_deg": {
+    "gain-eff": 4.027384107811895,
+    "gain-del": 45.79976320795542,
+    "eff-del": 47.82691089208259
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9965301500303413,
+    "gain-del": 0.5274297379843655,
+    "eff-del": -0.4781240104980898
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.00431644515135166,
+    0.005282601112030933,
+    0.34629447258711066
+   ],
+   "z": {
+    "gain": 22.080711433221694,
+    "efficacy": 31.331996296411663,
+    "delay": 0.6443751459477245
+   },
+   "angle_deg": {
+    "gain-eff": 3.972786596931311,
+    "gain-del": 45.60542376047462,
+    "eff-del": 47.57196292237563
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9965606706908108,
+    "gain-del": 0.5192331581944792,
+    "eff-del": -0.46966747870675934
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.00487563899418438,
+    0.005978306701233067,
+    0.13967648958387932
+   ],
+   "z": {
+    "gain": 19.5482438133771,
+    "efficacy": 27.685839276769595,
+    "delay": 1.5975741656952673
+   },
+   "angle_deg": {
+    "gain-eff": 6.1409395733167536,
+    "gain-del": 55.67430406981825,
+    "eff-del": 59.902063168663304
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9957772828969378,
+    "gain-del": 0.7054968283425522,
+    "eff-del": -0.6698908206837861
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.0048607888754406674,
+    0.005961266340541001,
+    0.2747055857412441
+   ],
+   "z": {
+    "gain": 19.607965341980492,
+    "efficacy": 27.764979623868385,
+    "delay": 0.8123007426736394
+   },
+   "angle_deg": {
+    "gain-eff": 6.013363950897212,
+    "gain-del": 55.358475984201355,
+    "eff-del": 59.454904701893454
+   },
+   "postfit_corr": {
+    "gain-eff": -0.995839770613026,
+    "gain-del": 0.6984961653037703,
+    "eff-del": -0.6624505419748975
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.004853144049384679,
+    0.005952490746451228,
+    0.5448519931189052
+   ],
+   "z": {
+    "gain": 19.638852429366718,
+    "efficacy": 27.80591277294302,
+    "delay": 0.4095489309617194
+   },
+   "angle_deg": {
+    "gain-eff": 5.949869084346212,
+    "gain-del": 55.20251379510412,
+    "eff-del": 59.2332522701326
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9958708718519638,
+    "gain-del": 0.6948423601402646,
+    "eff-del": -0.658576424765506
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005367349845735618,
+    0.006587185167044256,
+    0.24037462641257287
+   ],
+   "z": {
+    "gain": 17.757400308096045,
+    "efficacy": 25.12673232652446,
+    "delay": 0.9283157488145684
+   },
+   "angle_deg": {
+    "gain-eff": 9.203504381637385,
+    "gain-del": 66.03423394376428,
+    "eff-del": 73.20040127415396
+   },
+   "postfit_corr": {
+    "gain-eff": -0.994213403634583,
+    "gain-del": 0.789511235139919,
+    "eff-del": -0.7658874030625261
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005361043968956758,
+    0.006580993697002665,
+    0.47474894974108206
+   ],
+   "z": {
+    "gain": 17.77828728065291,
+    "efficacy": 25.150371828035244,
+    "delay": 0.47002431798091904
+   },
+   "angle_deg": {
+    "gain-eff": 9.104927700316868,
+    "gain-del": 65.81274480812965,
+    "eff-del": 72.88549086235132
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9942758431384764,
+    "gain-del": 0.7878142137542268,
+    "eff-del": -0.7639389980140935
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005357779522843243,
+    0.0065777723958409424,
+    0.9435381579688966
+   ],
+   "z": {
+    "gain": 17.789119428667,
+    "efficacy": 25.16268859990145,
+    "delay": 0.23649658408575516
+   },
+   "angle_deg": {
+    "gain-eff": 9.055005731907777,
+    "gain-del": 65.70103921215053,
+    "eff-del": 72.7262420557386
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9943068753363746,
+    "gain-del": 0.78691459010569,
+    "eff-del": -0.7629107481643259
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.0025804543712923352,
+    0.002911705260331654,
+    0.031290192119793454
+   ],
+   "z": {
+    "gain": 36.93542535169571,
+    "efficacy": 56.84450302456803,
+    "delay": 7.131421579641061
+   },
+   "angle_deg": {
+    "gain-eff": 2.186618140319848,
+    "gain-del": 40.25646147584208,
+    "eff-del": 41.79122730119346
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9991422136780451,
+    "gain-del": 0.7128084558110404,
+    "eff-del": -0.6905426891131722
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.002314186641381705,
+    0.0026192655823151587,
+    0.056710473572466766
+   ],
+   "z": {
+    "gain": 41.18517413419134,
+    "efficacy": 63.19116304780203,
+    "delay": 3.9347855388488076
+   },
+   "angle_deg": {
+    "gain-eff": 2.1460796477428277,
+    "gain-del": 39.10067990752279,
+    "eff-del": 40.48413341965382
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9989989270244553,
+    "gain-del": 0.6575537576564582,
+    "eff-del": -0.6312614401064202
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.002180300475078665,
+    0.002472168792673997,
+    0.10798643213814317
+   ],
+   "z": {
+    "gain": 43.71424071761768,
+    "efficacy": 66.95110745190917,
+    "delay": 2.0664035925249404
+   },
+   "angle_deg": {
+    "gain-eff": 2.134941034899924,
+    "gain-del": 38.53801574843881,
+    "eff-del": 39.84286192529756
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9989106701993395,
+    "gain-del": 0.625262765676656,
+    "eff-del": -0.5966206785824302
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.004613602691893943,
+    0.005123116534244761,
+    0.08830960106980706
+   ],
+   "z": {
+    "gain": 20.658514867737537,
+    "efficacy": 32.30737332856184,
+    "delay": 2.526832287893804
+   },
+   "angle_deg": {
+    "gain-eff": 3.900622203048307,
+    "gain-del": 58.33084782235556,
+    "eff-del": 61.89088468039706
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9994848321385517,
+    "gain-del": 0.9158389053530497,
+    "eff-del": -0.9092951212303269
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.0045895139331979,
+    0.005098118208213284,
+    0.17138401706927414
+   ],
+   "z": {
+    "gain": 20.76694421056356,
+    "efficacy": 32.46579065407361,
+    "delay": 1.3020091087257812
+   },
+   "angle_deg": {
+    "gain-eff": 3.799245943583862,
+    "gain-del": 57.578698208381084,
+    "eff-del": 61.039539426995155
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9994936883925736,
+    "gain-del": 0.9141653131893416,
+    "eff-del": -0.9074576366625731
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.0045763395474292855,
+    0.005084409960818788,
+    0.337527072001849
+   ],
+   "z": {
+    "gain": 20.826728177952727,
+    "efficacy": 32.553322755846196,
+    "delay": 0.661113047883126
+   },
+   "angle_deg": {
+    "gain-eff": 3.7470207838103105,
+    "gain-del": 57.19052823008831,
+    "eff-del": 60.60003899730332
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9994979115339456,
+    "gain-del": 0.9132073061793916,
+    "eff-del": -0.9064105502511761
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005108049189921558,
+    0.005653218865834514,
+    0.1793311186671571
+   ],
+   "z": {
+    "gain": 18.65882184384144,
+    "efficacy": 29.277910939883714,
+    "delay": 1.244310262338627
+   },
+   "angle_deg": {
+    "gain-eff": 4.907751451705005,
+    "gain-del": 66.78421133013926,
+    "eff-del": 71.19960600991593
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9991972684353116,
+    "gain-del": 0.9026665405167332,
+    "eff-del": -0.8963861203284024
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.0051017858289529715,
+    0.005646964068822299,
+    0.3525354278878436
+   ],
+   "z": {
+    "gain": 18.681728908225306,
+    "efficacy": 29.310340292654303,
+    "delay": 0.6329677350476137
+   },
+   "angle_deg": {
+    "gain-eff": 4.895287911316812,
+    "gain-del": 66.7586112563165,
+    "eff-del": 71.16773439641368
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9992086513494011,
+    "gain-del": 0.9036446946511189,
+    "eff-del": -0.8974306995892305
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.03,
+   "se": [
+    0.005098529211666209,
+    0.005643704797065985,
+    0.6989741769600775
+   ],
+   "z": {
+    "gain": 18.693661612498126,
+    "efficacy": 29.32726718158965,
+    "delay": 0.31924434216538267
+   },
+   "angle_deg": {
+    "gain-eff": 4.888422261938218,
+    "gain-del": 66.74184971611975,
+    "eff-del": 71.1471596412983
+   },
+   "postfit_corr": {
+    "gain-eff": -0.999214325442167,
+    "gain-del": 0.904114847908662,
+    "eff-del": -0.8979323060800486
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005496419046143822,
+    0.014142493268087293,
+    0.6407153910009626
+   ],
+   "z": {
+    "gain": 17.340413640985517,
+    "efficacy": 11.703342214138342,
+    "delay": 0.34827250047107805
+   },
+   "angle_deg": {
+    "gain-eff": 26.654846096612978,
+    "gain-del": 78.12421811290287,
+    "eff-del": 82.82563482048106
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8940091549202105,
+    "gain-del": 0.21157783876445266,
+    "eff-del": -0.1344628115644596
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005491298465493299,
+    0.014142027148194408,
+    1.2761375985080383
+   ],
+   "z": {
+    "gain": 17.35658340249458,
+    "efficacy": 11.703727955203755,
+    "delay": 0.17485853529830322
+   },
+   "angle_deg": {
+    "gain-eff": 26.55395752052024,
+    "gain-del": 78.69296125516182,
+    "eff-del": 83.10518220557805
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8946865009645163,
+    "gain-del": 0.19982283837960213,
+    "eff-del": -0.12623592250880036
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005488721463431322,
+    0.014141770701986568,
+    2.547641755019871
+   ],
+   "z": {
+    "gain": 17.364732468085737,
+    "efficacy": 11.703940190058566,
+    "delay": 0.08758827683465614
+   },
+   "angle_deg": {
+    "gain-eff": 26.5052367896359,
+    "gain-del": 78.99187230485785,
+    "eff-del": 83.2562900658212
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8950174298892865,
+    "gain-del": 0.1937362402983278,
+    "eff-del": -0.12201294424177545
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005659912792999535,
+    0.014560154571883617,
+    0.792885528878634
+   ],
+   "z": {
+    "gain": 16.839513838836766,
+    "efficacy": 11.367629214403392,
+    "delay": 0.28143224108251574
+   },
+   "angle_deg": {
+    "gain-eff": 28.670925884517185,
+    "gain-del": 75.84391886387225,
+    "eff-del": 83.61836991562411
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8823001276799958,
+    "gain-del": 0.30839007466049373,
+    "eff-del": -0.22232550213949148
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005656553744665673,
+    0.014562599498712333,
+    1.5770756834595794
+   ],
+   "z": {
+    "gain": 16.849513698019003,
+    "efficacy": 11.36572069376821,
+    "delay": 0.14149197381872441
+   },
+   "angle_deg": {
+    "gain-eff": 28.55504944386429,
+    "gain-del": 76.15095292241782,
+    "eff-del": 83.71759172939949
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8829818134737129,
+    "gain-del": 0.3014880596415407,
+    "eff-del": -0.2172317546075555
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.0056548248806243115,
+    0.014563761554210086,
+    3.145675767646138
+   ],
+   "z": {
+    "gain": 16.85466514284035,
+    "efficacy": 11.364813812797319,
+    "delay": 0.07093660243350022
+   },
+   "angle_deg": {
+    "gain-eff": 28.49777227370413,
+    "gain-del": 76.30916943390298,
+    "eff-del": 83.77034179050902
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8833178486702563,
+    "gain-del": 0.2979435103467398,
+    "eff-del": -0.21462051653154046
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005927668287568636,
+    0.015349081447757186,
+    1.074668707030197
+   ],
+   "z": {
+    "gain": 16.07886527729751,
+    "efficacy": 10.783344856232969,
+    "delay": 0.20763938677516514
+   },
+   "angle_deg": {
+    "gain-eff": 31.92681531782777,
+    "gain-del": 74.44313597576922,
+    "eff-del": 85.61606951849947
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8622424108814166,
+    "gain-del": 0.3855929075417296,
+    "eff-del": -0.2967522924161487
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005925960114319945,
+    0.015354414672299976,
+    2.139139685849514
+   ],
+   "z": {
+    "gain": 16.083500051579843,
+    "efficacy": 10.779599353674385,
+    "delay": 0.10431462367339184
+   },
+   "angle_deg": {
+    "gain-eff": 31.81051846349529,
+    "gain-del": 74.63116504088048,
+    "eff-del": 85.65007814598721
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8629501883459932,
+    "gain-del": 0.381619571635719,
+    "eff-del": -0.2938942010982111
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.4,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005925069563436015,
+    0.015357035187786007,
+    4.268174503485325
+   ],
+   "z": {
+    "gain": 16.085917436731915,
+    "efficacy": 10.777759929156952,
+    "delay": 0.052280793845704804
+   },
+   "angle_deg": {
+    "gain-eff": 31.752637936039577,
+    "gain-del": 74.72685258365058,
+    "eff-del": 85.66794733539791
+   },
+   "postfit_corr": {
+    "gain-eff": -0.8633003115406749,
+    "gain-del": 0.3795907898698877,
+    "eff-del": -0.2924315599186744
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": true,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005140388917859251,
+    0.008388005452422161,
+    0.20155486428478636
+   ],
+   "z": {
+    "gain": 18.541433601101428,
+    "efficacy": 19.73227597626067,
+    "delay": 1.107110721966599
+   },
+   "angle_deg": {
+    "gain-eff": 13.02518959274407,
+    "gain-del": 74.7631123202773,
+    "eff-del": 79.03862062204725
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9757760300808511,
+    "gain-del": 0.35050526190097664,
+    "eff-del": -0.30305475480732796
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005128893576053334,
+    0.008375985259677032,
+    0.3966552051757513
+   ],
+   "z": {
+    "gain": 18.582990344998695,
+    "efficacy": 19.760593332748456,
+    "delay": 0.5625630230046736
+   },
+   "angle_deg": {
+    "gain-eff": 12.891077687803396,
+    "gain-del": 75.21906078579934,
+    "eff-del": 79.24846082629075
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9760697452945991,
+    "gain-del": 0.33431364935644947,
+    "eff-del": -0.28808075032822295
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005123061455308677,
+    0.00836993227210032,
+    0.7871562282578395
+   ],
+   "z": {
+    "gain": 18.604145321263232,
+    "efficacy": 19.774883845749418,
+    "delay": 0.2834806399335472
+   },
+   "angle_deg": {
+    "gain-eff": 12.825221295628403,
+    "gain-del": 75.46918932533342,
+    "eff-del": 79.37240071022622
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9762155399240917,
+    "gain-del": 0.3257864837099505,
+    "eff-del": -0.28023548984219016
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005405656701307693,
+    0.008825611681705212,
+    0.2902003455043357
+   ],
+   "z": {
+    "gain": 17.631563576959717,
+    "efficacy": 18.753877288831042,
+    "delay": 0.7689293095995844
+   },
+   "angle_deg": {
+    "gain-eff": 15.298960501519426,
+    "gain-del": 74.49373935327316,
+    "eff-del": 81.63130739701502
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9709563732676969,
+    "gain-del": 0.4863468984192765,
+    "eff-del": -0.44179535430078504
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005398715274501489,
+    0.008820245167566004,
+    0.5726168871169806
+   ],
+   "z": {
+    "gain": 17.65423345337021,
+    "efficacy": 18.765287736695416,
+    "delay": 0.3896908322730333
+   },
+   "angle_deg": {
+    "gain-eff": 15.161235988414425,
+    "gain-del": 74.69123895422372,
+    "eff-del": 81.6482853226299
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9712418441361254,
+    "gain-del": 0.47853447199639854,
+    "eff-del": -0.4344063254981352
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005395138767419928,
+    0.008817440970264457,
+    1.1375442817419033
+   ],
+   "z": {
+    "gain": 17.66593667245084,
+    "efficacy": 18.77125563252953,
+    "delay": 0.1961625185900575
+   },
+   "angle_deg": {
+    "gain-eff": 15.092623917143554,
+    "gain-del": 74.79497554375186,
+    "eff-del": 81.66045358741347
+   },
+   "postfit_corr": {
+    "gain-eff": -0.971382817718108,
+    "gain-del": 0.47447527000086354,
+    "eff-del": -0.4305722164098815
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005752052126577951,
+    0.00942118794732331,
+    0.4514798597626445
+   ],
+   "z": {
+    "gain": 16.569769832914833,
+    "efficacy": 17.568319346033032,
+    "delay": 0.4942491818605651
+   },
+   "angle_deg": {
+    "gain-eff": 18.79230539996475,
+    "gain-del": 74.85673966247585,
+    "eff-del": 85.38420219861545
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9620900011198703,
+    "gain-del": 0.5763098150422251,
+    "eff-del": -0.5365254967538894
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005748699138816062,
+    0.009421576624033898,
+    0.8942660716716261
+   ],
+   "z": {
+    "gain": 16.579434321197397,
+    "efficacy": 17.56759458447279,
+    "delay": 0.24952702376049427
+   },
+   "angle_deg": {
+    "gain-eff": 18.66280085877585,
+    "gain-del": 74.96995061863038,
+    "eff-del": 85.35941069273136
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9624085522684105,
+    "gain-del": 0.5727396117960918,
+    "eff-del": -0.5331963557801886
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.6,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005746956486350923,
+    0.009421689401163674,
+    1.779873461445619
+   ],
+   "z": {
+    "gain": 16.58446171128797,
+    "efficacy": 17.567384301283656,
+    "delay": 0.12537045815210468
+   },
+   "angle_deg": {
+    "gain-eff": 18.598039733523816,
+    "gain-del": 75.02814610285955,
+    "eff-del": 85.34792335528668
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9625661523967137,
+    "gain-del": 0.5708983199445627,
+    "eff-del": -0.5314787179503693
+   },
+   "pass_CA": false,
+   "pass_CB": true,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.00429380205075424,
+    0.005291446053978517,
+    0.05528868140495718
+   ],
+   "z": {
+    "gain": 22.197152704695117,
+    "efficacy": 31.279623148218022,
+    "delay": 4.035971660814517
+   },
+   "angle_deg": {
+    "gain-eff": 4.766579496477583,
+    "gain-del": 68.40968860201095,
+    "eff-del": 71.61343498746075
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9978516809810899,
+    "gain-del": 0.6801349064395795,
+    "eff-del": -0.6635247330144127
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.004260038534703555,
+    0.005252373946076015,
+    0.10514073634175038
+   ],
+   "z": {
+    "gain": 22.37307926393143,
+    "efficacy": 31.512310467008383,
+    "delay": 2.12233201971215
+   },
+   "angle_deg": {
+    "gain-eff": 4.610202280112817,
+    "gain-del": 68.35388203457475,
+    "eff-del": 71.37628708127956
+   },
+   "postfit_corr": {
+    "gain-eff": -0.997906003551298,
+    "gain-del": 0.6637273167829038,
+    "eff-del": -0.6468873714403084
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.004242640144797974,
+    0.005232265630541046,
+    0.20493678469970905
+   ],
+   "z": {
+    "gain": 22.464827690179558,
+    "efficacy": 31.633416604741107,
+    "delay": 1.0888408913079162
+   },
+   "angle_deg": {
+    "gain-eff": 4.531775361998428,
+    "gain-del": 68.34902654302596,
+    "eff-del": 71.27897434970359
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9979334746847771,
+    "gain-del": 0.654729115997156,
+    "eff-del": -0.6377875422595017
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.0048057588349327725,
+    0.005922245541113849,
+    0.11033939922639178
+   ],
+   "z": {
+    "gain": 19.832493281086215,
+    "efficacy": 27.947918965623227,
+    "delay": 2.0223379217098056
+   },
+   "angle_deg": {
+    "gain-eff": 7.082196001805867,
+    "gain-del": 74.09789694002319,
+    "eff-del": 79.6927404723486
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9969712042429851,
+    "gain-del": 0.7949716031586731,
+    "eff-del": -0.7841220507429844
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.004789080827747297,
+    0.005904259104770429,
+    0.21444312776549906
+   ],
+   "z": {
+    "gain": 19.901560076436887,
+    "efficacy": 28.03305809256298,
+    "delay": 1.0405721723954002
+   },
+   "angle_deg": {
+    "gain-eff": 6.946442115907123,
+    "gain-del": 73.9981800755216,
+    "eff-del": 79.45393728670186
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9970262126478119,
+    "gain-del": 0.7904672131958725,
+    "eff-del": -0.7794774280520977
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.004780459005187782,
+    0.005894937869304017,
+    0.42267769557639834
+   ],
+   "z": {
+    "gain": 19.937453642190796,
+    "efficacy": 28.077384723499165,
+    "delay": 0.5279283805357003
+   },
+   "angle_deg": {
+    "gain-eff": 6.878043189463864,
+    "gain-del": 73.95150374478112,
+    "eff-del": 79.33675068266191
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9970534101993205,
+    "gain-del": 0.7880660351707532,
+    "eff-del": -0.7770060957061606
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.0052900415097225945,
+    0.006517900168669211,
+    0.21344582652605645
+   ],
+   "z": {
+    "gain": 18.016905846419895,
+    "efficacy": 25.393828410134603,
+    "delay": 1.0454341269913254
+   },
+   "angle_deg": {
+    "gain-eff": 9.777475309970383,
+    "gain-del": 80.07814521934986,
+    "eff-del": 88.15800503104053
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9953293789995882,
+    "gain-del": 0.8285205962323051,
+    "eff-del": -0.822913323708057
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.0052825042247061004,
+    0.0065112212029981124,
+    0.4198938160306231
+   ],
+   "z": {
+    "gain": 18.042613077063397,
+    "efficacy": 25.41987644366339,
+    "delay": 0.5314285250105606
+   },
+   "angle_deg": {
+    "gain-eff": 9.696959931397211,
+    "gain-del": 80.02339422999599,
+    "eff-del": 88.02951155615344
+   },
+   "postfit_corr": {
+    "gain-eff": -0.995386758180396,
+    "gain-del": 0.8278168686571437,
+    "eff-del": -0.8221472155358212
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.8,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.005278596525577259,
+    0.006507725804767624,
+    0.8328007081939037
+   ],
+   "z": {
+    "gain": 18.055969866706562,
+    "efficacy": 25.43352984483701,
+    "delay": 0.2679435177212343
+   },
+   "angle_deg": {
+    "gain-eff": 9.655960432203205,
+    "gain-del": 79.99522142172945,
+    "eff-del": 87.96351515488772
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9954151804008695,
+    "gain-del": 0.8274258729443597,
+    "eff-del": -0.8217235090155619
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": true
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.02,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.002495537591152152,
+    0.002820054134525922,
+    0.024194733401810307
+   ],
+   "z": {
+    "gain": 38.19224368418416,
+    "efficacy": 58.69193660191842,
+    "delay": 9.222815048563982
+   },
+   "angle_deg": {
+    "gain-eff": 2.902620933434329,
+    "gain-del": 63.66524091465204,
+    "eff-del": 66.11841612860623
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9995527764138149,
+    "gain-del": 0.8484663747690663,
+    "eff-del": -0.8416795366189589
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.02,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.002245595144328066,
+    0.002544530461141737,
+    0.04231452761407983
+   ],
+   "z": {
+    "gain": 42.44317148844029,
+    "efficacy": 65.04714366960519,
+    "delay": 5.2734501339431334
+   },
+   "angle_deg": {
+    "gain-eff": 2.8110765917242735,
+    "gain-del": 62.68106233302997,
+    "eff-del": 64.96753202882456
+   },
+   "postfit_corr": {
+    "gain-eff": -0.999494206001468,
+    "gain-del": 0.817366271383569,
+    "eff-del": -0.809200486316698
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.02,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.002119512499890397,
+    0.0024053789915476067,
+    0.07893874854926747
+   ],
+   "z": {
+    "gain": 44.96797249804074,
+    "efficacy": 68.8101289065813,
+    "delay": 2.826793626895931
+   },
+   "angle_deg": {
+    "gain-eff": 2.770916289783967,
+    "gain-del": 62.19816847913631,
+    "eff-del": 64.39818219289364
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9994583274736387,
+    "gain-del": 0.7983634226264478,
+    "eff-del": -0.7893675623993907
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.05,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.004423504869434116,
+    0.004925426051803788,
+    0.07832813874895901
+   ],
+   "z": {
+    "gain": 21.54630380604004,
+    "efficacy": 33.604085562701464,
+    "delay": 2.848829997472336
+   },
+   "angle_deg": {
+    "gain-eff": 4.5210278190286814,
+    "gain-del": 78.55487934966048,
+    "eff-del": 82.81148074954913
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9996368118703863,
+    "gain-del": 0.9421879710680416,
+    "eff-del": -0.9407157938631989
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.05,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.004392953217441978,
+    0.004893859134141903,
+    0.15099161152975138
+   ],
+   "z": {
+    "gain": 21.696151788255136,
+    "efficacy": 33.820842394678955,
+    "delay": 1.4778539619086157
+   },
+   "angle_deg": {
+    "gain-eff": 4.445163616703265,
+    "gain-del": 78.15380655263326,
+    "eff-del": 82.33694104824579
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9996453222132049,
+    "gain-del": 0.941758276988715,
+    "eff-del": -0.9402300147353372
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.05,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.0043764001656995824,
+    0.004876702970723766,
+    0.29629153967759275
+   ],
+   "z": {
+    "gain": 21.77821410192943,
+    "efficacy": 33.939823579825045,
+    "delay": 0.7531215759890464
+   },
+   "angle_deg": {
+    "gain-eff": 4.405331951814626,
+    "gain-del": 77.94155528704354,
+    "eff-del": 82.08587662876133
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9996494303834405,
+    "gain-del": 0.9414723790531887,
+    "eff-del": -0.939913450437736
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.1,
+   "v_axon": 0.1,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.004943301853391794,
+    0.0054849885584230115,
+    0.16430354995501556
+   ],
+   "z": {
+    "gain": 19.280671630224013,
+    "efficacy": 30.17589493845004,
+    "delay": 1.358117650989914
+   },
+   "angle_deg": {
+    "gain-eff": 5.035215212177038,
+    "gain-del": 78.4317795275521,
+    "eff-del": 83.02435434515351
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9993333011224119,
+    "gain-del": 0.913192316927469,
+    "eff-del": -0.9107765090251715
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.1,
+   "v_axon": 0.2,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.004932963612816693,
+    0.00547478904287738,
+    0.3220989337335496
+   ],
+   "z": {
+    "gain": 19.321079027765904,
+    "efficacy": 30.232112540099635,
+    "delay": 0.6927795405209292
+   },
+   "angle_deg": {
+    "gain-eff": 5.031678905014715,
+    "gain-del": 78.76631947606434,
+    "eff-del": 83.36232580914417
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9993450365057045,
+    "gain-del": 0.914455355037505,
+    "eff-del": -0.9121636699659113
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  },
+  {
+   "rho0": 0.9,
+   "tau_m": 0.1,
+   "v_axon": 0.4,
+   "mode": "ca",
+   "sig_jit": 0.0,
+   "se": [
+    0.004927571381647592,
+    0.005469453106922484,
+    0.6377085978843547
+   ],
+   "z": {
+    "gain": 19.34222204457581,
+    "efficacy": 30.261606643649223,
+    "delay": 0.34991460371477645
+   },
+   "angle_deg": {
+    "gain-eff": 5.029439978650264,
+    "gain-del": 78.93079334131492,
+    "eff-del": 83.5279753501284
+   },
+   "postfit_corr": {
+    "gain-eff": -0.9993508246518908,
+    "gain-del": 0.915066814037219,
+    "eff-del": -0.9128350171178073
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "pass_CC": false,
+   "efficacy_magnitude_admissible": false
+  }
+ ],
+ "n_configs": 144,
+ "n_pass_all": 0,
+ "n_pass_CA": 15,
+ "max_z_delay": 9.222815048563982,
+ "max_z_delay_row": {
+  "rho0": 0.9,
+  "tau_m": 0.02,
+  "v_axon": 0.1,
+  "mode": "ca",
+  "sig_jit": 0.0,
+  "se": [
+   0.002495537591152152,
+   0.002820054134525922,
+   0.024194733401810307
+  ],
+  "z": {
+   "gain": 38.19224368418416,
+   "efficacy": 58.69193660191842,
+   "delay": 9.222815048563982
+  },
+  "angle_deg": {
+   "gain-eff": 2.902620933434329,
+   "gain-del": 63.66524091465204,
+   "eff-del": 66.11841612860623
+  },
+  "postfit_corr": {
+   "gain-eff": -0.9995527764138149,
+   "gain-del": 0.8484663747690663,
+   "eff-del": -0.8416795366189589
+  },
+  "pass_CA": true,
+  "pass_CB": false,
+  "pass_CC": false,
+  "efficacy_magnitude_admissible": false
+ }
+}

@@ -1,0 +1,143 @@
+{
+  "contract_sha256": "c7eed2d79ea9057287eacfb0acbde6d10fb55808560be07946cda91644617cee",
+  "fits": [
+    {
+      "id": 8263,
+      "holding": -70.0,
+      "n_averaged_responses": 60,
+      "manual_qc_pass": 0,
+      "initial_xoffset": 0.0015727537858466626,
+      "fit_xoffset": 0.001479889170861677,
+      "fit_yoffset": -3.985675245546466e-13,
+      "fit_amp": -4.842293457214292e-13,
+      "fit_rise_time": 0.006061154072109951,
+      "fit_rise_power": null,
+      "fit_decay_tau": 0.0017470640259391176,
+      "fit_exp_amp": -1.5110639299459416e-17,
+      "fit_exp_tau": 0.0017470640259391176,
+      "nrmse": 1.0915069462511906,
+      "meta": "{\"fit_qc_pass_reasons\": [\"data notes fit failed qc\"]}"
+    },
+    {
+      "id": 8264,
+      "holding": -55.0,
+      "n_averaged_responses": 60,
+      "manual_qc_pass": 1,
+      "initial_xoffset": 0.0015727537858466626,
+      "fit_xoffset": 0.0016725894605872582,
+      "fit_yoffset": 2.821554264319828e-13,
+      "fit_amp": -3.3250227264887295e-13,
+      "fit_rise_time": 0.0016898812978274021,
+      "fit_rise_power": null,
+      "fit_decay_tau": 0.0012290603585493197,
+      "fit_exp_amp": -3.708411159114058e-18,
+      "fit_exp_tau": 0.0012290603585493197,
+      "nrmse": 1.195281774816449,
+      "meta": "{\"expected_fit_params\": {\"exp_tau\": 0.0007933525914373138, \"decay_tau\": 0.0007933525914373138, \"rise_time\": 0.0016257409069352215, \"yoffset\": 2.787121711929418e-13, \"nrmse\": 1.195413960583996, \"rise_power\": 2, \"amp\": -3.4049719628025604e-13, \"exp_amp\": 1.4889251025954498e-23, \"xoffset\": 0.0016623588672820592}, \"expected_fit_pass\": true}"
+    }
+  ],
+  "groups": [
+    {
+      "group": "vc_-70",
+      "fit": {
+        "id": 8263,
+        "holding": -70.0,
+        "n_averaged_responses": 60,
+        "manual_qc_pass": 0,
+        "initial_xoffset": 0.0015727537858466626,
+        "fit_xoffset": 0.001479889170861677,
+        "fit_yoffset": -3.985675245546466e-13,
+        "fit_amp": -4.842293457214292e-13,
+        "fit_rise_time": 0.006061154072109951,
+        "fit_rise_power": null,
+        "fit_decay_tau": 0.0017470640259391176,
+        "fit_exp_amp": -1.5110639299459416e-17,
+        "fit_exp_tau": 0.0017470640259391176,
+        "nrmse": 1.0915069462511906,
+        "meta": "{\"fit_qc_pass_reasons\": [\"data notes fit failed qc\"]}"
+      },
+      "n": 60,
+      "raw_all_pulses_mean_pa": -0.4299615271664209,
+      "raw_first_pulses_mean_pa": -1.4616249941596344,
+      "contrast_pa": {
+        "average": -0.42447619774907663,
+        "fit_total": -0.3639463478603003,
+        "psp_component": -0.3650861125447825,
+        "exponential_baseline": 0.0011397646844822132,
+        "residual": -0.060529849888776355
+      },
+      "fitted_peak_pa": -0.48422934572142917,
+      "model_valid_domain": false,
+      "effective_rise_power": 2,
+      "evaluated_peak_pa": -0.6994310904368227,
+      "evaluated_peak_time_ms": 4.9740071511085855,
+      "peak_time_ms": 7.541043242971628,
+      "initial_latency_ms": 1.5727537858466625,
+      "latency_shift_us": -92.86461498498548,
+      "full_average_residual_rmse_pa": 0.5523005001165695,
+      "waveform_window": {
+        "before_ms": [
+          -8,
+          -3
+        ],
+        "after_ms": [
+          1,
+          5
+        ],
+        "rate_hz": 20000,
+        "t0": -0.01045000000000007
+      }
+    },
+    {
+      "group": "vc_-55",
+      "fit": {
+        "id": 8264,
+        "holding": -55.0,
+        "n_averaged_responses": 60,
+        "manual_qc_pass": 1,
+        "initial_xoffset": 0.0015727537858466626,
+        "fit_xoffset": 0.0016725894605872582,
+        "fit_yoffset": 2.821554264319828e-13,
+        "fit_amp": -3.3250227264887295e-13,
+        "fit_rise_time": 0.0016898812978274021,
+        "fit_rise_power": null,
+        "fit_decay_tau": 0.0012290603585493197,
+        "fit_exp_amp": -3.708411159114058e-18,
+        "fit_exp_tau": 0.0012290603585493197,
+        "nrmse": 1.195281774816449,
+        "meta": "{\"expected_fit_params\": {\"exp_tau\": 0.0007933525914373138, \"decay_tau\": 0.0007933525914373138, \"rise_time\": 0.0016257409069352215, \"yoffset\": 2.787121711929418e-13, \"nrmse\": 1.195413960583996, \"rise_power\": 2, \"amp\": -3.4049719628025604e-13, \"exp_amp\": 1.4889251025954498e-23, \"xoffset\": 0.0016623588672820592}, \"expected_fit_pass\": true}"
+      },
+      "n": 60,
+      "raw_all_pulses_mean_pa": 0.030593749877753516,
+      "raw_first_pulses_mean_pa": -2.437374990260726,
+      "contrast_pa": {
+        "average": 0.019750182177034396,
+        "fit_total": -0.1934796494738782,
+        "psp_component": -0.19587079649072453,
+        "exponential_baseline": 0.0023911470168463374,
+        "residual": 0.21322983165091275
+      },
+      "fitted_peak_pa": -0.33250227264887294,
+      "model_valid_domain": true,
+      "effective_rise_power": 2,
+      "evaluated_peak_pa": -0.33250227264887294,
+      "evaluated_peak_time_ms": 3.3624707584146605,
+      "peak_time_ms": 3.3624707584146605,
+      "initial_latency_ms": 1.5727537858466625,
+      "latency_shift_us": 99.83567474059559,
+      "full_average_residual_rmse_pa": 0.5975793614443702,
+      "waveform_window": {
+        "before_ms": [
+          -8,
+          -3
+        ],
+        "after_ms": [
+          1,
+          5
+        ],
+        "rate_hz": 20000,
+        "t0": -0.010250000000000092
+      }
+    }
+  ]
+}

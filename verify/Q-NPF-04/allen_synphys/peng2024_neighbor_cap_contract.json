@@ -1,0 +1,33 @@
+{
+  "cap": "Allen incident-visible-edge count empirical distribution per seed; assign deterministic quantile budgets by seed-specific target hash; cap available Peng opposite-fold incident edges; achieved counts may be lower than budgets",
+  "allen_predictions_sha256": "97276e60973fdeaaee1c1767e6d899e9b2c5f71a9bc8d56a13feda4cca4fbc5f",
+  "allen_edges_sha256": "57afe1cb0f41bf28f2e8a7a7ae79f4178dc7230ed5709df4561677a64ad866ba",
+  "question": "Does Peng role prediction survive restricting observed incident edges by Allen-derived budgets?",
+  "scope": "same 881 ER dyads/22 patients; no new biological replication",
+  "masks": "seed0,seed1,seed2; per-record hash sorted endpoints round-robin into k=2 groups; target group g sees only (g+1)%k",
+  "models": {
+    "linear": [
+      0
+    ],
+    "cubic": [
+      0,
+      1
+    ],
+    "linear_role": [
+      0,
+      2
+    ],
+    "cubic_role": [
+      0,
+      1,
+      2
+    ]
+  },
+  "features": "x=depth difference/100; x^3/10; role imbalance on visible edges only; all features reverse sign on endpoint swap",
+  "fit": "leave whole patient out; no intercept; ridge identity; fixed scaling and no selection among settings",
+  "checks": "all hidden-label flip invariance; no target visible; gradient<1e-9; budget cap and depth-only baseline reproduction",
+  "endpoint": "pooled/equal-patient logloss for every setting; patients improved vs corresponding depth baseline",
+  "limits": "cubic depth difference is one alternative, not all spatial confounding; conditional completion not joint graph generation or causal role",
+  "source_sha256": "15ed3ffd56efb84bf03981a35b2fc0fc41344898daf5a01df22112b000dffefd",
+  "code_sha256": "822c144f3a67bd0bda2cf444adad4c243d88f0c319c645614d695b5162c8d825"
+}

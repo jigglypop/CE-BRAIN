@@ -1,0 +1,542 @@
+{
+  "contract_sha256": "10feb622a04cb05f4de8f07ca0150d53e1f021d343484793520d3651c676c0a3",
+  "models": {
+    "minnie_frozen": {
+      "loss_change_mean": -0.003873142435759142,
+      "states": {
+        "neither": {
+          "dyads": 168,
+          "loss_change_sum": -0.32797061801228683,
+          "loss_change_mean": -0.0019522060595969454
+        },
+        "one_way": {
+          "dyads": 19,
+          "loss_change_sum": 0.45785382226875315,
+          "loss_change_mean": 0.024097569593092272
+        },
+        "mutual": {
+          "dyads": 3,
+          "loss_change_sum": -0.8657802670507033,
+          "loss_change_mean": -0.28859342235023444
+        }
+      },
+      "delete_one_donor_score_range": [
+        -0.004380932191132918,
+        -0.0023925945302050154
+      ],
+      "reweight_percentile_2_5_97_5": [
+        -0.009372465050051442,
+        0.000713588465568464
+      ],
+      "reweight_fraction_below_zero": 0.95115,
+      "nonmutual_score_change_mean": 0.000694562589606772,
+      "donor_score_changes": [
+        {
+          "donor": "310493",
+          "loss_change_sum": -0.0004196110398994868
+        },
+        {
+          "donor": "332799",
+          "loss_change_sum": -0.021805115639564887
+        },
+        {
+          "donor": "332800",
+          "loss_change_sum": -0.01725758380153014
+        },
+        {
+          "donor": "338313",
+          "loss_change_sum": 0.009252897271511684
+        },
+        {
+          "donor": "338725",
+          "loss_change_sum": -0.26157748157662786
+        },
+        {
+          "donor": "338727",
+          "loss_change_sum": -0.00315517731432724
+        },
+        {
+          "donor": "338728",
+          "loss_change_sum": 0.05637282568925439
+        },
+        {
+          "donor": "339142",
+          "loss_change_sum": -0.0030077820693268087
+        },
+        {
+          "donor": "339604",
+          "loss_change_sum": -0.3074466604326407
+        },
+        {
+          "donor": "339986",
+          "loss_change_sum": 0.014363719052831403
+        },
+        {
+          "donor": "375896",
+          "loss_change_sum": -0.02568479149402017
+        },
+        {
+          "donor": "393717",
+          "loss_change_sum": -0.0012025013494454534
+        },
+        {
+          "donor": "394337",
+          "loss_change_sum": -0.0015383887845982214
+        },
+        {
+          "donor": "396838",
+          "loss_change_sum": -0.0011655909140145942
+        },
+        {
+          "donor": "398159",
+          "loss_change_sum": 0.018098844677827852
+        },
+        {
+          "donor": "408374",
+          "loss_change_sum": -0.0023810616926222827
+        },
+        {
+          "donor": "409649",
+          "loss_change_sum": 0.015759557912108146
+        },
+        {
+          "donor": "410157",
+          "loss_change_sum": -0.0007780466345466558
+        },
+        {
+          "donor": "413616",
+          "loss_change_sum": -0.0011031312247668512
+        },
+        {
+          "donor": "414648",
+          "loss_change_sum": -0.0005195587411290781
+        },
+        {
+          "donor": "417131",
+          "loss_change_sum": 0.02964819071665392
+        },
+        {
+          "donor": "418984",
+          "loss_change_sum": -0.001357700037095358
+        },
+        {
+          "donor": "419318",
+          "loss_change_sum": -0.002358313181952121
+        },
+        {
+          "donor": "420300",
+          "loss_change_sum": -0.0036763659895516776
+        },
+        {
+          "donor": "420796",
+          "loss_change_sum": -0.0010604635947956964
+        },
+        {
+          "donor": "420804",
+          "loss_change_sum": -0.0019516857544722432
+        },
+        {
+          "donor": "425875",
+          "loss_change_sum": -0.00039875118538644505
+        },
+        {
+          "donor": "426723",
+          "loss_change_sum": 0.027151584450631816
+        },
+        {
+          "donor": "428371",
+          "loss_change_sum": 0.03052368806619521
+        },
+        {
+          "donor": "429800",
+          "loss_change_sum": -0.0016619957291706677
+        },
+        {
+          "donor": "430087",
+          "loss_change_sum": -0.0008798276282860618
+        },
+        {
+          "donor": "432987",
+          "loss_change_sum": -0.0010484744565931459
+        },
+        {
+          "donor": "438530",
+          "loss_change_sum": 0.01828735992643349
+        },
+        {
+          "donor": "442629",
+          "loss_change_sum": -0.01748628079607295
+        },
+        {
+          "donor": "448735",
+          "loss_change_sum": -0.0029136250402131136
+        },
+        {
+          "donor": "450227",
+          "loss_change_sum": -0.0017888206849080157
+        },
+        {
+          "donor": "451301",
+          "loss_change_sum": -0.0017427819114478604
+        },
+        {
+          "donor": "455794",
+          "loss_change_sum": -0.0020009131005610525
+        },
+        {
+          "donor": "459274",
+          "loss_change_sum": -0.0017897013723345845
+        },
+        {
+          "donor": "462524",
+          "loss_change_sum": -0.0006807147675275266
+        },
+        {
+          "donor": "462956",
+          "loss_change_sum": -0.0009171518358137842
+        },
+        {
+          "donor": "485202",
+          "loss_change_sum": -0.0023631984815755402
+        },
+        {
+          "donor": "486085",
+          "loss_change_sum": -0.004510204484126867
+        },
+        {
+          "donor": "495424",
+          "loss_change_sum": -0.005017696785222209
+        },
+        {
+          "donor": "498428",
+          "loss_change_sum": -0.01586906645294664
+        },
+        {
+          "donor": "510207",
+          "loss_change_sum": -0.00459190325167147
+        },
+        {
+          "donor": "510614",
+          "loss_change_sum": -0.003795686677448229
+        },
+        {
+          "donor": "514916",
+          "loss_change_sum": 0.032802699451246475
+        },
+        {
+          "donor": "535551",
+          "loss_change_sum": 0.028483525155750478
+        },
+        {
+          "donor": "538078",
+          "loss_change_sum": -0.0021371241686543863
+        },
+        {
+          "donor": "541096",
+          "loss_change_sum": -0.0006906119965835178
+        },
+        {
+          "donor": "545085",
+          "loss_change_sum": -0.0013393100008283476
+        },
+        {
+          "donor": "547364",
+          "loss_change_sum": -0.01269334660124119
+        },
+        {
+          "donor": "552391",
+          "loss_change_sum": 0.022163184339452524
+        },
+        {
+          "donor": "552751",
+          "loss_change_sum": -0.0020148328255927828
+        },
+        {
+          "donor": "556803",
+          "loss_change_sum": -0.0019325117192746655
+        },
+        {
+          "donor": "558299",
+          "loss_change_sum": -0.0015162344938675076
+        },
+        {
+          "donor": "565810",
+          "loss_change_sum": -0.003880665204369249
+        },
+        {
+          "donor": "575953",
+          "loss_change_sum": -0.2836966965854826
+        }
+      ]
+    },
+    "allen_fitted": {
+      "loss_change_mean": -0.005324954145749099,
+      "states": {
+        "neither": {
+          "dyads": 168,
+          "loss_change_sum": -1.1384992063815882,
+          "loss_change_mean": -0.0067767809903665965
+        },
+        "one_way": {
+          "dyads": 19,
+          "loss_change_sum": 1.826717284936311,
+          "loss_change_mean": 0.09614301499664794
+        },
+        "mutual": {
+          "dyads": 3,
+          "loss_change_sum": -1.699959366247052,
+          "loss_change_mean": -0.5666531220823506
+        }
+      },
+      "delete_one_donor_score_range": [
+        -0.006808219371541988,
+        -0.0024224141274033157
+      ],
+      "reweight_percentile_2_5_97_5": [
+        -0.01637963504807801,
+        0.005352554572527058
+      ],
+      "reweight_fraction_below_zero": 0.8306,
+      "nonmutual_score_change_mean": 0.0036803105805065404,
+      "donor_score_changes": [
+        {
+          "donor": "310493",
+          "loss_change_sum": -0.0016758329179977355
+        },
+        {
+          "donor": "332799",
+          "loss_change_sum": -0.062402109068215195
+        },
+        {
+          "donor": "332800",
+          "loss_change_sum": -0.06109956960235058
+        },
+        {
+          "donor": "338313",
+          "loss_change_sum": 0.03959304287146248
+        },
+        {
+          "donor": "338725",
+          "loss_change_sum": -0.5397775360274171
+        },
+        {
+          "donor": "338727",
+          "loss_change_sum": -0.0073853431043513496
+        },
+        {
+          "donor": "338728",
+          "loss_change_sum": 0.25458751541448077
+        },
+        {
+          "donor": "339142",
+          "loss_change_sum": -0.010802799213327136
+        },
+        {
+          "donor": "339604",
+          "loss_change_sum": -0.568772562921776
+        },
+        {
+          "donor": "339986",
+          "loss_change_sum": 0.06053035423891662
+        },
+        {
+          "donor": "375896",
+          "loss_change_sum": -0.08981579522315195
+        },
+        {
+          "donor": "393717",
+          "loss_change_sum": -0.004580609947061248
+        },
+        {
+          "donor": "394337",
+          "loss_change_sum": -0.005778284671610262
+        },
+        {
+          "donor": "396838",
+          "loss_change_sum": -0.004447527824712208
+        },
+        {
+          "donor": "398159",
+          "loss_change_sum": 0.07682330701597717
+        },
+        {
+          "donor": "408374",
+          "loss_change_sum": -0.008695990756715621
+        },
+        {
+          "donor": "409649",
+          "loss_change_sum": 0.06720172252719747
+        },
+        {
+          "donor": "410157",
+          "loss_change_sum": -0.0030294966632024856
+        },
+        {
+          "donor": "413616",
+          "loss_change_sum": -0.0043502377795973934
+        },
+        {
+          "donor": "414648",
+          "loss_change_sum": -0.002058314322502336
+        },
+        {
+          "donor": "417131",
+          "loss_change_sum": 0.12321972099706757
+        },
+        {
+          "donor": "418984",
+          "loss_change_sum": -0.005136888899727937
+        },
+        {
+          "donor": "419318",
+          "loss_change_sum": -0.00861860407270465
+        },
+        {
+          "donor": "420300",
+          "loss_change_sum": -0.013003281485249402
+        },
+        {
+          "donor": "420796",
+          "loss_change_sum": -0.004066730231986282
+        },
+        {
+          "donor": "420804",
+          "loss_change_sum": -0.00722313367243152
+        },
+        {
+          "donor": "425875",
+          "loss_change_sum": -0.0015954310172263952
+        },
+        {
+          "donor": "426723",
+          "loss_change_sum": 0.11334273806360606
+        },
+        {
+          "donor": "428371",
+          "loss_change_sum": 0.13769078152044711
+        },
+        {
+          "donor": "429800",
+          "loss_change_sum": -0.006213489674517847
+        },
+        {
+          "donor": "430087",
+          "loss_change_sum": -0.0034621188295366756
+        },
+        {
+          "donor": "432987",
+          "loss_change_sum": -0.004023131647577519
+        },
+        {
+          "donor": "438530",
+          "loss_change_sum": 0.07674048289912871
+        },
+        {
+          "donor": "442629",
+          "loss_change_sum": -0.062124090336427296
+        },
+        {
+          "donor": "448735",
+          "loss_change_sum": -0.010874624667309957
+        },
+        {
+          "donor": "450227",
+          "loss_change_sum": -0.006657220173074296
+        },
+        {
+          "donor": "451301",
+          "loss_change_sum": -0.006496459470388655
+        },
+        {
+          "donor": "455794",
+          "loss_change_sum": -0.007393361261087972
+        },
+        {
+          "donor": "459274",
+          "loss_change_sum": -0.006660291939514784
+        },
+        {
+          "donor": "462524",
+          "loss_change_sum": -0.0026665540603645482
+        },
+        {
+          "donor": "462956",
+          "loss_change_sum": -0.003543147430363977
+        },
+        {
+          "donor": "485202",
+          "loss_change_sum": -0.008635228849717236
+        },
+        {
+          "donor": "486085",
+          "loss_change_sum": -0.016773589410671683
+        },
+        {
+          "donor": "495424",
+          "loss_change_sum": -0.01730049720692392
+        },
+        {
+          "donor": "498428",
+          "loss_change_sum": -0.05340853187345876
+        },
+        {
+          "donor": "510207",
+          "loss_change_sum": -0.01654397823168874
+        },
+        {
+          "donor": "510614",
+          "loss_change_sum": -0.013391510570491011
+        },
+        {
+          "donor": "514916",
+          "loss_change_sum": 0.13558555314235177
+        },
+        {
+          "donor": "535551",
+          "loss_change_sum": 0.11862224512362518
+        },
+        {
+          "donor": "538078",
+          "loss_change_sum": -0.007862475393857815
+        },
+        {
+          "donor": "541096",
+          "loss_change_sum": -0.0027036027237139354
+        },
+        {
+          "donor": "545085",
+          "loss_change_sum": -0.005071242136627144
+        },
+        {
+          "donor": "547364",
+          "loss_change_sum": -0.045045572776342135
+        },
+        {
+          "donor": "552391",
+          "loss_change_sum": 0.09335843678393907
+        },
+        {
+          "donor": "552751",
+          "loss_change_sum": -0.0074414282352470995
+        },
+        {
+          "donor": "556803",
+          "loss_change_sum": -0.007156728575394983
+        },
+        {
+          "donor": "558299",
+          "loss_change_sum": -0.005699984233899863
+        },
+        {
+          "donor": "565810",
+          "loss_change_sum": -0.013667231545914121
+        },
+        {
+          "donor": "575953",
+          "loss_change_sum": -0.5539050176131024
+        }
+      ]
+    }
+  },
+  "verification": "PASS: state and donor loss sums equal direct dyad loss sum; original190 scores conserved"
+}

@@ -1,0 +1,283 @@
+{
+  "rows": [
+    {
+      "unit_id": 2002,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 2036,
+      "nwb_finite": true,
+      "old_unit_rows": 1,
+      "old_coordinate_matches": 1
+    },
+    {
+      "unit_id": 2059,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 2063,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 2065,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 2087,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 2090,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 2091,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 2243,
+      "nwb_finite": true,
+      "old_unit_rows": 1,
+      "old_coordinate_matches": 1
+    },
+    {
+      "unit_id": 2307,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 2500,
+      "nwb_finite": true,
+      "old_unit_rows": 1,
+      "old_coordinate_matches": 1
+    },
+    {
+      "unit_id": 2518,
+      "nwb_finite": true,
+      "old_unit_rows": 1,
+      "old_coordinate_matches": 1
+    },
+    {
+      "unit_id": 2586,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 2599,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 2709,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 4890,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 4891,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 4892,
+      "nwb_finite": true,
+      "old_unit_rows": 1,
+      "old_coordinate_matches": 1
+    },
+    {
+      "unit_id": 4894,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 4914,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 4915,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 4917,
+      "nwb_finite": true,
+      "old_unit_rows": 1,
+      "old_coordinate_matches": 1
+    },
+    {
+      "unit_id": 4918,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 4919,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 4920,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 4922,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 4949,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 5104,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 5108,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 5297,
+      "nwb_finite": true,
+      "old_unit_rows": 1,
+      "old_coordinate_matches": 1
+    },
+    {
+      "unit_id": 5332,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 5337,
+      "nwb_finite": true,
+      "old_unit_rows": 1,
+      "old_coordinate_matches": 1
+    },
+    {
+      "unit_id": 5508,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 5524,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 5667,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 7792,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 7793,
+      "nwb_finite": true,
+      "old_unit_rows": 1,
+      "old_coordinate_matches": 1
+    },
+    {
+      "unit_id": 7811,
+      "nwb_finite": true,
+      "old_unit_rows": 1,
+      "old_coordinate_matches": 1
+    },
+    {
+      "unit_id": 7847,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 8002,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 8134,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 8239,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 8289,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 8333,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 8351,
+      "nwb_finite": false,
+      "old_unit_rows": 0,
+      "old_coordinate_matches": 0
+    },
+    {
+      "unit_id": 8403,
+      "nwb_finite": true,
+      "old_unit_rows": 1,
+      "old_coordinate_matches": 1
+    }
+  ],
+  "code_sha256": "6bda3f08cc6e696f6644b8fbadc4bca7a0ace05bebd0e140dcde32b167deab2b",
+  "old_sha256": "c63d375b2e364849c49d37c5a11d136e3971a116bee59ae8e627e74320ad5155",
+  "limits": "Historical provenance check only; does not adjudicate current biological identity or replace v1412 assignment."
+}

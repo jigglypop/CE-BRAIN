@@ -1,0 +1,242 @@
+{
+  "question": "Does a bounded SGSG calibration without reciprocity match density, distance and degree variability on the observed 347-cell subvolume?",
+  "design": "Exploratory fit to already inspected biological data; simulation calibration/evaluation seeds are separate, not independent biological holdout",
+  "grid": [
+    {
+      "dist_neighbors": 35.0,
+      "p_pick": 0.03,
+      "step_tgt": 1.5
+    },
+    {
+      "dist_neighbors": 35.0,
+      "p_pick": 0.03,
+      "step_tgt": 2.325
+    },
+    {
+      "dist_neighbors": 35.0,
+      "p_pick": 0.03,
+      "step_tgt": 3.0
+    },
+    {
+      "dist_neighbors": 35.0,
+      "p_pick": 0.1,
+      "step_tgt": 1.5
+    },
+    {
+      "dist_neighbors": 35.0,
+      "p_pick": 0.1,
+      "step_tgt": 2.325
+    },
+    {
+      "dist_neighbors": 35.0,
+      "p_pick": 0.1,
+      "step_tgt": 3.0
+    },
+    {
+      "dist_neighbors": 35.0,
+      "p_pick": 0.3,
+      "step_tgt": 1.5
+    },
+    {
+      "dist_neighbors": 35.0,
+      "p_pick": 0.3,
+      "step_tgt": 2.325
+    },
+    {
+      "dist_neighbors": 35.0,
+      "p_pick": 0.3,
+      "step_tgt": 3.0
+    },
+    {
+      "dist_neighbors": 47.0,
+      "p_pick": 0.03,
+      "step_tgt": 1.5
+    },
+    {
+      "dist_neighbors": 47.0,
+      "p_pick": 0.03,
+      "step_tgt": 2.325
+    },
+    {
+      "dist_neighbors": 47.0,
+      "p_pick": 0.03,
+      "step_tgt": 3.0
+    },
+    {
+      "dist_neighbors": 47.0,
+      "p_pick": 0.1,
+      "step_tgt": 1.5
+    },
+    {
+      "dist_neighbors": 47.0,
+      "p_pick": 0.1,
+      "step_tgt": 2.325
+    },
+    {
+      "dist_neighbors": 47.0,
+      "p_pick": 0.1,
+      "step_tgt": 3.0
+    },
+    {
+      "dist_neighbors": 47.0,
+      "p_pick": 0.3,
+      "step_tgt": 1.5
+    },
+    {
+      "dist_neighbors": 47.0,
+      "p_pick": 0.3,
+      "step_tgt": 2.325
+    },
+    {
+      "dist_neighbors": 47.0,
+      "p_pick": 0.3,
+      "step_tgt": 3.0
+    },
+    {
+      "dist_neighbors": 65.0,
+      "p_pick": 0.03,
+      "step_tgt": 1.5
+    },
+    {
+      "dist_neighbors": 65.0,
+      "p_pick": 0.03,
+      "step_tgt": 2.325
+    },
+    {
+      "dist_neighbors": 65.0,
+      "p_pick": 0.03,
+      "step_tgt": 3.0
+    },
+    {
+      "dist_neighbors": 65.0,
+      "p_pick": 0.1,
+      "step_tgt": 1.5
+    },
+    {
+      "dist_neighbors": 65.0,
+      "p_pick": 0.1,
+      "step_tgt": 2.325
+    },
+    {
+      "dist_neighbors": 65.0,
+      "p_pick": 0.1,
+      "step_tgt": 3.0
+    },
+    {
+      "dist_neighbors": 65.0,
+      "p_pick": 0.3,
+      "step_tgt": 1.5
+    },
+    {
+      "dist_neighbors": 65.0,
+      "p_pick": 0.3,
+      "step_tgt": 2.325
+    },
+    {
+      "dist_neighbors": 65.0,
+      "p_pick": 0.3,
+      "step_tgt": 3.0
+    }
+  ],
+  "calibration_seeds": [
+    2026091700,
+    2026091701,
+    2026091702,
+    2026091703,
+    2026091704,
+    2026091705,
+    2026091706,
+    2026091707
+  ],
+  "evaluation_seeds": [
+    2026091800,
+    2026091801,
+    2026091802,
+    2026091803,
+    2026091804,
+    2026091805,
+    2026091806,
+    2026091807,
+    2026091808,
+    2026091809,
+    2026091810,
+    2026091811,
+    2026091812,
+    2026091813,
+    2026091814,
+    2026091815,
+    2026091816,
+    2026091817,
+    2026091818,
+    2026091819,
+    2026091820,
+    2026091821,
+    2026091822,
+    2026091823,
+    2026091824,
+    2026091825,
+    2026091826,
+    2026091827,
+    2026091828,
+    2026091829,
+    2026091830,
+    2026091831
+  ],
+  "base_config": {
+    "_comment": "The .h5 file holding the reference connectome below: DOI: 10.5281/zenodo.13849415",
+    "make_points": {
+      "fn": "microns_mm3_connectome_v1181.h5",
+      "filters": {
+        "cell_type": [
+          "L3a",
+          "L3b",
+          "L2a",
+          "L2b",
+          "L2c"
+        ]
+      },
+      "o_x": -250.0,
+      "tgt_sz": 600
+    },
+    "per_class_bias": {
+      "outgoing": "cell_type",
+      "incoming": "cell_type"
+    },
+    "nngraph": {
+      "directionality_fac": 0.45,
+      "directionality_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "dist_neighbors": 47.0,
+      "p_pick": 0.029,
+      "mirror": 0,
+      "scale_axes": [
+        1.0,
+        1.5,
+        1.0
+      ]
+    },
+    "instance": {
+      "n_steps": 100,
+      "sum_exclusion": 1,
+      "step_tgt": 2.325,
+      "n_protected": 6,
+      "fac_protected": 1.0,
+      "tgt_level": "individual",
+      "decay": 1.0
+    }
+  },
+  "adaptation": "Same as fixed transfer: actual347 coordinates, homogeneous23P, no outside paths or per-subclass biases",
+  "score": "Sum of squared scaled errors of mean features: edges relative/0.20, distance-fraction TV/0.10, out-SD relative/0.25, in-SD relative/0.25, isolated-cell mean absolute/1.0. No reciprocity in score. Lexicographic grid order tie-break.",
+  "gate": "All draws succeed and each scaled error <=1, calibration and evaluation separately; engineering tolerances, not significance tests. Any failed draw disqualifies its candidate; no replacement.",
+  "selection": "Lowest score among executable candidates, even if no candidate passes. Save selection before evaluating32newseeds. No further search in this contract.",
+  "endpoint": "Only if selected candidate passes both adequacy gates, record reciprocal count distribution and observed-minus-mean descriptively; otherwise do not evaluate reciprocal endpoint.",
+  "code_sha256": "20fd7fcc10d0c86ed1f7f06549f3b99672087035858ca4358107a3a8180a0372",
+  "loader_sha256": "1ef22b455989da617d95c4dc3ebe9553b6cb5cb3bacf1cc85f0ea2abce1acb41",
+  "archive_sha256": "540f98689798a06de97c7424c80710fe8d5b02082a4a9bae7b10766fe999c039",
+  "prior_contract_sha256": "e9fdf13a03d121528d470ecfd037a8c6df09766044b7a2fa6b73357e131bd224",
+  "prior_verification_sha256": "b7282746607b06b827e5f8bef2e000abc144b44522497549a6ed92ec1e95b071",
+  "environment": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]"
+}

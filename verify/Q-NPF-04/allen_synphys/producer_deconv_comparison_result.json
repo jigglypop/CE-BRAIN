@@ -1,0 +1,4830 @@
+{
+  "contract_sha256": "439732a7821671995e78170241b2ba24847ea7828e7328b4419779e1ea401255",
+  "records": [
+    {
+      "sweep": 37,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.0002572345175426723,
+      "stored_V": 0.0002572282415695301,
+      "error_uV": 0.006275973142219615,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": -0.0001133014699795136,
+      "stored_V": -0.00011330078680198853,
+      "error_uV": -0.0006831775250766906,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.000360800367391316,
+      "stored_V": 0.0003608023062911119,
+      "error_uV": -0.0019388997959252086,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": 6.972479836590446e-05,
+      "stored_V": 6.972181891727714e-05,
+      "error_uV": 0.0029794486273234007,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.0005929889118152465,
+      "stored_V": 0.0005929909770068572,
+      "error_uV": -0.0020651916107132864,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": 0.00012293071099430173,
+      "stored_V": 0.0001229323666413684,
+      "error_uV": -0.0016556470666835837,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.000590800840887497,
+      "stored_V": 0.0005908010375496408,
+      "error_uV": -0.00019666214370970408,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": 3.341546791972713e-05,
+      "stored_V": 3.34133680537775e-05,
+      "error_uV": 0.0020998659496342456,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.00010399858636133862,
+      "stored_V": 0.00010399616651381058,
+      "error_uV": 0.0024198475280452813,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": -2.624030173934673e-05,
+      "stored_V": -2.6240399343217565e-05,
+      "error_uV": 9.760387083382642e-05,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.00024489104057209094,
+      "stored_V": 0.00024488969795803005,
+      "error_uV": 0.0013426140608899066,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": 2.1078141076836e-05,
+      "stored_V": 2.1077992083641697e-05,
+      "error_uV": 0.0001489931943046577,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.00016349324690891775,
+      "stored_V": 0.00016349030670912993,
+      "error_uV": 0.002940199787820506,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": -9.532075366698504e-05,
+      "stored_V": -9.532028617117915e-05,
+      "error_uV": -0.0004674958058880794,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.00018648715312819024,
+      "stored_V": 0.00018648904702956925,
+      "error_uV": -0.0018939013790130865,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": 0.0001397332263344351,
+      "stored_V": 0.00013973361262602279,
+      "error_uV": -0.0003862915876930162,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": -2.0822467639537473e-06,
+      "stored_V": -2.082675901913926e-06,
+      "error_uV": 0.00042913796017850063,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": -5.0465153154889364e-05,
+      "stored_V": -5.046546092699615e-05,
+      "error_uV": 0.0003077721067842247,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.0003648500073863638,
+      "stored_V": 0.0003648483652689036,
+      "error_uV": 0.0016421174602390676,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": 3.696979584632652e-05,
+      "stored_V": 3.6968597816815205e-05,
+      "error_uV": 0.0011980295113161316,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 37,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.00034025400852553955,
+      "stored_V": 0.0003402564664682119,
+      "error_uV": -0.0024579426723667953,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 37,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": 7.210305683787402e-05,
+      "stored_V": 7.21034873452693e-05,
+      "error_uV": -0.00043050739527623373,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 37,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.00012431367279799679,
+      "stored_V": 0.0001243120393814161,
+      "error_uV": 0.0016334165806768716,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 37,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": -2.1971859268057176e-05,
+      "stored_V": -2.1971470617816107e-05,
+      "error_uV": -0.0003886502410691158,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 38,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.0011508494626286572,
+      "stored_V": 0.001150849778273285,
+      "error_uV": -0.00031564462783968683,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 38,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": -0.0001326279210659649,
+      "stored_V": -0.00013262356307628886,
+      "error_uV": -0.0043579896760249145,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 38,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.0002562998848463701,
+      "stored_V": 0.00025630039405527354,
+      "error_uV": -0.0005092089034501937,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": -3.288645338881022e-05,
+      "stored_V": -3.2887236941133115e-05,
+      "error_uV": 0.000783552322892035,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.0001187013364746728,
+      "stored_V": 0.00011870321332662907,
+      "error_uV": -0.0018768519562670834,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 38,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": 9.603806600901309e-05,
+      "stored_V": 9.603799881822786e-05,
+      "error_uV": 6.719078523003286e-05,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 38,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.0003123174312306565,
+      "stored_V": 0.0003123127905468994,
+      "error_uV": 0.00464068375708674,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 38,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": -0.00041168719641942173,
+      "stored_V": -0.000411686623825712,
+      "error_uV": -0.0005725937097513997,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 38,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.0003345405169979647,
+      "stored_V": 0.00033454137790607237,
+      "error_uV": -0.0008609081076607801,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": -0.00018087591848624338,
+      "stored_V": -0.00018087731376005678,
+      "error_uV": 0.0013952738133979087,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.0002070589682613992,
+      "stored_V": 0.00020705934119792893,
+      "error_uV": -0.00037293652972096407,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": 1.4775830732785203e-06,
+      "stored_V": 1.4790574689258782e-06,
+      "error_uV": -0.0014743956473579338,
+      "within_tolerance": false,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.0004979402389431511,
+      "stored_V": 0.0004979370872415202,
+      "error_uV": 0.0031517016309051335,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": -9.958971404214091e-05,
+      "stored_V": -9.959110619394408e-05,
+      "error_uV": 0.001392151803165649,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.00020141862602005212,
+      "stored_V": 0.0002014205544930815,
+      "error_uV": -0.001928473029378687,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": -7.191086357578692e-05,
+      "stored_V": -7.191004424335886e-05,
+      "error_uV": -0.000819332428061959,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 0.0002415396986211979,
+      "stored_V": 0.00024154002937749937,
+      "error_uV": -0.00033075630147087753,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": 0.00012826794992562102,
+      "stored_V": 0.00012826541996907348,
+      "error_uV": 0.0025299565475358707,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.0006402563208087726,
+      "stored_V": 0.0006402549206994142,
+      "error_uV": 0.0014001093584211158,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": -7.533235518728917e-05,
+      "stored_V": -7.533353700389516e-05,
+      "error_uV": 0.0011818166059895897,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 7.595971559800005e-05,
+      "stored_V": 7.596038636769688e-05,
+      "error_uV": -0.0006707696968260559,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": -8.909890642822315e-05,
+      "stored_V": -8.909994749994093e-05,
+      "error_uV": 0.0010410717177791956,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.0003495689848144715,
+      "stored_V": 0.0003495695683657359,
+      "error_uV": -0.0005835512644392256,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 38,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": -3.507652674804498e-05,
+      "stored_V": -3.507696559125811e-05,
+      "error_uV": 0.0004388432131317084,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 39,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.00018501800093820387,
+      "stored_V": 0.000185018299906211,
+      "error_uV": -0.0002989680071433312,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 39,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": -0.0001316356973353895,
+      "stored_V": -0.00013163592636049123,
+      "error_uV": 0.00022902510172628093,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 39,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.0002372271264937436,
+      "stored_V": 0.00023722667855184985,
+      "error_uV": 0.0004479418937554727,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 39,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": 2.732174016701051e-05,
+      "stored_V": 2.732131718812277e-05,
+      "error_uV": 0.0004229788877381242,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 39,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.0001176626142154531,
+      "stored_V": 0.00011765836553294865,
+      "error_uV": 0.004248682504448022,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 39,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": -0.00010245601999544185,
+      "stored_V": -0.00010245555342303276,
+      "error_uV": -0.00046657240908526496,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 39,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.0005552862986525217,
+      "stored_V": 0.000555284261966464,
+      "error_uV": 0.0020366860576520596,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 39,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": -5.218881645977254e-05,
+      "stored_V": -5.2189455245111503e-05,
+      "error_uV": 0.0006387853389622808,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 39,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.00017993156429779077,
+      "stored_V": 0.00017992964471862425,
+      "error_uV": 0.001919579166518963,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 39,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": -9.321680569769106e-05,
+      "stored_V": -9.321904728168744e-05,
+      "error_uV": 0.002241583996382985,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 39,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.0005461517471454681,
+      "stored_V": 0.0005461535144085249,
+      "error_uV": -0.0017672630567072342,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 39,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": 8.55484712621483e-05,
+      "stored_V": 8.55481372774867e-05,
+      "error_uV": 0.00033398466159568,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 39,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.0004134062760422091,
+      "stored_V": 0.00041340750800094954,
+      "error_uV": -0.0012319587404255664,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 39,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": 9.830972307575105e-05,
+      "stored_V": 9.830969220550172e-05,
+      "error_uV": 3.08702493228381e-05,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 39,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.00029757083309324493,
+      "stored_V": 0.0002975719888380939,
+      "error_uV": -0.0011557448489451887,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 39,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": 4.3400286325928466e-05,
+      "stored_V": 4.3401089365803914e-05,
+      "error_uV": -0.0008030398754481165,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 39,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 0.0002545868282757499,
+      "stored_V": 0.000254581734072926,
+      "error_uV": 0.005094202823897193,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 39,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": 0.00014681361236528942,
+      "stored_V": 0.00014681363781851554,
+      "error_uV": -2.5453226115343397e-05,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 39,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.0005158447362823247,
+      "stored_V": 0.000515841097252308,
+      "error_uV": 0.003639030016666829,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 39,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": -1.4206533368743078e-05,
+      "stored_V": -1.4205529003916574e-05,
+      "error_uV": -0.0010043648265040685,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 39,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.00015326541521216188,
+      "stored_V": 0.00015326731567543835,
+      "error_uV": -0.0019004632764686117,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 39,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": -7.480981675019768e-06,
+      "stored_V": -7.481397327539902e-06,
+      "error_uV": 0.0004156525201346137,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 39,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.00017986340434436127,
+      "stored_V": 0.00017986409400765277,
+      "error_uV": -0.0006896632915090722,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 39,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": 8.068455878749131e-05,
+      "stored_V": 8.068168442541266e-05,
+      "error_uV": 0.002874362078648246,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.0004334843767473641,
+      "stored_V": 0.00043348826342235375,
+      "error_uV": -0.0038866749896629416,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": -4.649368446539881e-05,
+      "stored_V": -4.6492868933603254e-05,
+      "error_uV": -0.0008155317955576614,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.0001540295545804278,
+      "stored_V": 0.00015402582834329274,
+      "error_uV": 0.0037262371350651764,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": 1.3034881176143262e-05,
+      "stored_V": 1.3033707778350237e-05,
+      "error_uV": 0.0011733977930253234,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.0005765434501238095,
+      "stored_V": 0.0005765415465994094,
+      "error_uV": 0.0019035244001701368,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 40,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": -2.1128784280383345e-05,
+      "stored_V": -2.1129416022196585e-05,
+      "error_uV": 0.0006317418132400273,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 40,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.00015320492955982364,
+      "stored_V": 0.00015320552661444292,
+      "error_uV": -0.0005970546192862747,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": -0.00017953861528705473,
+      "stored_V": -0.0001795402309721102,
+      "error_uV": 0.001615685055471501,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.00015988573525357617,
+      "stored_V": 0.00015988680380685753,
+      "error_uV": -0.0010685532813670216,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": 2.9332058034364555e-05,
+      "stored_V": 2.9331847594703585e-05,
+      "error_uV": 0.00021043966097017376,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.0003754190954535219,
+      "stored_V": 0.0003754215550552722,
+      "error_uV": -0.0024596017502982563,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": -3.265164768055223e-05,
+      "stored_V": -3.2651669840326736e-05,
+      "error_uV": 2.2159774503652946e-05,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.0001843501998058944,
+      "stored_V": 0.00018434975039483627,
+      "error_uV": 0.00044941105814522674,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": 6.073912161812024e-05,
+      "stored_V": 6.07397779423554e-05,
+      "error_uV": -0.0006563242351602882,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.00010168848410409127,
+      "stored_V": 0.0001016897793089894,
+      "error_uV": -0.0012952048981398033,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": -0.0001096735454501192,
+      "stored_V": -0.00010967386900508171,
+      "error_uV": 0.0003235549625126748,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": -1.8355439679138543e-05,
+      "stored_V": -1.8352141026394907e-05,
+      "error_uV": -0.003298652743635017,
+      "within_tolerance": false,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": -6.247545798770008e-05,
+      "stored_V": -6.247626695782481e-05,
+      "error_uV": 0.0008089701247342715,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.00019105793905088323,
+      "stored_V": 0.00019105903590238134,
+      "error_uV": -0.0010968514981099953,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": -0.00011760880133764528,
+      "stored_V": -0.00011760938704347331,
+      "error_uV": 0.0005857058280354455,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": -0.00028662237815251765,
+      "stored_V": -0.00028662381122165914,
+      "error_uV": 0.0014330691414901793,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": 3.644391994466476e-05,
+      "stored_V": 3.64436146951993e-05,
+      "error_uV": 0.00030524946546123255,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 40,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 9.034312505457433e-05,
+      "stored_V": 9.034325627183551e-05,
+      "error_uV": -0.00013121726117780105,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 40,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": -5.7727835493747196e-05,
+      "stored_V": -5.7727291645761406e-05,
+      "error_uV": -0.0005438479857902408,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 41,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.00010273731205555306,
+      "stored_V": 0.00010273796397377761,
+      "error_uV": -0.0006519182245494056,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": 0.0004061761495790983,
+      "stored_V": 0.00040617791403687686,
+      "error_uV": -0.0017644577785620383,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.00031467429252884954,
+      "stored_V": 0.0003146743872604056,
+      "error_uV": -9.47315560414011e-05,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": 4.243339042907773e-05,
+      "stored_V": 4.243387389794442e-05,
+      "error_uV": -0.00048346886668664815,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.00014997014535973608,
+      "stored_V": 0.00014997375844183936,
+      "error_uV": -0.003613082103279654,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 41,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": 7.851596771050608e-05,
+      "stored_V": 7.851243899314072e-05,
+      "error_uV": 0.0035287173653599695,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 41,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.00033851243174718175,
+      "stored_V": 0.0003385152137798815,
+      "error_uV": -0.0027820326997511115,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": -8.450211102268848e-06,
+      "stored_V": -8.450056096304495e-06,
+      "error_uV": -0.0001550059643526836,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.0005194395061441719,
+      "stored_V": 0.0005194398167857671,
+      "error_uV": -0.00031064159512934897,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": 8.832500957137343e-05,
+      "stored_V": 8.832552979843046e-05,
+      "error_uV": -0.000520227057029918,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.000146365478278332,
+      "stored_V": 0.0001463660325838387,
+      "error_uV": -0.000554305506686838,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": -9.116640638692798e-05,
+      "stored_V": -9.116679559928654e-05,
+      "error_uV": 0.0003892123585637298,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.00018139040896239243,
+      "stored_V": 0.0001813888080703125,
+      "error_uV": 0.0016008920799247262,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": -5.604701815946843e-05,
+      "stored_V": -5.6041735430453075e-05,
+      "error_uV": -0.005282729015354277,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.00014344114070702566,
+      "stored_V": 0.00014344293424889385,
+      "error_uV": -0.001793541868190876,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": -5.131472502560898e-05,
+      "stored_V": -5.131425888314817e-05,
+      "error_uV": -0.00046614246080586624,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 0.0004304020310269404,
+      "stored_V": 0.0004304000978604709,
+      "error_uV": 0.0019331664694597142,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": -3.9176112002015375e-05,
+      "stored_V": -3.917504004072357e-05,
+      "error_uV": -0.0010719612918063596,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.00033089302040991846,
+      "stored_V": 0.0003308951122752221,
+      "error_uV": -0.0020918653036443476,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": 0.0002148702225608642,
+      "stored_V": 0.0002148693404405684,
+      "error_uV": 0.0008821202958082634,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.00019017021202965436,
+      "stored_V": 0.00019017076172373417,
+      "error_uV": -0.0005496940798052109,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": 2.6766266414053467e-05,
+      "stored_V": 2.6766055605733377e-05,
+      "error_uV": 0.00021080832009019658,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 41,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.00033085712522883576,
+      "stored_V": 0.00033085437883625056,
+      "error_uV": 0.0027463925851936057,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 41,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": -6.4993990331760085e-06,
+      "stored_V": -6.499538604227544e-06,
+      "error_uV": 0.00013957105153505168,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 42,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.00032500161601257195,
+      "stored_V": 0.000325004665872193,
+      "error_uV": -0.0030498596210364395,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": -0.00011921266070032223,
+      "stored_V": -0.00011921425586174634,
+      "error_uV": 0.0015951614241066807,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.0001397064142420209,
+      "stored_V": 0.00013970686361253334,
+      "error_uV": -0.00044937051245342273,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 42,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": -0.0001425788315133193,
+      "stored_V": -0.00014258063628566221,
+      "error_uV": 0.0018047723429116293,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 42,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.0004165289463197301,
+      "stored_V": 0.0004165293378769258,
+      "error_uV": -0.000391557195683883,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": -0.00010343132984622225,
+      "stored_V": -0.00010343214031672534,
+      "error_uV": 0.000810470503087731,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.0001244289408641352,
+      "stored_V": 0.00012442730469449027,
+      "error_uV": 0.0016361696449464832,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": -7.219477708609498e-05,
+      "stored_V": -7.219334585453455e-05,
+      "error_uV": -0.0014312315604317252,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.0002569073925245799,
+      "stored_V": 0.0002569022431480211,
+      "error_uV": 0.005149376558835628,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": 3.7282430017819245e-05,
+      "stored_V": 3.7282254108531586e-05,
+      "error_uV": 0.00017590928765850522,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.00022820381751917197,
+      "stored_V": 0.00022820456296364857,
+      "error_uV": -0.0007454444765999692,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 42,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": -9.619545774423947e-05,
+      "stored_V": -9.619512613696839e-05,
+      "error_uV": -0.00033160727107490497,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 42,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.00028868561969668677,
+      "stored_V": 0.0002886794055320534,
+      "error_uV": 0.006214164633387698,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": 9.683907907526908e-05,
+      "stored_V": 9.683861365215735e-05,
+      "error_uV": 0.00046542311172605155,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.0002421182913654864,
+      "stored_V": 0.00024211771829414842,
+      "error_uV": 0.0005730713379965141,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": 0.0012814466792178646,
+      "stored_V": 0.0012814467700123099,
+      "error_uV": -9.079444531281955e-05,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 0.00029532376394129814,
+      "stored_V": 0.00029532030918365493,
+      "error_uV": 0.003454757643210713,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": 0.00024188840649135316,
+      "stored_V": 0.00024188949654531465,
+      "error_uV": -0.0010900539614824498,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": -2.3197995471935947e-05,
+      "stored_V": -2.3199106072078434e-05,
+      "error_uV": 0.0011106001424872412,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": -1.6294700160221864e-05,
+      "stored_V": -1.6295889017315963e-05,
+      "error_uV": 0.0011888570940992284,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.00018230935753054474,
+      "stored_V": 0.00018230789790672926,
+      "error_uV": 0.0014596238154772345,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": -2.962942650438658e-05,
+      "stored_V": -2.9627681696907405e-05,
+      "error_uV": -0.0017448074791757842,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 3.22771165968676e-05,
+      "stored_V": 3.227755505594702e-05,
+      "error_uV": -0.00043845907942108254,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 42,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": 3.055666626608909e-05,
+      "stored_V": 3.05566115326189e-05,
+      "error_uV": 5.4733470190762145e-05,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.0001045575480352635,
+      "stored_V": 0.00010455928264860916,
+      "error_uV": -0.0017346133456610244,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": -2.2893920935728965e-05,
+      "stored_V": -2.2894315040872274e-05,
+      "error_uV": 0.00039410514330879675,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.00043465954515980277,
+      "stored_V": 0.0004346594520539067,
+      "error_uV": 9.310589609403189e-05,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": -0.00024068177495912237,
+      "stored_V": -0.0002406837647645315,
+      "error_uV": 0.001989805409118939,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.0004375145052261147,
+      "stored_V": 0.00043751308620438515,
+      "error_uV": 0.001419021729547748,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": 0.00024091955515069034,
+      "stored_V": 0.00024091676845085163,
+      "error_uV": 0.0027866998387137375,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.00013153349478310747,
+      "stored_V": 0.00013153406858566413,
+      "error_uV": -0.0005738025566574389,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 43,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": -6.265359145452495e-05,
+      "stored_V": -6.265454556427363e-05,
+      "error_uV": 0.0009541097486864348,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 43,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.0002327694847805994,
+      "stored_V": 0.00023276604089292452,
+      "error_uV": 0.0034438876748738197,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": -1.740446066990233e-05,
+      "stored_V": -1.7404912542629387e-05,
+      "error_uV": 0.00045187272705850766,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.0002639538840647527,
+      "stored_V": 0.0002639546267543969,
+      "error_uV": -0.0007426896442134547,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": -1.3775666092055976e-05,
+      "stored_V": -1.377717190373198e-05,
+      "error_uV": 0.0015058116760050472,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.000391419364663444,
+      "stored_V": 0.0003914242918071338,
+      "error_uV": -0.00492714368984697,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": -0.00013651194951476225,
+      "stored_V": -0.00013650780317050256,
+      "error_uV": -0.00414634425969021,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.00013374758352000703,
+      "stored_V": 0.0001337490940463491,
+      "error_uV": -0.0015105263420558002,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": 0.00010893620785567365,
+      "stored_V": 0.00010893475714639132,
+      "error_uV": 0.001450709282330197,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 0.00016827641227974872,
+      "stored_V": 0.00016827863664842184,
+      "error_uV": -0.0022243686731134114,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": 0.00012157035038303697,
+      "stored_V": 0.0001215684612012928,
+      "error_uV": 0.001889181744173891,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.000316694136365825,
+      "stored_V": 0.00031669556356921937,
+      "error_uV": -0.0014272033943660452,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": 5.165403200948868e-05,
+      "stored_V": 5.1654780326489965e-05,
+      "error_uV": -0.0007483170012871588,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.00011027532341974998,
+      "stored_V": 0.00011027698127444729,
+      "error_uV": -0.0016578546973140774,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": -1.3982918323458801e-05,
+      "stored_V": -1.3982183271129007e-05,
+      "error_uV": -0.0007350523297943324,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 43,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.0002045940719713971,
+      "stored_V": 0.00020459668065746632,
+      "error_uV": -0.002608686069217143,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 43,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": 7.251937433606741e-05,
+      "stored_V": 7.251774481499857e-05,
+      "error_uV": 0.0016295210688340844,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 44,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.0003770381523782882,
+      "stored_V": 0.0003770407909590393,
+      "error_uV": -0.0026385807510805916,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 44,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": -9.870344414420636e-05,
+      "stored_V": -9.870271108679031e-05,
+      "error_uV": -0.0007330574160522131,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 44,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.0006149901598715736,
+      "stored_V": 0.0006149890634836572,
+      "error_uV": 0.001096387916435862,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 44,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": 7.739133450915473e-05,
+      "stored_V": 7.739047199341575e-05,
+      "error_uV": 0.0008625157389794292,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 44,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 1.0732841969432622e-05,
+      "stored_V": 1.0731702971265653e-05,
+      "error_uV": 0.0011389981669689218,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 44,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": -1.5775202793991283e-05,
+      "stored_V": -1.577506827132706e-05,
+      "error_uV": -0.0001345226642244775,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 44,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.0002011913285364662,
+      "stored_V": 0.00020119198785038253,
+      "error_uV": -0.0006593139163151105,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 44,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": 5.044897139563114e-05,
+      "stored_V": 5.0448642032770185e-05,
+      "error_uV": 0.00032936286095247005,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 44,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.0002998323470335919,
+      "stored_V": 0.0002998349618201678,
+      "error_uV": -0.002614786575900075,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 44,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": -3.4644718314239614e-05,
+      "stored_V": -3.464635304029994e-05,
+      "error_uV": 0.00163472606032832,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 44,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.00047024766453634975,
+      "stored_V": 0.00047024737821421507,
+      "error_uV": 0.0002863221346756546,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 44,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": -2.3477527722199153e-05,
+      "stored_V": -2.3477634671174704e-05,
+      "error_uV": 0.00010694897555115087,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 44,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.00020152369071908962,
+      "stored_V": 0.0002015237447079886,
+      "error_uV": -5.3988898990548276e-05,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 44,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": -1.6428163259954593e-05,
+      "stored_V": -1.6429712028521547e-05,
+      "error_uV": 0.0015487685669536566,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 44,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.00042725383925115625,
+      "stored_V": 0.0004272577397619722,
+      "error_uV": -0.003900510815973545,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 44,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": -0.00015055281058137443,
+      "stored_V": -0.00015055488418543,
+      "error_uV": 0.0020736040555534123,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 44,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 9.214560869834872e-05,
+      "stored_V": 9.214594516606139e-05,
+      "error_uV": -0.00033646771267325636,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 44,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": -0.0005055090322390999,
+      "stored_V": -0.0005055063634828954,
+      "error_uV": -0.002668756204416735,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 44,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.0003463082096468237,
+      "stored_V": 0.00034630217742404593,
+      "error_uV": 0.00603222277776325,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 44,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": -3.270910764293622e-05,
+      "stored_V": -3.2709070890905926e-05,
+      "error_uV": -3.675203029277277e-05,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 44,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.0005356037689589251,
+      "stored_V": 0.0005356036740543255,
+      "error_uV": 9.490459958703956e-05,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 44,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": -0.00012965108746179816,
+      "stored_V": -0.00012964764145210033,
+      "error_uV": -0.0034460096978358983,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 44,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.00015370791006967183,
+      "stored_V": 0.0001537062485344369,
+      "error_uV": 0.0016615352349189094,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 44,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": 3.3043137503766106e-05,
+      "stored_V": 3.3042442750341536e-05,
+      "error_uV": 0.0006947534245699423,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 45,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.00016395363223951264,
+      "stored_V": 0.00016395480054208985,
+      "error_uV": -0.00116830257721281,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": 0.00011034345619335388,
+      "stored_V": 0.00011034414259944759,
+      "error_uV": -0.0006864060937071233,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.00033126103411101757,
+      "stored_V": 0.00033126304558555566,
+      "error_uV": -0.002011474538093829,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": -4.831541186905413e-05,
+      "stored_V": -4.831635746271234e-05,
+      "error_uV": 0.0009455936582114825,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.0002638907390108472,
+      "stored_V": 0.00026389187887265525,
+      "error_uV": -0.0011398618080232098,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": 3.6758074196884737e-05,
+      "stored_V": 3.675923683351236e-05,
+      "error_uV": -0.001162636627623963,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.0005544283500311558,
+      "stored_V": 0.0005544278450596503,
+      "error_uV": 0.0005049715054742873,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 45,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": -3.6752492120092415e-05,
+      "stored_V": -3.675223428584567e-05,
+      "error_uV": -0.00025783424674404075,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 45,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.00012793543331648643,
+      "stored_V": 0.00012793404131314796,
+      "error_uV": 0.0013920033384697082,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": -6.5522292896125424e-06,
+      "stored_V": -6.552235578260308e-06,
+      "error_uV": 6.288647765845105e-06,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.0002137259756019919,
+      "stored_V": 0.0002137225258414397,
+      "error_uV": 0.003449760552199331,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 45,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": -7.192034509183662e-05,
+      "stored_V": -7.19211198178855e-05,
+      "error_uV": 0.0007747260488840356,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 45,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.00025640797847926896,
+      "stored_V": 0.00025640992330903364,
+      "error_uV": -0.0019448297646808277,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": -3.353828597092228e-06,
+      "stored_V": -3.3550835154610154e-06,
+      "error_uV": 0.0012549183687871742,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.00022314195039004016,
+      "stored_V": 0.0002231433352944023,
+      "error_uV": -0.0013849043621421385,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": 2.7241729954206728e-05,
+      "stored_V": 2.7241935046762822e-05,
+      "error_uV": -0.00020509255609392203,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 0.00011785499591376506,
+      "stored_V": 0.00011785701210532075,
+      "error_uV": -0.002016191555696085,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": -1.3211235313633802e-06,
+      "stored_V": -1.3200920938178364e-06,
+      "error_uV": -0.0010314375455437207,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.00019048431164535374,
+      "stored_V": 0.00019048667036180618,
+      "error_uV": -0.0023587164524341026,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": 6.821908079208604e-05,
+      "stored_V": 6.821819698868046e-05,
+      "error_uV": 0.000883803405582321,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.00023903977388195431,
+      "stored_V": 0.00023904103387584083,
+      "error_uV": -0.0012599938865160386,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": 4.8154210352316356e-05,
+      "stored_V": 4.8153283906267485e-05,
+      "error_uV": 0.000926446048871122,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 9.743660529528635e-05,
+      "stored_V": 9.743706899940948e-05,
+      "error_uV": -0.00046370412312712623,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 45,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": 1.4696988835038584e-05,
+      "stored_V": 1.4696201135593398e-05,
+      "error_uV": 0.0007876994451857074,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.0006561686366930843,
+      "stored_V": 0.0006561666525212876,
+      "error_uV": 0.001984171796700143,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 46,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": 6.450162726688334e-05,
+      "stored_V": 6.450267601459532e-05,
+      "error_uV": -0.001048747711978183,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 46,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.0005849515944413421,
+      "stored_V": 0.0005849485259399387,
+      "error_uV": 0.0030685014033816557,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": 8.89236445045648e-06,
+      "stored_V": 8.892501237482571e-06,
+      "error_uV": -0.00013678702609109443,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": -6.26496956353469e-05,
+      "stored_V": -6.264530053103466e-05,
+      "error_uV": -0.004395104312231949,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": -0.00026409841295981217,
+      "stored_V": -0.00026409748920138765,
+      "error_uV": -0.0009237584245170953,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.0003353104304798874,
+      "stored_V": 0.00033530991000596495,
+      "error_uV": 0.0005204739224242555,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": -3.673343867250688e-05,
+      "stored_V": -3.6738078826639395e-05,
+      "error_uV": 0.004640154132517983,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.00038440823645523916,
+      "stored_V": 0.000384410263485643,
+      "error_uV": -0.002027030403825656,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 46,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": -0.0004252960971816777,
+      "stored_V": -0.00042529804858168664,
+      "error_uV": 0.001951400008920988,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 46,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.0002254288045040332,
+      "stored_V": 0.00022542928239146996,
+      "error_uV": -0.0004778874367625599,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": 0.00020677652659105097,
+      "stored_V": 0.00020677823624504484,
+      "error_uV": -0.0017096539938691712,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 6.056108806264928e-05,
+      "stored_V": 6.056323807350519e-05,
+      "error_uV": -0.002150010855907615,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": 4.488176686238564e-05,
+      "stored_V": 4.488125620155158e-05,
+      "error_uV": 0.000510660834060169,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 7.170751319664455e-05,
+      "stored_V": 7.170854319262208e-05,
+      "error_uV": -0.0010299959775329163,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": -3.748827366664128e-05,
+      "stored_V": -3.748744760090547e-05,
+      "error_uV": -0.0008260657358074176,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 8.072273885756132e-05,
+      "stored_V": 8.072386515741318e-05,
+      "error_uV": -0.0011262998518590025,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": -6.0166156948395706e-05,
+      "stored_V": -6.016677929638414e-05,
+      "error_uV": 0.0006223479884310212,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.00041134119711509255,
+      "stored_V": 0.0004113409585773585,
+      "error_uV": 0.0002385377340530931,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": 1.663757433987905e-05,
+      "stored_V": 1.6637821727954283e-05,
+      "error_uV": -0.0002473880752317393,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.00011237712918511062,
+      "stored_V": 0.00011237751307904533,
+      "error_uV": -0.00038389393470757496,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": -8.761230040124193e-05,
+      "stored_V": -8.761314244742213e-05,
+      "error_uV": 0.00084204618020574,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.00015448274763402807,
+      "stored_V": 0.00015448251864048473,
+      "error_uV": 0.00022899354333865037,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 46,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": 3.073965887897511e-05,
+      "stored_V": 3.073972284344149e-05,
+      "error_uV": -6.396446638009439e-05,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.0005413830658722061,
+      "stored_V": 0.000541384163088513,
+      "error_uV": -0.001097216306852021,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 47,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": -3.871701959960422e-05,
+      "stored_V": -3.8720260404840305e-05,
+      "error_uV": 0.0032408052360824056,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 47,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.00022056602581775974,
+      "stored_V": 0.00022056664873204066,
+      "error_uV": -0.000622914280920539,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": -2.3681582075456827e-05,
+      "stored_V": -2.3682517518494087e-05,
+      "error_uV": 0.0009354430372603378,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.0004207886917832103,
+      "stored_V": 0.000420789801907182,
+      "error_uV": -0.0011101239716978378,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": -2.2807106768528298e-05,
+      "stored_V": -2.2806834628380346e-05,
+      "error_uV": -0.00027214014795121414,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.00022205032312263596,
+      "stored_V": 0.0002220503738519204,
+      "error_uV": -5.0729284434194305e-05,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": 2.9238266041551836e-05,
+      "stored_V": 2.9238500791532196e-05,
+      "error_uV": -0.00023474998035949782,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.00023522711635280417,
+      "stored_V": 0.00023522906471218973,
+      "error_uV": -0.0019483593855580857,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": -3.381032633134663e-05,
+      "stored_V": -3.3810177244571074e-05,
+      "error_uV": -0.00014908677555837933,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.00016303790923665986,
+      "stored_V": 0.00016303810649651097,
+      "error_uV": -0.00019725985111302378,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": -0.00010104457963720214,
+      "stored_V": -0.0001010451823269472,
+      "error_uV": 0.000602689745061568,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.00011748671424315496,
+      "stored_V": 0.00011748736596561412,
+      "error_uV": -0.0006517224591619979,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": -8.071180865596853e-05,
+      "stored_V": -8.071139154378777e-05,
+      "error_uV": -0.00041711218075964236,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.0002701289256056661,
+      "stored_V": 0.0002701273947059897,
+      "error_uV": 0.0015308996763959033,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": 9.685531767258352e-05,
+      "stored_V": 9.685737032833456e-05,
+      "error_uV": -0.0020526557510474296,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 0.0001662966668060602,
+      "stored_V": 0.00016629787579181254,
+      "error_uV": -0.0012089857523303951,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": 6.610787620932154e-05,
+      "stored_V": 6.610746973901279e-05,
+      "error_uV": 0.00040647030874604514,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.0004633570527971402,
+      "stored_V": 0.0004633536509447013,
+      "error_uV": 0.0034018524389047185,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": 3.811421152112449e-05,
+      "stored_V": 3.8115382675418646e-05,
+      "error_uV": -0.0011711542941561797,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.00014894947468680142,
+      "stored_V": 0.00014894806604147896,
+      "error_uV": 0.001408645322457415,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": -9.100459861263903e-05,
+      "stored_V": -9.100592158596336e-05,
+      "error_uV": 0.0013229733243294442,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 47,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 9.011220690723807e-05,
+      "stored_V": 9.011045079756046e-05,
+      "error_uV": 0.001756109677610745,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 47,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": 6.1304873772234535e-06,
+      "stored_V": 6.1290206093045446e-06,
+      "error_uV": 0.0014667679189089315,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 48,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.00024137995379914314,
+      "stored_V": 0.00024138084638672378,
+      "error_uV": -0.0008925875806433791,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 48,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": -1.0956427795449228e-05,
+      "stored_V": -1.0955413470132104e-05,
+      "error_uV": -0.001014325317123894,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 48,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.00040918632081681704,
+      "stored_V": 0.00040918265034459454,
+      "error_uV": 0.0036704722224936356,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 48,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": -2.9992734189304354e-05,
+      "stored_V": -2.999630550227252e-05,
+      "error_uV": 0.003571312968165825,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 48,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.0003015706483078165,
+      "stored_V": 0.0003015701281789331,
+      "error_uV": 0.0005201288833770086,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 48,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": 1.3960476941596106e-05,
+      "stored_V": 1.3960146762346123e-05,
+      "error_uV": 0.00033017924998241617,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 48,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.0003461168543274059,
+      "stored_V": 0.000346116511921219,
+      "error_uV": 0.00034240618690005095,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 48,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": 7.686378006472074e-05,
+      "stored_V": 7.686248641983725e-05,
+      "error_uV": 0.0012936448834897918,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 48,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 5.457501620088724e-05,
+      "stored_V": 5.4570873971383065e-05,
+      "error_uV": 0.004142229504177166,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 48,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": 7.548605838059561e-05,
+      "stored_V": 7.548828290325755e-05,
+      "error_uV": -0.0022245226619413937,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 48,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.00030058433436903534,
+      "stored_V": 0.00030058679412230577,
+      "error_uV": -0.002459753270424997,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 48,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": 6.594867385507188e-05,
+      "stored_V": 6.594938735852164e-05,
+      "error_uV": -0.0007135034497637079,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 48,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.0003479087841378709,
+      "stored_V": 0.00034791065963160286,
+      "error_uV": -0.0018754937319430572,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 48,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": -5.241267453719991e-05,
+      "stored_V": -5.2411491316056365e-05,
+      "error_uV": -0.0011832211435476255,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 48,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.00016890993509268765,
+      "stored_V": 0.00016891135289155153,
+      "error_uV": -0.0014177988638805136,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 48,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": -6.38309980042512e-06,
+      "stored_V": -6.383333063673823e-06,
+      "error_uV": 0.0002332632487029294,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 48,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": -0.00022197778874311958,
+      "stored_V": -0.00022197670275835263,
+      "error_uV": -0.0010859847669568434,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 48,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": 4.3889059987816316e-05,
+      "stored_V": 4.388878902181268e-05,
+      "error_uV": 0.0002709660036360464,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 48,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.000498532764300708,
+      "stored_V": 0.0004985359309755688,
+      "error_uV": -0.0031666748608093556,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 48,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": -6.213579516534953e-05,
+      "stored_V": -6.213654683393351e-05,
+      "error_uV": 0.0007516685839839728,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 48,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.0006750368125667549,
+      "stored_V": 0.0006750349253912259,
+      "error_uV": 0.001887175529020034,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 48,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": -0.00036402575665420996,
+      "stored_V": -0.0003640248319823636,
+      "error_uV": -0.0009246718463617673,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 48,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.0001531288096207325,
+      "stored_V": 0.0001531282182272378,
+      "error_uV": 0.0005913934946952509,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 48,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": -0.000128462121812119,
+      "stored_V": -0.00012846257112030814,
+      "error_uV": 0.00044930818915152153,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.0004879426220273079,
+      "stored_V": 0.00048794383893439836,
+      "error_uV": -0.001216907090449259,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": -7.047385888628391e-05,
+      "stored_V": -7.04739380563007e-05,
+      "error_uV": 7.917001678802577e-05,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.00028834962409857813,
+      "stored_V": 0.00028834845185373424,
+      "error_uV": 0.001172244843891928,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": -7.373402355504092e-05,
+      "stored_V": -7.373524047080097e-05,
+      "error_uV": 0.0012169157600550908,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.0004540433695180948,
+      "stored_V": 0.0004540452205001726,
+      "error_uV": -0.001850982077843382,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 49,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": 5.139876707207423e-05,
+      "stored_V": 5.139931144828746e-05,
+      "error_uV": -0.0005443762132289727,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 49,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.00015753254649623284,
+      "stored_V": 0.000157531287050261,
+      "error_uV": 0.0012594459718293267,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": 5.869107305444693e-05,
+      "stored_V": 5.869110146940214e-05,
+      "error_uV": -2.8414955210011392e-05,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.00024323081895858689,
+      "stored_V": 0.00024322708407582946,
+      "error_uV": 0.003734882757423395,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 49,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": 3.796614846276461e-05,
+      "stored_V": 3.7966419707915736e-05,
+      "error_uV": -0.00027124515112296466,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 49,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.00023848836485630248,
+      "stored_V": 0.00023849251669978336,
+      "error_uV": -0.004151843480885813,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 49,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": -6.954062295449561e-05,
+      "stored_V": -6.953913735151067e-05,
+      "error_uV": -0.0014856029849358169,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 49,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.0003695487321748518,
+      "stored_V": 0.0003695444534697889,
+      "error_uV": 0.00427870506288907,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": 0.00012035996689270822,
+      "stored_V": 0.00012035618938376439,
+      "error_uV": 0.0037775089438310365,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.00016769342864801236,
+      "stored_V": 0.00016769397706462502,
+      "error_uV": -0.000548416612659473,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": 1.2448190722501118e-05,
+      "stored_V": 1.2449099138939158e-05,
+      "error_uV": -0.0009084164380400157,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 2.3002033459074922e-06,
+      "stored_V": 2.30137153607634e-06,
+      "error_uV": -0.0011681901688476554,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": 4.537365096616289e-05,
+      "stored_V": 4.537560401001349e-05,
+      "error_uV": -0.0019530438505999765,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.00047777603598931197,
+      "stored_V": 0.00047777524308381366,
+      "error_uV": 0.0007929054983120756,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": -4.853915015663817e-05,
+      "stored_V": -4.8539890285291754e-05,
+      "error_uV": 0.0007401286535821958,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.00012511821551277675,
+      "stored_V": 0.00012511673189817012,
+      "error_uV": 0.001483614606628868,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": -4.0602661359844766e-05,
+      "stored_V": -4.060418883402864e-05,
+      "error_uV": 0.0015274741838741603,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.00040996032046056435,
+      "stored_V": 0.0004099556354024936,
+      "error_uV": 0.0046850580707720815,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 49,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": 7.365142880782141e-05,
+      "stored_V": 7.365239359076185e-05,
+      "error_uV": -0.0009647829404412119,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 4.9501041928924924e-05,
+      "stored_V": 4.950205721621423e-05,
+      "error_uV": -0.0010152872893063746,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": 2.2727896681220744e-05,
+      "stored_V": 2.2727644749363617e-05,
+      "error_uV": 0.00025193185712707434,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.0005316513626028417,
+      "stored_V": 0.0005316570381314701,
+      "error_uV": -0.005675528628448431,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": 5.913016534303617e-06,
+      "stored_V": 5.913132320708954e-06,
+      "error_uV": -0.0001157864053371254,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.00040492937044495347,
+      "stored_V": 0.00040493354906956917,
+      "error_uV": -0.004178624615704292,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": -8.725665745126129e-05,
+      "stored_V": -8.725611267337759e-05,
+      "error_uV": -0.0005447778836928981,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.0005573613065526468,
+      "stored_V": 0.0005573625331368974,
+      "error_uV": -0.001226584250618376,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": 7.821275971349027e-05,
+      "stored_V": 7.821405528019438e-05,
+      "error_uV": -0.0012955667041161497,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.0002922887837126404,
+      "stored_V": 0.00029229067049831486,
+      "error_uV": -0.0018867856744759874,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 50,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": -4.015373210216385e-05,
+      "stored_V": -4.015752405616811e-05,
+      "error_uV": 0.0037919540042606853,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 50,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.0001828483759021129,
+      "stored_V": 0.00018284945694544642,
+      "error_uV": -0.001081043333518196,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 50,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": 7.261956554838115e-05,
+      "stored_V": 7.261635831316471e-05,
+      "error_uV": 0.003207235216434192,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 50,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.000252437439070612,
+      "stored_V": 0.0002524383042650719,
+      "error_uV": -0.0008651944599126493,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": 8.676892926225455e-05,
+      "stored_V": 8.676942710250918e-05,
+      "error_uV": -0.0004978402546299996,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.0005732510071019351,
+      "stored_V": 0.0005732490886400895,
+      "error_uV": 0.0019184618456563954,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": -0.00012862589956554613,
+      "stored_V": -0.00012862104786991985,
+      "error_uV": -0.0048516956262787455,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 9.296292572731346e-05,
+      "stored_V": 9.296326880491467e-05,
+      "error_uV": -0.0003430776012130869,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": -5.065952410997405e-05,
+      "stored_V": -5.065772536205195e-05,
+      "error_uV": -0.0017987479221015967,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.00010722858830180778,
+      "stored_V": 0.000107226267476656,
+      "error_uV": 0.002320825151781963,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": -4.698551272540431e-05,
+      "stored_V": -4.698623453967288e-05,
+      "error_uV": 0.0007218142685733804,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": -9.325385452721872e-05,
+      "stored_V": -9.325219144770766e-05,
+      "error_uV": -0.0016630795110597922,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 50,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": 1.129647109055875e-05,
+      "stored_V": 1.1296533008568399e-05,
+      "error_uV": -6.191800964806045e-05,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 50,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.0003299741395107098,
+      "stored_V": 0.0003299780569957542,
+      "error_uV": -0.003917485044365766,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 50,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": 0.00013745984024132952,
+      "stored_V": 0.000137458501560566,
+      "error_uV": 0.0013386807635172061,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.0003123283369585931,
+      "stored_V": 0.00031233072077272995,
+      "error_uV": -0.0023838141368628593,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 51,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": -8.121515406010158e-05,
+      "stored_V": -8.12178322656936e-05,
+      "error_uV": 0.002678205592018877,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 51,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.00044287574818084385,
+      "stored_V": 0.00044287587960900544,
+      "error_uV": -0.00013142816159385576,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": 0.00025149160172292855,
+      "stored_V": 0.0002514896003767028,
+      "error_uV": 0.0020013462257340194,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.00041898045638237997,
+      "stored_V": 0.00041898022796016057,
+      "error_uV": 0.0002284222193988869,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": 5.170455010236839e-05,
+      "stored_V": 5.1702996244346005e-05,
+      "error_uV": 0.001553858022388169,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.00031143092269495513,
+      "stored_V": 0.0003114296259411316,
+      "error_uV": 0.0012967538235157845,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 51,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": 3.2674322522837504e-05,
+      "stored_V": 3.2671621767708615e-05,
+      "error_uV": 0.002700755128889063,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 51,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.00038843610687310285,
+      "stored_V": 0.00038843919603792236,
+      "error_uV": -0.0030891648195095593,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": -5.9807206791451874e-05,
+      "stored_V": -5.98102836187793e-05,
+      "error_uV": 0.0030768273274247443,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 7.825534757354362e-05,
+      "stored_V": 7.825537662486102e-05,
+      "error_uV": -2.905131739555991e-05,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 51,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": 0.0001307417521642853,
+      "stored_V": 0.0001307413937019297,
+      "error_uV": 0.0003584623556101771,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 51,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.0005271516099502748,
+      "stored_V": 0.0005271461294499915,
+      "error_uV": 0.005480500283303914,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": 0.00030778872342990835,
+      "stored_V": 0.00030779159012194374,
+      "error_uV": -0.002866692035391038,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.0001653272597678724,
+      "stored_V": 0.00016532866136001345,
+      "error_uV": -0.0014015921410406775,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": -5.716431836960834e-05,
+      "stored_V": -5.7161865664295486e-05,
+      "error_uV": -0.002452705312856957,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 0.00014877855758783348,
+      "stored_V": 0.0001487763568153692,
+      "error_uV": 0.0022007724642778177,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": -6.091221452722723e-05,
+      "stored_V": -6.091270561228285e-05,
+      "error_uV": 0.0004910850556229512,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.0003693522725331349,
+      "stored_V": 0.00036934783941502757,
+      "error_uV": 0.004433118107305921,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": 9.842393062805006e-05,
+      "stored_V": 9.842334575839646e-05,
+      "error_uV": 0.0005848696536033416,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.00019315224941459578,
+      "stored_V": 0.00019314986367494793,
+      "error_uV": 0.0023857396478559143,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": 0.00019145953477276947,
+      "stored_V": 0.00019146069390558066,
+      "error_uV": -0.0011591328111920911,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 51,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.00016691441566147656,
+      "stored_V": 0.00016691095361827494,
+      "error_uV": 0.0034620432016248693,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 51,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": -0.00012777222195660152,
+      "stored_V": -0.00012777332586315148,
+      "error_uV": 0.0011039065499652157,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 52,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.0004652084664030346,
+      "stored_V": 0.0004652093701473482,
+      "error_uV": -0.0009037443135973162,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 52,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": 0.0001351808058179596,
+      "stored_V": 0.00013518325803199747,
+      "error_uV": -0.0024522140378675176,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 52,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.00010737822427971558,
+      "stored_V": 0.00010738442747714808,
+      "error_uV": -0.006203197432498933,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": 5.2527956006203306e-05,
+      "stored_V": 5.2528333040211886e-05,
+      "error_uV": -0.0003770340085808093,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.00045271926998319083,
+      "stored_V": 0.0004527186449825723,
+      "error_uV": 0.0006250006185336276,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": -1.649484394613109e-05,
+      "stored_V": -1.6497083963502788e-05,
+      "error_uV": 0.002240017371697917,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.0002920316131610435,
+      "stored_V": 0.0002920323641697305,
+      "error_uV": -0.0007510086870421949,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": -0.00018871749908040583,
+      "stored_V": -0.00018871924404050764,
+      "error_uV": 0.0017449601018141615,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.00014105347188689453,
+      "stored_V": 0.0001410549362628317,
+      "error_uV": -0.0014643759371605908,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": -3.583506923514698e-05,
+      "stored_V": -3.583539426662945e-05,
+      "error_uV": 0.00032503148246878014,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.0004758253724728315,
+      "stored_V": 0.0004758278388496621,
+      "error_uV": -0.0024663768306322498,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": -2.1626840710652664e-05,
+      "stored_V": -2.1628629729512277e-05,
+      "error_uV": 0.001789018859612554,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.00028666155693728856,
+      "stored_V": 0.0002866622956005327,
+      "error_uV": -0.0007386632441233783,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": -1.365875965384604e-05,
+      "stored_V": -1.3658972818579475e-05,
+      "error_uV": 0.0002131647334351511,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 7.935608866693106e-05,
+      "stored_V": 7.93581011171456e-05,
+      "error_uV": -0.002012450214542642,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": -3.80573579574236e-05,
+      "stored_V": -3.8058446235503945e-05,
+      "error_uV": 0.001088278080343529,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 0.00014819175189305446,
+      "stored_V": 0.00014819242239236363,
+      "error_uV": -0.0006704993091776953,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": -4.944211844916723e-05,
+      "stored_V": -4.943858222128172e-05,
+      "error_uV": -0.003536227885506311,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.0004123345799173196,
+      "stored_V": 0.00041234025622548443,
+      "error_uV": -0.005676308164823118,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": 6.354416785155554e-05,
+      "stored_V": 6.354665860664301e-05,
+      "error_uV": -0.0024907550874646257,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.00018926423232591507,
+      "stored_V": 0.00018926574258019995,
+      "error_uV": -0.0015102542848851718,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": 9.408520925700562e-05,
+      "stored_V": 9.408692952468946e-05,
+      "error_uV": -0.0017202676838362282,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.0005211783499571638,
+      "stored_V": 0.0005211801575327555,
+      "error_uV": -0.0018075755917014089,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 52,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": 3.2285439436935306e-05,
+      "stored_V": 3.228575211233811e-05,
+      "error_uV": -0.00031267540280159123,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.0005961964218132382,
+      "stored_V": 0.0005961990593944778,
+      "error_uV": -0.002637581239571876,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 53,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": 8.751403229640826e-06,
+      "stored_V": 8.754042662431567e-06,
+      "error_uV": -0.002639432790741341,
+      "within_tolerance": false,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 53,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.0001318784433781413,
+      "stored_V": 0.00013187934371704352,
+      "error_uV": -0.0009003389022277548,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 53,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": -6.018470723454765e-05,
+      "stored_V": -6.01838917011767e-05,
+      "error_uV": -0.0008155333709508519,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 53,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": -9.491544531718842e-05,
+      "stored_V": -9.491647187926934e-05,
+      "error_uV": 0.0010265620809196772,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 53,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": 6.162142098063297e-05,
+      "stored_V": 6.161967573661999e-05,
+      "error_uV": 0.00174524401298727,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 53,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.0006349480449681007,
+      "stored_V": 0.0006349521432285187,
+      "error_uV": -0.004098260417985909,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": -0.000251665910080435,
+      "stored_V": -0.0002516662586936844,
+      "error_uV": 0.0003486132494332807,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.00012658973171112404,
+      "stored_V": 0.00012659111827586307,
+      "error_uV": -0.0013865647390291173,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": 0.0005217165765759086,
+      "stored_V": 0.0005217168197826973,
+      "error_uV": -0.00024320678869253765,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.0002312940926185702,
+      "stored_V": 0.000231296251127092,
+      "error_uV": -0.0021585085217964376,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 53,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": -0.00044472962811592574,
+      "stored_V": -0.00044472890351401195,
+      "error_uV": -0.0007246019137897679,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 53,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.00023221901727645442,
+      "stored_V": 0.0002322196535621881,
+      "error_uV": -0.0006362857336828474,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": 0.0001104686097009513,
+      "stored_V": 0.00011046798076170966,
+      "error_uV": 0.0006289392416429247,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.00024733622150855566,
+      "stored_V": 0.00024733788908919564,
+      "error_uV": -0.0016675806399808757,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": -6.699127550723693e-05,
+      "stored_V": -6.699192996658286e-05,
+      "error_uV": 0.0006544593459290211,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 0.00012894606298196294,
+      "stored_V": 0.0001289450769223767,
+      "error_uV": 0.0009860595862509931,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": 9.86637175997319e-05,
+      "stored_V": 9.866519612912803e-05,
+      "error_uV": -0.0014785293961236878,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.000513740929593099,
+      "stored_V": 0.0005137390057744831,
+      "error_uV": 0.0019238186158053797,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": 8.891984315510594e-07,
+      "stored_V": 8.895958198044641e-07,
+      "error_uV": -0.0003973882534047075,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.0002747602774549038,
+      "stored_V": 0.00027475603298281697,
+      "error_uV": 0.004244472086843178,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": 0.00037321553955385866,
+      "stored_V": 0.00037321632181439035,
+      "error_uV": -0.0007822605316873225,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.0005829382536702324,
+      "stored_V": 0.0005829380059939511,
+      "error_uV": 0.0002476762812854069,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 53,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": 1.1845648698260565e-05,
+      "stored_V": 1.1841750097258646e-05,
+      "error_uV": 0.0038986010019189357,
+      "within_tolerance": false,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 8.166263153229113e-05,
+      "stored_V": 8.166232676277057e-05,
+      "error_uV": 0.00030476952056067864,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": -6.301632097449684e-05,
+      "stored_V": -6.301643562359795e-05,
+      "error_uV": 0.00011464910111232997,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.00021709664040814997,
+      "stored_V": 0.00021709547247111946,
+      "error_uV": 0.0011679370305085757,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": -7.740647960614551e-05,
+      "stored_V": -7.740703561996736e-05,
+      "error_uV": 0.0005560138218439238,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.00017748915972664288,
+      "stored_V": 0.0001774913410943733,
+      "error_uV": -0.0021813677304359166,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": 0.0001286399199797081,
+      "stored_V": 0.00012864267137610523,
+      "error_uV": -0.002751396397120045,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.0006211730738801631,
+      "stored_V": 0.0006211766964813781,
+      "error_uV": -0.0036226012149883843,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": 0.00010443836549998087,
+      "stored_V": 0.00010443861758368263,
+      "error_uV": -0.0002520837017589133,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.0003677700728979827,
+      "stored_V": 0.0003677664015299308,
+      "error_uV": 0.0036713680519112266,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 54,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": -4.784378235679009e-05,
+      "stored_V": -4.784123473281491e-05,
+      "error_uV": -0.0025476239751831423,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 54,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.0003327792487134788,
+      "stored_V": 0.000332781310900988,
+      "error_uV": -0.0020621875091884553,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": 1.3517448121920667e-05,
+      "stored_V": 1.3518155362762243e-05,
+      "error_uV": -0.0007072408415762069,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.00016732121085497818,
+      "stored_V": 0.00016731850516551281,
+      "error_uV": 0.002705689465363906,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": 0.000153691708847257,
+      "stored_V": 0.0001536945527200101,
+      "error_uV": -0.002843872753092872,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.0002566667384967567,
+      "stored_V": 0.000256668592536407,
+      "error_uV": -0.0018540396502677962,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 54,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": 0.00014285859224350824,
+      "stored_V": 0.00014285906103826354,
+      "error_uV": -0.00046879475529369025,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 54,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 0.00011685628608275905,
+      "stored_V": 0.0001168562991042868,
+      "error_uV": -1.3021527744418691e-05,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 54,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": -6.78062360692763e-05,
+      "stored_V": -6.780335083102275e-05,
+      "error_uV": -0.002885238253554686,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 54,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.00023537042882589454,
+      "stored_V": 0.0002353721269548119,
+      "error_uV": -0.0016981289173488654,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": -5.9998937441310244e-05,
+      "stored_V": -5.9997735031947154e-05,
+      "error_uV": -0.0012024093630898193,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.00042608619675712307,
+      "stored_V": 0.0004260861718152295,
+      "error_uV": 2.4941893548343502e-05,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": 8.603873700249749e-05,
+      "stored_V": 8.603940865254592e-05,
+      "error_uV": -0.0006716500484309305,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.00047832029409714634,
+      "stored_V": 0.0004783167740686778,
+      "error_uV": 0.0035200284685221565,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 54,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": 7.600806208321512e-05,
+      "stored_V": 7.600694818724038e-05,
+      "error_uV": 0.00111389597473924,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 5.1028472168196875e-05,
+      "stored_V": 5.1025577312687605e-05,
+      "error_uV": 0.0028948555092701725,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": 0.00010347303295574675,
+      "stored_V": 0.00010346971854948721,
+      "error_uV": 0.0033144062595380844,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.00017217511160188108,
+      "stored_V": 0.000172176253232628,
+      "error_uV": -0.0011416307469139762,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": -2.9603592391978114e-05,
+      "stored_V": -2.960265819948043e-05,
+      "error_uV": -0.0009341924976850164,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.0004023877411342105,
+      "stored_V": 0.00040238735820009706,
+      "error_uV": 0.0003829341134551495,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": 3.4243456184619536e-05,
+      "stored_V": 3.42440879425536e-05,
+      "error_uV": -0.0006317579340659471,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.00043199939362326665,
+      "stored_V": 0.00043200174876619965,
+      "error_uV": -0.0023551429329969273,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": 4.2753769167626146e-05,
+      "stored_V": 4.27526892343164e-05,
+      "error_uV": 0.001079933309742825,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.0003186632059929112,
+      "stored_V": 0.0003186644578129256,
+      "error_uV": -0.0012518200144008562,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 55,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": 0.0001754525329198955,
+      "stored_V": 0.00017545457721534558,
+      "error_uV": -0.0020442954500705327,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 55,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 0.00035458968753869036,
+      "stored_V": 0.00035458830122576837,
+      "error_uV": 0.0013863129219885903,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 55,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": 0.00018459725051661282,
+      "stored_V": 0.00018459265461810996,
+      "error_uV": 0.004595898502859821,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 55,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.0002255895101076139,
+      "stored_V": 0.00022559219146875043,
+      "error_uV": -0.0026813611365430166,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": -4.827620128375687e-05,
+      "stored_V": -4.8275469737045594e-05,
+      "error_uV": -0.0007315467112761482,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.0001364693290252374,
+      "stored_V": 0.0001364684995308882,
+      "error_uV": 0.0008294943492118904,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": -3.543737834417723e-05,
+      "stored_V": -3.5437979566939715e-05,
+      "error_uV": 0.0006012227624863846,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": 0.00012094175882955206,
+      "stored_V": 0.00012094164063378413,
+      "error_uV": 0.00011819576792456397,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 55,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": -0.0001442457255896752,
+      "stored_V": -0.00014424032341058769,
+      "error_uV": -0.005402179087502261,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 55,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.00034024172481989147,
+      "stored_V": 0.00034023768623507225,
+      "error_uV": 0.0040385848192135,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": -3.23253480454405e-05,
+      "stored_V": -3.2326079941411125e-05,
+      "error_uV": 0.0007318959706277854,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 5.3818300640254925e-05,
+      "stored_V": 5.3820617862776495e-05,
+      "error_uV": -0.0023172225215706667,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": -0.00012883535371243694,
+      "stored_V": -0.00012883260345863013,
+      "error_uV": -0.0027502538068116533,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.00044800683342851737,
+      "stored_V": 0.0004480113115627061,
+      "error_uV": -0.0044781341887174635,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 55,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": 4.5649844433166535e-05,
+      "stored_V": 4.564645583332469e-05,
+      "error_uV": 0.0033885998418462264,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 1,
+      "kind": "response",
+      "amplitude_V": 0.0004968502509247559,
+      "stored_V": 0.0004968540524921531,
+      "error_uV": -0.0038015673972484343,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 56,
+      "pulse": 1,
+      "kind": "baseline",
+      "amplitude_V": -0.00011416520955590757,
+      "stored_V": -0.00011416722948658503,
+      "error_uV": 0.002019930677460576,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 56,
+      "pulse": 2,
+      "kind": "response",
+      "amplitude_V": 0.00014058463646626296,
+      "stored_V": 0.00014058410191290275,
+      "error_uV": 0.000534553360208084,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 2,
+      "kind": "baseline",
+      "amplitude_V": -8.767194344052554e-06,
+      "stored_V": -8.76687929733584e-06,
+      "error_uV": -0.00031504671671308486,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 3,
+      "kind": "response",
+      "amplitude_V": 0.00021230480900939736,
+      "stored_V": 0.00021230195378071757,
+      "error_uV": 0.0028552286797899062,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 3,
+      "kind": "baseline",
+      "amplitude_V": -1.974303215537971e-05,
+      "stored_V": -1.974162407991405e-05,
+      "error_uV": -0.0014080754656566432,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 4,
+      "kind": "response",
+      "amplitude_V": 0.0002685874775936601,
+      "stored_V": 0.0002685870994934635,
+      "error_uV": 0.00037810019655123983,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 4,
+      "kind": "baseline",
+      "amplitude_V": 5.348486227506584e-05,
+      "stored_V": 5.348400222077536e-05,
+      "error_uV": 0.0008600542904810618,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 5,
+      "kind": "response",
+      "amplitude_V": 0.0003406084372644113,
+      "stored_V": 0.0003406072012792493,
+      "error_uV": 0.0012359851620370559,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 5,
+      "kind": "baseline",
+      "amplitude_V": 8.042037333988874e-05,
+      "stored_V": 8.042109765984413e-05,
+      "error_uV": -0.0007243199553867447,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 6,
+      "kind": "response",
+      "amplitude_V": 5.103001024402868e-05,
+      "stored_V": 5.103074512625847e-05,
+      "error_uV": -0.0007348822297898296,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 6,
+      "kind": "baseline",
+      "amplitude_V": 6.626106949031551e-05,
+      "stored_V": 6.626240488221776e-05,
+      "error_uV": -0.0013353919022413311,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 7,
+      "kind": "response",
+      "amplitude_V": 0.0002072825110432467,
+      "stored_V": 0.00020728114447860586,
+      "error_uV": 0.0013665646408532114,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 7,
+      "kind": "baseline",
+      "amplitude_V": -0.00019258135428193188,
+      "stored_V": -0.0001925803879275467,
+      "error_uV": -0.0009663543851842066,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 8,
+      "kind": "response",
+      "amplitude_V": 0.00027519502219958565,
+      "stored_V": 0.0002751959794747531,
+      "error_uV": -0.0009572751674463351,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 8,
+      "kind": "baseline",
+      "amplitude_V": 9.994870110658942e-05,
+      "stored_V": 9.995090926886325e-05,
+      "error_uV": -0.0022081622738266086,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 9,
+      "kind": "response",
+      "amplitude_V": -0.0006163525573100552,
+      "stored_V": -0.0006163529629058779,
+      "error_uV": 0.00040559582266137123,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 56,
+      "pulse": 9,
+      "kind": "baseline",
+      "amplitude_V": -8.727179800168853e-05,
+      "stored_V": -8.727234240268646e-05,
+      "error_uV": 0.0005444009979280054,
+      "within_tolerance": true,
+      "fit_samples": 161
+    },
+    {
+      "sweep": 56,
+      "pulse": 10,
+      "kind": "response",
+      "amplitude_V": 0.0002080427737454374,
+      "stored_V": 0.00020804103081635227,
+      "error_uV": 0.001742929085129033,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 10,
+      "kind": "baseline",
+      "amplitude_V": 8.66007331500095e-06,
+      "stored_V": 8.659678196445339e-06,
+      "error_uV": 0.0003951185556107348,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 11,
+      "kind": "response",
+      "amplitude_V": 0.00038710272090276116,
+      "stored_V": 0.000387096700332953,
+      "error_uV": 0.0060205698081583665,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 11,
+      "kind": "baseline",
+      "amplitude_V": 2.901848952165669e-05,
+      "stored_V": 2.901944600407093e-05,
+      "error_uV": -0.0009564824142405896,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 12,
+      "kind": "response",
+      "amplitude_V": 0.00033304041409966075,
+      "stored_V": 0.00033303601442489784,
+      "error_uV": 0.0043996747629121945,
+      "within_tolerance": true,
+      "fit_samples": 160
+    },
+    {
+      "sweep": 56,
+      "pulse": 12,
+      "kind": "baseline",
+      "amplitude_V": 7.852134820913657e-06,
+      "stored_V": 7.851998636082551e-06,
+      "error_uV": 0.0001361848311055261,
+      "within_tolerance": true,
+      "fit_samples": 160
+    }
+  ],
+  "summary": {
+    "response": {
+      "n": 240,
+      "matches": 239,
+      "median_abs_error_uV": 0.0014739952718947295,
+      "max_abs_error_uV": 0.006275973142219615
+    },
+    "baseline": {
+      "n": 240,
+      "matches": 237,
+      "median_abs_error_uV": 0.0008340559580065788,
+      "max_abs_error_uV": 0.005402179087502261
+    }
+  },
+  "derived_template": {
+    "amplitude": 5.328439146072758,
+    "rise_time": 0.0014002839189034201,
+    "rise_power": 1.0,
+    "decay_tau": 0.0019482169203648115
+  },
+  "stored_template": {
+    "dec_fit_rise_time": 0.0014002839189033993,
+    "dec_fit_decay_tau": 0.0019482169203647833
+  },
+  "new_data_bytes": 0
+}

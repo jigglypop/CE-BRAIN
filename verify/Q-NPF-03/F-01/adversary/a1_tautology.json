@@ -1,0 +1,234 @@
+{
+  "note": "adversary A1",
+  "checks": [
+    {
+      "name": "A1a_lam_is_mobius_of_p_cross",
+      "R": 0.5011,
+      "rows": [
+        {
+          "p_cross": 0.0,
+          "L": 0.05,
+          "lam": 0.2659
+        },
+        {
+          "p_cross": 0.0,
+          "L": 0.2281,
+          "lam": 0.231
+        },
+        {
+          "p_cross": 0.0,
+          "L": 0.5,
+          "lam": 0.1875
+        },
+        {
+          "p_cross": 0.5,
+          "L": 0.05,
+          "lam": 0.535
+        },
+        {
+          "p_cross": 0.5,
+          "L": 0.2281,
+          "lam": 0.5148
+        },
+        {
+          "p_cross": 0.5,
+          "L": 0.5,
+          "lam": 0.4882
+        },
+        {
+          "p_cross": 1.0,
+          "L": 0.05,
+          "lam": 0.8028
+        },
+        {
+          "p_cross": 1.0,
+          "L": 0.2281,
+          "lam": 0.7935
+        },
+        {
+          "p_cross": 1.0,
+          "L": 0.5,
+          "lam": 0.7807
+        },
+        {
+          "p_cross": 1.3678,
+          "L": 0.05,
+          "lam": 0.9989
+        },
+        {
+          "p_cross": 1.3678,
+          "L": 0.2281,
+          "lam": 0.9951
+        },
+        {
+          "p_cross": 1.3678,
+          "L": 0.5,
+          "lam": 0.9897
+        },
+        {
+          "p_cross": 1.5,
+          "L": 0.05,
+          "lam": 1.0692
+        },
+        {
+          "p_cross": 1.5,
+          "L": 0.2281,
+          "lam": 1.0669
+        },
+        {
+          "p_cross": 1.5,
+          "L": 0.5,
+          "lam": 1.0634
+        },
+        {
+          "p_cross": 2.0,
+          "L": 0.05,
+          "lam": 1.3343
+        },
+        {
+          "p_cross": 2.0,
+          "L": 0.2281,
+          "lam": 1.3343
+        },
+        {
+          "p_cross": 2.0,
+          "L": 0.5,
+          "lam": 1.3343
+        },
+        {
+          "p_cross": 2.5,
+          "L": 0.05,
+          "lam": 1.598
+        },
+        {
+          "p_cross": 2.5,
+          "L": 0.2281,
+          "lam": 1.5955
+        },
+        {
+          "p_cross": 2.5,
+          "L": 0.5,
+          "lam": 1.5916
+        },
+        {
+          "p_cross": 4.1034,
+          "L": 0.05,
+          "lam": 2.4343
+        },
+        {
+          "p_cross": 4.1034,
+          "L": 0.2281,
+          "lam": 2.3862
+        },
+        {
+          "p_cross": 4.1034,
+          "L": 0.5,
+          "lam": 2.3019
+        }
+      ],
+      "verdict": "Lam=1 은 p_cross=p 와 동치(L->0). 기하항 B=p^2/2 는 양 phase 공통이라 소거되지 않고 r 로만 들어간다."
+    },
+    {
+      "name": "A1b_finite_L_jensen_bias",
+      "rows": [
+        {
+          "L": 0.01,
+          "lam_exact": 0.99978,
+          "lam_2nd_order": 0.99978
+        },
+        {
+          "L": 0.1,
+          "lam_exact": 0.99784,
+          "lam_2nd_order": 0.99781
+        },
+        {
+          "L": 0.2281,
+          "lam_exact": 0.99514,
+          "lam_2nd_order": 0.995
+        },
+        {
+          "L": 0.5,
+          "lam_exact": 0.98972,
+          "lam_2nd_order": 0.98904
+        },
+        {
+          "L": 1.0,
+          "lam_exact": 0.98073,
+          "lam_2nd_order": 0.97809
+        },
+        {
+          "L": 2.0,
+          "lam_exact": 0.96628,
+          "lam_2nd_order": 0.95617
+        },
+        {
+          "L": 3.0,
+          "lam_exact": 0.95566,
+          "lam_2nd_order": 0.93426
+        }
+      ],
+      "verdict": "카드가 정확히 참인 세계에서도 Lam<1. 편의는 -r(1-r)k^2 L/(2(2-R)). 참 세계 L=0.228 에서 -0.004 로 무해하나 카드는 이 선형화를 어디에도 선언하지 않았다."
+    },
+    {
+      "name": "A1c_lam_ne_1_worlds",
+      "rows": [
+        {
+          "p_cross - p": -1.0,
+          "lam": 0.4403
+        },
+        {
+          "p_cross - p": -0.5,
+          "lam": 0.7204
+        },
+        {
+          "p_cross - p": -0.2,
+          "lam": 0.8859
+        },
+        {
+          "p_cross - p": 0.2,
+          "lam": 1.1035
+        },
+        {
+          "p_cross - p": 0.5,
+          "lam": 1.2642
+        },
+        {
+          "p_cross - p": 1.0,
+          "lam": 1.5271
+        }
+      ],
+      "verdict": "Lam 은 p_cross 의 매끄러운 단조함수. 항등식이 아니다(무내용 아님). 다만 '내용'은 오직 p_cross=p 하나."
+    },
+    {
+      "name": "A1d_geometry_term_is_decorative",
+      "rows": [
+        {
+          "p_cross": 0.0,
+          "lam_card": 0.231,
+          "lam_no_geometry_term": -0.0
+        },
+        {
+          "p_cross": 1.0,
+          "lam_card": 0.7935,
+          "lam_no_geometry_term": 0.7311
+        },
+        {
+          "p_cross": 1.3678,
+          "lam_card": 0.9951,
+          "lam_no_geometry_term": 1.0
+        },
+        {
+          "p_cross": 2.0,
+          "lam_card": 1.3343,
+          "lam_no_geometry_term": 1.4622
+        },
+        {
+          "p_cross": 2.5,
+          "lam_card": 1.5955,
+          "lam_no_geometry_term": 1.8278
+        }
+      ],
+      "verdict": "p^2/2(잡음기하 항)를 통째로 버리고 Phi=CV^-2 만 써도 Lam=1 <=> p_cross=p 로 같다. 리만항은 두 판정을 가르지 않는다."
+    }
+  ]
+}

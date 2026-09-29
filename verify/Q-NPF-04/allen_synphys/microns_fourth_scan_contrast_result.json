@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "timing": "common_frame",
+      "cells": 35,
+      "dyads": 595,
+      "linked_dyads": 40,
+      "unlisted_dyads": 555,
+      "linked_mean": 0.05424469420968686,
+      "unlisted_mean": 0.03691878148587769,
+      "mean_difference": 0.01732591272380917,
+      "median_difference": 0.03877024411306825,
+      "matched_mean_difference": -0.016804591263018122,
+      "matched_strata": 11,
+      "matched_dyads": 484,
+      "matched_linked_dyads": 40
+    },
+    {
+      "timing": "positive_delay_sensitivity",
+      "cells": 35,
+      "dyads": 595,
+      "linked_dyads": 40,
+      "unlisted_dyads": 555,
+      "linked_mean": 0.07440183844367712,
+      "unlisted_mean": 0.051246704923759684,
+      "mean_difference": 0.023155133519917437,
+      "median_difference": 0.0470767852915324,
+      "matched_mean_difference": -0.02553123579828767,
+      "matched_strata": 11,
+      "matched_dyads": 484,
+      "matched_linked_dyads": 40
+    }
+  ],
+  "fixed_distance_boundaries_um": [
+    78.47699304790255,
+    142.92987653611388,
+    167.705328522537
+  ],
+  "limits": "Conditional registered-cell descriptive observation in same mouse; not replicated causal mechanism."
+}

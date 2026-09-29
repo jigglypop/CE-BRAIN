@@ -1,0 +1,241 @@
+{
+  "question": "행동 시계 변환 누락 시행의 원래 획득 시각 보존 여부",
+  "code_sha256": "39bbd5cd9ab80eab0e9c6ea8513ef86d47bc6406ddf94c4feb06be4eb768d587",
+  "source_sha256": "6d9117ba4b12b2a9bf28f2fbecb62942be47581ada0ce27053a869f6a0662e5e",
+  "parent_sha256": "4ffec8e9c24053caa99353e4e82bec94fb2f39d2f07de831a79d4018c7aa2a82",
+  "rows": [
+    {
+      "mouse": "J064",
+      "run": 10,
+      "original_n": 173,
+      "exported_n": 162,
+      "native_finite_strictly_increasing": true,
+      "assumed_rate_hz": 20000,
+      "native_to_behavior_slope": 1.0000249619847104,
+      "affine_residual_max_seconds": 0.00027011956065337017,
+      "affine_residual_rms_seconds": 9.785590541260882e-05,
+      "missing_behavior_clock": []
+    },
+    {
+      "mouse": "J064",
+      "run": 11,
+      "original_n": 176,
+      "exported_n": 166,
+      "native_finite_strictly_increasing": true,
+      "assumed_rate_hz": 20000,
+      "native_to_behavior_slope": 1.0000246937907973,
+      "affine_residual_max_seconds": 0.00028870260939584114,
+      "affine_residual_rms_seconds": 9.868426025376092e-05,
+      "missing_behavior_clock": []
+    },
+    {
+      "mouse": "J064",
+      "run": 14,
+      "original_n": 221,
+      "exported_n": 208,
+      "native_finite_strictly_increasing": true,
+      "assumed_rate_hz": 20000,
+      "native_to_behavior_slope": 1.0000247207679276,
+      "affine_residual_max_seconds": 0.0002056813991657691,
+      "affine_residual_rms_seconds": 6.688618872858802e-05,
+      "missing_behavior_clock": [
+        {
+          "original_index": 198,
+          "export_index": 186,
+          "native_sample": 119480200.0,
+          "trial_start_ms": 5145510.0,
+          "nominal_count": 40,
+          "neural_all_finite": true,
+          "native_prev_gap_samples": 229000.0,
+          "native_next_gap_samples": 222000.0
+        }
+      ]
+    },
+    {
+      "mouse": "RL070",
+      "run": 28,
+      "original_n": 386,
+      "exported_n": 375,
+      "native_finite_strictly_increasing": true,
+      "assumed_rate_hz": 20000,
+      "native_to_behavior_slope": 1.0000255308695871,
+      "affine_residual_max_seconds": 0.0007036879292172671,
+      "affine_residual_rms_seconds": 4.1380485739063616e-05,
+      "missing_behavior_clock": []
+    },
+    {
+      "mouse": "RL070",
+      "run": 29,
+      "original_n": 279,
+      "exported_n": 263,
+      "native_finite_strictly_increasing": true,
+      "assumed_rate_hz": 20000,
+      "native_to_behavior_slope": 1.0000255542064638,
+      "affine_residual_max_seconds": 0.0006488979136065609,
+      "affine_residual_rms_seconds": 4.558369861560703e-05,
+      "missing_behavior_clock": [
+        {
+          "original_index": 171,
+          "export_index": 161,
+          "native_sample": 56111600.0,
+          "trial_start_ms": 2059697.0,
+          "nominal_count": 0,
+          "neural_all_finite": true,
+          "native_prev_gap_samples": 231800.0,
+          "native_next_gap_samples": 212600.0
+        },
+        {
+          "original_index": 248,
+          "export_index": 233,
+          "native_sample": 73274600.0,
+          "trial_start_ms": 2917888.0,
+          "nominal_count": 0,
+          "neural_all_finite": true,
+          "native_prev_gap_samples": 220400.0,
+          "native_next_gap_samples": 204400.0
+        }
+      ]
+    },
+    {
+      "mouse": "RL117",
+      "run": 26,
+      "original_n": 372,
+      "exported_n": 339,
+      "native_finite_strictly_increasing": true,
+      "assumed_rate_hz": 20000,
+      "native_to_behavior_slope": 1.0000237397676732,
+      "affine_residual_max_seconds": 0.0006375623615895165,
+      "affine_residual_rms_seconds": 4.558022161094731e-05,
+      "missing_behavior_clock": []
+    },
+    {
+      "mouse": "RL117",
+      "run": 29,
+      "original_n": 332,
+      "exported_n": 260,
+      "native_finite_strictly_increasing": true,
+      "assumed_rate_hz": 20000,
+      "native_to_behavior_slope": 1.0000243438379457,
+      "affine_residual_max_seconds": 0.0004936881453261321,
+      "affine_residual_rms_seconds": 5.65885280396746e-05,
+      "missing_behavior_clock": [
+        {
+          "original_index": 140,
+          "export_index": 87,
+          "native_sample": 57298200.0,
+          "trial_start_ms": 2105100.0,
+          "nominal_count": 0,
+          "neural_all_finite": true,
+          "native_prev_gap_samples": 292600.0,
+          "native_next_gap_samples": 228200.0
+        },
+        {
+          "original_index": 240,
+          "export_index": 181,
+          "native_sample": 84476200.0,
+          "trial_start_ms": 3463905.0,
+          "nominal_count": 150,
+          "neural_all_finite": true,
+          "native_prev_gap_samples": 236600.0,
+          "native_next_gap_samples": 210800.0
+        },
+        {
+          "original_index": 299,
+          "export_index": 239,
+          "native_sample": 98105400.0,
+          "trial_start_ms": 4145510.0,
+          "nominal_count": 150,
+          "neural_all_finite": true,
+          "native_prev_gap_samples": 222800.0,
+          "native_next_gap_samples": 243200.0
+        }
+      ]
+    },
+    {
+      "mouse": "RL117",
+      "run": 30,
+      "original_n": 220,
+      "exported_n": 192,
+      "native_finite_strictly_increasing": true,
+      "assumed_rate_hz": 20000,
+      "native_to_behavior_slope": 1.000024062823435,
+      "affine_residual_max_seconds": 0.0006809511951360037,
+      "affine_residual_rms_seconds": 6.089555347345808e-05,
+      "missing_behavior_clock": [
+        {
+          "original_index": 65,
+          "export_index": 55,
+          "native_sample": 37111800.0,
+          "trial_start_ms": 857772.0,
+          "nominal_count": 0,
+          "neural_all_finite": true,
+          "native_prev_gap_samples": 214400.0,
+          "native_next_gap_samples": 204600.0
+        }
+      ]
+    },
+    {
+      "mouse": "RL123",
+      "run": 22,
+      "original_n": 200,
+      "exported_n": 177,
+      "native_finite_strictly_increasing": true,
+      "assumed_rate_hz": 20000,
+      "native_to_behavior_slope": 1.0000238682413134,
+      "affine_residual_max_seconds": 0.000609132353588393,
+      "affine_residual_rms_seconds": 0.00010059910575050741,
+      "missing_behavior_clock": []
+    },
+    {
+      "mouse": "RL116",
+      "run": 32,
+      "original_n": 342,
+      "exported_n": 313,
+      "native_finite_strictly_increasing": true,
+      "assumed_rate_hz": 20000,
+      "native_to_behavior_slope": 1.000023536891193,
+      "affine_residual_max_seconds": 0.0004007074622096596,
+      "affine_residual_rms_seconds": 0.00012381158662722595,
+      "missing_behavior_clock": [
+        {
+          "original_index": 53,
+          "export_index": 48,
+          "native_sample": 48554200.0,
+          "trial_start_ms": 1347731.0,
+          "nominal_count": 50,
+          "neural_all_finite": true,
+          "native_prev_gap_samples": 262200.0,
+          "native_next_gap_samples": 815400.0
+        },
+        {
+          "original_index": 262,
+          "export_index": 246,
+          "native_sample": 130243200.0,
+          "trial_start_ms": 5432276.0,
+          "nominal_count": 0,
+          "neural_all_finite": true,
+          "native_prev_gap_samples": 207800.0,
+          "native_next_gap_samples": 212200.0
+        }
+      ]
+    },
+    {
+      "mouse": "RL116",
+      "run": 33,
+      "original_n": 235,
+      "exported_n": 215,
+      "native_finite_strictly_increasing": true,
+      "assumed_rate_hz": 20000,
+      "native_to_behavior_slope": 1.0000241538114345,
+      "affine_residual_max_seconds": 0.0002770902287352328,
+      "affine_residual_rms_seconds": 7.071266523812786e-05,
+      "missing_behavior_clock": []
+    }
+  ],
+  "decision": "신경 배열 분석의 원래 시각 후보를 확보; 행동 시계 누락값을 보간하거나 덮어쓰지 않음",
+  "limits": [
+    "20kHz는 소스 기본값; 원래 획득 메타데이터 미확인",
+    "원래 프레임 시계 부재로 이벤트-프레임 정렬을 독립 재검증하지 못함",
+    "선형 대응 잔차는 진단이며 복구된 행동 시각이 아님"
+  ]
+}

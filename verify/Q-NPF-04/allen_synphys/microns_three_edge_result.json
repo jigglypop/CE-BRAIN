@@ -1,0 +1,175 @@
+{
+  "contract_sha256": "94af4ff6c14b46566513627a7165281537deb12e72f51716f9c212c4f3a74e2b",
+  "reversible_fixture_transitions": 12,
+  "chains": [
+    {
+      "threshold": 1,
+      "seed": 2026090501,
+      "branch": "control",
+      "mean": 6336.466666666666,
+      "range": [
+        6275,
+        6391
+      ],
+      "last5_minus_first5": 30.199999999999818,
+      "accepted": [
+        94217,
+        0
+      ],
+      "attempts": [
+        1174515,
+        0
+      ],
+      "record": "data/external/microns_v1718_cosyne/three_edge_sensitivity/t1_seed2026090501_control.json",
+      "record_sha256": "56f21609f872765109360bd87311039c402bfebf07fe72325cda28a626708e21"
+    },
+    {
+      "threshold": 1,
+      "seed": 2026090501,
+      "branch": "mixed",
+      "mean": 6343.0,
+      "range": [
+        6277,
+        6392
+      ],
+      "last5_minus_first5": -16.399999999999636,
+      "accepted": [
+        47034,
+        10710
+      ],
+      "attempts": [
+        586929,
+        587586
+      ],
+      "record": "data/external/microns_v1718_cosyne/three_edge_sensitivity/t1_seed2026090501_mixed.json",
+      "record_sha256": "4610bfa7845171d74a09d7cf68ffd4c15c880a4e6551f51dd044efe3e6a1de05"
+    },
+    {
+      "threshold": 1,
+      "seed": 2026090502,
+      "branch": "control",
+      "mean": 6395.266666666666,
+      "range": [
+        6303,
+        6455
+      ],
+      "last5_minus_first5": 68.40000000000055,
+      "accepted": [
+        94005,
+        0
+      ],
+      "attempts": [
+        1174515,
+        0
+      ],
+      "record": "data/external/microns_v1718_cosyne/three_edge_sensitivity/t1_seed2026090502_control.json",
+      "record_sha256": "c1f1db26367fd5aa94020255cdcae441e77bdeccbf26754ddac5079588047393"
+    },
+    {
+      "threshold": 1,
+      "seed": 2026090502,
+      "branch": "mixed",
+      "mean": 6305.266666666666,
+      "range": [
+        6268,
+        6335
+      ],
+      "last5_minus_first5": 5.400000000000546,
+      "accepted": [
+        46650,
+        10713
+      ],
+      "attempts": [
+        586019,
+        588496
+      ],
+      "record": "data/external/microns_v1718_cosyne/three_edge_sensitivity/t1_seed2026090502_mixed.json",
+      "record_sha256": "f1850ccfb4ae936614dbd74f2afc589ee5fc07a10d583190cb4b9a4f79cdfedf"
+    },
+    {
+      "threshold": 3,
+      "seed": 2026090501,
+      "branch": "control",
+      "mean": 680.5333333333333,
+      "range": [
+        649,
+        712
+      ],
+      "last5_minus_first5": 10.600000000000023,
+      "accepted": [
+        14743,
+        0
+      ],
+      "attempts": [
+        202920,
+        0
+      ],
+      "record": "data/external/microns_v1718_cosyne/three_edge_sensitivity/t3_seed2026090501_control.json",
+      "record_sha256": "28120ca22d5320961c60b741123b75c7bbc37972df32d050e4ce6bb4e90479e4"
+    },
+    {
+      "threshold": 3,
+      "seed": 2026090501,
+      "branch": "mixed",
+      "mean": 670.0,
+      "range": [
+        656,
+        678
+      ],
+      "last5_minus_first5": -2.400000000000091,
+      "accepted": [
+        7335,
+        1851
+      ],
+      "attempts": [
+        101367,
+        101553
+      ],
+      "record": "data/external/microns_v1718_cosyne/three_edge_sensitivity/t3_seed2026090501_mixed.json",
+      "record_sha256": "314c2d2e246ca8561b642a40dda34907d0411ad00d07382ac0d014584fd9356f"
+    },
+    {
+      "threshold": 3,
+      "seed": 2026090502,
+      "branch": "control",
+      "mean": 676.9333333333333,
+      "range": [
+        646,
+        701
+      ],
+      "last5_minus_first5": -8.0,
+      "accepted": [
+        14706,
+        0
+      ],
+      "attempts": [
+        202920,
+        0
+      ],
+      "record": "data/external/microns_v1718_cosyne/three_edge_sensitivity/t3_seed2026090502_control.json",
+      "record_sha256": "f61f3983eafae7e22a9dc9a3c6fb558f6fe84d40002664d54fb9bad152582ae2"
+    },
+    {
+      "threshold": 3,
+      "seed": 2026090502,
+      "branch": "mixed",
+      "mean": 654.1333333333333,
+      "range": [
+        634,
+        675
+      ],
+      "last5_minus_first5": -0.8000000000000682,
+      "accepted": [
+        7430,
+        1895
+      ],
+      "attempts": [
+        101296,
+        101624
+      ],
+      "record": "data/external/microns_v1718_cosyne/three_edge_sensitivity/t3_seed2026090502_mixed.json",
+      "record_sha256": "36939d0ba67c22fbcb395f24ab551d5f9a501b13256e7dac9970a65e0a751fb9"
+    }
+  ],
+  "status": "PAIRED_KERNEL_SENSITIVITY_NOT_UNIFORMITY_PROOF"
+}

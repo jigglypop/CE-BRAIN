@@ -1,0 +1,111 @@
+{
+  "version": "electrical-star-incoming-variation-v1",
+  "source_sha256": "8a741f8fea243ec4b15a14f296e8803c706dc4b32c8098448afbdf79c0c7a16f",
+  "observed_result_sha256": "9d4d429919795803e97a85f1abc0417daf7cfe9f467d74a881c531298ac3f605",
+  "waveform_sha256": "65acb5149cb8b24aa80c114435c343ff73b37a8178707a57b091f650bc23357d",
+  "observed_training_moments": [
+    {
+      "holding_mV": -70,
+      "source": 0,
+      "repeat_difference_power_pA2": 51.97341590104918,
+      "cross_repeat_second_moment_pA2": 54.747890723335125,
+      "cross_moment_over_difference_power": 1.0533825759609143,
+      "interpretation": "observed training-repeat moments; stationarity and independent noise not established"
+    },
+    {
+      "holding_mV": -70,
+      "source": 1,
+      "repeat_difference_power_pA2": 3241.102872971612,
+      "cross_repeat_second_moment_pA2": 327.58121338883353,
+      "cross_moment_over_difference_power": 0.10107090895528718,
+      "interpretation": "observed training-repeat moments; stationarity and independent noise not established"
+    },
+    {
+      "holding_mV": -70,
+      "source": 2,
+      "repeat_difference_power_pA2": 6239.308783886084,
+      "cross_repeat_second_moment_pA2": -44.6822755080858,
+      "cross_moment_over_difference_power": -0.007161414357866729,
+      "interpretation": "observed training-repeat moments; stationarity and independent noise not established"
+    },
+    {
+      "holding_mV": -70,
+      "source": 4,
+      "repeat_difference_power_pA2": 3465.742288200596,
+      "cross_repeat_second_moment_pA2": 21.884183006882576,
+      "cross_moment_over_difference_power": 0.006314428825648426,
+      "interpretation": "observed training-repeat moments; stationarity and independent noise not established"
+    },
+    {
+      "holding_mV": -70,
+      "source": 5,
+      "repeat_difference_power_pA2": 359.26811216780294,
+      "cross_repeat_second_moment_pA2": 13.68548862381896,
+      "cross_moment_over_difference_power": 0.03809268944366233,
+      "interpretation": "observed training-repeat moments; stationarity and independent noise not established"
+    },
+    {
+      "holding_mV": -70,
+      "source": 6,
+      "repeat_difference_power_pA2": 8988.359186551166,
+      "cross_repeat_second_moment_pA2": -40.76214730871663,
+      "cross_moment_over_difference_power": -0.004534993146436226,
+      "interpretation": "observed training-repeat moments; stationarity and independent noise not established"
+    },
+    {
+      "holding_mV": -55,
+      "source": 0,
+      "repeat_difference_power_pA2": 8792.322434841142,
+      "cross_repeat_second_moment_pA2": 699.209898707534,
+      "cross_moment_over_difference_power": 0.0795250519858997,
+      "interpretation": "observed training-repeat moments; stationarity and independent noise not established"
+    },
+    {
+      "holding_mV": -55,
+      "source": 1,
+      "repeat_difference_power_pA2": 821.1837837511189,
+      "cross_repeat_second_moment_pA2": 515.9781884894028,
+      "cross_moment_over_difference_power": 0.62833460511415,
+      "interpretation": "observed training-repeat moments; stationarity and independent noise not established"
+    },
+    {
+      "holding_mV": -55,
+      "source": 2,
+      "repeat_difference_power_pA2": 188.20428933166428,
+      "cross_repeat_second_moment_pA2": -7.487398652729719,
+      "cross_moment_over_difference_power": -0.03978335817593934,
+      "interpretation": "observed training-repeat moments; stationarity and independent noise not established"
+    },
+    {
+      "holding_mV": -55,
+      "source": 4,
+      "repeat_difference_power_pA2": 102.83269465629873,
+      "cross_repeat_second_moment_pA2": -1.5100513430942253,
+      "cross_moment_over_difference_power": -0.014684545106411167,
+      "interpretation": "observed training-repeat moments; stationarity and independent noise not established"
+    },
+    {
+      "holding_mV": -55,
+      "source": 5,
+      "repeat_difference_power_pA2": 142.34730848328226,
+      "cross_repeat_second_moment_pA2": 45.225402814799004,
+      "cross_moment_over_difference_power": 0.31771168205902833,
+      "interpretation": "observed training-repeat moments; stationarity and independent noise not established"
+    },
+    {
+      "holding_mV": -55,
+      "source": 6,
+      "repeat_difference_power_pA2": 7004.699321104219,
+      "cross_repeat_second_moment_pA2": -8.273724660433237,
+      "cross_moment_over_difference_power": -0.0011811677105833243,
+      "interpretation": "observed training-repeat moments; stationarity and independent noise not established"
+    }
+  ],
+  "conditional_noise_model": {
+    "train_repeats": 2,
+    "target_RMSE_ratio": 0.8,
+    "required_signal_to_variation_power": 1.3437499999999996,
+    "meaning": "Only in ratio-of-expected-MSE model; not a bound on this dataset or a biological absence test"
+  },
+  "claim_ceiling": "L0 conditional identity; post-hoc observed variation summaries, not independent validation"
+}

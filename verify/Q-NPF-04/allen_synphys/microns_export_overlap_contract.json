@@ -1,0 +1,10 @@
+{
+  "question": "Does the wider proofread-output export contain exactly the same selected-to-selected annotations as the V1-column export?",
+  "selection": "same fixed1348 selected roots from structural inventory; compare all synapse IDs and shared data fields after filtering BOTH partners",
+  "interpretation": "file-to-file coverage only; shared omissions/reconstruction errors or database query completeness not excluded",
+  "broad_url": "https://raw.githubusercontent.com/AllenInstitute/connectomics_at_cosyne/513a6fe738f91ce179650f1cadf26d4a4728b21a/docs/resources/data/v1718_proofread_output_synapses.feather",
+  "broad_expected_bytes": 95916378,
+  "selected_sha256": "ea1da5f217a80c99fd85d3f9168200de78d5c81846995a52f237d30ad156341f",
+  "narrow_sha256": "fee7afc8c37528e3e1c1a4365f016f74c8ff42b6dad0f06100ef32d38adb0434",
+  "code_sha256": "7d65bcae5f449e0bc3de497d625ac756cc12c9074be173a25c78f39e5914019a"
+}

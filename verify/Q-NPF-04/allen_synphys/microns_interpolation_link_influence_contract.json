@@ -1,0 +1,10 @@
+{
+  "question": "Does any single supported annotated-link contribution control the sign of the fixed distance-interpolated mean?",
+  "method": "For every supported link compute its correlation minus its frozen interpolated unlisted control. Preserve ordered per-link values for total/trial_mean/within. Leave each one out and average the remaining link contrasts; never refit controls or change the distance support.",
+  "selection": "All429 assignments including firstscan exclusion sensitivity; all14 scans, all10/first5/last5, both timings and all3 additive components.",
+  "limits": "Post-observation descriptive influence only. Leave-one-link removal is not cell removal, synapse intervention, independent jackknife uncertainty or selection of a preferred result. Shared controls and nuclei remain dependent.",
+  "code_sha256": "1dcef3827f52832f07996f740e03e00aab638142e0be2ec911be21ef5d6a4487",
+  "support_sha256": "1b006c8a52e2cb51196bb7ed76ccd14f971f9f6b007f720a925a3eee1afa3fa9",
+  "prior_sha256": "be95187fc132a05fa264d59b777cb4901feebde79cfff354be90fa075f7539e0",
+  "coverage_sha256": "e48f8c7b0a942f47504ed9de59e668d766e1ed1ad6fbd289205bb24430c162f5"
+}

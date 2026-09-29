@@ -1,0 +1,19 @@
+{
+  "contract_sha256": "c9faa45c5003ceb4d7580fd009280cdc2e7ba5a69dc9399129b9076ef7db1d8a",
+  "history": [
+    {
+      "step": 0,
+      "max_margin_error": 4.779909659191617e-05
+    },
+    {
+      "step": 1,
+      "max_margin_error": 6.45741238258779e-11
+    }
+  ],
+  "gate_pass": true,
+  "observed": 221,
+  "reciprocal_mean": 168.98082551561845,
+  "reciprocal_variance": 167.46295206971266,
+  "fitted_file": "data/external/joint_expected_degree_models/minnie23P_t1_polished.npz",
+  "fitted_sha256": "6b6b56c36159c395458a3ab874e4671bbb60084c79cfe9ebd89dc97236baff48"
+}

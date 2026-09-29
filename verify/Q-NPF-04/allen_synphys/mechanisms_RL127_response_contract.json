@@ -1,0 +1,20 @@
+{
+  "question": "이 세션에서 투사 조건의 S2 반응이 비투사 조건 및 sham보다 큰가",
+  "status": "탐색적 재분석; 이번 반응 계산 전에 기준 고정",
+  "payload_sha256": "4243df32dd0d1e00a9efec75e6cb53a8ac84a23bece03c4d80c3e6c24aab4769",
+  "preparation": "RL127, S1 광자극과 S1/S2 칼슘 영상, 세 조건 각 100시행",
+  "primary": {"region": "S2", "axis": "nominal", "mask": "author_positive", "normalization": "original", "window": [0.5, 1.5]},
+  "baseline": [-2.0, 0.0],
+  "windows": [[0.5, 1.5], [1.5, 3.0]],
+  "intervals": "왼쪽 포함, 오른쪽 제외; nominal=(프레임-pre_frames)/fps; stored=저장 time",
+  "masks": {"all": "저장된 모든 S2 ROI", "author": "모든 조건·시행·시간에서 절대 dF/F 최댓값 10 이하", "author_positive": "author이면서 세 조건 모두 배경 보정 형광의 블록 평균이 양수"},
+  "normalizations": {"original": "저장된 블록별 dF/F", "shared": "시행 차이에 해당 블록 raw 평균 / 세 블록 raw 평균의 평균을 곱함; 공통 분모, 양수 마스크에서만 계산"},
+  "endpoint": "각 세포의 사후 평균-사전 평균을 계산한 뒤 공통 세포 집합에서 평균; 조건별 100시행 평균과 전반·후반 각 50시행 평균",
+  "contrasts": ["projecting-non_projecting", "projecting-sham", "non_projecting-sham"],
+  "direction": "일차 비교 projecting-non_projecting > 0 여부를 관측; 반대 부호이면 이 세션의 해당 방향 주장은 지지되지 않음",
+  "stop": "입력 해시·영역 대응·유한값·창/아티팩트 분리·비어 있지 않은 공통 세포 집합 검사 실패",
+  "data_split": "전부 탐색용; 전후반은 안정성 점검이며 독립 holdout 아님",
+  "model_selection": "적합 모형이나 CE 추가항 없음; 평균 차이와 고정 민감도 비교",
+  "limitations": ["조건과 블록 시간의 효과가 분리되지 않음", "시행 또는 세포를 독립 동물 표본으로 간주하지 않음", "p값·인과 효과·회로 연결 확정 주장 없음", "필터는 자극 후 값에도 의존하므로 무필터 결과 함께 제시", "공통 분모는 전체 블록을 사용하므로 예측 검증에 사용할 수 없음"],
+  "claim_ceiling": "BIO_EVIDENCE_L1: 이 세션의 S2 형광 반응 차이; 뇌 구조·매개 기전은 미확립"
+}

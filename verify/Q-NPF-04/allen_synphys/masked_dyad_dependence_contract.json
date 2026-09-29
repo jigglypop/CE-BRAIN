@@ -1,0 +1,28 @@
+{
+  "question": "Does modeling directional dependence improve masked dyad prediction with unchanged directional marginals?",
+  "design": "Same exploratory five dyad folds and training-only features; no biological holdout",
+  "models": {
+    "independent": null,
+    "constant": [],
+    "input": [
+      0
+    ],
+    "output": [
+      1
+    ],
+    "both": [
+      0,
+      1
+    ]
+  },
+  "probabilities": "P11=t,P10=p-t,P01=q-t,P00=1-p-q+t;logoddsratio=eta;fixed p,q from previous base sender/receiver/distance fit",
+  "eta": "0 for independent; intercept for constant; intercept+standardizedlog1p masked common neighbors for input/output/both",
+  "fitting": "Train dyads only, ridge0.5*sum(coefficients^2) including dependence intercept; BFGS then up to3Newton updates, absolute gradient<=1e-5",
+  "endpoint": "Primary heldout four-state joint logloss; secondary mutual logloss/Brier and expectedcount. Directional marginals unchanged by construction.",
+  "interpretation": "Training baseline margins estimated on same training labels, adaptive selection of model forms after earlier outcomes, overlapping folds. No pvalue, causal feedback inference, or claim of unchanged marginal improvement.",
+  "code_sha256": "3096918dfe1bf9114f692bfb450b0bb2ddf64f331be5f79653cbefdb123f6d64",
+  "prior_sha256": "5141fe129f9c9e50ee13ca690aac925bf7fb427400d3ec101d1ad146ae1027c0",
+  "prior_verification_sha256": "ad71f16c29adbad93c5ce55235e8721639e956bc611a5d769132debf2c89d928",
+  "source_code_sha256": "4598ef11a15c743020c17dc3d7c9e027230ab81eabb79c8bee5dcbbdf7d10ae1",
+  "split_sha256": "a000203807bead118f8a274fa886e90a9a81c315c9bf4d0c0955d180a51e244e"
+}

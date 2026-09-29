@@ -1,0 +1,470 @@
+{
+  "remote": {
+    "url": "https://allen-synphys.s3-us-west-2.amazonaws.com/synphys-1574292898.139.nwb",
+    "bytes": 837666824,
+    "etag": "\"d75a9df955a518184274653255f990e1-100\"",
+    "last_modified": "Sat, 04 May 2024 04:45:36 GMT"
+  },
+  "root": {
+    "acquisition": {
+      "path": "/acquisition",
+      "children": [
+        "images",
+        "timeseries"
+      ],
+      "child_count": 2
+    },
+    "analysis": {
+      "path": "/analysis",
+      "children": [],
+      "child_count": 0
+    },
+    "epochs": {
+      "path": "/epochs",
+      "children": [],
+      "child_count": 0
+    },
+    "file_create_date": {
+      "path": "/file_create_date",
+      "shape": [
+        3
+      ],
+      "dtype": "object",
+      "value": "[b'2019-11-21T00:34:09Z' b'2019-11-21T00:34:09Z' b'2019-11-21T00:34:09Z']"
+    },
+    "general": {
+      "path": "/general",
+      "children": [
+        "devices",
+        "generated_by",
+        "history",
+        "intracellular_ephys",
+        "labnotebook",
+        "stimsets",
+        "subject",
+        "testpulse",
+        "user_comment"
+      ],
+      "child_count": 9
+    },
+    "identifier": {
+      "path": "/identifier",
+      "shape": [
+        1
+      ],
+      "dtype": "object",
+      "value": "[b'273ce28a66451f058c1ef9b8d7fd02189ff2091adeaec1f1efc685203a45e4d4']"
+    },
+    "nwb_version": {
+      "path": "/nwb_version",
+      "shape": [
+        1
+      ],
+      "dtype": "object",
+      "value": "[b'NWB-1.0.5']"
+    },
+    "processing": {
+      "path": "/processing",
+      "children": [],
+      "child_count": 0
+    },
+    "session_description": {
+      "path": "/session_description",
+      "shape": [
+        1
+      ],
+      "dtype": "object",
+      "value": "[b'PLACEHOLDER']"
+    },
+    "session_start_time": {
+      "path": "/session_start_time",
+      "shape": [
+        1
+      ],
+      "dtype": "object",
+      "value": "[b'2019-11-20T22:55:39.080Z']"
+    },
+    "stimulus": {
+      "path": "/stimulus",
+      "children": [
+        "presentation",
+        "templates"
+      ],
+      "child_count": 2
+    }
+  },
+  "acquisition_examples": [
+    {
+      "path": "/acquisition/timeseries/data_00000_AD2",
+      "children": [
+        "capacitance_fast",
+        "capacitance_slow",
+        "data",
+        "electrode_name",
+        "gain",
+        "num_samples",
+        "starting_time",
+        "stimulus_description"
+      ],
+      "child_count": 8,
+      "fields": {
+        "capacitance_fast": {
+          "path": "/acquisition/timeseries/data_00000_AD2/capacitance_fast",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "capacitance_slow": {
+          "path": "/acquisition/timeseries/data_00000_AD2/capacitance_slow",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "data": {
+          "path": "/acquisition/timeseries/data_00000_AD2/data",
+          "shape": [
+            505902
+          ],
+          "dtype": "float32"
+        },
+        "electrode_name": {
+          "path": "/acquisition/timeseries/data_00000_AD2/electrode_name",
+          "shape": [
+            1
+          ],
+          "dtype": "object",
+          "value": "[b'electrode_2']"
+        },
+        "gain": {
+          "path": "/acquisition/timeseries/data_00000_AD2/gain",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "num_samples": {
+          "path": "/acquisition/timeseries/data_00000_AD2/num_samples",
+          "shape": [
+            1
+          ],
+          "dtype": "int32"
+        },
+        "starting_time": {
+          "path": "/acquisition/timeseries/data_00000_AD2/starting_time",
+          "shape": [
+            1
+          ],
+          "dtype": "float64"
+        },
+        "stimulus_description": {
+          "path": "/acquisition/timeseries/data_00000_AD2/stimulus_description",
+          "shape": [
+            1
+          ],
+          "dtype": "object",
+          "value": "[b'Y1_SPulsTrn_20Hz_DA_0']"
+        }
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00000_AD8",
+      "children": [
+        "capacitance_fast",
+        "capacitance_slow",
+        "data",
+        "electrode_name",
+        "gain",
+        "num_samples",
+        "starting_time",
+        "stimulus_description"
+      ],
+      "child_count": 8,
+      "fields": {
+        "capacitance_fast": {
+          "path": "/acquisition/timeseries/data_00000_AD8/capacitance_fast",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "capacitance_slow": {
+          "path": "/acquisition/timeseries/data_00000_AD8/capacitance_slow",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "data": {
+          "path": "/acquisition/timeseries/data_00000_AD8/data",
+          "shape": [
+            505902
+          ],
+          "dtype": "float32"
+        },
+        "electrode_name": {
+          "path": "/acquisition/timeseries/data_00000_AD8/electrode_name",
+          "shape": [
+            1
+          ],
+          "dtype": "object",
+          "value": "[b'electrode_4']"
+        },
+        "gain": {
+          "path": "/acquisition/timeseries/data_00000_AD8/gain",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "num_samples": {
+          "path": "/acquisition/timeseries/data_00000_AD8/num_samples",
+          "shape": [
+            1
+          ],
+          "dtype": "int32"
+        },
+        "starting_time": {
+          "path": "/acquisition/timeseries/data_00000_AD8/starting_time",
+          "shape": [
+            1
+          ],
+          "dtype": "float64"
+        },
+        "stimulus_description": {
+          "path": "/acquisition/timeseries/data_00000_AD8/stimulus_description",
+          "shape": [
+            1
+          ],
+          "dtype": "object",
+          "value": "[b'Y1_SPulsTrn_20Hz_DA_0']"
+        }
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00000_AD9",
+      "children": [
+        "capacitance_fast",
+        "capacitance_slow",
+        "data",
+        "electrode_name",
+        "gain",
+        "num_samples",
+        "starting_time",
+        "stimulus_description"
+      ],
+      "child_count": 8,
+      "fields": {
+        "capacitance_fast": {
+          "path": "/acquisition/timeseries/data_00000_AD9/capacitance_fast",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "capacitance_slow": {
+          "path": "/acquisition/timeseries/data_00000_AD9/capacitance_slow",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "data": {
+          "path": "/acquisition/timeseries/data_00000_AD9/data",
+          "shape": [
+            505902
+          ],
+          "dtype": "float32"
+        },
+        "electrode_name": {
+          "path": "/acquisition/timeseries/data_00000_AD9/electrode_name",
+          "shape": [
+            1
+          ],
+          "dtype": "object",
+          "value": "[b'electrode_5']"
+        },
+        "gain": {
+          "path": "/acquisition/timeseries/data_00000_AD9/gain",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "num_samples": {
+          "path": "/acquisition/timeseries/data_00000_AD9/num_samples",
+          "shape": [
+            1
+          ],
+          "dtype": "int32"
+        },
+        "starting_time": {
+          "path": "/acquisition/timeseries/data_00000_AD9/starting_time",
+          "shape": [
+            1
+          ],
+          "dtype": "float64"
+        },
+        "stimulus_description": {
+          "path": "/acquisition/timeseries/data_00000_AD9/stimulus_description",
+          "shape": [
+            1
+          ],
+          "dtype": "object",
+          "value": "[b'Y1_SPulsTrn_20Hz_DA_0']"
+        }
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00001_AD2",
+      "children": [
+        "capacitance_fast",
+        "capacitance_slow",
+        "data",
+        "electrode_name",
+        "gain",
+        "num_samples",
+        "starting_time",
+        "stimulus_description"
+      ],
+      "child_count": 8,
+      "fields": {
+        "capacitance_fast": {
+          "path": "/acquisition/timeseries/data_00001_AD2/capacitance_fast",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "capacitance_slow": {
+          "path": "/acquisition/timeseries/data_00001_AD2/capacitance_slow",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "data": {
+          "path": "/acquisition/timeseries/data_00001_AD2/data",
+          "shape": [
+            505902
+          ],
+          "dtype": "float32"
+        },
+        "electrode_name": {
+          "path": "/acquisition/timeseries/data_00001_AD2/electrode_name",
+          "shape": [
+            1
+          ],
+          "dtype": "object",
+          "value": "[b'electrode_2']"
+        },
+        "gain": {
+          "path": "/acquisition/timeseries/data_00001_AD2/gain",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "num_samples": {
+          "path": "/acquisition/timeseries/data_00001_AD2/num_samples",
+          "shape": [
+            1
+          ],
+          "dtype": "int32"
+        },
+        "starting_time": {
+          "path": "/acquisition/timeseries/data_00001_AD2/starting_time",
+          "shape": [
+            1
+          ],
+          "dtype": "float64"
+        },
+        "stimulus_description": {
+          "path": "/acquisition/timeseries/data_00001_AD2/stimulus_description",
+          "shape": [
+            1
+          ],
+          "dtype": "object",
+          "value": "[b'Y1_SPulsTrn_20Hz_DA_0']"
+        }
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00001_AD8",
+      "children": [
+        "capacitance_fast",
+        "capacitance_slow",
+        "data",
+        "electrode_name",
+        "gain",
+        "num_samples",
+        "starting_time",
+        "stimulus_description"
+      ],
+      "child_count": 8,
+      "fields": {
+        "capacitance_fast": {
+          "path": "/acquisition/timeseries/data_00001_AD8/capacitance_fast",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "capacitance_slow": {
+          "path": "/acquisition/timeseries/data_00001_AD8/capacitance_slow",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "data": {
+          "path": "/acquisition/timeseries/data_00001_AD8/data",
+          "shape": [
+            505902
+          ],
+          "dtype": "float32"
+        },
+        "electrode_name": {
+          "path": "/acquisition/timeseries/data_00001_AD8/electrode_name",
+          "shape": [
+            1
+          ],
+          "dtype": "object",
+          "value": "[b'electrode_4']"
+        },
+        "gain": {
+          "path": "/acquisition/timeseries/data_00001_AD8/gain",
+          "shape": [
+            1
+          ],
+          "dtype": "float32"
+        },
+        "num_samples": {
+          "path": "/acquisition/timeseries/data_00001_AD8/num_samples",
+          "shape": [
+            1
+          ],
+          "dtype": "int32"
+        },
+        "starting_time": {
+          "path": "/acquisition/timeseries/data_00001_AD8/starting_time",
+          "shape": [
+            1
+          ],
+          "dtype": "float64"
+        },
+        "stimulus_description": {
+          "path": "/acquisition/timeseries/data_00001_AD8/stimulus_description",
+          "shape": [
+            1
+          ],
+          "dtype": "object",
+          "value": "[b'Y1_SPulsTrn_20Hz_DA_0']"
+        }
+      }
+    }
+  ],
+  "downloaded_this_session": 6408200,
+  "cached_bytes_total": 6408200
+}

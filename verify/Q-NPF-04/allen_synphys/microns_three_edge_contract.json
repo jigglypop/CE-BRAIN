@@ -1,0 +1,86 @@
+{
+  "source_result_sha256": "cd6f788c8a5bc84b6ff1fb14b11f5f11003f3e69b4371bdb91ef1cb083367a95",
+  "code_sha256": "ce437695a853477e542a1bf6f8d7e5123b99ca76c9f793d8da9d441c54ce9019",
+  "base_code_sha256": "01fea4c3660b7624718ade5c8d88eeb5d81b72d10078de776eb0e88bc5ebcbb5",
+  "validation_code_sha256": "f03b6745ad425287629e81b9193928b911c257e9d11563db92489ea8220a35cb",
+  "raw_source_hashes": {
+    "microns_structural_inventory_result.json": "ea1da5f217a80c99fd85d3f9168200de78d5c81846995a52f237d30ad156341f",
+    "v1718_cell_info.csv": "1959b7b7eaad7501c6331551c3ed1e229b40ed3c339ff6273b6365009e33fb09",
+    "v1718_v1_column_synapses.feather": "fee7afc8c37528e3e1c1a4365f016f74c8ff42b6dad0f06100ef32d38adb0434",
+    "microns_export_overlap_result.json": "98f33932d405552a236cea72e9cd76c6d96cfd6048547c27edb7bcce49944bab"
+  },
+  "scope": "same selected1348 cells, thresholds1 and3, first two original seeds, paired starts at block120",
+  "run": "15 new blocks per branch; each E attempts; summarize all15, no burn-in selection",
+  "moves": "control: original two-edge; mixed: independently choose two or three with probability1/2; uniform ordered edge indices with replacement; three rotates targets by +1 or -1 equiprobably; reject loops, duplicates, null moves, category mismatch",
+  "symmetry": "indexed edges retained; inverse rotation with same indices has equal probability; rejection retained. Does not prove irreducibility or mixing.",
+  "seeds": "old_seed+2000 for each branch; matched start, not identical effective random proposals",
+  "gate": "every block exact in/out degrees and category counts; report actual acceptance and reciprocity sensitivity; no p-value or uniform expectation",
+  "claim_ceiling": "observed-graph computational sensitivity, not new biological sample or causal result",
+  "starts": [
+    {
+      "threshold": 1,
+      "seed": 2026090501,
+      "observed_reciprocal": 9869,
+      "late_mean": 6345.6,
+      "late_range": [
+        6269,
+        6471
+      ],
+      "late_half_drift": -12.0,
+      "final_overlap": 0.2159614819734103,
+      "extension_acceptance": 0.07970978091666206,
+      "final_checkpoint": "data/external/microns_v1718_cosyne/swap_extension/t1_seed2026090501_block120.json",
+      "final_checkpoint_sha256": "37b67a425af42e1f57e045dc427ae05be221809bc50b7db3c0a2a5369e6d914c",
+      "final_graph_sha256": "abd5b8962f8a2b59d0a84ddfec1ff0107a0bc2354040617ea2f90def796b3cf9"
+    },
+    {
+      "threshold": 1,
+      "seed": 2026090502,
+      "observed_reciprocal": 9869,
+      "late_mean": 6351.2,
+      "late_range": [
+        6239,
+        6478
+      ],
+      "late_half_drift": -24.399999999999636,
+      "final_overlap": 0.21566774370697692,
+      "extension_acceptance": 0.07934452376796663,
+      "final_checkpoint": "data/external/microns_v1718_cosyne/swap_extension/t1_seed2026090502_block120.json",
+      "final_checkpoint_sha256": "ca0cd77351c7f48fb7daeb7c0595c606d42f047fe93432ed18ea4bdce9d739a3",
+      "final_graph_sha256": "8453468a02afa3742e160b4646ae9578e3d2fdd736798eabf42fcae94ad608d5"
+    },
+    {
+      "threshold": 3,
+      "seed": 2026090501,
+      "observed_reciprocal": 1491,
+      "late_mean": 682.0333333333333,
+      "late_range": [
+        650,
+        709
+      ],
+      "late_half_drift": -10.733333333333348,
+      "final_overlap": 0.2216883500887049,
+      "extension_acceptance": 0.07159718115513503,
+      "final_checkpoint": "data/external/microns_v1718_cosyne/swap_extension/t3_seed2026090501_block120.json",
+      "final_checkpoint_sha256": "37214295b55a8db913337ffa3b63175b65ffbc8055deb130a32e2d4849456365",
+      "final_graph_sha256": "47ccb05d8f2ac2d49646b1583dbbebb6a491c2ef48e7f5adf43cc5e3570b8cd3"
+    },
+    {
+      "threshold": 3,
+      "seed": 2026090502,
+      "observed_reciprocal": 1491,
+      "late_mean": 663.5666666666667,
+      "late_range": [
+        638,
+        695
+      ],
+      "late_half_drift": 17.0,
+      "final_overlap": 0.22264931992903608,
+      "extension_acceptance": 0.07240456008936198,
+      "final_checkpoint": "data/external/microns_v1718_cosyne/swap_extension/t3_seed2026090502_block120.json",
+      "final_checkpoint_sha256": "487d66f0682273a5d899b501f56c183cae3dd3b2706794657f38df126961e005",
+      "final_graph_sha256": "aaf4e2fce7ca10d6dd627053aabb66555b7a0a3742f72c0047fad3241de0151a"
+    }
+  ],
+  "numpy": "2.4.6"
+}

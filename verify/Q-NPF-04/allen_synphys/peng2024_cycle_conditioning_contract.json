@@ -1,0 +1,12 @@
+{
+  "question": "Do induced one-way 3-cycles depart from the exact skeleton-and-degree-conditioned orientation reference?",
+  "scope": "ER and TR separately; published monosynaptic labels; primary all pairs; sensitivity both raw codes finite",
+  "null": "uniform orientations of the observed one-way dyad skeleton with each vertex outdegree fixed; mutual and absent dyads fixed",
+  "preserved": "full per-vertex in/outdegree and mutual neighbors; undirected distances of existing edges; not directional cell-type mixing",
+  "endpoint": "observed induced 030C cycles and exact expected count; per-patient residuals; no p-value or independent-triangle assumption",
+  "method": "memoized exact orientation count; each directed cycle uses one outgoing at each vertex; remove triangle and subtract quota one; two orientations",
+  "checks": "exhaust all 729 four-vertex oriented graphs and group by skeleton/degrees; direct cycle enumeration vs trace(A^3)/3",
+  "limits": "conditional topology reference, no causal mechanism; known raw-missing semantics and paper edge discrepancy unresolved; TR amplitude not used",
+  "archive_sha256": "3711f8b8b911a24b0e5fd69e6e6c845f9e8601539807a9b960118c77ba5ad68d",
+  "code_sha256": "2d24965bb0914c79a5a0542168736b2d6b46458c8959393fb8794bddaa450ba7"
+}

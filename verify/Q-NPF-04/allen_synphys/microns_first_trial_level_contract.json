@@ -1,0 +1,11 @@
+{
+  "question": "Does the fixed trial-level covariance decomposition have the same component directions in scan4/7 as scan5/3?",
+  "method": "LOO condition-time residual; trial mean over57 samples; centered within-trial component. Both covariance components normalized by total residual variances. Existing field-distance weights.",
+  "selection": "All10/first5/last5; both timing conventions; include/exclude disputed unit3151. All12 cases reported. No response-selected exclusions.",
+  "limits": "Post-observation descriptive comparison within one animal, not independent replication or causal identification. No new confirmation set.",
+  "input_sha256": "49e1d0cc7c71c81deb62bebe363a0f3fdc34793a5f66cc766a037c4316913b44",
+  "code_sha256": "55f5a6aaae5d9204ff49ad1607581fe989b604e449c0531f517ae3e6e0079c41",
+  "weights_code_sha256": "9cb56cb5972bcfb5e5184715877c530519dff7ac0fa8bc79db59c12e53837e8c",
+  "pairs_sha256": "3963d01f16937f0a0166eb43ed1704036b7f845edfaaf190b06e6275131b35e2",
+  "prior_result_sha256": "1991baaee026c5f8284cb62081bc8494e5c2a172f821308efd4f77f83a53edcb"
+}

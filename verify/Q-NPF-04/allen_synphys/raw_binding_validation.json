@@ -1,0 +1,237 @@
+{
+  "checks": [
+    {
+      "sweep": 0,
+      "headstage": 4,
+      "clamp_matches": true,
+      "holding_note_mV": -70.01,
+      "holding_notebook_mV": -70.01371681690216,
+      "holding_agrees_to_printed_precision": true
+    },
+    {
+      "sweep": 0,
+      "headstage": 5,
+      "clamp_matches": true,
+      "holding_note_mV": -70.02,
+      "holding_notebook_mV": -70.01638412475586,
+      "holding_agrees_to_printed_precision": true
+    },
+    {
+      "sweep": 1,
+      "headstage": 4,
+      "clamp_matches": true,
+      "holding_note_mV": -70.01,
+      "holding_notebook_mV": -70.01371681690216,
+      "holding_agrees_to_printed_precision": true
+    },
+    {
+      "sweep": 1,
+      "headstage": 5,
+      "clamp_matches": true,
+      "holding_note_mV": -70.02,
+      "holding_notebook_mV": -70.01638412475586,
+      "holding_agrees_to_printed_precision": true
+    },
+    {
+      "sweep": 2,
+      "headstage": 4,
+      "clamp_matches": true,
+      "holding_note_mV": -70.01,
+      "holding_notebook_mV": -70.01371681690216,
+      "holding_agrees_to_printed_precision": true
+    },
+    {
+      "sweep": 2,
+      "headstage": 5,
+      "clamp_matches": true,
+      "holding_note_mV": -70.02,
+      "holding_notebook_mV": -70.01638412475586,
+      "holding_agrees_to_printed_precision": true
+    },
+    {
+      "sweep": 3,
+      "headstage": 4,
+      "clamp_matches": true,
+      "holding_note_mV": -70.01,
+      "holding_notebook_mV": -70.01371681690216,
+      "holding_agrees_to_printed_precision": true
+    },
+    {
+      "sweep": 3,
+      "headstage": 5,
+      "clamp_matches": true,
+      "holding_note_mV": -70.02,
+      "holding_notebook_mV": -70.01638412475586,
+      "holding_agrees_to_printed_precision": true
+    },
+    {
+      "sweep": 4,
+      "headstage": 4,
+      "clamp_matches": true,
+      "holding_note_mV": -70.01,
+      "holding_notebook_mV": -70.01371681690216,
+      "holding_agrees_to_printed_precision": true
+    },
+    {
+      "sweep": 4,
+      "headstage": 5,
+      "clamp_matches": true,
+      "holding_note_mV": -70.02,
+      "holding_notebook_mV": -70.01638412475586,
+      "holding_agrees_to_printed_precision": true
+    },
+    {
+      "sweep": 5,
+      "headstage": 4,
+      "clamp_matches": true,
+      "holding_note_mV": -70.01,
+      "holding_notebook_mV": -70.01371681690216,
+      "holding_agrees_to_printed_precision": true
+    },
+    {
+      "sweep": 5,
+      "headstage": 5,
+      "clamp_matches": true,
+      "holding_note_mV": -70.02,
+      "holding_notebook_mV": -70.01638412475586,
+      "holding_agrees_to_printed_precision": true
+    },
+    {
+      "sweep": 6,
+      "headstage": 4,
+      "clamp_matches": true,
+      "holding_note_mV": -70.01,
+      "holding_notebook_mV": -70.01371681690216,
+      "holding_agrees_to_printed_precision": true
+    },
+    {
+      "sweep": 6,
+      "headstage": 5,
+      "clamp_matches": true,
+      "holding_note_mV": -70.02,
+      "holding_notebook_mV": -70.01638412475586,
+      "holding_agrees_to_printed_precision": true
+    },
+    {
+      "sweep": 7,
+      "headstage": 4,
+      "clamp_matches": true,
+      "holding_note_mV": -70.01,
+      "holding_notebook_mV": null,
+      "holding_agrees_to_printed_precision": false
+    },
+    {
+      "sweep": 7,
+      "headstage": 5,
+      "clamp_matches": true,
+      "holding_note_mV": -70.02,
+      "holding_notebook_mV": null,
+      "holding_agrees_to_printed_precision": false
+    },
+    {
+      "sweep": 8,
+      "headstage": 4,
+      "clamp_matches": true,
+      "holding_note_mV": -70.01,
+      "holding_notebook_mV": null,
+      "holding_agrees_to_printed_precision": false
+    },
+    {
+      "sweep": 8,
+      "headstage": 5,
+      "clamp_matches": true,
+      "holding_note_mV": -70.02,
+      "holding_notebook_mV": null,
+      "holding_agrees_to_printed_precision": false
+    },
+    {
+      "sweep": 9,
+      "headstage": 4,
+      "clamp_matches": true,
+      "holding_note_mV": -70.01,
+      "holding_notebook_mV": null,
+      "holding_agrees_to_printed_precision": false
+    },
+    {
+      "sweep": 9,
+      "headstage": 5,
+      "clamp_matches": true,
+      "holding_note_mV": -70.02,
+      "holding_notebook_mV": null,
+      "holding_agrees_to_printed_precision": false
+    }
+  ],
+  "clocks": [
+    {
+      "sweep": 0,
+      "notebook_naive": "2019-11-20T16:04:03.999000",
+      "hdf_start_minus8h": "2019-11-20T16:03:58.741000",
+      "notebook_minus_hdf_s": 5.258,
+      "waveform_duration_s": 5.05902
+    },
+    {
+      "sweep": 1,
+      "notebook_naive": "2019-11-20T16:04:19.484000",
+      "hdf_start_minus8h": "2019-11-20T16:04:14.263000",
+      "notebook_minus_hdf_s": 5.221,
+      "waveform_duration_s": 5.05902
+    },
+    {
+      "sweep": 2,
+      "notebook_naive": "2019-11-20T16:04:34.931000",
+      "hdf_start_minus8h": "2019-11-20T16:04:29.729000",
+      "notebook_minus_hdf_s": 5.202,
+      "waveform_duration_s": 5.05902
+    },
+    {
+      "sweep": 3,
+      "notebook_naive": "2019-11-20T16:04:50.484000",
+      "hdf_start_minus8h": "2019-11-20T16:04:45.267000",
+      "notebook_minus_hdf_s": 5.217,
+      "waveform_duration_s": 5.05902
+    },
+    {
+      "sweep": 4,
+      "notebook_naive": "2019-11-20T16:05:06.115000",
+      "hdf_start_minus8h": "2019-11-20T16:05:00.925000",
+      "notebook_minus_hdf_s": 5.19,
+      "waveform_duration_s": 5.05902
+    },
+    {
+      "sweep": 5,
+      "notebook_naive": "2019-11-20T16:05:21.679000",
+      "hdf_start_minus8h": "2019-11-20T16:05:16.490000",
+      "notebook_minus_hdf_s": 5.189,
+      "waveform_duration_s": 5.05902
+    },
+    {
+      "sweep": 6,
+      "notebook_naive": "2019-11-20T16:05:37.207000",
+      "hdf_start_minus8h": "2019-11-20T16:05:31.992000",
+      "notebook_minus_hdf_s": 5.215,
+      "waveform_duration_s": 5.05902
+    },
+    {
+      "sweep": 7,
+      "notebook_naive": "2019-11-20T16:06:47.325000",
+      "hdf_start_minus8h": "2019-11-20T16:06:40.382000",
+      "notebook_minus_hdf_s": 6.943,
+      "waveform_duration_s": 6.75
+    },
+    {
+      "sweep": 8,
+      "notebook_naive": "2019-11-20T16:06:55.687000",
+      "hdf_start_minus8h": "2019-11-20T16:06:48.714000",
+      "notebook_minus_hdf_s": 6.973,
+      "waveform_duration_s": 6.75
+    },
+    {
+      "sweep": 9,
+      "notebook_naive": "2019-11-20T16:07:03.830000",
+      "hdf_start_minus8h": "2019-11-20T16:06:56.854000",
+      "notebook_minus_hdf_s": 6.976,
+      "waveform_duration_s": 6.75
+    }
+  ],
+  "timezone_note": "Minus8h is the DB experiment date vs Unix timestamp offset, not inferred clock synchronization. Within-sweep command/acquisition start timestamps match exactly."
+}

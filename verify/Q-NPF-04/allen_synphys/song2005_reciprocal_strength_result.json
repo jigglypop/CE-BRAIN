@@ -1,0 +1,608 @@
+{
+  "contract_sha256": "f690e81022e8574214531be2879f467caecc992cab8d6286a104c52e1e4d2ac6",
+  "reciprocal": {
+    "directions": 436,
+    "mean_mV": 0.9462884059633028,
+    "median_mV": 0.6413949999999999,
+    "sum_mV": 412.58174499999967
+  },
+  "one_way": {
+    "directions": 495,
+    "mean_mV": 0.6107657177777778,
+    "median_mV": 0.43762,
+    "sum_mV": 302.3290303000003
+  },
+  "reciprocal_fraction_of_amplitude_sum": 0.5771094229582242,
+  "mixed_records": 66,
+  "mixed_dates": 54,
+  "mixed_record_positive": 43,
+  "mixed_record_equal_weight_log_difference": 0.2298470195260809,
+  "mixed_date_equal_weight_log_difference": 0.22485330979101073,
+  "records": [
+    {
+      "row": 44,
+      "date": "2000-08-02T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 0.8469405748632857,
+      "geometric_mean_ratio": 2.3324998160215595
+    },
+    {
+      "row": 160,
+      "date": "2000-12-07T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 3,
+      "log_mean_difference": 0.4309895918839826,
+      "geometric_mean_ratio": 1.5387795340776018
+    },
+    {
+      "row": 183,
+      "date": "2000-12-28T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 3,
+      "log_mean_difference": 0.4212202105326187,
+      "geometric_mean_ratio": 1.523819802634767
+    },
+    {
+      "row": 202,
+      "date": "2001-01-11T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": -0.5041552648243299,
+      "geometric_mean_ratio": 0.6040155931999651
+    },
+    {
+      "row": 206,
+      "date": "2001-01-11T00:00:00",
+      "mutual_directions": 4,
+      "one_way_directions": 2,
+      "log_mean_difference": 0.911665891382631,
+      "geometric_mean_ratio": 2.4884645940385144
+    },
+    {
+      "row": 209,
+      "date": "2001-01-13T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": 0.7321318565615262,
+      "geometric_mean_ratio": 2.079509100661983
+    },
+    {
+      "row": 213,
+      "date": "2001-01-15T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": 0.5454700964866706,
+      "geometric_mean_ratio": 1.7254193053089502
+    },
+    {
+      "row": 217,
+      "date": "2001-01-18T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 2.7201567372338338,
+      "geometric_mean_ratio": 15.18270175314517
+    },
+    {
+      "row": 218,
+      "date": "2001-01-20T00:00:00",
+      "mutual_directions": 4,
+      "one_way_directions": 2,
+      "log_mean_difference": -0.39719247941447233,
+      "geometric_mean_ratio": 0.6722046276266994
+    },
+    {
+      "row": 219,
+      "date": "2001-01-20T00:00:00",
+      "mutual_directions": 4,
+      "one_way_directions": 2,
+      "log_mean_difference": -0.7357425891718553,
+      "geometric_mean_ratio": 0.4791495155894225
+    },
+    {
+      "row": 248,
+      "date": "2001-02-03T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": -0.10146723667232349,
+      "geometric_mean_ratio": 0.9035107808770688
+    },
+    {
+      "row": 268,
+      "date": "2001-04-15T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 0.5653181707616184,
+      "geometric_mean_ratio": 1.7600076766290838
+    },
+    {
+      "row": 281,
+      "date": "2001-04-17T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 4,
+      "log_mean_difference": -1.182015788345532,
+      "geometric_mean_ratio": 0.30665995358037695
+    },
+    {
+      "row": 305,
+      "date": "2001-05-07T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 0.13281226214688657,
+      "geometric_mean_ratio": 1.142035574896816
+    },
+    {
+      "row": 313,
+      "date": "2001-05-17T00:00:00",
+      "mutual_directions": 4,
+      "one_way_directions": 1,
+      "log_mean_difference": 0.33196255199404356,
+      "geometric_mean_ratio": 1.3937006562247984
+    },
+    {
+      "row": 315,
+      "date": "2001-05-23T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 3,
+      "log_mean_difference": 1.7024407024050485,
+      "geometric_mean_ratio": 5.487323985793557
+    },
+    {
+      "row": 316,
+      "date": "2001-05-23T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": -0.25246379292453647,
+      "geometric_mean_ratio": 0.7768843410400528
+    },
+    {
+      "row": 337,
+      "date": "2001-06-15T00:00:00",
+      "mutual_directions": 4,
+      "one_way_directions": 1,
+      "log_mean_difference": -0.795887443462613,
+      "geometric_mean_ratio": 0.4511806598779634
+    },
+    {
+      "row": 338,
+      "date": "2001-06-15T00:00:00",
+      "mutual_directions": 4,
+      "one_way_directions": 1,
+      "log_mean_difference": 1.2252436758444314,
+      "geometric_mean_ratio": 3.404995696909983
+    },
+    {
+      "row": 342,
+      "date": "2001-06-18T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": 0.1822071423743172,
+      "geometric_mean_ratio": 1.1998627105505313
+    },
+    {
+      "row": 348,
+      "date": "2001-06-21T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": 0.8046941030263826,
+      "geometric_mean_ratio": 2.2360124047665817
+    },
+    {
+      "row": 353,
+      "date": "2001-06-23T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": 0.2755179227044079,
+      "geometric_mean_ratio": 1.3172127126013526
+    },
+    {
+      "row": 370,
+      "date": "2001-07-05T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": -2.6981619076443657,
+      "geometric_mean_ratio": 0.06732915627828302
+    },
+    {
+      "row": 373,
+      "date": "2001-07-05T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 1.806619325974256,
+      "geometric_mean_ratio": 6.089824880015287
+    },
+    {
+      "row": 413,
+      "date": "2001-10-03T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": -0.8984196676506501,
+      "geometric_mean_ratio": 0.40721268288746504
+    },
+    {
+      "row": 457,
+      "date": "2001-11-22T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": -0.7386262469429072,
+      "geometric_mean_ratio": 0.47776980263137536
+    },
+    {
+      "row": 466,
+      "date": "2001-11-28T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": -0.5881052788715473,
+      "geometric_mean_ratio": 0.5553785759903401
+    },
+    {
+      "row": 477,
+      "date": "2001-12-12T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 0.537196592714561,
+      "geometric_mean_ratio": 1.7112029328769662
+    },
+    {
+      "row": 482,
+      "date": "2001-12-26T00:00:00",
+      "mutual_directions": 4,
+      "one_way_directions": 1,
+      "log_mean_difference": 0.8972232175380026,
+      "geometric_mean_ratio": 2.4527828020141653
+    },
+    {
+      "row": 488,
+      "date": "2002-01-06T00:00:00",
+      "mutual_directions": 4,
+      "one_way_directions": 1,
+      "log_mean_difference": 0.8095764268143884,
+      "geometric_mean_ratio": 2.2469560347544797
+    },
+    {
+      "row": 514,
+      "date": "2002-02-07T00:00:00",
+      "mutual_directions": 4,
+      "one_way_directions": 1,
+      "log_mean_difference": 1.5822909652425132,
+      "geometric_mean_ratio": 4.8660910966605355
+    },
+    {
+      "row": 519,
+      "date": "2002-02-12T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": 0.7061626180646632,
+      "geometric_mean_ratio": 2.0262010139658932
+    },
+    {
+      "row": 531,
+      "date": "2002-02-18T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 0.6981490323131068,
+      "geometric_mean_ratio": 2.010028763792474
+    },
+    {
+      "row": 535,
+      "date": "2002-02-21T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": 0.7982523979254783,
+      "geometric_mean_ratio": 2.221654965096761
+    },
+    {
+      "row": 546,
+      "date": "2002-03-02T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 0.6403912803199687,
+      "geometric_mean_ratio": 1.8972230801450423
+    },
+    {
+      "row": 547,
+      "date": "2002-03-02T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 0.7013034100768866,
+      "geometric_mean_ratio": 2.0163791643450937
+    },
+    {
+      "row": 550,
+      "date": "2002-03-05T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": -3.09810333097211,
+      "geometric_mean_ratio": 0.045134726900672203
+    },
+    {
+      "row": 585,
+      "date": "2002-04-30T00:00:00",
+      "mutual_directions": 4,
+      "one_way_directions": 1,
+      "log_mean_difference": 0.613242210740454,
+      "geometric_mean_ratio": 1.8464081489360102
+    },
+    {
+      "row": 589,
+      "date": "2002-05-14T00:00:00",
+      "mutual_directions": 6,
+      "one_way_directions": 2,
+      "log_mean_difference": 0.31911943720806635,
+      "geometric_mean_ratio": 1.3759156506163863
+    },
+    {
+      "row": 595,
+      "date": "2002-05-17T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": 0.847872959545069,
+      "geometric_mean_ratio": 2.3346756173045478
+    },
+    {
+      "row": 604,
+      "date": "2002-06-13T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": -1.8825712305180864,
+      "geometric_mean_ratio": 0.15219826539203465
+    },
+    {
+      "row": 608,
+      "date": "2002-06-13T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 3,
+      "log_mean_difference": -0.1578484265093646,
+      "geometric_mean_ratio": 0.8539792127693043
+    },
+    {
+      "row": 615,
+      "date": "2002-06-18T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 3,
+      "log_mean_difference": 0.5030216981073312,
+      "geometric_mean_ratio": 1.6537107431866733
+    },
+    {
+      "row": 616,
+      "date": "2002-06-18T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": 0.5895831921838769,
+      "geometric_mean_ratio": 1.8032366556066854
+    },
+    {
+      "row": 631,
+      "date": "2002-07-23T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": -1.3847999167243485,
+      "geometric_mean_ratio": 0.25037389040851216
+    },
+    {
+      "row": 644,
+      "date": "2002-08-05T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 0.454758669190914,
+      "geometric_mean_ratio": 1.5757930497311214
+    },
+    {
+      "row": 647,
+      "date": "2002-08-21T00:00:00",
+      "mutual_directions": 6,
+      "one_way_directions": 2,
+      "log_mean_difference": -1.0270096983926629,
+      "geometric_mean_ratio": 0.3580761168102901
+    },
+    {
+      "row": 651,
+      "date": "2002-08-21T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 1.742286687343253,
+      "geometric_mean_ratio": 5.710386372657707
+    },
+    {
+      "row": 684,
+      "date": "2003-01-10T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": -0.7324980858233792,
+      "geometric_mean_ratio": 0.48070664248291944
+    },
+    {
+      "row": 692,
+      "date": "2003-01-13T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": 1.8219977796318894,
+      "geometric_mean_ratio": 6.184200787516018
+    },
+    {
+      "row": 695,
+      "date": "2003-01-13T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 1.3631308263824602,
+      "geometric_mean_ratio": 3.9084107219065753
+    },
+    {
+      "row": 711,
+      "date": "2003-01-24T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 1.0121257223606333,
+      "geometric_mean_ratio": 2.7514436081532776
+    },
+    {
+      "row": 725,
+      "date": "2003-01-31T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 0.5227526824719977,
+      "geometric_mean_ratio": 1.6866641161599651
+    },
+    {
+      "row": 727,
+      "date": "2003-01-31T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": 1.0778833923141447,
+      "geometric_mean_ratio": 2.938453411167578
+    },
+    {
+      "row": 728,
+      "date": "2003-02-07T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 0.5766105021349492,
+      "geometric_mean_ratio": 1.7799949053463917
+    },
+    {
+      "row": 745,
+      "date": "2003-02-26T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": 0.4873194173422034,
+      "geometric_mean_ratio": 1.6279465206907084
+    },
+    {
+      "row": 762,
+      "date": "2003-03-12T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": 0.19972477059496813,
+      "geometric_mean_ratio": 1.221066638462871
+    },
+    {
+      "row": 767,
+      "date": "2003-03-14T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": -1.3184861837493544,
+      "geometric_mean_ratio": 0.2675400019705237
+    },
+    {
+      "row": 768,
+      "date": "2003-03-26T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 1,
+      "log_mean_difference": 0.8695463921491584,
+      "geometric_mean_ratio": 2.38582837755022
+    },
+    {
+      "row": 776,
+      "date": "2003-03-28T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 3,
+      "log_mean_difference": -1.376853648147981,
+      "geometric_mean_ratio": 0.2523713542678492
+    },
+    {
+      "row": 783,
+      "date": "2003-04-04T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": -0.7004495672054915,
+      "geometric_mean_ratio": 0.49636210549917137
+    },
+    {
+      "row": 787,
+      "date": "2003-04-09T00:00:00",
+      "mutual_directions": 6,
+      "one_way_directions": 1,
+      "log_mean_difference": -0.03192096120373433,
+      "geometric_mean_ratio": 0.9685831346988941
+    },
+    {
+      "row": 800,
+      "date": "2003-04-23T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": 0.8823197206761562,
+      "geometric_mean_ratio": 2.41649881198402
+    },
+    {
+      "row": 801,
+      "date": "2003-04-30T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": 0.9850878078923313,
+      "geometric_mean_ratio": 2.67804702776225
+    },
+    {
+      "row": 814,
+      "date": "2003-05-09T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": -0.04891692262207814,
+      "geometric_mean_ratio": 0.9522602376960639
+    },
+    {
+      "row": 817,
+      "date": "2003-05-09T00:00:00",
+      "mutual_directions": 2,
+      "one_way_directions": 2,
+      "log_mean_difference": -0.0527216689403045,
+      "geometric_mean_ratio": 0.948644012834211
+    }
+  ],
+  "date_log_differences": {
+    "2000-08-02T00:00:00": 0.8469405748632857,
+    "2000-12-07T00:00:00": 0.4309895918839826,
+    "2000-12-28T00:00:00": 0.4212202105326187,
+    "2001-01-11T00:00:00": 0.20375531327915053,
+    "2001-01-13T00:00:00": 0.7321318565615262,
+    "2001-01-15T00:00:00": 0.5454700964866706,
+    "2001-01-18T00:00:00": 2.7201567372338338,
+    "2001-01-20T00:00:00": -0.5664675342931638,
+    "2001-02-03T00:00:00": -0.10146723667232349,
+    "2001-04-15T00:00:00": 0.5653181707616184,
+    "2001-04-17T00:00:00": -1.182015788345532,
+    "2001-05-07T00:00:00": 0.13281226214688657,
+    "2001-05-17T00:00:00": 0.33196255199404356,
+    "2001-05-23T00:00:00": 0.7249884547402561,
+    "2001-06-15T00:00:00": 0.2146781161909092,
+    "2001-06-18T00:00:00": 0.1822071423743172,
+    "2001-06-21T00:00:00": 0.8046941030263826,
+    "2001-06-23T00:00:00": 0.2755179227044079,
+    "2001-07-05T00:00:00": -0.44577129083505485,
+    "2001-10-03T00:00:00": -0.8984196676506501,
+    "2001-11-22T00:00:00": -0.7386262469429072,
+    "2001-11-28T00:00:00": -0.5881052788715473,
+    "2001-12-12T00:00:00": 0.537196592714561,
+    "2001-12-26T00:00:00": 0.8972232175380026,
+    "2002-01-06T00:00:00": 0.8095764268143884,
+    "2002-02-07T00:00:00": 1.5822909652425132,
+    "2002-02-12T00:00:00": 0.7061626180646632,
+    "2002-02-18T00:00:00": 0.6981490323131068,
+    "2002-02-21T00:00:00": 0.7982523979254783,
+    "2002-03-02T00:00:00": 0.6708473451984276,
+    "2002-03-05T00:00:00": -3.09810333097211,
+    "2002-04-30T00:00:00": 0.613242210740454,
+    "2002-05-14T00:00:00": 0.31911943720806635,
+    "2002-05-17T00:00:00": 0.847872959545069,
+    "2002-06-13T00:00:00": -1.0202098285137255,
+    "2002-06-18T00:00:00": 0.546302445145604,
+    "2002-07-23T00:00:00": -1.3847999167243485,
+    "2002-08-05T00:00:00": 0.454758669190914,
+    "2002-08-21T00:00:00": 0.35763849447529505,
+    "2003-01-10T00:00:00": -0.7324980858233792,
+    "2003-01-13T00:00:00": 1.5925643030071748,
+    "2003-01-24T00:00:00": 1.0121257223606333,
+    "2003-01-31T00:00:00": 0.8003180373930712,
+    "2003-02-07T00:00:00": 0.5766105021349492,
+    "2003-02-26T00:00:00": 0.4873194173422034,
+    "2003-03-12T00:00:00": 0.19972477059496813,
+    "2003-03-14T00:00:00": -1.3184861837493544,
+    "2003-03-26T00:00:00": 0.8695463921491584,
+    "2003-03-28T00:00:00": -1.376853648147981,
+    "2003-04-04T00:00:00": -0.7004495672054915,
+    "2003-04-09T00:00:00": -0.03192096120373433,
+    "2003-04-23T00:00:00": 0.8823197206761562,
+    "2003-04-30T00:00:00": 0.9850878078923313,
+    "2003-05-09T00:00:00": -0.05081929578119132
+  },
+  "verification": "PASS: positive finite amplitudes;931 directions partitioned without omission"
+}

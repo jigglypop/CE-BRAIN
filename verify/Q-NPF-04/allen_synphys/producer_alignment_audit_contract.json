@@ -1,0 +1,13 @@
+{
+  "question": "Do producer spike times and extraction starts agree with raw pulse-aligned events, and are source arrays present in medium?",
+  "scope": "All240 previously bound responses; no outcome exclusions.",
+  "checks": "Max-slope DB time versus actual onset plus local detector time; extraction start versus actual onset minus10ms; baseline recording identity.",
+  "limits": "Inferred stop uses inspected code50ms cap and next-pulse truncation, not a stored array length. Missing medium blobs do not imply missing raw recordings.",
+  "sources": {
+    "producer_pulse_fits_result.json": "24d164efe521cfd2d4ccae8f4b8c7e8931756309b3b3a34ad32986bd0f9266f7",
+    "recovery_train_responses_result.json": "31f8ab7e53c87358cf0cdfe4cef02458b7b97125e6163fde34d317b728db030b",
+    "dataset_pipeline.py": "6801a6caa86e83dda7e9a7ff5dab63bae09b5dcff45d982452cfd8b6c84fb191",
+    "multipatch_data.py": "0f15e8a19f77137b175fdfe227168a899d6584b6d9b61a8f7beb5b7920a5bacd"
+  },
+  "code_sha256": "36561ee06916b5ec21c7c631d60caf7f249c455350e74a9c2592bc90032f94e9"
+}

@@ -1,0 +1,904 @@
+{
+  "total_trials": 464,
+  "trial_counts": {
+    "Clip": 384,
+    "Monet2": 40,
+    "Trippy": 40
+  },
+  "first_window_frames": {
+    "unassigned": 67,
+    "Clip": 753,
+    "Monet2": 376,
+    "Trippy": 54
+  },
+  "multiple_membership_frames": 0,
+  "overlap": [
+    {
+      "kind": "Clip",
+      "row": 0,
+      "start": 18.85249095557191,
+      "stop": 28.81900411246278,
+      "condition_hash": "JEL5/i5FccX4ykUOKaDW",
+      "frames": 63
+    },
+    {
+      "kind": "Clip",
+      "row": 1,
+      "start": 28.91899018881776,
+      "stop": 38.88550191519715,
+      "condition_hash": "AAQ1HNKGrg1cIXlMw7nz",
+      "frames": 63
+    },
+    {
+      "kind": "Clip",
+      "row": 2,
+      "start": 38.98549681303956,
+      "stop": 48.95199709532716,
+      "condition_hash": "ksTS42zV+O0YJqa0+s4Y",
+      "frames": 63
+    },
+    {
+      "kind": "Clip",
+      "row": 3,
+      "start": 49.051991754750986,
+      "stop": 59.01849632857301,
+      "condition_hash": "m5JLObtSRnbRKw1ukcSE",
+      "frames": 62
+    },
+    {
+      "kind": "Clip",
+      "row": 4,
+      "start": 59.11848669646241,
+      "stop": 69.08498888609864,
+      "condition_hash": "L8Z/mji+v1WipuJe4GaL",
+      "frames": 63
+    },
+    {
+      "kind": "Clip",
+      "row": 5,
+      "start": 69.18498879073121,
+      "stop": 79.15147715208985,
+      "condition_hash": "3+VHi96yg36hu1kI8ZBn",
+      "frames": 63
+    },
+    {
+      "kind": "Clip",
+      "row": 6,
+      "start": 139.5338078081415,
+      "stop": 149.50031428931214,
+      "condition_hash": "JOYs8Wny1GJlw6AxCVo5",
+      "frames": 62
+    },
+    {
+      "kind": "Clip",
+      "row": 7,
+      "start": 149.6003177702234,
+      "stop": 159.56681614516236,
+      "condition_hash": "mG4xsIyTTnaRWKW82yeD",
+      "frames": 63
+    },
+    {
+      "kind": "Clip",
+      "row": 8,
+      "start": 159.6668186723993,
+      "stop": 169.63332205412843,
+      "condition_hash": "hnYVTt6SOC5gw43jdDOb",
+      "frames": 63
+    },
+    {
+      "kind": "Clip",
+      "row": 9,
+      "start": 169.73331099150636,
+      "stop": 179.6998153269098,
+      "condition_hash": "HvUTYlGssHeK5Ub4iNLY",
+      "frames": 63
+    },
+    {
+      "kind": "Clip",
+      "row": 10,
+      "start": 179.78314428923585,
+      "stop": 189.74965696928956,
+      "condition_hash": "pBsrFShgY2qLi+7xYSGi",
+      "frames": 63
+    },
+    {
+      "kind": "Clip",
+      "row": 11,
+      "start": 189.84965687392213,
+      "stop": 199.81614928839662,
+      "condition_hash": "IPvYT7eXLYJ557HrVPnG",
+      "frames": 62
+    },
+    {
+      "kind": "Monet2",
+      "row": 0,
+      "start": 79.26814203856446,
+      "stop": 94.25123506186463,
+      "condition_hash": "DKYV7TrfEl+C8nvadH+1",
+      "frames": 94
+    },
+    {
+      "kind": "Monet2",
+      "row": 1,
+      "start": 94.33455782530763,
+      "stop": 109.31764202712037,
+      "condition_hash": "+rgSVBVRE8Ij1WNhq8ZW",
+      "frames": 94
+    },
+    {
+      "kind": "Monet2",
+      "row": 2,
+      "start": 109.40097265837647,
+      "stop": 124.38405876753785,
+      "condition_hash": "GHn0W57E+2PS+Qr5yD2r",
+      "frames": 94
+    },
+    {
+      "kind": "Monet2",
+      "row": 3,
+      "start": 124.46739273665406,
+      "stop": 139.45048409102418,
+      "condition_hash": "u0ftbdrw9UHzSHDe1o4f",
+      "frames": 94
+    },
+    {
+      "kind": "Trippy",
+      "row": 0,
+      "start": 199.91615872977235,
+      "stop": 214.89923768637635,
+      "condition_hash": "tRgm529SPpQspr220FRm",
+      "frames": 54
+    }
+  ],
+  "repeated_conditions": [
+    {
+      "kind": "Clip",
+      "condition_hash": "0JcYLY6eaQxNgD0AqyHf",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "0eP/PPhAGmbJ2peZOa/E",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "0ir9/br3yxbe2BBf65zF",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "18PTv0aCUhaUeL2r9kDd",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "3wXTReOQa7mnr6Oz8aUf",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "4ZE6JPeH4hCIesp0aRIB",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "4tIOoaR5VNXdEFB3JLsd",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "5Q4+LRPdnmpiazfLNOdJ",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "5zQTb77qI+ig8rigx1XU",
+      "count": 10
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "7UETOWO5Z8aWuHDBJ2GG",
+      "count": 10
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "7keiPs7vk9CHNrtDuOxL",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "8IyLxfa6UikBgn/lOdpD",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "8PA1UPAZQPiLL4qyfbe0",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "APccFaui8xmgaLPZxjAA",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "AXD+rrWG8VbV+xLvzwfb",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "AxNNo310kAl9uUSr+hXS",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "ClffawlgRfZbgKwX6zRB",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "EKhyHmLj04EcBoR25T/e",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "EyGfkWSsxEsE8f3GX5Ox",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "F5KOXJGuqZljKK9USGu/",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "FQR1XltfRJLPikdVpYNn",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "G8GCQlSYxw5oG/LVKDs2",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "GLb98O6GN6r7256/fA8Y",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "GjCMo2GkJp6y5vricadg",
+      "count": 10
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "HvUTYlGssHeK5Ub4iNLY",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "Hx7nWm9l4FGDuTlUO/17",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "IPvYT7eXLYJ557HrVPnG",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "J4PH3ez0PBmcINVwekyF",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "JNYUnhFvI0mZbwN58E20",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "JOYs8Wny1GJlw6AxCVo5",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "JzIVwvytTHCEhcYc0EkS",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "KXdTNAGMo1gCWz2Ge8zr",
+      "count": 10
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "KjDfO15MEsKyQ1ecL7gs",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "L313XjQzD6eqzIitZmbl",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "LfckM0X1gCCgUlsmXIea",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "Lp/pttdcIH1AZsCOGZuG",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "MaN8zZQItdhsFNBq5/yl",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "Mg5bLgoNvze3EPLB9rbZ",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "N1Sn679rCW0XsG5S7c/C",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "NHlF8hOkZ6psFRIVhB6N",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "NM2SnnQwIoj8iKOMP6xA",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "NWqTwzuwGakTM37kHKK4",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "O/TPbFEXzCLov05/KwS+",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "OFk94miLCLRW7fhR6BQE",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "Oup5uAZxF2G7zEJkT+ui",
+      "count": 10
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "QmynNYnz4Q0hMBpTZ/xv",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "Qtx9ZilPEN9mdem3G1lL",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "RL8zpBtdUqrcItpujIVj",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "SuNRz+E/BsGGxVlNWLt9",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "Ta17hPcaONVDy5sPjE9z",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "UIRT1CCHgVDfheNGYQd6",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "VIxFQLvrzWwvLKX9CM5N",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "W50xYLSTlUixv1tOfuSJ",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "W72D46ICk0GV1uh0E98o",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "WpAnXD10RC/bdk0t5JIH",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "XoerXglPXrngFUI5uTG6",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "YWGU9pCJb1jD1EEZ20tf",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "YWz8BdF7JHpb7SyGU3LO",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "YfqXNa8nksH/H4Q7tw5G",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "YxZMp94AewnnwYmjI/0v",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "ZW5GVcDmKHQQrQdljO9u",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "aedxogPGpb5IiLcjLo8c",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "cK20wOm48y1gpxBcZuzN",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "cX1uqe3yuBtkCRNeZPSD",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "dHvGJAD7cN8KboJxFF4/",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "ecUQJtcERZJGdqza1k7h",
+      "count": 10
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "fSfoxctVyPEoVzFOpsAw",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "gnKtNfR9QYEW0PRkfRU4",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "gpu0WyfdPMgXV/xhy6ZP",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "hclIiiBW4rID0gjoYwbv",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "hnYVTt6SOC5gw43jdDOb",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "iXM+aZY10zP+t3wPmZOW",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "iYxs1vPwdSenUzRva/I3",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "ihsP/Q14/eSpxdQLR3F4",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "ik5DKO+EInbAGwcH0BfB",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "jlM0Ornu8Dw2nAXCwego",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "mG4xsIyTTnaRWKW82yeD",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "mbeT2YEuzrol94GMBsSP",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "mjtZRmGqaXCHGB59txoI",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "mpoHL5UE5tDtz7b51b3H",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "n2kq4Nv6UNm4wJbdtuHM",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "okYfMyn8qc2ClgvpS7WG",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "otpDc+UZTnv0+G/1LL/A",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "pBsrFShgY2qLi+7xYSGi",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "rKhBb2Q+dILxw3t33TsJ",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "s8DvZS/fghphUcTsLOzM",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "shDuGRZylVmZLCBFIVeP",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "t24nBc6mpih4DR5C/qVP",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "uWDM4AAJ+PIdXzpPxOha",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "ubOIjeUGbsNAJqMPIDqU",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "wE8wskQ2OpXgYdnpm+o0",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "wrhbg7/9C5fsnGqt95w/",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "yCXacouyIMBJMNQBQeSe",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "yfFAPn1QpVQmEC2iXg07",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "ysjy6YgGXX5+mcx52KSM",
+      "count": 2
+    },
+    {
+      "kind": "Clip",
+      "condition_hash": "zlQ935qW1A8YOiseS7gY",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "+rgSVBVRE8Ij1WNhq8ZW",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "8N0+p7lrk5cU7sbL+JVR",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "AZvr1UF39ygFqNxKr/8K",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "CJhwNJFKI+lyFVQSBCsh",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "DKYV7TrfEl+C8nvadH+1",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "GHn0W57E+2PS+Qr5yD2r",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "GREu5PSxAHKUEjkndvwN",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "Sqv4lziRTQgtkUPYRRiM",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "SzeVJsDzE+Ceeb3XK4TT",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "WD0uyxvusJmVxfeKu9mZ",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "WdUz9wrTqcT0KJgVrQeF",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "YLuStB2eXkgOS+Cescsy",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "clN4ica4q7huSnWVFTFi",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "gnsVaYRshZj1q1gqKWom",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "jo4pGmWfIBqjijpTSGuz",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "kEq0YeYOSSBtM1ZkWA1a",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "sXP7VEVbNjUtY1Sll+wp",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "u0ftbdrw9UHzSHDe1o4f",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "yAH9HaWI/xVA35yTf/aY",
+      "count": 2
+    },
+    {
+      "kind": "Monet2",
+      "condition_hash": "yv/S61fYnDSQcA9J6Nk8",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "+4gByvU9LfvSD0JHP6Ae",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "2L0dFgMONTKcgyZJiM/T",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "5/1FqWTahoTvRpmjfXdl",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "EhwIk1vM51LHZPE6xFZX",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "FwG4V5nAZdXPlcAEu/X9",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "GovxzB/fmPMG9nkvb5jY",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "S3YyVltepwIk1BYeNSvC",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "Td0j9+lkU+ZRdgIUDMl9",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "U6NqQRL+v/N/9xnLSH2y",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "Uz0eRwz/MjTDK3dkTUCD",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "Vdi70xOyBQEeDGhPVulx",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "WsmrwbIua3koAxhulivL",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "ZJvulWBItHtLlDVkIntm",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "bPIYtu0PZKbei9UFlwH6",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "c6il6/HFHBatfpiQJdgg",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "hhWRsNy4ljt4M1PtvZ3u",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "oU8OuOIfg4zaGVH3nIGm",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "pbCnC+ND3OiX0SGNCm4k",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "tRgm529SPpQspr220FRm",
+      "count": 2
+    },
+    {
+      "kind": "Trippy",
+      "condition_hash": "zcz9H/fzww6BdAJTTzoe",
+      "count": 2
+    }
+  ],
+  "behavior": [
+    {
+      "response_frames_covered": 1250,
+      "response_frames_uncovered": 0,
+      "name": "treadmill",
+      "path": "acquisition/treadmill_velocity",
+      "shape": [
+        15451
+      ],
+      "time_start": 0.0,
+      "time_stop": 208.41687030000003,
+      "finite": 15451,
+      "total": 15451,
+      "unit": "m/s",
+      "conversion": "0.01",
+      "offset": "0.0"
+    },
+    {
+      "response_frames_covered": 1249,
+      "response_frames_uncovered": 1,
+      "name": "pupil_major",
+      "path": "acquisition/PupilTracking/pupil_major_radius",
+      "shape": [
+        3859
+      ],
+      "time_start": 10.291118799999992,
+      "time_stop": 208.44011769999997,
+      "finite": 3692,
+      "total": 3859,
+      "unit": "px",
+      "conversion": "1.0",
+      "offset": "0.0"
+    },
+    {
+      "response_frames_covered": 1249,
+      "response_frames_uncovered": 1,
+      "name": "pupil_minor",
+      "path": "acquisition/PupilTracking/pupil_minor_radius",
+      "shape": [
+        3859
+      ],
+      "time_start": 10.291118799999992,
+      "time_stop": 208.44011769999997,
+      "finite": 3692,
+      "total": 3859,
+      "unit": "px",
+      "conversion": "1.0",
+      "offset": "0.0"
+    },
+    {
+      "response_frames_covered": 1249,
+      "response_frames_uncovered": 1,
+      "name": "eye",
+      "path": "acquisition/EyeTracking/eye_position",
+      "shape": [
+        3859,
+        2
+      ],
+      "time_start": 10.291118799999992,
+      "time_stop": 208.44011769999997,
+      "finite": 7384,
+      "total": 7718,
+      "unit": "px",
+      "conversion": "1.0",
+      "offset": "0.0"
+    }
+  ],
+  "arrays_sha256": "d5787117f48e84e31f04bd290cf363a40a29ab9c168f462c760f622f4d66eafd",
+  "limits": "Named interval assignment does not remove stimulus drive; simultaneous measured behavior does not imply confounder sufficiency."
+}

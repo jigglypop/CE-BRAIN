@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "name": "S1_general_f",
+      "residual": "0",
+      "status": "PASS",
+      "note": "임의 상태함수 잡음 f(mu) 에서 dlogPhi/dlogmu = (2-p)(1-rho) + 2 rho q"
+    },
+    {
+      "name": "S2_powerlaw_q_zero",
+      "residual": "0",
+      "status": "PASS",
+      "note": "f = c mu^p0 이면 q = 0"
+    },
+    {
+      "name": "S2b_powerlaw_card_exact",
+      "residual": "0",
+      "status": "PASS",
+      "note": "멱법칙에서 카드 식 (2-p)(1-rho) 가 정확"
+    },
+    {
+      "name": "S3_additive_equals_2",
+      "residual": "0",
+      "status": "PASS",
+      "note": "s2 = const (평균반응 전용 기하) -> dlogPhi/dlogmu = 2"
+    },
+    {
+      "name": "S4_constCV_equals_0",
+      "residual": "0",
+      "status": "PASS",
+      "note": "s2 = c mu^2 -> dlogPhi/dlogmu = 0 (계량이 gain 에 불변)"
+    },
+    {
+      "name": "S5_chart_rescale",
+      "residual": "0",
+      "status": "PASS",
+      "note": "o -> lam o 아래 Phi = mu^2/s2 + p^2/2 불변 (두 항 모두 무차원)"
+    },
+    {
+      "name": "S6_contrast_rescale",
+      "residual": "0",
+      "status": "PASS",
+      "note": "대비 L = log mu_post - log mu_pre 와 Y = dlog Phi 도 chart 재척도 불변 -> Lambda 불변"
+    }
+  ],
+  "status": "PASS",
+  "n_checks": 7,
+  "engine": "sympy 1.14.0"
+}

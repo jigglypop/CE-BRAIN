@@ -1,0 +1,567 @@
+{
+  "contract_sha256": "6b92f3657cfd6493e19707b2dc54253a5f6a5a6674dae0c45763f2222823718e",
+  "remote": {
+    "url": "https://allen-synphys.s3-us-west-2.amazonaws.com/synphys-1623269658.635.nwb",
+    "bytes": 645002597,
+    "etag": "\"eca1a0ddcbd4bcb133a5fcd11cdde76c-77\"",
+    "last_modified": "Sat, 04 May 2024 06:28:30 GMT"
+  },
+  "new_nwb_bytes": 1572864,
+  "analysis": {
+    "assets": [
+      {
+        "binding": {
+          "recording": 716325,
+          "sweep": "32",
+          "experiment": 4251,
+          "external": "1623269658.635",
+          "electrode": 33926,
+          "device": 1,
+          "clamp_mode": "ic",
+          "qc_pass": 1
+        },
+        "path": "data/external/allen_synphys_r21/raw_ranges/1623269658.635/post_32.npz",
+        "sha256": "9888358074b2d79057b7df30bd8db21b90991476eeddc477fa99500ac1404404",
+        "rate_hz": 200000.0,
+        "start_s": 2944.0679998397827,
+        "nodes": [
+          "/acquisition/timeseries/data_00032_AD1",
+          "/stimulus/presentation/data_00032_DA1"
+        ]
+      },
+      {
+        "binding": {
+          "recording": 716327,
+          "sweep": "33",
+          "experiment": 4251,
+          "external": "1623269658.635",
+          "electrode": 33926,
+          "device": 1,
+          "clamp_mode": "ic",
+          "qc_pass": 1
+        },
+        "path": "data/external/allen_synphys_r21/raw_ranges/1623269658.635/post_33.npz",
+        "sha256": "b6c420ba1951ed512bc9b9c56f503e3ad774da644b7269a9b93c07ee16cad88c",
+        "rate_hz": 200000.0,
+        "start_s": 2960.2339997291565,
+        "nodes": [
+          "/acquisition/timeseries/data_00033_AD1",
+          "/stimulus/presentation/data_00033_DA1"
+        ]
+      }
+    ],
+    "records": [
+      {
+        "sweep": 32,
+        "pulse": 1,
+        "stim_pulse_id": 5801248,
+        "spike_alignment_missing": true,
+        "actual_onset_s": 1.994675,
+        "before_V": -0.06999095351207486,
+        "after_V": -0.06972184186853508,
+        "delta_uV": 269.11164353977944,
+        "minus_control_mean_uV": 193.22845337079548,
+        "within_control_range": true
+      },
+      {
+        "sweep": 32,
+        "pulse": 2,
+        "stim_pulse_id": 5801249,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 2.014675,
+        "before_V": -0.06966149088045943,
+        "after_V": -0.06912490433000955,
+        "delta_uV": 536.5865504498856,
+        "minus_control_mean_uV": 460.7033602809017,
+        "within_control_range": true
+      },
+      {
+        "sweep": 32,
+        "pulse": 3,
+        "stim_pulse_id": 5801250,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 2.034675,
+        "before_V": -0.0697351969005008,
+        "after_V": -0.0697201231756739,
+        "delta_uV": 15.073724826897283,
+        "minus_control_mean_uV": -60.809465342086675,
+        "within_control_range": true
+      },
+      {
+        "sweep": 32,
+        "pulse": 4,
+        "stim_pulse_id": 5801251,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 2.054675,
+        "before_V": -0.0697247470785323,
+        "after_V": -0.06966945129063774,
+        "delta_uV": 55.29578789455203,
+        "minus_control_mean_uV": -20.58740227443193,
+        "within_control_range": true
+      },
+      {
+        "sweep": 32,
+        "pulse": 5,
+        "stim_pulse_id": 5801252,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 2.074675,
+        "before_V": -0.06978568436017421,
+        "after_V": -0.06971076912427544,
+        "delta_uV": 74.91523589876759,
+        "minus_control_mean_uV": -0.9679542702163673,
+        "within_control_range": true
+      },
+      {
+        "sweep": 32,
+        "pulse": 6,
+        "stim_pulse_id": 5801253,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 2.094675,
+        "before_V": -0.0701049470477627,
+        "after_V": -0.07047791982345321,
+        "delta_uV": -372.972775690511,
+        "minus_control_mean_uV": -448.855965859495,
+        "within_control_range": true
+      },
+      {
+        "sweep": 32,
+        "pulse": 7,
+        "stim_pulse_id": 5801254,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 2.114675,
+        "before_V": -0.07040229062115089,
+        "after_V": -0.0697979876927695,
+        "delta_uV": 604.3029283813867,
+        "minus_control_mean_uV": 528.4197382124028,
+        "within_control_range": true
+      },
+      {
+        "sweep": 32,
+        "pulse": 8,
+        "stim_pulse_id": 5801255,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 2.134675,
+        "before_V": -0.07007734723108312,
+        "after_V": -0.07018238350112742,
+        "delta_uV": -105.03627004429528,
+        "minus_control_mean_uV": -180.91946021327925,
+        "within_control_range": true
+      },
+      {
+        "sweep": 32,
+        "pulse": 9,
+        "stim_pulse_id": 5801256,
+        "spike_alignment_missing": true,
+        "actual_onset_s": 2.63618,
+        "before_V": -0.07052872208467559,
+        "after_V": -0.07034644605342476,
+        "delta_uV": 182.27603125083036,
+        "minus_control_mean_uV": 106.3928410818464,
+        "within_control_range": true
+      },
+      {
+        "sweep": 32,
+        "pulse": 10,
+        "stim_pulse_id": 5801257,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 2.65618,
+        "before_V": -0.07044400331539288,
+        "after_V": -0.07033333138427361,
+        "delta_uV": 110.67193111927165,
+        "minus_control_mean_uV": 34.78874095028769,
+        "within_control_range": true
+      },
+      {
+        "sweep": 32,
+        "pulse": 11,
+        "stim_pulse_id": 5801258,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 2.67618,
+        "before_V": -0.07065636586667828,
+        "after_V": -0.07036902927211827,
+        "delta_uV": 287.33659456001146,
+        "minus_control_mean_uV": 211.4534043910275,
+        "within_control_range": true
+      },
+      {
+        "sweep": 32,
+        "pulse": 12,
+        "stim_pulse_id": 5801259,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 2.69618,
+        "before_V": -0.07081192220951604,
+        "after_V": -0.07085578980981538,
+        "delta_uV": -43.86760029934101,
+        "minus_control_mean_uV": -119.75079046832496,
+        "within_control_range": true
+      },
+      {
+        "sweep": 33,
+        "pulse": 1,
+        "stim_pulse_id": 5801272,
+        "spike_alignment_missing": true,
+        "actual_onset_s": 1.43317,
+        "before_V": -0.06884059073313135,
+        "after_V": -0.06887959197094573,
+        "delta_uV": -39.00123781437615,
+        "minus_control_mean_uV": -23.89624638085808,
+        "within_control_range": true
+      },
+      {
+        "sweep": 33,
+        "pulse": 2,
+        "stim_pulse_id": 5801273,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 1.45317,
+        "before_V": -0.06909617845279065,
+        "after_V": -0.06877783659501886,
+        "delta_uV": 318.3418577717839,
+        "minus_control_mean_uV": 333.446849205302,
+        "within_control_range": true
+      },
+      {
+        "sweep": 33,
+        "pulse": 3,
+        "stim_pulse_id": 5801274,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 1.47317,
+        "before_V": -0.06879298450681012,
+        "after_V": -0.06899114898943817,
+        "delta_uV": -198.1644826280493,
+        "minus_control_mean_uV": -183.05949119453123,
+        "within_control_range": true
+      },
+      {
+        "sweep": 33,
+        "pulse": 4,
+        "stim_pulse_id": 5801275,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 1.49317,
+        "before_V": -0.068928015709818,
+        "after_V": -0.06840767499321879,
+        "delta_uV": 520.3407165992186,
+        "minus_control_mean_uV": 535.4457080327367,
+        "within_control_range": true
+      },
+      {
+        "sweep": 33,
+        "pulse": 5,
+        "stim_pulse_id": 5801276,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 1.51317,
+        "before_V": -0.0688426595427389,
+        "after_V": -0.06916645117900846,
+        "delta_uV": -323.79163626956864,
+        "minus_control_mean_uV": -308.68664483605056,
+        "within_control_range": true
+      },
+      {
+        "sweep": 33,
+        "pulse": 6,
+        "stim_pulse_id": 5801277,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 1.53317,
+        "before_V": -0.06928104681636879,
+        "after_V": -0.06909324281168035,
+        "delta_uV": 187.80400468844383,
+        "minus_control_mean_uV": 202.90899612196188,
+        "within_control_range": true
+      },
+      {
+        "sweep": 33,
+        "pulse": 7,
+        "stim_pulse_id": 5801278,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 1.55317,
+        "before_V": -0.06924077812243953,
+        "after_V": -0.06939880023611583,
+        "delta_uV": -158.02211367629826,
+        "minus_control_mean_uV": -142.91712224278018,
+        "within_control_range": true
+      },
+      {
+        "sweep": 33,
+        "pulse": 8,
+        "stim_pulse_id": 5801279,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 1.57317,
+        "before_V": -0.0682979094710883,
+        "after_V": -0.06888256055578318,
+        "delta_uV": -584.6510846948815,
+        "minus_control_mean_uV": -569.5460932613635,
+        "within_control_range": true
+      },
+      {
+        "sweep": 33,
+        "pulse": 9,
+        "stim_pulse_id": 5801280,
+        "spike_alignment_missing": true,
+        "actual_onset_s": 2.574675,
+        "before_V": -0.06896502209737893,
+        "after_V": -0.06865783138225716,
+        "delta_uV": 307.19071512176623,
+        "minus_control_mean_uV": 322.2957065552843,
+        "within_control_range": true
+      },
+      {
+        "sweep": 33,
+        "pulse": 10,
+        "stim_pulse_id": 5801281,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 2.594675,
+        "before_V": -0.06908273448242554,
+        "after_V": -0.06891069610475749,
+        "delta_uV": 172.03837766804898,
+        "minus_control_mean_uV": 187.14336910156703,
+        "within_control_range": true
+      },
+      {
+        "sweep": 33,
+        "pulse": 11,
+        "stim_pulse_id": 5801282,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 2.614675,
+        "before_V": -0.06878755951875948,
+        "after_V": -0.06928762291989159,
+        "delta_uV": -500.06340113210865,
+        "minus_control_mean_uV": -484.9584096985906,
+        "within_control_range": true
+      },
+      {
+        "sweep": 33,
+        "pulse": 12,
+        "stim_pulse_id": 5801283,
+        "spike_alignment_missing": false,
+        "actual_onset_s": 2.634675,
+        "before_V": -0.06991639073387511,
+        "after_V": -0.06971130541987383,
+        "delta_uV": 205.08531400127706,
+        "minus_control_mean_uV": 220.1903054347951,
+        "within_control_range": true
+      }
+    ],
+    "controls": [
+      {
+        "sweep": 32,
+        "records": [
+          {
+            "center_s": 0.1,
+            "before_V": -0.07085645362184846,
+            "after_V": -0.07062095657086803,
+            "delta_uV": 235.49705098042938
+          },
+          {
+            "center_s": 0.125,
+            "before_V": -0.07094762215187453,
+            "after_V": -0.06991610728150977,
+            "delta_uV": 1031.5148703647637
+          },
+          {
+            "center_s": 0.15000000000000002,
+            "before_V": -0.07066833451043525,
+            "after_V": -0.07031980526821367,
+            "delta_uV": 348.52924222157634
+          },
+          {
+            "center_s": 0.17500000000000002,
+            "before_V": -0.07052087214686378,
+            "after_V": -0.07016571167111191,
+            "delta_uV": 355.1604757518756
+          },
+          {
+            "center_s": 0.2,
+            "before_V": -0.07056404091875061,
+            "after_V": -0.07064967544430241,
+            "delta_uV": -85.63452555179762
+          },
+          {
+            "center_s": 0.225,
+            "before_V": -0.0701321033448289,
+            "after_V": -0.07035037822447945,
+            "delta_uV": -218.27487965055127
+          },
+          {
+            "center_s": 0.25,
+            "before_V": -0.070827166175389,
+            "after_V": -0.0705230763998473,
+            "delta_uV": 304.0897755417077
+          },
+          {
+            "center_s": 0.275,
+            "before_V": -0.07060374728812924,
+            "after_V": -0.07021674820307704,
+            "delta_uV": 386.99908505220037
+          },
+          {
+            "center_s": 0.30000000000000004,
+            "before_V": -0.06944675963857078,
+            "after_V": -0.07010375853045364,
+            "delta_uV": -656.9988918828651
+          },
+          {
+            "center_s": 0.325,
+            "before_V": -0.0705343785561967,
+            "after_V": -0.07049749310598893,
+            "delta_uV": 36.88545020776035
+          },
+          {
+            "center_s": 0.35,
+            "before_V": -0.07038885337228268,
+            "after_V": -0.07038560237140601,
+            "delta_uV": 3.2510008766695186
+          },
+          {
+            "center_s": 0.375,
+            "before_V": -0.07034012829520028,
+            "after_V": -0.07073672752668422,
+            "delta_uV": -396.5992314839406
+          },
+          {
+            "center_s": 0.4,
+            "before_V": -0.07034099073725786,
+            "after_V": -0.07099503463352713,
+            "delta_uV": -654.0438962692741
+          },
+          {
+            "center_s": 0.42500000000000004,
+            "before_V": -0.07089292856864929,
+            "after_V": -0.07047331078519921,
+            "delta_uV": 419.61778345007974
+          },
+          {
+            "center_s": 0.45000000000000007,
+            "before_V": -0.07065451597492783,
+            "after_V": -0.07065732095629275,
+            "delta_uV": -2.804981364915027
+          },
+          {
+            "center_s": 0.475,
+            "before_V": -0.07045860322300772,
+            "after_V": -0.0705613107372448,
+            "delta_uV": -102.70751423707702
+          },
+          {
+            "center_s": 0.5,
+            "before_V": -0.07084551603740562,
+            "after_V": -0.07055998261853953,
+            "delta_uV": 285.5334188660852
+          }
+        ],
+        "minimum_uV": -656.9988918828651,
+        "maximum_uV": 1031.5148703647637,
+        "mean_uV": 75.88319016898396
+      },
+      {
+        "sweep": 33,
+        "records": [
+          {
+            "center_s": 0.1,
+            "before_V": -0.06972860357743373,
+            "after_V": -0.06973555532438665,
+            "delta_uV": -6.951746952921223
+          },
+          {
+            "center_s": 0.125,
+            "before_V": -0.06996309703492166,
+            "after_V": -0.06975939924972367,
+            "delta_uV": 203.69778519799263
+          },
+          {
+            "center_s": 0.15000000000000002,
+            "before_V": -0.06979816556956832,
+            "after_V": -0.06992587835563312,
+            "delta_uV": -127.71278606479864
+          },
+          {
+            "center_s": 0.17500000000000002,
+            "before_V": -0.06938972202294662,
+            "after_V": -0.06946728964468303,
+            "delta_uV": -77.56762173641296
+          },
+          {
+            "center_s": 0.2,
+            "before_V": -0.06962532825056796,
+            "after_V": -0.07008224824627969,
+            "delta_uV": -456.91999571173534
+          },
+          {
+            "center_s": 0.225,
+            "before_V": -0.06972757186199165,
+            "after_V": -0.06970498752432024,
+            "delta_uV": 22.584337671410772
+          },
+          {
+            "center_s": 0.25,
+            "before_V": -0.06999722852915759,
+            "after_V": -0.06998749809173453,
+            "delta_uV": 9.730437423055571
+          },
+          {
+            "center_s": 0.275,
+            "before_V": -0.06994187826865503,
+            "after_V": -0.06965614383939328,
+            "delta_uV": 285.734429261747
+          },
+          {
+            "center_s": 0.30000000000000004,
+            "before_V": -0.06931823432576449,
+            "after_V": -0.06950326898726314,
+            "delta_uV": -185.03466149864812
+          },
+          {
+            "center_s": 0.325,
+            "before_V": -0.06987604062667294,
+            "after_V": -0.06952626875820216,
+            "delta_uV": 349.77186847078013
+          },
+          {
+            "center_s": 0.35,
+            "before_V": -0.06998944096927841,
+            "after_V": -0.07011372219593542,
+            "delta_uV": -124.28122665701646
+          },
+          {
+            "center_s": 0.375,
+            "before_V": -0.06937137191678937,
+            "after_V": -0.0700781543638424,
+            "delta_uV": -706.7824470530365
+          },
+          {
+            "center_s": 0.4,
+            "before_V": -0.06994995325072803,
+            "after_V": -0.0693793679130086,
+            "delta_uV": 570.5853377194342
+          },
+          {
+            "center_s": 0.42500000000000004,
+            "before_V": -0.06974843432025796,
+            "after_V": -0.0696694615394582,
+            "delta_uV": 78.97278079975479
+          },
+          {
+            "center_s": 0.45000000000000007,
+            "before_V": -0.0699725782136557,
+            "after_V": -0.0698112271152428,
+            "delta_uV": 161.35109841289298
+          },
+          {
+            "center_s": 0.475,
+            "before_V": -0.06980826594236252,
+            "after_V": -0.06976276366028386,
+            "delta_uV": 45.50228207865492
+          },
+          {
+            "center_s": 0.5,
+            "before_V": -0.06978080934468388,
+            "after_V": -0.07008027407041484,
+            "delta_uV": -299.4647257309607
+          }
+        ],
+        "minimum_uV": -706.7824470530365,
+        "maximum_uV": 570.5853377194342,
+        "mean_uV": -15.104991433518066
+      }
+    ],
+    "validation": "24 pulse; post command constant per window; both commands constant during controls; DC and100uV step fixtures"
+  }
+}

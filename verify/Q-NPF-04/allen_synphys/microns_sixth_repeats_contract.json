@@ -1,0 +1,6 @@
+{
+  "selection": "scan6/4 all53 fixed targets, all Clip conditions appearing10 times; same .5<=relative_time<9.5 grid at median imaging interval, both timing conventions.",
+  "analysis": "Reuse original structural pair labels and fixed distance cuts. Raw, repeat mean, leave-one-repeat-out residual for all10/first5/last5. 999 per-cell circular shifts, seed20260905, same shift across6 conditions.",
+  "limits": "Same mouse, no independent animal claim, no calibrated permutation p-value, no behavior correction. Prior first-window values already viewed; no selective trial exclusions.",
+  "code_sha256": "5fadd3804df5c0d14a94758c49840e1b78db696913a7e351776b205af9c3ea94"
+}

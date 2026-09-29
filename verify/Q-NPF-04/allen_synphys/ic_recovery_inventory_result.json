@@ -1,0 +1,493 @@
+{
+  "selection": "first5 triple-current-clamp pulse trains among sweepIDs<40;12pulses; units/identity/same relative clock checked before reading responses",
+  "protocol_substring": "SRecovery",
+  "db_cells": [
+    [
+      18950,
+      "3",
+      2
+    ],
+    [
+      18951,
+      "5",
+      4
+    ],
+    [
+      18952,
+      "6",
+      5
+    ]
+  ],
+  "scanned": [
+    {
+      "sweep": 0,
+      "unit": "A",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0"
+    },
+    {
+      "sweep": 1,
+      "unit": "A",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0"
+    },
+    {
+      "sweep": 2,
+      "unit": "A",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0"
+    },
+    {
+      "sweep": 3,
+      "unit": "A",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0"
+    },
+    {
+      "sweep": 4,
+      "unit": "A",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0"
+    },
+    {
+      "sweep": 5,
+      "unit": "A",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0"
+    },
+    {
+      "sweep": 6,
+      "unit": "A",
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0"
+    },
+    {
+      "sweep": 7,
+      "unit": "V",
+      "stimulus": "Y2_TargetV_DA_0"
+    },
+    {
+      "sweep": 8,
+      "unit": "V",
+      "stimulus": "Y2_TargetV_DA_0"
+    },
+    {
+      "sweep": 9,
+      "unit": "V",
+      "stimulus": "Y2_TargetV_DA_0"
+    },
+    {
+      "sweep": 10,
+      "unit": "V",
+      "stimulus": "Y2_TargetV_DA_0"
+    },
+    {
+      "sweep": 11,
+      "unit": "V",
+      "stimulus": "Y2_TargetV_DA_0"
+    },
+    {
+      "sweep": 12,
+      "unit": "V",
+      "stimulus": "Y2_TargetV_DA_0"
+    },
+    {
+      "sweep": 13,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 14,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 15,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 16,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 17,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 18,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 19,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 20,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 21,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 22,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 23,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 24,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 25,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 26,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 27,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 28,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 29,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 30,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 31,
+      "unit": "V",
+      "stimulus": "Y3_FastRheo_DA_0"
+    },
+    {
+      "sweep": 32,
+      "unit": "V",
+      "stimulus": "Y4_SRecovery_50H_DA_0"
+    },
+    {
+      "sweep": 33,
+      "unit": "V",
+      "stimulus": "Y4_SRecovery_50H_DA_0"
+    },
+    {
+      "sweep": 34,
+      "unit": "V",
+      "stimulus": "Y4_SRecovery_50H_DA_0"
+    },
+    {
+      "sweep": 35,
+      "unit": "V",
+      "stimulus": "Y4_SRecovery_50H_DA_0"
+    },
+    {
+      "sweep": 36,
+      "unit": "V",
+      "stimulus": "Y4_SRecovery_50H_DA_0"
+    }
+  ],
+  "selected": [
+    {
+      "sweep": 32,
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "onset_times_s": [
+        2.20602,
+        2.22602,
+        2.24602,
+        2.26602,
+        2.28602,
+        2.30602,
+        2.32602,
+        2.34602,
+        2.472525,
+        2.492525,
+        2.512525,
+        2.532525
+      ],
+      "nodes": {
+        "pre": {
+          "path": "/acquisition/timeseries/data_00032_AD9",
+          "electrode": "electrode_5",
+          "unit": "V",
+          "conversion": 0.0010000000474974513,
+          "rate": 100000.0,
+          "start_s": 4360.398000240326,
+          "samples": 378402
+        },
+        "positive": {
+          "path": "/acquisition/timeseries/data_00032_AD8",
+          "electrode": "electrode_4",
+          "unit": "V",
+          "conversion": 0.0010000000474974513,
+          "rate": 100000.0,
+          "start_s": 4360.398000240326,
+          "samples": 378402
+        },
+        "negative": {
+          "path": "/acquisition/timeseries/data_00032_AD2",
+          "electrode": "electrode_2",
+          "unit": "V",
+          "conversion": 0.0010000000474974513,
+          "rate": 100000.0,
+          "start_s": 4360.398000240326,
+          "samples": 378402
+        }
+      },
+      "command": {
+        "path": "/stimulus/presentation/data_00032_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "conversion": 9.999999960041972e-13,
+        "rate": 100000.0,
+        "start_s": 4360.398000240326,
+        "samples": 378402
+      }
+    },
+    {
+      "sweep": 33,
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "onset_times_s": [
+        2.45602,
+        2.47602,
+        2.49602,
+        2.51602,
+        2.53602,
+        2.55602,
+        2.57602,
+        2.59602,
+        2.847525,
+        2.867525,
+        2.887525,
+        2.907525
+      ],
+      "nodes": {
+        "pre": {
+          "path": "/acquisition/timeseries/data_00033_AD9",
+          "electrode": "electrode_5",
+          "unit": "V",
+          "conversion": 0.0010000000474974513,
+          "rate": 100000.0,
+          "start_s": 4376.369999885559,
+          "samples": 415902
+        },
+        "positive": {
+          "path": "/acquisition/timeseries/data_00033_AD8",
+          "electrode": "electrode_4",
+          "unit": "V",
+          "conversion": 0.0010000000474974513,
+          "rate": 100000.0,
+          "start_s": 4376.369999885559,
+          "samples": 415902
+        },
+        "negative": {
+          "path": "/acquisition/timeseries/data_00033_AD2",
+          "electrode": "electrode_2",
+          "unit": "V",
+          "conversion": 0.0010000000474974513,
+          "rate": 100000.0,
+          "start_s": 4376.369999885559,
+          "samples": 415902
+        }
+      },
+      "command": {
+        "path": "/stimulus/presentation/data_00033_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "conversion": 9.999999960041972e-13,
+        "rate": 100000.0,
+        "start_s": 4376.369999885559,
+        "samples": 415902
+      }
+    },
+    {
+      "sweep": 34,
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "onset_times_s": [
+        2.9560199,
+        2.9760199,
+        2.9960199,
+        3.0160199,
+        3.0360199,
+        3.0560199,
+        3.0760199,
+        3.0960199,
+        3.5975249,
+        3.6175249,
+        3.6375249,
+        3.6575249
+      ],
+      "nodes": {
+        "pre": {
+          "path": "/acquisition/timeseries/data_00034_AD9",
+          "electrode": "electrode_5",
+          "unit": "V",
+          "conversion": 0.0010000000474974513,
+          "rate": 100000.0,
+          "start_s": 4392.507999897003,
+          "samples": 490902
+        },
+        "positive": {
+          "path": "/acquisition/timeseries/data_00034_AD8",
+          "electrode": "electrode_4",
+          "unit": "V",
+          "conversion": 0.0010000000474974513,
+          "rate": 100000.0,
+          "start_s": 4392.507999897003,
+          "samples": 490902
+        },
+        "negative": {
+          "path": "/acquisition/timeseries/data_00034_AD2",
+          "electrode": "electrode_2",
+          "unit": "V",
+          "conversion": 0.0010000000474974513,
+          "rate": 100000.0,
+          "start_s": 4392.507999897003,
+          "samples": 490902
+        }
+      },
+      "command": {
+        "path": "/stimulus/presentation/data_00034_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "conversion": 9.999999960041972e-13,
+        "rate": 100000.0,
+        "start_s": 4392.507999897003,
+        "samples": 490902
+      }
+    },
+    {
+      "sweep": 35,
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "onset_times_s": [
+        2.894515,
+        2.914515,
+        2.934515,
+        2.954515,
+        2.974515,
+        2.994515,
+        3.014515,
+        3.034515,
+        4.03602,
+        4.05602,
+        4.07602,
+        4.09602
+      ],
+      "nodes": {
+        "pre": {
+          "path": "/acquisition/timeseries/data_00035_AD9",
+          "electrode": "electrode_5",
+          "unit": "V",
+          "conversion": 0.0010000000474974513,
+          "rate": 100000.0,
+          "start_s": 4408.997000217438,
+          "samples": 534752
+        },
+        "positive": {
+          "path": "/acquisition/timeseries/data_00035_AD8",
+          "electrode": "electrode_4",
+          "unit": "V",
+          "conversion": 0.0010000000474974513,
+          "rate": 100000.0,
+          "start_s": 4408.997000217438,
+          "samples": 534752
+        },
+        "negative": {
+          "path": "/acquisition/timeseries/data_00035_AD2",
+          "electrode": "electrode_2",
+          "unit": "V",
+          "conversion": 0.0010000000474974513,
+          "rate": 100000.0,
+          "start_s": 4408.997000217438,
+          "samples": 534752
+        }
+      },
+      "command": {
+        "path": "/stimulus/presentation/data_00035_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "conversion": 9.999999960041972e-13,
+        "rate": 100000.0,
+        "start_s": 4408.997000217438,
+        "samples": 534752
+      }
+    },
+    {
+      "sweep": 36,
+      "stimulus": "Y4_SRecovery_50H_DA_0",
+      "onset_times_s": [
+        1.83301,
+        1.85301,
+        1.87301,
+        1.89301,
+        1.91301,
+        1.93301,
+        1.95301,
+        1.97301,
+        5.974515,
+        5.994515,
+        6.014515,
+        6.034515
+      ],
+      "nodes": {
+        "pre": {
+          "path": "/acquisition/timeseries/data_00036_AD9",
+          "electrode": "electrode_5",
+          "unit": "V",
+          "conversion": 0.0010000000474974513,
+          "rate": 100000.0,
+          "start_s": 4425.97200012207,
+          "samples": 728601
+        },
+        "positive": {
+          "path": "/acquisition/timeseries/data_00036_AD8",
+          "electrode": "electrode_4",
+          "unit": "V",
+          "conversion": 0.0010000000474974513,
+          "rate": 100000.0,
+          "start_s": 4425.97200012207,
+          "samples": 728601
+        },
+        "negative": {
+          "path": "/acquisition/timeseries/data_00036_AD2",
+          "electrode": "electrode_2",
+          "unit": "V",
+          "conversion": 0.0010000000474974513,
+          "rate": 100000.0,
+          "start_s": 4425.97200012207,
+          "samples": 728601
+        }
+      },
+      "command": {
+        "path": "/stimulus/presentation/data_00036_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "conversion": 9.999999960041972e-13,
+        "rate": 100000.0,
+        "start_s": 4425.97200012207,
+        "samples": 728601
+      }
+    }
+  ],
+  "new_bytes": 851968,
+  "cached_bytes": 33409032,
+  "status": "READY"
+}

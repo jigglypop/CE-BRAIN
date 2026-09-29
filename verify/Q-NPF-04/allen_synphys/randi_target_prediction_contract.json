@@ -1,0 +1,123 @@
+{
+  "question": "비표적 세포의 미래 반응 예측에 자극 대상 정보가 이득을 주는가",
+  "selection": "메타데이터 지원 게이트 통과 중 숫자 순 첫 WT 세션; unc31은 지원 부족으로 미평가",
+  "support_sha256": "186d98dae0df00493196526509dd7e85a31a26a39f3d984aef4b8046024370dc",
+  "split": {
+    "retained": 59,
+    "train_events": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      22,
+      23,
+      24,
+      25,
+      26,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      44,
+      45,
+      46,
+      48,
+      49,
+      50
+    ],
+    "test_events": [
+      51,
+      54,
+      57,
+      58,
+      59,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      69,
+      70,
+      72,
+      75,
+      77,
+      78,
+      79,
+      80,
+      83
+    ],
+    "supported_test_events": [
+      51,
+      57,
+      63,
+      64,
+      72,
+      78
+    ],
+    "supported_test_targets": [
+      2,
+      24,
+      84,
+      94
+    ],
+    "pass_min5_supported": true
+  },
+  "inputs": {
+    "gcamp": "19cd9c5163ba6301fc9951e3154416d81446f14c257f7aa8d409cafc4ad6f021",
+    "t": "49b3863c3e6d9416023bb4ca1301fad82515a6bf29b1b1daab74158d142da5e9",
+    "stim_volume_i": "69d9f358d91f529296f06a4aafb3edab6ba55345c857a5ec58f2410995076a41",
+    "stim_neurons": "48839ec0c3b2029bee0f454a263f56bc556766a714faa0625775a2e30a6ec53b",
+    "labels": "f6690f8717242a66c4bb79b0b53dc9d2f654f73373b9d7920417aa2854ad121f"
+  },
+  "code_sha256": "e06c2f0ca67f7f4d2c4601dcab92efb7fc671c5a2c77c0ac7ff8512c7ae106f7",
+  "windows_seconds_half_open": {
+    "pre": [
+      -10,
+      -2
+    ],
+    "post": [
+      2,
+      10
+    ]
+  },
+  "features": [
+    "세포 전 평균",
+    "전 구간 후반 평균 - 전반 평균",
+    "전체 세포 전 평균의 중앙값",
+    "자극 시각"
+  ],
+  "response": "export 형광 dF/F; 모든 창 유한 및 전 평균 양수",
+  "baseline": "학습 자료만으로 feature 표준화; intercept 비벌점 ridge alpha=10",
+  "target_model": "baseline + 표적별 학습잔차 합/(표적별 학습수+5)",
+  "eligibility": "직접 표적 시행 제외; 세포당 유효 학습 >=20, 지원되는 유효 평가 >=3; 학습 반응 표준편차 >1e-12",
+  "metric": "학습 반응 표준편차로 나눈 제곱오차; 세포 내 평가평균 후 세포 간 평균",
+  "decision": "표적 모형 평균오차 < baseline이면 탐색적 예측 이득; 인과 판정 아님",
+  "limits": [
+    "독립 동물 holdout 아님",
+    "원 export 전처리의 전체 시계열 사용 가능성 미해결",
+    "시간·상태는 제한된 공변량이며 모든 공통 입력을 제거하지 않음",
+    "event_local은 결과를 본 기존 규칙의 수정; 새 독립 사전등록 아님"
+  ],
+  "claim_ceiling": "BIO_EVIDENCE_L1; prospective deployment and causal edge unestablished"
+}

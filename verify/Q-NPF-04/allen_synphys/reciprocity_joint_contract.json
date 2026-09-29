@@ -1,0 +1,15 @@
+{
+  "timing": "post-result sensitivity; not new independent confirmation",
+  "condition": "per-experiment assessed mask, per-cell in/out degrees, and counts of positive edges in ordered nonsynaptic class x distance-bin categories simultaneously",
+  "distance_bins": "same fixed0/50/100/200um boundaries plus missing; no retuning",
+  "method": "filter every exact degree-constrained graph by observed category counts; uniform over retained graphs; observed graph must be retained",
+  "summary": "species observed/expected, variability support, slice-summed residual and leave-one-nonzero-slice-out total; no p-values or resampling inference",
+  "limits": "conditions may fix away biological structure; coarse/missing covariates, author-label selection, unknown detection bias; whole brain unestablished",
+  "source_hashes": {
+    "reciprocity_fixed_degrees_result.json": "b4a404d247ff4b14ee03b7b8ed2856c5e1fa5da21bb02c574072736fcc81e589",
+    "reciprocal_dyads.csv": "92675aaf6fc7e032fc262cc7666998cb8009ce54e6422146d40d00ff6ae28700",
+    "synphys_r2.1_small.sqlite": "7372499fdd874f057565080d5769baaf2659ef39d9f3bc3c7147dd1e1c280a53",
+    "reciprocity_stratified_reference.py": "c7cca3582885c0d658e9d57a6013667d51633ce7e924f1ca6a40baf36c9fd7a2"
+  },
+  "code_sha256": "0148b14fece13723f7ec52e7316674b820c7494e9570957f1ca83f67c67a01a3"
+}

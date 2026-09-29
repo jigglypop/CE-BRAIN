@@ -1,0 +1,24 @@
+{
+  "author_tree": "d1922d16913b50bf6338ff4e0c2953cb8ef43d15",
+  "tree_complete": true,
+  "tree_sha256": "1e0956f0c97f21a3357c6433c5409229bd8ab8bb02f7a7daadd3a66692cde699",
+  "source_files": [
+    {
+      "path": "data/external/xie_icms_plasticity_2025/code/processing/dataloader.py",
+      "git_blob": "46d50ced3cb6a1d9d7aaca04689440573ae472fb",
+      "sha256": "b5ec79011647a519ce1e9c2d0b9f218955b3a1709538f518fdc9a9e3697deea3"
+    },
+    {
+      "path": "data/external/xie_icms_plasticity_2025/code/processing/imaging/volumetric/NeuroAnalysis_BehavioralParametricSweepBlockExtractTest.m",
+      "git_blob": "3ee67173bf6ef3a5529c3a2d0af79312b65bb27b",
+      "sha256": "641fe5f1ec2693d83e6b086535644b6729416f8abb923d286197b45958322388"
+    },
+    {
+      "path": "data/external/xie_icms_plasticity_2025/code/processing/preprocessing/icms_pipeline.py",
+      "git_blob": "253e7fbf3be21550df61b12b622a62debb7e87e4",
+      "sha256": "937c1849e3912ece10c55bd064701ba3029ab08de94d83e31c7385615885a2f2"
+    }
+  ],
+  "converter_filename_candidates": [],
+  "limits": "Filename search is not proof no conversion code exists elsewhere. Matched published analysis sources are not proven execution provenance of the NWB."
+}

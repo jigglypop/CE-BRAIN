@@ -1,0 +1,1436 @@
+{
+  "contract_sha256": "106c1c520f912aa74f89e41310be0e6a878c503358baeb48ee53c967a4a98d0e",
+  "records": [
+    {
+      "sweep": 0,
+      "rate_hz": 100000.0,
+      "events": [
+        {
+          "pulse": 1,
+          "onset_s": 3.0560199,
+          "post": {
+            "baseline_mean": -0.5535713945135562,
+            "baseline_sd": 2.981795167467636,
+            "response_minus_baseline": 0.22648808434221968,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -38.900891470100305,
+            "baseline_sd": 3.2913054646245943,
+            "response_minus_baseline": -168.09909778455568,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 2,
+          "onset_s": 3.1060199,
+          "post": {
+            "baseline_mean": -0.8214285208031872,
+            "baseline_sd": 2.954345291415784,
+            "response_minus_baseline": 0.6110118732560617,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -40.216069379600796,
+            "baseline_sd": 3.3728762849594114,
+            "response_minus_baseline": -166.20266997910298,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 3,
+          "onset_s": 3.1560199,
+          "post": {
+            "baseline_mean": -2.342857015308052,
+            "baseline_sd": 3.2036309852535787,
+            "response_minus_baseline": -0.02797619331625249,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -39.06606985558356,
+            "baseline_sd": 3.460633286583711,
+            "response_minus_baseline": -165.93600345246583,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 4,
+          "onset_s": 3.2060199,
+          "post": {
+            "baseline_mean": -1.369642778100873,
+            "baseline_sd": 2.980998884569374,
+            "response_minus_baseline": 0.8779761404195817,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -39.43571267310243,
+            "baseline_sd": 3.4438558831817345,
+            "response_minus_baseline": -169.7121934939507,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 5,
+          "onset_s": 3.2560199,
+          "post": {
+            "baseline_mean": -1.9276784641010425,
+            "baseline_sd": 3.0574872860480116,
+            "response_minus_baseline": 1.50892849398715,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -40.86160484880132,
+            "baseline_sd": 3.313145241233144,
+            "response_minus_baseline": -726.467520706522,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 6,
+          "onset_s": 3.3060199,
+          "post": {
+            "baseline_mean": -1.3883927775150549,
+            "baseline_sd": 3.1263101647604827,
+            "response_minus_baseline": -1.4053570646942453,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -44.99553218300841,
+            "baseline_sd": 3.8273972233390694,
+            "response_minus_baseline": -162.12737389041095,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 7,
+          "onset_s": 3.3560199,
+          "post": {
+            "baseline_mean": -1.7232141929979732,
+            "baseline_sd": 3.052801005813162,
+            "response_minus_baseline": 0.18363094727619203,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -40.95535489202326,
+            "baseline_sd": 3.505926892002927,
+            "response_minus_baseline": -163.05505154987145,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 8,
+          "onset_s": 3.4060199,
+          "post": {
+            "baseline_mean": -2.3071427259898964,
+            "baseline_sd": 3.0094110826319054,
+            "response_minus_baseline": 0.7779761425221516,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -41.21160466484229,
+            "baseline_sd": 3.4367971566144364,
+            "response_minus_baseline": -163.8779680325059,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 9,
+          "onset_s": 3.6575249,
+          "post": {
+            "baseline_mean": -1.5491070564563947,
+            "baseline_sd": 3.258974293603498,
+            "response_minus_baseline": 0.4699404505275954,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -39.64196253058954,
+            "baseline_sd": 3.2703063184631347,
+            "response_minus_baseline": -164.77886057633188,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 10,
+          "onset_s": 3.7075249,
+          "post": {
+            "baseline_mean": -0.7830356615998536,
+            "baseline_sd": 3.03368760347642,
+            "response_minus_baseline": 0.29345234929628494,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -38.63928435008676,
+            "baseline_sd": 3.589420427061977,
+            "response_minus_baseline": -162.67528866752141,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 11,
+          "onset_s": 3.7575249,
+          "post": {
+            "baseline_mean": -1.0892856498176018,
+            "baseline_sd": 3.215103914185989,
+            "response_minus_baseline": -0.6294642570865595,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -39.487498286364215,
+            "baseline_sd": 3.3091545865674186,
+            "response_minus_baseline": -166.38540802093175,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 12,
+          "onset_s": 3.8075249,
+          "post": {
+            "baseline_mean": -1.1482142167532317,
+            "baseline_sd": 3.173325665362079,
+            "response_minus_baseline": 0.5982142590847173,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -40.24731939582463,
+            "baseline_sd": 3.283767726103723,
+            "response_minus_baseline": -162.72767058699122,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        }
+      ],
+      "first_inward_pA": -0.22648808434221968,
+      "later_mean_inward_pA": -0.36088433420723426,
+      "later_minus_first_pA": -0.13439624986501458
+    },
+    {
+      "sweep": 1,
+      "rate_hz": 100000.0,
+      "events": [
+        {
+          "pulse": 1,
+          "onset_s": 3.0560199,
+          "post": {
+            "baseline_mean": 0.6124999829068581,
+            "baseline_sd": 3.178797504910693,
+            "response_minus_baseline": -0.039583332834568184,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -40.68124791102364,
+            "baseline_sd": 3.521403885502394,
+            "response_minus_baseline": -156.28332598863093,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 2,
+          "onset_s": 3.1060199,
+          "post": {
+            "baseline_mean": 1.2187499581752357,
+            "baseline_sd": 3.3172345215617582,
+            "response_minus_baseline": -0.3708333239042704,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -40.520533625951536,
+            "baseline_sd": 3.50966663432406,
+            "response_minus_baseline": -158.3982065002289,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 3,
+          "onset_s": 3.1560199,
+          "post": {
+            "baseline_mean": 0.8767856789363415,
+            "baseline_sd": 3.079163187858299,
+            "response_minus_baseline": 0.20029761393302822,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -39.90535523136725,
+            "baseline_sd": 3.443252553044462,
+            "response_minus_baseline": -155.7363021594947,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 4,
+          "onset_s": 3.2060199,
+          "post": {
+            "baseline_mean": 0.760714255086186,
+            "baseline_sd": 3.385152748922153,
+            "response_minus_baseline": -0.8315475789971045,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -43.88928228007141,
+            "baseline_sd": 3.276610100089827,
+            "response_minus_baseline": -155.46904130484248,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 5,
+          "onset_s": 3.2560199,
+          "post": {
+            "baseline_mean": 0.9741071110357693,
+            "baseline_sd": 2.814641790694226,
+            "response_minus_baseline": -0.29285713163930327,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -43.324103964306076,
+            "baseline_sd": 3.5380539425039133,
+            "response_minus_baseline": -156.07588598193217,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 6,
+          "onset_s": 3.3060199,
+          "post": {
+            "baseline_mean": 0.3651785631574305,
+            "baseline_sd": 2.971594106146023,
+            "response_minus_baseline": -0.2505952370371426,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -41.867854348869905,
+            "baseline_sd": 3.3073488220350353,
+            "response_minus_baseline": -156.64463595695304,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 7,
+          "onset_s": 3.3560199,
+          "post": {
+            "baseline_mean": 0.7053571216463845,
+            "baseline_sd": 3.2930211213196166,
+            "response_minus_baseline": 0.2571428399369614,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -41.313390332399955,
+            "baseline_sd": 3.343585727944753,
+            "response_minus_baseline": -156.51160023048325,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 8,
+          "onset_s": 3.4060199,
+          "post": {
+            "baseline_mean": 0.819642830877363,
+            "baseline_sd": 3.2879062508707353,
+            "response_minus_baseline": 0.015773805430371164,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -40.64106920896599,
+            "baseline_sd": 3.20117166372402,
+            "response_minus_baseline": -158.79850432476053,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 9,
+          "onset_s": 3.6575249,
+          "post": {
+            "baseline_mean": -0.07499997858324073,
+            "baseline_sd": 3.1315929080653726,
+            "response_minus_baseline": 0.8083332942838397,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -42.48392563329088,
+            "baseline_sd": 3.2749319802648613,
+            "response_minus_baseline": -155.44523144325487,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 10,
+          "onset_s": 3.7075249,
+          "post": {
+            "baseline_mean": 1.122321384577489,
+            "baseline_sd": 3.031989564736489,
+            "response_minus_baseline": -0.5744047236764681,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -38.31874888231238,
+            "baseline_sd": 3.1931601270047967,
+            "response_minus_baseline": -157.92082484221996,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 11,
+          "onset_s": 3.7575249,
+          "post": {
+            "baseline_mean": 0.12589286038639178,
+            "baseline_sd": 2.9663850717277596,
+            "response_minus_baseline": -0.08630953277432579,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -40.93214059277782,
+            "baseline_sd": 3.398802504573465,
+            "response_minus_baseline": -154.89909985091543,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        },
+        {
+          "pulse": 12,
+          "onset_s": 3.8075249,
+          "post": {
+            "baseline_mean": 0.5803571267439325,
+            "baseline_sd": 3.201947905338101,
+            "response_minus_baseline": -2.032440376788989,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -41.677675898091735,
+            "baseline_sd": 3.5474470216732135,
+            "response_minus_baseline": -153.93689800695716,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 60.00000284984708
+          }
+        }
+      ],
+      "first_inward_pA": 0.039583332834568184,
+      "later_mean_inward_pA": 0.18180271603963716,
+      "later_minus_first_pA": 0.14221938320506897
+    },
+    {
+      "sweep": 2,
+      "rate_hz": 100000.0,
+      "events": [
+        {
+          "pulse": 1,
+          "onset_s": 3.0560199,
+          "post": {
+            "baseline_mean": 2.026785633469412,
+            "baseline_sd": 2.9448723003777695,
+            "response_minus_baseline": 0.7815475821487439,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -39.17231992055382,
+            "baseline_sd": 3.3512200455478185,
+            "response_minus_baseline": -329.92140744576625,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 2,
+          "onset_s": 3.1060199,
+          "post": {
+            "baseline_mean": 2.759821324901079,
+            "baseline_sd": 3.3521070001739894,
+            "response_minus_baseline": -1.9702380141936155,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -46.36160327097288,
+            "baseline_sd": 3.3734019709796312,
+            "response_minus_baseline": -332.1654563737342,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 3,
+          "onset_s": 3.1560199,
+          "post": {
+            "baseline_mean": 3.0401784494377724,
+            "baseline_sd": 3.282980470827734,
+            "response_minus_baseline": 0.3494047511421652,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -46.84642470578142,
+            "baseline_sd": 3.4122067156533626,
+            "response_minus_baseline": -334.72230250896575,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 4,
+          "onset_s": 3.2060199,
+          "post": {
+            "baseline_mean": 2.7526784531410504,
+            "baseline_sd": 3.126123514647307,
+            "response_minus_baseline": 1.009821392349873,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -44.2687464525533,
+            "baseline_sd": 3.2641143618941513,
+            "response_minus_baseline": -329.5166485789391,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 5,
+          "onset_s": 3.2560199,
+          "post": {
+            "baseline_mean": 2.930357026754736,
+            "baseline_sd": 3.033123239997632,
+            "response_minus_baseline": 0.3175595172613504,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -43.839282427409536,
+            "baseline_sd": 3.767940720657258,
+            "response_minus_baseline": -330.2856961395098,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 6,
+          "onset_s": 3.3060199,
+          "post": {
+            "baseline_mean": 2.8392856041670775,
+            "baseline_sd": 3.254779532067144,
+            "response_minus_baseline": 0.5815475760224117,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -42.194640045501146,
+            "baseline_sd": 3.587311087493366,
+            "response_minus_baseline": -336.15533830108535,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 7,
+          "onset_s": 3.3560199,
+          "post": {
+            "baseline_mean": 3.0812498565577147,
+            "baseline_sd": 3.2391274460688093,
+            "response_minus_baseline": -0.6624999445033292,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -43.004461094816534,
+            "baseline_sd": 3.253342307387739,
+            "response_minus_baseline": -332.3121840322825,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 8,
+          "onset_s": 3.4060199,
+          "post": {
+            "baseline_mean": 3.7544641188054935,
+            "baseline_sd": 3.2115655458630137,
+            "response_minus_baseline": 0.514285713933719,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -42.06606867738871,
+            "baseline_sd": 3.6538689768552515,
+            "response_minus_baseline": -331.93182706533133,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 9,
+          "onset_s": 3.6575249,
+          "post": {
+            "baseline_mean": 2.9803570251925544,
+            "baseline_sd": 3.200385980527406,
+            "response_minus_baseline": -0.10119048208720166,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -37.995534510696515,
+            "baseline_sd": 3.6239954772426133,
+            "response_minus_baseline": -342.71277654944834,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 10,
+          "onset_s": 3.7075249,
+          "post": {
+            "baseline_mean": 2.445535615958364,
+            "baseline_sd": 2.959707379092824,
+            "response_minus_baseline": -1.9642856234444444,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -39.073212788991825,
+            "baseline_sd": 3.3951760418726056,
+            "response_minus_baseline": -337.628848592337,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 11,
+          "onset_s": 3.7575249,
+          "post": {
+            "baseline_mean": 2.9794641660096763,
+            "baseline_sd": 3.351525721735662,
+            "response_minus_baseline": 0.7830356834548903,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -39.068748448799695,
+            "baseline_sd": 3.2920455193802454,
+            "response_minus_baseline": -337.2583137478296,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 12,
+          "onset_s": 3.8075249,
+          "post": {
+            "baseline_mean": 2.3464284818418837,
+            "baseline_sd": 3.0481383104657334,
+            "response_minus_baseline": -0.2839285600193431,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -39.561605404402194,
+            "baseline_sd": 3.3971316460030776,
+            "response_minus_baseline": -337.8800404262826,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        }
+      ],
+      "first_inward_pA": -0.7815475821487439,
+      "later_mean_inward_pA": -0.01998299885893921,
+      "later_minus_first_pA": 0.7615645832898047
+    },
+    {
+      "sweep": 3,
+      "rate_hz": 100000.0,
+      "events": [
+        {
+          "pulse": 1,
+          "onset_s": 3.0560199,
+          "post": {
+            "baseline_mean": 2.5196427557946057,
+            "baseline_sd": 2.8963981694739256,
+            "response_minus_baseline": 0.9803571058450602,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -41.53749748526075,
+            "baseline_sd": 3.3315542168956624,
+            "response_minus_baseline": -330.85622803681855,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 2,
+          "onset_s": 3.1060199,
+          "post": {
+            "baseline_mean": 3.2258927209563604,
+            "baseline_sd": 3.0806456928205566,
+            "response_minus_baseline": -0.163392847634424,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -46.99821044670846,
+            "baseline_sd": 3.471245842402657,
+            "response_minus_baseline": -326.32260064295536,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 3,
+          "onset_s": 3.1560199,
+          "post": {
+            "baseline_mean": -2.2732141637227428,
+            "baseline_sd": 3.175118850868584,
+            "response_minus_baseline": 4.087797429008621,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -45.20981771115259,
+            "baseline_sd": 3.2771956612331454,
+            "response_minus_baseline": -330.3901606464224,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 4,
+          "onset_s": 3.2060199,
+          "post": {
+            "baseline_mean": 2.194642770206263,
+            "baseline_sd": 3.3158597246944934,
+            "response_minus_baseline": 1.376190422099513,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -44.98838916785664,
+            "baseline_sd": 3.228703525084691,
+            "response_minus_baseline": -327.30533950810525,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 5,
+          "onset_s": 3.2560199,
+          "post": {
+            "baseline_mean": 4.284821248473999,
+            "baseline_sd": 3.3931740613657793,
+            "response_minus_baseline": 0.01726190157078181,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -45.79999624752551,
+            "baseline_sd": 3.436047863046609,
+            "response_minus_baseline": -326.61873303828844,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 6,
+          "onset_s": 3.3060199,
+          "post": {
+            "baseline_mean": 3.58124986017968,
+            "baseline_sd": 3.2967083583058185,
+            "response_minus_baseline": -0.19791667944298308,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -49.13481745568809,
+            "baseline_sd": 3.7964111289876894,
+            "response_minus_baseline": -324.2068280862037,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 7,
+          "onset_s": 3.3560199,
+          "post": {
+            "baseline_mean": 3.7839284198992527,
+            "baseline_sd": 3.3076898840773055,
+            "response_minus_baseline": 0.7639880617018309,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -40.69999782648042,
+            "baseline_sd": 3.293315654641485,
+            "response_minus_baseline": -331.7291482276838,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 8,
+          "onset_s": 3.4060199,
+          "post": {
+            "baseline_mean": 3.299107005526601,
+            "baseline_sd": 3.217789985508439,
+            "response_minus_baseline": 0.7988095116485594,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -42.93035403944858,
+            "baseline_sd": 3.474403688288476,
+            "response_minus_baseline": -334.1758755328109,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 9,
+          "onset_s": 3.6575249,
+          "post": {
+            "baseline_mean": 4.389285538539238,
+            "baseline_sd": 3.4091880063256577,
+            "response_minus_baseline": 0.535714263762228,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -37.89285608954134,
+            "baseline_sd": 3.1852598901298177,
+            "response_minus_baseline": -333.74462238559227,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 10,
+          "onset_s": 3.7075249,
+          "post": {
+            "baseline_mean": 4.063392692916524,
+            "baseline_sd": 3.3565132795688295,
+            "response_minus_baseline": 0.2532737951716906,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -42.07856870186181,
+            "baseline_sd": 3.4971065933194887,
+            "response_minus_baseline": -331.24224340505464,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 11,
+          "onset_s": 3.7575249,
+          "post": {
+            "baseline_mean": 3.666964129883961,
+            "baseline_sd": 3.0560831886637487,
+            "response_minus_baseline": -0.2232142568933317,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -42.72321127850086,
+            "baseline_sd": 3.3376487578462086,
+            "response_minus_baseline": -330.60593517896825,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 12,
+          "onset_s": 3.8075249,
+          "post": {
+            "baseline_mean": 4.433928379836204,
+            "baseline_sd": 2.9676243928741552,
+            "response_minus_baseline": 0.6931547474411888,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -41.59464023863349,
+            "baseline_sd": 3.4130732444076197,
+            "response_minus_baseline": -330.7886719737543,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        }
+      ],
+      "first_inward_pA": -0.9803571058450602,
+      "later_mean_inward_pA": -0.9546768284216999,
+      "later_minus_first_pA": 0.02568027742336032
+    },
+    {
+      "sweep": 4,
+      "rate_hz": 100000.0,
+      "events": [
+        {
+          "pulse": 1,
+          "onset_s": 3.0560199,
+          "post": {
+            "baseline_mean": -1.4053570720171016,
+            "baseline_sd": 3.184850696715955,
+            "response_minus_baseline": 3.3720236585050536,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -37.78035607636694,
+            "baseline_sd": 3.3749286704313466,
+            "response_minus_baseline": -330.0987881649236,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 2,
+          "onset_s": 3.1060199,
+          "post": {
+            "baseline_mean": 0.537499987464018,
+            "baseline_sd": 3.213764199088943,
+            "response_minus_baseline": -0.070833321072602,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -47.79821041081442,
+            "baseline_sd": 3.936198035358338,
+            "response_minus_baseline": -325.1621843187987,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 3,
+          "onset_s": 3.1560199,
+          "post": {
+            "baseline_mean": 3.812499841544556,
+            "baseline_sd": 3.2316617221228974,
+            "response_minus_baseline": -0.572916644736256,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -43.11785395423108,
+            "baseline_sd": 3.468761677991231,
+            "response_minus_baseline": -328.86754057582743,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 4,
+          "onset_s": 3.2060199,
+          "post": {
+            "baseline_mean": 4.0107141322569815,
+            "baseline_sd": 2.9305762944775013,
+            "response_minus_baseline": 0.5809523356588999,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -41.19464049908626,
+            "baseline_sd": 3.4689703822529045,
+            "response_minus_baseline": -332.7053377635563,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 5,
+          "onset_s": 3.2560199,
+          "post": {
+            "baseline_mean": -0.6839285279942706,
+            "baseline_sd": 3.259581960683455,
+            "response_minus_baseline": 0.3172618786873035,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -40.92321189876965,
+            "baseline_sd": 3.3803377563875943,
+            "response_minus_baseline": -335.70801696331097,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 6,
+          "onset_s": 3.3060199,
+          "post": {
+            "baseline_mean": 3.707142706090658,
+            "baseline_sd": 3.2745217627791727,
+            "response_minus_baseline": 0.022023815736869335,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -39.43839121727246,
+            "baseline_sd": 3.1742355885850286,
+            "response_minus_baseline": -335.086587144598,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 7,
+          "onset_s": 3.3560199,
+          "post": {
+            "baseline_mean": 4.129464089037436,
+            "baseline_sd": 3.1676520045216923,
+            "response_minus_baseline": -0.16279758643766976,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -38.84732009078904,
+            "baseline_sd": 3.292477567173659,
+            "response_minus_baseline": -334.44015908982834,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 8,
+          "onset_s": 3.4060199,
+          "post": {
+            "baseline_mean": 4.48928553269009,
+            "baseline_sd": 3.3126341490593543,
+            "response_minus_baseline": -2.7309522743320045,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -41.896425796400656,
+            "baseline_sd": 3.3378545336842356,
+            "response_minus_baseline": -329.9139691412582,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 9,
+          "onset_s": 3.6575249,
+          "post": {
+            "baseline_mean": 3.986606984727795,
+            "baseline_sd": 3.15084642631179,
+            "response_minus_baseline": -13.186606489010646,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -37.1955348599407,
+            "baseline_sd": 3.2157255504895104,
+            "response_minus_baseline": -333.8961103857659,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 10,
+          "onset_s": 3.7075249,
+          "post": {
+            "baseline_mean": 3.761606994312099,
+            "baseline_sd": 2.9673405673688134,
+            "response_minus_baseline": 0.348809529568307,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -38.78303430046626,
+            "baseline_sd": 3.379876480673512,
+            "response_minus_baseline": -334.6419448796017,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 11,
+          "onset_s": 3.7575249,
+          "post": {
+            "baseline_mean": 5.449999761943165,
+            "baseline_sd": 3.2016595812695035,
+            "response_minus_baseline": -0.15208332307536215,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -39.716069635003585,
+            "baseline_sd": 3.3709896912082153,
+            "response_minus_baseline": -332.68599247558404,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        },
+        {
+          "pulse": 12,
+          "onset_s": 3.8075249,
+          "post": {
+            "baseline_mean": 4.8151783805266914,
+            "baseline_sd": 3.1000599292165156,
+            "response_minus_baseline": 0.620238087196646,
+            "units": "pA"
+          },
+          "pre": {
+            "baseline_mean": -40.19821226951242,
+            "baseline_sd": 3.2215077036880437,
+            "response_minus_baseline": -331.718434295326,
+            "units": "pA"
+          },
+          "command": {
+            "baseline_mean": 0.0,
+            "baseline_sd": 0.0,
+            "response_minus_baseline": 0.0,
+            "units": "mV",
+            "pulse_peak_delta_mV": 120.00000569969416
+          }
+        }
+      ],
+      "first_inward_pA": -3.3720236585050536,
+      "later_mean_inward_pA": 0.3738945423564942,
+      "later_minus_first_pA": 3.745918200861548
+    }
+  ],
+  "new_bytes": 1769472,
+  "cached_bytes": 32163848,
+  "array_archive": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/selected_pulse_windows.npz",
+  "array_sha256": "bcfdbdba77302dd5ff64d504f959b6093c2e815e493408a83bedaad89efb1571",
+  "mean_first_inward_pA": -1.0641666196013018,
+  "mean_later_inward_pA": -0.1559693806183484
+}

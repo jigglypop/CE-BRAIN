@@ -1,0 +1,849 @@
+{
+  "contract_sha256": "82bef8982c126b5194b85713a0d4b96c60c6d88d0500ae50b2fc5f0ceaa77c5c",
+  "new_bytes": 1245184,
+  "records": [
+    {
+      "path": "/acquisition/timeseries/data_00082_AD2",
+      "sweep": 82,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5189.150000095367,
+      "command_path": "/stimulus/presentation/data_00082_DA2",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/82_2.npz",
+      "array_sha256": "81dca227d35860dd27df0b8306f7925d0507ec056070353451326b53076b8c7f",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 99.99999960041973
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -68.54999867831336,
+          -15.175000911508697
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00082_AD8",
+      "sweep": 82,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5189.150000095367,
+      "command_path": "/stimulus/presentation/data_00082_DA4",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/82_4.npz",
+      "array_sha256": "62c6eba02089d75171cd96af05fcffd406d039ece239266f8bcc47ba7ad32a92",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 99.99999960041973
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -67.93125475244022,
+          25.581250452104687
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00082_AD9",
+      "sweep": 82,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5189.150000095367,
+      "command_path": "/stimulus/presentation/data_00082_DA5",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/82_5.npz",
+      "array_sha256": "49a01719caeaf2e51409244ea1fe56332dd79a4639530c7ad467bb9c4561ecb2",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 99.99999960041973
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -67.44375167752725,
+          21.912501422257648
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00083_AD2",
+      "sweep": 83,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5192.513999938965,
+      "command_path": "/stimulus/presentation/data_00083_DA2",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/83_2.npz",
+      "array_sha256": "5a5e3125fa8eac4e2b5f8e7c789df128f88544389f6ca21cc70d19359b1961cb",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 199.99999920083945
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -68.0562547583774,
+          -4.506250118667953
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00083_AD8",
+      "sweep": 83,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5192.513999938965,
+      "command_path": "/stimulus/presentation/data_00083_DA4",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/83_4.npz",
+      "array_sha256": "86ed2804a6b7716bc6b0f82d95f2f67e924ad70df26d046129cebf30618eecd3",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 49.999999800209864
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -67.76250016678809,
+          -46.25000219675712
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00083_AD9",
+      "sweep": 83,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5192.513999938965,
+      "command_path": "/stimulus/presentation/data_00083_DA5",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/83_5.npz",
+      "array_sha256": "f1566a44b622b0b4733b1afa4da961ce3a57c3d148ed5bef72e58d8cf5ddc881",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 49.999999800209864
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -67.12500318826642,
+          -51.812502460961696
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00084_AD2",
+      "sweep": 84,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5195.828999996185,
+      "command_path": "/stimulus/presentation/data_00084_DA2",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/84_2.npz",
+      "array_sha256": "3e80b808625f2d83eec776c4987254b98557a3e084ace52e92383115e7b24df7",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 149.99999940062958
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -67.85625017124097,
+          -9.381249873380849
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00084_AD8",
+      "sweep": 84,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5195.828999996185,
+      "command_path": "/stimulus/presentation/data_00084_DA4",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/84_4.npz",
+      "array_sha256": "2fbe7b50818b75007d1c9fa9d79bd9f0975ea51d3f923df0ef5ae48c621239d3",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 59.99999976025183
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -67.50625168049584,
+          23.462500732939205
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00084_AD9",
+      "sweep": 84,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5195.828999996185,
+      "command_path": "/stimulus/presentation/data_00084_DA5",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/84_5.npz",
+      "array_sha256": "b85e205cd0e712872d669120e00b1ace07407d7dc10d161780bfe0519c48f044",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 59.99999976025183
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -66.81875164784134,
+          -49.25625081366736
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00085_AD2",
+      "sweep": 85,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5199.176000118256,
+      "command_path": "/stimulus/presentation/data_00085_DA2",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/85_2.npz",
+      "array_sha256": "9b2898e1dd717fc25a440ec3e2879078e0d021e025f5242dd2b3f008bf06d2b9",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 99.99999960041973
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -67.48749862784732,
+          -14.406250684260158
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00085_AD8",
+      "sweep": 85,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5199.176000118256,
+      "command_path": "/stimulus/presentation/data_00085_DA4",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/85_4.npz",
+      "array_sha256": "92b657371f5d93477200b69d91b2b625a6bd41bed38599838129d90508f255e2",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -68.03750170572886,
+          -66.57500011038486
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00085_AD9",
+      "sweep": 85,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5199.176000118256,
+      "command_path": "/stimulus/presentation/data_00085_DA5",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/85_5.npz",
+      "array_sha256": "60be32b32d64c69470988b402a73f9f27d6148d5cd8a6fca7cd486895b421ced",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 69.9999997202938
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -67.23125014155507,
+          -44.2437498126469
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00086_AD2",
+      "sweep": 86,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5202.571000099182,
+      "command_path": "/stimulus/presentation/data_00086_DA2",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/86_2.npz",
+      "array_sha256": "277e7a8e425222dba635f28799e71d9806d16826761115cf101046db15791f2e",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 109.99999956046169
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -67.38125167455865,
+          -13.518750832841043
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00086_AD8",
+      "sweep": 86,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5202.571000099182,
+      "command_path": "/stimulus/presentation/data_00086_DA4",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/86_4.npz",
+      "array_sha256": "375fbb9a24e595ff40384541e4b96b95f31e24ae868f23984e3b27d08f9979c4",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -67.74375474353445,
+          -66.2062485669912
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00086_AD9",
+      "sweep": 86,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5202.571000099182,
+      "command_path": "/stimulus/presentation/data_00086_DA5",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/86_5.npz",
+      "array_sha256": "d5e1939e23d8a72f63f7ba436cb4943e515a86f4bdf4ae1451979927fbbb9790",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 79.99999968033578
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -66.2937500970262,
+          -38.143751048791415
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00087_AD2",
+      "sweep": 87,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5205.959000110626,
+      "command_path": "/stimulus/presentation/data_00087_DA2",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/87_2.npz",
+      "array_sha256": "0dd2fe7c7f2d3720c05af9798c6b194cf1aa4d668cc8c29beae6e9281b8ac4ca",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 119.99999952050366
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -66.90625317787635,
+          -11.80625017929704
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00087_AD8",
+      "sweep": 87,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5205.959000110626,
+      "command_path": "/stimulus/presentation/data_00087_DA4",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/87_4.npz",
+      "array_sha256": "7443480ebe0c42760862183c29893652da6920dffa606a62cc8afc48f5dcdca4",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -67.5499986308159,
+          -65.98125008218325
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00087_AD9",
+      "sweep": 87,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5205.959000110626,
+      "command_path": "/stimulus/presentation/data_00087_DA5",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/87_5.npz",
+      "array_sha256": "a2d0189d30cc8dd215c7c42ae4699e4f41f15068dacfda7309d74b19b22ea56a",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 89.99999964037775
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -64.7125045995578,
+          21.475001401477513
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00088_AD2",
+      "sweep": 88,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5209.4130001068115,
+      "command_path": "/stimulus/presentation/data_00088_DA2",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/88_2.npz",
+      "array_sha256": "db52b48305a0a0868583143e0c13de2892627220d6749774e6d9054e3fdd37b4",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 129.99999948054563
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -66.73749859222423,
+          -11.568749977281524
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00088_AD8",
+      "sweep": 88,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5209.4130001068115,
+      "command_path": "/stimulus/presentation/data_00088_DA4",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/88_4.npz",
+      "array_sha256": "9ca2f61073b938b684250f2746dc1f4376e1c309689cca288db117c868be1a12",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -67.60625015936661,
+          -65.45000005695023
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00088_AD9",
+      "sweep": 88,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5209.4130001068115,
+      "command_path": "/stimulus/presentation/data_00088_DA5",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/88_5.npz",
+      "array_sha256": "2ee4474e9f12c526a090911e199c28bdc17dcf5b28b4d78b1b68eac68bb1793d",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -67.41875015046084,
+          -65.75000312295742
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00089_AD2",
+      "sweep": 89,
+      "electrode": "electrode_2",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5212.834000110626,
+      "command_path": "/stimulus/presentation/data_00089_DA2",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/89_2.npz",
+      "array_sha256": "7c76c150627150c19422c4481310f097f660777b0c3863aba60e54d124992fdb",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.05,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.05,
+            "end_s": 1.05,
+            "current_pA": 139.9999994405876
+          },
+          {
+            "start_s": 1.05,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -67.10625013561788,
+          -9.918750280380472
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00089_AD8",
+      "sweep": 89,
+      "electrode": "electrode_4",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5212.834000110626,
+      "command_path": "/stimulus/presentation/data_00089_DA4",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/89_4.npz",
+      "array_sha256": "935ea460f56730f7c9e955efe42815ae599dab83a8c11e56953f4b06dac10a61",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -67.48125015342943,
+          -66.41875010296339
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00089_AD9",
+      "sweep": 89,
+      "electrode": "electrode_5",
+      "stimulus": "Y10_LP_FastRheo_DA_0",
+      "unit": "V",
+      "samples": 115000,
+      "rate": 100000.0,
+      "start_s": 5212.834000110626,
+      "command_path": "/stimulus/presentation/data_00089_DA5",
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/same_cell_long_pulse/89_5.npz",
+      "array_sha256": "d3efb80a449f9d29882e646cc1689400e8ab820925131ec1e7e1a27217596509",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 1.15,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -65.48125005843453,
+          -63.087500707676995
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 115000
+      }
+    }
+  ],
+  "status": "PASS_ARRAY_BINDING_AND_COMMAND_INVENTORY_NOT_CELL_STABILITY_OR_QC"
+}

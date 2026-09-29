@@ -1,0 +1,1867 @@
+{
+  "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26",
+  "failed": 0,
+  "comparison": {
+    "observed_mutual": 221,
+    "observed_fit_mean": 168.98082551561845,
+    "observed_residual": 52.01917448438155,
+    "generated_mean_mutual": 134.171875,
+    "generated_mean_fit_mean": 131.9239149017725,
+    "generated_residual_mean": 2.247960098227489,
+    "generated_residual_range": [
+      -16.073173512189243,
+      28.48432954100332
+    ],
+    "generated_residual_sd": 10.46457586415428,
+    "generated_residual_mc_se": 1.308071983019285,
+    "raw_gap": 86.828125,
+    "fit_mean_gap": 37.05691061384596,
+    "residual_gap": 49.771214386154064,
+    "max_margin_error": 7.524260581703857e-06
+  },
+  "records": [
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 84,
+          "max_absolute_margin_error": 5.049196056461369e-05,
+          "max_abs_parameter": 4.310582579074994,
+          "objective": 20198.943929147303,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          5.049196056461369e-05,
+          3.307265572516371e-11
+        ],
+        "max_absolute_margin_error": 3.307265572516371e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 3.307265572516371e-11,
+      "mutual": 118,
+      "fit_mean": 118.10008102518549,
+      "residual": -0.10008102518548867,
+      "fitted_sha256": "16f51e0b5985d3b3a35be6514327f03d84d3b2d526e6f0935f02ccec38866d5c",
+      "index": 0,
+      "input_sha256": "1876395ac8361dc5187bce06a71461138e7d11523515b151ce784b725239a95a",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 95,
+          "max_absolute_margin_error": 5.332320210982289e-05,
+          "max_abs_parameter": 4.995124030461393,
+          "objective": 20263.765954629023,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          5.332320210982289e-05,
+          1.3642420526593924e-11
+        ],
+        "max_absolute_margin_error": 1.3642420526593924e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 1.3642420526593924e-11,
+      "mutual": 132,
+      "fit_mean": 120.10928379658527,
+      "residual": 11.890716203414726,
+      "fitted_sha256": "2dc9336b4f0d677d2f003537682843af7a6645320651ce365713b81bd0be806d",
+      "index": 1,
+      "input_sha256": "658f40cb713dd14fc385781d4ce8ffeb1946d46655454bb463910fd847fa76cb",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 76,
+          "max_absolute_margin_error": 0.00012864532027379028,
+          "max_abs_parameter": 4.3172811099225905,
+          "objective": 20771.38665426556,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          0.00012864532027379028,
+          2.0759216567967087e-10
+        ],
+        "max_absolute_margin_error": 2.0759216567967087e-10,
+        "gate_pass": true
+      },
+      "checked_margin_error": 2.0759216567967087e-10,
+      "mutual": 138,
+      "fit_mean": 138.3224421734078,
+      "residual": -0.3224421734078078,
+      "fitted_sha256": "32dec40453d02b66c9ebe89985c9a8eb92c1df14ff5f58bce68527895aeceac0",
+      "index": 2,
+      "input_sha256": "27c5c0c89f53436b2a4173193cd5bccb74767e8e92de4e91f47f53e1990c58b5",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 102,
+          "max_absolute_margin_error": 0.00011824041166619281,
+          "max_abs_parameter": 4.401719081315711,
+          "objective": 19887.89412455639,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          0.00011824041166619281,
+          3.4788172342814505e-11
+        ],
+        "max_absolute_margin_error": 3.4788172342814505e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 3.4788172342814505e-11,
+      "mutual": 129,
+      "fit_mean": 118.49616273811722,
+      "residual": 10.50383726188278,
+      "fitted_sha256": "ed68a3e4fb44ae48f30e651de3ab45e35fa3f651c26e5bb63458c01319243a6b",
+      "index": 3,
+      "input_sha256": "24e5be511f0d13d0ae87bf8e4fa4623164285b00912ab2dedd39a3f21b6fe707",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 116,
+          "max_absolute_margin_error": 5.2399408787096036e-05,
+          "max_abs_parameter": 4.987377402019912,
+          "objective": 20424.627060772866,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          5.2399408787096036e-05,
+          3.774403012357652e-11
+        ],
+        "max_absolute_margin_error": 3.774403012357652e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 3.774403012357652e-11,
+      "mutual": 140,
+      "fit_mean": 132.10203768387984,
+      "residual": 7.897962316120157,
+      "fitted_sha256": "fa76f5551adf2b385d46e13d895a9f95c45047093ff38f1da98f11c47a971bf4",
+      "index": 4,
+      "input_sha256": "dd1132530a2754eadf7d8d6304314b1845e9342132351b8ee7939d275f05057e",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 107,
+          "max_absolute_margin_error": 0.00012237432997608266,
+          "max_abs_parameter": 4.19948955599385,
+          "objective": 20216.460558762374,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          0.00012237432997608266,
+          3.3651303965598345e-11
+        ],
+        "max_absolute_margin_error": 3.3651303965598345e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 3.3651303965598345e-11,
+      "mutual": 132,
+      "fit_mean": 131.10783601783584,
+      "residual": 0.8921639821641634,
+      "fitted_sha256": "1163b14a51d513eed58eeeab7667ebc5e02f356d02a633391608c8b20355c507",
+      "index": 5,
+      "input_sha256": "7415b9a8e3e2982b416ddb9a6c15d4b1a7e40490d8045372ff6c7cb9534ae125",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 130,
+          "max_absolute_margin_error": 8.146053869495518e-05,
+          "max_abs_parameter": 4.495125153211849,
+          "objective": 20539.055109576526,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          8.146053869495518e-05,
+          1.0459189070388675e-10
+        ],
+        "max_absolute_margin_error": 1.0459189070388675e-10,
+        "gate_pass": true
+      },
+      "checked_margin_error": 1.0459189070388675e-10,
+      "mutual": 134,
+      "fit_mean": 139.78676551200124,
+      "residual": -5.786765512001239,
+      "fitted_sha256": "b5e72278546cbffe46ce22d0f93c5d88476f083d04d2f131fa719ed3c353bcc1",
+      "index": 6,
+      "input_sha256": "eb9b6e044a6ed1a3c4e20ed25d3f12cc94fd8efb75a7965364542a7a8ec77370",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 90,
+          "max_absolute_margin_error": 1.1874621577590005e-05,
+          "max_abs_parameter": 4.7455203766717755,
+          "objective": 20822.40012612173,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          1.1874621577590005e-05,
+          1.3642420526593924e-11
+        ],
+        "max_absolute_margin_error": 1.3642420526593924e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 1.3642420526593924e-11,
+      "mutual": 133,
+      "fit_mean": 136.52324848754495,
+      "residual": -3.5232484875449472,
+      "fitted_sha256": "ad63bc37d4f7b1cf4d6187af58d51415f799f512153f6b68c7ad81a682ff78d8",
+      "index": 7,
+      "input_sha256": "71c5cf554e76ec6f217ae02c43ea2bef77cd0e4b19d5183e060bc23ff84df9a2",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 95,
+          "max_absolute_margin_error": 2.3261596652446315e-05,
+          "max_abs_parameter": 4.279993783431457,
+          "objective": 20296.004400945647,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          2.3261596652446315e-05,
+          5.502442945726216e-11
+        ],
+        "max_absolute_margin_error": 5.502442945726216e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 5.502442945726216e-11,
+      "mutual": 131,
+      "fit_mean": 127.76364133056933,
+      "residual": 3.236358669430672,
+      "fitted_sha256": "88adaa0be146d3e8f588d3d198760a53c33804480324fe6072b5c83282df54fb",
+      "index": 8,
+      "input_sha256": "bc3c60a7b1cf29a8ae529e199d2a1beb8e17d178187803491e59be8a562cfbe5",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 126,
+          "max_absolute_margin_error": 9.024257929013402e-05,
+          "max_abs_parameter": 4.5474792221608125,
+          "objective": 20382.553389524503,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          9.024257929013402e-05,
+          1.0913936421275139e-11
+        ],
+        "max_absolute_margin_error": 1.0913936421275139e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 1.0913936421275139e-11,
+      "mutual": 137,
+      "fit_mean": 129.1540093284144,
+      "residual": 7.845990671585611,
+      "fitted_sha256": "7d614a4c26b72d7bb2f95cb062b1fb54fa3856e8f086377e223dd49dd14ea771",
+      "index": 9,
+      "input_sha256": "b0e8165d2061d197395a054f6c50ef16217ba955de348b714f860314286bcfe8",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 99,
+          "max_absolute_margin_error": 5.388132285588654e-05,
+          "max_abs_parameter": 4.095804656075376,
+          "objective": 20559.612346481998,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          5.388132285588654e-05,
+          1.1141310096718371e-10
+        ],
+        "max_absolute_margin_error": 1.1141310096718371e-10,
+        "gate_pass": true
+      },
+      "checked_margin_error": 1.1141310096718371e-10,
+      "mutual": 142,
+      "fit_mean": 134.85923100985914,
+      "residual": 7.140768990140856,
+      "fitted_sha256": "af03aa513c9665f6dfd3c5958074bc667c8eaafbd7b0d4e7bac88e061a4b24de",
+      "index": 10,
+      "input_sha256": "40e5343a325fc2534521152ece77b17bf71d621675062b20f55e408de6aef979",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 76,
+          "max_absolute_margin_error": 0.00026141805210500024,
+          "max_abs_parameter": 4.348455899521777,
+          "objective": 21247.87157961433,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          0.00026141805210500024,
+          3.9835867937654257e-10
+        ],
+        "max_absolute_margin_error": 3.9835867937654257e-10,
+        "gate_pass": true
+      },
+      "checked_margin_error": 3.9835867937654257e-10,
+      "mutual": 138,
+      "fit_mean": 144.2479978820137,
+      "residual": -6.247997882013692,
+      "fitted_sha256": "ba919adbecec1aef414a641678351d7c89d7ee273a9a48250497f181807840ee",
+      "index": 11,
+      "input_sha256": "4a4c8aada99e17eae6ca349d2998a8e30c30663e6dea80792e901c688ce8a877",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 102,
+          "max_absolute_margin_error": 2.560833604547952e-05,
+          "max_abs_parameter": 4.401681194937454,
+          "objective": 19998.11331449523,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          2.560833604547952e-05,
+          4.6838977141305804e-11
+        ],
+        "max_absolute_margin_error": 4.6838977141305804e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 4.6838977141305804e-11,
+      "mutual": 114,
+      "fit_mean": 119.06680040069128,
+      "residual": -5.066800400691278,
+      "fitted_sha256": "f29678e86664fe0ef7e66db8e3518176b9ac1d676ba23f961b6da12abdff13ab",
+      "index": 12,
+      "input_sha256": "00c152f63673d58457ab841e0de5af801d25c1f24b00966194041e5bf8aaa92f",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 87,
+          "max_absolute_margin_error": 3.280709302089235e-05,
+          "max_abs_parameter": 4.266920445875596,
+          "objective": 21183.01273050534,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          3.280709302089235e-05,
+          3.0468072509393096e-11
+        ],
+        "max_absolute_margin_error": 3.0468072509393096e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 3.0468072509393096e-11,
+      "mutual": 151,
+      "fit_mean": 140.4675366044884,
+      "residual": 10.532463395511598,
+      "fitted_sha256": "35d3ed40efb2b84614ae1ad19710e44cf3198527688fb545f29741a8acf47e67",
+      "index": 13,
+      "input_sha256": "ed95df36d9ceff72d5169242bc67e87f3858a9b2a68f8e85c0bcd45103afcadc",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 108,
+          "max_absolute_margin_error": 5.888300256629009e-05,
+          "max_abs_parameter": 4.039983845715652,
+          "objective": 20227.979751504157,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          5.888300256629009e-05,
+          4.3655745685100555e-11
+        ],
+        "max_absolute_margin_error": 4.3655745685100555e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 4.3655745685100555e-11,
+      "mutual": 114,
+      "fit_mean": 129.8200033644195,
+      "residual": -15.820003364419506,
+      "fitted_sha256": "f29f15d06c6524a7117f4f60d48308835c2df0b2241308b1f85a443cdc936f35",
+      "index": 14,
+      "input_sha256": "e6eee53206214414f5d1538895445e118f6ca2bd9f295fea7435fe270c98752f",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 127,
+          "max_absolute_margin_error": 8.932008176998352e-05,
+          "max_abs_parameter": 4.057213739585788,
+          "objective": 21552.01887759177,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          8.932008176998352e-05,
+          8.003553375601768e-11
+        ],
+        "max_absolute_margin_error": 8.003553375601768e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 8.003553375601768e-11,
+      "mutual": 162,
+      "fit_mean": 156.67179192512134,
+      "residual": 5.32820807487866,
+      "fitted_sha256": "760586f9a15c5836815e35fb7a26e4612fbf033438d8bfa17b4fd869b715d6a6",
+      "index": 15,
+      "input_sha256": "ee1c6d228f76a212f6869fa6459c22fb082defc4c556a47e4ff025efbaf2f797",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 90,
+          "max_absolute_margin_error": 2.9947942039143527e-05,
+          "max_abs_parameter": 4.335719883274471,
+          "objective": 20447.558479431522,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          2.9947942039143527e-05,
+          4.4565240386873484e-11
+        ],
+        "max_absolute_margin_error": 4.4565240386873484e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 4.4565240386873484e-11,
+      "mutual": 144,
+      "fit_mean": 129.91065519873104,
+      "residual": 14.089344801268965,
+      "fitted_sha256": "e3922440ec2812efeb2074677c73bfd7a238749882869d24a4f19cbf14b1a1b3",
+      "index": 16,
+      "input_sha256": "38d2d472064930211f545e3de432bf2262fd634b1e4e7575b31a6576fa3dbae3",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 101,
+          "max_absolute_margin_error": 0.00011173937991770799,
+          "max_abs_parameter": 4.236055518340884,
+          "objective": 20534.993993254186,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          0.00011173937991770799,
+          1.2486056633065346e-10
+        ],
+        "max_absolute_margin_error": 1.2486056633065346e-10,
+        "gate_pass": true
+      },
+      "checked_margin_error": 1.2486056633065346e-10,
+      "mutual": 141,
+      "fit_mean": 145.01533182964164,
+      "residual": -4.015331829641639,
+      "fitted_sha256": "9ab742dfd5720d918ed6e820864942dd39682055c2de08d851fbca2ed939f2eb",
+      "index": 17,
+      "input_sha256": "f978f472ee2d09edad4c9c9c0a8bf739790852580755499db7c72ddd3be77815",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 118,
+          "max_absolute_margin_error": 1.6689703670635936e-05,
+          "max_abs_parameter": 4.230923356074595,
+          "objective": 20243.051841943936,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          1.6689703670635936e-05,
+          2.546585164964199e-11
+        ],
+        "max_absolute_margin_error": 2.546585164964199e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 2.546585164964199e-11,
+      "mutual": 144,
+      "fit_mean": 131.49483728781954,
+      "residual": 12.505162712180464,
+      "fitted_sha256": "dad15542596de255762e120d3442b95b24e96cb4e2fb9ce453578677cd780116",
+      "index": 18,
+      "input_sha256": "44876ebed357755d0a60377728692a084549a776775cfa16833cacfb3e27187e",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "optimizer_success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 82,
+        "max_absolute_margin_error": 7.524260581703857e-06,
+        "max_abs_parameter": 4.112842936863861,
+        "objective": 20630.749162785367,
+        "gate_pass": true
+      },
+      "checked_margin_error": 7.524260581703857e-06,
+      "mutual": 145,
+      "fit_mean": 124.9980338668517,
+      "residual": 20.0019661331483,
+      "fitted_sha256": "bcc8a6b984fb6d38218b9aff08f955e19ae9a9ae57cb079045eaa4aaae4b5785",
+      "index": 19,
+      "input_sha256": "e800c947e752bc0348180b808d31b1adbf3c0e6baadb86ed0c545e3bb55b81a8",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 96,
+          "max_absolute_margin_error": 0.00014093359322941978,
+          "max_abs_parameter": 4.777111220030579,
+          "objective": 20345.011346481755,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          0.00014093359322941978,
+          5.820766091346741e-11
+        ],
+        "max_absolute_margin_error": 5.820766091346741e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 5.820766091346741e-11,
+      "mutual": 143,
+      "fit_mean": 136.11683080240962,
+      "residual": 6.883169197590377,
+      "fitted_sha256": "a8341af183ab18dfdd7b91cb00253792a127e689ae0421be01308f788fd39c42",
+      "index": 20,
+      "input_sha256": "2fb90bf33062f0e39cf67942cad80a276bfc51e35f7fe0c23beef5d3f3aca38a",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 96,
+          "max_absolute_margin_error": 7.969455282363924e-05,
+          "max_abs_parameter": 4.009920738481292,
+          "objective": 19930.159299932893,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          7.969455282363924e-05,
+          6.707523425575346e-11
+        ],
+        "max_absolute_margin_error": 6.707523425575346e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 6.707523425575346e-11,
+      "mutual": 114,
+      "fit_mean": 116.81319580498858,
+      "residual": -2.813195804988581,
+      "fitted_sha256": "d757e91a1addbf358f65849f50e89e4ba992bf7b6088607aef58bbabce52d251",
+      "index": 21,
+      "input_sha256": "51c96bf2c19820856a968acf2837f2a30629047100543fc1b61c2cb7efdcbd66",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 127,
+          "max_absolute_margin_error": 3.495618761917285e-05,
+          "max_abs_parameter": 3.699597637246733,
+          "objective": 20576.390399899552,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          3.495618761917285e-05,
+          3.0468072509393096e-11
+        ],
+        "max_absolute_margin_error": 3.0468072509393096e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 3.0468072509393096e-11,
+      "mutual": 146,
+      "fit_mean": 129.28542910582655,
+      "residual": 16.71457089417345,
+      "fitted_sha256": "c61c80a5f59d5292c3c691edd67d8fc54b334219a528bd9741306d006b8e033f",
+      "index": 22,
+      "input_sha256": "ec8c7fa4eada11a6d163e020b385668e2152d0c178909cbbda2195f030f4da2d",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 102,
+          "max_absolute_margin_error": 0.00016463714973724564,
+          "max_abs_parameter": 4.124675113623342,
+          "objective": 20496.034189836566,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          0.00016463714973724564,
+          5.581712869684452e-11
+        ],
+        "max_absolute_margin_error": 5.581712869684452e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 5.581846096447407e-11,
+      "mutual": 164,
+      "fit_mean": 135.51567045899668,
+      "residual": 28.48432954100332,
+      "fitted_sha256": "315ad4371aec1142f2e50cb3f247f6ed3621c6a459172fe9472a55d7b3cb2712",
+      "index": 23,
+      "input_sha256": "789b5045decc60df5b3f6acf951c95e3b817dd50b71de073383a9bb5e6a852ef",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 92,
+          "max_absolute_margin_error": 3.462805943854619e-05,
+          "max_abs_parameter": 3.966857800307437,
+          "objective": 19934.280188525623,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          3.462805943854619e-05,
+          2.2282620193436742e-11
+        ],
+        "max_absolute_margin_error": 2.2282620193436742e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 2.2282620193436742e-11,
+      "mutual": 136,
+      "fit_mean": 124.73165894455799,
+      "residual": 11.268341055442008,
+      "fitted_sha256": "18041d778500f7efe1db5d57e27346909b04d1e4b96de75e0ee1b92fbf42def7",
+      "index": 24,
+      "input_sha256": "0e85cefd0c61c13555f5cc33de997046dd0205f09290c29a696ee67d6535c400",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 120,
+          "max_absolute_margin_error": 8.021769781407784e-05,
+          "max_abs_parameter": 3.8832824814828153,
+          "objective": 20506.681132236634,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          8.021769781407784e-05,
+          6.184563972055912e-11
+        ],
+        "max_absolute_margin_error": 6.184563972055912e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 6.184563972055912e-11,
+      "mutual": 139,
+      "fit_mean": 133.86416651343376,
+      "residual": 5.135833486566241,
+      "fitted_sha256": "50172e64684d018ae1e964846e7e898120ea9b2d4f6e6c1be9831282ab09091b",
+      "index": 25,
+      "input_sha256": "0b9351a54113f27eee9605d2f975b629a90f6fc2d2c40336d8a07368233b37b5",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 93,
+          "max_absolute_margin_error": 2.0441382275748765e-05,
+          "max_abs_parameter": 4.558632924652136,
+          "objective": 19657.072913338023,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          2.0441382275748765e-05,
+          3.228706191293895e-11
+        ],
+        "max_absolute_margin_error": 3.228706191293895e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 3.228706191293895e-11,
+      "mutual": 140,
+      "fit_mean": 125.59397782662835,
+      "residual": 14.406022173371653,
+      "fitted_sha256": "db48c0610fbb943a46c9edc3467913612ecd61caaf4f6eca6dea58fa12c6505b",
+      "index": 26,
+      "input_sha256": "e3e0713896102f39aef43624507e78a6d9835d9b59b189bca7753e1da9511787",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 103,
+          "max_absolute_margin_error": 5.9522351421037456e-05,
+          "max_abs_parameter": 4.74551531305086,
+          "objective": 20187.14408593559,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          5.9522351421037456e-05,
+          1.0845724318642169e-10
+        ],
+        "max_absolute_margin_error": 1.0845724318642169e-10,
+        "gate_pass": true
+      },
+      "checked_margin_error": 1.0845724318642169e-10,
+      "mutual": 141,
+      "fit_mean": 123.93312794801513,
+      "residual": 17.066872051984873,
+      "fitted_sha256": "9a29337975ac827cc33abd650171727dc414eeba71282f8bd7d2cdc51ee0df07",
+      "index": 27,
+      "input_sha256": "577bc77e6c67672a149c4150cca64c8d8c5315144d6812c72a9ed72017704e31",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 117,
+          "max_absolute_margin_error": 6.892606825203984e-05,
+          "max_abs_parameter": 4.704451379997771,
+          "objective": 20838.39682281128,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          6.892606825203984e-05,
+          2.864908310584724e-11
+        ],
+        "max_absolute_margin_error": 2.864908310584724e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 2.864908310584724e-11,
+      "mutual": 145,
+      "fit_mean": 146.21452303773574,
+      "residual": -1.214523037735745,
+      "fitted_sha256": "799584331eef474a2db5e3bfb54b7e62140fdc2436ed6a15a74b7f3c505701f5",
+      "index": 28,
+      "input_sha256": "a855c8b4892284a468b9f408e5533ab476512e7c790198bcc12d0cde261ec75b",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 102,
+          "max_absolute_margin_error": 0.0003034200558431621,
+          "max_abs_parameter": 4.476298003399468,
+          "objective": 20493.839368409408,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          0.0003034200558431621,
+          1.6552803572267294e-10
+        ],
+        "max_absolute_margin_error": 1.6552803572267294e-10,
+        "gate_pass": true
+      },
+      "checked_margin_error": 1.6552803572267294e-10,
+      "mutual": 132,
+      "fit_mean": 128.73364475644343,
+      "residual": 3.266355243556575,
+      "fitted_sha256": "abdf6563ab031f1cc86153cfebe194753711c09e88c08a1d7d80264d5492cdde",
+      "index": 29,
+      "input_sha256": "0a1215fa3703c83b4ee72c2002c25a0c2f1ad86940eaeb43b8d64e4b51e812b3",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 120,
+          "max_absolute_margin_error": 1.1933018413401442e-05,
+          "max_abs_parameter": 4.453493532772111,
+          "objective": 20363.7675072395,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          1.1933018413401442e-05,
+          3.183231456205249e-11
+        ],
+        "max_absolute_margin_error": 3.183231456205249e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 3.183231456205249e-11,
+      "mutual": 121,
+      "fit_mean": 120.71006627479632,
+      "residual": 0.28993372520368155,
+      "fitted_sha256": "5ff026f1bdbf56ea831e295ee0d32aac3ad6a5f7e8ff2b558112e49368f0d5c1",
+      "index": 30,
+      "input_sha256": "183d221c103d4af496398d8a2d8abf9633ddd237a87053e8df60bfca78c38b14",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 121,
+          "max_absolute_margin_error": 2.1496499357454013e-05,
+          "max_abs_parameter": 4.377472218091754,
+          "objective": 20332.46265271247,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          2.1496499357454013e-05,
+          5.661604518536478e-11
+        ],
+        "max_absolute_margin_error": 5.661604518536478e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 5.661604518536478e-11,
+      "mutual": 120,
+      "fit_mean": 128.84378298525868,
+      "residual": -8.843782985258684,
+      "fitted_sha256": "3ad25675f70ef4b9f347b7a5ed232306139c8e61953c689efaa3d26e3bfaf3b7",
+      "index": 31,
+      "input_sha256": "41fcab2db5ddf0f1c9126aca1d8337d5c2d93d5e657f396c5cf619310496fb4d",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 90,
+          "max_absolute_margin_error": 0.00011082897162850713,
+          "max_abs_parameter": 4.238734374303095,
+          "objective": 20475.62572203335,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          0.00011082897162850713,
+          4.729372449219227e-11
+        ],
+        "max_absolute_margin_error": 4.729372449219227e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 4.729372449219227e-11,
+      "mutual": 140,
+      "fit_mean": 133.0304956740359,
+      "residual": 6.969504325964095,
+      "fitted_sha256": "7da2e2ce37c72ce97207a1a25b0cc97c90059666c0a2725b1ae989d1ff100d98",
+      "index": 32,
+      "input_sha256": "3f32ced8be71496d5816f379f0d17a87f9c7ae451153caff35603c4d8df321f0",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 121,
+          "max_absolute_margin_error": 8.661317360747489e-05,
+          "max_abs_parameter": 3.867730568680396,
+          "objective": 20651.408850003758,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          8.661317360747489e-05,
+          6.730260793119669e-11
+        ],
+        "max_absolute_margin_error": 6.730260793119669e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 6.730260793119669e-11,
+      "mutual": 160,
+      "fit_mean": 137.44987434404516,
+      "residual": 22.550125655954844,
+      "fitted_sha256": "445fad66ccac26b713a8b583081bc9a78dd8648d945871a1849434f61ef57113",
+      "index": 33,
+      "input_sha256": "f21f0478305fb1fca72e43d1c55ec450e232b855d59b7cec3b4474775d441993",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 107,
+          "max_absolute_margin_error": 9.942847259480914e-05,
+          "max_abs_parameter": 3.648695501353085,
+          "objective": 20902.793041659148,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          9.942847259480914e-05,
+          1.0368239600211382e-10
+        ],
+        "max_absolute_margin_error": 1.0368239600211382e-10,
+        "gate_pass": true
+      },
+      "checked_margin_error": 1.0368239600211382e-10,
+      "mutual": 166,
+      "fit_mean": 139.1882867758776,
+      "residual": 26.8117132241224,
+      "fitted_sha256": "a39b21141495e38d6224187793e436dca04a3e20b38586c18d21a0151244a9fa",
+      "index": 34,
+      "input_sha256": "babc6b0e5ab3b04be6bdb95433dc66920fe08e02ba73faa9a314555c2b29aa58",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 102,
+          "max_absolute_margin_error": 5.8193880249746144e-05,
+          "max_abs_parameter": 4.02977437922659,
+          "objective": 20191.411539977493,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          5.8193880249746144e-05,
+          2.9103830456733704e-11
+        ],
+        "max_absolute_margin_error": 2.9103830456733704e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 2.9103830456733704e-11,
+      "mutual": 133,
+      "fit_mean": 124.24261740209737,
+      "residual": 8.757382597902634,
+      "fitted_sha256": "3c0611853681a7ad7a0dc9c54ad79f165002ed585f414e2d85d075bf65f51138",
+      "index": 35,
+      "input_sha256": "336cfa85524d768ced8b324b181dc26c06e8cf191cde707884473041cf08df6f",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 95,
+          "max_absolute_margin_error": 3.257347225371632e-05,
+          "max_abs_parameter": 4.483012167111123,
+          "objective": 20370.454153110466,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          3.257347225371632e-05,
+          3.228706191293895e-11
+        ],
+        "max_absolute_margin_error": 3.228706191293895e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 3.228706191293895e-11,
+      "mutual": 117,
+      "fit_mean": 127.6541896315097,
+      "residual": -10.654189631509695,
+      "fitted_sha256": "bfb7182ce5399f025a9d862ce59e6a75fba74f2fe14c1ec78b316f6a678c107f",
+      "index": 36,
+      "input_sha256": "d48a197eb578811eacf12d3008f10364d11c3a63fe4293c3dfce4e72d7e1eacc",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 94,
+          "max_absolute_margin_error": 3.620915572355443e-05,
+          "max_abs_parameter": 3.7614443182578916,
+          "objective": 20342.38839761488,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          3.620915572355443e-05,
+          2.4556356947869062e-11
+        ],
+        "max_absolute_margin_error": 2.4556356947869062e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 2.4556356947869062e-11,
+      "mutual": 126,
+      "fit_mean": 129.47444054599265,
+      "residual": -3.4744405459926497,
+      "fitted_sha256": "3cf9dba5afa61490b7879d140171b1c24fea034e70c8c506d6a0516b5ad6fee5",
+      "index": 37,
+      "input_sha256": "8fab5b0164cc87aff4b729d73455f09b68902506b9a01cc9ad280c5da8ed1f3b",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 116,
+          "max_absolute_margin_error": 5.575561158366327e-05,
+          "max_abs_parameter": 4.17668723701884,
+          "objective": 20357.542907426054,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          5.575561158366327e-05,
+          1.1823431123048067e-11
+        ],
+        "max_absolute_margin_error": 1.1823431123048067e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 1.1823431123048067e-11,
+      "mutual": 122,
+      "fit_mean": 127.10871936401648,
+      "residual": -5.10871936401648,
+      "fitted_sha256": "f326ec8f61d2606706ac06dc168288c01af1ff9dde59dc231d6b70ce99160504",
+      "index": 38,
+      "input_sha256": "ddfbf9f541be07dda8b221637861bb10f60cae5e87cdedf66613064f2b5630d1",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 122,
+          "max_absolute_margin_error": 6.248010049603181e-05,
+          "max_abs_parameter": 4.025681286156,
+          "objective": 20140.403014104893,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          6.248010049603181e-05,
+          2.6830093702301383e-11
+        ],
+        "max_absolute_margin_error": 2.6830093702301383e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 2.6830093702301383e-11,
+      "mutual": 129,
+      "fit_mean": 125.67305756564865,
+      "residual": 3.326942434351352,
+      "fitted_sha256": "9a9f1090d692c19e73f86098b4afbc522517b38fc6abf208e1844181fbdece78",
+      "index": 39,
+      "input_sha256": "e9b80603305f2030f08d92cbb110c78c696c91c8958c7f270a8eb1fb980cae4b",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 125,
+          "max_absolute_margin_error": 0.00013519421804630838,
+          "max_abs_parameter": 4.171811721733658,
+          "objective": 20689.497422836634,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          0.00013519421804630838,
+          1.0049916454590857e-10
+        ],
+        "max_absolute_margin_error": 1.0049916454590857e-10,
+        "gate_pass": true
+      },
+      "checked_margin_error": 1.0049916454590857e-10,
+      "mutual": 126,
+      "fit_mean": 130.0269054424563,
+      "residual": -4.026905442456297,
+      "fitted_sha256": "0fe3a555fad6149ea7a8a756e67853332d33d50472b47160c61c024c43a24901",
+      "index": 40,
+      "input_sha256": "e295e9359915616ba104ff08e2069a53fa13a2a32daab06408a77ff317e82471",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 123,
+          "max_absolute_margin_error": 4.425315182743361e-05,
+          "max_abs_parameter": 3.954087171956487,
+          "objective": 20358.93848239538,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          4.425315182743361e-05,
+          3.637978807091713e-11
+        ],
+        "max_absolute_margin_error": 3.637978807091713e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 3.637978807091713e-11,
+      "mutual": 135,
+      "fit_mean": 146.25682031266015,
+      "residual": -11.256820312660153,
+      "fitted_sha256": "f0bcb6706cd720e19e46c244ae81bf66d511bb288b0bc62f82e9cbaf2ed2f123",
+      "index": 41,
+      "input_sha256": "26dea696d3640d400b42687ddddccdd71194f2d4d5028d9414018849ae295799",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 97,
+          "max_absolute_margin_error": 6.42536328996357e-05,
+          "max_abs_parameter": 3.7107134684750833,
+          "objective": 21385.399926422455,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          6.42536328996357e-05,
+          2.0236257114447653e-11
+        ],
+        "max_absolute_margin_error": 2.0236257114447653e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 2.0236257114447653e-11,
+      "mutual": 155,
+      "fit_mean": 157.70277590434864,
+      "residual": -2.7027759043486412,
+      "fitted_sha256": "05dc956cbc7c5dbc115478502074d37ad4be586a32dec91c648740e91caf1fb6",
+      "index": 42,
+      "input_sha256": "7b9d38fc0010b73be8a3ce8c6694728fda7bb13b8cba1929f05667303ddc7ca3",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 121,
+          "max_absolute_margin_error": 1.2775871255144011e-05,
+          "max_abs_parameter": 4.075486595697651,
+          "objective": 20820.40924112583,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          1.2775871255144011e-05,
+          6.093614501878619e-11
+        ],
+        "max_absolute_margin_error": 6.093614501878619e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 6.093614501878619e-11,
+      "mutual": 132,
+      "fit_mean": 140.20189144608372,
+      "residual": -8.201891446083721,
+      "fitted_sha256": "7ee197985bf4b16bc9cdf98a2823db7e45ab30275f466f259e6b04576e96bfd1",
+      "index": 43,
+      "input_sha256": "4cc2179ad06c827350e5e2fad22a34b1679932549fe320fef88984fd07e3882a",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 122,
+          "max_absolute_margin_error": 8.111825081869029e-05,
+          "max_abs_parameter": 3.89953449145085,
+          "objective": 21291.211590498417,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          8.111825081869029e-05,
+          5.363665067648071e-11
+        ],
+        "max_absolute_margin_error": 5.363665067648071e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 5.363665067648071e-11,
+      "mutual": 126,
+      "fit_mean": 134.97706523856047,
+      "residual": -8.97706523856047,
+      "fitted_sha256": "6fa2ffce4afb4aad4287e1ee7836ea320fea4d99b920357ad895e6cf2511e538",
+      "index": 44,
+      "input_sha256": "108c297247bea2af4deef890299b2dca10bc543e30ee89c2ef0a225a544031c4",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 106,
+          "max_absolute_margin_error": 2.1761236666861805e-05,
+          "max_abs_parameter": 4.22500079576578,
+          "objective": 19715.875636974015,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          2.1761236666861805e-05,
+          6.639311322942376e-11
+        ],
+        "max_absolute_margin_error": 6.639311322942376e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 6.639311322942376e-11,
+      "mutual": 115,
+      "fit_mean": 119.91035911936729,
+      "residual": -4.9103591193672855,
+      "fitted_sha256": "48a4dc953a061812dc0a8bd0b9da4382ad6c907874a6cd5342ba8ab7847d7026",
+      "index": 45,
+      "input_sha256": "768d53a530169dd1bf8f6da6287b99e35933d328e9031dc6d1a8dbdf0c0eebf5",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "optimizer_success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 95,
+        "max_absolute_margin_error": 5.353983851819066e-06,
+        "max_abs_parameter": 3.720380149441147,
+        "objective": 20262.5567561031,
+        "gate_pass": true
+      },
+      "checked_margin_error": 5.353983851819066e-06,
+      "mutual": 115,
+      "fit_mean": 131.07317351218924,
+      "residual": -16.073173512189243,
+      "fitted_sha256": "ee6b0695ab7def0e8e5286bd9b767698ccd28887d37c8d6d05b1ce814304aa48",
+      "index": 46,
+      "input_sha256": "3e137da8dbc2ec51073ba71b726aec3729c43d28491c6e9a3387c57a0db2d32e",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 97,
+          "max_absolute_margin_error": 7.302543326659361e-05,
+          "max_abs_parameter": 4.821715043588912,
+          "objective": 20426.63932288159,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          7.302543326659361e-05,
+          3.218447730546359e-11
+        ],
+        "max_absolute_margin_error": 3.218447730546359e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 3.218447730546359e-11,
+      "mutual": 127,
+      "fit_mean": 133.60737803463766,
+      "residual": -6.607378034637662,
+      "fitted_sha256": "5f55dfb31c86f5e2d9d224039e20d734f5ac89efca485adff76806d2ba791ed1",
+      "index": 47,
+      "input_sha256": "c97c7453fe14e203b1d7f9ee34361ce8185eacbb6c0e03ab89591e3625131b8e",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 122,
+          "max_absolute_margin_error": 4.55172048532404e-05,
+          "max_abs_parameter": 5.0329921652440355,
+          "objective": 21010.951239889688,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          4.55172048532404e-05,
+          1.4551915228366852e-11
+        ],
+        "max_absolute_margin_error": 1.4551915228366852e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 1.4551915228366852e-11,
+      "mutual": 131,
+      "fit_mean": 143.90607278469074,
+      "residual": -12.906072784690735,
+      "fitted_sha256": "472844cdb74452b2696f564bd40eea5321252911e17cf66162f60c9be02b3d34",
+      "index": 48,
+      "input_sha256": "7fd5b1469d2a7ba378156f6e84b4fe768d87f40dd601d5e28e5331aba700f2b3",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 113,
+          "max_absolute_margin_error": 1.710528324849747e-05,
+          "max_abs_parameter": 4.525046600815057,
+          "objective": 20340.632432328275,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          1.710528324849747e-05,
+          2.864908310584724e-11
+        ],
+        "max_absolute_margin_error": 2.864908310584724e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 2.864908310584724e-11,
+      "mutual": 111,
+      "fit_mean": 126.36917184008576,
+      "residual": -15.369171840085755,
+      "fitted_sha256": "c0b08bbff99a8b7f6ff65df95ad708acc9d3093c510d7e5e9f7f555d0ab04beb",
+      "index": 49,
+      "input_sha256": "e6922f9e0c345a410be0ecd7907b2d5aa4e0d1ae8a8d0535391a95ed7392d475",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 118,
+          "max_absolute_margin_error": 4.5164864786784165e-05,
+          "max_abs_parameter": 4.823292833093281,
+          "objective": 19875.14793708681,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          4.5164864786784165e-05,
+          2.4556356947869062e-11
+        ],
+        "max_absolute_margin_error": 2.4556356947869062e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 2.4556356947869062e-11,
+      "mutual": 134,
+      "fit_mean": 134.2220208543274,
+      "residual": -0.22202085432741114,
+      "fitted_sha256": "63e0442be6b0acaa54e800cff079660ea3ed91e92fbd1cb160cc69a64c52845a",
+      "index": 50,
+      "input_sha256": "d1ac348d6c71d56fd145538718bcf20877309b5f239ea577d505bd2c0a788702",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 113,
+          "max_absolute_margin_error": 6.959914117032895e-05,
+          "max_abs_parameter": 4.477310659264905,
+          "objective": 20673.961079369685,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          6.959914117032895e-05,
+          3.410605131648481e-11
+        ],
+        "max_absolute_margin_error": 3.410605131648481e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 3.410605131648481e-11,
+      "mutual": 154,
+      "fit_mean": 140.96344131157537,
+      "residual": 13.036558688424634,
+      "fitted_sha256": "f6a1a52821a06944c12e9a7bb63f0dde04192ce6e97c5d851d527c0758b5a4ad",
+      "index": 51,
+      "input_sha256": "b9548725d1ad0a4066b1334e4ced2516c86e032e01120341251c30e51b9c34ca",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 97,
+          "max_absolute_margin_error": 2.7585093448578846e-05,
+          "max_abs_parameter": 4.701132741445269,
+          "objective": 20317.434871458136,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          2.7585093448578846e-05,
+          6.730260793119669e-11
+        ],
+        "max_absolute_margin_error": 6.730260793119669e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 6.730260793119669e-11,
+      "mutual": 125,
+      "fit_mean": 127.09430032653518,
+      "residual": -2.0943003265351763,
+      "fitted_sha256": "1d56075ecdf13d50fdbf5f1d305f5a68fbac5351bdd5b3fe31be8b240900cb4e",
+      "index": 52,
+      "input_sha256": "de558d0f83e9f8d4de754f10e6fe2191e5c544611c11573dc1d64e3fe4d377d3",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 127,
+          "max_absolute_margin_error": 4.223187079333002e-05,
+          "max_abs_parameter": 3.8371911529948406,
+          "objective": 20561.868490660545,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          4.223187079333002e-05,
+          2.773958840407431e-11
+        ],
+        "max_absolute_margin_error": 2.773958840407431e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 2.773958840407431e-11,
+      "mutual": 132,
+      "fit_mean": 126.79018332160373,
+      "residual": 5.209816678396265,
+      "fitted_sha256": "4c2132226aa7972cd8a66dc3a26821ee3d6857a1bb81d5af701feda318db8443",
+      "index": 53,
+      "input_sha256": "ca00ff81dcfb94d85e3cb8934bbb3254b0f769553cbcd150170ce3b89d4da65f",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 100,
+          "max_absolute_margin_error": 0.00023919607974676182,
+          "max_abs_parameter": 3.8407450445662716,
+          "objective": 19808.658419186442,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          0.00023919607974676182,
+          6.45741238258779e-11
+        ],
+        "max_absolute_margin_error": 6.45741238258779e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 6.45741238258779e-11,
+      "mutual": 133,
+      "fit_mean": 122.0845195675054,
+      "residual": 10.915480432494604,
+      "fitted_sha256": "e557a020be51818ce5b8d0740b75cd290c3d7698543626601e86a02df4dafa71",
+      "index": 54,
+      "input_sha256": "16c9baca628d9f54a70d89d0d06799244566b243a963bd49a73690ca22720d5f",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 122,
+          "max_absolute_margin_error": 5.301082592268358e-05,
+          "max_abs_parameter": 4.5213662373307155,
+          "objective": 20316.419958242805,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          5.301082592268358e-05,
+          1.0663825378287584e-10
+        ],
+        "max_absolute_margin_error": 1.0663825378287584e-10,
+        "gate_pass": true
+      },
+      "checked_margin_error": 1.0663825378287584e-10,
+      "mutual": 135,
+      "fit_mean": 128.52972160236519,
+      "residual": 6.470278397634814,
+      "fitted_sha256": "176ec8254190a694f40d427bba48736e5da1efa655b9a369999796291405cedc",
+      "index": 55,
+      "input_sha256": "b62c6240f63199d5a33da565dfb2998a2a4634eaf00a902d9b06ee1fd3d5264a",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 95,
+          "max_absolute_margin_error": 0.0001339820835255523,
+          "max_abs_parameter": 4.613250672312557,
+          "objective": 20378.93033363396,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          0.0001339820835255523,
+          8.731149137020111e-11
+        ],
+        "max_absolute_margin_error": 8.731149137020111e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 8.731149137020111e-11,
+      "mutual": 146,
+      "fit_mean": 132.64199442259851,
+      "residual": 13.358005577401485,
+      "fitted_sha256": "83a7f24f46dc0c338b3723639c2eac1804e1e9a1b5d3b222fbea11128a8c1017",
+      "index": 56,
+      "input_sha256": "056b263798090c514451f254973603625d9239cbee76c843350a84d7aa11c559",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 110,
+          "max_absolute_margin_error": 2.57235315075377e-05,
+          "max_abs_parameter": 4.342674863945393,
+          "objective": 19796.33851539506,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          2.57235315075377e-05,
+          2.8194335754960775e-11
+        ],
+        "max_absolute_margin_error": 2.8194335754960775e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 2.8194335754960775e-11,
+      "mutual": 110,
+      "fit_mean": 122.9826701118022,
+      "residual": -12.982670111802193,
+      "fitted_sha256": "5a8a2482d31587372ce66a94d1eb19950435ee45a46af4bc1d2634db4933c2d1",
+      "index": 57,
+      "input_sha256": "c8a6f89fe14d1e43269dc7addef39a37c1216f7b3f5bfddd4d4ecd159bfc6a00",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 103,
+          "max_absolute_margin_error": 0.00012308537498029182,
+          "max_abs_parameter": 4.463551421236661,
+          "objective": 19805.972017100215,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          0.00012308537498029182,
+          6.730260793119669e-11
+        ],
+        "max_absolute_margin_error": 6.730260793119669e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 6.730260793119669e-11,
+      "mutual": 136,
+      "fit_mean": 121.50879566802641,
+      "residual": 14.491204331973591,
+      "fitted_sha256": "af736bb6b70c9341d35f8babf01ac851e42eeab3b0f21cd069898708651a0182",
+      "index": 58,
+      "input_sha256": "42adb2eca39249101f863beac898cc4f59a99158baf27358f93c70c6c207e23d",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 122,
+          "max_absolute_margin_error": 4.9204367087440914e-05,
+          "max_abs_parameter": 4.6016423189563,
+          "objective": 20773.342094663167,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          4.9204367087440914e-05,
+          6.775735528208315e-11
+        ],
+        "max_absolute_margin_error": 6.775735528208315e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 6.775735528208315e-11,
+      "mutual": 140,
+      "fit_mean": 142.14398734208066,
+      "residual": -2.1439873420806634,
+      "fitted_sha256": "6c0f7a0b26895bebfcab4d17685f82762b8ebeee2f2b4a3a678129cac6245b6e",
+      "index": 59,
+      "input_sha256": "67164c201ee1ca7bef7124337abe280e770da0662ddadda9815fa31b092f71a7",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 97,
+          "max_absolute_margin_error": 2.6106288032679004e-05,
+          "max_abs_parameter": 4.134582119549434,
+          "objective": 20471.528219818938,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          2.6106288032679004e-05,
+          4.501998773775995e-11
+        ],
+        "max_absolute_margin_error": 4.501998773775995e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 4.501998773775995e-11,
+      "mutual": 127,
+      "fit_mean": 127.9441293647665,
+      "residual": -0.9441293647664963,
+      "fitted_sha256": "cf07f899b0916436345eb744f2fa689314da80bcc67202dc6e49ec164ae6d0d8",
+      "index": 60,
+      "input_sha256": "a806eea8077b18bf12b616bf2425adef5c232c1bf2a1cf1a28fb331a5b9d81c1",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 107,
+          "max_absolute_margin_error": 1.572613882672158e-05,
+          "max_abs_parameter": 4.233349139781158,
+          "objective": 20569.687193417165,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          1.572613882672158e-05,
+          4.6838977141305804e-11
+        ],
+        "max_absolute_margin_error": 4.6838977141305804e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 4.6838977141305804e-11,
+      "mutual": 120,
+      "fit_mean": 129.58594702672133,
+      "residual": -9.585947026721328,
+      "fitted_sha256": "6e73f84103fa6735b09c0de89d5ba4ab3688413466671124e6f849863639b7cf",
+      "index": 61,
+      "input_sha256": "9ffccc7ae3019e2bff9b941f5fa38766d6cd566ac4e4d809f234726daa6d3b2c",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 112,
+          "max_absolute_margin_error": 4.187615832051961e-05,
+          "max_abs_parameter": 3.932465368641377,
+          "objective": 20790.15796807948,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          4.187615832051961e-05,
+          7.958078640513122e-11
+        ],
+        "max_absolute_margin_error": 7.958078640513122e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 7.958078640513122e-11,
+      "mutual": 141,
+      "fit_mean": 146.60499500568113,
+      "residual": -5.604995005681133,
+      "fitted_sha256": "a5d6bf94f5f61a2ba4cfa419924877da90cac8c063e3121b276cb06c12fca7ee",
+      "index": 62,
+      "input_sha256": "aae2062d48f3dc4a39dec51c2d8c48f27f2e640a4ed33198ca5dca7ea83fd1b5",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    },
+    {
+      "gate_pass": true,
+      "diagnostic": {
+        "initial": {
+          "optimizer_success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "iterations": 110,
+          "max_absolute_margin_error": 0.00014670010523332166,
+          "max_abs_parameter": 3.753992046807912,
+          "objective": 20836.22407979168,
+          "gate_pass": false
+        },
+        "newton_errors": [
+          0.00014670010523332166,
+          8.071765478234738e-11
+        ],
+        "max_absolute_margin_error": 8.071765478234738e-11,
+        "gate_pass": true
+      },
+      "checked_margin_error": 8.071765478234738e-11,
+      "mutual": 128,
+      "fit_mean": 133.80675092727876,
+      "residual": -5.806750927278756,
+      "fitted_sha256": "37fb9b72e6da157bf9093169fc8dc657ad9f1997f0e74ff8870f8e9d05f1a41d",
+      "index": 63,
+      "input_sha256": "a2e42cc3d3cc8438f6a7512a1b3913886f28ce2ea5128b94de4c79f28d0f65ff",
+      "contract_sha256": "5d9c2c37d201dd698ca3c9001cb0058f449f396dc3ac5e38d0596cfa66159c26"
+    }
+  ],
+  "receipt_sha256": {
+    "00.json": "dc0c58e20f5d6d7115b8e2afc905fad43d6944639e91c9745217239cc27e9d24",
+    "01.json": "98848bb90cce159104d6eb6acf5e1ee19e77283786aae51e3c3099b3fb8141fb",
+    "02.json": "f75791f8a6573266b2df96e4577bcce048cc6be285e342a53335b31fa8fdfed1",
+    "03.json": "642488f26ac2ac5ab08ab56293091448e5021bde4595d6a04b4f08da94134987",
+    "04.json": "191dab4dd6d3d195fb898f605b3e2075b7f5050acecab4d61c9de585be8277bd",
+    "05.json": "d59080680c86fbc1ee0ef0e7d6a7da76935359d27fd000e8c5ce4cfbba158c81",
+    "06.json": "6735e300da589f37e8e7e303cd911a0aba6009f4d32938fe3aaf19d026144d5f",
+    "07.json": "14814d46d275a998dd43c6eef59f441100539b32eadc6ddf9e53af48ae33fa78",
+    "08.json": "687e96f0b67e400c8ff79b3c85056de8c7628504ae9556c915c452a4afd220d6",
+    "09.json": "53abfaf23dffc9543c69dfe430bd29d7c0b64c5a63a70a0336ff320faf228ed5",
+    "10.json": "2ead24cb1f01fe5df22ed6008cf6887b9c98520c6d770b1265eca327ebbb60d7",
+    "11.json": "0f637fea1b937c38a57db3c998a64b946f16894e1192e3d494f1e600b1a6846e",
+    "12.json": "e46200b85fbb8093c3dda52fb0ba0bbba5f8e093f79190b4ade29dcf39d2ddc6",
+    "13.json": "987bb94ad7a2429f8a6c9c1bb88460f51043cb7da4d2dcd10b22839843e9e300",
+    "14.json": "341f9416c321c4bf00744b08018447a1d15ef5b38637b4e1f64010abb7e27fda",
+    "15.json": "e010f41cf5fdc6a2c0463fd27ffd4452bda6a48015f43132b2cde0e5710c51aa",
+    "16.json": "acfacacdadda2021f106b3d888fc26efa9e73830b66b367feda3daf1356f39a4",
+    "17.json": "1e756feef6ec549c5824d11a9d6f1367d3a3b26a45c2e05085b73bba7e5d2a5b",
+    "18.json": "7a7166e703e302bd10dea7b1b260dd48a433035e4875c1aa472cf40744170f21",
+    "19.json": "ae673c203339102a403ca4f2144cf15c94f79e7cea4bbcf3e64d11f5eea8d04c",
+    "20.json": "818019220b4c73aaaa4ec40966d02b5f298db25d053cf36f760a493d4ac4d01e",
+    "21.json": "d07eef252258673f04f78e0f3bec6b37ca2e33ca0875dd6db26724f3269d55e2",
+    "22.json": "62da701ce408d7f6735eded8c02f47a04d0c076701e3797c9adade77550dccf9",
+    "23.json": "347fd9ffb50e4c1812c5f9cf0ef20e3294b9ab2dcd117c95b4970fb2db73133b",
+    "24.json": "56c21f03257cb707da675def209bef0e82b599a2723d73f14705fd396de2afde",
+    "25.json": "ba85f5fb3df1763bf80f9ca42cb498eb4451bca19c60bce57858c601784909b0",
+    "26.json": "51abb69f5bbe22407f6502868c7fe9e4705be1651da8cf0409db2a833f667cc1",
+    "27.json": "7f36f443778c32a986bb45fc5a70724f6893d9ee1e812dd05c3145c940e5a793",
+    "28.json": "1a93e2dff819b8ff6e67994adfb5146a0fcfd747a4b47c86a3a2c3d37816b6cf",
+    "29.json": "370f3e1ec97b8fb2a096c052faed350a09eba459cb976df7e75305879076074e",
+    "30.json": "376f1127a29bfa68b42d63a09ba6caeba69cf7ddf90a0726693e7f84ea2be301",
+    "31.json": "37467d4db029d7465175f91a8fedce01b50f75ad767f2e51351f0c8f5b594221",
+    "32.json": "8f834314eb42ec672ec95fbe525d11665ba9602f5d0cfa8bd65133a81257ae97",
+    "33.json": "742088fbfd69ede4f531e40340f51db7fcc88ac8e483f82ee56c6be77da3c4ca",
+    "34.json": "fb58cc6d60001fd5e91e4359a80ca6489460817625b5063065940034845d4521",
+    "35.json": "7808a6fbe8619ac7afc9168882d19b0c8343a0a21dc14b2de4fddbed9babcab9",
+    "36.json": "0c2f4aceba92b854e092210aeeb24931182554a9f94eb32d89d7ddc848739ecc",
+    "37.json": "3bffe5f99857193d569703a7984e66e34ef2ea48be95946370b6eab7eec8b07d",
+    "38.json": "62870b793634c57564c6d5eb72043d12aa565726ad54352a54191cbc7304ebb9",
+    "39.json": "7fa996ca72497b79cb3bf1091f062ee582223ac97059bfb395722121f99feee2",
+    "40.json": "127e751ada60096a425c09bb32887963fdfcd130d35af0fc87614377810b11ec",
+    "41.json": "cbd872fdc9720e0dbfc60fa3ee876efddaa7272f029afd2a678f8cfbe9090a49",
+    "42.json": "256f8dbca3a6760a65cca96f67569205ba93cbcc3755504a36420ea8efe8587c",
+    "43.json": "d21c1443d9f8aca3def4a351e07bc3b682fa44c7451c8b24bf53159f0e12a624",
+    "44.json": "f393b26e12d9e56aade4e922e5965f4d97e5878bdd5dbe5f44a1b088a0f2968e",
+    "45.json": "207b4e85c52005b477562166978276b9f89b09fabe86e5825807c99aa6f70033",
+    "46.json": "c8f68a7894098316e5c3a4efe7950df1cbc2158b6b1bf05bb0e03cfb77e99bcb",
+    "47.json": "bbbe6f464f7af6f848393344af579816bb3beb6f37ddf7d37becf73f58059dec",
+    "48.json": "c123af5420666e9070b642be9dbb20e5d74cc7d14bd1c2d96657a4919c23a1b1",
+    "49.json": "70ae6334609d293e12aafa5d1391b5ff1c026dfcff5d3dbce024f873fc76b36b",
+    "50.json": "390f04fc08473f06fcf5d0281decb217e987bc72d7ca523f4a90a9a7f8276858",
+    "51.json": "42f85ae0d4b3fc29be5e588f9c29cb7f50aef514011568f770574dc7fe115c03",
+    "52.json": "65089054ae71aa2891fae3596e52bc4ace4c1895ac4b5e82caa0d1ad96651313",
+    "53.json": "77e3cd3c3f3a8f83cda55b3f981b71525ca2a4abf903c407ed1f74f1739d3ad3",
+    "54.json": "23956fd9c9e3f02cbbb01c9588cfeb25c14f872ea597498ea70657ad410a130f",
+    "55.json": "10e2b654bcbe2ed5308a2207b3b3ed890038404715547a99810e97c2441d43ee",
+    "56.json": "a2d2a7458618c9d74cd58daa8f38712864a04374e410f7c60df38054f0c7eb6e",
+    "57.json": "dfb686da3959950f4d944f88de0e28bb7f5707dd468ab209ef5bbb4d0cb4f00e",
+    "58.json": "01c33d98ba80475957e6ce2b0e9b3ae68fac62e5aaa6257c39ed34fe09cb7f25",
+    "59.json": "86e5c7f5a2de132f58f8829600069987fe399b618e595115722b90fcb6c17bea",
+    "60.json": "8a4647061f41e7eb50a0cc742500ac879b8c0cc5195623f387b5aabc191f69ac",
+    "61.json": "90a815d71f469e692338ace2b8c09344f6ae5f6f5cfb15d68f72e79bcd206f4f",
+    "62.json": "984d61766a53d8706375a3eebf115f0c9795a04902409b630418f7664207f531",
+    "63.json": "9a708be20fdee0aaa32bf6fab640a33342cf21b80a42bc0ff86bc6fa0eafb8d0"
+  },
+  "status": "DESCRIPTIVE_REFIT_COMPARISON"
+}

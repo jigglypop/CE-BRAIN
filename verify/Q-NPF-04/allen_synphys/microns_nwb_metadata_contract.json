@@ -1,0 +1,9 @@
+{
+  "question": "첫 대응 스캔의 공개 NWB에 어떤 추출 반응·시간축·식별자·자극 정보가 있는가?",
+  "selection": "대응표 session/scan 오름차순 첫 항목4/7. 반응으로 재선정 없음.",
+  "limits": "NWB 메타데이터만, 대형 영상 배열을 읽지 않는다. 부분 캐시32MiB 상한. L0 입력 점검.",
+  "code_sha256": "d08dc76b9bc8057bba712a00f6c45be37421bfc7d116279604a397273e82935c",
+  "asset_manifest_sha256": "d7408ad07a552e61b7de032777c79cf7e913e48ab9cf0734bead2f13534a6858",
+  "asset_metadata_sha256": "3732abea7a4b54fa8a1da48385ce41ddeaaa32188b540c4698a795e7a7d1699f",
+  "range_reader_sha256": "5aa32fce7a19372183cf304ecf70bcd1d168dc723ffcffbc74f0711d83db50ae"
+}

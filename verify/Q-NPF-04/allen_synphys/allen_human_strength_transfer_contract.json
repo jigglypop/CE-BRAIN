@@ -1,0 +1,13 @@
+{
+  "question": "One identifiable Allen human upper TCx record: prediction by fixed Peng reciprocity contrast coefficient",
+  "scope": "all identifiable records from prior availability audit; no amplitude-based selection",
+  "prediction": "topology-only projection removes sender/receiver; predicted residual=0.5249058466238167 * projected reciprocal; null zero",
+  "coefficient": 0.5249058466238167,
+  "distance": "no distance model transfer: Peng XY distance and Allen distance convention not matched; this tests the unadjusted fixed model only",
+  "endpoint": "squared error of projected log amplitude; individual-record fitted contrast for descriptive comparison",
+  "limits": "one record; no population inference; no independent donor identity verification; amplitude and detection selection remain",
+  "inventory_sha256": "99f2aaf89f43e862669400adbf5241d4e31d9d018d4a01817708de628bde9f34",
+  "prior_sha256": "bca2d08f8ef02edc50c0b83bc76a41853b630a776527982812eeb8219dbdf50e",
+  "db_sha256": "7372499fdd874f057565080d5769baaf2659ef39d9f3bc3c7147dd1e1c280a53",
+  "code_sha256": "056838038ada429e6b6d329a4cd0e7670a45bb6498306cde8575f21324b4b4d8"
+}

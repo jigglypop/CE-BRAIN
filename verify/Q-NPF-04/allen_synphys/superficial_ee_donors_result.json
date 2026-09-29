@@ -1,0 +1,563 @@
+{
+  "all_231_dyads_donors": 62,
+  "qualified_190_dyads_donors": 59,
+  "donors_with_mutual": 3,
+  "metadata_conflicts": {},
+  "slice_to_donor": {
+    "378": "310493",
+    "1601": "408374",
+    "1635": "409649",
+    "688": "338725",
+    "628": "332800",
+    "629": "332799",
+    "709": "339142",
+    "729": "339986",
+    "730": "339986",
+    "631": "332799",
+    "753": "338313",
+    "633": "332799",
+    "695": "338727",
+    "715": "339604",
+    "696": "338728",
+    "736": "339986",
+    "717": "339604",
+    "697": "338727",
+    "718": "339604",
+    "698": "338728",
+    "985": "356921",
+    "687": "338725",
+    "1649": "410157",
+    "1645": "410467",
+    "1173": "375896",
+    "1686": "413616",
+    "1690": "413616",
+    "1407": "393717",
+    "1411": "394337",
+    "1451": "396838",
+    "1454": "398159",
+    "1728": "414648",
+    "1746": "417131",
+    "1770": "418984",
+    "1783": "419318",
+    "1773": "418984",
+    "1806": "420796",
+    "1812": "420300",
+    "1826": "418964",
+    "1825": "418964",
+    "1884": "420804",
+    "1939": "425875",
+    "1960": "426723",
+    "1984": "428371",
+    "1995": "429800",
+    "1998": "430087",
+    "1997": "430087",
+    "2068": "432987",
+    "2107": "438530",
+    "2122": "438530",
+    "2210": "450227",
+    "2246": "442629",
+    "2257": "448735",
+    "2261": "448735",
+    "2327": "451301",
+    "2376": "455794",
+    "2438": "459274",
+    "2461": "462524",
+    "2470": "462956",
+    "2736": "485202",
+    "2739": "486085",
+    "2833": "495424",
+    "2860": "498428",
+    "3025": "510207",
+    "3027": "510207",
+    "3031": "510614",
+    "3095": "514916",
+    "3119": "535551",
+    "3138": "538078",
+    "3190": "541096",
+    "3235": "545085",
+    "3269": "547364",
+    "3270": "547364",
+    "3342": "552391",
+    "3352": "552751",
+    "3422": "556803",
+    "3585": "565810",
+    "3827": "575953",
+    "3454": "558299"
+  },
+  "per_donor": [
+    {
+      "donor_name_id": "310493",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "332799",
+      "dyads": 27,
+      "mutual": 0,
+      "positive_directions": 2,
+      "slices": 3,
+      "experiments": 4
+    },
+    {
+      "donor_name_id": "332800",
+      "dyads": 10,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "338313",
+      "dyads": 10,
+      "mutual": 0,
+      "positive_directions": 1,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "338725",
+      "dyads": 6,
+      "mutual": 1,
+      "positive_directions": 3,
+      "slices": 2,
+      "experiments": 2
+    },
+    {
+      "donor_name_id": "338727",
+      "dyads": 16,
+      "mutual": 0,
+      "positive_directions": 1,
+      "slices": 2,
+      "experiments": 2
+    },
+    {
+      "donor_name_id": "338728",
+      "dyads": 4,
+      "mutual": 0,
+      "positive_directions": 2,
+      "slices": 2,
+      "experiments": 2
+    },
+    {
+      "donor_name_id": "339142",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "339604",
+      "dyads": 19,
+      "mutual": 1,
+      "positive_directions": 3,
+      "slices": 3,
+      "experiments": 3
+    },
+    {
+      "donor_name_id": "339986",
+      "dyads": 7,
+      "mutual": 0,
+      "positive_directions": 1,
+      "slices": 3,
+      "experiments": 3
+    },
+    {
+      "donor_name_id": "375896",
+      "dyads": 15,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "393717",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "394337",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "396838",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "398159",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 1,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "408374",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "409649",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 1,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "410157",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "413616",
+      "dyads": 2,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 2,
+      "experiments": 2
+    },
+    {
+      "donor_name_id": "414648",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "417131",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 1,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "418984",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "419318",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "420300",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "420796",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "420804",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "425875",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "426723",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 1,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "428371",
+      "dyads": 3,
+      "mutual": 0,
+      "positive_directions": 2,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "429800",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "430087",
+      "dyads": 2,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 2,
+      "experiments": 2
+    },
+    {
+      "donor_name_id": "432987",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "438530",
+      "dyads": 4,
+      "mutual": 0,
+      "positive_directions": 1,
+      "slices": 2,
+      "experiments": 2
+    },
+    {
+      "donor_name_id": "442629",
+      "dyads": 10,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "448735",
+      "dyads": 2,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 2,
+      "experiments": 2
+    },
+    {
+      "donor_name_id": "450227",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "451301",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "455794",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "459274",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "462524",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "462956",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "485202",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "486085",
+      "dyads": 3,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "495424",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "498428",
+      "dyads": 3,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "510207",
+      "dyads": 2,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 2,
+      "experiments": 2
+    },
+    {
+      "donor_name_id": "510614",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "514916",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 1,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "535551",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 1,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "538078",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "541096",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "545085",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "547364",
+      "dyads": 5,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 2,
+      "experiments": 3
+    },
+    {
+      "donor_name_id": "552391",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 1,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "552751",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "556803",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "558299",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "565810",
+      "dyads": 1,
+      "mutual": 0,
+      "positive_directions": 0,
+      "slices": 1,
+      "experiments": 1
+    },
+    {
+      "donor_name_id": "575953",
+      "dyads": 1,
+      "mutual": 1,
+      "positive_directions": 2,
+      "slices": 1,
+      "experiments": 1
+    }
+  ],
+  "gate": "PASS",
+  "contract_sha256": "f709f4cf650c9ed2e3d23bdeee4a60d21e84eadad4bc4d176b870e9a2ed88c9b"
+}

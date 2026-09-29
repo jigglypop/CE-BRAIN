@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/AllenInstitute/aisynphys/b187927abf1e8df46d11b47eeb88c8e2c76aee3c/aisynphys/database/schema/__init__.py",
+    "path": "verify/Q-NPF-04/allen_synphys/qc_sources/schema_init.py",
+    "sha256": "79cc5767afd9454470629ccf19f49362f749026c92d978abd80c207af70baaa6"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/AllenInstitute/aisynphys/b187927abf1e8df46d11b47eeb88c8e2c76aee3c/aisynphys/avg_response_fit.py",
+    "path": "verify/Q-NPF-04/allen_synphys/qc_sources/avg_response_fit.py",
+    "sha256": "bf14570a605082d4943e941c0c0b1c7c8ed2584076342f447313414472ae957a"
+  }
+]

@@ -1,0 +1,2202 @@
+{
+  "scans": [
+    {
+      "session": 4,
+      "scan_idx": 7,
+      "nuclei": 53,
+      "registered_units": 53,
+      "status": "RESPONSE_ANALYZED",
+      "assignment_count": 1,
+      "source": "microns_first_trial_level_result.json",
+      "source_sha256": "8ab9549d3b7d6b4f24d21d296d98587ae37b5ab7e3bd61218f42cab061326e24",
+      "input_sha256": "49e1d0cc7c71c81deb62bebe363a0f3fdc34793a5f66cc766a037c4316913b44",
+      "samples_per_trial": 57,
+      "relative_step_seconds": 0.15879041100015456,
+      "summaries": [
+        {
+          "timing": "common_frame",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.01837616059867569,
+              0.01837616059867569
+            ],
+            "trial_mean": [
+              0.011121419750938494,
+              0.011121419750938494
+            ],
+            "within": [
+              0.007254740847737168,
+              0.007254740847737168
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.014172741429725648,
+              0.014172741429725648
+            ],
+            "trial_mean": [
+              0.0033199307094992658,
+              0.0033199307094992658
+            ],
+            "within": [
+              0.010852810720226397,
+              0.010852810720226397
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.02519236898890038,
+              0.02519236898890038
+            ],
+            "trial_mean": [
+              0.022656468487079095,
+              0.022656468487079095
+            ],
+            "within": [
+              0.002535900501821335,
+              0.002535900501821335
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.018229771638466938,
+              0.018229771638466938
+            ],
+            "trial_mean": [
+              0.011132241650642928,
+              0.011132241650642928
+            ],
+            "within": [
+              0.007097529987824001,
+              0.007097529987824001
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.013241612624259097,
+              0.013241612624259097
+            ],
+            "trial_mean": [
+              0.0029952192914633967,
+              0.0029952192914633967
+            ],
+            "within": [
+              0.01024639333279576,
+              0.01024639333279576
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.025612154281444432,
+              0.025612154281444432
+            ],
+            "trial_mean": [
+              0.0230083287408519,
+              0.0230083287408519
+            ],
+            "within": [
+              0.0026038255405924846,
+              0.0026038255405924846
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        }
+      ]
+    },
+    {
+      "session": 5,
+      "scan_idx": 3,
+      "nuclei": 23,
+      "registered_units": 23,
+      "status": "RESPONSE_ANALYZED",
+      "assignment_count": 1,
+      "source": "microns_trial_level_result.json",
+      "source_sha256": "7592b7fd9e424fbf52c75bcc920f22de05c699c2c6944cafa36ec22642282f7b",
+      "input_sha256": "f20462b1aa475a9b5ecffdb3d4fb1238a2b96b9c906a6b5884327a72e52f0913",
+      "samples_per_trial": 57,
+      "relative_step_seconds": 0.1587922188000448,
+      "summaries": [
+        {
+          "timing": "common_frame",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.04411823974489847,
+              0.04411823974489847
+            ],
+            "trial_mean": [
+              0.031224312315225156,
+              0.031224312315225156
+            ],
+            "within": [
+              0.012893927429673215,
+              0.012893927429673215
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.08953082113163113,
+              0.08953082113163113
+            ],
+            "trial_mean": [
+              0.07308300033154116,
+              0.07308300033154116
+            ],
+            "within": [
+              0.01644782080009001,
+              0.01644782080009001
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              -0.02817485266842824,
+              -0.02817485266842824
+            ],
+            "trial_mean": [
+              -0.034388213660182604,
+              -0.034388213660182604
+            ],
+            "within": [
+              0.006213360991754391,
+              0.006213360991754391
+            ]
+          },
+          "positives": {
+            "total": 0,
+            "trial_mean": 0,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.04447386325730785,
+              0.04447386325730785
+            ],
+            "trial_mean": [
+              0.031375543053069714,
+              0.031375543053069714
+            ],
+            "within": [
+              0.013098320204238114,
+              0.013098320204238114
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.09017927828380012,
+              0.09017927828380012
+            ],
+            "trial_mean": [
+              0.07338999607547043,
+              0.07338999607547043
+            ],
+            "within": [
+              0.016789282208329745,
+              0.016789282208329745
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              -0.02785798114307534,
+              -0.02785798114307534
+            ],
+            "trial_mean": [
+              -0.03331498875921947,
+              -0.03331498875921947
+            ],
+            "within": [
+              0.005457007616144115,
+              0.005457007616144115
+            ]
+          },
+          "positives": {
+            "total": 0,
+            "trial_mean": 0,
+            "within": 1
+          }
+        }
+      ]
+    },
+    {
+      "session": 5,
+      "scan_idx": 6,
+      "nuclei": 39,
+      "registered_units": 39,
+      "status": "RESPONSE_ANALYZED",
+      "assignment_count": 1,
+      "source": "microns_third_trial_level_result.json",
+      "source_sha256": "e65259ce57bfa5d171ad71a18d77a371864f80d0eee417ce9f8e8761b761c957",
+      "input_sha256": "c386923a1704d49d21f80c82a10478d6b15dcfa8bbce647dcbf928f22ae32f2c",
+      "samples_per_trial": 57,
+      "relative_step_seconds": 0.15879761800078995,
+      "summaries": [
+        {
+          "timing": "common_frame",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.019040594818673876,
+              0.019040594818673876
+            ],
+            "trial_mean": [
+              0.015590804562369547,
+              0.015590804562369547
+            ],
+            "within": [
+              0.003449790256304346,
+              0.003449790256304346
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.010061587420696185,
+              0.010061587420696185
+            ],
+            "trial_mean": [
+              0.010757331840644643,
+              0.010757331840644643
+            ],
+            "within": [
+              -0.0006957444199484599,
+              -0.0006957444199484599
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 0
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.012201867520364628,
+              0.012201867520364628
+            ],
+            "trial_mean": [
+              -0.0005310404987486237,
+              -0.0005310404987486237
+            ],
+            "within": [
+              0.01273290801911323,
+              0.01273290801911323
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 0,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.01858944855101325,
+              0.01858944855101325
+            ],
+            "trial_mean": [
+              0.015454010797758187,
+              0.015454010797758187
+            ],
+            "within": [
+              0.003135437753255016,
+              0.003135437753255016
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.009225479989609573,
+              0.009225479989609573
+            ],
+            "trial_mean": [
+              0.01075469813258811,
+              0.01075469813258811
+            ],
+            "within": [
+              -0.001529218142978484,
+              -0.001529218142978484
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 0
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.011918276233918243,
+              0.011918276233918243
+            ],
+            "trial_mean": [
+              -0.001400807533619572,
+              -0.001400807533619572
+            ],
+            "within": [
+              0.013319083767537763,
+              0.013319083767537763
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 0,
+            "within": 1
+          }
+        }
+      ]
+    },
+    {
+      "session": 5,
+      "scan_idx": 7,
+      "nuclei": 35,
+      "registered_units": 35,
+      "status": "RESPONSE_ANALYZED",
+      "assignment_count": 1,
+      "source": "microns_fourth_trial_level_result.json",
+      "source_sha256": "a84de7a8e5efe26f72cccab1870c415372a9fca029ea4f7eca1959f4c2805a8b",
+      "input_sha256": "f144b1996f3b435851be7713d6e3b6ad45fbffcc3447c1f38289380c31b61caf",
+      "samples_per_trial": 57,
+      "relative_step_seconds": 0.15879740755008243,
+      "summaries": [
+        {
+          "timing": "common_frame",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.016955300536413115,
+              0.016955300536413115
+            ],
+            "trial_mean": [
+              0.0008482347305084967,
+              0.0008482347305084967
+            ],
+            "within": [
+              0.01610706580590464,
+              0.01610706580590464
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.02893811154074452,
+              0.02893811154074452
+            ],
+            "trial_mean": [
+              0.015807587039633895,
+              0.015807587039633895
+            ],
+            "within": [
+              0.01313052450111057,
+              0.01313052450111057
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.005694732644323388,
+              0.005694732644323388
+            ],
+            "trial_mean": [
+              -0.01745808733737927,
+              -0.01745808733737927
+            ],
+            "within": [
+              0.023152819981702658,
+              0.023152819981702658
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 0,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.01699392303632058,
+              0.01699392303632058
+            ],
+            "trial_mean": [
+              0.0010381409738312343,
+              0.0010381409738312343
+            ],
+            "within": [
+              0.015955782062489453,
+              0.015955782062489453
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.029284208432998664,
+              0.029284208432998664
+            ],
+            "trial_mean": [
+              0.01596157256590055,
+              0.01596157256590055
+            ],
+            "within": [
+              0.013322635867098068,
+              0.013322635867098068
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.005528496217765647,
+              0.005528496217765647
+            ],
+            "trial_mean": [
+              -0.01725260886483471,
+              -0.01725260886483471
+            ],
+            "within": [
+              0.022781105082600322,
+              0.022781105082600322
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 0,
+            "within": 1
+          }
+        }
+      ]
+    },
+    {
+      "session": 6,
+      "scan_idx": 2,
+      "nuclei": 42,
+      "registered_units": 42,
+      "status": "RESPONSE_ANALYZED",
+      "assignment_count": 1,
+      "source": "microns_fifth_trial_level_result.json",
+      "source_sha256": "cfe1fff8553feb0c9767d3c9cba65c8191d9946a3468e2d7e2829dc436d3c562",
+      "input_sha256": "046adda5d207f9d1088757b6ce6f027a92eec5c972439798f6dd7da2366afa78",
+      "samples_per_trial": 57,
+      "relative_step_seconds": 0.15878962500028138,
+      "summaries": [
+        {
+          "timing": "common_frame",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.0171155671743951,
+              0.0171155671743951
+            ],
+            "trial_mean": [
+              0.01209682438115676,
+              0.01209682438115676
+            ],
+            "within": [
+              0.00501874279323837,
+              0.00501874279323837
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              -0.0018825990693314048,
+              -0.0018825990693314048
+            ],
+            "trial_mean": [
+              -0.004618220680292018,
+              -0.004618220680292018
+            ],
+            "within": [
+              0.002735621610960613,
+              0.002735621610960613
+            ]
+          },
+          "positives": {
+            "total": 0,
+            "trial_mean": 0,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.03811793783422642,
+              0.03811793783422642
+            ],
+            "trial_mean": [
+              0.026342345491547528,
+              0.026342345491547528
+            ],
+            "within": [
+              0.01177559234267874,
+              0.01177559234267874
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.017148560392069603,
+              0.017148560392069603
+            ],
+            "trial_mean": [
+              0.01192105013375473,
+              0.01192105013375473
+            ],
+            "within": [
+              0.005227510258314881,
+              0.005227510258314881
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              -0.002390675316560371,
+              -0.002390675316560371
+            ],
+            "trial_mean": [
+              -0.005021159821895377,
+              -0.005021159821895377
+            ],
+            "within": [
+              0.002630484505335006,
+              0.002630484505335006
+            ]
+          },
+          "positives": {
+            "total": 0,
+            "trial_mean": 0,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.0392392453988037,
+              0.0392392453988037
+            ],
+            "trial_mean": [
+              0.026870216201035683,
+              0.026870216201035683
+            ],
+            "within": [
+              0.012369029197767951,
+              0.012369029197767951
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        }
+      ]
+    },
+    {
+      "session": 6,
+      "scan_idx": 4,
+      "nuclei": 53,
+      "registered_units": 53,
+      "status": "RESPONSE_ANALYZED",
+      "assignment_count": 1,
+      "source": "microns_sixth_trial_level_result.json",
+      "source_sha256": "57dbb76773e77c1653a8744704d735fac13fc072244cddb31af3838b2273ff1a",
+      "input_sha256": "a1756df90152f7bd634caf3e62a90e1ba425dd243d2e2e1cffb4f6891d2991f4",
+      "samples_per_trial": 57,
+      "relative_step_seconds": 0.15879174240035354,
+      "summaries": [
+        {
+          "timing": "common_frame",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.034417665567220375,
+              0.034417665567220375
+            ],
+            "trial_mean": [
+              0.03576812212210323,
+              0.03576812212210323
+            ],
+            "within": [
+              -0.001350456554882871,
+              -0.001350456554882871
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 0
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.038580967387009335,
+              0.038580967387009335
+            ],
+            "trial_mean": [
+              0.04432605600884873,
+              0.04432605600884873
+            ],
+            "within": [
+              -0.0057450886218393775,
+              -0.0057450886218393775
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 0
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.016823997547706863,
+              0.016823997547706863
+            ],
+            "trial_mean": [
+              0.00959866005888995,
+              0.00959866005888995
+            ],
+            "within": [
+              0.007225337488816891,
+              0.007225337488816891
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.03428860002645969,
+              0.03428860002645969
+            ],
+            "trial_mean": [
+              0.03565127506639104,
+              0.03565127506639104
+            ],
+            "within": [
+              -0.0013626750399313814,
+              -0.0013626750399313814
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 0
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.03830655922724144,
+              0.03830655922724144
+            ],
+            "trial_mean": [
+              0.04410667574630721,
+              0.04410667574630721
+            ],
+            "within": [
+              -0.00580011651906579,
+              -0.00580011651906579
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 0
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.01693522192138499,
+              0.01693522192138499
+            ],
+            "trial_mean": [
+              0.009584646713345253,
+              0.009584646713345253
+            ],
+            "within": [
+              0.007350575208039705,
+              0.007350575208039705
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        }
+      ]
+    },
+    {
+      "session": 6,
+      "scan_idx": 6,
+      "nuclei": 49,
+      "registered_units": 49,
+      "status": "RESPONSE_ANALYZED",
+      "assignment_count": 1,
+      "source": "microns_seventh_trial_level_result.json",
+      "source_sha256": "7907ca3ec70f46e81570806549e348c8e72a56d295d191153c314cbc5c371bbe",
+      "input_sha256": "374d6b36e42b95bc25d42bc6faea1134a8abd8d3a9312d5a531473b7fae01b37",
+      "samples_per_trial": 57,
+      "relative_step_seconds": 0.15879386449978483,
+      "summaries": [
+        {
+          "timing": "common_frame",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.030880652589909168,
+              0.030880652589909168
+            ],
+            "trial_mean": [
+              0.01995110363154668,
+              0.01995110363154668
+            ],
+            "within": [
+              0.01092954895836252,
+              0.01092954895836252
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.026588757215552615,
+              0.026588757215552615
+            ],
+            "trial_mean": [
+              0.023496179722163925,
+              0.023496179722163925
+            ],
+            "within": [
+              0.003092577493388692,
+              0.003092577493388692
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.028324427228082382,
+              0.028324427228082382
+            ],
+            "trial_mean": [
+              0.013212377863467491,
+              0.013212377863467491
+            ],
+            "within": [
+              0.015112049364614796,
+              0.015112049364614796
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.03110555907114572,
+              0.03110555907114572
+            ],
+            "trial_mean": [
+              0.020116967547983883,
+              0.020116967547983883
+            ],
+            "within": [
+              0.010988591523161853,
+              0.010988591523161853
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.026970115361293467,
+              0.026970115361293467
+            ],
+            "trial_mean": [
+              0.023823624580616466,
+              0.023823624580616466
+            ],
+            "within": [
+              0.0031464907806769906,
+              0.0031464907806769906
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.028195084717580535,
+              0.028195084717580535
+            ],
+            "trial_mean": [
+              0.013168518129765808,
+              0.013168518129765808
+            ],
+            "within": [
+              0.015026566587814778,
+              0.015026566587814778
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        }
+      ]
+    },
+    {
+      "session": 6,
+      "scan_idx": 7,
+      "nuclei": 58,
+      "registered_units": 58,
+      "status": "RESPONSE_ANALYZED",
+      "assignment_count": 1,
+      "source": "microns_eighth_trial_level_result.json",
+      "source_sha256": "fb8586503447303d97e18a69f9b5a7b3799b6ceefca1aa77c11f9b474090362f",
+      "input_sha256": "e3ccf891a622b4b7f653b1181cad79a88357e1de826f1e555a381376116c4190",
+      "samples_per_trial": 57,
+      "relative_step_seconds": 0.1587947770003666,
+      "summaries": [
+        {
+          "timing": "common_frame",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.016247825806599295,
+              0.016247825806599295
+            ],
+            "trial_mean": [
+              0.00904825703491163,
+              0.00904825703491163
+            ],
+            "within": [
+              0.007199568771687646,
+              0.007199568771687646
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              -0.010232320570281696,
+              -0.010232320570281696
+            ],
+            "trial_mean": [
+              -0.0120597476640187,
+              -0.0120597476640187
+            ],
+            "within": [
+              0.001827427093737031,
+              0.001827427093737031
+            ]
+          },
+          "positives": {
+            "total": 0,
+            "trial_mean": 0,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.04436090817456949,
+              0.04436090817456949
+            ],
+            "trial_mean": [
+              0.030070592034493422,
+              0.030070592034493422
+            ],
+            "within": [
+              0.01429031614007605,
+              0.01429031614007605
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.015902386476123163,
+              0.015902386476123163
+            ],
+            "trial_mean": [
+              0.009092894621139002,
+              0.009092894621139002
+            ],
+            "within": [
+              0.00680949185498412,
+              0.00680949185498412
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              -0.010644728758268258,
+              -0.010644728758268258
+            ],
+            "trial_mean": [
+              -0.012038241708335522,
+              -0.012038241708335522
+            ],
+            "within": [
+              0.001393512950067225,
+              0.001393512950067225
+            ]
+          },
+          "positives": {
+            "total": 0,
+            "trial_mean": 0,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.04357232355537258,
+              0.04357232355537258
+            ],
+            "trial_mean": [
+              0.030298018051784375,
+              0.030298018051784375
+            ],
+            "within": [
+              0.013274305503588173,
+              0.013274305503588173
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        }
+      ]
+    },
+    {
+      "session": 7,
+      "scan_idx": 3,
+      "nuclei": 36,
+      "registered_units": 36,
+      "status": "RESPONSE_ANALYZED",
+      "assignment_count": 1,
+      "source": "microns_ninth_trial_level_result.json",
+      "source_sha256": "e759abcba0893997d1b212bf11a9d12a61fcb42d869489a4fdf63a936f36a884",
+      "input_sha256": "372d65c3639470098fdc1335141e9425f3438db0e221cb3c54d7d604938013fe",
+      "samples_per_trial": 57,
+      "relative_step_seconds": 0.15879410780007674,
+      "summaries": [
+        {
+          "timing": "common_frame",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.026525600134937728,
+              0.026525600134937728
+            ],
+            "trial_mean": [
+              0.016129180321416744,
+              0.016129180321416744
+            ],
+            "within": [
+              0.010396419813521048,
+              0.010396419813521048
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.02167647229044855,
+              0.02167647229044855
+            ],
+            "trial_mean": [
+              0.015275952085608212,
+              0.015275952085608212
+            ],
+            "within": [
+              0.006400520204840327,
+              0.006400520204840327
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.011216989584929279,
+              0.011216989584929279
+            ],
+            "trial_mean": [
+              -0.0019346897969157533,
+              -0.0019346897969157533
+            ],
+            "within": [
+              0.013151679381844979,
+              0.013151679381844979
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 0,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.026289032004249865,
+              0.026289032004249865
+            ],
+            "trial_mean": [
+              0.01592661649991316,
+              0.01592661649991316
+            ],
+            "within": [
+              0.010362415504336756,
+              0.010362415504336756
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.021441450071781058,
+              0.021441450071781058
+            ],
+            "trial_mean": [
+              0.014486585213127267,
+              0.014486585213127267
+            ],
+            "within": [
+              0.00695486485865379,
+              0.00695486485865379
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.010109847071336452,
+              0.010109847071336452
+            ],
+            "trial_mean": [
+              -0.0021107120926922907,
+              -0.0021107120926922907
+            ],
+            "within": [
+              0.012220559164028824,
+              0.012220559164028824
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 0,
+            "within": 1
+          }
+        }
+      ]
+    },
+    {
+      "session": 7,
+      "scan_idx": 4,
+      "nuclei": 52,
+      "registered_units": 52,
+      "status": "RESPONSE_ANALYZED",
+      "assignment_count": 1,
+      "source": "microns_tenth_trial_level_result.json",
+      "source_sha256": "51f47b94642824a9439ccb0a280f104e5eb85aa616770f02df752e8462d80e68",
+      "input_sha256": "d7a6b992448ac133176026aef01ca196116ee2fda9a2565f55120e977bff8c0f",
+      "samples_per_trial": 57,
+      "relative_step_seconds": 0.1587963072997809,
+      "summaries": [
+        {
+          "timing": "common_frame",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.028805593961913154,
+              0.028805593961913154
+            ],
+            "trial_mean": [
+              0.024643160285159758,
+              0.024643160285159758
+            ],
+            "within": [
+              0.0041624336767534,
+              0.0041624336767534
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.04072345734893626,
+              0.04072345734893626
+            ],
+            "trial_mean": [
+              0.0379038871267887,
+              0.0379038871267887
+            ],
+            "within": [
+              0.002819570222147528,
+              0.002819570222147528
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.024378913211409496,
+              0.024378913211409496
+            ],
+            "trial_mean": [
+              0.018741148771795415,
+              0.018741148771795415
+            ],
+            "within": [
+              0.005637764439614095,
+              0.005637764439614095
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.028503410631230287,
+              0.028503410631230287
+            ],
+            "trial_mean": [
+              0.02451323084308015,
+              0.02451323084308015
+            ],
+            "within": [
+              0.003990179788150143,
+              0.003990179788150143
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.03999697335422156,
+              0.03999697335422156
+            ],
+            "trial_mean": [
+              0.037682730920088246,
+              0.037682730920088246
+            ],
+            "within": [
+              0.002314242434133299,
+              0.002314242434133299
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.024093967763362614,
+              0.024093967763362614
+            ],
+            "trial_mean": [
+              0.018450251848021564,
+              0.018450251848021564
+            ],
+            "within": [
+              0.005643715915341083,
+              0.005643715915341083
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        }
+      ]
+    },
+    {
+      "session": 7,
+      "scan_idx": 5,
+      "nuclei": 2,
+      "registered_units": 2,
+      "status": "CONTRAST_UNDEFINED",
+      "source": "microns_remaining_support_result.json",
+      "source_sha256": "1c538a4a7a84b7a8212f9073898f80ff792c531de2774ebf886efd93de34a1a7"
+    },
+    {
+      "session": 8,
+      "scan_idx": 5,
+      "nuclei": 44,
+      "registered_units": 44,
+      "status": "RESPONSE_ANALYZED",
+      "assignment_count": 1,
+      "source": "microns_eleventh_trial_level_result.json",
+      "source_sha256": "ab433d51ab31d97ab9cb7db9026c054cb3bed27f4e8ee37f8d552d2af1299ed8",
+      "input_sha256": "15c7fffcc7a5f481f6588b8fcc8913bac28385c334635066e435c5d6562d1c1d",
+      "samples_per_trial": 57,
+      "relative_step_seconds": 0.15879465420039196,
+      "summaries": [
+        {
+          "timing": "common_frame",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.02265049030660309,
+              0.02265049030660309
+            ],
+            "trial_mean": [
+              0.011850962267380968,
+              0.011850962267380968
+            ],
+            "within": [
+              0.010799528039222177,
+              0.010799528039222177
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.026672076525822624,
+              0.026672076525822624
+            ],
+            "trial_mean": [
+              0.014288905654240047,
+              0.014288905654240047
+            ],
+            "within": [
+              0.012383170871582574,
+              0.012383170871582574
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.019263563823072666,
+              0.019263563823072666
+            ],
+            "trial_mean": [
+              0.014561067699744643,
+              0.014561067699744643
+            ],
+            "within": [
+              0.004702496123328009,
+              0.004702496123328009
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.022157073401620053,
+              0.022157073401620053
+            ],
+            "trial_mean": [
+              0.01166254687253126,
+              0.01166254687253126
+            ],
+            "within": [
+              0.010494526529088765,
+              0.010494526529088765
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.026207166273136566,
+              0.026207166273136566
+            ],
+            "trial_mean": [
+              0.013960647195671562,
+              0.013960647195671562
+            ],
+            "within": [
+              0.012246519077465068,
+              0.012246519077465068
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.01878638052231258,
+              0.01878638052231258
+            ],
+            "trial_mean": [
+              0.014510514001800841,
+              0.014510514001800841
+            ],
+            "within": [
+              0.0042758665205117055,
+              0.0042758665205117055
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        }
+      ]
+    },
+    {
+      "session": 8,
+      "scan_idx": 7,
+      "nuclei": 1,
+      "registered_units": 1,
+      "status": "CONTRAST_UNDEFINED",
+      "source": "microns_remaining_support_result.json",
+      "source_sha256": "1c538a4a7a84b7a8212f9073898f80ff792c531de2774ebf886efd93de34a1a7"
+    },
+    {
+      "session": 9,
+      "scan_idx": 3,
+      "nuclei": 41,
+      "registered_units": 46,
+      "status": "RESPONSE_ANALYZED",
+      "assignment_count": 32,
+      "source": "microns_multi93_analysis_result.json",
+      "source_sha256": "e14510a3e29b7429041b67ea0074ed55e4571af8e1c04e79a50d2ecf4d865c2a",
+      "input_sha256": "146c27d12b72c3c4bf38fc7bc2ae5460630c9a6732d618492bdd2cb854aa05a6",
+      "samples_per_trial": 78,
+      "relative_step_seconds": 0.11609860679982376,
+      "summaries": [
+        {
+          "timing": "common_frame",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.040910287330274984,
+              0.05322987002871211
+            ],
+            "trial_mean": [
+              0.024090505175532344,
+              0.03069933268404725
+            ],
+            "within": [
+              0.015787967699305537,
+              0.023661696150327354
+            ]
+          },
+          "positives": {
+            "total": 32,
+            "trial_mean": 32,
+            "within": 32
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.0322911599454455,
+              0.05379403796358349
+            ],
+            "trial_mean": [
+              0.023889810084533624,
+              0.03935340018962361
+            ],
+            "within": [
+              0.007291910902674943,
+              0.015386864376341774
+            ]
+          },
+          "positives": {
+            "total": 32,
+            "trial_mean": 32,
+            "within": 32
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.05181985843838687,
+              0.06283366873509146
+            ],
+            "trial_mean": [
+              0.023196462184911944,
+              0.029267001342514892
+            ],
+            "within": [
+              0.026925749897629705,
+              0.03519635544865519
+            ]
+          },
+          "positives": {
+            "total": 32,
+            "trial_mean": 32,
+            "within": 32
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.040810010036706305,
+              0.05294990597389103
+            ],
+            "trial_mean": [
+              0.02423107266596968,
+              0.030779469794813295
+            ],
+            "within": [
+              0.015574368229402743,
+              0.02329123995698785
+            ]
+          },
+          "positives": {
+            "total": 32,
+            "trial_mean": 32,
+            "within": 32
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.03241721019225159,
+              0.05392819905075525
+            ],
+            "trial_mean": [
+              0.02386629166844033,
+              0.039212066678459424
+            ],
+            "within": [
+              0.0074705913324006395,
+              0.015606484504120485
+            ]
+          },
+          "positives": {
+            "total": 32,
+            "trial_mean": 32,
+            "within": 32
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.051263560845963646,
+              0.061679239389048186
+            ],
+            "trial_mean": [
+              0.023094328842589648,
+              0.029150598010098252
+            ],
+            "within": [
+              0.02644845808344209,
+              0.03418913304201786
+            ]
+          },
+          "positives": {
+            "total": 32,
+            "trial_mean": 32,
+            "within": 32
+          }
+        }
+      ]
+    },
+    {
+      "session": 9,
+      "scan_idx": 4,
+      "nuclei": 36,
+      "registered_units": 45,
+      "status": "RESPONSE_ANALYZED",
+      "assignment_count": 384,
+      "source": "microns_multi94_analysis_result.json",
+      "source_sha256": "3ad3301c283cc8b67150f1bd3713c5193b64d16a1d455d327a4951e5a2adddb5",
+      "input_sha256": "f406d3a10b7f87f1b85635956d68b4c0bf94b6ca93d9977b134adab6bc2cdcbf",
+      "samples_per_trial": 78,
+      "relative_step_seconds": 0.11609930340046049,
+      "summaries": [
+        {
+          "timing": "common_frame",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.003994888935439344,
+              0.01774292233341369
+            ],
+            "trial_mean": [
+              0.004761534415668222,
+              0.016931778291720254
+            ],
+            "within": [
+              -0.001319177590358357,
+              0.0015110869276708907
+            ]
+          },
+          "positives": {
+            "total": 384,
+            "trial_mean": 384,
+            "within": 230
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.0002831719927279949,
+              0.016090335033863794
+            ],
+            "trial_mean": [
+              -0.00248517767373024,
+              0.011787287743353952
+            ],
+            "within": [
+              0.0025744958267244268,
+              0.00575996347000748
+            ]
+          },
+          "positives": {
+            "total": 384,
+            "trial_mean": 366,
+            "within": 384
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.004750840563439736,
+              0.017129744511569744
+            ],
+            "trial_mean": [
+              0.008617098446555796,
+              0.018914377222945682
+            ],
+            "within": [
+              -0.004208010110205548,
+              -0.0008531628554518223
+            ]
+          },
+          "positives": {
+            "total": 384,
+            "trial_mean": 384,
+            "within": 0
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.0039563185725805606,
+              0.017773258614186622
+            ],
+            "trial_mean": [
+              0.004792638951795374,
+              0.01699825604764997
+            ],
+            "within": [
+              -0.001418579325742908,
+              0.0014392046475923325
+            ]
+          },
+          "positives": {
+            "total": 384,
+            "trial_mean": 384,
+            "within": 227
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              0.000916532282007578,
+              0.01671841949319995
+            ],
+            "trial_mean": [
+              -0.0020958681436037407,
+              0.01218875933948392
+            ],
+            "within": [
+              0.002696301894060809,
+              0.005965310902530308
+            ]
+          },
+          "positives": {
+            "total": 384,
+            "trial_mean": 372,
+            "within": 384
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.0039056774756465905,
+              0.01691872665202917
+            ],
+            "trial_mean": [
+              0.008446745782742906,
+              0.018849456406089257
+            ],
+            "within": [
+              -0.004692376193068446,
+              -0.0010091626068843428
+            ]
+          },
+          "positives": {
+            "total": 384,
+            "trial_mean": 384,
+            "within": 0
+          }
+        }
+      ]
+    },
+    {
+      "session": 9,
+      "scan_idx": 6,
+      "nuclei": 20,
+      "registered_units": 20,
+      "status": "RESPONSE_ANALYZED",
+      "assignment_count": 1,
+      "source": "microns_last_trial_level_result.json",
+      "source_sha256": "99c4c5eeea2a940db512d2100ec83f75e2977fb0249b07298fc5c31fc3fd9637",
+      "input_sha256": "768a3c0ba2c622edc74cc3a9b94b3958f3b885e4de7255df239d3fe786e9166f",
+      "samples_per_trial": 87,
+      "relative_step_seconds": 0.10399375235010666,
+      "summaries": [
+        {
+          "timing": "common_frame",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.03877080463958631,
+              0.03877080463958631
+            ],
+            "trial_mean": [
+              0.019519676342989945,
+              0.019519676342989945
+            ],
+            "within": [
+              0.019251128296596344,
+              0.019251128296596344
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              -0.004655111071683806,
+              -0.004655111071683806
+            ],
+            "trial_mean": [
+              -0.010723175474539288,
+              -0.010723175474539288
+            ],
+            "within": [
+              0.006068064402855498,
+              0.006068064402855498
+            ]
+          },
+          "positives": {
+            "total": 0,
+            "trial_mean": 0,
+            "within": 1
+          }
+        },
+        {
+          "timing": "common_frame",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.022949896967595286,
+              0.022949896967595286
+            ],
+            "trial_mean": [
+              0.0071531516552145805,
+              0.0071531516552145805
+            ],
+            "within": [
+              0.015796745312380678,
+              0.015796745312380678
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "all10",
+          "ranges": {
+            "total": [
+              0.03846320907340394,
+              0.03846320907340394
+            ],
+            "trial_mean": [
+              0.01928146222977547,
+              0.01928146222977547
+            ],
+            "within": [
+              0.01918174684362842,
+              0.01918174684362842
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "first5",
+          "ranges": {
+            "total": [
+              -0.004284064381615178,
+              -0.004284064381615178
+            ],
+            "trial_mean": [
+              -0.010626279523007914,
+              -0.010626279523007914
+            ],
+            "within": [
+              0.0063422151413929225,
+              0.0063422151413929225
+            ]
+          },
+          "positives": {
+            "total": 0,
+            "trial_mean": 0,
+            "within": 1
+          }
+        },
+        {
+          "timing": "positive_delay_sensitivity",
+          "subset": "last5",
+          "ranges": {
+            "total": [
+              0.02176382043101275,
+              0.02176382043101275
+            ],
+            "trial_mean": [
+              0.0075041507643408825,
+              0.0075041507643408825
+            ],
+            "within": [
+              0.014259669666671767,
+              0.014259669666671767
+            ]
+          },
+          "positives": {
+            "total": 1,
+            "trial_mean": 1,
+            "within": 1
+          }
+        }
+      ]
+    }
+  ],
+  "scans_listed": 16,
+  "scans_analyzed": 14,
+  "undefined_scans": 2,
+  "unique_nuclei_listed": 486,
+  "unique_nuclei_with_response": 483,
+  "uncovered_nuclei": [
+    256600,
+    262925,
+    292575
+  ],
+  "all10_scan_direction_counts": {
+    "common_frame": {
+      "total": {
+        "all_assignments_positive": 14,
+        "all_assignments_negative": 0,
+        "includes_zero_or_mixed": 0
+      },
+      "within": {
+        "all_assignments_positive": 12,
+        "all_assignments_negative": 1,
+        "includes_zero_or_mixed": 1
+      }
+    },
+    "positive_delay_sensitivity": {
+      "total": {
+        "all_assignments_positive": 14,
+        "all_assignments_negative": 0,
+        "includes_zero_or_mixed": 0
+      },
+      "within": {
+        "all_assignments_positive": 12,
+        "all_assignments_negative": 1,
+        "includes_zero_or_mixed": 1
+      }
+    }
+  },
+  "code_sha256": "82a2a644534d200bba5765e0d1b3c105dd062ea5a30865f646f29bb1ee4656b8",
+  "limits": "Descriptive scope completion only, not scientific closure. Same animal, overlapping nuclei, scan-specific clocks/populations/weights. No pooled p-value. First-scan disputed exclusion and scan5/3 omission sensitivities remain in original sources."
+}

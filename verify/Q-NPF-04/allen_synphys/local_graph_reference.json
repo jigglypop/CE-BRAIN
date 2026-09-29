@@ -1,0 +1,391 @@
+{
+  "kind": "AUTHOR_LABEL_REFERENCE_NOT_NEW_ANATOMICAL_RECONSTRUCTION",
+  "experiment_id": 3337,
+  "experiment_ext_id": "1574292898.139",
+  "sql": "SELECT p.id,pre.ext_id AS pre,post.ext_id AS post,p.has_synapse,s.id AS synapse,s.psp_amplitude,s.psc_amplitude FROM pair p JOIN cell pre ON pre.id=p.pre_cell_id JOIN cell post ON post.id=p.post_cell_id LEFT JOIN synapse s ON s.pair_id=p.id WHERE p.experiment_id=3337 ORDER BY pre.ext_id,post.ext_id",
+  "rows": [
+    {
+      "id": 104245,
+      "pre": "1",
+      "post": "2",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104246,
+      "pre": "1",
+      "post": "3",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104247,
+      "pre": "1",
+      "post": "5",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104248,
+      "pre": "1",
+      "post": "6",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104249,
+      "pre": "1",
+      "post": "7",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104250,
+      "pre": "1",
+      "post": "8",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104251,
+      "pre": "2",
+      "post": "1",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104252,
+      "pre": "2",
+      "post": "3",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104253,
+      "pre": "2",
+      "post": "5",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104254,
+      "pre": "2",
+      "post": "6",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104255,
+      "pre": "2",
+      "post": "7",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104256,
+      "pre": "2",
+      "post": "8",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104257,
+      "pre": "3",
+      "post": "1",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104258,
+      "pre": "3",
+      "post": "2",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104259,
+      "pre": "3",
+      "post": "5",
+      "has_synapse": 0,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104260,
+      "pre": "3",
+      "post": "6",
+      "has_synapse": 0,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104261,
+      "pre": "3",
+      "post": "7",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104262,
+      "pre": "3",
+      "post": "8",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104263,
+      "pre": "5",
+      "post": "1",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104264,
+      "pre": "5",
+      "post": "2",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104265,
+      "pre": "5",
+      "post": "3",
+      "has_synapse": 0,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104266,
+      "pre": "5",
+      "post": "6",
+      "has_synapse": 0,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104267,
+      "pre": "5",
+      "post": "7",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104268,
+      "pre": "5",
+      "post": "8",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104269,
+      "pre": "6",
+      "post": "1",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104270,
+      "pre": "6",
+      "post": "2",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104271,
+      "pre": "6",
+      "post": "3",
+      "has_synapse": 0,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104272,
+      "pre": "6",
+      "post": "5",
+      "has_synapse": 1,
+      "synapse": 1002,
+      "psp_amplitude": 0.00015408624777150012,
+      "psc_amplitude": -6.462348535570529e-26
+    },
+    {
+      "id": 104273,
+      "pre": "6",
+      "post": "7",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104274,
+      "pre": "6",
+      "post": "8",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104275,
+      "pre": "7",
+      "post": "1",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104276,
+      "pre": "7",
+      "post": "2",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104277,
+      "pre": "7",
+      "post": "3",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104278,
+      "pre": "7",
+      "post": "5",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104279,
+      "pre": "7",
+      "post": "6",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104280,
+      "pre": "7",
+      "post": "8",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104281,
+      "pre": "8",
+      "post": "1",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104282,
+      "pre": "8",
+      "post": "2",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104283,
+      "pre": "8",
+      "post": "3",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104284,
+      "pre": "8",
+      "post": "5",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104285,
+      "pre": "8",
+      "post": "6",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "id": 104286,
+      "pre": "8",
+      "post": "7",
+      "has_synapse": null,
+      "synapse": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    }
+  ],
+  "counts": {
+    "positive": 1,
+    "negative": 5,
+    "unassessed": 36
+  }
+}

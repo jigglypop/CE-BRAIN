@@ -1,0 +1,36 @@
+{
+  "question": "Does reciprocity improve held-out patient amplitude contrasts beyond planar distance?",
+  "status": "exploratory cross-validation after observing this dataset; not independent confirmation",
+  "support": "prior 21 informative clusters, 11 patients; detected finite-positive amplitudes only",
+  "target": "orthonormal contrasts U_null.T log(mV); U_null from sender/receiver incidence ONLY; not individual amplitude prediction",
+  "models": {
+    "linear_base": [
+      1
+    ],
+    "linear_reciprocal": [
+      0,
+      1
+    ],
+    "quadratic_base": [
+      1,
+      2
+    ],
+    "quadratic_reciprocal": [
+      0,
+      1,
+      2
+    ]
+  },
+  "features": [
+    "reciprocal",
+    "planar distance/100",
+    "(planar distance/100)^2"
+  ],
+  "split": "leave-one-patient-out; all clusters of held patient excluded from fitting",
+  "score": "held-out squared error, pooled per contrast and equally weighted patient MSE; count patient improvements",
+  "gates": "source hashes, topology-only null space, projection identity, train-test patient separation, full train rank, normal equations",
+  "limits": "sample selection and model choices already informed by data; no causal or L2 promotion; null-basis contrasts not independent biological units",
+  "archive_sha256": "3711f8b8b911a24b0e5fd69e6e6c845f9e8601539807a9b960118c77ba5ad68d",
+  "prior_sha256": "bca2d08f8ef02edc50c0b83bc76a41853b630a776527982812eeb8219dbdf50e",
+  "code_sha256": "03e4e1dcbf0c4ec56a29d12a8a58edf9cf3ecff5970059deee4d422ecf2bc6e5"
+}

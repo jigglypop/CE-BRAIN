@@ -1,0 +1,38 @@
+{
+  "id": "Q-NPF-04-C19",
+  "mode": "prospective synthetic model-validity experiment",
+  "OBJECTIVE_CHAIN": "Keep the brain-structure goal and gain/coupling/delay distinction; test whether C18's conditional intervention inference survives the shunting term of a conductance intervention.",
+  "BIO_STARTING_MECHANISM": "Linearization of I_add=G_add*s*(E_rev-V) contributes coupling and -G_add*s0*deltaV. Normalize baseline leak to 1; h is added tonic leak in those units. This is a conditional scalar model, not established whole-CNS biology.",
+  "CE_DELTA": "No CE term or anatomical claim. One model change: retain the omitted shunt h.",
+  "MEASUREMENT_MODEL": "R=(1+i*w*tm+g*k*exp(-i*w*tau))/(1+h+i*w*tm+g*(k+d)*exp(-i*w*tau)), d=0.1. Constant capacitance implies post-intervention effective membrane time tm/(1+h). Same exogenous input and recording filter are assumed across conditions.",
+  "DATA_PROVENANCE": "Synthetic only; C18 originals retained and hash checked. The independently calibrated mapping from physical conductance to d and h is not available.",
+  "DATA_SPLIT": "Fixed development grid; seed 20260907, two independent noise replicates per case. Not biological holdout.",
+  "OBSERVABLES": "48 complex ratios, 0.3 to 3 Hz; real and imaginary noise SD 0.01, independent. Same observation support as C18.",
+  "ESTIMANDS": "Recovery of baseline g,k,tau when tm,h are ignored, jointly fitted, or independently measured exactly. Exact measurement is an ideal positive control, not a feasible error budget.",
+  "RESIDUAL_RULE": "Log-parameter finite-difference step 1e-5, linear h step 1e-5; relative singular-value rank threshold 1e-7. Noiseless joint-fit success requires maximum g/k/tau/tm relative error <=0.001 and absolute h error <=0.001. Report all noise errors and failures. No sample-size/P3/P6 claim.",
+  "FALSIFIER": "Rank or recovery failure limits joint nuisance fitting; lower noise performance under exact calibration identifies a measurement requirement, not permission to assume calibration. Any unrestricted recording-filter equivalence defeats unconstrained identification.",
+  "MATCHED_CONTROLS": "C18 h=0 reduction; omitted-shunt C18 fit; joint tm/h fit; oracle-calibrated tm/h; exact alternative-mechanism plus recording-filter witness.",
+  "MODEL_SELECTION": "g=[0.8,1.2], k=[0.25,0.4], tau=[0.08,0.3,0.6], tm=0.02, h=[0,0.1,0.3], total 36. No parameter/grid changes after output. All generated and accepted fitted loops must satisfy g*k<1 and g*(k+d)<1+h.",
+  "REVISION_TRIGGER": "Retain any failed rows. Do not revise C18 or the old spec. New biological or more complex model work requires a separate contract and independent measurements.",
+  "CLAIM_CEILING": "BIO_EVIDENCE_L0 / ENDPOINT_NOT_EVALUATED",
+  "routes": [
+    {"id":"A","description":"Ignore shunt; retain as misspecified negative control."},
+    {"id":"B","description":"Fit shunt and membrane time jointly with all three mechanisms.","selected":true},
+    {"id":"C","description":"Independent shunt and membrane calibration; ideal measurement comparator."}
+  ],
+  "preimplementation_audit": {
+    "goal_clear":true,
+    "parent":"C18 conditional three-mechanism experiment; not an L4 or other Stage gate",
+    "reason":"Determine whether biological side effects invalidate the apparent three-mechanism separation.",
+    "stability":"Positive leak; delayed feedback smaller than leak in each condition excludes Re(s)>=0 roots by magnitude inequality.",
+    "next_gate":"Quantify nuisance failure and necessary independent measurements; no biological success until the full measurement bridge is supplied."
+  },
+  "fit_constants": {
+    "initial_g":1.0,"initial_k":0.3,"initial_tau":[0.1,0.4,0.7],"initial_tm":0.02,"initial_h":0.1,
+    "g_bounds":[0.3,2.0],"k_bounds":[0.05,0.5],"tau_bounds":[0.03,0.8],"tm_bounds":[0.005,0.1],"h_bounds":[-0.2,0.8],
+    "note":"Signed leak-change fit permits calibration/model mismatch; generated shunts are nonnegative.",
+    "max_nfev":600,"ftol":1e-11,"xtol":1e-11,"gtol":1e-11
+  },
+  "sources": ["https://elifesciences.org/articles/75517","https://arxiv.org/abs/1710.05098"],
+  "source_scope":"Sources motivate conductance/time-constant and calibration concerns only; formulas and identifiability tests here are independently derived conditional models."
+}

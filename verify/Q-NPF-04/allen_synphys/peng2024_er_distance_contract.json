@@ -1,0 +1,15 @@
+{
+  "question": "기존 정보 있는 ER 21기록에서 거리 조정 후 상호연결 진폭 대비",
+  "status": "exploratory sensitivity after prior result; no confirmation or causal inference",
+  "support": "prior author_published informative records; finite positive amplitudes; require all distances finite and coordinate consistent",
+  "models": [
+    "sender_receiver",
+    "plus common linear distance/100",
+    "plus common linear and quadratic distance/100"
+  ],
+  "patient": "delete one patient and refit each model; no p-values or confidence intervals",
+  "gates": "3D coordinate norm and reverse distance agree; prior coefficient reproduced; direct augmented least squares agrees",
+  "archive_sha256": "3711f8b8b911a24b0e5fd69e6e6c845f9e8601539807a9b960118c77ba5ad68d",
+  "prior_sha256": "bca2d08f8ef02edc50c0b83bc76a41853b630a776527982812eeb8219dbdf50e",
+  "code_sha256": "c789b67374809ac03c8a4f7afba3eec955cd3e1be22c23be9bff8913c4b6fe6a"
+}

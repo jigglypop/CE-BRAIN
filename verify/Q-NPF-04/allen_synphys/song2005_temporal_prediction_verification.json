@@ -1,0 +1,12 @@
+{
+  "result_sha256": "b0efd373e3e33c777cb5089cb702dd65d33208eef31cbfaaa2e8a3991f2b1893",
+  "verifier_sha256": "ae7d556a4136e2562437ea88c784fb59b8bcea7d5aeec9f3b48efe3eb78edd7f",
+  "status": "PASS",
+  "max_probability_difference_with_independent_refit": 7.368217147529776e-12,
+  "train_direction_rate": 0.10737362219688332,
+  "test_direction_rate": 0.13127690100430417,
+  "test_predicted_direction_rate": 0.11175826783689159,
+  "test_direction_observed": 366,
+  "test_direction_predicted": 311.58205072925375,
+  "limits": "원본 표에서 독립 재계산. 방향 기준선은 재적합, 의존 계수는 저장값 사용. 주변확률 오차와 의존성 오차의 인과 분해 아님."
+}

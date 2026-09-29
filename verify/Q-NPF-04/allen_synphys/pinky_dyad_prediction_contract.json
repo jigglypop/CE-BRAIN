@@ -1,0 +1,20 @@
+{
+  "question": "Does fixed-marginal reciprocal dependence improve masked prediction in Pinky, including a coefficient frozen from Minnie?",
+  "scope": "As-released362Pinky e-labelled cells, retain28zero-degreecells, threshold1, omit2selfannotations; source discrepancies and proofreading limitations unchanged",
+  "split": "Same balanced5fold procedure, new fixedseed2026092600, both directions of eachdyad hidden together",
+  "baseline": "Same fixed ridge sender/receiver/distance model, fitted only on Pinky training labels in eachfold; no neighbor features; same Newton correction and1e-5gradientgate",
+  "models": [
+    "independent",
+    "pinky_fitted_constant",
+    "minnie_frozen_constant"
+  ],
+  "transfer_log_odds": 0.3386424856601824,
+  "transfer_rule": "Unweighted mean of five previously saved Minnie constant log-odds coefficients, fixed before Pinky prediction; only dependence coefficient transferred, not marginal model",
+  "endpoint": "Primary heldoutfourstate logloss; secondarymutual logloss/Brier and predictedcount; no pvalue",
+  "interpretation": "Different tissue but already inspected data, different age/volume/QC. Adaptive transport and internal validation, not independent preregistered confirmation or causal feedback inference.",
+  "prior_sha256": "7e4f7b0d4bf4e73fa45e9ce145494d681502be8cb4767a581a257dfb308bb442",
+  "source_contract_sha256": "5001b4539e1dba1ed2ae7b0c8fc035578b1b4700b939670c9336ef53f2ccb80a",
+  "marginal_code_sha256": "4598ef11a15c743020c17dc3d7c9e027230ab81eabb79c8bee5dcbbdf7d10ae1",
+  "joint_code_sha256": "3096918dfe1bf9114f692bfb450b0bb2ddf64f331be5f79653cbefdb123f6d64",
+  "code_sha256": "966ce3c6090b149786d145ea97b564ceb53d1d6aa730f3ba309f7fb66529825c"
+}

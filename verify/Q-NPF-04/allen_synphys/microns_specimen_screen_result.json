@@ -1,0 +1,19 @@
+{
+  "microns_reference": {
+    "source": "https://www.nature.com/articles/s41586-025-08790-w",
+    "section": "Methods / Mouse lines and Timeline",
+    "date_of_birth": "2017-12-19",
+    "sex": "male",
+    "genotype": "Slc17a7-Cre;Ai162",
+    "source_access_date": "2026-09-05"
+  },
+  "db_sha256": "7372499fdd874f057565080d5769baaf2659ef39d9f3bc3c7147dd1e1c280a53",
+  "population_sha256": "43dfbcea6b5d3462521ce5d8eda009d5fd56c8e417f92d8e8922d9c9563b505b",
+  "code_sha256": "1754036e8b7759c167df0995abb83de7d81678ad8da2049354f32be32dd65f4c",
+  "sql": "SELECT id,date_of_birth,sex,genotype,lims_specimen_name FROM slice WHERE species=? ORDER BY id",
+  "tested_mouse_slices": 2561,
+  "different_known_birth_date_slices": 2561,
+  "matching_birth_date_candidates": [],
+  "missing_birth_date_candidates": [],
+  "conclusion": "metadata screen only; date mismatch supports distinct specimens if metadata correct; shared universal specimen ID and exact export-specimen binding are not established; matching DOB would not prove identity"
+}

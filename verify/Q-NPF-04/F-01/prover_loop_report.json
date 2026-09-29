@@ -1,0 +1,536 @@
+{
+ "role": "prover-bio",
+ "mode": "conjecture (card attempt)",
+ "question": "Q-NPF-04",
+ "date": "2026-09-04",
+ "routing_receipt": "verify/_routing/870ccf52-e14f-4026-af42-39b8f4c7184a.json",
+ "verdict": "FAILURE REPORT, NO CARD WRITTEN. C1, C2 and C3 all fail precondition P3 (channel identification certificate). Per verify/Q-NPF-04/spec.md the correct output is the failure table, not a card.",
+ "scope_change_implemented": {
+  "what": "forward model extended from a local recurrent patch to LONG-AXIS FEEDBACK LOOPS closed by long conduction paths, with per-loop path length L varying across loops",
+  "file": "verify/Q-NPF-04/F-01/fwd_loop.py",
+  "loops_per_animal": 8,
+  "L_range_m": [
+   0.008,
+   0.06
+  ],
+  "v_m_per_s": 0.1,
+  "tau_syn_s": 0.002,
+  "note": "the scope change WORKED for its stated purpose: the delay channel is no longer a micro-perturbation. The prior local-circuit certificate had delay z = 0.07/0.10/0.18; here the delay channel reaches |z| = 4.17 on the period-vs-length slope. C1 nevertheless fails, and it fails for a DIFFERENT reason than its predecessors."
+ },
+ "topology_finding": {
+  "claim": "the spec C1 slope of EXACTLY 2 selects the loop topology; it is not free",
+  "single_limb_ring": "tau_loop = L/v + tau_syn traversed once -> 1/f = 2(L/v+tau_syn), slope 2",
+  "two_limb_ring": "tau_loop = 2(L/v+tau_syn) -> slope 4; measured 4.269 / 4.018 / 4.057 / 4.002 across v in {0.5,0.2,0.1,0.05} and tau_m in {0.020,0.005}",
+  "adopted": "single-limb ring, matching the SINGLE arctan in the spec resonance equation"
+ },
+ "P3_certificate": {
+  "criteria": {
+   "C_A": "max|z| >= 2.0 for every channel",
+   "C_B": "pairwise angle >= 15 deg",
+   "placebo": "within-phase null must give z = 0 by construction"
+  },
+  "C1": {
+   "script": "c14_loop_cert.py",
+   "result_file": "result_c14_loop_cert.json",
+   "statistics": {
+    "S1": "slope of measured period 1/f on measured path term L/v0 + tau_syn",
+    "S2": "mean spectral peak sharpness f/FWHM (damping proxy)",
+    "S3": "mean log broadband baseline power"
+   },
+   "channel_response_matrix_in_null_sd_units": [
+    [
+     0.3193943222163742,
+     0.3176717224536604,
+     -7.25865503890857
+    ],
+    [
+     0.6884594575209483,
+     1.3053161539177176,
+     -11.613656148643054
+    ],
+    [
+     -4.17337329729179,
+     1.5864076011700439,
+     -5.005207641651377
+    ]
+   ],
+   "channel_norms": [
+    7.272619956396973,
+    11.707042146727037,
+    6.707148223473489
+   ],
+   "pairwise_angle_deg": {
+    "gain-efficacy": 3.9941463950358944,
+    "gain-delay": 43.29590957143746,
+    "efficacy-delay": 43.10710052730197
+   },
+   "null_sd": [
+    0.10421211954857845,
+    2.8477230618314295,
+    0.02820630698999335
+   ],
+   "placebo_mean": [
+    0.007165645301030036,
+    -0.12500002147623085,
+    -0.0018056904365001472
+   ],
+   "per_world": {
+    "true_all": {
+     "n_rep": 28,
+     "mean": [
+      -0.18908202902836493,
+      5.6656097139904205,
+      -0.4218480517397282
+     ],
+     "sd": [
+      0.5793093385623631,
+      6.571561185511246,
+      0.2492881210867281
+     ],
+     "z": [
+      -1.883155962852422,
+      2.0334174390337627,
+      -14.891788614945053
+     ]
+    },
+    "gain_only": {
+     "n_rep": 197,
+     "mean": [
+      0.04045040459098002,
+      0.7796410686467709,
+      -0.2065455427984174
+     ],
+     "sd": [
+      0.1898957676357484,
+      3.6403071229308406,
+      0.11404748197003071
+     ],
+     "z": [
+      0.3193943222163742,
+      0.3176717224536604,
+      -7.25865503890857
+     ]
+    },
+    "efficacy_only": {
+     "n_rep": 115,
+     "mean": [
+      0.07891146459255256,
+      3.5921788930163574,
+      -0.32938404104135
+     ],
+     "sd": [
+      0.2766146818128854,
+      6.49596650986394,
+      0.21270529023612186
+     ],
+     "z": [
+      0.6884594575209483,
+      1.3053161539177176,
+      -11.613656148643054
+     ]
+    },
+    "delay_only": {
+     "n_rep": 200,
+     "mean": [
+      -0.42775043167718707,
+      4.39264948984038,
+      -0.1429841137255795
+     ],
+     "sd": [
+      0.20285727796477096,
+      3.5084066305432757,
+      0.07818974407099501
+     ],
+     "z": [
+      -4.17337329729179,
+      1.5864076011700439,
+      -5.005207641651377
+     ]
+    },
+    "placebo": {
+     "n_rep": 200,
+     "mean": [
+      0.007165645301030036,
+      -0.12500002147623085,
+      -0.0018056904365001472
+     ],
+     "sd": [
+      0.10421211954857845,
+      2.8477230618314295,
+      0.02820630698999335
+     ],
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "pass_CA": true,
+   "pass_CB": false,
+   "subset_scan": {
+    "S1": {
+     "channel_norms": {
+      "gain": 0.319,
+      "efficacy": 0.688,
+      "delay": 4.173
+     },
+     "min_pairwise_angle_deg": null,
+     "pass_CA": false,
+     "pass_CB": null
+    },
+    "S2": {
+     "channel_norms": {
+      "gain": 0.318,
+      "efficacy": 1.305,
+      "delay": 1.586
+     },
+     "min_pairwise_angle_deg": null,
+     "pass_CA": false,
+     "pass_CB": null
+    },
+    "S3": {
+     "channel_norms": {
+      "gain": 7.259,
+      "efficacy": 11.614,
+      "delay": 5.005
+     },
+     "min_pairwise_angle_deg": null,
+     "pass_CA": true,
+     "pass_CB": null
+    },
+    "S1+S2": {
+     "channel_norms": {
+      "gain": 0.45,
+      "efficacy": 1.476,
+      "delay": 4.465
+     },
+     "min_pairwise_angle_deg": 17.347,
+     "pass_CA": false,
+     "pass_CB": true
+    },
+    "S1+S3": {
+     "channel_norms": {
+      "gain": 7.266,
+      "efficacy": 11.634,
+      "delay": 6.517
+     },
+     "min_pairwise_angle_deg": 0.873,
+     "pass_CA": true,
+     "pass_CB": false
+    },
+    "S2+S3": {
+     "channel_norms": {
+      "gain": 7.266,
+      "efficacy": 11.687,
+      "delay": 5.251
+     },
+     "min_pairwise_angle_deg": 3.907,
+     "pass_CA": true,
+     "pass_CB": false
+    },
+    "S1+S2+S3": {
+     "channel_norms": {
+      "gain": 7.273,
+      "efficacy": 11.707,
+      "delay": 6.707
+     },
+     "min_pairwise_angle_deg": 3.994,
+     "pass_CA": true,
+     "pass_CB": false
+    }
+   },
+   "why_it_fails": "C-A and C-B cannot be satisfied together. EVERY one of the seven non-empty statistic subsets fails at least one criterion. The subsets that detect gain at all (any subset containing S3) collapse the gain-efficacy angle to about 4 deg; the subset that separates gain from efficacy (S1+S2, 17.3 deg) leaves the gain response norm at 0.45, far below the required 2.0."
+  },
+  "C2": {
+   "script": "c15_c2_lag_cert.py",
+   "result_file": "result_c15_c2_lag_cert.json",
+   "statistics": {
+    "U1": "mean pre->post cross-spectral phase-slope lag",
+    "U2": "mean normalised coupling (root coherence)",
+    "U3": "mean log broadband power"
+   },
+   "channel_response_matrix_in_null_sd_units": [
+    [
+     0.14176210347806897,
+     1.865674164396929,
+     0.9968298754595254
+    ],
+    [
+     -0.34675049825888965,
+     -4.809327753429751,
+     -4.072324337708325
+    ],
+    [
+     -0.2313678890400639,
+     -1.471130565527286,
+     0.5290644362110636
+    ]
+   ],
+   "channel_norms": [
+    2.1200250900141158,
+    6.311394050401543,
+    1.5804003981810488
+   ],
+   "pairwise_angle_deg": {
+    "gain-efficacy": 12.137475208472857,
+    "gain-delay": 47.812230010552476,
+    "efficacy-delay": 59.90982416778562
+   },
+   "per_world": {
+    "true_all": {
+     "n_rep": 200,
+     "mean": [
+      -0.0363194328106598,
+      -0.017990634711335107,
+      -0.07022477902906796
+     ],
+     "sd": [
+      0.08437768351094681,
+      0.0041530457860232,
+      0.02293191909568248
+     ],
+     "z": [
+      -0.39550019949513443,
+      -4.327961676144024,
+      -2.5764154919208697
+     ]
+    },
+    "gain_only": {
+     "n_rep": 200,
+     "mean": [
+      0.010561443169040553,
+      0.00816195827946557,
+      0.028465161725127287
+     ],
+     "sd": [
+      0.08133619760496666,
+      0.004317095208545107,
+      0.024809118838255827
+     ],
+     "z": [
+      0.14176210347806897,
+      1.865674164396929,
+      0.9968298754595254
+     ]
+    },
+    "efficacy_only": {
+     "n_rep": 200,
+     "mean": [
+      -0.032065591279146606,
+      -0.020023200303330328,
+      -0.1115404851129945
+     ],
+     "sd": [
+      0.0945354406854391,
+      0.004164059761139804,
+      0.022553262941335563
+     ],
+     "z": [
+      -0.34675049825888965,
+      -4.809327753429751,
+      -4.072324337708325
+     ]
+    },
+    "delay_only": {
+     "n_rep": 200,
+     "mean": [
+      -0.0219974406512925,
+      -0.005927681188886631,
+      0.015545885621752893
+     ],
+     "sd": [
+      0.08594671023347532,
+      0.004351584737386286,
+      0.028193212534698944
+     ],
+     "z": [
+      -0.2313678890400639,
+      -1.471130565527286,
+      0.5290644362110636
+     ]
+    },
+    "placebo": {
+     "n_rep": 200,
+     "mean": [
+      -0.0018085510684078792,
+      0.000284159466117267,
+      0.0009335843391516277
+     ],
+     "sd": [
+      0.08725882259049653,
+      0.004222494454649194,
+      0.02761913347880346
+     ],
+     "z": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "subset_scan": {
+    "[0]": {
+     "norms": [
+      0.14176210347806897,
+      0.34675049825888965,
+      0.2313678890400639
+     ],
+     "min_angle": null,
+     "pass_CA": false,
+     "pass_CB": null
+    },
+    "[1]": {
+     "norms": [
+      1.865674164396929,
+      4.809327753429751,
+      1.471130565527286
+     ],
+     "min_angle": null,
+     "pass_CA": false,
+     "pass_CB": null
+    },
+    "[2]": {
+     "norms": [
+      0.9968298754595254,
+      4.072324337708325,
+      0.5290644362110636
+     ],
+     "min_angle": null,
+     "pass_CA": false,
+     "pass_CB": null
+    },
+    "[0, 1]": {
+     "norms": [
+      1.8710522658869544,
+      4.821811832491231,
+      1.4892132959745852
+     ],
+     "min_angle": 0.22136920210181701,
+     "pass_CA": false,
+     "pass_CB": false
+    },
+    "[0, 2]": {
+     "norms": [
+      1.0068596201016204,
+      4.08706024173052,
+      0.5774428783370575
+     ],
+     "min_angle": 3.227042067184519,
+     "pass_CA": false,
+     "pass_CB": false
+    },
+    "[1, 2]": {
+     "norms": [
+      2.115280096891859,
+      6.301861546511571,
+      1.5633727381824087
+     ],
+     "min_angle": 12.14084443898491,
+     "pass_CA": false,
+     "pass_CB": false
+    },
+    "[0, 1, 2]": {
+     "norms": [
+      2.1200250900141158,
+      6.311394050401543,
+      1.5804003981810488
+     ],
+     "min_angle": 12.137475208472857,
+     "pass_CA": false,
+     "pass_CB": false
+    }
+   },
+   "pass_CA": false,
+   "pass_CB": false,
+   "why_it_fails": "fails C-A outright: delay norm 1.58, gain norm 2.12, and the DELAY response on the lag statistic itself is z = -0.23. Root cause is an unambiguity ceiling, not estimator quality: at the named frame rate the phase-slope lag is unwrappable only up to 1/(2 f_max) = 0.167 s, while the generating transport times span 0.080-0.600 s, so 6 of 8 loops wrap. C2 is blind to exactly the long loops that carry the first-order delay term."
+  },
+  "C3": {
+   "method": "analytic, no Monte Carlo needed",
+   "result_file": "result_c16_structural.json",
+   "why_it_fails": "C3 embeds history in the coordinate and builds a metric from the SAME second-order statistics. The gain-efficacy degeneracy below is a statement about the power spectrum, so every lagged covariance inherits it exactly: the ratio of gain-world to efficacy-world lagged autocovariance is the constant 1.2100000 over all 400 lags (min 1.2099999999998985, max 1.2100000000000075). Any history-embedded second-order statistic therefore has gain-efficacy angle 0 and fails C-B."
+  }
+ },
+ "root_cause": {
+  "name": "EXACT gain-efficacy degeneracy of the delayed feedback loop",
+  "statement": "In the long-axis ring the intrinsic gain g and the coupling strength k enter the closed-loop transfer ONLY through the product g*k in the denominator, while g additionally multiplies the numerator. Consequently a gain change and an efficacy change matched to the same loop product differ by a FREQUENCY-INDEPENDENT constant: S_gain(w)/S_efficacy(w) = exp(2*dlog g) = 1.2100 exactly.",
+  "measured_max_spread_over_grid": 2.4424906541753444e-15,
+  "grid": "42 configurations: L in {8,10.7,14.8,24,33,48,60} mm x node in {0,1} x k in {1.2,1.6,2.5}",
+  "consequence": "The two channels are distinguishable ONLY by an overall multiplicative power scale. P2 requires the statistic to be invariant under o -> a*o + b. Any statistic satisfying P2 is therefore EXACTLY blind to the gain-efficacy contrast, and any statistic that sees it (like S3 log baseline power) is not scale invariant and is the same object that killed F-03 via the zero-point. This is an identification obstruction, not a design failure."
+ },
+ "what_DID_work": {
+  "delay_channel_is_now_first_order": "yes; this is the scope change paying off",
+  "noisefree_T1_slope": {
+   "base": 2.004535582784728,
+   "gain": 2.004535582784728,
+   "efficacy": 2.004535582784728,
+   "delay": 1.6063283466835916
+  },
+  "predicted_delay_slope_2_over_1p25": 1.6,
+  "note": "noise-free, the period-vs-length slope is 2.0045 in the base, gain and efficacy worlds and 1.6063 in the delay world, against the algebraic prediction 2/1.25 = 1.6. S1 is a CLEAN, self-calibrating delay separator: efficacy and gain leave it exactly unmoved. With noise the delay channel still reaches z = -4.17. The C1 slope-2 law itself is therefore supported inside the model; what fails is the THREE-channel separation demanded by P3."
+ },
+ "estimator_rules_established": {
+  "DISC_1_aliasing_guard": "discard loops whose upper-bound frequency 1/(2(L/V_MAX+tau_syn)) exceeds 0.80*Nyquist. Uses measured L and declared velocity bounds only, never the contrast, so P5 independence is preserved.",
+  "SEL_1_fundamental_selection": "a delayed loop resonates on a COMB (fundamental plus odd harmonics) and for long loops a HARMONIC is often the largest peak (L = 48 mm: fundamental 1.00 Hz at power 2.8 versus 7.03 Hz harmonic at 13.9). Unrestricted argmax returned harmonics and gave per-loop frequency sd up to 1.94 Hz at a 0.029 Hz bin width. Restricting the search to the path-length window [1/(2(L/V_MIN+ts)), 1/(2(L/V_MAX+ts))] recovers every fundamental exactly. Window width factor V_MAX/V_MIN = 1.5625, so it does not pin the answer: the delay-world shift stays strictly inside it.",
+  "background_scale": "the peak prominence sd is estimated over the FULL admissible band, not inside the narrow selection window, where the peak dominates its own sd."
+ },
+ "preconditions_status": {
+  "P1": "declared: conditional output-relative Fisher (21.41); not reached, P3 gates it",
+  "P2": "the degeneracy above shows P2 (invariance under o -> a o + b) is in DIRECT CONFLICT with detecting the gain-efficacy contrast in this system",
+  "P3": "FAILED for C1, C2 and C3 - this report",
+  "P4": "within-phase placebo implemented and clean in both certificates: C1 placebo z = (0,0,0) by construction with placebo mean (0.0072, -0.125, -0.0018) against null sd (0.104, 2.848, 0.0282); C2 placebo mean (-0.0018, 0.00028, 0.00093)",
+  "P5": "implemented: selection fold and contrast fold are disjoint interleaved blocks of the record (N_BLOCK = 8, TRAIN_PARITY = 1); loop admission uses the selection fold only",
+  "P6": "not reached (P3 gates it)",
+  "P7": "not reached",
+  "P8": "not reached"
+ },
+ "N_declared": {
+  "mice": 8,
+  "cells_per_mouse": [
+   54,
+   52,
+   33,
+   17,
+   35,
+   62,
+   38,
+   63
+  ],
+  "total_cells": 354,
+  "trials_per_phase": 60,
+  "frame_dt_s": 0.067,
+  "nyquist_hz": 7.4627,
+  "frames_per_phase_used": 2048,
+  "note": "named-data structure inherited from fwd.py unchanged"
+ },
+ "structural_data_note": {
+  "file": "verify/Q-NPF-04/bio-reader_connectome_eligibility.json",
+  "used_for": "the design principle that only RELATIVE path length is fixed while absolute velocity is free, which is why C1 regresses on length and reads a slope",
+  "NOT_used_for": "no cross-species chain was formed; that file explicitly forbids combining its structural source with the named functional data in one chain"
+ },
+ "recommendation": {
+  "do_not": "write a fourth card on a three-channel separation endpoint from population activity alone. Five certificates now agree.",
+  "cumulative": "F-01, F-02, F-03 plus the connection/geodesic certificate plus this long-axis loop certificate. The obstruction has migrated but not disappeared: it was delay-blindness in the local circuit, and it is exact gain-efficacy degeneracy in the long loop.",
+  "what_would_change_it": [
+   "A perturbation that moves gain and efficacy DIFFERENTLY, breaking the product g*k (the degeneracy is exact only because both act through that product).",
+   "An observable with an independent absolute scale, so that the constant 1.21 is measurable without violating P2.",
+   "A two-channel endpoint: delay versus everything-else. S1 already satisfies C-A (|z| = 4.17) and is exactly unmoved by gain and efficacy, so a TWO-channel card is admissible where a three-channel card is not. This is the strongest surviving option."
+  ],
+  "next_single_step": "ask the user whether to reduce the endpoint from three channels to two (delay versus non-delay), which the evidence here supports, since that is an endpoint change and only the user may make it."
+ },
+ "artifacts": [
+  "verify/Q-NPF-04/F-01/fwd_loop.py",
+  "verify/Q-NPF-04/F-01/c14_loop_cert.py",
+  "verify/Q-NPF-04/F-01/result_c14_loop_cert.json",
+  "verify/Q-NPF-04/F-01/c15_c2_lag_cert.py",
+  "verify/Q-NPF-04/F-01/result_c15_c2_lag_cert.json",
+  "verify/Q-NPF-04/F-01/result_c16_structural.json"
+ ],
+ "no_data_opened": true,
+ "ledger_untouched": true,
+ "paper_untouched": true,
+ "card_written": false,
+ "parking": [
+  "the harmonic comb of a delayed loop is itself a delay signature: the SPACING of the comb is 1/tau_loop and is scale invariant, unlike peak height. Not pursued here because it does not fix the gain-efficacy degeneracy, which is what kills the three-channel endpoint."
+ ]
+}

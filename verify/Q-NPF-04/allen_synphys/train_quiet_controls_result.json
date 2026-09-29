@@ -1,0 +1,3296 @@
+{
+  "contract_sha256": "b5949337385748f09e7d7d64a3c334d4073a5ad79a3a0672c0fbf458b4ed64e9",
+  "records": [
+    {
+      "sweep": 37,
+      "pulse": 1,
+      "actual_uV": -188.3494708195127,
+      "controls_uV": [
+        402.7582309016203,
+        54.38173679525593,
+        -105.78199126093368,
+        6.001777934000472
+      ],
+      "event_minus_control_mean_uV": -277.68940941199844,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 37,
+      "pulse": 2,
+      "actual_uV": -283.40727054118605,
+      "controls_uV": [
+        -67.75502463136907,
+        -34.370715184348086,
+        -61.413434720367086,
+        114.83911932581859
+      ],
+      "event_minus_control_mean_uV": -271.23225673861964,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 37,
+      "pulse": 3,
+      "actual_uV": 349.5176481319723,
+      "controls_uV": [
+        -47.84879657403207,
+        -63.76063204660554,
+        44.95523793440759,
+        -19.29373769210541
+      ],
+      "event_minus_control_mean_uV": 371.0046302265562,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 37,
+      "pulse": 4,
+      "actual_uV": 150.03383077531737,
+      "controls_uV": [
+        -3.9626924489555293,
+        105.06937017405738,
+        13.802128493695108,
+        120.96688654392173
+      ],
+      "event_minus_control_mean_uV": 91.0649075846377,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 37,
+      "pulse": 5,
+      "actual_uV": 166.48956326670293,
+      "controls_uV": [
+        144.65197296556488,
+        -0.6817678139675607,
+        53.098744689200615,
+        31.650650256176416
+      ],
+      "event_minus_control_mean_uV": 109.30966324245935,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 37,
+      "pulse": 6,
+      "actual_uV": -75.6360013647317,
+      "controls_uV": [
+        33.30091125987311,
+        7.275549916266343,
+        -82.98041928560262,
+        34.59728278137897
+      ],
+      "event_minus_control_mean_uV": -73.68433253271064,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 37,
+      "pulse": 7,
+      "actual_uV": -84.36968759092946,
+      "controls_uV": [
+        11.019765741526744,
+        -58.05940268036047,
+        208.37423805687706,
+        -145.15989865902802
+      ],
+      "event_minus_control_mean_uV": -88.41336320568328,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 37,
+      "pulse": 8,
+      "actual_uV": -341.252063429498,
+      "controls_uV": [
+        148.86182856307937,
+        38.432088770010125,
+        -72.42933490181348,
+        -38.91697750560419
+      ],
+      "event_minus_control_mean_uV": -360.23896466091594,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 37,
+      "pulse": 9,
+      "actual_uV": -11.201241071567843,
+      "controls_uV": [
+        -124.97907214915892,
+        265.25294610102446,
+        -356.3906737167888,
+        22.656679593793804
+      ],
+      "event_minus_control_mean_uV": 37.16378897121452,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 37,
+      "pulse": 10,
+      "actual_uV": 684.7040972088048,
+      "controls_uV": [
+        610.9727908096413,
+        -188.2339961130769,
+        25.395095759828124,
+        -90.04301880319309
+      ],
+      "event_minus_control_mean_uV": 595.1813792955049,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 37,
+      "pulse": 11,
+      "actual_uV": -114.91422944698293,
+      "controls_uV": [
+        -230.96741438223546,
+        -103.28428250383493,
+        -169.81975853394562,
+        -50.04492298045504
+      ],
+      "event_minus_control_mean_uV": 23.61486515313483,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 37,
+      "pulse": 12,
+      "actual_uV": -142.19147022419276,
+      "controls_uV": [
+        -275.698924126086,
+        -148.11258765222433,
+        -24.825209207296467,
+        141.13748330686627
+      ],
+      "event_minus_control_mean_uV": -65.31666080450763,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 38,
+      "pulse": 1,
+      "actual_uV": 547.7441526542531,
+      "controls_uV": [
+        -10.709469350250743,
+        659.4423060512361,
+        -21.848832214538263,
+        -85.51730752864862
+      ],
+      "event_minus_control_mean_uV": 412.40247841480345,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 38,
+      "pulse": 2,
+      "actual_uV": -147.07161012479654,
+      "controls_uV": [
+        191.00123358987975,
+        -12.835491790055826,
+        -140.85002423762373,
+        -232.69942562374746
+      ],
+      "event_minus_control_mean_uV": -98.22568310940972,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 38,
+      "pulse": 3,
+      "actual_uV": -77.1594135057785,
+      "controls_uV": [
+        -53.10347237091895,
+        -124.74556561747895,
+        287.883430167446,
+        -58.16513210636643
+      ],
+      "event_minus_control_mean_uV": -90.12672852394893,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 38,
+      "pulse": 4,
+      "actual_uV": 77.90314345036685,
+      "controls_uV": [
+        -54.10507586291192,
+        731.134256121882,
+        -54.32721968247345,
+        -4.442185930805806
+      ],
+      "event_minus_control_mean_uV": -76.66180021105586,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 38,
+      "pulse": 5,
+      "actual_uV": 21.063728061446184,
+      "controls_uV": [
+        453.06566991629165,
+        -38.62643870396198,
+        -170.99897815375797,
+        71.01916586914336
+      ],
+      "event_minus_control_mean_uV": -57.55112667048259,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 38,
+      "pulse": 6,
+      "actual_uV": 230.6469263909372,
+      "controls_uV": [
+        -204.69662684903523,
+        -123.85508680526348,
+        -17.585919261792213,
+        -55.83677811392406
+      ],
+      "event_minus_control_mean_uV": 331.140529148441,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 38,
+      "pulse": 7,
+      "actual_uV": -201.74873674523585,
+      "controls_uV": [
+        -62.13764740126136,
+        73.64639632026493,
+        -105.94234588282015,
+        -37.49347101911216
+      ],
+      "event_minus_control_mean_uV": -168.76696974950366,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 38,
+      "pulse": 8,
+      "actual_uV": -135.65434146517453,
+      "controls_uV": [
+        150.83793212170016,
+        -26.708890276200272,
+        -77.87372831834227,
+        500.80793597785663
+      ],
+      "event_minus_control_mean_uV": -272.4201538414281,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 38,
+      "pulse": 9,
+      "actual_uV": -67.5222301765449,
+      "controls_uV": [
+        -14.81449197560103,
+        207.30886681075145,
+        -123.78591871115006,
+        -91.0973019953576
+      ],
+      "event_minus_control_mean_uV": -61.92501870870559,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 38,
+      "pulse": 10,
+      "actual_uV": 98.04255379003423,
+      "controls_uV": [
+        127.56752492915079,
+        -180.89699269248362,
+        -185.92200844425034,
+        39.14181831624064
+      ],
+      "event_minus_control_mean_uV": 148.06996826286985,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 38,
+      "pulse": 11,
+      "actual_uV": -59.12980424081782,
+      "controls_uV": [
+        174.98251665269692,
+        -142.15527001697205,
+        -32.89198968080275,
+        -60.30420589772656
+      ],
+      "event_minus_control_mean_uV": -44.037567005116706,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 38,
+      "pulse": 12,
+      "actual_uV": 116.90862193670937,
+      "controls_uV": [
+        -62.932779122365496,
+        -145.4330615138083,
+        -96.77147752730485,
+        687.6461635411667
+      ],
+      "event_minus_control_mean_uV": 21.281410592287344,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 39,
+      "pulse": 1,
+      "actual_uV": -30.597005390056708,
+      "controls_uV": [
+        62.385732434985805,
+        67.67024806685063,
+        266.2269769598963,
+        -6.700709343332445
+      ],
+      "event_minus_control_mean_uV": -127.99256741965678,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 39,
+      "pulse": 2,
+      "actual_uV": 147.3149280582786,
+      "controls_uV": [
+        -24.812548226463278,
+        120.04374629219494,
+        38.98331890890561,
+        27.745693253075636
+      ],
+      "event_minus_control_mean_uV": 106.82487550135039,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 39,
+      "pulse": 3,
+      "actual_uV": -78.65304939007333,
+      "controls_uV": [
+        -88.58876331215015,
+        -10.333914929716581,
+        3.969159632702386,
+        4.276250406567982
+      ],
+      "event_minus_control_mean_uV": -55.98373233942424,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 39,
+      "pulse": 4,
+      "actual_uV": 210.69227329262307,
+      "controls_uV": [
+        -7.562546135542192,
+        5.215740451577908,
+        -96.7260470238207,
+        120.30688793678024
+      ],
+      "event_minus_control_mean_uV": 205.38376448537426,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 39,
+      "pulse": 5,
+      "actual_uV": 63.71802441924868,
+      "controls_uV": [
+        -5.754314695932683,
+        -1.1855774489089015,
+        4.091400340827665,
+        626.0246129153186
+      ],
+      "event_minus_control_mean_uV": -92.07600585857747,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 39,
+      "pulse": 6,
+      "actual_uV": 821.2468524633615,
+      "controls_uV": [
+        -23.192808617081283,
+        178.43920855882544,
+        380.7041107440207,
+        -138.44763586871863
+      ],
+      "event_minus_control_mean_uV": 721.8711337591,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 39,
+      "pulse": 7,
+      "actual_uV": 11.526089262053887,
+      "controls_uV": [
+        309.66508301680244,
+        94.47836625303685,
+        -297.2092159294198,
+        157.93353767315497
+      ],
+      "event_minus_control_mean_uV": -54.69085349133971,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 39,
+      "pulse": 8,
+      "actual_uV": -180.94429875552265,
+      "controls_uV": [
+        111.25976455172994,
+        -366.4621845101135,
+        -111.51506063521165,
+        -52.79399995426759
+      ],
+      "event_minus_control_mean_uV": -76.06642861855696,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 39,
+      "pulse": 9,
+      "actual_uV": -158.8896877735002,
+      "controls_uV": [
+        1.8815982440606405,
+        -229.48060680631767,
+        -175.30292707847173,
+        -153.2006107617251
+      ],
+      "event_minus_control_mean_uV": -19.864051172886747,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 39,
+      "pulse": 10,
+      "actual_uV": 211.62246437687884,
+      "controls_uV": [
+        3.9947079330943183,
+        -192.18236564469416,
+        -142.9210514559548,
+        22.594385584481785
+      ],
+      "event_minus_control_mean_uV": 288.75104527264705,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 39,
+      "pulse": 11,
+      "actual_uV": 1183.9313878682367,
+      "controls_uV": [
+        -218.6742988182916,
+        -149.03277787131628,
+        -40.53945988248542,
+        41.64143315055213
+      ],
+      "event_minus_control_mean_uV": 1275.582663723622,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 39,
+      "pulse": 12,
+      "actual_uV": -321.3959287074464,
+      "controls_uV": [
+        -150.6717766165677,
+        -53.82132722274446,
+        -100.97606629919098,
+        71.8747656311136
+      ],
+      "event_minus_control_mean_uV": -262.997327580599,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 40,
+      "pulse": 1,
+      "actual_uV": 148.36218966399196,
+      "controls_uV": [
+        -32.5478454790834,
+        -11.409332817291507,
+        67.39886667581074,
+        19.063505442395986
+      ],
+      "event_minus_control_mean_uV": 137.735891208534,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 40,
+      "pulse": 2,
+      "actual_uV": -157.3092039439672,
+      "controls_uV": [
+        -26.196823092836105,
+        155.73360292713,
+        -35.10072239068518,
+        -1.4225375533360989
+      ],
+      "event_minus_control_mean_uV": -180.56258391653535,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 40,
+      "pulse": 3,
+      "actual_uV": 177.53689655509996,
+      "controls_uV": [
+        76.30368022945589,
+        -111.64457851449427,
+        -49.97354871964787,
+        -133.37734983077942
+      ],
+      "event_minus_control_mean_uV": 232.20984576396637,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 40,
+      "pulse": 4,
+      "actual_uV": -33.30662440506615,
+      "controls_uV": [
+        -43.43917035749823,
+        -90.07497452372115,
+        -167.89776518703894,
+        -48.7175875597129
+      ],
+      "event_minus_control_mean_uV": 54.22575000192665,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 40,
+      "pulse": 5,
+      "actual_uV": 11.591504965449687,
+      "controls_uV": [
+        -65.51989675826486,
+        5.964809701025644,
+        17.680451279242224,
+        299.78875248994063
+      ],
+      "event_minus_control_mean_uV": -52.88702421253622,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 40,
+      "pulse": 6,
+      "actual_uV": -24.939325881392918,
+      "controls_uV": [
+        36.59487198756639,
+        106.21656795191393,
+        451.2003070245296,
+        -143.53186462584546
+      ],
+      "event_minus_control_mean_uV": -137.55929646593404,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 40,
+      "pulse": 7,
+      "actual_uV": -109.03835178752152,
+      "controls_uV": [
+        105.66822045274259,
+        252.2111681886874,
+        30.884844657450003,
+        -58.639750404848584
+      ],
+      "event_minus_control_mean_uV": -191.56947251102935,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 40,
+      "pulse": 8,
+      "actual_uV": -200.11654469180573,
+      "controls_uV": [
+        9.409991393427575,
+        52.403082475588334,
+        -141.98516375689417,
+        -77.50807939557735
+      ],
+      "event_minus_control_mean_uV": -160.69650237094183,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 40,
+      "pulse": 9,
+      "actual_uV": 576.0860271693674,
+      "controls_uV": [
+        78.44958360081478,
+        9.244527620064222,
+        108.44310639793187,
+        39.210386231294805
+      ],
+      "event_minus_control_mean_uV": 517.249126206841,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 40,
+      "pulse": 10,
+      "actual_uV": -184.19306167635762,
+      "controls_uV": [
+        143.0430531096788,
+        -32.49088823147062,
+        49.22053252989777,
+        -12.616753223768097
+      ],
+      "event_minus_control_mean_uV": -220.98204772244208,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 40,
+      "pulse": 11,
+      "actual_uV": 352.7880085981844,
+      "controls_uV": [
+        -163.2356517759087,
+        -66.88196627080423,
+        266.48166142022313,
+        -40.490663544320846
+      ],
+      "event_minus_control_mean_uV": 353.81966364088703,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 40,
+      "pulse": 12,
+      "actual_uV": -556.0809094385527,
+      "controls_uV": [
+        -92.85760048999282,
+        318.88363127573206,
+        -95.03982741046468,
+        -170.43533371778608
+      ],
+      "event_minus_control_mean_uV": -546.2186268529248,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 41,
+      "pulse": 1,
+      "actual_uV": -202.87395550798448,
+      "controls_uV": [
+        -36.13548704757552,
+        -173.73131496362103,
+        -135.01385122074993,
+        -7.978957237309015
+      ],
+      "event_minus_control_mean_uV": -114.6590528906706,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 41,
+      "pulse": 2,
+      "actual_uV": -226.8267027190629,
+      "controls_uV": [
+        -242.2948926932983,
+        -49.985746850514374,
+        -44.04619807596433,
+        45.58969332753293
+      ],
+      "event_minus_control_mean_uV": -154.1424166460019,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 41,
+      "pulse": 3,
+      "actual_uV": -7.6284895387385205,
+      "controls_uV": [
+        -24.537152502099303,
+        0.413536091439795,
+        -83.98108563356655,
+        34.46218272819268
+      ],
+      "event_minus_control_mean_uV": 10.782140290269822,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 41,
+      "pulse": 4,
+      "actual_uV": -194.8729480478889,
+      "controls_uV": [
+        -12.066488203343887,
+        -130.64523808804796,
+        -95.18083897316899,
+        577.3560162433549
+      ],
+      "event_minus_control_mean_uV": -279.7388107925874,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 41,
+      "pulse": 5,
+      "actual_uV": 424.593512039273,
+      "controls_uV": [
+        -28.101073010336485,
+        32.06032078752197,
+        252.2586955042011,
+        -24.216871776047697
+      ],
+      "event_minus_control_mean_uV": 366.5932441629383,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 41,
+      "pulse": 6,
+      "actual_uV": -214.80642321750065,
+      "controls_uV": [
+        122.51753308165081,
+        16.745994091682533,
+        -97.63099625506588,
+        -123.41056011179464
+      ],
+      "event_minus_control_mean_uV": -194.36191591911884,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 41,
+      "pulse": 7,
+      "actual_uV": -215.82909909817482,
+      "controls_uV": [
+        76.48105603134947,
+        -135.62581134299313,
+        334.08820403969804,
+        -310.88503724753525
+      ],
+      "event_minus_control_mean_uV": -206.8437019683046,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 41,
+      "pulse": 8,
+      "actual_uV": -100.51559798510135,
+      "controls_uV": [
+        331.4472610228547,
+        447.16797727367697,
+        -336.7577700031099,
+        -73.51584211486018
+      ],
+      "event_minus_control_mean_uV": -192.60100452974177,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 41,
+      "pulse": 9,
+      "actual_uV": 12.0294296892115,
+      "controls_uV": [
+        -18.88430748671344,
+        69.10911379684471,
+        -146.19400083015765,
+        -103.90822840543322
+      ],
+      "event_minus_control_mean_uV": 61.9987854205764,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 41,
+      "pulse": 10,
+      "actual_uV": -182.3542961267993,
+      "controls_uV": [
+        27.76299926381121,
+        -183.43693269350092,
+        21.223050171867428,
+        111.8977472684135
+      ],
+      "event_minus_control_mean_uV": -176.7160121294471,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 41,
+      "pulse": 11,
+      "actual_uV": 209.81121042526473,
+      "controls_uV": [
+        -146.964541739944,
+        51.06162504489586,
+        96.11674701730244,
+        -104.26461142812315
+      ],
+      "event_minus_control_mean_uV": 235.82390570173195,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 41,
+      "pulse": 12,
+      "actual_uV": -111.20754134373578,
+      "controls_uV": [
+        9.788177955175065,
+        35.696930355572086,
+        327.05029451560176,
+        -242.05743922130208
+      ],
+      "event_minus_control_mean_uV": -143.8270322449975,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 42,
+      "pulse": 1,
+      "actual_uV": -198.79597654438862,
+      "controls_uV": [
+        -81.13039783541609,
+        42.42517164196324,
+        235.51664326652843,
+        63.33809581235416
+      ],
+      "event_minus_control_mean_uV": -263.83335476574604,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 42,
+      "pulse": 2,
+      "actual_uV": 155.3418983492455,
+      "controls_uV": [
+        -27.484376305425553,
+        101.91681010809916,
+        59.966865844668376,
+        23.113867268095834
+      ],
+      "event_minus_control_mean_uV": 115.96360662038603,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 42,
+      "pulse": 3,
+      "actual_uV": -320.0403708835259,
+      "controls_uV": [
+        2.6956419635487805,
+        -119.63768955089438,
+        93.1706765241319,
+        -176.69992268928846
+      ],
+      "event_minus_control_mean_uV": -269.92254744540037,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 42,
+      "pulse": 4,
+      "actual_uV": -164.53474826295945,
+      "controls_uV": [
+        -50.630465051312854,
+        29.046718705488807,
+        -411.8657206022003,
+        -17.66754361462452
+      ],
+      "event_minus_control_mean_uV": -51.75549562229722,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 42,
+      "pulse": 5,
+      "actual_uV": 108.87061191144909,
+      "controls_uV": [
+        -20.405289665514914,
+        -370.1674738910005,
+        144.72252706643206,
+        -33.31351374864788
+      ],
+      "event_minus_control_mean_uV": 178.66154947113188,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 42,
+      "pulse": 6,
+      "actual_uV": -10.020833809298864,
+      "controls_uV": [
+        -105.6141153272655,
+        104.568602124544,
+        -45.79003742272158,
+        61.613727952936074
+      ],
+      "event_minus_control_mean_uV": -13.715378141172113,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 42,
+      "pulse": 7,
+      "actual_uV": -11.129738382659177,
+      "controls_uV": [
+        17.042825872559675,
+        -160.36660511049848,
+        86.09516298417607,
+        699.2608008319218
+      ],
+      "event_minus_control_mean_uV": -171.63778452719893,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 42,
+      "pulse": 8,
+      "actual_uV": 73.44912305655427,
+      "controls_uV": [
+        -241.47386934904313,
+        140.65288194513303,
+        126.19019789843199,
+        -100.67604924597629
+      ],
+      "event_minus_control_mean_uV": 92.27583274441787,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 42,
+      "pulse": 9,
+      "actual_uV": 120.34784888637074,
+      "controls_uV": [
+        106.72531380535867,
+        -121.28600251572198,
+        48.405223602443485,
+        68.08204465622026
+      ],
+      "event_minus_control_mean_uV": 94.86620399929564,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 42,
+      "pulse": 10,
+      "actual_uV": 426.5213075409641,
+      "controls_uV": [
+        106.59919736463742,
+        -18.79074948868409,
+        -157.97325884610302,
+        150.1645057795098
+      ],
+      "event_minus_control_mean_uV": 406.52138383862405,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 42,
+      "pulse": 11,
+      "actual_uV": -20.981218698770668,
+      "controls_uV": [
+        38.941895109334546,
+        -242.5037867970492,
+        173.0833657141023,
+        57.94946182838268
+      ],
+      "event_minus_control_mean_uV": -27.848952662463255,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 42,
+      "pulse": 12,
+      "actual_uV": -1.7637431664469005,
+      "controls_uV": [
+        -92.59692059684909,
+        30.02495590405385,
+        -32.074857327937806,
+        293.784679379655
+      ],
+      "event_minus_control_mean_uV": -51.54820750617739,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 43,
+      "pulse": 1,
+      "actual_uV": 61.453388589871594,
+      "controls_uV": [
+        -14.314513568466914,
+        94.69031338632527,
+        -112.60662105086472,
+        42.499490849182145
+      ],
+      "event_minus_control_mean_uV": 58.886221185827644,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 43,
+      "pulse": 2,
+      "actual_uV": 5.370476024141311,
+      "controls_uV": [
+        -13.520944601747019,
+        113.27080310956362,
+        10.003768124489106,
+        1143.8934386296812
+      ],
+      "event_minus_control_mean_uV": -308.0412902913554,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 43,
+      "pulse": 3,
+      "actual_uV": 270.9603997819582,
+      "controls_uV": [
+        152.6286045089864,
+        49.41009629014226,
+        757.236481075868,
+        -298.26821154449453
+      ],
+      "event_minus_control_mean_uV": 105.70865719933266,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 43,
+      "pulse": 4,
+      "actual_uV": -287.5294427747699,
+      "controls_uV": [
+        1.6330325584429346,
+        76.76580030754887,
+        -206.73333577755915,
+        -1.1495908647518576
+      ],
+      "event_minus_control_mean_uV": -255.1584193306901,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 43,
+      "pulse": 5,
+      "actual_uV": -86.5723485740516,
+      "controls_uV": [
+        -14.271811845267823,
+        -190.12990455884173,
+        -102.98684291445981,
+        -210.58202345020095
+      ],
+      "event_minus_control_mean_uV": 42.92029711814098,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 43,
+      "pulse": 6,
+      "actual_uV": -60.056208601999565,
+      "controls_uV": [
+        389.6290086797122,
+        -127.19512526343513,
+        87.58072696868346,
+        -81.97381981150941
+      ],
+      "event_minus_control_mean_uV": -127.06640624536232,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 43,
+      "pulse": 7,
+      "actual_uV": 173.14622938491286,
+      "controls_uV": [
+        -220.47275445992443,
+        165.34989315844516,
+        -71.04287675691046,
+        85.40014799754414
+      ],
+      "event_minus_control_mean_uV": 183.33762690012426,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 43,
+      "pulse": 8,
+      "actual_uV": 27.47404356159833,
+      "controls_uV": [
+        1.1908188431858306,
+        -87.0797224079428,
+        -8.528160500273493,
+        -209.13821768704656
+      ],
+      "event_minus_control_mean_uV": 103.36286399961759,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 43,
+      "pulse": 9,
+      "actual_uV": -144.03202105217616,
+      "controls_uV": [
+        -305.4482897562327,
+        -167.12090586669393,
+        -324.21112074590417,
+        -263.6689552929644
+      ],
+      "event_minus_control_mean_uV": 121.08029686327268,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 43,
+      "pulse": 10,
+      "actual_uV": 43.86031677032498,
+      "controls_uV": [
+        -198.26673686465512,
+        -32.7124038974752,
+        -195.1325216787564,
+        22.594246983809185
+      ],
+      "event_minus_control_mean_uV": 144.73967063459438,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 43,
+      "pulse": 11,
+      "actual_uV": 39.140656105093875,
+      "controls_uV": [
+        371.33378330310444,
+        -126.1631071887287,
+        -121.26157827954677,
+        97.97015083254368
+      ],
+      "event_minus_control_mean_uV": -16.329156061749288,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 43,
+      "pulse": 12,
+      "actual_uV": -36.50509435475235,
+      "controls_uV": [
+        -170.33164134022672,
+        -123.53405204064416,
+        -77.73508186809109,
+        200.71377626719453
+      ],
+      "event_minus_control_mean_uV": 6.216655390689503,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 44,
+      "pulse": 1,
+      "actual_uV": 69.95523403557912,
+      "controls_uV": [
+        129.8827983240575,
+        -235.83134436178096,
+        -129.3946848975602,
+        -35.007483555657416
+      ],
+      "event_minus_control_mean_uV": 137.54291265831438,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 44,
+      "pulse": 2,
+      "actual_uV": 302.34535890408256,
+      "controls_uV": [
+        -241.48663205512952,
+        -90.71459120242598,
+        28.638758430163378,
+        91.12224757351628
+      ],
+      "event_minus_control_mean_uV": 355.4554132175515,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 44,
+      "pulse": 3,
+      "actual_uV": -98.86218858441708,
+      "controls_uV": [
+        -165.5809582837703,
+        11.446896143074703,
+        -194.14019807412197,
+        -152.8396653609071
+      ],
+      "event_minus_control_mean_uV": 26.41629280951409,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 44,
+      "pulse": 4,
+      "actual_uV": 1.5154724841148806,
+      "controls_uV": [
+        5.8319882937502,
+        -231.5636376059582,
+        -292.7430736986286,
+        -179.12802211896008
+      ],
+      "event_minus_control_mean_uV": 175.91615876656408,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 44,
+      "pulse": 5,
+      "actual_uV": 54.29319512435804,
+      "controls_uV": [
+        -136.87007409739215,
+        68.6421922862085,
+        117.02633968525834,
+        -90.01969701454006
+      ],
+      "event_minus_control_mean_uV": 64.59850490947439,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 44,
+      "pulse": 6,
+      "actual_uV": 99.1594984740829,
+      "controls_uV": [
+        360.1676857675623,
+        47.5322173760645,
+        -20.60342250774505,
+        -83.51948181120616
+      ],
+      "event_minus_control_mean_uV": 23.265248767913988,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 44,
+      "pulse": 7,
+      "actual_uV": -199.07793863455092,
+      "controls_uV": [
+        -45.64911741276876,
+        -16.067021179400065,
+        -222.98869238461526,
+        -10.981009687036078
+      ],
+      "event_minus_control_mean_uV": -125.15647846859588,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 44,
+      "pulse": 8,
+      "actual_uV": 163.95744466704554,
+      "controls_uV": [
+        -160.17663953546423,
+        -186.1608021466038,
+        -50.744614786144,
+        -16.749151389619517
+      ],
+      "event_minus_control_mean_uV": 267.4152466315034,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 44,
+      "pulse": 9,
+      "actual_uV": -18.788675564873625,
+      "controls_uV": [
+        55.70185099368352,
+        16.692597228418204,
+        -58.0450174562791,
+        90.43336026255677
+      ],
+      "event_minus_control_mean_uV": -44.98437332196848,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 44,
+      "pulse": 10,
+      "actual_uV": 55.595445094647204,
+      "controls_uV": [
+        52.20940392840212,
+        22.858221504010178,
+        53.77727636818319,
+        41.60820459267467
+      ],
+      "event_minus_control_mean_uV": 12.982168496329663,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 44,
+      "pulse": 11,
+      "actual_uV": 234.00581835548994,
+      "controls_uV": [
+        56.004997370379115,
+        34.15320113593634,
+        85.52892709708105,
+        59.555622386422975
+      ],
+      "event_minus_control_mean_uV": 175.19513135803507,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 44,
+      "pulse": 12,
+      "actual_uV": -133.2054201452354,
+      "controls_uV": [
+        41.31912427698947,
+        -52.07930367197301,
+        -3.690526501801129,
+        -6.576758379159273
+      ],
+      "event_minus_control_mean_uV": -127.94855407624941,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 45,
+      "pulse": 1,
+      "actual_uV": -158.59710938033453,
+      "controls_uV": [
+        77.1372234107115,
+        -54.261201256886054,
+        136.56126798125558,
+        -197.06874766182992
+      ],
+      "event_minus_control_mean_uV": -149.1892449986473,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 45,
+      "pulse": 2,
+      "actual_uV": -63.27445267173549,
+      "controls_uV": [
+        -137.38945024105442,
+        65.43201375848462,
+        -87.8962800130445,
+        -80.84260307281156
+      ],
+      "event_minus_control_mean_uV": -3.1003727796290192,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 45,
+      "pulse": 3,
+      "actual_uV": 150.6444710122623,
+      "controls_uV": [
+        -169.73161994943143,
+        137.25831747317397,
+        -20.98579379262999,
+        30.543558935711147
+      ],
+      "event_minus_control_mean_uV": 156.37335534555638,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 45,
+      "pulse": 4,
+      "actual_uV": 146.9699217349213,
+      "controls_uV": [
+        185.27092987126457,
+        1.5625204192598687,
+        156.71871421052418,
+        102.16436362735226
+      ],
+      "event_minus_control_mean_uV": 35.54078970282106,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 45,
+      "pulse": 5,
+      "actual_uV": -54.03396481620804,
+      "controls_uV": [
+        -42.39374743596203,
+        -13.485512420335908,
+        156.20458709053597,
+        313.03989117067994
+      ],
+      "event_minus_control_mean_uV": -157.37526941743755,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 45,
+      "pulse": 6,
+      "actual_uV": -47.59650901527135,
+      "controls_uV": [
+        -169.02809564438292,
+        331.72767053119003,
+        -112.61420339779559,
+        -71.46240955270555
+      ],
+      "event_minus_control_mean_uV": -42.25224949934784,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 45,
+      "pulse": 7,
+      "actual_uV": 119.29251283775145,
+      "controls_uV": [
+        158.43050246928948,
+        -216.48664231178893,
+        -81.90682863809529,
+        -55.74591837859133
+      ],
+      "event_minus_control_mean_uV": 168.21973455254795,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 45,
+      "pulse": 8,
+      "actual_uV": 183.36539058604052,
+      "controls_uV": [
+        38.64656123296618,
+        -77.18327825302629,
+        -86.45789620653765,
+        -82.52284759840965
+      ],
+      "event_minus_control_mean_uV": 235.24475579229238,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 45,
+      "pulse": 9,
+      "actual_uV": -147.12486965895445,
+      "controls_uV": [
+        -43.90053639707902,
+        -149.1334642673009,
+        197.4107314732659,
+        -86.75001937920312
+      ],
+      "event_minus_control_mean_uV": -126.53154751637517,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 45,
+      "pulse": 10,
+      "actual_uV": 47.27538778416529,
+      "controls_uV": [
+        -13.418119432062618,
+        117.37635470632223,
+        -130.334355504913,
+        -312.89466691043765
+      ],
+      "event_minus_control_mean_uV": 132.09308456943805,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 45,
+      "pulse": 11,
+      "actual_uV": -67.46585149140782,
+      "controls_uV": [
+        -100.81109207872585,
+        218.0341518966261,
+        46.07114374917398,
+        -160.56018447556386
+      ],
+      "event_minus_control_mean_uV": -68.14935626428542,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 45,
+      "pulse": 12,
+      "actual_uV": -74.1229753732503,
+      "controls_uV": [
+        595.0853541419054,
+        376.1626943601381,
+        -29.936723223669688,
+        -130.16666140514
+      ],
+      "event_minus_control_mean_uV": -276.9091413415588,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 46,
+      "pulse": 1,
+      "actual_uV": 313.5645582997004,
+      "controls_uV": [
+        0.056477867299562945,
+        107.05910873293202,
+        176.39367750665878,
+        8.20591011875537
+      ],
+      "event_minus_control_mean_uV": 240.635764743289,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 46,
+      "pulse": 2,
+      "actual_uV": 112.44989420627904,
+      "controls_uV": [
+        85.54159952196827,
+        -72.3693564138317,
+        -122.08282033314421,
+        -196.70751361557103
+      ],
+      "event_minus_control_mean_uV": 188.8544169164237,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 46,
+      "pulse": 3,
+      "actual_uV": -274.1359434000196,
+      "controls_uV": [
+        -6.829975452565806,
+        -178.41968875198512,
+        -51.64707301991145,
+        -82.25699370394135
+      ],
+      "event_minus_control_mean_uV": -194.34751066791864,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 46,
+      "pulse": 4,
+      "actual_uV": -364.2073778844374,
+      "controls_uV": [
+        70.6631757602938,
+        38.39200647236252,
+        -52.54996867234962,
+        -93.9563821279049
+      ],
+      "event_minus_control_mean_uV": -354.84458574253784,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 46,
+      "pulse": 5,
+      "actual_uV": 65.41667486004155,
+      "controls_uV": [
+        86.38029000170022,
+        -7.619717006204787,
+        8.717834886748378,
+        -2.273911902037071
+      ],
+      "event_minus_control_mean_uV": 44.11555086498987,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 46,
+      "pulse": 6,
+      "actual_uV": -327.0939728013261,
+      "controls_uV": [
+        -150.7929097908367,
+        -7.979528170345972,
+        10.431657650813996,
+        88.85305318066806
+      ],
+      "event_minus_control_mean_uV": -312.22204101890094,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 46,
+      "pulse": 7,
+      "actual_uV": 423.98048125856513,
+      "controls_uV": [
+        -49.849103116408884,
+        3.2898573848610937,
+        23.805051026920538,
+        272.12123510320095
+      ],
+      "event_minus_control_mean_uV": 361.6387211589217,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 46,
+      "pulse": 8,
+      "actual_uV": 42.29531934087094,
+      "controls_uV": [
+        -99.87824087880071,
+        -50.84690081191833,
+        155.11874363487166,
+        -35.62299770437649
+      ],
+      "event_minus_control_mean_uV": 50.102668280926906,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 46,
+      "pulse": 9,
+      "actual_uV": -62.02085153797499,
+      "controls_uV": [
+        -92.96125980687297,
+        -15.430916565431488,
+        29.99413442025811,
+        36.215668173203426
+      ],
+      "event_minus_control_mean_uV": -51.47525809326426,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 46,
+      "pulse": 10,
+      "actual_uV": 59.05205434904304,
+      "controls_uV": [
+        61.83739256521159,
+        -13.512303040488788,
+        37.21751834893927,
+        -60.34471925620011
+      ],
+      "event_minus_control_mean_uV": 52.75258219467755,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 46,
+      "pulse": 11,
+      "actual_uV": 7.0996046259430585,
+      "controls_uV": [
+        -75.02214025159604,
+        -48.930633325880436,
+        -53.89138668442095,
+        19.497522644448814
+      ],
+      "event_minus_control_mean_uV": 46.68626403030521,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 46,
+      "pulse": 12,
+      "actual_uV": -167.80999789972606,
+      "controls_uV": [
+        36.565852312542276,
+        -49.25182322147725,
+        45.62335548934093,
+        137.59598177551237
+      ],
+      "event_minus_control_mean_uV": -210.44333948870565,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 47,
+      "pulse": 1,
+      "actual_uV": 561.7383727809649,
+      "controls_uV": [
+        162.9260280429229,
+        28.54284167758125,
+        71.68382730819711,
+        26.430174493496935
+      ],
+      "event_minus_control_mean_uV": 489.34265490041537,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 47,
+      "pulse": 2,
+      "actual_uV": -87.45527301377842,
+      "controls_uV": [
+        2.2018929573680595,
+        -34.22203099354148,
+        68.0040264640358,
+        -155.6393366669434
+      ],
+      "event_minus_control_mean_uV": -57.54141095400817,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 47,
+      "pulse": 3,
+      "actual_uV": 227.8029117701863,
+      "controls_uV": [
+        -76.66275515698374,
+        14.026048690718447,
+        12.9824085043917,
+        99.79287557934646
+      ],
+      "event_minus_control_mean_uV": 215.2682673658181,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 47,
+      "pulse": 4,
+      "actual_uV": -197.42885764392759,
+      "controls_uV": [
+        -52.10658384496858,
+        -22.62282924023195,
+        -95.79684013158452,
+        -161.15529507920724
+      ],
+      "event_minus_control_mean_uV": -114.50847056992951,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 47,
+      "pulse": 5,
+      "actual_uV": 42.25943575354718,
+      "controls_uV": [
+        -136.42993812071347,
+        -116.62121373012813,
+        -70.58480661592537,
+        -122.63704500953266
+      ],
+      "event_minus_control_mean_uV": 153.82768662262208,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 47,
+      "pulse": 6,
+      "actual_uV": -151.6703270790648,
+      "controls_uV": [
+        -108.14009862189499,
+        40.808244736151295,
+        -16.57936174941088,
+        79.05931466821447
+      ],
+      "event_minus_control_mean_uV": -150.45735183732978,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 47,
+      "pulse": 7,
+      "actual_uV": 103.37142545228939,
+      "controls_uV": [
+        140.28150716147158,
+        61.70292829492385,
+        -0.11476390110453849,
+        96.51070735294809
+      ],
+      "event_minus_control_mean_uV": 28.77633072522964,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 47,
+      "pulse": 8,
+      "actual_uV": -160.41709135962424,
+      "controls_uV": [
+        -69.6425369280107,
+        48.37991562797739,
+        23.70697769868424,
+        -145.71979451899477
+      ],
+      "event_minus_control_mean_uV": -124.59823182953828,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 47,
+      "pulse": 9,
+      "actual_uV": -123.09505411534084,
+      "controls_uV": [
+        -37.138509607015365,
+        39.11997790176369,
+        -230.58049470645048,
+        73.329054182808
+      ],
+      "event_minus_control_mean_uV": -84.2775610581173,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 47,
+      "pulse": 10,
+      "actual_uV": 1.6987737826851301,
+      "controls_uV": [
+        20.590703034895085,
+        -112.35815709044473,
+        -24.383652891563074,
+        165.98501993832227
+      ],
+      "event_minus_control_mean_uV": -10.759704465117256,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 47,
+      "pulse": 11,
+      "actual_uV": 10.548795565334949,
+      "controls_uV": [
+        759.19296818866,
+        -37.83457999324835,
+        76.46777961266284,
+        29.81702437564182
+      ],
+      "event_minus_control_mean_uV": -196.36200248059413,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 47,
+      "pulse": 12,
+      "actual_uV": -98.78181545236453,
+      "controls_uV": [
+        -46.179858811681854,
+        -38.62539729153347,
+        43.3677884673217,
+        -273.81835585031655
+      ],
+      "event_minus_control_mean_uV": -19.96785958081199,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 48,
+      "pulse": 1,
+      "actual_uV": 316.5593488370366,
+      "controls_uV": [
+        -61.06371343096718,
+        373.8590214601711,
+        33.39279460572164,
+        -103.4313505344636
+      ],
+      "event_minus_control_mean_uV": 255.87016081192115,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 48,
+      "pulse": 2,
+      "actual_uV": -160.4727058337474,
+      "controls_uV": [
+        -149.79448012714113,
+        -111.46353170214672,
+        -342.0090888661964,
+        67.66269878058506
+      ],
+      "event_minus_control_mean_uV": -26.571605355022598,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 48,
+      "pulse": 3,
+      "actual_uV": 335.0469455912081,
+      "controls_uV": [
+        7.829899206127088,
+        -301.29517142543637,
+        -318.0001791361908,
+        -446.9427270188398
+      ],
+      "event_minus_control_mean_uV": 599.6489901847931,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 48,
+      "pulse": 4,
+      "actual_uV": -72.67762720075677,
+      "controls_uV": [
+        -71.39653481406938,
+        -163.2814688353884,
+        341.8407729707807,
+        -292.44961156719984
+      ],
+      "event_minus_control_mean_uV": -26.355916639287535,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 48,
+      "pulse": 5,
+      "actual_uV": 17.407861900631275,
+      "controls_uV": [
+        -23.99550615478364,
+        1129.5345334270262,
+        -305.7958633709695,
+        -195.32289288329287
+      ],
+      "event_minus_control_mean_uV": -133.69720585386375,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 48,
+      "pulse": 6,
+      "actual_uV": -142.9663191990088,
+      "controls_uV": [
+        950.0098298215604,
+        -252.65480987236856,
+        -17.864151849469877,
+        -9.157820818686531
+      ],
+      "event_minus_control_mean_uV": -310.54958101926763,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 48,
+      "pulse": 7,
+      "actual_uV": -87.35339643219098,
+      "controls_uV": [
+        -426.64613970022634,
+        109.46017594493097,
+        662.6253455497555,
+        -256.8689544613784
+      ],
+      "event_minus_control_mean_uV": -109.49600326546141,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 48,
+      "pulse": 8,
+      "actual_uV": -220.8707723621167,
+      "controls_uV": [
+        -85.59851989413391,
+        506.88793682612817,
+        88.31723187630035,
+        -274.1474447127829
+      ],
+      "event_minus_control_mean_uV": -279.7355733859946,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 48,
+      "pulse": 9,
+      "actual_uV": -29.301030597048136,
+      "controls_uV": [
+        174.4092477350967,
+        37.813751745191524,
+        18.49291317085333,
+        490.608166155454
+      ],
+      "event_minus_control_mean_uV": -209.63205029869704,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 48,
+      "pulse": 10,
+      "actual_uV": 229.4099675105854,
+      "controls_uV": [
+        -156.31962692147505,
+        265.83647655480104,
+        625.1375749601746,
+        -379.7128476252659
+      ],
+      "event_minus_control_mean_uV": 140.67457326852673,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 48,
+      "pulse": 11,
+      "actual_uV": -45.48246726855666,
+      "controls_uV": [
+        600.8125120067072,
+        401.9436569391854,
+        -388.2783400263184,
+        1320.7346882300048
+      ],
+      "event_minus_control_mean_uV": -529.2855965559514,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 48,
+      "pulse": 12,
+      "actual_uV": -261.11416213166206,
+      "controls_uV": [
+        152.8926769397698,
+        -382.07653970323554,
+        1306.6675832222043,
+        -715.3940972931816
+      ],
+      "event_minus_control_mean_uV": -351.6365679230513,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 49,
+      "pulse": 1,
+      "actual_uV": 90.47831901509707,
+      "controls_uV": [
+        71.67185170134371,
+        290.4572039916786,
+        -118.48809741456245,
+        119.21303361639437
+      ],
+      "event_minus_control_mean_uV": -0.23517895861650118,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 49,
+      "pulse": 2,
+      "actual_uV": 654.5344129551961,
+      "controls_uV": [
+        207.39841174705066,
+        -2.5841676032228875,
+        16.450081652907855,
+        609.2313140321631
+      ],
+      "event_minus_control_mean_uV": 446.91050299797143,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 49,
+      "pulse": 3,
+      "actual_uV": 142.38183761397516,
+      "controls_uV": [
+        -113.34775572960365,
+        -101.78983281732002,
+        975.3335258892437,
+        17.418640964078634
+      ],
+      "event_minus_control_mean_uV": -52.02180696262451,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 49,
+      "pulse": 4,
+      "actual_uV": -152.77079354160392,
+      "controls_uV": [
+        -148.13688091713794,
+        530.6021649930937,
+        -148.67680047810083,
+        -261.5647249480657
+      ],
+      "event_minus_control_mean_uV": -145.8267332040512,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 49,
+      "pulse": 5,
+      "actual_uV": -184.9413896029134,
+      "controls_uV": [
+        103.34129824342286,
+        -241.4749768828578,
+        67.08100701105502,
+        -218.42809824507145
+      ],
+      "event_minus_control_mean_uV": -112.57119713455056,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 49,
+      "pulse": 6,
+      "actual_uV": -15.62610191815918,
+      "controls_uV": [
+        -89.14615037274032,
+        506.6210745799521,
+        -270.26706707691807,
+        -139.06512730225973
+      ],
+      "event_minus_control_mean_uV": -17.66178437516767,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 49,
+      "pulse": 7,
+      "actual_uV": -4.559180158375533,
+      "controls_uV": [
+        380.85612262257763,
+        -356.183227926507,
+        -174.09484418622057,
+        -201.8568058523157
+      ],
+      "event_minus_control_mean_uV": 83.26050867724086,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 49,
+      "pulse": 8,
+      "actual_uV": -131.53671889414022,
+      "controls_uV": [
+        -368.39430969341777,
+        -135.80247125333233,
+        -204.63417135085928,
+        145.40645399914453
+      ],
+      "event_minus_control_mean_uV": 9.319405680475995,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 49,
+      "pulse": 9,
+      "actual_uV": 157.23917245664964,
+      "controls_uV": [
+        57.74165237025508,
+        93.08440968457121,
+        -124.80266655198747,
+        -567.7868833018213
+      ],
+      "event_minus_control_mean_uV": 292.68004440639527,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 49,
+      "pulse": 10,
+      "actual_uV": 158.8468131173554,
+      "controls_uV": [
+        37.61867701870814,
+        -26.1386921899809,
+        174.49935978976205,
+        -185.60236095797876
+      ],
+      "event_minus_control_mean_uV": 158.75256720222777,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 49,
+      "pulse": 11,
+      "actual_uV": -104.62974409521097,
+      "controls_uV": [
+        46.474288604714246,
+        841.9949079532252,
+        -119.10192928171747,
+        18.02699619721237
+      ],
+      "event_minus_control_mean_uV": -301.47830996356953,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 49,
+      "pulse": 12,
+      "actual_uV": 366.80221265329715,
+      "controls_uV": [
+        472.47648830239797,
+        -143.673998981117,
+        -195.5343415627614,
+        922.9949664778663
+      ],
+      "event_minus_control_mean_uV": 102.73643409420066,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 50,
+      "pulse": 1,
+      "actual_uV": -274.1719630448697,
+      "controls_uV": [
+        43.2763883165127,
+        112.23361357665107,
+        161.40450672025298,
+        -205.62224283944553
+      ],
+      "event_minus_control_mean_uV": -301.9950294883625,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 50,
+      "pulse": 2,
+      "actual_uV": 108.90234510790852,
+      "controls_uV": [
+        -13.427092872039808,
+        95.066656177617,
+        31.662970457355115,
+        316.39644599727734
+      ],
+      "event_minus_control_mean_uV": 1.477600167856096,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 50,
+      "pulse": 3,
+      "actual_uV": -116.68255279351224,
+      "controls_uV": [
+        523.825938627584,
+        103.98897283472874,
+        42.417369314123874,
+        -32.03322626313397
+      ],
+      "event_minus_control_mean_uV": -276.23231642183794,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 50,
+      "pulse": 4,
+      "actual_uV": 122.93706333435517,
+      "controls_uV": [
+        -147.25272941641663,
+        -176.26675997946262,
+        -33.07521341386345,
+        -34.59761720318866
+      ],
+      "event_minus_control_mean_uV": 220.735143337588,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 50,
+      "pulse": 5,
+      "actual_uV": -68.11892133652687,
+      "controls_uV": [
+        -234.52664535573984,
+        -120.60360654829461,
+        -18.402940988426764,
+        4.800631433279904
+      ],
+      "event_minus_control_mean_uV": 24.064219028268454,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 50,
+      "pulse": 6,
+      "actual_uV": -210.38104738679843,
+      "controls_uV": [
+        196.5167138933549,
+        -126.08675474774789,
+        -55.79328420522722,
+        -77.85029971818514
+      ],
+      "event_minus_control_mean_uV": -194.5776411923471,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 50,
+      "pulse": 7,
+      "actual_uV": -111.25223052427245,
+      "controls_uV": [
+        -113.15176547574413,
+        -198.05207620994526,
+        46.48198030633709,
+        50.95338427645036
+      ],
+      "event_minus_control_mean_uV": -57.81011124854697,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 50,
+      "pulse": 8,
+      "actual_uV": 629.2248223670333,
+      "controls_uV": [
+        -264.9136897983073,
+        -35.549683034138965,
+        526.6861898722414,
+        -1.2799657793799426
+      ],
+      "event_minus_control_mean_uV": 572.9891095519296,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 50,
+      "pulse": 9,
+      "actual_uV": 247.90188504537903,
+      "controls_uV": [
+        34.90018374592563,
+        -91.1822705662868,
+        0.4531008617608663,
+        62.270121671037515
+      ],
+      "event_minus_control_mean_uV": 246.29160111726972,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 50,
+      "pulse": 10,
+      "actual_uV": -179.7128686433086,
+      "controls_uV": [
+        -126.58250774170988,
+        -22.387426803896496,
+        53.99806342698543,
+        -64.87629753543223
+      ],
+      "event_minus_control_mean_uV": -139.7508264797953,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 50,
+      "pulse": 11,
+      "actual_uV": -176.20671409851462,
+      "controls_uV": [
+        -9.398894438544808,
+        118.38100614160186,
+        -194.74609282742193,
+        126.8603397861362
+      ],
+      "event_minus_control_mean_uV": -186.48080376395745,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 50,
+      "pulse": 12,
+      "actual_uV": 300.00028000645716,
+      "controls_uV": [
+        92.66555844800183,
+        -107.62002820330352,
+        201.95427010054334,
+        -58.84631754320135
+      ],
+      "event_minus_control_mean_uV": 267.9619093059471,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 51,
+      "pulse": 1,
+      "actual_uV": 182.66033022946993,
+      "controls_uV": [
+        -41.51152871527397,
+        309.8754661241543,
+        -283.24453173343704,
+        -103.61975335511366
+      ],
+      "event_minus_control_mean_uV": 212.28541714938754,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 51,
+      "pulse": 2,
+      "actual_uV": -46.901614827413184,
+      "controls_uV": [
+        845.7140446858913,
+        -292.21987395661176,
+        -202.97525352712398,
+        122.07499003083487
+      ],
+      "event_minus_control_mean_uV": -165.0500916356608,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 51,
+      "pulse": 3,
+      "actual_uV": -83.48115681759694,
+      "controls_uV": [
+        -260.3679450043639,
+        -345.2647691050831,
+        251.89360352721735,
+        -217.18120716410218
+      ],
+      "event_minus_control_mean_uV": 59.248922618986,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 51,
+      "pulse": 4,
+      "actual_uV": -99.48517063917971,
+      "controls_uV": [
+        -75.75070550226714,
+        58.310044832962646,
+        478.2313027237167,
+        -110.82750211055537
+      ],
+      "event_minus_control_mean_uV": -186.9759556251439,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 51,
+      "pulse": 5,
+      "actual_uV": 27.82915629012672,
+      "controls_uV": [
+        -120.32098578697303,
+        661.551196684873,
+        -157.86085497115909,
+        -16.553976209462974
+      ],
+      "event_minus_control_mean_uV": -63.87468863919278,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 51,
+      "pulse": 6,
+      "actual_uV": -196.08832464164396,
+      "controls_uV": [
+        79.00860716664182,
+        -251.9562103417278,
+        -31.578177362490152,
+        205.445327344414
+      ],
+      "event_minus_control_mean_uV": -196.31821134335343,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 51,
+      "pulse": 7,
+      "actual_uV": 258.3065498970999,
+      "controls_uV": [
+        -269.0082957565454,
+        -104.37333284847584,
+        61.19861257680714,
+        396.04288074948647
+      ],
+      "event_minus_control_mean_uV": 237.34158371678183,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 51,
+      "pulse": 8,
+      "actual_uV": -126.06355757259492,
+      "controls_uV": [
+        -99.93549058653906,
+        -69.05887423146183,
+        57.35747546201097,
+        31.92226943002363
+      ],
+      "event_minus_control_mean_uV": -106.13490259110334,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 51,
+      "pulse": 9,
+      "actual_uV": -213.5185762731778,
+      "controls_uV": [
+        1710.6786039986082,
+        -207.42137749725498,
+        -234.66941295080534,
+        -88.30934181043582
+      ],
+      "event_minus_control_mean_uV": -508.58819420820583,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 51,
+      "pulse": 10,
+      "actual_uV": -41.47010873037371,
+      "controls_uV": [
+        -383.07829959785545,
+        -239.93021388020452,
+        -230.3002225272216,
+        -155.30894699264385
+      ],
+      "event_minus_control_mean_uV": 210.68431201910767,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 51,
+      "pulse": 11,
+      "actual_uV": -194.80456450989,
+      "controls_uV": [
+        -111.26176599630944,
+        -345.4043196386564,
+        -43.99202682907334,
+        172.84737454284493
+      ],
+      "event_minus_control_mean_uV": -112.85188002959146,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 51,
+      "pulse": 12,
+      "actual_uV": -247.8845917502914,
+      "controls_uV": [
+        -231.0620977159783,
+        -160.4591102520453,
+        239.57209008387827,
+        81.44593307785054
+      ],
+      "event_minus_control_mean_uV": -230.2587955487177,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 52,
+      "pulse": 1,
+      "actual_uV": -15.990828955689267,
+      "controls_uV": [
+        44.2784597447371,
+        80.78150433535326,
+        -14.342699096364647,
+        120.68463580827694
+      ],
+      "event_minus_control_mean_uV": -73.84130415368993,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 52,
+      "pulse": 2,
+      "actual_uV": 295.3221524954474,
+      "controls_uV": [
+        36.001982809452656,
+        47.30739309578846,
+        -7.303973226957524,
+        -87.91863414009393
+      ],
+      "event_minus_control_mean_uV": 298.3004603609,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 52,
+      "pulse": 3,
+      "actual_uV": 102.43238172688574,
+      "controls_uV": [
+        -94.50006806681343,
+        -7.020682350505901,
+        -57.351207914044245,
+        113.43949411694865
+      ],
+      "event_minus_control_mean_uV": 113.79049778048946,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 52,
+      "pulse": 4,
+      "actual_uV": -55.16693631574254,
+      "controls_uV": [
+        -22.736355907798654,
+        38.21338326440161,
+        -8.786358296972164,
+        111.10478992482076
+      ],
+      "event_minus_control_mean_uV": -84.61580106185542,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 52,
+      "pulse": 5,
+      "actual_uV": -124.99202813327781,
+      "controls_uV": [
+        133.80911636129423,
+        -74.79909489185866,
+        165.67861581000267,
+        -58.684248850568444
+      ],
+      "event_minus_control_mean_uV": -166.49312524049526,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 52,
+      "pulse": 6,
+      "actual_uV": 28.151560531042286,
+      "controls_uV": [
+        -27.82912068623189,
+        4.816668421336878,
+        -26.001808129949566,
+        -39.117521236628484
+      ],
+      "event_minus_control_mean_uV": 50.18450593891055,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 52,
+      "pulse": 7,
+      "actual_uV": -22.586205601596298,
+      "controls_uV": [
+        -6.484221448527226,
+        13.577695855665482,
+        146.5782209717076,
+        -18.001169423936812
+      ],
+      "event_minus_control_mean_uV": -56.50383709032356,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 52,
+      "pulse": 8,
+      "actual_uV": -188.3396784911062,
+      "controls_uV": [
+        4.882338437872665,
+        317.9943604510182,
+        53.164873741032295,
+        24.078431319449198
+      ],
+      "event_minus_control_mean_uV": -288.3696794784493,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 52,
+      "pulse": 9,
+      "actual_uV": 131.13766085105783,
+      "controls_uV": [
+        -64.89948326646177,
+        375.83655553033446,
+        -135.7422371806444,
+        -54.10454943463594
+      ],
+      "event_minus_control_mean_uV": 100.86508943890975,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 52,
+      "pulse": 10,
+      "actual_uV": 43.133403283684984,
+      "controls_uV": [
+        503.16169967000445,
+        4.434181423998439,
+        101.30932716913287,
+        -49.25156382207251
+      ],
+      "event_minus_control_mean_uV": -96.78000782658084,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 52,
+      "pulse": 11,
+      "actual_uV": -55.7775892683493,
+      "controls_uV": [
+        -58.14808803819571,
+        163.9949851046235,
+        -97.39869135308444,
+        156.77940604685858
+      ],
+      "event_minus_control_mean_uV": -97.08449220839978,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 52,
+      "pulse": 12,
+      "actual_uV": 117.95859833547972,
+      "controls_uV": [
+        -38.55209025074857,
+        9.360193061372367,
+        151.71077685918743,
+        -51.08218753573091
+      ],
+      "event_minus_control_mean_uV": 100.09942530195964,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 53,
+      "pulse": 1,
+      "actual_uV": 563.8925222566648,
+      "controls_uV": [
+        -157.79642345969958,
+        -166.74308551588302,
+        729.2543083702585,
+        -367.2203416404257
+      ],
+      "event_minus_control_mean_uV": 554.5189078181023,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 53,
+      "pulse": 2,
+      "actual_uV": -71.6676962242424,
+      "controls_uV": [
+        343.30845873999095,
+        1045.961466560788,
+        -401.6479517656713,
+        54.276195560962194
+      ],
+      "event_minus_control_mean_uV": -332.14223849825987,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 53,
+      "pulse": 3,
+      "actual_uV": -134.72274784388784,
+      "controls_uV": [
+        914.9685518611839,
+        -469.5787805435447,
+        -168.25960958492814,
+        -103.74011468894383
+      ],
+      "event_minus_control_mean_uV": -178.07025960482963,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 53,
+      "pulse": 4,
+      "actual_uV": -105.14886846883785,
+      "controls_uV": [
+        -508.8707911276858,
+        -239.74556090715362,
+        -227.79987781414158,
+        -192.17591880600625
+      ],
+      "event_minus_control_mean_uV": 186.99916869490892,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 53,
+      "pulse": 5,
+      "actual_uV": -319.78504555393863,
+      "controls_uV": [
+        -298.4549168247724,
+        -53.50093587044857,
+        -241.95534138728158,
+        -79.82754387134139
+      ],
+      "event_minus_control_mean_uV": -151.35036106547764,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 53,
+      "pulse": 6,
+      "actual_uV": -4.676452858828881,
+      "controls_uV": [
+        131.45277520523746,
+        -186.73009996419964,
+        7.536294659285517,
+        2.450211959201255
+      ],
+      "event_minus_control_mean_uV": 6.646251676289971,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 53,
+      "pulse": 7,
+      "actual_uV": -133.09291454503827,
+      "controls_uV": [
+        -65.42671132904465,
+        -40.649595284020236,
+        82.02614983110477,
+        389.08308859969543
+      ],
+      "event_minus_control_mean_uV": -224.3511474994721,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 53,
+      "pulse": 8,
+      "actual_uV": -136.30325329003213,
+      "controls_uV": [
+        -128.79931362294593,
+        27.230037711004073,
+        279.15021950689066,
+        -127.57107386938972
+      ],
+      "event_minus_control_mean_uV": -148.8057207214219,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 53,
+      "pulse": 9,
+      "actual_uV": 163.45404574785726,
+      "controls_uV": [
+        -213.96076710025744,
+        -183.59595980066422,
+        -111.89793037386097,
+        58.16147381156044
+      ],
+      "event_minus_control_mean_uV": 276.2773416136628,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 53,
+      "pulse": 10,
+      "actual_uV": 5.938029253388379,
+      "controls_uV": [
+        -101.37214252041449,
+        -84.25112806584312,
+        661.7818078611671,
+        -273.35541688382204
+      ],
+      "event_minus_control_mean_uV": -44.762750844383476,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 53,
+      "pulse": 11,
+      "actual_uV": 41.79208191054662,
+      "controls_uV": [
+        68.62188792325364,
+        448.8490165279191,
+        -120.09325725036157,
+        -57.128261736483225
+      ],
+      "event_minus_control_mean_uV": -43.27026445553535,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 53,
+      "pulse": 12,
+      "actual_uV": 262.5225700456507,
+      "controls_uV": [
+        47.616295850927415,
+        -45.2052214159615,
+        -203.1846015798783,
+        7.273865091583783
+      ],
+      "event_minus_control_mean_uV": 310.89748555898285,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 54,
+      "pulse": 1,
+      "actual_uV": -119.6061598049275,
+      "controls_uV": [
+        -104.64011880069457,
+        0.1714286885362526,
+        129.9911548049981,
+        57.202677582704474
+      ],
+      "event_minus_control_mean_uV": -140.28744537381357,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 54,
+      "pulse": 2,
+      "actual_uV": -175.31165637779677,
+      "controls_uV": [
+        -12.489711083141229,
+        -62.80091901884888,
+        427.50493872173445,
+        -163.78399546039535
+      ],
+      "event_minus_control_mean_uV": -222.41923466763402,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 54,
+      "pulse": 3,
+      "actual_uV": -11.76319813973869,
+      "controls_uV": [
+        -160.07087196251433,
+        419.7232051571381,
+        -58.880303954303436,
+        49.71812039331058
+      ],
+      "event_minus_control_mean_uV": -74.38573554814643,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 54,
+      "pulse": 4,
+      "actual_uV": 280.6640694729967,
+      "controls_uV": [
+        208.72258732672344,
+        -57.80743301300739,
+        -52.291198671061686,
+        -189.2968458441363
+      ],
+      "event_minus_control_mean_uV": 303.3322920233672,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 54,
+      "pulse": 5,
+      "actual_uV": 21.58865458989912,
+      "controls_uV": [
+        -53.81457393667522,
+        -107.3864390198631,
+        -165.30623267463352,
+        27.493006422601997
+      ],
+      "event_minus_control_mean_uV": 96.34221439204158,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 54,
+      "pulse": 6,
+      "actual_uV": -262.26183547514717,
+      "controls_uV": [
+        -167.6634690129797,
+        -9.620300749912936,
+        123.35815506980819,
+        9.146028317322248
+      ],
+      "event_minus_control_mean_uV": -251.06693888120662,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 54,
+      "pulse": 7,
+      "actual_uV": -286.83169646476216,
+      "controls_uV": [
+        86.8351710555798,
+        96.74832994317761,
+        20.79356610200367,
+        -44.08628164517814
+      ],
+      "event_minus_control_mean_uV": -326.9043928286579,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 54,
+      "pulse": 8,
+      "actual_uV": -271.99172866798625,
+      "controls_uV": [
+        -29.991998189676796,
+        -167.14993444268134,
+        -159.39484145352512,
+        37.14251758245302
+      ],
+      "event_minus_control_mean_uV": -192.1431645421287,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 54,
+      "pulse": 9,
+      "actual_uV": 17.162771404385936,
+      "controls_uV": [
+        -86.65725865293628,
+        -88.05201376478611,
+        -217.47717300865668,
+        -54.36349491204361
+      ],
+      "event_minus_control_mean_uV": 128.8002564889916,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 54,
+      "pulse": 10,
+      "actual_uV": -164.67138945398807,
+      "controls_uV": [
+        23.528242592982252,
+        -300.8053884329953,
+        -9.447886597832571,
+        -124.21446690859261
+      ],
+      "event_minus_control_mean_uV": -61.936514617378506,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 54,
+      "pulse": 11,
+      "actual_uV": 13.976788231021004,
+      "controls_uV": [
+        -207.1100613101756,
+        109.77815768002664,
+        -196.08555262816407,
+        -9.18032626205656
+      ],
+      "event_minus_control_mean_uV": 89.6262338611134,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 54,
+      "pulse": 12,
+      "actual_uV": -46.792406397308525,
+      "controls_uV": [
+        -8.978325316613688,
+        -127.51397547797194,
+        11.998005483196408,
+        -56.24052950638225
+      ],
+      "event_minus_control_mean_uV": -1.608700192865662,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 55,
+      "pulse": 1,
+      "actual_uV": -196.571094948611,
+      "controls_uV": [
+        -67.17084440750753,
+        261.59781999156303,
+        -140.9085594983872,
+        147.79315633214884
+      ],
+      "event_minus_control_mean_uV": -246.8989880530653,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 55,
+      "pulse": 2,
+      "actual_uV": -40.18087959403727,
+      "controls_uV": [
+        142.82471890129932,
+        -294.3816439262281,
+        -16.746740500839252,
+        10.692895761374444
+      ],
+      "event_minus_control_mean_uV": -0.7781871529388766,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 55,
+      "pulse": 3,
+      "actual_uV": 1466.5950505352023,
+      "controls_uV": [
+        -385.05665255640645,
+        -174.00363222713767,
+        -181.58548327487645,
+        207.19529945305294
+      ],
+      "event_minus_control_mean_uV": 1599.9576676865443,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 55,
+      "pulse": 4,
+      "actual_uV": -69.93688788398124,
+      "controls_uV": [
+        -106.79219180943778,
+        -110.02483000413511,
+        208.67660369212894,
+        17.117611744443817
+      ],
+      "event_minus_control_mean_uV": -72.1811862897312,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 55,
+      "pulse": 5,
+      "actual_uV": -182.31154099782043,
+      "controls_uV": [
+        25.696956583498576,
+        163.86499928912335,
+        -97.26069467293208,
+        146.13643577411628
+      ],
+      "event_minus_control_mean_uV": -241.92096524127197,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 55,
+      "pulse": 6,
+      "actual_uV": -124.60715695002122,
+      "controls_uV": [
+        170.5525504693689,
+        -22.484737192629552,
+        158.64192063118344,
+        -47.603421247030546
+      ],
+      "event_minus_control_mean_uV": -189.3837351152443,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 55,
+      "pulse": 7,
+      "actual_uV": -84.72254837633974,
+      "controls_uV": [
+        136.72616336465882,
+        43.18582867067489,
+        -175.6342602546451,
+        104.1625797154888
+      ],
+      "event_minus_control_mean_uV": -111.8326262503841,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 55,
+      "pulse": 8,
+      "actual_uV": -105.48378618900622,
+      "controls_uV": [
+        74.78413237692327,
+        -207.1344156102661,
+        384.46862966060036,
+        -263.9184873686196
+      ],
+      "event_minus_control_mean_uV": -102.5337509536657,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 55,
+      "pulse": 9,
+      "actual_uV": -70.83747945917096,
+      "controls_uV": [
+        37.21425805419676,
+        28.169742650671626,
+        25.085510173827874,
+        108.37215429698732
+      ],
+      "event_minus_control_mean_uV": -120.54789575309186,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 55,
+      "pulse": 10,
+      "actual_uV": -41.28470426197073,
+      "controls_uV": [
+        -32.056212358383405,
+        10.475939930337795,
+        11.975054991800182,
+        -71.40756564753826
+      ],
+      "event_minus_control_mean_uV": -21.03150849102481,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 55,
+      "pulse": 11,
+      "actual_uV": -6.177166278500955,
+      "controls_uV": [
+        16.32575939154723,
+        -59.51361875287941,
+        -26.502836850489373,
+        -233.9771203865859
+      ],
+      "event_minus_control_mean_uV": 69.7397878711009,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 55,
+      "pulse": 12,
+      "actual_uV": 272.30978669706695,
+      "controls_uV": [
+        92.6853198523342,
+        -20.18153731518646,
+        -182.62814817023022,
+        -324.30418537635063
+      ],
+      "event_minus_control_mean_uV": 380.9169244494252,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 56,
+      "pulse": 1,
+      "actual_uV": 139.7079101798926,
+      "controls_uV": [
+        47.40034582849384,
+        44.48866101813831,
+        536.7575442629252,
+        -133.24493023829376
+      ],
+      "event_minus_control_mean_uV": 15.857504962076703,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 56,
+      "pulse": 2,
+      "actual_uV": -94.43639313704011,
+      "controls_uV": [
+        29.721641680663378,
+        374.2219695771764,
+        -129.73352794139194,
+        519.6979934851548
+      ],
+      "event_minus_control_mean_uV": -292.9134123374408,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 56,
+      "pulse": 3,
+      "actual_uV": -24.256203849867816,
+      "controls_uV": [
+        56.39845543758959,
+        -170.21665745824143,
+        229.47311219739808,
+        -27.317777023833088
+      ],
+      "event_minus_control_mean_uV": -46.34048713809611,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 56,
+      "pulse": 4,
+      "actual_uV": 336.2283472179567,
+      "controls_uV": [
+        -132.63540770772073,
+        -158.0364645680926,
+        -76.47149767109339,
+        -111.49686834308059
+      ],
+      "event_minus_control_mean_uV": 455.88840679045353,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 56,
+      "pulse": 5,
+      "actual_uV": -231.96347766195333,
+      "controls_uV": [
+        -162.51812371652352,
+        -79.82114408058848,
+        75.24890494130243,
+        -138.73148369103473
+      ],
+      "event_minus_control_mean_uV": -155.50801602524226,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 56,
+      "pulse": 6,
+      "actual_uV": 360.3971271032847,
+      "controls_uV": [
+        260.7596966301834,
+        -31.53960568506864,
+        -122.94447147676024,
+        -123.1997116113437
+      ],
+      "event_minus_control_mean_uV": 364.62815013903196,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 56,
+      "pulse": 7,
+      "actual_uV": -193.6712331572221,
+      "controls_uV": [
+        -109.90393206951333,
+        -124.222550252448,
+        22.801427016855286,
+        508.8483518057018
+      ],
+      "event_minus_control_mean_uV": -268.05205728237104,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 56,
+      "pulse": 8,
+      "actual_uV": 20.047000565626135,
+      "controls_uV": [
+        -131.25399513599922,
+        -44.18674551713575,
+        314.93543976332523,
+        -236.80647639665042
+      ],
+      "event_minus_control_mean_uV": 44.37494488724118,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 56,
+      "pulse": 9,
+      "actual_uV": 107.57107800567212,
+      "controls_uV": [
+        -52.50538630330315,
+        -0.4719785278717268,
+        -80.2267557738906,
+        -55.47373590103488
+      ],
+      "event_minus_control_mean_uV": 154.74054213219722,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 56,
+      "pulse": 10,
+      "actual_uV": -272.46139803237253,
+      "controls_uV": [
+        84.14574704886103,
+        15.866647838175268,
+        61.8674676398784,
+        -92.77629148550514
+      ],
+      "event_minus_control_mean_uV": -289.73729079272493,
+      "inside_control_range": false
+    },
+    {
+      "sweep": 56,
+      "pulse": 11,
+      "actual_uV": 12.02370001361641,
+      "controls_uV": [
+        -71.59869851998403,
+        17.077506558604853,
+        41.97724986776397,
+        54.598245035120115
+      ],
+      "event_minus_control_mean_uV": 1.5101242782401805,
+      "inside_control_range": true
+    },
+    {
+      "sweep": 56,
+      "pulse": 12,
+      "actual_uV": -33.034663179984385,
+      "controls_uV": [
+        -25.253321257648345,
+        131.8152655585686,
+        186.11491896572406,
+        6.193861937675578
+      ],
+      "event_minus_control_mean_uV": -107.75234448106437,
+      "inside_control_range": false
+    }
+  ],
+  "summary": [
+    {
+      "pulse": 1,
+      "n": 20,
+      "actual_mean_uV": 80.5281381073074,
+      "control_means_uV": [
+        21.737659723887482,
+        94.2850083311464,
+        74.14758500375527,
+        -31.748968297240502
+      ],
+      "mean_difference_uV": 40.92281691692024,
+      "positive_differences": 10,
+      "inside_control_range": 9
+    },
+    {
+      "pulse": 2,
+      "n": 20,
+      "actual_mean_uV": 11.363300354588768,
+      "control_means_uV": [
+        46.35310043519595,
+        53.05031964825332,
+        -45.52956434973748,
+        111.36612734465868
+      ],
+      "mean_difference_uV": -29.94669541500385,
+      "positive_differences": 7,
+      "inside_control_range": 11
+    },
+    {
+      "pulse": 3,
+      "n": 20,
+      "actual_mean_uV": 99.77666139857968,
+      "control_means_uV": [
+        4.4211992456411116,
+        -72.07222613290139,
+        75.72552608313549,
+        -59.56348212547632
+      ],
+      "mean_difference_uV": 112.64890713097998,
+      "positive_differences": 11,
+      "inside_control_range": 11
+    },
+    {
+      "pulse": 4,
+      "n": 20,
+      "actual_mean_uV": -23.506108065324973,
+      "control_means_uV": [
+        -48.26614526482962,
+        11.712140448871809,
+        -41.08261170016059,
+        -32.480457004876314
+      ],
+      "mean_difference_uV": 4.023160314923703,
+      "positive_differences": 9,
+      "inside_control_range": 8
+    },
+    {
+      "pulse": 5,
+      "n": 20,
+      "actual_mean_uV": -11.379839674725835,
+      "control_means_uV": [
+        -19.82157966665398,
+        32.2757124654259,
+        -13.46717237223696,
+        16.46809198397394
+      ],
+      "mean_difference_uV": -15.243602777353061,
+      "positive_differences": 9,
+      "inside_control_range": 12
+    },
+    {
+      "pulse": 6,
+      "n": 20,
+      "actual_mean_uV": -16.44124376187425,
+      "control_means_uV": [
+        84.22033945201318,
+        10.232476974761374,
+        15.060992638368806,
+        -32.65057528128516
+      ],
+      "mean_difference_uV": -35.657052207838795,
+      "positive_differences": 6,
+      "inside_control_range": 10
+    },
+    {
+      "pulse": 7,
+      "n": 20,
+      "actual_mean_uV": -32.78198347030983,
+      "control_means_uV": [
+        2.7138364809296847,
+        -24.821781256588462,
+        29.840948759293077,
+        81.02992086633162
+      ],
+      "mean_difference_uV": -54.97271468280131,
+      "positive_differences": 6,
+      "inside_control_range": 12
+    },
+    {
+      "pulse": 8,
+      "n": 20,
+      "actual_mean_uV": -57.98381445044699,
+      "control_means_uV": [
+        -40.436898753429944,
+        6.291218929285754,
+        37.9387618600839,
+        -49.8764898466314
+      ],
+      "mean_difference_uV": -46.46296249777408,
+      "positive_differences": 8,
+      "inside_control_range": 8
+    },
+    {
+      "pulse": 9,
+      "n": 20,
+      "actual_mean_uV": 24.329910098781077,
+      "control_means_uV": [
+        60.077646502318395,
+        -5.577150355434712,
+        -94.55208044923529,
+        -23.466200607986938
+      ],
+      "mean_difference_uV": 40.20935632636572,
+      "positive_differences": 11,
+      "inside_control_range": 10
+    },
+    {
+      "pulse": 10,
+      "n": 20,
+      "actual_mean_uV": 49.977639346869566,
+      "control_means_uV": [
+        39.59692469162613,
+        -59.56399081537971,
+        40.04935855355107,
+        -65.92094937944992
+      ],
+      "mean_difference_uV": 61.437303584282674,
+      "positive_differences": 11,
+      "inside_control_range": 11
+    },
+    {
+      "pulse": 11,
+      "n": 20,
+      "actual_mean_uV": 62.97743511508649,
+      "control_means_uV": [
+        36.974898060024294,
+        54.17819363116375,
+        -40.94380128147612,
+        72.0163984172427
+      ],
+      "mean_difference_uV": 32.42101290834785,
+      "positive_differences": 9,
+      "inside_control_range": 16
+    },
+    {
+      "pulse": 12,
+      "n": 20,
+      "actual_mean_uV": -39.76943249451442,
+      "control_means_uV": [
+        17.298975621764253,
+        -34.78221467238946,
+        73.58311112541858,
+        26.08698053289671
+      ],
+      "mean_difference_uV": -60.31614564643694,
+      "positive_differences": 7,
+      "inside_control_range": 11
+    }
+  ],
+  "verification": "PASS60 archived baseline commands, 960 control window bounds and240 original contrast reproductions"
+}

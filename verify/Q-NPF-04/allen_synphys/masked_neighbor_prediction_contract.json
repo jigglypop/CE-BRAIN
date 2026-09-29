@@ -1,0 +1,30 @@
+{
+  "question": "Do common-input features improve masked-edge prediction beyond regularized node effects and distance?",
+  "population": "existing347Minnie23Pcells, threshold1; all60031dyads; both directions hidden together",
+  "split": "default_rng(2026092500).permutation of lexicographicupperdyads, assign permutedpositions modulo5; balanced without outcome stratification",
+  "leakage": "All heldout edges removed before all common-neighbor features. Train labels only under train mask. Train feature means/scales only. No degree computed from heldout labels.",
+  "models": {
+    "base": [],
+    "input": [
+      0
+    ],
+    "output": [
+      1
+    ],
+    "both": [
+      0,
+      1
+    ]
+  },
+  "features": "log1p common inputs/outputs in masked training graph; standardized using training directional pairs",
+  "baseline": "intercept + sender effect + receiver effect + six distance-bin offsets; all parameters except intercept get fixed ridge penalty0.5*sum(theta^2); same penalty for added features",
+  "fit": "L-BFGS-B max2000 gtol1e-6 ftol0; require max absolute penalized gradient<=1e-5. Any failed fit stops aggregate interpretation; no retuning.",
+  "endpoints": "Primary heldout directional logloss; secondary directionalBrier, mutualBernoulli logloss/Brier and sum of product probabilities. Mutual prediction assumes conditional independence given training graph.",
+  "inference": "Adaptive internal5fold assessment on already inspected dataset. Report weighted means and pairedfold changes, no pvalue, independent biological holdout, or causal claim.",
+  "code_sha256": "e917c644ea8e1313f391f5592946c25c7e0485576cb305cefe83ea7cc634766b",
+  "prior_sha256": "1e0ad553453b4668fe9a879770a0921db7fbb5d8ef20bc5adea72ce8660b5bc6",
+  "loader_sha256": "86601a11a65bb85f9c79d4e55d72722b4ac259a577af3557b787c81d70899964",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1"
+}

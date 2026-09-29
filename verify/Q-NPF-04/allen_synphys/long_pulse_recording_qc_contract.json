@@ -1,0 +1,10 @@
+{
+  "question": "Do the 24 LP traces satisfy the previously used recording-level quality subset and what amplifier metadata are available?",
+  "metadata": "EntrySourceType0; within-sweep last finite field; global column8 overrides; no across-sweep carry; missing fields explicit.",
+  "criteria": "Finite full trace; zeros<=floor(n/10); IC mode1; holding +/-800pA; notebook-baseline float_mode [-85,-45]mV; baseline SD<=5mV.",
+  "limits": "Subset reconstruction, not full producer QC; resistance units/physical meaning and cell stability not inferred; user QC field is metadata only.",
+  "source_sha256": "5ef8d6528dd14cee0c133b36d4a953a76fc08cc3b2fc7609e878cce9d7f73d4f",
+  "code_sha256": "396f1314c7917fe269f7e828dac4558660b363e5009119895a48c7e0faf19d42",
+  "reader_sha256": "5aa32fce7a19372183cf304ecf70bcd1d168dc723ffcffbc74f0711d83db50ae",
+  "baseline_source_sha256": "4f5e14d5e8e607b424903e17bc13b4eb5d0dbe9316a2f5cbc248a32f8d37062a"
+}

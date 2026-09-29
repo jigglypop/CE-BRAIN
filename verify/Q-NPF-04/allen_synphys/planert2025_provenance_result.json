@@ -1,0 +1,18 @@
+{
+  "contract_sha256": "728da2dd5cd858042a0b3866da9bc18357047c72c41bc5a330a0334ecee46e33",
+  "table_rows": 10784,
+  "clusters": 203,
+  "patient_labels": 23,
+  "finite_amplitudes": 1467,
+  "exact_cell_id_overlap": {
+    "er": 0,
+    "tr": 0
+  },
+  "source_rules": {
+    "monosynaptic": "raw connection == 1 OR == 1.2; NaN comparisons yield false, explaining final zero but not assessment quality",
+    "matrix2": "derived from ephys_import2 using first-import combined filter; not interchangeable with matrix",
+    "amplitude": "matrix.avg is populated from ephys_import.avgsweep; raw waveform availability not established"
+  },
+  "status": "PREPROCESSING_RULE_LOCATED; TR_42_NOT_RESOLVED; NO_EXACT_ID_BRIDGE",
+  "limits": "Later release source does not establish exact historical execution; pseudonyms are not reverse-mapped; dataset not assumed independent"
+}

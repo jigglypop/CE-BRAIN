@@ -1,0 +1,23 @@
+{
+  "question": "추가 예측 개선은 어느 시행 집단에서 나오며 소수 시행에 집중되는가",
+  "parent_sha256": "7be9bffb98f63ea75e1a6186bf4e79f6db771aeb89356ed6df34abae5892fe01",
+  "prediction_sha256": "f2a88d38a1fa0b7dc568f13462b51487a64b578f426c75c4cc3e8d91447b341b",
+  "source_sha256": "810c432e5ad92d33422d82e43fb39e26b2747caa5db0f777465d3b7e6e7ccb4b",
+  "code_sha256": "956a9705f76f7f46b16e160d2ab4217f777619c7bce8adb5ac918efc747f849f",
+  "helper_sha256": "151a39ddb1f34418a1fcfe9677f134c4dcae5f5e5d1a359c4938d38c06fe07e9",
+  "inherit": "기존 학습·평가·모형·예측·측정모형·시행 제외 유지; 재적합 없음",
+  "groups": "원래 시행 번호로 연결한 catch/test, 두 집단 모두 보고",
+  "endpoints": [
+    "각 집단 MSE 및 SSE 개선",
+    "단일 평가 시행을 각각 제외한 상대 개선 최솟값·최댓값",
+    "오차 개선이 가장 큰 ceil(0.1*n) 시행을 제외한 상대 개선"
+  ],
+  "ranking": "squared_error_baseline-squared_error_added 내림차순; 동률은 기존 시행 순서",
+  "limits": [
+    "결과 기반 제거는 개선 집중도 스트레스 검사이며 새 확인 성능이나 신뢰구간 아님",
+    "집단별 개선은 자극 표지 외 다른 계수의 재추정도 포함",
+    "재적합 없이 예측을 고정한 영향 검사",
+    "독립 동물 통합·인과효과·다중비교 유의성 판정 없음"
+  ],
+  "claim_ceiling": "BIO_EVIDENCE_L1 post-hoc prediction decomposition"
+}

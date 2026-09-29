@@ -1,0 +1,252 @@
+{
+  "question": "Locate the authoritative ScanUnit unit-to-mask mapping without full SQL download",
+  "status": "SCAN_UNIT_TABLE_NOT_LOCATED",
+  "source": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+  "total_remote_bytes": 116199864342,
+  "cached_bytes": 60817408,
+  "range_count": 29,
+  "observed_tables": [
+    "#scan_include",
+    "activity",
+    "fluorescence",
+    "mean_intensity",
+    "monet2",
+    "unit_hash"
+  ],
+  "records": [
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 0,
+      "end": 2097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "dc9e0b635f8d5125ddc1d2683904e9f17d0e2908e2f85c23bc82226fe45e82a4"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 100000000000,
+      "end": 100002097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "599772062941484e8e65195dd9da38316655eea7966121a05304b82926db5b8f"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 100002097152,
+      "end": 100004194303,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "153ef6e1474a4b3c1852172d649a5a567a80e361cde9cd030360ad9da74cb49a"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 100004194304,
+      "end": 100006291455,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "045d6cb44b8c0101086e90b38cb246f952c98f89e9de3d5dcc1032d461e64c55"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 100006291456,
+      "end": 100008388607,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "383ae3786316a3c266cc2a939ab5353e7f07195a1470758e2aadb7eef12563fb"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 100008388608,
+      "end": 100010485759,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "7344bc8c59dfebada7a7ff04676168c27028f9dbd80f49f3f25684dc3eb4cc16"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 100020000000,
+      "end": 100022097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "f5f9afbac6cff5265f25317c38b7e377dbd1541352c0bd5a9e3040600ac15bdc"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 100030000000,
+      "end": 100032097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "8a62c04dea4e0002817a919cf9f4e8d8bb34b13c021a1c734ba577ccfb7cb627"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 100040000000,
+      "end": 100042097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "498223adbc4c66c34e3c230bccaa3bc660e8576892d7c2c117c2af3058e982bc"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 100050000000,
+      "end": 100052097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "2ff1e434620468eb94546459ff40629b8659990d78e37e59437a21c467d94b79"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 100100000000,
+      "end": 100102097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "1b55c7b6800e261615e810daf8d722187eb23503398178cd6c8a24c37ffe1d20"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 101000000000,
+      "end": 101002097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "ecb3a118a25297bec624973d1f609ddaa7453a8a7338e4a1e58b67d17dacd5a0"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 102000000000,
+      "end": 102002097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "1b0e55a1e4d56b7acbdc6ac0d4450b12ca4dc7657140039ab4a2357011a29ef7"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 104000000000,
+      "end": 104002097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "2394069a6d24213020a013bd3faa5dfa9660626675b5452293314091800ab7c2"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 106000000000,
+      "end": 106002097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "54a93c1fc886707676b24bbcf44ecfb6c847756a79a3142d57b49346fb5d01e8"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 110000000000,
+      "end": 110002097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "b1df7b166937a527da557caf6539a06a80f7aa8366a64ea35b966c05983baa07"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 114102712342,
+      "end": 114104809493,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "6f0d2ca8501cc8736cbfdb1d2993ca073ab2625ee495c35dba74ffd3b278257f"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 115000000000,
+      "end": 115002097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "2f552fe40fbc068039ef601ce38471b0e53b81f6f08fd96e8052f85bb6d1b937"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 116000000000,
+      "end": 116002097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "71c46351081a5c1a80a6e3d7b1aa285d4b95be06556a2a7c49f6420bb74fce56"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 116100000000,
+      "end": 116102097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "dd316f1fb8b38a94755b7c4d66fea9c83f03d06a9709d0ee08143cf3cf1bab66"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 116150000000,
+      "end": 116152097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "231b3406b319363baaf0a15d9c09733a7d2e425b1853c6db979d8803b6a7c494"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 116180000000,
+      "end": 116182097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "f6417734ae411dc8980b1d0996e71aade8d4b3f189c75223e6735d2476a6b00f"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 116190000000,
+      "end": 116192097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "5519fef6f7d271dfcad8a897593126a4b6d3dd904df334197d58bdc1e23ed825"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 116197767190,
+      "end": 116199864341,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "1f6b36157f2f97c2dfd3560c1d62f34b3484d18fc8a86cb8f7709d670c387a49"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 58099932171,
+      "end": 58102029322,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "76725899dc41c61d653c464195a2da49715123ef34a766668dd9b5c0820dbd91"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 90000000000,
+      "end": 90002097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "5d10ba293cb07d2a7b3b1c1a5ddc5236c92911963c942383b18c374d7084fd1e"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 95000000000,
+      "end": 95002097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "e9ae12a4f354b749f0206abe0d867632e7f9f65e996cc168e75412f5bd0ca5ee"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 97000000000,
+      "end": 97002097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "9753a2648a1f8bfdff76f7a35017feafa8d160b219d66ecaa0169e8d9090caf1"
+    },
+    {
+      "url": "https://bossdb-open-data.s3.amazonaws.com/iarpa_microns/minnie/functional_data/two_photon_processed_data_and_metadata/database_v8/functional_data_database_sql_dump_v8.sql",
+      "start": 98000000000,
+      "end": 98002097151,
+      "total": 116199864342,
+      "etag": "\"a31753f2a221b1bf840a43671bf69533-6927\"",
+      "sha256": "91af549067a54e7f0d314846a15b496c9c1941d79aedbed4dd0e5b6cca131776"
+    }
+  ],
+  "claim_ceiling": "L0 metadata search; absence in sampled ranges does not prove absence in database; 13 coordinate candidates remain unconfirmed",
+  "next": "Inspect table archive structure or producer schema for targeted ScanUnit export; do not infer mask_id by cumulative ROI counts"
+}

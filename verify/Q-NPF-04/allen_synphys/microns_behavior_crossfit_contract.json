@@ -1,0 +1,11 @@
+{
+  "question": "Separate complete-case sampling, stimulus-mean estimation, and held-repeat behavior/time prediction effects on the fixed structural contrast.",
+  "rows": "Same complete mask for all models: abs(speed), pupil_major/minor, eye_x/y finite. No imputation; repeats9/10 have no validation rows.",
+  "folds": "Leave one observed repeat out across all6 conditions. Condition-phase response and covariate means and covariate scales estimated only on other complete-case repeats.",
+  "models": "Fixed linear least squares rcond1e-12: time only, five behavior variables only, combined. No tuning. Report rank and marginal training-range violations on test rows.",
+  "endpoints": "Original residual contrast full vs complete rows; held-repeat baseline vs three regression residual contrasts; held-repeat squared-error ratio relative to stimulus-only baseline.",
+  "limits": "Post-observation diagnostic, not causal confounder adjustment or independent animal prediction. Out-of-training-range behavior may invalidate extrapolative correction. Report failures rather than tuning.",
+  "code_sha256": "cc5e73fbf27432943de8dd059f7b0d7ed82150fa4e4c069153bb660b38df0df0",
+  "response_sha256": "49e1d0cc7c71c81deb62bebe363a0f3fdc34793a5f66cc766a037c4316913b44",
+  "behavior_sha256": "8b1c622db6f2acf498c8542ee01823333a2d8230760e74f9e03ba3e569c075d3"
+}

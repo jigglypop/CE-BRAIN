@@ -1,0 +1,3119 @@
+{
+  "shape": [
+    1024,
+    172,
+    9
+  ],
+  "columns": [
+    "SweepNum",
+    "TimeStamp",
+    "EntrySourceType",
+    "Clamp Mode",
+    "V-Clamp Holding Level"
+  ],
+  "entries": [
+    {
+      "sweep": 0,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "TimeStamp": [
+          3657110643.933,
+          3657110643.933,
+          3657110643.933,
+          3657110643.933,
+          3657110643.933,
+          3657110643.933,
+          3657110643.933,
+          3657110643.933,
+          3657110643.933
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          0.0,
+          null,
+          0.0,
+          0.0,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:03.933000"
+    },
+    {
+      "sweep": 0,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "TimeStamp": [
+          3657110643.99,
+          3657110643.99,
+          3657110643.99,
+          3657110643.99,
+          3657110643.99,
+          3657110643.99,
+          3657110643.99,
+          3657110643.99,
+          3657110643.99
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          -69.98353451490402,
+          null,
+          -70.01371681690216,
+          -70.01638412475586,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:03.990000"
+    },
+    {
+      "sweep": 0,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "TimeStamp": [
+          3657110643.998,
+          3657110643.998,
+          3657110643.998,
+          3657110643.998,
+          3657110643.998,
+          3657110643.998,
+          3657110643.998,
+          3657110643.998,
+          3657110643.998
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:03.998000"
+    },
+    {
+      "sweep": 0,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "TimeStamp": [
+          3657110643.999,
+          3657110643.999,
+          3657110643.999,
+          3657110643.999,
+          3657110643.999,
+          3657110643.999,
+          3657110643.999,
+          3657110643.999,
+          3657110643.999
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:03.999000"
+    },
+    {
+      "sweep": 0,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "TimeStamp": [
+          3657110643.999,
+          3657110643.999,
+          3657110643.999,
+          3657110643.999,
+          3657110643.999,
+          3657110643.999,
+          3657110643.999,
+          3657110643.999,
+          3657110643.999
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:03.999000"
+    },
+    {
+      "sweep": 1,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "TimeStamp": [
+          3657110659.411,
+          3657110659.411,
+          3657110659.411,
+          3657110659.411,
+          3657110659.411,
+          3657110659.411,
+          3657110659.411,
+          3657110659.411,
+          3657110659.411
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          0.0,
+          null,
+          0.0,
+          0.0,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:19.411000"
+    },
+    {
+      "sweep": 1,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "TimeStamp": [
+          3657110659.48,
+          3657110659.48,
+          3657110659.48,
+          3657110659.48,
+          3657110659.48,
+          3657110659.48,
+          3657110659.48,
+          3657110659.48,
+          3657110659.48
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          -69.98353451490402,
+          null,
+          -70.01371681690216,
+          -70.01638412475586,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:19.480000"
+    },
+    {
+      "sweep": 1,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "TimeStamp": [
+          3657110659.483,
+          3657110659.483,
+          3657110659.483,
+          3657110659.483,
+          3657110659.483,
+          3657110659.483,
+          3657110659.483,
+          3657110659.483,
+          3657110659.483
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:19.483000"
+    },
+    {
+      "sweep": 1,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "TimeStamp": [
+          3657110659.484,
+          3657110659.484,
+          3657110659.484,
+          3657110659.484,
+          3657110659.484,
+          3657110659.484,
+          3657110659.484,
+          3657110659.484,
+          3657110659.484
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:19.484000"
+    },
+    {
+      "sweep": 1,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "TimeStamp": [
+          3657110659.484,
+          3657110659.484,
+          3657110659.484,
+          3657110659.484,
+          3657110659.484,
+          3657110659.484,
+          3657110659.484,
+          3657110659.484,
+          3657110659.484
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:19.484000"
+    },
+    {
+      "sweep": 2,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "TimeStamp": [
+          3657110674.865,
+          3657110674.865,
+          3657110674.865,
+          3657110674.865,
+          3657110674.865,
+          3657110674.865,
+          3657110674.865,
+          3657110674.865,
+          3657110674.865
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          0.0,
+          null,
+          0.0,
+          0.0,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:34.865000"
+    },
+    {
+      "sweep": 2,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "TimeStamp": [
+          3657110674.923,
+          3657110674.923,
+          3657110674.923,
+          3657110674.923,
+          3657110674.923,
+          3657110674.923,
+          3657110674.923,
+          3657110674.923,
+          3657110674.923
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          -69.98353451490402,
+          null,
+          -70.01371681690216,
+          -70.01638412475586,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:34.923000"
+    },
+    {
+      "sweep": 2,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "TimeStamp": [
+          3657110674.929,
+          3657110674.929,
+          3657110674.929,
+          3657110674.929,
+          3657110674.929,
+          3657110674.929,
+          3657110674.929,
+          3657110674.929,
+          3657110674.929
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:34.929000"
+    },
+    {
+      "sweep": 2,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "TimeStamp": [
+          3657110674.93,
+          3657110674.93,
+          3657110674.93,
+          3657110674.93,
+          3657110674.93,
+          3657110674.93,
+          3657110674.93,
+          3657110674.93,
+          3657110674.93
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:34.930000"
+    },
+    {
+      "sweep": 2,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "TimeStamp": [
+          3657110674.931,
+          3657110674.931,
+          3657110674.931,
+          3657110674.931,
+          3657110674.931,
+          3657110674.931,
+          3657110674.931,
+          3657110674.931,
+          3657110674.931
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:34.931000"
+    },
+    {
+      "sweep": 3,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+        ],
+        "TimeStamp": [
+          3657110690.431,
+          3657110690.431,
+          3657110690.431,
+          3657110690.431,
+          3657110690.431,
+          3657110690.431,
+          3657110690.431,
+          3657110690.431,
+          3657110690.431
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          0.0,
+          null,
+          0.0,
+          0.0,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:50.431000"
+    },
+    {
+      "sweep": 3,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+        ],
+        "TimeStamp": [
+          3657110690.478,
+          3657110690.478,
+          3657110690.478,
+          3657110690.478,
+          3657110690.478,
+          3657110690.478,
+          3657110690.478,
+          3657110690.478,
+          3657110690.478
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          -69.98353451490402,
+          null,
+          -70.01371681690216,
+          -70.01638412475586,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:50.478000"
+    },
+    {
+      "sweep": 3,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+        ],
+        "TimeStamp": [
+          3657110690.482,
+          3657110690.482,
+          3657110690.482,
+          3657110690.482,
+          3657110690.482,
+          3657110690.482,
+          3657110690.482,
+          3657110690.482,
+          3657110690.482
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:50.482000"
+    },
+    {
+      "sweep": 3,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+        ],
+        "TimeStamp": [
+          3657110690.483,
+          3657110690.483,
+          3657110690.483,
+          3657110690.483,
+          3657110690.483,
+          3657110690.483,
+          3657110690.483,
+          3657110690.483,
+          3657110690.483
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:50.483000"
+    },
+    {
+      "sweep": 3,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          3.0
+        ],
+        "TimeStamp": [
+          3657110690.484,
+          3657110690.484,
+          3657110690.484,
+          3657110690.484,
+          3657110690.484,
+          3657110690.484,
+          3657110690.484,
+          3657110690.484,
+          3657110690.484
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:04:50.484000"
+    },
+    {
+      "sweep": 4,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ],
+        "TimeStamp": [
+          3657110706.062,
+          3657110706.062,
+          3657110706.062,
+          3657110706.062,
+          3657110706.062,
+          3657110706.062,
+          3657110706.062,
+          3657110706.062,
+          3657110706.062
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          0.0,
+          null,
+          0.0,
+          0.0,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:05:06.062000"
+    },
+    {
+      "sweep": 4,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ],
+        "TimeStamp": [
+          3657110706.111,
+          3657110706.111,
+          3657110706.111,
+          3657110706.111,
+          3657110706.111,
+          3657110706.111,
+          3657110706.111,
+          3657110706.111,
+          3657110706.111
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          -69.98353451490402,
+          null,
+          -70.01371681690216,
+          -70.01638412475586,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:05:06.111000"
+    },
+    {
+      "sweep": 4,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ],
+        "TimeStamp": [
+          3657110706.114,
+          3657110706.114,
+          3657110706.114,
+          3657110706.114,
+          3657110706.114,
+          3657110706.114,
+          3657110706.114,
+          3657110706.114,
+          3657110706.114
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:05:06.114000"
+    },
+    {
+      "sweep": 4,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ],
+        "TimeStamp": [
+          3657110706.115,
+          3657110706.115,
+          3657110706.115,
+          3657110706.115,
+          3657110706.115,
+          3657110706.115,
+          3657110706.115,
+          3657110706.115,
+          3657110706.115
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:05:06.115000"
+    },
+    {
+      "sweep": 4,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ],
+        "TimeStamp": [
+          3657110706.115,
+          3657110706.115,
+          3657110706.115,
+          3657110706.115,
+          3657110706.115,
+          3657110706.115,
+          3657110706.115,
+          3657110706.115,
+          3657110706.115
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:05:06.115000"
+    },
+    {
+      "sweep": 5,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "TimeStamp": [
+          3657110721.631,
+          3657110721.631,
+          3657110721.631,
+          3657110721.631,
+          3657110721.631,
+          3657110721.631,
+          3657110721.631,
+          3657110721.631,
+          3657110721.631
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          0.0,
+          null,
+          0.0,
+          0.0,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:05:21.631000"
+    },
+    {
+      "sweep": 5,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "TimeStamp": [
+          3657110721.675,
+          3657110721.675,
+          3657110721.675,
+          3657110721.675,
+          3657110721.675,
+          3657110721.675,
+          3657110721.675,
+          3657110721.675,
+          3657110721.675
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          -69.98353451490402,
+          null,
+          -70.01371681690216,
+          -70.01638412475586,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:05:21.675000"
+    },
+    {
+      "sweep": 5,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "TimeStamp": [
+          3657110721.678,
+          3657110721.678,
+          3657110721.678,
+          3657110721.678,
+          3657110721.678,
+          3657110721.678,
+          3657110721.678,
+          3657110721.678,
+          3657110721.678
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:05:21.678000"
+    },
+    {
+      "sweep": 5,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "TimeStamp": [
+          3657110721.678,
+          3657110721.678,
+          3657110721.678,
+          3657110721.678,
+          3657110721.678,
+          3657110721.678,
+          3657110721.678,
+          3657110721.678,
+          3657110721.678
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:05:21.678000"
+    },
+    {
+      "sweep": 5,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "TimeStamp": [
+          3657110721.679,
+          3657110721.679,
+          3657110721.679,
+          3657110721.679,
+          3657110721.679,
+          3657110721.679,
+          3657110721.679,
+          3657110721.679,
+          3657110721.679
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:05:21.679000"
+    },
+    {
+      "sweep": 6,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0
+        ],
+        "TimeStamp": [
+          3657110737.136,
+          3657110737.136,
+          3657110737.136,
+          3657110737.136,
+          3657110737.136,
+          3657110737.136,
+          3657110737.136,
+          3657110737.136,
+          3657110737.136
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          0.0,
+          null,
+          0.0,
+          0.0,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:05:37.136000"
+    },
+    {
+      "sweep": 6,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0
+        ],
+        "TimeStamp": [
+          3657110737.201,
+          3657110737.201,
+          3657110737.201,
+          3657110737.201,
+          3657110737.201,
+          3657110737.201,
+          3657110737.201,
+          3657110737.201,
+          3657110737.201
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          -69.98353451490402,
+          null,
+          -70.01371681690216,
+          -70.01638412475586,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:05:37.201000"
+    },
+    {
+      "sweep": 6,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0
+        ],
+        "TimeStamp": [
+          3657110737.206,
+          3657110737.206,
+          3657110737.206,
+          3657110737.206,
+          3657110737.206,
+          3657110737.206,
+          3657110737.206,
+          3657110737.206,
+          3657110737.206
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:05:37.206000"
+    },
+    {
+      "sweep": 6,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0
+        ],
+        "TimeStamp": [
+          3657110737.207,
+          3657110737.207,
+          3657110737.207,
+          3657110737.207,
+          3657110737.207,
+          3657110737.207,
+          3657110737.207,
+          3657110737.207,
+          3657110737.207
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:05:37.207000"
+    },
+    {
+      "sweep": 6,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0
+        ],
+        "TimeStamp": [
+          3657110737.207,
+          3657110737.207,
+          3657110737.207,
+          3657110737.207,
+          3657110737.207,
+          3657110737.207,
+          3657110737.207,
+          3657110737.207,
+          3657110737.207
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:05:37.207000"
+    },
+    {
+      "sweep": 7,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+        ],
+        "TimeStamp": [
+          3657110807.271,
+          3657110807.271,
+          3657110807.271,
+          3657110807.271,
+          3657110807.271,
+          3657110807.271,
+          3657110807.271,
+          3657110807.271,
+          3657110807.271
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          1.0,
+          null,
+          1.0,
+          1.0,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:06:47.271000"
+    },
+    {
+      "sweep": 7,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+        ],
+        "TimeStamp": [
+          3657110807.319,
+          3657110807.319,
+          3657110807.319,
+          3657110807.319,
+          3657110807.319,
+          3657110807.319,
+          3657110807.319,
+          3657110807.319,
+          3657110807.319
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:06:47.319000"
+    },
+    {
+      "sweep": 7,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+        ],
+        "TimeStamp": [
+          3657110807.323,
+          3657110807.323,
+          3657110807.323,
+          3657110807.323,
+          3657110807.323,
+          3657110807.323,
+          3657110807.323,
+          3657110807.323,
+          3657110807.323
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:06:47.323000"
+    },
+    {
+      "sweep": 7,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+        ],
+        "TimeStamp": [
+          3657110807.324,
+          3657110807.324,
+          3657110807.324,
+          3657110807.324,
+          3657110807.324,
+          3657110807.324,
+          3657110807.324,
+          3657110807.324,
+          3657110807.324
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:06:47.324000"
+    },
+    {
+      "sweep": 7,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0,
+          7.0
+        ],
+        "TimeStamp": [
+          3657110807.325,
+          3657110807.325,
+          3657110807.325,
+          3657110807.325,
+          3657110807.325,
+          3657110807.325,
+          3657110807.325,
+          3657110807.325,
+          3657110807.325
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:06:47.325000"
+    },
+    {
+      "sweep": 8,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "TimeStamp": [
+          3657110815.631,
+          3657110815.631,
+          3657110815.631,
+          3657110815.631,
+          3657110815.631,
+          3657110815.631,
+          3657110815.631,
+          3657110815.631,
+          3657110815.631
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          1.0,
+          null,
+          1.0,
+          1.0,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:06:55.631000"
+    },
+    {
+      "sweep": 8,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "TimeStamp": [
+          3657110815.683,
+          3657110815.683,
+          3657110815.683,
+          3657110815.683,
+          3657110815.683,
+          3657110815.683,
+          3657110815.683,
+          3657110815.683,
+          3657110815.683
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:06:55.683000"
+    },
+    {
+      "sweep": 8,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "TimeStamp": [
+          3657110815.686,
+          3657110815.686,
+          3657110815.686,
+          3657110815.686,
+          3657110815.686,
+          3657110815.686,
+          3657110815.686,
+          3657110815.686,
+          3657110815.686
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:06:55.686000"
+    },
+    {
+      "sweep": 8,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "TimeStamp": [
+          3657110815.687,
+          3657110815.687,
+          3657110815.687,
+          3657110815.687,
+          3657110815.687,
+          3657110815.687,
+          3657110815.687,
+          3657110815.687,
+          3657110815.687
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:06:55.687000"
+    },
+    {
+      "sweep": 8,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "TimeStamp": [
+          3657110815.687,
+          3657110815.687,
+          3657110815.687,
+          3657110815.687,
+          3657110815.687,
+          3657110815.687,
+          3657110815.687,
+          3657110815.687,
+          3657110815.687
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:06:55.687000"
+    },
+    {
+      "sweep": 9,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+        ],
+        "TimeStamp": [
+          3657110823.773,
+          3657110823.773,
+          3657110823.773,
+          3657110823.773,
+          3657110823.773,
+          3657110823.773,
+          3657110823.773,
+          3657110823.773,
+          3657110823.773
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          1.0,
+          null,
+          1.0,
+          1.0,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:07:03.773000"
+    },
+    {
+      "sweep": 9,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+        ],
+        "TimeStamp": [
+          3657110823.82,
+          3657110823.821,
+          3657110823.821,
+          3657110823.821,
+          3657110823.821,
+          3657110823.821,
+          3657110823.821,
+          3657110823.821,
+          3657110823.821
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:07:03.820000"
+    },
+    {
+      "sweep": 9,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+        ],
+        "TimeStamp": [
+          3657110823.827,
+          3657110823.827,
+          3657110823.827,
+          3657110823.827,
+          3657110823.827,
+          3657110823.827,
+          3657110823.827,
+          3657110823.827,
+          3657110823.827
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:07:03.827000"
+    },
+    {
+      "sweep": 9,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+        ],
+        "TimeStamp": [
+          3657110823.828,
+          3657110823.828,
+          3657110823.828,
+          3657110823.828,
+          3657110823.828,
+          3657110823.828,
+          3657110823.828,
+          3657110823.828,
+          3657110823.828
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:07:03.828000"
+    },
+    {
+      "sweep": 9,
+      "source_type": 0.0,
+      "values": {
+        "SweepNum": [
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+        ],
+        "TimeStamp": [
+          3657110823.83,
+          3657110823.83,
+          3657110823.83,
+          3657110823.83,
+          3657110823.83,
+          3657110823.83,
+          3657110823.83,
+          3657110823.83,
+          3657110823.83
+        ],
+        "EntrySourceType": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "Clamp Mode": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "V-Clamp Holding Level": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "notebook_time_naive": "2019-11-20T16:07:03.830000"
+    }
+  ],
+  "note": "Notebook epoch conversion follows neuroanalysis MIES reader; naive time is not assigned a timezone here.",
+  "new_bytes": 393216,
+  "total_cached_bytes": 32557064
+}

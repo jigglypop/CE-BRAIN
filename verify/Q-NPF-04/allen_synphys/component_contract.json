@@ -1,0 +1,59 @@
+{
+  "id": "Q-NPF-04-ALLEN-COMPONENT-01",
+  "frozen_at": "2026-09-04T19:30:10.934013+00:00",
+  "question": "독립 프로토콜의 후세포 입력저항이 같은 연결의 PSC를 넘어 PSP 변동을 설명하는가?",
+  "objective_chain": "C19에서 확인한 막·관측 보정의 필요성을 실제 세포 연결 자료에서 점검. 전체 뇌 구조나 CE 매개 검증 아님.",
+  "bio_starting_mechanism": "수동막 C*dV/dt+V/R=I의 전류-전압 필터. 과도응답 PSP peak=PSC peak*R라는 항등식을 가정하지 않음.",
+  "ce_delta": "없음. 기존 생물 기준선의 구성요소 관측이며 CE 고유성을 시험하지 않음.",
+  "measurement_model": "다른 clamp 시행의 휴지기 평균 적합 PSP(V), PSC(A), 별도 intrinsic 긴 전류 계단 프로토콜 R(ohm). 통계적 독립이나 동시 측정 보장 없음.",
+  "provenance": "Allen synphys r2.1 small, schema22, DB 생성일 2021-12-21. 참조 upstream 코드는 고정했으나 원 DB 생성 commit과 동일하다고 확인한 것은 아님.",
+  "db_sha256": "7372499fdd874f057565080d5769baaf2659ef39d9f3bc3c7147dd1e1c280a53",
+  "db_bytes": 176771072,
+  "source_hashes": {
+    "aisynphys__database__schema__synapse.py": "28506002e7dbad0f5b06bdfdc8e5f7804f38351286ff26d01bb60da7ab617fb3",
+    "aisynphys__database__schema__intrinsic.py": "cf9b09da80367068307282dccc3195e16600772531704760217d100c71a7fa52",
+    "aisynphys__database__schema__experiment.py": "330d8bcf65f2984a00da8bba9370588d9245705cd359df0fc75f460a87432f21",
+    "aisynphys__database__schema__slice.py": "bc43214c20300aa55947f646562ff1260d5ebd56dc39c3ccfdb6d11eebe8a298",
+    "aisynphys__pipeline__multipatch__intrinsic.py": "f1b665c7a37dbb4992fdbe6ea69fd4a13d38902750a121aa39e33a560bdf28fe",
+    "aisynphys__pipeline__multipatch__synapse.py": "7b00d89b0e34894af68ca6421553440aa9e94489deebe02cb7d0b6caa8a98f13",
+    "aisynphys__pipeline__multipatch__resting_state.py": "aefebe64b050c9409b603bc2c4b9ce4c248af668d71ea99e1b67abd9a822338b",
+    "aisynphys__resting_state.py": "d9d09574416afe640ab30d7d0fa993ee5144825a093b04621e0e856222d11d9d"
+  },
+  "code_sha256": "4c05972c484a74c4defe9e2d6f5bf97548588e1a3caef352b6dc1ecc12d2e041",
+  "join_code_sha256": "e5905a23e1b363883d1aeaab2b584eaf4ad70e88f54567e3ee9cba7cd490cb91",
+  "overlap_receipt_sha256": "c20a35c855760a1a54a0b158a1d4fa487095451d18675a063f4a1db4449435d3",
+  "runtime": {
+    "executable": "C:\\Users\\dongh\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "python": "3.11.9",
+    "numpy": "2.4.6"
+  },
+  "prior_access": "메타데이터·ID결합·결측 건수만 열람. 반응값과 상관·모델 결과는 아직 열람하지 않음.",
+  "primary": [
+    "mouse",
+    "VisP",
+    "ex"
+  ],
+  "secondary": [
+    [
+      "mouse",
+      "VisP",
+      "in"
+    ],
+    [
+      "human",
+      "TCx",
+      "ex"
+    ]
+  ],
+  "observations": "모든 해당 synapse에서 유한한 PSP/PSC/R, R>0, ex PSP>0 PSC<0; in PSP<0 PSC>0. 사후 clipping·이상값 삭제 없음. 동일 post.cell_id 및 experiment_id 결합.",
+  "models": "M0: ln|PSP_mV|=a+b ln|PSC_pA|; M1: M0+c ln(R_Mohm). 자유도2 대3, 절편별 총가중치1의 OLS, rcond1e-12, ridge 없음.",
+  "split": "seed20260905와 slice ID의 SHA256 순서로 5등분. 같은 절편의 모든 세포·연결을 한 fold에 배정. 최소100연결·30절편, 각 훈련fold 최소20연결. donor ID 미확인으로 동물 단위 독립은 주장 불가.",
+  "endpoint": "절편별 평균 log PSP 제곱오차를 동등 평균한 M0-M1. 5fold는 분석 내 교차검증이며 독립 종단확인 또는 L2가 아님.",
+  "direction_rule": "primary MSE차>0, 모든 훈련fold c>0, 세포별 R 200회 무작위 재배정 개선의95백분위 초과를 모두 만족해야 기술적 방향 기준 충족. 인과 p값 아님.",
+  "controls": "R을 post.cell_id 단위로 섞어 같은 세포 반복을 유지. pre-R도 있는 동일 부분집합에서 post-R 모델과 pre-R 모델 비교. 세포형·절편·donor 교란을 완전히 통제하지 못함.",
+  "uncertainty": "seed20260905, 고정 OOF 예측 손실을 절편단위2000회 bootstrap한2.5/97.5백분위. 모델 재적합·donor 상관·측정오차를 포함하지 않는 기술적 구간.",
+  "falsifier": "M1이 교차검증 오차를 개선하지 않거나 계수 방향이 일관되지 않으면 이 코호트에서 유용한 보정이라는 방향 기준 미충족. 전체 생물 법칙 반증으로 확대하지 않음.",
+  "revision_trigger": "입력·ID·단위 오류면 중단 기록 후 별도 판본. 결과를 본 뒤 포함·문턱·split을 바꾸지 않음.",
+  "claim_ceiling": "BIO_EVIDENCE_L1_COMPONENT_OBSERVATION; full chain remains L0/unestablished",
+  "next_gate": "입력·소스·실행기 해시, 무결성·ID검사 통과 후 고정 분석1회 실행. 결과와 한계 기록."
+}

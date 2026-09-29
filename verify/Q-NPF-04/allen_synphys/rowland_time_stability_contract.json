@@ -1,0 +1,26 @@
+{
+  "question": "보정된 S2 대비가 전후반 및 특정 연속 시간 구간의 제외에 안정적인가",
+  "parent_contract_sha256": "68be7c947c0159785b65ca05a4b5a9fac007658261eb4fb9f8c7d24b847573b8",
+  "input_sha256": "810c432e5ad92d33422d82e43fb39e26b2747caa5db0f777465d3b7e6e7ccb4b",
+  "code_sha256": "ebec479404c1585f2662ceb5765ead1e56482189b9aa70685741c4dabf1ff350",
+  "dependencies": {
+    "rowland_prestate_adjustment.py": "859da218fd0026db784dee47be4f402b94ad6a4a3b0c5c708a786cbd1496627f",
+    "randi_target_response.py": "151a39ddb1f34418a1fcfe9677f134c4dcae5f5e5d1a359c4938d38c06fe07e9"
+  },
+  "inherit": "원 계약의 자료·측정모형·시행 제외·세 모형·비인과적 추정량·주장 상한 유지",
+  "split": "이미 본 11세션의 사후 탐색; 각각 별도 적합, 독립 예측검증 아님",
+  "partition": "각 세션 첫~마지막 유효 catch/test galvo 시간의 중간으로 반분, 4등분 구간을 차례로 제외",
+  "boundaries": "왼쪽 포함·오른쪽 제외; 마지막 끝점은 마지막 구간 포함",
+  "models": "무보정·시간·시간과 S1/S2 전 상태; 각 부분집합에서 재표준화 및 재적합",
+  "minimum": "각 집단 최소 6시행; 부족/수치실패는 명시하고 표본 교체 없음",
+  "endpoint": "세션별 계수와 제외 4회 최솟값·최댓값; 신뢰구간 또는 jackknife 표준오차 아님",
+  "decision": "두 반분 부호 불일치 또는 제외 계수 범위가 0을 가로지르면 부호 민감성 기록",
+  "limits": [
+    "세션 내부 시점별 상태·표본 구성도 함께 변함",
+    "비정상성·자기상관의 통계적 제거 아님",
+    "여러 비교의 유의성 판정 없음",
+    "같은 동물의 반복 기록을 독립 동물로 세지 않음",
+    "특정 구간 영향만으로 생물학적 원인이나 인과 연결 판정 불가"
+  ],
+  "claim_ceiling": "BIO_EVIDENCE_L1 exploratory descriptive sensitivity"
+}

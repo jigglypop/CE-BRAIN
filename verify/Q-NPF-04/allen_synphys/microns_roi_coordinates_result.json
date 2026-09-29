@@ -1,0 +1,1163 @@
+{
+  "summary": {
+    "targets": 53,
+    "evaluated": 53,
+    "unique": 13,
+    "absent": 40,
+    "ambiguous": 0
+  },
+  "planes": [
+    {
+      "field": 2,
+      "rows": 452,
+      "coordinate_shape": [
+        452,
+        3
+      ],
+      "finite_rows": 64
+    },
+    {
+      "field": 4,
+      "rows": 1389,
+      "coordinate_shape": [
+        1389,
+        3
+      ],
+      "finite_rows": 314
+    },
+    {
+      "field": 6,
+      "rows": 1411,
+      "coordinate_shape": [
+        1411,
+        3
+      ],
+      "finite_rows": 181
+    },
+    {
+      "field": 8,
+      "rows": 730,
+      "coordinate_shape": [
+        730,
+        3
+      ],
+      "finite_rows": 126
+    }
+  ],
+  "matches": [
+    {
+      "nucleus_id": 291334,
+      "root_v1718": 864691136389688695,
+      "root_v1412": 864691136389688695,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 808,
+      "field": 2,
+      "residual": 4.85164,
+      "score": 13.33916,
+      "source_row_id": 30,
+      "series": "RoiResponseSeries2",
+      "position": [
+        188512,
+        98944,
+        22603
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 255156,
+      "root_v1718": 864691135325071004,
+      "root_v1412": 864691136484208172,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 829,
+      "field": 2,
+      "residual": 1.94494,
+      "score": 10.48066,
+      "source_row_id": 31,
+      "series": "RoiResponseSeries2",
+      "position": [
+        171408,
+        104688,
+        21097
+      ],
+      "candidates": [
+        {
+          "table_row": 185,
+          "mask_id": 186,
+          "response_columns": [
+            185
+          ]
+        }
+      ]
+    },
+    {
+      "nucleus_id": 291124,
+      "root_v1718": 864691135839932307,
+      "root_v1412": 864691135700799778,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 1070,
+      "field": 2,
+      "residual": 1.55169,
+      "score": 9.34361,
+      "source_row_id": 85,
+      "series": "RoiResponseSeries2",
+      "position": [
+        192160,
+        102688,
+        21040
+      ],
+      "candidates": [
+        {
+          "table_row": 426,
+          "mask_id": 427,
+          "response_columns": [
+            426
+          ]
+        }
+      ]
+    },
+    {
+      "nucleus_id": 294584,
+      "root_v1718": 864691136453419007,
+      "root_v1412": 864691136579098388,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3118,
+      "field": 4,
+      "residual": 3.60075,
+      "score": 6.66385,
+      "source_row_id": 299,
+      "series": "RoiResponseSeries4",
+      "position": [
+        189888,
+        137536,
+        21190
+      ],
+      "candidates": [
+        {
+          "table_row": 567,
+          "mask_id": 568,
+          "response_columns": [
+            567
+          ]
+        }
+      ]
+    },
+    {
+      "nucleus_id": 294565,
+      "root_v1718": 864691135919956656,
+      "root_v1412": 864691135919956656,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3119,
+      "field": 4,
+      "residual": 5.89646,
+      "score": 7.91604,
+      "source_row_id": 300,
+      "series": "RoiResponseSeries4",
+      "position": [
+        186160,
+        136480,
+        21354
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 294715,
+      "root_v1718": 864691135842486243,
+      "root_v1412": 864691135842486243,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3120,
+      "field": 4,
+      "residual": 2.68145,
+      "score": 11.94775,
+      "source_row_id": 301,
+      "series": "RoiResponseSeries4",
+      "position": [
+        190320,
+        134992,
+        21950
+      ],
+      "candidates": [
+        {
+          "table_row": 569,
+          "mask_id": 570,
+          "response_columns": [
+            569
+          ]
+        }
+      ]
+    },
+    {
+      "nucleus_id": 294657,
+      "root_v1718": 864691135562798817,
+      "root_v1412": 864691135701676411,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3121,
+      "field": 4,
+      "residual": 10.1637,
+      "score": 0.8613,
+      "source_row_id": 302,
+      "series": "RoiResponseSeries4",
+      "position": [
+        183104,
+        133760,
+        22248
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 258245,
+      "root_v1718": 864691135773073147,
+      "root_v1412": 864691135773073147,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3144,
+      "field": 4,
+      "residual": 5.36668,
+      "score": 6.12272,
+      "source_row_id": 312,
+      "series": "RoiResponseSeries4",
+      "position": [
+        177632,
+        139296,
+        20662
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 258223,
+      "root_v1718": 864691136904594610,
+      "root_v1412": 864691136904594610,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3145,
+      "field": 4,
+      "residual": 5.18097,
+      "score": 8.121129999999999,
+      "source_row_id": 313,
+      "series": "RoiResponseSeries4",
+      "position": [
+        173312,
+        138688,
+        20501
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 294535,
+      "root_v1718": 864691135135019168,
+      "root_v1412": 864691135988769027,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3148,
+      "field": 4,
+      "residual": 11.423,
+      "score": -1.667910000000001,
+      "source_row_id": 314,
+      "series": "RoiResponseSeries4",
+      "position": [
+        180320,
+        138208,
+        21358
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 258402,
+      "root_v1718": 864691135294442678,
+      "root_v1412": 864691135732058297,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3149,
+      "field": 4,
+      "residual": 7.61598,
+      "score": -2.5250600000000007,
+      "source_row_id": 315,
+      "series": "RoiResponseSeries4",
+      "position": [
+        179504,
+        134464,
+        22207
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 258398,
+      "root_v1718": 864691135938816260,
+      "root_v1412": 864691135938816260,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3150,
+      "field": 4,
+      "residual": 3.03485,
+      "score": 7.82835,
+      "source_row_id": 316,
+      "series": "RoiResponseSeries4",
+      "position": [
+        178352,
+        136704,
+        22172
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 294534,
+      "root_v1718": 864691135886208112,
+      "root_v1412": 864691135688874976,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3151,
+      "field": 4,
+      "residual": 5.40602,
+      "score": 8.51718,
+      "source_row_id": 317,
+      "series": "RoiResponseSeries4",
+      "position": [
+        180160,
+        137664,
+        21669
+      ],
+      "candidates": [
+        {
+          "table_row": 597,
+          "mask_id": 598,
+          "response_columns": [
+            597
+          ]
+        }
+      ]
+    },
+    {
+      "nucleus_id": 258297,
+      "root_v1718": 864691136330407914,
+      "root_v1412": 864691136330407914,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3177,
+      "field": 4,
+      "residual": 10.2611,
+      "score": -1.2971500000000002,
+      "source_row_id": 331,
+      "series": "RoiResponseSeries4",
+      "position": [
+        172352,
+        139920,
+        21312
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 258370,
+      "root_v1718": 864691135573296677,
+      "root_v1412": 864691135777479597,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3183,
+      "field": 4,
+      "residual": 4.07365,
+      "score": 7.68405,
+      "source_row_id": 335,
+      "series": "RoiResponseSeries4",
+      "position": [
+        173600,
+        136784,
+        22464
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 258209,
+      "root_v1718": 864691135277186789,
+      "root_v1412": 864691135786698436,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3491,
+      "field": 4,
+      "residual": 6.42365,
+      "score": 8.28285,
+      "source_row_id": 472,
+      "series": "RoiResponseSeries4",
+      "position": [
+        169728,
+        137648,
+        20522
+      ],
+      "candidates": [
+        {
+          "table_row": 940,
+          "mask_id": 941,
+          "response_columns": [
+            940
+          ]
+        }
+      ]
+    },
+    {
+      "nucleus_id": 294545,
+      "root_v1718": 864691136390474359,
+      "root_v1412": 864691136390474359,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3533,
+      "field": 4,
+      "residual": 7.34713,
+      "score": 6.31987,
+      "source_row_id": 494,
+      "series": "RoiResponseSeries4",
+      "position": [
+        182976,
+        135728,
+        21116
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 258291,
+      "root_v1718": 864691135587371132,
+      "root_v1412": 864691135587371132,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3568,
+      "field": 4,
+      "residual": 3.18062,
+      "score": 5.723600000000001,
+      "source_row_id": 514,
+      "series": "RoiResponseSeries4",
+      "position": [
+        171248,
+        137712,
+        21493
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 258307,
+      "root_v1718": 864691136144674612,
+      "root_v1412": 864691136144674612,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3633,
+      "field": 4,
+      "residual": 1.11991,
+      "score": 9.51729,
+      "source_row_id": 538,
+      "series": "RoiResponseSeries4",
+      "position": [
+        174944,
+        137648,
+        21113
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 258377,
+      "root_v1718": 864691135257669039,
+      "root_v1412": 864691135257669039,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3702,
+      "field": 4,
+      "residual": 3.01288,
+      "score": 12.39002,
+      "source_row_id": 566,
+      "series": "RoiResponseSeries4",
+      "position": [
+        175696,
+        136192,
+        21990
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 258231,
+      "root_v1718": 864691135496440208,
+      "root_v1412": 864691135756145106,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3728,
+      "field": 4,
+      "residual": 2.41069,
+      "score": 5.17469,
+      "source_row_id": 578,
+      "series": "RoiResponseSeries4",
+      "position": [
+        176000,
+        138896,
+        20458
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 294546,
+      "root_v1718": 864691135695146943,
+      "root_v1412": 864691135916714854,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 3818,
+      "field": 4,
+      "residual": 7.49944,
+      "score": 4.37256,
+      "source_row_id": 609,
+      "series": "RoiResponseSeries4",
+      "position": [
+        183072,
+        135408,
+        21782
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 298827,
+      "root_v1718": 864691135478316200,
+      "root_v1412": 864691136195607510,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 5930,
+      "field": 6,
+      "residual": 4.36465,
+      "score": 6.96475,
+      "source_row_id": 823,
+      "series": "RoiResponseSeries6",
+      "position": [
+        192000,
+        169456,
+        20327
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 298831,
+      "root_v1718": 864691136814627955,
+      "root_v1412": 864691135725922731,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 5933,
+      "field": 6,
+      "residual": 5.86964,
+      "score": 6.321759999999999,
+      "source_row_id": 826,
+      "series": "RoiResponseSeries6",
+      "position": [
+        192400,
+        170160,
+        20939
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 298815,
+      "root_v1718": 864691136299034139,
+      "root_v1412": 864691135360302680,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 5962,
+      "field": 6,
+      "residual": 4.19972,
+      "score": 1.6281600000000005,
+      "source_row_id": 834,
+      "series": "RoiResponseSeries6",
+      "position": [
+        189312,
+        170352,
+        20454
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 298938,
+      "root_v1718": 864691135810492189,
+      "root_v1412": 864691135396313845,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 5963,
+      "field": 6,
+      "residual": 4.20669,
+      "score": 5.319179999999999,
+      "source_row_id": 835,
+      "series": "RoiResponseSeries6",
+      "position": [
+        188336,
+        169392,
+        21278
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 298820,
+      "root_v1718": 864691135757083346,
+      "root_v1412": 864691136238029583,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 5964,
+      "field": 6,
+      "residual": 5.82272,
+      "score": -2.11005,
+      "source_row_id": 836,
+      "series": "RoiResponseSeries6",
+      "position": [
+        189936,
+        170112,
+        20867
+      ],
+      "candidates": [
+        {
+          "table_row": 604,
+          "mask_id": 605,
+          "response_columns": [
+            604
+          ]
+        }
+      ]
+    },
+    {
+      "nucleus_id": 298946,
+      "root_v1718": 864691135567059223,
+      "root_v1412": 864691135517665235,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 5965,
+      "field": 6,
+      "residual": 1.46736,
+      "score": 5.48861,
+      "source_row_id": 837,
+      "series": "RoiResponseSeries6",
+      "position": [
+        190368,
+        169120,
+        21150
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 299072,
+      "root_v1718": 864691135448215698,
+      "root_v1412": 864691136603342033,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 5966,
+      "field": 6,
+      "residual": 6.47957,
+      "score": 7.80173,
+      "source_row_id": 838,
+      "series": "RoiResponseSeries6",
+      "position": [
+        187840,
+        169648,
+        22257
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 299084,
+      "root_v1718": 864691135504203357,
+      "root_v1412": 864691135808999965,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 5970,
+      "field": 6,
+      "residual": 2.37253,
+      "score": 9.99567,
+      "source_row_id": 841,
+      "series": "RoiResponseSeries6",
+      "position": [
+        191280,
+        167840,
+        22558
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 262670,
+      "root_v1718": 864691135853088967,
+      "root_v1412": 864691136488758290,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 6025,
+      "field": 6,
+      "residual": 3.42733,
+      "score": 6.09385,
+      "source_row_id": 858,
+      "series": "RoiResponseSeries6",
+      "position": [
+        171456,
+        171424,
+        21043
+      ],
+      "candidates": [
+        {
+          "table_row": 665,
+          "mask_id": 666,
+          "response_columns": [
+            665
+          ]
+        }
+      ]
+    },
+    {
+      "nucleus_id": 262804,
+      "root_v1718": 864691135295165196,
+      "root_v1412": 864691135750273833,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 6026,
+      "field": 6,
+      "residual": 4.58847,
+      "score": 3.96437,
+      "source_row_id": 859,
+      "series": "RoiResponseSeries6",
+      "position": [
+        173344,
+        171472,
+        21109
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 262797,
+      "root_v1718": 864691135102351392,
+      "root_v1412": 864691136101353333,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 6029,
+      "field": 6,
+      "residual": 7.11284,
+      "score": 5.08926,
+      "source_row_id": 861,
+      "series": "RoiResponseSeries6",
+      "position": [
+        171856,
+        171680,
+        21824
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 262937,
+      "root_v1718": 864691135396940021,
+      "root_v1412": 864691135562147041,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 6159,
+      "field": 6,
+      "residual": 4.70981,
+      "score": 6.745589999999999,
+      "source_row_id": 915,
+      "series": "RoiResponseSeries6",
+      "position": [
+        175584,
+        167904,
+        22492
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 262813,
+      "root_v1718": 864691135570301676,
+      "root_v1412": 864691137021245294,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 6169,
+      "field": 6,
+      "residual": 6.34298,
+      "score": 4.982120000000001,
+      "source_row_id": 920,
+      "series": "RoiResponseSeries6",
+      "position": [
+        175440,
+        171232,
+        21557
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 262688,
+      "root_v1718": 864691136381301461,
+      "root_v1412": 864691135430097712,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 6314,
+      "field": 6,
+      "residual": 6.31483,
+      "score": 8.081970000000002,
+      "source_row_id": 971,
+      "series": "RoiResponseSeries6",
+      "position": [
+        174224,
+        171856,
+        20744
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 262677,
+      "root_v1718": 864691136438666398,
+      "root_v1412": 864691135293436854,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 6329,
+      "field": 6,
+      "residual": 3.15536,
+      "score": 8.34544,
+      "source_row_id": 976,
+      "series": "RoiResponseSeries6",
+      "position": [
+        172432,
+        171008,
+        20481
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 262868,
+      "root_v1718": 864691136026198585,
+      "root_v1412": 864691136267846388,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 6474,
+      "field": 6,
+      "residual": 3.00413,
+      "score": 6.166550000000001,
+      "source_row_id": 1037,
+      "series": "RoiResponseSeries6",
+      "position": [
+        168400,
+        170800,
+        22039
+      ],
+      "candidates": [
+        {
+          "table_row": 1114,
+          "mask_id": 1115,
+          "response_columns": [
+            1114
+          ]
+        }
+      ]
+    },
+    {
+      "nucleus_id": 298913,
+      "root_v1718": 864691134966710559,
+      "root_v1412": 864691136813414003,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 6480,
+      "field": 6,
+      "residual": 6.95093,
+      "score": 5.638170000000001,
+      "source_row_id": 1041,
+      "series": "RoiResponseSeries6",
+      "position": [
+        184768,
+        167088,
+        21715
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 262929,
+      "root_v1718": 864691135388368001,
+      "root_v1412": 864691135388368001,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 6489,
+      "field": 6,
+      "residual": 17.5588,
+      "score": -12.269070000000005,
+      "source_row_id": 1045,
+      "series": "RoiResponseSeries6",
+      "position": [
+        173968,
+        172672,
+        22530
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 298958,
+      "root_v1718": 864691135184104194,
+      "root_v1412": 864691135927935444,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 6671,
+      "field": 6,
+      "residual": 5.32939,
+      "score": 0.6459200000000003,
+      "source_row_id": 1095,
+      "series": "RoiResponseSeries6",
+      "position": [
+        192640,
+        169008,
+        21493
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 299035,
+      "root_v1718": 864691135478400936,
+      "root_v1412": 864691135750287913,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 6751,
+      "field": 6,
+      "residual": 2.85641,
+      "score": 9.25199,
+      "source_row_id": 1122,
+      "series": "RoiResponseSeries6",
+      "position": [
+        183200,
+        168384,
+        22438
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 302983,
+      "root_v1718": 864691136211175612,
+      "root_v1412": 864691136927307850,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 7892,
+      "field": 8,
+      "residual": 2.75805,
+      "score": 10.98595,
+      "source_row_id": 1175,
+      "series": "RoiResponseSeries8",
+      "position": [
+        188576,
+        204144,
+        20882
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 303174,
+      "root_v1718": 864691136195798504,
+      "root_v1412": 864691136195798504,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 7893,
+      "field": 8,
+      "residual": 3.22669,
+      "score": 9.95401,
+      "source_row_id": 1176,
+      "series": "RoiResponseSeries8",
+      "position": [
+        192016,
+        202448,
+        22622
+      ],
+      "candidates": [
+        {
+          "table_row": 227,
+          "mask_id": 228,
+          "response_columns": [
+            227
+          ]
+        }
+      ]
+    },
+    {
+      "nucleus_id": 302957,
+      "root_v1718": 864691135585266808,
+      "root_v1412": 864691135585266808,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 7908,
+      "field": 8,
+      "residual": 5.59223,
+      "score": 8.69387,
+      "source_row_id": 1182,
+      "series": "RoiResponseSeries8",
+      "position": [
+        183456,
+        202752,
+        20953
+      ],
+      "candidates": [
+        {
+          "table_row": 242,
+          "mask_id": 243,
+          "response_columns": [
+            242
+          ]
+        }
+      ]
+    },
+    {
+      "nucleus_id": 267029,
+      "root_v1718": 864691135503182685,
+      "root_v1412": 864691135503182685,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 7981,
+      "field": 8,
+      "residual": 5.87109,
+      "score": 8.958110000000001,
+      "source_row_id": 1204,
+      "series": "RoiResponseSeries8",
+      "position": [
+        173008,
+        205856,
+        20391
+      ],
+      "candidates": [
+        {
+          "table_row": 315,
+          "mask_id": 316,
+          "response_columns": [
+            315
+          ]
+        }
+      ]
+    },
+    {
+      "nucleus_id": 267294,
+      "root_v1718": 864691135774389755,
+      "root_v1412": 864691136335150259,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 7983,
+      "field": 8,
+      "residual": 6.59947,
+      "score": 7.30303,
+      "source_row_id": 1205,
+      "series": "RoiResponseSeries8",
+      "position": [
+        175376,
+        203728,
+        22239
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 267205,
+      "root_v1718": 864691137021264750,
+      "root_v1412": 864691137021264750,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 8009,
+      "field": 8,
+      "residual": 2.74926,
+      "score": 7.444140000000001,
+      "source_row_id": 1214,
+      "series": "RoiResponseSeries8",
+      "position": [
+        178848,
+        204240,
+        21385
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 303066,
+      "root_v1718": 864691136419797655,
+      "root_v1412": 864691136419797655,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 8013,
+      "field": 8,
+      "residual": 5.66937,
+      "score": 9.41323,
+      "source_row_id": 1216,
+      "series": "RoiResponseSeries8",
+      "position": [
+        186480,
+        205552,
+        21607
+      ],
+      "candidates": [
+        {
+          "table_row": 347,
+          "mask_id": 348,
+          "response_columns": [
+            347
+          ]
+        }
+      ]
+    },
+    {
+      "nucleus_id": 267266,
+      "root_v1718": 864691135716679194,
+      "root_v1412": 864691135716679194,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 8055,
+      "field": 8,
+      "residual": 3.98235,
+      "score": 5.69496,
+      "source_row_id": 1227,
+      "series": "RoiResponseSeries8",
+      "position": [
+        170096,
+        206400,
+        22081
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 267299,
+      "root_v1718": 864691135774294603,
+      "root_v1412": 864691135911028905,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 8215,
+      "field": 8,
+      "residual": 13.5432,
+      "score": 1.2842000000000002,
+      "source_row_id": 1271,
+      "series": "RoiResponseSeries8",
+      "position": [
+        176352,
+        207856,
+        22440
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 303089,
+      "root_v1718": 864691136372039560,
+      "root_v1412": 864691136372039560,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 8300,
+      "field": 8,
+      "residual": 17.1627,
+      "score": -9.351010000000002,
+      "source_row_id": 1294,
+      "series": "RoiResponseSeries8",
+      "position": [
+        188944,
+        206160,
+        21639
+      ],
+      "candidates": []
+    },
+    {
+      "nucleus_id": 303137,
+      "root_v1718": 864691136022520056,
+      "root_v1412": 864691135702167419,
+      "session": 4,
+      "scan_idx": 7,
+      "unit_id": 8395,
+      "field": 8,
+      "residual": 4.36922,
+      "score": 12.89038,
+      "source_row_id": 1322,
+      "series": "RoiResponseSeries8",
+      "position": [
+        183168,
+        204576,
+        21936
+      ],
+      "candidates": []
+    }
+  ],
+  "new_bytes": 0,
+  "array_path": "data/external/microns_functional_nwb/scan_4_7_ranges/roi_coordinate_arrays.npz",
+  "array_sha256": "32b8d93ec3541a33e104aa4c13210606235559aa857d522ab97087b2bd361626"
+}

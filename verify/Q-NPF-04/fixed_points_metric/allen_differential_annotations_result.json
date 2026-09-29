@@ -1,0 +1,298 @@
+{
+  "code_sha256": "3136bb7dd4f8aa528b0d5c4674389a2f37ac530a6567b5e2bd5300fe1cf17c97",
+  "database_sha256": "7372499fdd874f057565080d5769baaf2659ef39d9f3bc3c7147dd1e1c280a53",
+  "identity_sha256": "2f34fbf39624468dcdfb5d892ec341b40dbd1393abe592a9acedd231656ca403",
+  "schema_sha256": "28506002e7dbad0f5b06bdfdc8e5f7804f38351286ff26d01bb60da7ab617fb3",
+  "cells": [
+    {
+      "experiment": 4863,
+      "cell": 24114,
+      "cell_external": "1",
+      "electrode": 38821,
+      "device": 0,
+      "position": [
+        0.00014101447305859462,
+        -0.0020715507993670614,
+        0.001762240193784237
+      ]
+    },
+    {
+      "experiment": 4863,
+      "cell": 24115,
+      "cell_external": "2",
+      "electrode": 38822,
+      "device": 1,
+      "position": [
+        0.00017446645356636894,
+        -0.0020713981381286304,
+        0.0017190800281241536
+      ]
+    },
+    {
+      "experiment": 4863,
+      "cell": 24117,
+      "cell_external": "4",
+      "electrode": 38824,
+      "device": 3,
+      "position": [
+        0.00015516516676629245,
+        -0.002135189331490825,
+        0.0017404300160706043
+      ]
+    },
+    {
+      "experiment": 4863,
+      "cell": 24118,
+      "cell_external": "6",
+      "electrode": 38826,
+      "device": 5,
+      "position": [
+        8.575189427606539e-05,
+        -0.0021037996857660186,
+        0.001754219876602292
+      ]
+    },
+    {
+      "experiment": 4863,
+      "cell": 24119,
+      "cell_external": "7",
+      "electrode": 38827,
+      "device": 6,
+      "position": [
+        0.0001252641959581524,
+        -0.002082610037177801,
+        0.001771989744156599
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": 121535,
+      "pre_cell_id": 24114,
+      "post_cell_id": 24115,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121537,
+      "pre_cell_id": 24114,
+      "post_cell_id": 24117,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121538,
+      "pre_cell_id": 24114,
+      "post_cell_id": 24118,
+      "has_synapse": 1,
+      "has_electrical": 0,
+      "synapse_id": 2985,
+      "synapse_type": "ex",
+      "psp_amplitude": 4.2635359568022e-05,
+      "psc_amplitude": -1.7771574213984546e-12
+    },
+    {
+      "pair_id": 121539,
+      "pre_cell_id": 24114,
+      "post_cell_id": 24119,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121540,
+      "pre_cell_id": 24115,
+      "post_cell_id": 24114,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121542,
+      "pre_cell_id": 24115,
+      "post_cell_id": 24117,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121543,
+      "pre_cell_id": 24115,
+      "post_cell_id": 24118,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121544,
+      "pre_cell_id": 24115,
+      "post_cell_id": 24119,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121550,
+      "pre_cell_id": 24117,
+      "post_cell_id": 24114,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121551,
+      "pre_cell_id": 24117,
+      "post_cell_id": 24115,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121553,
+      "pre_cell_id": 24117,
+      "post_cell_id": 24118,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121555,
+      "pre_cell_id": 24117,
+      "post_cell_id": 24119,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121556,
+      "pre_cell_id": 24118,
+      "post_cell_id": 24114,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121558,
+      "pre_cell_id": 24118,
+      "post_cell_id": 24115,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121561,
+      "pre_cell_id": 24118,
+      "post_cell_id": 24117,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121562,
+      "pre_cell_id": 24118,
+      "post_cell_id": 24119,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121564,
+      "pre_cell_id": 24119,
+      "post_cell_id": 24114,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121566,
+      "pre_cell_id": 24119,
+      "post_cell_id": 24115,
+      "has_synapse": 1,
+      "has_electrical": 0,
+      "synapse_id": 2989,
+      "synapse_type": "ex",
+      "psp_amplitude": 0.00010370776956471237,
+      "psc_amplitude": -5.788612151398603e-12
+    },
+    {
+      "pair_id": 121569,
+      "pre_cell_id": 24119,
+      "post_cell_id": 24117,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    },
+    {
+      "pair_id": 121571,
+      "pre_cell_id": 24119,
+      "post_cell_id": 24118,
+      "has_synapse": 0,
+      "has_electrical": 0,
+      "synapse_id": null,
+      "synapse_type": null,
+      "psp_amplitude": null,
+      "psc_amplitude": null
+    }
+  ],
+  "units": {
+    "position": "m, internal convention verified previously",
+    "psp_amplitude": "V",
+    "psc_amplitude": "A"
+  },
+  "context": "Post-result annotation lookup. Labels are prior database assessments, not independently revalidated here or used to select the transfer model.",
+  "interpretation": "Known chemical-synapse labels can coexist with unidentifiable subthreshold transfer. Neither pair-negative labels nor test-negative response prove anatomical absence.",
+  "metric_verdict": "NOT_EVALUATED"
+}

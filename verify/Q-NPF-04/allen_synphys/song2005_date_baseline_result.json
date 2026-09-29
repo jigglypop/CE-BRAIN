@@ -1,0 +1,66 @@
+{
+  "selection_sha256": "0cb5292fead058121fa5d4d67640bd08f5f52c30548a461653c36e8c8bd27b94",
+  "selected": "age_calcium",
+  "results": {
+    "age_calcium": {
+      "direction_logloss": 0.3923678280466992,
+      "predicted_direction_count": 311.58205072925375,
+      "gradient": 8.713307853014385e-13,
+      "coef": [
+        -2.132394895859067,
+        -0.18286031701290256,
+        -0.05981331877790949
+      ],
+      "joint": {
+        "independent": {
+          "dyads": 1394,
+          "joint_logloss": 0.7847356560933983,
+          "mutual_logloss": 0.3032873101138871,
+          "mutual_brier": 0.06451441237451139,
+          "mutual_observed": 92,
+          "mutual_predicted_sum": 17.77695235523346
+        },
+        "minnie_frozen": {
+          "dyads": 1394,
+          "joint_logloss": 0.7687704913398379,
+          "mutual_logloss": 0.28972656705173494,
+          "mutual_brier": 0.06414502060958968,
+          "mutual_observed": 92,
+          "mutual_predicted_sum": 22.958024103103025
+        }
+      }
+    },
+    "age_calcium_date": {
+      "direction_logloss": 0.393565639468412,
+      "predicted_direction_count": 433.3248578278645,
+      "gradient": 7.810418978237976e-14,
+      "coef": [
+        -2.1380320104936934,
+        -0.16262098617587084,
+        0.04228728694305743,
+        0.16123474869614712
+      ],
+      "joint": {
+        "independent": {
+          "dyads": 1394,
+          "joint_logloss": 0.787131278936824,
+          "mutual_logloss": 0.27348211287288554,
+          "mutual_brier": 0.06354375499846689,
+          "mutual_observed": 92,
+          "mutual_predicted_sum": 34.291605686253746
+        },
+        "minnie_frozen": {
+          "dyads": 1394,
+          "joint_logloss": 0.7709753379588651,
+          "mutual_logloss": 0.26413767584418874,
+          "mutual_brier": 0.06310895423593661,
+          "mutual_observed": 92,
+          "mutual_predicted_sum": 43.10076017703436
+        }
+      }
+    }
+  },
+  "observed_test_directions": 366,
+  "test_dyads": 1394,
+  "all_gates_pass": true
+}

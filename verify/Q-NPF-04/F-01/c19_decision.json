@@ -1,0 +1,55 @@
+{
+  "id": "Q-NPF-04-C19-DECISION",
+  "goal": "후속 연구 끝까지 진행해서 뇌 구조 밝혀",
+  "goal_complete": false,
+  "status": "BIOLOGICAL_INFERENCE_REQUIRES_MEASURED_INPUT",
+  "previous_turn_classification": "progress: C17 counterexamples and C18 three-mechanism experiment changed the next action",
+  "current_turn_classification": "progress: quantified omitted-shunt bias, joint-fit noise fragility, and exact readout-drift nonidentifiability",
+  "scope": "Conditional stable scalar feedback model; no actual animal endpoint, anatomical graph reconstruction or CE-specific test.",
+  "evidence": {
+    "result": "verify/Q-NPF-04/F-01/result_c19_shunt_identifiability.json",
+    "noiseless_grid_cases": 36,
+    "noisy_cases_per_model": 72,
+    "methods": ["omitted shunt", "joint shunt/membrane fit", "exactly calibrated shunt/membrane"],
+    "omitted_shunt_noiseless_median_absolute_relative_error_gain_coupling_delay": [0.666666666666662,0.5699353480351208,0.6249999999999999],
+    "joint_fit_noisy_p95_absolute_relative_error_gain_coupling_delay": [0.7713477963767579,0.9999999989560509,0.44473851005427806],
+    "oracle_calibrated_noisy_p95_absolute_relative_error_gain_coupling_delay": [0.21430819727492673,0.25836194460450645,0.15873583730380822],
+    "exact_filter_equivalence_residual": 2.2215299868541707e-16,
+    "limits": [
+      "Optimizer success is not accurate recovery; bounded fits can terminate with large bias.",
+      "These are pooled development-grid error quantiles, not population confidence intervals or biological power.",
+      "Exact calibration comparator assumes zero calibration error and is therefore optimistic.",
+      "Full local sensitivity rank and recovery on 36 cases do not prove global identifiability over all circuits.",
+      "The filter counterexample concerns an unconstrained changing transfer function, not every calibrated acquisition model."
+    ]
+  },
+  "answers": {
+    "original_question_answered": false,
+    "refuted": "The C18 ideal intervention result can be transferred to conductance interventions without modeling shunt; arbitrary recording drift still permits unique mechanism recovery.",
+    "survives": "Three-mechanism recovery is conditional on model adequacy and independently calibrated intervention/readout. Explicit nuisance modeling can recover the noiseless fixed grid.",
+    "next_allowed": "Receive an actual measurement bundle and first verify provenance, same-unit identity, calibration, native timing and model applicability. If inputs are absent, stop biological inference rather than manufacture an observed endpoint.",
+    "biological_endpoint_evaluated": false,
+    "claim_ceiling": "BIO_EVIDENCE_L0"
+  },
+  "required_user_or_external_input": {
+    "request_sent": "A path to same-cell pre/post voltage and delivered-current recordings, independent intervention calibration and cell/connection identity.",
+    "minimum_content": [
+      "Native timestamps with raw voltage, external probe and delivered-current traces",
+      "Biological preparation, animal/cell/connection identity and intervention/sham/recovery labels",
+      "Independent effective coupling-dose calibration and its uncertainty",
+      "Measured membrane time/resistance and shunt or sufficient independent measurements to identify them",
+      "Recording-filter stability/calibration across conditions",
+      "For anatomy: same-preparation path/connection measurements rather than only an aggregate fitted delay"
+    ],
+    "current_evidence_availability": "No such bundle is supplied or named in Q-NPF-04. Existing C18/C19 artifacts are synthetic. This is not a claim that no suitable dataset exists anywhere.",
+    "other_lineage": "The existing adult L4 lab handoff reports external actions remaining and no biological endpoint. It is a different preparation/contract and cannot be counted as C19 input or experimental execution.",
+    "no_contact_or_experiment_executed": true
+  },
+  "completion_requirements_still_unproven": [
+    "Actual biological anatomy/structure measurements and alternative-topology discrimination",
+    "Independent mechanism identification with selective controls",
+    "Generalization to independently held-out biological units",
+    "Original CE output-metric and behavioral chain if that specific theory is to be established"
+  ],
+  "next_gate": "OBSERVED_INPUT_AVAILABLE_AND_APPLICABLE; synthetic or schema files alone do not pass"
+}

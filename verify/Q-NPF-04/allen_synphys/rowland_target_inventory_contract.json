@@ -1,0 +1,22 @@
+{
+  "question": "명목 자극 표적 수와 기록 ROI 마스크 수가 같으며 기존 학습·평가에서 명목 수준이 겹치는가",
+  "code_sha256": "0ed86929832f322abc3fd8357fb122f0aeee2cd29cdefadd16a385f43c49a5fc",
+  "prediction_sha256": "f2a88d38a1fa0b7dc568f13462b51487a64b578f426c75c4cc3e8d91447b341b",
+  "summaries_sha256": "810c432e5ad92d33422d82e43fb39e26b2747caa5db0f777465d3b7e6e7ccb4b",
+  "source_code_sha256": {
+    "author_Session.py": "6d9117ba4b12b2a9bf28f2fbecb62942be47581ada0ce27053a869f6a0662e5e",
+    "vape_run_functions.py": "a280097a72bff4722037bbab8a5b150ce46ffd0c193aa2bef5af25ee652cc1f6"
+  },
+  "source_limit": "Vape 보관 판본의 공간 마스크 알고리즘 확인; 실제 export 생성의 역사적 판본 일치는 미확인",
+  "mask_semantics": "GetTargets는 자극 위치 주변 마스크와 ROI 픽셀 겹침 여부; 활성화 측정 아님",
+  "nominal_semantics": "trial_subsets 표지; 실제 활성 세포 수나 광출력으로 대체하지 않음",
+  "selection": "기존 전체 11세션; 유효 catch/test는 원래 시행 번호로 기존 분석에 연결",
+  "groups": "명목 표적 수별 mask ROI 범위, 학습·평가 표본 수, 고정된 예측의 집단별 MSE",
+  "limits": [
+    "반응 기반 표본 선택 없음",
+    "명목 수 불일치를 오류로 단정하지 않음",
+    "재적합 없음",
+    "동일 명목 수가 동일 표적 identity·에너지·세포 상태를 보장하지 않음"
+  ],
+  "claim_ceiling": "스키마 L0 및 기존 평가 시행의 탐색적 예측 분해 L1"
+}

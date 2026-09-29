@@ -1,0 +1,118 @@
+{
+  "question": "비표적 세포의 미래 반응 예측에 자극 대상 정보가 이득을 주는가",
+  "selection": "Second metadata-eligible WT session 9; same model and thresholds; no outcome-based replacement",
+  "support_sha256": "186d98dae0df00493196526509dd7e85a31a26a39f3d984aef4b8046024370dc",
+  "split": {
+    "retained": 56,
+    "train_events": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "test_events": [
+      40,
+      41,
+      42,
+      43,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ],
+    "supported_test_events": [
+      40,
+      43,
+      48,
+      54,
+      57
+    ],
+    "supported_test_targets": [
+      13,
+      80,
+      136
+    ],
+    "pass_min5_supported": true
+  },
+  "inputs": {
+    "gcamp": "3ee1c241559652c6818b4854df3b54bc6f6c5fb9f54e21cb4aee0671807e8487",
+    "t": "59a5fb9ef5a426ced2d711b6297f4f6f9804cf943951912f12d91a2646126ceb",
+    "stim_volume_i": "8367c54630ce14bf4854638999a8828005267dee0fe16e89eb3116cd4b4434a7",
+    "stim_neurons": "a395b02de146e10d25786d28e052bbee2217fc672881816c9401ea3a0a67b218",
+    "labels": "f3ec300961db9c99fbab36c1133128d28547c0f4854a47355cd884ea2f76e34b"
+  },
+  "code_sha256": "a9a48de4de20f93d306b84f3eac8c44368ba6556944aecfc280499bdd13fffc9",
+  "windows_seconds_half_open": {
+    "pre": [
+      -10,
+      -2
+    ],
+    "post": [
+      2,
+      10
+    ]
+  },
+  "features": [
+    "세포 전 평균",
+    "전 구간 후반 평균 - 전반 평균",
+    "전체 세포 전 평균의 중앙값",
+    "자극 시각"
+  ],
+  "response": "export 형광 dF/F; 모든 창 유한 및 전 평균 양수",
+  "baseline": "학습 자료만으로 feature 표준화; intercept 비벌점 ridge alpha=10",
+  "target_model": "baseline + 표적별 학습잔차 합/(표적별 학습수+5)",
+  "eligibility": "직접 표적 시행 제외; 세포당 유효 학습 >=20, 지원되는 유효 평가 >=3; 학습 반응 표준편차 >1e-12",
+  "metric": "학습 반응 표준편차로 나눈 제곱오차; 세포 내 평가평균 후 세포 간 평균",
+  "decision": "표적 모형 평균오차 < baseline이면 탐색적 예측 이득; 인과 판정 아님",
+  "limits": [
+    "독립 동물 holdout 아님",
+    "원 export 전처리의 전체 시계열 사용 가능성 미해결",
+    "시간·상태는 제한된 공변량이며 모든 공통 입력을 제거하지 않음",
+    "event_local은 결과를 본 기존 규칙의 수정; 새 독립 사전등록 아님"
+  ],
+  "claim_ceiling": "BIO_EVIDENCE_L1; prospective deployment and causal edge unestablished"
+}

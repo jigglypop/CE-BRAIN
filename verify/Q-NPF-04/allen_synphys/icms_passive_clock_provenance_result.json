@@ -1,0 +1,90 @@
+{
+  "code_sha256": "7998b8a279268df275bad97437bb1e920c3182abfd98a44dbde25cd84b41faaf",
+  "author_tree_sha": "d1922d16913b50bf6338ff4e0c2953cb8ef43d15",
+  "sources": [
+    {
+      "path": "processing/control/stage1_sort.py",
+      "sha256": "b19829470f6c721f7dcf6a82da449f925622471457286a8c550d6b219f4dab08",
+      "git_blob": "5a41bb490d9792eefbd6e8dd0252eae07c316d9b",
+      "normalization": "CRLF to LF for Git comparison only"
+    },
+    {
+      "path": "processing/util/load_control.py",
+      "sha256": "64252e1cb272028a1a4f19aa2991a0c1c403993906687295316f74dd75b236d8",
+      "git_blob": "e1d78f3edf3fd0fa9921e32f10cdc33210a483e0",
+      "normalization": "none"
+    }
+  ],
+  "sessions": [
+    {
+      "path": "sub-ICMS45/sub-ICMS45_ses-2022-02-05_ecephys.nwb",
+      "sha256": "0337584c05c4269649ed69533509aa66e9c3f528ee524184eb0284c8c0bcee05",
+      "first_burst_count": 17,
+      "first_burst_spacing_quantiles": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "acquisition_items": [],
+      "obs_intervals_present": false,
+      "invalid_times_present": false,
+      "exact_condensed_trials_paths": [],
+      "session_description": "Passive ICMS recording in primary somatosensory cortex (trunk). No behavioral task — head-fixed mouse received 3-burst stim trains while extracellular activity was recorded. Data origin: SurveyData.",
+      "experiment_description": "Behavioral and electrophysiological investigation of cortical plasticity induced by repeated ICMS in primary somatosensory cortex (S1-trunk). Mice were trained on an ICMS-cued wheel-turn detection task while multi-channel extracellular recordings were collected via chronic 32-channel linear NET probes."
+    },
+    {
+      "path": "sub-ICMS48/sub-ICMS48_ses-2022-04-08_ecephys+ophys.nwb",
+      "sha256": "49274c943df39b8157e3d185ec0a82ffd50f31b78c04b4c8e090883d783bfdca",
+      "first_burst_count": 180,
+      "first_burst_spacing_quantiles": [
+        9.997233333333043,
+        10.0,
+        10.003033333333406
+      ],
+      "acquisition_items": [],
+      "obs_intervals_present": false,
+      "invalid_times_present": false,
+      "exact_condensed_trials_paths": [],
+      "session_description": "Passive ICMS recording in primary somatosensory cortex (trunk). No behavioral task — head-fixed mouse received 3-burst stim trains while extracellular activity was recorded. Data origin: ExperimentData.",
+      "experiment_description": "Behavioral and electrophysiological investigation of cortical plasticity induced by repeated ICMS in primary somatosensory cortex (S1-trunk). Mice were trained on an ICMS-cued wheel-turn detection task while multi-channel extracellular recordings were collected via chronic 32-channel linear NET probes."
+    },
+    {
+      "path": "sub-ICMS54/sub-ICMS54_ses-2022-05-20_ecephys.nwb",
+      "sha256": "4e5e86288387ea609d1cb4e99c33648b8d7e75ee21d0448cee87039965b0beae",
+      "first_burst_count": 126,
+      "first_burst_spacing_quantiles": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "acquisition_items": [],
+      "obs_intervals_present": false,
+      "invalid_times_present": false,
+      "exact_condensed_trials_paths": [],
+      "session_description": "Passive ICMS recording in primary somatosensory cortex (trunk). No behavioral task — head-fixed mouse received 3-burst stim trains while extracellular activity was recorded. Data origin: ExperimentData.",
+      "experiment_description": "Behavioral and electrophysiological investigation of cortical plasticity induced by repeated ICMS in primary somatosensory cortex (S1-trunk). Mice were trained on an ICMS-cued wheel-turn detection task while multi-channel extracellular recordings were collected via chronic 32-channel linear NET probes."
+    },
+    {
+      "path": "sub-ICMS56/sub-ICMS56_ses-2022-06-21_ecephys.nwb",
+      "sha256": "a44e877f4a9fdd5bc62b3ed6991ee4ffd9bc8b29f13740d2fbfa79359d7f8ac1",
+      "first_burst_count": 352,
+      "first_burst_spacing_quantiles": [
+        9.956366666666668,
+        10.0,
+        10.003766666666479
+      ],
+      "acquisition_items": [],
+      "obs_intervals_present": false,
+      "invalid_times_present": false,
+      "exact_condensed_trials_paths": [],
+      "session_description": "Passive ICMS recording in primary somatosensory cortex (trunk). No behavioral task — head-fixed mouse received 3-burst stim trains while extracellular activity was recorded. Data origin: ExperimentData.",
+      "experiment_description": "Behavioral and electrophysiological investigation of cortical plasticity induced by repeated ICMS in primary somatosensory cortex (S1-trunk). Mice were trained on an ICMS-cued wheel-turn detection task while multi-channel extracellular recordings were collected via chronic 32-channel linear NET probes."
+    }
+  ],
+  "source_findings": [
+    "stage1_sort slices around each stimulus start +/-5s, clips to original recording bounds, stitches and remaps timestamps, saves condensed_trials.csv",
+    "load_control drops zero-current rows in MAT-backed branch; fallback groups NEV pulses and assigns survey current"
+  ],
+  "interpretation": "Public source verified against author tree. Actual NWB conversion and per-trial retained interval map not established. Regular spacing is compatible with condensed time, not proof of natural experimental spacing.",
+  "endpoint_status": "POSTTRAIN_RESPONSE_NOT_EVALUATED_PENDING_OBSERVATION_SUPPORT"
+}

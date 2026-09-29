@@ -1,0 +1,116 @@
+{
+  "dandiset": "001701",
+  "version": "0.260120.0303",
+  "rule": {
+    "excluded_subject": "sub-BaggySweatpants",
+    "session_choice": "day index closest to 15, ties to the smaller index",
+    "split": "subjects sorted alphabetically; first 5 to D1, remainder to D2",
+    "signal_blind": true
+  },
+  "total_assets_in_version": 218,
+  "subjects_available": [
+    "sub-AppleBottom",
+    "sub-Curie",
+    "sub-Franklin",
+    "sub-Lamarr",
+    "sub-Lovelace",
+    "sub-Noether",
+    "sub-Payne",
+    "sub-StickPin",
+    "sub-StrappyReeboks",
+    "sub-TopCoat",
+    "sub-TopHat"
+  ],
+  "D1_intermediate": [
+    {
+      "subject": "sub-AppleBottom",
+      "day": 15,
+      "asset_id": "098c496f-f278-4d54-b35c-b083a93c258b",
+      "path": "sub-AppleBottom/sub-AppleBottom_ses-AppleBottom-DY15-g1_behavior+ecephys.nwb",
+      "size": 37495852,
+      "sha256": "daff39829b355883e541689ed43d5d4ffadce370f38839bc1eb4a722efa60447"
+    },
+    {
+      "subject": "sub-Curie",
+      "day": 15,
+      "asset_id": "c74ef2ee-4610-43d3-a285-e82cc4cf29af",
+      "path": "sub-Curie/sub-Curie_ses-Curie-DY15-g1_behavior+ecephys.nwb",
+      "size": 27023752,
+      "sha256": "793ff2f3ba3bd5fe4cd8e17f9b11554583331d6e3117510a88eb7348c54202b6"
+    },
+    {
+      "subject": "sub-Franklin",
+      "day": 15,
+      "asset_id": "a2e6a4dc-b3bb-4bd2-b13c-acb1ecbddede",
+      "path": "sub-Franklin/sub-Franklin_ses-Franklin-DY15-g0_behavior+ecephys.nwb",
+      "size": 23525144,
+      "sha256": "a10697a0b8504b838d11dafafa1d5ea425b97bbcc02e44a33b36d2e49008d0bf"
+    },
+    {
+      "subject": "sub-Lamarr",
+      "day": 15,
+      "asset_id": "908e91db-bc0e-4552-a2d2-b7bbb8bb56d4",
+      "path": "sub-Lamarr/sub-Lamarr_ses-Lamarr-DY15-g0_behavior+ecephys.nwb",
+      "size": 31556480,
+      "sha256": "b1c25cde6acd2d47c319ed0a10eea29a1bfc947951f3c1eb9c586d299dccab5b"
+    },
+    {
+      "subject": "sub-Lovelace",
+      "day": 15,
+      "asset_id": "f10f8ff0-9fab-420a-81da-29083c4ae029",
+      "path": "sub-Lovelace/sub-Lovelace_ses-Lovelace-DY15-g1_behavior+ecephys.nwb",
+      "size": 27052032,
+      "sha256": "a3b15a0e78156e723e60c5f26864bde26ccccad099373fe8a156f728b5ab658c"
+    }
+  ],
+  "D2_confirmation_sealed": [
+    {
+      "subject": "sub-Noether",
+      "day": 15,
+      "asset_id": "784ccac2-298e-42f7-9e08-6a6b4f658609",
+      "path": "sub-Noether/sub-Noether_ses-Noether-DY15-g1_behavior+ecephys.nwb",
+      "size": 25483792,
+      "sha256": "2c59931b262bf98c43039277d8c2ef1dd0e07663ebf5dab08400fb9c79da0453"
+    },
+    {
+      "subject": "sub-Payne",
+      "day": 15,
+      "asset_id": "c76d3335-cb94-48b3-8d82-e64447e4dabb",
+      "path": "sub-Payne/sub-Payne_ses-Payne-DY15-g0_behavior+ecephys.nwb",
+      "size": 27118216,
+      "sha256": "ad811688bae9c33275012ad89d5824fa2c71d8248045bb6b36e5d6da86c829f2"
+    },
+    {
+      "subject": "sub-StickPin",
+      "day": 15,
+      "asset_id": "21c69416-2b07-4ba4-a4af-1c64480ee41c",
+      "path": "sub-StickPin/sub-StickPin_ses-StickPin-DY15-g1_behavior+ecephys.nwb",
+      "size": 17644240,
+      "sha256": "28eaadde4dd1a07acd0d07f6863258338368644735d492e4ea6899b151cf883c"
+    },
+    {
+      "subject": "sub-StrappyReeboks",
+      "day": 15,
+      "asset_id": "df799303-9b36-469c-a2d3-10fbb8b5e782",
+      "path": "sub-StrappyReeboks/sub-StrappyReeboks_ses-StrappyReeboks-DY15-g1_behavior+ecephys.nwb",
+      "size": 19218408,
+      "sha256": "d3c77fdc627fdee3c5f06077ea59df75bbd676c82c3d6b5ddeda9bbde1d95523"
+    },
+    {
+      "subject": "sub-TopCoat",
+      "day": 15,
+      "asset_id": "09db331a-463a-4488-822c-23175830743e",
+      "path": "sub-TopCoat/sub-TopCoat_ses-TopCoat-DY15-g1_behavior+ecephys.nwb",
+      "size": 23953448,
+      "sha256": "0c8b8e0aa2b200fa00f2c5b262dd8cb78adbbe774a21c675aa4b2f27e78ee98f"
+    },
+    {
+      "subject": "sub-TopHat",
+      "day": 6,
+      "asset_id": "9f17b607-6478-4f07-a163-00f23df8a7a8",
+      "path": "sub-TopHat/sub-TopHat_ses-TopHat-DY06-g1_behavior+ecephys.nwb",
+      "size": 23422368,
+      "sha256": "07c532e0172aebe4ce4067c99e492f9a65ea759c8ac7c5b0efc6219b230c7f66"
+    }
+  ]
+}

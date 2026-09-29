@@ -1,0 +1,571 @@
+{
+  "contract_sha256": "b4cb6bc33fed7ddba5741a8d0618f78bd752cdd2873307b014dcc550a73a04e2",
+  "scopes": {
+    "upper_layers": {
+      "counts": {
+        "qualified_directions": 1022,
+        "positive_directions": 102,
+        "missing_or_nonfinite_amplitude": 22,
+        "usable_amplitude_directions": 75,
+        "non_ex_synapse_type": 5
+      },
+      "experiments_with_amplitudes": 34,
+      "identifiable_experiments": 1,
+      "records": [
+        {
+          "experiment_id": 446,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 518,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 521,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 778,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1067,
+          "usable_directions": 3,
+          "rank": 3,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1137,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1300,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1381,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1715,
+          "usable_directions": 4,
+          "rank": 4,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1717,
+          "usable_directions": 4,
+          "rank": 3,
+          "information": 0.24999999999999983,
+          "identifiable": true
+        },
+        {
+          "experiment_id": 1772,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1773,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2041,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2160,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2164,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2165,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2174,
+          "usable_directions": 6,
+          "rank": 6,
+          "information": 3.1747703058914227e-31,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2190,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2194,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2213,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2239,
+          "usable_directions": 3,
+          "rank": 3,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2468,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2475,
+          "usable_directions": 7,
+          "rank": 7,
+          "information": 3.397340421899084e-31,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2476,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2538,
+          "usable_directions": 5,
+          "rank": 5,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2541,
+          "usable_directions": 3,
+          "rank": 3,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2703,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2724,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2726,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2752,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2755,
+          "usable_directions": 3,
+          "rank": 3,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2758,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2863,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 3157,
+          "usable_directions": 5,
+          "rank": 5,
+          "information": 1.0175920187259799e-32,
+          "identifiable": false
+        }
+      ]
+    },
+    "all_layers_separate_inventory": {
+      "counts": {
+        "qualified_directions": 1572,
+        "positive_directions": 119,
+        "missing_or_nonfinite_amplitude": 27,
+        "usable_amplitude_directions": 86,
+        "non_ex_synapse_type": 6
+      },
+      "experiments_with_amplitudes": 43,
+      "identifiable_experiments": 1,
+      "records": [
+        {
+          "experiment_id": 446,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 518,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 521,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 597,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 778,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1067,
+          "usable_directions": 3,
+          "rank": 3,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1094,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1113,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1137,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1300,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1381,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1435,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1715,
+          "usable_directions": 4,
+          "rank": 4,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1717,
+          "usable_directions": 4,
+          "rank": 3,
+          "information": 0.24999999999999983,
+          "identifiable": true
+        },
+        {
+          "experiment_id": 1772,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1773,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1930,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 1991,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2041,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2160,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2164,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2165,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2174,
+          "usable_directions": 6,
+          "rank": 6,
+          "information": 3.1747703058914227e-31,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2190,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2194,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2213,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2239,
+          "usable_directions": 3,
+          "rank": 3,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2385,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2468,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2475,
+          "usable_directions": 7,
+          "rank": 7,
+          "information": 3.397340421899084e-31,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2476,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2538,
+          "usable_directions": 5,
+          "rank": 5,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2541,
+          "usable_directions": 3,
+          "rank": 3,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2703,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2724,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2726,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2752,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2755,
+          "usable_directions": 3,
+          "rank": 3,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2758,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 2863,
+          "usable_directions": 2,
+          "rank": 2,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 3025,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 3049,
+          "usable_directions": 1,
+          "rank": 1,
+          "information": 0.0,
+          "identifiable": false
+        },
+        {
+          "experiment_id": 3157,
+          "usable_directions": 5,
+          "rank": 5,
+          "information": 1.0175920187259799e-32,
+          "identifiable": false
+        }
+      ]
+    }
+  },
+  "verification": "PASS: bidirectional denominator and independent projections"
+}

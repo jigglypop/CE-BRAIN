@@ -1,0 +1,1265 @@
+{
+  "remote": {
+    "url": "https://dandiarchive.s3.amazonaws.com/blobs/d3d/1d1/d3d1d113-8c11-4baa-85c2-ad707b6b99f3",
+    "bytes": 70959637818,
+    "etag": "\"9d53f7a4e3b4eb3f30c88795d212d1af-1058\"",
+    "last_modified": "Mon, 06 Mar 2023 16:25:26 GMT"
+  },
+  "root_keys": [
+    "acquisition",
+    "analysis",
+    "file_create_date",
+    "general",
+    "identifier",
+    "intervals",
+    "processing",
+    "session_description",
+    "session_start_time",
+    "specifications",
+    "stimulus",
+    "timestamps_reference_time"
+  ],
+  "nodes": [
+    {
+      "path": "/processing",
+      "neurodata_type": "",
+      "children": [
+        "ophys"
+      ]
+    },
+    {
+      "path": "/processing/ophys",
+      "neurodata_type": "ProcessingModule",
+      "children": [
+        "Fluorescence",
+        "ImageSegmentation",
+        "SegmentationImages1",
+        "SegmentationImages2",
+        "SegmentationImages3",
+        "SegmentationImages4",
+        "SegmentationImages5",
+        "SegmentationImages6",
+        "SegmentationImages7",
+        "SegmentationImages8"
+      ]
+    },
+    {
+      "path": "/processing/ophys/Fluorescence",
+      "neurodata_type": "Fluorescence",
+      "children": [
+        "RoiResponseSeries1",
+        "RoiResponseSeries2",
+        "RoiResponseSeries3",
+        "RoiResponseSeries4",
+        "RoiResponseSeries5",
+        "RoiResponseSeries6",
+        "RoiResponseSeries7",
+        "RoiResponseSeries8"
+      ]
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries1",
+      "neurodata_type": "RoiResponseSeries",
+      "children": [
+        "data",
+        "rois",
+        "timestamps"
+      ]
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries1/data",
+      "neurodata_type": "",
+      "shape": [
+        40000,
+        643
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries1/rois",
+      "neurodata_type": "DynamicTableRegion",
+      "shape": [
+        643
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries1/timestamps",
+      "neurodata_type": "",
+      "shape": [
+        40000
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries2",
+      "neurodata_type": "RoiResponseSeries",
+      "children": [
+        "data",
+        "rois",
+        "timestamps"
+      ]
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries2/data",
+      "neurodata_type": "",
+      "shape": [
+        40000,
+        452
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries2/rois",
+      "neurodata_type": "DynamicTableRegion",
+      "shape": [
+        452
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries2/timestamps",
+      "neurodata_type": "",
+      "shape": [
+        40000
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries3",
+      "neurodata_type": "RoiResponseSeries",
+      "children": [
+        "data",
+        "rois",
+        "timestamps"
+      ]
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries3/data",
+      "neurodata_type": "",
+      "shape": [
+        40000,
+        1455
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries3/rois",
+      "neurodata_type": "DynamicTableRegion",
+      "shape": [
+        1455
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries3/timestamps",
+      "neurodata_type": "",
+      "shape": [
+        40000
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries4",
+      "neurodata_type": "RoiResponseSeries",
+      "children": [
+        "data",
+        "rois",
+        "timestamps"
+      ]
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries4/data",
+      "neurodata_type": "",
+      "shape": [
+        40000,
+        1389
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries4/rois",
+      "neurodata_type": "DynamicTableRegion",
+      "shape": [
+        1389
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries4/timestamps",
+      "neurodata_type": "",
+      "shape": [
+        40000
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries5",
+      "neurodata_type": "RoiResponseSeries",
+      "children": [
+        "data",
+        "rois",
+        "timestamps"
+      ]
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries5/data",
+      "neurodata_type": "",
+      "shape": [
+        40000,
+        1420
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries5/rois",
+      "neurodata_type": "DynamicTableRegion",
+      "shape": [
+        1420
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries5/timestamps",
+      "neurodata_type": "",
+      "shape": [
+        40000
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries6",
+      "neurodata_type": "RoiResponseSeries",
+      "children": [
+        "data",
+        "rois",
+        "timestamps"
+      ]
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries6/data",
+      "neurodata_type": "",
+      "shape": [
+        40000,
+        1411
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries6/rois",
+      "neurodata_type": "DynamicTableRegion",
+      "shape": [
+        1411
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries6/timestamps",
+      "neurodata_type": "",
+      "shape": [
+        40000
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries7",
+      "neurodata_type": "RoiResponseSeries",
+      "children": [
+        "data",
+        "rois",
+        "timestamps"
+      ]
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries7/data",
+      "neurodata_type": "",
+      "shape": [
+        40000,
+        895
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries7/rois",
+      "neurodata_type": "DynamicTableRegion",
+      "shape": [
+        895
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries7/timestamps",
+      "neurodata_type": "",
+      "shape": [
+        40000
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries8",
+      "neurodata_type": "RoiResponseSeries",
+      "children": [
+        "data",
+        "rois",
+        "timestamps"
+      ]
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries8/data",
+      "neurodata_type": "",
+      "shape": [
+        40000,
+        730
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries8/rois",
+      "neurodata_type": "DynamicTableRegion",
+      "shape": [
+        730
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/Fluorescence/RoiResponseSeries8/timestamps",
+      "neurodata_type": "",
+      "shape": [
+        40000
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation",
+      "neurodata_type": "ImageSegmentation",
+      "children": [
+        "PlaneSegmentation1",
+        "PlaneSegmentation2",
+        "PlaneSegmentation3",
+        "PlaneSegmentation4",
+        "PlaneSegmentation5",
+        "PlaneSegmentation6",
+        "PlaneSegmentation7",
+        "PlaneSegmentation8"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation1",
+      "neurodata_type": "PlaneSegmentation",
+      "children": [
+        "id",
+        "image_mask",
+        "imaging_plane",
+        "mask_type",
+        "reference_images"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation1/id",
+      "neurodata_type": "ElementIdentifiers",
+      "shape": [
+        643
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation1/image_mask",
+      "neurodata_type": "VectorData",
+      "shape": [
+        643,
+        248,
+        440
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation1/imaging_plane",
+      "neurodata_type": "ImagingPlane",
+      "children": [
+        "OpticalChannel",
+        "description",
+        "device",
+        "excitation_lambda",
+        "grid_spacing",
+        "imaging_rate",
+        "indicator",
+        "location",
+        "origin_coords"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation1/mask_type",
+      "neurodata_type": "VectorData",
+      "shape": [
+        643
+      ],
+      "dtype": "object"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation1/reference_images",
+      "neurodata_type": "",
+      "children": []
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation2",
+      "neurodata_type": "PlaneSegmentation",
+      "children": [
+        "cave_ids",
+        "cave_ids_index",
+        "id",
+        "image_mask",
+        "imaging_plane",
+        "mask_type",
+        "pt_root_id",
+        "pt_supervoxel_id",
+        "pt_x_position",
+        "pt_y_position",
+        "pt_z_position",
+        "reference_images"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation2/cave_ids",
+      "neurodata_type": "VectorData",
+      "shape": [
+        452
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation2/cave_ids_index",
+      "neurodata_type": "VectorIndex",
+      "shape": [
+        452
+      ],
+      "dtype": "uint16"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation2/id",
+      "neurodata_type": "ElementIdentifiers",
+      "shape": [
+        452
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation2/image_mask",
+      "neurodata_type": "VectorData",
+      "shape": [
+        452,
+        248,
+        440
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation2/imaging_plane",
+      "neurodata_type": "ImagingPlane",
+      "children": [
+        "OpticalChannel",
+        "description",
+        "device",
+        "excitation_lambda",
+        "grid_spacing",
+        "imaging_rate",
+        "indicator",
+        "location",
+        "origin_coords"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation2/mask_type",
+      "neurodata_type": "VectorData",
+      "shape": [
+        452
+      ],
+      "dtype": "object"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation2/pt_root_id",
+      "neurodata_type": "VectorData",
+      "shape": [
+        452
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation2/pt_supervoxel_id",
+      "neurodata_type": "VectorData",
+      "shape": [
+        452
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation2/pt_x_position",
+      "neurodata_type": "VectorData",
+      "shape": [
+        452
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation2/pt_y_position",
+      "neurodata_type": "VectorData",
+      "shape": [
+        452
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation2/pt_z_position",
+      "neurodata_type": "VectorData",
+      "shape": [
+        452
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation2/reference_images",
+      "neurodata_type": "",
+      "children": []
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation3",
+      "neurodata_type": "PlaneSegmentation",
+      "children": [
+        "id",
+        "image_mask",
+        "imaging_plane",
+        "mask_type",
+        "reference_images"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation3/id",
+      "neurodata_type": "ElementIdentifiers",
+      "shape": [
+        1455
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation3/image_mask",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1455,
+        248,
+        440
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation3/imaging_plane",
+      "neurodata_type": "ImagingPlane",
+      "children": [
+        "OpticalChannel",
+        "description",
+        "device",
+        "excitation_lambda",
+        "grid_spacing",
+        "imaging_rate",
+        "indicator",
+        "location",
+        "origin_coords"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation3/mask_type",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1455
+      ],
+      "dtype": "object"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation3/reference_images",
+      "neurodata_type": "",
+      "children": []
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation4",
+      "neurodata_type": "PlaneSegmentation",
+      "children": [
+        "cave_ids",
+        "cave_ids_index",
+        "id",
+        "image_mask",
+        "imaging_plane",
+        "mask_type",
+        "pt_root_id",
+        "pt_supervoxel_id",
+        "pt_x_position",
+        "pt_y_position",
+        "pt_z_position",
+        "reference_images"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation4/cave_ids",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1391
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation4/cave_ids_index",
+      "neurodata_type": "VectorIndex",
+      "shape": [
+        1389
+      ],
+      "dtype": "uint16"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation4/id",
+      "neurodata_type": "ElementIdentifiers",
+      "shape": [
+        1389
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation4/image_mask",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1389,
+        248,
+        440
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation4/imaging_plane",
+      "neurodata_type": "ImagingPlane",
+      "children": [
+        "OpticalChannel",
+        "description",
+        "device",
+        "excitation_lambda",
+        "grid_spacing",
+        "imaging_rate",
+        "indicator",
+        "location",
+        "origin_coords"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation4/mask_type",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1389
+      ],
+      "dtype": "object"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation4/pt_root_id",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1389
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation4/pt_supervoxel_id",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1389
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation4/pt_x_position",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1389
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation4/pt_y_position",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1389
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation4/pt_z_position",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1389
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation4/reference_images",
+      "neurodata_type": "",
+      "children": []
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation5",
+      "neurodata_type": "PlaneSegmentation",
+      "children": [
+        "id",
+        "image_mask",
+        "imaging_plane",
+        "mask_type",
+        "reference_images"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation5/id",
+      "neurodata_type": "ElementIdentifiers",
+      "shape": [
+        1420
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation5/image_mask",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1420,
+        248,
+        440
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation5/imaging_plane",
+      "neurodata_type": "ImagingPlane",
+      "children": [
+        "OpticalChannel",
+        "description",
+        "device",
+        "excitation_lambda",
+        "grid_spacing",
+        "imaging_rate",
+        "indicator",
+        "location",
+        "origin_coords"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation5/mask_type",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1420
+      ],
+      "dtype": "object"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation5/reference_images",
+      "neurodata_type": "",
+      "children": []
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation6",
+      "neurodata_type": "PlaneSegmentation",
+      "children": [
+        "cave_ids",
+        "cave_ids_index",
+        "id",
+        "image_mask",
+        "imaging_plane",
+        "mask_type",
+        "pt_root_id",
+        "pt_supervoxel_id",
+        "pt_x_position",
+        "pt_y_position",
+        "pt_z_position",
+        "reference_images"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation6/cave_ids",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1411
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation6/cave_ids_index",
+      "neurodata_type": "VectorIndex",
+      "shape": [
+        1411
+      ],
+      "dtype": "uint16"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation6/id",
+      "neurodata_type": "ElementIdentifiers",
+      "shape": [
+        1411
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation6/image_mask",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1411,
+        248,
+        440
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation6/imaging_plane",
+      "neurodata_type": "ImagingPlane",
+      "children": [
+        "OpticalChannel",
+        "description",
+        "device",
+        "excitation_lambda",
+        "grid_spacing",
+        "imaging_rate",
+        "indicator",
+        "location",
+        "origin_coords"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation6/mask_type",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1411
+      ],
+      "dtype": "object"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation6/pt_root_id",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1411
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation6/pt_supervoxel_id",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1411
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation6/pt_x_position",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1411
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation6/pt_y_position",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1411
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation6/pt_z_position",
+      "neurodata_type": "VectorData",
+      "shape": [
+        1411
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation6/reference_images",
+      "neurodata_type": "",
+      "children": []
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation7",
+      "neurodata_type": "PlaneSegmentation",
+      "children": [
+        "id",
+        "image_mask",
+        "imaging_plane",
+        "mask_type",
+        "reference_images"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation7/id",
+      "neurodata_type": "ElementIdentifiers",
+      "shape": [
+        895
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation7/image_mask",
+      "neurodata_type": "VectorData",
+      "shape": [
+        895,
+        248,
+        440
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation7/imaging_plane",
+      "neurodata_type": "ImagingPlane",
+      "children": [
+        "OpticalChannel",
+        "description",
+        "device",
+        "excitation_lambda",
+        "grid_spacing",
+        "imaging_rate",
+        "indicator",
+        "location",
+        "origin_coords"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation7/mask_type",
+      "neurodata_type": "VectorData",
+      "shape": [
+        895
+      ],
+      "dtype": "object"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation7/reference_images",
+      "neurodata_type": "",
+      "children": []
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation8",
+      "neurodata_type": "PlaneSegmentation",
+      "children": [
+        "cave_ids",
+        "cave_ids_index",
+        "id",
+        "image_mask",
+        "imaging_plane",
+        "mask_type",
+        "pt_root_id",
+        "pt_supervoxel_id",
+        "pt_x_position",
+        "pt_y_position",
+        "pt_z_position",
+        "reference_images"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation8/cave_ids",
+      "neurodata_type": "VectorData",
+      "shape": [
+        730
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation8/cave_ids_index",
+      "neurodata_type": "VectorIndex",
+      "shape": [
+        730
+      ],
+      "dtype": "uint16"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation8/id",
+      "neurodata_type": "ElementIdentifiers",
+      "shape": [
+        730
+      ],
+      "dtype": "int64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation8/image_mask",
+      "neurodata_type": "VectorData",
+      "shape": [
+        730,
+        248,
+        440
+      ],
+      "dtype": "float32"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation8/imaging_plane",
+      "neurodata_type": "ImagingPlane",
+      "children": [
+        "OpticalChannel",
+        "description",
+        "device",
+        "excitation_lambda",
+        "grid_spacing",
+        "imaging_rate",
+        "indicator",
+        "location",
+        "origin_coords"
+      ]
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation8/mask_type",
+      "neurodata_type": "VectorData",
+      "shape": [
+        730
+      ],
+      "dtype": "object"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation8/pt_root_id",
+      "neurodata_type": "VectorData",
+      "shape": [
+        730
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation8/pt_supervoxel_id",
+      "neurodata_type": "VectorData",
+      "shape": [
+        730
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation8/pt_x_position",
+      "neurodata_type": "VectorData",
+      "shape": [
+        730
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation8/pt_y_position",
+      "neurodata_type": "VectorData",
+      "shape": [
+        730
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation8/pt_z_position",
+      "neurodata_type": "VectorData",
+      "shape": [
+        730
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/ImageSegmentation/PlaneSegmentation8/reference_images",
+      "neurodata_type": "",
+      "children": []
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages1",
+      "neurodata_type": "Images",
+      "children": [
+        "average",
+        "correlation"
+      ]
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages1/average",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages1/correlation",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages2",
+      "neurodata_type": "Images",
+      "children": [
+        "average",
+        "correlation"
+      ]
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages2/average",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages2/correlation",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages3",
+      "neurodata_type": "Images",
+      "children": [
+        "average",
+        "correlation"
+      ]
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages3/average",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages3/correlation",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages4",
+      "neurodata_type": "Images",
+      "children": [
+        "average",
+        "correlation"
+      ]
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages4/average",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages4/correlation",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages5",
+      "neurodata_type": "Images",
+      "children": [
+        "average",
+        "correlation"
+      ]
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages5/average",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages5/correlation",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages6",
+      "neurodata_type": "Images",
+      "children": [
+        "average",
+        "correlation"
+      ]
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages6/average",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages6/correlation",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages7",
+      "neurodata_type": "Images",
+      "children": [
+        "average",
+        "correlation"
+      ]
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages7/average",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages7/correlation",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages8",
+      "neurodata_type": "Images",
+      "children": [
+        "average",
+        "correlation"
+      ]
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages8/average",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    },
+    {
+      "path": "/processing/ophys/SegmentationImages8/correlation",
+      "neurodata_type": "GrayscaleImage",
+      "shape": [
+        248,
+        440
+      ],
+      "dtype": "float64"
+    }
+  ],
+  "new_bytes": 3145728,
+  "total_cached_bytes": 36700160
+}

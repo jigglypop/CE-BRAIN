@@ -1,0 +1,619 @@
+{
+  "session_start_utc": "2019-11-20T22:55:39.080Z",
+  "rows": [
+    {
+      "sweep": 0,
+      "headstage": 4,
+      "ad": 8,
+      "da": 4,
+      "acquisition": "/acquisition/timeseries/data_00000_AD8",
+      "command": "/stimulus/presentation/data_00000_DA4",
+      "start_s": 4099.66100025177,
+      "rate": 100000.0,
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "samples": 505902,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "VoltageClampSeries"
+      ],
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "metadata": {
+        "DAC": "4.00",
+        "ADC": "8.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "1003.01 ms",
+        "V-Clamp Holding Level": "-70.01 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-10;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,1.5530099,Baseline,0,:1.5530099,3.0560100,Stimset,0,:1.5530099,2.0530099,Epoch=0;Type=Square pulse;Amplitude=0;,1,:2.0530099,2.4045149,Epoch=1;Type=Pulse Train;Amplitude=60;,1,:2.0530099,2.1030099,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=0;,2,:2.0530100,3.0560200,oodDAQRegion=0,2,:2.1030099,2.1530099,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=1;,2,:2.1530099,2.2030099,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=2;,2,:2.2030099,2.2530099,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=3;,2,:2.2530099,2.3030099,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=4;,2,:2.3030099,2.3530099,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=5;,2,:2.3530099,2.4030099,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=6;,2,:2.4030099,2.4045149,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=7;,2,:2.4045149,2.6545149,Epoch=2;Type=Square pulse;Amplitude=0;,1,:2.6545149,2.8060199,Epoch=3;Type=Pulse Train;Amplitude=60;,1,:2.6545149,2.7045149,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=0;,2,:2.7045149,2.7545149,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=1;,2,:2.7545149,2.8045149,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=2;,2,:2.8045149,2.8060199,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=3;,2,:2.8060199,3.0560100,Epoch=4;Type=Square pulse;Amplitude=0;,1,:3.0560100,4.0560100,Baseline,0,:4.0560100,5.0590200,Baseline,0,:",
+        "OperatingModeString": "V-Clamp"
+      }
+    },
+    {
+      "sweep": 0,
+      "headstage": 5,
+      "ad": 9,
+      "da": 5,
+      "acquisition": "/acquisition/timeseries/data_00000_AD9",
+      "command": "/stimulus/presentation/data_00000_DA5",
+      "start_s": 4099.66100025177,
+      "rate": 100000.0,
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "samples": 505902,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "VoltageClampSeries"
+      ],
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "metadata": {
+        "DAC": "5.00",
+        "ADC": "9.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "2006.02 ms",
+        "V-Clamp Holding Level": "-70.02 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-10;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,2.5560199,Baseline,0,:2.5560199,4.0590200,Stimset,0,:2.5560199,3.0560199,Epoch=0;Type=Square pulse;Amplitude=0;,1,:3.0560199,3.4075249,Epoch=1;Type=Pulse Train;Amplitude=60;,1,:3.0560199,3.1060199,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=0;,2,:3.0560200,4.0590300,oodDAQRegion=0,2,:3.1060199,3.1560199,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=1;,2,:3.1560199,3.2060199,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=2;,2,:3.2060199,3.2560199,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=3;,2,:3.2560199,3.3060199,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=4;,2,:3.3060199,3.3560199,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=5;,2,:3.3560199,3.4060199,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=6;,2,:3.4060199,3.4075249,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=7;,2,:3.4075249,3.6575249,Epoch=2;Type=Square pulse;Amplitude=0;,1,:3.6575249,3.8090299,Epoch=3;Type=Pulse Train;Amplitude=60;,1,:3.6575249,3.7075249,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=0;,2,:3.7075249,3.7575249,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=1;,2,:3.7575249,3.8075249,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=2;,2,:3.8075249,3.8090299,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=3;,2,:3.8090299,4.0590200,Epoch=4;Type=Square pulse;Amplitude=0;,1,:4.0590200,5.0590200,Baseline,0,:",
+        "OperatingModeString": "V-Clamp"
+      }
+    },
+    {
+      "sweep": 1,
+      "headstage": 4,
+      "ad": 8,
+      "da": 4,
+      "acquisition": "/acquisition/timeseries/data_00001_AD8",
+      "command": "/stimulus/presentation/data_00001_DA4",
+      "start_s": 4115.183000087738,
+      "rate": 100000.0,
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "samples": 505902,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "VoltageClampSeries"
+      ],
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "metadata": {
+        "DAC": "4.00",
+        "ADC": "8.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "1003.01 ms",
+        "V-Clamp Holding Level": "-70.01 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-10;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,1.5530099,Baseline,0,:1.5530099,3.0560100,Stimset,0,:1.5530099,2.0530099,Epoch=0;Type=Square pulse;Amplitude=0;,1,:2.0530099,2.4045149,Epoch=1;Type=Pulse Train;Amplitude=60;,1,:2.0530099,2.1030099,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=0;,2,:2.0530100,3.0560200,oodDAQRegion=0,2,:2.1030099,2.1530099,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=1;,2,:2.1530099,2.2030099,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=2;,2,:2.2030099,2.2530099,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=3;,2,:2.2530099,2.3030099,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=4;,2,:2.3030099,2.3530099,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=5;,2,:2.3530099,2.4030099,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=6;,2,:2.4030099,2.4045149,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=7;,2,:2.4045149,2.6545149,Epoch=2;Type=Square pulse;Amplitude=0;,1,:2.6545149,2.8060199,Epoch=3;Type=Pulse Train;Amplitude=60;,1,:2.6545149,2.7045149,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=0;,2,:2.7045149,2.7545149,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=1;,2,:2.7545149,2.8045149,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=2;,2,:2.8045149,2.8060199,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=3;,2,:2.8060199,3.0560100,Epoch=4;Type=Square pulse;Amplitude=0;,1,:3.0560100,4.0560100,Baseline,0,:4.0560100,5.0590200,Baseline,0,:",
+        "OperatingModeString": "V-Clamp"
+      }
+    },
+    {
+      "sweep": 1,
+      "headstage": 5,
+      "ad": 9,
+      "da": 5,
+      "acquisition": "/acquisition/timeseries/data_00001_AD9",
+      "command": "/stimulus/presentation/data_00001_DA5",
+      "start_s": 4115.183000087738,
+      "rate": 100000.0,
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "samples": 505902,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "VoltageClampSeries"
+      ],
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "metadata": {
+        "DAC": "5.00",
+        "ADC": "9.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "2006.02 ms",
+        "V-Clamp Holding Level": "-70.02 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-10;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,2.5560199,Baseline,0,:2.5560199,4.0590200,Stimset,0,:2.5560199,3.0560199,Epoch=0;Type=Square pulse;Amplitude=0;,1,:3.0560199,3.4075249,Epoch=1;Type=Pulse Train;Amplitude=60;,1,:3.0560199,3.1060199,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=0;,2,:3.0560200,4.0590300,oodDAQRegion=0,2,:3.1060199,3.1560199,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=1;,2,:3.1560199,3.2060199,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=2;,2,:3.2060199,3.2560199,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=3;,2,:3.2560199,3.3060199,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=4;,2,:3.3060199,3.3560199,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=5;,2,:3.3560199,3.4060199,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=6;,2,:3.4060199,3.4075249,Epoch=1;Type=Pulse Train;Amplitude=60;Pulse=7;,2,:3.4075249,3.6575249,Epoch=2;Type=Square pulse;Amplitude=0;,1,:3.6575249,3.8090299,Epoch=3;Type=Pulse Train;Amplitude=60;,1,:3.6575249,3.7075249,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=0;,2,:3.7075249,3.7575249,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=1;,2,:3.7575249,3.8075249,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=2;,2,:3.8075249,3.8090299,Epoch=3;Type=Pulse Train;Amplitude=60;Pulse=3;,2,:3.8090299,4.0590200,Epoch=4;Type=Square pulse;Amplitude=0;,1,:4.0590200,5.0590200,Baseline,0,:",
+        "OperatingModeString": "V-Clamp"
+      }
+    },
+    {
+      "sweep": 2,
+      "headstage": 4,
+      "ad": 8,
+      "da": 4,
+      "acquisition": "/acquisition/timeseries/data_00002_AD8",
+      "command": "/stimulus/presentation/data_00002_DA4",
+      "start_s": 4130.649000167847,
+      "rate": 100000.0,
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "samples": 505902,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "VoltageClampSeries"
+      ],
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "metadata": {
+        "DAC": "4.00",
+        "ADC": "8.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "1003.01 ms",
+        "V-Clamp Holding Level": "-70.01 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-10;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,1.5530099,Baseline,0,:1.5530099,3.0560100,Stimset,0,:1.5530099,2.0530099,Epoch=0;Type=Square pulse;Amplitude=0;,1,:2.0530099,2.4045149,Epoch=1;Type=Pulse Train;Amplitude=120;,1,:2.0530099,2.1030099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:2.0530100,3.0560200,oodDAQRegion=0,2,:2.1030099,2.1530099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:2.1530099,2.2030099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:2.2030099,2.2530099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:2.2530099,2.3030099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=4;,2,:2.3030099,2.3530099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=5;,2,:2.3530099,2.4030099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=6;,2,:2.4030099,2.4045149,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=7;,2,:2.4045149,2.6545149,Epoch=2;Type=Square pulse;Amplitude=0;,1,:2.6545149,2.8060199,Epoch=3;Type=Pulse Train;Amplitude=120;,1,:2.6545149,2.7045149,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:2.7045149,2.7545149,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:2.7545149,2.8045149,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:2.8045149,2.8060199,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:2.8060199,3.0560100,Epoch=4;Type=Square pulse;Amplitude=0;,1,:3.0560100,4.0560100,Baseline,0,:4.0560100,5.0590200,Baseline,0,:",
+        "OperatingModeString": "V-Clamp"
+      }
+    },
+    {
+      "sweep": 2,
+      "headstage": 5,
+      "ad": 9,
+      "da": 5,
+      "acquisition": "/acquisition/timeseries/data_00002_AD9",
+      "command": "/stimulus/presentation/data_00002_DA5",
+      "start_s": 4130.649000167847,
+      "rate": 100000.0,
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "samples": 505902,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "VoltageClampSeries"
+      ],
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "metadata": {
+        "DAC": "5.00",
+        "ADC": "9.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "2006.02 ms",
+        "V-Clamp Holding Level": "-70.02 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-10;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,2.5560199,Baseline,0,:2.5560199,4.0590200,Stimset,0,:2.5560199,3.0560199,Epoch=0;Type=Square pulse;Amplitude=0;,1,:3.0560199,3.4075249,Epoch=1;Type=Pulse Train;Amplitude=120;,1,:3.0560199,3.1060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:3.0560200,4.0590300,oodDAQRegion=0,2,:3.1060199,3.1560199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:3.1560199,3.2060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:3.2060199,3.2560199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:3.2560199,3.3060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=4;,2,:3.3060199,3.3560199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=5;,2,:3.3560199,3.4060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=6;,2,:3.4060199,3.4075249,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=7;,2,:3.4075249,3.6575249,Epoch=2;Type=Square pulse;Amplitude=0;,1,:3.6575249,3.8090299,Epoch=3;Type=Pulse Train;Amplitude=120;,1,:3.6575249,3.7075249,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:3.7075249,3.7575249,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:3.7575249,3.8075249,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:3.8075249,3.8090299,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:3.8090299,4.0590200,Epoch=4;Type=Square pulse;Amplitude=0;,1,:4.0590200,5.0590200,Baseline,0,:",
+        "OperatingModeString": "V-Clamp"
+      }
+    },
+    {
+      "sweep": 3,
+      "headstage": 4,
+      "ad": 8,
+      "da": 4,
+      "acquisition": "/acquisition/timeseries/data_00003_AD8",
+      "command": "/stimulus/presentation/data_00003_DA4",
+      "start_s": 4146.187000274658,
+      "rate": 100000.0,
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "samples": 505902,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "VoltageClampSeries"
+      ],
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "metadata": {
+        "DAC": "4.00",
+        "ADC": "8.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "1003.01 ms",
+        "V-Clamp Holding Level": "-70.01 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-10;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,1.5530099,Baseline,0,:1.5530099,3.0560100,Stimset,0,:1.5530099,2.0530099,Epoch=0;Type=Square pulse;Amplitude=0;,1,:2.0530099,2.4045149,Epoch=1;Type=Pulse Train;Amplitude=120;,1,:2.0530099,2.1030099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:2.0530100,3.0560200,oodDAQRegion=0,2,:2.1030099,2.1530099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:2.1530099,2.2030099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:2.2030099,2.2530099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:2.2530099,2.3030099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=4;,2,:2.3030099,2.3530099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=5;,2,:2.3530099,2.4030099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=6;,2,:2.4030099,2.4045149,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=7;,2,:2.4045149,2.6545149,Epoch=2;Type=Square pulse;Amplitude=0;,1,:2.6545149,2.8060199,Epoch=3;Type=Pulse Train;Amplitude=120;,1,:2.6545149,2.7045149,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:2.7045149,2.7545149,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:2.7545149,2.8045149,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:2.8045149,2.8060199,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:2.8060199,3.0560100,Epoch=4;Type=Square pulse;Amplitude=0;,1,:3.0560100,4.0560100,Baseline,0,:4.0560100,5.0590200,Baseline,0,:",
+        "OperatingModeString": "V-Clamp"
+      }
+    },
+    {
+      "sweep": 3,
+      "headstage": 5,
+      "ad": 9,
+      "da": 5,
+      "acquisition": "/acquisition/timeseries/data_00003_AD9",
+      "command": "/stimulus/presentation/data_00003_DA5",
+      "start_s": 4146.187000274658,
+      "rate": 100000.0,
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "samples": 505902,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "VoltageClampSeries"
+      ],
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "metadata": {
+        "DAC": "5.00",
+        "ADC": "9.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "2006.02 ms",
+        "V-Clamp Holding Level": "-70.02 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-10;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,2.5560199,Baseline,0,:2.5560199,4.0590200,Stimset,0,:2.5560199,3.0560199,Epoch=0;Type=Square pulse;Amplitude=0;,1,:3.0560199,3.4075249,Epoch=1;Type=Pulse Train;Amplitude=120;,1,:3.0560199,3.1060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:3.0560200,4.0590300,oodDAQRegion=0,2,:3.1060199,3.1560199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:3.1560199,3.2060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:3.2060199,3.2560199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:3.2560199,3.3060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=4;,2,:3.3060199,3.3560199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=5;,2,:3.3560199,3.4060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=6;,2,:3.4060199,3.4075249,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=7;,2,:3.4075249,3.6575249,Epoch=2;Type=Square pulse;Amplitude=0;,1,:3.6575249,3.8090299,Epoch=3;Type=Pulse Train;Amplitude=120;,1,:3.6575249,3.7075249,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:3.7075249,3.7575249,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:3.7575249,3.8075249,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:3.8075249,3.8090299,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:3.8090299,4.0590200,Epoch=4;Type=Square pulse;Amplitude=0;,1,:4.0590200,5.0590200,Baseline,0,:",
+        "OperatingModeString": "V-Clamp"
+      }
+    },
+    {
+      "sweep": 4,
+      "headstage": 4,
+      "ad": 8,
+      "da": 4,
+      "acquisition": "/acquisition/timeseries/data_00004_AD8",
+      "command": "/stimulus/presentation/data_00004_DA4",
+      "start_s": 4161.845000267029,
+      "rate": 100000.0,
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "samples": 505902,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "VoltageClampSeries"
+      ],
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "metadata": {
+        "DAC": "4.00",
+        "ADC": "8.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "1003.01 ms",
+        "V-Clamp Holding Level": "-70.01 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-10;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,1.5530099,Baseline,0,:1.5530099,3.0560100,Stimset,0,:1.5530099,2.0530099,Epoch=0;Type=Square pulse;Amplitude=0;,1,:2.0530099,2.4045149,Epoch=1;Type=Pulse Train;Amplitude=120;,1,:2.0530099,2.1030099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:2.0530100,3.0560200,oodDAQRegion=0,2,:2.1030099,2.1530099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:2.1530099,2.2030099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:2.2030099,2.2530099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:2.2530099,2.3030099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=4;,2,:2.3030099,2.3530099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=5;,2,:2.3530099,2.4030099,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=6;,2,:2.4030099,2.4045149,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=7;,2,:2.4045149,2.6545149,Epoch=2;Type=Square pulse;Amplitude=0;,1,:2.6545149,2.8060199,Epoch=3;Type=Pulse Train;Amplitude=120;,1,:2.6545149,2.7045149,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:2.7045149,2.7545149,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:2.7545149,2.8045149,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:2.8045149,2.8060199,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:2.8060199,3.0560100,Epoch=4;Type=Square pulse;Amplitude=0;,1,:3.0560100,4.0560100,Baseline,0,:4.0560100,5.0590200,Baseline,0,:",
+        "OperatingModeString": "V-Clamp"
+      }
+    },
+    {
+      "sweep": 4,
+      "headstage": 5,
+      "ad": 9,
+      "da": 5,
+      "acquisition": "/acquisition/timeseries/data_00004_AD9",
+      "command": "/stimulus/presentation/data_00004_DA5",
+      "start_s": 4161.845000267029,
+      "rate": 100000.0,
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "samples": 505902,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "VoltageClampSeries"
+      ],
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "metadata": {
+        "DAC": "5.00",
+        "ADC": "9.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "2006.02 ms",
+        "V-Clamp Holding Level": "-70.02 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-10;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,2.5560199,Baseline,0,:2.5560199,4.0590200,Stimset,0,:2.5560199,3.0560199,Epoch=0;Type=Square pulse;Amplitude=0;,1,:3.0560199,3.4075249,Epoch=1;Type=Pulse Train;Amplitude=120;,1,:3.0560199,3.1060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:3.0560200,4.0590300,oodDAQRegion=0,2,:3.1060199,3.1560199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:3.1560199,3.2060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:3.2060199,3.2560199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:3.2560199,3.3060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=4;,2,:3.3060199,3.3560199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=5;,2,:3.3560199,3.4060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=6;,2,:3.4060199,3.4075249,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=7;,2,:3.4075249,3.6575249,Epoch=2;Type=Square pulse;Amplitude=0;,1,:3.6575249,3.8090299,Epoch=3;Type=Pulse Train;Amplitude=120;,1,:3.6575249,3.7075249,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:3.7075249,3.7575249,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:3.7575249,3.8075249,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:3.8075249,3.8090299,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:3.8090299,4.0590200,Epoch=4;Type=Square pulse;Amplitude=0;,1,:4.0590200,5.0590200,Baseline,0,:",
+        "OperatingModeString": "V-Clamp"
+      }
+    },
+    {
+      "sweep": 5,
+      "headstage": 4,
+      "ad": 8,
+      "da": 4,
+      "acquisition": "/acquisition/timeseries/data_00005_AD8",
+      "command": "/stimulus/presentation/data_00005_DA4",
+      "start_s": 4177.409999847412,
+      "rate": 100000.0,
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "samples": 505902,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "VoltageClampSeries"
+      ],
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "metadata": {
+        "DAC": "4.00",
+        "ADC": "8.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "1003.01 ms",
+        "V-Clamp Holding Level": "-70.01 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-10;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,1.5530099,Baseline,0,:1.5530099,3.0560100,Stimset,0,:1.5530099,2.0530099,Epoch=0;Type=Square pulse;Amplitude=0;,1,:2.0530099,2.4045149,Epoch=1;Type=Pulse Train;Amplitude=150;,1,:2.0530099,2.1030099,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=0;,2,:2.0530100,3.0560200,oodDAQRegion=0,2,:2.1030099,2.1530099,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=1;,2,:2.1530099,2.2030099,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=2;,2,:2.2030099,2.2530099,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=3;,2,:2.2530099,2.3030099,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=4;,2,:2.3030099,2.3530099,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=5;,2,:2.3530099,2.4030099,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=6;,2,:2.4030099,2.4045149,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=7;,2,:2.4045149,2.6545149,Epoch=2;Type=Square pulse;Amplitude=0;,1,:2.6545149,2.8060199,Epoch=3;Type=Pulse Train;Amplitude=150;,1,:2.6545149,2.7045149,Epoch=3;Type=Pulse Train;Amplitude=150;Pulse=0;,2,:2.7045149,2.7545149,Epoch=3;Type=Pulse Train;Amplitude=150;Pulse=1;,2,:2.7545149,2.8045149,Epoch=3;Type=Pulse Train;Amplitude=150;Pulse=2;,2,:2.8045149,2.8060199,Epoch=3;Type=Pulse Train;Amplitude=150;Pulse=3;,2,:2.8060199,3.0560100,Epoch=4;Type=Square pulse;Amplitude=0;,1,:3.0560100,4.0560100,Baseline,0,:4.0560100,5.0590200,Baseline,0,:",
+        "OperatingModeString": "V-Clamp"
+      }
+    },
+    {
+      "sweep": 5,
+      "headstage": 5,
+      "ad": 9,
+      "da": 5,
+      "acquisition": "/acquisition/timeseries/data_00005_AD9",
+      "command": "/stimulus/presentation/data_00005_DA5",
+      "start_s": 4177.409999847412,
+      "rate": 100000.0,
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "samples": 505902,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "VoltageClampSeries"
+      ],
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "metadata": {
+        "DAC": "5.00",
+        "ADC": "9.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "2006.02 ms",
+        "V-Clamp Holding Level": "-70.02 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-10;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,2.5560199,Baseline,0,:2.5560199,4.0590200,Stimset,0,:2.5560199,3.0560199,Epoch=0;Type=Square pulse;Amplitude=0;,1,:3.0560199,3.4075249,Epoch=1;Type=Pulse Train;Amplitude=120;,1,:3.0560199,3.1060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:3.0560200,4.0590300,oodDAQRegion=0,2,:3.1060199,3.1560199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:3.1560199,3.2060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:3.2060199,3.2560199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:3.2560199,3.3060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=4;,2,:3.3060199,3.3560199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=5;,2,:3.3560199,3.4060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=6;,2,:3.4060199,3.4075249,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=7;,2,:3.4075249,3.6575249,Epoch=2;Type=Square pulse;Amplitude=0;,1,:3.6575249,3.8090299,Epoch=3;Type=Pulse Train;Amplitude=120;,1,:3.6575249,3.7075249,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:3.7075249,3.7575249,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:3.7575249,3.8075249,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:3.8075249,3.8090299,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:3.8090299,4.0590200,Epoch=4;Type=Square pulse;Amplitude=0;,1,:4.0590200,5.0590200,Baseline,0,:",
+        "OperatingModeString": "V-Clamp"
+      }
+    },
+    {
+      "sweep": 6,
+      "headstage": 4,
+      "ad": 8,
+      "da": 4,
+      "acquisition": "/acquisition/timeseries/data_00006_AD8",
+      "command": "/stimulus/presentation/data_00006_DA4",
+      "start_s": 4192.912000179291,
+      "rate": 100000.0,
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "samples": 505902,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "VoltageClampSeries"
+      ],
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "metadata": {
+        "DAC": "4.00",
+        "ADC": "8.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "1003.01 ms",
+        "V-Clamp Holding Level": "-70.01 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-10;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,1.5530099,Baseline,0,:1.5530099,3.0560100,Stimset,0,:1.5530099,2.0530099,Epoch=0;Type=Square pulse;Amplitude=0;,1,:2.0530099,2.4045149,Epoch=1;Type=Pulse Train;Amplitude=150;,1,:2.0530099,2.1030099,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=0;,2,:2.0530100,3.0560200,oodDAQRegion=0,2,:2.1030099,2.1530099,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=1;,2,:2.1530099,2.2030099,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=2;,2,:2.2030099,2.2530099,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=3;,2,:2.2530099,2.3030099,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=4;,2,:2.3030099,2.3530099,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=5;,2,:2.3530099,2.4030099,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=6;,2,:2.4030099,2.4045149,Epoch=1;Type=Pulse Train;Amplitude=150;Pulse=7;,2,:2.4045149,2.6545149,Epoch=2;Type=Square pulse;Amplitude=0;,1,:2.6545149,2.8060199,Epoch=3;Type=Pulse Train;Amplitude=150;,1,:2.6545149,2.7045149,Epoch=3;Type=Pulse Train;Amplitude=150;Pulse=0;,2,:2.7045149,2.7545149,Epoch=3;Type=Pulse Train;Amplitude=150;Pulse=1;,2,:2.7545149,2.8045149,Epoch=3;Type=Pulse Train;Amplitude=150;Pulse=2;,2,:2.8045149,2.8060199,Epoch=3;Type=Pulse Train;Amplitude=150;Pulse=3;,2,:2.8060199,3.0560100,Epoch=4;Type=Square pulse;Amplitude=0;,1,:3.0560100,4.0560100,Baseline,0,:4.0560100,5.0590200,Baseline,0,:",
+        "OperatingModeString": "V-Clamp"
+      }
+    },
+    {
+      "sweep": 6,
+      "headstage": 5,
+      "ad": 9,
+      "da": 5,
+      "acquisition": "/acquisition/timeseries/data_00006_AD9",
+      "command": "/stimulus/presentation/data_00006_DA5",
+      "start_s": 4192.912000179291,
+      "rate": 100000.0,
+      "unit": "A",
+      "conversion": 9.999999960041972e-13,
+      "samples": 505902,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "VoltageClampSeries"
+      ],
+      "stimulus": "Y1_SPulsTrn_20Hz_DA_0",
+      "metadata": {
+        "DAC": "5.00",
+        "ADC": "9.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "2006.02 ms",
+        "V-Clamp Holding Level": "-70.02 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-10;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,2.5560199,Baseline,0,:2.5560199,4.0590200,Stimset,0,:2.5560199,3.0560199,Epoch=0;Type=Square pulse;Amplitude=0;,1,:3.0560199,3.4075249,Epoch=1;Type=Pulse Train;Amplitude=120;,1,:3.0560199,3.1060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:3.0560200,4.0590300,oodDAQRegion=0,2,:3.1060199,3.1560199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:3.1560199,3.2060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:3.2060199,3.2560199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:3.2560199,3.3060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=4;,2,:3.3060199,3.3560199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=5;,2,:3.3560199,3.4060199,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=6;,2,:3.4060199,3.4075249,Epoch=1;Type=Pulse Train;Amplitude=120;Pulse=7;,2,:3.4075249,3.6575249,Epoch=2;Type=Square pulse;Amplitude=0;,1,:3.6575249,3.8090299,Epoch=3;Type=Pulse Train;Amplitude=120;,1,:3.6575249,3.7075249,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=0;,2,:3.7075249,3.7575249,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=1;,2,:3.7575249,3.8075249,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=2;,2,:3.8075249,3.8090299,Epoch=3;Type=Pulse Train;Amplitude=120;Pulse=3;,2,:3.8090299,4.0590200,Epoch=4;Type=Square pulse;Amplitude=0;,1,:4.0590200,5.0590200,Baseline,0,:",
+        "OperatingModeString": "V-Clamp"
+      }
+    },
+    {
+      "sweep": 7,
+      "headstage": 4,
+      "ad": 8,
+      "da": 4,
+      "acquisition": "/acquisition/timeseries/data_00007_AD8",
+      "command": "/stimulus/presentation/data_00007_DA4",
+      "start_s": 4261.302000045776,
+      "rate": 100000.0,
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "samples": 675000,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "CurrentClampSeries"
+      ],
+      "stimulus": "Y2_TargetV_DA_0",
+      "metadata": {
+        "DAC": "4.00",
+        "ADC": "8.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "0.00 ms",
+        "V-Clamp Holding Level": "-70.01 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-50;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,2.4500000,Baseline,0,:2.4500000,3.8500000,Stimset,0,:2.4500000,2.6500000,Epoch=0;Type=Square pulse;Amplitude=-0;,1,:2.6500000,3.6500000,Epoch=1;Type=Square pulse;Amplitude=-20;,1,:3.6500000,3.8500000,Epoch=2;Type=Square pulse;Amplitude=-0;,1,:3.8500000,4.8500000,Baseline,0,:4.8500000,6.7500000,Baseline,0,:",
+        "OperatingModeString": "I-Clamp",
+        "I-Clamp Holding Level": "4.34 pA"
+      }
+    },
+    {
+      "sweep": 7,
+      "headstage": 5,
+      "ad": 9,
+      "da": 5,
+      "acquisition": "/acquisition/timeseries/data_00007_AD9",
+      "command": "/stimulus/presentation/data_00007_DA5",
+      "start_s": 4261.302000045776,
+      "rate": 100000.0,
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "samples": 675000,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "CurrentClampSeries"
+      ],
+      "stimulus": "Y2_TargetV_DA_0",
+      "metadata": {
+        "DAC": "5.00",
+        "ADC": "9.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "0.00 ms",
+        "V-Clamp Holding Level": "-70.02 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-50;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,4.3500000,Baseline,0,:4.3500000,5.7500000,Stimset,0,:4.3500000,4.5500000,Epoch=0;Type=Square pulse;Amplitude=-0;,1,:4.5500000,5.5500000,Epoch=1;Type=Square pulse;Amplitude=-20;,1,:5.5500000,5.7500000,Epoch=2;Type=Square pulse;Amplitude=-0;,1,:5.7500000,6.7500000,Baseline,0,:",
+        "OperatingModeString": "I-Clamp",
+        "I-Clamp Holding Level": "-30.31 pA"
+      }
+    },
+    {
+      "sweep": 8,
+      "headstage": 4,
+      "ad": 8,
+      "da": 4,
+      "acquisition": "/acquisition/timeseries/data_00008_AD8",
+      "command": "/stimulus/presentation/data_00008_DA4",
+      "start_s": 4269.634000301361,
+      "rate": 100000.0,
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "samples": 675000,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "CurrentClampSeries"
+      ],
+      "stimulus": "Y2_TargetV_DA_0",
+      "metadata": {
+        "DAC": "4.00",
+        "ADC": "8.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "0.00 ms",
+        "V-Clamp Holding Level": "-70.01 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-50;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,2.4500000,Baseline,0,:2.4500000,3.8500000,Stimset,0,:2.4500000,2.6500000,Epoch=0;Type=Square pulse;Amplitude=0;,1,:2.6500000,3.6500000,Epoch=1;Type=Square pulse;Amplitude=9.31058867690651;,1,:3.6500000,3.8500000,Epoch=2;Type=Square pulse;Amplitude=0;,1,:3.8500000,4.8500000,Baseline,0,:4.8500000,6.7500000,Baseline,0,:",
+        "OperatingModeString": "I-Clamp",
+        "I-Clamp Holding Level": "4.34 pA"
+      }
+    },
+    {
+      "sweep": 8,
+      "headstage": 5,
+      "ad": 9,
+      "da": 5,
+      "acquisition": "/acquisition/timeseries/data_00008_AD9",
+      "command": "/stimulus/presentation/data_00008_DA5",
+      "start_s": 4269.634000301361,
+      "rate": 100000.0,
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "samples": 675000,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "CurrentClampSeries"
+      ],
+      "stimulus": "Y2_TargetV_DA_0",
+      "metadata": {
+        "DAC": "5.00",
+        "ADC": "9.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "0.00 ms",
+        "V-Clamp Holding Level": "-70.02 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-50;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,4.3500000,Baseline,0,:4.3500000,5.7500000,Stimset,0,:4.3500000,4.5500000,Epoch=0;Type=Square pulse;Amplitude=0;,1,:4.5500000,5.5500000,Epoch=1;Type=Square pulse;Amplitude=6.53469644397748;,1,:5.5500000,5.7500000,Epoch=2;Type=Square pulse;Amplitude=0;,1,:5.7500000,6.7500000,Baseline,0,:",
+        "OperatingModeString": "I-Clamp",
+        "I-Clamp Holding Level": "-30.31 pA"
+      }
+    },
+    {
+      "sweep": 9,
+      "headstage": 4,
+      "ad": 8,
+      "da": 4,
+      "acquisition": "/acquisition/timeseries/data_00009_AD8",
+      "command": "/stimulus/presentation/data_00009_DA4",
+      "start_s": 4277.774000167847,
+      "rate": 100000.0,
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "samples": 675000,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "CurrentClampSeries"
+      ],
+      "stimulus": "Y2_TargetV_DA_0",
+      "metadata": {
+        "DAC": "4.00",
+        "ADC": "8.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "0.00 ms",
+        "V-Clamp Holding Level": "-70.01 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-50;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,2.4500000,Baseline,0,:2.4500000,3.8500000,Stimset,0,:2.4500000,2.6500000,Epoch=0;Type=Square pulse;Amplitude=-0;,1,:2.6500000,3.6500000,Epoch=1;Type=Square pulse;Amplitude=-8.56127071285872;,1,:3.6500000,3.8500000,Epoch=2;Type=Square pulse;Amplitude=-0;,1,:3.8500000,4.8500000,Baseline,0,:4.8500000,6.7500000,Baseline,0,:",
+        "OperatingModeString": "I-Clamp",
+        "I-Clamp Holding Level": "4.34 pA"
+      }
+    },
+    {
+      "sweep": 9,
+      "headstage": 5,
+      "ad": 9,
+      "da": 5,
+      "acquisition": "/acquisition/timeseries/data_00009_AD9",
+      "command": "/stimulus/presentation/data_00009_DA5",
+      "start_s": 4277.774000167847,
+      "rate": 100000.0,
+      "unit": "V",
+      "conversion": 0.0010000000474974513,
+      "samples": 675000,
+      "ancestry": [
+        "TimeSeries",
+        "PatchClampSeries",
+        "CurrentClampSeries"
+      ],
+      "stimulus": "Y2_TargetV_DA_0",
+      "metadata": {
+        "DAC": "5.00",
+        "ADC": "9.00",
+        "Clamp Mode": "Off",
+        "TP Insert Checkbox": "On",
+        "Delay onset oodDAQ": "0.00 ms",
+        "V-Clamp Holding Level": "-70.02 mV",
+        "Epochs": "0.0000000,0.0250000,Inserted TP;Test Pulse;,0,:0.0000000,0.0075000,Baseline,1,:0.0075000,0.0175000,Inserted TP;Test Pulse;pulse;Amplitude=-50;,1,:0.0175000,0.0250000,Baseline,1,:0.0500000,0.5500000,Baseline,0,:0.5500000,4.3500000,Baseline,0,:4.3500000,5.7500000,Stimset,0,:4.3500000,4.5500000,Epoch=0;Type=Square pulse;Amplitude=-0;,1,:4.5500000,5.5500000,Epoch=1;Type=Square pulse;Amplitude=-7.01943180438032;,1,:5.5500000,5.7500000,Epoch=2;Type=Square pulse;Amplitude=-0;,1,:5.7500000,6.7500000,Baseline,0,:",
+        "OperatingModeString": "I-Clamp",
+        "I-Clamp Holding Level": "-30.31 pA"
+      }
+    }
+  ],
+  "new_bytes": 0,
+  "scope": "sweep IDs 0..9 only. Wider scan intentionally stopped after cache reached ~26MB; cached bytes preserved. Original diagnostic needs first5 eligible sweeps; no response outcomes used to select scope.",
+  "metadata_method": "Comments contain changed fields only; headstage-specific values carried forward. Electrode IDs, units, clamp ancestry, command identity and timestamps checked directly for every record. Holding metadata still needs labnotebook validation.",
+  "total_cached_bytes": 30394376,
+  "summary": {
+    "4": {
+      "records": 10,
+      "modes": {
+        "VoltageClampSeries": 7,
+        "CurrentClampSeries": 3
+      },
+      "stimuli": {
+        "Y1_SPulsTrn_20Hz_DA_0": 7,
+        "Y2_TargetV_DA_0": 3
+      }
+    },
+    "5": {
+      "records": 10,
+      "modes": {
+        "VoltageClampSeries": 7,
+        "CurrentClampSeries": 3
+      },
+      "stimuli": {
+        "Y1_SPulsTrn_20Hz_DA_0": 7,
+        "Y2_TargetV_DA_0": 3
+      }
+    }
+  }
+}

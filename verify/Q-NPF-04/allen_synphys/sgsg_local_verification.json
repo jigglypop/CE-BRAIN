@@ -1,0 +1,13 @@
+{
+  "result_sha256": "7dd2a97193a34d94d9cf3a2997e8c59675d8dcf907fdec09cbab5fb9e15c6454",
+  "verifier_sha256": "9486291597305d61ad31be4b5622cafd7cde595f0c5106ff764350de04e55368",
+  "verified_graphs": 208,
+  "failed_receipts": 0,
+  "replayed": [
+    "q00_2026091900.json",
+    "evaluation_2026092000.json"
+  ],
+  "selection_score_verified": true,
+  "separate_simulation_seeds": true,
+  "biological_holdout": false
+}

@@ -1,0 +1,440 @@
+{
+  "kind": "POST_RESULT_LINEAR_SCALING_CONTROL",
+  "question": "단순 선형 진폭 배율만으로 검출의 dose 차이가 재현되는가?",
+  "limits": "디지털 파형 변환이며 실제 전압 자극 변화의 결과가 아니다. 비선형 이온 전류·clamp 탈출과 실제 AP의 구별을 단독 증명하지 못한다.",
+  "code_sha256": "5ed646fe3098508c688d91a8e8e2cec693ee17b2b32e8b8030fec77e134aa5d9",
+  "previous_result_sha256": "e0dd17f66b428c0e15608c77be913fcda68467e76a87ab1b26d96dc1569c4a74",
+  "upstream_commit": "bbe61c4047de592984b4e7089d0803a7d4101c7f",
+  "array_sha256": "bcfdbdba77302dd5ff64d504f959b6093c2e815e493408a83bedaad89efb1571",
+  "tests": [
+    {
+      "sweep": 0,
+      "pulse": 1,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 0,
+      "pulse": 2,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 0,
+      "pulse": 3,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 0,
+      "pulse": 4,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 0,
+      "pulse": 5,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 1
+    },
+    {
+      "sweep": 0,
+      "pulse": 6,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 0,
+      "pulse": 7,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 0,
+      "pulse": 8,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 0,
+      "pulse": 9,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 0,
+      "pulse": 10,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 0,
+      "pulse": 11,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 0,
+      "pulse": 12,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 1,
+      "pulse": 1,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 1,
+      "pulse": 2,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 1,
+      "pulse": 3,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 1,
+      "pulse": 4,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 1,
+      "pulse": 5,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 1,
+      "pulse": 6,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 1,
+      "pulse": 7,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 1,
+      "pulse": 8,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 1,
+      "pulse": 9,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 1,
+      "pulse": 10,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 1,
+      "pulse": 11,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 1,
+      "pulse": 12,
+      "original_dose_mV": 60,
+      "offline_scale": 2,
+      "candidates": 0
+    },
+    {
+      "sweep": 2,
+      "pulse": 1,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 2,
+      "pulse": 2,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 2,
+      "pulse": 3,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 2,
+      "pulse": 4,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 2,
+      "pulse": 5,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 2,
+      "pulse": 6,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 2,
+      "pulse": 7,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 2,
+      "pulse": 8,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 2,
+      "pulse": 9,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 2,
+      "pulse": 10,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 2,
+      "pulse": 11,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 2,
+      "pulse": 12,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 3,
+      "pulse": 1,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 3,
+      "pulse": 2,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 3,
+      "pulse": 3,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 3,
+      "pulse": 4,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 3,
+      "pulse": 5,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 3,
+      "pulse": 6,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 3,
+      "pulse": 7,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 3,
+      "pulse": 8,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 3,
+      "pulse": 9,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 3,
+      "pulse": 10,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 3,
+      "pulse": 11,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 3,
+      "pulse": 12,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 4,
+      "pulse": 1,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 4,
+      "pulse": 2,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 4,
+      "pulse": 3,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 4,
+      "pulse": 4,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 4,
+      "pulse": 5,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 4,
+      "pulse": 6,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 4,
+      "pulse": 7,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 4,
+      "pulse": 8,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 4,
+      "pulse": 9,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 4,
+      "pulse": 10,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 4,
+      "pulse": 11,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    },
+    {
+      "sweep": 4,
+      "pulse": 12,
+      "original_dose_mV": 120,
+      "offline_scale": 0.5,
+      "candidates": 1
+    }
+  ],
+  "summary": {
+    "60": {
+      "0": 23,
+      "1": 1
+    },
+    "120": {
+      "1": 36
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sources": [
+    {
+      "path": "processing/control/postprocessing/create_session_responses.py",
+      "sha256": "412b2cbc6a0804de00e97b0b8e4cdafd560d359051d2cbb9701b646d4af96712",
+      "author_blob": "05f6c3060cf3e95301f24d533dc580c5403878c1",
+      "matching_normalization": "CRLF_to_LF"
+    },
+    {
+      "path": "processing/control/postprocessing/process_control_responses.py",
+      "sha256": "7172503693f9643da84785864a03605b281ed54dadaca919260acdf52831b32c",
+      "author_blob": "a2c405fb63f03a0ccbc83abf760adac96ee27311",
+      "matching_normalization": "CRLF_to_LF"
+    },
+    {
+      "path": "processing/batch_process/postprocessing/responses_v2/stim_condition_response_v2.py",
+      "sha256": "65c76962c96e5077e0532036ad3815a19a20d4c498af0ca2793abdb0805c8f6a",
+      "author_blob": "3a383437de8b921997798e992b04d19590f2f619",
+      "matching_normalization": "CRLF_to_LF"
+    },
+    {
+      "path": "processing/batch_process/postprocessing/stim_response_util.py",
+      "sha256": "dc2783234356223f6d6b8e3d5d67ac312c5aa927c573f74fbcb288fb60afbfa5",
+      "author_blob": "0bb1de12c8201bad8bbd36b23619a82a68b501e3",
+      "matching_normalization": "raw"
+    },
+    {
+      "path": "processing/batch_process/postprocessing/responses_v3/window_config.py",
+      "sha256": "17552d8fc740ee3359c9ca9e5a4e3d1f1f440312ea531e98be1c47936564b71c",
+      "author_blob": "c62f1fa3c17f2563a7c9a43d4ca86f0dd417fb55",
+      "matching_normalization": "CRLF_to_LF"
+    }
+  ],
+  "author_tree": "d1922d16913b50bf6338ff4e0c2953cb8ef43d15",
+  "csv_sha256": "6541f6828f49d9a1aaf54fcfa5963c81fb2c7d4efdf8d30ae4b60933007cf70e",
+  "rows": 1810,
+  "num_trials_divisible_by_three": 1550,
+  "num_trials_not_divisible_by_three": 260,
+  "timing_configuration_in_tree": [],
+  "findings": [
+    "num_trials = len(TrainResponse.raster_array), based on grouped pulse trains, not original behavioral trial count",
+    "TrainResponse calls different_window_flag=True; current utility maps to pre700ms and post2700ms WindowConfig, training rate computed separately",
+    "stim_mean_fr uses blank-filtered pulse interval counts divided by total train elapsed duration; excluded exposure is not subtracted from denominator",
+    "exact session timing configuration and executed code revision linking CSV to current source not available; do not numerically correct rates from assumed blank widths"
+  ],
+  "claim_ceiling": "L0 source-definition audit; no biological inhibition/excitation classification"
+}

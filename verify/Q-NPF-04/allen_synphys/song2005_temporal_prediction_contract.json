@@ -1,0 +1,21 @@
+{
+  "question": "고정 Minnie 의존성 계수가 다른 종·층의 후기 기록 예측을 개선하는가?",
+  "scope": "P12-P20 rat V1 L5; 공개816attempt 전체; 동물 ID/거리 없음",
+  "split": "고유 날짜 정렬 앞 floor(0.7*N)일 학습, 나머지 평가; 날짜 내 분리 없음; 동물 독립성 미확인",
+  "baseline": "학습 표준화 age와 calcium_mM 연속 선형항; ridge1, 무벌점 절편; 방향 공통 주변확률",
+  "models": [
+    "independent",
+    "minnie_frozen",
+    "song_fitted"
+  ],
+  "dependence": "방향 주변확률 고정; local상수 ridge1; Minnie logOR 고정 0.3386424856601824",
+  "endpoint": "후기 모든 dyad 공동logloss; mutual logloss/Brier/count; 방향동일확률이므로 단방향 상태 01/10 구분은 점수에 영향 없음",
+  "limits": "사전등록 독립 확증 아님; 전체집계 이미 관찰; 날짜 경향·동물 누락·소규모기록 선택편향; 인과 없음",
+  "input_sha256": "1e3fc8ebf2ef2db8ce8d3ec84ce14f325bbdd6ee526c0cf0ebd5e55db8a23bbb",
+  "code_sha256": "91d475c276ecd45cfdc8c1d428454ba1c0eb88bcd7d92010146f73f3456c3b6f",
+  "baseline_code_sha256": "e8fb0fdc93f6b52e75466a694269710ac54c03f034a09bb3be32b6187b3f94b8",
+  "joint_code_sha256": "3096918dfe1bf9114f692bfb450b0bb2ddf64f331be5f79653cbefdb123f6d64",
+  "transfer_contract_sha256": "edd6008485f5190c96cb2e6f0eb387090b70ba83318aa11628d9c0a9d7f847ba",
+  "last_train_date": "2002-03-24T00:00:00",
+  "first_test_date": "2002-03-27T00:00:00"
+}

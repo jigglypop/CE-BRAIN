@@ -1,0 +1,13 @@
+{
+  "question": "기존 MICrONS V1 구조 표본에서 수동 기능 대응 표시가 있는 세포와 연결은 얼마나 되는가?",
+  "selection": "기존 양쪽 교정 column 1348세포 유지. coreg 값으로 표본을 교체하지 않고 양 끝/한 끝/없음으로 구분. 기존 시냅스수1/3 문턱 유지.",
+  "meaning": "coreg는 전처리 notebook에서 coregistration_manual_v4 nucleus id 포함 여부. 기능 파형·동일 스캔·자극 반응 확보를 뜻하지 않는다.",
+  "limits": "한 표본의 조건부 범위 점검. SynPhys와 동일 세포 대응 아님. 관측되지 않은 edge는 export 미표지. 기능 연결·인과 검정 아님. L0 입력 범위.",
+  "code_sha256": "8edf492c956f98ba7848fc0d8464ecf3d458e08b8e5e310f629be7875688b11a",
+  "inputs": {
+    "data/external/microns_v1718_cosyne/v1718_cell_info.csv": "1959b7b7eaad7501c6331551c3ed1e229b40ed3c339ff6273b6365009e33fb09",
+    "data/external/microns_v1718_cosyne/v1718_v1_column_synapses.feather": "fee7afc8c37528e3e1c1a4365f016f74c8ff42b6dad0f06100ef32d38adb0434",
+    "data/external/microns_v1718_cosyne/preprocessing_celltypes_v1718.ipynb": "918d5c439a4fd637adadd77529022eb98333426c660ad277ea99588efb44e063",
+    "verify/Q-NPF-04/allen_synphys/microns_structural_inventory_result.json": "ea1da5f217a80c99fd85d3f9168200de78d5c81846995a52f237d30ad156341f"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "question": "관측 대비의 근사 불확실성이 시행 상관 범위 가정에 따라 어떻게 달라지는가",
+  "input_sha256": "810c432e5ad92d33422d82e43fb39e26b2747caa5db0f777465d3b7e6e7ccb4b",
+  "parent_contract_sha256": "68be7c947c0159785b65ca05a4b5a9fac007658261eb4fb9f8c7d24b847573b8",
+  "code_sha256": "fcd9ba2d73c98ee9666a154b35df3d4a47d05d51605e1456b2ec1c01d03be74e",
+  "helper_sha256": "151a39ddb1f34418a1fcfe9677f134c4dcae5f5e5d1a359c4938d38c06fe07e9",
+  "inherit": "원 자료·시행 제외·세 모형·비인과 추정량은 기존 전 상태 계약 유지",
+  "selection": "이미 본 11세션 전체의 사후 탐색; 독립 확인자료 없음",
+  "source_method": "https://www.statsmodels.org/stable/generated/statsmodels.stats.sandwich_covariance.cov_hac.html",
+  "adaptation": "시간 대신 원래 시행 번호 거리; 제외 시행은 추정식 score 0, 분석 행을 압축한 거리 사용 안 함",
+  "kernel": "K_ij=max(1-abs(original_i-original_j)/(L+1),0)",
+  "covariance": "n/(n-k) * inv(XtX) * scores.T K scores * inv(XtX); scores_i=X_i*residual_i",
+  "lags_original_trials": [
+    0,
+    5,
+    10,
+    20
+  ],
+  "interval": "beta +/- NormalQuantile(.975)*SE; 모형·약한 의존 가정 아래 점별 근사 95%",
+  "report": "세 모형·네 범위 모두 보고; 다중비교 보정이나 유의성 선택 없음",
+  "validation": "L=0 HC1 식, 비연속 인덱스의 간격 보존, 0 score 채운 원래 격자의 lag 합과 직접 kernel 식 일치",
+  "limits": [
+    "실제 시간 등간격 아님",
+    "관측된 시간 변화로 정상성·안정 모형 가정 의심",
+    "이 선택·표본에서 95% 포함률 검증 안 됨",
+    "더 긴 의존·미측정 교란 제거 안 됨",
+    "동물 간 통합 없음",
+    "신뢰구간이 0을 제외해도 인과 식별 아님"
+  ],
+  "claim_ceiling": "BIO_EVIDENCE_L1 exploratory model-conditional uncertainty"
+}

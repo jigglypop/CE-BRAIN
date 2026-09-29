@@ -1,0 +1,23 @@
+{
+  "contract_sha256": "be778b173ae5441106cf8b58c3ab3178ec09949626ad9766f5f9701fad4b5873",
+  "records": [
+    {
+      "experiment_id": 1717,
+      "directions": 4,
+      "contrast_dimensions": 1,
+      "pair_ids": [
+        58407,
+        58412,
+        58422,
+        58426
+      ],
+      "information": 0.2499999999999999,
+      "local_beta_descriptive": 1.1117988804461794,
+      "local_exp_beta_descriptive": 3.039821754911018,
+      "null_sse": 0.30902418764034434,
+      "frozen_sse": 0.0861108582873042,
+      "delta_sse": -0.22291332935304015
+    }
+  ],
+  "verification": "PASS: qualified pair reconstruction, topology contrasts and independent joint fit"
+}

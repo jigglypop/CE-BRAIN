@@ -1,0 +1,4478 @@
+{
+  "contract_sha256": "861d06ff8b1275fa61301a5005cc397b4b7df943e472b9b4cfc57e1088d986a2",
+  "selfcheck": {
+    "skeletons": 64,
+    "orientations": 729,
+    "status": "PASS"
+  },
+  "results": {
+    "er_published": {
+      "clusters": 176,
+      "patients": 23,
+      "observed": 2850,
+      "expected": 1892,
+      "ratio": 1.5063424947145878,
+      "residual": 958,
+      "patients_positive": 21,
+      "patients_zero": 0,
+      "delete_one_patient_residual_range": [
+        832,
+        974
+      ],
+      "patients_detail": {
+        "MBHL": {
+          "observed": 52,
+          "expected": 32
+        },
+        "GAIH": {
+          "observed": 48,
+          "expected": 50
+        },
+        "JEAG": {
+          "observed": 76,
+          "expected": 62
+        },
+        "DACE": {
+          "observed": 162,
+          "expected": 106
+        },
+        "GMHI": {
+          "observed": 70,
+          "expected": 48
+        },
+        "GECH": {
+          "observed": 324,
+          "expected": 228
+        },
+        "FEKA": {
+          "observed": 50,
+          "expected": 34
+        },
+        "IFDB": {
+          "observed": 112,
+          "expected": 74
+        },
+        "JGAK": {
+          "observed": 324,
+          "expected": 198
+        },
+        "FMKG": {
+          "observed": 246,
+          "expected": 154
+        },
+        "MAFE": {
+          "observed": 74,
+          "expected": 56
+        },
+        "FMEH": {
+          "observed": 220,
+          "expected": 136
+        },
+        "MILJ": {
+          "observed": 56,
+          "expected": 42
+        },
+        "KECD": {
+          "observed": 52,
+          "expected": 42
+        },
+        "ABLK": {
+          "observed": 74,
+          "expected": 42
+        },
+        "AKFD": {
+          "observed": 20,
+          "expected": 12
+        },
+        "MIBF": {
+          "observed": 160,
+          "expected": 106
+        },
+        "EJLB": {
+          "observed": 282,
+          "expected": 164
+        },
+        "IHDF": {
+          "observed": 44,
+          "expected": 60
+        },
+        "HDEJ": {
+          "observed": 68,
+          "expected": 38
+        },
+        "ABEG": {
+          "observed": 70,
+          "expected": 46
+        },
+        "IBGD": {
+          "observed": 132,
+          "expected": 78
+        },
+        "KGJA": {
+          "observed": 134,
+          "expected": 84
+        }
+      },
+      "records": [
+        {
+          "cluster": "P_MBHL_s3cl1",
+          "patient": "MBHL",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 18,
+          "expected": 12,
+          "null_variance": 28
+        },
+        {
+          "cluster": "P_GAIH_s1cl1",
+          "patient": "GAIH",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "P_GAIH_s1cl2",
+          "patient": "GAIH",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 12,
+          "expected": 16,
+          "null_variance": 64
+        },
+        {
+          "cluster": "P_GAIH_s2cl1",
+          "patient": "GAIH",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_GAIH_s3cl1",
+          "patient": "GAIH",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 12,
+          "expected": 8,
+          "null_variance": 16
+        },
+        {
+          "cluster": "P_GAIH_s3cl2",
+          "patient": "GAIH",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 10,
+          "null_variance": 20
+        },
+        {
+          "cluster": "P_JEAG_s1cl1",
+          "patient": "JEAG",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 26,
+          "expected": 16,
+          "null_variance": 60
+        },
+        {
+          "cluster": "P_JEAG_s2cl1",
+          "patient": "JEAG",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 12,
+          "null_variance": 32
+        },
+        {
+          "cluster": "P_JEAG_s3cl1",
+          "patient": "JEAG",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 6,
+          "null_variance": 12
+        },
+        {
+          "cluster": "P_JEAG_s4cl1",
+          "patient": "JEAG",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_DACE_s1cl1",
+          "patient": "DACE",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_DACE_s2cl1",
+          "patient": "DACE",
+          "oneway_edges": 14,
+          "excluded_dyads": 0,
+          "observed": 52,
+          "expected": 28,
+          "null_variance": 152
+        },
+        {
+          "cluster": "P_DACE_s3cl1",
+          "patient": "DACE",
+          "oneway_edges": 12,
+          "excluded_dyads": 0,
+          "observed": 40,
+          "expected": 24,
+          "null_variance": 128
+        },
+        {
+          "cluster": "P_DACE_s4cl1",
+          "patient": "DACE",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_GMHI_s1cl1",
+          "patient": "GMHI",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "P_GECH_s1cl1",
+          "patient": "GECH",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "P_GECH_s2cl1",
+          "patient": "GECH",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 18,
+          "null_variance": 76
+        },
+        {
+          "cluster": "P_GECH_s3cl1",
+          "patient": "GECH",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 30,
+          "expected": 16,
+          "null_variance": 52
+        },
+        {
+          "cluster": "P_GECH_s4cl1",
+          "patient": "GECH",
+          "oneway_edges": 13,
+          "excluded_dyads": 0,
+          "observed": 66,
+          "expected": 26,
+          "null_variance": 128
+        },
+        {
+          "cluster": "P_FEKA_s1cl1",
+          "patient": "FEKA",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 4,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_FEKA_s3cl1",
+          "patient": "FEKA",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_FEKA_s4cl1",
+          "patient": "FEKA",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_FEKA_s5cl1",
+          "patient": "FEKA",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_FEKA_s6cl1",
+          "patient": "FEKA",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "P_FEKA_s7cl1",
+          "patient": "FEKA",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 26,
+          "expected": 12,
+          "null_variance": 36
+        },
+        {
+          "cluster": "P_FEKA_s8cl1",
+          "patient": "FEKA",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_FEKA_s9cl1",
+          "patient": "FEKA",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "P_IFDB_s3cl1",
+          "patient": "IFDB",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 40,
+          "expected": 20,
+          "null_variance": 88
+        },
+        {
+          "cluster": "P_IFDB_s4cl1",
+          "patient": "IFDB",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_IFDB_s5cl1",
+          "patient": "IFDB",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_IFDB_s6cl1",
+          "patient": "IFDB",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 10,
+          "null_variance": 32
+        },
+        {
+          "cluster": "P_JGAK_s1cl1",
+          "patient": "JGAK",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_JGAK_s2cl1",
+          "patient": "JGAK",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "P_JGAK_s3cl1",
+          "patient": "JGAK",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "P_JGAK_s4cl1",
+          "patient": "JGAK",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 10,
+          "null_variance": 28
+        },
+        {
+          "cluster": "P_JGAK_s5cl1",
+          "patient": "JGAK",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 12,
+          "null_variance": 32
+        },
+        {
+          "cluster": "P_JGAK_s6cl1",
+          "patient": "JGAK",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "P_JGAK_s7cl1",
+          "patient": "JGAK",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 6,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_FMKG_s1cl1",
+          "patient": "FMKG",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "P_FMKG_s2cl1",
+          "patient": "FMKG",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 22,
+          "expected": 20,
+          "null_variance": 84
+        },
+        {
+          "cluster": "P_FMKG_s3cl1",
+          "patient": "FMKG",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "P_FMKG_s4cl1",
+          "patient": "FMKG",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_MAFE_s1cl1",
+          "patient": "MAFE",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "P_MAFE_s2cl1",
+          "patient": "MAFE",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "P_MAFE_s3cl1",
+          "patient": "MAFE",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_MAFE_s4cl1",
+          "patient": "MAFE",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "P_FMEH_s1cl1",
+          "patient": "FMEH",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 40,
+          "expected": 20,
+          "null_variance": 88
+        },
+        {
+          "cluster": "P_FMEH_s2cl1",
+          "patient": "FMEH",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 12,
+          "null_variance": 32
+        },
+        {
+          "cluster": "P_FMEH_s3cl1",
+          "patient": "FMEH",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "P_FMEH_s4cl1",
+          "patient": "FMEH",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "P_MILJ_s2cl1",
+          "patient": "MILJ",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 10,
+          "null_variance": 12
+        },
+        {
+          "cluster": "U_KECD_s1cl1",
+          "patient": "KECD",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 8,
+          "null_variance": 8
+        },
+        {
+          "cluster": "U_KECD_s1cl2",
+          "patient": "KECD",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 10,
+          "null_variance": 32
+        },
+        {
+          "cluster": "U_KECD_s1cl3",
+          "patient": "KECD",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 12,
+          "null_variance": 48
+        },
+        {
+          "cluster": "U_KECD_s2cl1",
+          "patient": "KECD",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 10,
+          "null_variance": 20
+        },
+        {
+          "cluster": "U_KECD_s3cl1",
+          "patient": "KECD",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_ABLK_s1cl1",
+          "patient": "ABLK",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "U_ABLK_s2cl1",
+          "patient": "ABLK",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 8,
+          "null_variance": 20
+        },
+        {
+          "cluster": "U_ABLK_s2cl2",
+          "patient": "ABLK",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 36,
+          "expected": 20,
+          "null_variance": 96
+        },
+        {
+          "cluster": "U_ABLK_s3cl1",
+          "patient": "ABLK",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "U_AKFD_s1cl1",
+          "patient": "AKFD",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_AKFD_s2cl1",
+          "patient": "AKFD",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_AKFD_s3cl1",
+          "patient": "AKFD",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_AKFD_s4cl1",
+          "patient": "AKFD",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_AKFD_s5cl1",
+          "patient": "AKFD",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 12,
+          "expected": 6,
+          "null_variance": 12
+        },
+        {
+          "cluster": "U_MBHL_s1cl1",
+          "patient": "MBHL",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 12,
+          "expected": 8,
+          "null_variance": 8
+        },
+        {
+          "cluster": "U_MBHL_s3cl1",
+          "patient": "MBHL",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_MBHL_s4cl1",
+          "patient": "MBHL",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 10,
+          "null_variance": 28
+        },
+        {
+          "cluster": "U_MBHL_s5cl1",
+          "patient": "MBHL",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_JEAG_s2cl1",
+          "patient": "JEAG",
+          "oneway_edges": 12,
+          "excluded_dyads": 0,
+          "observed": 26,
+          "expected": 24,
+          "null_variance": 132
+        },
+        {
+          "cluster": "U_JEAG_s4cl1",
+          "patient": "JEAG",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_DACE_s1cl1",
+          "patient": "DACE",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_DACE_s2cl1",
+          "patient": "DACE",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 12,
+          "null_variance": 32
+        },
+        {
+          "cluster": "U_DACE_s3cl1",
+          "patient": "DACE",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 22,
+          "expected": 12,
+          "null_variance": 28
+        },
+        {
+          "cluster": "U_GMHI_s1cl1",
+          "patient": "GMHI",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_GMHI_s4cl1",
+          "patient": "GMHI",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_GECH_s1cl1",
+          "patient": "GECH",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 8,
+          "null_variance": 20
+        },
+        {
+          "cluster": "U_GECH_s2cl1",
+          "patient": "GECH",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_GECH_s3cl1",
+          "patient": "GECH",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_GECH_s3cl2",
+          "patient": "GECH",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 24,
+          "expected": 16,
+          "null_variance": 48
+        },
+        {
+          "cluster": "U_GECH_s4cl1",
+          "patient": "GECH",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 16,
+          "null_variance": 64
+        },
+        {
+          "cluster": "U_IFDB_s1cl1",
+          "patient": "IFDB",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_IFDB_s3cl1",
+          "patient": "IFDB",
+          "oneway_edges": 14,
+          "excluded_dyads": 0,
+          "observed": 48,
+          "expected": 28,
+          "null_variance": 168
+        },
+        {
+          "cluster": "U_IFDB_s4cl1",
+          "patient": "IFDB",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 12,
+          "expected": 14,
+          "null_variance": 44
+        },
+        {
+          "cluster": "U_MAFE_s1cl1",
+          "patient": "MAFE",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_MAFE_s2cl1",
+          "patient": "MAFE",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_MIBF_s1cl1",
+          "patient": "MIBF",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 12,
+          "null_variance": 32
+        },
+        {
+          "cluster": "U_MIBF_s2cl1",
+          "patient": "MIBF",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 8,
+          "null_variance": 16
+        },
+        {
+          "cluster": "U_EJLB_s1cl1",
+          "patient": "EJLB",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_EJLB_s2cl1",
+          "patient": "EJLB",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 10,
+          "null_variance": 20
+        },
+        {
+          "cluster": "U_EJLB_s3cl1",
+          "patient": "EJLB",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 30,
+          "expected": 14,
+          "null_variance": 40
+        },
+        {
+          "cluster": "U_EJLB_s4cl1",
+          "patient": "EJLB",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 10,
+          "null_variance": 16
+        },
+        {
+          "cluster": "U_EJLB_s5cl1",
+          "patient": "EJLB",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 14,
+          "null_variance": 60
+        },
+        {
+          "cluster": "Y_IHDF_s1cl1",
+          "patient": "IHDF",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 18,
+          "null_variance": 84
+        },
+        {
+          "cluster": "Y_IHDF_s1cl2",
+          "patient": "IHDF",
+          "oneway_edges": 11,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 22,
+          "null_variance": 132
+        },
+        {
+          "cluster": "Y_IHDF_s2cl1",
+          "patient": "IHDF",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_IHDF_s4cl1",
+          "patient": "IHDF",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 6,
+          "null_variance": 12
+        },
+        {
+          "cluster": "Y_IHDF_s5cl1",
+          "patient": "IHDF",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 22,
+          "expected": 12,
+          "null_variance": 44
+        },
+        {
+          "cluster": "Y_IHDF_s7cl1",
+          "patient": "IHDF",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_GAIH_s1cl1",
+          "patient": "GAIH",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 12,
+          "null_variance": 28
+        },
+        {
+          "cluster": "Y_DACE_s1cl1",
+          "patient": "DACE",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 10,
+          "null_variance": 32
+        },
+        {
+          "cluster": "Y_DACE_s2cl1",
+          "patient": "DACE",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_DACE_s3cl1",
+          "patient": "DACE",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "Y_DACE_s4cl1",
+          "patient": "DACE",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_GMHI_s1cl1",
+          "patient": "GMHI",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "Y_GMHI_s2cl1",
+          "patient": "GMHI",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "Y_GMHI_s5cl1",
+          "patient": "GMHI",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "Y_GMHI_s6cl1",
+          "patient": "GMHI",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_GMHI_s7cl1",
+          "patient": "GMHI",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 24,
+          "expected": 14,
+          "null_variance": 52
+        },
+        {
+          "cluster": "Y_GECH_s1cl1",
+          "patient": "GECH",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 18,
+          "expected": 16,
+          "null_variance": 52
+        },
+        {
+          "cluster": "Y_GECH_s2cl1",
+          "patient": "GECH",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 8,
+          "null_variance": 20
+        },
+        {
+          "cluster": "Y_GECH_s3cl1",
+          "patient": "GECH",
+          "oneway_edges": 11,
+          "excluded_dyads": 0,
+          "observed": 34,
+          "expected": 22,
+          "null_variance": 96
+        },
+        {
+          "cluster": "Y_GECH_s4cl1",
+          "patient": "GECH",
+          "oneway_edges": 13,
+          "excluded_dyads": 0,
+          "observed": 40,
+          "expected": 26,
+          "null_variance": 132
+        },
+        {
+          "cluster": "Y_GECH_s5cl1",
+          "patient": "GECH",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 26,
+          "expected": 18,
+          "null_variance": 40
+        },
+        {
+          "cluster": "Y_GECH_s6cl1",
+          "patient": "GECH",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 18,
+          "expected": 20,
+          "null_variance": 60
+        },
+        {
+          "cluster": "Y_JGAK_s10cl1",
+          "patient": "JGAK",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 12,
+          "null_variance": 40
+        },
+        {
+          "cluster": "Y_JGAK_s1cl1",
+          "patient": "JGAK",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 8,
+          "null_variance": 16
+        },
+        {
+          "cluster": "Y_JGAK_s2cl1",
+          "patient": "JGAK",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 34,
+          "expected": 14,
+          "null_variance": 48
+        },
+        {
+          "cluster": "Y_JGAK_s3cl1",
+          "patient": "JGAK",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 18,
+          "expected": 16,
+          "null_variance": 36
+        },
+        {
+          "cluster": "Y_JGAK_s4cl1",
+          "patient": "JGAK",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 18,
+          "expected": 12,
+          "null_variance": 20
+        },
+        {
+          "cluster": "Y_JGAK_s5cl1",
+          "patient": "JGAK",
+          "oneway_edges": 12,
+          "excluded_dyads": 0,
+          "observed": 36,
+          "expected": 24,
+          "null_variance": 112
+        },
+        {
+          "cluster": "Y_JGAK_s6cl1",
+          "patient": "JGAK",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 22,
+          "expected": 10,
+          "null_variance": 32
+        },
+        {
+          "cluster": "Y_JGAK_s7cl1",
+          "patient": "JGAK",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 14,
+          "null_variance": 36
+        },
+        {
+          "cluster": "Y_JGAK_s8cl1",
+          "patient": "JGAK",
+          "oneway_edges": 11,
+          "excluded_dyads": 0,
+          "observed": 50,
+          "expected": 22,
+          "null_variance": 104
+        },
+        {
+          "cluster": "Y_JGAK_s9cl1",
+          "patient": "JGAK",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 30,
+          "expected": 16,
+          "null_variance": 52
+        },
+        {
+          "cluster": "Y_FMKG_s1cl1",
+          "patient": "FMKG",
+          "oneway_edges": 13,
+          "excluded_dyads": 0,
+          "observed": 56,
+          "expected": 26,
+          "null_variance": 124
+        },
+        {
+          "cluster": "Y_FMKG_s2cl1",
+          "patient": "FMKG",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 12,
+          "expected": 8,
+          "null_variance": 8
+        },
+        {
+          "cluster": "Y_FMKG_s3cl1",
+          "patient": "FMKG",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "Y_FMKG_s4cl1",
+          "patient": "FMKG",
+          "oneway_edges": 12,
+          "excluded_dyads": 0,
+          "observed": 44,
+          "expected": 24,
+          "null_variance": 112
+        },
+        {
+          "cluster": "Y_FMKG_s4cl2",
+          "patient": "FMKG",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "Y_FMKG_s5cl1",
+          "patient": "FMKG",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "Y_FMKG_s6cl1",
+          "patient": "FMKG",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 32,
+          "expected": 18,
+          "null_variance": 76
+        },
+        {
+          "cluster": "Y_FMKG_s7cl1",
+          "patient": "FMKG",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 26,
+          "expected": 16,
+          "null_variance": 68
+        },
+        {
+          "cluster": "Y_FMKG_s8cl1",
+          "patient": "FMKG",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 18,
+          "expected": 12,
+          "null_variance": 20
+        },
+        {
+          "cluster": "Y_MAFE_s2cl1",
+          "patient": "MAFE",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 34,
+          "expected": 20,
+          "null_variance": 92
+        },
+        {
+          "cluster": "Y_MAFE_s3cl1",
+          "patient": "MAFE",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 12,
+          "expected": 10,
+          "null_variance": 20
+        },
+        {
+          "cluster": "Y_FMEH_s1cl1",
+          "patient": "FMEH",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_FMEH_s1cl2",
+          "patient": "FMEH",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 16,
+          "null_variance": 64
+        },
+        {
+          "cluster": "Y_FMEH_s2cl1",
+          "patient": "FMEH",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "Y_FMEH_s2cl2",
+          "patient": "FMEH",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 12,
+          "null_variance": 44
+        },
+        {
+          "cluster": "Y_FMEH_s3cl1",
+          "patient": "FMEH",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 34,
+          "expected": 14,
+          "null_variance": 56
+        },
+        {
+          "cluster": "Y_FMEH_s4cl1",
+          "patient": "FMEH",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 44,
+          "expected": 18,
+          "null_variance": 68
+        },
+        {
+          "cluster": "Y_FMEH_s5cl1",
+          "patient": "FMEH",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "Y_FMEH_s5cl2",
+          "patient": "FMEH",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "Y_FMEH_s6cl1",
+          "patient": "FMEH",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "Y_FMEH_s6cl2",
+          "patient": "FMEH",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_MILJ_s2cl1",
+          "patient": "MILJ",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 12,
+          "null_variance": 32
+        },
+        {
+          "cluster": "Y_MILJ_s3cl1",
+          "patient": "MILJ",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "Y_MILJ_s4cl1",
+          "patient": "MILJ",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 22,
+          "expected": 14,
+          "null_variance": 40
+        },
+        {
+          "cluster": "Y_HDEJ_s1cl1",
+          "patient": "HDEJ",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 52,
+          "expected": 20,
+          "null_variance": 80
+        },
+        {
+          "cluster": "Y_HDEJ_s2cl1",
+          "patient": "HDEJ",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 18,
+          "null_variance": 76
+        },
+        {
+          "cluster": "Y_ABEG_s3cl1",
+          "patient": "ABEG",
+          "oneway_edges": 11,
+          "excluded_dyads": 0,
+          "observed": 42,
+          "expected": 22,
+          "null_variance": 80
+        },
+        {
+          "cluster": "Y_ABEG_s4cl1",
+          "patient": "ABEG",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 14,
+          "null_variance": 32
+        },
+        {
+          "cluster": "Y_ABEG_s6cl1",
+          "patient": "ABEG",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "Y_IBGD_s1cl1",
+          "patient": "IBGD",
+          "oneway_edges": 15,
+          "excluded_dyads": 0,
+          "observed": 52,
+          "expected": 30,
+          "null_variance": 156
+        },
+        {
+          "cluster": "Y_IBGD_s1cl2",
+          "patient": "IBGD",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 4,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_IBGD_s2cl1",
+          "patient": "IBGD",
+          "oneway_edges": 15,
+          "excluded_dyads": 0,
+          "observed": 62,
+          "expected": 30,
+          "null_variance": 152
+        },
+        {
+          "cluster": "Y_IBGD_s3cl1",
+          "patient": "IBGD",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_IBGD_s4cl1",
+          "patient": "IBGD",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "Y_IBGD_s5cl1",
+          "patient": "IBGD",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_KGJA_s1cl1",
+          "patient": "KGJA",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "Y_KGJA_s2cl1",
+          "patient": "KGJA",
+          "oneway_edges": 20,
+          "excluded_dyads": 0,
+          "observed": 96,
+          "expected": 40,
+          "null_variance": 272
+        },
+        {
+          "cluster": "Y_KGJA_s3cl1",
+          "patient": "KGJA",
+          "oneway_edges": 12,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 24,
+          "null_variance": 80
+        },
+        {
+          "cluster": "Y_KGJA_s4cl1",
+          "patient": "KGJA",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 14,
+          "null_variance": 48
+        },
+        {
+          "cluster": "Y_MIBF_s1cl1",
+          "patient": "MIBF",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 28,
+          "expected": 20,
+          "null_variance": 72
+        },
+        {
+          "cluster": "Y_MIBF_s2cl1",
+          "patient": "MIBF",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 26,
+          "expected": 12,
+          "null_variance": 36
+        },
+        {
+          "cluster": "Y_MIBF_s3cl1",
+          "patient": "MIBF",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 18,
+          "expected": 16,
+          "null_variance": 44
+        },
+        {
+          "cluster": "Y_MIBF_s4cl1",
+          "patient": "MIBF",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 8,
+          "null_variance": 16
+        },
+        {
+          "cluster": "Y_MIBF_s5cl1",
+          "patient": "MIBF",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 24,
+          "expected": 14,
+          "null_variance": 28
+        },
+        {
+          "cluster": "Y_MIBF_s6cl1",
+          "patient": "MIBF",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 16,
+          "null_variance": 64
+        },
+        {
+          "cluster": "Y_EJLB_s1cl1",
+          "patient": "EJLB",
+          "oneway_edges": 13,
+          "excluded_dyads": 0,
+          "observed": 56,
+          "expected": 26,
+          "null_variance": 108
+        },
+        {
+          "cluster": "Y_EJLB_s2cl1",
+          "patient": "EJLB",
+          "oneway_edges": 12,
+          "excluded_dyads": 0,
+          "observed": 40,
+          "expected": 24,
+          "null_variance": 128
+        },
+        {
+          "cluster": "Y_EJLB_s3cl1",
+          "patient": "EJLB",
+          "oneway_edges": 11,
+          "excluded_dyads": 0,
+          "observed": 44,
+          "expected": 22,
+          "null_variance": 92
+        },
+        {
+          "cluster": "Y_EJLB_s4cl1",
+          "patient": "EJLB",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 40,
+          "expected": 18,
+          "null_variance": 68
+        },
+        {
+          "cluster": "Y_EJLB_s5cl1",
+          "patient": "EJLB",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 14,
+          "null_variance": 44
+        },
+        {
+          "cluster": "Y_EJLB_s6cl1",
+          "patient": "EJLB",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 10,
+          "null_variance": 20
+        }
+      ]
+    },
+    "er_finite_raw": {
+      "clusters": 176,
+      "patients": 23,
+      "observed": 2840,
+      "expected": 1886,
+      "ratio": 1.5058324496288442,
+      "residual": 954,
+      "patients_positive": 21,
+      "patients_zero": 0,
+      "delete_one_patient_residual_range": [
+        828,
+        970
+      ],
+      "patients_detail": {
+        "MBHL": {
+          "observed": 52,
+          "expected": 32
+        },
+        "GAIH": {
+          "observed": 48,
+          "expected": 50
+        },
+        "JEAG": {
+          "observed": 76,
+          "expected": 62
+        },
+        "DACE": {
+          "observed": 152,
+          "expected": 100
+        },
+        "GMHI": {
+          "observed": 70,
+          "expected": 48
+        },
+        "GECH": {
+          "observed": 324,
+          "expected": 228
+        },
+        "FEKA": {
+          "observed": 50,
+          "expected": 34
+        },
+        "IFDB": {
+          "observed": 112,
+          "expected": 74
+        },
+        "JGAK": {
+          "observed": 324,
+          "expected": 198
+        },
+        "FMKG": {
+          "observed": 246,
+          "expected": 154
+        },
+        "MAFE": {
+          "observed": 74,
+          "expected": 56
+        },
+        "FMEH": {
+          "observed": 220,
+          "expected": 136
+        },
+        "MILJ": {
+          "observed": 56,
+          "expected": 42
+        },
+        "KECD": {
+          "observed": 52,
+          "expected": 42
+        },
+        "ABLK": {
+          "observed": 74,
+          "expected": 42
+        },
+        "AKFD": {
+          "observed": 20,
+          "expected": 12
+        },
+        "MIBF": {
+          "observed": 160,
+          "expected": 106
+        },
+        "EJLB": {
+          "observed": 282,
+          "expected": 164
+        },
+        "IHDF": {
+          "observed": 44,
+          "expected": 60
+        },
+        "HDEJ": {
+          "observed": 68,
+          "expected": 38
+        },
+        "ABEG": {
+          "observed": 70,
+          "expected": 46
+        },
+        "IBGD": {
+          "observed": 132,
+          "expected": 78
+        },
+        "KGJA": {
+          "observed": 134,
+          "expected": 84
+        }
+      },
+      "records": [
+        {
+          "cluster": "P_MBHL_s3cl1",
+          "patient": "MBHL",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 18,
+          "expected": 12,
+          "null_variance": 28
+        },
+        {
+          "cluster": "P_GAIH_s1cl1",
+          "patient": "GAIH",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "P_GAIH_s1cl2",
+          "patient": "GAIH",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 12,
+          "expected": 16,
+          "null_variance": 64
+        },
+        {
+          "cluster": "P_GAIH_s2cl1",
+          "patient": "GAIH",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_GAIH_s3cl1",
+          "patient": "GAIH",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 12,
+          "expected": 8,
+          "null_variance": 16
+        },
+        {
+          "cluster": "P_GAIH_s3cl2",
+          "patient": "GAIH",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 10,
+          "null_variance": 20
+        },
+        {
+          "cluster": "P_JEAG_s1cl1",
+          "patient": "JEAG",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 26,
+          "expected": 16,
+          "null_variance": 60
+        },
+        {
+          "cluster": "P_JEAG_s2cl1",
+          "patient": "JEAG",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 12,
+          "null_variance": 32
+        },
+        {
+          "cluster": "P_JEAG_s3cl1",
+          "patient": "JEAG",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 6,
+          "null_variance": 12
+        },
+        {
+          "cluster": "P_JEAG_s4cl1",
+          "patient": "JEAG",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_DACE_s1cl1",
+          "patient": "DACE",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_DACE_s2cl1",
+          "patient": "DACE",
+          "oneway_edges": 14,
+          "excluded_dyads": 0,
+          "observed": 52,
+          "expected": 28,
+          "null_variance": 152
+        },
+        {
+          "cluster": "P_DACE_s3cl1",
+          "patient": "DACE",
+          "oneway_edges": 12,
+          "excluded_dyads": 0,
+          "observed": 40,
+          "expected": 24,
+          "null_variance": 128
+        },
+        {
+          "cluster": "P_DACE_s4cl1",
+          "patient": "DACE",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_GMHI_s1cl1",
+          "patient": "GMHI",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "P_GECH_s1cl1",
+          "patient": "GECH",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "P_GECH_s2cl1",
+          "patient": "GECH",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 18,
+          "null_variance": 76
+        },
+        {
+          "cluster": "P_GECH_s3cl1",
+          "patient": "GECH",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 30,
+          "expected": 16,
+          "null_variance": 52
+        },
+        {
+          "cluster": "P_GECH_s4cl1",
+          "patient": "GECH",
+          "oneway_edges": 13,
+          "excluded_dyads": 0,
+          "observed": 66,
+          "expected": 26,
+          "null_variance": 128
+        },
+        {
+          "cluster": "P_FEKA_s1cl1",
+          "patient": "FEKA",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 4,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_FEKA_s3cl1",
+          "patient": "FEKA",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_FEKA_s4cl1",
+          "patient": "FEKA",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_FEKA_s5cl1",
+          "patient": "FEKA",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_FEKA_s6cl1",
+          "patient": "FEKA",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "P_FEKA_s7cl1",
+          "patient": "FEKA",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 26,
+          "expected": 12,
+          "null_variance": 36
+        },
+        {
+          "cluster": "P_FEKA_s8cl1",
+          "patient": "FEKA",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_FEKA_s9cl1",
+          "patient": "FEKA",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "P_IFDB_s3cl1",
+          "patient": "IFDB",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 40,
+          "expected": 20,
+          "null_variance": 88
+        },
+        {
+          "cluster": "P_IFDB_s4cl1",
+          "patient": "IFDB",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_IFDB_s5cl1",
+          "patient": "IFDB",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_IFDB_s6cl1",
+          "patient": "IFDB",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 10,
+          "null_variance": 32
+        },
+        {
+          "cluster": "P_JGAK_s1cl1",
+          "patient": "JGAK",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_JGAK_s2cl1",
+          "patient": "JGAK",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "P_JGAK_s3cl1",
+          "patient": "JGAK",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "P_JGAK_s4cl1",
+          "patient": "JGAK",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 10,
+          "null_variance": 28
+        },
+        {
+          "cluster": "P_JGAK_s5cl1",
+          "patient": "JGAK",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 12,
+          "null_variance": 32
+        },
+        {
+          "cluster": "P_JGAK_s6cl1",
+          "patient": "JGAK",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "P_JGAK_s7cl1",
+          "patient": "JGAK",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 6,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_FMKG_s1cl1",
+          "patient": "FMKG",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "P_FMKG_s2cl1",
+          "patient": "FMKG",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 22,
+          "expected": 20,
+          "null_variance": 84
+        },
+        {
+          "cluster": "P_FMKG_s3cl1",
+          "patient": "FMKG",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "P_FMKG_s4cl1",
+          "patient": "FMKG",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_MAFE_s1cl1",
+          "patient": "MAFE",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "P_MAFE_s2cl1",
+          "patient": "MAFE",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "P_MAFE_s3cl1",
+          "patient": "MAFE",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "P_MAFE_s4cl1",
+          "patient": "MAFE",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "P_FMEH_s1cl1",
+          "patient": "FMEH",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 40,
+          "expected": 20,
+          "null_variance": 88
+        },
+        {
+          "cluster": "P_FMEH_s2cl1",
+          "patient": "FMEH",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 12,
+          "null_variance": 32
+        },
+        {
+          "cluster": "P_FMEH_s3cl1",
+          "patient": "FMEH",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "P_FMEH_s4cl1",
+          "patient": "FMEH",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "P_MILJ_s2cl1",
+          "patient": "MILJ",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 10,
+          "null_variance": 12
+        },
+        {
+          "cluster": "U_KECD_s1cl1",
+          "patient": "KECD",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 8,
+          "null_variance": 8
+        },
+        {
+          "cluster": "U_KECD_s1cl2",
+          "patient": "KECD",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 10,
+          "null_variance": 32
+        },
+        {
+          "cluster": "U_KECD_s1cl3",
+          "patient": "KECD",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 12,
+          "null_variance": 48
+        },
+        {
+          "cluster": "U_KECD_s2cl1",
+          "patient": "KECD",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 10,
+          "null_variance": 20
+        },
+        {
+          "cluster": "U_KECD_s3cl1",
+          "patient": "KECD",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_ABLK_s1cl1",
+          "patient": "ABLK",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "U_ABLK_s2cl1",
+          "patient": "ABLK",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 8,
+          "null_variance": 20
+        },
+        {
+          "cluster": "U_ABLK_s2cl2",
+          "patient": "ABLK",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 36,
+          "expected": 20,
+          "null_variance": 96
+        },
+        {
+          "cluster": "U_ABLK_s3cl1",
+          "patient": "ABLK",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "U_AKFD_s1cl1",
+          "patient": "AKFD",
+          "oneway_edges": 0,
+          "excluded_dyads": 3,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_AKFD_s2cl1",
+          "patient": "AKFD",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_AKFD_s3cl1",
+          "patient": "AKFD",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_AKFD_s4cl1",
+          "patient": "AKFD",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_AKFD_s5cl1",
+          "patient": "AKFD",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 12,
+          "expected": 6,
+          "null_variance": 12
+        },
+        {
+          "cluster": "U_MBHL_s1cl1",
+          "patient": "MBHL",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 12,
+          "expected": 8,
+          "null_variance": 8
+        },
+        {
+          "cluster": "U_MBHL_s3cl1",
+          "patient": "MBHL",
+          "oneway_edges": 0,
+          "excluded_dyads": 3,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_MBHL_s4cl1",
+          "patient": "MBHL",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 10,
+          "null_variance": 28
+        },
+        {
+          "cluster": "U_MBHL_s5cl1",
+          "patient": "MBHL",
+          "oneway_edges": 1,
+          "excluded_dyads": 5,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_JEAG_s2cl1",
+          "patient": "JEAG",
+          "oneway_edges": 12,
+          "excluded_dyads": 0,
+          "observed": 26,
+          "expected": 24,
+          "null_variance": 132
+        },
+        {
+          "cluster": "U_JEAG_s4cl1",
+          "patient": "JEAG",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_DACE_s1cl1",
+          "patient": "DACE",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_DACE_s2cl1",
+          "patient": "DACE",
+          "oneway_edges": 3,
+          "excluded_dyads": 13,
+          "observed": 6,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "U_DACE_s3cl1",
+          "patient": "DACE",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 22,
+          "expected": 12,
+          "null_variance": 28
+        },
+        {
+          "cluster": "U_GMHI_s1cl1",
+          "patient": "GMHI",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_GMHI_s4cl1",
+          "patient": "GMHI",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_GECH_s1cl1",
+          "patient": "GECH",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 8,
+          "null_variance": 20
+        },
+        {
+          "cluster": "U_GECH_s2cl1",
+          "patient": "GECH",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_GECH_s3cl1",
+          "patient": "GECH",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_GECH_s3cl2",
+          "patient": "GECH",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 24,
+          "expected": 16,
+          "null_variance": 48
+        },
+        {
+          "cluster": "U_GECH_s4cl1",
+          "patient": "GECH",
+          "oneway_edges": 8,
+          "excluded_dyads": 4,
+          "observed": 20,
+          "expected": 16,
+          "null_variance": 64
+        },
+        {
+          "cluster": "U_IFDB_s1cl1",
+          "patient": "IFDB",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_IFDB_s3cl1",
+          "patient": "IFDB",
+          "oneway_edges": 14,
+          "excluded_dyads": 0,
+          "observed": 48,
+          "expected": 28,
+          "null_variance": 168
+        },
+        {
+          "cluster": "U_IFDB_s4cl1",
+          "patient": "IFDB",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 12,
+          "expected": 14,
+          "null_variance": 44
+        },
+        {
+          "cluster": "U_MAFE_s1cl1",
+          "patient": "MAFE",
+          "oneway_edges": 0,
+          "excluded_dyads": 2,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_MAFE_s2cl1",
+          "patient": "MAFE",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_MIBF_s1cl1",
+          "patient": "MIBF",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 12,
+          "null_variance": 32
+        },
+        {
+          "cluster": "U_MIBF_s2cl1",
+          "patient": "MIBF",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 8,
+          "null_variance": 16
+        },
+        {
+          "cluster": "U_EJLB_s1cl1",
+          "patient": "EJLB",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_EJLB_s2cl1",
+          "patient": "EJLB",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 10,
+          "null_variance": 20
+        },
+        {
+          "cluster": "U_EJLB_s3cl1",
+          "patient": "EJLB",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 30,
+          "expected": 14,
+          "null_variance": 40
+        },
+        {
+          "cluster": "U_EJLB_s4cl1",
+          "patient": "EJLB",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 10,
+          "null_variance": 16
+        },
+        {
+          "cluster": "U_EJLB_s5cl1",
+          "patient": "EJLB",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 14,
+          "null_variance": 60
+        },
+        {
+          "cluster": "Y_IHDF_s1cl1",
+          "patient": "IHDF",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 18,
+          "null_variance": 84
+        },
+        {
+          "cluster": "Y_IHDF_s1cl2",
+          "patient": "IHDF",
+          "oneway_edges": 11,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 22,
+          "null_variance": 132
+        },
+        {
+          "cluster": "Y_IHDF_s2cl1",
+          "patient": "IHDF",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_IHDF_s4cl1",
+          "patient": "IHDF",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 6,
+          "null_variance": 12
+        },
+        {
+          "cluster": "Y_IHDF_s5cl1",
+          "patient": "IHDF",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 22,
+          "expected": 12,
+          "null_variance": 44
+        },
+        {
+          "cluster": "Y_IHDF_s7cl1",
+          "patient": "IHDF",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_GAIH_s1cl1",
+          "patient": "GAIH",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 12,
+          "null_variance": 28
+        },
+        {
+          "cluster": "Y_DACE_s1cl1",
+          "patient": "DACE",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 10,
+          "null_variance": 32
+        },
+        {
+          "cluster": "Y_DACE_s2cl1",
+          "patient": "DACE",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_DACE_s3cl1",
+          "patient": "DACE",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "Y_DACE_s4cl1",
+          "patient": "DACE",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_GMHI_s1cl1",
+          "patient": "GMHI",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "Y_GMHI_s2cl1",
+          "patient": "GMHI",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "Y_GMHI_s5cl1",
+          "patient": "GMHI",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "Y_GMHI_s6cl1",
+          "patient": "GMHI",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_GMHI_s7cl1",
+          "patient": "GMHI",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 24,
+          "expected": 14,
+          "null_variance": 52
+        },
+        {
+          "cluster": "Y_GECH_s1cl1",
+          "patient": "GECH",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 18,
+          "expected": 16,
+          "null_variance": 52
+        },
+        {
+          "cluster": "Y_GECH_s2cl1",
+          "patient": "GECH",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 8,
+          "null_variance": 20
+        },
+        {
+          "cluster": "Y_GECH_s3cl1",
+          "patient": "GECH",
+          "oneway_edges": 11,
+          "excluded_dyads": 0,
+          "observed": 34,
+          "expected": 22,
+          "null_variance": 96
+        },
+        {
+          "cluster": "Y_GECH_s4cl1",
+          "patient": "GECH",
+          "oneway_edges": 13,
+          "excluded_dyads": 0,
+          "observed": 40,
+          "expected": 26,
+          "null_variance": 132
+        },
+        {
+          "cluster": "Y_GECH_s5cl1",
+          "patient": "GECH",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 26,
+          "expected": 18,
+          "null_variance": 40
+        },
+        {
+          "cluster": "Y_GECH_s6cl1",
+          "patient": "GECH",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 18,
+          "expected": 20,
+          "null_variance": 60
+        },
+        {
+          "cluster": "Y_JGAK_s10cl1",
+          "patient": "JGAK",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 12,
+          "null_variance": 40
+        },
+        {
+          "cluster": "Y_JGAK_s1cl1",
+          "patient": "JGAK",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 8,
+          "null_variance": 16
+        },
+        {
+          "cluster": "Y_JGAK_s2cl1",
+          "patient": "JGAK",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 34,
+          "expected": 14,
+          "null_variance": 48
+        },
+        {
+          "cluster": "Y_JGAK_s3cl1",
+          "patient": "JGAK",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 18,
+          "expected": 16,
+          "null_variance": 36
+        },
+        {
+          "cluster": "Y_JGAK_s4cl1",
+          "patient": "JGAK",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 18,
+          "expected": 12,
+          "null_variance": 20
+        },
+        {
+          "cluster": "Y_JGAK_s5cl1",
+          "patient": "JGAK",
+          "oneway_edges": 12,
+          "excluded_dyads": 0,
+          "observed": 36,
+          "expected": 24,
+          "null_variance": 112
+        },
+        {
+          "cluster": "Y_JGAK_s6cl1",
+          "patient": "JGAK",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 22,
+          "expected": 10,
+          "null_variance": 32
+        },
+        {
+          "cluster": "Y_JGAK_s7cl1",
+          "patient": "JGAK",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 14,
+          "null_variance": 36
+        },
+        {
+          "cluster": "Y_JGAK_s8cl1",
+          "patient": "JGAK",
+          "oneway_edges": 11,
+          "excluded_dyads": 0,
+          "observed": 50,
+          "expected": 22,
+          "null_variance": 104
+        },
+        {
+          "cluster": "Y_JGAK_s9cl1",
+          "patient": "JGAK",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 30,
+          "expected": 16,
+          "null_variance": 52
+        },
+        {
+          "cluster": "Y_FMKG_s1cl1",
+          "patient": "FMKG",
+          "oneway_edges": 13,
+          "excluded_dyads": 0,
+          "observed": 56,
+          "expected": 26,
+          "null_variance": 124
+        },
+        {
+          "cluster": "Y_FMKG_s2cl1",
+          "patient": "FMKG",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 12,
+          "expected": 8,
+          "null_variance": 8
+        },
+        {
+          "cluster": "Y_FMKG_s3cl1",
+          "patient": "FMKG",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "Y_FMKG_s4cl1",
+          "patient": "FMKG",
+          "oneway_edges": 12,
+          "excluded_dyads": 0,
+          "observed": 44,
+          "expected": 24,
+          "null_variance": 112
+        },
+        {
+          "cluster": "Y_FMKG_s4cl2",
+          "patient": "FMKG",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "Y_FMKG_s5cl1",
+          "patient": "FMKG",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "Y_FMKG_s6cl1",
+          "patient": "FMKG",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 32,
+          "expected": 18,
+          "null_variance": 76
+        },
+        {
+          "cluster": "Y_FMKG_s7cl1",
+          "patient": "FMKG",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 26,
+          "expected": 16,
+          "null_variance": 68
+        },
+        {
+          "cluster": "Y_FMKG_s8cl1",
+          "patient": "FMKG",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 18,
+          "expected": 12,
+          "null_variance": 20
+        },
+        {
+          "cluster": "Y_MAFE_s2cl1",
+          "patient": "MAFE",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 34,
+          "expected": 20,
+          "null_variance": 92
+        },
+        {
+          "cluster": "Y_MAFE_s3cl1",
+          "patient": "MAFE",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 12,
+          "expected": 10,
+          "null_variance": 20
+        },
+        {
+          "cluster": "Y_FMEH_s1cl1",
+          "patient": "FMEH",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_FMEH_s1cl2",
+          "patient": "FMEH",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 16,
+          "null_variance": 64
+        },
+        {
+          "cluster": "Y_FMEH_s2cl1",
+          "patient": "FMEH",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "Y_FMEH_s2cl2",
+          "patient": "FMEH",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 12,
+          "null_variance": 44
+        },
+        {
+          "cluster": "Y_FMEH_s3cl1",
+          "patient": "FMEH",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 34,
+          "expected": 14,
+          "null_variance": 56
+        },
+        {
+          "cluster": "Y_FMEH_s4cl1",
+          "patient": "FMEH",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 44,
+          "expected": 18,
+          "null_variance": 68
+        },
+        {
+          "cluster": "Y_FMEH_s5cl1",
+          "patient": "FMEH",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "Y_FMEH_s5cl2",
+          "patient": "FMEH",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "Y_FMEH_s6cl1",
+          "patient": "FMEH",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 8,
+          "null_variance": 12
+        },
+        {
+          "cluster": "Y_FMEH_s6cl2",
+          "patient": "FMEH",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_MILJ_s2cl1",
+          "patient": "MILJ",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 12,
+          "null_variance": 32
+        },
+        {
+          "cluster": "Y_MILJ_s3cl1",
+          "patient": "MILJ",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "Y_MILJ_s4cl1",
+          "patient": "MILJ",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 22,
+          "expected": 14,
+          "null_variance": 40
+        },
+        {
+          "cluster": "Y_HDEJ_s1cl1",
+          "patient": "HDEJ",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 52,
+          "expected": 20,
+          "null_variance": 80
+        },
+        {
+          "cluster": "Y_HDEJ_s2cl1",
+          "patient": "HDEJ",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 18,
+          "null_variance": 76
+        },
+        {
+          "cluster": "Y_ABEG_s3cl1",
+          "patient": "ABEG",
+          "oneway_edges": 11,
+          "excluded_dyads": 0,
+          "observed": 42,
+          "expected": 22,
+          "null_variance": 80
+        },
+        {
+          "cluster": "Y_ABEG_s4cl1",
+          "patient": "ABEG",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 14,
+          "null_variance": 32
+        },
+        {
+          "cluster": "Y_ABEG_s6cl1",
+          "patient": "ABEG",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "Y_IBGD_s1cl1",
+          "patient": "IBGD",
+          "oneway_edges": 15,
+          "excluded_dyads": 0,
+          "observed": 52,
+          "expected": 30,
+          "null_variance": 156
+        },
+        {
+          "cluster": "Y_IBGD_s1cl2",
+          "patient": "IBGD",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 4,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_IBGD_s2cl1",
+          "patient": "IBGD",
+          "oneway_edges": 15,
+          "excluded_dyads": 0,
+          "observed": 62,
+          "expected": 30,
+          "null_variance": 152
+        },
+        {
+          "cluster": "Y_IBGD_s3cl1",
+          "patient": "IBGD",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_IBGD_s4cl1",
+          "patient": "IBGD",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "Y_IBGD_s5cl1",
+          "patient": "IBGD",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Y_KGJA_s1cl1",
+          "patient": "KGJA",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "Y_KGJA_s2cl1",
+          "patient": "KGJA",
+          "oneway_edges": 20,
+          "excluded_dyads": 0,
+          "observed": 96,
+          "expected": 40,
+          "null_variance": 272
+        },
+        {
+          "cluster": "Y_KGJA_s3cl1",
+          "patient": "KGJA",
+          "oneway_edges": 12,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 24,
+          "null_variance": 80
+        },
+        {
+          "cluster": "Y_KGJA_s4cl1",
+          "patient": "KGJA",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 14,
+          "null_variance": 48
+        },
+        {
+          "cluster": "Y_MIBF_s1cl1",
+          "patient": "MIBF",
+          "oneway_edges": 10,
+          "excluded_dyads": 0,
+          "observed": 28,
+          "expected": 20,
+          "null_variance": 72
+        },
+        {
+          "cluster": "Y_MIBF_s2cl1",
+          "patient": "MIBF",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 26,
+          "expected": 12,
+          "null_variance": 36
+        },
+        {
+          "cluster": "Y_MIBF_s3cl1",
+          "patient": "MIBF",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 18,
+          "expected": 16,
+          "null_variance": 44
+        },
+        {
+          "cluster": "Y_MIBF_s4cl1",
+          "patient": "MIBF",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 8,
+          "null_variance": 16
+        },
+        {
+          "cluster": "Y_MIBF_s5cl1",
+          "patient": "MIBF",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 24,
+          "expected": 14,
+          "null_variance": 28
+        },
+        {
+          "cluster": "Y_MIBF_s6cl1",
+          "patient": "MIBF",
+          "oneway_edges": 8,
+          "excluded_dyads": 0,
+          "observed": 20,
+          "expected": 16,
+          "null_variance": 64
+        },
+        {
+          "cluster": "Y_EJLB_s1cl1",
+          "patient": "EJLB",
+          "oneway_edges": 13,
+          "excluded_dyads": 0,
+          "observed": 56,
+          "expected": 26,
+          "null_variance": 108
+        },
+        {
+          "cluster": "Y_EJLB_s2cl1",
+          "patient": "EJLB",
+          "oneway_edges": 12,
+          "excluded_dyads": 0,
+          "observed": 40,
+          "expected": 24,
+          "null_variance": 128
+        },
+        {
+          "cluster": "Y_EJLB_s3cl1",
+          "patient": "EJLB",
+          "oneway_edges": 11,
+          "excluded_dyads": 0,
+          "observed": 44,
+          "expected": 22,
+          "null_variance": 92
+        },
+        {
+          "cluster": "Y_EJLB_s4cl1",
+          "patient": "EJLB",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 40,
+          "expected": 18,
+          "null_variance": 68
+        },
+        {
+          "cluster": "Y_EJLB_s5cl1",
+          "patient": "EJLB",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 16,
+          "expected": 14,
+          "null_variance": 44
+        },
+        {
+          "cluster": "Y_EJLB_s6cl1",
+          "patient": "EJLB",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 10,
+          "null_variance": 20
+        }
+      ]
+    },
+    "tr_published": {
+      "clusters": 54,
+      "patients": 9,
+      "observed": 334,
+      "expected": 270,
+      "ratio": 1.237037037037037,
+      "residual": 64,
+      "patients_positive": 6,
+      "patients_zero": 2,
+      "delete_one_patient_residual_range": [
+        38,
+        68
+      ],
+      "patients_detail": {
+        "ELCF": {
+          "observed": 24,
+          "expected": 28
+        },
+        "IJKL": {
+          "observed": 60,
+          "expected": 34
+        },
+        "CHDM": {
+          "observed": 34,
+          "expected": 28
+        },
+        "JCBF": {
+          "observed": 24,
+          "expected": 20
+        },
+        "BFML": {
+          "observed": 92,
+          "expected": 66
+        },
+        "FILK": {
+          "observed": 16,
+          "expected": 12
+        },
+        "CKAB": {
+          "observed": 6,
+          "expected": 6
+        },
+        "KBAD": {
+          "observed": 20,
+          "expected": 18
+        },
+        "KALJ": {
+          "observed": 58,
+          "expected": 58
+        }
+      },
+      "records": [
+        {
+          "cluster": "U_ELCF_s1cl1",
+          "patient": "ELCF",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 4,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_ELCF_s2cl1",
+          "patient": "ELCF",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 4,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_ELCF_s3cl1",
+          "patient": "ELCF",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_ELCF_s4cl1",
+          "patient": "ELCF",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 8,
+          "null_variance": 8
+        },
+        {
+          "cluster": "U_IJKL_s1cl1",
+          "patient": "IJKL",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_IJKL_s2cl1",
+          "patient": "IJKL",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 12
+        },
+        {
+          "cluster": "U_IJKL_s3cl1",
+          "patient": "IJKL",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "U_IJKL_s4cl1",
+          "patient": "IJKL",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_IJKL_s5cl1",
+          "patient": "IJKL",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 32,
+          "expected": 14,
+          "null_variance": 52
+        },
+        {
+          "cluster": "U_CHDM_s1cl1",
+          "patient": "CHDM",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 8,
+          "null_variance": 16
+        },
+        {
+          "cluster": "U_CHDM_s2cl1",
+          "patient": "CHDM",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "U_CHDM_s3cl1",
+          "patient": "CHDM",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_CHDM_s4cl1",
+          "patient": "CHDM",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "U_JCBF_s1cl1",
+          "patient": "JCBF",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_JCBF_s2cl1",
+          "patient": "JCBF",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_JCBF_s3cl1",
+          "patient": "JCBF",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_JCBF_s4cl1",
+          "patient": "JCBF",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 10,
+          "null_variance": 16
+        },
+        {
+          "cluster": "U_JCBF_s5cl1",
+          "patient": "JCBF",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_BFML_s1cl1",
+          "patient": "BFML",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 22,
+          "expected": 18,
+          "null_variance": 88
+        },
+        {
+          "cluster": "U_BFML_s2cl1",
+          "patient": "BFML",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 22,
+          "expected": 12,
+          "null_variance": 20
+        },
+        {
+          "cluster": "U_BFML_s3cl1",
+          "patient": "BFML",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_BFML_s4cl1",
+          "patient": "BFML",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 32,
+          "expected": 14,
+          "null_variance": 44
+        },
+        {
+          "cluster": "U_FILK_s1cl1",
+          "patient": "FILK",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_FILK_s2cl1",
+          "patient": "FILK",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_FILK_s3cl1",
+          "patient": "FILK",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_CKAB_s1cl1",
+          "patient": "CKAB",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 4,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_CKAB_s1cl2",
+          "patient": "CKAB",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_CKAB_s2cl3",
+          "patient": "CKAB",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_CKAB_s3cl4",
+          "patient": "CKAB",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_CKAB_s4cl1",
+          "patient": "CKAB",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_KBAD_s1cl1",
+          "patient": "KBAD",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "R_KBAD_s2cl2",
+          "patient": "KBAD",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "R_KBAD_s3cl3",
+          "patient": "KBAD",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "R_KBAD_s4cl4",
+          "patient": "KBAD",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_KALJ_s1cl1",
+          "patient": "KALJ",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_KALJ_s2cl2",
+          "patient": "KALJ",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "R_KALJ_s3cl3",
+          "patient": "KALJ",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "R_KALJ_s4cl4",
+          "patient": "KALJ",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_KALJ_s5cl5",
+          "patient": "KALJ",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "R_ELCF_s1cl1",
+          "patient": "ELCF",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_ELCF_s2cl1",
+          "patient": "ELCF",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_ELCF_s3cl1",
+          "patient": "ELCF",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "R_IJKL_s1cl1",
+          "patient": "IJKL",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_IJKL_s2cl1",
+          "patient": "IJKL",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_IJKL_s3cl1",
+          "patient": "IJKL",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_BFML_s1cl1",
+          "patient": "BFML",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "R_BFML_s2cl1",
+          "patient": "BFML",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 14,
+          "null_variance": 56
+        },
+        {
+          "cluster": "R_BFML_s3cl1",
+          "patient": "BFML",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 4,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Q_KALJ_s1cl1",
+          "patient": "KALJ",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 6,
+          "null_variance": 12
+        },
+        {
+          "cluster": "Q_KALJ_s2cl1",
+          "patient": "KALJ",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 10,
+          "null_variance": 12
+        },
+        {
+          "cluster": "Q_KALJ_s3cl1",
+          "patient": "KALJ",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 4,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Q_KALJ_s4cl1",
+          "patient": "KALJ",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 10,
+          "null_variance": 16
+        },
+        {
+          "cluster": "Q_KALJ_s5cl1",
+          "patient": "KALJ",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "Q_KALJ_s6cl1",
+          "patient": "KALJ",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        }
+      ]
+    },
+    "tr_finite_raw": {
+      "clusters": 54,
+      "patients": 9,
+      "observed": 334,
+      "expected": 270,
+      "ratio": 1.237037037037037,
+      "residual": 64,
+      "patients_positive": 6,
+      "patients_zero": 2,
+      "delete_one_patient_residual_range": [
+        38,
+        68
+      ],
+      "patients_detail": {
+        "ELCF": {
+          "observed": 24,
+          "expected": 28
+        },
+        "IJKL": {
+          "observed": 60,
+          "expected": 34
+        },
+        "CHDM": {
+          "observed": 34,
+          "expected": 28
+        },
+        "JCBF": {
+          "observed": 24,
+          "expected": 20
+        },
+        "BFML": {
+          "observed": 92,
+          "expected": 66
+        },
+        "FILK": {
+          "observed": 16,
+          "expected": 12
+        },
+        "CKAB": {
+          "observed": 6,
+          "expected": 6
+        },
+        "KBAD": {
+          "observed": 20,
+          "expected": 18
+        },
+        "KALJ": {
+          "observed": 58,
+          "expected": 58
+        }
+      },
+      "records": [
+        {
+          "cluster": "U_ELCF_s1cl1",
+          "patient": "ELCF",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 4,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_ELCF_s2cl1",
+          "patient": "ELCF",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 4,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_ELCF_s3cl1",
+          "patient": "ELCF",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_ELCF_s4cl1",
+          "patient": "ELCF",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 8,
+          "null_variance": 8
+        },
+        {
+          "cluster": "U_IJKL_s1cl1",
+          "patient": "IJKL",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_IJKL_s2cl1",
+          "patient": "IJKL",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 12
+        },
+        {
+          "cluster": "U_IJKL_s3cl1",
+          "patient": "IJKL",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "U_IJKL_s4cl1",
+          "patient": "IJKL",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_IJKL_s5cl1",
+          "patient": "IJKL",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 32,
+          "expected": 14,
+          "null_variance": 52
+        },
+        {
+          "cluster": "U_CHDM_s1cl1",
+          "patient": "CHDM",
+          "oneway_edges": 4,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 8,
+          "null_variance": 16
+        },
+        {
+          "cluster": "U_CHDM_s2cl1",
+          "patient": "CHDM",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "U_CHDM_s3cl1",
+          "patient": "CHDM",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_CHDM_s4cl1",
+          "patient": "CHDM",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "U_JCBF_s1cl1",
+          "patient": "JCBF",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_JCBF_s2cl1",
+          "patient": "JCBF",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_JCBF_s3cl1",
+          "patient": "JCBF",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_JCBF_s4cl1",
+          "patient": "JCBF",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 10,
+          "null_variance": 16
+        },
+        {
+          "cluster": "U_JCBF_s5cl1",
+          "patient": "JCBF",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_BFML_s1cl1",
+          "patient": "BFML",
+          "oneway_edges": 9,
+          "excluded_dyads": 0,
+          "observed": 22,
+          "expected": 18,
+          "null_variance": 88
+        },
+        {
+          "cluster": "U_BFML_s2cl1",
+          "patient": "BFML",
+          "oneway_edges": 6,
+          "excluded_dyads": 0,
+          "observed": 22,
+          "expected": 12,
+          "null_variance": 20
+        },
+        {
+          "cluster": "U_BFML_s3cl1",
+          "patient": "BFML",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "U_BFML_s4cl1",
+          "patient": "BFML",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 32,
+          "expected": 14,
+          "null_variance": 44
+        },
+        {
+          "cluster": "U_FILK_s1cl1",
+          "patient": "FILK",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_FILK_s2cl1",
+          "patient": "FILK",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "U_FILK_s3cl1",
+          "patient": "FILK",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_CKAB_s1cl1",
+          "patient": "CKAB",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 4,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_CKAB_s1cl2",
+          "patient": "CKAB",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_CKAB_s2cl3",
+          "patient": "CKAB",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_CKAB_s3cl4",
+          "patient": "CKAB",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_CKAB_s4cl1",
+          "patient": "CKAB",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_KBAD_s1cl1",
+          "patient": "KBAD",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "R_KBAD_s2cl2",
+          "patient": "KBAD",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 6,
+          "null_variance": 4
+        },
+        {
+          "cluster": "R_KBAD_s3cl3",
+          "patient": "KBAD",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "R_KBAD_s4cl4",
+          "patient": "KBAD",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_KALJ_s1cl1",
+          "patient": "KALJ",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_KALJ_s2cl2",
+          "patient": "KALJ",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "R_KALJ_s3cl3",
+          "patient": "KALJ",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "R_KALJ_s4cl4",
+          "patient": "KALJ",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_KALJ_s5cl5",
+          "patient": "KALJ",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "R_ELCF_s1cl1",
+          "patient": "ELCF",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_ELCF_s2cl1",
+          "patient": "ELCF",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_ELCF_s3cl1",
+          "patient": "ELCF",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 6,
+          "null_variance": 8
+        },
+        {
+          "cluster": "R_IJKL_s1cl1",
+          "patient": "IJKL",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_IJKL_s2cl1",
+          "patient": "IJKL",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_IJKL_s3cl1",
+          "patient": "IJKL",
+          "oneway_edges": 0,
+          "excluded_dyads": 0,
+          "observed": 0,
+          "expected": 0,
+          "null_variance": 0
+        },
+        {
+          "cluster": "R_BFML_s1cl1",
+          "patient": "BFML",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 4,
+          "null_variance": 4
+        },
+        {
+          "cluster": "R_BFML_s2cl1",
+          "patient": "BFML",
+          "oneway_edges": 7,
+          "excluded_dyads": 0,
+          "observed": 6,
+          "expected": 14,
+          "null_variance": 56
+        },
+        {
+          "cluster": "R_BFML_s3cl1",
+          "patient": "BFML",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 4,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Q_KALJ_s1cl1",
+          "patient": "KALJ",
+          "oneway_edges": 3,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 6,
+          "null_variance": 12
+        },
+        {
+          "cluster": "Q_KALJ_s2cl1",
+          "patient": "KALJ",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 8,
+          "expected": 10,
+          "null_variance": 12
+        },
+        {
+          "cluster": "Q_KALJ_s3cl1",
+          "patient": "KALJ",
+          "oneway_edges": 2,
+          "excluded_dyads": 0,
+          "observed": 4,
+          "expected": 4,
+          "null_variance": 0
+        },
+        {
+          "cluster": "Q_KALJ_s4cl1",
+          "patient": "KALJ",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 10,
+          "expected": 10,
+          "null_variance": 16
+        },
+        {
+          "cluster": "Q_KALJ_s5cl1",
+          "patient": "KALJ",
+          "oneway_edges": 5,
+          "excluded_dyads": 0,
+          "observed": 14,
+          "expected": 10,
+          "null_variance": 24
+        },
+        {
+          "cluster": "Q_KALJ_s6cl1",
+          "patient": "KALJ",
+          "oneway_edges": 1,
+          "excluded_dyads": 0,
+          "observed": 2,
+          "expected": 2,
+          "null_variance": 0
+        }
+      ]
+    }
+  }
+}

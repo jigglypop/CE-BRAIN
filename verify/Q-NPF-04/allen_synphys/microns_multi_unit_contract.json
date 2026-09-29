@@ -1,0 +1,9 @@
+{
+  "question": "Can fixed per-nucleus structural contrasts be evaluated under every recorded ROI assignment for scans9/3 and9/4?",
+  "rule": "Enumerate Cartesian product choosing exactly one observed unit for every nucleus. Do not rank by response, score, residual or desired effect. Same nucleus is never counted as two cells or paired with itself.",
+  "future_response_rule": "Acquire all recorded units, apply unchanged alignment/decomposition. Calculate every assignment with its selected field strata and original distance cuts. Report full set/range, not favorable representative. Shared repeat-control shifts indexed by nucleus, reused across alternative ROI assignments; alternatives are not independent experiments.",
+  "limits": "Assignment uncertainty sensitivity, not biological adjudication or new confirmatory evidence. Support here is structural only; functional inputs not acquired by this program.",
+  "targets_sha256": "e88b1c4f1e83ed644e5a01f537e60bd32c8faaf09c594a9f419c540c3e4898d2",
+  "structure_sha256": "fee7afc8c37528e3e1c1a4365f016f74c8ff42b6dad0f06100ef32d38adb0434",
+  "code_sha256": "90273c66c9d957fd60d1820e40ef1351874d3b4c8b402ee3914c34607c8740e2"
+}

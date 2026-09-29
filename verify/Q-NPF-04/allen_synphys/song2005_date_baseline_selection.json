@@ -1,0 +1,27 @@
+{
+  "contract_sha256": "b904653cbc508e8d72f645075f5af08ba4a748ab5df95aee89bb91635f1d7dcc",
+  "validation": {
+    "age_calcium": {
+      "direction_logloss": 0.3622491817361077,
+      "gradient": 9.35695965154082e-13,
+      "coef": [
+        -2.1929624275658823,
+        -0.2644840470845278,
+        -0.03596206561171218
+      ]
+    },
+    "age_calcium_date": {
+      "direction_logloss": 0.3687733299901183,
+      "gradient": 7.8909101475233e-14,
+      "coef": [
+        -2.2036737222217124,
+        -0.22572654461265576,
+        0.05148083793548079,
+        0.19462179447019082
+      ]
+    }
+  },
+  "selected": "age_calcium",
+  "inner_dyads": 1754,
+  "validation_dyads": 877
+}

@@ -1,0 +1,47 @@
+{
+  "id": "Q-NPF-04-C18-MEASUREMENT-BRIDGE",
+  "date": "2026-09-05",
+  "status": "SYNTHETIC_ROUTE_SUPPORTED_BIOLOGICAL_BRIDGE_UNESTABLISHED",
+  "goal": "후속 연구를 통해 뇌 구조와 작동 원리를 규명한다. 세 기전 구별이나 합성 회로의 성공을 최종 목표 달성으로 대체하지 않는다.",
+  "lineage": "Q-NPF-04 C17 audit -> C18 independently calibrated intervention design. Not an adult L4 execution or another Stage's result.",
+  "current_evidence": {
+    "completed": ["C17 source-hashed counterexample audit", "C18 fixed-grid structural identifiability and 144 synthetic noisy fits"],
+    "partial": ["A sufficient conditional intervention structure in one stable scalar feedback model"],
+    "failed_or_not_established": ["Stationary causal interpretation of original nominal loops", "Observation-level universal gain/efficacy impossibility", "Universal 0.167-second unwrap ceiling", "Biological feasibility of selective additive effective coupling"],
+    "not_executed": ["Real biological endpoint", "Same-unit selective intervention", "Independent animal confirmation", "Native anatomical topology reconstruction", "CE-specific model comparison", "Metric-behavior mediation"]
+  },
+  "measurement_rows": [
+    {"quantity":"u(t), input current and command", "unit":"A and native timestamp s", "requirement":"Independent exogenous probe; retain command, measured delivered current, controller delay and calibration trace.", "reason":"Closed-loop transfer cannot be inferred from unobserved endogenous drive alone."},
+    {"quantity":"V(t), cell identity and pre/post timing", "unit":"V, stable IDs, s", "requirement":"Same identified neurons; nonwrapped raw time base, independent repeated trials and amplifier calibration.", "reason":"Avoid prior rounded-clock and cyclic-replay assumptions."},
+    {"quantity":"Added conductance and effective coupling increment d", "unit":"S for physical conductance, explicitly derived model units for d", "requirement":"Independent calibration of reversal potential, gating state, electrode and dendritic transfer; never identify commanded conductance with effective k without a mapping.", "reason":"C18 requires additive effective k, not an arbitrary optical dose or fractional weight change."},
+    {"quantity":"Membrane time constant, resistance, capacitance", "unit":"s, ohm, F", "requirement":"Measure before/after and in sham/off-target/recovery conditions; include changes in the observation/biophysical model.", "reason":"Conductance injection may alter both gain and time constant, violating selective-k assumptions."},
+    {"quantity":"Path length, connection identity and conduction latency", "unit":"m, identified edges, s", "requirement":"Measure in the same preparation; separate conduction from synaptic, membrane and instrument delays.", "reason":"A recovered scalar tau alone does not identify native axonal path, topology or velocity."},
+    {"quantity":"Future output likelihood and separate behavior", "unit":"Endpoint-specific preregistered units", "requirement":"Independent chart, raw-rank assessment, output likelihood and separate behavior with selective causal controls.", "reason":"Required for original CE folding/mediation goal; not supplied by C18."}
+  ],
+  "biophysical_mapping_audit": {
+    "equation":"I_add=G_add*s(t)*(E_rev-V(t)). Around baseline, delta I_add = G_add*(E_rev-V0)*delta s - G_add*s0*delta V.",
+    "interpretation":"Adding conductance generally produces both a coupling term and a shunting term. The latter changes membrane dynamics. A pure k increment at fixed gain/time constant is an assumption to test, not a consequence of using dynamic clamp.",
+    "claim_status":"Conditional linearization; no biological sample evaluated.",
+    "proposed_next_computational_step":"Embed calibrated conductance and its shunting term in the response model; test whether the three mechanisms remain identifiable when measured or unknown nuisance parameters are included. Preserve C18 as an idealized positive control.",
+    "no_automatic_rescue":"Do not tune away nuisance failure or promote the idealized C18 success to a passing biological card."
+  },
+  "sources": [
+    {"ref":"https://elifesciences.org/articles/75517", "version":"Version of Record 2022-05-26; accessed 2026-09-05", "verified":"Primary study demonstrates virtual capacitance manipulation in rodent dentate gyrus granule cells and distinguishes conductance effects on steady-state amplitude from capacitance effects.", "scope_limit":"Does not demonstrate selective effective coupling manipulation in awake whole-CNS loops or the CE chain."},
+    {"ref":"https://arxiv.org/abs/1710.05098", "verified":"Primary study examines failure of conventional somatic I-V conductance estimation due to interactions of clamp and synaptic currents; supports requiring an independently validated effective-conductance mapping.", "scope_limit":"Not evidence that our additive-dose calibration is available."},
+    {"ref":"https://journals.physiology.org/doi/abs/10.1152/jn.1993.69.3.992", "verified":"Bibliographic/search record only; publisher full page returned HTTP 403.", "scope_limit":"No full-text claims drawn from inaccessible page."}
+  ],
+  "existing_input_context": {
+    "inventory":"verify/Q-NPF-03/local_data_inventory.md",
+    "interpretation":"Existing inventory is specific to prior metric endpoints. Its 1000-trial calculation is not transported to C18. It does not establish an available independently calibrated additive intervention cohort.",
+    "other_lineage_handoff":"paper/6_뇌/국소회로_상태다양체_흐름_대응/repro/adult_l4_same_contact_lab_handoff_v1.json",
+    "other_lineage_status":"LAB_HANDOFF_READY_EXTERNAL_ACTION_REQUIRED; tool_validated=false; biological_endpoint_evaluated=false",
+    "restriction":"This is a separate adult hindlimb M1 L4 schema, not evidence that C18 inputs exist. No new lab activity, messages or public payload acquisition performed."
+  },
+  "answers": {
+    "original_question_answered":false,
+    "refuted":"Old computational rationale for abandoning three-channel inquiry is insufficient; idealized fractional or uncalibrated interventions remain ambiguous.",
+    "survives":"Three-channel objective and a conditional known-additive intervention design.",
+    "next_allowed":"Audit conductance-to-effective-coupling mapping and nuisance identifiability; actual biological confirmation requires measurements not supplied by this synthetic work.",
+    "claim_ceiling":"BIO_EVIDENCE_L0 / ENDPOINT_NOT_EVALUATED"
+  }
+}

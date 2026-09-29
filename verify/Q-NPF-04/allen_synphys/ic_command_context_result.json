@@ -1,0 +1,2029 @@
+{
+  "contract_sha256": "c567a25f27a380ffc3e769b52ed4f9bc301159a9f43db5dc914293340a1db4d2",
+  "archive_sha256": "fd0142d8e2d4316c5184c2d8b889a16e8b8579ab88eaed5dae72f62c9f49b3f7",
+  "new_bytes": 327680,
+  "metadata": [
+    {
+      "key": "data_00037_DA2",
+      "sweep": 37,
+      "path": "/stimulus/presentation/data_00037_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00037_DA4",
+      "sweep": 37,
+      "path": "/stimulus/presentation/data_00037_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00037_DA5",
+      "sweep": 37,
+      "path": "/stimulus/presentation/data_00037_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00038_DA2",
+      "sweep": 38,
+      "path": "/stimulus/presentation/data_00038_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00038_DA4",
+      "sweep": 38,
+      "path": "/stimulus/presentation/data_00038_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00038_DA5",
+      "sweep": 38,
+      "path": "/stimulus/presentation/data_00038_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00039_DA2",
+      "sweep": 39,
+      "path": "/stimulus/presentation/data_00039_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00039_DA4",
+      "sweep": 39,
+      "path": "/stimulus/presentation/data_00039_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00039_DA5",
+      "sweep": 39,
+      "path": "/stimulus/presentation/data_00039_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00040_DA2",
+      "sweep": 40,
+      "path": "/stimulus/presentation/data_00040_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00040_DA4",
+      "sweep": 40,
+      "path": "/stimulus/presentation/data_00040_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00040_DA5",
+      "sweep": 40,
+      "path": "/stimulus/presentation/data_00040_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00041_DA2",
+      "sweep": 41,
+      "path": "/stimulus/presentation/data_00041_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00041_DA4",
+      "sweep": 41,
+      "path": "/stimulus/presentation/data_00041_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00041_DA5",
+      "sweep": 41,
+      "path": "/stimulus/presentation/data_00041_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00042_DA2",
+      "sweep": 42,
+      "path": "/stimulus/presentation/data_00042_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00042_DA4",
+      "sweep": 42,
+      "path": "/stimulus/presentation/data_00042_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00042_DA5",
+      "sweep": 42,
+      "path": "/stimulus/presentation/data_00042_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00043_DA2",
+      "sweep": 43,
+      "path": "/stimulus/presentation/data_00043_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00043_DA4",
+      "sweep": 43,
+      "path": "/stimulus/presentation/data_00043_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00043_DA5",
+      "sweep": 43,
+      "path": "/stimulus/presentation/data_00043_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00044_DA2",
+      "sweep": 44,
+      "path": "/stimulus/presentation/data_00044_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00044_DA4",
+      "sweep": 44,
+      "path": "/stimulus/presentation/data_00044_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00044_DA5",
+      "sweep": 44,
+      "path": "/stimulus/presentation/data_00044_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00045_DA2",
+      "sweep": 45,
+      "path": "/stimulus/presentation/data_00045_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00045_DA4",
+      "sweep": 45,
+      "path": "/stimulus/presentation/data_00045_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00045_DA5",
+      "sweep": 45,
+      "path": "/stimulus/presentation/data_00045_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00046_DA2",
+      "sweep": 46,
+      "path": "/stimulus/presentation/data_00046_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00046_DA4",
+      "sweep": 46,
+      "path": "/stimulus/presentation/data_00046_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00046_DA5",
+      "sweep": 46,
+      "path": "/stimulus/presentation/data_00046_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00047_DA2",
+      "sweep": 47,
+      "path": "/stimulus/presentation/data_00047_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00047_DA4",
+      "sweep": 47,
+      "path": "/stimulus/presentation/data_00047_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00047_DA5",
+      "sweep": 47,
+      "path": "/stimulus/presentation/data_00047_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00048_DA2",
+      "sweep": 48,
+      "path": "/stimulus/presentation/data_00048_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00048_DA4",
+      "sweep": 48,
+      "path": "/stimulus/presentation/data_00048_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00048_DA5",
+      "sweep": 48,
+      "path": "/stimulus/presentation/data_00048_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00049_DA2",
+      "sweep": 49,
+      "path": "/stimulus/presentation/data_00049_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00049_DA4",
+      "sweep": 49,
+      "path": "/stimulus/presentation/data_00049_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00049_DA5",
+      "sweep": 49,
+      "path": "/stimulus/presentation/data_00049_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00050_DA2",
+      "sweep": 50,
+      "path": "/stimulus/presentation/data_00050_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00050_DA4",
+      "sweep": 50,
+      "path": "/stimulus/presentation/data_00050_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00050_DA5",
+      "sweep": 50,
+      "path": "/stimulus/presentation/data_00050_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00051_DA2",
+      "sweep": 51,
+      "path": "/stimulus/presentation/data_00051_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00051_DA4",
+      "sweep": 51,
+      "path": "/stimulus/presentation/data_00051_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00051_DA5",
+      "sweep": 51,
+      "path": "/stimulus/presentation/data_00051_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00052_DA2",
+      "sweep": 52,
+      "path": "/stimulus/presentation/data_00052_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00052_DA4",
+      "sweep": 52,
+      "path": "/stimulus/presentation/data_00052_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00052_DA5",
+      "sweep": 52,
+      "path": "/stimulus/presentation/data_00052_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00053_DA2",
+      "sweep": 53,
+      "path": "/stimulus/presentation/data_00053_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00053_DA4",
+      "sweep": 53,
+      "path": "/stimulus/presentation/data_00053_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00053_DA5",
+      "sweep": 53,
+      "path": "/stimulus/presentation/data_00053_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00054_DA2",
+      "sweep": 54,
+      "path": "/stimulus/presentation/data_00054_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00054_DA4",
+      "sweep": 54,
+      "path": "/stimulus/presentation/data_00054_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00054_DA5",
+      "sweep": 54,
+      "path": "/stimulus/presentation/data_00054_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00055_DA2",
+      "sweep": 55,
+      "path": "/stimulus/presentation/data_00055_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00055_DA4",
+      "sweep": 55,
+      "path": "/stimulus/presentation/data_00055_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00055_DA5",
+      "sweep": 55,
+      "path": "/stimulus/presentation/data_00055_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00056_DA2",
+      "sweep": 56,
+      "path": "/stimulus/presentation/data_00056_DA2",
+      "electrode": "electrode_2",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00056_DA4",
+      "sweep": 56,
+      "path": "/stimulus/presentation/data_00056_DA4",
+      "electrode": "electrode_4",
+      "unit": "A",
+      "rate": 100000.0
+    },
+    {
+      "key": "data_00056_DA5",
+      "sweep": 56,
+      "path": "/stimulus/presentation/data_00056_DA5",
+      "electrode": "electrode_5",
+      "unit": "A",
+      "rate": 100000.0
+    }
+  ],
+  "analysis": {
+    "rows": [
+      {
+        "key": "data_00037_DA2",
+        "sweep": 37,
+        "path": "/stimulus/presentation/data_00037_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00037_DA4",
+        "sweep": 37,
+        "path": "/stimulus/presentation/data_00037_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00037_DA5",
+        "sweep": 37,
+        "path": "/stimulus/presentation/data_00037_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00038_DA2",
+        "sweep": 38,
+        "path": "/stimulus/presentation/data_00038_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00038_DA4",
+        "sweep": 38,
+        "path": "/stimulus/presentation/data_00038_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00038_DA5",
+        "sweep": 38,
+        "path": "/stimulus/presentation/data_00038_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00039_DA2",
+        "sweep": 39,
+        "path": "/stimulus/presentation/data_00039_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00039_DA4",
+        "sweep": 39,
+        "path": "/stimulus/presentation/data_00039_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00039_DA5",
+        "sweep": 39,
+        "path": "/stimulus/presentation/data_00039_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00040_DA2",
+        "sweep": 40,
+        "path": "/stimulus/presentation/data_00040_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00040_DA4",
+        "sweep": 40,
+        "path": "/stimulus/presentation/data_00040_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00040_DA5",
+        "sweep": 40,
+        "path": "/stimulus/presentation/data_00040_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00041_DA2",
+        "sweep": 41,
+        "path": "/stimulus/presentation/data_00041_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00041_DA4",
+        "sweep": 41,
+        "path": "/stimulus/presentation/data_00041_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00041_DA5",
+        "sweep": 41,
+        "path": "/stimulus/presentation/data_00041_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00042_DA2",
+        "sweep": 42,
+        "path": "/stimulus/presentation/data_00042_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00042_DA4",
+        "sweep": 42,
+        "path": "/stimulus/presentation/data_00042_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00042_DA5",
+        "sweep": 42,
+        "path": "/stimulus/presentation/data_00042_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00043_DA2",
+        "sweep": 43,
+        "path": "/stimulus/presentation/data_00043_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00043_DA4",
+        "sweep": 43,
+        "path": "/stimulus/presentation/data_00043_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00043_DA5",
+        "sweep": 43,
+        "path": "/stimulus/presentation/data_00043_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00044_DA2",
+        "sweep": 44,
+        "path": "/stimulus/presentation/data_00044_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00044_DA4",
+        "sweep": 44,
+        "path": "/stimulus/presentation/data_00044_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00044_DA5",
+        "sweep": 44,
+        "path": "/stimulus/presentation/data_00044_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00045_DA2",
+        "sweep": 45,
+        "path": "/stimulus/presentation/data_00045_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00045_DA4",
+        "sweep": 45,
+        "path": "/stimulus/presentation/data_00045_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00045_DA5",
+        "sweep": 45,
+        "path": "/stimulus/presentation/data_00045_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00046_DA2",
+        "sweep": 46,
+        "path": "/stimulus/presentation/data_00046_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00046_DA4",
+        "sweep": 46,
+        "path": "/stimulus/presentation/data_00046_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00046_DA5",
+        "sweep": 46,
+        "path": "/stimulus/presentation/data_00046_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00047_DA2",
+        "sweep": 47,
+        "path": "/stimulus/presentation/data_00047_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00047_DA4",
+        "sweep": 47,
+        "path": "/stimulus/presentation/data_00047_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00047_DA5",
+        "sweep": 47,
+        "path": "/stimulus/presentation/data_00047_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00048_DA2",
+        "sweep": 48,
+        "path": "/stimulus/presentation/data_00048_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00048_DA4",
+        "sweep": 48,
+        "path": "/stimulus/presentation/data_00048_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00048_DA5",
+        "sweep": 48,
+        "path": "/stimulus/presentation/data_00048_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00049_DA2",
+        "sweep": 49,
+        "path": "/stimulus/presentation/data_00049_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00049_DA4",
+        "sweep": 49,
+        "path": "/stimulus/presentation/data_00049_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00049_DA5",
+        "sweep": 49,
+        "path": "/stimulus/presentation/data_00049_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00050_DA2",
+        "sweep": 50,
+        "path": "/stimulus/presentation/data_00050_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00050_DA4",
+        "sweep": 50,
+        "path": "/stimulus/presentation/data_00050_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00050_DA5",
+        "sweep": 50,
+        "path": "/stimulus/presentation/data_00050_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00051_DA2",
+        "sweep": 51,
+        "path": "/stimulus/presentation/data_00051_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00051_DA4",
+        "sweep": 51,
+        "path": "/stimulus/presentation/data_00051_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00051_DA5",
+        "sweep": 51,
+        "path": "/stimulus/presentation/data_00051_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00052_DA2",
+        "sweep": 52,
+        "path": "/stimulus/presentation/data_00052_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00052_DA4",
+        "sweep": 52,
+        "path": "/stimulus/presentation/data_00052_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00052_DA5",
+        "sweep": 52,
+        "path": "/stimulus/presentation/data_00052_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00053_DA2",
+        "sweep": 53,
+        "path": "/stimulus/presentation/data_00053_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00053_DA4",
+        "sweep": 53,
+        "path": "/stimulus/presentation/data_00053_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00053_DA5",
+        "sweep": 53,
+        "path": "/stimulus/presentation/data_00053_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00054_DA2",
+        "sweep": 54,
+        "path": "/stimulus/presentation/data_00054_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00054_DA4",
+        "sweep": 54,
+        "path": "/stimulus/presentation/data_00054_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00054_DA5",
+        "sweep": 54,
+        "path": "/stimulus/presentation/data_00054_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00055_DA2",
+        "sweep": 55,
+        "path": "/stimulus/presentation/data_00055_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00055_DA4",
+        "sweep": 55,
+        "path": "/stimulus/presentation/data_00055_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00055_DA5",
+        "sweep": 55,
+        "path": "/stimulus/presentation/data_00055_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      },
+      {
+        "key": "data_00056_DA2",
+        "sweep": 56,
+        "path": "/stimulus/presentation/data_00056_DA2",
+        "electrode": "electrode_2",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00056_DA4",
+        "sweep": 56,
+        "path": "/stimulus/presentation/data_00056_DA4",
+        "electrode": "electrode_4",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        }
+      },
+      {
+        "key": "data_00056_DA5",
+        "sweep": 56,
+        "path": "/stimulus/presentation/data_00056_DA5",
+        "electrode": "electrode_5",
+        "unit": "A",
+        "rate": 100000.0,
+        "baseline": {
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "range": 0.0,
+          "transition_indices": [],
+          "constant": true
+        },
+        "event": {
+          "minimum": 0.0,
+          "maximum": 1.9999999920083944e-09,
+          "range": 1.9999999920083944e-09,
+          "transition_indices": [
+            1000,
+            1151
+          ],
+          "constant": false
+        }
+      }
+    ],
+    "edges": [
+      {
+        "sweep": 37,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.3050000000000002,
+        "command_end_relative_spike_ms": 0.20499999999999946
+      },
+      {
+        "sweep": 38,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.185,
+        "command_end_relative_spike_ms": 0.32499999999999957
+      },
+      {
+        "sweep": 39,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.2850000000000001,
+        "command_end_relative_spike_ms": 0.2249999999999995
+      },
+      {
+        "sweep": 40,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.245,
+        "command_end_relative_spike_ms": 0.2649999999999996
+      },
+      {
+        "sweep": 41,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.2650000000000001,
+        "command_end_relative_spike_ms": 0.24499999999999955
+      },
+      {
+        "sweep": 42,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.2950000000000002,
+        "command_end_relative_spike_ms": 0.21499999999999947
+      },
+      {
+        "sweep": 43,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.2750000000000001,
+        "command_end_relative_spike_ms": 0.23499999999999954
+      },
+      {
+        "sweep": 44,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.2950000000000002,
+        "command_end_relative_spike_ms": 0.21499999999999947
+      },
+      {
+        "sweep": 45,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.1250000000000002,
+        "command_end_relative_spike_ms": 0.3849999999999995
+      },
+      {
+        "sweep": 46,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.085,
+        "command_end_relative_spike_ms": 0.4249999999999996
+      },
+      {
+        "sweep": 47,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.1350000000000002,
+        "command_end_relative_spike_ms": 0.37499999999999944
+      },
+      {
+        "sweep": 48,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.165,
+        "command_end_relative_spike_ms": 0.3449999999999996
+      },
+      {
+        "sweep": 49,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.1450000000000002,
+        "command_end_relative_spike_ms": 0.36499999999999944
+      },
+      {
+        "sweep": 50,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.1450000000000002,
+        "command_end_relative_spike_ms": 0.36499999999999944
+      },
+      {
+        "sweep": 51,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.1350000000000002,
+        "command_end_relative_spike_ms": 0.37499999999999944
+      },
+      {
+        "sweep": 52,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.1350000000000002,
+        "command_end_relative_spike_ms": 0.37499999999999944
+      },
+      {
+        "sweep": 53,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.1350000000000002,
+        "command_end_relative_spike_ms": 0.37499999999999944
+      },
+      {
+        "sweep": 54,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.095,
+        "command_end_relative_spike_ms": 0.4149999999999996
+      },
+      {
+        "sweep": 55,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.1450000000000002,
+        "command_end_relative_spike_ms": 0.36499999999999944
+      },
+      {
+        "sweep": 56,
+        "command_start_s": 0.0,
+        "command_end_s": 0.0015099999999999996,
+        "max_slope_after_command_ms": 1.1350000000000002,
+        "command_end_relative_spike_ms": 0.37499999999999944
+      }
+    ],
+    "summary": {
+      "command_channels": 60,
+      "changing_baseline_channels": 0,
+      "changing_event_channels": 20,
+      "changing_event_electrodes": [
+        "electrode_5"
+      ],
+      "spike_delay_ms": [
+        1.085,
+        1.3050000000000002
+      ],
+      "command_end_relative_spike_ms": [
+        0.20499999999999946,
+        0.4249999999999996
+      ]
+    }
+  }
+}

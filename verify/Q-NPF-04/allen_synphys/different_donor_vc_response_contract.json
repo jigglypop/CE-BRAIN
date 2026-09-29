@@ -1,0 +1,17 @@
+{
+  "question": "다른 donor의 동일 VC조건10시행에서 초기·반복 전류 변화가 같은 시행의 자극 전 변동과 어떠한 관계인가?",
+  "selection": "조건 재고의 VC/VC 전부10시행0..9, 각12pulse. 결과·크기로 제외하지 않음. mouse donor581866, experiment4251, pair116053.",
+  "measurement": "NWB current(A), spike center=기존DB first_spike_time; 평균[1,5)ms - 평균[-8,-3)ms, sample index 반올림. 무필터·무PSP적합. 음수는 inward 전류 변화.",
+  "rationale": "앞선 VC 원전류 측정의 [1,5)ms와[-8,-3)ms 창을 재사용. IC의 전압 창과 다른 추정량.",
+  "controls": "동일 시행 중심 .1+.025*i초 i0..16 같은 창17개; .08..53초 전후 명령 상수 확인, 실제 전후 창에서 후세포 명령 상수 확인.",
+  "identity": "동일 remoteETag; NWB electrode_name=DB device.4채널 단위 A,V,A,V와 시간·rate·길이 일치; 실제 전세포 command12 pulse 시작·길이를DB1sample이내 대조.",
+  "output": "120개 원값과 대조차이,12pulse별10반복 평균·중앙값·inward개수·대조범위안개수. 첫/회복 첫 반응도 별도 표시.",
+  "biological_model": "막전류 관측. 통제전압·접근저항·자발입력·명령artifact와 시냅스전류를 완전히 분리하지 않음.",
+  "ce_delta": "없음; 제작자PSC kinetics가 없어도 원전류 기술은 가능하나 기존 적합의 대체나 인과 증거 아님.",
+  "split": "개발 재분석;10반복은 한 개체 한 연결이며 독립 개체 확인 아님.",
+  "falsifier": "반응 방향 혼재 또는 대조변동과 겹치면 이 고정 창이 전달을 명확히 분리했다는 해석을 하지 않음. 범위는 유의성검정이 아님.",
+  "limits": "DB spike시각의독립정답미확인; laterbaseline혼입가능; IC와합치지않음; 비율·STP적합·창튜닝안함; L1기술상한, 통합사슬L0.",
+  "source_sha256": "7279869eac3e6da12e71ce215bbeb70780b64522ebd509fa610320c06be0be6f",
+  "code_sha256": "b62c741f00d15eeb2e53449152021b96dde724fdea51ca0c46c26ec0e209b2cd",
+  "reader_sha256": "5aa32fce7a19372183cf304ecf70bcd1d168dc723ffcffbc74f0711d83db50ae"
+}

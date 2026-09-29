@@ -1,0 +1,30 @@
+{
+  "question": "원래 시각 사용과 보존 시행 추가가 세션별 반응 대비를 바꾸는가",
+  "code_sha256": "7789e5599cd999236ed813eac3c9ead1bc5aa3dc10ae0af90a8dd2f362590949",
+  "parents": {
+    "rowland_native_clock_audit_result.json": "ccebee90cdd9cd07ae9e092e7a01272518cfc189ac3e8e20fa366d6903e91c64",
+    "rowland_prestate_adjustment_result.json": "810c432e5ad92d33422d82e43fb39e26b2747caa5db0f777465d3b7e6e7ccb4b"
+  },
+  "dependencies": {
+    "rowland_sessions.py": "5a13bbc21db29ebea59771e0f699ae4e8ed74babda97bff5211332a43b9e79ba",
+    "rowland_symbolic_reader.py": "b7118ef37144ec79863a70945ea9d757a8600085f2af08b5ec3127d263c9ee73",
+    "rowland_prestate_adjustment.py": "859da218fd0026db784dee47be4f402b94ad6a4a3b0c5c708a786cbd1496627f"
+  },
+  "groups": [
+    "기존 유한 행동시각 집합",
+    "같은 집합에서 원래 시각 사용",
+    "전체 보존 catch/test에서 원래 시각 사용"
+  ],
+  "time": "원래 획득 sample 값; 선형 표준화 공변량으로만 사용, 초 단위 임계값 없음",
+  "endpoint": "기존 명목 pre[180:225], post[285:330] S2 세포 평균 변화",
+  "models": [
+    "무보정",
+    "시각+S1 pre+S2 pre 보정"
+  ],
+  "selection": "모든 11세션 보고; 행동 라벨로 추가 제외하지 않음",
+  "limits": [
+    "사후 기술적 대비; 인과효과나 독립 검증 아님",
+    "실제 프레임 정렬 독립 확인 불가"
+  ],
+  "claim_ceiling": "BIO_EVIDENCE_L1"
+}

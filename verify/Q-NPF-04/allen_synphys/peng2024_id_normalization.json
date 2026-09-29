@@ -1,0 +1,20 @@
+{
+  "archive_sha256": "3711f8b8b911a24b0e5fd69e6e6c845f9e8601539807a9b960118c77ba5ad68d",
+  "rule": "Remove ASCII spaces from cell table IDs only; require no collisions and exact patient/cluster agreement",
+  "cohorts": {
+    "er": {
+      "cell_rows": 1168,
+      "changed_ids": 1104,
+      "connection_rows_checked": 7200,
+      "unmatched": 0,
+      "collisions": 0
+    },
+    "tr": {
+      "cell_rows": 337,
+      "changed_ids": 0,
+      "connection_rows_checked": 1916,
+      "unmatched": 0,
+      "collisions": 0
+    }
+  }
+}

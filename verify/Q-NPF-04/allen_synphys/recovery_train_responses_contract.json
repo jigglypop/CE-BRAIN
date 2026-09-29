@@ -1,0 +1,31 @@
+{
+  "question": "Do fixed-window contrasts evolve across all12 pulses, separating initial8 and recovery4?",
+  "selection": "All sweeps37..56 and all12 pulses; no outcome selection; one experiment.",
+  "command": "Positive command intervals above half global positive maximum; require12 contiguous pulses and onset matches inventory within1 sample.",
+  "response": "Same prior windows relative to unique finite max-slope spike: [2,8)ms minus[-8,-3)ms; retain both targets and their difference.",
+  "detector": "Pinned neuroanalysis IC detector defaults; local[-10,+12)ms trace around each actual command onset; report missing/multiple.",
+  "endpoint": "Pulse-index counts, mean/median contrasts; recovery onset interval per sweep. No division by noisy first response, STP fit or causal claim.",
+  "limits": "Later-pulse baseline can contain residual prior responses; no deconvolution. Recovery intervals not randomized. Independent spike truth absent.",
+  "inventory_sha256": "fdf5d0b30b5dee6242b940c57c6523ff5e6c963f3b1c0dfe84343ca89e61ff84",
+  "target_receipt_sha256": "b7b867e17595435604c02cefb85f7bb8e077d826721fb2579f1f2837c8d53203",
+  "source_manifest": {
+    "repository": "https://github.com/campagnola/neuroanalysis",
+    "commit": "bbe61c4047de592984b4e7089d0803a7d4101c7f",
+    "files": {
+      "neuroanalysis/__init__.py": "27e8febb48ada44153ea2add9969a2c50a9831a74d9755fdd53c549a888b1cc2",
+      "neuroanalysis/data.py": "0699a12ed400961f7bf941dfa57ce5ddc7ff4e43ec5acae7dd034877c21ae418",
+      "neuroanalysis/stats.py": "4c1affb469a017bb5e7c8899acb3284af840f58ced9d64d0bc2831093f14d3ae",
+      "neuroanalysis/units.py": "7a02a8eeed1ee8f640a201a7cb1ed51c0722f34c3a6bb4c447100f171dd7fdb4",
+      "neuroanalysis/baseline.py": "4f5e14d5e8e607b424903e17bc13b4eb5d0dbe9316a2f5cbc248a32f8d37062a",
+      "neuroanalysis/event_detection.py": "aec6726e5d85b516ab75464d69057cacec1c09fa9a2ce88c54fde8bbb3e616cf",
+      "neuroanalysis/filter.py": "3cffa8ca5f11d352ecf99e040aa79094100e47245c87bf886faed07f6fc74eb1",
+      "neuroanalysis/spike_detection.py": "b6db5640912710b3609f243229f81aa8c59109747737f00c14138402613c90d4",
+      "neuroanalysis/util/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "neuroanalysis/util/data_test.py": "f76a02f3d47329a650734f19192007013449165a81c23b7f537ac2b027dcf7d9",
+      "neuroanalysis/util/optional_import.py": "8c83fba926d9deef2ada057d9222bc033b701948e64f410d716d45c3d766f3ad"
+    },
+    "scope": "Reference detector runtime source; historical DB producer commit unverified"
+  },
+  "code_sha256": "6fa75711f8b4ba6825c248e20f767ebea06d9f2db55b2c7442b3931d852c6ef1",
+  "reader_sha256": "5aa32fce7a19372183cf304ecf70bcd1d168dc723ffcffbc74f0711d83db50ae"
+}

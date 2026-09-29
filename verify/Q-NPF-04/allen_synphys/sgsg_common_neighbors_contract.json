@@ -1,0 +1,26 @@
+{
+  "question": "Does reciprocal residual concentrate in pairs sharing presynaptic or postsynaptic neighbors?",
+  "scope": "Same347selected23Pcells only; all60031unordered nonselfdyads; neighbors outside population unobserved",
+  "common_inputs": "sum_k Aki*Akj",
+  "common_outputs": "sum_k Aik*Ajk",
+  "endpoint_exclusion": "Diagonal A=0 makes k=i,j terms zero; direct dyad edges do not enter its common-neighbor count",
+  "groups": [
+    "0",
+    "1",
+    "2-3",
+    "4+"
+  ],
+  "distance_bins_um": [
+    50,
+    100,
+    200,
+    400,
+    800
+  ],
+  "design": "After seeing global residual, fixed these descriptive strata before new calculation; no new fits, draws, or parameter selection",
+  "comparison": "Compute graph-specific strata anew for observed and64generatedgraphs; report opportunities, mutual, fitted expectation and residual; differing strata memberships are not matched causal groups",
+  "caveats": "Existing fitted probabilities are plug-in references, not a conditional likelihood given strata. Fitting uses wholegraph; overlapping dyads/neighbor paths are dependent. No pvalue or independent heldout prediction.",
+  "code_sha256": "103b3da045d2a7f5c11d4adc49f6eaf839088e3311e8935251ce7b47958539f0",
+  "prior_sha256": "61288fddea97b44934a4d6e4d84a312b682f9166d2ac0edc6b681af20b5cbb0b",
+  "location_sha256": "6f6ad8af022028fb6724a0f3b9deec864d059f4d435f93059a99adee29db1a8c"
+}

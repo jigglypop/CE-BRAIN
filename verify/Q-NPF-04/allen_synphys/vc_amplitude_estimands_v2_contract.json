@@ -1,0 +1,23 @@
+{
+  "supersedes": "v1은 fit_rise_power NULL로 비교 전 중단. 공개 저장 루프가 이 열을 기록하지 않고 fit_psp가 2로 고정함을 확인했다. v2는 이 조건을 명시하며 유효 영역 위반도 별도 보고한다. 재적합과 기준 완화는 없다.",
+  "question": "같은 VC 자료의 고정 구간 대비와 제작자 적합 진폭은 같은 양인가?",
+  "objective": "연결 강도 추론에서 측정 정의 혼동을 제거한다. CE 항의 생물학적 검정은 아니다.",
+  "selection": "pair121538의 기존 두 VC 그룹, 각60반응 전부. 첫 자극은 별도 기술.",
+  "method": "저장 평균과 저장 fit 매개변수를 고정한다. 공개 Psp/StackedPsp 수치 함수로 곡선만 평가하며 재적합하지 않는다.",
+  "contrast": "기존 함수 그대로 평균[1,5)ms - 평균[-8,-3)ms. 평균 파형에서는 t0를 뺀 좌표를 사용한다.",
+  "decomposition": "관측 대비=전체 적합 대비+잔차 대비; 전체 적합 대비=PSP 성분 대비+지수 기준선 대비. amp의 정점 해석은 rise_time<rise_power*decay_tau에서만 유효하다. 영역 밖은 소스의 clipping을 그대로 평가하고 실제 극값도 기록한다.",
+  "gates": "분모60·ID 일치·유한값·성분 선형합 오차<1e-10pA·정점과 amp 일치·상수 이동 불변 검사. 임의 임계값으로 생물 양성/음성 판정하지 않는다.",
+  "limits": "수동 초기 지연 ±100us, 알려진 흥분성 VC의 음수 부호, 상승·감쇠 모델에 조건부. 시행 순서 혼합은 첫 자극 연결강도와 다르다. 기존 QC를 변경하지 않는다. L0 정의·계산 감사.",
+  "code_sha256": "d1886972aae2e43e74a84889f6365e6215837e929f4be9fa2940dcc8e41b1306",
+  "db_sha256": "7372499fdd874f057565080d5769baaf2659ef39d9f3bc3c7147dd1e1c280a53",
+  "inputs": {
+    "source_snapshots/allen971__neuroanalysis__fitting__psp.py": "a9d72f690d635b6f901d15e08e647dd6afc709ac20fe59c81ae95317b79030fe",
+    "qc_sources/avg_response_fit.py": "bf14570a605082d4943e941c0c0b1c7c8ed2584076342f447313414472ae957a",
+    "producer_average_membership_result.json": "4fe98572dcd39e1eb74b698b41ae836209ed02fe093fe22e56d5ee9846008b55",
+    "next_donor_vc_response_result.json": "930a39eb961eff266ee17840c87473ae592a944415738778475b80061e48aba1",
+    "next_donor_recording_inventory_result.json": "0ae0a765466acad500d300b5009c81649903544473b0d5b94650f700d78f476a",
+    "different_donor_vc_response.py": "b62c741f00d15eeb2e53449152021b96dde724fdea51ca0c46c26ec0e209b2cd",
+    "producer_vc_average_reconstruction_v2_result.json": "0ce60ac95341bb1467aa0db756a38c9e2b781d4c605998d951cb44bcb88ddad6",
+    "source_snapshots/aisynphys__pipeline__multipatch__synapse.py": "7b00d89b0e34894af68ca6421553440aa9e94489deebe02cb7d0b6caa8a98f13"
+  }
+}

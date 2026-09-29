@@ -1,0 +1,65 @@
+{
+  "note": "A8 위약: 학습 없음",
+  "rows": [
+    {
+      "case": "학습 없음 (late=early)",
+      "selection": "pooled",
+      "n_rep": 60,
+      "gate_pass": 0.933,
+      "support(excl0 & CI98 contains 1)": 0.683,
+      "reject_meanonly(excl0)": 0.783,
+      "K1_fires(excl1)": 0.133,
+      "lam_median": 1.177,
+      "lam_q05": 0.461,
+      "lam_q95": 1.753
+    },
+    {
+      "case": "학습 없음 (late=early)",
+      "selection": "halfA",
+      "n_rep": 60,
+      "gate_pass": 0.05,
+      "support(excl0 & CI98 contains 1)": 0.017,
+      "reject_meanonly(excl0)": 0.033,
+      "K1_fires(excl1)": 0.017,
+      "lam_median": 1.822,
+      "lam_q05": 0.677,
+      "lam_q95": 2.901
+    },
+    {
+      "case": "미세 학습 gain=1.03",
+      "selection": "pooled",
+      "n_rep": 60,
+      "gate_pass": 0.983,
+      "support(excl0 & CI98 contains 1)": 0.717,
+      "reject_meanonly(excl0)": 0.8,
+      "K1_fires(excl1)": 0.083,
+      "lam_median": 1.065,
+      "lam_q05": 0.459,
+      "lam_q95": 1.83
+    },
+    {
+      "case": "카드 참 세계",
+      "selection": "pooled",
+      "n_rep": 60,
+      "gate_pass": 1.0,
+      "support(excl0 & CI98 contains 1)": 0.95,
+      "reject_meanonly(excl0)": 1.0,
+      "K1_fires(excl1)": 0.05,
+      "lam_median": 0.985,
+      "lam_q05": 0.776,
+      "lam_q95": 1.241
+    },
+    {
+      "case": "카드 참 세계",
+      "selection": "halfA",
+      "n_rep": 60,
+      "gate_pass": 1.0,
+      "support(excl0 & CI98 contains 1)": 0.917,
+      "reject_meanonly(excl0)": 1.0,
+      "K1_fires(excl1)": 0.083,
+      "lam_median": 1.007,
+      "lam_q05": 0.767,
+      "lam_q95": 1.265
+    }
+  ]
+}

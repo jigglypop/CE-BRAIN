@@ -1,0 +1,19 @@
+{
+  "code_sha256": "4018d75a488548eaf1fe7b4610b0107381ff299d5c26ee2440aaf7738cef4b39",
+  "inputs": {
+    "icms_catch_wheel_coupling_result.json": "b20f73bdc2307d99c1801eb40e4ad2d9fd36de3f0a1f488700017d74c78c0bf9",
+    "icms_supported_interval_result.json": "8089bfe75a92a46bc555ea34dd2001d73f52af71d7ff90a43929d6f122d86492",
+    "icms98_next_session_result.json": "347698997dc60d0a0f00bca539a7978ec990c2882da5e3caec57d7401217aa70"
+  },
+  "status": "EXPLORATORY_BOTH_SESSIONS_PREVIOUSLY_OBSERVED",
+  "objective": "Distinguish repeated association sign from portable firing magnitude in ICMS98 catch trials.",
+  "models": [
+    "constant training mean",
+    "OLS intercept plus log1p(post-window processed wheel TV)"
+  ],
+  "target": "Mean-unit post minus pre firing Hz in same no-response good catch trials; preserve both anchors.",
+  "train": "2023-10-20 only. Leave one original block out internally, then fit all31 development catches.",
+  "evaluation": "Apply frozen development coefficients to36 catches on2023-10-24; report MSE MAE mean residual variance and development TV-range support. No target refit or offset correction.",
+  "gate": "Descriptive improvement only if smaller MSE than training-mean baseline on both development block-CV and later-session transfer for both anchors.",
+  "limits": "Post-window wheel is concurrent outcome information, not a prospective predictor or causal adjustment. Arbitrary wheel units and unit populations may drift. No L2 or causal promotion."
+}

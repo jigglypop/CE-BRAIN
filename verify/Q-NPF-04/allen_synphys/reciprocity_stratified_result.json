@@ -1,0 +1,62 @@
+{
+  "contract_sha256": "bbc6fa412f03e48009eed5234f1b3001c81a12bb03a0e90137ea87d0dc79a3eb",
+  "analysis": {
+    "experiment": {
+      "strata_count": 3113,
+      "species": {
+        "mouse": {
+          "dyads": 34949,
+          "observed": 537,
+          "expected": 248.28227114905752,
+          "dyads_with_any_movable_direction": 15904,
+          "dyads_with_both_movable_directions": 15904
+        },
+        "human": {
+          "dyads": 5924,
+          "observed": 61,
+          "expected": 22.306814146511208,
+          "dyads_with_any_movable_direction": 3409,
+          "dyads_with_both_movable_directions": 3409
+        }
+      }
+    },
+    "experiment+ordered nonsynaptic cell classes": {
+      "strata_count": 11556,
+      "species": {
+        "mouse": {
+          "dyads": 34949,
+          "observed": 537,
+          "expected": 327.26459351222263,
+          "dyads_with_any_movable_direction": 9048,
+          "dyads_with_both_movable_directions": 7002
+        },
+        "human": {
+          "dyads": 5924,
+          "observed": 61,
+          "expected": 29.59736381166868,
+          "dyads_with_any_movable_direction": 2240,
+          "dyads_with_both_movable_directions": 1800
+        }
+      }
+    },
+    "experiment+ordered nonsynaptic cell classes+distance bins": {
+      "strata_count": 23531,
+      "species": {
+        "mouse": {
+          "dyads": 34949,
+          "observed": 537,
+          "expected": 405.71392246690687,
+          "dyads_with_any_movable_direction": 5319,
+          "dyads_with_both_movable_directions": 4068
+        },
+        "human": {
+          "dyads": 5924,
+          "observed": 61,
+          "expected": 40.410491857910245,
+          "dyads_with_any_movable_direction": 1348,
+          "dyads_with_both_movable_directions": 1047
+        }
+      }
+    }
+  }
+}

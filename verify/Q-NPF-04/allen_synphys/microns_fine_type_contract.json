@@ -1,0 +1,22 @@
+{
+  "question": "Does fixed local residual persist under finer metadata conditioning, and how much support remains?",
+  "scope": "all8 prior partition/threshold combinations; retain all337 blocks, no repartition or exclusion",
+  "nested_conditions": [
+    "old joint plus ordered (broad_type,cell_type) pair x existing distance bin counts",
+    "preceding condition refined with each endpoint strategy_axon and strategy_dendrite"
+  ],
+  "missing": "three selected cells with empty cell_type treated as explicit MISSING category; no imputation",
+  "endpoints": "exact old and new means, inclusive upper tails descriptive only, variable and unique graph counts, all metadata counts",
+  "interpretation": "post-hoc sensitivity, not cell-type causality or missing-synapse correction; strategy labels not completeness guarantees; loss of support is reported",
+  "gates": "new admissible set nested in old, observed included, every row root identity, source hashes, exact distribution bookkeeping",
+  "sources": {
+    "microns_disjoint_rows.json": "d902fe5b3452876b39ebc62b1cdc3902f126defc1c48fae50e763ddeadca487d",
+    "microns_disjoint_result.json": "82c8b5bb8ce6a93d5cb1f41f529816dba779fea66569ddaec073d78716856b9f",
+    "v1718_cell_info.csv": "1959b7b7eaad7501c6331551c3ed1e229b40ed3c339ff6273b6365009e33fb09",
+    "microns_structural_inventory_result.json": "ea1da5f217a80c99fd85d3f9168200de78d5c81846995a52f237d30ad156341f"
+  },
+  "code_sha256": "b9b9a87bf3ebf1fa8c98ec98c2589cc64e92fdf8b8318900a7f0cfc74677780b",
+  "enumeration_sha256": "4f1d26b1d50c6ea96b89d5d6f236edfdb99494d889f7b71772f66a59c1917af7",
+  "distribution_sha256": "0d9d682a68b27dd0c90b4ab270ed9e588da7772d8fa4f3afa7c77b72727af80e",
+  "base_sha256": "01fea4c3660b7624718ade5c8d88eeb5d81b72d10078de776eb0e88bc5ebcbb5"
+}

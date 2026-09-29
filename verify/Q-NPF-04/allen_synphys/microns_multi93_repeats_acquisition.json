@@ -1,0 +1,22 @@
+{
+  "shape": [
+    2,
+    6,
+    10,
+    78,
+    46
+  ],
+  "artifact_sha256": "146c27d12b72c3c4bf38fc7bc2ae5460630c9a6732d618492bdd2cb854aa05a6",
+  "all_finite": true,
+  "conditions": [
+    "5zQTb77qI+ig8rigx1XU",
+    "7UETOWO5Z8aWuHDBJ2GG",
+    "GjCMo2GkJp6y5vricadg",
+    "KXdTNAGMo1gCWz2Ge8zr",
+    "Oup5uAZxF2G7zEJkT+ui",
+    "ecUQJtcERZJGdqza1k7h"
+  ],
+  "same_condition_hashes_as_first": true,
+  "trial_start_min": 559.1535095794547,
+  "trial_start_max": 4894.865867815768
+}

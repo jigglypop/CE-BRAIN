@@ -1,0 +1,2347 @@
+{
+  "contract_sha256": "00e94255d82840e19a232171648b299f470fd304b19cf20c80d8d92c0c4c1076",
+  "new_bytes": 15728640,
+  "records": [
+    {
+      "path": "/acquisition/timeseries/data_00007_AD2",
+      "sweep": 7,
+      "electrode": "electrode_2",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4261.302000045776,
+      "device": 2,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/7_2.npz",
+      "array_sha256": "016de8f70a73052ca6ceb758e9155aaecf04fcf04979c6bc3ebf498d4356e1eb",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 0.75,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.75,
+            "end_s": 1.75,
+            "current_pA": -19.999999920083944
+          },
+          {
+            "start_s": 1.75,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -77.30625519772883,
+          -68.53750172947758
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 0.75,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": -2e-11
+        },
+        "start_index": 75000,
+        "stop_index": 175000,
+        "amplitude_max_error_A": 7.991605478493901e-20,
+        "amplitude_match": true,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -69.03750175322631,
+        "last_100ms_median_mV": -72.81250345840817,
+        "holding_current_A": -3.184948971224344e-10
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00007_AD8",
+      "sweep": 7,
+      "electrode": "electrode_4",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4261.302000045776,
+      "device": 4,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/7_4.npz",
+      "array_sha256": "4d04b058985d2da9649b3f41b898a73e6b3b40199d108a25340fae5ecd904d7f",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 2.65,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 2.65,
+            "end_s": 3.65,
+            "current_pA": -19.999999920083944
+          },
+          {
+            "start_s": 3.65,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -73.41250196102766,
+          -66.6250031645177
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 2.6500000000000004,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": -2e-11
+        },
+        "start_index": 265000,
+        "stop_index": 365000,
+        "amplitude_max_error_A": 7.991605478493901e-20,
+        "amplitude_match": true,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -68.31875171908752,
+        "last_100ms_median_mV": -72.63125192392027,
+        "holding_current_A": 4.335166774172006e-12
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00007_AD9",
+      "sweep": 7,
+      "electrode": "electrode_5",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4261.302000045776,
+      "device": 5,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/7_5.npz",
+      "array_sha256": "245a006d865c4f1103f86701726a77a8eb0b39d017749fa65771af810ebe2d09",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 4.55,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 4.55,
+            "end_s": 5.55,
+            "current_pA": -19.999999920083944
+          },
+          {
+            "start_s": 5.55,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -72.75000345543958,
+          -62.75000298046507
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 4.550000000000001,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": -2e-11
+        },
+        "start_index": 455000,
+        "stop_index": 555000,
+        "amplitude_max_error_A": 7.991605478493901e-20,
+        "amplitude_match": true,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -66.53125316006481,
+        "last_100ms_median_mV": -72.37500343762804,
+        "holding_current_A": -3.031270026654376e-11
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00008_AD2",
+      "sweep": 8,
+      "electrode": "electrode_2",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4269.634000301361,
+      "device": 2,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/8_2.npz",
+      "array_sha256": "32adac3edadc4a02d86210340156b9dfda5882a9baeb74e8224fd8e4b61136c3",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 0.75,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.75,
+            "end_s": 1.75,
+            "current_pA": 10.624999957544595
+          },
+          {
+            "start_s": 1.75,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -77.33124909540035,
+          -67.00000318232924
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 0.75,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": 1.0639707565307618e-11
+        },
+        "start_index": 75000,
+        "stop_index": 175000,
+        "amplitude_max_error_A": 1.470760776302247e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -69.36875482071781,
+        "last_100ms_median_mV": -67.53750168198013,
+        "holding_current_A": -3.184948971224344e-10
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00008_AD8",
+      "sweep": 8,
+      "electrode": "electrode_4",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4269.634000301361,
+      "device": 4,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/8_4.npz",
+      "array_sha256": "d3c77cd58427c0132a6c19fd273395d1d4f69b455db2ecff24e82913ec2b93ce",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 2.65,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 2.65,
+            "end_s": 3.65,
+            "current_pA": 9.249999963038825
+          },
+          {
+            "start_s": 3.65,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -73.35000195805907,
+          -64.37500305764843
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 2.6500000000000004,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": 9.310588836669922e-12
+        },
+        "start_index": 265000,
+        "stop_index": 365000,
+        "amplitude_max_error_A": 6.058887363109768e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -67.97500170276027,
+        "last_100ms_median_mV": -65.64374854027389,
+        "holding_current_A": 4.335166774172006e-12
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00008_AD9",
+      "sweep": 8,
+      "electrode": "electrode_5",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4269.634000301361,
+      "device": 5,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/8_5.npz",
+      "array_sha256": "648f5791f383ce1d0c767471564e1c9e1338bcb90744cf962983c264773f624b",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 4.55,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 4.55,
+            "end_s": 5.55,
+            "current_pA": 6.499999974027282
+          },
+          {
+            "start_s": 5.55,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -72.96875346582965,
+          -63.11875070916129
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 4.550000000000001,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": 6.534696578979492e-12
+        },
+        "start_index": 455000,
+        "stop_index": 555000,
+        "amplitude_max_error_A": 3.4696604952209865e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -65.70624854324248,
+        "last_100ms_median_mV": -63.831252268882196,
+        "holding_current_A": -3.031270026654376e-11
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00009_AD2",
+      "sweep": 9,
+      "electrode": "electrode_2",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4277.774000167847,
+      "device": 2,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/9_2.npz",
+      "array_sha256": "934390c0d1ab8d343173b41b9ef84c39af6273b23521ca16d801022e15238a18",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 0.75,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.75,
+            "end_s": 1.75,
+            "current_pA": -10.99999995604617
+          },
+          {
+            "start_s": 1.75,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -78.06875218218767,
+          -69.36875482071781
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 0.75,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": -1.0961733818054198e-11
+        },
+        "start_index": 75000,
+        "stop_index": 175000,
+        "amplitude_max_error_A": 3.826613799197071e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -70.13125180517665,
+        "last_100ms_median_mV": -72.34375343614374,
+        "holding_current_A": -3.184948971224344e-10
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00009_AD8",
+      "sweep": 9,
+      "electrode": "electrode_4",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4277.774000167847,
+      "device": 4,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/9_4.npz",
+      "array_sha256": "3250b1e205f49f5fa35d6d11ad2df04ee19991d67241375de42a508c72fb1139",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 2.65,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 2.65,
+            "end_s": 3.65,
+            "current_pA": -8.499999966035677
+          },
+          {
+            "start_s": 3.65,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -73.39374890837914,
+          -66.48749858034986
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 2.6500000000000004,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": -8.561270713806152e-12
+        },
+        "start_index": 265000,
+        "stop_index": 365000,
+        "amplitude_max_error_A": 6.127074777047625e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -67.51874862933161,
+        "last_100ms_median_mV": -69.79375026326728,
+        "holding_current_A": 4.335166774172006e-12
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00009_AD9",
+      "sweep": 9,
+      "electrode": "electrode_5",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4277.774000167847,
+      "device": 5,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/9_5.npz",
+      "array_sha256": "f596778f227bf7a81eff47ce8252e5c9ae7ab9624fd356fdc933a88908aee044",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 4.55,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 4.55,
+            "end_s": 5.55,
+            "current_pA": -6.99999997202938
+          },
+          {
+            "start_s": 5.55,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -71.4937549216499,
+          -64.3812515320663
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 4.550000000000001,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": -7.019431591033935e-12
+        },
+        "start_index": 455000,
+        "stop_index": 555000,
+        "amplitude_max_error_A": 1.943161900455471e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -65.54375006140312,
+        "last_100ms_median_mV": -68.46250477767325,
+        "holding_current_A": -3.031270026654376e-11
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00010_AD2",
+      "sweep": 10,
+      "electrode": "electrode_2",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4285.884000301361,
+      "device": 2,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/10_2.npz",
+      "array_sha256": "23c9afdae01fccb602e366b67f170a69da67c717c70a67fbeedfdb773aa9ff14",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 0.75,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.75,
+            "end_s": 1.75,
+            "current_pA": -27.249999891114374
+          },
+          {
+            "start_s": 1.75,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -77.98749912657055,
+          -68.86875479696909
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 0.75,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": -2.7291513442993163e-11
+        },
+        "start_index": 75000,
+        "stop_index": 175000,
+        "amplitude_max_error_A": 4.151355187878922e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -69.47500177400644,
+        "last_100ms_median_mV": -74.78750202633665,
+        "holding_current_A": -3.184948971224344e-10
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00010_AD8",
+      "sweep": 10,
+      "electrode": "electrode_4",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4285.884000301361,
+      "device": 4,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/10_4.npz",
+      "array_sha256": "2c474df4258eef7cc11027afbe236004e927baf3420f29142c35c63f74e2546f",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 2.65,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 2.65,
+            "end_s": 3.65,
+            "current_pA": -21.24999991508919
+          },
+          {
+            "start_s": 3.65,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -73.26874890244196,
+          -66.18750314373756
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 2.6500000000000004,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": -2.1288585662841796e-11
+        },
+        "start_index": 265000,
+        "stop_index": 365000,
+        "amplitude_max_error_A": 3.858574775260532e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -68.04999865456463,
+        "last_100ms_median_mV": -72.45000038943239,
+        "holding_current_A": 4.335166774172006e-12
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00010_AD9",
+      "sweep": 10,
+      "electrode": "electrode_5",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4285.884000301361,
+      "device": 5,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/10_5.npz",
+      "array_sha256": "fcabdfc3b8f324c290b765bfaf6e80c611e9dc34db7c21d30efd15c46bbe4c87",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 4.55,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 4.55,
+            "end_s": 5.55,
+            "current_pA": -17.49999993007345
+          },
+          {
+            "start_s": 5.55,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -72.06250342278508,
+          -64.85625002874862
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 4.550000000000001,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": -1.7538980484008787e-11
+        },
+        "start_index": 455000,
+        "stop_index": 555000,
+        "amplitude_max_error_A": 3.8980553935336216e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -66.03750161073395,
+        "last_100ms_median_mV": -71.8187518853286,
+        "holding_current_A": -3.031270026654376e-11
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00011_AD2",
+      "sweep": 11,
+      "electrode": "electrode_2",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4294.0609998703,
+      "device": 2,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/11_2.npz",
+      "array_sha256": "7cca8a544139f9e6cebe9b0c25819f84f9f77d6c22696a7a1726d74a18d03e91",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 0.75,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.75,
+            "end_s": 1.75,
+            "current_pA": -53.62499978572507
+          },
+          {
+            "start_s": 1.75,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -80.4812507708963,
+          -69.29999871393645
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 0.75,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": -5.364761734008789e-11
+        },
+        "start_index": 75000,
+        "stop_index": 175000,
+        "amplitude_max_error_A": 2.261755436281304e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -69.9062533203687,
+        "last_100ms_median_mV": -80.28125381315476,
+        "holding_current_A": -3.184948971224344e-10
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00011_AD8",
+      "sweep": 11,
+      "electrode": "electrode_4",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4294.0609998703,
+      "device": 4,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/11_4.npz",
+      "array_sha256": "34693c6a4d44a00d6f709859a62b9a2035a72b64de595fe87b61ae45e7a4342b",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 2.65,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 2.65,
+            "end_s": 3.65,
+            "current_pA": -43.49999982618258
+          },
+          {
+            "start_s": 3.65,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -77.77500521999326,
+          -64.3250000035156
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 2.6500000000000004,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": -4.3513214111328126e-11
+        },
+        "start_index": 265000,
+        "stop_index": 365000,
+        "amplitude_max_error_A": 1.3214285145548074e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -67.2812531956879,
+        "last_100ms_median_mV": -77.02500518437017,
+        "holding_current_A": 4.335166774172006e-12
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00011_AD9",
+      "sweep": 11,
+      "electrode": "electrode_5",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4294.0609998703,
+      "device": 5,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/11_5.npz",
+      "array_sha256": "c356aed533f54733baa36f70f09b703050f91687d8b7e6fe7918e4fdf58edd5e",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 4.55,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 4.55,
+            "end_s": 5.55,
+            "current_pA": -34.12499986364323
+          },
+          {
+            "start_s": 5.55,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -77.08750518733876,
+          -64.9812500346858
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 4.550000000000001,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": -3.406705474853515e-11
+        },
+        "start_index": 455000,
+        "stop_index": 555000,
+        "amplitude_max_error_A": 5.794511510807642e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -65.91875007921466,
+        "last_100ms_median_mV": -76.10625056309495,
+        "holding_current_A": -3.031270026654376e-11
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00012_AD2",
+      "sweep": 12,
+      "electrode": "electrode_2",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4302.204999923706,
+      "device": 2,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/12_2.npz",
+      "array_sha256": "b580a70ca6ec7ec10b33f0f955b497104006ad1a3e0c6b2295ab1925bc0f3726",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 0.75,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.75,
+            "end_s": 1.75,
+            "current_pA": -78.62499968583
+          },
+          {
+            "start_s": 1.75,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -85.33750557919274,
+          -66.95000012819641
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 0.75,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": -7.85780029296875e-11
+        },
+        "start_index": 75000,
+        "stop_index": 175000,
+        "amplitude_max_error_A": 4.6996756142509785e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -70.16250180666094,
+        "last_100ms_median_mV": -82.98749936405781,
+        "holding_current_A": -3.184948971224344e-10
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00012_AD8",
+      "sweep": 12,
+      "electrode": "electrode_4",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4302.204999923706,
+      "device": 4,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/12_4.npz",
+      "array_sha256": "8b6ad589cef30f12df5aa974650b99988e5b8290cb159ea7800f7c728c6d6d88",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 2.65,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 2.65,
+            "end_s": 3.65,
+            "current_pA": -62.3749997507618
+          },
+          {
+            "start_s": 3.65,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -81.36875539068723,
+          -66.0875046648668
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 2.6500000000000004,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": -6.237020492553711e-11
+        },
+        "start_index": 265000,
+        "stop_index": 365000,
+        "amplitude_max_error_A": 4.79482522469382e-15,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -67.82500016975668,
+        "last_100ms_median_mV": -79.91250226976109,
+        "holding_current_A": 4.335166774172006e-12
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00012_AD9",
+      "sweep": 12,
+      "electrode": "electrode_5",
+      "stimulus": "Y2_TargetV_DA_0",
+      "unit": "V",
+      "samples": 675000,
+      "rate": 100000.0,
+      "start_s": 4302.204999923706,
+      "device": 5,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/12_5.npz",
+      "array_sha256": "bab0eb31b89d58aef5863985fa834f5507931e4fbbbc89a2d12f2dbcc0c59331",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 4.55,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 4.55,
+            "end_s": 5.55,
+            "current_pA": -53.12499978772298
+          },
+          {
+            "start_s": 5.55,
+            "end_s": 6.75,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -81.77500540998307,
+          -65.44375158253234
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 675000
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 4.550000000000001,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 1.0,
+          "amplitude": -5.306441116333008e-11
+        },
+        "start_index": 455000,
+        "stop_index": 555000,
+        "amplitude_max_error_A": 6.058862439289857e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -67.0375016582314,
+        "last_100ms_median_mV": -81.27500538623434,
+        "holding_current_A": -3.031270026654376e-11
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00090_AD2",
+      "sweep": 90,
+      "electrode": "electrode_2",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5267.029000282288,
+      "device": 2,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/90_2.npz",
+      "array_sha256": "2d0b1b6d69ebba00d72bd6c265be8409efb30129ee261f86d56bd18adf0d3327",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 0.525,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.525,
+            "end_s": 1.025,
+            "current_pA": 146.999999412617
+          },
+          {
+            "start_s": 1.025,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -74.76874897368813,
+          -11.581250740814731
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 0.525,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 1.47e-10
+        },
+        "start_index": 52500,
+        "stop_index": 102500,
+        "amplitude_max_error_A": 5.873830209254363e-19,
+        "amplitude_match": true,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -68.33750477173606,
+        "last_100ms_median_mV": -45.00000213738531,
+        "holding_current_A": -3.799107139990099e-10
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00090_AD8",
+      "sweep": 90,
+      "electrode": "electrode_4",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5267.029000282288,
+      "device": 4,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/90_4.npz",
+      "array_sha256": "06c7975acd4ba4a1bd52fb4d25716cd7cc344f4b78d48300b6859626aed51f3e",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 2.025,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 2.025,
+            "end_s": 2.525,
+            "current_pA": 62.99999974826442
+          },
+          {
+            "start_s": 2.525,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -72.27500495875728,
+          24.28125115329749
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 2.025,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 6.3e-11
+        },
+        "start_index": 202500,
+        "stop_index": 252500,
+        "amplitude_max_error_A": 2.517355785502303e-19,
+        "amplitude_match": true,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -67.31250319717219,
+        "last_100ms_median_mV": -40.18437576424616,
+        "holding_current_A": -3.752830945308316e-12
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00090_AD9",
+      "sweep": 90,
+      "electrode": "electrode_5",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5267.029000282288,
+      "device": 5,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/90_5.npz",
+      "array_sha256": "9a8524c43259cebacd6d7b114da157ce9935c03b7babe4ea8f4055d7f30e22c0",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 3.525,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 3.525,
+            "end_s": 4.025,
+            "current_pA": 94.49999962239663
+          },
+          {
+            "start_s": 4.025,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -72.15625342723797,
+          21.206250244303337
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 3.525,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 9.45e-11
+        },
+        "start_index": 352500,
+        "stop_index": 402500,
+        "amplitude_max_error_A": 3.776033613629969e-19,
+        "amplitude_match": true,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -67.02500470939566,
+        "last_100ms_median_mV": -41.006250421813384,
+        "holding_current_A": -6.662412288527264e-11
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00091_AD2",
+      "sweep": 91,
+      "electrode": "electrode_2",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5273.991000175476,
+      "device": 2,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/91_2.npz",
+      "array_sha256": "4527a26a116797506d8fdfcbbf42541acbf0cf1984aefe13544ae8d98e12df01",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 0.525,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.525,
+            "end_s": 1.025,
+            "current_pA": 176.3749992952403
+          },
+          {
+            "start_s": 1.025,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -75.63750054083052,
+          -7.8312500858621075
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 0.525,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 1.764e-10
+        },
+        "start_index": 52500,
+        "stop_index": 102500,
+        "amplitude_max_error_A": 2.500070475972487e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -69.26250023803426,
+        "last_100ms_median_mV": -43.48750130260592,
+        "holding_current_A": -3.799107139990099e-10
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00091_AD8",
+      "sweep": 91,
+      "electrode": "electrode_4",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5273.991000175476,
+      "device": 4,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/91_4.npz",
+      "array_sha256": "1342420b96a31d0c577a227ee9853ebeada3fafa3c2f09e3c1e561cd36a90b1f",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 2.025,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 2.025,
+            "end_s": 2.525,
+            "current_pA": 75.62499969781742
+          },
+          {
+            "start_s": 2.525,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -72.70624887572464,
+          25.050000426871666
+        ],
+        "zero_voltage_samples": 1,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 2.025,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 7.56e-11
+        },
+        "start_index": 202500,
+        "stop_index": 252500,
+        "amplitude_max_error_A": 2.499969781741067e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -67.37500320014078,
+        "last_100ms_median_mV": -44.00000208988786,
+        "holding_current_A": -3.752830945308316e-12
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00091_AD9",
+      "sweep": 91,
+      "electrode": "electrode_5",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5273.991000175476,
+      "device": 5,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/91_5.npz",
+      "array_sha256": "f7fd2a1533a42fd13f544febd74009a682aff1d8682d5d4f0fe76560314b6799",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 3.525,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 3.525,
+            "end_s": 4.025,
+            "current_pA": 113.37499954697586
+          },
+          {
+            "start_s": 4.025,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -72.07500037162085,
+          21.406251016742317
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 3.525,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 1.1339999999999999e-10
+        },
+        "start_index": 352500,
+        "stop_index": 402500,
+        "amplitude_max_error_A": 2.5000453024133396e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -66.94375165377852,
+        "last_100ms_median_mV": -43.64062707281846,
+        "holding_current_A": -6.662412288527264e-11
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00092_AD2",
+      "sweep": 92,
+      "electrode": "electrode_2",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5280.84600019455,
+      "device": 2,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/92_2.npz",
+      "array_sha256": "9a407a236ac6e28703b5c979db922b1d2e0732f712413acb729b44cc146813ab",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 0.525,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.525,
+            "end_s": 1.025,
+            "current_pA": 205.74999917786357
+          },
+          {
+            "start_s": 1.025,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -75.90625360535341,
+          -5.106250051798988
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 0.525,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 2.058e-10
+        },
+        "start_index": 52500,
+        "stop_index": 102500,
+        "amplitude_max_error_A": 5.0000822136428816e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -69.45624872135792,
+        "last_100ms_median_mV": -39.581251117069,
+        "holding_current_A": -3.799107139990099e-10
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00092_AD8",
+      "sweep": 92,
+      "electrode": "electrode_4",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5280.84600019455,
+      "device": 4,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/92_4.npz",
+      "array_sha256": "904ed5baa49541f8d1cbc1d49126bc48298c636f406cd9c7c52fb54cba27ea97",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 2.025,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 2.025,
+            "end_s": 2.525,
+            "current_pA": 88.2499996473704
+          },
+          {
+            "start_s": 2.525,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -72.97500194024752,
+          25.25625158107725
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 2.025,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 8.82e-11
+        },
+        "start_index": 202500,
+        "stop_index": 252500,
+        "amplitude_max_error_A": 4.999964737039989e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -67.11249861003577,
+        "last_100ms_median_mV": -38.375001822714694,
+        "holding_current_A": -3.752830945308316e-12
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00092_AD9",
+      "sweep": 92,
+      "electrode": "electrode_5",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5280.84600019455,
+      "device": 5,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/92_5.npz",
+      "array_sha256": "97d2111cd1914b7d7ec00c6cea8fba31f16c1f67eba8187d2e8bafa8f903b95a",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 3.525,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 3.525,
+            "end_s": 4.025,
+            "current_pA": 132.24999947155507
+          },
+          {
+            "start_s": 4.025,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -72.13750037458944,
+          21.868750657240142
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 3.525,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 1.323e-10
+        },
+        "start_index": 352500,
+        "stop_index": 402500,
+        "amplitude_max_error_A": 5.000052844491835e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -67.78125321943662,
+        "last_100ms_median_mV": -36.78125174701563,
+        "holding_current_A": -6.662412288527264e-11
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00093_AD2",
+      "sweep": 93,
+      "electrode": "electrode_2",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5287.697000026703,
+      "device": 2,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/93_2.npz",
+      "array_sha256": "89bedaa30c9d56a02d6ff07c8265a9537b67c7c0646916673a8ff099688c7c59",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 0.525,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.525,
+            "end_s": 1.025,
+            "current_pA": 235.2499990599874
+          },
+          {
+            "start_s": 1.025,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -75.968753608322,
+          -2.21875010538497
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 0.525,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 2.352e-10
+        },
+        "start_index": 52500,
+        "stop_index": 102500,
+        "amplitude_max_error_A": 4.999905998736604e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -69.4625048251707,
+        "last_100ms_median_mV": -35.181249382201244,
+        "holding_current_A": -3.799107139990099e-10
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00093_AD8",
+      "sweep": 93,
+      "electrode": "electrode_4",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5287.697000026703,
+      "device": 4,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/93_4.npz",
+      "array_sha256": "10ef1c57a0ca31b5a05fab4352c42c0a86ae646dc861c73d4d9f8c61263dbf76",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 2.025,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 2.025,
+            "end_s": 2.525,
+            "current_pA": 100.74999959742287
+          },
+          {
+            "start_s": 2.525,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -73.17499889798907,
+          25.043750045105064
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 2.025,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 1.008e-10
+        },
+        "start_index": 202500,
+        "stop_index": 252500,
+        "amplitude_max_error_A": 5.000040257713554e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -67.54375015639802,
+        "last_100ms_median_mV": -38.70625107550873,
+        "holding_current_A": -3.752830945308316e-12
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00093_AD9",
+      "sweep": 93,
+      "electrode": "electrode_5",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5287.697000026703,
+      "device": 5,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/93_5.npz",
+      "array_sha256": "9d803ed7eab4be305a8ccc1a891a5c48d782bb12ab4a3ea9db95e4059f8993bf",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 3.525,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 3.525,
+            "end_s": 4.025,
+            "current_pA": 151.24999939563483
+          },
+          {
+            "start_s": 4.025,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -72.64374887275605,
+          21.900000658724437
+        ],
+        "zero_voltage_samples": 1,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 3.525,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 1.512e-10
+        },
+        "start_index": 352500,
+        "stop_index": 402500,
+        "amplitude_max_error_A": 4.999939563482134e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -67.44375167752725,
+        "last_100ms_median_mV": -39.64375112003759,
+        "holding_current_A": -6.662412288527264e-11
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00094_AD2",
+      "sweep": 94,
+      "electrode": "electrode_2",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5294.532999992371,
+      "device": 2,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/94_2.npz",
+      "array_sha256": "c6f075125d78b5e3e684f44932eb5d8ec301bb0c6e36906c782ff8ad71223163",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 0.525,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.525,
+            "end_s": 1.025,
+            "current_pA": 264.62499894261066
+          },
+          {
+            "start_s": 1.025,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -75.63750054083052,
+          0.4750000166008246
+        ],
+        "zero_voltage_samples": 1,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 0.525,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 2.6460000000000005e-10
+        },
+        "start_index": 52500,
+        "stop_index": 102500,
+        "amplitude_max_error_A": 2.4998942610636245e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -68.83750479548479,
+        "last_100ms_median_mV": -31.768750745995167,
+        "holding_current_A": -3.799107139990099e-10
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00094_AD8",
+      "sweep": 94,
+      "electrode": "electrode_4",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5294.532999992371,
+      "device": 4,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/94_4.npz",
+      "array_sha256": "04aab1b054bb6456b7c45ebb0d9867ea7e4eefdc322935670bb22bc37adcad62",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 2.025,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 2.025,
+            "end_s": 2.525,
+            "current_pA": 113.37499954697586
+          },
+          {
+            "start_s": 2.525,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -73.03750194321611,
+          25.912501612247453
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 2.025,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 1.134e-10
+        },
+        "start_index": 202500,
+        "stop_index": 252500,
+        "amplitude_max_error_A": 2.500045302414632e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -66.96875318084494,
+        "last_100ms_median_mV": -35.83125093895356,
+        "holding_current_A": -3.752830945308316e-12
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00094_AD9",
+      "sweep": 94,
+      "electrode": "electrode_5",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5294.532999992371,
+      "device": 5,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/94_5.npz",
+      "array_sha256": "4eaf37cb7507d99f486c88cad967119fcaac56201f105abf344d7b02186c5749",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 3.525,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 3.525,
+            "end_s": 4.025,
+            "current_pA": 170.12499932021404
+          },
+          {
+            "start_s": 4.025,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -72.96875346582965,
+          21.706250268052063
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 3.525,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 1.7009999999999999e-10
+        },
+        "start_index": 352500,
+        "stop_index": 402500,
+        "amplitude_max_error_A": 2.499932021406223e-14,
+        "amplitude_match": false,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -68.25625171611892,
+        "last_100ms_median_mV": -38.437501825683285,
+        "holding_current_A": -6.662412288527264e-11
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00095_AD2",
+      "sweep": 95,
+      "electrode": "electrode_2",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5301.34700012207,
+      "device": 2,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/95_2.npz",
+      "array_sha256": "705f8d1d7eccc4d12c28084d3d4f3efa1b2f72e761335e2bf8534849e57bc317",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 0.525,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.525,
+            "end_s": 1.025,
+            "current_pA": 293.999998825234
+          },
+          {
+            "start_s": 1.025,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -74.48125048591159,
+          3.3625001120264617
+        ],
+        "zero_voltage_samples": 1,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 0.525,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 2.94e-10
+        },
+        "start_index": 52500,
+        "stop_index": 102500,
+        "amplitude_max_error_A": 1.1747660418508727e-18,
+        "amplitude_match": true,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -67.95624865011175,
+        "last_100ms_median_mV": -27.981250184628827,
+        "holding_current_A": -3.799107139990099e-10
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00095_AD8",
+      "sweep": 95,
+      "electrode": "electrode_4",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5301.34700012207,
+      "device": 4,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/95_4.npz",
+      "array_sha256": "8264ed66a77f39d4cd91e1495924334b4abd867a3ddba006204e54ea6d03f659",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 2.025,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 2.025,
+            "end_s": 2.525,
+            "current_pA": 125.99999949652884
+          },
+          {
+            "start_s": 2.525,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -73.15625347473542,
+          26.06875161966893
+        ],
+        "zero_voltage_samples": 0,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 2.025,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 1.26e-10
+        },
+        "start_index": 202500,
+        "stop_index": 252500,
+        "amplitude_max_error_A": 5.034711571004606e-19,
+        "amplitude_match": true,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -67.50000320607796,
+        "last_100ms_median_mV": -35.57500245266132,
+        "holding_current_A": -3.752830945308316e-12
+      }
+    },
+    {
+      "path": "/acquisition/timeseries/data_00095_AD9",
+      "sweep": 95,
+      "electrode": "electrode_5",
+      "stimulus": "Y11_If_Curve_DA_0",
+      "unit": "V",
+      "samples": 452500,
+      "rate": 100000.0,
+      "start_s": 5301.34700012207,
+      "device": 5,
+      "array_path": "data/external/allen_synphys_r21/raw_ranges/1574292898.139/producer_intrinsic_waveforms/95_5.npz",
+      "array_sha256": "116293dab442d57e931fe28c89c5ffca19938a0017b63de81f837d58c53f6fee",
+      "analysis": {
+        "command_segments": [
+          {
+            "start_s": 0.0,
+            "end_s": 0.0075,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 0.0075,
+            "end_s": 0.01751,
+            "current_pA": -49.999999800209864
+          },
+          {
+            "start_s": 0.01751,
+            "end_s": 3.525,
+            "current_pA": 0.0
+          },
+          {
+            "start_s": 3.525,
+            "end_s": 4.025,
+            "current_pA": 188.99999924479326
+          },
+          {
+            "start_s": 4.025,
+            "end_s": 4.525,
+            "current_pA": 0.0
+          }
+        ],
+        "voltage_range_mV": [
+          -72.91250193727893,
+          21.662501410383285
+        ],
+        "zero_voltage_samples": 1,
+        "samples": 452500
+      },
+      "comparison": {
+        "pulse": {
+          "start_time": 3.525,
+          "description": "Epoch 1",
+          "units": "A",
+          "duration": 0.5,
+          "amplitude": 1.89e-10
+        },
+        "start_index": 352500,
+        "stop_index": 402500,
+        "amplitude_max_error_A": 7.552067227259938e-19,
+        "amplitude_match": true,
+        "before_command_max_abs_A": 0.0,
+        "pre_50ms_median_mV": -67.96250475392452,
+        "last_100ms_median_mV": -35.36250091668913,
+        "holding_current_A": -6.662412288527264e-11
+      }
+    }
+  ],
+  "matched": 9
+}

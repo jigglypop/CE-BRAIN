@@ -1,0 +1,16 @@
+{
+  "scope": "same362 as-released e-labelled cells, all intercell dyads; preserve all source limitations of pinky_local_contract",
+  "models": "outgoing:fixed per-neuron outgoing edge count in each distance bin; incoming:transpose graph then same model; neither preserves both degrees",
+  "sampling": "uniform without replacement within each row/bin; rows/bins independent; 2000 independent graphs per setting, fixed seed2026090512",
+  "settings": "both models x thresholds1,3 x xy voxel nm3.54,3.58; existing distance bins50,100,200,400,800um",
+  "moments": "analytic mean=sum_i<j p_ij*p_ji; variance includes negative shared-row hypergeometric covariance; float evaluation",
+  "endpoints": "observed, analytic mean/variance, sample mean/variance, full histogram and inclusive upper tail with MC SE; no confirmation threshold",
+  "gates": "all four-node degree fixtures match full enumeration moments; every sample preserves row-bin counts; no loops; all files hashed",
+  "interpretation": "new weaker conditional models, not replication of joint-degree null or independent confirmation; no biological absence assumption",
+  "source_sha256": {
+    "data/external/microns_pinky_v185/soma_subgraph_synapses_spines_v185.csv": "ac22845bf2078fad27f895b0d4ab1f8b1bf980a2f00056be3f1eec6183770ae4",
+    "data/external/microns_pinky_v185/soma_valence_v185.csv": "e0845382e88a51d22b296f0d8cdcc7f74561868f98fb4fdf8056b0627ee8e95f"
+  },
+  "prior_contract_sha256": "5001b4539e1dba1ed2ae7b0c8fc035578b1b4700b939670c9336ef53f2ccb80a",
+  "code_sha256": "cc8ab429ad229bdc38c37403e72c13d32ed97e70c9c21e5782c2132ff4633fb7"
+}

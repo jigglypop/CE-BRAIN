@@ -1,0 +1,13 @@
+{
+  "question": "Do all36 producer-selected intrinsic traces match the DB main pulse amplitude and timing?",
+  "scope": "All sweeps7..12 and90..95 on devices2,4,5. No outcome selection, no pooled early-late fit.",
+  "measurement": "NWB conversion/offset applied to V/A arrays. DA current remains relative to holding; holding stored separately.",
+  "checks": "Electrode, sample rate, time, units, shape, finite values; main plateau versus DB within1e-15 A excluding one boundary sample.",
+  "endpoint": "Descriptive pre50ms and final100ms voltage medians; not independent resistance or spike classification.",
+  "limits": "Boundary rounding is not exact edge reproduction; no historical producer environment reproduction or biological causal claim.",
+  "inventory_sha256": "4e2c6111306a032d3d6e820a2953654c58e892ea5373eb624559b7da7e448546",
+  "db_sha256": "31bfd2c67ff24cea0d2c64ef63f39909595138463efe8acb7595a80f4ffb8883",
+  "code_sha256": "310954d95ea7d64437ad9ab7c32b20e45bc58b2da55e39f2d2c56cf08752297c",
+  "reader_sha256": "5aa32fce7a19372183cf304ecf70bcd1d168dc723ffcffbc74f0711d83db50ae",
+  "helper_sha256": "46f4edb87b20c95b4672eb1b385c4fc6b7624986162096f6e82dca246034cb4f"
+}

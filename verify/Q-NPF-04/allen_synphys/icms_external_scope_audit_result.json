@@ -1,0 +1,102 @@
+{
+  "animals": [
+    {
+      "subject": "ICMS100",
+      "session": "sub-ICMS100_ses-2023-10-26_behavior+ecephys+ophys.nwb",
+      "trials": 400,
+      "units": 16,
+      "catch_trials": 40,
+      "result_sha256": "fea248185dd11972d58961cb7f52297ca5e642121ff8bf04752a986453616654",
+      "input_sha256": "0a81599e13db0a8205ca777d30602e2c40063265c34cde80380b1420afd7d14f",
+      "status": "NEGATIVE_MEANS_OBSERVED",
+      "quality_results": [
+        {
+          "quality": "good_only",
+          "defined": 5,
+          "undefined": 0,
+          "nonnegative": []
+        },
+        {
+          "quality": "all_quality",
+          "defined": 5,
+          "undefined": 0,
+          "nonnegative": []
+        }
+      ],
+      "geometry_failures": 0
+    },
+    {
+      "subject": "ICMS101",
+      "session": "sub-ICMS101_ses-2023-10-27_behavior+ecephys+ophys.nwb",
+      "trials": 400,
+      "units": 10,
+      "catch_trials": 40,
+      "result_sha256": "feb26a4c8dbaef6eb1802c255f5e746d40b64ed777ede6d72b897acedb42c832",
+      "input_sha256": "c89ebe91927c73a963d12b731dfab252edbb08a0970eb97a349177cb67ee5ca3",
+      "status": "NEGATIVE_MEANS_OBSERVED",
+      "quality_results": [
+        {
+          "quality": "good_only",
+          "defined": 8,
+          "undefined": 0,
+          "nonnegative": []
+        },
+        {
+          "quality": "all_quality",
+          "defined": 8,
+          "undefined": 0,
+          "nonnegative": []
+        }
+      ],
+      "geometry_failures": 0
+    },
+    {
+      "subject": "ICMS83",
+      "session": "sub-ICMS83_ses-2023-07-20_behavior+ecephys+ophys.nwb",
+      "trials": 480,
+      "units": 5,
+      "catch_trials": 0,
+      "result_sha256": "4f0e521f74d347d0541b22976d06a6e9ec417cc97a716ee4f3e2123e44ca6707",
+      "input_sha256": "6ad673e74876c02978d4029e90a862bddf48feb3c8578e2ba56ddba3c88d72c3",
+      "status": "UNDEFINED_COMPARISON",
+      "quality_results": [
+        {
+          "quality": "good_only",
+          "defined": 0,
+          "undefined": 7,
+          "nonnegative": []
+        },
+        {
+          "quality": "all_quality",
+          "defined": 0,
+          "undefined": 7,
+          "nonnegative": []
+        }
+      ],
+      "geometry_failures": 0
+    },
+    {
+      "subject": "ICMS92",
+      "session": "sub-ICMS92_ses-2023-08-30_behavior+ecephys+ophys.nwb",
+      "trials": 499,
+      "units": 20,
+      "catch_trials": 50,
+      "result_sha256": "d909eb0ee2002a5d7585b5b74753156b913aa6feeb09aaca3336cea4cd4a1808",
+      "input_sha256": "a8cf3342e370edffb3c335a24a999e82199ab0ec3937a35af3d3336c2ee23f08",
+      "status": "STIMULATION_CONTRACT_MISMATCH"
+    },
+    {
+      "subject": "ICMS98",
+      "session": "sub-ICMS98_ses-2023-10-20_behavior+ecephys+ophys.nwb",
+      "trials": 499,
+      "units": 21,
+      "catch_trials": 50,
+      "result_sha256": "52418bd2c42ddf401144cfc27d23d89cb2c66e77d3536bfba0d1b822858babef",
+      "input_sha256": "d29411985e870cd92ccedafc67875263051b33ee26ac859666190f4ac61ea8e4",
+      "status": "STIMULATION_CONTRACT_MISMATCH"
+    }
+  ],
+  "all5_direction_condition_met": false,
+  "code_sha256": "33f3f7920b9f9673607827c16610b840c68fc33f85796055f8c8f6d20fdfe24b",
+  "limits": "Scope and arithmetic audit only; complete flag applies solely to frozen descriptive direction, never the whole brain objective."
+}

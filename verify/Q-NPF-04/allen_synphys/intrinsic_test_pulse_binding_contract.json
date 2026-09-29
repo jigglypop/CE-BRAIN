@@ -1,0 +1,9 @@
+{
+  "question": "Are nearest-test-pulse measurements linked to the same electrode and how far are their recording timestamps from intrinsic recordings?",
+  "scope": "All36 previously matched intrinsic records; no access-resistance threshold or outcome selection.",
+  "checks": "One row per test pulse; electrode identity; recording identity; signed difference of DB timestamps, not mixed NWB/notebook clocks.",
+  "limits": "DB nearest designation does not establish cell stability; units follow schema, exact event timing needs sampling metadata.",
+  "source_sha256": "31bfd2c67ff24cea0d2c64ef63f39909595138463efe8acb7595a80f4ffb8883",
+  "code_sha256": "0cba18bc022fdfdc0d664ed8fcee0977520d15ea769a37bb06a88cf27715a884",
+  "vfs_sha256": "0d2ee2f4a52cc21bbcf940b8c5642ffcb66f458d72aaf78bc3d4b69a85b6edf9"
+}

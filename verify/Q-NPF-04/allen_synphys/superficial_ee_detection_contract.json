@@ -1,0 +1,12 @@
+{
+  "question": "앞서 집계한 상층 E-E 231쌍의 저자 평가 표지와 검사 자극 수 조건이 일치하는가?",
+  "selection": "superficial_ee_eligibility와 동일; 기존 결과를 대체하지 않는 후속 검토",
+  "rule": "각 방향 n_ex_test_spikes > 10; 양쪽 충족 쌍을 별도 기술; 임계값 탐색 없음",
+  "source": "https://raw.githubusercontent.com/AllenInstitute/aisynphys/current-release/aisynphys/connectivity.py",
+  "source_scope": "열람한 current-release pair_was_probed 기준; DB 생성 당시 버전과 동일하다고 단정하지 않음",
+  "identity": "lims_specimen_name은 절편 표지로만 집계; 문자열 절단으로 동물 ID를 추정하지 않음",
+  "limits": "선택/검출 감사이며 기전·전이 검정 아님; >10도 생물학적 부재를 보장하지 않음",
+  "code_sha256": "e2a6e1e1ac7a5889bd00bce08daf1866493712d7c896a1c9dfb7da79d044abfe",
+  "db_sha256": "7372499fdd874f057565080d5769baaf2659ef39d9f3bc3c7147dd1e1c280a53",
+  "table_sha256": "92675aaf6fc7e032fc262cc7666998cb8009ce54e6422146d40d00ff6ae28700"
+}

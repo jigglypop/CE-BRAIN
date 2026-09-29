@@ -1,0 +1,9 @@
+{
+  "result_sha256": "6f6ad8af022028fb6724a0f3b9deec864d059f4d435f93059a99adee29db1a8c",
+  "verifier_sha256": "be129475142529744807b69f8a94066bf66816de2cd9a47e0254a2a4f3db2e5f",
+  "graphs_verified": 65,
+  "dyads_per_graph": 60031,
+  "node_rows_verified": 347,
+  "distance_bins_verified": 6,
+  "all_additive_sums_match": true
+}

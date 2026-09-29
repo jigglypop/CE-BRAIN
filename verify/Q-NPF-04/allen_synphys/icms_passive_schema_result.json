@@ -1,0 +1,2495 @@
+{
+  "contract_sha256": "1e4cf9d17c11cfac0f16604926d29e09e97583189fcdf71dada40831de472c49",
+  "code_sha256": "063a49834a2bb3d129f37b585c1e9b40c892227a6791b2e80708109aee48fabb",
+  "sessions": [
+    {
+      "path": "sub-ICMS45/sub-ICMS45_ses-2022-02-05_ecephys.nwb",
+      "sha256": "0337584c05c4269649ed69533509aa66e9c3f528ee524184eb0284c8c0bcee05",
+      "units": 8,
+      "spikes": 6339,
+      "trials": 17,
+      "bursts": 51,
+      "frequency_hz": [
+        50.0
+      ],
+      "pulse_counts": [
+        10
+      ],
+      "duration_quantiles": [
+        0.19999999999997442,
+        0.20000000000000284,
+        0.20000000000001705
+      ],
+      "burst_indices": [
+        0,
+        1,
+        2
+      ],
+      "start_first": [
+        5.0,
+        5.500666666666667,
+        6.0010666666666665,
+        15.0,
+        15.500133333333334,
+        16.00006666666667
+      ],
+      "stop_first": [
+        5.199999999999999,
+        5.700666666666666,
+        6.201066666666667,
+        15.2,
+        15.700133333333333,
+        16.200066666666668
+      ],
+      "spike_range": [
+        0.0006666666666666666,
+        169.68423333333334
+      ],
+      "stim_range": [
+        5.0,
+        166.20026666666666
+      ],
+      "trial_range": [
+        5.0,
+        169.70136666666667
+      ],
+      "task_window_train_overlap_counts": [
+        34,
+        17
+      ],
+      "catch_trials": 0,
+      "session_description": "b'Passive ICMS recording in primary somatosensory cortex (trunk). No behavioral task \\xe2\\x80\\x94 head-fixed mouse received 3-burst stim trains while extracellular activity was recorded. Data origin: SurveyData.'",
+      "datasets": [
+        {
+          "path": "file_create_date",
+          "shape": [
+            1
+          ],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/experiment_description",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/experimenter",
+          "shape": [
+            6
+          ],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/channel_name",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Original Ripple system channel number (1-32)"
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/group",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Reference to the ElectrodeGroup."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/group_name",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Name of the ElectrodeGroup."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/id",
+          "shape": [
+            32
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/location",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Location of the electrode (channel)."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/rel_x",
+          "shape": [
+            32
+          ],
+          "dtype": "float64",
+          "description": "x coordinate in electrode group."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/rel_y",
+          "shape": [
+            32
+          ],
+          "dtype": "float64",
+          "description": "xy coordinate in electrode group."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/rel_z",
+          "shape": [
+            32
+          ],
+          "dtype": "float64",
+          "description": "z coordinate in electrode group."
+        },
+        {
+          "path": "general/institution",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/keywords",
+          "shape": [
+            9
+          ],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/lab",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/notes",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/protocol",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/session_id",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/date_of_birth",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/description",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/genotype",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/sex",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/species",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/strain",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/subject_id",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "identifier",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "intervals/electrical_stimulation/burst_index_in_trial",
+          "shape": [
+            51
+          ],
+          "dtype": "int64",
+          "description": "Burst index within trial (0-based)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/current_uA",
+          "shape": [
+            51
+          ],
+          "dtype": "float64",
+          "description": "Current amplitude (uA)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/frequency_hz",
+          "shape": [
+            51
+          ],
+          "dtype": "float64",
+          "description": "Intra-burst pulse frequency (Hz)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/id",
+          "shape": [
+            51
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "intervals/electrical_stimulation/pulse_count",
+          "shape": [
+            51
+          ],
+          "dtype": "int64",
+          "description": "Pulses in this burst"
+        },
+        {
+          "path": "intervals/electrical_stimulation/pulse_width_us",
+          "shape": [
+            51
+          ],
+          "dtype": "float64",
+          "description": "Half-pulse width (us, biphasic)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/start_time",
+          "shape": [
+            51
+          ],
+          "dtype": "float64",
+          "description": "Start time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/electrical_stimulation/stim_channel",
+          "shape": [
+            51
+          ],
+          "dtype": "int64",
+          "description": "Ripple stimulation channel number"
+        },
+        {
+          "path": "intervals/electrical_stimulation/stop_time",
+          "shape": [
+            51
+          ],
+          "dtype": "float64",
+          "description": "Stop time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/electrical_stimulation/trial_index",
+          "shape": [
+            51
+          ],
+          "dtype": "int64",
+          "description": "Corresponding trial_index in trials table"
+        },
+        {
+          "path": "intervals/trials/current_uA",
+          "shape": [
+            17
+          ],
+          "dtype": "float64",
+          "description": "ICMS current amplitude (uA)"
+        },
+        {
+          "path": "intervals/trials/id",
+          "shape": [
+            17
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "intervals/trials/is_good_trial",
+          "shape": [
+            17
+          ],
+          "dtype": "bool",
+          "description": "Schema-aligned with experimental NWBs. Always True for control sessions (controls are passive ephys recordings with no paired 2P imaging, so the imaging-coverage flag does not apply)."
+        },
+        {
+          "path": "intervals/trials/n_pulses",
+          "shape": [
+            17
+          ],
+          "dtype": "int64",
+          "description": "Total pulses delivered in trial (should be PULSES_PER_BURST * N_BURSTS_PER_TRIAL)"
+        },
+        {
+          "path": "intervals/trials/rep_num",
+          "shape": [
+            17
+          ],
+          "dtype": "int64",
+          "description": "Recording block (rep) number"
+        },
+        {
+          "path": "intervals/trials/start_time",
+          "shape": [
+            17
+          ],
+          "dtype": "float64",
+          "description": "Start time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/trials/stim_channel",
+          "shape": [
+            17
+          ],
+          "dtype": "int64",
+          "description": "Ripple stimulation channel number"
+        },
+        {
+          "path": "intervals/trials/stop_time",
+          "shape": [
+            17
+          ],
+          "dtype": "float64",
+          "description": "Stop time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/trials/trial_index",
+          "shape": [
+            17
+          ],
+          "dtype": "int64",
+          "description": "Trial index within session"
+        },
+        {
+          "path": "session_description",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "session_start_time",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/namespace",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.base",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.behavior",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.device",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.ecephys",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.epoch",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.file",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.icephys",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.image",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.misc",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.ogen",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.ophys",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.retinotopy",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/base",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/namespace",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/sparse",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/table",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-experimental/0.5.0/experimental",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-experimental/0.5.0/namespace",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-experimental/0.5.0/resources",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "timestamps_reference_time",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "units/accepted",
+          "shape": [
+            8
+          ],
+          "dtype": "bool",
+          "description": "Always True here — only curation-accepted units are included"
+        },
+        {
+          "path": "units/cell_type",
+          "shape": [
+            8
+          ],
+          "dtype": "object",
+          "description": "Cell type — \"unknown\" for controls (no t2p classification was performed)"
+        },
+        {
+          "path": "units/id",
+          "shape": [
+            8
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "units/peak_channel_index",
+          "shape": [
+            8
+          ],
+          "dtype": "int64",
+          "description": "Index into electrodes table of the channel with largest |template| amplitude"
+        },
+        {
+          "path": "units/spike_times",
+          "shape": [
+            6339
+          ],
+          "dtype": "float64",
+          "description": "the spike times for each unit in seconds"
+        },
+        {
+          "path": "units/spike_times_index",
+          "shape": [
+            8
+          ],
+          "dtype": "uint16",
+          "description": "Index for VectorData 'spike_times'"
+        },
+        {
+          "path": "units/waveform_mean",
+          "shape": [
+            8,
+            90
+          ],
+          "dtype": "float32",
+          "description": "the spike waveform mean for each spike unit"
+        }
+      ]
+    },
+    {
+      "path": "sub-ICMS48/sub-ICMS48_ses-2022-04-08_ecephys+ophys.nwb",
+      "sha256": "49274c943df39b8157e3d185ec0a82ffd50f31b78c04b4c8e090883d783bfdca",
+      "units": 3,
+      "spikes": 17005,
+      "trials": 180,
+      "bursts": 540,
+      "frequency_hz": [
+        50.0
+      ],
+      "pulse_counts": [
+        10
+      ],
+      "duration_quantiles": [
+        0.19999999999845386,
+        0.20000000000004547,
+        0.20000000000027285
+      ],
+      "burst_indices": [
+        0,
+        1,
+        2
+      ],
+      "start_first": [
+        0.07596666666666667,
+        0.5905333333333334,
+        1.0907,
+        10.075733333333332,
+        10.587400000000002,
+        11.10156666666667
+      ],
+      "stop_first": [
+        0.2759666666666667,
+        0.7905333333333333,
+        1.2907,
+        10.275733333333331,
+        10.787400000000002,
+        11.30156666666667
+      ],
+      "spike_range": [
+        0.04533333333333334,
+        1795.0270666666668
+      ],
+      "stim_range": [
+        0.07596666666666667,
+        1791.2893333333327
+      ],
+      "trial_range": [
+        0.07596666666666667,
+        1791.2893333333327
+      ],
+      "task_window_train_overlap_counts": [
+        360,
+        180
+      ],
+      "catch_trials": 0,
+      "session_description": "b'Passive ICMS recording in primary somatosensory cortex (trunk). No behavioral task \\xe2\\x80\\x94 head-fixed mouse received 3-burst stim trains while extracellular activity was recorded. Data origin: ExperimentData.'",
+      "datasets": [
+        {
+          "path": "file_create_date",
+          "shape": [
+            1
+          ],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/experiment_description",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/experimenter",
+          "shape": [
+            6
+          ],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/channel_name",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Original Ripple system channel number (1-32)"
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/group",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Reference to the ElectrodeGroup."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/group_name",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Name of the ElectrodeGroup."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/id",
+          "shape": [
+            32
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/location",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Location of the electrode (channel)."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/rel_x",
+          "shape": [
+            32
+          ],
+          "dtype": "float64",
+          "description": "x coordinate in electrode group."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/rel_y",
+          "shape": [
+            32
+          ],
+          "dtype": "float64",
+          "description": "xy coordinate in electrode group."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/rel_z",
+          "shape": [
+            32
+          ],
+          "dtype": "float64",
+          "description": "z coordinate in electrode group."
+        },
+        {
+          "path": "general/institution",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/keywords",
+          "shape": [
+            9
+          ],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/lab",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/notes",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/optophysiology/ImagingPlane_ControlSurvey/GreenPMT/description",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/optophysiology/ImagingPlane_ControlSurvey/GreenPMT/emission_lambda",
+          "shape": [],
+          "dtype": "float64",
+          "description": ""
+        },
+        {
+          "path": "general/optophysiology/ImagingPlane_ControlSurvey/description",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/optophysiology/ImagingPlane_ControlSurvey/excitation_lambda",
+          "shape": [],
+          "dtype": "float64",
+          "description": ""
+        },
+        {
+          "path": "general/optophysiology/ImagingPlane_ControlSurvey/imaging_rate",
+          "shape": [],
+          "dtype": "float64",
+          "description": ""
+        },
+        {
+          "path": "general/optophysiology/ImagingPlane_ControlSurvey/indicator",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/optophysiology/ImagingPlane_ControlSurvey/location",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/protocol",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/session_id",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/date_of_birth",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/description",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/genotype",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/sex",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/species",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/strain",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/subject_id",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "identifier",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "intervals/electrical_stimulation/burst_index_in_trial",
+          "shape": [
+            540
+          ],
+          "dtype": "int64",
+          "description": "Burst index within trial (0-based)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/current_uA",
+          "shape": [
+            540
+          ],
+          "dtype": "float64",
+          "description": "Current amplitude (uA)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/frequency_hz",
+          "shape": [
+            540
+          ],
+          "dtype": "float64",
+          "description": "Intra-burst pulse frequency (Hz)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/id",
+          "shape": [
+            540
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "intervals/electrical_stimulation/pulse_count",
+          "shape": [
+            540
+          ],
+          "dtype": "int64",
+          "description": "Pulses in this burst"
+        },
+        {
+          "path": "intervals/electrical_stimulation/pulse_width_us",
+          "shape": [
+            540
+          ],
+          "dtype": "float64",
+          "description": "Half-pulse width (us, biphasic)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/start_time",
+          "shape": [
+            540
+          ],
+          "dtype": "float64",
+          "description": "Start time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/electrical_stimulation/stim_channel",
+          "shape": [
+            540
+          ],
+          "dtype": "int64",
+          "description": "Ripple stimulation channel number"
+        },
+        {
+          "path": "intervals/electrical_stimulation/stop_time",
+          "shape": [
+            540
+          ],
+          "dtype": "float64",
+          "description": "Stop time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/electrical_stimulation/trial_index",
+          "shape": [
+            540
+          ],
+          "dtype": "int64",
+          "description": "Corresponding trial_index in trials table"
+        },
+        {
+          "path": "intervals/trials/current_uA",
+          "shape": [
+            180
+          ],
+          "dtype": "float64",
+          "description": "ICMS current amplitude (uA)"
+        },
+        {
+          "path": "intervals/trials/id",
+          "shape": [
+            180
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "intervals/trials/is_good_trial",
+          "shape": [
+            180
+          ],
+          "dtype": "bool",
+          "description": "Schema-aligned with experimental NWBs. Always True for control sessions (controls are passive ephys recordings with no paired 2P imaging, so the imaging-coverage flag does not apply)."
+        },
+        {
+          "path": "intervals/trials/n_pulses",
+          "shape": [
+            180
+          ],
+          "dtype": "int64",
+          "description": "Total pulses delivered in trial (should be PULSES_PER_BURST * N_BURSTS_PER_TRIAL)"
+        },
+        {
+          "path": "intervals/trials/rep_num",
+          "shape": [
+            180
+          ],
+          "dtype": "int64",
+          "description": "Recording block (rep) number"
+        },
+        {
+          "path": "intervals/trials/start_time",
+          "shape": [
+            180
+          ],
+          "dtype": "float64",
+          "description": "Start time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/trials/stim_channel",
+          "shape": [
+            180
+          ],
+          "dtype": "int64",
+          "description": "Ripple stimulation channel number"
+        },
+        {
+          "path": "intervals/trials/stop_time",
+          "shape": [
+            180
+          ],
+          "dtype": "float64",
+          "description": "Stop time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/trials/trial_index",
+          "shape": [
+            180
+          ],
+          "dtype": "int64",
+          "description": "Trial index within session"
+        },
+        {
+          "path": "processing/ophys/ImageSegmentation_ControlSurvey/PlaneSegmentation_ControlSurvey/activation",
+          "shape": [
+            721,
+            36
+          ],
+          "dtype": "uint8",
+          "description": "Binary activation of this ROI for each stim condition (1=activated). Columns are ordered exactly as rows of the `stimulus_conditions` table (stim channel x current)."
+        },
+        {
+          "path": "processing/ophys/ImageSegmentation_ControlSurvey/PlaneSegmentation_ControlSurvey/id",
+          "shape": [
+            721
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "processing/ophys/ImageSegmentation_ControlSurvey/PlaneSegmentation_ControlSurvey/n_voxels",
+          "shape": [
+            721
+          ],
+          "dtype": "int64",
+          "description": "Number of voxels in this ROI"
+        },
+        {
+          "path": "processing/ophys/ImageSegmentation_ControlSurvey/PlaneSegmentation_ControlSurvey/roi_id_source",
+          "shape": [
+            721
+          ],
+          "dtype": "int64",
+          "description": "0-indexed ROI id in RegionMetrics.mat regions"
+        },
+        {
+          "path": "processing/ophys/ImageSegmentation_ControlSurvey/PlaneSegmentation_ControlSurvey/voxel_mask",
+          "shape": [
+            170183
+          ],
+          "dtype": "[('x', '<u4'), ('y', '<u4'), ('z', '<u4'), ('weight', '<f4')]",
+          "description": "Voxel masks for each ROI"
+        },
+        {
+          "path": "processing/ophys/ImageSegmentation_ControlSurvey/PlaneSegmentation_ControlSurvey/voxel_mask_index",
+          "shape": [
+            721
+          ],
+          "dtype": "uint32",
+          "description": "Index for VectorData 'voxel_mask'"
+        },
+        {
+          "path": "processing/ophys/reference_images/baseline_mean",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "float32",
+          "description": "Max-intensity Z projection of the baseline mean-fluorescence survey volume (BaselineMeanVol.mat)."
+        },
+        {
+          "path": "processing/ophys/reference_images/vasculature",
+          "shape": [
+            512,
+            512
+          ],
+          "dtype": "float32",
+          "description": "Max-intensity Z projection of the vasculature reference volume (VasculatureMap.mat)."
+        },
+        {
+          "path": "processing/ophys/stim_electrode_positions/contact_index",
+          "shape": [
+            32
+          ],
+          "dtype": "int64",
+          "description": "0-indexed contact number"
+        },
+        {
+          "path": "processing/ophys/stim_electrode_positions/id",
+          "shape": [
+            32
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "processing/ophys/stim_electrode_positions/x",
+          "shape": [
+            32
+          ],
+          "dtype": "float64",
+          "description": "x position (um)"
+        },
+        {
+          "path": "processing/ophys/stim_electrode_positions/y",
+          "shape": [
+            32
+          ],
+          "dtype": "float64",
+          "description": "y position (um)"
+        },
+        {
+          "path": "processing/ophys/stim_electrode_positions/z",
+          "shape": [
+            32
+          ],
+          "dtype": "float64",
+          "description": "z position (um)"
+        },
+        {
+          "path": "processing/ophys/stimulus_conditions/current_uA",
+          "shape": [
+            36
+          ],
+          "dtype": "float64",
+          "description": "ICMS current amplitude (uA)"
+        },
+        {
+          "path": "processing/ophys/stimulus_conditions/id",
+          "shape": [
+            36
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "processing/ophys/stimulus_conditions/stim_channel",
+          "shape": [
+            36
+          ],
+          "dtype": "object",
+          "description": "Ripple stimulation channel number"
+        },
+        {
+          "path": "session_description",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "session_start_time",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/namespace",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.base",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.behavior",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.device",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.ecephys",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.epoch",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.file",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.icephys",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.image",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.misc",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.ogen",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.ophys",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.retinotopy",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/base",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/namespace",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/sparse",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/table",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-experimental/0.5.0/experimental",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-experimental/0.5.0/namespace",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-experimental/0.5.0/resources",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "timestamps_reference_time",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "units/accepted",
+          "shape": [
+            3
+          ],
+          "dtype": "bool",
+          "description": "Always True here — only curation-accepted units are included"
+        },
+        {
+          "path": "units/cell_type",
+          "shape": [
+            3
+          ],
+          "dtype": "object",
+          "description": "Cell type — \"unknown\" for controls (no t2p classification was performed)"
+        },
+        {
+          "path": "units/id",
+          "shape": [
+            3
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "units/peak_channel_index",
+          "shape": [
+            3
+          ],
+          "dtype": "int64",
+          "description": "Index into electrodes table of the channel with largest |template| amplitude"
+        },
+        {
+          "path": "units/spike_times",
+          "shape": [
+            17005
+          ],
+          "dtype": "float64",
+          "description": "the spike times for each unit in seconds"
+        },
+        {
+          "path": "units/spike_times_index",
+          "shape": [
+            3
+          ],
+          "dtype": "uint16",
+          "description": "Index for VectorData 'spike_times'"
+        },
+        {
+          "path": "units/waveform_mean",
+          "shape": [
+            3,
+            90
+          ],
+          "dtype": "float32",
+          "description": "the spike waveform mean for each spike unit"
+        }
+      ]
+    },
+    {
+      "path": "sub-ICMS54/sub-ICMS54_ses-2022-05-20_ecephys.nwb",
+      "sha256": "4e5e86288387ea609d1cb4e99c33648b8d7e75ee21d0448cee87039965b0beae",
+      "units": 13,
+      "spikes": 50364,
+      "trials": 126,
+      "bursts": 378,
+      "frequency_hz": [
+        50.0
+      ],
+      "pulse_counts": [
+        10
+      ],
+      "duration_quantiles": [
+        0.19999999999936335,
+        0.1999999999999993,
+        0.20000000000027285
+      ],
+      "burst_indices": [
+        0,
+        1,
+        2
+      ],
+      "start_first": [
+        5.0,
+        5.501533333333331,
+        6.0047999999999995,
+        15.0,
+        15.514066666666665,
+        16.016199999999998
+      ],
+      "stop_first": [
+        5.199999999999999,
+        5.70153333333333,
+        6.204799999999999,
+        15.2,
+        15.714066666666664,
+        16.216199999999997
+      ],
+      "spike_range": [
+        0.0098,
+        1259.9853333333333
+      ],
+      "stim_range": [
+        5.0,
+        1256.2032666666669
+      ],
+      "trial_range": [
+        5.0,
+        1271.8892
+      ],
+      "task_window_train_overlap_counts": [
+        252,
+        126
+      ],
+      "catch_trials": 0,
+      "session_description": "b'Passive ICMS recording in primary somatosensory cortex (trunk). No behavioral task \\xe2\\x80\\x94 head-fixed mouse received 3-burst stim trains while extracellular activity was recorded. Data origin: ExperimentData.'",
+      "datasets": [
+        {
+          "path": "file_create_date",
+          "shape": [
+            1
+          ],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/experiment_description",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/experimenter",
+          "shape": [
+            6
+          ],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/channel_name",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Original Ripple system channel number (1-32)"
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/group",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Reference to the ElectrodeGroup."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/group_name",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Name of the ElectrodeGroup."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/id",
+          "shape": [
+            32
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/location",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Location of the electrode (channel)."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/rel_x",
+          "shape": [
+            32
+          ],
+          "dtype": "float64",
+          "description": "x coordinate in electrode group."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/rel_y",
+          "shape": [
+            32
+          ],
+          "dtype": "float64",
+          "description": "xy coordinate in electrode group."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/rel_z",
+          "shape": [
+            32
+          ],
+          "dtype": "float64",
+          "description": "z coordinate in electrode group."
+        },
+        {
+          "path": "general/institution",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/keywords",
+          "shape": [
+            9
+          ],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/lab",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/notes",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/protocol",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/session_id",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/date_of_birth",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/description",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/genotype",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/sex",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/species",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/strain",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/subject_id",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "identifier",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "intervals/electrical_stimulation/burst_index_in_trial",
+          "shape": [
+            378
+          ],
+          "dtype": "int64",
+          "description": "Burst index within trial (0-based)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/current_uA",
+          "shape": [
+            378
+          ],
+          "dtype": "float64",
+          "description": "Current amplitude (uA)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/frequency_hz",
+          "shape": [
+            378
+          ],
+          "dtype": "float64",
+          "description": "Intra-burst pulse frequency (Hz)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/id",
+          "shape": [
+            378
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "intervals/electrical_stimulation/pulse_count",
+          "shape": [
+            378
+          ],
+          "dtype": "int64",
+          "description": "Pulses in this burst"
+        },
+        {
+          "path": "intervals/electrical_stimulation/pulse_width_us",
+          "shape": [
+            378
+          ],
+          "dtype": "float64",
+          "description": "Half-pulse width (us, biphasic)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/start_time",
+          "shape": [
+            378
+          ],
+          "dtype": "float64",
+          "description": "Start time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/electrical_stimulation/stim_channel",
+          "shape": [
+            378
+          ],
+          "dtype": "int64",
+          "description": "Ripple stimulation channel number"
+        },
+        {
+          "path": "intervals/electrical_stimulation/stop_time",
+          "shape": [
+            378
+          ],
+          "dtype": "float64",
+          "description": "Stop time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/electrical_stimulation/trial_index",
+          "shape": [
+            378
+          ],
+          "dtype": "int64",
+          "description": "Corresponding trial_index in trials table"
+        },
+        {
+          "path": "intervals/trials/current_uA",
+          "shape": [
+            126
+          ],
+          "dtype": "float64",
+          "description": "ICMS current amplitude (uA)"
+        },
+        {
+          "path": "intervals/trials/id",
+          "shape": [
+            126
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "intervals/trials/is_good_trial",
+          "shape": [
+            126
+          ],
+          "dtype": "bool",
+          "description": "Schema-aligned with experimental NWBs. Always True for control sessions (controls are passive ephys recordings with no paired 2P imaging, so the imaging-coverage flag does not apply)."
+        },
+        {
+          "path": "intervals/trials/n_pulses",
+          "shape": [
+            126
+          ],
+          "dtype": "int64",
+          "description": "Total pulses delivered in trial (should be PULSES_PER_BURST * N_BURSTS_PER_TRIAL)"
+        },
+        {
+          "path": "intervals/trials/rep_num",
+          "shape": [
+            126
+          ],
+          "dtype": "int64",
+          "description": "Recording block (rep) number"
+        },
+        {
+          "path": "intervals/trials/start_time",
+          "shape": [
+            126
+          ],
+          "dtype": "float64",
+          "description": "Start time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/trials/stim_channel",
+          "shape": [
+            126
+          ],
+          "dtype": "int64",
+          "description": "Ripple stimulation channel number"
+        },
+        {
+          "path": "intervals/trials/stop_time",
+          "shape": [
+            126
+          ],
+          "dtype": "float64",
+          "description": "Stop time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/trials/trial_index",
+          "shape": [
+            126
+          ],
+          "dtype": "int64",
+          "description": "Trial index within session"
+        },
+        {
+          "path": "session_description",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "session_start_time",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/namespace",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.base",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.behavior",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.device",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.ecephys",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.epoch",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.file",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.icephys",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.image",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.misc",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.ogen",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.ophys",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.retinotopy",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/base",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/namespace",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/sparse",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/table",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-experimental/0.5.0/experimental",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-experimental/0.5.0/namespace",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-experimental/0.5.0/resources",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "timestamps_reference_time",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "units/accepted",
+          "shape": [
+            13
+          ],
+          "dtype": "bool",
+          "description": "Always True here — only curation-accepted units are included"
+        },
+        {
+          "path": "units/cell_type",
+          "shape": [
+            13
+          ],
+          "dtype": "object",
+          "description": "Cell type — \"unknown\" for controls (no t2p classification was performed)"
+        },
+        {
+          "path": "units/id",
+          "shape": [
+            13
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "units/peak_channel_index",
+          "shape": [
+            13
+          ],
+          "dtype": "int64",
+          "description": "Index into electrodes table of the channel with largest |template| amplitude"
+        },
+        {
+          "path": "units/spike_times",
+          "shape": [
+            50364
+          ],
+          "dtype": "float64",
+          "description": "the spike times for each unit in seconds"
+        },
+        {
+          "path": "units/spike_times_index",
+          "shape": [
+            13
+          ],
+          "dtype": "uint16",
+          "description": "Index for VectorData 'spike_times'"
+        },
+        {
+          "path": "units/waveform_mean",
+          "shape": [
+            13,
+            90
+          ],
+          "dtype": "float32",
+          "description": "the spike waveform mean for each spike unit"
+        }
+      ]
+    },
+    {
+      "path": "sub-ICMS56/sub-ICMS56_ses-2022-06-21_ecephys.nwb",
+      "sha256": "a44e877f4a9fdd5bc62b3ed6991ee4ffd9bc8b29f13740d2fbfa79359d7f8ac1",
+      "units": 10,
+      "spikes": 211102,
+      "trials": 352,
+      "bursts": 1056,
+      "frequency_hz": [
+        50.0
+      ],
+      "pulse_counts": [
+        10
+      ],
+      "duration_quantiles": [
+        0.19999999999936335,
+        0.20000000000004547,
+        0.20000000000027285
+      ],
+      "burst_indices": [
+        0,
+        1,
+        2
+      ],
+      "start_first": [
+        0.1237,
+        0.6276666666666667,
+        1.1332666666666666,
+        10.080066666666667,
+        10.581399999999999,
+        11.087066666666665
+      ],
+      "stop_first": [
+        0.32370000000000004,
+        0.8276666666666667,
+        1.3332666666666666,
+        10.280066666666666,
+        10.781399999999998,
+        11.287066666666664
+      ],
+      "spike_range": [
+        0.0043,
+        3515.0524666666665
+      ],
+      "stim_range": [
+        0.1237,
+        3511.286966666666
+      ],
+      "trial_range": [
+        0.1237,
+        3511.286966666666
+      ],
+      "task_window_train_overlap_counts": [
+        704,
+        352
+      ],
+      "catch_trials": 0,
+      "session_description": "b'Passive ICMS recording in primary somatosensory cortex (trunk). No behavioral task \\xe2\\x80\\x94 head-fixed mouse received 3-burst stim trains while extracellular activity was recorded. Data origin: ExperimentData.'",
+      "datasets": [
+        {
+          "path": "file_create_date",
+          "shape": [
+            1
+          ],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/experiment_description",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/experimenter",
+          "shape": [
+            6
+          ],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/channel_name",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Original Ripple system channel number (1-32)"
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/group",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Reference to the ElectrodeGroup."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/group_name",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Name of the ElectrodeGroup."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/id",
+          "shape": [
+            32
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/location",
+          "shape": [
+            32
+          ],
+          "dtype": "object",
+          "description": "Location of the electrode (channel)."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/rel_x",
+          "shape": [
+            32
+          ],
+          "dtype": "float64",
+          "description": "x coordinate in electrode group."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/rel_y",
+          "shape": [
+            32
+          ],
+          "dtype": "float64",
+          "description": "xy coordinate in electrode group."
+        },
+        {
+          "path": "general/extracellular_ephys/electrodes/rel_z",
+          "shape": [
+            32
+          ],
+          "dtype": "float64",
+          "description": "z coordinate in electrode group."
+        },
+        {
+          "path": "general/institution",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/keywords",
+          "shape": [
+            9
+          ],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/lab",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/notes",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/protocol",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/session_id",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/date_of_birth",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/description",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/genotype",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/sex",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/species",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/strain",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "general/subject/subject_id",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "identifier",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "intervals/electrical_stimulation/burst_index_in_trial",
+          "shape": [
+            1056
+          ],
+          "dtype": "int64",
+          "description": "Burst index within trial (0-based)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/current_uA",
+          "shape": [
+            1056
+          ],
+          "dtype": "float64",
+          "description": "Current amplitude (uA)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/frequency_hz",
+          "shape": [
+            1056
+          ],
+          "dtype": "float64",
+          "description": "Intra-burst pulse frequency (Hz)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/id",
+          "shape": [
+            1056
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "intervals/electrical_stimulation/pulse_count",
+          "shape": [
+            1056
+          ],
+          "dtype": "int64",
+          "description": "Pulses in this burst"
+        },
+        {
+          "path": "intervals/electrical_stimulation/pulse_width_us",
+          "shape": [
+            1056
+          ],
+          "dtype": "float64",
+          "description": "Half-pulse width (us, biphasic)"
+        },
+        {
+          "path": "intervals/electrical_stimulation/start_time",
+          "shape": [
+            1056
+          ],
+          "dtype": "float64",
+          "description": "Start time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/electrical_stimulation/stim_channel",
+          "shape": [
+            1056
+          ],
+          "dtype": "int64",
+          "description": "Ripple stimulation channel number"
+        },
+        {
+          "path": "intervals/electrical_stimulation/stop_time",
+          "shape": [
+            1056
+          ],
+          "dtype": "float64",
+          "description": "Stop time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/electrical_stimulation/trial_index",
+          "shape": [
+            1056
+          ],
+          "dtype": "int64",
+          "description": "Corresponding trial_index in trials table"
+        },
+        {
+          "path": "intervals/trials/current_uA",
+          "shape": [
+            352
+          ],
+          "dtype": "float64",
+          "description": "ICMS current amplitude (uA)"
+        },
+        {
+          "path": "intervals/trials/id",
+          "shape": [
+            352
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "intervals/trials/is_good_trial",
+          "shape": [
+            352
+          ],
+          "dtype": "bool",
+          "description": "Schema-aligned with experimental NWBs. Always True for control sessions (controls are passive ephys recordings with no paired 2P imaging, so the imaging-coverage flag does not apply)."
+        },
+        {
+          "path": "intervals/trials/n_pulses",
+          "shape": [
+            352
+          ],
+          "dtype": "int64",
+          "description": "Total pulses delivered in trial (should be PULSES_PER_BURST * N_BURSTS_PER_TRIAL)"
+        },
+        {
+          "path": "intervals/trials/rep_num",
+          "shape": [
+            352
+          ],
+          "dtype": "int64",
+          "description": "Recording block (rep) number"
+        },
+        {
+          "path": "intervals/trials/start_time",
+          "shape": [
+            352
+          ],
+          "dtype": "float64",
+          "description": "Start time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/trials/stim_channel",
+          "shape": [
+            352
+          ],
+          "dtype": "int64",
+          "description": "Ripple stimulation channel number"
+        },
+        {
+          "path": "intervals/trials/stop_time",
+          "shape": [
+            352
+          ],
+          "dtype": "float64",
+          "description": "Stop time of epoch, in seconds"
+        },
+        {
+          "path": "intervals/trials/trial_index",
+          "shape": [
+            352
+          ],
+          "dtype": "int64",
+          "description": "Trial index within session"
+        },
+        {
+          "path": "session_description",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "session_start_time",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/namespace",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.base",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.behavior",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.device",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.ecephys",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.epoch",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.file",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.icephys",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.image",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.misc",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.ogen",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.ophys",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/core/2.9.0/nwb.retinotopy",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/base",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/namespace",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/sparse",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-common/1.8.0/table",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-experimental/0.5.0/experimental",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-experimental/0.5.0/namespace",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "specifications/hdmf-experimental/0.5.0/resources",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "timestamps_reference_time",
+          "shape": [],
+          "dtype": "object",
+          "description": ""
+        },
+        {
+          "path": "units/accepted",
+          "shape": [
+            10
+          ],
+          "dtype": "bool",
+          "description": "Always True here — only curation-accepted units are included"
+        },
+        {
+          "path": "units/cell_type",
+          "shape": [
+            10
+          ],
+          "dtype": "object",
+          "description": "Cell type — \"unknown\" for controls (no t2p classification was performed)"
+        },
+        {
+          "path": "units/id",
+          "shape": [
+            10
+          ],
+          "dtype": "int64",
+          "description": ""
+        },
+        {
+          "path": "units/peak_channel_index",
+          "shape": [
+            10
+          ],
+          "dtype": "int64",
+          "description": "Index into electrodes table of the channel with largest |template| amplitude"
+        },
+        {
+          "path": "units/spike_times",
+          "shape": [
+            211102
+          ],
+          "dtype": "float64",
+          "description": "the spike times for each unit in seconds"
+        },
+        {
+          "path": "units/spike_times_index",
+          "shape": [
+            10
+          ],
+          "dtype": "uint32",
+          "description": "Index for VectorData 'spike_times'"
+        },
+        {
+          "path": "units/waveform_mean",
+          "shape": [
+            10,
+            90
+          ],
+          "dtype": "float32",
+          "description": "the spike waveform mean for each spike unit"
+        }
+      ]
+    }
+  ]
+}

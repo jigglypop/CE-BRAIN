@@ -1,0 +1,7 @@
+{
+  "code_sha256": "c9a85de37aca32614d1b8c92a847fb6ac2f2c7e99c608841ba343a0a6a02a382",
+  "input_sha256": "f272cda53d49e66155f5dfc1792b202b67de94e6a17473ffe36908663b9c4865",
+  "parent_sha256": "36dc35f8f3c0f5fc7b9aaa079edc0356d754d1c71f3cd3a6f78c3dd20be07334",
+  "method": "Reuse36 fixed catch windows and prior interior triggers, all21 units and same13 eligibility. Remove other-unit events whose nearest target-unit event in the same500ms window is within0/3/15 samples at30kHz. Keep target triggers fixed. Smooth per trial sigma10bins truncate4, subtract each retained population global mean. Also compute removed-event contribution; verify retained+removed=original PC.",
+  "limits": "Target-dependent censoring removes true synchrony too. Not duplicate correction, causal effect or independent significance test. No source modification."
+}

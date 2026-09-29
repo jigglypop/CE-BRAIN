@@ -1,0 +1,7 @@
+{
+  "code_sha256": "812f2cb06a7bf5895b4f110d66f3421c6b1f6c82840365ae345c989bfbd717c2",
+  "producer_sha256": "f80bc8f92f173b0ee216137ca23cc1d7c0dfc23184985ca8dcba7ec44f5793c2",
+  "fixture": "240 one-second retained segments starting every10s. Target spikes at end-5ms of even segments; other unit at start+5ms of odd segments. Original paired gaps9.010s; rebased gaps10ms.",
+  "method": "Execute only AST-extracted concat_segments_rebased and compute_stpr_and_pc from reviewed producer; numpy and scipy Gaussian injected. Default1ms bins/10ms smoothing/100ms window and200 shifts seed0. Count eligible targets against original segment boundaries separately.",
+  "ceiling": "L0 synthetic computational counterexample, not estimated contamination in real records."
+}

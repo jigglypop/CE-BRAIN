@@ -1,0 +1,12 @@
+{
+  "result_sha256": "61288fddea97b44934a4d6e4d84a312b682f9166d2ac0edc6b681af20b5cbb0b",
+  "verifier_sha256": "de16ebb3a164f72ca6883b0315de01230a5698b938144e1b7c7e64666d874b7d",
+  "graphs_and_fitted_margins_verified": 64,
+  "direct_pair_sums_verified": 64,
+  "refitted_indices": [
+    0,
+    63
+  ],
+  "max_margin_error": 7.524260809077532e-06,
+  "biological_validation": false
+}

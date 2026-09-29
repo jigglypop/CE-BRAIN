@@ -1,0 +1,82 @@
+{
+  "code_sha256": "5a794017720011a78ba79b2661bcaed410bd6f30534e77f9f2a624590da4523e",
+  "payload_sha256": "4243df32dd0d1e00a9efec75e6cb53a8ac84a23bece03c4d80c3e6c24aab4769",
+  "download_receipt_sha256": "5dd60c56012c6ff1aece693e481f98cb3e4810f47ec4697a0fd54a525bc40b68",
+  "object_end": 1861537717,
+  "blocks": {
+    "photostim_r": {
+      "normalization": {
+        "max_absolute_difference_finite": 1.52587890625e-05,
+        "mismatched_elements": 0,
+        "nonfinite_comparison_elements": 0,
+        "negative_mean_cells": 28,
+        "zero_mean_cells": 0,
+        "passed": true
+      },
+      "trials": {
+        "mismatched_elements": 0,
+        "max_absolute_difference": 0.0,
+        "passed": true
+      },
+      "trial_shape": [
+        2334,
+        182,
+        100
+      ],
+      "clock_n": 22990,
+      "cell_ids_equal": true,
+      "preceding_frame_match": true
+    },
+    "photostim_s": {
+      "normalization": {
+        "max_absolute_difference_finite": 3.0517578125e-05,
+        "mismatched_elements": 0,
+        "nonfinite_comparison_elements": 0,
+        "negative_mean_cells": 26,
+        "zero_mean_cells": 0,
+        "passed": true
+      },
+      "trials": {
+        "mismatched_elements": 0,
+        "max_absolute_difference": 0.0,
+        "passed": true
+      },
+      "trial_shape": [
+        2334,
+        182,
+        100
+      ],
+      "clock_n": 22989,
+      "cell_ids_equal": true,
+      "preceding_frame_match": true
+    },
+    "spont": {
+      "normalization": {
+        "max_absolute_difference_finite": 7.62939453125e-06,
+        "mismatched_elements": 0,
+        "nonfinite_comparison_elements": 0,
+        "negative_mean_cells": 30,
+        "zero_mean_cells": 0,
+        "passed": true
+      },
+      "trials": {
+        "mismatched_elements": 0,
+        "max_absolute_difference": 0.0,
+        "passed": true
+      },
+      "trial_shape": [
+        2334,
+        182,
+        100
+      ],
+      "clock_n": 22990,
+      "cell_ids_equal": true,
+      "preceding_frame_match": true
+    }
+  },
+  "passed": true,
+  "limits": [
+    "Local checksum matches download receipt; no independent server checksum",
+    "Preprocessing validation does not establish biological causality or sham provenance"
+  ]
+}

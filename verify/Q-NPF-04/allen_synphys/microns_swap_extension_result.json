@@ -1,0 +1,134 @@
+{
+  "contract_sha256": "10c4107b1da635fee753be33e26c3961edd143fb9a96fda8bdbd488923805fdd",
+  "chains": [
+    {
+      "threshold": 1,
+      "seed": 2026090501,
+      "observed_reciprocal": 9869,
+      "late_mean": 6345.6,
+      "late_range": [
+        6269,
+        6471
+      ],
+      "late_half_drift": -12.0,
+      "final_overlap": 0.2159614819734103,
+      "extension_acceptance": 0.07970978091666206,
+      "final_checkpoint": "data/external/microns_v1718_cosyne/swap_extension/t1_seed2026090501_block120.json",
+      "final_checkpoint_sha256": "37b67a425af42e1f57e045dc427ae05be221809bc50b7db3c0a2a5369e6d914c",
+      "final_graph_sha256": "abd5b8962f8a2b59d0a84ddfec1ff0107a0bc2354040617ea2f90def796b3cf9"
+    },
+    {
+      "threshold": 1,
+      "seed": 2026090502,
+      "observed_reciprocal": 9869,
+      "late_mean": 6351.2,
+      "late_range": [
+        6239,
+        6478
+      ],
+      "late_half_drift": -24.399999999999636,
+      "final_overlap": 0.21566774370697692,
+      "extension_acceptance": 0.07934452376796663,
+      "final_checkpoint": "data/external/microns_v1718_cosyne/swap_extension/t1_seed2026090502_block120.json",
+      "final_checkpoint_sha256": "ca0cd77351c7f48fb7daeb7c0595c606d42f047fe93432ed18ea4bdce9d739a3",
+      "final_graph_sha256": "8453468a02afa3742e160b4646ae9578e3d2fdd736798eabf42fcae94ad608d5"
+    },
+    {
+      "threshold": 1,
+      "seed": 2026090503,
+      "observed_reciprocal": 9869,
+      "late_mean": 6371.266666666666,
+      "late_range": [
+        6235,
+        6489
+      ],
+      "late_half_drift": 39.066666666666606,
+      "final_overlap": 0.215425090356445,
+      "extension_acceptance": 0.0793946153660589,
+      "final_checkpoint": "data/external/microns_v1718_cosyne/swap_extension/t1_seed2026090503_block120.json",
+      "final_checkpoint_sha256": "222db8b60f4ef64e6c28f8b92a9fb4eb7267322e0bde7a16c0e273971615bed8",
+      "final_graph_sha256": "e27d51e68b5bef9c4fe8d67dd25960200b87efc6890b6a1bfc6bdafef759dfc6"
+    },
+    {
+      "threshold": 1,
+      "seed": 2026090504,
+      "observed_reciprocal": 9869,
+      "late_mean": 6366.866666666667,
+      "late_range": [
+        6283,
+        6444
+      ],
+      "late_half_drift": -22.399999999999636,
+      "final_overlap": 0.2156422012490262,
+      "extension_acceptance": 0.0796145643095235,
+      "final_checkpoint": "data/external/microns_v1718_cosyne/swap_extension/t1_seed2026090504_block120.json",
+      "final_checkpoint_sha256": "791bbbfd2c90a7b27b85587453c9c3405b5e2ddb897f5aecfc46410bba11e6bd",
+      "final_graph_sha256": "30a44af5ef860a405bdd809e58d8e5b30748ee2f46ab7f1d8d0d30d66567b0ba"
+    },
+    {
+      "threshold": 3,
+      "seed": 2026090501,
+      "observed_reciprocal": 1491,
+      "late_mean": 682.0333333333333,
+      "late_range": [
+        650,
+        709
+      ],
+      "late_half_drift": -10.733333333333348,
+      "final_overlap": 0.2216883500887049,
+      "extension_acceptance": 0.07159718115513503,
+      "final_checkpoint": "data/external/microns_v1718_cosyne/swap_extension/t3_seed2026090501_block120.json",
+      "final_checkpoint_sha256": "37214295b55a8db913337ffa3b63175b65ffbc8055deb130a32e2d4849456365",
+      "final_graph_sha256": "47ccb05d8f2ac2d49646b1583dbbebb6a491c2ef48e7f5adf43cc5e3570b8cd3"
+    },
+    {
+      "threshold": 3,
+      "seed": 2026090502,
+      "observed_reciprocal": 1491,
+      "late_mean": 663.5666666666667,
+      "late_range": [
+        638,
+        695
+      ],
+      "late_half_drift": 17.0,
+      "final_overlap": 0.22264931992903608,
+      "extension_acceptance": 0.07240456008936198,
+      "final_checkpoint": "data/external/microns_v1718_cosyne/swap_extension/t3_seed2026090502_block120.json",
+      "final_checkpoint_sha256": "487d66f0682273a5d899b501f56c183cae3dd3b2706794657f38df126961e005",
+      "final_graph_sha256": "aaf4e2fce7ca10d6dd627053aabb66555b7a0a3742f72c0047fad3241de0151a"
+    },
+    {
+      "threshold": 3,
+      "seed": 2026090503,
+      "observed_reciprocal": 1491,
+      "late_mean": 683.0666666666667,
+      "late_range": [
+        653,
+        702
+      ],
+      "late_half_drift": -10.93333333333328,
+      "final_overlap": 0.22590183323477234,
+      "extension_acceptance": 0.07144523293251856,
+      "final_checkpoint": "data/external/microns_v1718_cosyne/swap_extension/t3_seed2026090503_block120.json",
+      "final_checkpoint_sha256": "b450450058283d089b98c5a89ad00d6a9e1579eda2eb9ec5febd80e1d57cc5d1",
+      "final_graph_sha256": "d47d445298d3938bbd1aa07d287bfb6123b3b7b3c9c78e584e0f9e31f6e2baea"
+    },
+    {
+      "threshold": 3,
+      "seed": 2026090504,
+      "observed_reciprocal": 1491,
+      "late_mean": 681.6666666666666,
+      "late_range": [
+        646,
+        715
+      ],
+      "late_half_drift": -9.733333333333348,
+      "final_overlap": 0.22331460674157302,
+      "extension_acceptance": 0.07203084959589987,
+      "final_checkpoint": "data/external/microns_v1718_cosyne/swap_extension/t3_seed2026090504_block120.json",
+      "final_checkpoint_sha256": "b1684cbd5373a809d1254924a0a5482af5c6eb071ccdadfd1abe330416fdc49f",
+      "final_graph_sha256": "81e4a15d730b5ab6225c55dad3ec386d0c57059df6b796663a550f27b0345242"
+    }
+  ],
+  "status": "EXTENDED_TRAJECTORY_DIAGNOSTIC_NOT_UNIFORM_NULL_PROOF"
+}

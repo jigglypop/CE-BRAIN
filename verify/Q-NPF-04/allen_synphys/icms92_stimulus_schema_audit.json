@@ -1,0 +1,456 @@
+{
+  "trials": 499,
+  "units": 20,
+  "catch_trials": 50,
+  "events": 449,
+  "non70_count": 89,
+  "non700ms_count": 89,
+  "description": "ICMS pulse trains; biphasic, 167 us per phase, 100 Hz, 700 ms train duration (70 pulses). Catch trials (current=0) excluded.",
+  "irregular_events": [
+    {
+      "trial_id": 401,
+      "pulses": 220,
+      "duration": 7.397233333333588
+    },
+    {
+      "trial_id": 402,
+      "pulses": 136,
+      "duration": 4.563733333333403
+    },
+    {
+      "trial_id": 403,
+      "pulses": 121,
+      "duration": 4.057800000000043
+    },
+    {
+      "trial_id": 404,
+      "pulses": 142,
+      "duration": 4.766099999999824
+    },
+    {
+      "trial_id": 405,
+      "pulses": 136,
+      "duration": 4.563799999999901
+    },
+    {
+      "trial_id": 407,
+      "pulses": 133,
+      "duration": 4.462533333333795
+    },
+    {
+      "trial_id": 408,
+      "pulses": 139,
+      "duration": 4.665000000000418
+    },
+    {
+      "trial_id": 409,
+      "pulses": 121,
+      "duration": 4.057833333333747
+    },
+    {
+      "trial_id": 410,
+      "pulses": 127,
+      "duration": 4.260233333333417
+    },
+    {
+      "trial_id": 411,
+      "pulses": 118,
+      "duration": 3.956600000000435
+    },
+    {
+      "trial_id": 412,
+      "pulses": 242,
+      "duration": 8.139233333333323
+    },
+    {
+      "trial_id": 413,
+      "pulses": 155,
+      "duration": 5.204633333333732
+    },
+    {
+      "trial_id": 414,
+      "pulses": 130,
+      "duration": 4.361400000000231
+    },
+    {
+      "trial_id": 415,
+      "pulses": 130,
+      "duration": 4.361333333333732
+    },
+    {
+      "trial_id": 416,
+      "pulses": 118,
+      "duration": 3.956600000000435
+    },
+    {
+      "trial_id": 418,
+      "pulses": 133,
+      "duration": 4.462533333333795
+    },
+    {
+      "trial_id": 419,
+      "pulses": 133,
+      "duration": 4.462566666666589
+    },
+    {
+      "trial_id": 421,
+      "pulses": 121,
+      "duration": 4.057833333333292
+    },
+    {
+      "trial_id": 422,
+      "pulses": 226,
+      "duration": 7.599500000000262
+    },
+    {
+      "trial_id": 423,
+      "pulses": 124,
+      "duration": 4.158933333333607
+    },
+    {
+      "trial_id": 424,
+      "pulses": 142,
+      "duration": 4.766166666666777
+    },
+    {
+      "trial_id": 425,
+      "pulses": 142,
+      "duration": 4.766200000000481
+    },
+    {
+      "trial_id": 428,
+      "pulses": 121,
+      "duration": 4.057900000000245
+    },
+    {
+      "trial_id": 429,
+      "pulses": 128,
+      "duration": 4.29396666666662
+    },
+    {
+      "trial_id": 430,
+      "pulses": 130,
+      "duration": 4.361433333333935
+    },
+    {
+      "trial_id": 431,
+      "pulses": 146,
+      "duration": 4.901066666666793
+    },
+    {
+      "trial_id": 432,
+      "pulses": 130,
+      "duration": 4.361333333333732
+    },
+    {
+      "trial_id": 433,
+      "pulses": 146,
+      "duration": 4.901133333333291
+    },
+    {
+      "trial_id": 434,
+      "pulses": 142,
+      "duration": 4.766233333333275
+    },
+    {
+      "trial_id": 435,
+      "pulses": 133,
+      "duration": 4.462566666666589
+    },
+    {
+      "trial_id": 436,
+      "pulses": 133,
+      "duration": 4.462566666667044
+    },
+    {
+      "trial_id": 437,
+      "pulses": 130,
+      "duration": 4.361400000000231
+    },
+    {
+      "trial_id": 438,
+      "pulses": 130,
+      "duration": 4.361400000000231
+    },
+    {
+      "trial_id": 439,
+      "pulses": 142,
+      "duration": 4.766166666667232
+    },
+    {
+      "trial_id": 440,
+      "pulses": 133,
+      "duration": 4.462600000000293
+    },
+    {
+      "trial_id": 442,
+      "pulses": 130,
+      "duration": 4.361466666667184
+    },
+    {
+      "trial_id": 443,
+      "pulses": 130,
+      "duration": 4.361466666666729
+    },
+    {
+      "trial_id": 444,
+      "pulses": 139,
+      "duration": 4.664999999999964
+    },
+    {
+      "trial_id": 445,
+      "pulses": 133,
+      "duration": 4.462666666667246
+    },
+    {
+      "trial_id": 446,
+      "pulses": 133,
+      "duration": 4.462666666666792
+    },
+    {
+      "trial_id": 447,
+      "pulses": 136,
+      "duration": 4.563833333333605
+    },
+    {
+      "trial_id": 448,
+      "pulses": 146,
+      "duration": 4.901133333333291
+    },
+    {
+      "trial_id": 449,
+      "pulses": 133,
+      "duration": 4.462566666667044
+    },
+    {
+      "trial_id": 450,
+      "pulses": 121,
+      "duration": 4.057833333333292
+    },
+    {
+      "trial_id": 451,
+      "pulses": 133,
+      "duration": 4.4625666666661346
+    },
+    {
+      "trial_id": 452,
+      "pulses": 124,
+      "duration": 4.15900000000056
+    },
+    {
+      "trial_id": 453,
+      "pulses": 142,
+      "duration": 4.766100000000733
+    },
+    {
+      "trial_id": 454,
+      "pulses": 139,
+      "duration": 4.664933333333465
+    },
+    {
+      "trial_id": 455,
+      "pulses": 142,
+      "duration": 4.766133333332618
+    },
+    {
+      "trial_id": 456,
+      "pulses": 139,
+      "duration": 4.664933333333465
+    },
+    {
+      "trial_id": 457,
+      "pulses": 139,
+      "duration": 4.664966666667169
+    },
+    {
+      "trial_id": 458,
+      "pulses": 133,
+      "duration": 4.462600000000748
+    },
+    {
+      "trial_id": 459,
+      "pulses": 139,
+      "duration": 4.664966666667169
+    },
+    {
+      "trial_id": 460,
+      "pulses": 136,
+      "duration": 4.5638000000008105
+    },
+    {
+      "trial_id": 461,
+      "pulses": 146,
+      "duration": 4.901066666667248
+    },
+    {
+      "trial_id": 462,
+      "pulses": 133,
+      "duration": 4.462600000000748
+    },
+    {
+      "trial_id": 463,
+      "pulses": 142,
+      "duration": 4.766166666666322
+    },
+    {
+      "trial_id": 464,
+      "pulses": 142,
+      "duration": 4.766166666667232
+    },
+    {
+      "trial_id": 465,
+      "pulses": 136,
+      "duration": 4.563799999999901
+    },
+    {
+      "trial_id": 466,
+      "pulses": 133,
+      "duration": 4.462633333333542
+    },
+    {
+      "trial_id": 469,
+      "pulses": 133,
+      "duration": 4.462633333333542
+    },
+    {
+      "trial_id": 470,
+      "pulses": 135,
+      "duration": 4.530100000000857
+    },
+    {
+      "trial_id": 471,
+      "pulses": 136,
+      "duration": 4.563833333333605
+    },
+    {
+      "trial_id": 473,
+      "pulses": 139,
+      "duration": 4.6650333333336675
+    },
+    {
+      "trial_id": 474,
+      "pulses": 143,
+      "duration": 4.7999333333336835
+    },
+    {
+      "trial_id": 475,
+      "pulses": 139,
+      "duration": 4.6650333333336675
+    },
+    {
+      "trial_id": 476,
+      "pulses": 133,
+      "duration": 4.46253333333425
+    },
+    {
+      "trial_id": 477,
+      "pulses": 142,
+      "duration": 4.76623333333373
+    },
+    {
+      "trial_id": 478,
+      "pulses": 133,
+      "duration": 4.46253333333334
+    },
+    {
+      "trial_id": 479,
+      "pulses": 139,
+      "duration": 4.664899999999761
+    },
+    {
+      "trial_id": 480,
+      "pulses": 142,
+      "duration": 4.766133333333528
+    },
+    {
+      "trial_id": 481,
+      "pulses": 139,
+      "duration": 4.664933333333465
+    },
+    {
+      "trial_id": 482,
+      "pulses": 139,
+      "duration": 4.664933333333465
+    },
+    {
+      "trial_id": 483,
+      "pulses": 130,
+      "duration": 4.3613666666669815
+    },
+    {
+      "trial_id": 484,
+      "pulses": 136,
+      "duration": 4.563766666667107
+    },
+    {
+      "trial_id": 485,
+      "pulses": 142,
+      "duration": 4.766133333334437
+    },
+    {
+      "trial_id": 486,
+      "pulses": 139,
+      "duration": 4.664933333333465
+    },
+    {
+      "trial_id": 487,
+      "pulses": 142,
+      "duration": 4.766133333333528
+    },
+    {
+      "trial_id": 488,
+      "pulses": 136,
+      "duration": 4.563766666667107
+    },
+    {
+      "trial_id": 489,
+      "pulses": 139,
+      "duration": 4.664966666667169
+    },
+    {
+      "trial_id": 490,
+      "pulses": 133,
+      "duration": 4.4625999999998385
+    },
+    {
+      "trial_id": 491,
+      "pulses": 146,
+      "duration": 4.901066666667248
+    },
+    {
+      "trial_id": 493,
+      "pulses": 130,
+      "duration": 4.36143333333348
+    },
+    {
+      "trial_id": 494,
+      "pulses": 133,
+      "duration": 4.462600000000748
+    },
+    {
+      "trial_id": 495,
+      "pulses": 133,
+      "duration": 4.462600000000748
+    },
+    {
+      "trial_id": 496,
+      "pulses": 130,
+      "duration": 4.36143333333348
+    },
+    {
+      "trial_id": 497,
+      "pulses": 136,
+      "duration": 4.5638000000008105
+    },
+    {
+      "trial_id": 498,
+      "pulses": 146,
+      "duration": 4.901066666667248
+    },
+    {
+      "trial_id": 499,
+      "pulses": 133,
+      "duration": 4.462633333333542
+    }
+  ]
+}

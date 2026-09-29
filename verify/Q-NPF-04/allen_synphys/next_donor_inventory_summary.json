@@ -1,0 +1,158 @@
+{
+  "source_sha256": "0ae0a765466acad500d300b5009c81649903544473b0d5b94650f700d78f476a",
+  "code_sha256": "717ea4108c1f9d432d422eed6a7cf2fbd34ccea908eb9a2792b572505602b988",
+  "summaries": [
+    {
+      "selection": {
+        "experiment_id": 4863,
+        "ext_id": "1630015960.701",
+        "slice_id": 4125,
+        "lims_specimen_name": "Tlx3-Cre_PL56;Ai193-hyg-593646.08.06",
+        "pair_id": 121538,
+        "pre_cell_id": 24114,
+        "post_cell_id": 24118,
+        "pre_electrode_id": 38821,
+        "post_electrode_id": 38826,
+        "synapse_id": 2985,
+        "latency": 0.001664547735740934,
+        "psp_rise_time": 0.0033832110199874966,
+        "psp_decay_tau": 0.021817996017403304,
+        "donor_id": "593646"
+      },
+      "exact_condition_groups": 66,
+      "modes": [
+        {
+          "mode": "ic",
+          "records": 66,
+          "pulses": 922,
+          "both_recording_qc": 66,
+          "both_test_pulse_same_recording": 66,
+          "single_spike": 764,
+          "aligned": 635,
+          "ex_qc": 691,
+          "state": {
+            "pre": {
+              "access_resistance": {
+                "n": 66,
+                "min_ohm": 6636126.232361558,
+                "max_ohm": 20213596.13071182
+              },
+              "input_resistance": {
+                "n": 66,
+                "min_ohm": 60876675.5371838,
+                "max_ohm": 279052633.71116066
+              }
+            },
+            "post": {
+              "access_resistance": {
+                "n": 66,
+                "min_ohm": 3348428.243251265,
+                "max_ohm": 14789348.762040194
+              },
+              "input_resistance": {
+                "n": 66,
+                "min_ohm": 33010166.703710463,
+                "max_ohm": 101663864.69048688
+              }
+            }
+          }
+        },
+        {
+          "mode": "vc",
+          "records": 10,
+          "pulses": 120,
+          "both_recording_qc": 10,
+          "both_test_pulse_same_recording": 10,
+          "single_spike": 120,
+          "aligned": 120,
+          "ex_qc": 120,
+          "state": {
+            "pre": {
+              "access_resistance": {
+                "n": 10,
+                "min_ohm": 12698410.0,
+                "max_ohm": 16736398.0
+              },
+              "input_resistance": {
+                "n": 10,
+                "min_ohm": 118545195.69838405,
+                "max_ohm": 190390654.87828222
+              }
+            },
+            "post": {
+              "access_resistance": {
+                "n": 10,
+                "min_ohm": 7714559.5,
+                "max_ohm": 12279353.0
+              },
+              "input_resistance": {
+                "n": 10,
+                "min_ohm": 108178086.84090266,
+                "max_ohm": 166662438.87519452
+              }
+            }
+          }
+        }
+      ],
+      "repeated_groups": [
+        {
+          "sweeps": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "n": 5,
+          "mode": "vc",
+          "all_aligned": 5,
+          "all_ex_qc": 5
+        },
+        {
+          "sweeps": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "n": 5,
+          "mode": "vc",
+          "all_aligned": 5,
+          "all_ex_qc": 5
+        },
+        {
+          "sweeps": [
+            "44",
+            "45"
+          ],
+          "n": 2,
+          "mode": "ic",
+          "all_aligned": 0,
+          "all_ex_qc": 2
+        },
+        {
+          "sweeps": [
+            "86",
+            "87"
+          ],
+          "n": 2,
+          "mode": "ic",
+          "all_aligned": 2,
+          "all_ex_qc": 2
+        }
+      ],
+      "ic_20hz_alignment": {
+        "sweeps": [
+          "77",
+          "78",
+          "79",
+          "80",
+          "81"
+        ],
+        "pulses": 60,
+        "aligned": 13
+      }
+    }
+  ]
+}

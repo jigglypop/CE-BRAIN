@@ -1,0 +1,12 @@
+{
+  "question": "How sensitive are total and within-trial structural contrasts to every recorded one-ROI-per-nucleus assignment?",
+  "method": "All frozen Cartesian assignments; original field-distance weighting and cuts; raw/repeat mean/LOO residual; exact trial-level covariance decomposition normalized by total residual SDs. All10/first5/last5, both timings.",
+  "control": "999 independent per-nucleus circular repeat shifts. Same nucleus shift for alternative ROIs, shared across timing and assignments. Total seed20260905; within seed20260906; conditions and entire within-trial blocks moved together.",
+  "timing_amendment_sha256": "6a197cd2e1705767b908567b94b4cf6b58791082f31b0e91cce665c8c2371377",
+  "limits": "No preferred assignment, independent-ROI pseudoreplication, calibrated p-value or causal claim. Field weights change with chosen ROI; full outcomes retained.",
+  "code_sha256": "9792a7b108ae138c2de888ac43823025e26a44ea001d7687ece9ec9573dbfeaa",
+  "input_sha256": "f406d3a10b7f87f1b85635956d68b4c0bf94b6ca93d9977b134adab6bc2cdcbf",
+  "assignment_source_sha256": "4e1029c64472293d1eee3b935e36dcf3f6b4fa71535dae1a94de4aba7b383bc6",
+  "identity_sha256": "026cfafa3325f1eb955d5599695d0a28606d9e8a2b57ad9ff315500d3fbd7cba",
+  "weight_code_sha256": "9cb56cb5972bcfb5e5184715877c530519dff7ac0fa8bc79db59c12e53837e8c"
+}

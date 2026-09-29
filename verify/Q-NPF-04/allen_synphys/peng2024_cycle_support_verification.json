@@ -1,0 +1,92 @@
+{
+  "verification": "PASS: exhaustive orientations of every nonunique published real graph agree with dynamic counts",
+  "result_sha256": "aaddac90b01c8ffa487d71cfc015942d253ba4d0ec90623a7e897294d4e48ebd",
+  "code_sha256": "db96d66c43d131d526d05bcbe38641429c46abc19fd961ec6e55c03e370724c7",
+  "cohorts": {
+    "er": {
+      "records": [
+        {
+          "cluster": "P_GAIH_s1cl2",
+          "distribution": {
+            "1": 2
+          },
+          "variable_cycle_count": false
+        },
+        {
+          "cluster": "P_GECH_s2cl1",
+          "distribution": {
+            "1": 2
+          },
+          "variable_cycle_count": false
+        },
+        {
+          "cluster": "P_FMKG_s2cl1",
+          "distribution": {
+            "0": 2
+          },
+          "variable_cycle_count": false
+        },
+        {
+          "cluster": "U_JEAG_s2cl1",
+          "distribution": {
+            "0": 1,
+            "1": 2
+          },
+          "variable_cycle_count": true
+        },
+        {
+          "cluster": "Y_IHDF_s1cl1",
+          "distribution": {
+            "1": 2,
+            "2": 1
+          },
+          "variable_cycle_count": true
+        },
+        {
+          "cluster": "Y_IHDF_s1cl2",
+          "distribution": {
+            "3": 6,
+            "4": 6
+          },
+          "variable_cycle_count": true
+        },
+        {
+          "cluster": "Y_GECH_s2cl1",
+          "distribution": {
+            "1": 2
+          },
+          "variable_cycle_count": false
+        },
+        {
+          "cluster": "Y_GECH_s3cl1",
+          "distribution": {
+            "0": 2
+          },
+          "variable_cycle_count": false
+        },
+        {
+          "cluster": "Y_JGAK_s5cl1",
+          "distribution": {
+            "0": 1,
+            "1": 2
+          },
+          "variable_cycle_count": true
+        }
+      ],
+      "variable_cycle_records": 4
+    },
+    "tr": {
+      "records": [
+        {
+          "cluster": "R_BFML_s2cl1",
+          "distribution": {
+            "1": 2,
+            "2": 1
+          },
+          "variable_cycle_count": true
+        }
+      ],
+      "variable_cycle_records": 1
+    }
+  }
+}

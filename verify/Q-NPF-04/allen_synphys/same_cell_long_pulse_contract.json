@@ -1,0 +1,10 @@
+{
+  "question": "Do LP sweeps82..89 contain actual varying current steps on each of the three paired-recording electrodes?",
+  "scope": "All24 LP records on electrodes2,4,5; arrays in SI units; no spike detector, rheobase estimate or quality-based postselection.",
+  "checks": "record/command electrode, unit, sample rate/start, shape, finite arrays; source conversion including offset; exact command run lengths.",
+  "limits": "Electrode continuity is not verified cell stability; baseline holding/current context and full QC required before mechanism fitting.",
+  "cache_limit_bytes": 134217728,
+  "inventory_sha256": "4e2c6111306a032d3d6e820a2953654c58e892ea5373eb624559b7da7e448546",
+  "reader_sha256": "5aa32fce7a19372183cf304ecf70bcd1d168dc723ffcffbc74f0711d83db50ae",
+  "code_sha256": "46f4edb87b20c95b4672eb1b385c4fc6b7624986162096f6e82dca246034cb4f"
+}

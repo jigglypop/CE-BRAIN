@@ -1,0 +1,88 @@
+{
+  "scenarios": [
+    {
+      "timing": "common_frame",
+      "exclude_disputed": false,
+      "cells": 53,
+      "linked_dyads": 98,
+      "unlisted_dyads": 1280,
+      "linked_mean": 0.1748308806162846,
+      "unlisted_mean": 0.1315617778420028,
+      "mean_difference": 0.04326910277428181,
+      "median_difference": 0.056805508102653016,
+      "matched_mean_difference": 0.014954787669744521,
+      "matched_strata": 14,
+      "matched_dyads": 1326,
+      "matched_linked_dyads": 98,
+      "leave_one_cell_out_range": [
+        0.03579638703055496,
+        0.0508550391885039
+      ]
+    },
+    {
+      "timing": "common_frame",
+      "exclude_disputed": true,
+      "cells": 52,
+      "linked_dyads": 96,
+      "unlisted_dyads": 1230,
+      "linked_mean": 0.16981659167764815,
+      "unlisted_mean": 0.12697533831475172,
+      "mean_difference": 0.04284125336289643,
+      "median_difference": 0.05652284741682473,
+      "matched_mean_difference": 0.01617851008225286,
+      "matched_strata": 14,
+      "matched_dyads": 1274,
+      "matched_linked_dyads": 96,
+      "leave_one_cell_out_range": [
+        0.03465250040382924,
+        0.0505911571063245
+      ]
+    },
+    {
+      "timing": "positive_delay_sensitivity",
+      "exclude_disputed": false,
+      "cells": 53,
+      "linked_dyads": 98,
+      "unlisted_dyads": 1280,
+      "linked_mean": 0.1841065156487912,
+      "unlisted_mean": 0.14007574285802968,
+      "mean_difference": 0.044030772790761535,
+      "median_difference": 0.053890169874602406,
+      "matched_mean_difference": 0.01480915582648764,
+      "matched_strata": 14,
+      "matched_dyads": 1326,
+      "matched_linked_dyads": 98,
+      "leave_one_cell_out_range": [
+        0.03681181016570506,
+        0.05207092752569087
+      ]
+    },
+    {
+      "timing": "positive_delay_sensitivity",
+      "exclude_disputed": true,
+      "cells": 52,
+      "linked_dyads": 96,
+      "unlisted_dyads": 1230,
+      "linked_mean": 0.1786901051763807,
+      "unlisted_mean": 0.13508723618778062,
+      "mean_difference": 0.04360286898860008,
+      "median_difference": 0.05707482773766806,
+      "matched_mean_difference": 0.016189122200985468,
+      "matched_strata": 14,
+      "matched_dyads": 1274,
+      "matched_linked_dyads": 96,
+      "leave_one_cell_out_range": [
+        0.03563739820912268,
+        0.05181306381209469
+      ]
+    }
+  ],
+  "distance_quartiles_um": [
+    78.47699304790255,
+    142.92987653611388,
+    167.705328522537
+  ],
+  "frames": 1248,
+  "status": "DESCRIPTIVE_WITHIN_SPECIMEN_ASSOCIATION_ONLY",
+  "claim_ceiling": "Restricted L1 observation conditional on registered identity; integrated mechanism remains L0."
+}

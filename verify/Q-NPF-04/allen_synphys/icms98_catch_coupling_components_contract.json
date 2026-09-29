@@ -1,0 +1,9 @@
+{
+  "code_sha256": "b0db9a925ed1e0f8f5a0bdc16566328e2b1e335ab175fc3bafc68a4cb571160f",
+  "input_sha256": "f272cda53d49e66155f5dfc1792b202b67de94e6a17473ffe36908663b9c4865",
+  "parent_sha256": "36dc35f8f3c0f5fc7b9aaa079edc0356d754d1c71f3cd3a6f78c3dd20be07334",
+  "trial_source_sha256": "347698997dc60d0a0f00bca539a7978ec990c2882da5e3caec57d7401217aa70",
+  "method": "Same36 catches and21 units; 1ms bins in trialstart+0.8..1.3s, separate sigma10bins truncate4 smoothing, interior100:400. Decompose prior PC exactly into trigger-weighted trial-interior population mean minus global mean, and within-trial centered population component. Leave-target-out population. Compare each target trial to mean population trace of all other catches in same original100-trial block, both raw and trial-demeaned. No permutations or p-values.",
+  "scope": "Report all units, descriptive direction counts restricted to prior13 eligible units with at least50 interior spikes. No new quality selection.",
+  "ceiling": "Exploratory L1 scope-limited coactivity; not direct connection, causal mechanism or independent replication. Cross-trial contrast can retain within-block state and behavior differences."
+}

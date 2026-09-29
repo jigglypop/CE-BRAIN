@@ -1,0 +1,31 @@
+{
+  "question": "기존 S2 반응 창에 기록된 핥기가 겹치는가",
+  "selection": "J064 run10 전체 보존 시행; 기존 분석 후 정한 기술 점검",
+  "source_prefix_sha256": "487c6655d4de9bd6ad4ea08143c0a5aaf43f18f994314f05aef4af8bdcb8a9a4",
+  "source_sha256": {
+    "author_Session.py": "6d9117ba4b12b2a9bf28f2fbecb62942be47581ada0ce27053a869f6a0662e5e",
+    "vape_cacher.py": "2d5eaa17e84ce9168a44ee423b46f9a6207abfd893375cf69aeb7fa8bb263caa",
+    "vape_run_functions.py": "a280097a72bff4722037bbab8a5b150ce46ffd0c193aa2bef5af25ee652cc1f6",
+    "vape_data_import.py": "34f9ca47f160cf8e96ca430488adcd661a16a53276e13a502ac0ddd0545768dc"
+  },
+  "code_sha256": "8b7403b74037704aa72729018385755363effb85dedeab7ed3dcf3bc4ffa3d66",
+  "windows_ms": {
+    "early": [
+      0,
+      1500
+    ],
+    "response": [
+      1500,
+      3000
+    ]
+  },
+  "window_rule": "half-open; 한 시행에서 하나 이상의 기록된 lick",
+  "clock": "공개 cacher는 B_to_A(spiral_start)를 빼고 ms로 저장; 실제 export의 실행 revision은 미확인",
+  "limits": [
+    "보상 전달 시각 없음",
+    "lick 없음은 움직임 없음이 아님",
+    "행동으로 층화한 인과효과를 계산하지 않음",
+    "전체 파일 무결성 미확인"
+  ],
+  "claim_ceiling": "BIO_EVIDENCE_L1 conditional on documented clock; no causal identification"
+}

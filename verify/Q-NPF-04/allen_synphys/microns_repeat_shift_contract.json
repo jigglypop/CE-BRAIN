@@ -1,0 +1,9 @@
+{
+  "question": "Is the observed structural residual-correlation contrast dependent on keeping cells in the same recording repeat?",
+  "control": "999 independently drawn per-cell circular shifts of repeat order, same shift across all6 conditions and all57 within-trial samples. Seed20260905. Reuse shifts for timing/exclusion sensitivities.",
+  "analysis": "All10, first5, last5; common/positive-delay; include/exclude3151; original mean and field-distance matched contrasts.",
+  "limits": "Descriptive misalignment control only. Repeat exchangeability/stationarity not established; circular wrap and behavioral drift matter. Tail fraction is not a calibrated p-value. Shifts disrupt all same-repeat common causes as well as direct coupling.",
+  "centering": "Residuals sum to zero over repeats. Mean covariance over all circular offsets is algebraically zero; that null center is not independent evidence.",
+  "code_sha256": "9cb56cb5972bcfb5e5184715877c530519dff7ac0fa8bc79db59c12e53837e8c",
+  "response_sha256": "49e1d0cc7c71c81deb62bebe363a0f3fdc34793a5f66cc766a037c4316913b44"
+}

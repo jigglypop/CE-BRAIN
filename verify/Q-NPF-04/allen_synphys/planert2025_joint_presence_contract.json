@@ -1,0 +1,14 @@
+{
+  "question": "Does a training-only constant directional odds ratio improve held-out four-state predictions?",
+  "scope": "same 2060 dyads/21 patients and both-direction masks from full-presence analysis",
+  "margins": "reconstruct each held-patient network model from saved coefficients and training RMS; apply same model to its training dyads for dependence fit",
+  "leakage_gate": "do NOT fit dependence on pooled OOF training predictions, whose models may include held patient; all fitting uses only current outer training patients",
+  "models": "independent eta=0; train-only constant eta with eta^2/2 penalty; marginals identical",
+  "probabilities": "00=1-p-q+t,01=q-t,10=p-t,11=t; eta=log(P11*P00/(P10*P01))",
+  "endpoints": "joint logloss, equal-patient logloss, mutual Brier and expected count; no causal reciprocity claim",
+  "checks": "recover all existing held-out probabilities; gradient gate; probability sums and margins; eta0 equals products; analytic probability fixtures",
+  "limits": "training margins use training labels; exploratory; constant dyad dependence not full graph distribution; same lineage/QC limitations",
+  "source_sha256": "eb5f859f2d2186d0f8ad49c954862bebea0692bc19752f74c93d90b37b1540e6",
+  "helper_sha256": "3096918dfe1bf9114f692bfb450b0bb2ddf64f331be5f79653cbefdb123f6d64",
+  "code_sha256": "9c7490a3d55039eec53afbbb45c248f1ca9e63bbd5025280e56d809e595bca88"
+}

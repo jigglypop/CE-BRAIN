@@ -1,0 +1,18 @@
+{
+  "coverage_sha256": "3003b83655836b5a9592442f4c8ab15fe1d91d66c75f7dc96083df048db24cf8",
+  "synapse": {
+    "id": 2754,
+    "pair_id": 116053,
+    "synapse_type": "ex",
+    "latency": 0.0009000000000007727,
+    "psp_amplitude": 0.00018953108158088232,
+    "psp_rise_time": 0.004712521456226842,
+    "psp_decay_tau": 0.005000000000337183,
+    "psc_amplitude": null,
+    "psc_rise_time": null,
+    "psc_decay_tau": null,
+    "meta": "null"
+  },
+  "eligibility_presence_mismatches": [],
+  "scope": "All180 rows match presence of baseline and required stored kinetics/spike time; consistency with inspected source, not historical execution proof"
+}

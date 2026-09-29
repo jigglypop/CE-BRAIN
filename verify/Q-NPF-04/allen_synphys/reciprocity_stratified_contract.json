@@ -1,0 +1,21 @@
+{
+  "timing": "post-result sensitivity, not independent confirmation",
+  "purpose": "Measure how reciprocity reference changes after fixing more observed heterogeneity",
+  "strata": [
+    "experiment",
+    "experiment+ordered nonsynaptic cell classes",
+    "experiment+ordered nonsynaptic cell classes+distance bins"
+  ],
+  "bins_m": [
+    0,
+    5e-05,
+    0.0001,
+    0.0002
+  ],
+  "missing_distance": "separate stratum",
+  "expectation": "same stratum k(k-1)/(n(n-1)); different strata (k1/n1)*(k2/n2), independent shuffles across strata",
+  "limitations": "sparse strata can force labels and erase comparison power; no p-values, no causal or population-independent claim",
+  "table_sha256": "92675aaf6fc7e032fc262cc7666998cb8009ce54e6422146d40d00ff6ae28700",
+  "db_sha256": "7372499fdd874f057565080d5769baaf2659ef39d9f3bc3c7147dd1e1c280a53",
+  "code_sha256": "c7cca3582885c0d658e9d57a6013667d51633ce7e924f1ca6a40baf36c9fd7a2"
+}

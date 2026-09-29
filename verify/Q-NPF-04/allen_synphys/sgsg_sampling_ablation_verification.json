@@ -1,0 +1,16 @@
+{
+  "result_sha256": "33c1c247d851fc2de0f9e7f0d45aa1bf3211ac098b09c7ab88cf79430410a052",
+  "verifier_sha256": "0ed5c407b9f7ed86cbee0f2d80b0837c85b9d7c16bca044350986ca8a07e415f",
+  "graphs_verified": 192,
+  "spatial_graphs_regenerated": 32,
+  "replayed_branches": [
+    "00_bernoulli_all_1.5.npz",
+    "00_bernoulli_all_1.55.npz",
+    "00_original_1.5.npz",
+    "00_original_1.55.npz",
+    "00_stochastic_round_1.5.npz",
+    "00_stochastic_round_1.55.npz"
+  ],
+  "exact_shared_geometry_verified": true,
+  "biological_validation": false
+}

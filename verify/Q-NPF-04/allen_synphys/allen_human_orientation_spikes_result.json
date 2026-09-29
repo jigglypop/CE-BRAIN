@@ -1,0 +1,9 @@
+{
+  "contract_sha256": "6034a964e7422bbd1bfa5dfe99b4b91aaa122aaa4869e8c6314fb32fc4b38b7c",
+  "dyads": 80,
+  "slices_with_oneway_edges": 33,
+  "equal_spike_dyads": 7,
+  "fair_logloss": 0.6931471805599453,
+  "spike_logloss": 0.6949426257186202,
+  "equal_slice_spike_logloss": 0.6959110168040963,
+  "slices_improved": 

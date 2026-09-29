@@ -1,0 +1,12 @@
+{
+  "snapshot_bytes": 1652555776,
+  "cell_id_storage": "list",
+  "cell_count": 2334,
+  "unique": true,
+  "first_second_ids_equal": true,
+  "superseded_validator": "mechanisms_complete_check.py",
+  "replacement_validator": "mechanisms_complete_check_v2.py",
+  "replacement_sha256": "5a794017720011a78ba79b2661bcaed410bd6f30534e77f9f2a624590da4523e",
+  "reason": "Original validator incorrectly treated cell_id lists as symbolic NumPy arrays",
+  "full_file_validation": "pending"
+}

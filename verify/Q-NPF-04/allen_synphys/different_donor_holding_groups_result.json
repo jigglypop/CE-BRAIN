@@ -1,0 +1,791 @@
+{
+  "contract_sha256": "bc8d2559e625ba2751602b3f3c20a15c13acf13c7e4ff43b821b79954b7c18a5",
+  "vc_result_sha256": "76138c4b2318da794b7d05c1471fe7aae7219a53a90c83a7a28070bd0de35815",
+  "groups": [
+    {
+      "condition": {
+        "amplitude": [
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579
+        ],
+        "duration_us": [
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505
+        ],
+        "onset_intervals_us": [
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          251505,
+          50000,
+          50000,
+          50000
+        ],
+        "post_holding_unit": "V",
+        "post_holding_value": -0.07000026851892471,
+        "post_mode": "vc",
+        "pre_holding_unit": "V",
+        "pre_holding_value": -0.07001650333404541,
+        "pre_mode": "vc"
+      },
+      "sweeps": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "recordings": [
+        716261,
+        716263,
+        716265,
+        716267,
+        716269
+      ],
+      "repeats": 5
+    },
+    {
+      "condition": {
+        "amplitude": [
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579
+        ],
+        "duration_us": [
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505
+        ],
+        "onset_intervals_us": [
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          251505,
+          50000,
+          50000,
+          50000
+        ],
+        "post_holding_unit": "V",
+        "post_holding_value": -0.055000267922878265,
+        "post_mode": "vc",
+        "pre_holding_unit": "V",
+        "pre_holding_value": -0.0549914576113224,
+        "pre_mode": "vc"
+      },
+      "sweeps": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "recordings": [
+        716271,
+        716273,
+        716275,
+        716277,
+        716279
+      ],
+      "repeats": 5
+    },
+    {
+      "condition": {
+        "amplitude": [
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09
+        ],
+        "duration_us": [
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505
+        ],
+        "onset_intervals_us": [
+          20000,
+          20000,
+          20000,
+          20000,
+          20000,
+          20000,
+          20000,
+          126505,
+          20000,
+          20000,
+          20000
+        ],
+        "post_holding_unit": "A",
+        "post_holding_value": -7.564907589241443e-10,
+        "post_mode": "ic",
+        "pre_holding_unit": "A",
+        "pre_holding_value": -2.7574983962885824e-10,
+        "pre_mode": "ic"
+      },
+      "sweeps": [
+        "30"
+      ],
+      "recordings": [
+        716321
+      ],
+      "repeats": 1
+    },
+    {
+      "condition": {
+        "amplitude": [
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09
+        ],
+        "duration_us": [
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505
+        ],
+        "onset_intervals_us": [
+          20000,
+          20000,
+          20000,
+          20000,
+          20000,
+          20000,
+          20000,
+          251505,
+          20000,
+          20000,
+          20000
+        ],
+        "post_holding_unit": "A",
+        "post_holding_value": -7.900938792104739e-10,
+        "post_mode": "ic",
+        "pre_holding_unit": "A",
+        "pre_holding_value": -2.8615187996905433e-10,
+        "pre_mode": "ic"
+      },
+      "sweeps": [
+        "31"
+      ],
+      "recordings": [
+        716323
+      ],
+      "repeats": 1
+    },
+    {
+      "condition": {
+        "amplitude": [
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09
+        ],
+        "duration_us": [
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505
+        ],
+        "onset_intervals_us": [
+          20000,
+          20000,
+          20000,
+          20000,
+          20000,
+          20000,
+          20000,
+          501505,
+          20000,
+          20000,
+          20000
+        ],
+        "post_holding_unit": "A",
+        "post_holding_value": -7.745548646909128e-10,
+        "post_mode": "ic",
+        "pre_holding_unit": "A",
+        "pre_holding_value": -2.9004468271587314e-10,
+        "pre_mode": "ic"
+      },
+      "sweeps": [
+        "32"
+      ],
+      "recordings": [
+        716325
+      ],
+      "repeats": 1
+    },
+    {
+      "condition": {
+        "amplitude": [
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09,
+          1.1180000258903533e-09
+        ],
+        "duration_us": [
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505
+        ],
+        "onset_intervals_us": [
+          20000,
+          20000,
+          20000,
+          20000,
+          20000,
+          20000,
+          20000,
+          1001505,
+          20000,
+          20000,
+          20000
+        ],
+        "post_holding_unit": "A",
+        "post_holding_value": -7.546778757472339e-10,
+        "post_mode": "ic",
+        "pre_holding_unit": "A",
+        "pre_holding_value": -3.0906191494928237e-10,
+        "pre_mode": "ic"
+      },
+      "sweeps": [
+        "33"
+      ],
+      "recordings": [
+        716327
+      ],
+      "repeats": 1
+    },
+    {
+      "condition": {
+        "amplitude": [
+          9.999999717180685e-10,
+          9.999999717180685e-10,
+          9.999999717180685e-10,
+          9.999999717180685e-10,
+          9.999999717180685e-10,
+          9.999999717180685e-10,
+          9.999999717180685e-10,
+          9.999999717180685e-10,
+          9.999999717180685e-10,
+          9.999999717180685e-10,
+          9.999999717180685e-10,
+          9.999999717180685e-10
+        ],
+        "duration_us": [
+          3020,
+          3020,
+          3020,
+          3020,
+          3020,
+          3020,
+          3020,
+          3020,
+          3000,
+          3000,
+          3000,
+          3000
+        ],
+        "onset_intervals_us": [
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          253020,
+          50000,
+          50000,
+          50000
+        ],
+        "post_holding_unit": "A",
+        "post_holding_value": -7.509226018775905e-10,
+        "post_mode": "ic",
+        "pre_holding_unit": "A",
+        "pre_holding_value": -2.922144193284737e-10,
+        "pre_mode": "ic"
+      },
+      "sweeps": [
+        "35"
+      ],
+      "recordings": [
+        716337
+      ],
+      "repeats": 1
+    }
+  ],
+  "vc_analysis": [
+    {
+      "condition": {
+        "amplitude": [
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579
+        ],
+        "duration_us": [
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505
+        ],
+        "onset_intervals_us": [
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          251505,
+          50000,
+          50000,
+          50000
+        ],
+        "post_holding_unit": "V",
+        "post_holding_value": -0.07000026851892471,
+        "post_mode": "vc",
+        "pre_holding_unit": "V",
+        "pre_holding_value": -0.07001650333404541,
+        "pre_mode": "vc"
+      },
+      "sweeps": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "summary": [
+        {
+          "pulse": 1,
+          "n": 5,
+          "mean_pA": 0.985920541605999,
+          "median_pA": 0.9014062463981977,
+          "inward_count": 2,
+          "mean_minus_control_pA": 0.18023488306065136,
+          "corrected_inward_count": 2,
+          "within_control_range": 5
+        },
+        {
+          "pulse": 2,
+          "n": 5,
+          "mean_pA": 0.4695937481236019,
+          "median_pA": 0.15921874936378086,
+          "inward_count": 2,
+          "mean_minus_control_pA": -0.3360919104217456,
+          "corrected_inward_count": 3,
+          "within_control_range": 5
+        },
+        {
+          "pulse": 3,
+          "n": 5,
+          "mean_pA": -0.1366518075120183,
+          "median_pA": 0.7887152746262053,
+          "inward_count": 1,
+          "mean_minus_control_pA": -0.942337466057366,
+          "corrected_inward_count": 2,
+          "within_control_range": 3
+        },
+        {
+          "pulse": 4,
+          "n": 5,
+          "mean_pA": 1.2520741629148724,
+          "median_pA": 1.2412499950401974,
+          "inward_count": 2,
+          "mean_minus_control_pA": 0.44638850436952443,
+          "corrected_inward_count": 2,
+          "within_control_range": 5
+        },
+        {
+          "pulse": 5,
+          "n": 5,
+          "mean_pA": 0.3711873108291037,
+          "median_pA": -0.7081249971704866,
+          "inward_count": 3,
+          "mean_minus_control_pA": -0.4344983477162437,
+          "corrected_inward_count": 3,
+          "within_control_range": 4
+        },
+        {
+          "pulse": 6,
+          "n": 5,
+          "mean_pA": -0.1493359603642439,
+          "median_pA": 1.7954687428256682,
+          "inward_count": 2,
+          "mean_minus_control_pA": -0.9550216189095909,
+          "corrected_inward_count": 2,
+          "within_control_range": 4
+        },
+        {
+          "pulse": 7,
+          "n": 5,
+          "mean_pA": 1.6809587645544948,
+          "median_pA": 1.3121874947567533,
+          "inward_count": 2,
+          "mean_minus_control_pA": 0.8752731060091475,
+          "corrected_inward_count": 2,
+          "within_control_range": 5
+        },
+        {
+          "pulse": 8,
+          "n": 5,
+          "mean_pA": 2.6960934889767025,
+          "median_pA": 5.673661138490357,
+          "inward_count": 2,
+          "mean_minus_control_pA": 1.890407830431355,
+          "corrected_inward_count": 2,
+          "within_control_range": 5
+        },
+        {
+          "pulse": 9,
+          "n": 5,
+          "mean_pA": 1.2145650602119153,
+          "median_pA": 0.17109374931633278,
+          "inward_count": 1,
+          "mean_minus_control_pA": 0.40887940166656805,
+          "corrected_inward_count": 3,
+          "within_control_range": 4
+        },
+        {
+          "pulse": 10,
+          "n": 5,
+          "mean_pA": 0.787499996853305,
+          "median_pA": 0.5629687477504941,
+          "inward_count": 2,
+          "mean_minus_control_pA": -0.018185661692042478,
+          "corrected_inward_count": 3,
+          "within_control_range": 2
+        },
+        {
+          "pulse": 11,
+          "n": 5,
+          "mean_pA": -7.570234516797887,
+          "median_pA": -8.500937466031942,
+          "inward_count": 5,
+          "mean_minus_control_pA": -8.375920175343236,
+          "corrected_inward_count": 5,
+          "within_control_range": 3
+        },
+        {
+          "pulse": 12,
+          "n": 5,
+          "mean_pA": -1.3665937445393528,
+          "median_pA": 1.5678124937352973,
+          "inward_count": 1,
+          "mean_minus_control_pA": -2.1722794030847004,
+          "corrected_inward_count": 2,
+          "within_control_range": 4
+        }
+      ]
+    },
+    {
+      "condition": {
+        "amplitude": [
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579,
+          0.06000000238418579
+        ],
+        "duration_us": [
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505,
+          1505
+        ],
+        "onset_intervals_us": [
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          50000,
+          251505,
+          50000,
+          50000,
+          50000
+        ],
+        "post_holding_unit": "V",
+        "post_holding_value": -0.055000267922878265,
+        "post_mode": "vc",
+        "pre_holding_unit": "V",
+        "pre_holding_value": -0.0549914576113224,
+        "pre_mode": "vc"
+      },
+      "sweeps": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "summary": [
+        {
+          "pulse": 1,
+          "n": 5,
+          "mean_pA": 5.793749976849318,
+          "median_pA": 6.102812475614329,
+          "inward_count": 1,
+          "mean_minus_control_pA": 5.245696670215698,
+          "corrected_inward_count": 1,
+          "within_control_range": 5
+        },
+        {
+          "pulse": 2,
+          "n": 5,
+          "mean_pA": -0.42006249832149933,
+          "median_pA": -0.5770312476942825,
+          "inward_count": 3,
+          "mean_minus_control_pA": -0.9681158049551198,
+          "corrected_inward_count": 3,
+          "within_control_range": 5
+        },
+        {
+          "pulse": 3,
+          "n": 5,
+          "mean_pA": -0.955937496180258,
+          "median_pA": -1.2357812450620804,
+          "inward_count": 3,
+          "mean_minus_control_pA": -1.5039908028138789,
+          "corrected_inward_count": 3,
+          "within_control_range": 5
+        },
+        {
+          "pulse": 4,
+          "n": 5,
+          "mean_pA": 4.327965041515095,
+          "median_pA": 2.9943749880350454,
+          "inward_count": 1,
+          "mean_minus_control_pA": 3.7799117348814746,
+          "corrected_inward_count": 1,
+          "within_control_range": 5
+        },
+        {
+          "pulse": 5,
+          "n": 5,
+          "mean_pA": -2.8877187384612584,
+          "median_pA": 0.060312499758974195,
+          "inward_count": 2,
+          "mean_minus_control_pA": -3.435772045094879,
+          "corrected_inward_count": 2,
+          "within_control_range": 4
+        },
+        {
+          "pulse": 6,
+          "n": 5,
+          "mean_pA": 2.135281241467839,
+          "median_pA": 3.3892187364573316,
+          "inward_count": 1,
+          "mean_minus_control_pA": 1.5872279348342182,
+          "corrected_inward_count": 2,
+          "within_control_range": 5
+        },
+        {
+          "pulse": 7,
+          "n": 5,
+          "mean_pA": 0.9076874963730482,
+          "median_pA": -0.26406249894488937,
+          "inward_count": 3,
+          "mean_minus_control_pA": 0.3596341897394275,
+          "corrected_inward_count": 3,
+          "within_control_range": 4
+        },
+        {
+          "pulse": 8,
+          "n": 5,
+          "mean_pA": 6.417406224357313,
+          "median_pA": 4.284374982880472,
+          "inward_count": 1,
+          "mean_minus_control_pA": 5.869352917723693,
+          "corrected_inward_count": 0,
+          "within_control_range": 5
+        },
+        {
+          "pulse": 9,
+          "n": 5,
+          "mean_pA": -3.7809754290861717,
+          "median_pA": -5.945624976242459,
+          "inward_count": 4,
+          "mean_minus_control_pA": -4.329028735719792,
+          "corrected_inward_count": 3,
+          "within_control_range": 4
+        },
+        {
+          "pulse": 10,
+          "n": 5,
+          "mean_pA": -2.975937488108732,
+          "median_pA": -0.9289062462883152,
+          "inward_count": 4,
+          "mean_minus_control_pA": -3.5239907947423523,
+          "corrected_inward_count": 3,
+          "within_control_range": 4
+        },
+        {
+          "pulse": 11,
+          "n": 5,
+          "mean_pA": -0.38701895491000504,
+          "median_pA": 0.96046874616215,
+          "inward_count": 2,
+          "mean_minus_control_pA": -0.9350722615436255,
+          "corrected_inward_count": 3,
+          "within_control_range": 4
+        },
+        {
+          "pulse": 12,
+          "n": 5,
+          "mean_pA": -1.4761204895972162,
+          "median_pA": -1.8450317431281342,
+          "inward_count": 3,
+          "mean_minus_control_pA": -2.024173796230837,
+          "corrected_inward_count": 4,
+          "within_control_range": 5
+        }
+      ]
+    }
+  ],
+  "status": "SUPERSEDES_POOLED_VC_CONDITION_INTERPRETATION"
+}

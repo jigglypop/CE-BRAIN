@@ -1,0 +1,9 @@
+{
+  "question": "Can all fixed53 targets be read under the explicit v1412 coregistration plus v8 ScanUnit mapping?",
+  "selection": "All53 predefined scan4/7 targets; first1250 frames, chosen before response values. No response-based exclusions.",
+  "endpoint": "Finite count, variation and observed range per trace; no connectivity, correlation or causal test.",
+  "timing": "Preserve NWB frame clock and per-unit ms_delay separately. No interpolation or assumed offset correction.",
+  "identity": "Use v1412 registration for all53. Unit3151 uses mask601; retain historical disagreement with v343 mask598 in audit.",
+  "limits": "GCaMP fluorescence in source unit n.a.; not spikes or deltaF/F. L0 acquisition/QC only.",
+  "code_sha256": "7768198ae5e8359c492d34ec83df2da8dd1ece71b205f5361faca6e316377871"
+}

@@ -1,0 +1,10 @@
+{
+  "source_result_sha256": "b811aea45ebbc4cbd75e9e5bd1a6dfc79a8a30e85cdf7d83f6c4051c8b01d828",
+  "source_code_sha256": "01fea4c3660b7624718ade5c8d88eeb5d81b72d10078de776eb0e88bc5ebcbb5",
+  "code_sha256": "f03b6745ad425287629e81b9193928b911c257e9d11563db92489ea8220a35cb",
+  "start": "saved block30 adjacency, reindex edges deterministically, fresh fixed seed=prior_seed+1000",
+  "run": "90 additional blocks, E proposals per block; checkpoint at total60,90,120; no new biological data",
+  "diagnostics": "blocks91..120 mean/range and last15-minus-first15 drift; overlap and acceptance; no convergence threshold or uniformity claim",
+  "interpretation": "trajectory stabilization only; constrained-space reachability and arbitrary-start sensitivity remain unproven",
+  "numpy": "2.4.6"
+}

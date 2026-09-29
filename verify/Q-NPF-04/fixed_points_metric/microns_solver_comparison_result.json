@@ -1,0 +1,135 @@
+{
+  "code_sha256": "f5eeca1702b773916107c87b730d8885c349ffcaf53ebedc657245f6b856ebc6",
+  "compared_block": {
+    "block": 0,
+    "node_groups": [
+      0,
+      0
+    ],
+    "train_nodes": 1063,
+    "test_nodes": 285,
+    "train_pairs": 1128906,
+    "test_pairs": 80940,
+    "train_positive": 50220,
+    "test_positive": 3117
+  },
+  "checkpoint_first_line_sha256": {
+    "microns_node_metric_blocks.jsonl": "c220d174394463b8276b218daa1c99919cc6a7dd6225f47faced5b44c1678466",
+    "microns_node_metric_schur_blocks.jsonl": "3633948347a9f7de9cd97c6db60132e5678b25a1bb4dd88d7935961105385253"
+  },
+  "analysis_code_sha256": {
+    "original": "0cec153e09731c2cecfc84049a6413f417c6256b82719113a6a31bfac6016e2a",
+    "schur": "f206bc7a5cfc97c0b3e1c909d5220622db1b7e51cd7421fbb87406c2330ee06c"
+  },
+  "scope": "Numerical comparison on one completed real-data block, fixed statistical objective, no new biological confirmation",
+  "models": [
+    {
+      "model": "strategy_context",
+      "old_iterations": 10,
+      "new_iterations": 3,
+      "new_minus_old_penalized_objective": -9.712314286147716e-12,
+      "train_max_absolute_logit_difference": 1.6042972466046024e-06,
+      "test_max_absolute_logit_difference": 1.6042972466046024e-06,
+      "test_rms_logit_difference": 4.312883378353776e-07,
+      "test_log_loss_difference": 1.655638404152171e-10,
+      "old_scaled_gradient_max": 5.519166729938177e-09,
+      "new_projected_gradient_max_unscaled": 8.359916196798434e-08
+    },
+    {
+      "model": "strategy_isotropic_quadratic",
+      "old_iterations": 48,
+      "new_iterations": 6,
+      "new_minus_old_penalized_objective": -5.440092820663267e-15,
+      "train_max_absolute_logit_difference": 2.053083988151627e-06,
+      "test_max_absolute_logit_difference": 2.0647830432096725e-06,
+      "test_rms_logit_difference": 4.5911433986809697e-07,
+      "test_log_loss_difference": -5.682271320139876e-10,
+      "old_scaled_gradient_max": 1.0079792814704533e-08,
+      "new_projected_gradient_max_unscaled": 8.412772217065991e-07
+    },
+    {
+      "model": "strategy_diagonal_quadratic",
+      "old_iterations": 52,
+      "new_iterations": 6,
+      "new_minus_old_penalized_objective": -2.3592239273284576e-14,
+      "train_max_absolute_logit_difference": 6.217616597581355e-06,
+      "test_max_absolute_logit_difference": 5.677400416459477e-06,
+      "test_rms_logit_difference": 1.1009153797201784e-06,
+      "test_log_loss_difference": -4.5244175073122506e-09,
+      "old_scaled_gradient_max": 3.930426113898622e-08,
+      "new_projected_gradient_max_unscaled": 2.084412897445282e-06
+    },
+    {
+      "model": "strategy_isotropic_radial",
+      "old_iterations": 35,
+      "new_iterations": 6,
+      "new_minus_old_penalized_objective": -1.0824674490095276e-15,
+      "train_max_absolute_logit_difference": 6.324442169969302e-07,
+      "test_max_absolute_logit_difference": 5.882645783827911e-07,
+      "test_rms_logit_difference": 2.0550268888441687e-07,
+      "test_log_loss_difference": 1.3356392380980964e-09,
+      "old_scaled_gradient_max": 6.805960938766529e-09,
+      "new_projected_gradient_max_unscaled": 2.114575181622058e-11
+    },
+    {
+      "model": "typed_context",
+      "old_iterations": 347,
+      "new_iterations": 13,
+      "new_minus_old_penalized_objective": -7.882905439515753e-11,
+      "train_max_absolute_logit_difference": 0.007637339427708056,
+      "test_max_absolute_logit_difference": 0.002006443385031531,
+      "test_rms_logit_difference": 5.5825006389625335e-05,
+      "test_log_loss_difference": 1.656894407786602e-08,
+      "old_scaled_gradient_max": 3.337739944006824e-08,
+      "new_projected_gradient_max_unscaled": 7.861444828449748e-10
+    },
+    {
+      "model": "typed_isotropic_quadratic",
+      "old_iterations": 1075,
+      "new_iterations": 6,
+      "new_minus_old_penalized_objective": -1.424506540503856e-09,
+      "train_max_absolute_logit_difference": 0.022559391661201467,
+      "test_max_absolute_logit_difference": 0.006510107962002909,
+      "test_rms_logit_difference": 0.0001955601463656597,
+      "test_log_loss_difference": -1.4234671819046696e-07,
+      "old_scaled_gradient_max": 4.818726173112893e-07,
+      "new_projected_gradient_max_unscaled": 4.5354218765858094e-08
+    },
+    {
+      "model": "typed_diagonal_quadratic",
+      "old_iterations": 1042,
+      "new_iterations": 6,
+      "new_minus_old_penalized_objective": -1.367872093371858e-09,
+      "train_max_absolute_logit_difference": 0.016569384928994957,
+      "test_max_absolute_logit_difference": 0.01036231427822687,
+      "test_rms_logit_difference": 0.00039419307899349765,
+      "test_log_loss_difference": 5.198957646890268e-07,
+      "old_scaled_gradient_max": 3.7567117762004443e-07,
+      "new_projected_gradient_max_unscaled": 2.9253251619834032e-08
+    },
+    {
+      "model": "typed_isotropic_radial",
+      "old_iterations": 557,
+      "new_iterations": 6,
+      "new_minus_old_penalized_objective": -3.3220323714111544e-10,
+      "train_max_absolute_logit_difference": 0.008240680998461869,
+      "test_max_absolute_logit_difference": 0.004065991163070493,
+      "test_rms_logit_difference": 0.00014957145876671156,
+      "test_log_loss_difference": -3.711969054354114e-08,
+      "old_scaled_gradient_max": 8.646621376359117e-08,
+      "new_projected_gradient_max_unscaled": 4.092726157978177e-12
+    },
+    {
+      "model": "typed_signed_quadratic",
+      "old_iterations": 1,
+      "new_iterations": 0,
+      "new_minus_old_penalized_objective": -1.367717772371435e-09,
+      "train_max_absolute_logit_difference": 0.016580056334840165,
+      "test_max_absolute_logit_difference": 0.010364192978277509,
+      "test_rms_logit_difference": 0.00039468491005692984,
+      "test_log_loss_difference": 5.134178016896751e-07,
+      "old_scaled_gradient_max": 7.487221844866163e-08,
+      "new_projected_gradient_max_unscaled": 2.9253251619834032e-08
+    }
+  ]
+}

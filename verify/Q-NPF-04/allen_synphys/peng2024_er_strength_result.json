@@ -1,0 +1,468 @@
+{
+  "contract_sha256": "3e4459349fa99f045bf219c6f420f24d81d1dc8c11e62561f327211d87afb56f",
+  "branches": {
+    "author_published": {
+      "usable_directions": 1040,
+      "excluded_raw_code_directions": 0,
+      "informative_clusters": 21,
+      "informative_patients": 11,
+      "information": 11.057072107930583,
+      "beta": 0.5249058466238167,
+      "exp_beta": 1.6902996934638215,
+      "same_records_intercept_ratio": 0.9963294623401995,
+      "leave_one_patient_beta_range": [
+        0.3556956445515568,
+        0.6720588087725867
+      ],
+      "patients_positive": 8,
+      "patients": {
+        "DACE": [
+          1.2700283640378665,
+          1.3187499999999994
+        ],
+        "FMKG": [
+          0.4215194028401537,
+          3.0482456140350886
+        ],
+        "MILJ": [
+          -0.19115029183952825,
+          1.0
+        ],
+        "IFDB": [
+          -0.021567641329979605,
+          0.5853658536585364
+        ],
+        "MIBF": [
+          2.3483098810827014,
+          1.341991341991342
+        ],
+        "GECH": [
+          0.1261990095581415,
+          0.9710526315789473
+        ],
+        "JGAK": [
+          0.2282744855403407,
+          0.3333333333333335
+        ],
+        "MAFE": [
+          0.9308730559029685,
+          1.0000000000000002
+        ],
+        "FMEH": [
+          -0.5454755732253151,
+          0.6249999999999998
+        ],
+        "KGJA": [
+          0.2200867568466653,
+          0.25
+        ],
+        "EJLB": [
+          1.0168243465798767,
+          0.5833333333333331
+        ]
+      },
+      "records": [
+        {
+          "cluster": "P_DACE_s2cl1",
+          "patient": "DACE",
+          "directions": 20,
+          "information": 1.0687499999999996,
+          "cross": 1.581611369842946,
+          "beta": 1.4798702875723475
+        },
+        {
+          "cluster": "P_FMKG_s1cl1",
+          "patient": "FMKG",
+          "directions": 11,
+          "information": 1.0000000000000009,
+          "cross": 0.0378118580142236,
+          "beta": 0.037811858014223564
+        },
+        {
+          "cluster": "P_MILJ_s2cl1",
+          "patient": "MILJ",
+          "directions": 9,
+          "information": 1.0,
+          "cross": -0.19115029183952825,
+          "beta": -0.19115029183952825
+        },
+        {
+          "cluster": "U_IFDB_s3cl1",
+          "patient": "IFDB",
+          "directions": 16,
+          "information": 0.5853658536585364,
+          "cross": -0.021567641329979605,
+          "beta": -0.03684472060538183
+        },
+        {
+          "cluster": "U_MIBF_s1cl1",
+          "patient": "MIBF",
+          "directions": 8,
+          "information": 0.24999999999999994,
+          "cross": 0.2187652620871982,
+          "beta": 0.8750610483487931
+        },
+        {
+          "cluster": "Y_DACE_s1cl1",
+          "patient": "DACE",
+          "directions": 7,
+          "information": 0.2499999999999998,
+          "cross": -0.31158300580507947,
+          "beta": -1.2463320232203188
+        },
+        {
+          "cluster": "Y_GECH_s3cl1",
+          "patient": "GECH",
+          "directions": 16,
+          "information": 0.3000000000000004,
+          "cross": 0.20862495310173665,
+          "beta": 0.6954165103391213
+        },
+        {
+          "cluster": "Y_GECH_s4cl1",
+          "patient": "GECH",
+          "directions": 18,
+          "information": 0.42105263157894685,
+          "cross": 0.16701937055077717,
+          "beta": 0.39667100505809627
+        },
+        {
+          "cluster": "Y_GECH_s6cl1",
+          "patient": "GECH",
+          "directions": 12,
+          "information": 0.2500000000000001,
+          "cross": -0.24944531409437232,
+          "beta": -0.9977812563774888
+        },
+        {
+          "cluster": "Y_JGAK_s9cl1",
+          "patient": "JGAK",
+          "directions": 10,
+          "information": 0.3333333333333335,
+          "cross": 0.2282744855403407,
+          "beta": 0.6848234566210217
+        },
+        {
+          "cluster": "Y_FMKG_s1cl1",
+          "patient": "FMKG",
+          "directions": 18,
+          "information": 1.3815789473684208,
+          "cross": 0.7464154182458719,
+          "beta": 0.5402625884446312
+        },
+        {
+          "cluster": "Y_FMKG_s4cl1",
+          "patient": "FMKG",
+          "directions": 14,
+          "information": 0.41666666666666663,
+          "cross": -0.053566753932041467,
+          "beta": -0.12856020943689953
+        },
+        {
+          "cluster": "Y_FMKG_s8cl1",
+          "patient": "FMKG",
+          "directions": 10,
+          "information": 0.2500000000000003,
+          "cross": -0.3091411194879003,
+          "beta": -1.2365644779515998
+        },
+        {
+          "cluster": "Y_MAFE_s2cl1",
+          "patient": "MAFE",
+          "directions": 14,
+          "information": 1.0000000000000002,
+          "cross": 0.9308730559029685,
+          "beta": 0.9308730559029683
+        },
+        {
+          "cluster": "Y_FMEH_s2cl2",
+          "patient": "FMEH",
+          "directions": 8,
+          "information": 0.2499999999999999,
+          "cross": 0.047227803930341775,
+          "beta": 0.18891121572136718
+        },
+        {
+          "cluster": "Y_FMEH_s4cl1",
+          "patient": "FMEH",
+          "directions": 11,
+          "information": 0.37499999999999994,
+          "cross": -0.5927033771556569,
+          "beta": -1.580542339081752
+        },
+        {
+          "cluster": "Y_KGJA_s4cl1",
+          "patient": "KGJA",
+          "directions": 9,
+          "information": 0.25,
+          "cross": 0.2200867568466653,
+          "beta": 0.8803470273866612
+        },
+        {
+          "cluster": "Y_MIBF_s2cl1",
+          "patient": "MIBF",
+          "directions": 11,
+          "information": 0.25000000000000006,
+          "cross": 0.6858870635295558,
+          "beta": 2.7435482541182226
+        },
+        {
+          "cluster": "Y_MIBF_s5cl1",
+          "patient": "MIBF",
+          "directions": 21,
+          "information": 0.8419913419913422,
+          "cross": 1.4436575554659474,
+          "beta": 1.7145752972371917
+        },
+        {
+          "cluster": "Y_EJLB_s4cl1",
+          "patient": "EJLB",
+          "directions": 11,
+          "information": 0.33333333333333315,
+          "cross": -0.032955858819921545,
+          "beta": -0.09886757645976468
+        },
+        {
+          "cluster": "Y_EJLB_s6cl1",
+          "patient": "EJLB",
+          "directions": 7,
+          "information": 0.24999999999999997,
+          "cross": 1.0497802053997982,
+          "beta": 4.199120821599194
+        }
+      ]
+    },
+    "both_raw_codes_finite": {
+      "usable_directions": 1037,
+      "excluded_raw_code_directions": 3,
+      "informative_clusters": 21,
+      "informative_patients": 11,
+      "information": 11.057072107930583,
+      "beta": 0.5249058466238167,
+      "exp_beta": 1.6902996934638215,
+      "same_records_intercept_ratio": 0.9963294623401995,
+      "leave_one_patient_beta_range": [
+        0.3556956445515568,
+        0.6720588087725867
+      ],
+      "patients_positive": 8,
+      "patients": {
+        "DACE": [
+          1.2700283640378665,
+          1.3187499999999994
+        ],
+        "FMKG": [
+          0.4215194028401537,
+          3.0482456140350886
+        ],
+        "MILJ": [
+          -0.19115029183952825,
+          1.0
+        ],
+        "IFDB": [
+          -0.021567641329979605,
+          0.5853658536585364
+        ],
+        "MIBF": [
+          2.3483098810827014,
+          1.341991341991342
+        ],
+        "GECH": [
+          0.1261990095581415,
+          0.9710526315789473
+        ],
+        "JGAK": [
+          0.2282744855403407,
+          0.3333333333333335
+        ],
+        "MAFE": [
+          0.9308730559029685,
+          1.0000000000000002
+        ],
+        "FMEH": [
+          -0.5454755732253151,
+          0.6249999999999998
+        ],
+        "KGJA": [
+          0.2200867568466653,
+          0.25
+        ],
+        "EJLB": [
+          1.0168243465798767,
+          0.5833333333333331
+        ]
+      },
+      "records": [
+        {
+          "cluster": "P_DACE_s2cl1",
+          "patient": "DACE",
+          "directions": 20,
+          "information": 1.0687499999999996,
+          "cross": 1.581611369842946,
+          "beta": 1.4798702875723475
+        },
+        {
+          "cluster": "P_FMKG_s1cl1",
+          "patient": "FMKG",
+          "directions": 11,
+          "information": 1.0000000000000009,
+          "cross": 0.0378118580142236,
+          "beta": 0.037811858014223564
+        },
+        {
+          "cluster": "P_MILJ_s2cl1",
+          "patient": "MILJ",
+          "directions": 9,
+          "information": 1.0,
+          "cross": -0.19115029183952825,
+          "beta": -0.19115029183952825
+        },
+        {
+          "cluster": "U_IFDB_s3cl1",
+          "patient": "IFDB",
+          "directions": 16,
+          "information": 0.5853658536585364,
+          "cross": -0.021567641329979605,
+          "beta": -0.03684472060538183
+        },
+        {
+          "cluster": "U_MIBF_s1cl1",
+          "patient": "MIBF",
+          "directions": 8,
+          "information": 0.24999999999999994,
+          "cross": 0.2187652620871982,
+          "beta": 0.8750610483487931
+        },
+        {
+          "cluster": "Y_DACE_s1cl1",
+          "patient": "DACE",
+          "directions": 7,
+          "information": 0.2499999999999998,
+          "cross": -0.31158300580507947,
+          "beta": -1.2463320232203188
+        },
+        {
+          "cluster": "Y_GECH_s3cl1",
+          "patient": "GECH",
+          "directions": 16,
+          "information": 0.3000000000000004,
+          "cross": 0.20862495310173665,
+          "beta": 0.6954165103391213
+        },
+        {
+          "cluster": "Y_GECH_s4cl1",
+          "patient": "GECH",
+          "directions": 18,
+          "information": 0.42105263157894685,
+          "cross": 0.16701937055077717,
+          "beta": 0.39667100505809627
+        },
+        {
+          "cluster": "Y_GECH_s6cl1",
+          "patient": "GECH",
+          "directions": 12,
+          "information": 0.2500000000000001,
+          "cross": -0.24944531409437232,
+          "beta": -0.9977812563774888
+        },
+        {
+          "cluster": "Y_JGAK_s9cl1",
+          "patient": "JGAK",
+          "directions": 10,
+          "information": 0.3333333333333335,
+          "cross": 0.2282744855403407,
+          "beta": 0.6848234566210217
+        },
+        {
+          "cluster": "Y_FMKG_s1cl1",
+          "patient": "FMKG",
+          "directions": 18,
+          "information": 1.3815789473684208,
+          "cross": 0.7464154182458719,
+          "beta": 0.5402625884446312
+        },
+        {
+          "cluster": "Y_FMKG_s4cl1",
+          "patient": "FMKG",
+          "directions": 14,
+          "information": 0.41666666666666663,
+          "cross": -0.053566753932041467,
+          "beta": -0.12856020943689953
+        },
+        {
+          "cluster": "Y_FMKG_s8cl1",
+          "patient": "FMKG",
+          "directions": 10,
+          "information": 0.2500000000000003,
+          "cross": -0.3091411194879003,
+          "beta": -1.2365644779515998
+        },
+        {
+          "cluster": "Y_MAFE_s2cl1",
+          "patient": "MAFE",
+          "directions": 14,
+          "information": 1.0000000000000002,
+          "cross": 0.9308730559029685,
+          "beta": 0.9308730559029683
+        },
+        {
+          "cluster": "Y_FMEH_s2cl2",
+          "patient": "FMEH",
+          "directions": 8,
+          "information": 0.2499999999999999,
+          "cross": 0.047227803930341775,
+          "beta": 0.18891121572136718
+        },
+        {
+          "cluster": "Y_FMEH_s4cl1",
+          "patient": "FMEH",
+          "directions": 11,
+          "information": 0.37499999999999994,
+          "cross": -0.5927033771556569,
+          "beta": -1.580542339081752
+        },
+        {
+          "cluster": "Y_KGJA_s4cl1",
+          "patient": "KGJA",
+          "directions": 9,
+          "information": 0.25,
+          "cross": 0.2200867568466653,
+          "beta": 0.8803470273866612
+        },
+        {
+          "cluster": "Y_MIBF_s2cl1",
+          "patient": "MIBF",
+          "directions": 11,
+          "information": 0.25000000000000006,
+          "cross": 0.6858870635295558,
+          "beta": 2.7435482541182226
+        },
+        {
+          "cluster": "Y_MIBF_s5cl1",
+          "patient": "MIBF",
+          "directions": 21,
+          "information": 0.8419913419913422,
+          "cross": 1.4436575554659474,
+          "beta": 1.7145752972371917
+        },
+        {
+          "cluster": "Y_EJLB_s4cl1",
+          "patient": "EJLB",
+          "directions": 11,
+          "information": 0.33333333333333315,
+          "cross": -0.032955858819921545,
+          "beta": -0.09886757645976468
+        },
+        {
+          "cluster": "Y_EJLB_s6cl1",
+          "patient": "EJLB",
+          "directions": 7,
+          "information": 0.24999999999999997,
+          "cross": 1.0497802053997982,
+          "beta": 4.199120821599194
+        }
+      ]
+    }
+  },
+  "verification": "PASS: source amplitude and label checks; independent projections"
+}

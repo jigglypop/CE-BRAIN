@@ -1,0 +1,20 @@
+{
+  "contract_sha256": "2845526b00893814a9cf8229f0c7243d25533c947cdbc032b1ca22056c90ec2b",
+  "selected": [
+    {
+      "experiment_id": 3338,
+      "ext_id": "1574282818.996",
+      "slice_id": 2870,
+      "lims_specimen_name": "Tlx3-Cre_PL56;Ai193-hyg-499168.09.06",
+      "pair_id": 104345,
+      "pre_cell_id": 18961,
+      "post_cell_id": 18956,
+      "pre_electrode_id": 26635,
+      "post_electrode_id": 26630,
+      "synapse_id": 1008,
+      "latency": 0.0038123784647258346,
+      "psp_rise_time": 0.004484355157869857,
+      "psp_decay_tau": 0.0233914238587575
+    }
+  ]
+}

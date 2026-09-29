@@ -1,0 +1,9 @@
+{
+  "code_sha256": "816fbaf1d8bb15fbe8ed1fd3230737ec47ac42870cc0a67a4af8c53e79a556bd",
+  "inputs": {
+    "icms_passive_coupling_extract_result.json": "2849823a8a9d292de283d9e6c1c2a281852c15bdea38726436b88b451986c87f",
+    "icms_passive_coupling_matched_v2_result.json": "9752a24a7c232ed4b4501bd6fcbd72e5c7a72f1961934e889042b9895079cd78"
+  },
+  "method": "For finite nonzero PCnorm recover denominator=PC/PCnorm, require positive finite value. Zero/zero is unidentifiable. For matched conditions report PL/NPL denominator medians and span, and contrast after a single pooled median denominator. No reclassification or row removal.",
+  "limitation": "Algebraic reconstruction, not an independent validation of shuffle distribution; common-denominator comparison is diagnostic not replacement estimator."
+}

@@ -1,0 +1,27 @@
+{
+  "question": "How sensitive is fitted reciprocity residual to edge deletions targeted at mutual pairs versus uniformly selected observed edges?",
+  "scope": "original minnie23P347 and Pinky e362, threshold1 only; all cells retained",
+  "budgets": "ceil(0.001E),ceil(0.005E),ceil(0.01E) directed edges, where E is original nonself edge count",
+  "seeds": [
+    2026090514,
+    2026090515,
+    2026090516
+  ],
+  "deletion": "uniform:random permutation of all observed edges; targeted:random permutation of original reciprocal dyads, one randomly chosen direction per dyad; prefix nested budgets; no optimization",
+  "measurement": "deleting an edge removes every annotation supporting that direction; report affected synapse counts separately; these fractions are not estimated biological error rates",
+  "refit": "same joint expected margin model, refine function and1e-5 gate; no bootstrap p value carried over from unperturbed graph",
+  "inference": "hypothetical perturbation only; does not identify actual false positives, false negatives or optimal minimum edits; no raw source deletion",
+  "source_sha256": {
+    "verify\\Q-NPF-04\\allen_synphys\\microns_structural_inventory_result.json": "ea1da5f217a80c99fd85d3f9168200de78d5c81846995a52f237d30ad156341f",
+    "data\\external\\microns_v1718_cosyne\\v1718_cell_info.csv": "1959b7b7eaad7501c6331551c3ed1e229b40ed3c339ff6273b6365009e33fb09",
+    "data\\external\\microns_v1718_cosyne\\v1718_v1_column_synapses.feather": "fee7afc8c37528e3e1c1a4365f016f74c8ff42b6dad0f06100ef32d38adb0434",
+    "verify\\Q-NPF-04\\allen_synphys\\microns_export_overlap_result.json": "98f33932d405552a236cea72e9cd76c6d96cfd6048547c27edb7bcce49944bab",
+    "data/external/microns_pinky_v185/soma_subgraph_synapses_spines_v185.csv": "ac22845bf2078fad27f895b0d4ab1f8b1bf980a2f00056be3f1eec6183770ae4",
+    "data/external/microns_pinky_v185/soma_valence_v185.csv": "e0845382e88a51d22b296f0d8cdcc7f74561868f98fb4fdf8056b0627ee8e95f"
+  },
+  "baseline_sha256": "be952ea3b35f6b1120b0277306dcfae00ceb29163b66cbbf14544a4262c9a722",
+  "code_sha256": "a9e723b2137ebd35fe41a330bb6312a266454a5d3f01a0fbeefda51cec4259a5",
+  "refitter_sha256": "cee5b1f9148086fec6e1363cb01ac70df4415d38c5303591134d77e3909581f7",
+  "model_sha256": "cbb996abee2bd45ee56fcfe9cea941f8aed98f3791382e81da12aaebb55ad15c",
+  "loader_sha256": "01fea4c3660b7624718ade5c8d88eeb5d81b72d10078de776eb0e88bc5ebcbb5"
+}
