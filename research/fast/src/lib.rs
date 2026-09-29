@@ -458,8 +458,167 @@ fn ring_sweep<'py>(
     Ok(Array2::from_shape_vec((lengths.len(), windows), out).unwrap().into_pyarray(py))
 }
 
+/// `ring_trace` with a surprise gain on the record (C3-11): τ ḣ = (1 + λ·u)(e^{iθ} − h), u = 1 − g(θ − arg h), so the
+/// record moves faster the farther the state sits outside its well (innovation-driven gain, as in a change-point Kalman
+/// filter). u is taken before each step. λ = 0 gives `ring_trace` bit for bit.
+#[pyfunction]
+#[allow(clippy::too_many_arguments)]
+fn ring_trace_gain<'py>(
+    py: Python<'py>,
+    heads: Times<'py>,
+    lengths: Ends<'py>,
+    windows: usize,
+    d: f64,
+    a: f64,
+    tau: f64,
+    a_s: f64,
+    beta: f64,
+    substeps: usize,
+    seed: u64,
+    lam: f64,
+) -> PyResult<Bound<'py, PyArray2<f64>>> {
+    let (heads, lengths) = (heads.as_slice()?, lengths.as_slice()?);
+    if heads.len() != lengths.len() || substeps == 0 || !(d >= 0.0) || !(tau > 0.0) || !(lam >= 0.0) {
+        return Err(PyValueError::new_err("need equal heads and lengths, substeps > 0, D ≥ 0, τ > 0, λ ≥ 0"));
+    }
+    let dt = 1.0 / substeps as f64;
+    let noise = (2.0 * d * dt).sqrt();
+    let mut out = vec![f64::NAN; heads.len() * windows];
+    if windows > 0 {
+        py.detach(|| {
+            out.par_chunks_mut(windows).enumerate().for_each(|(i, row)| {
+                let mut rng = Rng(seed ^ (i as u64 + 1).wrapping_mul(0xD1B5_4A32_D192_ED03));
+                let length = (lengths[i].max(0) as usize).min(windows);
+                let (sh, ch) = heads[i].sin_cos();
+                let (mut th, mut hr, mut hi, mut s, mut c) = (0.0f64, 1.0f64, 0.0f64, 0.0f64, 1.0f64);
+                for cell in row.iter_mut().take(length) {
+                    let (mut sr, mut si) = (0.0, 0.0);
+                    for _ in 0..substeps {
+                        let m = hr.hypot(hi);
+                        let (mut pull, mut gain) = (0.0, 1.0);
+                        if m > 0.0 {
+                            let g = (beta * ((c * hr + s * hi) / m - 1.0)).exp();
+                            pull = a * (s * hr - c * hi) * g;
+                            gain = 1.0 + lam * (1.0 - g);
+                        }
+                        if a_s != 0.0 {
+                            pull += a_s * (s * ch - c * sh) * (beta * (c * ch + s * sh - 1.0)).exp();
+                        }
+                        th += -d * beta * pull * dt + noise * rng.normal();
+                        (s, c) = th.sin_cos();
+                        hr += (c - hr) * dt * gain / tau;
+                        hi += (s - hi) * dt * gain / tau;
+                        sr += c;
+                        si += s;
+                    }
+                    *cell = si.atan2(sr);
+                }
+            })
+        });
+    }
+    Ok(Array2::from_shape_vec((heads.len(), windows), out).unwrap().into_pyarray(py))
+}
+
+/// `ring_observe` with the surprise gain of `ring_trace_gain`: the record's exact exponential step uses the rate
+/// (1 + λ·u)/τ, u = 1 − g(θ − arg h) taken before each step. λ = 0 gives `ring_observe` bit for bit.
+#[pyfunction]
+#[allow(clippy::too_many_arguments)]
+fn ring_observe_gain<'py>(
+    py: Python<'py>,
+    offsets: Times<'py>,
+    lengths: Ends<'py>,
+    d: f64,
+    a: f64,
+    tau: f64,
+    beta: f64,
+    substeps: usize,
+    seed: u64,
+    edges: Times<'py>,
+    deltas: Ends<'py>,
+    thin: usize,
+    scheme: u8,
+    lam: f64,
+) -> PyResult<Bound<'py, PyArray1<f64>>> {
+    let (offsets, lengths, edges, deltas) = (offsets.as_slice()?, lengths.as_slice()?, edges.as_slice()?, deltas.as_slice()?);
+    if offsets.len() != lengths.len() || substeps == 0 || thin == 0 || !(d >= 0.0) || !(tau > 0.0) || edges.len() < 2
+        || deltas.iter().any(|&x| x < 1) || !(lam >= 0.0)
+    {
+        return Err(PyValueError::new_err("need equal offsets and lengths, substeps > 0, D ≥ 0, τ > 0, bins, lags ≥ 1, λ ≥ 0"));
+    }
+    let (bins, lags) = (edges.len() - 1, deltas.len());
+    let dt = 1.0 / substeps as f64;
+    let keep = (-dt / tau).exp();
+    let sums = py.detach(|| {
+        (0..offsets.len())
+            .into_par_iter()
+            .map(|i| {
+                let mut out = vec![0.0; 2 * bins + 2 * lags];
+                let mut z = Normals { rng: Rng(seed ^ (i as u64 + 1).wrapping_mul(0xD1B5_4A32_D192_ED03)), spare: None };
+                let length = lengths[i].max(0) as usize;
+                let (mut th, mut hr, mut hi, mut s, mut c) = (0.0f64, 1.0f64, 0.0f64, 0.0f64, 1.0f64);
+                let mut unit: Vec<(f64, f64)> = Vec::with_capacity(length);
+                let mut last = z.next();
+                for k in 0..length {
+                    let (mut sr, mut si) = (0.0, 0.0);
+                    for step in 0..substeps {
+                        let m = hr.hypot(hi);
+                        let (mut drift, mut rate, mut g) = (0.0, 0.0, 1.0);
+                        if m > 0.0 {
+                            let (cx, sx) = ((c * hr + s * hi) / m, (s * hr - c * hi) / m);
+                            g = (beta * (cx - 1.0)).exp();
+                            if a > 0.0 {
+                                let well = d * beta * a * m * g;
+                                (drift, rate) = (-well * sx, well * (cx - beta * sx * sx));
+                            }
+                        }
+                        let x = rate * dt;
+                        th += if scheme == 1 {
+                            let fresh = z.next();
+                            let step = drift * dt + (0.5 * d * dt).sqrt() * (last + fresh);
+                            last = fresh;
+                            step
+                        } else if x.abs() > 1e-6 {
+                            let e = (-x).exp();
+                            drift / rate * (1.0 - e) + (d * (1.0 - e * e) / rate).sqrt() * z.next()
+                        } else {
+                            drift * dt + (2.0 * d * dt).sqrt() * z.next()
+                        };
+                        (s, c) = th.sin_cos();
+                        let kept = if lam == 0.0 { keep } else { (-dt * (1.0 + lam * (1.0 - g)) / tau).exp() };
+                        hr = c + (hr - c) * kept;
+                        hi = s + (hi - s) * kept;
+                        if step % thin == thin - 1 {
+                            sr += c;
+                            si += s;
+                        }
+                    }
+                    let n = sr.hypot(si);
+                    let u = if n > 0.0 { (sr / n, si / n) } else { (1.0, 0.0) };
+                    let centre = k as f64 + 0.5;
+                    if let Some(j) = (0..bins).find(|&j| edges[j] <= centre && centre < edges[j + 1]) {
+                        let (so, co) = offsets[i].sin_cos();
+                        out[j] += u.0 * co + u.1 * so;
+                        out[bins + j] += 1.0;
+                    }
+                    for (j, &lag) in deltas.iter().enumerate() {
+                        if let Some(p) = k.checked_sub(lag as usize).map(|p| unit[p]) {
+                            out[2 * bins + j] += u.0 * p.0 + u.1 * p.1;
+                            out[2 * bins + lags + j] += 1.0;
+                        }
+                    }
+                    unit.push(u);
+                }
+                out
+            })
+            .reduce(|| vec![0.0; 2 * bins + 2 * lags], |x, y| x.iter().zip(&y).map(|(p, q)| p + q).collect())
+    });
+    Ok(Array1::from(sums).into_pyarray(py))
+}
+
 #[pymodule]
 fn cefast(m: &Bound<'_, PyModule>) -> PyResult<()> {
+    m.add_function(wrap_pyfunction!(ring_trace_gain, m)?)?;
+    m.add_function(wrap_pyfunction!(ring_observe_gain, m)?)?;
     m.add_function(wrap_pyfunction!(ring_sweep, m)?)?;
     m.add_function(wrap_pyfunction!(ring_field, m)?)?;
     m.add_function(wrap_pyfunction!(bin_counts, m)?)?;
