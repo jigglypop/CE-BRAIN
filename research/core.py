@@ -5,8 +5,9 @@
     ẋ = −L_g x + Σ_k u_k S_k x,    L_g = I − g·W_s
     τ_h ḣ = −h + x                (현재 상태에 남는 과거의 흔적)
 
-W_s = (W + Wᵀ)/2는 계량이다. 유지 비용 xᵀ L_g x가 작은 방향이 기억으로 남는다.
-W_a = (W − Wᵀ)/2와 입력 u_k로 조절되는 S_k는 방향, 곧 상태를 옮기는 흐름이다.
+L_g는 계량 G가 아니라 지형 E(x) = ½ xᵀ L_g x의 헤시안이다(W_s = (W + Wᵀ)/2). 유지 비용 E가 작은 방향이
+기억으로 남는다. 계량 G(변화 비용 ds² = dxᵀ G dx)는 이 파일에서 정하지 않는다.
+W_a = (W − Wᵀ)/2와 입력 u_k로 조절되는 S_k는 방향 F, 곧 상태를 옮기는 흐름이다.
 """
 
 from __future__ import annotations
@@ -22,12 +23,15 @@ def normalize(w, sign):
 
 
 def split(w):
-    """Metric (symmetric) and direction (antisymmetric) parts of a relation matrix."""
+    """Landscape (symmetric, E) and direction (antisymmetric, F) parts of a relation matrix."""
     return (w + w.T) / 2, (w - w.T) / 2
 
 
 def metric(ws, gain):
-    """L_g = I − g·W_s; it must be positive definite (g·λ_max(W_s) < 1)."""
+    """L_g = I − g·W_s, the Hessian of the landscape E (not the metric G).
+
+    It must be positive definite (g·λ_max(W_s) < 1).
+    """
     l = np.eye(len(ws)) - gain * ws
     if np.linalg.eigvalsh(l)[0] <= 0:
         raise ValueError("L_g is not positive definite; lower the gain")

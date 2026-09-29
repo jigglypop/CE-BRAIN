@@ -1,7 +1,7 @@
 # 논문
 
 정본은 [CE-BRAIN.md](CE-BRAIN.md) 한 파일이다. 전제(C1–C8)마다 장을 두고, 판정이 나오면 그 장을 제자리에서 고친다.
-판정의 근거는 `research/results/`의 단계 결과이고, 1장 표는 그 결과와 같아야 한다.
+판정의 근거는 `research/results/`의 단계 결과이고, 1장 표는 그 결과와 같아야 한다(`tests/test_sync_readme.py`).
 
 2026-09-29 정리 전의 옛 문서(뇌 이론, AGI 런타임, 검증 원장, 참조 등)는 `archive/pre-cleanup-20260929`
 브랜치와 태그에 남아 있다.

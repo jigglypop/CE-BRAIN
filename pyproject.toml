@@ -1,7 +1,7 @@
 [project]
 name = "ce-brain"
 version = "0.1.0"
-description = "CE-BRAIN: memory and learning as history-dependent relations and a Riemannian metric on fixed neurons"
+description = "CE-BRAIN: testing on registered data whether memory and learning on fixed neurons are history-dependent relations and traces; the Riemannian metric is a hypothesis under test"
 requires-python = ">=3.11,<3.13"
 dependencies = [
     "numpy>=2.0",
