@@ -42,7 +42,7 @@ $G$는 변화 비용(계량), $E$는 기억이 머무는 지형, $F$는 신호 �
 | `research/fast/` | Rust 핵심 `cefast`(칸 세기, 창 세기, 교차 상관), `uv sync`가 빌드 |
 | `ledger/data_registry.jsonl` | 자료 원장: 출처·판본·파일·sha256 |
 | `research/c<전제>_<번호>_*.py` | 단계별 검사. 판정 기준은 파일 머리에 실행 전 고정 |
-| `research/results/` | 단계 결과 JSON |
+| `research/results/` | 단계 결과: 실행마다 `<단계>/<UTC시각>.json`으로 쌓고, `<단계>.json`은 최신 실행. `record`는 단계 파일과 읽은 연구 코드가 커밋된 그대로일 때만 쓰고 커밋 해시·시각을 남긴다 |
 | `tools/sync_readme.py` | 위 공리 상태 표를 단계 결과에서 다시 만든다 |
 | `paper/CE-BRAIN.md` | 논문 정본 |
 | `tests/` | 하네스·단계 계산·README와 논문 1장 표의 동기화 검사 |

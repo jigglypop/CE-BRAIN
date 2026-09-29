@@ -1,8 +1,12 @@
 """연구 단계 하네스.
 
 한 단계는 핵심 전제 하나(C1–C8)의 명제 하나를 판정한다. 기준은 실행 전에 단계 파일에서 `check`로
-고정하고, 결과는 `record`로 `research/results/<단계>.json` 한 곳에 남긴다. 역증명은 전제 항을 뺀 식의
-오차를 함께 적어, 그 항 없이는 생물 기준값을 맞추지 못함을 보인다.
+고정하고, 결과는 `record`로 남긴다. 역증명은 전제 항을 뺀 식의 오차를 함께 적어, 그 항 없이는 생물
+기준값을 맞추지 못함을 보인다.
+
+기준이 실행 전에 고정되었음은 git이 보인다. `record`는 단계 파일과 그 단계가 읽은 연구 코드가 커밋된 그대로일
+때만 결과를 쓰고, 단계 파일의 커밋 해시·커밋 시각과 실행 시각을 남긴다. 실행은 덮어쓰지 않고
+`research/results/<단계>/<UTC시각>.json`으로 쌓으며, `research/results/<단계>.json`은 최신 실행과 같다.
 
 공리 채택: 자료 원장(`ledger/data_registry.jsonl`)에 등록된 실데이터로 계산한 판정이 지지됨일 때만
 전제를 공리로 채택한다. 원장 자료 없이 낸 판정은 미확립이다.
@@ -13,6 +17,8 @@ from __future__ import annotations
 import datetime
 import hashlib
 import json
+import shutil
+import subprocess
 import sys
 import threading
 from pathlib import Path
@@ -93,25 +99,59 @@ def verdict(judged, data):
 
 
 def record(step, premise, claim, reference, checks, data, proof=None, **measured):
-    """Write one step's verdict with its criteria, reverse proof, ledger data and code hashes."""
+    """Write one step's verdict with its criteria, reverse proof, ledger data, code hashes and commit."""
     if premise not in PREMISES:
         raise ValueError(f"unknown premise: {premise}")
+    commit = sealed(step)
     for row in data:
         if not path(row).is_file() or path(row).stat().st_size != row["bytes"]:
             raise ValueError(f"{row['asset']} is missing or differs from its ledger record")
     judged = verdict(list(checks.values()) + ([proof] if proof else []), data)
+    run_at = now()
     result = {
         "step": step, "premise": premise, "premise_text": PREMISES[premise], "claim": claim,
         "reference": reference, "checks": checks, "reverse_proof": proof,
         "verdict": judged, "axiom_adopted": judged == "지지됨", "measured": measured,
         "data": [{k: row[k] for k in ("dataset", "version", "asset", "sha256")} for row in data],
         "code_sha256": {p.relative_to(HERE).as_posix(): sha256(p) for p in code()},
-        "date": datetime.date.today().isoformat(),
+        "git": commit, "date": run_at.astimezone().date().isoformat(),
+        "run_at": run_at.isoformat(timespec="seconds"), "run": f"{step}/{run_at:%Y%m%dT%H%M%SZ}.json",
     }
-    RESULTS.mkdir(exist_ok=True)
-    (RESULTS / f"{step}.json").write_text(json.dumps(result, ensure_ascii=False, indent=1),
-                                          encoding="utf-8")
+    save(step, result)
     return result
+
+
+def now():
+    return datetime.datetime.now(datetime.timezone.utc)
+
+
+def git(*args):
+    return subprocess.run(["git", "-C", str(ROOT), *args], capture_output=True, text=True,
+                          encoding="utf-8", check=True).stdout.strip()
+
+
+def sealed(step):
+    """The step file's last commit; refuse unless it and the research code it loaded are committed as they are."""
+    file = (HERE / f"{step}.py").relative_to(ROOT).as_posix()
+    loaded = {p.relative_to(ROOT).as_posix() for p in code()}
+    changed = git("status", "--porcelain", "--", file, *loaded)
+    last = git("log", "-1", "--format=%H %cI", "--", file).split()
+    if changed or not last or not (ROOT / file).is_file():
+        raise RuntimeError(f"commit {file} and the code it loads before recording: {changed or file}")
+    return {"step_commit": last[0], "step_committed_at": last[1], "head": git("rev-parse", "HEAD")}
+
+
+def save(step, result):
+    """Add the run under results/<step>/ and make results/<step>.json that latest run. Nothing is overwritten."""
+    runs, latest = RESULTS / step, RESULTS / f"{step}.json"
+    runs.mkdir(parents=True, exist_ok=True)
+    if latest.is_file() and not any(runs.iterdir()):  # 누적 전 결과도 남긴다
+        date = json.loads(latest.read_text(encoding="utf-8"))["date"].replace("-", "")
+        shutil.copy2(latest, runs / f"{date}-legacy.json")
+    text = json.dumps(result, ensure_ascii=False, indent=1)
+    with open(RESULTS / result["run"], "x", encoding="utf-8") as stream:
+        stream.write(text)
+    latest.write_text(text, encoding="utf-8")
 
 
 def code():
