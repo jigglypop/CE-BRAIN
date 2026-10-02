@@ -1,0 +1,39 @@
+{
+  "status": {
+    "global_scalar_is_sufficient": "rejected_on_processed_real_data",
+    "history_state_is_needed_beyond_current_shared_observation": "supported_at_phenomenon_level",
+    "exact_pattern_jet_K_gt_1_hidden_synapse_cascade": "not_validated_by_these_data",
+    "infinite_dimensional_limit": "not_validated"
+  },
+  "bergmann_2026": {
+    "source_git_blob": "965d7e038fa23ba4226cda865d8802157f0d18c8",
+    "source_sha256": "5733b69eda14e5c557e784e96da917091877dc86a3a4a9c6026eae2520c8765a",
+    "models_31c_leave_one_odor": {
+      "global_gain": {"rmse": 0.15140972003301664, "mae": 0.1321104801659434, "n_scored_region_odor_means": 42},
+      "global_affine": {"rmse": 0.13599334859147102, "mae": 0.10526618731906516, "n_scored_region_odor_means": 42},
+      "local_gain": {"rmse": 0.05407890772089258, "mae": 0.04114580265870747, "n_scored_region_odor_means": 42},
+      "local_affine": {"rmse": 0.04325578858791233, "mae": 0.03148494021662699, "n_scored_region_odor_means": 42}
+    },
+    "local_affine_vs_global_affine_rmse_reduction_fraction": 0.681927174851365,
+    "interpretation": "Region-specific mapping strongly beats one global affine mapping. This rejects a single global scalar response map for these processed KC calcium means; it does not directly measure a synaptic delta or temporal hidden state."
+  },
+  "sun_2025_figure4j_author_processed": {
+    "n_animals": 11,
+    "pre_R2": [0.41641642,0.50550551,0.33433433,0.27727728,0.42742743,0.13613614,0.39139139,0.48048048,0.93493493,0.50550551,0.0980981],
+    "pre_R1": [0.76976977,0.80980981,0.87487487,0.28528529,0.97797798,0.07707708,0.58258258,0.83383383,0.81681682,0.31431431,0.14714715],
+    "off_diagonal": [0.0,0.0,0.01901902,0.0,0.00500501,0.0,0.0,0.1001001,0.0,0.0,0.0],
+    "mean_pre_R2": 0.4097734109090909,
+    "mean_pre_R1": 0.58995359,
+    "pre_R2_earlier": 8,
+    "pre_R1_earlier": 3,
+    "paired_t_pvalue": 0.044054124182662836,
+    "exact_two_sided_sign_pvalue": 0.2265625,
+    "mean_normalized_timing_gap": 0.13361386547612655,
+    "interpretation": "The author-processed neural-population representation separates in shared sensory segments. A deterministic state that depends only on the current shared observation cannot produce context-specific representations. This supports history/context state, but not a particular K."
+  },
+  "decision": {
+    "retain_pattern_jet_as_candidate": true,
+    "promote_exact_K_gt_1_as_biologically_validated": false,
+    "next_required_test": "Use longitudinal cell/synapse time-series; freeze K and tau grid before held-out animals/sessions; compare K=1 vs K>1 at equal effective parameter budget and require held-out improvement plus shuffled-history control."
+  }
+}
