@@ -1,0 +1,28 @@
+{
+  "bergmann_2026": {
+    "paper": "Bergmann et al. (2026), Conflicting adaptations in an inhibitory feedback circuit",
+    "doi": "10.1113/JP290394",
+    "repository": "https://github.com/aclinlab/bergmann-et-al",
+    "commit": "0b2da3f9c865626f8858881a468394c8eff68fa7",
+    "asset": "CorrelationAnalysis/all KC values.csv",
+    "git_blob_sha1": "965d7e038fa23ba4226cda865d8802157f0d18c8"
+  },
+  "sun_2025": {
+    "paper": "Sun et al. (2025), Nature 640, 165–175",
+    "doi": "10.1038/s41586-024-08548-w",
+    "repository": "https://github.com/sprustonlab/OSM_Paper_Figures",
+    "commit": "c1d1788b54c737efe24402e02762eee10da0d0d7",
+    "asset": "fig_4/fig_4j_decorr_order.ipynb",
+    "blob_sha1": "544c77add30a9740e0cfd058df061dcadc294009"
+  },
+  "kropf_2026": {
+    "paper": "Kropf, Talbot & Miesenböck (2026), A neuronal population clock for interval timing in Drosophila",
+    "doi": "10.1016/j.cub.2025.12.032",
+    "role": "independent experimental support for temporally distributed KC basis and reinforcement-time-specific synaptic weight changes; raw traces not fit here"
+  },
+  "davidson_2023": {
+    "paper": "Davidson, Kaushik & Hige (2023), Dopamine-Dependent Plasticity Is Heterogeneously Expressed by Presynaptic Calcium Activity across Individual Boutons",
+    "doi": "10.1523/ENEURO.0275-23.2023",
+    "role": "independent support for bouton-local heterogeneity; negative constraint against treating simple pre-pairing temporal profile as sufficient predictor"
+  }
+}
