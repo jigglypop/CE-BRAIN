@@ -1,32 +1,28 @@
-# CE-BRAIN Pattern-Jet real-data validation
+# CE-BRAIN Pattern-Jet
 
-`PATTERN_JET_EQUATION.md`는 후보식, `REAL_DATA_VALIDATION.md`는 실제 생물자료로 가능한 범위의 판정,
-`validate_real_data.py`는 재계산 코드, `results.json`은 이번 실행 결과다.
+Pattern-Jet의 현재 핵심 가설은 공간 rank가 아니라 시간 이력의 고차원화다.
 
-현재 상태: **필요조건 일부 지지 / K>1 직접 검증 미완료**.
+\[
+J_K(t)=[x_t,\Delta_1(t),\ldots,\Delta_K(t)]
+\]
 
-실행 예:
+Δ_k는 전체 loss의 역전파 delta가 아니라 현재/앞 상태와 느린 국소 상태 사이의 차이다.
 
-```bash
-python validate_real_data.py --bergmann-csv data/all_KC_values.csv --output results.json
-```
+## 현재 유효한 실데이터 결과
 
-Bergmann CSV는 저자 공개 원본 Git blob
-`965d7e038fa23ba4226cda865d8802157f0d18c8`만 허용한다.
-Sun Figure 4j의 11마리 배열은 저자 notebook의 고정 커밋 값을 전사했다.
+1. TEMPORAL_JET_TEST.md — 실제 시간축 C. elegans calcium trace에서 current-only / raw-lag / Pattern-Jet / parallel history / finite-difference를 leave-one-session-out으로 직접 비교.
+2. temporal_results.json — 핵심 수치.
+3. temporal_jet_test.py — 재현 코드.
+4. PATTERN_JET_EQUATION.md — 후보식.
 
+현재 판정:
+- **다중시간척도 history state: 실데이터 지지**
+- **exact serial cascade topology: 미식별**
+- **synapse-by-synapse delta propagation: 미검증**
+- **biological infinite-dimensional limit: 미검증**
 
-## 다음 단계: K>1 최소차원 스크린
+## 폐기된 검증
 
-`rank_test.py`는 Bergmann 2026의 31°C `TRPA-ctrl` 6-region 변화량에 대해
-nested leave-one-fly-out으로 rank-1과 rank-2 latent state를 비교한다.
+RANK_TEST.md의 spatial rank 실험은 가설과 다른 대상을 계산했으므로 Pattern-Jet 검증에서 제외했다. 파일은 개발 이력 보존만을 위해 남긴다.
 
-실행:
-
-```bash
-python rank_test.py --csv data/all_KC_values.csv --output rank_results.json
-```
-
-현재 결과는 rank-1 RMSE 0.275576, rank-2 0.273378로 **0.80% 개선**이며,
-개체별 6/9 개선(sign test p=0.5078125)이라 **K>1 채택 근거로 쓰지 않는다**.
-정적 region 자료이므로 temporal synapse cascade의 직접 검증은 여전히 남아 있다.
+기존 Bergmann/Sun 필요조건 분석은 배경 증거로 유지하되, 시간축 직접 검증과 혼동하지 않는다.
