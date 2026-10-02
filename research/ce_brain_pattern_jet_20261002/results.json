@@ -9,19 +9,103 @@
     "source_git_blob": "965d7e038fa23ba4226cda865d8802157f0d18c8",
     "source_sha256": "5733b69eda14e5c557e784e96da917091877dc86a3a4a9c6026eae2520c8765a",
     "models_31c_leave_one_odor": {
-      "global_gain": {"rmse": 0.15140972003301664, "mae": 0.1321104801659434, "n_scored_region_odor_means": 42},
-      "global_affine": {"rmse": 0.13599334859147102, "mae": 0.10526618731906516, "n_scored_region_odor_means": 42},
-      "local_gain": {"rmse": 0.05407890772089258, "mae": 0.04114580265870747, "n_scored_region_odor_means": 42},
-      "local_affine": {"rmse": 0.04325578858791233, "mae": 0.03148494021662699, "n_scored_region_odor_means": 42}
+      "global_gain": {
+        "rmse": 0.15140972003301664,
+        "mae": 0.1321104801659434,
+        "region_rmse": {
+          "Calyx": 0.12779959811982128,
+          "gamma": 0.2175131393662712,
+          "beta": 0.04847271144135103,
+          "betaprime": 0.12521370666915096,
+          "alpha": 0.14392103962446712,
+          "alphaprime": 0.18751899932382327
+        },
+        "n_scored_region_odor_means": 42
+      },
+      "global_affine": {
+        "rmse": 0.13599334859147102,
+        "mae": 0.10526618731906516,
+        "region_rmse": {
+          "Calyx": 0.06498777309594855,
+          "gamma": 0.2564637070026974,
+          "beta": 0.05566334598762546,
+          "betaprime": 0.11358032251025003,
+          "alpha": 0.05839603207543147,
+          "alphaprime": 0.14683019851163745
+        },
+        "n_scored_region_odor_means": 42
+      },
+      "local_gain": {
+        "rmse": 0.05407890772089258,
+        "mae": 0.04114580265870747,
+        "region_rmse": {
+          "Calyx": 0.04023536877359191,
+          "gamma": 0.01309324286214452,
+          "beta": 0.04385179573368239,
+          "betaprime": 0.036623398555564006,
+          "alpha": 0.07035999098278219,
+          "alphaprime": 0.08684509203627669
+        },
+        "n_scored_region_odor_means": 42
+      },
+      "local_affine": {
+        "rmse": 0.04325578858791233,
+        "mae": 0.03148494021662699,
+        "region_rmse": {
+          "Calyx": 0.032868062553311886,
+          "gamma": 0.013985709225940205,
+          "beta": 0.03904929080689842,
+          "betaprime": 0.033320770100260584,
+          "alpha": 0.024809741615608026,
+          "alphaprime": 0.08185246342036784
+        },
+        "n_scored_region_odor_means": 42
+      }
     },
     "local_affine_vs_global_affine_rmse_reduction_fraction": 0.681927174851365,
     "interpretation": "Region-specific mapping strongly beats one global affine mapping. This rejects a single global scalar response map for these processed KC calcium means; it does not directly measure a synaptic delta or temporal hidden state."
   },
   "sun_2025_figure4j_author_processed": {
     "n_animals": 11,
-    "pre_R2": [0.41641642,0.50550551,0.33433433,0.27727728,0.42742743,0.13613614,0.39139139,0.48048048,0.93493493,0.50550551,0.0980981],
-    "pre_R1": [0.76976977,0.80980981,0.87487487,0.28528529,0.97797798,0.07707708,0.58258258,0.83383383,0.81681682,0.31431431,0.14714715],
-    "off_diagonal": [0.0,0.0,0.01901902,0.0,0.00500501,0.0,0.0,0.1001001,0.0,0.0,0.0],
+    "pre_R2": [
+      0.41641642,
+      0.50550551,
+      0.33433433,
+      0.27727728,
+      0.42742743,
+      0.13613614,
+      0.39139139,
+      0.48048048,
+      0.93493493,
+      0.50550551,
+      0.0980981
+    ],
+    "pre_R1": [
+      0.76976977,
+      0.80980981,
+      0.87487487,
+      0.28528529,
+      0.97797798,
+      0.07707708,
+      0.58258258,
+      0.83383383,
+      0.81681682,
+      0.31431431,
+      0.14714715
+    ],
+    "off_diagonal": [
+      0.0,
+      0.0,
+      0.01901902,
+      0.0,
+      0.00500501,
+      0.0,
+      0.0,
+      0.1001001,
+      0.0,
+      0.0,
+      0.0
+    ],
     "mean_pre_R2": 0.4097734109090909,
     "mean_pre_R1": 0.58995359,
     "pre_R2_earlier": 8,
