@@ -88,3 +88,15 @@ def test_waiting_rejudgements_are_found_from_step_files():
     waiting = sync_readme.pending(rows)
     done = {sync_readme.label(r["step"]) for r in rows}
     assert all(name.endswith("r") and name not in done for name in waiting)
+
+
+def test_paper_table_names_every_step():
+    """Chapter 1 of the paper mentions every step of its premise, failures included (D19)."""
+    rows = sync_readme.results()
+    paper = paper_table()
+    unnamed = []
+    for premise, cell in paper.items():
+        named = {f"{p}-{n}" for p, numbers in re.findall(r"(C\d)-(\d+r?(?:·\d+r?)*)", cell) for n in numbers.split("·")}
+        unnamed += [label for r in rows if r["premise"] == premise
+                    and (label := sync_readme.label(r["step"])) not in named]
+    assert unnamed == []
