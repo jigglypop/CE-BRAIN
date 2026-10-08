@@ -54,7 +54,7 @@ $G$는 변화 비용(계량), $E$는 기억이 머무는 지형, $F$는 신호 �
 | `tests/` | 하네스·단계 계산·README와 논문 1장 표의 동기화 검사 |
 | `data/` | 원자료와 비압축 캐시(git 밖) |
 
-`verify/`, `paper/6_뇌/`, 옛 `research/ce_brain_*` 폴더는 2026-10-08에 HEAD에서 뺐고 태그 `archive/pre-cleanup-20261008`(커밋 ae4a0a6)에 있다. 원장에서 그 경로를 가리키는 줄은 그 태그에서 찾는다.
+`verify/`, `paper/6_뇌/`, 옛 `research/ce_brain_*` 폴더는 2026-10-08에 HEAD에서 뺐고 브랜치 `archive/pre-cleanup-20261008`(커밋 ae4a0a6)에 있다(이 환경에서 태그 push가 막혀 브랜치로 남겼다). 원장에서 그 경로를 가리키는 줄은 그 브랜치에서 찾는다.
 
 ## 실행
 

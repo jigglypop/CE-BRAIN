@@ -36,7 +36,7 @@
 | Rust 커널 | `research/fast/src/lib.rs` (`ring_observe`, `ring_trace_gain`, `ring_field`, `ring_sweep` …) |
 | 단계 하나의 근거 | 단계 파일 머리(기준) → `research/results/<단계>.json` → 논문 §4.x(1장 표 끝 괄호에 번호) |
 | 탐색(공리 밖) | `research/x<번호>_*.py`, 결과 `research/results/x/` |
-| 옛 산출물(verify, paper/6_뇌, ce_brain_a1·visual_sphere) | 태그 `archive/pre-cleanup-20261008` |
+| 옛 산출물(verify, paper/6_뇌, ce_brain_a1·visual_sphere) | 브랜치 `archive/pre-cleanup-20261008` |
 
 ## 결함 목록
 
@@ -58,13 +58,14 @@
 | D12 | C5-1 | 09-29 전제 개명(계량→지형) 뒤 판정 유지. 동역학으로 F를 잰 C5-3은 기각 | 기록 |
 | D13 | C6-1 | 잰 것은 쌍 상관(상태)이지 관계 $W$가 아님 | 기록 |
 | D14 | C8-1 | ΔAIC가 창 37,603개를 독립으로 계산(실제 독립 단위는 사건 약 200) | 열림 |
-| D15 | Pattern-Jet | cascade와 parallel은 부분분수로 같은 공간(잔차 ~1e-15). 이득은 기억 길이. 하네스·원장 밖, 결과 일부 손 조립 | 열림: X1이 이어받음 |
+| D15 | Pattern-Jet | cascade와 parallel은 부분분수로 같은 공간(잔차 ~1e-15). 이득은 기억 길이. 하네스·원장 밖, 결과 일부 손 조립 | 기록: X1이 확인(`tests/test_x_explore.py`) |
 | D16 | `.gitattributes` | `/.gitattributes`만 적용되어 CRLF 혼입 | 고침 10-08 |
-| D17 | `prd/정리.md` 1단계 | "verify 등 제거 완료"인데 HEAD에 남았고 보관 태그도 원격에 없었다 | 고침 10-08: 제거, 태그 push |
+| D17 | `prd/정리.md` 1단계 | "verify 등 제거 완료"인데 HEAD에 남았고 보관 태그도 원격에 없었다 | 고침 10-08: 제거, 보관 브랜치 push |
 | D18 | 원장 | `verify/` 해시 가능 598개 중 516개가 CRLF→LF 차이로 sha 불일치 | 열림: 해시 정책 결정 필요 |
 | D19 | `tests/test_sync_readme.py` | 논문 1장이 모든 단계를 언급하는지는 검사 안 함 | 열림 |
 | D20 | `fast/src/lib.rs` | `ring_field`, `ring_sweep` 단위 테스트 없음 | 열림 |
 | D21 | 논문 참고문헌 | Nassar 2010·2012, Piray & Daw 2020, Gershman 2015, Senzai & Scanziani 2022, Gu & Dao 누락 | 열림 |
+| D23 | `tests/` | 2코어 환경에서 `test_c1_common`, `test_c3_record_relocation`, `test_c3_surprise_gain`, `test_c8_selection`이 각 60 s를 넘어 전체 `pytest`가 10분 안에 끝나지 않음. 나머지 35파일은 통과(10-08) | 열림: 느린 표시(`-m slow`)로 나누기 |
 | D22 | `c1_12:35` | 가변 기본 인자 `rng=np.random.default_rng(SEED)`, 해독기 몽키패치(:73) | 열림 |
 
 ## 작업 대기열
@@ -73,11 +74,20 @@
 2. D8 순열 절차를 맞춘 C3-8 재계산.
 3. D5 ρ 상한 1로, D9 표본 미달 규칙 — 새 단계로(기존 단계는 고치지 않는다).
 4. 수면 중 머리 추적 자료로 과거·현재 분리(D7).
+5. X2b를 공리 쪽으로: C6(학습 = 이력에 따른 관계 변화)에 "교사 지연이 학습 속도를 정하고 흔적(eligibility) 보정이 되찾는다"를
+   신경 자료로 판정. 후보: 광유전 폐회로 학습 자료(교사 지연을 실험자가 정함), 소뇌 등반섬유 지연 자료.
 
 ## 탐색
 
-<!-- 탐색 결과는 아래에 단계마다 한 줄씩 -->
+공리 판정 밖. 자료는 원장 `celegans-ava-avb-dff`(C. elegans AVA·AVB ΔF/F, 43세션 × 40점, 제3자 처리본). 결과 `research/results/x/`.
+
+| 단계 | 질문 | 판정 | 요점 |
+|---|---|---|---|
+| X1 `x1_infinite_delta` | 시간척도를 연속으로 채운 무한차원 델타(커널 극한)가 유한 K·같은 기억 길이의 시차보다 미래를 잘 맞추나 | H1 통과, H2·H3a·H3b 실패 | 극한은 잘 정의된다(M 32→256 차이 0.1%, 구적 256→1024 0.2–0.5%). 그러나 jet∞ 0.0909가 jet-4 0.0903, lag-10 0.0907과 같다(h = 1; h = 2·4도 같음, 부호 검정 p ≥ 0.12). 514차원 특징의 참여비 1.8, 상위 2축이 분산 98.4%, 고른 λ에서 자유도 약 14. 이득은 기억 길이이고 델타 구조나 차원이 아니다(D15 확인) |
+| X2 `x2_fast_teacher` | 교사 지연 D가 지연 LMS의 학습률 한계·순차 오차를 정하나 | 판정 불가(기록만) | 꼬리가 무거운 세션에서 고정 μ LMS가 터짐(μ* 6.7e-4, RMSE 10⁵). X2b로 다시 |
+| X2b `x2b_fast_teacher_nlms` | 같은 질문, 정규화 LMS | H4·H4n·H5·H6 모두 통과 | μ*(0) = 2.18(이론 2). μ*는 D = 0→8에서 2.18→0.51, μ* ∝ (2D+1)^−0.52(평균 모드 sin 법칙 γ≈1보다 완만). 순차 RMSE 0.115(D = 0)→0.328(D = 8), D = 0이 33세션 중 32에서 이김. 늦게 온 목표로 오차를 지금 무게로 다시 계산하면(MDLMS) 한계가 D = 0과 같아짐: 속도 한계는 늦은 교사가 아니라 낡은 무게로 계산한 오차에서 온다 |
 
 ## 로그
 
+- 2026-10-08: 탐색 X1(무한차원 델타: 극한은 있으나 이득 없음), X2(판정 불가), X2b(교사 지연 법칙 통과). 원장에 `celegans-ava-avb-dff` 등록.
 - 2026-10-08: 전체 검토. 채택 규칙 3단계(D1), SDE 보정(D11), `.gitattributes`(D16), 옛 폴더 제거와 보관 태그(D17), 이 원장 신설.
