@@ -8,8 +8,8 @@
 때만 결과를 쓰고, 단계 파일의 커밋 해시·커밋 시각과 실행 시각을 남긴다. 실행은 덮어쓰지 않고
 `research/results/<단계>/<UTC시각>.json`으로 쌓으며, `research/results/<단계>.json`은 최신 실행과 같다.
 
-공리 채택: 자료 원장(`ledger/data_registry.jsonl`)에 등록된 실데이터로 계산한 판정이 지지됨일 때만
-전제를 공리로 채택한다. 원장 자료 없이 낸 판정은 미확립이다.
+단계 판정: 자료 원장(`ledger/data_registry.jsonl`)에 등록된 실데이터로 계산해야 지지됨이 될 수 있다. 원장 자료 없이 낸
+판정은 미확립이다. 전제 상태(채택·잠정·미채택)는 단계 판정을 모아 `tools/sync_readme.py`가 정한다.
 """
 
 from __future__ import annotations
