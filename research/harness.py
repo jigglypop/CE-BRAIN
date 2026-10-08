@@ -85,6 +85,15 @@ def check(value, low=None, high=None):
     return {"value": value, "low": low, "high": high, "passed": passed}
 
 
+def sample(count, minimum):
+    """Sample-size criterion (D9, 2026-10-08부터 새 단계에 쓴다): too few events leaves the step 미확립, not 실패.
+
+    표본 미달은 반증이 아니라 정보가 없다는 뜻이다. 옛 단계(C3-7)는 `check`로 표본 수를 재서 미달이 실패로 셌다."""
+    count = int(count)
+    return {"value": float(count), "low": minimum, "high": None, "passed": None if count < minimum else True,
+            "insufficient": count < minimum}
+
+
 def reverse(term, error_with, error_without, tolerance):
     """역증명: the error is within tolerance with the premise term and outside it without."""
     return {"term": term, "error_with": float(error_with), "error_without": float(error_without),
