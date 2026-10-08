@@ -1,8 +1,0 @@
-{
-  "result_sha256": "15efb63221a5e75eafb18320a71a4953c4b081042725f82f7ebd041d05f35ba2",
-  "verifier_sha256": "60a5dd47fc30dbd4419a69ca0f8c5f21aa00b74f105c911b592d40b4f9e91128",
-  "dyads_checked": 16176,
-  "strata_checked": 144,
-  "scope": "all observed dyads from source adjacency and exact mutual means from matrix representation; categories from frozen graph loader",
-  "status": "ALL_ADDITIVE_STRATA_MATCH"
-}

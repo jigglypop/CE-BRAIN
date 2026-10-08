@@ -1,8 +1,0 @@
-{
-  "question": "Which stored protocol records does the actual pinned intrinsic selection function accept?",
-  "method": "Run get_intrinsic_recording_dict on metadata proxies with known electrode and clamp unit; do not simulate waveforms or qc_recordings.",
-  "scope": "Three electrodes in existing full metadata inventory; preserve earlier FastRheo diagnostics as separate non-producer-selection analysis.",
-  "source_sha256": "08bb1ccd0699df0df216fed56d09211fc82f972da65cdef95f61e6d04d7c04c3",
-  "inventory_sha256": "4e2c6111306a032d3d6e820a2953654c58e892ea5373eb624559b7da7e448546",
-  "code_sha256": "f2253a5b27f54c834ec9a3ef2807c1722034f2a8b48d1c9fd25cbfc7f82c3d02"
-}

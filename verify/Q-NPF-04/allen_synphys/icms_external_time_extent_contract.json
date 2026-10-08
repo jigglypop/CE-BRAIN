@@ -1,7 +1,0 @@
-{
-  "question": "Are nonstandard stimulus rows within the time extent of stored signals?",
-  "method": "Inspect all5 fixed first sessions without response estimation. Compare each trial and electrical interval with processed wheel interval [start,start+N/rate). Record last stored spike as descriptive endpoint, not proof of continuous recording. Preserve all out-of-range rows and nominal stimulus flags.",
-  "limits": "A wheel-duration proxy and last spike do not identify the raw acquisition schedule or the origin of unmatched metadata. No correction or exclusion from the prior test.",
-  "selection_sha256": "83f4fcc74ef0c6c3f4117bc41c570710bb9749c00129660096e83c92c1e020f2",
-  "code_sha256": "b5d7af0fda00f0f57ac47d30738292d980fee8d03d3a9dba30a99001d72d9a9d"
-}

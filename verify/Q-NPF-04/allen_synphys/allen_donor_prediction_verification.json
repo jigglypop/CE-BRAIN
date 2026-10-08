@@ -1,8 +1,0 @@
-{
-  "result_sha256": "5c413c88110dd4c30799fd2ccabb524631afbc3cd388935a678d842e9ae814ae",
-  "verifier_sha256": "ab51b4f1ab85095ecdd34b8f3ebcd403bddee9b991be465156177ca67840f4f7",
-  "closed_form_transfer_max_error": 2.220446049250313e-16,
-  "checks": "DB labels; unique pairs; closed-form fixed-OR solution; all joint losses; predicted mutual sums; recorded gradient gates",
-  "limits": "saved gradients checked, not independent refit; split exclusion asserted by execution code",
-  "status": "PASS"
-}

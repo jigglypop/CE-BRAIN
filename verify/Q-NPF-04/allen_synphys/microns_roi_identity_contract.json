@@ -1,7 +1,0 @@
-{
-  "question": "첫 스캔의 실제 ROI ID와 시간축을53개 구조 대상에 연결할 수 있는가?",
-  "rule": "RoiResponseSeries rois의 table reference를 따라 id를 읽는다. unit_id와 직접 일치하는 후보만 기록. field는 번호 추정 없이 대응표 값과 imaging_plane 설명을 함께 보고한다.",
-  "scope": "8개ROI id·index·시간축과 속성만 읽음. 반응값 제외. 누락/충돌 보존, 추가수집은 누적48MiB 이내. L0.",
-  "code_sha256": "3042f3fbc97b9fe3a815e65b9d0123eea4e7e5e08f23bb37d2db533406ce74cc",
-  "join_sha256": "c042ee335a625ddc23b6c88d0124b769c0e9c80b680803bc33a9c03453bf8fd1"
-}

@@ -1,8 +1,0 @@
-{
-  "question": "How much does the structural residual contrast depend on any single repeat block, including the high-running block?",
-  "scope": "Post-observation sensitivity; omit each of10 repeats symmetrically across all6 conditions. Recompute leave-one-repeat-out means in retained9. Both timing conventions and unit3151 inclusion/exclusion.",
-  "limits": "Not a behavioral causal adjustment. Remaining pupil missingness and state confounding retained. No new significance claim.",
-  "code_sha256": "008a02d04feb9db1a9e8515711971ef36427126d92f8034e8ce3148740ce0d55",
-  "response_sha256": "49e1d0cc7c71c81deb62bebe363a0f3fdc34793a5f66cc766a037c4316913b44",
-  "behavior_sha256": "e0bdfe24a788ad7074e39eabb45049473b89e087cc1533a08b3095fe625c9d42"
-}

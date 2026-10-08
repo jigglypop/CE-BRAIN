@@ -1,6 +1,0 @@
-{
-  "question": "Public preprocessing semantics and exact identifier compatibility with Peng2024",
-  "scope": "Source-only audit and table inventory; no phenotype-based matching of pseudonyms; no biological endpoint",
-  "archive_sha256": "6b0d7244dec5c665a88d0d1828ae842d084bb737a6df9f86561d53d8564c4bfd",
-  "code_sha256": "5e674e3f713c28cd3be6b21d6bf2fe0ed3d192721d01340cdaa93c69a675b117"
-}

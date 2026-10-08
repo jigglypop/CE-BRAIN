@@ -1,7 +1,0 @@
-{
-  "reason": "L-BFGS function-change stop before frozen1e-5 margin tolerance; solve identical model with Newton minimum-norm Hessian steps",
-  "old_result_sha256": "300a51a56029a367cae6701b15e4193a8a00644f6a24bb4c2e9c64f6682bdb0d",
-  "old_fit_sha256": "c722377b447ca49fbd300538043b6143019050f28c6953ca81024ff7a6c6a55d",
-  "code_sha256": "2ae324f7299f778232c0b540eb05f88c4dbc37301cd2fa5ed66f49c1594551cf",
-  "rule": "at most5 steps; Hessian least-squares rcond1e-12 handles gauge redundancy; target1e-8; same1e-5 interpretation gate"
-}

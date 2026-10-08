@@ -1,9 +1,0 @@
-{
-  "question": "Do complete three-component prefixes match official public Donor names and IDs?",
-  "scope": "Exact name match only; no demographic or medical fields requested. Missing or duplicate names remain unresolved.",
-  "limits": "Donor name lookup is not direct slice-to-donor API association; do not extrapolate missing names or infer real identities.",
-  "inventory_sha256": "dc39d622ff5d985c5ee362104b64b1e4a535a7d143f53c5b3c6e4dab8915941f",
-  "db_sha256": "7372499fdd874f057565080d5769baaf2659ef39d9f3bc3c7147dd1e1c280a53",
-  "code_sha256": "68522c17a97191cee199b9800a42ab32f4fe5a22c1bda7a2e6190fc4859a6f57",
-  "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3ADonor%2Crma%3A%3Acriteria%2C%5Bname%24in%27H17.03.005%27%2C%27H17.03.009%27%2C%27H17.03.011%27%2C%27H17.03.014%27%2C%27H17.03.015%27%2C%27H17.03.016%27%2C%27H17.06.005%27%2C%27H17.06.009%27%2C%27H17.06.012%27%2C%27H17.06.015%27%2C%27H18.03.002%27%2C%27H18.03.003%27%2C%27H18.03.004%27%2C%27H18.03.005%27%2C%27H18.03.007%27%2C%27H18.03.008%27%2C%27H18.03.009%27%2C%27H18.03.010%27%2C%27H18.03.012%27%2C%27H18.03.314%27%2C%27H18.03.315%27%2C%27H18.03.316%27%2C%27H18.03.317%27%2C%27H18.03.318%27%2C%27H18.03.319%27%2C%27H18.03.320%27%2C%27H18.03.322%27%2C%27H18.06.363%27%2C%27H18.06.366%27%2C%27H18.06.367%27%2C%27H18.06.368%27%2C%27H18.06.371%27%2C%27H18.26.405%27%2C%27H19.03.301%27%2C%27H19.03.302%27%2C%27H19.03.304%27%2C%27H19.03.305%27%2C%27H19.03.306%27%2C%27H19.03.308%27%2C%27H19.03.314%27%2C%27H19.03.317%27%2C%27H19.03.319%27%2C%27H19.06.351%27%2C%27H20.03.302%27%2C%27H20.03.303%27%5D%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D%5Bonly%24eqid%2Cname%5D"
-}

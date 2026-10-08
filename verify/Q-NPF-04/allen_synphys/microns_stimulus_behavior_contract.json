@@ -1,8 +1,0 @@
-{
-  "question": "Which named stimulus trials and behavioral signals overlap the existing first1250 frames?",
-  "interval_rule": "Half-open start<=t<stop; retain gaps and multiple coverage explicitly. Source condition hashes define repeats, not stimulus type alone.",
-  "behavior": "Read a prefix that covers the response window plus its bracketing samples. Preserve NaN and units; no extrapolation or outcome-based exclusion.",
-  "scope": "Input alignment, not stimulus removal, causal adjustment, or independent replication.",
-  "code_sha256": "f67fde67f29f9e46b5ccec98069bd76bf101abf39d5cd093a9370136a8d2d3c8",
-  "response_sha256": "3666b4e8612dff65e12f1b81d4e93d07f42193d83d81c828076575e360587011"
-}

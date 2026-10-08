@@ -1,6 +1,0 @@
-{
-  "question": "Apply the existing first-window structural contrast to the next scan5/7 with35 nonoverlapping nuclei in the same mouse.",
-  "method": "Keep >=1 annotated synapse in either direction, Pearson raw fluorescence correlation, common/positive-delay timing, first1250 frames trimmed to internal1248. Keep original scan4/7 numerical distance quartile boundaries and field-pair weighting.",
-  "limits": "Same animal; different stimulus mixture and cells. No behavioral correction, causal interpretation or independent animal replication. Report absent strata/edges without relaxing criteria.",
-  "code_sha256": "16eb0846d48dedc404e8596c52046fbbf18cca6201b5ce128fdaec0a7f490a7e"
-}

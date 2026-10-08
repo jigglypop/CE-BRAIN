@@ -1,7 +1,0 @@
-{
-  "question": "Which actual imaging samples overlap stimulation/catch events on the provided master clock?",
-  "method": "Read all imaging values for finite-mask audit only; retain contiguous valid blocks. Join electrical stimulation by trial_index, not row number. Stim trials anchored at stimulation start and zero-current trials at trial start, as file description states. Count full-ROI finite samples in [-1,0), [0,.7), [.7,1.4) diagnostic windows without imposing eligibility thresholds.",
-  "limits": "Input QC only; no neural-effect estimate. Windows are diagnostic, not a preregistered biological endpoint. Nominal plane rate does not establish per-ROI acquisition timing or independent samples.",
-  "code_sha256": "388642f58ae03b009dea38675e900511f0d49d2ae10e2b7d49d97910e9198e2d",
-  "input_sha256": "843e8cfabc9d4e8c8413f3c7f3e3046f47976e83328f98c9144f1e0b26993187"
-}
