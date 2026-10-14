@@ -1,8 +1,0 @@
-{
-  "question": "Are independent intrinsic protocols present on the same electrode records as the previously analyzed pair?",
-  "scope": "All acquisition metadata for electrodes2,4,5 in NWB1574292898.139; no voltage or command payload arrays.",
-  "classification": "Preserve exact stimulus descriptions and units; names alone do not establish dose, QC or unchanged cell identity over time.",
-  "cache": "Reuse verified range blocks; total limit80MiB, metadata only; preserve source ETag binding.",
-  "code_sha256": "5d99c4a9c4b5d334d31ca6bae89a46da69f2b69d8f791ac6d6c323079e773e2c",
-  "reader_sha256": "5aa32fce7a19372183cf304ecf70bcd1d168dc723ffcffbc74f0711d83db50ae"
-}

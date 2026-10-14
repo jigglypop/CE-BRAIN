@@ -1,5 +1,0 @@
-{
-  "status": "ENDPOINT_NOT_EVALUATED",
-  "reason": "fit_rise_power is NULL for both stored VC fits; original finite-parameter assertion stopped before curve evaluation.",
-  "source_resolution": "Public pipeline omits rise_power from its storage loop; fit_psp fixes rise_power=2. A separate v2 explicitly conditions calculations on this source value and flags the PSP validity domain instead of interpreting all amp values as valid peaks."
-}

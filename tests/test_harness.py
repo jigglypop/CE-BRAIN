@@ -131,3 +131,11 @@ def test_a_result_from_before_accumulation_is_kept(repo, ledger, monkeypatch):
     kept = json.loads((harness.RESULTS / "t/20260928-legacy.json").read_text(encoding="utf-8"))
     assert kept == {"step": "t", "date": "2026-09-28"}
     assert json.loads((harness.RESULTS / "t.json").read_text(encoding="utf-8"))["run"] == "t/20260929T010000Z.json"
+
+
+def test_too_few_events_leave_the_step_unsettled_not_failed():
+    enough, short = harness.sample(60, 50), harness.sample(16, 50)
+    assert enough["passed"] is True and short["passed"] is None and short["insufficient"]
+    other = harness.check(0.3, high=0.2)
+    assert harness.verdict([short, other], [{"dataset": "x"}]) == "미확립"
+    assert harness.verdict([enough, other], [{"dataset": "x"}]) == "실패"

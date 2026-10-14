@@ -1,0 +1,27 @@
+{
+  "dandiset_000981": {
+    "title": "Whole-brain chemosensory responses of both C. elegans sexes",
+    "dandi_id": "000981",
+    "license": "CC-BY-4.0",
+    "role": "original NWB source for the AVA/AVB temporal traces"
+  },
+  "temporal_processed_source": {
+    "repository": "https://github.com/Mighty-Stahl/Extended-Essay-Complete-Processing-Pipeline",
+    "commit": "840b910bc5103badc9bfbceb76408a1456574500",
+    "file": "dFF.csv",
+    "git_blob_sha1": "c85efb78c8aa1b5e2d61445190261bafec19d418",
+    "processing_file": "process DFF.py"
+  },
+  "bergmann_2026": {
+    "doi": "10.1113/JP290394",
+    "repository": "https://github.com/aclinlab/bergmann-et-al",
+    "commit": "0b2da3f9c865626f8858881a468394c8eff68fa7"
+  },
+  "sun_2025": {
+    "doi": "10.1038/s41586-024-08548-w",
+    "repository": "https://github.com/sprustonlab/OSM_Paper_Figures",
+    "commit": "c1d1788b54c737efe24402e02762eee10da0d0d7"
+  },
+  "kropf_2026": {"doi": "10.1016/j.cub.2025.12.032"},
+  "davidson_2023": {"doi": "10.1523/ENEURO.0275-23.2023"}
+}

@@ -1,0 +1,116 @@
+{
+  "source_git_blob": "965d7e038fa23ba4226cda865d8802157f0d18c8",
+  "source_sha256": "5733b69eda14e5c557e784e96da917091877dc86a3a4a9c6026eae2520c8765a",
+  "complete_samples": 63,
+  "outer_flies": 9,
+  "heldout_predictions_per_rank": 3780,
+  "rank1_rmse": 0.2755757164421418,
+  "rank2_rmse": 0.2733781726925537,
+  "relative_rank2_improvement": 0.007974373714635576,
+  "rank2_better_flies": 6,
+  "exact_two_sided_sign_p": 0.5078125,
+  "outer": [
+    {
+      "fly": 1,
+      "rank1": {
+        "ridge": 1,
+        "rmse": 0.26360308073623206
+      },
+      "rank2": {
+        "ridge": 1,
+        "rmse": 0.2749578084504216
+      }
+    },
+    {
+      "fly": 2,
+      "rank1": {
+        "ridge": 1,
+        "rmse": 0.26943389096706105
+      },
+      "rank2": {
+        "ridge": 1,
+        "rmse": 0.2638901324975936
+      }
+    },
+    {
+      "fly": 3,
+      "rank1": {
+        "ridge": 1,
+        "rmse": 0.27476544579640155
+      },
+      "rank2": {
+        "ridge": 1,
+        "rmse": 0.26194973200619776
+      }
+    },
+    {
+      "fly": 4,
+      "rank1": {
+        "ridge": 1,
+        "rmse": 0.3049312386992074
+      },
+      "rank2": {
+        "ridge": 1,
+        "rmse": 0.30596336989495765
+      }
+    },
+    {
+      "fly": 5,
+      "rank1": {
+        "ridge": 1,
+        "rmse": 0.2346827257805751
+      },
+      "rank2": {
+        "ridge": 1,
+        "rmse": 0.23396180769567607
+      }
+    },
+    {
+      "fly": 6,
+      "rank1": {
+        "ridge": 1,
+        "rmse": 0.3207846407085643
+      },
+      "rank2": {
+        "ridge": 1,
+        "rmse": 0.3180708356827184
+      }
+    },
+    {
+      "fly": 7,
+      "rank1": {
+        "ridge": 1,
+        "rmse": 0.3087032006640089
+      },
+      "rank2": {
+        "ridge": 1,
+        "rmse": 0.305336240980085
+      }
+    },
+    {
+      "fly": 8,
+      "rank1": {
+        "ridge": 1,
+        "rmse": 0.2721867400775307
+      },
+      "rank2": {
+        "ridge": 1,
+        "rmse": 0.27247992066089144
+      }
+    },
+    {
+      "fly": 9,
+      "rank1": {
+        "ridge": 1,
+        "rmse": 0.21343712903622697
+      },
+      "rank2": {
+        "ridge": 1,
+        "rmse": 0.2043694504520622
+      }
+    }
+  ],
+  "verdict": "no_compelling_rank2_advantage",
+  "interpretation": "Nested leave-one-fly-out, with ridge selected only on training flies. Rank 2 improves pooled RMSE by only 0.80% and wins in 6/9 flies; the two-sided sign test is p=0.5078125. These static region-level data therefore do not justify K>1.",
+  "scope": "spatial/region adaptation dimensionality only; not temporal synapse K"
+}

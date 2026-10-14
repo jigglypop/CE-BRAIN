@@ -1,1 +1,8 @@
-/.gitattributes text eol=lf
+# 텍스트는 저장소에 LF로 둔다(원장 sha256과 단계 code_sha256이 OS마다 달라지지 않게).
+* text=auto eol=lf
+*.npz binary
+*.npy binary
+*.png binary
+*.nwb binary
+*.h5 binary
+*.parquet binary

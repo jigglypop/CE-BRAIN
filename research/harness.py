@@ -8,8 +8,8 @@
 때만 결과를 쓰고, 단계 파일의 커밋 해시·커밋 시각과 실행 시각을 남긴다. 실행은 덮어쓰지 않고
 `research/results/<단계>/<UTC시각>.json`으로 쌓으며, `research/results/<단계>.json`은 최신 실행과 같다.
 
-공리 채택: 자료 원장(`ledger/data_registry.jsonl`)에 등록된 실데이터로 계산한 판정이 지지됨일 때만
-전제를 공리로 채택한다. 원장 자료 없이 낸 판정은 미확립이다.
+단계 판정: 자료 원장(`ledger/data_registry.jsonl`)에 등록된 실데이터로 계산해야 지지됨이 될 수 있다. 원장 자료 없이 낸
+판정은 미확립이다. 전제 상태(채택·잠정·미채택)는 단계 판정을 모아 `tools/sync_readme.py`가 정한다.
 """
 
 from __future__ import annotations
@@ -83,6 +83,15 @@ def check(value, low=None, high=None):
     value = None if value is None else float(value)
     passed = None if value is None else (low is None or value >= low) and (high is None or value <= high)
     return {"value": value, "low": low, "high": high, "passed": passed}
+
+
+def sample(count, minimum):
+    """Sample-size criterion (D9, 2026-10-08부터 새 단계에 쓴다): too few events leaves the step 미확립, not 실패.
+
+    표본 미달은 반증이 아니라 정보가 없다는 뜻이다. 옛 단계(C3-7)는 `check`로 표본 수를 재서 미달이 실패로 셌다."""
+    count = int(count)
+    return {"value": float(count), "low": minimum, "high": None, "passed": None if count < minimum else True,
+            "insufficient": count < minimum}
 
 
 def reverse(term, error_with, error_without, tolerance):

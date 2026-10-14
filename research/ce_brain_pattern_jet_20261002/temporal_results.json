@@ -1,0 +1,44 @@
+{
+  "source": {
+    "dandiset": "000981",
+    "processed_repo": "Mighty-Stahl/Extended-Essay-Complete-Processing-Pipeline",
+    "commit": "840b910bc5103badc9bfbceb76408a1456574500",
+    "file": "dFF.csv",
+    "blob": "c85efb78c8aa1b5e2d61445190261bafec19d418",
+    "sessions": 43,
+    "neurons": ["AVA", "AVB"],
+    "points_per_session": 40,
+    "dt_seconds": 0.37593984962406013
+  },
+  "protocol": {
+    "outer": "leave-one-session-out",
+    "burn_samples": 10,
+    "ridge_epsilon": 1e-9,
+    "K": [1, 2, 4, 8],
+    "horizons": [1, 2, 4]
+  },
+  "primary_K2": [
+    {"horizon":1,"current_rmse":0.12660128520278197,"raw_lag_rmse":0.09952085525728865,"jet_rmse":0.0914080302241551,"jet_vs_lag_reduction":0.08151884358469069,"wins_vs_lag":38,"sign_p_vs_lag":2.4995097192004323e-7},
+    {"horizon":2,"current_rmse":0.1360928555325317,"raw_lag_rmse":0.11153433409471157,"jet_rmse":0.10091627438507124,"jet_vs_lag_reduction":0.09519992023822725,"wins_vs_lag":39,"sign_p_vs_lag":3.1081526685738936e-8},
+    {"horizon":4,"current_rmse":0.17460286864692176,"raw_lag_rmse":0.1426496242612318,"jet_rmse":0.12963345177769733,"jet_vs_lag_reduction":0.09124575371960436,"wins_vs_lag":37,"sign_p_vs_lag":1.636124125070637e-6}
+  ],
+  "topology_control_alpha_1e-4": {
+    "h1_K2":{"cascade":0.09142034689422392,"parallel":0.09143183933053887},
+    "h2_K2":{"cascade":0.10093038043548448,"parallel":0.10094458846757128},
+    "h4_K2":{"cascade":0.12964911149280467,"parallel":0.12967167054224885}
+  },
+  "dimension_control_alpha_1e-4": {
+    "h4": {
+      "K1":{"lag":0.15929879543774916,"jet":0.1455367744776626},
+      "K2":{"lag":0.14255684491579032,"jet":0.12964911149280467},
+      "K4":{"lag":0.13148208438941278,"jet":0.12765955021950184},
+      "K8":{"lag":0.12644351532497608,"jet":0.12828487245147263}
+    }
+  },
+  "decision": {
+    "multiscale_history_state": "supported_on_this_real_temporal_dataset",
+    "exact_serial_synaptic_cascade": "not_identified",
+    "biological_infinite_dimension": "not_validated",
+    "previous_spatial_rank_test": "invalid_for_pattern_jet_temporal_hypothesis"
+  }
+}

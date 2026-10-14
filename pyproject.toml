@@ -28,3 +28,4 @@ target-version = "py311"
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["."]
+markers = ["slow: 2코어에서 50 s 넘는 검사(tests/conftest.py)"]

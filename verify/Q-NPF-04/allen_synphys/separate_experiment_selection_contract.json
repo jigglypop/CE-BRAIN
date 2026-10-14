@@ -1,8 +1,0 @@
-{
-  "question": "Which separate experiment can check the fixed measurement workflow under matched mouseL5 recording conditions?",
-  "rule": "select e.id experiment_id,e.ext_id,e.slice_id,s.lims_specimen_name,\n p.id pair_id,p.pre_cell_id,p.post_cell_id,a.electrode_id pre_electrode_id,b.electrode_id post_electrode_id,\n sy.id synapse_id,sy.latency,sy.psp_rise_time,sy.psp_decay_tau\n from experiment e join slice s on s.id=e.slice_id join pair p on p.experiment_id=e.id\n join cell a on a.id=p.pre_cell_id join cell b on b.id=p.post_cell_id join synapse sy on sy.pair_id=p.id\n where e.id>3337 and e.slice_id!=2869 and s.species='mouse' and e.target_region='VisP'\n and e.project_name='mouse V1 coarse matrix' and e.internal='Standard K-Gluc'\n and e.acsf='1.3mM Ca & 1mM Mg' and e.target_temperature=32\n and a.target_layer='5' and b.target_layer='5' and a.cell_class_nonsynaptic='ex'\n and p.has_synapse=1 and sy.synapse_type='ex' and sy.latency>0 and sy.psp_rise_time>0 and sy.psp_decay_tau>0\n order by e.id,p.id limit 1",
-  "selection": "No amplitude or QC-score ranking; next eligible experiment/pair ID after development3337; distinct slice.",
-  "limits": "Known positive connection and pooled producer kinetics: not blind connectivity discovery or an independent calibration holdout. Distinct animal not inferred from distinct slice.",
-  "db_sha256": "7372499fdd874f057565080d5769baaf2659ef39d9f3bc3c7147dd1e1c280a53",
-  "code_sha256": "51f2c3f4ef1b317468627913568d0113911bdbd75157529450318162460ec316"
-}

@@ -1,8 +1,0 @@
-{
-  "question": "검출 연결의 log강도에서 송신·수신 효과와 상호연결 대비를 분리하는 최소2~4세포 패턴은 무엇인가?",
-  "scope": "자기연결 없는2~4노드 모든 유향단순그래프; 실제 신규 생물 측정 아님",
-  "method": "관측 edge마다 sender/receiver indicator 구성; reciprocal indicator의 열공간 밖 잔차제곱합>1e-10 여부",
-  "gate": "SVD 잔차와 rank증가 판정 일치; 모든2^(n(n-1)) 그래프 검사",
-  "limits": "형식적 식별성만 보장; 잡음·검출 선택·독립 동물·통계 검정력·인과 식별을 보장하지 않음",
-  "code_sha256": "ae5c373c84ebd1f1cee055f9bad362f6b6e138270addec1453056dd5b754cd65"
-}

@@ -1,7 +1,0 @@
-{
-  "code_sha256": "e223f53aedf22950c745309701250cd1ec7a3b2ee7dbf0fb6a8e26fe56db3dbe",
-  "parent_sha256": "1806b40932cc7518e71ed35ca97d602b72a802e7f8e2de52328016add07744fd",
-  "method": "Reuse exact prior catches and eligibility in ICMS100/101. Split raw and15-sample-censored PC into interior trial population mean relative global mean and within-trial component. Compare within-trial centered traces against mean of other selected catches in same original100-trial block. Censor other-trial traces relative to their own target events, as sensitivity only.",
-  "limits": "No randomization test, causal inference or independent cells. Trial mean component includes full-vs-interior mean shift. Censored cross-trial comparison is not an exchangeable null.",
-  "prediction": "Describe whether within-trial component and same-minus-other contrast stay positive for all prior eligible units; preserve nonpositive results."
-}

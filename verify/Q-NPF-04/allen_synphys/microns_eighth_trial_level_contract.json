@@ -1,8 +1,0 @@
-{
-  "question": "How much of the pooled residual structural contrast comes from trial-level means versus within-trial fluctuations?",
-  "method": "Same58 cells and fixed pair weights. First remove leave-one-repeat-out condition-time pattern, then decompose each trial into its57-point mean and centered within-trial component. Normalize component covariances by original total standard deviations to preserve exact additivity; also report separately renormalized within-trial correlations.",
-  "selection": "Both timing conventions; all10/first5/last5. No exclusions based on this result.",
-  "limits": "Post-observation algebraic measurement diagnosis, not neural baseline removal or causal decomposition. Trial mean may contain genuine responses, drift, state and artifacts.",
-  "code_sha256": "4f5a908917333e6d3112f0a8db1c9e291bf4d34089f06204aba93cbefa307e47",
-  "input_sha256": "e3ccf891a622b4b7f653b1181cad79a88357e1de826f1e555a381376116c4190"
-}

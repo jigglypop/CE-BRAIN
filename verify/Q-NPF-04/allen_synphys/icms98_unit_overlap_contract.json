@@ -1,7 +1,0 @@
-{
-  "code_sha256": "b85e1dee11643264fe53b79a07bf950e97135358d2736dfb63164e26e00328ee",
-  "input_sha256": "f272cda53d49e66155f5dfc1792b202b67de94e6a17473ffe36908663b9c4865",
-  "selection_sha256": "347698997dc60d0a0f00bca539a7978ec990c2882da5e3caec57d7401217aa70",
-  "method": "All21 units and all210 pairs. Convert times to nearest recorded30kHz sample, verify deviation <=1e-5 sample. Count directed fraction with nearest other-unit event at0, <=3 and <=15 samples for full stored session and fixed36 catch post500ms windows. Same-event duplicates within a unit and ISI<1ms reported separately. Mean90-sample waveform centered correlation and peak-channel equality descriptive only.",
-  "limits": "No automatic merging or exclusion thresholds. Full-session overlap includes stimulation. Average waveform similarity alone is not same-cell identity; no raw voltage available."
-}

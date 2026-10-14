@@ -1,7 +1,0 @@
-{
-  "code_sha256": "3998c20af7135fa1aaf5b5a7da98897b48df80b6d53c0ea2ec872e2a43a842ae",
-  "input_sha256": "2849823a8a9d292de283d9e6c1c2a281852c15bdea38726436b88b451986c87f",
-  "method": "Group by animal/session/current/channel; compare median NPL minus median PL among rows where both PC and PCnorm finite. Require at least1 unit in each label. Preserve missing groups. Report condition results and equal-condition session averages, equal-session animal averages; no pooled animal inference.",
-  "question": "Is the within-condition PL/NPL comparison defined, and does normalization preserve its descriptive direction?",
-  "limits": "Exploratory source-summary observation. Response-derived labels, repeated cells and shared population. No cell-type, causal or independent replication claim."
-}

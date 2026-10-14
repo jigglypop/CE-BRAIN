@@ -1,8 +1,0 @@
-{
-  "question": "Do stored spikes exhibit a phase-specific deficit near nominal pulses consistent with processing censoring?",
-  "method": "Approximate 70 pulses at 100Hz from each train start. Partition [-.5,9.5) ms pulse phase into 20 equal bins. Train support start-.5ms through start+699.5ms. Equal-duration pseudo-train one second before each stimulated train and catch trial-start pseudo-trains. All units and trials retained, current/good-trial labels retained.",
-  "assumptions": "No per-pulse timestamps found in inspected dataset paths; nominal pulse grid is not measured timing. Baseline/catch phase counts diagnose recording, not exchangeable causal controls.",
-  "limits": "No suppression estimate, p-value, exposure correction or causal conclusion. Processing provenance and sample jitter unresolved.",
-  "input_sha256": "843e8cfabc9d4e8c8413f3c7f3e3046f47976e83328f98c9144f1e0b26993187",
-  "code_sha256": "79d30a176bbfa9f6c3aa06b51348b9c2764be02403f5bd352eb6295b099e4de5"
-}

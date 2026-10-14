@@ -1,7 +1,0 @@
-{
-  "question": "Does the first5/last5 residual-contrast sign difference depend on one condition or one repeat?",
-  "method": "Both timing conventions; all10/first5/last5. Omit each condition and each repeat separately, recompute condition-specific leave-one-repeat-out residuals in retained data. Keep all23 cells and original pair/geometry weights.",
-  "limits": "Post-observation sensitivity, not independent tests or confidence intervals. No selection of favorable omissions, no causal claim.",
-  "code_sha256": "0bc6f161502cac086046bd47464c308ea526875268af6c95be80963409018b53",
-  "input_sha256": "f20462b1aa475a9b5ecffdb3d4fb1238a2b96b9c906a6b5884327a72e52f0913"
-}

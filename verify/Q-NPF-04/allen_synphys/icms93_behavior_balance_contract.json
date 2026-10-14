@@ -1,8 +1,0 @@
-{
-  "question": "Are catch and current groups comparable in trial order and measured behavior for the fixed posttrain contrast?",
-  "method": "All204 trials, preserve good flags. Four equal ordinal blocks defined with array_split before behavior values. Per-current trial ordinal/time ranges, hit counts and response times. In original pre/post windows compute wheel endpoint displacement and total absolute first differences, with recorded unit/conversion. No movement threshold or effect correction.",
-  "limits": "Post-treatment movement can be mediator or consequence, not automatically a confounder to adjust. Timing distributions do not prove randomization. Wheel total variation includes noise; no still/moving classification.",
-  "code_sha256": "969f9c1aee3d36cbf463428cb0676c8102a19977440b8276a45134798af278fc",
-  "prior_sha256": "a45e922b897062491552ddaa2dc193c929f0f2a212689dc3a479cde37948e4f6",
-  "input_sha256": "843e8cfabc9d4e8c8413f3c7f3e3046f47976e83328f98c9144f1e0b26993187"
-}

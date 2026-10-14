@@ -1,6 +1,0 @@
-{
-  "status": "ENDPOINT_NOT_EVALUATED",
-  "error": "IndexError in TSeries.resample: empty first crop",
-  "cause": "NWB session-relative starting_time 1112.039999961853 seconds was used against sweep-relative DB onset 1.04166 seconds.",
-  "correction": "Use sweep-relative t0=0 in a separate v2 script; preserve original contract and tolerance. No waveform comparison was reached."
-}

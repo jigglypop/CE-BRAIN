@@ -1,9 +1,0 @@
-{
-  "question": "Can released medium DB supply original recording/QC links missing from small for the36 producer-selected records?",
-  "query": "experiment ext_id exact; sync_rec experiment index; recording per sync ID; patch_clamp_recording per recording ID; source cell mapping crosschecked later.",
-  "source": "https://allen-synphys.s3-us-west-2.amazonaws.com/synphys_r2.1_medium.sqlite",
-  "transport": "ETag-bound read-only range cache; SQLite native queries; 128MiB cache cap, no full download.",
-  "apsw": "3.53.4.0",
-  "code_sha256": "0d2ee2f4a52cc21bbcf940b8c5642ffcb66f458d72aaf78bc3d4b69a85b6edf9",
-  "reader_sha256": "5aa32fce7a19372183cf304ecf70bcd1d168dc723ffcffbc74f0711d83db50ae"
-}

@@ -1,9 +1,0 @@
-{
-  "reason": "Scan9/3 metadata shows a faster frame clock: median interval0.1160910603s yields78 samples, versus previous0.15872610615s and57 samples.",
-  "original_contract_sha256": "a12dacb9b3d8a8482f3c9cdce4a3b6b46f8f65bc272c1560fd517ee685d1ee63",
-  "acquisition_code_sha256": "ab7ecb0cd1586169648c74dfdeb04b52e0bf6c65ba2d0b8be53986d1750b2433",
-  "stage": "After acquisition metadata inspected, before any ROI-assignment response contrasts calculated.",
-  "rule": "Preserve original acquisition algorithm: .5<=relative_time<9.5 with step equal to this scan median frame interval. Move the entire trial block regardless of sample count. No exclusion or optimization of samples or assignments.",
-  "scope": "Apply to scans9/3 and9/4, record actual count separately. Earlier57-point wording describes earlier scans and is not a fixed count for faster scans.",
-  "limit": "Different sample grids and optical cadence limit direct magnitude comparison across scans; no claim of identical measurement operator. Original contract and acquisitions preserved."
-}

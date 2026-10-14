@@ -1,9 +1,0 @@
-{
-  "question": "입출력 차수 보존 후 잔차는 몇 날짜와 어떤 기록 조건에 분포하는가?",
-  "scope": "전체816개 보존; 잔차 변동 가능29개는 정보량 기술용; 유리한 부분집합 선택 없음",
-  "endpoints": "날짜·연령·칼슘별 잔차합, 양/음/영 기록 수; 날짜 하나를 제외한 잔차합 범위",
-  "limits": "사후 기술분해; 날짜는 독립 동물 아님; 여러 그룹의 합을 중복 증거로 세지 않음; p값 없음",
-  "exact_sha256": "910b7ae6ba150ceb0f718a6c2a2c9d7c748803d9d109cbe01f90b02760022218",
-  "inventory_sha256": "1e3fc8ebf2ef2db8ce8d3ec84ce14f325bbdd6ee526c0cf0ebd5e55db8a23bbb",
-  "code_sha256": "f1e7b02db53c0a4cb5e151f234980c095db52ac3fe1e5d4ce08aa1c93f7f29b0"
-}

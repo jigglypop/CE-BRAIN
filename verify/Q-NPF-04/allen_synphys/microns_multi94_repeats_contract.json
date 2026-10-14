@@ -1,6 +1,0 @@
-{
-  "selection": "scan9/4 all45 ROIs for36 nuclei fixed targets, all Clip conditions appearing10 times; same .5<=relative_time<9.5 grid at median imaging interval, both timing conventions.",
-  "analysis": "Use frozen microns_multi_unit_contract: all384 one-ROI-per-nucleus assignments, original distance cuts; all10/first5/last5, both timings. Per-nucleus shifts shared across alternative ROIs. All45 input traces retained.",
-  "limits": "Same mouse, no independent animal claim, no calibrated permutation p-value, no behavior correction. Prior first-window values already viewed; no selective trial exclusions.",
-  "code_sha256": "90a96a9129b40fc63c2ee0202c83ce39abb6680131576d967e4d27a6396af52b"
-}
